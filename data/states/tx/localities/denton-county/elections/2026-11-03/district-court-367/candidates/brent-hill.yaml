@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: brent-hill
 name: Brent Hill
-incumbent: null
+incumbent: true
 ballot_party: Republican Party
 records: []
-funding: []
+funding:
+- id: tx/localities/denton-county/elections/2026-11-03/district-court-367/candidates/brent-hill#M-01
+  headline: Raised $2,500 and had $3,187 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 14, 2026: $2,500.00 in total political contributions, $500.00 in total political expenditures, $3,187.19 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101060561.PDF
+  source_title: 'Texas Ethics Commission: Hill, Brent (The Honorable), campaign finance report 101060561 (filed Jul 14, 2026)'
+  source_kind: document
+  sha256: 99409d64530d05ac98cefed323a2fdd59e70b492dd0d97320b9aaea9bf1115bf
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101060561, form JCOH, TEC report type SEMIJUL; filer ID 00085792 (Hill, Brent (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: kevin-falconer
 name: Kevin Falconer
-incumbent: null
+incumbent: true
 ballot_party: Republican Party
 records: []
-funding: []
+funding:
+- id: tx/localities/denton-county/elections/2026-11-03/commissioner-precinct-2/candidates/kevin-falconer#M-01
+  headline: Raised $41,674 and had $59,277 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Denton County Elections on Oct 5, 2026: $41,674.00 in total political contributions, $34,706.76 in total political expenditures, $59,277.11 in contributions on hand at the end of the period, and $120,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/307A0AD4-5F8C-4B1A-9A89-A28BB9C12B3D/viewfinalredactedpdf
+  source_title: 'Denton County Elections: campaign finance report, Falconer, Kevin (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 8e6a5153bc85f0c8691ac3c17f7f60057a8d67b07be66006ecc644feae4a4470
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Denton County''s Easy Campaign Finance portal (https://dentoncountytx.easyvotecampaignfinance.com/home) under filer "Falconer, Kevin", office "County Commissioner Precinct #2", document "COH" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
   policy_proposals: []

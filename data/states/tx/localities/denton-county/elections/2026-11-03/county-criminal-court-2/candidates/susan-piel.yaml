@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: susan-piel
 name: Susan Piel
-incumbent: null
+incumbent: true
 ballot_party: Republican Party
 records: []
-funding: []
+funding:
+- id: tx/localities/denton-county/elections/2026-11-03/county-criminal-court-2/candidates/susan-piel#M-01
+  headline: Had $12,899 on hand (Jan 8, 2026 - Jul 14, 2026)
+  statement: 'Campaign finance report covering Jan 8, 2026 - Jul 14, 2026, filed with Denton County Elections on Jul 14, 2026: $0.00 in total political contributions, $39.90 in total political expenditures, $12,898.97 in contributions on hand at the end of the period, and $50,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/09F2E30A-C007-4499-B135-0D9FFD1DA939/viewfinalredactedpdf
+  source_title: 'Denton County Elections: campaign finance report, Piel, Susan (filed Jul 14, 2026)'
+  source_kind: document
+  sha256: bf043bc9354a19b49001c9574c54bd8fb06b58df5d53f9dfca85277c37a3a0cd
+  archive_url: null
+  event_date: '2026-07-14'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Denton County''s Easy Campaign Finance portal (https://dentoncountytx.easyvotecampaignfinance.com/home) under filer "Piel, Susan", office "County Criminal Court #2", document "July 2026" (JCOH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
   policy_proposals: []

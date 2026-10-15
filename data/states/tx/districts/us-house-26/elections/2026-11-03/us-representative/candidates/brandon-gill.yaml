@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: brandon-gill
 name: Brandon Gill
-incumbent: null
+incumbent: true
 ballot_party: Republican Party
 records: []
-funding: []
+funding:
+- id: tx/districts/us-house-26/elections/2026-11-03/us-representative/candidates/brandon-gill#M-01
+  headline: Raised $4,217,213 and had $1,411,512 on hand (2025-26 cycle through Jun 30, 2026)
+  statement: 'The FEC''s all-candidates summary for the 2025-2026 cycle lists, for GILL, BRANDON (candidate ID H4TX26149), through June 30, 2026: $4,217,213.29 in total receipts, $3,384,259.12 of it from individuals, $376,086.10 from other political committees, $2,933,524.34 in total disbursements, $1,411,512.35 cash on hand at the end of the period, and $46,734.08 in debts owed by the campaign. The totals include $398,589.37 in transfers from and $6,740.13 in transfers to the candidate''s other authorized committees, which the FEC says can count the same money twice.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.fec.gov/files/bulk-downloads/2026/weball26.zip
+  source_title: 'Federal Election Commission: All candidates file, 2025-2026 (weball26.zip)'
+  source_kind: document
+  sha256: 31ddb81424644a25e7bfb241f55ae9e78f285ffe3c75bcad398fa9f0f5b63016
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From weball26.txt in the FEC''s bulk data, downloaded 2026-10-06 (sha256 is of the zip file); columns as described at https://www.fec.gov/campaign-finance-data/all-candidates-file-description/. The totals are cumulative for the cycle as reported by the campaign. Matched by last name and district (first name too when two filers share a last name). Spot-checked against the FEC API for three candidates. The candidate''s FEC page: https://www.fec.gov/data/candidate/H4TX26149/. The bulk file is updated as new reports arrive; the next quarterly reports cover through September 30, 2026.'
 endorsements: []
 running_on:
   policy_proposals: []

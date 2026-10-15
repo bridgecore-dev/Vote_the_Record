@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: paul-johnson
 name: Paul Johnson
-incumbent: null
+incumbent: true
 ballot_party: Republican Party
 records: []
-funding: []
+funding:
+- id: tx/localities/denton-county/elections/2026-11-03/criminal-district-attorney/candidates/paul-johnson#M-01
+  headline: Raised $1,450 and had $57,769 on hand (Jul 1, 2025 - Dec 31, 2025)
+  statement: 'Campaign finance report covering Jul 1, 2025 - Dec 31, 2025, filed with Denton County Elections on Jan 9, 2026: $1,450.00 in total political contributions, $58,975.00 in total political expenditures, $57,769.38 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/7EA726D6-FB35-427C-8825-ED808E45E2AD/viewfinalredactedpdf
+  source_title: 'Denton County Elections: campaign finance report, Johnson, Paul (filed Jan 9, 2026)'
+  source_kind: document
+  sha256: d6bfd24cbcb1b79edf9e26d65e9119e8a86dc6094593690790e9ab821e02702d
+  archive_url: null
+  event_date: '2025-12-31'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Denton County''s Easy Campaign Finance portal (https://dentoncountytx.easyvotecampaignfinance.com/home) under filer "Johnson, Paul", office "District Attorney", document "COH" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: handwritten, legible. Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
   policy_proposals: []

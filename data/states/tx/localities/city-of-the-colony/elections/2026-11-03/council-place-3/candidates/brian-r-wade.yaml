@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: brian-r-wade
 name: Brian R. Wade
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

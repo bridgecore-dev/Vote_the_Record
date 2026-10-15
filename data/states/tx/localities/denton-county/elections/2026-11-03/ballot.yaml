@@ -22,6 +22,10 @@ sources:
   reviewer: null
   notes: The county's all-precinct preview ballot. Names and wording are from the PDF's text layer, kept exactly as printed, with spaces restored where the text layer drops them between fragments. The ballot prints parties as REP, DEM, LIB, and GRN.
 unmapped:
+- city-of-the-colony/place-3
+- city-of-the-colony/place-4
+- city-of-the-colony/place-5
+- city-of-the-colony/place-6
 - city-of-denton/district-1
 - cole-ranch-id-2
 contests:

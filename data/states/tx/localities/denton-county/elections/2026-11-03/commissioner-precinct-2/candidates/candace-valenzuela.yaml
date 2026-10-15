@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: candace-valenzuela
 name: Candace Valenzuela
-incumbent: null
+incumbent: false
 ballot_party: Democratic Party
 records: []
-funding: []
+funding:
+- id: tx/localities/denton-county/elections/2026-11-03/commissioner-precinct-2/candidates/candace-valenzuela#M-01
+  headline: Raised $24,094 and had $17,820 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Denton County Elections on Oct 5, 2026: $24,094.00 in total political contributions, $21,360.20 in total political expenditures, $17,820.44 in contributions on hand at the end of the period, and $1,460.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/36039952-E988-4513-BDBC-739A85B2CF23/viewfinalredactedpdf
+  source_title: 'Denton County Elections: campaign finance report, Valenzuela, Candace (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 488ec476ce136f626e91009583351ba4a1755a471340bfc2222f0d1f700a4a5b
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Denton County''s Easy Campaign Finance portal (https://dentoncountytx.easyvotecampaignfinance.com/home) under filer "Valenzuela, Candace", office "County Commissioner Precinct #2", document "COH" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: cover total; schedule A1 subtotal reads 25594.00. Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
   policy_proposals: []

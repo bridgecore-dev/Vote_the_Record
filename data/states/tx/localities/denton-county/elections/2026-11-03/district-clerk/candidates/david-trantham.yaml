@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: david-trantham
 name: David Trantham
-incumbent: null
+incumbent: true
 ballot_party: Republican Party
 records: []
-funding: []
+funding:
+- id: tx/localities/denton-county/elections/2026-11-03/district-clerk/candidates/david-trantham#M-01
+  headline: Had $56 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, filed with Denton County Elections on Jul 15, 2026: $0.00 in total political contributions, $0.00 in total political expenditures, $55.64 in contributions on hand at the end of the period, and $34,342.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/AFE22C16-7AC2-4645-A467-E72492D25C3F/viewfinalredactedpdf
+  source_title: 'Denton County Elections: campaign finance report, Trantham, William (filed Jul 15, 2026)'
+  source_kind: document
+  sha256: eb567dfe8305625d9290dcab53bee7abef83c4d5a80fd9d12f40d5fc2eac8d65
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Denton County's Easy Campaign Finance portal (https://dentoncountytx.easyvotecampaignfinance.com/home) under filer "Trantham, William", office "District Clerk", document "William Trantham COH" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
   policy_proposals: []

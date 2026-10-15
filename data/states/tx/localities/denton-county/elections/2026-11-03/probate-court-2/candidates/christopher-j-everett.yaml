@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: christopher-j-everett
 name: Christopher J. Everett
-incumbent: null
+incumbent: true
 ballot_party: Republican Party
 records: []
-funding: []
+funding:
+- id: tx/localities/denton-county/elections/2026-11-03/probate-court-2/candidates/christopher-j-everett#M-01
+  headline: Raised $250 (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, filed with Denton County Elections on Jul 22, 2026: $250.00 in total political contributions, and $10.30 in total political expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/F3820E48-A8B9-45DD-9BB4-00DDF9A26956/viewfinalredactedpdf
+  source_title: 'Denton County Elections: campaign finance report, Everett, Christopher (filed Jul 22, 2026)'
+  source_kind: document
+  sha256: a3f926c1049e3cde91034c99dd5230fd480970e2a6e33f326259e08172d2eea7
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Denton County''s Easy Campaign Finance portal (https://dentoncountytx.easyvotecampaignfinance.com/home) under filer "Everett, Christopher", office "County Probate Court #2", document "JCOH" (JCOH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: handwritten; on-hand figure not clearly legible, left out; loans blank. Left out: contributions on hand, outstanding loans. Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
   policy_proposals: []
