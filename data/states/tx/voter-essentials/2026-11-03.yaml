@@ -63,6 +63,32 @@ items:
 
 # When you go vote: what to bring and what's allowed. Unverified; written by an AI assistant.
 at_the_polls:
+- id: tx/voter-essentials/2026-11-03#who-can-vote
+  heading: Who can vote in Texas
+  text: 'You can vote in Texas if you meet all of these. Only U.S. citizens can vote in Texas, in every election on the ballot:
+    federal, state, county, city, school district, and propositions. There is no election in Texas where people who are not
+    U.S. citizens can vote.'
+  list:
+  - A U.S. citizen
+  - 18 or older on Election Day
+  - A Texas resident, voting in the county where you live
+  - Registered to vote (the deadline for November 3, 2026 was October 5)
+  - Not finally convicted of a felony, or done with the whole sentence (prison, parole, supervision, or probation), or pardoned
+  - Not found by a court to be fully mentally incapacitated, or partly incapacitated without the right to vote
+  source_url: https://statutes.capitol.texas.gov/Docs/EL/htm/EL.11.htm
+  source_title: Texas Election Code, section 11.002 (Qualified voter)
+  source_kind: page
+  sha256: null
+  archive_url: null
+  retrieved: '2026-10-10'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Section 11.002(a) lists the six requirements, including "(2) is a United States citizen". The Texas Constitution,
+    Article VI, Section 1(a) (amended November 4, 2025), says "persons who are not citizens of the United States" "shall not
+    be allowed to vote in this State" (https://statutes.capitol.texas.gov/Docs/CN/htm/CN.6.htm). Federal law also makes it
+    a crime for a noncitizen to vote for President, Vice President, or Congress (18 U.S.C. 611, https://www.law.cornell.edu/uscode/text/18/611).
+    A few places in other states let noncitizens vote in some local elections; none are in Texas. Read 2026-10-10.
 - id: tx/voter-essentials/2026-11-03#bring-photo-id
   heading: 'Required: one photo ID'
   text: To vote in person, show one of these photo IDs. It can be expired up to four years. If you are 70 or older, it can
