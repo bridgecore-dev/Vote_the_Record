@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: mark-nair
 name: Mark Nair
 incumbent: false
@@ -24,7 +24,58 @@ funding:
   notes: 'From weball26.txt in the FEC''s bulk data, downloaded 2026-10-06 (sha256 is of the zip file); columns as described at https://www.fec.gov/campaign-finance-data/all-candidates-file-description/. The totals are cumulative for the cycle as reported by the campaign. Matched by last name and district (first name too when two filers share a last name). Spot-checked against the FEC API for three candidates. The candidate''s FEC page: https://www.fec.gov/data/candidate/H6TX13159/. The bulk file is updated as new reports arrive; the next quarterly reports cover through September 30, 2026.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/us-house-13/elections/2026-11-03/us-representative/candidates/mark-nair#O-01
+    headline: Return tariff power to Congress
+    statement: 'Campaign website: "Tariffs belong in Congress''s hands, not the president''s."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.marknair.com/platform
+    source_title: 'Mark Nair for Congress: Platform (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-13/elections/2026-11-03/us-representative/candidates/mark-nair#O-02
+    headline: Ban stock trading by members of Congress
+    statement: 'Campaign website: "He''ll push for a ban on stock trading in Congress."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.marknair.com/platform
+    source_title: 'Mark Nair for Congress: Platform (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-13/elections/2026-11-03/us-representative/candidates/mark-nair#O-03
+    headline: Work toward Medicare for All
+    statement: 'Campaign website: "He''ll work toward Medicare for All, making healthcare costs fair, reasonable, and affordable for every American."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.marknair.com/platform
+    source_title: 'Mark Nair for Congress: Platform (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

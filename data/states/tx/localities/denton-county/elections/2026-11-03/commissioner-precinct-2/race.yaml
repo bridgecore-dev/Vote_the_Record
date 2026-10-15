@@ -2,7 +2,6 @@
 name: County Commissioner, Precinct 2
 office_type: county-commissioner
 election_date: '2026-11-03'
-detail: basic
 area: denton-county/commissioner-2
 sources:
 - id: tx/localities/denton-county/elections/2026-11-03/commissioner-precinct-2/race#S-01

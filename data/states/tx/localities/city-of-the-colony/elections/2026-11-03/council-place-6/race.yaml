@@ -3,7 +3,6 @@ name: City of The Colony Council, Place 6
 office_type: city-council-member
 election_date: '2026-11-03'
 area: city-of-the-colony/place-6
-detail: basic
 sources:
 - id: tx/localities/city-of-the-colony/elections/2026-11-03/council-place-6/race#S-01
   headline: Candidates as printed on the sample ballot

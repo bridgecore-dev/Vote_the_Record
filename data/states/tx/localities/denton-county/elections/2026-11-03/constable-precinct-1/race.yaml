@@ -25,7 +25,7 @@ sources:
   notes: The county's all-precinct preview ballot. Names and wording are from the PDF's text layer, kept exactly as printed, with spaces restored where the text layer drops them between fragments. The ballot prints parties as REP, DEM, LIB, and GRN.
 - id: tx/localities/denton-county/elections/2026-11-03/constable-precinct-1/race#S-HOLDER
   headline: Who holds this office now
-  statement: 'The official list (Denton County: Elected Officials Directory), checked on October 14, 2026, does not show any of the candidates in this race as the current holder of this office. The list shows Johnny Hammons as Constable, Precinct 1; he is not a candidate in this race.'
+  statement: 'The official list (Denton County: Elected Officials Directory), checked on October 14, 2026, does not show any of the candidates in this race as the current holder of this office. The list shows Johnny Hammons as Constable, Precinct 1; Johnny Hammons is not a candidate in this race.'
   label: official_record
   claim_status: documented
   contradicted_by: []

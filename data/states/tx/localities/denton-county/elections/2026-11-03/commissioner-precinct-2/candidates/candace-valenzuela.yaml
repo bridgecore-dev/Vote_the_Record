@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: candace-valenzuela
 name: Candace Valenzuela
 incumbent: false
@@ -24,7 +24,24 @@ funding:
   notes: 'Listed on Denton County''s Easy Campaign Finance portal (https://dentoncountytx.easyvotecampaignfinance.com/home) under filer "Valenzuela, Candace", office "County Commissioner Precinct #2", document "COH" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: cover total; schedule A1 subtotal reads 25594.00. Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/localities/denton-county/elections/2026-11-03/commissioner-precinct-2/candidates/candace-valenzuela#O-01
+    headline: Housing, infrastructure and open government
+    statement: 'Campaign website: "As County Commissioner, I''ll work to make housing more affordable, invest in infrastructure that keeps pace with our growth, and ensure county government is transparent, accountable, and focused on the people it serves."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://candacefordentoncounty.com/
+    source_title: Candace Valenzuela for County Commissioner (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

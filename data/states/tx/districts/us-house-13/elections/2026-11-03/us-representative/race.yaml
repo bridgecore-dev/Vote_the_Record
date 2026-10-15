@@ -2,7 +2,6 @@
 name: U.S. Representative, District 13
 office_type: us-representative
 election_date: '2026-11-03'
-detail: basic
 sources:
 - id: tx/districts/us-house-13/elections/2026-11-03/us-representative/race#S-01
   headline: Candidates as printed on the sample ballot
