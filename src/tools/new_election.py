@@ -78,6 +78,7 @@ def plan(root: Path, spec: dict) -> list[tuple[Path, str, dict]]:
     date = str(spec["election_date"])
     sb = spec["sample_ballot"]
     issuer, label = sb["issuer"], spec["election_label"]
+    owner = issuer + ("'" if issuer.endswith("s") else "'s")  # "Elections' sample ballot", "Clerk's sample ballot"
     out: list[tuple[Path, str, dict]] = []
     contests = []
     for c in spec["contests"]:
@@ -94,7 +95,7 @@ def plan(root: Path, spec: dict) -> list[tuple[Path, str, dict]]:
         if "measure" in c:
             if (folder / "measure.yaml").exists():
                 continue
-            text = (f'The {issuer}\'s sample ballot for the {label} prints "{c["name"]}" on page {c["page"]} with the '
+            text = (f'The {owner} sample ballot for the {label} prints "{c["name"]}" on page {c["page"]} with the '
                     f'choices {" and ".join(c["choices"])} and this English wording: "{c["ballot_text"]}"')
             doc = {"name": c["name"], "election_date": date, "kind": c["kind"], "ballot_text": c["ballot_text"],
                    "choices": c["choices"], "explained": [],
@@ -106,7 +107,7 @@ def plan(root: Path, spec: dict) -> list[tuple[Path, str, dict]]:
         cands = c.get("candidates") or []
         listed = "; ".join(f"{x['name']}" + (f" ({x['party']})" if x.get("party") else "") for x in cands)
         sources = [fact(f"{path}/race#S-01", "Candidates as printed on the sample ballot",
-                        f'The {issuer}\'s sample ballot for the {label} lists "{c.get("ballot_title", c["name"])}" on '
+                        f'The {owner} sample ballot for the {label} lists "{c.get("ballot_title", c["name"])}" on '
                         f"page {c['page']}, with these candidates: {listed}.", sb, page_title, date)]
         if c.get("write_ins"):
             wl = spec["write_in_list"]
@@ -156,7 +157,7 @@ def plan(root: Path, spec: dict) -> list[tuple[Path, str, dict]]:
             ballot["lookup_url"] = spec["lookup_url"]
         ballot["complete"] = False
         ballot["sources"] = [fact(f"{spec['ballot']}/ballot#S-01", "Every contest on the sample ballot",
-                                  f"The {issuer}'s sample ballot for the {label} lists every contest on this ballot.",
+                                  f"The {owner} sample ballot for the {label} lists every contest on this ballot.",
                                   sb, f"{issuer}: {sb['title']}", date)]
         ballot["contests"] = contests
         out.append((ballot_file, "# Contests on this ballot, in ballot order. complete: false until every contest is added.\n",

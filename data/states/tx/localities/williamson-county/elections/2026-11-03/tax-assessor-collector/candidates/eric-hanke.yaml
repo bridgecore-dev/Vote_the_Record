@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: eric-hanke
+name: Eric Hanke
+incumbent: false
+ballot_party: Democratic Party
+records: []
+funding:
+- id: tx/localities/williamson-county/elections/2026-11-03/tax-assessor-collector/candidates/eric-hanke#M-01
+  headline: Raised $22,280 and had $8,234 on hand (Jul 9, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 9, 2026 - Sep 24, 2026, filed with Williamson County Elections on Oct 5, 2026: $22,279.97 in total political contributions, $14,029.80 in total political expenditures, $8,233.73 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/76309163-2F02-4E46-9483-B89A5F6DA927/viewfinalredactedpdf
+  source_title: 'Williamson County Elections: campaign finance report, Hanke, Eric (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 50f4e1d75cf92c67e795f2be428ea467e172dfef319438456d1481dd908b60c8
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-16'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Williamson County's Easy Campaign Finance portal (https://williamsoncountytx.easyvotecampaignfinance.com/home) under filer "Hanke, Eric", office "Tax Assessor-Collector", document "COH" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

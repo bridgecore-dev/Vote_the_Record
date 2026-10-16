@@ -5,7 +5,7 @@ election_date: '2026-11-03'
 sources:
 - id: tx/districts/us-house-13/elections/2026-11-03/us-representative/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Denton County Elections''s sample ballot for the November 3, 2026 general and special elections lists "United States Representative, District 13" on page 1, with these candidates: Ronny Jackson (Republican Party); Mark Nair (Democratic Party).'
+  statement: 'The Denton County Elections'' sample ballot for the November 3, 2026 general and special elections lists "United States Representative, District 13" on page 1, with these candidates: Ronny Jackson (Republican Party); Mark Nair (Democratic Party).'
   label: official_record
   claim_status: documented
   contradicted_by: []

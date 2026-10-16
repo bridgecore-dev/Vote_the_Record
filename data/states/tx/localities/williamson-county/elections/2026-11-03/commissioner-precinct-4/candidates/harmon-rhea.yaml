@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: harmon-rhea
+name: Harmon Rhea
+incumbent: false
+ballot_party: Democratic Party
+records: []
+funding:
+- id: tx/localities/williamson-county/elections/2026-11-03/commissioner-precinct-4/candidates/harmon-rhea#M-01
+  headline: Raised $785 and had $535 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Williamson County Elections on Oct 5, 2026: $785.00 in total political contributions, $189.00 in total political expenditures, $535.38 in contributions on hand at the end of the period, and $1,250.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/7D677F25-B84B-4FE0-BEB1-263AA7D710B1/viewfinalredactedpdf
+  source_title: 'Williamson County Elections: campaign finance report, Rhea, Harmon (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 4fac06f9988b34f9f8b5a066000bac708e0516f3ceafd0d97d428a0476d5cf3c
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-16'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Williamson County''s Easy Campaign Finance portal (https://williamsoncountytx.easyvotecampaignfinance.com/home) under filer "Rhea, Harmon", office "Commissioner Pct #4", document "COH" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Not yet archived on the Wayback Machine.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

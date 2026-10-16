@@ -5,7 +5,7 @@ election_date: '2026-11-03'
 sources:
 - id: tx/districts/state-house-64/elections/2026-11-03/state-representative/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Denton County Elections''s sample ballot for the November 3, 2026 general and special elections lists "State Representative, District 64" on page 2, with these candidates: Andy Hopper (Republican Party); Julie Evans (Democratic Party).'
+  statement: 'The Denton County Elections'' sample ballot for the November 3, 2026 general and special elections lists "State Representative, District 64" on page 2, with these candidates: Andy Hopper (Republican Party); Julie Evans (Democratic Party).'
   label: official_record
   claim_status: documented
   contradicted_by: []

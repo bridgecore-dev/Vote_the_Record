@@ -6,7 +6,7 @@ area: city-of-the-colony/place-3
 sources:
 - id: tx/localities/city-of-the-colony/elections/2026-11-03/council-place-3/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Denton County Elections''s sample ballot for the November 3, 2026 general and special elections lists "City of The Colony Place 3" on page 5, with these candidates: Brian R. Wade; Eldon J. Pipes.'
+  statement: 'The Denton County Elections'' sample ballot for the November 3, 2026 general and special elections lists "City of The Colony Place 3" on page 5, with these candidates: Brian R. Wade; Eldon J. Pipes.'
   label: official_record
   claim_status: documented
   contradicted_by: []

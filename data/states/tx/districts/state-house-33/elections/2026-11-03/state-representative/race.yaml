@@ -5,7 +5,7 @@ election_date: '2026-11-03'
 sources:
 - id: tx/districts/state-house-33/elections/2026-11-03/state-representative/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Collin County Elections''s sample ballot for the November 3, 2026 joint general and special election lists "State Representative, District 33" on page 1, with these candidates: Katrina Pierson (Republican Party); Orlando Lopez (Democratic Party).'
+  statement: 'The Collin County Elections'' sample ballot for the November 3, 2026 joint general and special election lists "State Representative, District 33" on page 1, with these candidates: Katrina Pierson (Republican Party); Orlando Lopez (Democratic Party).'
   label: official_record
   claim_status: documented
   contradicted_by: []

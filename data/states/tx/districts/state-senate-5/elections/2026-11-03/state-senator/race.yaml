@@ -1,0 +1,38 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: State Senator, District 5
+office_type: state-senator
+election_date: '2026-11-03'
+sources:
+- id: tx/districts/state-senate-5/elections/2026-11-03/state-senator/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Williamson County Elections'' sample ballot for the November 3, 2026 joint general and special elections lists "State Senator, District 5" on page 1, with these candidates: Charles Schwertner (Republican Party); Paul Thomasson (Democratic Party).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wilcotx.gov/DocumentCenter/View/22018/20261103-November-JGSE---COMPREHENSIVE-SAMPLE-BALLOT-PDF
+  source_title: 'Williamson County Elections: Joint General & Special Elections, November 3, 2026: Comprehensive Sample Ballot (page 1)'
+  source_kind: document
+  sha256: 64d23d9141f54669da9dd413681d7716b19c67c8fded8cedd4a143af566ea8ef
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-15'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's comprehensive (all-contest) sample ballot, linked from its Elections page as "Composite Sample Ballot". Names and wording are from the PDF's text layer, kept exactly as printed (English text only), with one space restored where the text layer drops it ("UtilityDistrict"). The county's website blocks automated downloads, so the project owner downloaded the file; neither it nor the Wayback Machine could be reached for an archive copy on 2026-10-15.
+- id: tx/districts/state-senate-5/elections/2026-11-03/state-senator/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Texas Senate: member page, District 5), checked on October 15, 2026, shows that Charles Schwertner, a candidate in this race, currently holds this office. It lists the name as "Senator Charles Schwertner". It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://senate.texas.gov/member.php?d=5
+  source_title: 'Texas Senate: member page, District 5'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-15'
+  retrieved: '2026-10-15'
+  verification: unverified
+  verified_on: null
+  reviewer: null

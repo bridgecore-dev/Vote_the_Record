@@ -7,7 +7,7 @@ seats: 2
 sources:
 - id: tx/localities/princeton-isd/elections/2026-11-03/trustees/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Collin County Elections''s sample ballot for the November 3, 2026 joint general and special election lists "Princeton Independent School District, School Trustees" on page 4, with these candidates: Charlotte Wilson; Ricky Gillespie; Cyndi Darland; Starla Sharpe.'
+  statement: 'The Collin County Elections'' sample ballot for the November 3, 2026 joint general and special election lists "Princeton Independent School District, School Trustees" on page 4, with these candidates: Charlotte Wilson; Ricky Gillespie; Cyndi Darland; Starla Sharpe.'
   label: official_record
   claim_status: documented
   contradicted_by: []

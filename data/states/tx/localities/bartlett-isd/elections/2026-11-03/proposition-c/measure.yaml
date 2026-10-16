@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: Bartlett ISD, Proposition C
+election_date: '2026-11-03'
+kind: bond
+ballot_text: THIS IS A PROPERTY TAX INCREASE. The issuance of not to exceed $1,000,000 of Bartlett Independent School District refunding bonds for the purpose of refunding all or a portion of the principal, interest, and redemption premium on previously issued time warrants of the District styled "Bartlett Independent School District Time Warrants, Series 2024, dated March 1, 2024" and the levying of a tax sufficient to pay the principal and interest on the bonds and the cost of any credit agreements executed in connection with the Bonds.
+choices:
+- For
+- Against
+explained: []
+sources:
+- id: tx/localities/bartlett-isd/elections/2026-11-03/proposition-c/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Williamson County Elections'' sample ballot for the November 3, 2026 joint general and special elections prints "Bartlett ISD, Proposition C" on page 5 with the choices For and Against and this English wording: "THIS IS A PROPERTY TAX INCREASE. The issuance of not to exceed $1,000,000 of Bartlett Independent School District refunding bonds for the purpose of refunding all or a portion of the principal, interest, and redemption premium on previously issued time warrants of the District styled "Bartlett Independent School District Time Warrants, Series 2024, dated March 1, 2024" and the levying of a tax sufficient to pay the principal and interest on the bonds and the cost of any credit agreements executed in connection with the Bonds."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wilcotx.gov/DocumentCenter/View/22018/20261103-November-JGSE---COMPREHENSIVE-SAMPLE-BALLOT-PDF
+  source_title: 'Williamson County Elections: Joint General & Special Elections, November 3, 2026: Comprehensive Sample Ballot (page 5)'
+  source_kind: document
+  sha256: 64d23d9141f54669da9dd413681d7716b19c67c8fded8cedd4a143af566ea8ef
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-15'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's comprehensive (all-contest) sample ballot, linked from its Elections page as "Composite Sample Ballot". Names and wording are from the PDF's text layer, kept exactly as printed (English text only), with one space restored where the text layer drops it ("UtilityDistrict"). The county's website blocks automated downloads, so the project owner downloaded the file; neither it nor the Wayback Machine could be reached for an archive copy on 2026-10-15.

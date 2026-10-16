@@ -22,6 +22,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101061386, form COH, TEC report type SEMIJUL; filer ID 00089988 (Bush, Allison (Ms.)). Found in TEC's bulk campaign finance data (https://www.ethics.state.tx.us/data/search/cf/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-01; a correction filed later replaces the version it corrects.
+- id: tx/districts/sboe-5/elections/2026-11-03/sboe-member/candidates/allison-bush#M-02
+  headline: Raised $10,939 and had $9,101 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $10,938.79 in total political contributions, $6,292.76 in total political expenditures, $9,101.30 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069731.PDF
+  source_title: 'Texas Ethics Commission: Bush, Allison (Ms.), campaign finance report 101069731 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 574178709b207369cc804c4af806890975afc196b6f7128f18e231f762ed876b
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101069731, form COH, TEC report type E30DAYBEF; filer ID 00089988 (Bush, Allison (Ms.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

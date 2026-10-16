@@ -7,7 +7,7 @@ area: city-of-denton/district-1
 sources:
 - id: tx/localities/city-of-denton/elections/2026-11-03/council-district-1/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Denton County Elections''s sample ballot for the November 3, 2026 general and special elections lists "City of Denton Councilmember, District 1 (Unexpired Term)" on page 5, with these candidates: Ward Franz; Sunny Busby; Michael Herron; Kris Cox.'
+  statement: 'The Denton County Elections'' sample ballot for the November 3, 2026 general and special elections lists "City of Denton Councilmember, District 1 (Unexpired Term)" on page 5, with these candidates: Ward Franz; Sunny Busby; Michael Herron; Kris Cox.'
   label: official_record
   claim_status: documented
   contradicted_by: []

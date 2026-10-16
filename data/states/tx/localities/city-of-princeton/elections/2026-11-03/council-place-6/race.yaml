@@ -6,7 +6,7 @@ detail: basic
 sources:
 - id: tx/localities/city-of-princeton/elections/2026-11-03/council-place-6/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Collin County Elections''s sample ballot for the November 3, 2026 joint general and special election lists "City of Princeton, Texas, Councilmember, Place 6" on page 3, with these candidates: Sumbel ''''Susan" Zeb; Kenneth Seligman.'
+  statement: 'The Collin County Elections'' sample ballot for the November 3, 2026 joint general and special election lists "City of Princeton, Texas, Councilmember, Place 6" on page 3, with these candidates: Sumbel ''''Susan" Zeb; Kenneth Seligman.'
   label: official_record
   claim_status: documented
   contradicted_by: []

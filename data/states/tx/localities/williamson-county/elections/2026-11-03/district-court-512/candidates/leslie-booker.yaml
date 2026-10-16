@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: leslie-booker
+name: Leslie Booker
+incumbent: null
+ballot_party: Democratic Party
+records: []
+funding:
+- id: tx/localities/williamson-county/elections/2026-11-03/district-court-512/candidates/leslie-booker#M-01
+  headline: Raised $11,891 and had $14,588 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 1, 2026: $11,891.32 in total political contributions, $16,427.70 in total political expenditures, $14,588.33 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068738.PDF
+  source_title: 'Texas Ethics Commission: Andrews Booker, Leslie (Mrs.), campaign finance report 101068738 (filed Oct 1, 2026)'
+  source_kind: document
+  sha256: b7caf7e5db7ebd94a5a539c8bca3d1616ec7d01f07ee9b59a5c85cad92304a8f
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101068738, form JCOH, TEC report type E30DAYBEF; filer ID 00090187 (Andrews Booker, Leslie (Mrs.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by surname variant, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

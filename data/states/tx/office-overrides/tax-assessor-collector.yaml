@@ -1,0 +1,43 @@
+# Powers of a Texas county tax assessor-collector.
+# Text checked against the Texas Constitution, Tax Code, and Transportation Code (statutes.capitol.texas.gov,
+# read through its document server tcss.legis.texas.gov) on 2026-10-15.
+office_type: tax-assessor-collector
+state: TX
+powers:
+  - id: P-ELECTED
+    description: Elected by the county's voters (in counties of 10,000 or more people).
+    statute: Texas Constitution art. VIII, § 14(a)-(b)
+    source_url: https://statutes.capitol.texas.gov/Docs/CN/htm/CN.8.htm
+
+  - id: P-COUNTY-TAXES
+    description: Assesses and collects property taxes in the county for the county.
+    statute: Tax Code § 6.23(a)
+    source_url: https://statutes.capitol.texas.gov/Docs/TX/htm/TX.6.htm
+    topics: [taxes-budget]
+
+  - id: P-OTHER-UNITS
+    description: Also assesses and collects property taxes for other local taxing units when the law or the unit's governing body requires it.
+    statute: Tax Code § 6.23(a)
+    source_url: https://statutes.capitol.texas.gov/Docs/TX/htm/TX.6.htm
+    topics: [taxes-budget]
+
+  - id: P-VEHICLE-TITLES
+    description: Carries out the state's motor vehicle title law in the county.
+    statute: Transportation Code § 520.005(a)
+    source_url: https://statutes.capitol.texas.gov/Docs/TN/htm/TN.520.htm
+    topics: [roads-transportation]
+
+plain_summary:
+  intro:
+    text: Collects the county's property taxes and handles vehicle titles.
+    powers: [P-COUNTY-TAXES, P-VEHICLE-TITLES]
+  points:
+    - text: Assesses and collects county property taxes
+      icon: budget
+      powers: [P-COUNTY-TAXES]
+    - text: Collects taxes for other local governments when required
+      icon: budget
+      powers: [P-OTHER-UNITS]
+    - text: Handles vehicle title work for the county
+      icon: contract
+      powers: [P-VEHICLE-TITLES]

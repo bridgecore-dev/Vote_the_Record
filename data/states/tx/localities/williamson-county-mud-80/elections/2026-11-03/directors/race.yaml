@@ -1,0 +1,24 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Williamson County MUD No. 80 Directors (5 seats)
+office_type: water-district-director
+election_date: '2026-11-03'
+detail: basic
+seats: 5
+sources:
+- id: tx/localities/williamson-county-mud-80/elections/2026-11-03/directors/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Williamson County Elections'' sample ballot for the November 3, 2026 joint general and special elections lists "Williamson County Municipal Utility District No. 80 Permanent Directors Election" on page 7, with these candidates: Jay Antala; Manasvi Ardeshana; Jwalasinh Brahmbhatt; Jaya Kafle; Parag Ratanpara.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wilcotx.gov/DocumentCenter/View/22018/20261103-November-JGSE---COMPREHENSIVE-SAMPLE-BALLOT-PDF
+  source_title: 'Williamson County Elections: Joint General & Special Elections, November 3, 2026: Comprehensive Sample Ballot (page 7)'
+  source_kind: document
+  sha256: 64d23d9141f54669da9dd413681d7716b19c67c8fded8cedd4a143af566ea8ef
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-15'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's comprehensive (all-contest) sample ballot, linked from its Elections page as "Composite Sample Ballot". Names and wording are from the PDF's text layer, kept exactly as printed (English text only), with one space restored where the text layer drops it ("UtilityDistrict"). The county's website blocks automated downloads, so the project owner downloaded the file; neither it nor the Wayback Machine could be reached for an archive copy on 2026-10-15.

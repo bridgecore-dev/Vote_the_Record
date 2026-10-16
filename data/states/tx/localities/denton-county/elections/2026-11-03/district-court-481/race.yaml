@@ -6,7 +6,7 @@ detail: basic
 sources:
 - id: tx/localities/denton-county/elections/2026-11-03/district-court-481/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Denton County Elections''s sample ballot for the November 3, 2026 general and special elections lists "District Judge, 481st Judicial District" on page 3, with these candidates: Crystal Edmonson Levonius (Republican Party); Seth Fuller (Democratic Party).'
+  statement: 'The Denton County Elections'' sample ballot for the November 3, 2026 general and special elections lists "District Judge, 481st Judicial District" on page 3, with these candidates: Crystal Edmonson Levonius (Republican Party); Seth Fuller (Democratic Party).'
   label: official_record
   claim_status: documented
   contradicted_by: []

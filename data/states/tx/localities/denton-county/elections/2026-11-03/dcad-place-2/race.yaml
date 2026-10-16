@@ -6,7 +6,7 @@ detail: basic
 sources:
 - id: tx/localities/denton-county/elections/2026-11-03/dcad-place-2/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Denton County Elections''s sample ballot for the November 3, 2026 general and special elections lists "Denton Central Appraisal District Board of Directors - Place 2" on page 4, with these candidates: Curtiss Welker.'
+  statement: 'The Denton County Elections'' sample ballot for the November 3, 2026 general and special elections lists "Denton Central Appraisal District Board of Directors - Place 2" on page 4, with these candidates: Curtiss Welker.'
   label: official_record
   claim_status: documented
   contradicted_by: []

@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: heather-jefts
+name: Heather Jefts
+incumbent: false
+ballot_party: Democratic Party
+records: []
+funding:
+- id: tx/localities/williamson-county/elections/2026-11-03/county-judge/candidates/heather-jefts#M-01
+  headline: Raised $93,369 and had $72,497 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Williamson County Elections on Oct 5, 2026: $93,368.95 in total political contributions, $47,347.29 in total political expenditures, $72,496.52 in contributions on hand at the end of the period, and $2,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/35F45C22-26E4-4A85-A71F-40545E28D1AE/viewfinalredactedpdf
+  source_title: 'Williamson County Elections: campaign finance report, Jefts, Heather (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 30c45bb6a498e438af274d6179dbe889933557cf693ada750ffca324b2be8d15
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-16'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Williamson County's Easy Campaign Finance portal (https://williamsoncountytx.easyvotecampaignfinance.com/home) under filer "Jefts, Heather", office "County Judge", document "COH" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

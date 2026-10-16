@@ -7,7 +7,7 @@ seats: 3
 sources:
 - id: tx/localities/city-of-weston/elections/2026-11-03/aldermen/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Collin County Elections''s sample ballot for the November 3, 2026 joint general and special election lists "City of Weston, Texas, Alderman" on page 3, with these candidates: Epi Goldstein; Tanner Bragg; John McManus; Mike Hill; Marla Johnston.'
+  statement: 'The Collin County Elections'' sample ballot for the November 3, 2026 joint general and special election lists "City of Weston, Texas, Alderman" on page 3, with these candidates: Epi Goldstein; Tanner Bragg; John McManus; Mike Hill; Marla Johnston.'
   label: official_record
   claim_status: documented
   contradicted_by: []

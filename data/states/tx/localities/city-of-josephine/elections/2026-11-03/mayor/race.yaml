@@ -6,7 +6,7 @@ detail: basic
 sources:
 - id: tx/localities/city-of-josephine/elections/2026-11-03/mayor/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Collin County Elections''s sample ballot for the November 3, 2026 joint general and special election lists "City of Josephine, Texas, Mayor" on page 2, with these candidates: Gary Chappell.'
+  statement: 'The Collin County Elections'' sample ballot for the November 3, 2026 joint general and special election lists "City of Josephine, Texas, Mayor" on page 2, with these candidates: Gary Chappell.'
   label: official_record
   claim_status: documented
   contradicted_by: []

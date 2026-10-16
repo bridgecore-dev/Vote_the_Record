@@ -7,7 +7,7 @@ seats: 5
 sources:
 - id: tx/localities/blue-meadow-mud-2/elections/2026-11-03/directors/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Collin County Elections''s sample ballot for the November 3, 2026 joint general and special election lists "Blue Meadow Municipal Utility District No. 2 of Collin County, Directors" on page 4, with these candidates: Emily Barke; Lori Vinz; Ethan Spradlin; Tommy McAden; Reeves Atkins.'
+  statement: 'The Collin County Elections'' sample ballot for the November 3, 2026 joint general and special election lists "Blue Meadow Municipal Utility District No. 2 of Collin County, Directors" on page 4, with these candidates: Emily Barke; Lori Vinz; Ethan Spradlin; Tommy McAden; Reeves Atkins.'
   label: official_record
   claim_status: documented
   contradicted_by: []

@@ -195,6 +195,31 @@ DENTON_LOCAL_AREAS = {
     "northlake-fwsd-1": (TCEQ_FWSD, "5987875"),
     "sanctuary-mud-2": (TCEQ_MUD, "7524625"),
 }
+WILCO_ELECTIONS = "https://gis.wilco.org/arcgis/rest/services/public/county_elections/MapServer"
+WILCO_ITEM = WILCO_ELECTIONS + "/2"
+WILCO_LAYER = WILCO_ELECTIONS + "/2"  # Current Voter Precincts
+WILCO_ADMIN = "https://gis.wilco.org/arcgis/rest/services/public/county_administrative_boundaries/MapServer"
+WILCO_LOCAL_AREAS = {
+    "city-of-austin": (PLACE_LAYER, "4805000"),
+    "city-of-georgetown": (PLACE_LAYER, "4829336"),
+    "city-of-hutto": (PLACE_LAYER, "4835624"),
+    "city-of-jarrell": (PLACE_LAYER, "4837396"),
+    "city-of-pflugerville": (PLACE_LAYER, "4857176"),
+    "city-of-taylor": (PLACE_LAYER, "4871948"),
+    "bartlett-isd": (SCHOOL_LAYER, "4809540"),
+    "coupland-isd": (SCHOOL_LAYER, "4815420"),
+    "florence-isd": (SCHOOL_LAYER, "4819320"),
+    "georgetown-isd": (SCHOOL_LAYER, "4820600"),
+    "leander-isd": (SCHOOL_LAYER, "4827030"),
+    "pflugerville-isd": (SCHOOL_LAYER, "4834830"),
+    "round-rock-isd": (SCHOOL_LAYER, "4838080"),
+    "block-house-mud": (TCEQ_MUD, "1546000"),
+    "highlands-at-mayfield-ranch-mud": (TCEQ_MUD, "4636250"),
+    "north-austin-mud-1": (TCEQ_MUD, "5968600"),
+    "solana-ranch-mud-1": (TCEQ_MUD, "7576132"),
+    "theon-ranches-mud-1": (TCEQ_MUD, "8259495"),
+    "williamson-travis-mud-1": (TCEQ_MUD, "8670000"),
+}
 OVERLAY_SHARE = 0.95  # a precinct must be at least this much inside one district to be assigned it without a flag
 
 # Per county: precinct layer, its field for each district kind, areas every voter shares, local areas.
@@ -327,6 +352,37 @@ COUNTIES = {
                     "maps named in precincts#S-05. The county server resets long transfers, so its layers were downloaded in "
                     "small pages; the State Board of Education layer was requested simplified to 0.0005 degrees and the "
                     "commissioner and JP/constable layers to 0.0001 degrees, finer than the 0.001-degree overlay grid."),
+        "field_note": ("Congressional districts come from the Texas Legislative Council's PLANC2333 shapefile rather than the "
+                       "county's own congressional layer, so the 2025 map is used."),
+    },
+    "williamson-county": {
+        "name": "Williamson County", "item": WILCO_ITEM, "layer": WILCO_LAYER, "precinct_field": "VOTER_PRECINCT",
+        # The precinct layer lists each precinct's commissioner precinct (COMMPCT); the county publishes commissioner,
+        # constable and JP precincts as one layer, so the JP precinct is the same number. Other districts come from
+        # overlays (state plans for Congress and the Legislature; the county's State Board of Education layer).
+        "fields": {kind: kind for kind in ("us-house", "state-house", "state-senate", "sboe", "commissioner", "jp")},
+        "overlays": {
+            "us-house": ("shapefile", TLC_C2333, "District", "Texas Legislative Council: PLANC2333 (congressional districts "
+                         "enacted 2025, 89th Legislature, 2nd C.S.)"),
+            "state-house": ("shapefile", TLC_H2316, "District", "Texas Legislative Council: PLANH2316 (State House "
+                            "districts, 2023-2026)"),
+            "state-senate": ("shapefile", TLC_S2168, "District", "Texas Legislative Council: PLANS2168 (State Senate "
+                             "districts)"),
+            "sboe": ("arcgis", WILCO_ADMIN + "/7", "DISTRICT", "Williamson County GIS: State Board of Education Districts"),
+            "commissioner": ("arcgis", WILCO_LAYER, "COMMPCT", "Williamson County GIS: Current Voter Precincts (COMMPCT field)"),
+            "jp": ("arcgis", WILCO_LAYER, "COMMPCT", "Williamson County GIS: Current Voter Precincts (COMMPCT field; the county "
+                   "publishes commissioner, constable and JP precincts as one layer)"),
+        },
+        "everywhere": ["court-of-appeals-3"],  # Gov't Code 22.201(d)
+        "local_areas": WILCO_LOCAL_AREAS,
+        "headline": "Williamson County voter precincts (2026)",
+        "statement": ("Williamson County's GIS layer \"Current Voter Precincts\" (177 precincts), published by Williamson "
+                      "County GIS, gives each precinct's number, outline, and commissioner precinct."),
+        "title": "Williamson County GIS: Current Voter Precincts",
+        "credits": ("Each precinct's districts were assigned by overlaying the district maps named in precincts#S-05. The "
+                    "county publishes commissioner, constable and justice of the peace precincts as a single layer "
+                    "(\"Commissioner, Constable, JP Precincts\"), so each precinct's JP precinct is its commissioner "
+                    "precinct."),
         "field_note": ("Congressional districts come from the Texas Legislative Council's PLANC2333 shapefile rather than the "
                        "county's own congressional layer, so the 2025 map is used."),
     },

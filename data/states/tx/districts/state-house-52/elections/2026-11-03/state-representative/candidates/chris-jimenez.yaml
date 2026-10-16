@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: chris-jimenez
+name: Chris Jimenez
+incumbent: false
+ballot_party: Democratic Party
+records: []
+funding:
+- id: tx/districts/state-house-52/elections/2026-11-03/state-representative/candidates/chris-jimenez#M-01
+  headline: Raised $354,409 and had $223,161 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $354,409.38 in total political contributions, $83,405.35 in total political expenditures, $223,161.20 in contributions on hand at the end of the period, and $25.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069624.PDF
+  source_title: 'Texas Ethics Commission: Jimenez, Christopher R. (Mr.), campaign finance report 101069624 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 85e2f912243fd7ec3a1c6147d0b99527e89cf8e2899a760532a83b9c4735671f
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101069624, form COH, TEC report type E30DAYBEF; filer ID 00090294 (Jimenez, Christopher R. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

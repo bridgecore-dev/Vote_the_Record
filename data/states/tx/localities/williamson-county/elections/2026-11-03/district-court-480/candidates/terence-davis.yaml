@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: terence-davis
+name: Terence Davis
+incumbent: true
+ballot_party: Republican Party
+records: []
+funding:
+- id: tx/localities/williamson-county/elections/2026-11-03/district-court-480/candidates/terence-davis#M-01
+  headline: Had $93,351 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 2, 2026: $13,803.38 in total political expenditures, $93,351.06 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101027980.PDF
+  source_title: 'Texas Ethics Commission: Davis, Terence M. (The Honorable), campaign finance report 101027980 (filed Jul 2, 2026)'
+  source_kind: document
+  sha256: 6fa5fc77c9a7e106fec1344444ab78799a58831e6e9916f1bc39673369979eeb
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101027980, form JCOH, TEC report type SEMIJUL; filer ID 00069487 (Davis, Terence M. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

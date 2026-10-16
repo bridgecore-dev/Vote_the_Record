@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: District Judge, 368th Judicial District
+office_type: district-judge
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/williamson-county/elections/2026-11-03/district-court-368/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Williamson County Elections'' sample ballot for the November 3, 2026 joint general and special elections lists "District Judge, 368th Judicial District" on page 2, with these candidates: Sarah Bruchmiller (Republican Party).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wilcotx.gov/DocumentCenter/View/22018/20261103-November-JGSE---COMPREHENSIVE-SAMPLE-BALLOT-PDF
+  source_title: 'Williamson County Elections: Joint General & Special Elections, November 3, 2026: Comprehensive Sample Ballot (page 2)'
+  source_kind: document
+  sha256: 64d23d9141f54669da9dd413681d7716b19c67c8fded8cedd4a143af566ea8ef
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-15'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's comprehensive (all-contest) sample ballot, linked from its Elections page as "Composite Sample Ballot". Names and wording are from the PDF's text layer, kept exactly as printed (English text only), with one space restored where the text layer drops it ("UtilityDistrict"). The county's website blocks automated downloads, so the project owner downloaded the file; neither it nor the Wayback Machine could be reached for an archive copy on 2026-10-15.
+- id: tx/localities/williamson-county/elections/2026-11-03/district-court-368/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The county''s page for this office (Williamson County: 368th District Court (county web page)), in the Wayback Machine copy made on June 10, 2026 (the county site blocks automated access), shows that Sarah Bruchmiller, a candidate in this race, currently holds this office. It lists the name as "Judge Sarah Bruchmiller".'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wilcotx.gov/487/368th-District-Court
+  source_title: 'Williamson County: 368th District Court (county web page)'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20260610200221/https://www.wilcotx.gov/487/368th-District-Court
+  event_date: '2026-06-10'
+  retrieved: '2026-10-15'
+  verification: unverified
+  verified_on: null
+  reviewer: null
