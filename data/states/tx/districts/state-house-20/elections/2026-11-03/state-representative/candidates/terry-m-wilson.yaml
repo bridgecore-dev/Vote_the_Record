@@ -157,7 +157,41 @@ funding:
   notes: Report ID 101067580, form COH, TEC report type E30DAYBEF; filer ID 00080350 (Wilson, Terry M. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/state-house-20/elections/2026-11-03/state-representative/candidates/terry-m-wilson#O-01
+    headline: Phase out the school M&O property tax
+    statement: 'Campaign website: "What’s Next: Reduce School M&O tax rate to 0% over time, replace property tax funds with state revenue w/o raising taxes."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.terrywilsonfortexas.com/issues
+    source_title: 'Terry Wilson for Texas: Issues (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-20/elections/2026-11-03/state-representative/candidates/terry-m-wilson#O-02
+    headline: A permanent DPS border unit
+    statement: 'Campaign website: "What’s Next: Create a dedicated, permanent, DPS border unit."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.terrywilsonfortexas.com/issues
+    source_title: 'Terry Wilson for Texas: Issues (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings:

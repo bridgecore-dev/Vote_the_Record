@@ -1,0 +1,142 @@
+# Contests on this ballot, in ballot order. complete: false until every contest is added.
+name: Tarrant County ballot
+election_date: '2026-11-03'
+lookup_url: https://gisit.tarrantcounty.com/findmyballot/
+complete: false
+sources:
+- id: tx/localities/tarrant-county/elections/2026-11-03/ballot#S-01
+  headline: Every contest on the sample ballot
+  statement: The Tarrant County Elections Administration's Find My Ballot service gives a sample ballot for each ballot style; together, the 788 English-Spanish ballot styles for the November 3, 2026 joint general and special elections list every contest on this ballot.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://gisit.tarrantcounty.com/findmyballot/
+  source_title: 'Tarrant County Elections Administration: Find My Ballot (sample ballots for every ballot style)'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-16'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's Find My Ballot service gives a sample ballot PDF for each ballot style; this ballot combines all 788 English-Spanish styles, collected by asking the service for each of the county's 1,703 voting sub-precincts (13 returned no ballot). Each contest's own source names the style PDF it was read from.
+contests:
+- tx/statewide/elections/2026-11-03/us-senate
+- tx/districts/us-house-12/elections/2026-11-03/us-representative
+- tx/districts/us-house-25/elections/2026-11-03/us-representative
+- tx/districts/us-house-30/elections/2026-11-03/us-representative
+- tx/districts/us-house-6/elections/2026-11-03/us-representative
+- tx/districts/us-house-24/elections/2026-11-03/us-representative
+- tx/statewide/elections/2026-11-03/governor
+- tx/statewide/elections/2026-11-03/lieutenant-governor
+- tx/statewide/elections/2026-11-03/attorney-general
+- tx/statewide/elections/2026-11-03/comptroller
+- tx/statewide/elections/2026-11-03/land-commissioner
+- tx/statewide/elections/2026-11-03/agriculture-commissioner
+- tx/statewide/elections/2026-11-03/railroad-commissioner
+- tx/statewide/elections/2026-11-03/supreme-court-chief-justice
+- tx/statewide/elections/2026-11-03/supreme-court-place-2
+- tx/statewide/elections/2026-11-03/supreme-court-place-7
+- tx/statewide/elections/2026-11-03/supreme-court-place-8
+- tx/statewide/elections/2026-11-03/cca-place-3
+- tx/statewide/elections/2026-11-03/cca-place-4
+- tx/statewide/elections/2026-11-03/cca-place-9
+- tx/districts/sboe-13/elections/2026-11-03/sboe-member
+- tx/districts/state-senate-9/elections/2026-11-03/state-senator
+- tx/districts/state-house-97/elections/2026-11-03/state-representative
+- tx/districts/state-house-99/elections/2026-11-03/state-representative
+- tx/districts/state-senate-22/elections/2026-11-03/state-senator
+- tx/districts/state-house-96/elections/2026-11-03/state-representative
+- tx/districts/state-house-98/elections/2026-11-03/state-representative
+- tx/districts/state-house-92/elections/2026-11-03/state-representative
+- tx/districts/state-house-91/elections/2026-11-03/state-representative
+- tx/districts/state-house-93/elections/2026-11-03/state-representative
+- tx/districts/state-house-95/elections/2026-11-03/state-representative
+- tx/districts/state-house-90/elections/2026-11-03/state-representative
+- tx/districts/state-house-101/elections/2026-11-03/state-representative
+- tx/districts/state-house-94/elections/2026-11-03/state-representative
+- tx/districts/court-of-appeals-15/elections/2026-11-03/chief-justice
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-2
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-3
+- tx/districts/court-of-appeals-2/elections/2026-11-03/place-2
+- tx/districts/court-of-appeals-2/elections/2026-11-03/place-7
+- tx/districts/state-house-93/elections/2026-11-03/state-representative-unexpired
+- tx/districts/state-senate-22/elections/2026-11-03/state-senator-unexpired
+- tx/localities/tarrant-county/elections/2026-11-03/district-court-141
+- tx/localities/tarrant-county/elections/2026-11-03/district-court-213
+- tx/localities/tarrant-county/elections/2026-11-03/district-court-236
+- tx/localities/tarrant-county/elections/2026-11-03/district-court-297
+- tx/localities/tarrant-county/elections/2026-11-03/district-court-371
+- tx/localities/tarrant-county/elections/2026-11-03/district-court-372
+- tx/localities/tarrant-county/elections/2026-11-03/district-court-432
+- tx/localities/tarrant-county/elections/2026-11-03/district-court-485
+- tx/localities/tarrant-county/elections/2026-11-03/criminal-district-court-1
+- tx/localities/tarrant-county/elections/2026-11-03/criminal-district-court-3
+- tx/localities/tarrant-county/elections/2026-11-03/criminal-district-court-4
+- tx/localities/tarrant-county/elections/2026-11-03/district-court-231
+- tx/localities/tarrant-county/elections/2026-11-03/district-court-233
+- tx/localities/tarrant-county/elections/2026-11-03/district-court-322
+- tx/localities/tarrant-county/elections/2026-11-03/district-court-323
+- tx/localities/tarrant-county/elections/2026-11-03/district-court-324
+- tx/localities/tarrant-county/elections/2026-11-03/district-court-325
+- tx/localities/tarrant-county/elections/2026-11-03/criminal-district-attorney
+- tx/localities/tarrant-county/elections/2026-11-03/county-judge
+- tx/localities/tarrant-county/elections/2026-11-03/county-court-at-law-1
+- tx/localities/tarrant-county/elections/2026-11-03/county-court-at-law-2
+- tx/localities/tarrant-county/elections/2026-11-03/county-court-at-law-3
+- tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-1
+- tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-2
+- tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-3
+- tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-4
+- tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-5
+- tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-6
+- tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-7
+- tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-8
+- tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-9
+- tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-10
+- tx/localities/tarrant-county/elections/2026-11-03/probate-court-1
+- tx/localities/tarrant-county/elections/2026-11-03/probate-court-2
+- tx/localities/tarrant-county/elections/2026-11-03/district-clerk
+- tx/localities/tarrant-county/elections/2026-11-03/county-clerk
+- tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-3
+- tx/localities/tarrant-county/elections/2026-11-03/commissioner-precinct-2
+- tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-8
+- tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-2
+- tx/localities/tarrant-county/elections/2026-11-03/commissioner-precinct-4
+- tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-6
+- tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-5
+- tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-1
+- tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-4
+- tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-7
+- tx/localities/tarrant-county/elections/2026-11-03/tad-place-1
+- tx/localities/tarrant-county/elections/2026-11-03/tad-place-2
+- tx/localities/tarrant-county/elections/2026-11-03/tad-place-3
+- tx/localities/town-of-flower-mound/elections/2026-11-03/proposition-a
+- tx/localities/city-of-forest-hill/elections/2026-11-03/council-place-2
+- tx/localities/city-of-forest-hill/elections/2026-11-03/proposition-a
+- tx/localities/city-of-forest-hill/elections/2026-11-03/proposition-b
+- tx/localities/city-of-forest-hill/elections/2026-11-03/proposition-c
+- tx/localities/city-of-forest-hill/elections/2026-11-03/proposition-d
+- tx/localities/city-of-forest-hill/elections/2026-11-03/proposition-e
+- tx/localities/city-of-benbrook/elections/2026-11-03/council-place-2
+- tx/localities/city-of-benbrook/elections/2026-11-03/council-place-4
+- tx/localities/city-of-benbrook/elections/2026-11-03/council-place-6
+- tx/localities/keller-isd/elections/2026-11-03/trustee-place-4
+- tx/localities/keller-isd/elections/2026-11-03/trustee-place-5
+- tx/localities/keller-isd/elections/2026-11-03/trustee-place-6
+- tx/localities/keller-isd/elections/2026-11-03/proposition-a
+- tx/localities/keller-isd/elections/2026-11-03/proposition-b
+- tx/localities/keller-isd/elections/2026-11-03/proposition-c
+- tx/localities/keller-isd/elections/2026-11-03/proposition-d
+- tx/localities/keller-isd/elections/2026-11-03/proposition-e
+- tx/localities/city-of-north-richland-hills/elections/2026-11-03/proposition-a
+- tx/localities/city-of-north-richland-hills/elections/2026-11-03/proposition-b
+- tx/localities/city-of-north-richland-hills/elections/2026-11-03/proposition-c
+- tx/localities/city-of-north-richland-hills/elections/2026-11-03/proposition-d
+- tx/localities/eagle-mountain-saginaw-isd/elections/2026-11-03/proposition-a
+- tx/localities/eagle-mountain-saginaw-isd/elections/2026-11-03/proposition-b
+- tx/localities/city-of-white-settlement/elections/2026-11-03/mayor
+- tx/localities/city-of-white-settlement/elections/2026-11-03/council-place-1
+- tx/localities/city-of-river-oaks/elections/2026-11-03/council-place-5
+- tx/localities/city-of-river-oaks/elections/2026-11-03/mayor

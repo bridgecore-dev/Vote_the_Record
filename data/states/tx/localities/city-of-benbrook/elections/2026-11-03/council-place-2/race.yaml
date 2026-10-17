@@ -1,0 +1,23 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: City of Benbrook Council, Place 2
+office_type: city-council-member
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/city-of-benbrook/elections/2026-11-03/council-place-2/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Tarrant County Elections Administration''s sample ballot for the November 3, 2026 joint general and special elections lists "City of Benbrook Member of the Council, Place 2" on page 3, with these candidates: Renee Franklin.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://gisit.tarrantcounty.com/ballots/English-Spanish/5222009016.pdf
+  source_title: 'Tarrant County Elections Administration: Sample Ballot, November 3, 2026 Joint General and Special Elections, ballot style 5222009016 (page 3)'
+  source_kind: document
+  sha256: a1721910c5d35232d0ee53a3697ec2046b7af67d8dfa034d7b12dc5bf01e84ae
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-16'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A sample ballot for one ballot style (one precinct part), from the county's Find My Ballot service (https://gisit.tarrantcounty.com/findmyballot/). The county posts no all-contest ballot; every style was collected by asking the service for each of the county's 1,703 voting sub-precincts. Names and wording are from the PDF's text layer, kept as printed (English text only).

@@ -138,7 +138,24 @@ funding:
   notes: Report ID 101067933, form COH, TEC report type E30DAYBEF; filer ID 00085754 (Harris Davila, Caroline (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/state-house-52/elections/2026-11-03/state-representative/candidates/caroline-harris-davila#O-01
+    headline: Energy production to lower costs
+    statement: 'Campaign website: "Caroline Harris Davila supports energy production to lower energy costs and bring down prices at the pump."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://carolinefortexas.com/
+    source_title: Caroline Harris Davila for State Representative (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings:

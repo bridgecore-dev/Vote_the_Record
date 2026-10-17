@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: heather-jefts
 name: Heather Jefts
 incumbent: false
@@ -24,7 +24,41 @@ funding:
   notes: Listed on Williamson County's Easy Campaign Finance portal (https://williamsoncountytx.easyvotecampaignfinance.com/home) under filer "Jefts, Heather", office "County Judge", document "COH" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/localities/williamson-county/elections/2026-11-03/county-judge/candidates/heather-jefts#O-01
+    headline: Tools and training for public safety agencies
+    statement: 'Campaign website: "I will work with EMS, Sheriff''s department, Constables, Emergency Management, and Fire Marshal''s office to ensure they have the tools and training they need to keep us safe"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.jeftsforjudge.com/
+    source_title: Heather Jefts for Williamson County Judge (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/williamson-county/elections/2026-11-03/county-judge/candidates/heather-jefts#O-02
+    headline: Ethics policy and public engagement
+    statement: 'Campaign website: "I will work with fellow Commissioners for strong ethics policy and regular public engagement on our big issues."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.jeftsforjudge.com/
+    source_title: Heather Jefts for Williamson County Judge (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

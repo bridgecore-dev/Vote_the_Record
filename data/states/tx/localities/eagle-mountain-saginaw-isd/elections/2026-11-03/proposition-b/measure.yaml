@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: Eagle Mountain-Saginaw ISD, Proposition B
+election_date: '2026-11-03'
+kind: bond
+ballot_text: THIS IS A PROPERTY TAX INCREASE "The issuance of bonds in the amount of $20,000,000 of Eagle Mountain-Saginaw Independent School District for the purpose of refunding all or a portion of the principal and/or interest on certain previously issued maintenance tax obligations of the District styled "Eagle Mountain-Saginaw Independent School District Maintenance Tax Notes, Series 2026", and the levying of a tax sufficient to pay the principal of and interest on the bonds."
+choices:
+- For
+- Against
+explained: []
+sources:
+- id: tx/localities/eagle-mountain-saginaw-isd/elections/2026-11-03/proposition-b/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Tarrant County Elections Administration''s sample ballot for the November 3, 2026 joint general and special elections prints "Eagle Mountain-Saginaw ISD, Proposition B" on page 4 with the choices For and Against and this English wording: "THIS IS A PROPERTY TAX INCREASE "The issuance of bonds in the amount of $20,000,000 of Eagle Mountain-Saginaw Independent School District for the purpose of refunding all or a portion of the principal and/or interest on certain previously issued maintenance tax obligations of the District styled "Eagle Mountain-Saginaw Independent School District Maintenance Tax Notes, Series 2026", and the levying of a tax sufficient to pay the principal of and interest on the bonds.""'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://gisit.tarrantcounty.com/ballots/English-Spanish/5224018083.pdf
+  source_title: 'Tarrant County Elections Administration: Sample Ballot, November 3, 2026 Joint General and Special Elections, ballot style 5224018083 (page 4)'
+  source_kind: document
+  sha256: e6d61465d52aef53f4065459b2aaee5b7cf490d7cbafea3ee6e161b1834e95fe
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-16'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A sample ballot for one ballot style (one precinct part), from the county's Find My Ballot service (https://gisit.tarrantcounty.com/findmyballot/). The county posts no all-contest ballot; every style was collected by asking the service for each of the county's 1,703 voting sub-precincts. Names and wording are from the PDF's text layer, kept as printed (English text only).

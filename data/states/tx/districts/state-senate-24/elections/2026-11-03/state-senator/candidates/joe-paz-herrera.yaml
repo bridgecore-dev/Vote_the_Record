@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: joe-paz-herrera
 name: Joe Paz Herrera
 incumbent: false
@@ -24,7 +24,41 @@ funding:
   notes: Report ID 101068190, form COH, TEC report type E30DAYBEF; filer ID 00081966 (Herrera, Joe P. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/state-senate-24/elections/2026-11-03/state-senator/candidates/joe-paz-herrera#O-01
+    headline: More public school funding and teacher pay
+    statement: 'Campaign website: "We need increased funding for our public schools and higher salaries for our teachers and staff."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://herrerafortexas.com/
+    source_title: Herrera for Texas (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-senate-24/elections/2026-11-03/state-senator/candidates/joe-paz-herrera#O-02
+    headline: Rural health care access
+    statement: 'Campaign website: "I am committed to increasing access to rural healthcare in Texas Senate District 24."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://herrerafortexas.com/
+    source_title: Herrera for Texas (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

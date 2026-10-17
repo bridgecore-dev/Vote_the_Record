@@ -1,0 +1,24 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Justice of the Peace, Precinct 6
+office_type: justice-of-the-peace
+election_date: '2026-11-03'
+detail: basic
+area: tarrant-county/jp-6
+sources:
+- id: tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-6/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Tarrant County Elections Administration''s sample ballot for the November 3, 2026 joint general and special elections lists "Justice of the Peace, Precinct 6" on page 3, with these candidates: Jason M. Charbonnet (REP).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://gisit.tarrantcounty.com/ballots/English-Spanish/5221186147.pdf
+  source_title: 'Tarrant County Elections Administration: Sample Ballot, November 3, 2026 Joint General and Special Elections, ballot style 5221186147 (page 3)'
+  source_kind: document
+  sha256: b15f367b7a32d589c15f73e4cce39154487f9d7342873802b49f4d1c25dfe7ae
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-16'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A sample ballot for one ballot style (one precinct part), from the county's Find My Ballot service (https://gisit.tarrantcounty.com/findmyballot/). The county posts no all-contest ballot; every style was collected by asking the service for each of the county's 1,703 voting sub-precincts. Names and wording are from the PDF's text layer, kept as printed (English text only).

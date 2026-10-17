@@ -220,6 +220,18 @@ WILCO_LOCAL_AREAS = {
     "theon-ranches-mud-1": (TCEQ_MUD, "8259495"),
     "williamson-travis-mud-1": (TCEQ_MUD, "8670000"),
 }
+TARRANT_LAYER = "https://mapit.tarrantcounty.com/arcgis/rest/services/Dynamic/VotingPrecinct/MapServer/0"
+TARRANT_ITEM = TARRANT_LAYER
+TARRANT_LOCAL_AREAS = {
+    "city-of-benbrook": (PLACE_LAYER, "4807552"),
+    "town-of-flower-mound": (PLACE_LAYER, "4826232"),
+    "city-of-forest-hill": (PLACE_LAYER, "4826544"),
+    "city-of-north-richland-hills": (PLACE_LAYER, "4852356"),
+    "city-of-river-oaks": (PLACE_LAYER, "4862384"),
+    "city-of-white-settlement": (PLACE_LAYER, "4878544"),
+    "eagle-mountain-saginaw-isd": (SCHOOL_LAYER, "4817700"),
+    "keller-isd": (SCHOOL_LAYER, "4825260"),
+}
 OVERLAY_SHARE = 0.95  # a precinct must be at least this much inside one district to be assigned it without a flag
 
 # Per county: precinct layer, its field for each district kind, areas every voter shares, local areas.
@@ -385,6 +397,22 @@ COUNTIES = {
                     "precinct."),
         "field_note": ("Congressional districts come from the Texas Legislative Council's PLANC2333 shapefile rather than the "
                        "county's own congressional layer, so the 2025 map is used."),
+    },
+    "tarrant-county": {
+        "name": "Tarrant County", "item": TARRANT_ITEM, "layer": TARRANT_LAYER, "precinct_field": "Precinct",
+        "fields": {"us-house": "Congress", "state-house": "House", "state-senate": "Senate", "sboe": "Education",
+                   "commissioner": "Commish", "jp": "JP"},
+        "everywhere": ["court-of-appeals-2"],  # Gov't Code 22.201(c)
+        "local_areas": TARRANT_LOCAL_AREAS,
+        "headline": "Tarrant County voting precincts and their districts (2026)",
+        "statement": ("Tarrant County's GIS layer \"Voting Precincts\" (707 precincts), published by Tarrant County, lists each "
+                      "precinct's congressional, State Senate, State House, State Board of Education, Commissioners Court and "
+                      "justice of the peace districts."),
+        "title": "Tarrant County GIS: Voting Precincts",
+        "credits": ("Only precinct numbers, outlines and district numbers from the layer are used. Its congressional districts "
+                    "(6, 12, 24, 25, 30) are the ones Tarrant County Elections lists for the November 3, 2026 election "
+                    "(\"Districts in Election\")."),
+        "field_note": "The layer's Congress field gives the districts listed for this election under the 2025 map.",
     },
 }
 

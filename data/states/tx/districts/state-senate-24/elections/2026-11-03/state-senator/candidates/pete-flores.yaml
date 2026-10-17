@@ -62,7 +62,24 @@ funding:
   notes: Report ID 101068248, form COH, TEC report type E30DAYBEF; filer ID 00080439 (Flores, Peter P. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/state-senate-24/elections/2026-11-03/state-senator/candidates/pete-flores#O-01
+    headline: Low regulation and taxes
+    statement: 'Campaign website: "Pete Flores believes the government should not be allowed to compete with business, and as State Senator he will continue to work to foster an economic environment that keeps regulation and taxes at a minimum, and allow the free market to work."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://floresfortexas.com/issues/
+    source_title: 'Pete Flores for Texas: Issues (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings:
