@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: deborah-nekhom
 name: Deborah Nekhom
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
-funding: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-4/candidates/deborah-nekhom#M-01
+  headline: Had $5,817 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, filed with Tarrant County Elections Administration on Jul 15, 2026: $0.00 in total political contributions, $521.61 in total political expenditures, $5,817.12 in contributions on hand at the end of the period, and $10,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/818BA858-C5AD-4BA9-B208-873ED933F188/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Nekhom, Deborah (filed Jul 15, 2026)'
+  source_kind: document
+  sha256: 0999bdc9a18e434b03a8c99992bd85d5a25a0b4b5669e120ae49ddd5befd3819
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Tarrant County''s Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Nekhom, Deborah", office "JUDGE, COUNTY CRIMINAL COURT NO. 4", document "JCOH JUL 2026" (JCOH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: handwritten, legible. Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
   policy_proposals: []

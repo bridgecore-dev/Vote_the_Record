@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: celina-vasquez
 name: Celina Vasquez
-incumbent: null
+incumbent: false
 ballot_party: DEM
 records: []
-funding: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-2/candidates/celina-vasquez#M-01
+  headline: Raised $8,043 and had $6,800 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Tarrant County Elections Administration on Oct 5, 2026: $8,043.13 in total political contributions, $3,746.73 in total political expenditures, and $6,800.00 in contributions on hand at the end of the period.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/240D4F9C-5F7B-49A6-AD5A-16CA82D587D8/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Vasquez, Celina (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: dcc1a8ee9f7651fa3b1777be39f94dae18c57eaa84581e0321755a65eee48f1a
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Tarrant County''s Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Vasquez, Celina", office "JUSTICE OF THE PEACE, PRECINCT NO. 2", document "COH 30 DAY GEN 2026" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: handwritten, legible; loan line left blank. Left out: outstanding loans. Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
   policy_proposals: []

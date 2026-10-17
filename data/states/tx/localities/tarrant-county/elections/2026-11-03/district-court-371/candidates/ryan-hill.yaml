@@ -4,7 +4,24 @@ name: Ryan Hill
 incumbent: null
 ballot_party: REP
 records: []
-funding: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/district-court-371/candidates/ryan-hill#M-01
+  headline: Raised $32,446 and had $17,911 on hand (Jul 1 - Oct 3, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Oct 3, 2026, filed Oct 5, 2026: $32,445.58 in total political contributions, $24,680.69 in total political expenditures, $17,910.82 in contributions on hand at the end of the period, and $66,979.69 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101063069.PDF
+  source_title: 'Texas Ethics Commission: Hill, Ryan W. (Mr.), campaign finance report 101063069 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 1f64396fd7374ab353f4e100ee52281643f77b22aa6042c3dadefa3ce7713a7d
+  archive_url: null
+  event_date: '2026-10-03'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101063069, form JCOH, TEC report type E30DAYBEF; filer ID 00086152 (Hill, Ryan W. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

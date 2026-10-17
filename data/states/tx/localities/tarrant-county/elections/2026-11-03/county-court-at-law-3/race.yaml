@@ -21,3 +21,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: A sample ballot for one ballot style (one precinct part), from the county's Find My Ballot service (https://gisit.tarrantcounty.com/findmyballot/). The county posts no all-contest ballot; every style was collected by asking the service for each of the county's 1,703 voting sub-precincts. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/tarrant-county/elections/2026-11-03/county-court-at-law-3/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Tarrant County: Civil County Courts), checked on October 17, 2026, shows that Mike Hrabal, a candidate in this race, currently holds this office. It lists the name as "Judge Mike Hrabal".'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.tarrantcountytx.gov/en/civil-courts/county-courts.html
+  source_title: 'Tarrant County: Civil County Courts'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-17'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null

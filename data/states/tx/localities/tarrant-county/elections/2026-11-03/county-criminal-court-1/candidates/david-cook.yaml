@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: david-cook
 name: David Cook
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
-funding: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-1/candidates/david-cook#M-01
+  headline: Had $2,441 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, filed with Tarrant County Elections Administration on Jul 14, 2026: $0.00 in total political contributions, $0.00 in total political expenditures, $2,441.09 in contributions on hand at the end of the period, and $14,719.11 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/B7F8C2AD-8CA6-4CD7-93B6-3FC5D9EE0CB2/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Cook, David (filed Jul 14, 2026)'
+  source_kind: document
+  sha256: 8b61381352a0a4bba18190e83bf98b0feff7b132cdcea3e3ac47af8e0d55e2a5
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Tarrant County's Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Cook, David", office "JUDGE, COUNTY CRIMINAL COURT NO. 1", document "JCOH JUL 2026" (JCOH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
   policy_proposals: []

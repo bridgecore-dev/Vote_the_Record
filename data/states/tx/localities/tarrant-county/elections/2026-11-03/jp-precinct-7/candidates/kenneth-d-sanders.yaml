@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: kenneth-d-sanders
 name: Kenneth D. Sanders
-incumbent: null
+incumbent: true
 ballot_party: DEM
 records: []
-funding: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-7/candidates/kenneth-d-sanders#M-01
+  headline: Raised $8,905 and had $16,049 on hand (Jul 1, 2026 - Sep 30, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 30, 2026, filed with Tarrant County Elections Administration on Oct 5, 2026: $8,905.00 in total political contributions, $17,123.68 in total political expenditures, $16,049.06 in contributions on hand at the end of the period, and $78,390.83 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/772ED7A9-AA84-4FFA-BE29-4FBBAEB8182B/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Sanders, Kenneth (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 1dff40d53b2fe35ac88ea9bc92f356429cb5b8879a9261b3b95162c62d932845
+  archive_url: null
+  event_date: '2026-09-30'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Tarrant County's Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Sanders, Kenneth", office "JUSTICE OF THE PEACE, PRECINCT NO. 7", document "COH 30 DAY GEN 2026" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
   policy_proposals: []

@@ -4,7 +4,24 @@ name: Brad Clark
 incumbent: null
 ballot_party: REP
 records: []
-funding: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-5/candidates/brad-clark#M-01
+  headline: Raised $2,527 and had $1,256 on hand (Jul 1, 2026 - Sep 30, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 30, 2026, filed with Tarrant County Elections Administration on Oct 5, 2026: $2,526.98 in total political contributions, $11,643.53 in total political expenditures, $1,256.30 in contributions on hand at the end of the period, and $92,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/A173F74A-434B-4446-9062-50B97E4F6853/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Clark, Bradley (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 90f0da60a25eac9ccdb73fb3115c4ec49d743ee0a826365dc4b633684c34ce12
+  archive_url: null
+  event_date: '2026-09-30'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Tarrant County's Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Clark, Bradley", office "JUDGE, COUNTY CRIMINAL COURT NO. 5", document "JCOH 30 DAY GEN 2026" (JCOH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
   policy_proposals: []

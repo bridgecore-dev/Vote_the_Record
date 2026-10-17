@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: rodney-lee
 name: Rodney Lee
-incumbent: null
+incumbent: false
 ballot_party: DEM
 records: []
-funding: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-4/candidates/rodney-lee#M-01
+  headline: Raised $3,690 and had $311 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Tarrant County Elections Administration on Oct 5, 2026: $3,690.00 in total political contributions, $3,780.10 in total political expenditures, $310.85 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/23DA7C6B-7C06-4109-A274-AE172EF5BE5A/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Lee, Rodney (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: e70972fe8ed9a597b9aee566fab6744f842634c83efd4eee7b4c299b8cd59eee
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Tarrant County''s Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Lee, Rodney", office "JUSTICE OF THE PEACE, PRECINCT NO. 4", document "JCOH 30 DAY GEN 2026" (JCOH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: handwritten, legible. Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
   policy_proposals: []

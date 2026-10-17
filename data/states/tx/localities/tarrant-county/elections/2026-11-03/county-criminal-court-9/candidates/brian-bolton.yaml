@@ -4,7 +4,24 @@ name: Brian Bolton
 incumbent: null
 ballot_party: REP
 records: []
-funding: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-9/candidates/brian-bolton#M-01
+  headline: Raised $36,868 (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Tarrant County Elections Administration on Sep 28, 2026: $36,868.00 in total political contributions, $5,299.22 in total political expenditures, and $1,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/284A359D-01F3-46BF-B29C-A6A4FCD4AC97/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Bolton, Brian (filed Sep 28, 2026)'
+  source_kind: document
+  sha256: 1065b29967d5b8a57041a4d9b91801ff48e168227f86c8b846ab82cdbabb72e5
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Tarrant County''s Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Bolton, Brian", office "JUDGE, COUNTY CRIMINAL COURT NO. 9", document "JCOH 30 DAY GEN 2026" (JCOH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: handwritten; the on-hand figure is not clearly legible, left out. Left out: contributions on hand. Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
   policy_proposals: []

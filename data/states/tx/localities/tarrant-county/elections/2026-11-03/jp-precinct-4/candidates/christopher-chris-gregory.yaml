@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: christopher-chris-gregory
 name: Christopher 'Chris' Gregory
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
-funding: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-4/candidates/christopher-chris-gregory#M-01
+  headline: Raised $6,652 and had $31,048 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Corrected campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Tarrant County Elections Administration on Oct 5, 2026: $6,652.41 in total political contributions, $14,920.24 in total political expenditures, $31,048.14 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/AABD10F7-F99C-4411-8003-F22047DD0D0E/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Gregory, Christopher (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 932da8bba517da1c129c08988f3b2af74acf33152781fbd8afa72be67ff26bff
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Tarrant County''s Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Gregory, Christopher", office "JUSTICE OF THE PEACE, PRECINCT NO. 4", document "COR_COH 30 DAY GEN 2026" (COR-COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: corrected report (missed an entry). Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
   policy_proposals: []

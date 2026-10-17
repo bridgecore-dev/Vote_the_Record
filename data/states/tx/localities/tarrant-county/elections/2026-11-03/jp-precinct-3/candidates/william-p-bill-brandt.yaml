@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: william-p-bill-brandt
 name: William P. 'Bill' Brandt
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
 funding: []

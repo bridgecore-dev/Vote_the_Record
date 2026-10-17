@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: alan-blaylock
 name: Alan Blaylock
-incumbent: null
+incumbent: false
 ballot_party: REP
 records: []
-funding: []
+funding:
+- id: tx/districts/state-house-93/elections/2026-11-03/state-representative-unexpired/candidates/alan-blaylock#M-01
+  headline: Raised $154,131 and had $99,311 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $154,130.93 in total political contributions, $105,521.01 in total political expenditures, $99,311.17 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068812.PDF
+  source_title: 'Texas Ethics Commission: Blaylock, Alan J. (Mr.), campaign finance report 101068812 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 81dd84a0c1b7bdc1a69e15b7ddf8413bc4372353bb96a113560567c91ef5562b
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101068812, form COH, TEC report type E30DAYBEF; filer ID 00090243 (Blaylock, Alan J. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

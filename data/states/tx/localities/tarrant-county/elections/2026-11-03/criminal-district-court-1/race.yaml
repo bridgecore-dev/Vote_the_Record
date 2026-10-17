@@ -21,3 +21,36 @@ sources:
   verified_on: null
   reviewer: null
   notes: A sample ballot for one ballot style (one precinct part), from the county's Find My Ballot service (https://gisit.tarrantcounty.com/findmyballot/). The county posts no all-contest ballot; every style was collected by asking the service for each of the county's 1,703 voting sub-precincts. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/tarrant-county/elections/2026-11-03/criminal-district-court-1/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Tarrant County: Criminal District Court No. 1), checked on October 17, 2026, lists "Judge Elizabeth H. Beach" as holding this office; none of the candidates in this race is listed as the current officeholder.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.tarrantcountytx.gov/en/criminal-courts/felony-courts/criminal-district-court-1.html
+  source_title: 'Tarrant County: Criminal District Court No. 1'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-17'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+- id: tx/localities/tarrant-county/elections/2026-11-03/criminal-district-court-1/race#S-FUND
+  headline: Campaign finance search with no recent report
+  statement: The Texas Ethics Commission's campaign finance data, downloaded October 7, 2026, has no report for a period ending on or after 2025-01-01 for Cindy Stormer.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip
+  source_title: 'Texas Ethics Commission: Campaign Finance Data, bulk CSV download'
+  source_kind: document
+  sha256: b933efb41afff103ee1950962fc2d4b0056e3d0e4e61016ca83a3e5bdd2458d6
+  archive_url: null
+  event_date: '2026-10-07'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Searched filers.csv and cover.csv (candidate and judicial officeholder filers) by name, with office and district checks for nicknames. Absence in the bulk data is not proof that no report exists; check TEC's search at https://www.ethics.state.tx.us/search/cf/. The bulk file is too large for the Wayback Machine.

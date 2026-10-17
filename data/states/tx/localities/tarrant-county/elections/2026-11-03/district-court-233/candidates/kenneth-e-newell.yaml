@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: kenneth-e-newell
 name: Kenneth E. Newell
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
-funding: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/district-court-233/candidates/kenneth-e-newell#M-01
+  headline: Had $2,455 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 3, 2026: $2,455.14 in contributions on hand at the end of the period, and $5,000.00 in outstanding loans. The report data lists no amount for total political contributions or total political expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101056993.PDF
+  source_title: 'Texas Ethics Commission: Newell, Kenneth E. (The Honorable), campaign finance report 101056993 (filed Jul 3, 2026)'
+  source_kind: document
+  sha256: 9284d5d5edb33b9c94bd32893f57a28b56e18f650a0053702a4f603fc480d17e
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101056993, form JCOH, TEC report type SEMIJUL; filer ID 00081841 (Newell, Kenneth E. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

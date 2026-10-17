@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: cheryl-bean
 name: Cheryl Bean
-incumbent: null
+incumbent: false
 ballot_party: REP
 records: []
-funding: []
+funding:
+- id: tx/districts/state-house-94/elections/2026-11-03/state-representative/candidates/cheryl-bean#M-01
+  headline: Raised $364,677 and had $89,561 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $364,676.87 in total political contributions, $210,329.13 in total political expenditures, $89,560.84 in contributions on hand at the end of the period, and $155,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069411.PDF
+  source_title: 'Texas Ethics Commission: Bean, Cheryl (Ms.), campaign finance report 101069411 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 0b2bd3a761debfde013379d763e56ae08555571b73f9b30c1097f658561b69fb
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101069411, form COH, TEC report type E30DAYBEF; filer ID 00088177 (Bean, Cheryl (Ms.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

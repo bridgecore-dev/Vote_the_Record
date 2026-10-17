@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: randi-hartin
 name: Randi Hartin
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
-funding: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-6/candidates/randi-hartin#M-01
+  headline: Raised $50 and had $5,805 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, filed with Tarrant County Elections Administration on Jul 15, 2026: $50.00 in total political contributions, $614.13 in total political expenditures, $5,804.91 in contributions on hand at the end of the period, and $25,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/6AEB3D19-0E22-4DBD-89C4-E0C1D76C8438/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Hartin, Randi (filed Jul 15, 2026)'
+  source_kind: document
+  sha256: 63d528d0ea7091b247a78c582bf304c4cfc18f68f9a0b0994d807bd9c8cf62e3
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Tarrant County's Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Hartin, Randi", office "JUDGE, COUNTY CRIMINAL COURT NO. 6", document "COH JUL 2026" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
   policy_proposals: []

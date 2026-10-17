@@ -22,3 +22,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: A sample ballot for one ballot style (one precinct part), from the county's Find My Ballot service (https://gisit.tarrantcounty.com/findmyballot/). The county posts no all-contest ballot; every style was collected by asking the service for each of the county's 1,703 voting sub-precincts. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/districts/state-house-93/elections/2026-11-03/state-representative-unexpired/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Texas House of Representatives: member page, District 93), checked on October 17, 2026, shows the office as vacant. The page names no member for District 93. None of the candidates currently holds this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://house.texas.gov/members/member-page/?district=93
+  source_title: 'Texas House of Representatives: member page, District 93'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-17'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null

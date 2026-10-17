@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: jared-williams
 name: Jared Williams
-incumbent: null
+incumbent: false
 ballot_party: DEM
 records: []
-funding: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/commissioner-precinct-2/candidates/jared-williams#M-01
+  headline: Raised $11,509 and had $6,440 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Tarrant County Elections Administration on Oct 6, 2026: $11,508.99 in total political contributions, $4,592.14 in total political expenditures, $6,439.91 in contributions on hand at the end of the period, and $17,637.79 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/24907348-87AF-4D1A-879D-79721DC3633F/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Williams, Jared (filed Oct 6, 2026)'
+  source_kind: document
+  sha256: 3a9f90e26ca10e86194dc39ed3f20ba562855e82632a7ad97182a3e662a5c279
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Tarrant County's Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Williams, Jared", office "COUNTY COMMISSIONER, PRECINCT NO. 2", document "COH 30 DAY GEN 2026" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
   policy_proposals: []

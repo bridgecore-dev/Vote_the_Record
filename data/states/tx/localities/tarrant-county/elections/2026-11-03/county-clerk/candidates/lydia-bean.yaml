@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: lydia-bean
 name: Lydia Bean
-incumbent: null
+incumbent: false
 ballot_party: DEM
 records: []
-funding: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/county-clerk/candidates/lydia-bean#M-01
+  headline: Raised $31,636 and had $65,309 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Tarrant County Elections Administration on Oct 5, 2026: $31,635.68 in total political contributions, $10,807.08 in total political expenditures, $65,308.90 in contributions on hand at the end of the period, and $2,996.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/E4CB0A21-95E3-4254-819E-EB1F1E702A92/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Bean, Lydia (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 2bb1036e5b58777efbdd4a6ccc0b55d8119e609bd3045a3aa34fd49e13410e71
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Tarrant County's Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Bean, Lydia", office "COUNTY CLERK", document "COH 30 DAY GEN 2026" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
   policy_proposals: []

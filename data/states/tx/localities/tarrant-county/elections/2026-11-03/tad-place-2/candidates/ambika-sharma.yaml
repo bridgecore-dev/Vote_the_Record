@@ -4,7 +4,24 @@ name: Ambika Sharma
 incumbent: null
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/tad-place-2/candidates/ambika-sharma#M-01
+  headline: Raised $511 and had $511 on hand (Aug 17, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Aug 17, 2026 - Sep 24, 2026, filed with Tarrant County Elections Administration on Oct 5, 2026: $511.48 in total political contributions, $0.00 in total political expenditures, $511.48 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/7F8563F5-E701-4879-A94A-EB24D58266FE/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Sharma, Ambika (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 05591c1ff6b9a88ca288496132c1e178477708f83998e8ecf97c93a0ad963c44
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Tarrant County's Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Sharma, Ambika", office "TARRANT APPRAISAL DISTRICT BOARD MEMBER - PLACE 2", document "COH 30 DAY GEN 2026" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
   policy_proposals: []
