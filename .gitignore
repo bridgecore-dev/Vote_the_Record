@@ -34,3 +34,6 @@ node_modules/
 
 # Local reviewer name for src/review/review.py
 .reviewer
+
+# Personal Claude Code permissions (not shared)
+.claude/settings.local.json

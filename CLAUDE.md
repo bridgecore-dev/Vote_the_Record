@@ -49,8 +49,8 @@ owner sets `verified`, `verified_on`, and `reviewer`, on facts and on mappings a
 Never change these fields on an existing entry. The site shows an "Unverified" badge on
 every unverified item.
 
-Every edit under `data/` requires the owner's approval. `.claude/settings.json` enforces
-this with an `ask` rule and a PreToolUse hook. Don't work around it.
+Claude may write under `data/` without asking first (owner's decision, 2026-10-18). Every report
+lists what changed under `data/` so the owner can review it before saying "commit".
 
 ## 4. Survey questions are hypotheticals tied to the office's powers
 Survey questions are hypothetical scenarios that the office could actually face. Each one

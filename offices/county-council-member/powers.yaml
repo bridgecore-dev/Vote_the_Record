@@ -1,0 +1,3 @@
+office_type: county-council-member
+level: county
+powers: []   # state powers: data/states/<st>/office-overrides/county-council-member.yaml

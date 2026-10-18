@@ -1,0 +1,14 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: cobi-clark
+name: Cobi Clark
+incumbent: null
+ballot_party: Prefers Libertarian Party
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

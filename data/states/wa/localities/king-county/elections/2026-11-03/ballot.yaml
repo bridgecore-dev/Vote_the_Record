@@ -1,0 +1,139 @@
+# Contests on this ballot, in ballot order. complete: false until every contest is added.
+name: King County ballot
+election_date: '2026-11-03'
+lookup_url: https://info.kingcounty.gov/kcelections/vote/myvoterinfo.aspx
+complete: false
+sources:
+- id: wa/localities/king-county/elections/2026-11-03/ballot#S-01
+  headline: Every contest on the sample ballot
+  statement: The King County Elections' sample ballot for the November 3, 2026 general and special election lists every contest on this ballot.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://cdn.kingcounty.gov/-/media/king-county/depts/elections/current-election/2026/11/sample-ballot.pdf?rev=ddaa4d38e7dd4f0e81025944a419a679&hash=895ADB51E1998F1D24C40AE595A68F95
+  source_title: 'King County Elections: November 3, 2026 Official General and Special Election Ballot, King County, Washington (sample ballot)'
+  source_kind: document
+  sha256: 7470c8db740b2845deffb62e5f2401f01dd8fb288ecf813356d4dcfbdb707db8
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's sample ballot, which says it "contains all races and measures in King County." Names and wording are from the PDF's text layer, kept as printed. Candidates for partisan office are listed with the party preference printed under their names.
+contests:
+- wa/statewide/elections/2026-11-03/initiative-ip26-645
+- wa/statewide/elections/2026-11-03/initiative-il26-001
+- wa/statewide/elections/2026-11-03/initiative-il26-638
+- wa/districts/us-house-1/elections/2026-11-03/us-representative
+- wa/districts/us-house-7/elections/2026-11-03/us-representative
+- wa/districts/us-house-8/elections/2026-11-03/us-representative
+- wa/districts/us-house-9/elections/2026-11-03/us-representative
+- wa/districts/legislative-district-1/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-1/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-5/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-5/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-11/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-11/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-12/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-12/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-30/elections/2026-11-03/state-senator
+- wa/districts/legislative-district-30/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-30/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-31/elections/2026-11-03/state-senator
+- wa/districts/legislative-district-31/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-31/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-32/elections/2026-11-03/state-senator
+- wa/districts/legislative-district-32/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-32/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-33/elections/2026-11-03/state-senator
+- wa/districts/legislative-district-33/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-33/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-34/elections/2026-11-03/state-senator
+- wa/districts/legislative-district-34/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-34/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-36/elections/2026-11-03/state-senator
+- wa/districts/legislative-district-36/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-36/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-37/elections/2026-11-03/state-senator
+- wa/districts/legislative-district-37/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-37/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-41/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-41/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-43/elections/2026-11-03/state-senator
+- wa/districts/legislative-district-43/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-43/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-45/elections/2026-11-03/state-senator
+- wa/districts/legislative-district-45/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-45/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-46/elections/2026-11-03/state-senator
+- wa/districts/legislative-district-46/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-46/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-47/elections/2026-11-03/state-senator
+- wa/districts/legislative-district-47/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-47/elections/2026-11-03/representative-position-2
+- wa/districts/legislative-district-48/elections/2026-11-03/state-senator
+- wa/districts/legislative-district-48/elections/2026-11-03/representative-position-1
+- wa/districts/legislative-district-48/elections/2026-11-03/representative-position-2
+- wa/localities/king-county/elections/2026-11-03/prosecuting-attorney
+- wa/localities/king-county/elections/2026-11-03/assessor
+- wa/localities/king-county/elections/2026-11-03/director-of-elections
+- wa/localities/king-county/elections/2026-11-03/council-district-2
+- wa/localities/king-county/elections/2026-11-03/council-district-4
+- wa/localities/king-county/elections/2026-11-03/council-district-6
+- wa/localities/king-county/elections/2026-11-03/council-district-8
+- wa/statewide/elections/2026-11-03/supreme-court-position-1
+- wa/statewide/elections/2026-11-03/supreme-court-position-3
+- wa/statewide/elections/2026-11-03/supreme-court-position-4
+- wa/statewide/elections/2026-11-03/supreme-court-position-5
+- wa/statewide/elections/2026-11-03/supreme-court-position-7
+- wa/districts/court-of-appeals-1-1/elections/2026-11-03/judge-position-5
+- wa/districts/court-of-appeals-1-1/elections/2026-11-03/judge-position-6
+- wa/localities/king-county/elections/2026-11-03/district-court-northeast-position-1
+- wa/localities/king-county/elections/2026-11-03/district-court-northeast-position-2
+- wa/localities/king-county/elections/2026-11-03/district-court-northeast-position-3
+- wa/localities/king-county/elections/2026-11-03/district-court-northeast-position-4
+- wa/localities/king-county/elections/2026-11-03/district-court-northeast-position-5
+- wa/localities/king-county/elections/2026-11-03/district-court-northeast-position-6
+- wa/localities/king-county/elections/2026-11-03/district-court-northeast-position-7
+- wa/localities/king-county/elections/2026-11-03/district-court-shoreline-position-1
+- wa/localities/king-county/elections/2026-11-03/district-court-shoreline-position-2
+- wa/localities/king-county/elections/2026-11-03/district-court-southeast-position-1
+- wa/localities/king-county/elections/2026-11-03/district-court-southeast-position-2
+- wa/localities/king-county/elections/2026-11-03/district-court-southeast-position-3
+- wa/localities/king-county/elections/2026-11-03/district-court-southeast-position-4
+- wa/localities/king-county/elections/2026-11-03/district-court-southeast-position-5
+- wa/localities/king-county/elections/2026-11-03/district-court-southeast-position-6
+- wa/localities/king-county/elections/2026-11-03/district-court-southwest-position-1
+- wa/localities/king-county/elections/2026-11-03/district-court-southwest-position-2
+- wa/localities/king-county/elections/2026-11-03/district-court-southwest-position-3
+- wa/localities/king-county/elections/2026-11-03/district-court-southwest-position-4
+- wa/localities/king-county/elections/2026-11-03/district-court-southwest-position-5
+- wa/localities/king-county/elections/2026-11-03/district-court-west-position-1
+- wa/localities/king-county/elections/2026-11-03/district-court-west-position-2
+- wa/localities/king-county/elections/2026-11-03/district-court-west-position-3
+- wa/localities/king-county/elections/2026-11-03/district-court-west-position-4
+- wa/localities/king-county/elections/2026-11-03/district-court-west-position-5
+- wa/localities/city-of-bothell/elections/2026-11-03/proposition-1
+- wa/localities/city-of-clyde-hill/elections/2026-11-03/proposition-1
+- wa/localities/city-of-issaquah/elections/2026-11-03/proposition-1
+- wa/localities/city-of-kenmore/elections/2026-11-03/proposition-1
+- wa/localities/city-of-lake-forest-park/elections/2026-11-03/proposition-1
+- wa/localities/city-of-milton/elections/2026-11-03/proposition-1
+- wa/localities/city-of-seatac/elections/2026-11-03/proposition-1
+- wa/localities/city-of-seattle/elections/2026-11-03/council-district-5
+- wa/localities/city-of-seattle/elections/2026-11-03/municipal-court-position-1
+- wa/localities/city-of-seattle/elections/2026-11-03/municipal-court-position-2
+- wa/localities/city-of-seattle/elections/2026-11-03/municipal-court-position-3
+- wa/localities/city-of-seattle/elections/2026-11-03/municipal-court-position-4
+- wa/localities/city-of-seattle/elections/2026-11-03/municipal-court-position-5
+- wa/localities/city-of-seattle/elections/2026-11-03/municipal-court-position-6
+- wa/localities/city-of-seattle/elections/2026-11-03/municipal-court-position-7
+- wa/localities/city-of-seattle/elections/2026-11-03/proposition-1
+- wa/localities/city-of-shoreline/elections/2026-11-03/proposition-1
+- wa/localities/auburn-sd-408/elections/2026-11-03/proposition-1
+- wa/localities/highline-sd-401/elections/2026-11-03/proposition-1
+- wa/localities/highline-sd-401/elections/2026-11-03/proposition-2
+- wa/localities/kent-sd-415/elections/2026-11-03/proposition-1
+- wa/localities/king-county-fpd-20/elections/2026-11-03/proposition-1
+- wa/localities/king-county-cemetery-district-1/elections/2026-11-03/proposition-1

@@ -1,0 +1,4 @@
+office_type: municipal-court-judge
+level: local
+judicial: true
+powers: []   # state powers: data/states/<st>/office-overrides/municipal-court-judge.yaml

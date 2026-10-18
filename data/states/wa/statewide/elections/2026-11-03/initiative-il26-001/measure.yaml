@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: Initiative Measure No. IL26-001
+election_date: '2026-11-03'
+kind: other
+ballot_text: Initiative Measure No. IL26-001 concerns parental rights relating to their children in public school. This measure would repeal amendments to a statute listing certain rights of parents and guardians of public-school children and re-enact the law as it was originally enacted by Initiative to the Legislature 2081. Should this measure be enacted into law?
+choices:
+- 'Yes'
+- 'No'
+explained: []
+sources:
+- id: wa/statewide/elections/2026-11-03/initiative-il26-001/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The King County Elections'' sample ballot for the November 3, 2026 general and special election prints "Initiative Measure No. IL26-001" on page 1 with the choices Yes and No and this English wording: "Initiative Measure No. IL26-001 concerns parental rights relating to their children in public school. This measure would repeal amendments to a statute listing certain rights of parents and guardians of public-school children and re-enact the law as it was originally enacted by Initiative to the Legislature 2081. Should this measure be enacted into law?"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://cdn.kingcounty.gov/-/media/king-county/depts/elections/current-election/2026/11/sample-ballot.pdf?rev=ddaa4d38e7dd4f0e81025944a419a679&hash=895ADB51E1998F1D24C40AE595A68F95
+  source_title: 'King County Elections: November 3, 2026 Official General and Special Election Ballot, King County, Washington (sample ballot) (page 1)'
+  source_kind: document
+  sha256: 7470c8db740b2845deffb62e5f2401f01dd8fb288ecf813356d4dcfbdb707db8
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's sample ballot, which says it "contains all races and measures in King County." Names and wording are from the PDF's text layer, kept as printed. Candidates for partisan office are listed with the party preference printed under their names.

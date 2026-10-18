@@ -1,0 +1,4 @@
+office_type: district-court-judge
+level: county
+judicial: true
+powers: []   # state powers: data/states/<st>/office-overrides/district-court-judge.yaml
