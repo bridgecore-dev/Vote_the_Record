@@ -16,7 +16,14 @@ import yaml
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "validate"))
 from validate import _NoDateLoader, classify, measure_level, race_area, race_parts  # noqa: E402
 
-STATE_NAMES = {"TX": "Texas"}
+# Per-state wording used on pages. Add a state here before adding its data.
+STATES = {
+    "TX": {"name": "Texas", "judicial_code": "the Texas Code of Judicial Conduct",
+           "address_example": "1001 Preston St, Houston, TX", "zip_example": "77002"},
+    "WA": {"name": "Washington", "judicial_code": "the Washington Code of Judicial Conduct",
+           "address_example": "500 4th Ave, Seattle, WA", "zip_example": "98104"},
+}
+STATE_NAMES = {code: s["name"] for code, s in STATES.items()}
 
 
 def load_yaml(path: Path):
@@ -49,7 +56,7 @@ def race_location(rel: str) -> dict:
 LEVELS = [
     ("local", "Closest to home", "City, school district, and neighborhood offices and questions."),
     ("county", "Your county", "County government and the local courts."),
-    ("state", "Your state", "Texas government, lawmakers, and state courts."),
+    ("state", "Your state", "{state} government, lawmakers, and state courts."),
     ("federal", "National", "Congress: your U.S. senators and representative."),
 ]
 LEVEL_RANK = {key: i for i, (key, _, _) in enumerate(LEVELS)}
@@ -65,7 +72,8 @@ def assemble_ballot(docs: dict, rel: str, doc: dict, races_by_path: dict, root: 
     for key, title, blurb in LEVELS:
         members = [{"n": i, "race": r} for i, r in enumerate(ranked) if r["level"] == key]
         if members:
-            groups.append({"level": key, "title": title, "blurb": blurb, "races": members})
+            groups.append({"level": key, "title": title, "blurb": blurb.format(state=STATE_NAMES.get(state.upper(), state.upper())),
+                           "races": members})
     zips_doc = docs.get(f"{folder}/zips.yaml", (None, None))[1] or {}
     has_shapes = bool(root) and (root / folder / "precinct-shapes.json").is_file()
     has_area_shapes = has_shapes and (root / folder / "area-shapes.json").is_file()
@@ -103,6 +111,8 @@ def assemble_ballot(docs: dict, rel: str, doc: dict, races_by_path: dict, root: 
     }
     return {
         "name": doc["name"], "state": state, "locality": locality, "election_date": date,
+        "state_info": STATES.get(state.upper(), {"name": state.upper(), "judicial_code": "the state's code of judicial conduct",
+                                                 "address_example": "", "zip_example": ""}),
         "url": f"/ballot/{state}/{locality}/{date}/",
         "lookup_url": doc.get("lookup_url"), "sources": doc["sources"],
         "complete": doc.get("complete", True),

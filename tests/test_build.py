@@ -790,3 +790,22 @@ def test_topic_labels_must_match_the_schema(tmp_path):
     path = tmp_path / "site.yaml"
     path.write_text(yaml.safe_dump(config), encoding="utf-8")
     assert build(REPO / "tests" / "fixtures" / "demo", tmp_path / "dist", demo=True, config_path=path) == 1
+
+
+def test_second_state_builds_with_its_own_wording(tmp_path):
+    """The demo repo moved to Washington (states/wa) builds, and its ballot page uses Washington wording."""
+    root = tmp_path / "wa"
+    shutil.copytree(DEMO, root)
+    shutil.move(root / "data/states/tx", root / "data/states/wa")
+    for f in (root / "data/states/wa").rglob("*"):
+        if f.suffix in (".yaml", ".json"):
+            text = f.read_text(encoding="utf-8")
+            text = re.sub(r"\btx/", "wa/", text).replace("state: TX", "state: WA").replace('"TX"', '"WA"')
+            f.write_text(text, encoding="utf-8")
+    out = tmp_path / "dist"
+    assert build(root, out, demo=True, today="2026-09-29") == 0
+    html = read(out, "ballot/wa/demo-county/2026-11-03/index.html")
+    assert "Washington government" in html and "Texas" not in html
+    assert 'placeholder="98104"' in html
+    if 'id="ballot-quiz"' in html:
+        assert "the Washington Code of Judicial Conduct bars" in html
