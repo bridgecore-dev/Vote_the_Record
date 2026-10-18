@@ -1,0 +1,28 @@
+# Powers of a Justice of the Washington Supreme Court.
+# Text checked against the Washington Constitution (the leg.wa.gov PDF, dated 12/11/2025) and the Revised Code of
+# Washington (app.leg.wa.gov) on 2026-10-18.
+office_type: supreme-court-justice
+state: WA
+powers:
+  - id: P-TERM
+    description: One of nine justices, elected statewide to six-year terms. Three seats are up at each general election every two years.
+    statute: RCW 2.04.070, 2.04.071; Washington Constitution art. IV, § 3
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=2.04.071
+
+  - id: P-APPEALS
+    description: The state's highest court. It hears appeals in all kinds of cases, and some cases, such as death penalty cases, go to it directly.
+    statute: Washington Constitution art. IV, § 4; RCW 2.06.030
+    source_url: https://leg.wa.gov/media/o3fg0ey1/washington-state-constitution.pdf
+    topics: [courts-justice]
+
+plain_summary:
+  intro:
+    text: Washington's highest court. It has the final word on state law in both civil and criminal cases.
+    powers: [P-APPEALS]
+  points:
+    - text: Hears appeals and has the final word on Washington law
+      icon: court
+      powers: [P-APPEALS]
+    - text: Nine justices with six-year terms; three seats are up every two years
+      icon: vote
+      powers: [P-TERM]

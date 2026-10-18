@@ -16,6 +16,7 @@ scenarios:
   - id: S-01
     title: Budget deficit
     powers: [P-BUDGET, P-TAX-RATE]
+    states: [TX]
     scenario: The district projects a budget deficit next year. Which would you push for first?
     options:
       - {id: A, text: "Raise the tax rate, even if voters must approve it in an election", tags: [raise-revenue]}
@@ -25,6 +26,7 @@ scenarios:
   - id: S-02
     title: Half-empty schools
     powers: [P-GOVERN, P-BUDGET]
+    states: [TX]
     scenario: Several schools are running at about half of their capacity, and the district spends more per student to keep them open. What do you support?
     options:
       - {id: A, text: Consolidate some schools and move students to nearby campuses, tags: [consolidate-schools]}
@@ -34,6 +36,7 @@ scenarios:
   - id: S-03
     title: A struggling school
     powers: [P-GOVERN, P-SUPERINTENDENT]
+    states: [TX]
     scenario: State law requires a turnaround plan for a school that has failed state ratings for several years in a row. Which plan do you support?
     options:
       - {id: A, text: Close the school and reassign students to higher-rated campuses, tags: [close-and-reassign]}

@@ -1,0 +1,35 @@
+# Powers of a Washington municipal court judge. Seattle's court is set up under RCW chapter 35.20 (cities
+# over 400,000 people). Text checked against app.leg.wa.gov on 2026-10-18.
+office_type: municipal-court-judge
+state: WA
+powers:
+  - id: P-TERM
+    description: Elected citywide to a four-year term. The election is nonpartisan.
+    statute: RCW 35.20.150
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=35.20.150
+    only_in: [city-of-seattle]
+
+  - id: P-ORDINANCES
+    description: Municipal courts hear cases charging violations of the city's ordinances.
+    statute: RCW 3.50.020; RCW 35.20.030
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=3.50.020
+    topics: [courts-justice]
+
+  - id: P-SENTENCES
+    description: In Seattle's court, a sentence for violating a city ordinance can be up to 364 days in the city jail and a $5,000 fine.
+    statute: RCW 35.20.030
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=35.20.030
+    only_in: [city-of-seattle]
+    topics: [courts-justice]
+
+plain_summary:
+  intro:
+    text: A city judge who hears cases about violations of city laws, such as misdemeanors and traffic offenses.
+    powers: [P-ORDINANCES]
+  points:
+    - text: Hears cases charging violations of city laws
+      icon: gavel
+      powers: [P-ORDINANCES]
+    - text: Four-year terms, elected citywide
+      icon: vote
+      powers: [P-TERM]

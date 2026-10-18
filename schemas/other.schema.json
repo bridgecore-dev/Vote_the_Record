@@ -411,6 +411,7 @@
               "id": { "type": "string", "pattern": "^S-\\d{2,}$" },
               "title": { "description": "Short label (a few words) for results tables.", "type": "string", "minLength": 1, "maxLength": 40 },
               "powers": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^P-[A-Z0-9-]+$" } },
+              "states": { "description": "Two-letter codes of the states this scenario was written for; omitted = every state where its powers apply.", "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "pattern": "^[A-Z]{2}$" } },
               "scenario": { "type": "string", "minLength": 1 },
               "options": {
                 "type": "array",

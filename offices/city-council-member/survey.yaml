@@ -1,6 +1,6 @@
 # DRAFT for owner review (2026-10-04): hypothetical scenarios for a city council member. Every
-# scenario cites the powers it rests on; for Texas those are in
-# data/states/tx/office-overrides/city-council-member.yaml.
+# scenario cites the powers it rests on, found in each state's override, e.g.
+# data/states/tx/office-overrides/city-council-member.yaml and data/states/wa/office-overrides/city-council-member.yaml.
 office_type: city-council-member
 tags:
   - raise-revenue

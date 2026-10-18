@@ -1,0 +1,39 @@
+# Powers of a Washington district court judge (a county court of limited jurisdiction).
+# Text checked against the Revised Code of Washington (app.leg.wa.gov) on 2026-10-18.
+office_type: district-court-judge
+state: WA
+powers:
+  - id: P-TERM
+    description: Elected to a four-year term.
+    statute: RCW 3.34.070
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=3.34.070
+
+  - id: P-ELECTORAL-DISTRICTS
+    description: In a county with a city of more than 400,000 people, district court judges are elected from separate electoral districts within the county.
+    statute: RCW 3.38.070; RCW 3.34.050
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=3.38.070
+    only_in: [king-county]
+
+  - id: P-CRIMINAL
+    description: Hears misdemeanor and gross misdemeanor cases, with sentences of up to one year in jail and a $5,000 fine, and traffic infractions.
+    statute: RCW 3.66.060
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=3.66.060
+    topics: [courts-justice]
+
+  - id: P-CIVIL
+    description: Hears civil cases worth up to $100,000 per claimant, and small claims cases up to $10,000 brought by a person.
+    statute: RCW 3.66.020; RCW 12.40.010
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=3.66.020
+    topics: [courts-justice]
+
+plain_summary:
+  intro:
+    text: A county judge who handles misdemeanors, traffic cases, and smaller civil cases and small claims.
+    powers: [P-CRIMINAL, P-CIVIL]
+  points:
+    - text: Hears misdemeanor and traffic cases
+      icon: gavel
+      powers: [P-CRIMINAL]
+    - text: Hears civil cases up to $100,000 and small claims
+      icon: court
+      powers: [P-CIVIL]

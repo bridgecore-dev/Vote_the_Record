@@ -24,6 +24,7 @@ scenarios:
   - id: S-01
     title: Budget shortfall
     powers: [P-BUDGET, P-TAX-RATE]
+    states: [TX]
     scenario: Mid-year, county revenue comes in well below projections, leaving a gap in next year's budget. Which would you push for first?
     options:
       - {id: A, text: Raise the property tax rate to close the gap, tags: [raise-revenue]}
@@ -33,6 +34,7 @@ scenarios:
   - id: S-02
     title: Storm approaching
     powers: [P-DISASTER, P-EVACUATION, P-EMERGENCY-DIRECTOR]
+    states: [TX]
     scenario: A major storm may reach the county in three days. Acting early frees up resources and gives people more time, but costs money and disruption if the storm shifts. What do you do?
     options:
       - {id: A, text: Declare a local disaster now and order evacuation of the most vulnerable areas, tags: [evacuate-early]}
@@ -42,6 +44,7 @@ scenarios:
   - id: S-03
     title: Emergency repair contract
     powers: [P-CONTRACTS, P-DISASTER]
+    states: [TX]
     scenario: After a disaster, the county needs debris removal and repairs worth tens of millions of dollars. The law lets the court skip competitive bidding in a public calamity. Which approach do you support?
     options:
       - {id: A, text: "Use the exemption and sign contracts within days, then audit afterward", tags: [fast-contracting]}
@@ -51,6 +54,7 @@ scenarios:
   - id: S-04
     title: Extending a disaster declaration
     powers: [P-DISASTER]
+    states: [TX]
     scenario: A disaster declaration you issued will expire in seven days unless the Commissioners Court consents to continue it. Recovery is under way but uneven. What do you ask the court to do?
     options:
       - {id: A, text: Continue it for as long as emergency officials recommend, tags: [extend-as-recommended]}
@@ -60,6 +64,7 @@ scenarios:
   - id: S-05
     title: Redrawing voting precincts
     powers: [P-PRECINCTS]
+    states: [TX]
     scenario: Population growth means the county's election precincts must be redrawn. Which goal should guide the new lines?
     options:
       - {id: A, text: "Fewer, larger precincts, to lower election costs", tags: [fewer-precincts]}
@@ -69,6 +74,7 @@ scenarios:
   - id: S-06
     title: New public-safety technology
     powers: [P-CONTRACTS]
+    states: [TX]
     scenario: The sheriff's office asks the court to approve a five-year, multimillion-dollar detection technology contract. Early results from other places are mixed. What do you do?
     options:
       - {id: A, text: Approve the full five-year contract, tags: [approve-full]}
