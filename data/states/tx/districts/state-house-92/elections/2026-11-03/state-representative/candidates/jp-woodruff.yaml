@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: jp-woodruff
 name: JP Woodruff
 incumbent: false
@@ -24,7 +24,24 @@ funding:
   notes: Report ID 101069836, form COH, TEC report type E30DAYBEF; filer ID 00089637 (Woodruff, James P. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/state-house-92/elections/2026-11-03/state-representative/candidates/jp-woodruff#O-01
+    headline: Lower and eventually end homeowners' property taxes
+    statement: 'Campaign website: "Finding ways to lower homeowners’ property tax burden with the long-term goal of reducing or eliminating it if possible."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://woodruff4texas.org/
+    source_title: JP Woodruff for Texas (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

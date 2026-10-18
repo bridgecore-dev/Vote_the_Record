@@ -2,7 +2,6 @@
 name: State Senator, District 22 (Unexpired Term)
 office_type: state-senator
 election_date: '2026-11-03'
-detail: basic
 notes: A special election for the rest of the current term, held with the general election (Tarrant County special election order); a separate contest from the regular election for the full term.
 sources:
 - id: tx/districts/state-senate-22/elections/2026-11-03/state-senator-unexpired/race#S-01

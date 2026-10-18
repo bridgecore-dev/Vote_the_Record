@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: alan-blaylock
 name: Alan Blaylock
 incumbent: false
@@ -24,7 +24,41 @@ funding:
   notes: Report ID 101068812, form COH, TEC report type E30DAYBEF; filer ID 00090243 (Blaylock, Alan J. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/state-house-93/elections/2026-11-03/state-representative-unexpired/candidates/alan-blaylock#O-01
+    headline: Permanent structural property tax cuts
+    statement: 'Campaign website: "Alan will work to pass permanent, structural property tax cuts that prevent sudden, unexpected valuation spikes, keeping hard-earned money where it belongs—in your pocket."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.alanblaylock.com/
+    source_title: Alan Blaylock (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-93/elections/2026-11-03/state-representative-unexpired/candidates/alan-blaylock#O-02
+    headline: State money for Tarrant County roads
+    statement: 'Campaign website: "Alan is committed to securing state funding to upgrade Tarrant County’s transportation infrastructure, ensuring our roads are safe, well-maintained, and designed to reduce daily commute times."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.alanblaylock.com/
+    source_title: Alan Blaylock (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

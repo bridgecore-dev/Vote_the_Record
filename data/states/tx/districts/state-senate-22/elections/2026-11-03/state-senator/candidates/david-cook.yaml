@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: david-cook
 name: David Cook
 incumbent: false
@@ -24,7 +24,24 @@ funding:
   notes: Report ID 101066332, form COH, TEC report type E30DAYBEF; filer ID 00051674 (Cook, David L. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/state-senate-22/elections/2026-11-03/state-senator/candidates/david-cook#O-01
+    headline: Border wall and immigration enforcement
+    statement: 'Campaign website: "I will fight shoulder-to-shoulder with President Trump and Governor Abbott to secure the Texas border, build the wall and back border patrol and ICE to stop illegal immigrants from setting foot on Texas soil."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.davidcookfortexas.com/issues/
+    source_title: 'David Cook for Texas: Issues (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

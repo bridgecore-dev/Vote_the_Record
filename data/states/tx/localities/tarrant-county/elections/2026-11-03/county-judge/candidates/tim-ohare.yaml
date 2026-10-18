@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: tim-ohare
 name: Tim O'Hare
 incumbent: true
@@ -24,7 +24,24 @@ funding:
   notes: 'Listed on Tarrant County''s Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "O''Hare, Tim", office "COUNTY JUDGE", document "COR COH DAY GEN 2026" (COR-COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: corrected report (two donor names corrected); totals on page 4 of the filing. Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/localities/tarrant-county/elections/2026-11-03/county-judge/candidates/tim-ohare#O-01
+    headline: Lower taxes and spending
+    statement: 'Campaign website: "Lower Taxes. Less Spending. Smarter Government."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.electtimohare.com/issues-and-beliefs
+    source_title: 'Elect Tim O''Hare: Issues and Beliefs (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

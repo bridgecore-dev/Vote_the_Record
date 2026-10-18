@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: junior-ezeonu
 name: Junior Ezeonu
 incumbent: false
@@ -24,7 +24,41 @@ funding:
   notes: Report ID 101059804, form COH, TEC report type SEMIJUL; filer ID 00090359 (Ezeonu, Steve). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/state-house-101/elections/2026-11-03/state-representative/candidates/junior-ezeonu#O-01
+    headline: No public money for private schools
+    statement: 'Campaign website: "Texan''s tax dollars should be used to support and improve our public schools, not to subsidize the private education choices of the wealthy."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.votejuniorezeonu.com/
+    source_title: Vote Junior Ezeonu (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-101/elections/2026-11-03/state-representative/candidates/junior-ezeonu#O-02
+    headline: Medicaid expansion
+    statement: 'Campaign website: "We must expand Medicaid to provide insurance to millions of Texans."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.votejuniorezeonu.com/
+    source_title: Vote Junior Ezeonu (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: beth-llewellyn-mclaughlin
 name: Beth Llewellyn McLaughlin
 incumbent: false
@@ -24,7 +24,41 @@ funding:
   notes: Report ID 101068635, form COH, TEC report type E30DAYBEF; filer ID 00081679 (Llewellyn McLaughlin, Beth (Ms.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/state-house-97/elections/2026-11-03/state-representative/candidates/beth-llewellyn-mclaughlin#O-01
+    headline: Fully funded public schools
+    statement: 'Campaign website: "For fully-funded public education"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.bethfor97.com/issues
+    source_title: 'Beth McLaughlin for Texas House District 97: Issues (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-97/elections/2026-11-03/state-representative/candidates/beth-llewellyn-mclaughlin#O-02
+    headline: Dark money out of politics
+    statement: 'Campaign website: "For dark money out of politics"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.bethfor97.com/issues
+    source_title: 'Beth McLaughlin for Texas House District 97: Issues (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

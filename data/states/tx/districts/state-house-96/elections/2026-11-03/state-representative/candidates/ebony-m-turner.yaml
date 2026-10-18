@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: ebony-m-turner
 name: Ebony M. Turner
 incumbent: false
@@ -24,7 +24,41 @@ funding:
   notes: Report ID 101068500, form COH, TEC report type E30DAYBEF; filer ID 00088273 (Turner, Ebony M. (Mrs.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/state-house-96/elections/2026-11-03/state-representative/candidates/ebony-m-turner#O-01
+    headline: Special education resources
+    statement: 'Campaign website: "Resources for Special Needs Students"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ebforhd96.com/issues
+    source_title: 'EB for HD 96: Issues (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-96/elections/2026-11-03/state-representative/candidates/ebony-m-turner#O-02
+    headline: Livable wages
+    statement: 'Campaign website: "Livable Wages for All Texans"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ebforhd96.com/issues
+    source_title: 'EB for HD 96: Issues (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

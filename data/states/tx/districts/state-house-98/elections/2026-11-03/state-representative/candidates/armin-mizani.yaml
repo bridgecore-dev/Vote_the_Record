@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: armin-mizani
 name: Armin Mizani
 incumbent: false
@@ -24,7 +24,41 @@ funding:
   notes: Report ID 101069254, form COH, TEC report type E30DAYBEF; filer ID 00080883 (Mizani, Armin (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/state-house-98/elections/2026-11-03/state-representative/candidates/armin-mizani#O-01
+    headline: Larger homestead exemption and lower local rates
+    statement: 'Campaign website: "increase the homestead expansion, compress local rates to get as close to zero as possible"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://arminfortexas.com/
+    source_title: Armin Mizani for Texas (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-98/elections/2026-11-03/state-representative/candidates/armin-mizani#O-02
+    headline: Fund Operation Lone Star
+    statement: 'Campaign website: "will continue to fully fund Operation Lone Star"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://arminfortexas.com/
+    source_title: Armin Mizani for Texas (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

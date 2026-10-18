@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: leigh-wambsganss
 name: Leigh Wambsganss
 incumbent: false
@@ -24,7 +24,41 @@ funding:
   notes: Report ID 101068415, form COH, TEC report type E30DAYBEF; filer ID 00089820 (Wambsganss, Leigh). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/state-senate-9/elections/2026-11-03/state-senator/candidates/leigh-wambsganss#O-01
+    headline: Lower property taxes and insurance premiums
+    statement: 'Campaign website: "Cut property taxes, lower insurance premiums, and fight for better-paying jobs and affordable housing for working families."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.leighfortexas.com/issues/
+    source_title: 'Leigh Wambsganss for Texas: Issues (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-senate-9/elections/2026-11-03/state-senator/candidates/leigh-wambsganss#O-02
+    headline: End tax incentives for data centers
+    statement: 'Campaign website: "End tax incentives for data centers, make them pay for their own water and electrical costs, and allow local communities to decide how close they can be built to residential communities."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.leighfortexas.com/issues/
+    source_title: 'Leigh Wambsganss for Texas: Issues (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []
