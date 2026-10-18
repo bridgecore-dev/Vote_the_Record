@@ -232,6 +232,23 @@ TARRANT_LOCAL_AREAS = {
     "eagle-mountain-saginaw-isd": (SCHOOL_LAYER, "4817700"),
     "keller-isd": (SCHOOL_LAYER, "4825260"),
 }
+KC_SERVICE = "https://gismaps.kingcounty.gov/arcgis/rest/services/Districts/KingCo_Electoral_Districts/MapServer"
+KC_LAYER = KC_SERVICE + "/0"  # Voting precincts
+KC_LOCAL_AREAS = {
+    "city-of-bothell": (PLACE_LAYER, "5307380"),
+    "city-of-clyde-hill": (PLACE_LAYER, "5313365"),
+    "city-of-issaquah": (PLACE_LAYER, "5333805"),
+    "city-of-kenmore": (PLACE_LAYER, "5335170"),
+    "city-of-lake-forest-park": (PLACE_LAYER, "5337270"),
+    "city-of-milton": (PLACE_LAYER, "5346020"),
+    "city-of-seatac": (PLACE_LAYER, "5362288"),
+    "city-of-seattle": (PLACE_LAYER, "5363000"),
+    "city-of-shoreline": (PLACE_LAYER, "5363960"),
+    "auburn-sd-408": (SCHOOL_LAYER, "5300300"),
+    "highline-sd-401": (SCHOOL_LAYER, "5303540"),
+    "kent-sd-415": (SCHOOL_LAYER, "5303960"),
+    "king-county-fpd-20": (KC_SERVICE + "/10", "20", "FIRDST"),
+}
 OVERLAY_SHARE = 0.95  # a precinct must be at least this much inside one district to be assigned it without a flag
 
 # Per county: precinct layer, its field for each district kind, areas every voter shares, local areas.
@@ -413,6 +430,30 @@ COUNTIES = {
                     "(6, 12, 24, 25, 30) are the ones Tarrant County Elections lists for the November 3, 2026 election "
                     "(\"Districts in Election\")."),
         "field_note": "The layer's Congress field gives the districts listed for this election under the 2025 map.",
+    },
+    "king-county": {
+        "name": "King County", "item": KC_LAYER, "layer": KC_LAYER, "precinct_field": "votdst", "scotus": False,
+        # The precinct layer lists precinct numbers only; districts come from the county's own district layers.
+        "fields": {kind: kind for kind in ("us-house", "legislative", "council", "district-court", "seattle-council")},
+        "patterns": {"legislative": "legislative-district-{}", "council": "king-county/council-{}",
+                     "district-court": "king-county/district-court-{s}", "seattle-council": "city-of-seattle/district-{}"},
+        "overlays": {
+            "us-house": ("arcgis", KC_SERVICE + "/2", "CONGDST", "King County GIS: Congressional districts"),
+            "legislative": ("arcgis", KC_SERVICE + "/3", "LEGDST", "King County GIS: Legislative districts"),
+            "council": ("arcgis", KC_SERVICE + "/1", "KCCDST", "King County GIS: King County Council districts"),
+            "district-court": ("arcgis", KC_SERVICE + "/12", "NAME", "King County GIS: King County District Court divisions"),
+            "seattle-council": ("arcgis", KC_SERVICE + "/4", "SCCDST", "King County GIS: Seattle City Council districts"),
+        },
+        "everywhere": ["court-of-appeals-1-1"],  # RCW 2.06.020: Division One, District One is King County
+        "local_areas": KC_LOCAL_AREAS,
+        "overlay_title": "King County GIS: electoral district layers",
+        "headline": "King County voting precincts (2026)",
+        "statement": ("King County's GIS layer \"Voting precincts\" (2,769 precincts), in the county's Electoral Districts map "
+                      "service, gives each precinct's number and outline."),
+        "title": "King County GIS: Voting precincts",
+        "credits": ("Each precinct's districts were assigned by overlaying the county's own district layers named in "
+                    "precincts#S-05. Only precinct numbers and outlines are used; the layer's voter counts are not."),
+        "field_note": "",
     },
 }
 
@@ -692,12 +733,17 @@ def pct_order(p) -> tuple[int, str]:
 
 def areas_for(attrs: dict, on_ballot: set[str], county: str = "harris-county") -> dict[str, str]:
     """District kind -> area slug, for the districts that have a contest on this ballot."""
-    fields = COUNTIES[county]["fields"]
-    num = {kind: int(re.sub(r"\D", "", str(attrs[field]))) for kind, field in fields.items()
-           if attrs.get(field) not in (None, "")}
+    cfg = COUNTIES[county]
     pattern = {"us-house": "us-house-{}", "state-house": "state-house-{}", "state-senate": "state-senate-{}",
-               "sboe": "sboe-{}", "commissioner": county + "/commissioner-{}", "jp": county + "/jp-{}"}
-    cand = {kind: pattern[kind].format(n) for kind, n in num.items()}
+               "sboe": "sboe-{}", "commissioner": county + "/commissioner-{}", "jp": county + "/jp-{}",
+               **cfg.get("patterns", {})}  # "{}" takes the district number, "{s}" the value in lower case
+    cand = {}
+    for kind, field in cfg["fields"].items():
+        value = attrs.get(field)
+        if value in (None, ""):
+            continue
+        fmt = pattern[kind]
+        cand[kind] = fmt.format(s=str(value).strip().lower()) if "{s}" in fmt else fmt.format(int(re.sub(r"\D", "", str(value))))
     return {k: v for k, v in cand.items() if v in on_ballot}
 
 
@@ -739,12 +785,14 @@ def main(argv=None) -> int:
     ap.add_argument("--cache", type=Path, required=True, help="folder for raw downloads (outside data/)")
     ap.add_argument("--ballot-dir", type=Path, required=True, help="the ballot folder (holds ballot.yaml); read only")
     ap.add_argument("--out", type=Path, required=True, help="where to write precincts.yaml and zips.yaml")
-    ap.add_argument("--scotus-sha256", required=True, help="sha256 of the downloaded Supreme Court order PDF")
+    ap.add_argument("--scotus-sha256", help="sha256 of the downloaded Supreme Court order PDF (Texas counties)")
     ap.add_argument("--today", help="date to record as retrieved (default: today)")
     args = ap.parse_args(argv)
     global TODAY
     TODAY = args.today or TODAY
     cfg = COUNTIES[args.county]
+    if cfg.get("scotus", True) and not args.scotus_sha256:
+        raise SystemExit("--scotus-sha256 is required for this county")
     pid = cfg["precinct_field"]
     args.cache.mkdir(parents=True, exist_ok=True)
     args.out.mkdir(parents=True, exist_ok=True)
@@ -836,10 +884,11 @@ def main(argv=None) -> int:
     # ZIP falls inside it. Mostly inside -> the area; partly inside -> a "maybe" entry.
     local = {slug: spec for slug, spec in cfg["local_areas"].items() if slug in on_ballot}
     local_feats = {}
-    for slug, (layer, geoid) in local.items():
-        field = "DISTRICT_ID" if layer.startswith(TCEQ_SERVICE) else "GEOID"
-        prefix = "tceq" if field == "DISTRICT_ID" else "place"
-        feats = paged(layer, {"where": f"{field}='{geoid}'", "outFields": f"{field},NAME", "returnGeometry": "true",
+    for slug, spec in local.items():
+        layer, geoid = spec[0], spec[1]
+        field = spec[2] if len(spec) > 2 else "DISTRICT_ID" if layer.startswith(TCEQ_SERVICE) else "GEOID"
+        prefix = "area" if len(spec) > 2 else "tceq" if field == "DISTRICT_ID" else "place"
+        feats = paged(layer, {"where": f"{field}='{geoid}'", "outFields": field, "returnGeometry": "true",
                               "outSR": 4326, "geometryPrecision": 6, "f": "geojson"}, args.cache, f"{prefix}-{geoid}", 10)
         assert feats, f"no boundary found for {slug} ({field} {geoid})"
         # Some districts are stored as several pieces: merge them into one multipolygon.
@@ -908,7 +957,8 @@ def main(argv=None) -> int:
             for kind, area in by_pct[p].items():
                 kinds.setdefault(kind, set()).update(area if isinstance(area, list) else [area])
         entry = []
-        for kind in ("us-house", "state-senate", "state-house", "sboe", "commissioner", "jp"):
+        order = ("us-house", "state-senate", "state-house", "sboe", "commissioner", "jp")
+        for kind in order + tuple(k for k in cfg["fields"] if k not in order):
             values = sorted(kinds.get(kind, ()))
             if len(values) == 1:
                 entry.append(values[0])
@@ -923,7 +973,7 @@ def main(argv=None) -> int:
         f"{fid}/precincts#S-01", cfg["headline"], cfg["statement"], cfg["item"], cfg["title"], "page", None,
         f"Read from {cfg['layer']} on {TODAY}; SHA-256 of the downloaded query responses: {sha(raw_pct)}. "
         + cfg["credits"])
-    scotus_src = source(
+    scotus_src = None if not cfg.get("scotus", True) else source(
         f"{fid}/precincts#S-02", "The 2025 congressional map (plan C2333) is in use for 2026",
         "On December 4, 2025, the U.S. Supreme Court granted Texas's application to stay the November 18, 2025 "
         "district court order that had blocked the new congressional map, allowing it to be used.",
@@ -943,6 +993,8 @@ def main(argv=None) -> int:
     raw_places = b"".join((args.cache / f).read_bytes() for f in sorted(p.name for p in args.cache.glob("place-*.json")))
     raw_tceq = b"".join((args.cache / f).read_bytes() for f in sorted(p.name for p in args.cache.glob("tceq-*.json")))
     tceq_used = {slug: spec for slug, spec in local.items() if spec[0].startswith(TCEQ_SERVICE)}
+    county_used = {slug: spec for slug, spec in local.items() if len(spec) > 2}
+    census_used = {slug: spec for slug, spec in local.items() if len(spec) == 2 and not spec[0].startswith(TCEQ_SERVICE)}
     place_src = source(
         f"{fid}/precincts#S-03", "Census boundaries of cities and school districts",
         "The U.S. Census Bureau's TIGERweb service publishes the current boundaries of incorporated places (cities) "
@@ -950,8 +1002,7 @@ def main(argv=None) -> int:
         TIGER_SERVICE, "U.S. Census Bureau TIGERweb: Incorporated Places (layer 28) and Unified School Districts (layer 14)",
         "page", None,
         f"Read on {TODAY}; SHA-256 of the downloaded query responses: {sha(raw_places)}. Areas used: "
-        + ", ".join(f"{slug} (layer {layer.rsplit('/', 1)[1]}, GEOID {geoid})" for slug, (layer, geoid) in sorted(local.items())
-                    if not layer.startswith(TCEQ_SERVICE))
+        + ", ".join(f"{slug} (layer {layer.rsplit('/', 1)[1]}, GEOID {geoid})" for slug, (layer, geoid) in sorted(census_used.items()))
         + f". A precinct or ZIP code at least {SURE_SHARE:.0%} inside an area counts as inside it; one at least "
         f"{MIN_SHARE:.0%} inside, or holding at least {MIN_SHARE:.0%} of the area, is marked as depending on the address. "
         "The address lookup uses the outlines directly.")
@@ -966,6 +1017,15 @@ def main(argv=None) -> int:
         + ", ".join(f"{slug} (layer {layer.rsplit('/', 1)[1]}, DISTRICT_ID {geoid})" for slug, (layer, geoid) in sorted(tceq_used.items()))
         + ". Same method as the Census boundaries.")
     zip_tceq = dict(tceq_src, id=f"{fid}/zips#S-04")
+    raw_county_areas = b"".join((args.cache / f).read_bytes() for f in sorted(p.name for p in args.cache.glob("area-*.json")))
+    county_area_src = source(
+        f"{fid}/precincts#S-06", f"{cfg['name']} district boundaries",
+        f"{cfg['name']}'s GIS publishes the boundaries of these districts.",
+        next(iter(county_used.values()))[0] if county_used else cfg["layer"], f"{cfg['name']} GIS: district layers", "page",
+        None, f"Read on {TODAY}; SHA-256 of the downloaded query responses: {sha(raw_county_areas)}. Districts used: "
+        + ", ".join(f"{slug} ({spec[0]}, {spec[2]} = {spec[1]})" for slug, spec in sorted(county_used.items()))
+        + ". Same method as the Census boundaries.")
+    zip_county_areas = dict(county_area_src, id=f"{fid}/zips#S-06")
     extra_src = []
     if overlay_src:
         used, digest, flag_text = overlay_src
@@ -973,25 +1033,27 @@ def main(argv=None) -> int:
             f"{fid}/precincts#S-05", "District maps used to assign each precinct its districts",
             f"The {cfg['name']} precinct layer lists precinct numbers only, so each precinct was assigned the district "
             "that covers most of it on these official maps: " + "; ".join(used) + ".",
-            cfg["overlays"]["us-house"][1], "Texas Legislative Council and county district maps", "page", None,
+            cfg["overlays"]["us-house"][1], cfg.get("overlay_title", "Texas Legislative Council and county district maps"), "page", None,
             f"Read on {TODAY}; SHA-256 of the downloaded files: {digest}. Each precinct and district was laid on a "
             f"{STEP}-degree grid (and a finer grid of points inside the precinct for small precincts); a precinct takes "
             f"the district covering at least {OVERLAY_SHARE:.0%} of it. Checked against Harris and Dallas counties, whose "
             "precinct layers list districts: the method matched every Harris precinct and all but one Dallas precinct "
             "(which covered under 95% and would be flagged). Precincts below the threshold are listed as split between "
             f"the districts covering them (\"depends on your address\"): {flag_text}."))
-    if len(local) != len({g for _, g in local.values()}):
+    if len(local) != len({(spec[0], spec[1]) for spec in local.values()}):
         raise SystemExit("two local areas share a GEOID")
 
     write(args.out / "precincts.yaml", f"Each precinct's districts from the {cfg['name']} precinct layer; a nested "
           "list means the precinct is only partly in those areas (city lines).",
-          [county_src, scotus_src] + ([place_src] if local else []) + ([tceq_src] if tceq_used else []) + extra_src, "precincts",
+          [county_src] + ([scotus_src] if cfg.get("scotus", True) else []) + ([place_src] if census_used else [])
+          + ([tceq_src] if tceq_used else []) + extra_src + ([county_area_src] if county_used else []), "precincts",
           precincts, cfg["everywhere"])
     write(args.out / "zips.yaml", "Approximate: a nested list means the ZIP is split between those districts.",
-          [zcta_src, zip_county] + ([zip_place] if local else []) + ([zip_tceq] if tceq_used else []), "zips", zips,
+          [zcta_src, zip_county] + ([zip_place] if census_used else []) + ([zip_tceq] if tceq_used else [])
+          + ([zip_county_areas] if county_used else []), "zips", zips,
           cfg["everywhere"])
     if local:
-        area_out = {"source": place_src["id"], "note": "Generated by src/collectors/states/tx/county_precincts.py; "
+        area_out = {"source": (place_src if census_used else county_area_src)["id"], "note": "Generated by src/collectors/states/tx/county_precincts.py; "
                     f"outlines simplified to about {SIMPLIFY} degrees. Unverified.", "areas": {}}
         for slug, feat in sorted(local_feats.items()):
             rs = []
