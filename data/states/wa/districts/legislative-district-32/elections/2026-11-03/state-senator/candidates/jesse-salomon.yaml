@@ -4,7 +4,24 @@ name: Jesse Salomon
 incumbent: true
 ballot_party: Prefers Democratic Party
 records: []
-funding: []
+funding:
+- id: wa/districts/legislative-district-32/elections/2026-11-03/state-senator/candidates/jesse-salomon#M-01
+  headline: Raised $285,293 and spent $243,327 (2026 election year, record updated Oct 15, 2026)
+  statement: 'The Public Disclosure Commission''s campaign finance summary for the 2026 election year lists, for Jesse Salomon (state senator, LEG DISTRICT 32 - SENATE), in the record last updated October 15, 2026: $285,292.52 in contributions, $18,093.97 carried forward from an earlier campaign, $243,327.41 in expenditures, and $31,427.34 in debts. It also lists $268,140.03 in independent expenditures by others supporting the candidate and $0.00 opposing the candidate.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://data.wa.gov/resource/3h9x-7bvm.json?$where=election_year%3D%272026%27%20AND%20filer_type%3D%27CA%27&$limit=50000
+  source_title: 'Washington Public Disclosure Commission: Campaign Finance Summary, 2026 candidates (data.wa.gov dataset 3h9x-7bvm)'
+  source_kind: document
+  sha256: f7946f6715074954e86bfc8c2fd0f42053f7b84619b12dc498db4ee5ca381870
+  archive_url: null
+  event_date: '2026-10-15'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/67032.'
 endorsements: []
 running_on:
   policy_proposals: []
