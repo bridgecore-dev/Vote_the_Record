@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: bobbie-clayton
 name: Bobbie Clayton
 incumbent: false
@@ -24,7 +24,24 @@ funding:
   notes: Report ID 101069713, form COH, TEC report type E30DAYBEF; filer ID 00090332 (Clayton, Bobbie L. (Ms.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-19; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/state-house-16/elections/2026-11-03/state-representative/candidates/bobbie-clayton#O-01
+    headline: Ending school voucher programs
+    statement: 'Campaign website: "That’s why I will fight to rescind public grants and voucher programs that divert taxpayer money into private school attendance, leaving our public schools under-resourced and our children underserved."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.bobbieclaytonforhd16.com/
+    source_title: Bobbie Clayton for HD 16
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

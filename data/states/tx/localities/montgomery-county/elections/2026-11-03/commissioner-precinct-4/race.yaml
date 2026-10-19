@@ -2,7 +2,6 @@
 name: County Commissioner, Precinct 4
 office_type: county-commissioner
 election_date: '2026-11-03'
-detail: basic
 area: montgomery-county/commissioner-4
 sources:
 - id: tx/localities/montgomery-county/elections/2026-11-03/commissioner-precinct-4/race#S-01

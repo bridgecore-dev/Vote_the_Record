@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: robin-deferrari
 name: Robin Deferrari
 incumbent: false
@@ -7,7 +7,24 @@ records: []
 funding: []
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/localities/conroe-isd/elections/2026-11-03/trustee-position-2/candidates/robin-deferrari#O-01
+    headline: Local control of school decisions
+    statement: 'Campaign website: "I am running for the Conroe ISD Board of Trustees as a parent and longtime volunteer, who believes decisions about our schools should be made locally and not by outside political interests."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://robinforcisd.com/
+    source_title: Robin Deferrari for CISD Trustee (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

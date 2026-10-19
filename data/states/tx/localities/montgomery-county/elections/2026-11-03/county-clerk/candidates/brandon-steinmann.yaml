@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: brandon-steinmann
 name: Brandon Steinmann
 incumbent: true
@@ -7,7 +7,58 @@ records: []
 funding: []
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/localities/montgomery-county/elections/2026-11-03/county-clerk/candidates/brandon-steinmann#O-01
+    headline: Online filing and records
+    statement: 'Campaign website: "Continue to modernize the County Clerk''s office to provide for more documents and tasks to be available online - making it easier for the public to file and receive their documents online, rather than needing to visit a physical office."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.brandonfortexas.com/issues
+    source_title: Issues — Brandon Steinmann for County Clerk
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/montgomery-county/elections/2026-11-03/county-clerk/candidates/brandon-steinmann#O-02
+    headline: Streamlining clerk office operations
+    statement: 'Campaign website: "Streamline office operations and eliminate redundancies of work."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.brandonfortexas.com/issues
+    source_title: Issues — Brandon Steinmann for County Clerk
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/montgomery-county/elections/2026-11-03/county-clerk/candidates/brandon-steinmann#O-03
+    headline: Removing COVID screening at office
+    statement: 'Campaign website: "Remove COVID barriers and screening to make the office more accessible and comfortable for the public."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.brandonfortexas.com/issues
+    source_title: Issues — Brandon Steinmann for County Clerk
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

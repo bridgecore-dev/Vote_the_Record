@@ -1,13 +1,140 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: charlie-riley
 name: Charlie Riley
 incumbent: true
 ballot_party: REP
-records: []
+records:
+- id: tx/localities/montgomery-county/elections/2026-11-03/commissioner-precinct-2/candidates/charlie-riley#R-01
+  record_type: vote
+  headline: Voted yes on the 2026-27 county budget (2026)
+  result: Passed the Commissioners Court 3-2.
+  statement: 'As a member of the Montgomery County Commissioners Court, voted yes on the item "RESOLUTION AND ORDER APPROVED – FY26-27 BUDGET – BUDGET". The approved minutes of the September 8, 2026 special session record a motion "to hereby approve the Fiscal Year 2026-2027 Proposed Budget filed by the County Budget Officer and amended by the Commissioners Court to be adopted with all funds a total budget of $546,808,952.00." and the vote "Aye: Commissioner Walker, Commissioner Riley, Judge Keough / Nay: Commissioner Gray, Commissioner Wheeler"; "Motion carried."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.mctx.org/Commissoner%20Court/2026-09-08-minutes.pdf
+  source_title: Montgomery County Commissioners Court minutes, Special Session of September 8, 2026 (page 2)
+  source_kind: document
+  sha256: 5d39f713bd03cd5dbbc83b8c212227fac956181ab92c22a15f78e1d931625e53
+  archive_url: null
+  event_date: '2026-09-08'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The court's approved minutes, posted on mctx.org. The PDF is a scanned image with no text layer; the quotes were read from the page images. The minutes write the rate as ".3770 cents" / ".3860 cents" per hundred dollars; the taxpayer impact statement in the same minutes shows $0.3770 and $0.3860 per $100. Not yet archived on the Wayback Machine.
+- id: tx/localities/montgomery-county/elections/2026-11-03/commissioner-precinct-2/candidates/charlie-riley#R-02
+  record_type: vote
+  headline: Voted yes on the 2026 county property tax rate (2026)
+  result: Passed the Commissioners Court 3-2.
+  statement: 'As a member of the Montgomery County Commissioners Court, voted yes on the item "RESOLUTION AND ORDER APPROVED – 2026 AD VALOREM TAX RATE FOR MAINTENANCE & OPERATION – TAX ASSESSOR/COLLECTOR". The approved minutes of the September 8, 2026 special session record a motion "to approve the Resolution and Order that sets and adopts the 2026 Ad Valorem Tax Rate for Maintenance & Operation. The tax rate for 2026 tax year be established at a rate of .3860 cents per hundred dollars valuation at 100% market value" and the vote "Aye: Commissioner Walker, Commissioner Riley, Judge Keough / Nay: Commissioner Gray, Commissioner Wheeler"; "Motion carried."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.mctx.org/Commissoner%20Court/2026-09-08-minutes.pdf
+  source_title: Montgomery County Commissioners Court minutes, Special Session of September 8, 2026 (page 2)
+  source_kind: document
+  sha256: 5d39f713bd03cd5dbbc83b8c212227fac956181ab92c22a15f78e1d931625e53
+  archive_url: null
+  event_date: '2026-09-08'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The court's approved minutes, posted on mctx.org. The PDF is a scanned image with no text layer; the quotes were read from the page images. The minutes write the rate as ".3770 cents" / ".3860 cents" per hundred dollars; the taxpayer impact statement in the same minutes shows $0.3770 and $0.3860 per $100. Not yet archived on the Wayback Machine.
+- id: tx/localities/montgomery-county/elections/2026-11-03/commissioner-precinct-2/candidates/charlie-riley#R-03
+  record_type: vote
+  headline: Voted yes on the 2025-26 county budget (2025)
+  result: Passed the Commissioners Court 5-0.
+  statement: 'As a member of the Montgomery County Commissioners Court, voted yes on the item "RESOLUTION AND ORDER APPROVED – ADOPT FY25-26 BUDGET – BUDGET". The approved minutes of the September 5, 2025 special session record a motion "to hereby approve the Fiscal Year 2025-2026 Proposed Budget filed by the County Budget Officer and amended by the Commissioners Court to be adopted with all funds a total budget of $508,102,828." and the vote "Aye: Commissioner Walker, Commissioner Riley, Judge Keough, Commissioner Wheeler, Commissioner Gray / Nay: N/A / Absent: N/A"; "Motion carried."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.mctx.org/Commissoner%20Court/2025-09-05-minutes.pdf
+  source_title: Montgomery County Commissioners Court minutes, Special Session of September 5, 2025 (page 3)
+  source_kind: document
+  sha256: 4326f917bc62998a2e2d5c4c24de0dbf243f5e6c3d109e9a18c13190ad8f0b9e
+  archive_url: null
+  event_date: '2025-09-05'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The court's approved minutes, posted on mctx.org. The PDF is a scanned image with no text layer; the quotes were read from the page images. The minutes write the rate as ".3770 cents" / ".3860 cents" per hundred dollars; the taxpayer impact statement in the same minutes shows $0.3770 and $0.3860 per $100. Not yet archived on the Wayback Machine.
+- id: tx/localities/montgomery-county/elections/2026-11-03/commissioner-precinct-2/candidates/charlie-riley#R-04
+  record_type: vote
+  headline: Voted yes on the 2025 county property tax rate (2025)
+  result: Passed the Commissioners Court 5-0.
+  statement: 'As a member of the Montgomery County Commissioners Court, voted yes on the item "ORDER AND RESOLUTION APPROVED – MAINTENANCE & OPERATION – TAX ASSESSOR-COLLECTOR". The approved minutes of the September 5, 2025 special session record a motion "to approve the Resolution and Order that sets and adopts the 2025 Ad Valorem Tax Rate for Maintenance & Operation. The tax rate for 2025 tax year be established at a rate of .3770 cents per hundred dollars valuation at 100% market value" and the vote "Aye: Commissioner Walker, Commissioner Riley, Judge Keough, Commissioner Wheeler, Commissioner Gray / Nay: N/A / Absent: N/A"; "Motion carried."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.mctx.org/Commissoner%20Court/2025-09-05-minutes.pdf
+  source_title: Montgomery County Commissioners Court minutes, Special Session of September 5, 2025 (page 3)
+  source_kind: document
+  sha256: 4326f917bc62998a2e2d5c4c24de0dbf243f5e6c3d109e9a18c13190ad8f0b9e
+  archive_url: null
+  event_date: '2025-09-05'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The court's approved minutes, posted on mctx.org. The PDF is a scanned image with no text layer; the quotes were read from the page images. The minutes write the rate as ".3770 cents" / ".3860 cents" per hundred dollars; the taxpayer impact statement in the same minutes shows $0.3770 and $0.3860 per $100. Not yet archived on the Wayback Machine.
 funding: []
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/localities/montgomery-county/elections/2026-11-03/commissioner-precinct-2/candidates/charlie-riley#O-01
+    headline: 20% homestead exemption passed
+    statement: 'Campaign website: "Passed the 20% Homestead Exemption — the maximum allowed by law."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.charlieriley.org/conservative-leadership/
+    source_title: Conservative Leadership | Charlie Riley
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/montgomery-county/elections/2026-11-03/commissioner-precinct-2/candidates/charlie-riley#O-02
+    headline: County budget reduction
+    statement: 'Campaign website: "Reduced the county budget by $20 million through responsible management."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.charlieriley.org/conservative-leadership/
+    source_title: Conservative Leadership | Charlie Riley
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/montgomery-county/elections/2026-11-03/commissioner-precinct-2/candidates/charlie-riley#O-03
+    headline: Sheriff substation in Magnolia
+    statement: 'Campaign website: "Sheriff Substation built in Magnolia — getting officers back on the road instead of transporting detainees to Conroe"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.charlieriley.org/conservative-leadership/
+    source_title: Conservative Leadership | Charlie Riley
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

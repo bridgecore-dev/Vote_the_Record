@@ -2,7 +2,6 @@
 name: Montgomery County Judge
 office_type: county-judge
 election_date: '2026-11-03'
-detail: basic
 sources:
 - id: tx/localities/montgomery-county/elections/2026-11-03/county-judge/race#S-01
   headline: Candidates as printed on the sample ballot
