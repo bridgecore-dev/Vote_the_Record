@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: john-bielka
 name: John Bielka
-incumbent: null
+incumbent: false
 ballot_party: Prefers Democrat Party
 records: []
 funding: []

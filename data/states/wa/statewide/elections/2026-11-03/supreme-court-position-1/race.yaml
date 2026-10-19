@@ -22,3 +22,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's sample ballot, which says it "contains all races and measures in King County." Names and wording are from the PDF's text layer, kept as printed. Candidates for partisan office are listed with the party preference printed under their names.
+- id: wa/statewide/elections/2026-11-03/supreme-court-position-1/race#S-HOLDER
+  headline: Who holds this office now
+  statement: A Washington State Courts press release of September 11, 2025 says "A new justice will be appointed by Governor Ferguson for Supreme Court position 1" after Justice Mary I. Yu's retirement. A release of January 15, 2026 says Colleen M. Melody "was appointed to the Court by Gov. Bob Ferguson following the retirement of Justice Mary I. Yu at the end of 2025." The court's justices page, checked on October 18, 2026, lists Justice Colleen M. Melody. On that basis, Colleen M. Melody, a candidate in this race, is shown here as the current holder.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.courts.wa.gov/newsinfo/?fa=newsinfo.pressdetail&newsid=53926
+  source_title: 'Washington State Courts: press release, January 15, 2026'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-18'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The September 11, 2025 release: https://www.courts.wa.gov/newsinfo/?fa=newsinfo.pressdetail&newsid=53805. The justices page: https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremecourt.justices.'

@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: maggie-wang
 name: Maggie Wang
-incumbent: null
+incumbent: false
 ballot_party: Prefers Republican Party
 records: []
 funding: []

@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: drew-stokesbary
 name: Drew Stokesbary
-incumbent: null
+incumbent: true
 ballot_party: Prefers Republican Party
 records: []
 funding: []

@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: paul-mcdaniel
 name: Paul McDaniel
-incumbent: null
+incumbent: false
 ballot_party: Prefers Independent Party
 records: []
 funding: []

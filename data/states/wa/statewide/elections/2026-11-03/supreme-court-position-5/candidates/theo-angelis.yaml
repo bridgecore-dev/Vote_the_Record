@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: theo-angelis
 name: Theo Angelis
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

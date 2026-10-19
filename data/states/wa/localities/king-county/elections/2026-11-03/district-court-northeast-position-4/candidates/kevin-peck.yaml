@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: kevin-peck
 name: Kevin Peck
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

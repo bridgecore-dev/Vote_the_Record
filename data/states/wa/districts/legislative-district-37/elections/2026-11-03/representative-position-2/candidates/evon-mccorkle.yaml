@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: evon-mccorkle
 name: Evon McCorkle
-incumbent: null
+incumbent: false
 ballot_party: Prefers Independent Party
 records: []
 funding: []

@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: jeffery-poppe
 name: Jeffery Poppe
-incumbent: null
+incumbent: false
 ballot_party: Prefers Republican Party
 records: []
 funding: []

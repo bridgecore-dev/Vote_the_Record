@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: jillian-england
 name: Jillian England
-incumbent: null
+incumbent: false
 ballot_party: Prefers Republican Party
 records: []
 funding: []

@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: andrea-samonica-jarmon
 name: Andrea Samonica Jarmon
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

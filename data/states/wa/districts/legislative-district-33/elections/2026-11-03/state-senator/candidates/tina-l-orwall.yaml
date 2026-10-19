@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: tina-l-orwall
 name: Tina L. Orwall
-incumbent: null
+incumbent: true
 ballot_party: Prefers Democratic Party
 records: []
 funding: []

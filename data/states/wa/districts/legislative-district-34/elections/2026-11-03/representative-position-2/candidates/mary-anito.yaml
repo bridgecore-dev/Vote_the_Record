@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: mary-anito
 name: Mary Anito
-incumbent: null
+incumbent: false
 ballot_party: Prefers Democratic Party
 records: []
 funding: []

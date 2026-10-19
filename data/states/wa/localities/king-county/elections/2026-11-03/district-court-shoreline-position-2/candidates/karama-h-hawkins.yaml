@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: karama-h-hawkins
 name: Karama H. Hawkins
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: gerry-pollet
 name: Gerry Pollet
-incumbent: null
+incumbent: true
 ballot_party: Prefers Democratic Party
 records: []
 funding: []

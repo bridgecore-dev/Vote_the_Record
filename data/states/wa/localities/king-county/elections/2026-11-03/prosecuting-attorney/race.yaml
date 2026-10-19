@@ -21,3 +21,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's sample ballot, which says it "contains all races and measures in King County." Names and wording are from the PDF's text layer, kept as printed. Candidates for partisan office are listed with the party preference printed under their names.
+- id: wa/localities/king-county/elections/2026-11-03/prosecuting-attorney/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Prosecuting Attorney''s Office - King County, Washington), checked on October 18, 2026, shows that Leesa Manion, a candidate in this race, currently holds this office. It says: "King County Prosecutor Leesa Manion leads the King County Prosecuting Attorney''s Office (PAO)."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://kingcounty.gov/en/dept/pao
+  source_title: Prosecuting Attorney's Office - King County, Washington
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-18'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null

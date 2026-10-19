@@ -22,3 +22,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's sample ballot, which says it "contains all races and measures in King County." Names and wording are from the PDF's text layer, kept as printed. Candidates for partisan office are listed with the party preference printed under their names.
+- id: wa/localities/king-county/elections/2026-11-03/council-district-4/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (King County Councilmember Jorge L. Barón - King County, Washington), checked on October 18, 2026, shows that Jorge L. Barón, a candidate in this race, currently holds this office. It says: "Councilmember Jorge L. Barón, who represents King County District 4. Barón''s current term runs from January 1, 2024 through December 31, 2026."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://kingcounty.gov/en/dept/council/governance-leadership/county-council/councilmembers-districts/jorge-l-baron
+  source_title: King County Councilmember Jorge L. Barón - King County, Washington
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-18'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null

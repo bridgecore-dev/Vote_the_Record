@@ -21,3 +21,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's sample ballot, which says it "contains all races and measures in King County." Names and wording are from the PDF's text layer, kept as printed. Candidates for partisan office are listed with the party preference printed under their names.
+- id: wa/localities/king-county/elections/2026-11-03/assessor/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Leadership team - King County, Washington), checked on October 18, 2026, lists John Wilson as holding this office; none of the candidates in this race is listed as the current officeholder. It says: "John Wilson, King County Assessor".'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://kingcounty.gov/en/dept/assessor/about-king-county/about-king-county-assessor/leadership-team
+  source_title: Leadership team - King County, Washington
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-18'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null

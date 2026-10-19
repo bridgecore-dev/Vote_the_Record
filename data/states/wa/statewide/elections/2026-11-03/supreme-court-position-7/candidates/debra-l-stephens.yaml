@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: debra-l-stephens
 name: Debra L. Stephens
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: jessica-forsythe
 name: Jessica Forsythe
-incumbent: null
+incumbent: false
 ballot_party: Prefers Democratic Party
 records: []
 funding: []

@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: joshua-penner
 name: Joshua Penner
-incumbent: null
+incumbent: true
 ballot_party: Prefers Republican Party
 records: []
 funding: []

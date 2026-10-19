@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: kristin-shotwell
 name: Kristin Shotwell
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []
