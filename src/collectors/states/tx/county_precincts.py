@@ -232,7 +232,20 @@ TARRANT_LOCAL_AREAS = {
     "eagle-mountain-saginaw-isd": (SCHOOL_LAYER, "4817700"),
     "keller-isd": (SCHOOL_LAYER, "4825260"),
 }
-KC_SERVICE = "https://gismaps.kingcounty.gov/arcgis/rest/services/Districts/KingCo_Electoral_Districts/MapServer"
+MONTGOMERY_LAYER = ("https://services1.arcgis.com/PRoAPGnMSUqvTrzq/arcgis/rest/services/Elections_Precincts_2026/"
+                    "FeatureServer/0")
+MONTGOMERY_LOCAL_AREAS = {
+    "city-of-houston": (PLACE_LAYER, "4835000"),
+    "city-of-roman-forest": (PLACE_LAYER, "4863044"),
+    "conroe-isd": (SCHOOL_LAYER, "4815000"),
+    "new-caney-isd": (SCHOOL_LAYER, "4832400"),
+    "tomball-isd": (SCHOOL_LAYER, "4842960"),
+    "willis-isd": (SCHOOL_LAYER, "4845900"),
+    "montgomery-county-mud-94": (TCEQ_MUD, "5858170"),
+    "montgomery-county-mud-187": (TCEQ_MUD, "5857709"),
+    "montgomery-county-mud-228": (TCEQ_MUD, "4287793"),
+}
+KC_SERVICE ="https://gismaps.kingcounty.gov/arcgis/rest/services/Districts/KingCo_Electoral_Districts/MapServer"
 KC_LAYER = KC_SERVICE + "/0"  # Voting precincts
 KC_LOCAL_AREAS = {
     "city-of-bothell": (PLACE_LAYER, "5307380"),
@@ -430,6 +443,21 @@ COUNTIES = {
                     "(6, 12, 24, 25, 30) are the ones Tarrant County Elections lists for the November 3, 2026 election "
                     "(\"Districts in Election\")."),
         "field_note": "The layer's Congress field gives the districts listed for this election under the 2025 map.",
+    },
+    "montgomery-county": {
+        "name": "Montgomery County", "item": MONTGOMERY_LAYER, "layer": MONTGOMERY_LAYER, "precinct_field": "PCTLBL",
+        "fields": {"us-house": "USRepNm", "state-house": "STRepNm", "state-senate": "STSenNm", "sboe": "STBOE",
+                   "commissioner": "CPNm", "jp": "JPNm"},
+        "everywhere": ["court-of-appeals-9"],  # Gov't Code 22.201(j)
+        "local_areas": MONTGOMERY_LOCAL_AREAS,
+        "headline": "Montgomery County voting precincts and their districts (2026)",
+        "statement": ("Montgomery County's GIS layer \"Elections Precincts 2026\" (121 precincts), published on the county's "
+                      "open data site with the data source \"MCTX ELECTIONS\" and effective date \"Jan 2026\", lists each "
+                      "precinct's congressional, State Senate, State House, State Board of Education, Commissioners Court "
+                      "and justice of the peace districts."),
+        "title": "Montgomery County GIS: Elections Precincts 2026",
+        "credits": "Only precinct numbers, outlines and district numbers from the layer are used.",
+        "field_note": "",
     },
     "king-county": {
         "name": "King County", "item": KC_LAYER, "layer": KC_LAYER, "precinct_field": "votdst", "scotus": False,

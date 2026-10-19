@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: valorie-barton
+name: Valorie Barton
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/districts/state-house-18/elections/2026-11-03/state-representative/candidates/valorie-barton#M-01
+  headline: Raised $550 and had $412 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $550.00 in total political contributions, $447.73 in total political expenditures, $411.63 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069975.PDF
+  source_title: 'Texas Ethics Commission: Barton, Valorie (Ms.), campaign finance report 101069975 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 6fe55885f91dc629da0b7210dfb1da62cf263166553d8d68cc6e87b66001b492
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101069975, form COH, TEC report type E30DAYBEF; filer ID 00090138 (Barton, Valorie (Ms.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-19; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

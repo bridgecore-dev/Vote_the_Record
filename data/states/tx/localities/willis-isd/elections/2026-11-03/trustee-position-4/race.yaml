@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Willis ISD Trustee, Position 4
+office_type: school-trustee
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/willis-isd/elections/2026-11-03/trustee-position-4/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Montgomery County Elections'' sample ballot for the November 3, 2026 joint election lists "Willis ISD Trustee, Position 4" on page 3, with these candidates: Keith Miller; David Hall; Chaundy Satterwhite.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://elections.mctx.org/Samples/GEN110326/paper.pdf
+  source_title: 'Montgomery County Elections: Sample Ballot, November 3, 2026 Joint Election, Montgomery County, Texas (master sample ballot) (page 3)'
+  source_kind: document
+  sha256: b4040f7eb585b3c551a5a0d3cda80e6cb6c86cdac800e6e77b097f8da4e1437e
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's master sample ballot, which its sample ballot page describes as "the master sample ballot for all elections which we will be conducting in the November 3, 2026 Joint Election." Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/willis-isd/elections/2026-11-03/trustee-position-4/race#S-HOLDER
+  headline: Who holds this office now
+  statement: The official page (Board of Trustees - Willis Independent School District), checked on October 19, 2026, lists "Kyle Hoegemeyer" as holding this office; none of the candidates in this race is listed as the current officeholder. It lists "Kyle Hoegemeyer | Board President, Position 4".
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.willisisd.org/about/board-of-trustees
+  source_title: Board of Trustees - Willis Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null

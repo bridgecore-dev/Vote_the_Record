@@ -1,0 +1,38 @@
+# Powers of a Texas district attorney (an attorney elected for a judicial district, not a criminal district attorney).
+# Text checked against the Texas Constitution, Government Code chapter 43, and Code of Criminal Procedure chapter 2A
+# (statutes.capitol.texas.gov, read through its document server tcss.legis.texas.gov) on 2026-10-19.
+office_type: district-attorney
+state: TX
+powers:
+  - id: P-TERM
+    description: District attorneys hold office for a term of four years.
+    statute: Texas Constitution art. V, § 21
+    source_url: https://statutes.capitol.texas.gov/Docs/CN/htm/CN.5.htm
+
+  - id: P-CRIMINAL
+    description: Represents the state in all criminal cases in the district courts of the attorney's district, and in appeals from those cases.
+    statute: Code of Criminal Procedure art. 2A.102(a)
+    source_url: https://statutes.capitol.texas.gov/Docs/CR/htm/CR.2A.htm
+    topics: [courts-justice]
+
+  - id: P-MONTGOMERY
+    description: The voters of Montgomery County elect the district attorney for the 9th Judicial District, who also acts as district attorney for the 410th and 457th Judicial Districts and represents the state in misdemeanor criminal cases in the county's district and lower courts.
+    statute: Government Code § 43.105(a)-(b)
+    source_url: https://statutes.capitol.texas.gov/Docs/GV/htm/GV.43.htm
+    topics: [courts-justice]
+    only_in: [montgomery-county]
+
+plain_summary:
+  intro:
+    text: The prosecutor who brings criminal cases for the state in the district courts.
+    powers: [P-CRIMINAL]
+  points:
+    - text: Prosecutes criminal cases in the district courts and handles their appeals
+      icon: gavel
+      powers: [P-CRIMINAL]
+    - text: In Montgomery County, also prosecutes misdemeanors in the county's courts
+      icon: court
+      powers: [P-MONTGOMERY]
+    - text: Four-year term
+      icon: vote
+      powers: [P-TERM]

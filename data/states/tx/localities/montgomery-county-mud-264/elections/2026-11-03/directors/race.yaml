@@ -1,0 +1,24 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Montgomery County MUD No. 264 Directors (5 seats)
+office_type: water-district-director
+election_date: '2026-11-03'
+detail: basic
+seats: 5
+sources:
+- id: tx/localities/montgomery-county-mud-264/elections/2026-11-03/directors/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Montgomery County Elections'' sample ballot for the November 3, 2026 joint election lists "MC MUD No. 264 Directors" on page 13, with these candidates: David Bell; William Beard; Chandler Cone; Max Lozmack; Steven Lund.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://elections.mctx.org/Samples/GEN110326/paper.pdf
+  source_title: 'Montgomery County Elections: Sample Ballot, November 3, 2026 Joint Election, Montgomery County, Texas (master sample ballot) (page 13)'
+  source_kind: document
+  sha256: b4040f7eb585b3c551a5a0d3cda80e6cb6c86cdac800e6e77b097f8da4e1437e
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's master sample ballot, which its sample ballot page describes as "the master sample ballot for all elections which we will be conducting in the November 3, 2026 Joint Election." Names and wording are from the PDF's text layer, kept as printed (English text only).
