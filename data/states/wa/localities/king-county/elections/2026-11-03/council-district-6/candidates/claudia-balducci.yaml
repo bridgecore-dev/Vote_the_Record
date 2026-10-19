@@ -1,9 +1,47 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: claudia-balducci
 name: Claudia Balducci
 incumbent: true
 ballot_party: null
-records: []
+records:
+- id: wa/localities/king-county/elections/2026-11-03/council-district-6/candidates/claudia-balducci#R-01
+  record_type: vote
+  headline: Voted yes on a 2026 supplemental county budget (Ordinance 20086, 2026)
+  result: Passed the council 9-0.
+  statement: As a member of the Metropolitan King County Council, voted yes on 2026-0071 (AN ORDINANCE making a net supplemental appropriation of $70,172,000 to various general fund agencies, a net supplemental appropriation of $147,858,000 to various non-general fund agencies and a net supplemental appropriation of $213,368,141 from various capital fund budgets; amending the 2026-2027 Biennial Budget Ordinance, Ordinance 20023 ...), which the council passed as amended on June 23, 2026, becoming Ordinance 20086. The council's recorded vote lists 9 yes and 0 no.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://webapi.legistar.com/v1/kingcounty/eventitems/341243/votes
+  source_title: 'King County Council Legistar: recorded vote on 2026-0071, June 23, 2026'
+  source_kind: document
+  sha256: 08a20a5418c0ad3ae50b28bbec32d8f2498d51f448eef6aa5aea281c39621489
+  archive_url: null
+  event_date: '2026-06-23'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The council''s official legislative system (Legistar) vote data, downloaded 2026-10-19. The legislation page: https://kingcounty.legistar.com/LegislationDetail.aspx?ID=26439&GUID=701D7108-BD9B-4832-88CE-82B950DA6273. Not yet archived on the Wayback Machine.'
+- id: wa/localities/king-county/elections/2026-11-03/council-district-6/candidates/claudia-balducci#R-02
+  record_type: vote
+  headline: Voted yes on the 2026-2027 county budget (Ordinance 20023, 2025)
+  result: Passed the council 9-0.
+  statement: As a member of the Metropolitan King County Council, voted yes on 2025-0288 (AN ORDINANCE that adopts the 2026-2027 Biennial Budget and makes appropriations for the operation of county agencies and departments and capital improvements for the fiscal biennium beginning January 1, 2026, and ending December 31, 2027; and establishing an effective date.), which the council passed as amended on November 18, 2025, becoming Ordinance 20023. The council's recorded vote lists 9 yes and 0 no.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://webapi.legistar.com/v1/kingcounty/eventitems/336850/votes
+  source_title: 'King County Council Legistar: recorded vote on 2025-0288, November 18, 2025'
+  source_kind: document
+  sha256: 7acfe2d1d7902ce77068f6a865123159137a983458c985da501aa863346520b6
+  archive_url: null
+  event_date: '2025-11-18'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The council''s official legislative system (Legistar) vote data, downloaded 2026-10-19. The legislation page: https://kingcounty.legistar.com/LegislationDetail.aspx?ID=25998&GUID=034ECF21-D1D6-4492-B324-C021F9110868. Not yet archived on the Wayback Machine.'
 funding:
 - id: wa/localities/king-county/elections/2026-11-03/council-district-6/candidates/claudia-balducci#M-01
   headline: Raised $200,947 and spent $274,173 (2026 election year, record updated Oct 13, 2026)

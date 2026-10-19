@@ -2,7 +2,6 @@
 name: King County Council, District 8
 office_type: county-council-member
 election_date: '2026-11-03'
-detail: basic
 area: king-county/council-8
 sources:
 - id: wa/localities/king-county/elections/2026-11-03/council-district-8/race#S-01

@@ -1,9 +1,123 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: gerry-pollet
 name: Gerry Pollet
 incumbent: true
 ballot_party: Prefers Democratic Party
-records: []
+records:
+- id: wa/districts/legislative-district-46/elections/2026-11-03/representative-position-1/candidates/gerry-pollet#R-01
+  record_type: vote
+  headline: Voted yes on ESSB 5998, the 2026 supplemental operating budget (2026)
+  result: Passed the House 54-43.
+  statement: As a member of the Washington House of Representatives, voted yes on ESSB 5998 (Making 2025-2027 fiscal biennium supplemental operating appropriations.) on the motion "Final Passage as Recommended by the Conference Committee". The Legislature's roll call for March 12, 2026 records 54 yeas and 43 nays.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetRollCalls?biennium=2025-26&billNumber=5998
+  source_title: 'Washington State Legislature web services: roll calls for ESSB 5998 (2025-26)'
+  source_kind: document
+  sha256: 126962917ddb2e2a5093c703a45892dd928b8649353b45bffd2ab43e1fb2cdc0
+  archive_url: null
+  event_date: '2026-03-12'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The Legislature''s official roll-call data for the bill, downloaded 2026-10-19; this vote is the last final-passage roll call in the House. The bill''s page: https://app.leg.wa.gov/billsummary?BillNumber=5998&Year=2026. The roll call lists members by last name, as "Pollet" here. Not yet archived on the Wayback Machine.'
+- id: wa/districts/legislative-district-46/elections/2026-11-03/representative-position-1/candidates/gerry-pollet#R-02
+  record_type: vote
+  headline: Voted yes on ESSB 6005, the 2026 supplemental transportation budget (2026)
+  result: Passed the House 69-26.
+  statement: As a member of the Washington House of Representatives, voted yes on ESSB 6005 (Making supplemental transportation appropriations for the 2025-2027 fiscal biennium.) on the motion "Final Passage as Recommended by the Conference Committee". The Legislature's roll call for March 12, 2026 records 69 yeas and 26 nays.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetRollCalls?biennium=2025-26&billNumber=6005
+  source_title: 'Washington State Legislature web services: roll calls for ESSB 6005 (2025-26)'
+  source_kind: document
+  sha256: d03d4e0872adee775ad3d63c8de7a6cfb8798c05d660e90484dfaaa92c74dbe8
+  archive_url: null
+  event_date: '2026-03-12'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The Legislature''s official roll-call data for the bill, downloaded 2026-10-19; this vote is the last final-passage roll call in the House. The bill''s page: https://app.leg.wa.gov/billsummary?BillNumber=6005&Year=2026. The roll call lists members by last name, as "Pollet" here. Not yet archived on the Wayback Machine.'
+- id: wa/districts/legislative-district-46/elections/2026-11-03/representative-position-1/candidates/gerry-pollet#R-03
+  record_type: vote
+  headline: Voted yes on SSB 6003, the 2026 supplemental capital budget (2026)
+  result: Passed the House 96-0.
+  statement: As a member of the Washington House of Representatives, voted yes on SSB 6003 (Concerning the capital budget.) on the motion "Final Passage as Amended by the House". The Legislature's roll call for March 12, 2026 records 96 yeas and 0 nays.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetRollCalls?biennium=2025-26&billNumber=6003
+  source_title: 'Washington State Legislature web services: roll calls for SSB 6003 (2025-26)'
+  source_kind: document
+  sha256: 1e0351be368f3e3694d36abeee20dc44b4151b3e82e30fc57ba1bb5fda188066
+  archive_url: null
+  event_date: '2026-03-12'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The Legislature''s official roll-call data for the bill, downloaded 2026-10-19; this vote is the last final-passage roll call in the House. The bill''s page: https://app.leg.wa.gov/billsummary?BillNumber=6003&Year=2026. The roll call lists members by last name, as "Pollet" here. Not yet archived on the Wayback Machine.'
+- id: wa/districts/legislative-district-46/elections/2026-11-03/representative-position-1/candidates/gerry-pollet#R-04
+  record_type: vote
+  headline: Voted yes on ESSB 5167, the 2025-27 state operating budget (2025)
+  result: Passed the House 52-45.
+  statement: As a member of the Washington House of Representatives, voted yes on ESSB 5167 (Making 2025-2027 fiscal biennium operating appropriations.) on the motion "Final Passage as Recommended by the Conference Committee". The Legislature's roll call for April 27, 2025 records 52 yeas and 45 nays.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetRollCalls?biennium=2025-26&billNumber=5167
+  source_title: 'Washington State Legislature web services: roll calls for ESSB 5167 (2025-26)'
+  source_kind: document
+  sha256: 1364cea16f19915c50a739be009abdf4f734054ec77557bbd90b61d25a8dd4a8
+  archive_url: null
+  event_date: '2025-04-27'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The Legislature''s official roll-call data for the bill, downloaded 2026-10-19; this vote is the last final-passage roll call in the House. The bill''s page: https://app.leg.wa.gov/billsummary?BillNumber=5167&Year=2025. The roll call lists members by last name, as "Pollet" here. Not yet archived on the Wayback Machine.'
+- id: wa/districts/legislative-district-46/elections/2026-11-03/representative-position-1/candidates/gerry-pollet#R-05
+  record_type: vote
+  headline: Voted yes on ESSB 5161, the 2025-27 transportation budget (2025)
+  result: Passed the House 80-18.
+  statement: As a member of the Washington House of Representatives, voted yes on ESSB 5161 (Making transportation appropriations for the 2025-2027 fiscal biennium.) on the motion "Final Passage as Recommended by the Conference Committee". The Legislature's roll call for April 27, 2025 records 80 yeas and 18 nays.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetRollCalls?biennium=2025-26&billNumber=5161
+  source_title: 'Washington State Legislature web services: roll calls for ESSB 5161 (2025-26)'
+  source_kind: document
+  sha256: ebf9ae8310a5a1f41b04f899d38a386ec1ad50d467f4c84323d5037fb80c97b7
+  archive_url: null
+  event_date: '2025-04-27'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The Legislature''s official roll-call data for the bill, downloaded 2026-10-19; this vote is the last final-passage roll call in the House. The bill''s page: https://app.leg.wa.gov/billsummary?BillNumber=5161&Year=2025. The roll call lists members by last name, as "Pollet" here. Not yet archived on the Wayback Machine.'
+- id: wa/districts/legislative-district-46/elections/2026-11-03/representative-position-1/candidates/gerry-pollet#R-06
+  record_type: vote
+  headline: Voted yes on SSB 5195, the 2025-27 capital budget (2025)
+  result: Passed the House 98-0.
+  statement: As a member of the Washington House of Representatives, voted yes on SSB 5195 (Concerning the capital budget.) on the motion "Final Passage as Amended by the House". The Legislature's roll call for April 27, 2025 records 98 yeas and 0 nays.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetRollCalls?biennium=2025-26&billNumber=5195
+  source_title: 'Washington State Legislature web services: roll calls for SSB 5195 (2025-26)'
+  source_kind: document
+  sha256: fc6efcb1c7ed0d73ce12ec8b32e1385154065d6fb1c2cd7eda3d4a18fa7d9107
+  archive_url: null
+  event_date: '2025-04-27'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The Legislature''s official roll-call data for the bill, downloaded 2026-10-19; this vote is the last final-passage roll call in the House. The bill''s page: https://app.leg.wa.gov/billsummary?BillNumber=5195&Year=2025. The roll call lists members by last name, as "Pollet" here. Not yet archived on the Wayback Machine.'
 funding:
 - id: wa/districts/legislative-district-46/elections/2026-11-03/representative-position-1/candidates/gerry-pollet#M-01
   headline: Raised $214,407 and spent $220,329 (2026 election year, record updated Oct 14, 2026)

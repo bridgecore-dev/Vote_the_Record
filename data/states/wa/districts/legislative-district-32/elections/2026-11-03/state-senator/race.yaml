@@ -2,7 +2,6 @@
 name: State Senator, Legislative District 32
 office_type: state-senator
 election_date: '2026-11-03'
-detail: basic
 sources:
 - id: wa/districts/legislative-district-32/elections/2026-11-03/state-senator/race#S-01
   headline: Candidates as printed on the sample ballot
