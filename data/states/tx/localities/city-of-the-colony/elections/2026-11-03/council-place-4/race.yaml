@@ -2,11 +2,11 @@
 name: City of The Colony Council, Place 4
 office_type: city-council-member
 election_date: '2026-11-03'
-detail: basic
+area: city-of-the-colony/place-4
 sources:
 - id: tx/localities/city-of-the-colony/elections/2026-11-03/council-place-4/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Denton County Elections''s sample ballot for the November 3, 2026 general and special elections lists "City of The Colony Place 4" on page 5, with these candidates: Dan McNew; Dan Rainey; Tim Costello.'
+  statement: 'The Denton County Elections'' sample ballot for the November 3, 2026 general and special elections lists "City of The Colony Place 4" on page 5, with these candidates: Dan McNew; Dan Rainey; Tim Costello.'
   label: official_record
   claim_status: documented
   contradicted_by: []
@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's all-precinct preview ballot. Names and wording are from the PDF's text layer, kept exactly as printed, with spaces restored where the text layer drops them between fragments. The ballot prints parties as REP, DEM, LIB, and GRN.
+- id: tx/localities/city-of-the-colony/elections/2026-11-03/council-place-4/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (City of The Colony: City Council), checked on October 14, 2026, shows that Dan Rainey, a candidate in this race, currently holds this office. It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.thecolonytx.gov/552/City-Council
+  source_title: 'City of The Colony: City Council'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-14'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+notes: The city's council page (https://www.thecolonytx.gov/552/City-Council, read 2026-10-14) lists Place 4 as a "Single Member District", so only voters living in that district choose this seat. The city's district map was not found in an official data source, so the address lookup does not place voters in it.

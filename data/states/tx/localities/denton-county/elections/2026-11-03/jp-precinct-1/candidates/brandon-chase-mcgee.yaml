@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: brandon-chase-mcgee
 name: Brandon Chase McGee
-incumbent: null
+incumbent: false
 ballot_party: Democratic Party
 records: []
-funding: []
+funding:
+- id: tx/localities/denton-county/elections/2026-11-03/jp-precinct-1/candidates/brandon-chase-mcgee#M-01
+  headline: Raised $8,278 and had $3,826 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Denton County Elections on Oct 4, 2026: $8,277.54 in total political contributions, $6,714.01 in total political expenditures, $3,826.28 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/12B49427-859D-424A-B0C3-EE59175F6C37/viewfinalredactedpdf
+  source_title: 'Denton County Elections: campaign finance report, McGee, Brandon (filed Oct 4, 2026)'
+  source_kind: document
+  sha256: 89c6a5a44b6d1d69ad8a0138fede7cdff4b42e7ba77f949fbeed891bc24473f1
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Denton County''s Easy Campaign Finance portal (https://dentoncountytx.easyvotecampaignfinance.com/home) under filer "McGee, Brandon", office "Justice of the Peace Precinct #1", document "McGee, Brandon Chase - 30 Day Report" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
   policy_proposals: []

@@ -9,7 +9,7 @@ beta: true
 # "Corrections form coming soon" instead of links.
 corrections_form_url: "/report/?item={id}"
 
-source_code_url: https://github.com/dannythefob/Vote_the_Record
+source_code_url: https://github.com/bridgecore-dev/Vote_the_Record
 
 # Official voter information, by state. Shown on the home page.
 official_links:

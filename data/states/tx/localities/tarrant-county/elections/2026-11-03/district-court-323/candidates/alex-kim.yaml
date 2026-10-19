@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: alex-kim
+name: Alex Kim
+incumbent: null
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/district-court-323/candidates/alex-kim#M-01
+  headline: Raised $1,125 and had $37,684 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 4, 2026: $1,125.00 in total political contributions, $809.95 in total political expenditures, $37,684.24 in contributions on hand at the end of the period, and $96,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069370.PDF
+  source_title: 'Texas Ethics Commission: Kim, Alexander H (The Honorable), campaign finance report 101069370 (filed Oct 4, 2026)'
+  source_kind: document
+  sha256: 873a94fa7107d2b3c81f8a5d4500524e5322a4c339da053aa056d80eda81527d
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101069370, form JCOH, TEC report type E30DAYBEF; filer ID 00081652 (Kim, Alexander H (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: david-wylie
 name: David Wylie
-incumbent: null
+incumbent: false
 ballot_party: Republican Party
 records: []
-funding: []
+funding:
+- id: tx/localities/denton-county/elections/2026-11-03/commissioner-precinct-4/candidates/david-wylie#M-01
+  headline: Raised $19,252 and had $187 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Denton County Elections on Oct 5, 2026: $19,252.40 in total political contributions, $21,109.22 in total political expenditures, $186.57 in contributions on hand at the end of the period, and $2,200.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/A26743CD-84B3-432F-A036-C4A2ABA48148/viewfinalredactedpdf
+  source_title: 'Denton County Elections: campaign finance report, Wylie, David (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 477ee0b1841f2b35d59fe8b0f2f2cb4cba679e7744ffeaf06a21aa71fe68c486
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Denton County''s Easy Campaign Finance portal (https://dentoncountytx.easyvotecampaignfinance.com/home) under filer "Wylie, David", office "County Commissioner Precinct #4", document "DWNov30day" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
   policy_proposals: []

@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: justin-early
+name: Justin Early
+incumbent: false
+ballot_party: Democratic Party
+records: []
+funding:
+- id: tx/districts/us-house-31/elections/2026-11-03/us-representative/candidates/justin-early#M-01
+  headline: Raised $123,522 and had $17,400 on hand (2025-26 cycle through Jun 30, 2026)
+  statement: 'The FEC''s all-candidates summary for the 2025-2026 cycle lists, for EARLY, JUSTIN (candidate ID H6TX31094), through June 30, 2026: $123,521.78 in total receipts, $73,873.57 of it from individuals, $9,842.10 in contributions from the candidate, $32,800.00 in loans from the candidate, $7,000.00 from other political committees, $106,122.07 in total disbursements, $17,399.71 cash on hand at the end of the period, and $58,737.45 in debts owed by the campaign.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.fec.gov/files/bulk-downloads/2026/weball26.zip
+  source_title: 'Federal Election Commission: All candidates file, 2025-2026 (weball26.zip)'
+  source_kind: document
+  sha256: 31ddb81424644a25e7bfb241f55ae9e78f285ffe3c75bcad398fa9f0f5b63016
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From weball26.txt in the FEC''s bulk data, downloaded 2026-10-06 (sha256 is of the zip file); columns as described at https://www.fec.gov/campaign-finance-data/all-candidates-file-description/. The totals are cumulative for the cycle as reported by the campaign. Matched by last name and district (first name too when two filers share a last name). Spot-checked against the FEC API for three candidates. The candidate''s FEC page: https://www.fec.gov/data/candidate/H6TX31094/. The bulk file is updated as new reports arrive; the next quarterly reports cover through September 30, 2026.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

@@ -1,0 +1,61 @@
+# Powers of a King County Council member, from the King County Charter (the Clerk of the Council's copy, headed "UPDATED: January 10, 2023")
+# and the Revised Code of Washington, read on 2026-10-18.
+# Every power comes from the King County Charter or applies there through it, so each is limited to King County.
+office_type: county-council-member
+state: WA
+powers:
+  - id: P-TERM
+    description: The council has nine members, one elected from each of nine districts to a four-year term. The office is nonpartisan.
+    statute: King County Charter §§ 220.10, 650.20
+    source_url: https://aqua.kingcounty.gov/council/clerk/code/03_Charter.htm
+    only_in: [king-county]
+
+  - id: P-ORDINANCES
+    description: The council is the county's policy-making body and holds all of its legislative powers, which it uses by passing ordinances.
+    statute: King County Charter § 220.20
+    source_url: https://aqua.kingcounty.gov/council/clerk/code/03_Charter.htm
+    only_in: [king-county]
+
+  - id: P-BUDGET
+    description: Levies taxes and adopts the county budget. In reviewing the budget the county executive proposes, the council may add or delete items and raise or lower amounts.
+    statute: King County Charter §§ 220.20, 460
+    source_url: https://aqua.kingcounty.gov/council/clerk/code/03_Charter.htm
+    only_in: [king-county]
+    topics: [taxes-budget]
+
+  - id: P-TAX-LEVY
+    description: As a member of the county's legislative authority, votes to fix the amount of county property taxes to be collected.
+    statute: RCW 36.32.120(4); RCW 84.52.070
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=36.32.120
+    topics: [taxes-budget]
+
+  - id: P-PLANNING
+    description: Adopts by ordinance the county's comprehensive plans for its present and future development.
+    statute: King County Charter § 220.20
+    source_url: https://aqua.kingcounty.gov/council/clerk/code/03_Charter.htm
+    only_in: [king-county]
+    topics: [housing-land]
+
+  - id: P-CONFIRM
+    description: Confirms or rejects, by majority vote, the county executive's appointments of department heads.
+    statute: King County Charter § 340.40
+    source_url: https://aqua.kingcounty.gov/council/clerk/code/03_Charter.htm
+    only_in: [king-county]
+
+plain_summary:
+  intro:
+    text: A member of the county council, the county's legislative authority, which fixes the amount of county property taxes.
+    powers: [P-TAX-LEVY]
+  points:
+    - text: Votes on county laws (ordinances)
+      icon: gavel
+      powers: [P-ORDINANCES]
+    - text: Votes on the county budget and property taxes
+      icon: budget
+      powers: [P-BUDGET, P-TAX-LEVY]
+    - text: Votes on the plan for where and how the county grows
+      icon: contract
+      powers: [P-PLANNING]
+    - text: Approves or rejects the county executive's department heads
+      icon: vote
+      powers: [P-CONFIRM]

@@ -49,14 +49,16 @@ owner sets `verified`, `verified_on`, and `reviewer`, on facts and on mappings a
 Never change these fields on an existing entry. The site shows an "Unverified" badge on
 every unverified item.
 
-Every edit under `data/` requires the owner's approval. `.claude/settings.json` enforces
-this with an `ask` rule and a PreToolUse hook. Don't work around it.
+Claude may write under `data/` without asking first (owner's decision, 2026-10-18). Every report
+lists what changed under `data/` so the owner can review it before saying "commit".
 
 ## 4. Survey questions are hypotheticals tied to the office's powers
 Survey questions are hypothetical scenarios that the office could actually face. Each one
 must cite the specific power ID(s) it rests on, from that office type's `powers.yaml`.
 No questions about matters the office has no authority over, and no questions built from
-party platforms or hot-button issues outside the office's scope.
+party platforms or hot-button issues outside the office's scope. A scenario written around one
+state's laws lists it in `states` (e.g. `[TX]`); a race page asks a scenario only in those states
+and only when every power it cites applies to that race.
 
 Every survey option carries `tags` from the office type's tag list; tags never name or
 imply a party. Each mapping links one record to one question and lists the `options` it

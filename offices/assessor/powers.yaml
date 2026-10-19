@@ -1,0 +1,3 @@
+office_type: assessor
+level: county
+powers: []   # state powers: data/states/<st>/office-overrides/assessor.yaml

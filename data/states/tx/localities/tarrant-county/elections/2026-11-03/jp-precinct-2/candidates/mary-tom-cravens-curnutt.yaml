@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: mary-tom-cravens-curnutt
+name: Mary Tom Cravens Curnutt
+incumbent: true
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-2/candidates/mary-tom-cravens-curnutt#M-01
+  headline: Raised $34,850 and had $33,005 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Tarrant County Elections Administration on Oct 2, 2026: $34,850.00 in total political contributions, $29,226.06 in total political expenditures, and $33,004.91 in contributions on hand at the end of the period.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/552A9178-9597-4A1F-B55E-57F2C9102028/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Curnutt, Mary Tom (filed Oct 2, 2026)'
+  source_kind: document
+  sha256: 9c7e67d8c077bc3be89c3b5818a9cbe8a960a8897b4a024b649534bdb5969dbe
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Tarrant County''s Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Curnutt, Mary Tom", office "JUSTICE OF THE PEACE, PRECINCT NO. 2", document "COH 30 DAY GEN 2026" (JCOH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: handwritten (paper filing), legible; loan line left blank. Left out: outstanding loans. Not yet archived on the Wayback Machine.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

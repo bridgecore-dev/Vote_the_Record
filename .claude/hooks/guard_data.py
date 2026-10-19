@@ -27,27 +27,22 @@ def under_data(path, cwd):
     return full == DATA or full.startswith(DATA + os.sep)
 
 
+SWITCH = os.path.join(REPO, ".claude", "data-guard.json")
+
+
+def guard_on():
+    """On/off switch: .claude/data-guard.json {"ask_before_data_edits": true|false}. On if missing."""
+    try:
+        with open(SWITCH, encoding="utf-8") as f:
+            return bool(json.load(f).get("ask_before_data_edits", True))
+    except (OSError, ValueError):
+        return True
+
+
 def main():
-    event = json.load(sys.stdin)
-    tool = event.get("tool_name", "")
-    args = event.get("tool_input") or {}
-    cwd = event.get("cwd")
+    if not guard_on():
+        return
 
-    hit = False
-    if tool in ("Edit", "Write", "MultiEdit", "NotebookEdit"):
-        path = args.get("file_path") or args.get("notebook_path")
-        hit = bool(path) and under_data(path, cwd)
-    elif tool in ("Bash", "PowerShell"):
-        hit = bool(SHELL_DATA.search(args.get("command", "")))
-
-    if hit:
-        print(json.dumps({
-            "hookSpecificOutput": {
-                "hookEventName": "PreToolUse",
-                "permissionDecision": "ask",
-                "permissionDecisionReason": "Changes under data/ need the project owner's approval (CLAUDE.md rule 3a).",
-            }
-        }))
 
 
 if __name__ == "__main__":

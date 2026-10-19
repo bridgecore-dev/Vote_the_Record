@@ -2,11 +2,10 @@
 name: U.S. Representative, District 13
 office_type: us-representative
 election_date: '2026-11-03'
-detail: basic
 sources:
 - id: tx/districts/us-house-13/elections/2026-11-03/us-representative/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Denton County Elections''s sample ballot for the November 3, 2026 general and special elections lists "United States Representative, District 13" on page 1, with these candidates: Ronny Jackson (Republican Party); Mark Nair (Democratic Party).'
+  statement: 'The Denton County Elections'' sample ballot for the November 3, 2026 general and special elections lists "United States Representative, District 13" on page 1, with these candidates: Ronny Jackson (Republican Party); Mark Nair (Democratic Party).'
   label: official_record
   claim_status: documented
   contradicted_by: []
@@ -21,3 +20,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's all-precinct preview ballot. Names and wording are from the PDF's text layer, kept exactly as printed, with spaces restored where the text layer drops them between fragments. The ballot prints parties as REP, DEM, LIB, and GRN.
+- id: tx/districts/us-house-13/elections/2026-11-03/us-representative/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official list (Office of the Clerk, U.S. House of Representatives: Member Data (XML)), checked on October 14, 2026, shows that Ronny Jackson, a candidate in this race, currently holds this office. It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://clerk.house.gov/xml/lists/MemberData.xml
+  source_title: 'Office of the Clerk, U.S. House of Representatives: Member Data (XML)'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-14'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null

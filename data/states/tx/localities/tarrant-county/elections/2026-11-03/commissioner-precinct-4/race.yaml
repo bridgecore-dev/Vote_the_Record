@@ -1,0 +1,40 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: County Commissioner, Precinct 4
+office_type: county-commissioner
+election_date: '2026-11-03'
+detail: basic
+area: tarrant-county/commissioner-4
+sources:
+- id: tx/localities/tarrant-county/elections/2026-11-03/commissioner-precinct-4/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Tarrant County Elections Administration''s sample ballot for the November 3, 2026 joint general and special elections lists "County Commissioner, Precinct 4" on page 3, with these candidates: Manny Ramirez (REP); Nydia Cardenas (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://gisit.tarrantcounty.com/ballots/English-Spanish/5224001070.pdf
+  source_title: 'Tarrant County Elections Administration: Sample Ballot, November 3, 2026 Joint General and Special Elections, ballot style 5224001070 (page 3)'
+  source_kind: document
+  sha256: 2c8dde4f373dbd5544577e869e92f9063ebf236bbc18973bb2e5cd6345310966
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-16'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A sample ballot for one ballot style (one precinct part), from the county's Find My Ballot service (https://gisit.tarrantcounty.com/findmyballot/). The county posts no all-contest ballot; every style was collected by asking the service for each of the county's 1,703 voting sub-precincts. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/tarrant-county/elections/2026-11-03/commissioner-precinct-4/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official list (Tarrant County: Elected Officials), checked on October 17, 2026, shows that Manny Ramirez, a candidate in this race, currently holds this office. It lists the name as "Manny Ramirez". It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.tarrantcountytx.gov/en/elections/online-resources/elected-officials.html
+  source_title: 'Tarrant County: Elected Officials'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-17'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null

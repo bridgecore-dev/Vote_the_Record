@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: paul-thomasson
+name: Paul Thomasson
+incumbent: false
+ballot_party: Democratic Party
+records: []
+funding:
+- id: tx/districts/state-senate-5/elections/2026-11-03/state-senator/candidates/paul-thomasson#M-01
+  headline: Raised $9,243 and had $23,329 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 3, 2026: $9,242.79 in total political contributions, $38,182.11 in total political expenditures, $23,329.25 in contributions on hand at the end of the period, and $97,750.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069182.PDF
+  source_title: 'Texas Ethics Commission: Thomasson, Paul L. (Mr.), campaign finance report 101069182 (filed Oct 3, 2026)'
+  source_kind: document
+  sha256: de54e168c3bdc73f3b980037e19910e5b15b6860ba0eff3e807c280f411354af
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101069182, form COH, TEC report type E30DAYBEF; filer ID 00090033 (Thomasson, Paul L. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

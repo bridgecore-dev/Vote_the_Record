@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: eric-starnes
+name: Eric Starnes
+incumbent: true
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-7/candidates/eric-starnes#M-01
+  headline: Raised $1,150 and had $8,311 on hand (Jan 1, 2025 - Jul 1, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2025 - Jul 1, 2026, filed with Tarrant County Elections Administration on Jul 7, 2026: $1,150.00 in total political contributions, $1,026.01 in total political expenditures, $8,311.46 in contributions on hand at the end of the period, and $25,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/1D1489B2-14E6-4BBA-9C30-DE19A4883063/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Starnes, Eric (filed Jul 7, 2026)'
+  source_kind: document
+  sha256: 5cd56e43da6e6ca28cad7ad1443ae4f6377971024c32a14a2fb7127e6bb5906b
+  archive_url: null
+  event_date: '2026-07-01'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Tarrant County''s Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Starnes, Eric", office "JUDGE, COUNTY CRIMINAL COURT NO. 7", document "JCOH JUL 2026" (JCOH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: the period printed is Jan 1, 2025 through Jul 1, 2026. Not yet archived on the Wayback Machine.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

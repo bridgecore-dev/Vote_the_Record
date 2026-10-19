@@ -1,0 +1,28 @@
+# Powers of a Washington Court of Appeals judge.
+# Text checked against the Washington Constitution (the leg.wa.gov PDF, dated 12/11/2025) and the Revised Code of
+# Washington (app.leg.wa.gov) on 2026-10-18.
+office_type: court-of-appeals-justice
+state: WA
+powers:
+  - id: P-TERM
+    description: Judges are elected from districts to six-year terms. Division One's District 1 is King County.
+    statute: RCW 2.06.020, 2.06.070
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=2.06.020
+
+  - id: P-APPEALS
+    description: Hears appeals from the trial courts in all cases except the few that go directly to the Supreme Court.
+    statute: RCW 2.06.030
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=2.06.030
+    topics: [courts-justice]
+
+plain_summary:
+  intro:
+    text: Hears appeals from trial court decisions. Most appeals in Washington stop here.
+    powers: [P-APPEALS]
+  points:
+    - text: Reviews trial court decisions when they are appealed
+      icon: court
+      powers: [P-APPEALS]
+    - text: Six-year terms, elected by district
+      icon: vote
+      powers: [P-TERM]

@@ -1,0 +1,48 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: alisa-simmons
+name: Alisa Simmons
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/county-judge/candidates/alisa-simmons#M-01
+  headline: Raised $346,070 and had $246,770 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Tarrant County Elections Administration on Oct 5, 2026: $346,070.19 in total political contributions, $74,742.06 in total political expenditures, $246,770.02 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/A89F828A-481C-4C38-93D9-1D811A9C3157/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Simmons, Alisa (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 32c6da5605411c73f695b895d4a16fce5c2f58c532caee7b4e51cae2dcfd5669
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Tarrant County's Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Simmons, Alisa", office "COUNTY JUDGE", document "COH 30 DAY GEN 2026" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/tarrant-county/elections/2026-11-03/county-judge/candidates/alisa-simmons#O-01
+    headline: Federal oversight of the county jail
+    statement: 'Campaign website: "She demands federal oversight of the county jail"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://votealisasimmons.com/
+    source_title: Alisa Simmons for County Judge (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

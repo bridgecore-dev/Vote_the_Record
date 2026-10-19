@@ -1,0 +1,39 @@
+# Powers of a Washington county prosecuting attorney, from the Revised Code of Washington and the King County Charter (the Clerk of the Council's copy, headed "UPDATED: January 10, 2023"),
+# read on 2026-10-18.
+office_type: prosecuting-attorney
+state: WA
+powers:
+  - id: P-TERM
+    description: Elected countywide to a four-year term. In King County the office is nonpartisan.
+    statute: King County Charter § 649
+    source_url: https://aqua.kingcounty.gov/council/clerk/code/03_Charter.htm
+    only_in: [king-county]
+
+  - id: P-PROSECUTE
+    description: Prosecutes all criminal and civil cases in which the state or the county is a party, and defends lawsuits against the state or the county.
+    statute: RCW 36.27.020(4)
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=36.27.020
+    topics: [courts-justice]
+
+  - id: P-ADVISE
+    description: Serves as legal adviser to the county's governing body and to county officers and school directors on their official business.
+    statute: RCW 36.27.020(1)-(2)
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=36.27.020
+
+  - id: P-REFORM
+    description: The law directs the prosecuting attorney to seek to reform and improve the administration of criminal justice.
+    statute: RCW 36.27.020(11)
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=36.27.020
+    topics: [courts-justice]
+
+plain_summary:
+  intro:
+    text: The county's chief prosecutor, who brings criminal cases for the state and acts as the county's lawyer.
+    powers: [P-PROSECUTE, P-ADVISE]
+  points:
+    - text: Prosecutes criminal cases for the state
+      icon: gavel
+      powers: [P-PROSECUTE]
+    - text: Gives legal advice to county officials and represents the county in court
+      icon: shield
+      powers: [P-ADVISE, P-PROSECUTE]

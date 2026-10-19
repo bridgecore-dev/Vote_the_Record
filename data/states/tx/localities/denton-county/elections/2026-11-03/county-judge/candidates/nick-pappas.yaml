@@ -1,13 +1,98 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: nick-pappas
 name: Nick Pappas
-incumbent: null
+incumbent: false
 ballot_party: Democratic Party
 records: []
-funding: []
+funding:
+- id: tx/localities/denton-county/elections/2026-11-03/county-judge/candidates/nick-pappas#M-01
+  headline: Raised $850 and had $8 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Denton County Elections on Oct 3, 2026: $850.00 in total political contributions, $2,669.76 in total political expenditures, $8.31 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/9B415D6B-0CAA-4400-8B29-15B62FB73F3F/viewfinalredactedpdf
+  source_title: 'Denton County Elections: campaign finance report, Pappas, Nick (filed Oct 3, 2026)'
+  source_kind: document
+  sha256: 3cf3ae795b6a689853fd89b4ffe41658834689d35981d888aed54dc934cfd614
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Denton County's Easy Campaign Finance portal (https://dentoncountytx.easyvotecampaignfinance.com/home) under filer "Pappas, Nick", office "County Judge", document "30day2026" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/localities/denton-county/elections/2026-11-03/county-judge/candidates/nick-pappas#O-01
+    headline: Free meals for children, paid with federal grants
+    statement: 'Campaign website: "Three free meals a day for every kid in Denton County, using federal grant money we already paid for."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://pappasfordenton.com/
+    source_title: Nick Pappas for Denton County Judge (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/denton-county/elections/2026-11-03/county-judge/candidates/nick-pappas#O-02
+    headline: A public county hospital
+    statement: 'Campaign website: "A public county hospital and health campus, with mental health and addiction treatment on the same ground."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://pappasfordenton.com/
+    source_title: Nick Pappas for Denton County Judge (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/denton-county/elections/2026-11-03/county-judge/candidates/nick-pappas#O-03
+    headline: No county tax breaks for data centers
+    statement: 'Campaign website: "No county tax breaks for data centers."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://pappasfordenton.com/
+    source_title: Nick Pappas for Denton County Judge (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/denton-county/elections/2026-11-03/county-judge/candidates/nick-pappas#O-04
+    headline: Publish the budget and every contract
+    statement: 'Campaign website: "Publish the county budget and every county contract where you can read them."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://pappasfordenton.com/
+    source_title: Nick Pappas for Denton County Judge (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

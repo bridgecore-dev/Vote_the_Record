@@ -1,0 +1,48 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: tim-ohare
+name: Tim O'Hare
+incumbent: true
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/county-judge/candidates/tim-ohare#M-01
+  headline: Raised $425,722 and had $836,933 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Corrected campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Tarrant County Elections Administration on Oct 6, 2026: $425,721.76 in total political contributions, $298,196.94 in total political expenditures, $836,932.66 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/05306391-EACD-46A9-A838-AACCC1D3B28A/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, O''Hare, Tim (filed Oct 6, 2026)'
+  source_kind: document
+  sha256: f445bbfa4d25632d8028a7bbed1fcabf2ea444194308a453a4af00a689bb1eaa
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Tarrant County''s Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "O''Hare, Tim", office "COUNTY JUDGE", document "COR COH DAY GEN 2026" (COR-COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: corrected report (two donor names corrected); totals on page 4 of the filing. Not yet archived on the Wayback Machine.'
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/tarrant-county/elections/2026-11-03/county-judge/candidates/tim-ohare#O-01
+    headline: Lower taxes and spending
+    statement: 'Campaign website: "Lower Taxes. Less Spending. Smarter Government."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.electtimohare.com/issues-and-beliefs
+    source_title: 'Elect Tim O''Hare: Issues and Beliefs (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

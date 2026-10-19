@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: julya-jujubill-billhymer
+name: Julya 'Jujubill' Billhymer
+incumbent: null
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-5/candidates/julya-jujubill-billhymer#M-01
+  headline: Raised $7,915 and had $2,229 on hand (Jul 1, 2026 - Oct 5, 2026)
+  statement: 'Corrected campaign finance report covering Jul 1, 2026 - Oct 5, 2026, filed with Tarrant County Elections Administration on Oct 13, 2026: $7,915.23 in total political contributions, $5,291.26 in total political expenditures, $2,228.60 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/6AD6A963-283C-4569-896B-DEB20EF232BC/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Billhymer, Julya (filed Oct 13, 2026)'
+  source_kind: document
+  sha256: be1ec774d3c7111ffe955a4fd520f55c8b5f72c3347e3d19c3f4369d10a29c85
+  archive_url: null
+  event_date: '2026-10-05'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Tarrant County''s Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Billhymer, Julya", office "JUDGE, COUNTY CRIMINAL COURT NO. 5", document "COR COH 30 DAY GEN 2026" (COR-COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: corrected report (three check donations added); handwritten, legible. Not yet archived on the Wayback Machine.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

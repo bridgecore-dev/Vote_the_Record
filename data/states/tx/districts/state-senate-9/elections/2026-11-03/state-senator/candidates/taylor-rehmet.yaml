@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: taylor-rehmet
+name: Taylor Rehmet
+incumbent: true
+ballot_party: DEM
+records: []
+funding:
+- id: tx/districts/state-senate-9/elections/2026-11-03/state-senator/candidates/taylor-rehmet#M-01
+  headline: Raised $192,248 and had $127,476 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $192,247.76 in total political contributions, $153,727.42 in total political expenditures, $127,475.58 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070041.PDF
+  source_title: 'Texas Ethics Commission: Rehmet, Taylor (The Honorable), campaign finance report 101070041 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 8842c3e80b32614f67e293dd6ed00a73dc4e4fb1a4970b5ad2fae2c5fa2884af
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101070041, form COH, TEC report type E30DAYBEF; filer ID 00089777 (Rehmet, Taylor (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: nathan-smith
+name: Nathan Smith
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/district-clerk/candidates/nathan-smith#M-01
+  headline: Raised $22,914 and had $27,783 on hand (Jul 1, 2026 - Sep 26, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 26, 2026, filed with Tarrant County Elections Administration on Oct 2, 2026: $22,914.50 in total political contributions, $10,283.57 in total political expenditures, $27,782.78 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/C5F14D98-8C8B-48B3-88D7-C53C17720AEB/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Smith, Nathan (filed Oct 2, 2026)'
+  source_kind: document
+  sha256: 19561b983e313173e6835677a2a89a3344a6a42aca56b2c1e3b19ce781f1b4de
+  archive_url: null
+  event_date: '2026-09-26'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Tarrant County's Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Smith, Nathan", office "DISTRICT CLERK", document "COH 30 DAY GEN 2026" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

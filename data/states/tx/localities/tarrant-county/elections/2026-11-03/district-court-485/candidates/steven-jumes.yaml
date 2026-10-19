@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: steven-jumes
+name: Steven Jumes
+incumbent: null
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/district-court-485/candidates/steven-jumes#M-01
+  headline: Raised $600 and had $11,261 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 6, 2026: $600.00 in total political contributions, $2,608.00 in total political expenditures, $11,261.33 in contributions on hand at the end of the period, and $56,711.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101057564.PDF
+  source_title: 'Texas Ethics Commission: Jumes, Steven T. (The Honorable), campaign finance report 101057564 (filed Jul 6, 2026)'
+  source_kind: document
+  sha256: 51e92a626e16b84316cbb6ea5347c19930c8dfda7f0fa389483a013035ecb470
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101057564, form JCOH, TEC report type SEMIJUL; filer ID 00086909 (Jumes, Steven T. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

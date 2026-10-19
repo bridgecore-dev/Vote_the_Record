@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: lisa-woodard
+name: Lisa Woodard
+incumbent: true
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-8/candidates/lisa-woodard#M-01
+  headline: Raised $762 and had $15,817 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, filed with Tarrant County Elections Administration on Jul 14, 2026: $762.00 in total political contributions, $4,544.30 in total political expenditures, $15,816.67 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/0D9BDD59-56C2-4D8E-90ED-D0760EE8E34C/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Woodard, Lisa (filed Jul 14, 2026)'
+  source_kind: document
+  sha256: eba46cfbae42ae84f55af8324a4954ab4f943b7ddf519dfeaa2c02a6ee8d495e
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Tarrant County''s Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Woodard, Lisa", office "JUSTICE OF THE PEACE, PRECINCT NO. 8", document "COH JUL 2026" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: handwritten, legible. Not yet archived on the Wayback Machine.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

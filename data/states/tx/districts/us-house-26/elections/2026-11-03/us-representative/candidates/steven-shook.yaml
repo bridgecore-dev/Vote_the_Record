@@ -1,13 +1,81 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: steven-shook
 name: Steven Shook
-incumbent: null
+incumbent: false
 ballot_party: Democratic Party
 records: []
-funding: []
+funding:
+- id: tx/districts/us-house-26/elections/2026-11-03/us-representative/candidates/steven-shook#M-01
+  headline: Raised $17,227 and had $3,807 on hand (2025-26 cycle through Jun 30, 2026)
+  statement: 'The FEC''s all-candidates summary for the 2025-2026 cycle lists, for SHOOK, STEVEN JAMES (candidate ID H6TX26144), through June 30, 2026: $17,226.54 in total receipts, $17,226.54 of it from individuals, $14,623.00 in total disbursements, and $3,807.04 cash on hand at the end of the period.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.fec.gov/files/bulk-downloads/2026/weball26.zip
+  source_title: 'Federal Election Commission: All candidates file, 2025-2026 (weball26.zip)'
+  source_kind: document
+  sha256: 31ddb81424644a25e7bfb241f55ae9e78f285ffe3c75bcad398fa9f0f5b63016
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From weball26.txt in the FEC''s bulk data, downloaded 2026-10-06 (sha256 is of the zip file); columns as described at https://www.fec.gov/campaign-finance-data/all-candidates-file-description/. The totals are cumulative for the cycle as reported by the campaign. Matched by last name and district (first name too when two filers share a last name). Spot-checked against the FEC API for three candidates. The candidate''s FEC page: https://www.fec.gov/data/candidate/H6TX26144/. The bulk file is updated as new reports arrive; the next quarterly reports cover through September 30, 2026.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/us-house-26/elections/2026-11-03/us-representative/candidates/steven-shook#O-01
+    headline: Step-by-step move to universal health care
+    statement: 'Campaign website: "Implement planned step-by step transition to universal healthcare."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://shookforcongress2026.com/
+    source_title: Steven Shook for Congress 2026 (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-26/elections/2026-11-03/us-representative/candidates/steven-shook#O-02
+    headline: Medicare drug-price negotiation for all plans
+    statement: 'Campaign website: "Lower prescription drug prices by expanding Medicare price negotiation to all insurance plans."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://shookforcongress2026.com/
+    source_title: Steven Shook for Congress 2026 (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-26/elections/2026-11-03/us-representative/candidates/steven-shook#O-03
+    headline: Background checks on all gun sales
+    statement: 'Campaign website: "Close loopholes that allow guns to be sold without background checks."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://shookforcongress2026.com/
+    source_title: Steven Shook for Congress 2026 (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

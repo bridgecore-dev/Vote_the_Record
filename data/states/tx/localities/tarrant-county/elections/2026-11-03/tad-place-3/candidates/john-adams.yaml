@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: john-adams
+name: John Adams
+incumbent: null
+ballot_party: null
+records: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/tad-place-3/candidates/john-adams#M-01
+  headline: Raised $2,100 and had $1,202 on hand (Aug 13, 2026 - Oct 5, 2026)
+  statement: 'Campaign finance report covering Aug 13, 2026 - Oct 5, 2026, filed with Tarrant County Elections Administration on Oct 5, 2026: $2,100.00 in total political contributions, $898.11 in total political expenditures, $1,201.89 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/6FAC2B2B-5E56-4612-8924-4AB5A64AEE03/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Adams, John (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 4fe9272656e52b618d7cd879b96c3d207dec793670657f9817b0919e8bc25981
+  archive_url: null
+  event_date: '2026-10-05'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Tarrant County's Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Adams, John", office "TARRANT APPRAISAL DISTRICT BOARD MEMBER - PLACE 3", document "COH 30 DAY GEN 2026" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

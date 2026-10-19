@@ -14,13 +14,13 @@
     {% if ballot.payload.shapesUrl %}
     <label for="address">Your street address <span class="muted">(exact)</span></label>
     <div class="zip-row">
-      <input id="address" name="address" type="text" autocomplete="street-address" maxlength="200" placeholder="1001 Preston St, Houston, TX">
+      <input id="address" name="address" type="text" autocomplete="street-address" maxlength="200" placeholder="{{ ballot.state_info.address_example }}">
     </div>
     <p class="muted">Your address is looked up by the U.S. Census Bureau through our server and never stored. Or use your ZIP code:</p>
     {% endif %}
     <label for="zip">Your ZIP code</label>
     <div class="zip-row">
-      <input id="zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" maxlength="10" pattern="\d{5}(-\d{4})?" placeholder="77002">
+      <input id="zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" maxlength="10" pattern="\d{5}(-\d{4})?" placeholder="{{ ballot.state_info.zip_example }}">
       <button type="submit">Show my races</button>
       <button type="button" id="zip-reset" class="button-secondary" hidden>Show everything</button>
     </div>
@@ -113,7 +113,7 @@
 <section id="ballot-quiz" aria-labelledby="quiz-h">
   <h2 id="quiz-h">Quiz for your ballot</h2>
   <p>What would you do? Answer what-if questions about the jobs on your ballot, then see how your answers line up with each candidate's checked record. Skip anything you like. Nothing is saved or sent anywhere.</p>
-  <p class="muted">So far only races whose candidates we've researched have questions. Races for judges never get a quiz: the Texas Code of Judicial Conduct bars judges and judicial candidates from promising how they would rule. <a href="/methodology/#quiz-for-your-whole-ballot">How the quiz works</a>.</p>
+  <p class="muted">So far only races whose candidates we've researched have questions. Races for judges never get a quiz: {{ ballot.state_info.judicial_code }} bars judges and judicial candidates from promising how they would rule. <a href="/methodology/#quiz-for-your-whole-ballot">How the quiz works</a>.</p>
   <noscript><p class="banner-inline">The quiz needs JavaScript. Everything else on this page works without it.</p></noscript>
   <form id="ballot-quiz-form" class="survey" novalidate hidden>
     {% for qr in ballot.payload.quiz %}

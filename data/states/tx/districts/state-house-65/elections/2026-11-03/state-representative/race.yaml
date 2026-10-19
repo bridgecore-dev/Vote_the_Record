@@ -2,11 +2,10 @@
 name: State Representative, District 65
 office_type: state-representative
 election_date: '2026-11-03'
-detail: basic
 sources:
 - id: tx/districts/state-house-65/elections/2026-11-03/state-representative/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Denton County Elections''s sample ballot for the November 3, 2026 general and special elections lists "State Representative, District 65" on page 2, with these candidates: Mitch Little (Republican Party); Detrick DeBurr (Democratic Party).'
+  statement: 'The Denton County Elections'' sample ballot for the November 3, 2026 general and special elections lists "State Representative, District 65" on page 2, with these candidates: Mitch Little (Republican Party); Detrick DeBurr (Democratic Party).'
   label: official_record
   claim_status: documented
   contradicted_by: []
@@ -21,3 +20,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's all-precinct preview ballot. Names and wording are from the PDF's text layer, kept exactly as printed, with spaces restored where the text layer drops them between fragments. The ballot prints parties as REP, DEM, LIB, and GRN.
+- id: tx/districts/state-house-65/elections/2026-11-03/state-representative/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Texas House of Representatives: member page, District 65), checked on October 14, 2026, shows that Mitch Little, a candidate in this race, currently holds this office. The page lists the name as "Little, Mitch". It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://house.texas.gov/members/member-page/?district=65
+  source_title: 'Texas House of Representatives: member page, District 65'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-14'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: Highline School District No. 401, Proposition 1
+election_date: '2026-11-03'
+kind: bond
+ballot_text: 'The Board of Directors of Highline School District No. 401 adopted Resolution No. 11- 26, concerning neighborhood school improvements and safety upgrades. This proposition would authorize the District to: replace or rebuild four deteriorating schools (Cascade, Chinook, Sylvester, CHOICE Academy), including new career/technical learning spaces, secure entrances, security camera upgrades; make critical districtwide core building system upgrades, including heating, roofing, electrical, plumbing; implement districtwide health, security, fire system and earthquake safety upgrades; issue $595,400,000 of general obligation bonds maturing within 21 years; and levy annual excess property taxes to repay the bonds, all as provided in Resolution No. 11-26. Should this proposition be:'
+choices:
+- Approved
+- Rejected
+explained: []
+sources:
+- id: wa/localities/highline-sd-401/elections/2026-11-03/proposition-1/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The King County Elections'' sample ballot for the November 3, 2026 general and special election prints "Highline School District No. 401, Proposition 1" on page 11 with the choices Approved and Rejected and this English wording: "The Board of Directors of Highline School District No. 401 adopted Resolution No. 11- 26, concerning neighborhood school improvements and safety upgrades. This proposition would authorize the District to: replace or rebuild four deteriorating schools (Cascade, Chinook, Sylvester, CHOICE Academy), including new career/technical learning spaces, secure entrances, security camera upgrades; make critical districtwide core building system upgrades, including heating, roofing, electrical, plumbing; implement districtwide health, security, fire system and earthquake safety upgrades; issue $595,400,000 of general obligation bonds maturing within 21 years; and levy annual excess property taxes to repay the bonds, all as provided in Resolution No. 11-26. Should this proposition be:"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://cdn.kingcounty.gov/-/media/king-county/depts/elections/current-election/2026/11/sample-ballot.pdf?rev=ddaa4d38e7dd4f0e81025944a419a679&hash=895ADB51E1998F1D24C40AE595A68F95
+  source_title: 'King County Elections: November 3, 2026 Official General and Special Election Ballot, King County, Washington (sample ballot) (page 11)'
+  source_kind: document
+  sha256: 7470c8db740b2845deffb62e5f2401f01dd8fb288ecf813356d4dcfbdb707db8
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's sample ballot, which says it "contains all races and measures in King County." Names and wording are from the PDF's text layer, kept as printed. Candidates for partisan office are listed with the party preference printed under their names.

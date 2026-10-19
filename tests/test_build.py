@@ -790,3 +790,55 @@ def test_topic_labels_must_match_the_schema(tmp_path):
     path = tmp_path / "site.yaml"
     path.write_text(yaml.safe_dump(config), encoding="utf-8")
     assert build(REPO / "tests" / "fixtures" / "demo", tmp_path / "dist", demo=True, config_path=path) == 1
+
+
+def test_second_state_builds_with_its_own_wording(tmp_path):
+    """The demo repo moved to Washington (states/wa) builds, and its ballot page uses Washington wording."""
+    root = tmp_path / "wa"
+    shutil.copytree(DEMO, root)
+    shutil.move(root / "data/states/tx", root / "data/states/wa")
+    for f in (root / "data/states/wa").rglob("*"):
+        if f.suffix in (".yaml", ".json"):
+            text = f.read_text(encoding="utf-8")
+            text = re.sub(r"\btx/", "wa/", text).replace("state: TX", "state: WA").replace('"TX"', '"WA"')
+            f.write_text(text, encoding="utf-8")
+    out = tmp_path / "dist"
+    assert build(root, out, demo=True, today="2026-09-29") == 0
+    html = read(out, "ballot/wa/demo-county/2026-11-03/index.html")
+    assert "Washington government" in html and "Texas" not in html
+    assert 'placeholder="98104"' in html
+    if 'id="ballot-quiz"' in html:
+        assert "the Washington Code of Judicial Conduct bars" in html
+
+
+def test_quiz_asks_only_scenarios_written_for_the_state_whose_powers_apply(tmp_path):
+    """A scenario marked `states: [TX]` stays off Washington pages, and one resting on a power that doesn't apply
+    to the race is never asked."""
+    def make(state):
+        root = tmp_path / state
+        shutil.copytree(DEMO, root)
+        survey = root / "offices/county-commissioner/survey.yaml"
+        text = survey.read_text(encoding="utf-8")
+        text = text.replace("    powers: [P-BUDGET]\n", "    powers: [P-BUDGET]\n    states: [TX]\n", 1)
+        text = text.replace("    powers: [P-EMERGENCY]\n", "    powers: [P-EMERGENCY, P-NOT-HERE]\n", 1)
+        survey.write_text(text, encoding="utf-8")
+        powers = root / "offices/county-commissioner/powers.yaml"
+        powers.write_text(powers.read_text(encoding="utf-8").replace(
+            "powers:\n", "powers:\n  - id: P-NOT-HERE\n    description: Applies only elsewhere.\n"
+            "    statute: Demo Code § 1\n    source_url: https://example.org/demo\n    only_in: [nowhere-county]\n", 1),
+            encoding="utf-8")
+        if state == "wa":
+            shutil.move(root / "data/states/tx", root / "data/states/wa")
+            for f in (root / "data/states/wa").rglob("*"):
+                if f.suffix in (".yaml", ".json"):
+                    t = f.read_text(encoding="utf-8")
+                    f.write_text(re.sub(r"\btx/", "wa/", t).replace("state: TX", "state: WA").replace('"TX"', '"WA"'),
+                                 encoding="utf-8")
+        out = tmp_path / f"dist-{state}"
+        assert build(root, out, demo=True, today="2026-09-29") == 0
+        return read(out, f"ballot/{state}/demo-county/2026-11-03/index.html")
+
+    tx, wa = make("tx"), make("wa")
+    q1, q2 = '"id":"county-commissioner/S-01"', '"id":"county-commissioner/S-02"'
+    assert q1 in tx and q1 not in wa
+    assert q2 not in tx and q2 not in wa

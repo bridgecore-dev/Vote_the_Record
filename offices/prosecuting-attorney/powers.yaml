@@ -1,0 +1,3 @@
+office_type: prosecuting-attorney
+level: county
+powers: []   # state powers: data/states/<st>/office-overrides/prosecuting-attorney.yaml

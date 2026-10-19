@@ -22,6 +22,7 @@ scenarios:
   - id: S-01
     title: Budget shortfall
     powers: [P-BUDGET, P-TAX-RATE]
+    states: [TX]
     scenario: Mid-year, county revenue comes in well below projections, leaving a gap in next year's budget. Which would you push for first?
     options:
       - {id: A, text: Raise the property tax rate to close the gap, tags: [raise-revenue]}
@@ -31,6 +32,7 @@ scenarios:
   - id: S-02
     title: Extending a disaster declaration
     powers: [P-DISASTER-CONSENT]
+    states: [TX]
     scenario: The county judge declared a local disaster after a flood. It will expire in seven days unless the Commissioners Court consents to continue it. Recovery is under way but uneven. How do you vote?
     options:
       - {id: A, text: Continue it for as long as emergency officials recommend, tags: [extend-as-recommended]}
@@ -40,6 +42,7 @@ scenarios:
   - id: S-03
     title: Emergency repair contract
     powers: [P-CONTRACTS]
+    states: [TX]
     scenario: After a disaster, the county needs debris removal and repairs worth tens of millions of dollars. The law lets the court skip competitive bidding in a public calamity. Which approach do you support?
     options:
       - {id: A, text: "Use the exemption and sign contracts within days, then audit afterward", tags: [fast-contracting]}
@@ -49,6 +52,7 @@ scenarios:
   - id: S-04
     title: Redrawing voting precincts
     powers: [P-PRECINCTS]
+    states: [TX]
     scenario: Population growth means the county's election precincts must be redrawn. Which goal should guide the new lines?
     options:
       - {id: A, text: "Fewer, larger precincts, to lower election costs", tags: [fewer-precincts]}
@@ -58,6 +62,7 @@ scenarios:
   - id: S-05
     title: A crowded county road
     powers: [P-ROADS, P-BUDGET]
+    states: [TX]
     scenario: Traffic on a county road in a fast-growing area has doubled in five years, and the road budget can fund only one major project this year. Which do you support?
     options:
       - {id: A, text: Widen the road to add lanes, tags: [widen-road]}

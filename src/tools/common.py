@@ -18,7 +18,7 @@ REPO = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(REPO / "src" / "collectors"))
 from yamlio import NotRoundTrip, read_doc, write_doc  # noqa: E402,F401
 
-USER_AGENT = "Mozilla/5.0 (compatible; VoteTheRecord-upkeep/1.0; +https://github.com/dannythefob/Vote_the_Record)"
+USER_AGENT = "Mozilla/5.0 (compatible; VoteTheRecord-upkeep/1.0; +https://github.com/bridgecore-dev/Vote_the_Record)"
 # Files a collector generates: fix them by re-running the collector, never by hand.
 GENERATED = ("zips.yaml", "precincts.yaml")
 

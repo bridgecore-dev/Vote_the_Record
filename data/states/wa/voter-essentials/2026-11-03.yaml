@@ -1,0 +1,107 @@
+# Washington voter essentials for the November 3, 2026 election.
+# Unverified; written by an AI assistant from the Washington Secretary of State's pages and the RCW. Owner review required.
+state: WA
+election_date: "2026-11-03"
+items:
+  - id: wa/voter-essentials/2026-11-03#ballots-mailed
+    name: Ballots mailed and voting centers open
+    date: "2026-10-16"
+    detail: Every registered voter gets a ballot by mail. The voting period runs 18 days, through Election Day.
+    source_url: https://www.sos.wa.gov/elections/voters
+    source_title: "Washington Secretary of State: Voters (Dates & Deadlines)"
+    source_kind: page
+    sha256: null
+    archive_url: null
+    retrieved: "2026-10-18"
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: 'Page text: "October 16 Start of 18-day voting period (through Election Day). Ballots are mailed out and accessible voting units (AVUs) are available at voting centers."'
+
+  - id: wa/voter-essentials/2026-11-03#registration-deadline-online-mail
+    name: Last day to register online or by mail
+    date: "2026-10-26"
+    detail: Must be received by this date. You can still register in person until 8 p.m. on Election Day.
+    source_url: https://www.sos.wa.gov/elections/voters
+    source_title: "Washington Secretary of State: Voters (Dates & Deadlines)"
+    source_kind: page
+    sha256: null
+    archive_url: null
+    retrieved: "2026-10-18"
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: 'Page text: "October 26 Online and mail registrations must be received 8 days before Election Day." and "November 3 Deadline for Washington state voter registration or updates (in person only)." RCW 29A.08.140(1) sets both deadlines (https://app.leg.wa.gov/RCW/default.aspx?cite=29A.08.140).'
+
+  - id: wa/voter-essentials/2026-11-03#election-day
+    name: Election Day (last day to vote and to register in person)
+    date: "2026-11-03"
+    detail: Put your ballot in an official drop box by 8 p.m., or mail it with a postmark no later than Election Day.
+    source_url: https://www.sos.wa.gov/elections/voters
+    source_title: "Washington Secretary of State: Voters (Dates & Deadlines)"
+    source_kind: page
+    sha256: null
+    archive_url: null
+    retrieved: "2026-10-18"
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: 'Page text: "November 3 General Election - Deposit your ballot in an official drop box by 8 p.m. on Election Day." RCW 29A.60.190 counts "Each ballot that was returned before 8:00 p.m. on the day of the ... general election ... and each ballot bearing a postmark on or before the date of the ... general election ... and received no later than the day before certification" (https://app.leg.wa.gov/RCW/default.aspx?cite=29A.60.190).'
+
+# Who can vote: plain-language rules, each citing its source. Unverified; written by an AI assistant.
+at_the_polls:
+- id: wa/voter-essentials/2026-11-03#who-can-vote
+  heading: Who can vote in Washington
+  text: 'You can vote in Washington if you meet all of these. The Washington Constitution gives the vote "at all elections" to
+    U.S. citizens who meet these rules; people who are not U.S. citizens cannot vote in Washington elections, including
+    city, county, school, and district elections.'
+  list:
+  - A U.S. citizen
+  - 18 or older by Election Day (you can sign up as a future voter at 16 or 17)
+  - Living at your Washington address for at least 30 days before the election
+  - Registered to vote (online or by mail by October 26, or in person until 8 p.m. on November 3)
+  - Not serving a prison sentence for a felony (see below)
+  - Not declared mentally incompetent by a court
+  source_url: https://leg.wa.gov/state-laws-and-rules/washington-state-constitution/?section=e0de4c3e-d3f1-47fd-85c3-f8e4946b81ff
+  source_title: Washington State Constitution, Article VI, Sections 1 and 3
+  source_kind: page
+  sha256: null
+  archive_url: null
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Article VI, Section 1: "All persons of the age of eighteen years or over who are citizens of the United States and who
+    have lived in the state, county, and precinct thirty days immediately preceding the election at which they offer to vote,
+    except those disqualified by Article VI, section 3 of this Constitution, shall be entitled to vote at all elections."
+    Section 3: "All persons convicted of infamous crime unless restored to their civil rights and all persons while they are
+    judicially declared mentally incompetent are excluded from the elective franchise." The voter oath in RCW 29A.08.230
+    includes "I am a citizen of the United States" and "I am at least sixteen years old"; RCW 29A.08.210(9) says the applicant
+    "may register to vote if the applicant is at least sixteen years old and may vote if the applicant will be at least
+    eighteen years old by the next general election." Federal law also makes it a crime for a noncitizen to vote for
+    President, Vice President, or Congress (18 U.S.C. 611, https://www.law.cornell.edu/uscode/text/18/611). Read 2026-10-18.'
+- id: wa/voter-essentials/2026-11-03#felony-voting-rights
+  heading: After a felony conviction
+  text: 'Your right to vote comes back automatically once you are no longer serving a prison sentence for the felony. You must
+    register again before you vote.'
+  list:
+  - 'Washington felony: restored when you are not serving a sentence of total confinement under the Department of Corrections'
+  - 'Federal or other-state felony: restored when you are no longer incarcerated'
+  - Misdemeanor and juvenile convictions do not take away the right to vote
+  source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=29A.08.520
+  source_title: Revised Code of Washington, section 29A.08.520 (Felony conviction — Restoration of voting rights)
+  source_kind: page
+  sha256: null
+  archive_url: null
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'RCW 29A.08.520(1): "For a felony conviction in a Washington state court, the right to vote is automatically restored
+    as long as the person is not serving a sentence of total confinement under the jurisdiction of the department of
+    corrections. For a felony conviction in a federal court or any state court other than a Washington state court, the
+    right to vote is automatically restored as long as the person is no longer incarcerated. A person who has been convicted
+    of a felony and is either sentenced to a term of total confinement ... or otherwise incarcerated ... must reregister to
+    vote prior to voting." The Secretary of State page "Felony Convictions and Voting Rights"
+    (https://www.sos.wa.gov/elections/voters/voter-eligibility-resources/felony-convictions-and-voting-rights) says: "You do
+    not lose the right to vote for a misdemeanor conviction or a conviction in juvenile court." Read 2026-10-18.'

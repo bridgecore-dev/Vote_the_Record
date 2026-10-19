@@ -1,0 +1,3 @@
+office_type: municipal-court-judge
+tags: []   # controlled list of approach tags; never name or imply a party
+scenarios: []   # {id: S-01, powers: [P-XXX], scenario, options: [{id: A, text, tags: [...]}]}

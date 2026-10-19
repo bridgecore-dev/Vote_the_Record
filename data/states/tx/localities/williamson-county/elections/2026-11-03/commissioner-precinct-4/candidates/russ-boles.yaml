@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: russ-boles
+name: Russ Boles
+incumbent: true
+ballot_party: Republican Party
+records: []
+funding:
+- id: tx/localities/williamson-county/elections/2026-11-03/commissioner-precinct-4/candidates/russ-boles#M-01
+  headline: Raised $8,875 (Jul 1, 2026 - Oct 5, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Oct 5, 2026, filed with Williamson County Elections on Oct 5, 2026: $8,875.00 in total political contributions, and $5,680.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/9E85DA94-558D-43BC-BFAD-FF30DB5534B3/viewfinalredactedpdf
+  source_title: 'Williamson County Elections: campaign finance report, Boles, Russ (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 0aea8d2c1cab6947882c2b532eef79e0f7abf54e83840e4e86b8d27344bdc989
+  archive_url: null
+  event_date: '2026-10-05'
+  retrieved: '2026-10-16'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Williamson County''s Easy Campaign Finance portal (https://williamsoncountytx.easyvotecampaignfinance.com/home) under filer "Boles, Russ", office "Commissioner Pct #4", document "COH" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: handwritten; the expenditure total reads differently on cover pages 2 and 3 and the on-hand figure is not clearly legible, so both are left out. Left out: total expenditures, contributions on hand. Not yet archived on the Wayback Machine.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

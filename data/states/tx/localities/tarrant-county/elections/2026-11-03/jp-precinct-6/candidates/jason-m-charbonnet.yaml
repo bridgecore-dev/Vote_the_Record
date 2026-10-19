@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: jason-m-charbonnet
+name: Jason M. Charbonnet
+incumbent: true
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-6/candidates/jason-m-charbonnet#M-01
+  headline: Had $15,929 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, filed with Tarrant County Elections Administration on Jul 15, 2026: $0.00 in total political contributions, $0.00 in total political expenditures, $15,928.83 in contributions on hand at the end of the period, and $7,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/5056DA7B-3802-4E8F-A69C-D94351B78EA0/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Charbonnet, Jason (filed Jul 15, 2026)'
+  source_kind: document
+  sha256: ed027e0b8fcdd3445a1568de3f0d1826904892fb1d771720a99ba488207bfaa8
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Tarrant County's Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Charbonnet, Jason", office "JUSTICE OF THE PEACE, PRECINCT NO. 6", document "COH JUL 2026" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

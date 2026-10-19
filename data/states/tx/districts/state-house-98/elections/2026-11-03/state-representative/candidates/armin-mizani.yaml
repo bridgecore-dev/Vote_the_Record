@@ -1,0 +1,65 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: armin-mizani
+name: Armin Mizani
+incumbent: false
+ballot_party: REP
+records: []
+funding:
+- id: tx/districts/state-house-98/elections/2026-11-03/state-representative/candidates/armin-mizani#M-01
+  headline: Raised $43,089 and had $213,782 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $43,089.08 in total political contributions, $15,481.65 in total political expenditures, $213,781.53 in contributions on hand at the end of the period, and $200,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069254.PDF
+  source_title: 'Texas Ethics Commission: Mizani, Armin (The Honorable), campaign finance report 101069254 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: b7a37096583d3794aaa3cc7474c96b0f8b51d862cfab6b4a41f36459991931a4
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101069254, form COH, TEC report type E30DAYBEF; filer ID 00080883 (Mizani, Armin (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/state-house-98/elections/2026-11-03/state-representative/candidates/armin-mizani#O-01
+    headline: Larger homestead exemption and lower local rates
+    statement: 'Campaign website: "increase the homestead expansion, compress local rates to get as close to zero as possible"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://arminfortexas.com/
+    source_title: Armin Mizani for Texas (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-98/elections/2026-11-03/state-representative/candidates/armin-mizani#O-02
+    headline: Fund Operation Lone Star
+    statement: 'Campaign website: "will continue to fully fund Operation Lone Star"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://arminfortexas.com/
+    source_title: Armin Mizani for Texas (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

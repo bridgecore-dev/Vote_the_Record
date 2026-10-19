@@ -1,0 +1,163 @@
+# Contests on this ballot, in ballot order. complete: false until every contest is added.
+name: Williamson County ballot
+election_date: '2026-11-03'
+lookup_url: https://www.wilcotx.gov/VoterLookup
+complete: false
+unmapped:
+- austin-community-college
+- williamson-county-mud-80
+sources:
+- id: tx/localities/williamson-county/elections/2026-11-03/ballot#S-01
+  headline: Every contest on the sample ballot
+  statement: The Williamson County Elections' sample ballot for the November 3, 2026 joint general and special elections lists every contest on this ballot.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wilcotx.gov/DocumentCenter/View/22018/20261103-November-JGSE---COMPREHENSIVE-SAMPLE-BALLOT-PDF
+  source_title: 'Williamson County Elections: Joint General & Special Elections, November 3, 2026: Comprehensive Sample Ballot'
+  source_kind: document
+  sha256: 64d23d9141f54669da9dd413681d7716b19c67c8fded8cedd4a143af566ea8ef
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-15'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's comprehensive (all-contest) sample ballot, linked from its Elections page as "Composite Sample Ballot". Names and wording are from the PDF's text layer, kept exactly as printed (English text only), with one space restored where the text layer drops it ("UtilityDistrict"). The county's website blocks automated downloads, so the project owner downloaded the file; neither it nor the Wayback Machine could be reached for an archive copy on 2026-10-15.
+contests:
+- tx/statewide/elections/2026-11-03/us-senate
+- tx/districts/us-house-11/elections/2026-11-03/us-representative
+- tx/districts/us-house-17/elections/2026-11-03/us-representative
+- tx/districts/us-house-31/elections/2026-11-03/us-representative
+- tx/statewide/elections/2026-11-03/governor
+- tx/statewide/elections/2026-11-03/lieutenant-governor
+- tx/statewide/elections/2026-11-03/attorney-general
+- tx/statewide/elections/2026-11-03/comptroller
+- tx/statewide/elections/2026-11-03/land-commissioner
+- tx/statewide/elections/2026-11-03/agriculture-commissioner
+- tx/statewide/elections/2026-11-03/railroad-commissioner
+- tx/statewide/elections/2026-11-03/supreme-court-chief-justice
+- tx/statewide/elections/2026-11-03/supreme-court-place-2
+- tx/statewide/elections/2026-11-03/supreme-court-place-7
+- tx/statewide/elections/2026-11-03/supreme-court-place-8
+- tx/statewide/elections/2026-11-03/cca-place-3
+- tx/statewide/elections/2026-11-03/cca-place-4
+- tx/statewide/elections/2026-11-03/cca-place-9
+- tx/districts/sboe-5/elections/2026-11-03/sboe-member
+- tx/districts/state-senate-5/elections/2026-11-03/state-senator
+- tx/districts/state-senate-24/elections/2026-11-03/state-senator
+- tx/districts/state-house-20/elections/2026-11-03/state-representative
+- tx/districts/state-house-52/elections/2026-11-03/state-representative
+- tx/districts/state-house-136/elections/2026-11-03/state-representative
+- tx/districts/court-of-appeals-15/elections/2026-11-03/chief-justice
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-2
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-3
+- tx/districts/court-of-appeals-3/elections/2026-11-03/chief-justice
+- tx/localities/williamson-county/elections/2026-11-03/district-court-277
+- tx/localities/williamson-county/elections/2026-11-03/district-court-368
+- tx/localities/williamson-county/elections/2026-11-03/district-court-480
+- tx/localities/williamson-county/elections/2026-11-03/district-court-512
+- tx/localities/williamson-county/elections/2026-11-03/county-judge
+- tx/localities/williamson-county/elections/2026-11-03/county-court-at-law-1
+- tx/localities/williamson-county/elections/2026-11-03/county-court-at-law-2
+- tx/localities/williamson-county/elections/2026-11-03/county-court-at-law-3
+- tx/localities/williamson-county/elections/2026-11-03/county-court-at-law-4
+- tx/localities/williamson-county/elections/2026-11-03/district-clerk
+- tx/localities/williamson-county/elections/2026-11-03/county-clerk
+- tx/localities/williamson-county/elections/2026-11-03/county-treasurer
+- tx/localities/williamson-county/elections/2026-11-03/tax-assessor-collector
+- tx/localities/williamson-county/elections/2026-11-03/commissioner-precinct-2
+- tx/localities/williamson-county/elections/2026-11-03/commissioner-precinct-4
+- tx/localities/williamson-county/elections/2026-11-03/jp-precinct-1
+- tx/localities/williamson-county/elections/2026-11-03/jp-precinct-2
+- tx/localities/williamson-county/elections/2026-11-03/jp-precinct-3
+- tx/localities/williamson-county/elections/2026-11-03/jp-precinct-4
+- tx/localities/williamson-county/elections/2026-11-03/wcad-place-1
+- tx/localities/williamson-county/elections/2026-11-03/wcad-place-2
+- tx/localities/williamson-county/elections/2026-11-03/wcad-place-3
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-a
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-b
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-c
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-d
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-e
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-f
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-g
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-h
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-i
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-j
+- tx/localities/city-of-georgetown/elections/2026-11-03/proposition-a
+- tx/localities/city-of-hutto/elections/2026-11-03/proposition-a
+- tx/localities/city-of-jarrell/elections/2026-11-03/mayor
+- tx/localities/city-of-jarrell/elections/2026-11-03/alderman-place-1
+- tx/localities/city-of-jarrell/elections/2026-11-03/alderman-place-2
+- tx/localities/city-of-pflugerville/elections/2026-11-03/council-place-2
+- tx/localities/city-of-pflugerville/elections/2026-11-03/council-place-4
+- tx/localities/city-of-pflugerville/elections/2026-11-03/council-place-6
+- tx/localities/city-of-pflugerville/elections/2026-11-03/proposition-a
+- tx/localities/city-of-pflugerville/elections/2026-11-03/proposition-b
+- tx/localities/city-of-pflugerville/elections/2026-11-03/proposition-c
+- tx/localities/city-of-pflugerville/elections/2026-11-03/proposition-d
+- tx/localities/city-of-pflugerville/elections/2026-11-03/proposition-e
+- tx/localities/city-of-pflugerville/elections/2026-11-03/proposition-f
+- tx/localities/city-of-pflugerville/elections/2026-11-03/proposition-g
+- tx/localities/city-of-pflugerville/elections/2026-11-03/proposition-h
+- tx/localities/city-of-pflugerville/elections/2026-11-03/proposition-i
+- tx/localities/city-of-pflugerville/elections/2026-11-03/proposition-j
+- tx/localities/city-of-pflugerville/elections/2026-11-03/proposition-k
+- tx/localities/city-of-pflugerville/elections/2026-11-03/proposition-l
+- tx/localities/city-of-pflugerville/elections/2026-11-03/proposition-m
+- tx/localities/city-of-pflugerville/elections/2026-11-03/proposition-n
+- tx/localities/city-of-taylor/elections/2026-11-03/proposition-a
+- tx/localities/city-of-taylor/elections/2026-11-03/proposition-b
+- tx/localities/city-of-taylor/elections/2026-11-03/proposition-c
+- tx/localities/city-of-taylor/elections/2026-11-03/proposition-d
+- tx/localities/city-of-taylor/elections/2026-11-03/proposition-e
+- tx/localities/city-of-taylor/elections/2026-11-03/proposition-f
+- tx/localities/city-of-taylor/elections/2026-11-03/proposition-g
+- tx/localities/austin-community-college/elections/2026-11-03/trustee-place-1
+- tx/localities/austin-community-college/elections/2026-11-03/trustee-place-2
+- tx/localities/austin-community-college/elections/2026-11-03/trustee-place-3
+- tx/localities/austin-community-college/elections/2026-11-03/proposition-a
+- tx/localities/bartlett-isd/elections/2026-11-03/proposition-a
+- tx/localities/bartlett-isd/elections/2026-11-03/proposition-b
+- tx/localities/bartlett-isd/elections/2026-11-03/proposition-c
+- tx/localities/coupland-isd/elections/2026-11-03/proposition-a
+- tx/localities/florence-isd/elections/2026-11-03/proposition-a
+- tx/localities/florence-isd/elections/2026-11-03/proposition-b
+- tx/localities/georgetown-isd/elections/2026-11-03/proposition-a
+- tx/localities/leander-isd/elections/2026-11-03/trustee-place-1
+- tx/localities/leander-isd/elections/2026-11-03/trustee-place-2
+- tx/localities/leander-isd/elections/2026-11-03/trustee-place-6
+- tx/localities/leander-isd/elections/2026-11-03/trustee-place-7
+- tx/localities/leander-isd/elections/2026-11-03/proposition-a
+- tx/localities/pflugerville-isd/elections/2026-11-03/trustee-place-6
+- tx/localities/pflugerville-isd/elections/2026-11-03/trustee-place-7
+- tx/localities/round-rock-isd/elections/2026-11-03/trustee-place-3
+- tx/localities/round-rock-isd/elections/2026-11-03/trustee-place-4
+- tx/localities/round-rock-isd/elections/2026-11-03/trustee-place-5
+- tx/localities/round-rock-isd/elections/2026-11-03/trustee-place-6
+- tx/localities/round-rock-isd/elections/2026-11-03/proposition-a
+- tx/localities/block-house-mud/elections/2026-11-03/directors
+- tx/localities/highlands-at-mayfield-ranch-mud/elections/2026-11-03/director-place-1
+- tx/localities/highlands-at-mayfield-ranch-mud/elections/2026-11-03/director-place-3
+- tx/localities/highlands-at-mayfield-ranch-mud/elections/2026-11-03/director-place-5
+- tx/localities/north-austin-mud-1/elections/2026-11-03/director-place-2
+- tx/localities/north-austin-mud-1/elections/2026-11-03/director-place-4
+- tx/localities/solana-ranch-mud-1/elections/2026-11-03/proposition-a
+- tx/localities/solana-ranch-mud-1/elections/2026-11-03/directors
+- tx/localities/theon-ranches-mud-1/elections/2026-11-03/proposition-a
+- tx/localities/theon-ranches-mud-1/elections/2026-11-03/directors
+- tx/localities/theon-ranches-mud-1/elections/2026-11-03/proposition-b
+- tx/localities/theon-ranches-mud-1/elections/2026-11-03/proposition-c
+- tx/localities/theon-ranches-mud-1/elections/2026-11-03/proposition-d
+- tx/localities/theon-ranches-mud-1/elections/2026-11-03/proposition-e
+- tx/localities/theon-ranches-mud-1/elections/2026-11-03/proposition-f
+- tx/localities/williamson-county-mud-80/elections/2026-11-03/proposition-a
+- tx/localities/williamson-county-mud-80/elections/2026-11-03/directors
+- tx/localities/williamson-county-mud-80/elections/2026-11-03/proposition-b
+- tx/localities/williamson-county-mud-80/elections/2026-11-03/proposition-c
+- tx/localities/williamson-county-mud-80/elections/2026-11-03/proposition-d
+- tx/localities/williamson-county-mud-80/elections/2026-11-03/proposition-e
+- tx/localities/williamson-county-mud-80/elections/2026-11-03/proposition-f
+- tx/localities/williamson-county-mud-80/elections/2026-11-03/proposition-g
+- tx/localities/williamson-travis-mud-1/elections/2026-11-03/directors

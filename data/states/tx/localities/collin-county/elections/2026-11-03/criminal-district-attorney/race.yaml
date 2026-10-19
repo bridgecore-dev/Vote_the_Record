@@ -6,7 +6,7 @@ detail: basic
 sources:
 - id: tx/localities/collin-county/elections/2026-11-03/criminal-district-attorney/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Collin County Elections''s sample ballot for the November 3, 2026 joint general and special election lists "Criminal District Attorney Collin County" on page 2, with these candidates: Greg Willis (Republican Party).'
+  statement: 'The Collin County Elections'' sample ballot for the November 3, 2026 joint general and special election lists "Criminal District Attorney Collin County" on page 2, with these candidates: Greg Willis (Republican Party).'
   label: official_record
   claim_status: documented
   contradicted_by: []

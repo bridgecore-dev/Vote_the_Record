@@ -1,0 +1,24 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: King County District Court, Southeast Electoral District, Judge Position 4
+office_type: district-court-judge
+election_date: '2026-11-03'
+detail: basic
+area: king-county/district-court-southeast
+sources:
+- id: wa/localities/king-county/elections/2026-11-03/district-court-southeast-position-4/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The King County Elections'' sample ballot for the November 3, 2026 general and special election lists "Southeast Electoral District, Judge Position No. 4" on page 6, with these candidates: Corinna Harn.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://cdn.kingcounty.gov/-/media/king-county/depts/elections/current-election/2026/11/sample-ballot.pdf?rev=ddaa4d38e7dd4f0e81025944a419a679&hash=895ADB51E1998F1D24C40AE595A68F95
+  source_title: 'King County Elections: November 3, 2026 Official General and Special Election Ballot, King County, Washington (sample ballot) (page 6)'
+  source_kind: document
+  sha256: 7470c8db740b2845deffb62e5f2401f01dd8fb288ecf813356d4dcfbdb707db8
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's sample ballot, which says it "contains all races and measures in King County." Names and wording are from the PDF's text layer, kept as printed. Candidates for partisan office are listed with the party preference printed under their names.

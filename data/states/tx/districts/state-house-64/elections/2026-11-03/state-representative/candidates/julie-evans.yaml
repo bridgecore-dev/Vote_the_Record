@@ -1,13 +1,81 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: julie-evans
 name: Julie Evans
-incumbent: null
+incumbent: false
 ballot_party: Democratic Party
 records: []
-funding: []
+funding:
+- id: tx/districts/state-house-64/elections/2026-11-03/state-representative/candidates/julie-evans#M-01
+  headline: Raised $2,294 and had $1,685 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $2,294.37 in total political contributions, $12,343.76 in total political expenditures, $1,684.61 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069758.PDF
+  source_title: 'Texas Ethics Commission: Evans, Julie (Mrs.), campaign finance report 101069758 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 35cdc1c539d36f11efc8dea3fe3023456b99374a1355771d397dbf9ca70a7129
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101069758, form COH, TEC report type E30DAYBEF; filer ID 00090248 (Evans, Julie (Mrs.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/state-house-64/elections/2026-11-03/state-representative/candidates/julie-evans#O-01
+    headline: Raise teacher pay
+    statement: 'Campaign website: "Raise teacher pay and compensation"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.julieevansfortx64.com/issues
+    source_title: 'Julie Evans for Texas 64: Issues (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-64/elections/2026-11-03/state-representative/candidates/julie-evans#O-02
+    headline: End the voucher program
+    statement: 'Campaign website: "Eliminate the billionaire-funded voucher program"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.julieevansfortx64.com/issues
+    source_title: 'Julie Evans for Texas 64: Issues (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-64/elections/2026-11-03/state-representative/candidates/julie-evans#O-03
+    headline: Solar and wind for a stable grid
+    statement: 'Campaign website: "Combine solar and wind to create reliable and consistent energy"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.julieevansfortx64.com/issues
+    source_title: 'Julie Evans for Texas 64: Issues (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

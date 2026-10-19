@@ -6,7 +6,7 @@ detail: basic
 sources:
 - id: tx/localities/collin-county/elections/2026-11-03/ccad-place-3/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Collin County Elections''s sample ballot for the November 3, 2026 joint general and special election lists "Collin County Appraisal District Board of Directors, Place 3" on page 2, with these candidates: Joe Corcoran.'
+  statement: 'The Collin County Elections'' sample ballot for the November 3, 2026 joint general and special election lists "Collin County Appraisal District Board of Directors, Place 3" on page 2, with these candidates: Joe Corcoran.'
   label: official_record
   claim_status: documented
   contradicted_by: []

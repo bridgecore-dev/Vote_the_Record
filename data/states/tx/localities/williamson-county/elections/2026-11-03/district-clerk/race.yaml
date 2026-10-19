@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Williamson County District Clerk
+office_type: district-clerk
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/williamson-county/elections/2026-11-03/district-clerk/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Williamson County Elections'' sample ballot for the November 3, 2026 joint general and special elections lists "District Clerk" on page 2, with these candidates: Cathy Mendoza (Republican Party).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wilcotx.gov/DocumentCenter/View/22018/20261103-November-JGSE---COMPREHENSIVE-SAMPLE-BALLOT-PDF
+  source_title: 'Williamson County Elections: Joint General & Special Elections, November 3, 2026: Comprehensive Sample Ballot (page 2)'
+  source_kind: document
+  sha256: 64d23d9141f54669da9dd413681d7716b19c67c8fded8cedd4a143af566ea8ef
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-15'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's comprehensive (all-contest) sample ballot, linked from its Elections page as "Composite Sample Ballot". Names and wording are from the PDF's text layer, kept exactly as printed (English text only), with one space restored where the text layer drops it ("UtilityDistrict"). The county's website blocks automated downloads, so the project owner downloaded the file; neither it nor the Wayback Machine could be reached for an archive copy on 2026-10-15.
+- id: tx/localities/williamson-county/elections/2026-11-03/district-clerk/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The county''s page for this office (Williamson County: District Clerk (county web page)), in the Wayback Machine copy made on August 13, 2026 (the county site blocks automated access), shows Lisa David as holding this office; Lisa David is not a candidate in this race, so none of the candidates is the current officeholder.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wilcotx.gov/309/District-Clerk
+  source_title: 'Williamson County: District Clerk (county web page)'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20260813085640/https://www.wilcotx.gov/309/District-Clerk
+  event_date: '2026-08-13'
+  retrieved: '2026-10-15'
+  verification: unverified
+  verified_on: null
+  reviewer: null

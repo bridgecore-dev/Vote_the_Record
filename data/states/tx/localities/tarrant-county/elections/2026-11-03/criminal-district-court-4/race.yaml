@@ -1,0 +1,56 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Criminal District Judge, Court No. 4
+office_type: district-judge
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/tarrant-county/elections/2026-11-03/criminal-district-court-4/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Tarrant County Elections Administration''s sample ballot for the November 3, 2026 joint general and special elections lists "Criminal District Judge, Court No. 4" on page 2, with these candidates: Andy Porter (REP); John Brender (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://gisit.tarrantcounty.com/ballots/English-Spanish/5221005142.pdf
+  source_title: 'Tarrant County Elections Administration: Sample Ballot, November 3, 2026 Joint General and Special Elections, ballot style 5221005142 (page 2)'
+  source_kind: document
+  sha256: 5036a6e17250cef44faa76d60684ffe5be6e917fa011f325ad8f33943e012524
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-16'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A sample ballot for one ballot style (one precinct part), from the county's Find My Ballot service (https://gisit.tarrantcounty.com/findmyballot/). The county posts no all-contest ballot; every style was collected by asking the service for each of the county's 1,703 voting sub-precincts. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/tarrant-county/elections/2026-11-03/criminal-district-court-4/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Tarrant County: Criminal District Court No. 4), checked on October 17, 2026, shows that Andy Porter, a candidate in this race, currently holds this office. It lists the name as "Judge Andy Porter". It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.tarrantcountytx.gov/en/criminal-courts/felony-courts/criminal-district-court-4.html
+  source_title: 'Tarrant County: Criminal District Court No. 4'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-17'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+- id: tx/localities/tarrant-county/elections/2026-11-03/criminal-district-court-4/race#S-FUND
+  headline: Campaign finance search with no recent report
+  statement: The Texas Ethics Commission's campaign finance data, downloaded October 7, 2026, has no report for a period ending on or after 2025-01-01 for Andy Porter.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip
+  source_title: 'Texas Ethics Commission: Campaign Finance Data, bulk CSV download'
+  source_kind: document
+  sha256: b933efb41afff103ee1950962fc2d4b0056e3d0e4e61016ca83a3e5bdd2458d6
+  archive_url: null
+  event_date: '2026-10-07'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Searched filers.csv and cover.csv (candidate and judicial officeholder filers) by name, with office and district checks for nicknames. Absence in the bulk data is not proof that no report exists; check TEC's search at https://www.ethics.state.tx.us/search/cf/. The bulk file is too large for the Wayback Machine.

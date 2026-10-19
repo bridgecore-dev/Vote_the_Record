@@ -1,10 +1,4 @@
 {
-  "permissions": {
-    "ask": [
-      "Edit(/data/**)",
-      "Edit(data/**)"
-    ]
-  },
   "hooks": {
     "PreToolUse": [
       {

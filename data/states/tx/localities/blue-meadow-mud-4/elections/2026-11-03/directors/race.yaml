@@ -7,7 +7,7 @@ seats: 5
 sources:
 - id: tx/localities/blue-meadow-mud-4/elections/2026-11-03/directors/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Collin County Elections''s sample ballot for the November 3, 2026 joint general and special election lists "Blue Meadow Municipal Utility District No. 4 of Collin County, Directors" on page 5, with these candidates: Hunter Dansby; Fletcher Lutz; Tyler Barke; Alan Card; Devin Mitchell.'
+  statement: 'The Collin County Elections'' sample ballot for the November 3, 2026 joint general and special election lists "Blue Meadow Municipal Utility District No. 4 of Collin County, Directors" on page 5, with these candidates: Hunter Dansby; Fletcher Lutz; Tyler Barke; Alan Card; Devin Mitchell.'
   label: official_record
   claim_status: documented
   contradicted_by: []

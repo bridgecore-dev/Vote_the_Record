@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: cindy-yeatts-brown
 name: Cindy Yeatts Brown
-incumbent: null
+incumbent: true
 ballot_party: Republican Party
 records: []
-funding: []
+funding:
+- id: tx/localities/denton-county/elections/2026-11-03/county-treasurer/candidates/cindy-yeatts-brown#M-01
+  headline: Had $0 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Denton County Elections on Oct 1, 2026: $0.00 in total political contributions, $0.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/E44FF098-FF1A-4027-96DD-31188C261339/viewfinalredactedpdf
+  source_title: 'Denton County Elections: campaign finance report, Brown, Cindy (filed Oct 1, 2026)'
+  source_kind: document
+  sha256: ee65622909e9594bdad1d5bc375c126c289dd229d86e3f0e18e3fbb00c68509f
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Denton County's Easy Campaign Finance portal (https://dentoncountytx.easyvotecampaignfinance.com/home) under filer "Brown, Cindy", office "County Treasurer", document "COH 10/05/26" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
   policy_proposals: []

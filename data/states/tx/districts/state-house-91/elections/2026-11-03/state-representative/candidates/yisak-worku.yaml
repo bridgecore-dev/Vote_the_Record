@@ -1,0 +1,65 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: yisak-worku
+name: Yisak Worku
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/districts/state-house-91/elections/2026-11-03/state-representative/candidates/yisak-worku#M-01
+  headline: Raised $5,554 and had $6,130 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $5,554.10 in total political contributions, $3,829.23 in total political expenditures, $6,130.31 in contributions on hand at the end of the period, and $60.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070121.PDF
+  source_title: 'Texas Ethics Commission: Worku, Yisak T., campaign finance report 101070121 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 8fa895d30209dd7249f35cc163d75ac1928bfdc6a76e21ce3918d55d72a01c52
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101070121, form COH, TEC report type E30DAYBEF; filer ID 00090253 (Worku, Yisak T.). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/state-house-91/elections/2026-11-03/state-representative/candidates/yisak-worku#O-01
+    headline: Ban mass corporate buyouts of homes
+    statement: 'Campaign website: "Introducing legislation to ban mass buyouts of Texas houses"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://yisakfortexas.com/
+    source_title: Yisak Worku for Texas (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-91/elections/2026-11-03/state-representative/candidates/yisak-worku#O-02
+    headline: Rules for data centers
+    statement: 'Campaign website: "Utilize new and existing development rules to ensure that future data centers are environmentally safe, protect electrical services and rates, and are committed to being good neighbors and taxpayers, just like every business."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://yisakfortexas.com/
+    source_title: Yisak Worku for Texas (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

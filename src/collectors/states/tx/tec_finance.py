@@ -54,7 +54,7 @@ TEC_TITLE = "Texas Ethics Commission: Campaign Finance Data, bulk CSV download"
 TEC_SEARCH = "https://www.ethics.state.tx.us/search/cf/"
 # Each filed report's PDF, as linked from TEC's report-number search; the folder is a year.
 REPORT_PDF = "https://prd.tecprd.ethicsefile.com/public/cf/{year}/pdfs/ScrubbedReport_{rid}.PDF"
-USER_AGENT = "Mozilla/5.0 (compatible; VoteTheRecord/1.0; +https://github.com/dannythefob/Vote_the_Record)"
+USER_AGENT = "Mozilla/5.0 (compatible; VoteTheRecord/1.0; +https://github.com/bridgecore-dev/Vote_the_Record)"
 FILER_TYPES = ("COH", "JCOH")  # candidate/officeholder and judicial candidate/officeholder
 
 # TEC office codes (filers.csv ctaSeekOfficeCd / filerHoldOfficeCd) for each office type.

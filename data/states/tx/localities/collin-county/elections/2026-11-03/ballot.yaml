@@ -6,7 +6,7 @@ complete: false
 sources:
 - id: tx/localities/collin-county/elections/2026-11-03/ballot#S-01
   headline: Every contest on the sample ballot
-  statement: The Collin County Elections's sample ballot for the November 3, 2026 joint general and special election lists every contest on this ballot.
+  statement: The Collin County Elections' sample ballot for the November 3, 2026 joint general and special election lists every contest on this ballot.
   label: official_record
   claim_status: documented
   contradicted_by: []

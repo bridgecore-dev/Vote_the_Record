@@ -1,0 +1,65 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: joe-paz-herrera
+name: Joe Paz Herrera
+incumbent: false
+ballot_party: Democratic Party
+records: []
+funding:
+- id: tx/districts/state-senate-24/elections/2026-11-03/state-senator/candidates/joe-paz-herrera#M-01
+  headline: Raised $2,585 and had $3,104 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Sep 29, 2026: $2,584.66 in total political contributions, $4,017.44 in total political expenditures, $3,103.77 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068190.PDF
+  source_title: 'Texas Ethics Commission: Herrera, Joe P. (Mr.), campaign finance report 101068190 (filed Sep 29, 2026)'
+  source_kind: document
+  sha256: 2b86b5b98ac219daf32890e81c407abba9fac8bad3bc7a2130cb985f98c0d0c3
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101068190, form COH, TEC report type E30DAYBEF; filer ID 00081966 (Herrera, Joe P. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/state-senate-24/elections/2026-11-03/state-senator/candidates/joe-paz-herrera#O-01
+    headline: More public school funding and teacher pay
+    statement: 'Campaign website: "We need increased funding for our public schools and higher salaries for our teachers and staff."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://herrerafortexas.com/
+    source_title: Herrera for Texas (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-senate-24/elections/2026-11-03/state-senator/candidates/joe-paz-herrera#O-02
+    headline: Rural health care access
+    statement: 'Campaign website: "I am committed to increasing access to rural healthcare in Texas Senate District 24."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://herrerafortexas.com/
+    source_title: Herrera for Texas (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

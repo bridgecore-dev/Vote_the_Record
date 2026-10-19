@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: tony-tinderholt
+name: Tony Tinderholt
+incumbent: false
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/commissioner-precinct-2/candidates/tony-tinderholt#M-01
+  headline: Raised $6,673 and had $65,021 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Tarrant County Elections Administration on Oct 2, 2026: $6,672.84 in total political contributions, $25,731.41 in total political expenditures, $65,021.36 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/E7073682-DFAE-40A3-94A8-C2FD1EF7E03D/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Tinderholt, Tony (filed Oct 2, 2026)'
+  source_kind: document
+  sha256: 340ef9c379a97a0ce139ea4096c370082de1c2d5b57e73537faaff789a431a26
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Tarrant County's Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Tinderholt, Tony", office "COUNTY COMMISSIONER, PRECINCT NO. 2", document "COH 30 DAY GEN 2026" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

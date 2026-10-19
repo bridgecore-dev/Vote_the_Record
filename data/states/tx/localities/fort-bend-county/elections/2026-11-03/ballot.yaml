@@ -6,7 +6,7 @@ complete: false
 sources:
 - id: tx/localities/fort-bend-county/elections/2026-11-03/ballot#S-01
   headline: Every contest on the sample ballot
-  statement: The Fort Bend County Elections's sample ballot for the November 3, 2026 general election lists every contest on this ballot.
+  statement: The Fort Bend County Elections' sample ballot for the November 3, 2026 general election lists every contest on this ballot.
   label: official_record
   claim_status: documented
   contradicted_by: []

@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: City of Issaquah, Proposition 1
+election_date: '2026-11-03'
+kind: bond
+ballot_text: 'The Issaquah City Council adopted Ordinance No. 3142, concerning bonds for parks, trails, and recreation projects. If approved, this proposition would authorize the City to: complete various projects, including sports fields and courts, new trails, trailhead improvements, restoration of Confluence Park’s Ek House, playground improvements, a new dog park, and related capital improvements; issue no more than $18,000,000 of general obligation bonds maturing within 20 years; and levy annual excess property taxes to pay and retire such bonds, all as provided in Ordinance No. 3142. Should this proposition be approved?'
+choices:
+- 'Yes'
+- 'No'
+explained: []
+sources:
+- id: wa/localities/city-of-issaquah/elections/2026-11-03/proposition-1/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The King County Elections'' sample ballot for the November 3, 2026 general and special election prints "City of Issaquah, Proposition 1" on page 8 with the choices Yes and No and this English wording: "The Issaquah City Council adopted Ordinance No. 3142, concerning bonds for parks, trails, and recreation projects. If approved, this proposition would authorize the City to: complete various projects, including sports fields and courts, new trails, trailhead improvements, restoration of Confluence Park’s Ek House, playground improvements, a new dog park, and related capital improvements; issue no more than $18,000,000 of general obligation bonds maturing within 20 years; and levy annual excess property taxes to pay and retire such bonds, all as provided in Ordinance No. 3142. Should this proposition be approved?"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://cdn.kingcounty.gov/-/media/king-county/depts/elections/current-election/2026/11/sample-ballot.pdf?rev=ddaa4d38e7dd4f0e81025944a419a679&hash=895ADB51E1998F1D24C40AE595A68F95
+  source_title: 'King County Elections: November 3, 2026 Official General and Special Election Ballot, King County, Washington (sample ballot) (page 8)'
+  source_kind: document
+  sha256: 7470c8db740b2845deffb62e5f2401f01dd8fb288ecf813356d4dcfbdb707db8
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's sample ballot, which says it "contains all races and measures in King County." Names and wording are from the PDF's text layer, kept as printed. Candidates for partisan office are listed with the party preference printed under their names.

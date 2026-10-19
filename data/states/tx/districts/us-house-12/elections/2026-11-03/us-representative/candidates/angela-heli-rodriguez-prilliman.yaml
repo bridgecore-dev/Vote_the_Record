@@ -1,0 +1,48 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: angela-heli-rodriguez-prilliman
+name: Angela 'Heli' Rodriguez Prilliman
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/districts/us-house-12/elections/2026-11-03/us-representative/candidates/angela-heli-rodriguez-prilliman#M-01
+  headline: No FEC campaign finance record found
+  statement: The FEC's all-candidates summary for the 2025-2026 cycle, downloaded October 6, 2026, has no record for Angela 'Heli' Rodriguez Prilliman among Texas U.S. House candidates.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.fec.gov/files/bulk-downloads/2026/weball26.zip
+  source_title: 'Federal Election Commission: All candidates file, 2025-2026 (weball26.zip)'
+  source_kind: document
+  sha256: 31ddb81424644a25e7bfb241f55ae9e78f285ffe3c75bcad398fa9f0f5b63016
+  archive_url: null
+  event_date: '2026-10-06'
+  retrieved: '2026-10-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Searched by last name among Texas House filers. The file lists only candidates who raised or spent money; candidates below the FEC's $5,000 registration threshold need not file. Absence here is not proof that no report exists; check https://www.fec.gov/data/candidates/.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/us-house-12/elections/2026-11-03/us-representative/candidates/angela-heli-rodriguez-prilliman#O-01
+    headline: Fund child care, health care and education over wars and surveillance
+    statement: 'Campaign website: "adequately funded childcare, healthcare, education, and mental health care for the American people instead of funding never ending wars and mass surveillance on citizens"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.helifortexas.com/issues
+    source_title: 'Heli for Congress TX-12: The Issues & FAQ (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

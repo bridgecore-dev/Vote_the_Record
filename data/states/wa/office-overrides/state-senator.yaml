@@ -1,0 +1,49 @@
+# Powers of a Washington state senator.
+# Text checked against the Washington Constitution (the leg.wa.gov PDF, dated 12/11/2025) and the Revised Code of
+# Washington (app.leg.wa.gov) on 2026-10-18.
+office_type: state-senator
+state: WA
+powers:
+  - id: P-TERM
+    description: One of 49 senators, one from each legislative district, elected to a four-year term. Half the seats are up every two years.
+    statute: RCW 44.05.090(4); Washington Constitution art. II, § 6
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=44.05.090
+
+  - id: P-LAWS
+    description: Votes on bills. A bill becomes law only if a majority of the members elected to each house vote for it, and the governor signs it or two-thirds of each house overrides a veto.
+    statute: Washington Constitution art. II, § 22; art. III, § 12
+    source_url: https://leg.wa.gov/media/o3fg0ey1/washington-state-constitution.pdf
+
+  - id: P-BUDGET
+    description: Votes on the state budget and taxes. State money may be spent only as a law appropriates it, and taxes may be levied only by law.
+    statute: Washington Constitution art. VIII, § 4; art. VII, § 5
+    source_url: https://leg.wa.gov/media/o3fg0ey1/washington-state-constitution.pdf
+    topics: [taxes-budget]
+
+  - id: P-CONFIRM
+    description: Votes on the governor's appointments that require Senate confirmation, including heads of state agencies.
+    statute: RCW 43.06.092; RCW 43.17.020
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=43.06.092
+
+  - id: P-IMPEACH-TRIAL
+    description: The Senate tries impeachments. Conviction needs two-thirds of the senators elected.
+    statute: Washington Constitution art. V, § 1
+    source_url: https://leg.wa.gov/media/o3fg0ey1/washington-state-constitution.pdf
+
+plain_summary:
+  intro:
+    text: One of 49 state senators. Votes on Washington laws and the state budget, and approves the governor's appointments.
+    powers: [P-TERM, P-LAWS, P-BUDGET, P-CONFIRM]
+  points:
+    - text: Votes on Washington laws
+      icon: vote
+      powers: [P-LAWS]
+    - text: Votes on the state budget and taxes
+      icon: budget
+      powers: [P-BUDGET]
+    - text: Approves or rejects the governor's appointments
+      icon: contract
+      powers: [P-CONFIRM]
+    - text: Acts as the court in impeachment trials
+      icon: gavel
+      powers: [P-IMPEACH-TRIAL]

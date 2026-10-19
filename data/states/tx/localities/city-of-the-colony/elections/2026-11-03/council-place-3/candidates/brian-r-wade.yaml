@@ -1,9 +1,47 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: brian-r-wade
 name: Brian R. Wade
-incumbent: null
+incumbent: true
 ballot_party: null
-records: []
+records:
+- id: tx/localities/city-of-the-colony/elections/2026-11-03/council-place-3/candidates/brian-r-wade#R-01
+  record_type: vote
+  headline: Voted yes on the city's 2026-27 budget (Sept. 2026)
+  result: Passed, with one member (Ensweiler) voting no.
+  statement: As a member of The Colony City Council, voted yes on September 1, 2026 on the ordinance adopting the City of The Colony fiscal year budget beginning October 1, 2026 and ending September 30, 2027 (Ordinance No. 2026-2658). The motion was to approve as revised, made by Councilmember Perry Schrag and seconded by Councilmember Brian R. Wade; the minutes record that it "carried with all ayes with Judy Ensweiler, Councilmember voting no."
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://thecolony.granicus.com/DocumentViewer.php?file=thecolony_bdcd6f482af9f13a943925cfebc540eb.pdf&view=1
+  source_title: 'City of The Colony: Minutes of City Council Regular Session, September 1, 2026 (page 3-4 of 6)'
+  source_kind: document
+  sha256: 65b5fb31518da4dc518c7a40c09e11da49d92591133e97dd195b05dae32975d7
+  archive_url: null
+  event_date: '2026-09-01'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Minutes of the regular session, listed on the city's Granicus meeting archive (https://thecolony.granicus.com/ViewPublisher.php?view_id=3). The roll call lists all seven council members present. Not yet archived on the Wayback Machine.
+- id: tx/localities/city-of-the-colony/elections/2026-11-03/council-place-3/candidates/brian-r-wade#R-02
+  record_type: vote
+  headline: Voted yes on the city's 2027 tax rate, with a quarter-cent cut (Sept. 2026)
+  result: Passed, with two members (Ensweiler and Holtz) voting no.
+  statement: As a member of The Colony City Council, voted yes on September 1, 2026 on the ordinance adopting a tax rate for fiscal year 2027 (Ordinance No. 2026-2659). The item as listed set a total rate of $0.630000 per $100 of taxable value, the same as the current rate; the motion, made by Mayor Pro Tem Joel Marks and seconded by Councilmember Brian R. Wade, was "to approve with a quarter cent reduction to the current tax rate." The minutes record that it carried with Councilmember Judy Ensweiler and Deputy Mayor Pro Tem Robyn Holtz voting no. The minutes do not state the resulting rate.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://thecolony.granicus.com/DocumentViewer.php?file=thecolony_bdcd6f482af9f13a943925cfebc540eb.pdf&view=1
+  source_title: 'City of The Colony: Minutes of City Council Regular Session, September 1, 2026 (page 4 of 6)'
+  source_kind: document
+  sha256: 65b5fb31518da4dc518c7a40c09e11da49d92591133e97dd195b05dae32975d7
+  archive_url: null
+  event_date: '2026-09-01'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Minutes of the regular session, listed on the city's Granicus meeting archive (https://thecolony.granicus.com/ViewPublisher.php?view_id=3). The roll call lists all seven council members present. Not yet archived on the Wayback Machine.
 funding: []
 endorsements: []
 running_on:

@@ -6,7 +6,7 @@ detail: basic
 sources:
 - id: tx/localities/wylie-isd/elections/2026-11-03/trustee-place-1/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Collin County Elections''s sample ballot for the November 3, 2026 joint general and special election lists "Wylie Independent School District, Board of Trustees, Place 1" on page 4, with these candidates: Stacie Smith.'
+  statement: 'The Collin County Elections'' sample ballot for the November 3, 2026 joint general and special election lists "Wylie Independent School District, Board of Trustees, Place 1" on page 4, with these candidates: Stacie Smith.'
   label: official_record
   claim_status: documented
   contradicted_by: []

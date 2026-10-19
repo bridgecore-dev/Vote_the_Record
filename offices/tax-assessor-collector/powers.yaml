@@ -1,0 +1,3 @@
+office_type: tax-assessor-collector
+level: county
+powers: []   # Texas powers: data/states/tx/office-overrides/tax-assessor-collector.yaml

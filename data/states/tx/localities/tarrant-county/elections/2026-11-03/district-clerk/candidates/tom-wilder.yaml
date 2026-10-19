@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: tom-wilder
+name: Tom Wilder
+incumbent: true
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/district-clerk/candidates/tom-wilder#M-01
+  headline: Raised $2,565 and had $80,293 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Tarrant County Elections Administration on Oct 2, 2026: $2,565.00 in total political contributions, $43,749.45 in total political expenditures, $80,293.26 in contributions on hand at the end of the period, and $150,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/D5BC2E47-0AC3-4BBD-B674-15F9286CB9A9/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Wilder, Thomas (filed Oct 2, 2026)'
+  source_kind: document
+  sha256: c5b62d12c5744fc30203b002c0b297ac1ea57beb66522c836bc6bc0334060f31
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Tarrant County''s Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Wilder, Thomas", office "DISTRICT CLERK", document "COH 30 DAY GEN 2026" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: handwritten, legible. Not yet archived on the Wayback Machine.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

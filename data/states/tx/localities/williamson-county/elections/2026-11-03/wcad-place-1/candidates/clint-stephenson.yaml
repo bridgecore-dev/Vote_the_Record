@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: clint-stephenson
+name: Clint Stephenson
+incumbent: null
+ballot_party: null
+records: []
+funding:
+- id: tx/localities/williamson-county/elections/2026-11-03/wcad-place-1/candidates/clint-stephenson#M-01
+  headline: Raised $3,900 and had $952 on hand (Jul 1, 2026 - Oct 1, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Oct 1, 2026, filed with Williamson County Elections on Oct 2, 2026: $3,900.00 in total political contributions, $2,984.81 in total political expenditures, $951.80 in contributions on hand at the end of the period, and $3,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/D8A8B645-E284-4B64-9E48-3474D176D4C4/viewfinalredactedpdf
+  source_title: 'Williamson County Elections: campaign finance report, Stephenson, Clint (filed Oct 2, 2026)'
+  source_kind: document
+  sha256: f53d3e7570116d726a06ed6be40e39d400b8736e32d3087095eeb91b8860dda1
+  archive_url: null
+  event_date: '2026-10-01'
+  retrieved: '2026-10-16'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Williamson County's Easy Campaign Finance portal (https://williamsoncountytx.easyvotecampaignfinance.com/home) under filer "Stephenson, Clint", office "WCAD Board of Directors, Place 1", document "COH" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

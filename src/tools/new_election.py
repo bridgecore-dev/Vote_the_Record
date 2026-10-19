@@ -25,6 +25,7 @@ a full example):
       area: travis-county/commissioner-2                     # optional: the voting area, if not the folder's
       candidates: [{name: JANE DOE, party: null}]            # exactly as printed
       write_ins: [Pat Roe]                                   # optional, from the write-in list
+      sample_ballot: {...}                                   # optional: this contest's own ballot-style PDF
     - measure: tx/localities/city-of-austin/elections/2027-05-01/proposition-a
       name: City of Austin, Proposition A
       kind: charter-amendment
@@ -78,6 +79,7 @@ def plan(root: Path, spec: dict) -> list[tuple[Path, str, dict]]:
     date = str(spec["election_date"])
     sb = spec["sample_ballot"]
     issuer, label = sb["issuer"], spec["election_label"]
+    owner = issuer + ("'" if issuer.endswith("s") else "'s")  # "Elections' sample ballot", "Clerk's sample ballot"
     out: list[tuple[Path, str, dict]] = []
     contests = []
     for c in spec["contests"]:
@@ -90,15 +92,16 @@ def plan(root: Path, spec: dict) -> list[tuple[Path, str, dict]]:
         assert path.startswith(spec["ballot"].split("/")[0] + "/") and f"/elections/{date}/" in path, path
         contests.append(path)
         folder = root / "data/states" / path
-        page_title = f"{issuer}: {sb['title']} (page {c['page']})"
+        csb = c.get("sample_ballot") or sb  # a contest may cite its own ballot-style PDF
+        page_title = f"{issuer}: {csb['title']} (page {c['page']})"
         if "measure" in c:
             if (folder / "measure.yaml").exists():
                 continue
-            text = (f'The {issuer}\'s sample ballot for the {label} prints "{c["name"]}" on page {c["page"]} with the '
+            text = (f'The {owner} sample ballot for the {label} prints "{c["name"]}" on page {c["page"]} with the '
                     f'choices {" and ".join(c["choices"])} and this English wording: "{c["ballot_text"]}"')
             doc = {"name": c["name"], "election_date": date, "kind": c["kind"], "ballot_text": c["ballot_text"],
                    "choices": c["choices"], "explained": [],
-                   "sources": [fact(f"{path}/measure#S-01", "Proposition as printed on the sample ballot", text, sb,
+                   "sources": [fact(f"{path}/measure#S-01", "Proposition as printed on the sample ballot", text, csb,
                                     page_title, date)]}
             out.append((folder / "measure.yaml",
                         "# Proposition: exact wording and choices as printed on the sample ballot. Unverified.\n", doc))
@@ -106,8 +109,8 @@ def plan(root: Path, spec: dict) -> list[tuple[Path, str, dict]]:
         cands = c.get("candidates") or []
         listed = "; ".join(f"{x['name']}" + (f" ({x['party']})" if x.get("party") else "") for x in cands)
         sources = [fact(f"{path}/race#S-01", "Candidates as printed on the sample ballot",
-                        f'The {issuer}\'s sample ballot for the {label} lists "{c.get("ballot_title", c["name"])}" on '
-                        f"page {c['page']}, with these candidates: {listed}.", sb, page_title, date)]
+                        f'The {owner} sample ballot for the {label} lists "{c.get("ballot_title", c["name"])}" on '
+                        f"page {c['page']}, with these candidates: {listed}.", csb, page_title, date)]
         if c.get("write_ins"):
             wl = spec["write_in_list"]
             sources.append(fact(f"{path}/race#S-02", "Declared write-in candidates on the official list",
@@ -156,7 +159,7 @@ def plan(root: Path, spec: dict) -> list[tuple[Path, str, dict]]:
             ballot["lookup_url"] = spec["lookup_url"]
         ballot["complete"] = False
         ballot["sources"] = [fact(f"{spec['ballot']}/ballot#S-01", "Every contest on the sample ballot",
-                                  f"The {issuer}'s sample ballot for the {label} lists every contest on this ballot.",
+                                  f"The {owner} sample ballot for the {label} lists every contest on this ballot.",
                                   sb, f"{issuer}: {sb['title']}", date)]
         ballot["contests"] = contests
         out.append((ballot_file, "# Contests on this ballot, in ballot order. complete: false until every contest is added.\n",

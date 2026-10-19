@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: blanca-oliver
 name: Blanca Oliver
-incumbent: null
+incumbent: true
 ballot_party: Republican Party
 records: []
-funding: []
+funding:
+- id: tx/localities/denton-county/elections/2026-11-03/jp-precinct-6/candidates/blanca-oliver#M-01
+  headline: Raised $20,783 and had $24,244 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Denton County Elections on Oct 5, 2026: $20,783.28 in total political contributions, $36,398.71 in total political expenditures, $24,244.34 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/6186D88D-ADE3-42A5-993C-2A5CF84432B3/viewfinalredactedpdf
+  source_title: 'Denton County Elections: campaign finance report, Oliver, Blanca (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 03d514ba0260e7e4ecad815642ec1755740d10788853e62dd82611eb85266d6e
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Denton County''s Easy Campaign Finance portal (https://dentoncountytx.easyvotecampaignfinance.com/home) under filer "Oliver, Blanca", office "Justice of the Peace Precinct #6", document "30 Day Report 2026" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
   policy_proposals: []

@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: City of Forest Hill, Proposition B
+election_date: '2026-11-03'
+kind: charter-amendment
+ballot_text: Shall the City Charter § 3.02 be amended to prohibit a recalled council member from serving in an elected or appointed city office for three years, instead of two years as currently written?
+choices:
+- For
+- Against
+explained: []
+sources:
+- id: tx/localities/city-of-forest-hill/elections/2026-11-03/proposition-b/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Tarrant County Elections Administration''s sample ballot for the November 3, 2026 joint general and special elections prints "City of Forest Hill, Proposition B" on page 4 with the choices For and Against and this English wording: "Shall the City Charter § 3.02 be amended to prohibit a recalled council member from serving in an elected or appointed city office for three years, instead of two years as currently written?"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://gisit.tarrantcounty.com/ballots/English-Spanish/5221013004.pdf
+  source_title: 'Tarrant County Elections Administration: Sample Ballot, November 3, 2026 Joint General and Special Elections, ballot style 5221013004 (page 4)'
+  source_kind: document
+  sha256: b0f07981c4195d104458f4ca6c6275abeb853746f43ba7a3a48c2656083a4dda
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-16'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A sample ballot for one ballot style (one precinct part), from the county's Find My Ballot service (https://gisit.tarrantcounty.com/findmyballot/). The county posts no all-contest ballot; every style was collected by asking the service for each of the county's 1,703 voting sub-precincts. Names and wording are from the PDF's text layer, kept as printed (English text only).

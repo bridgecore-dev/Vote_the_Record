@@ -1,0 +1,42 @@
+# Powers of the King County Director of Elections, from the King County Charter (the Clerk of the Council's copy, headed "UPDATED: January 10, 2023"),
+# read on 2026-10-18. Every power comes from the charter, so each is limited to King County.
+office_type: elections-director
+state: WA
+powers:
+  - id: P-TERM
+    description: Elected countywide to a four-year term as a nonpartisan office. The council and executive may not reduce the office's duties.
+    statute: King County Charter §§ 350.20.50, 647
+    source_url: https://aqua.kingcounty.gov/council/clerk/code/03_Charter.htm
+    only_in: [king-county]
+
+  - id: P-ELECTIONS
+    description: Registers voters and runs all special and general elections held in the county.
+    statute: King County Charter § 350.20.50
+    source_url: https://aqua.kingcounty.gov/council/clerk/code/03_Charter.htm
+    only_in: [king-county]
+    topics: [elections]
+
+  - id: P-SUPERVISE
+    description: In a charter county, the officer responsible for voter registration and elections acts as the county auditor for elections. That makes it the supervisor of all primaries and elections, general or special, and it provides polling places and election supplies.
+    statute: RCW 29A.04.025; RCW 29A.04.216
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=29A.04.216
+    topics: [elections]
+
+  - id: P-PAMPHLET
+    description: Creates and prints the King County voters' pamphlet, and keeps the official maps of political boundaries and the county's copies of campaign finance reports.
+    statute: King County Charter § 350.20.50
+    source_url: https://aqua.kingcounty.gov/council/clerk/code/03_Charter.htm
+    only_in: [king-county]
+    topics: [elections]
+
+plain_summary:
+  intro:
+    text: The officer who registers voters and runs the county's elections, supervising every primary and election held there.
+    powers: [P-SUPERVISE]
+  points:
+    - text: Registers voters and runs every election in the county
+      icon: vote
+      powers: [P-ELECTIONS]
+    - text: Publishes the voters' pamphlet and keeps district maps and campaign finance reports
+      icon: megaphone
+      powers: [P-PAMPHLET]

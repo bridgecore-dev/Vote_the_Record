@@ -7,7 +7,7 @@ area: denton-county/commissioner-4
 sources:
 - id: tx/localities/denton-county/elections/2026-11-03/commissioner-precinct-4/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Denton County Elections''s sample ballot for the November 3, 2026 general and special elections lists "County Commissioner, Precinct No. 4" on page 3, with these candidates: David Wylie (Republican Party); Stephanie Draper (Democratic Party).'
+  statement: 'The Denton County Elections'' sample ballot for the November 3, 2026 general and special elections lists "County Commissioner, Precinct No. 4" on page 3, with these candidates: David Wylie (Republican Party); Stephanie Draper (Democratic Party).'
   label: official_record
   claim_status: documented
   contradicted_by: []
@@ -22,3 +22,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's all-precinct preview ballot. Names and wording are from the PDF's text layer, kept exactly as printed, with spaces restored where the text layer drops them between fragments. The ballot prints parties as REP, DEM, LIB, and GRN.
+- id: tx/localities/denton-county/elections/2026-11-03/commissioner-precinct-4/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official list (Denton County: Elected Officials Directory), checked on October 14, 2026, does not show any of the candidates in this race as the current holder of this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dentoncounty.gov/1144/Elected-Officials
+  source_title: 'Denton County: Elected Officials Directory'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-14'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null

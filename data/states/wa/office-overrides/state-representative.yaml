@@ -1,0 +1,41 @@
+# Powers of a Washington state representative.
+# Text checked against the Washington Constitution (the leg.wa.gov PDF, dated 12/11/2025) and the Revised Code of
+# Washington (app.leg.wa.gov) on 2026-10-18.
+office_type: state-representative
+state: WA
+powers:
+  - id: P-TERM
+    description: One of 98 representatives, two from each of 49 legislative districts, elected to a two-year term.
+    statute: RCW 44.05.090(3)-(4); Washington Constitution art. II, § 5
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=44.05.090
+
+  - id: P-LAWS
+    description: Votes on bills. A bill becomes law only if a majority of the members elected to each house vote for it, and the governor signs it or two-thirds of each house overrides a veto.
+    statute: Washington Constitution art. II, § 22; art. III, § 12
+    source_url: https://leg.wa.gov/media/o3fg0ey1/washington-state-constitution.pdf
+
+  - id: P-BUDGET
+    description: Votes on the state budget and taxes. State money may be spent only as a law appropriates it, and taxes may be levied only by law.
+    statute: Washington Constitution art. VIII, § 4; art. VII, § 5
+    source_url: https://leg.wa.gov/media/o3fg0ey1/washington-state-constitution.pdf
+    topics: [taxes-budget]
+
+  - id: P-IMPEACH
+    description: The House has the sole power of impeachment, by a majority of all its members.
+    statute: Washington Constitution art. V, § 1
+    source_url: https://leg.wa.gov/media/o3fg0ey1/washington-state-constitution.pdf
+
+plain_summary:
+  intro:
+    text: One of 98 state representatives. Votes on Washington laws and the state budget.
+    powers: [P-TERM, P-LAWS, P-BUDGET]
+  points:
+    - text: Votes on Washington laws
+      icon: vote
+      powers: [P-LAWS]
+    - text: Votes on the state budget and taxes
+      icon: budget
+      powers: [P-BUDGET]
+    - text: Can vote to impeach state officials and judges
+      icon: gavel
+      powers: [P-IMPEACH]

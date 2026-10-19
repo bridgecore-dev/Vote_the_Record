@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: carey-walker
+name: Carey Walker
+incumbent: true
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-2/candidates/carey-walker#M-01
+  headline: Had $32,411 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, filed with Tarrant County Elections Administration on Jul 14, 2026: $0.00 in total political contributions, $0.00 in total political expenditures, $32,411.06 in contributions on hand at the end of the period, and $68,350.48 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/BDDE5CFD-D792-44B2-92B1-05AB1C16E7CC/viewfinalredactedpdf
+  source_title: 'Tarrant County Elections Administration: campaign finance report, Walker, Carey (filed Jul 14, 2026)'
+  source_kind: document
+  sha256: 7a0a9af6e5835f1fa4402f569f2753d5ebc7b7ba6ec97fe31444fa5eafed3fc8
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Listed on Tarrant County's Campaign Filings Portal (https://tarrantcountytx.easyvotecampaignfinance.com/home/publicfilings) under filer "Walker, Carey", office "JUDGE, COUNTY CRIMINAL COURT NO. 2", document "JCOH JUL 2026" (JCOH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county's public (redacted) copy. Not yet archived on the Wayback Machine.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

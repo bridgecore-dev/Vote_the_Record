@@ -1,0 +1,3 @@
+office_type: elections-director
+level: county
+powers: []   # state powers: data/states/<st>/office-overrides/elections-director.yaml

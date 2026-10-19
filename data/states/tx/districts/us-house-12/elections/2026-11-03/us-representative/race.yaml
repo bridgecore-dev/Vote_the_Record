@@ -1,0 +1,38 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: U.S. Representative, District 12
+office_type: us-representative
+election_date: '2026-11-03'
+sources:
+- id: tx/districts/us-house-12/elections/2026-11-03/us-representative/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Tarrant County Elections Administration''s sample ballot for the November 3, 2026 joint general and special elections lists "United States Representative, District 12" on page 1, with these candidates: Craig Goldman (REP); Angela ''Heli'' Rodriguez Prilliman (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://gisit.tarrantcounty.com/ballots/English-Spanish/5221005142.pdf
+  source_title: 'Tarrant County Elections Administration: Sample Ballot, November 3, 2026 Joint General and Special Elections, ballot style 5221005142 (page 1)'
+  source_kind: document
+  sha256: 5036a6e17250cef44faa76d60684ffe5be6e917fa011f325ad8f33943e012524
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-16'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A sample ballot for one ballot style (one precinct part), from the county's Find My Ballot service (https://gisit.tarrantcounty.com/findmyballot/). The county posts no all-contest ballot; every style was collected by asking the service for each of the county's 1,703 voting sub-precincts. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/districts/us-house-12/elections/2026-11-03/us-representative/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official list (Office of the Clerk, U.S. House of Representatives: Member Data (XML)), checked on October 17, 2026, shows that Craig Goldman, a candidate in this race, currently holds this office. It lists the name as "Goldman, Craig". It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://clerk.house.gov/xml/lists/MemberData.xml
+  source_title: 'Office of the Clerk, U.S. House of Representatives: Member Data (XML)'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-17'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null

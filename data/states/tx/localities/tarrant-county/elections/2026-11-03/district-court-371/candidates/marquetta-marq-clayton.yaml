@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: marquetta-marq-clayton
+name: Marquetta 'MarQ' Clayton
+incumbent: null
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/tarrant-county/elections/2026-11-03/district-court-371/candidates/marquetta-marq-clayton#M-01
+  headline: Raised $2,992 and had $3,675 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $2,991.75 in total political contributions, $5,184.27 in total political expenditures, $3,675.15 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069927.PDF
+  source_title: 'Texas Ethics Commission: Clayton, MarQuetta, campaign finance report 101069927 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 7196d7b5e6108f2f90d3b5cf7bcbd7444112412cf402ba4fdb982955fb4a9a1a
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101069927, form JCOH, TEC report type E30DAYBEF; filer ID 00088003 (Clayton, MarQuetta). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

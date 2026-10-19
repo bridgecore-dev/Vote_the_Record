@@ -1,0 +1,178 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: pete-sessions
+name: Pete Sessions
+incumbent: true
+ballot_party: Republican Party
+records:
+- id: tx/districts/us-house-17/elections/2026-11-03/us-representative/candidates/pete-sessions#R-01
+  record_type: vote
+  headline: Voted yes on the Laken Riley Act (S. 5) (January 2025)
+  result: Passed 263-156.
+  statement: 'As a member of the U.S. House, voted Yea on roll call 23 (S 5, "Laken Riley Act"; question: On Passage). Result: Passed, 263 yeas to 156 nays.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://clerk.house.gov/evs/2025/roll023.xml
+  source_title: 'Office of the Clerk, U.S. House of Representatives: Roll Call 23, 22-Jan-2025 (XML)'
+  source_kind: document
+  sha256: 7d44ca7cded3649d57ee1048fd5431306127c1da9a118847dd709e45390a4186
+  archive_url: null
+  event_date: '2025-01-22'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Official roll-call record from the Office of the Clerk, U.S. House of Representatives (XML); the member is identified by Bioguide ID. The bill title is the Clerk's vote description. Not yet archived on the Wayback Machine.
+- id: tx/districts/us-house-17/elections/2026-11-03/us-representative/candidates/pete-sessions#R-02
+  record_type: vote
+  headline: Voted yes on a full-year continuing appropriations bill for 2025 (H.R. 1968) (March 2025)
+  result: Passed 217-213.
+  statement: 'As a member of the U.S. House, voted Yea on roll call 70 (H R 1968, "Full-Year Continuing Appropriations and Extensions Act, 2025"; question: On Passage). Result: Passed, 217 yeas to 213 nays.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://clerk.house.gov/evs/2025/roll070.xml
+  source_title: 'Office of the Clerk, U.S. House of Representatives: Roll Call 70, 11-Mar-2025 (XML)'
+  source_kind: document
+  sha256: 571891266d531e26ede08c00a5ae950c71e61fcf17ecae2a4d82735b1398f17d
+  archive_url: null
+  event_date: '2025-03-11'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Official roll-call record from the Office of the Clerk, U.S. House of Representatives (XML); the member is identified by Bioguide ID. The bill title is the Clerk's vote description. Not yet archived on the Wayback Machine.
+- id: tx/districts/us-house-17/elections/2026-11-03/us-representative/candidates/pete-sessions#R-03
+  record_type: vote
+  headline: Voted yes on the SAVE Act (H.R. 22) (April 2025)
+  result: Passed 220-208.
+  statement: 'As a member of the U.S. House, voted Yea on roll call 102 (H R 22, "SAVE Act"; question: On Passage). Result: Passed, 220 yeas to 208 nays.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://clerk.house.gov/evs/2025/roll102.xml
+  source_title: 'Office of the Clerk, U.S. House of Representatives: Roll Call 102, 10-Apr-2025 (XML)'
+  source_kind: document
+  sha256: c1cda91a796ecc71589fe568e68c59dbdb989a0df55780ae4aeb8804a07fc17b
+  archive_url: null
+  event_date: '2025-04-10'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Official roll-call record from the Office of the Clerk, U.S. House of Representatives (XML); the member is identified by Bioguide ID. The bill title is the Clerk's vote description. Not yet archived on the Wayback Machine.
+- id: tx/districts/us-house-17/elections/2026-11-03/us-representative/candidates/pete-sessions#R-04
+  record_type: vote
+  headline: Voted yes on the One Big Beautiful Bill Act (H.R. 1), House passage (May 2025)
+  result: Passed 215-214.
+  statement: 'As a member of the U.S. House, voted Yea on roll call 145 (H R 1, "One Big Beautiful Act"; question: On Passage). Result: Passed, 215 yeas to 214 nays.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://clerk.house.gov/evs/2025/roll145.xml
+  source_title: 'Office of the Clerk, U.S. House of Representatives: Roll Call 145, 22-May-2025 (XML)'
+  source_kind: document
+  sha256: ca1e52d284f75409640aa12d35b3e3f0075c25df40c34efb061bbccafb249223
+  archive_url: null
+  event_date: '2025-05-22'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Official roll-call record from the Office of the Clerk, U.S. House of Representatives (XML); the member is identified by Bioguide ID. The bill title is the Clerk's vote description. Not yet archived on the Wayback Machine.
+- id: tx/districts/us-house-17/elections/2026-11-03/us-representative/candidates/pete-sessions#R-05
+  record_type: vote
+  headline: Voted yes on the Rescissions Act of 2025 (H.R. 4) (June 2025)
+  result: Passed 214-212.
+  statement: 'As a member of the U.S. House, voted Yea on roll call 168 (H R 4, "Rescissions Act"; question: On Passage). Result: Passed, 214 yeas to 212 nays.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://clerk.house.gov/evs/2025/roll168.xml
+  source_title: 'Office of the Clerk, U.S. House of Representatives: Roll Call 168, 12-Jun-2025 (XML)'
+  source_kind: document
+  sha256: f3eff7796611b74112e4111a4e573ffe3f80657aa986c13575500e871fd6e02b
+  archive_url: null
+  event_date: '2025-06-12'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Official roll-call record from the Office of the Clerk, U.S. House of Representatives (XML); the member is identified by Bioguide ID. The bill title is the Clerk's vote description. Not yet archived on the Wayback Machine.
+- id: tx/districts/us-house-17/elections/2026-11-03/us-representative/candidates/pete-sessions#R-06
+  record_type: vote
+  headline: Voted yes on the final version of the One Big Beautiful Bill Act (H.R. 1) (July 2025)
+  result: Passed 218-214.
+  statement: 'As a member of the U.S. House, voted Aye on roll call 190 (H R 1, "One Big Beautiful Bill Act"; question: On Motion to Concur in the Senate Amendment). Result: Passed, 218 yeas to 214 nays.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://clerk.house.gov/evs/2025/roll190.xml
+  source_title: 'Office of the Clerk, U.S. House of Representatives: Roll Call 190, 3-Jul-2025 (XML)'
+  source_kind: document
+  sha256: 6222452a344969c3d565e60d7d9b492584b9a9d403d56798a7b4901427a28e90
+  archive_url: null
+  event_date: '2025-07-03'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Official roll-call record from the Office of the Clerk, U.S. House of Representatives (XML); the member is identified by Bioguide ID. The bill title is the Clerk's vote description. Not yet archived on the Wayback Machine.
+funding:
+- id: tx/districts/us-house-17/elections/2026-11-03/us-representative/candidates/pete-sessions#M-01
+  headline: Raised $1,050,237 and had $933,956 on hand (2025-26 cycle through Jun 30, 2026)
+  statement: 'The FEC''s all-candidates summary for the 2025-2026 cycle lists, for SESSIONS, PETE (candidate ID H2TX03126), through June 30, 2026: $1,050,236.68 in total receipts, $498,752.72 of it from individuals, $10.00 in contributions from the candidate, $516,176.27 from other political committees, $557,216.11 in total disbursements, and $933,956.23 cash on hand at the end of the period.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.fec.gov/files/bulk-downloads/2026/weball26.zip
+  source_title: 'Federal Election Commission: All candidates file, 2025-2026 (weball26.zip)'
+  source_kind: document
+  sha256: 31ddb81424644a25e7bfb241f55ae9e78f285ffe3c75bcad398fa9f0f5b63016
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From weball26.txt in the FEC''s bulk data, downloaded 2026-10-06 (sha256 is of the zip file); columns as described at https://www.fec.gov/campaign-finance-data/all-candidates-file-description/. The totals are cumulative for the cycle as reported by the campaign. Matched by last name and district (first name too when two filers share a last name). Spot-checked against the FEC API for three candidates. The candidate''s FEC page: https://www.fec.gov/data/candidate/H2TX03126/. The bulk file is updated as new reports arrive; the next quarterly reports cover through September 30, 2026.'
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/us-house-17/elections/2026-11-03/us-representative/candidates/pete-sessions#O-01
+    headline: Border wall and immigration
+    statement: 'Campaign website: "Solving our immigration crisis involves more than just building the wall on the southern border, which I wholeheartedly support."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.petesessions.com/issues/
+    source_title: 'Pete Sessions for Congress: Issues (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings:
+- record: tx/districts/us-house-17/elections/2026-11-03/us-representative/candidates/pete-sessions#R-05
+  question: us-representative/S-02
+  options:
+  - A
+  rationale: Voted yes on the Rescissions Act of 2025 (H.R. 4), which cancelled previously approved federal funding. That matches cancelling the funding (A).
+  verification: unverified
+  verified_on: null
+  reviewer: null
+- record: tx/districts/us-house-17/elections/2026-11-03/us-representative/candidates/pete-sessions#R-06
+  question: us-representative/S-01
+  options:
+  - A
+  rationale: Voted yes on final House passage of H.R. 1 (the One Big Beautiful Bill Act), the 2025 tax and spending law. That matches supporting the package (A).
+  verification: unverified
+  verified_on: null
+  reviewer: null
+promise_tracker: []

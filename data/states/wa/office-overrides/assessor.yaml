@@ -1,0 +1,34 @@
+# Powers of a Washington county assessor, from the Revised Code of Washington and the King County Charter (the Clerk of the Council's copy, headed "UPDATED: January 10, 2023"),
+# read on 2026-10-18.
+office_type: assessor
+state: WA
+powers:
+  - id: P-TERM
+    description: Elected countywide to a four-year term. In King County the office is nonpartisan, and the council may not reduce its duties.
+    statute: King County Charter §§ 350.20.10, 640
+    source_url: https://aqua.kingcounty.gov/council/clerk/code/03_Charter.htm
+    only_in: [king-county]
+
+  - id: P-VALUE
+    description: Lists all taxable property every year and sets each property's value at 100 percent of its true and fair value.
+    statute: RCW 84.40.020, 84.40.030, 84.40.040
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=84.40.040
+    topics: [taxes-budget, housing-land]
+
+  - id: P-RATES
+    description: Calculates and fixes the property tax rates for state and county purposes.
+    statute: RCW 84.52.010(2)
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=84.52.010
+    topics: [taxes-budget]
+
+plain_summary:
+  intro:
+    text: Sets the value of every property in the county each year, which is the basis for property tax bills.
+    powers: [P-VALUE]
+  points:
+    - text: Values every home and business property each year
+      icon: budget
+      powers: [P-VALUE]
+    - text: Calculates the property tax rates
+      icon: contract
+      powers: [P-RATES]

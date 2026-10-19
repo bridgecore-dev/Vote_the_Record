@@ -1,14 +1,222 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: mitch-little
 name: Mitch Little
-incumbent: null
+incumbent: true
 ballot_party: Republican Party
-records: []
-funding: []
+records:
+- id: tx/districts/state-house-65/elections/2026-11-03/state-representative/candidates/mitch-little#R-01
+  record_type: vote
+  headline: Voted yes on SB 2, education savings accounts (2025)
+  result: Passed the House 86-61.
+  statement: 'As a member of the Texas House, voted yes on SB 2 (Relating to the establishment of an education savings account program). The House Journal records that SB 2 "was passed by (Record 300): 86 Yeas, 61 Nays" on 2025-04-17.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY46FINAL.PDF
+  source_title: Texas House Journal, 89th Legislature, Regular Session, 46th Day (page 1667)
+  source_kind: document
+  sha256: aea8381390be0c448fce37b83813a4e1dbeae9304349c9f538ba4e7063c43a00
+  archive_url: null
+  event_date: '2025-04-17'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Official journal PDF of the 89th Legislature, Regular Session; the bill caption is from Texas Legislature Online (https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2). Names on the roll call are as printed in the journal. Not yet archived on the Wayback Machine.
+- id: tx/districts/state-house-65/elections/2026-11-03/state-representative/candidates/mitch-little#R-02
+  record_type: vote
+  headline: Voted yes on HB 2, public school finance (2025)
+  result: Passed the House 142-5.
+  statement: 'As a member of the Texas House, voted yes on HB 2 (Relating to public education and public school finance). The House Journal records that HB 2 "was passed by (Record 303): 142 Yeas, 5 Nays" on 2025-04-17.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY46FINAL.PDF
+  source_title: Texas House Journal, 89th Legislature, Regular Session, 46th Day (page 1670)
+  source_kind: document
+  sha256: aea8381390be0c448fce37b83813a4e1dbeae9304349c9f538ba4e7063c43a00
+  archive_url: null
+  event_date: '2025-04-17'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Official journal PDF of the 89th Legislature, Regular Session; the bill caption is from Texas Legislature Online (https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB2). Names on the roll call are as printed in the journal. Not yet archived on the Wayback Machine.
+- id: tx/districts/state-house-65/elections/2026-11-03/state-representative/candidates/mitch-little#R-03
+  record_type: vote
+  headline: Voted no on SB 1, the 2026-27 state budget (2025)
+  result: Passed the House 118-26.
+  statement: 'As a member of the Texas House, voted no on SB 1 (General Appropriations Bill). The House Journal records that SB 1 "was passed by (Record 154): 118 Yeas, 26 Nays" on 2025-04-11.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY42FINAL.PDF
+  source_title: Texas House Journal, 89th Legislature, Regular Session, 42nd Day (page 1376)
+  source_kind: document
+  sha256: 365aa8cc6ad22abc36de80f4c64733530ba35ebfaaef649a8917485c32c6c9cb
+  archive_url: null
+  event_date: '2025-04-11'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Official journal PDF of the 89th Legislature, Regular Session; the bill caption is from Texas Legislature Online (https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1). Names on the roll call are as printed in the journal. Not yet archived on the Wayback Machine.
+- id: tx/districts/state-house-65/elections/2026-11-03/state-representative/candidates/mitch-little#R-04
+  record_type: vote
+  headline: Voted yes on SB 4, a larger school-tax homestead exemption (2025)
+  result: Passed the House 143-0.
+  statement: 'As a member of the Texas House, voted yes on SB 4 (Relating to an increase in the amount of the exemption of residence homesteads from ad valorem taxation by a school district and the protection of school districts against certain losses in local revenue). The House Journal records that SB 4 "was passed by (Record 3116): 143 Yeas, 0 Nays" on 2025-05-21.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY69FINAL.PDF
+  source_title: Texas House Journal, 89th Legislature, Regular Session, 69th Day (page 5442)
+  source_kind: document
+  sha256: 2ed8bff78641f59806a2a195e3dc861701e3394f0f7837532b28eed6f6254252
+  archive_url: null
+  event_date: '2025-05-21'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Official journal PDF of the 89th Legislature, Regular Session; the bill caption is from Texas Legislature Online (https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB4). Names on the roll call are as printed in the journal. Not yet archived on the Wayback Machine.
+- id: tx/districts/state-house-65/elections/2026-11-03/state-representative/candidates/mitch-little#R-05
+  record_type: vote
+  headline: Voted yes on SB 23, a larger school-tax homestead exemption for older and disabled homeowners (2025)
+  result: Passed the House 141-0.
+  statement: 'As a member of the Texas House, voted yes on SB 23 (Relating to an increase in the amount of the exemption from ad valorem taxation by a school district of the appraised value of the residence homestead of a person who is elderly or disabled and the protection of school districts against certain losses in local revenue). The House Journal records that SB 23 "was passed by (Record 3117): 141 Yeas, 0 Nays" on 2025-05-21.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY69FINAL.PDF
+  source_title: Texas House Journal, 89th Legislature, Regular Session, 69th Day (page 5444)
+  source_kind: document
+  sha256: 2ed8bff78641f59806a2a195e3dc861701e3394f0f7837532b28eed6f6254252
+  archive_url: null
+  event_date: '2025-05-21'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Official journal PDF of the 89th Legislature, Regular Session; the bill caption is from Texas Legislature Online (https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB23). Names on the roll call are as printed in the journal. Not yet archived on the Wayback Machine.
+- id: tx/districts/state-house-65/elections/2026-11-03/state-representative/candidates/mitch-little#R-06
+  record_type: vote
+  headline: Voted yes on SB 9, bail rules and charitable bail groups (2025)
+  result: Passed the House 118-25.
+  statement: 'As a member of the Texas House, voted yes on SB 9 (Relating to the confinement or release of defendants before trial or sentencing, including regulating charitable bail organizations, and the conditions of and procedures for setting bail and reviewing bail decisions). The House Journal records that SB 9 "was passed by (Record 3003): 118 Yeas, 25 Nays" on 2025-05-20.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY68FINAL.PDF
+  source_title: Texas House Journal, 89th Legislature, Regular Session, 68th Day (page 5298)
+  source_kind: document
+  sha256: 4b31f86822420b237e0745e3a48f9e8868acebee86c28f1f691fb3b2624935ad
+  archive_url: null
+  event_date: '2025-05-20'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Official journal PDF of the 89th Legislature, Regular Session; the bill caption is from Texas Legislature Online (https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB9). Names on the roll call are as printed in the journal. Not yet archived on the Wayback Machine.
+- id: tx/districts/state-house-65/elections/2026-11-03/state-representative/candidates/mitch-little#R-07
+  record_type: vote
+  headline: Voted no on HB 9, a business personal property tax exemption (2025)
+  result: Passed the House 133-10.
+  statement: 'As a member of the Texas House, voted no on HB 9 (Relating to an exemption from ad valorem taxation of a portion of the appraised value of tangible personal property that is held or used for the production of income). The House Journal records that HB 9 "was passed by (Record 72): 133 Yeas, 10 Nays" on 2025-04-03.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY38FINAL.PDF
+  source_title: Texas House Journal, 89th Legislature, Regular Session, 38th Day (page 916)
+  source_kind: document
+  sha256: c0249fe78f9e679ff368448947197a653ea1c850e8e09aae6a151d2634b97087
+  archive_url: null
+  event_date: '2025-04-03'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Official journal PDF of the 89th Legislature, Regular Session; the bill caption is from Texas Legislature Online (https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB9). Names on the roll call are as printed in the journal. Not yet archived on the Wayback Machine.
+funding:
+- id: tx/districts/state-house-65/elections/2026-11-03/state-representative/candidates/mitch-little#M-01
+  headline: Raised $166,750 and had $404,431 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $166,750.00 in total political contributions, $118,400.06 in total political expenditures, $404,431.43 in contributions on hand at the end of the period, and $125,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101067892.PDF
+  source_title: 'Texas Ethics Commission: Little, Jason Mitchell (The Honorable), campaign finance report 101067892 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 605ccbca80903645b3998ce0c12aef724459cbd6ad4092a5a2b88218994dd064
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101067892, form COH, TEC report type E30DAYBEF; filer ID 00088078 (Little, Jason Mitchell (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/districts/state-house-65/elections/2026-11-03/state-representative/candidates/mitch-little#O-01
+    headline: Permanent property tax relief
+    statement: 'Campaign website: "Property tax relief must be consistent, expansive, and permanent."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://mitchlittlefortexas.com/
+    source_title: Mitch Little for Texas (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-65/elections/2026-11-03/state-representative/candidates/mitch-little#O-02
+    headline: School choice
+    statement: 'Campaign website: "Mitch Little believes every child deserves the opportunity to choose and attend a good, safe school."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://mitchlittlefortexas.com/
+    source_title: Mitch Little for Texas (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
-mappings: []
+mappings:
+- record: tx/districts/state-house-65/elections/2026-11-03/state-representative/candidates/mitch-little#R-01
+  question: state-representative/S-01
+  options:
+  - A
+  rationale: Voted for SB 2, which created an education savings account program. That matches creating such a program (A).
+  verification: unverified
+  verified_on: null
+  reviewer: null
+- record: tx/districts/state-house-65/elections/2026-11-03/state-representative/candidates/mitch-little#R-04
+  question: state-representative/S-02
+  options:
+  - A
+  rationale: Voted for SB 4, which raised the school-tax homestead exemption, using state money to make up districts' lost revenue. That matches raising the homestead exemption (A). The vote was nearly unanimous.
+  verification: unverified
+  verified_on: null
+  reviewer: null
+- record: tx/districts/state-house-65/elections/2026-11-03/state-representative/candidates/mitch-little#R-06
+  question: state-representative/S-03
+  options:
+  - A
+  rationale: Voted for SB 9, which changed bail procedures and regulated charitable bail organizations. That is consistent with tightening bail rules (A).
+  verification: unverified
+  verified_on: null
+  reviewer: null
 promise_tracker: []

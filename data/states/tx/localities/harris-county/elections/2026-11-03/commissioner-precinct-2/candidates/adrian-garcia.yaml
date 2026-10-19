@@ -63,7 +63,7 @@ records:
   notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal. Not yet archived on the Wayback Machine. The notice does not give the date of the vote; event_date is the hearing date the notice announces, which came after the vote.
 - id: tx/localities/harris-county/elections/2026-11-03/commissioner-precinct-2/candidates/adrian-garcia#R-04
   record_type: statement
-  headline: 'Campaign platform: Says he cut spending rather than raise taxes during last year''s shortfall'
+  headline: 'Campaign platform: Says Garcia cut spending rather than raise taxes during last year''s shortfall'
   statement: 'Campaign website: "When Harris County faced a budget shortfall last year, Adrian made the hard call — cutting wasteful spending rather than raising taxes on working families."'
   label: candidate_claim
   claim_status: documented
@@ -118,7 +118,7 @@ running_on:
     reviewer: null
     notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   - id: tx/localities/harris-county/elections/2026-11-03/commissioner-precinct-2/candidates/adrian-garcia#O-02
-    headline: Says he cut spending rather than raise taxes during last year's shortfall
+    headline: Says Garcia cut spending rather than raise taxes during last year's shortfall
     statement: 'Campaign website: "When Harris County faced a budget shortfall last year, Adrian made the hard call — cutting wasteful spending rather than raising taxes on working families."'
     label: candidate_claim
     claim_status: documented

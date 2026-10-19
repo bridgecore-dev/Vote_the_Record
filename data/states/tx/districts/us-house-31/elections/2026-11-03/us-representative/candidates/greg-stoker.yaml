@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: greg-stoker
+name: Greg Stoker
+incumbent: false
+ballot_party: Green Party
+records: []
+funding:
+- id: tx/districts/us-house-31/elections/2026-11-03/us-representative/candidates/greg-stoker#M-01
+  headline: Raised $78,678 and had $12,398 on hand (2025-26 cycle through Jun 30, 2026)
+  statement: 'The FEC''s all-candidates summary for the 2025-2026 cycle lists, for STOKER, GREGORY JAMES (candidate ID H6TX31169), through June 30, 2026: $78,678.27 in total receipts, $77,969.63 of it from individuals, $66,280.72 in total disbursements, and $12,397.55 cash on hand at the end of the period.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.fec.gov/files/bulk-downloads/2026/weball26.zip
+  source_title: 'Federal Election Commission: All candidates file, 2025-2026 (weball26.zip)'
+  source_kind: document
+  sha256: 31ddb81424644a25e7bfb241f55ae9e78f285ffe3c75bcad398fa9f0f5b63016
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From weball26.txt in the FEC''s bulk data, downloaded 2026-10-06 (sha256 is of the zip file); columns as described at https://www.fec.gov/campaign-finance-data/all-candidates-file-description/. The totals are cumulative for the cycle as reported by the campaign. Matched by last name and district (first name too when two filers share a last name). Spot-checked against the FEC API for three candidates. The candidate''s FEC page: https://www.fec.gov/data/candidate/H6TX31169/. The bulk file is updated as new reports arrive; the next quarterly reports cover through September 30, 2026.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

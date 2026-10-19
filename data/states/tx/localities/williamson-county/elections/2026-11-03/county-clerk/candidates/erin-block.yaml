@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: erin-block
+name: Erin Block
+incumbent: false
+ballot_party: Democratic Party
+records: []
+funding:
+- id: tx/localities/williamson-county/elections/2026-11-03/county-clerk/candidates/erin-block#M-01
+  headline: Raised $15,292 and had $1,075 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Williamson County Elections on Oct 5, 2026: $15,291.96 in total political contributions, $19,592.16 in total political expenditures, $1,075.26 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/05D80898-D6AB-45D0-9964-45E8D86CA719/viewfinalredactedpdf
+  source_title: 'Williamson County Elections: campaign finance report, Block, Andrea (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 97abafc516504348d9516870f93ce2dda06843c73d05dc422f49bf4bd7f3e3e3
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-16'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Williamson County''s Easy Campaign Finance portal (https://williamsoncountytx.easyvotecampaignfinance.com/home) under filer "Block, Andrea", office "County Clerk", document "COH" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Reading note: the report''s affidavit gives the name as Andrea Erin Block. Not yet archived on the Wayback Machine.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

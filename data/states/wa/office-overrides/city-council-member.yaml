@@ -1,0 +1,46 @@
+# Powers of a Washington city council member, from the Revised Code of Washington (app.leg.wa.gov), read on 2026-10-18.
+# Seattle's current City Charter could not be read (its online code site blocked automated access), so Seattle's
+# powers here come only from state laws that apply to charter cities and to cities of 300,000 or more.
+office_type: city-council-member
+state: WA
+powers:
+  - id: P-TAX-INCREASE
+    description: Any increase in the city's property tax collections must be approved by a separate ordinance or resolution, after public notice, stating the increase in dollars and percent.
+    statute: RCW 84.55.120(3)(a)
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=84.55.120
+    topics: [taxes-budget]
+
+  - id: P-ORDINANCES
+    description: In a charter city, the city's legislative powers belong to the mayor and city council, as the city charter provides.
+    statute: RCW 35.22.200
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=35.22.200
+    only_in: [city-of-seattle]
+
+  - id: P-BUDGET
+    description: In a city of more than 300,000 people, the council adopts the city budget by ordinance. It adopts the budget the mayor submits, with the council's changes.
+    statute: RCW 35.32A.050
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=35.32A.050
+    only_in: [city-of-seattle]
+    topics: [taxes-budget]
+
+  - id: P-TAX-RATE
+    description: In a city of 300,000 or more, the council sets the city's property tax levy and certifies it to the county assessor each year.
+    statute: RCW 84.52.070(2)
+    source_url: https://app.leg.wa.gov/RCW/default.aspx?cite=84.52.070
+    only_in: [city-of-seattle]
+    topics: [taxes-budget]
+
+plain_summary:
+  intro:
+    text: A member of the city council, which must vote on any increase in the city's property tax collections.
+    powers: [P-TAX-INCREASE]
+  points:
+    - text: Votes on city laws (ordinances)
+      icon: gavel
+      powers: [P-ORDINANCES]
+    - text: Votes on the city budget
+      icon: budget
+      powers: [P-BUDGET]
+    - text: Votes on city property taxes
+      icon: budget
+      powers: [P-TAX-RATE, P-TAX-INCREASE]

@@ -6,7 +6,7 @@ detail: basic
 sources:
 - id: tx/localities/denton-county/elections/2026-11-03/county-clerk/race#S-01
   headline: Candidates as printed on the sample ballot
-  statement: 'The Denton County Elections''s sample ballot for the November 3, 2026 general and special elections lists "County Clerk" on page 3, with these candidates: Juli Luke (Republican Party); Dale Frey (Democratic Party).'
+  statement: 'The Denton County Elections'' sample ballot for the November 3, 2026 general and special elections lists "County Clerk" on page 3, with these candidates: Juli Luke (Republican Party); Dale Frey (Democratic Party).'
   label: official_record
   claim_status: documented
   contradicted_by: []
@@ -21,3 +21,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's all-precinct preview ballot. Names and wording are from the PDF's text layer, kept exactly as printed, with spaces restored where the text layer drops them between fragments. The ballot prints parties as REP, DEM, LIB, and GRN.
+- id: tx/localities/denton-county/elections/2026-11-03/county-clerk/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official list (Denton County: Elected Officials Directory), checked on October 14, 2026, shows that Juli Luke, a candidate in this race, currently holds this office. It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dentoncounty.gov/1144/Elected-Officials
+  source_title: 'Denton County: Elected Officials Directory'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-14'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null

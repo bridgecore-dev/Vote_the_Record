@@ -1,13 +1,102 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: kevin-falconer
 name: Kevin Falconer
-incumbent: null
+incumbent: true
 ballot_party: Republican Party
-records: []
-funding: []
+records:
+- id: tx/localities/denton-county/elections/2026-11-03/commissioner-precinct-2/candidates/kevin-falconer#R-01
+  record_type: vote
+  headline: Voted for the county's FY2027 budget (Sept. 2026)
+  result: Adopted; the county lists all five members as voting in favor.
+  statement: As County Commissioner for Precinct 2, voted in favor of adopting the FY2027 Denton County budget on September 22, 2026. The county's notice lists County Judge Andy Eads and Commissioners Ryan Williams, Kevin Falconer, Bobbie Mitchell and Dianne Edmondson as voting in favor.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dentoncounty.gov/DocumentCenter/View/12537/Web-Site-Notice-Vote-on-Adopted-Budget-PDF
+  source_title: 'Denton County: Web Site Notice - Vote on Adopted Budget (FY2027)'
+  source_kind: document
+  sha256: eadf7eb073660491ed3375dc606e5bd65f2d3417dde08398edad08be4b3daf04
+  archive_url: null
+  event_date: '2026-09-22'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's website notice of the record vote on the adopted budget lists the members who voted in favor; it lists all five members of the Commissioners Court. Not yet archived on the Wayback Machine.
+- id: tx/localities/denton-county/elections/2026-11-03/commissioner-precinct-2/candidates/kevin-falconer#R-02
+  record_type: vote
+  headline: Voted for the county's FY2026 budget (Sept. 2025)
+  result: Adopted; the county lists all five members as voting in favor.
+  statement: As County Commissioner for Precinct 2, voted in favor of adopting the FY2026 Denton County budget on September 9, 2025. The county's notice lists County Judge Andy Eads and Commissioners Ryan Williams, Kevin Falconer, Bobbie Mitchell and Dianne Edmondson as voting in favor.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dentoncounty.gov/DocumentCenter/View/11176/Vote-on-Adopted-Budget-PDF
+  source_title: 'Denton County: Vote on Adopted Budget (FY2026)'
+  source_kind: document
+  sha256: 9a14dea7b05176035ea5721a0649badaae5913904bc842d3306a4edcdd4691ff
+  archive_url: null
+  event_date: '2025-09-09'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's website notice of the record vote on the adopted budget lists the members who voted in favor; it lists all five members of the Commissioners Court. Not yet archived on the Wayback Machine.
+funding:
+- id: tx/localities/denton-county/elections/2026-11-03/commissioner-precinct-2/candidates/kevin-falconer#M-01
+  headline: Raised $41,674 and had $59,277 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Denton County Elections on Oct 5, 2026: $41,674.00 in total political contributions, $34,706.76 in total political expenditures, $59,277.11 in contributions on hand at the end of the period, and $120,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/307A0AD4-5F8C-4B1A-9A89-A28BB9C12B3D/viewfinalredactedpdf
+  source_title: 'Denton County Elections: campaign finance report, Falconer, Kevin (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 8e6a5153bc85f0c8691ac3c17f7f60057a8d67b07be66006ecc644feae4a4470
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed on Denton County''s Easy Campaign Finance portal (https://dentoncountytx.easyvotecampaignfinance.com/home) under filer "Falconer, Kevin", office "County Commissioner Precinct #2", document "COH" (COH); matched by name and office. This is the newest report listed for the candidate. The totals were read from the cover-sheet images of the county''s public (redacted) copy. Not yet archived on the Wayback Machine.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: tx/localities/denton-county/elections/2026-11-03/commissioner-precinct-2/candidates/kevin-falconer#O-01
+    headline: Cut red tape and spending
+    statement: 'Campaign website: "On the Commissioner''s Court, Kevin is fighting to keep Denton County affordable by cutting unnecessary red tape and consistently voting against wasteful spending."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.votefalconer.com/top-issues
+    source_title: 'Kevin Falconer: Priorities (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/denton-county/elections/2026-11-03/commissioner-precinct-2/candidates/kevin-falconer#O-02
+    headline: Roads and traffic
+    statement: 'Campaign website: "Kevin is at the forefront working to improve our roads, reduce traffic, and ensure our infrastructure keeps pace with growth."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.votefalconer.com/top-issues
+    source_title: 'Kevin Falconer: Priorities (campaign website)'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-04'
+    retrieved: '2026-10-04'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []
