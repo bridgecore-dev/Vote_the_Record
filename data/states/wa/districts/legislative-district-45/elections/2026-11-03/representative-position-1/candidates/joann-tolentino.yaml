@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: joann-tolentino
 name: JoAnn Tolentino
 incumbent: false
@@ -24,7 +24,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/69275.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-45/elections/2026-11-03/representative-position-1/candidates/joann-tolentino#O-01
+    headline: Voter ID and paper ballots
+    statement: 'Campaign website: "We must ensure every vote counts — through voter ID, paper ballots, and bipartisan oversight — so Americans can trust election outcomes."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://votejoann.com/
+    source_title: JoAnn Tolentino for State Representative | 45th LD, Position 1
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-45/elections/2026-11-03/representative-position-1/candidates/joann-tolentino#O-02
+    headline: Streamline permitting and zoning
+    statement: 'Campaign website: "Streamline permitting and reform zoning to build more affordable homes — so young families and seniors can live with dignity."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://votejoann.com/
+    source_title: JoAnn Tolentino for State Representative | 45th LD, Position 1
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-45/elections/2026-11-03/representative-position-1/candidates/joann-tolentino#O-03
+    headline: Energy from fossil, nuclear, hydro
+    statement: 'Campaign website: "Support reliable energy — fossil fuels, nuclear, hydro — to keep bills low and lights on, while encouraging innovation that protects our air and water."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://votejoann.com/
+    source_title: JoAnn Tolentino for State Representative | 45th LD, Position 1
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

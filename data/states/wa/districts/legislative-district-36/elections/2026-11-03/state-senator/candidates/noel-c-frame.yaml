@@ -138,7 +138,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/70160.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-36/elections/2026-11-03/state-senator/candidates/noel-c-frame#O-01
+    headline: Millionaires tax, SB 6346
+    statement: 'Campaign website: "SB 6346 (2026) - Millionaires Tax, a 9.9% tax on annual earnings over $1 million (PASSED)"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.noelframe.com/issues/tax-reform
+    source_title: 'Tax Reform — Noel Frame: Democrat for State Senate - 36th LD'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-36/elections/2026-11-03/state-senator/candidates/noel-c-frame#O-02
+    headline: Larger B&O small business tax credit
+    statement: 'Campaign website: "SB 6346 (2026) - Expansion of the B&O Small Business Tax Credit, increasing the full exemption from $125,000 to $300,000, and the credit up to $600,000."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.noelframe.com/issues/tax-reform
+    source_title: 'Tax Reform — Noel Frame: Democrat for State Senate - 36th LD'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-36/elections/2026-11-03/state-senator/candidates/noel-c-frame#O-03
+    headline: Senior and disabled property tax exemption
+    statement: 'Campaign website: "SB 6162 (2026) - Expansion of the Senior Citizen and Disabled Person Property Tax Exemption Program to 50,000 new households statewide and increasing the amount that can be exempted."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.noelframe.com/issues/tax-reform
+    source_title: 'Tax Reform — Noel Frame: Democrat for State Senate - 36th LD'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

@@ -138,7 +138,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/66970.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-30/elections/2026-11-03/representative-position-2/candidates/kristine-reeves#O-01
+    headline: Public option for health insurance
+    statement: 'Campaign website: "Creating a public option will force insurance companies to compete, lowering health care costs for everyone."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.kristinereeves.com/issues
+    source_title: ISSUES | Kristine Reeves
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-30/elections/2026-11-03/representative-position-2/candidates/kristine-reeves#O-02
+    headline: Expand community policing and mental health officers
+    statement: 'Campaign website: "We need to expand community policing and community mental health officer programs so police have the assistance they need to respond the right way in the right situation to reduce crime and violence in our cities."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.kristinereeves.com/issues
+    source_title: ISSUES | Kristine Reeves
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-30/elections/2026-11-03/representative-position-2/candidates/kristine-reeves#O-03
+    headline: Pay child care workers and fund providers
+    statement: 'Campaign website: "We must compensate childcare workers fairly, offer a stimulus and reopening grants for providers to offset new COVID-19 requirements, and create career pathways and financial aid for caregivers seeking early learning degrees."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.kristinereeves.com/issues
+    source_title: ISSUES | Kristine Reeves
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

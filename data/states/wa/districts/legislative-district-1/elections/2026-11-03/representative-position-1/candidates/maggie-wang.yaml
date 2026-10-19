@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: maggie-wang
 name: Maggie Wang
 incumbent: false
@@ -24,7 +24,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/69495.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-1/elections/2026-11-03/representative-position-1/candidates/maggie-wang#O-01
+    headline: Oppose new state tax increases
+    statement: 'Campaign website: "I will fight to stop new tax increases and work to make our state more affordable for working families, seniors and small businesses."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.maggieforolympia.com/
+    source_title: Home | Maggie Wang for State House
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-1/elections/2026-11-03/representative-position-1/candidates/maggie-wang#O-02
+    headline: Audit state spending
+    statement: 'Campaign website: "I support auditing state spending, cutting wasteful programs, increasing transparency, and returning to citizen-focused government where every voice matters."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.maggieforolympia.com/
+    source_title: Home | Maggie Wang for State House
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-1/elections/2026-11-03/representative-position-1/candidates/maggie-wang#O-03
+    headline: Schools focused on education and parents
+    statement: 'Campaign website: "I believe schools should focus on education, parental involvement, and preparing students for success."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.maggieforolympia.com/
+    source_title: Home | Maggie Wang for State House
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

@@ -138,7 +138,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/51357.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-43/elections/2026-11-03/state-senator/candidates/jamie-pedersen#O-01
+    headline: K-12 funding increase
+    statement: 'Campaign website: "In the 2025 legislative session, I safeguarded funding for K-12 education and championed an additional $1.4 billion investment in school districts."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.peopleforpedersen.org/issues
+    source_title: Accomplishments — Jamie Pedersen for Re-election
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-43/elections/2026-11-03/state-senator/candidates/jamie-pedersen#O-02
+    headline: New housing funding
+    statement: 'Campaign website: "I led efforts to provide $770 million in new funding for housing."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.peopleforpedersen.org/issues
+    source_title: Accomplishments — Jamie Pedersen for Re-election
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-43/elections/2026-11-03/state-senator/candidates/jamie-pedersen#O-03
+    headline: Domestic abuser gun ban, police licensing
+    statement: 'Campaign website: "I helped pass legislation prohibiting domestic violence abusers from having guns, and introduced and got passed legislation strengthening the State’s authority to revoke law enforcement licenses after serious misconduct."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.peopleforpedersen.org/issues
+    source_title: Accomplishments — Jamie Pedersen for Re-election
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

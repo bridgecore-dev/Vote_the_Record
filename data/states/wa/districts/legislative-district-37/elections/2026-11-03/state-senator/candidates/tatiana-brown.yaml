@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: tatiana-brown
 name: Tatiana Brown
 incumbent: false
@@ -24,7 +24,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/68954.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-37/elections/2026-11-03/state-senator/candidates/tatiana-brown#O-01
+    headline: Moratorium on hyper-scale AI data centers
+    statement: 'Campaign website: "I will work with colleagues in the Legislature to pass a statewide moratorium on new hyper-scale AI data centers."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.tatianaforwa.org/our-platform
+    source_title: The Plan | Tatiana Brown for WA State Senate LD 37 — Tatiana for Washington
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-37/elections/2026-11-03/state-senator/candidates/tatiana-brown#O-02
+    headline: Keep Running Start and College Grant
+    statement: 'Campaign website: "I will defend crucial state-funded programs like Running Start, Washington College Grant, and the Washington Education Legacy Trust account"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.tatianaforwa.org/our-platform
+    source_title: The Plan | Tatiana Brown for WA State Senate LD 37 — Tatiana for Washington
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-37/elections/2026-11-03/state-senator/candidates/tatiana-brown#O-03
+    headline: Ban exclusionary school discipline
+    statement: 'Campaign website: "I will work to pass legislation that bans exclusionary discipline (suspension, expulsion, arrests) for vague and subjective behaviors"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.tatianaforwa.org/our-platform
+    source_title: The Plan | Tatiana Brown for WA State Senate LD 37 — Tatiana for Washington
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

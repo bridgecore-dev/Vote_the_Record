@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: kelabe-tewolde
 name: Kelabe Tewolde
 incumbent: false
@@ -24,7 +24,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/68621.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-37/elections/2026-11-03/representative-position-1/candidates/kelabe-tewolde#O-01
+    headline: Limit interest on medical debt
+    statement: 'Campaign website: "I will work to create limits on interest incurred on medical debt."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.kelabeforwashington.com/priorities-1
+    source_title: Priorities — Kelabe Tewolde for State Representative
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-37/elections/2026-11-03/representative-position-1/candidates/kelabe-tewolde#O-02
+    headline: Ban rental junk fees and RUBS billing
+    statement: 'Campaign website: "We need a ban on junk fees and regulations on Ratio Utility Billing Systems (RUBS), which inflate basic utilities on many renters."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.kelabeforwashington.com/priorities-1
+    source_title: Priorities — Kelabe Tewolde for State Representative
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-37/elections/2026-11-03/representative-position-1/candidates/kelabe-tewolde#O-03
+    headline: Expand non-police crisis response teams
+    statement: 'Campaign website: "Expand investments in non-violent services like the CAREs team across the state."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.kelabeforwashington.com/priorities-1
+    source_title: Priorities — Kelabe Tewolde for State Representative
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

@@ -138,7 +138,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/68442.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-31/elections/2026-11-03/representative-position-2/candidates/joshua-penner#O-01
+    headline: Opposed closing habilitation centers, SB 5167
+    statement: 'Campaign website: "Fought SB 5167 to stop the legislature from shutting down Residential Habilitation Centers (RHCs) without adequate care facilities for the severely disabled in place."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://votepenner.com/
+    source_title: Representative Josh Penner | 31st Legislative District
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-31/elections/2026-11-03/representative-position-2/candidates/joshua-penner#O-02
+    headline: Opposed Attorney General investigative powers, SB 5925
+    statement: 'Campaign website: "Led the charge against SB 5925, fighting back against unchecked investigatory powers that would allow the Attorney General to bypass due process and burden local governments."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://votepenner.com/
+    source_title: Representative Josh Penner | 31st Legislative District
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-31/elections/2026-11-03/representative-position-2/candidates/joshua-penner#O-03
+    headline: Sound Transit zoning and accountability, SB 6309
+    statement: 'Campaign website: "Fought SB 6309 to prevent Sound Transit from sidestepping local zoning laws and dodging financial accountability while holding billions of taxpayer dollars in debt."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://votepenner.com/
+    source_title: Representative Josh Penner | 31st Legislative District
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

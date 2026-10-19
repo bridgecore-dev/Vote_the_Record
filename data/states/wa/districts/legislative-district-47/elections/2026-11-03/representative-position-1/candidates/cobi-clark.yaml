@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: cobi-clark
 name: Cobi Clark
 incumbent: false
@@ -24,7 +24,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/68957.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-47/elections/2026-11-03/representative-position-1/candidates/cobi-clark#O-01
+    headline: Tie tax revenue to specific spending categories
+    statement: 'Campaign website: "Establish categorical spending requirements associated with tax revenue, rather than sending ~50% to the general fund."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.cobiclark.com/enact/
+    source_title: Enact - Elect Cobi Clark
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-47/elections/2026-11-03/representative-position-1/candidates/cobi-clark#O-02
+    headline: Require health care price transparency
+    statement: 'Campaign website: "Establish price transparency mandates for healthcare service providers which require that providers provide public rate sheets for common procedures and labor hours."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.cobiclark.com/enact/
+    source_title: Enact - Elect Cobi Clark
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-47/elections/2026-11-03/representative-position-1/candidates/cobi-clark#O-03
+    headline: Multi-winner ranked-choice voting
+    statement: 'Campaign website: "Establish processes for the state to adopt multi-winner ranked-choice voting systems."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.cobiclark.com/enact/
+    source_title: Enact - Elect Cobi Clark
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

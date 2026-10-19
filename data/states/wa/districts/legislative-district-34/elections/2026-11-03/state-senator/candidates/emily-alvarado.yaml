@@ -138,7 +138,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/67301.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-34/elections/2026-11-03/state-senator/candidates/emily-alvarado#O-01
+    headline: Notice and limits on rent increases
+    statement: 'Campaign website: "I support giving tenants notice for significant rent increases, addressing unreasonable year over year rent increases and giving flexibility for local jurisdictions to improve standards to meet the unique needs of local communities."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://emilyalvarado.com/priorities/
+    source_title: Priorities – Emily Alvarado
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-34/elections/2026-11-03/state-senator/candidates/emily-alvarado#O-02
+    headline: Higher taxes on wealthiest and corporations
+    statement: 'Campaign website: "I support progressive policies that build a more fair tax structure by asking the wealthiest and most profitable corporations to pay their share."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://emilyalvarado.com/priorities/
+    source_title: Priorities – Emily Alvarado
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-34/elections/2026-11-03/state-senator/candidates/emily-alvarado#O-03
+    headline: Capped child care costs
+    statement: 'Campaign website: "I support expanded assistance and capped costs for working families."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://emilyalvarado.com/priorities/
+    source_title: Priorities – Emily Alvarado
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

@@ -138,7 +138,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/70158.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-1/elections/2026-11-03/representative-position-2/candidates/shelley-kloba#O-01
+    headline: Data broker registry
+    statement: 'Campaign website: "Now I am working to create a data broker registry so that companies who are profiting off of the sale of data can be monitored, creating more transparency and accountability to consumers."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://votekloba.com/issues/
+    source_title: Issues - Shelley Kloba for State Rep
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-1/elections/2026-11-03/representative-position-2/candidates/shelley-kloba#O-02
+    headline: Close tax loopholes to fund schools
+    statement: 'Campaign website: "Tax loopholes that do not serve the public interest need to be closed and that funding reallocated to the education system."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://votekloba.com/issues/
+    source_title: Issues - Shelley Kloba for State Rep
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-1/elections/2026-11-03/representative-position-2/candidates/shelley-kloba#O-03
+    headline: Tax system based on ability to pay
+    statement: 'Campaign website: "I support a fair taxing system that does not create undue burden on individuals, especially those at the lower half of the earning spectrum, ensuring that everyone pays their fair share."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://votekloba.com/issues/
+    source_title: Issues - Shelley Kloba for State Rep
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

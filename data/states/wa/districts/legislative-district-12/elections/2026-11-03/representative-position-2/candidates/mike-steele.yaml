@@ -138,7 +138,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/69931.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-12/elections/2026-11-03/representative-position-2/candidates/mike-steele#O-01
+    headline: Lower tax burdens for small businesses
+    statement: 'Campaign website: "Reducing red tape and lowering tax burdens so local businesses can grow and create jobs."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.votemikesteele.com/priorities/
+    source_title: Priorities - Re-Elect Mike Steele
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-12/elections/2026-11-03/representative-position-2/candidates/mike-steele#O-02
+    headline: Responsible state budgeting
+    statement: 'Campaign website: "Supporting responsible budgeting and practical fiscal policies that protect taxpayers."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.votemikesteele.com/priorities/
+    source_title: Priorities - Re-Elect Mike Steele
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-12/elections/2026-11-03/representative-position-2/candidates/mike-steele#O-03
+    headline: Community college and technical program funding
+    statement: 'Campaign website: "I work for and support increasing funding for the community colleges and career and technical programs in our district accompanied by clear expectations for student success."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.votemikesteele.com/priorities/
+    source_title: Priorities - Re-Elect Mike Steele
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

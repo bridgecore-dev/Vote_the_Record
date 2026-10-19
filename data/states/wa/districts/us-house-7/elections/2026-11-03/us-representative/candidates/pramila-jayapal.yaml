@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: pramila-jayapal
 name: Pramila Jayapal
 incumbent: true
@@ -24,7 +24,58 @@ funding:
   notes: 'From weball26.txt in the FEC''s bulk data, downloaded 2026-10-18 (sha256 is of the zip file); columns as described at https://www.fec.gov/campaign-finance-data/all-candidates-file-description/. The totals are cumulative for the cycle as reported by the campaign. Matched by last name and district (first name too when two filers share a last name). The candidate''s FEC page: https://www.fec.gov/data/candidate/H6WA07458/. The bulk file is updated as new reports arrive.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/us-house-7/elections/2026-11-03/us-representative/candidates/pramila-jayapal#O-01
+    headline: Medicare for All Act
+    statement: 'Campaign website: "Medicare for All Act to guarantee health care as a human right."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.pramilaforcongress.com/real-results
+    source_title: Real Results — Pramila for Congress
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/us-house-7/elections/2026-11-03/us-representative/candidates/pramila-jayapal#O-02
+    headline: Housing is a Human Right Act
+    statement: 'Campaign website: "Housing is a Human Right Act to make historic investments in affordable housing."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.pramilaforcongress.com/real-results
+    source_title: Real Results — Pramila for Congress
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/us-house-7/elections/2026-11-03/us-representative/candidates/pramila-jayapal#O-03
+    headline: Ultra-Millionaire Tax Act
+    statement: 'Campaign website: "Ultra-Millionaire Tax Act to raise $3 trillion in revenue over 10 years from the top .05% in our economy."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.pramilaforcongress.com/real-results
+    source_title: Real Results — Pramila for Congress
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

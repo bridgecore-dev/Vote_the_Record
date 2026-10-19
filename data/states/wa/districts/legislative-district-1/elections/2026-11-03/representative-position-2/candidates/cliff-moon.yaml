@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: cliff-moon
 name: Cliff Moon
 incumbent: false
@@ -24,7 +24,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/69549.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-1/elections/2026-11-03/representative-position-2/candidates/cliff-moon#O-01
+    headline: Reduce the tax burden on families
+    statement: 'Campaign website: "Cliff will fight to reduce the tax burden on working families and push back against policies that make everyday life more expensive."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.cliff4ld1.com/issues.html
+    source_title: Issues — Cliff Moon for LD1
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-1/elections/2026-11-03/representative-position-2/candidates/cliff-moon#O-02
+    headline: Cut the B&O tax for small businesses
+    statement: 'Campaign website: "He will cut red tape, reduce the B&O tax burden on small operators, and create conditions where local entrepreneurs can hire, grow, and thrive."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.cliff4ld1.com/issues.html
+    source_title: Issues — Cliff Moon for LD1
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-1/elections/2026-11-03/representative-position-2/candidates/cliff-moon#O-03
+    headline: Curriculum centered on core subjects
+    statement: 'Campaign website: "Cliff supports a curriculum centered on reading, math, science, and civics, and believes teachers and parents — not Olympia bureaucrats — should have the greatest say in what happens in the classroom."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.cliff4ld1.com/issues.html
+    source_title: Issues — Cliff Moon for LD1
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

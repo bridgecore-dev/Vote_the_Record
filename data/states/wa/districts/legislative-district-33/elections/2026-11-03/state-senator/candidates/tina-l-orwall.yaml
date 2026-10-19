@@ -138,7 +138,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/67796.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-33/elections/2026-11-03/state-senator/candidates/tina-l-orwall#O-01
+    headline: Foreclosure Fairness Act
+    statement: 'Campaign website: "Passed the Foreclosure Fairness Act to give families legal support and mediation before losing their homes."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.electtinaorwall.com/accomplishments/
+    source_title: Accomplishments - Tina Orwall
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-33/elections/2026-11-03/state-senator/candidates/tina-l-orwall#O-02
+    headline: Rape kit backlog reform
+    statement: 'Campaign website: "Led the charge on rape kit reform, clearing the backlog and establishing trauma-informed response standards."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.electtinaorwall.com/accomplishments/
+    source_title: Accomplishments - Tina Orwall
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-33/elections/2026-11-03/state-senator/candidates/tina-l-orwall#O-03
+    headline: Noise and pollution relief near SeaTac
+    statement: 'Campaign website: "Passed a bill to reduce noise and chemical pollution near SeaTac by funding home improvements like triple-pane windows."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.electtinaorwall.com/accomplishments/
+    source_title: Accomplishments - Tina Orwall
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

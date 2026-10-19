@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: nilu-jenks
 name: Nilu Jenks
 incumbent: false
@@ -24,7 +24,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/68337.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/localities/city-of-seattle/elections/2026-11-03/council-district-5/candidates/nilu-jenks#O-01
+    headline: 1,000 affordable housing units in District 5
+    statement: 'Campaign website: "As a City Councilmember, Nilu Jenks will champion the creation of 1,000 new units of affordable housing in her district."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.neighborsfornilu.org/platform
+    source_title: Platform | Nilu Jenks For Seattle City Council
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/localities/city-of-seattle/elections/2026-11-03/council-district-5/candidates/nilu-jenks#O-02
+    headline: Implement ranked choice voting in 2027
+    statement: 'Campaign website: "She will ensure Seattle successfully implements Ranked Choice Voting in 2027, strengthening democracy and giving voters more meaningful choices."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.neighborsfornilu.org/platform
+    source_title: Platform | Nilu Jenks For Seattle City Council
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/localities/city-of-seattle/elections/2026-11-03/council-district-5/candidates/nilu-jenks#O-03
+    headline: Make sidewalk construction a priority
+    statement: 'Campaign website: "Nilu will make sidewalk construction a top priority, especially in District 5."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.neighborsfornilu.org/platform
+    source_title: Platform | Nilu Jenks For Seattle City Council
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

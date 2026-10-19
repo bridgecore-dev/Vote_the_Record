@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: mary-silva
 name: Mary Silva
 incumbent: false
@@ -24,7 +24,41 @@ funding:
   notes: 'From weball26.txt in the FEC''s bulk data, downloaded 2026-10-18 (sha256 is of the zip file); columns as described at https://www.fec.gov/campaign-finance-data/all-candidates-file-description/. The totals are cumulative for the cycle as reported by the campaign. Matched by last name and district (first name too when two filers share a last name). The candidate''s FEC page: https://www.fec.gov/data/candidate/H4WA01282/. The bulk file is updated as new reports arrive.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/us-house-1/elections/2026-11-03/us-representative/candidates/mary-silva#O-01
+    headline: Medical decisions left to patients and parents
+    statement: 'Campaign website: "I believe in your rights to retain the ultimate control over your body, your medical decisions, and the healthcare of your children."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.marysilvaforcongress.com/
+    source_title: Mary Silva For Congress
+    source_kind: page
+    sha256: null
+    archive_url: https://web.archive.org/web/20261008173437/https://www.marysilvaforcongress.com/
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. The live site blocked automated readers, so the quote was checked against the Wayback Machine copy in archive_url.
+  - id: wa/districts/us-house-1/elections/2026-11-03/us-representative/candidates/mary-silva#O-02
+    headline: Affordability of homes, businesses, and savings
+    statement: 'Campaign website: "We must not create the conditions which enrich the few at the cost of so many to be able to afford basic things like owning a home, growing a businesses, or living with a healthy savings account."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.marysilvaforcongress.com/
+    source_title: Mary Silva For Congress
+    source_kind: page
+    sha256: null
+    archive_url: https://web.archive.org/web/20261008173437/https://www.marysilvaforcongress.com/
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. The live site blocked automated readers, so the quote was checked against the Wayback Machine copy in archive_url.
   attack_messaging: []
   contested_claims: []
 mappings: []

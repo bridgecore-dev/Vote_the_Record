@@ -138,7 +138,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/66624.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-46/elections/2026-11-03/representative-position-1/candidates/gerry-pollet#O-01
+    headline: Rent cap of 10% too high
+    statement: 'Campaign website: "Allowing rent increases of 10% per year is too high."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.gerrypollet.com/issues
+    source_title: Issues | Gerry Pollet for State Representative
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-46/elections/2026-11-03/representative-position-1/candidates/gerry-pollet#O-02
+    headline: Lift special education funding cap
+    statement: 'Campaign website: "In 2025, his advocacy helped lead to lifting the special education cap, a historic step toward fully funding special education statewide, delivering $750 million to fund special education across the state."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.gerrypollet.com/issues
+    source_title: Issues | Gerry Pollet for State Representative
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-46/elections/2026-11-03/representative-position-1/candidates/gerry-pollet#O-03
+    headline: Data center water and energy rules
+    statement: 'Campaign website: "Gerry also sponsored legislation to require greater accountability for data centers'' water and energy use, reduce pollution, and protect consumers from higher electric bills."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.gerrypollet.com/issues
+    source_title: Issues | Gerry Pollet for State Representative
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

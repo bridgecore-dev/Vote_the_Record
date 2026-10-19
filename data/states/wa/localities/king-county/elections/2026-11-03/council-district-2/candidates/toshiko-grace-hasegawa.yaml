@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: toshiko-grace-hasegawa
 name: Toshiko Grace Hasegawa
 incumbent: false
@@ -24,7 +24,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/67867.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/localities/king-county/elections/2026-11-03/council-district-2/candidates/toshiko-grace-hasegawa#O-01
+    headline: Property tax cap for new homeowners
+    statement: 'Campaign website: "A temporary property tax cap for the first 5 years of homeownership to promote accessibility to affordable homeownership."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.votetoshiko.com/vision
+    source_title: Priorities — Toshiko Hasegawa for King County Council, D2
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/localities/king-county/elections/2026-11-03/council-district-2/candidates/toshiko-grace-hasegawa#O-02
+    headline: Raised crosswalks and lighting on Rainier Ave S
+    statement: 'Campaign website: "I support installing raised crosswalks, pedestrian grade lighting along Rainier Ave S."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.votetoshiko.com/vision
+    source_title: Priorities — Toshiko Hasegawa for King County Council, D2
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/localities/king-county/elections/2026-11-03/council-district-2/candidates/toshiko-grace-hasegawa#O-03
+    headline: Lobby to lift the 1% property tax cap
+    statement: 'Campaign website: "I will aggressively lobby the state legislature to lift the 1% property tax cap which strangles our ability to fund basic services."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.votetoshiko.com/vision
+    source_title: Priorities — Toshiko Hasegawa for King County Council, D2
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

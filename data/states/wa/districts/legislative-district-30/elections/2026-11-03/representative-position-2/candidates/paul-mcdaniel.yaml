@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: paul-mcdaniel
 name: Paul McDaniel
 incumbent: false
@@ -24,7 +24,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/69209.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-30/elections/2026-11-03/representative-position-2/candidates/paul-mcdaniel#O-01
+    headline: Reduce tax burdens and increase transparency
+    statement: 'Campaign website: "I support reducing unnecessary tax burdens, increasing transparency, and making government more accountable to taxpayers."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://paul4washington.com/issues/
+    source_title: Issues - Paul 4 Washington
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-30/elections/2026-11-03/representative-position-2/candidates/paul-mcdaniel#O-02
+    headline: Law enforcement plus addiction and mental health treatment
+    statement: 'Campaign website: "I''ll support law enforcement, improve public safety, and expand effective treatment options that address addiction and mental health while holding criminals accountable."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://paul4washington.com/issues/
+    source_title: Issues - Paul 4 Washington
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-30/elections/2026-11-03/representative-position-2/candidates/paul-mcdaniel#O-03
+    headline: Remove barriers to housing
+    statement: 'Campaign website: "I''ll work to remove unnecessary barriers to housing and encourage economic growth through business-friendly policies."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://paul4washington.com/issues/
+    source_title: Issues - Paul 4 Washington
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

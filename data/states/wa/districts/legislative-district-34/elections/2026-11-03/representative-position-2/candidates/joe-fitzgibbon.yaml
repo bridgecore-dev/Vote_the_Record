@@ -138,7 +138,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/70178.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-34/elections/2026-11-03/representative-position-2/candidates/joe-fitzgibbon#O-01
+    headline: Housing near transit legislation
+    statement: 'Campaign website: "Joe sponsored major housing legislation to help cities create more housing near transit, modernize local planning, and increase housing supply statewide."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://joefitzgibbon.com/
+    source_title: Re-Elect Joe Fitzgibbon – State Representative • Democrat • 34th LD
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-34/elections/2026-11-03/representative-position-2/candidates/joe-fitzgibbon#O-02
+    headline: Climate Commitment Act
+    statement: 'Campaign website: "Protecting and strengthening Washington’s Climate Commitment Act"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://joefitzgibbon.com/
+    source_title: Re-Elect Joe Fitzgibbon – State Representative • Democrat • 34th LD
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-34/elections/2026-11-03/representative-position-2/candidates/joe-fitzgibbon#O-03
+    headline: Bicycle and pedestrian safety
+    statement: 'Campaign website: "Joe has sponsored and passed legislation improving safety for bicyclists and pedestrians, protecting transit access, and supporting smarter transportation planning."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://joefitzgibbon.com/
+    source_title: Re-Elect Joe Fitzgibbon – State Representative • Democrat • 34th LD
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

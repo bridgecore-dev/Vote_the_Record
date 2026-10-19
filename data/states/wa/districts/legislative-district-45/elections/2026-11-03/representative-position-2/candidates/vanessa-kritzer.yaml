@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: vanessa-kritzer
 name: Vanessa Kritzer
 incumbent: false
@@ -24,7 +24,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/68358.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-45/elections/2026-11-03/representative-position-2/candidates/vanessa-kritzer#O-01
+    headline: Fund education and restore child care
+    statement: 'Campaign website: "In the Legislature, Vanessa will work to fully fund public education, support youth mental health, restore cut funding for childcare, parent education, and early learning, bolster public higher education, and strengthen support for educators."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.electvanessakritzer.com/priorities
+    source_title: Priorities — Vote Vanessa Kritzer for State Representative
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-45/elections/2026-11-03/representative-position-2/candidates/vanessa-kritzer#O-02
+    headline: Property tax relief for seniors
+    statement: 'Campaign website: "She will also work to address property tax challenges for seniors on fixed incomes and food security for all."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.electvanessakritzer.com/priorities
+    source_title: Priorities — Vote Vanessa Kritzer for State Representative
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-45/elections/2026-11-03/representative-position-2/candidates/vanessa-kritzer#O-03
+    headline: Walking, biking, and transit investment
+    statement: 'Campaign website: "In the Legislature, she will support investments that make it easier for people to walk, bike, take transit, and commute safely."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.electvanessakritzer.com/priorities
+    source_title: Priorities — Vote Vanessa Kritzer for State Representative
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

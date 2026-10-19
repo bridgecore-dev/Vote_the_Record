@@ -138,7 +138,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/70145.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-47/elections/2026-11-03/state-senator/candidates/claudia-kauffman#O-01
+    headline: Invest in affordable housing
+    statement: 'Campaign website: "I share your concern of the high costs of housing, I will address this housing shortage through investments in affordable housing for all."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.voteclaudiakauffman.com/platform
+    source_title: Platform — Vote Claudia Kauffman
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-47/elections/2026-11-03/state-senator/candidates/claudia-kauffman#O-02
+    headline: Cut property and sales taxes, reform B&O
+    statement: 'Campaign website: "Reducing taxes like property and sales tax, reforming the B&O tax, and adopting better, more fair options will have a tremendous impact on our economy and will greatly improve the lives of everyday Washingtonians"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.voteclaudiakauffman.com/platform
+    source_title: Platform — Vote Claudia Kauffman
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-47/elections/2026-11-03/state-senator/candidates/claudia-kauffman#O-03
+    headline: Expand access to early learning
+    statement: 'Campaign website: "Young children in Washington deserve access to high quality early learning and support which will advance their knowledge, education, and social skills that will guide them on a pathway of achievement."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.voteclaudiakauffman.com/platform
+    source_title: Platform — Vote Claudia Kauffman
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

@@ -138,7 +138,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/66426.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-33/elections/2026-11-03/representative-position-2/candidates/mia-su-ling-gregerson#O-01
+    headline: Right to repair electronics, HB 1483
+    statement: 'Campaign website: "She sponsored the Fair Repair Act (HB 1483), which requires manufacturers to share the parts, tools, and repair information that consumers and independent repair shops need to fix electronics."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://miagregerson.com/
+    source_title: Campaign Website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-33/elections/2026-11-03/representative-position-2/candidates/mia-su-ling-gregerson#O-02
+    headline: End cap on special education funding
+    statement: 'Campaign website: "Mia fought to end the cap on special education funding that had been in place for more than a decade."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://miagregerson.com/
+    source_title: Campaign Website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-33/elections/2026-11-03/representative-position-2/candidates/mia-su-ling-gregerson#O-03
+    headline: Washington Voting Rights Act, HB 1800
+    statement: 'Campaign website: "Mia was the prime sponsor of the Washington Voting Rights Act (HB 1800), modeled after California''s law."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://miagregerson.com/
+    source_title: Campaign Website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

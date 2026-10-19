@@ -2,7 +2,6 @@
 name: King County Assessor
 office_type: assessor
 election_date: '2026-11-03'
-detail: basic
 sources:
 - id: wa/localities/king-county/elections/2026-11-03/assessor/race#S-01
   headline: Candidates as printed on the sample ballot

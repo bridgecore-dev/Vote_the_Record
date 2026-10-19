@@ -138,7 +138,24 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/67691.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-41/elections/2026-11-03/representative-position-1/candidates/janice-zahn#O-01
+    headline: Balance budget cuts and new revenue
+    statement: 'Campaign website: "Her priorities have been using her engineering, transportation and capital projects experience to advance effective government, promote community-centered solutions for people and our environment, and ensure a budget that balances tough cuts and prudent progressive revenues."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.janicezahn.org/about
+    source_title: About Janice - Vote Janice Zahn
+    source_kind: page
+    sha256: null
+    archive_url: http://web.archive.org/web/20260814030426/https://www.janicezahn.org/about
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. The live site blocked automated readers, so the quote was checked against the Wayback Machine copy in archive_url.
   attack_messaging: []
   contested_claims: []
 mappings: []

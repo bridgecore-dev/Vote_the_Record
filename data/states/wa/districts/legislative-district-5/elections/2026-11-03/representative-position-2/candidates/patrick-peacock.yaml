@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: patrick-peacock
 name: Patrick Peacock
 incumbent: false
@@ -24,7 +24,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/69159.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-5/elections/2026-11-03/representative-position-2/candidates/patrick-peacock#O-01
+    headline: No state income tax and lower fuel taxes
+    statement: 'Campaign website: "No state income tax. Roll back fuel taxes that drive up the price of everything."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://electpeacock.org/
+    source_title: Patrick Peacock for State Representative — LD5, Position 2
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-5/elections/2026-11-03/representative-position-2/candidates/patrick-peacock#O-02
+    headline: Cut red tape on new construction
+    statement: 'Campaign website: "Cut the red tape blocking new construction and bring down the cost of putting a roof over your family''s head."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://electpeacock.org/
+    source_title: Patrick Peacock for State Representative — LD5, Position 2
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-5/elections/2026-11-03/representative-position-2/candidates/patrick-peacock#O-03
+    headline: Repeat offender accountability
+    statement: 'Campaign website: "Back our officers, hold repeat offenders accountable, and restore safe streets across the 5th District."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://electpeacock.org/
+    source_title: Patrick Peacock for State Representative — LD5, Position 2
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

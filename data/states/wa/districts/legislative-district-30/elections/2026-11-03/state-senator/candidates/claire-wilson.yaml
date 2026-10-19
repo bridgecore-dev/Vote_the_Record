@@ -138,7 +138,41 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/70045.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-30/elections/2026-11-03/state-senator/candidates/claire-wilson#O-01
+    headline: Close corporate tax loopholes to lower property taxes
+    statement: 'Campaign website: "Claire will push to close tax loopholes for big corporations and wealthy special interests so that we can lower property taxes for middle class families and provide genuine relief."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.claireforsenate.com/accountability/
+    source_title: Transportation and Taxpayer Accountability – Claire Wilson
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-30/elections/2026-11-03/state-senator/candidates/claire-wilson#O-02
+    headline: Transportation projects on time and budget
+    statement: 'Campaign website: "Claire will make sure our transportation dollars are invested in local congestion relief and streamline the delivery of road improvements, light rail projects, and other transit needs, making sure they are done on time and on budget."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.claireforsenate.com/accountability/
+    source_title: Transportation and Taxpayer Accountability – Claire Wilson
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

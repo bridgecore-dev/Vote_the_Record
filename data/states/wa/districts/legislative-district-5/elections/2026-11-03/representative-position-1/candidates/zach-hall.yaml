@@ -81,7 +81,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/66928.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-5/elections/2026-11-03/representative-position-1/candidates/zach-hall#O-01
+    headline: More housing built faster
+    statement: 'Campaign website: "We need more affordable housing and reforms that make it easier to finance and build new homes faster."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.electzachhall.com/priorities
+    source_title: Priorities — Elect Zach Hall
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-5/elections/2026-11-03/representative-position-1/candidates/zach-hall#O-02
+    headline: Protect State Route 18 funding
+    statement: 'Campaign website: "Now that the new interchange at I-90 and State Route 18 is open, it’s more important than ever to protect the funding we’ve won to expand this major corridor."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.electzachhall.com/priorities
+    source_title: Priorities — Elect Zach Hall
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-5/elections/2026-11-03/representative-position-1/candidates/zach-hall#O-03
+    headline: Fully fund schools
+    statement: 'Campaign website: "Fully fund our schools so every student is engaged, supported, and prepared for the future."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.electzachhall.com/priorities
+    source_title: Priorities — Elect Zach Hall
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

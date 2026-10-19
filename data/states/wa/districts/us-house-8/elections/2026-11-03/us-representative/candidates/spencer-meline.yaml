@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: spencer-meline
 name: Spencer Meline
 incumbent: false
@@ -24,7 +24,58 @@ funding:
   notes: 'From weball26.txt in the FEC''s bulk data, downloaded 2026-10-18 (sha256 is of the zip file); columns as described at https://www.fec.gov/campaign-finance-data/all-candidates-file-description/. The totals are cumulative for the cycle as reported by the campaign. Matched by last name and district (first name too when two filers share a last name). The candidate''s FEC page: https://www.fec.gov/data/candidate/H6WA08167/. The bulk file is updated as new reports arrive.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/us-house-8/elections/2026-11-03/us-representative/candidates/spencer-meline#O-01
+    headline: Ban stock trading by members of Congress
+    statement: 'Campaign website: "Members of Congress should not be trading individual stocks while making laws that can affect those investments."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.melineforcongress.com/priorities
+    source_title: Vision & Priorities | Meline for Congress | District 08 - Washington State
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/us-house-8/elections/2026-11-03/us-representative/candidates/spencer-meline#O-02
+    headline: Tax relief for first-time homebuyers
+    statement: 'Campaign website: "Provide targeted tax relief that helps working Americans overcome the enormous upfront cost of purchasing their first home."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.melineforcongress.com/priorities
+    source_title: Vision & Priorities | Meline for Congress | District 08 - Washington State
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/us-house-8/elections/2026-11-03/us-representative/candidates/spencer-meline#O-03
+    headline: Active forest management for wildfire
+    statement: 'Campaign website: "Expand responsible thinning, prescribed burning, hazardous-fuel removal, and other active forest-management practices."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.melineforcongress.com/priorities
+    source_title: Vision & Priorities | Meline for Congress | District 08 - Washington State
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

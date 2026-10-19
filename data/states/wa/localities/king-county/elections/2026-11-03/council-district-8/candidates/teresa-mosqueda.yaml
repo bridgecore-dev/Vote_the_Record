@@ -62,7 +62,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/57199.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/localities/king-county/elections/2026-11-03/council-district-8/candidates/teresa-mosqueda#O-01
+    headline: Fund Public Health Seattle/King County
+    statement: 'Campaign website: "Increase funding and support for Public Health Seattle/King County to have a stable workforce and adequate resources necessary to address our compounding health crises today and the possible public health emergencies of the future."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.teamteresa.org/priorities/
+    source_title: A Healthy, Housed and Resilient King County - Teresa Mosqueda
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/localities/king-county/elections/2026-11-03/council-district-8/candidates/teresa-mosqueda#O-02
+    headline: Increase workforce housing in District 8
+    statement: 'Campaign website: "Address displacement and increase workforce housing across District 8."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.teamteresa.org/priorities/
+    source_title: A Healthy, Housed and Resilient King County - Teresa Mosqueda
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/localities/king-county/elections/2026-11-03/council-district-8/candidates/teresa-mosqueda#O-03
+    headline: Incentives for green, affordable housing
+    statement: 'Campaign website: "Create incentives to build more green, lasting and affordable housing throughout our region in partnership with local jurisdictions and communities to promote density, greenspace, trees, and community cohesion as part of the effort to combat climate change."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.teamteresa.org/priorities/
+    source_title: A Healthy, Housed and Resilient King County - Teresa Mosqueda
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

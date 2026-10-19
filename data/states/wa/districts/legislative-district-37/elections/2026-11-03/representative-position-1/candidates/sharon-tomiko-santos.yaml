@@ -138,7 +138,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/70153.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-37/elections/2026-11-03/representative-position-1/candidates/sharon-tomiko-santos#O-01
+    headline: Prevent displacement, expand housing near transit
+    statement: 'Campaign website: "Prevent displacement, expand affordable housing near transit, and help more people get and stay housed."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://votesharontomikosantos.com/
+    source_title: Reelect Sharon Tomiko Santos for State Representative | 37LD | Democrat
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-37/elections/2026-11-03/representative-position-1/candidates/sharon-tomiko-santos#O-02
+    headline: Invest in schools, child care, workforce
+    statement: 'Campaign website: "Invest in students, educators, and families through stronger schools, affordable childcare, and workforce development."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://votesharontomikosantos.com/
+    source_title: Reelect Sharon Tomiko Santos for State Representative | 37LD | Democrat
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-37/elections/2026-11-03/representative-position-1/candidates/sharon-tomiko-santos#O-03
+    headline: Fund violence prevention and treatment
+    statement: 'Campaign website: "Investing in community-led violence prevention, behavioral health response, and long-term mental health and substance use disorder treatment."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://votesharontomikosantos.com/
+    source_title: Reelect Sharon Tomiko Santos for State Representative | 37LD | Democrat
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

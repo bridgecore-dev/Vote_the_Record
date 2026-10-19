@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: leesa-manion
 name: Leesa Manion
 incumbent: true
@@ -24,7 +24,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/68796.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/localities/king-county/elections/2026-11-03/prosecuting-attorney/candidates/leesa-manion#O-01
+    headline: Staffing and charges for retail theft
+    statement: 'Campaign website: "Adding dedicated staffing and increasing criminal filings to combat retail crime and organized retail theft."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://leesamanion.com/
+    source_title: Home - Re-elect Leesa Manion for Prosecutor
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/localities/king-county/elections/2026-11-03/prosecuting-attorney/candidates/leesa-manion#O-02
+    headline: Diversion and alternatives to incarceration
+    statement: 'Campaign website: "In her next term, Leesa will build on this record of leadership, holding criminals accountable while continuing to strengthen crime prevention strategies, behavioral health interventions, effective diversion programs, and alternatives to incarceration."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://leesamanion.com/
+    source_title: Home - Re-elect Leesa Manion for Prosecutor
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/localities/king-county/elections/2026-11-03/prosecuting-attorney/candidates/leesa-manion#O-03
+    headline: Limit adult prosecution of juveniles
+    statement: 'Campaign website: "As Prosecuting Attorney, Leesa is ensuring that juveniles are not prosecuted as adults except in cases of exceptional violence and extreme harm."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://leesamanion.com/
+    source_title: Home - Re-elect Leesa Manion for Prosecutor
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

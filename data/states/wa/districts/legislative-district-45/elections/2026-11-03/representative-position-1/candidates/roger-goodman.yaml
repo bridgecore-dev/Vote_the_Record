@@ -138,7 +138,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/70157.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-45/elections/2026-11-03/representative-position-1/candidates/roger-goodman#O-01
+    headline: Police accountability reforms
+    statement: 'Campaign website: "In this most recent legislative session, we enacted the nation’s most dramatic, broad-sweeping police accountability reforms by restricting the needless use of force, holding police accountable for misconduct and ensuring the equitable treatment by law enforcement of all communities."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.rogergoodman.org/
+    source_title: Representative Roger Goodman (D) Washington State Legislature – Representative Roger Goodman (D)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-45/elections/2026-11-03/representative-position-1/candidates/roger-goodman#O-02
+    headline: State budget covering federal cuts
+    statement: 'Campaign website: "Despite our relatively strong local economy, deep federal cuts to health care and food assistance have forced us to find billions of dollars to ensure that all our people are healthy, fed and housed, particularly the most vulnerable."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.rogergoodman.org/
+    source_title: Representative Roger Goodman (D) Washington State Legislature – Representative Roger Goodman (D)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-45/elections/2026-11-03/representative-position-1/candidates/roger-goodman#O-03
+    headline: Families, children, and community safety
+    statement: 'Campaign website: "I want to continue my legislative work to strengthen families and protect children, to keep our communities safe and to promote a more just society."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.rogergoodman.org/
+    source_title: Representative Roger Goodman (D) Washington State Legislature – Representative Roger Goodman (D)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

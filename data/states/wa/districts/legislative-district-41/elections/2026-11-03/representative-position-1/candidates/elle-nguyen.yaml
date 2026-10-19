@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: elle-nguyen
 name: Elle Nguyen
 incumbent: false
@@ -24,7 +24,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/69308.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-41/elections/2026-11-03/representative-position-1/candidates/elle-nguyen#O-01
+    headline: Limits on new property-tax authority
+    statement: 'Campaign website: "Before creating additional property-tax authority, government should identify efficiencies, eliminate waste, prioritize existing revenues, and demonstrate why current resources are insufficient."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://thechoiceforchange.org/issues
+    source_title: Issues — Elle Nguyen for Washington State Representative LD-41
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-41/elections/2026-11-03/representative-position-1/candidates/elle-nguyen#O-02
+    headline: Girls' sports by biological sex
+    statement: 'Campaign website: "I believe girls deserve fair competition based on biological sex."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://thechoiceforchange.org/issues
+    source_title: Issues — Elle Nguyen for Washington State Representative LD-41
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-41/elections/2026-11-03/representative-position-1/candidates/elle-nguyen#O-03
+    headline: Oppose public funding for abortion
+    statement: 'Campaign website: "I believe abortion is the taking of an innocent human life, and I oppose government funding for abortion."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://thechoiceforchange.org/issues
+    source_title: Issues — Elle Nguyen for Washington State Representative LD-41
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

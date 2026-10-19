@@ -1,4 +1,4 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: evon-mccorkle
 name: Evon McCorkle
 incumbent: false
@@ -24,7 +24,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/70047.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-37/elections/2026-11-03/representative-position-2/candidates/evon-mccorkle#O-01
+    headline: Treat education funding as investment
+    statement: 'Campaign website: "Our state must treat education as an investment in long-term stability and opportunity, not an expense to be negotiated away."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.evonmccorkle.com/priorities
+    source_title: Priorities | Get Involved Today — Evon Mccorkle's page
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-37/elections/2026-11-03/representative-position-2/candidates/evon-mccorkle#O-02
+    headline: Housing policy on affordability and shelter
+    statement: 'Campaign website: "Effective housing policy must address both affordability and access to safe, reliable shelter."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.evonmccorkle.com/priorities
+    source_title: Priorities | Get Involved Today — Evon Mccorkle's page
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-37/elections/2026-11-03/representative-position-2/candidates/evon-mccorkle#O-03
+    headline: Health care access regardless of income
+    statement: 'Campaign website: "Access to healthcare should not depend on income or circumstance."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.evonmccorkle.com/priorities
+    source_title: Priorities | Get Involved Today — Evon Mccorkle's page
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

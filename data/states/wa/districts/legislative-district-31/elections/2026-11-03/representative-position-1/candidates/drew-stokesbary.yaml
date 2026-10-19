@@ -138,7 +138,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/66875.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-31/elections/2026-11-03/representative-position-1/candidates/drew-stokesbary#O-01
+    headline: Prioritize spending over new taxes
+    statement: 'Campaign website: "Instead of more taxes, the Legislature needs to better prioritize state spending."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://drewstokesbary.com/issues/
+    source_title: Issues - Re-Elect Drew Stokesbary
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-31/elections/2026-11-03/representative-position-1/candidates/drew-stokesbary#O-02
+    headline: Funding for law enforcement and firefighting
+    statement: 'Campaign website: "In the Legislature, I have fought to increase funding for law enforcement and firefighting activities."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://drewstokesbary.com/issues/
+    source_title: Issues - Re-Elect Drew Stokesbary
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-31/elections/2026-11-03/representative-position-1/candidates/drew-stokesbary#O-03
+    headline: School resources used wisely
+    statement: 'Campaign website: "Schools should have the resources they need to succeed, and we must ensure those resources are used wisely."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://drewstokesbary.com/issues/
+    source_title: Issues - Re-Elect Drew Stokesbary
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

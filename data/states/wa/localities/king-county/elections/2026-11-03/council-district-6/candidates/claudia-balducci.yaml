@@ -62,7 +62,58 @@ funding:
   notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/67730.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/localities/king-county/elections/2026-11-03/council-district-6/candidates/claudia-balducci#O-01
+    headline: Lower housing and utility costs
+    statement: 'Campaign website: "In an increasingly expensive region, Claudia will make it a top priority to address the increasing cost of living, including making housing and utilities less prohibitive, so that people can afford to build a future in East King County."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.claudiabalducci.com/priorities/
+    source_title: Priorities - Re-Elect Claudia Balducci for King County Council Dist. 6
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/localities/king-county/elections/2026-11-03/council-district-6/candidates/claudia-balducci#O-02
+    headline: Bus connections, streets, roads, and trails
+    statement: 'Campaign website: "With light rail opening across I-90 and beyond, Claudia will focus on strong bus connections, safe and accessible streets, and continued investment in roads and regional trails so everyone can benefit from our growing transit system."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.claudiabalducci.com/priorities/
+    source_title: Priorities - Re-Elect Claudia Balducci for King County Council Dist. 6
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/localities/king-county/elections/2026-11-03/council-district-6/candidates/claudia-balducci#O-03
+    headline: Expand housing options at all income levels
+    statement: 'Campaign website: "A recognized regional leader on housing, Claudia will keep pushing to expand housing options at all income levels — so seniors can age in place and working people and families can afford to live near jobs, schools, and transit."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.claudiabalducci.com/priorities/
+    source_title: Priorities - Re-Elect Claudia Balducci for King County Council Dist. 6
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []
