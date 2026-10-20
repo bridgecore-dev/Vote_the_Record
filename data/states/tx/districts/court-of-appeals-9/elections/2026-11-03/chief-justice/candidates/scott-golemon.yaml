@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: scott-golemon
+name: Scott Golemon
+incumbent: true
+ballot_party: REP
+records: []
+funding:
+- id: tx/districts/court-of-appeals-9/elections/2026-11-03/chief-justice/candidates/scott-golemon#M-01
+  headline: Had $4,135 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 13, 2026: $2,252.35 in total political expenditures, $4,135.27 in contributions on hand at the end of the period, and $25,000.00 in outstanding loans. The report data lists no amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101059968.PDF
+  source_title: 'Texas Ethics Commission: Golemon Sr., William S. (The Honorable), campaign finance report 101059968 (filed Jul 13, 2026)'
+  source_kind: document
+  sha256: b04635b9a7520abcdfe35441656dd65fb2f3b628282b82334bc96f069d840719
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101059968, form JCOH, TEC report type SEMIJUL; filer ID 00062801 (Golemon Sr., William S. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-19; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

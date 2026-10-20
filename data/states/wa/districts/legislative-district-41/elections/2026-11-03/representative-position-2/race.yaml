@@ -2,7 +2,6 @@
 name: State Representative, Legislative District 41, Position 2
 office_type: state-representative
 election_date: '2026-11-03'
-detail: basic
 sources:
 - id: wa/districts/legislative-district-41/elections/2026-11-03/representative-position-2/race#S-01
   headline: Candidates as printed on the sample ballot
@@ -21,3 +20,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's sample ballot, which says it "contains all races and measures in King County." Names and wording are from the PDF's text layer, kept as printed. Candidates for partisan office are listed with the party preference printed under their names.
+- id: wa/districts/legislative-district-41/elections/2026-11-03/representative-position-2/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Washington State Legislature: Representative My-Linh Thai), checked on October 18, 2026, shows that My-Linh T Thai, a candidate in this race, currently holds this office. It names Representative My-Linh Thai and shows "District 41 - Position 2". It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://leg.wa.gov/legislators/member/my-linh-thai
+  source_title: 'Washington State Legislature: Representative My-Linh Thai'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-18'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null

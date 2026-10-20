@@ -1,13 +1,195 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: jesse-salomon
 name: Jesse Salomon
-incumbent: null
+incumbent: true
 ballot_party: Prefers Democratic Party
-records: []
-funding: []
+records:
+- id: wa/districts/legislative-district-32/elections/2026-11-03/state-senator/candidates/jesse-salomon#R-01
+  record_type: vote
+  headline: Voted yes on ESSB 5998, the 2026 supplemental operating budget (2026)
+  result: Passed the Senate 28-21.
+  statement: As a member of the Washington State Senate, voted yes on ESSB 5998 (Making 2025-2027 fiscal biennium supplemental operating appropriations.) on the motion "Final Passage as Recommended by Conference Committee". The Legislature's roll call for March 12, 2026 records 28 yeas and 21 nays.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetRollCalls?biennium=2025-26&billNumber=5998
+  source_title: 'Washington State Legislature web services: roll calls for ESSB 5998 (2025-26)'
+  source_kind: document
+  sha256: 126962917ddb2e2a5093c703a45892dd928b8649353b45bffd2ab43e1fb2cdc0
+  archive_url: null
+  event_date: '2026-03-12'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The Legislature''s official roll-call data for the bill, downloaded 2026-10-19; this vote is the last final-passage roll call in the Senate. The bill''s page: https://app.leg.wa.gov/billsummary?BillNumber=5998&Year=2026. The roll call lists members by last name, as "Salomon" here. Not yet archived on the Wayback Machine.'
+- id: wa/districts/legislative-district-32/elections/2026-11-03/state-senator/candidates/jesse-salomon#R-02
+  record_type: vote
+  headline: Voted yes on ESSB 6005, the 2026 supplemental transportation budget (2026)
+  result: Passed the Senate 49-0.
+  statement: As a member of the Washington State Senate, voted yes on ESSB 6005 (Making supplemental transportation appropriations for the 2025-2027 fiscal biennium.) on the motion "Final Passage as Recommended by Conference Committee". The Legislature's roll call for March 12, 2026 records 49 yeas and 0 nays.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetRollCalls?biennium=2025-26&billNumber=6005
+  source_title: 'Washington State Legislature web services: roll calls for ESSB 6005 (2025-26)'
+  source_kind: document
+  sha256: d03d4e0872adee775ad3d63c8de7a6cfb8798c05d660e90484dfaaa92c74dbe8
+  archive_url: null
+  event_date: '2026-03-12'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The Legislature''s official roll-call data for the bill, downloaded 2026-10-19; this vote is the last final-passage roll call in the Senate. The bill''s page: https://app.leg.wa.gov/billsummary?BillNumber=6005&Year=2026. The roll call lists members by last name, as "Salomon" here. Not yet archived on the Wayback Machine.'
+- id: wa/districts/legislative-district-32/elections/2026-11-03/state-senator/candidates/jesse-salomon#R-03
+  record_type: vote
+  headline: Voted yes on SSB 6003, the 2026 supplemental capital budget (2026)
+  result: Passed the Senate 49-0.
+  statement: As a member of the Washington State Senate, voted yes on SSB 6003 (Concerning the capital budget.) on the motion "Final Passage as Amended by the House". The Legislature's roll call for March 12, 2026 records 49 yeas and 0 nays.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetRollCalls?biennium=2025-26&billNumber=6003
+  source_title: 'Washington State Legislature web services: roll calls for SSB 6003 (2025-26)'
+  source_kind: document
+  sha256: 1e0351be368f3e3694d36abeee20dc44b4151b3e82e30fc57ba1bb5fda188066
+  archive_url: null
+  event_date: '2026-03-12'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The Legislature''s official roll-call data for the bill, downloaded 2026-10-19; this vote is the last final-passage roll call in the Senate. The bill''s page: https://app.leg.wa.gov/billsummary?BillNumber=6003&Year=2026. The roll call lists members by last name, as "Salomon" here. Not yet archived on the Wayback Machine.'
+- id: wa/districts/legislative-district-32/elections/2026-11-03/state-senator/candidates/jesse-salomon#R-04
+  record_type: vote
+  headline: Voted yes on ESSB 5167, the 2025-27 state operating budget (2025)
+  result: Passed the Senate 28-19.
+  statement: As a member of the Washington State Senate, voted yes on ESSB 5167 (Making 2025-2027 fiscal biennium operating appropriations.) on the motion "Final Passage as Recommended by Conference Committee". The Legislature's roll call for April 27, 2025 records 28 yeas and 19 nays.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetRollCalls?biennium=2025-26&billNumber=5167
+  source_title: 'Washington State Legislature web services: roll calls for ESSB 5167 (2025-26)'
+  source_kind: document
+  sha256: 1364cea16f19915c50a739be009abdf4f734054ec77557bbd90b61d25a8dd4a8
+  archive_url: null
+  event_date: '2025-04-27'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The Legislature''s official roll-call data for the bill, downloaded 2026-10-19; this vote is the last final-passage roll call in the Senate. The bill''s page: https://app.leg.wa.gov/billsummary?BillNumber=5167&Year=2025. The roll call lists members by last name, as "Salomon" here. Not yet archived on the Wayback Machine.'
+- id: wa/districts/legislative-district-32/elections/2026-11-03/state-senator/candidates/jesse-salomon#R-05
+  record_type: vote
+  headline: Voted yes on ESSB 5161, the 2025-27 transportation budget (2025)
+  result: Passed the Senate 34-13.
+  statement: As a member of the Washington State Senate, voted yes on ESSB 5161 (Making transportation appropriations for the 2025-2027 fiscal biennium.) on the motion "Final Passage as Recommended by Conference Committee". The Legislature's roll call for April 27, 2025 records 34 yeas and 13 nays.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetRollCalls?biennium=2025-26&billNumber=5161
+  source_title: 'Washington State Legislature web services: roll calls for ESSB 5161 (2025-26)'
+  source_kind: document
+  sha256: ebf9ae8310a5a1f41b04f899d38a386ec1ad50d467f4c84323d5037fb80c97b7
+  archive_url: null
+  event_date: '2025-04-27'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The Legislature''s official roll-call data for the bill, downloaded 2026-10-19; this vote is the last final-passage roll call in the Senate. The bill''s page: https://app.leg.wa.gov/billsummary?BillNumber=5161&Year=2025. The roll call lists members by last name, as "Salomon" here. Not yet archived on the Wayback Machine.'
+- id: wa/districts/legislative-district-32/elections/2026-11-03/state-senator/candidates/jesse-salomon#R-06
+  record_type: vote
+  headline: Voted yes on SSB 5195, the 2025-27 capital budget (2025)
+  result: Passed the Senate 47-0.
+  statement: As a member of the Washington State Senate, voted yes on SSB 5195 (Concerning the capital budget.) on the motion "Final Passage as Amended by the House". The Legislature's roll call for April 27, 2025 records 47 yeas and 0 nays.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wslwebservices.leg.wa.gov/LegislationService.asmx/GetRollCalls?biennium=2025-26&billNumber=5195
+  source_title: 'Washington State Legislature web services: roll calls for SSB 5195 (2025-26)'
+  source_kind: document
+  sha256: fc6efcb1c7ed0d73ce12ec8b32e1385154065d6fb1c2cd7eda3d4a18fa7d9107
+  archive_url: null
+  event_date: '2025-04-27'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The Legislature''s official roll-call data for the bill, downloaded 2026-10-19; this vote is the last final-passage roll call in the Senate. The bill''s page: https://app.leg.wa.gov/billsummary?BillNumber=5195&Year=2025. The roll call lists members by last name, as "Salomon" here. Not yet archived on the Wayback Machine.'
+funding:
+- id: wa/districts/legislative-district-32/elections/2026-11-03/state-senator/candidates/jesse-salomon#M-01
+  headline: Raised $285,293 and spent $243,327 (2026 election year, record updated Oct 15, 2026)
+  statement: 'The Public Disclosure Commission''s campaign finance summary for the 2026 election year lists, for Jesse Salomon (state senator, LEG DISTRICT 32 - SENATE), in the record last updated October 15, 2026: $285,292.52 in contributions, $18,093.97 carried forward from an earlier campaign, $243,327.41 in expenditures, and $31,427.34 in debts. It also lists $268,140.03 in independent expenditures by others supporting the candidate and $0.00 opposing the candidate.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://data.wa.gov/resource/3h9x-7bvm.json?$where=election_year%3D%272026%27%20AND%20filer_type%3D%27CA%27&$limit=50000
+  source_title: 'Washington Public Disclosure Commission: Campaign Finance Summary, 2026 candidates (data.wa.gov dataset 3h9x-7bvm)'
+  source_kind: document
+  sha256: f7946f6715074954e86bfc8c2fd0f42053f7b84619b12dc498db4ee5ca381870
+  archive_url: null
+  event_date: '2026-10-15'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/67032.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-32/elections/2026-11-03/state-senator/candidates/jesse-salomon#O-01
+    headline: Housing bills SB 5818 and SB 5412
+    statement: 'Campaign website: "He is proud to have written and passed Washington Senate Bills 5818 and 5412, which cut red tape and made it easier to build new housing."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.votesalomon.com/issues
+    source_title: Issues — Vote Jesse Salomon
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-32/elections/2026-11-03/state-senator/candidates/jesse-salomon#O-02
+    headline: Millionaire's tax for health care
+    statement: 'Campaign website: "Jesse proudly supports the ‘Millionaire’s Tax” because he believes the very wealthiest should pay their fair share so every family can get the medical care they need."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.votesalomon.com/issues
+    source_title: Issues — Vote Jesse Salomon
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-32/elections/2026-11-03/state-senator/candidates/jesse-salomon#O-03
+    headline: Magazine limits and background checks
+    statement: 'Campaign website: "Jesse also supported efforts to limit high-capacity magazines and strengthen background checks."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.votesalomon.com/issues
+    source_title: Issues — Vote Jesse Salomon
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

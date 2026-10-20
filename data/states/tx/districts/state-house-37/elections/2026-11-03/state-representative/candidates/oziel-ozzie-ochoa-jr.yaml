@@ -1,0 +1,99 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: oziel-ozzie-ochoa-jr
+name: Oziel "Ozzie" Ochoa, Jr.
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/districts/state-house-37/elections/2026-11-03/state-representative/candidates/oziel-ozzie-ochoa-jr#M-01
+  headline: Raised $98,561 and had $77,117 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $98,560.52 in total political contributions, $19,118.97 in total political expenditures, $77,116.53 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069016.PDF
+  source_title: 'Texas Ethics Commission: Ochoa Jr., Oziel (Mr.), campaign finance report 101069016 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 3cf2f6075b87b9140afa1ac420638ffdf4d482b1774c147007c6c8a0799cb3f9
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101069016, form COH, TEC report type E30DAYBEF; filer ID 00089998 (Ochoa Jr., Oziel (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-20; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/state-house-37/elections/2026-11-03/state-representative/candidates/oziel-ozzie-ochoa-jr#O-01
+    headline: Property taxes
+    statement: 'Campaign website: "Cut property taxes by expanding the homestead exemption and using state funding to further compress school property tax rates for homeowners."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ochoafortx37.com/issues
+    source_title: PRIORITIES | Oziel Ochoa Jr.
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-37/elections/2026-11-03/state-representative/candidates/oziel-ozzie-ochoa-jr#O-02
+    headline: Minimum wage
+    statement: 'Campaign website: "Raise the Texas minimum wage to at least $15 an hour."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ochoafortx37.com/issues
+    source_title: PRIORITIES | Oziel Ochoa Jr.
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-37/elections/2026-11-03/state-representative/candidates/oziel-ozzie-ochoa-jr#O-03
+    headline: Medicaid
+    statement: 'Campaign website: "Expand Medicaid so more working Texans can afford healthcare and strengthen hospitals and clinics that serve our communities."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ochoafortx37.com/issues
+    source_title: PRIORITIES | Oziel Ochoa Jr.
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-37/elections/2026-11-03/state-representative/candidates/oziel-ozzie-ochoa-jr#O-04
+    headline: Veterans cemetery
+    statement: 'Campaign website: "Establish a state veterans cemetery in District 37 so families can honor their loved ones closer to home."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ochoafortx37.com/issues
+    source_title: PRIORITIES | Oziel Ochoa Jr.
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

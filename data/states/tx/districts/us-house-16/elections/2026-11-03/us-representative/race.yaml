@@ -1,0 +1,38 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: U.S. Representative, District 16
+office_type: us-representative
+election_date: '2026-11-03'
+sources:
+- id: tx/districts/us-house-16/elections/2026-11-03/us-representative/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The El Paso County Elections Department''s sample ballot for the November 3, 2026 general and special election lists "United States Representative, District 16" on page 1, with these candidates: Adam Bauman (REP); Veronica Escobar (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550
+  source_title: 'El Paso County Elections Department: Sample Ballot, November 3, 2026 General and Special Election, El Paso County, Texas: Federal, State & County (page 1)'
+  source_kind: document
+  sha256: cdb43152a132333b0623fa25c6eed276af4bc335046358cc5b4ccccfa78919cd
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the sample ballots the county lists under "Sample Ballots" on its Current Election page (https://epcountyvotestx.gov/voter-information/current-election), one per jurisdiction. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/districts/us-house-16/elections/2026-11-03/us-representative/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (U.S. House Clerk MemberData.xml), checked on October 19, 2026, shows that Veronica Escobar, a candidate in this race, currently holds this office. It reads: "<statedistrict>TX16</statedistrict> ... <official-name>Veronica Escobar</official-name> ... <sworn-date date="20250103">" It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://clerk.house.gov/xml/lists/MemberData.xml
+  source_title: U.S. House Clerk MemberData.xml
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null

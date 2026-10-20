@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: jessica-a-gonzalez
+name: Jessica A. Gonzalez
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/bell-county/elections/2026-11-03/jp-precinct-4-place-2/candidates/jessica-a-gonzalez#M-01
+  headline: Raised $200 (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, filed with Bell County on Jul 15, 2026: $200.00 in total political contributions, $0.00 in total political expenditures, and $0.00 in outstanding loans. Left out: contributions on hand at the end of the period (blank or not legible on the scanned report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Campaign%20Treasurer/2026/2026_Gonzalez_Jessica.pdf
+  source_title: 'Bell County: campaign finance report, Gonzalez, Jessica (filed Jul 15, 2026)'
+  source_kind: document
+  sha256: b61bdf7ea8806afb6b42b2745a83ce600f3503dff89903ca4464a7fc696b972d
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted on Bell County Elections Department's Campaign Treasury Postings page (https://www.bellcountytx.com/departments/elections/2026.php) as filed by "Gonzalez, Jessica" (Form JC/OH (TEC judicial cover sheet), July 15 semiannual); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Not yet archived on the Wayback Machine. The cents of the cash-on-hand amount are not legible.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

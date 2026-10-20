@@ -1,0 +1,107 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: art-fierro
+name: Art Fierro
+incumbent: true
+ballot_party: null
+records:
+- id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-6/candidates/art-fierro#R-01
+  record_type: vote
+  headline: Voted yes on the 2026-27 city budget (2026)
+  result: Passed the City Council 6-2.
+  statement: 'As the City Representative for District 6, voted yes on item 27 (file 26-0916), FISCAL YEAR 2027 BUDGET RESOLUTION at the August 18, 2026 regular City Council meeting. The minutes record: "Motion made by Representative Fierro, seconded by Representative Maldonado-Rocha, carried to APPROVE the Proposed Budget with a reduction of $6,495,971 resulting in a tax rate of 0.798000 as AMENDED" and "AYES: Representatives Chávez, Acevedo, Maldonado-Rocha, Niño, Fierro, and Canales; NAYS: Representatives Boyar Trejo and Limón".'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://elpasotexas.legistar.com/View.ashx?M=M&ID=1432683&GUID=8F63A059-4A37-45AD-9FE5-1364D140DDB4
+  source_title: City of El Paso, Regular City Council Meeting Minutes, August 18, 2026 (page 23)
+  source_kind: document
+  sha256: cb6d31b19f0334e1e8fd5ec00e676ab4dc27446fe8a71c4cf45d416e70d2e10d
+  archive_url: null
+  event_date: '2026-08-18'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The council's published minutes on the city's Legistar site; the vote matches Legistar's own vote record. Not yet archived on the Wayback Machine.
+- id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-6/candidates/art-fierro#R-02
+  record_type: vote
+  headline: Voted yes on the 2026 city property tax rate (2026)
+  result: Passed the City Council 6-2.
+  statement: 'As the City Representative for District 6, voted yes on item 29 (file 26-0928), AN ORDINANCE LEVYING FY2027 TAXES (Ordinance 019904) at the August 18, 2026 regular City Council meeting. The minutes record: "Motion duly made by Mayor Pro Tempore Chávez, seconded by Representative Canales, and carried that the property tax rate be increased by the adoption of the tax rate 0.798000 which is effectively a 6.76 percent increase in the tax rate" and "AYES: Representatives Chávez, Acevedo, Maldonado-Rocha, Niño, Fierro, and Canales; NAYS: Representatives Boyar Trejo and Limón".'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://elpasotexas.legistar.com/View.ashx?M=M&ID=1432683&GUID=8F63A059-4A37-45AD-9FE5-1364D140DDB4
+  source_title: City of El Paso, Regular City Council Meeting Minutes, August 18, 2026 (page 24)
+  source_kind: document
+  sha256: cb6d31b19f0334e1e8fd5ec00e676ab4dc27446fe8a71c4cf45d416e70d2e10d
+  archive_url: null
+  event_date: '2026-08-18'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The council's published minutes on the city's Legistar site; the vote matches Legistar's own vote record. Not yet archived on the Wayback Machine.
+- id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-6/candidates/art-fierro#R-03
+  record_type: vote
+  headline: Voted yes on the 2025-26 city budget (2025)
+  result: Passed the City Council 7-1.
+  statement: 'As the City Representative for District 6, voted yes on item 43 (file 25-996), FISCAL YEAR 2026 BUDGET RESOLUTION at the August 19, 2025 regular City Council meeting. The minutes record: "Motion made by Representative Canales, seconded by Representative Maldonado-Rocha, and unanimously carried to APPROVE the Resolution, AS AMENDED." and "AYES: Representatives Chávez, Acevedo, Maldonado-Rocha, Boyar Trejo, Niño, Fierro, and Canales; NAYS: Representative Limón".'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://elpasotexas.legistar.com/View.ashx?M=M&ID=1329118&GUID=17D10B04-5D9B-444A-9BA1-7CBD63E027EF
+  source_title: City of El Paso, Regular City Council Meeting Minutes, August 19, 2025 (page 65)
+  source_kind: document
+  sha256: 7faea628e616d68919d63e74f8d0475891bb63e6d26e203f323b7a8fadb08a8f
+  archive_url: null
+  event_date: '2025-08-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The council's published minutes on the city's Legistar site; the vote matches Legistar's own vote record. Not yet archived on the Wayback Machine.
+- id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-6/candidates/art-fierro#R-04
+  record_type: vote
+  headline: Voted yes on the 2025 city property tax rate (2025)
+  result: Passed the City Council 7-1.
+  statement: 'As the City Representative for District 6, voted yes on item 45 (file 25-1011), AN ORDINANCE LEVYING FY 2025 - 2026 TAXES (Ordinance 019769) at the August 19, 2025 regular City Council meeting. The minutes record: "Motion made by Mayor Pro Tempore Chávez, seconded by Representative Maldonado-Rocha, and carried that the property tax rate be increased by the adoption of a tax rate of 0.759649, which is effectively a 4.30 percent increase in the tax rate." and "AYES: Representatives Chávez, Acevedo, Maldonado-Rocha, Boyar Trejo, Niño, Fierro, and Canales; NAYS: Representative Limón".'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://elpasotexas.legistar.com/View.ashx?M=M&ID=1329118&GUID=17D10B04-5D9B-444A-9BA1-7CBD63E027EF
+  source_title: City of El Paso, Regular City Council Meeting Minutes, August 19, 2025 (page 66)
+  source_kind: document
+  sha256: 7faea628e616d68919d63e74f8d0475891bb63e6d26e203f323b7a8fadb08a8f
+  archive_url: null
+  event_date: '2025-08-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The council's published minutes on the city's Legistar site; the vote matches Legistar's own vote record. Not yet archived on the Wayback Machine.
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-6/candidates/art-fierro#O-01
+    headline: Public health outreach
+    statement: 'Campaign website: "Throughout his term as City Representative, he has invited the community to engage in meetings with local health organizations to spread awareness of these vital services."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://art4elpaso.com/
+    source_title: Re-elect Art Fierro for El Paso District 6 campaign website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

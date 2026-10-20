@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: shantrice-anderson
 name: Shantrice Anderson
-incumbent: null
+incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: wa/localities/city-of-seattle/elections/2026-11-03/municipal-court-position-6/candidates/shantrice-anderson#M-01
+  headline: Raised $25,827 and spent $11,525 (2026 election year, record updated Oct 13, 2026)
+  statement: 'The Public Disclosure Commission''s campaign finance summary for the 2026 election year lists, for Shantrice Anderson (municipal court judge, SEATTLE MUNICIPAL COURT, position 6), in the record last updated October 13, 2026: $25,827.31 in contributions, and $11,524.87 in expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://data.wa.gov/resource/3h9x-7bvm.json?$where=election_year%3D%272026%27%20AND%20filer_type%3D%27CA%27&$limit=50000
+  source_title: 'Washington Public Disclosure Commission: Campaign Finance Summary, 2026 candidates (data.wa.gov dataset 3h9x-7bvm)'
+  source_kind: document
+  sha256: f7946f6715074954e86bfc8c2fd0f42053f7b84619b12dc498db4ee5ca381870
+  archive_url: null
+  event_date: '2026-10-13'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/68272.'
 endorsements: []
 running_on:
   policy_proposals: []

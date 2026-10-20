@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: mary-esther-sorola
+name: Mary Esther Sorola
+incumbent: true
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/jp-precinct-2-place-3/candidates/mary-esther-sorola#M-01
+  headline: Raised $500 and had $8,993 on hand (Jul 1, 2026 - Oct 3, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Oct 3, 2026, received by Cameron County on Oct 5, 2026: $500.00 in total political contributions, $4,124.18 in total political expenditures, $8,993.12 in contributions on hand at the end of the period, and $4,580.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/fr/FINANCE%20REPORTS/2026/07%20October%2026/S-T/SOROLA%20MARY%20ESTHER.pdf
+  source_title: 'Cameron County: campaign finance report, Mrs Maria E. Sorola (nickname Mary Esther) (received Oct 5, 2026)'
+  source_kind: document
+  sha256: c6f329a330c65dee11fc12648baf2e1a59fa8cfeedf9cb2753e3291ab129277a
+  archive_url: null
+  event_date: '2026-10-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in Cameron County Elections Department''s campaign finance file tree (https://www.cameroncountytx.gov/elections/wp-content/fr/) as filed by "Mrs Maria E. Sorola (nickname Mary Esther)" (30th day before election); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Not yet archived on the Wayback Machine. Reading note: Office held and sought: Justice of the Peace Pct 2 Place 3. Form revision 8/17/2020.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

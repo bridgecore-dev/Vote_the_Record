@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: gabriella-m-reed
+name: Gabriella M. Reed
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/el-paso-county/elections/2026-11-03/probate-court-2/candidates/gabriella-m-reed#M-01
+  headline: Raised $2,550 and had $0 on hand (Feb 22, 2026 - Jul 15, 2026)
+  statement: 'Campaign finance report covering Feb 22, 2026 - Jul 15, 2026, filed with El Paso County on Jul 15, 2026: $2,550.00 in total political contributions, $31,068.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $60,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://apps.epcountytx.gov/campaignfinancereport/tmp/4205.pdf
+  source_title: 'El Paso County: campaign finance report, REED, GABRIELLA M (filed Jul 15, 2026)'
+  source_kind: document
+  sha256: 37e371a0064e345f759d08088a7265add51f13ccf385e614e8334c6fe48ed4ab
+  archive_url: null
+  event_date: '2026-07-15'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in El Paso County''s campaign finance report search (https://apps.epcountytx.gov/campaignfinancereport/) under filer "REED, GABRIELLA M" (Form JC/OH, July 15 semiannual); matched by name and office. This is the newest report listed for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Report page: https://apps.epcountytx.gov/campaignfinancereport/View.aspx?rpt=4115. Not yet archived on the Wayback Machine. Reading note: Handwritten; read from a 200-dpi crop. Box 11 election date written as 11/3/2024 and the unsworn declaration year as 2024; reproduced as written.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

@@ -1,0 +1,65 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: sam-armijo
+name: Sam Armijo
+incumbent: false
+ballot_party: null
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-1/candidates/sam-armijo#O-01
+    headline: Deck Plaza funding
+    statement: 'Campaign website: "I do not support using taxpayers’ dollars for a discretionary, multi-million-dollar project while we continue to face funding challenges involving our streets, public safety, and many other essential city services."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.samarmijo.com/
+    source_title: Sam Armijo for City Council campaign website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-1/candidates/sam-armijo#O-02
+    headline: I-10 widening plan
+    statement: 'Campaign website: "I oppose the 1.3-billion-dollar comprehensive plan to widen Interstate highway I-10."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.samarmijo.com/
+    source_title: Sam Armijo for City Council campaign website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-1/candidates/sam-armijo#O-03
+    headline: Public safety budget
+    statement: 'Campaign website: "I support directing city resources toward police, fire protection, emergency response, and crime prevention before spending taxpayer dollars on non-essential projects."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.samarmijo.com/
+    source_title: Sam Armijo for City Council campaign website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

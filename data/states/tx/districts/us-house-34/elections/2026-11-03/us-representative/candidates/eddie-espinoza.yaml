@@ -1,0 +1,82 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: eddie-espinoza
+name: Eddie Espinoza
+incumbent: false
+ballot_party: GRN
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/us-house-34/elections/2026-11-03/us-representative/candidates/eddie-espinoza#O-01
+    headline: Health coverage
+    statement: 'Campaign website: "Improve and expand Medicare for All, with no co-pays or premiums, including free vision care, hearing aids, dental, and prescriptions."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://espinoza4tx.com/priorities/
+    source_title: Priorities – Espinoza For Congress
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-34/elections/2026-11-03/us-representative/candidates/eddie-espinoza#O-02
+    headline: Gas exports
+    statement: 'Campaign website: "Ban LNG exports, which pollute locally and globally."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://espinoza4tx.com/priorities/
+    source_title: Priorities – Espinoza For Congress
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-34/elections/2026-11-03/us-representative/candidates/eddie-espinoza#O-03
+    headline: Oil and gas cleanup
+    statement: 'Campaign website: "Mandate the fossil fuel industry clean up their toxic environmental messes, including addressing flaring, produced water and abandoned wells."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://espinoza4tx.com/priorities/
+    source_title: Priorities – Espinoza For Congress
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-34/elections/2026-11-03/us-representative/candidates/eddie-espinoza#O-04
+    headline: Military spending
+    statement: 'Campaign website: "Stop wasting money on forever wars, instead invest in our people: end the American Empire, and cut military spending in half."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://espinoza4tx.com/priorities/
+    source_title: Priorities – Espinoza For Congress
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

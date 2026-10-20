@@ -1,0 +1,65 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: ryan-tsamouris
+name: Ryan Tsamouris
+incumbent: false
+ballot_party: null
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/conroe-isd/elections/2026-11-03/trustee-position-1/candidates/ryan-tsamouris#O-01
+    headline: District tax rate
+    statement: 'Campaign website: "Recommit to fiscal conservatism by consistently adopting a parity or lower tax rate whenever possible, so taxpayers do not pay more than necessary to operate our schools effectively."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ryanforcisd.com/
+    source_title: Ryan Tsamouris for Conroe ISD School Board
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/conroe-isd/elections/2026-11-03/trustee-position-1/candidates/ryan-tsamouris#O-02
+    headline: Closed board sessions
+    statement: 'Campaign website: "Restore accountability by ensuring executive sessions are used only when legally required and that the public has access to all information they are entitled to as taxpayers."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ryanforcisd.com/
+    source_title: Ryan Tsamouris for Conroe ISD School Board
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/conroe-isd/elections/2026-11-03/trustee-position-1/candidates/ryan-tsamouris#O-03
+    headline: Student behavior and discipline
+    statement: 'Campaign website: "Prioritize improvements to student behavior and discipline practices by setting clear expectations and ensuring consistent, fair enforcement, so teachers can teach and students can learn in a positive school environment."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ryanforcisd.com/
+    source_title: Ryan Tsamouris for Conroe ISD School Board
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

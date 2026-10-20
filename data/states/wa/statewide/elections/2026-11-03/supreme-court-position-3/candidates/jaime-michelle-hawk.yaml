@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: jaime-michelle-hawk
 name: Jaime Michelle Hawk
-incumbent: null
+incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: wa/statewide/elections/2026-11-03/supreme-court-position-3/candidates/jaime-michelle-hawk#M-01
+  headline: Raised $336,703 and spent $312,739 (2026 election year, record updated Oct 16, 2026)
+  statement: 'The Public Disclosure Commission''s campaign finance summary for the 2026 election year lists, for Jaime Hawk (Jaime Michelle Hawk) (state supreme court justice, SUPREME COURT, position 3), in the record last updated October 16, 2026: $336,702.91 in contributions, and $312,739.15 in expenditures. It also lists $26,287.24 in independent expenditures by others supporting the candidate and $0.00 opposing the candidate.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://data.wa.gov/resource/3h9x-7bvm.json?$where=election_year%3D%272026%27%20AND%20filer_type%3D%27CA%27&$limit=50000
+  source_title: 'Washington Public Disclosure Commission: Campaign Finance Summary, 2026 candidates (data.wa.gov dataset 3h9x-7bvm)'
+  source_kind: document
+  sha256: f7946f6715074954e86bfc8c2fd0f42053f7b84619b12dc498db4ee5ca381870
+  archive_url: null
+  event_date: '2026-10-16'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/68792.'
 endorsements: []
 running_on:
   policy_proposals: []

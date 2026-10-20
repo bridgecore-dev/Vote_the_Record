@@ -1,0 +1,99 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: jonathan-campos
+name: Jonathan Campos
+incumbent: false
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/commissioner-precinct-2/candidates/jonathan-campos#M-01
+  headline: Raised $5,040 and had $1,425 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, received by Cameron County on Oct 5, 2026: $5,040.00 in total political contributions, $3,801.05 in total political expenditures, $1,424.54 in contributions on hand at the end of the period, and $2,050.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/fr/FINANCE%20REPORTS/2026/07%20October%2026/C-D/CAMPOS%20JONATHAN.pdf
+  source_title: 'Cameron County: campaign finance report, Mr. Jonathan R. Campos (received Oct 5, 2026)'
+  source_kind: document
+  sha256: 4cecc84ce59fa4d3a13b187f89be3a4ebd054c766f207606c6b76abc7abb85a8
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in Cameron County Elections Department''s campaign finance file tree (https://www.cameroncountytx.gov/elections/wp-content/fr/) as filed by "Mr. Jonathan R. Campos" (30th day before election); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Not yet archived on the Wayback Machine. Reading note: Box 14 lists a notice from a general-purpose political committee (Project Red TX, Austin). Office sought: Cameron County Commissioner PCT 2.'
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/cameron-county/elections/2026-11-03/commissioner-precinct-2/candidates/jonathan-campos#O-01
+    headline: Building permits
+    statement: 'Campaign website: "Streamline the building permit process: Cut the red tape and create a more efficient, transparent building permit process that works for everyone so businesses and residents can build quickly and efficiently."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.camposforcameron.com/objectives
+    source_title: Objectives — Jonathan for Cameron County Commissioner, Pct. 2
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/cameron-county/elections/2026-11-03/commissioner-precinct-2/candidates/jonathan-campos#O-02
+    headline: Roads and utilities
+    statement: 'Campaign website: "Improving Infrastructure: With new businesses and developments coming to Cameron County, we need to stay ahead—investing in better roads, utilities, and smart growth planning."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.camposforcameron.com/objectives
+    source_title: Objectives — Jonathan for Cameron County Commissioner, Pct. 2
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/cameron-county/elections/2026-11-03/commissioner-precinct-2/candidates/jonathan-campos#O-03
+    headline: Deputies and first responders
+    statement: 'Campaign website: "He’ll work to ensure our deputies and first responders have the resources, training, pay, and community respect they deserve."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.camposforcameron.com/objectives
+    source_title: Objectives — Jonathan for Cameron County Commissioner, Pct. 2
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/cameron-county/elections/2026-11-03/commissioner-precinct-2/candidates/jonathan-campos#O-04
+    headline: Ranching pests
+    statement: 'Campaign website: "Protecting Local Agriculture: Preventing threats like the screw worm from devastating ranchers and their livelihoods."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.camposforcameron.com/objectives
+    source_title: Objectives — Jonathan for Cameron County Commissioner, Pct. 2
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

@@ -1,0 +1,40 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Justice of the Peace, Precinct 2
+office_type: justice-of-the-peace
+election_date: '2026-11-03'
+detail: basic
+area: bell-county/jp-2
+sources:
+- id: tx/localities/bell-county/elections/2026-11-03/jp-precinct-2/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Bell County Elections Department''s sample ballot for the November 3, 2026 general and special elections lists "Justice of the Peace, Precinct No. 2" on page 2, with these candidates: Michael Tice (REP).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_107BISD.pdf?t=202609171557140
+  source_title: 'Bell County Elections Department: Sample Ballot, ballot style 107BISD, November 3, 2026 General Election, Bell County, Texas (page 2)'
+  source_kind: document
+  sha256: 0462947e8f0efcd5f826eec0085cc0df1822107037bfac7926c25d7e1d1fb6a2
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.
+- id: tx/localities/bell-county/elections/2026-11-03/jp-precinct-2/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Bell County, TX), checked on October 20, 2026, shows that Michael Tice, a candidate in this race, currently holds this office. It reads: "Justice of the Peace, Precinct 2 Judge - Michael Tice"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/county_government/justice_of_the_peace/precinct_2/index.php
+  source_title: Bell County, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null

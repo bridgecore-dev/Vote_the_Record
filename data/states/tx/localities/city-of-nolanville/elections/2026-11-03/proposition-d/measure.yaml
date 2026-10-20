@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: City of Nolanville, Proposition D
+election_date: '2026-11-03'
+kind: charter-amendment
+ballot_text: 'Shall Section 3.08 - Vacancies; Forfeiture of Office; Filling of Vacancies of the Nolanville Charter be amended to clarify the process for determining whether three consecutive absences from regular City Council meetings are excused or unexcused prior to any forfeiture of office? If approved, the sections will read: SECTION 3.08 - Vacancies; Forfeiture of Office; Filling of Vacancies Fails to attend three consecutive regular meetings of the Council. Upon such occurrence, the matter shall be presented to the Council, which may, at its discretion, determine whether the absences are excused or unexcused and take appropriate action, including forfeiture of office.'
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/city-of-nolanville/elections/2026-11-03/proposition-d/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Bell County Elections Department''s sample ballot for the November 3, 2026 general and special elections prints "City of Nolanville, Proposition D" on page 3 with the choices FOR and AGAINST and this English wording: "Shall Section 3.08 - Vacancies; Forfeiture of Office; Filling of Vacancies of the Nolanville Charter be amended to clarify the process for determining whether three consecutive absences from regular City Council meetings are excused or unexcused prior to any forfeiture of office? If approved, the sections will read: SECTION 3.08 - Vacancies; Forfeiture of Office; Filling of Vacancies Fails to attend three consecutive regular meetings of the Council. Upon such occurrence, the matter shall be presented to the Council, which may, at its discretion, determine whether the absences are excused or unexcused and take appropriate action, including forfeiture of office."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_114NOL.pdf?t=202609171615130
+  source_title: 'Bell County Elections Department: Sample Ballot, ballot style 114NOL, November 3, 2026 General Election, Bell County, Texas (page 3)'
+  source_kind: document
+  sha256: 40d3181693629c5e0caf32fd5d479cf47e5ce9c5c33f32369a411b72e3a6bc1f
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.

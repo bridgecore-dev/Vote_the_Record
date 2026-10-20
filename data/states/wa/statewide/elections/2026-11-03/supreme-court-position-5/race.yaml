@@ -22,3 +22,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's sample ballot, which says it "contains all races and measures in King County." Names and wording are from the PDF's text layer, kept as printed. Candidates for partisan office are listed with the party preference printed under their names.
+- id: wa/statewide/elections/2026-11-03/supreme-court-position-5/race#S-HOLDER
+  headline: Who holds this office now
+  statement: Official results for the November 8, 2022 general election (Washington Secretary of State) show Barbara Madsen won Supreme Court Justice Position 5. A Washington State Courts press release of May 15, 2026 says Theodore J. Angelis was "appointed to the Court by Governor Bob Ferguson to fill the remaining term of Justice Barbara Madsen, who retired in April." The court's justices page, checked on October 18, 2026, lists Justice Angelis. On that basis, Theodore J. (Theo) Angelis, a candidate in this race, is shown here as the current holder.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.courts.wa.gov/newsinfo/?fa=newsinfo.pressdetail&newsid=54979
+  source_title: 'Washington State Courts: press release, May 15, 2026'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-18'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The 2022 result: https://results.vote.wa.gov/results/20221108/SUPREME-COURT-Justice-Position-05.html. The justices page: https://www.courts.wa.gov/appellate_trial_courts/SupremeCourt/?fa=supremecourt.justices.'

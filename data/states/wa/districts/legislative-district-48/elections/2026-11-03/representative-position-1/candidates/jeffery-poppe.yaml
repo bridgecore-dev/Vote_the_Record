@@ -1,13 +1,64 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: jeffery-poppe
 name: Jeffery Poppe
-incumbent: null
+incumbent: false
 ballot_party: Prefers Republican Party
 records: []
-funding: []
+funding:
+- id: wa/districts/legislative-district-48/elections/2026-11-03/representative-position-1/candidates/jeffery-poppe#M-01
+  headline: Raised $960 and spent $629 (2026 election year, record updated Oct 14, 2026)
+  statement: 'The Public Disclosure Commission''s campaign finance summary for the 2026 election year lists, for Jeffery Lee Poppe (Jeffery Poppe) (state representative, LEG DISTRICT 48 - HOUSE, position 1), in the record last updated October 14, 2026: $959.70 in contributions, and $629.26 in expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://data.wa.gov/resource/3h9x-7bvm.json?$where=election_year%3D%272026%27%20AND%20filer_type%3D%27CA%27&$limit=50000
+  source_title: 'Washington Public Disclosure Commission: Campaign Finance Summary, 2026 candidates (data.wa.gov dataset 3h9x-7bvm)'
+  source_kind: document
+  sha256: f7946f6715074954e86bfc8c2fd0f42053f7b84619b12dc498db4ee5ca381870
+  archive_url: null
+  event_date: '2026-10-14'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/69553.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-48/elections/2026-11-03/representative-position-1/candidates/jeffery-poppe#O-01
+    headline: Fraud audits of state spending
+    statement: 'Campaign website: "I will spearhead fraud audits to stop the squandering of your money and push to make our government truly effective and efficient."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://poppe4wa.org/
+    source_title: Jeff Poppe for State Representative — 48th LD
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-48/elections/2026-11-03/representative-position-1/candidates/jeffery-poppe#O-02
+    headline: Publish state spending and performance data
+    statement: 'Campaign website: "I will make state spending and performance metrics open and transparent, so you can see exactly where your tax dollars go."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://poppe4wa.org/
+    source_title: Jeff Poppe for State Representative — 48th LD
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

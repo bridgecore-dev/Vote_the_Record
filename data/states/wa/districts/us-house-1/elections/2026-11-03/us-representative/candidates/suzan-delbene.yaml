@@ -1,13 +1,81 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: suzan-delbene
 name: Suzan DelBene
-incumbent: null
+incumbent: true
 ballot_party: Prefers Democratic Party
 records: []
-funding: []
+funding:
+- id: wa/districts/us-house-1/elections/2026-11-03/us-representative/candidates/suzan-delbene#M-01
+  headline: Raised $4,130,101 and had $963,271 on hand (2025-26 cycle through Sep 30, 2026)
+  statement: 'The FEC''s all-candidates summary for the 2025-2026 cycle lists, for DELBENE, SUZAN K (candidate ID H0WA08046), through September 30, 2026: $4,130,100.81 in total receipts, $2,086,604.65 of it from individuals, $1,726,955.67 from other political committees, $4,230,550.68 in total disbursements, $963,270.74 cash on hand at the end of the period, and $495,000.00 in debts owed by the campaign. The totals include $299,188.00 in transfers from and $0.00 in transfers to the candidate''s other authorized committees, which the FEC says can count the same money twice.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.fec.gov/files/bulk-downloads/2026/weball26.zip
+  source_title: 'Federal Election Commission: All candidates file, 2025-2026 (weball26.zip)'
+  source_kind: document
+  sha256: 07a96a3594f512fec56947d0c6d3c4155277772fa1ea0f5b6867af9110a1d6ab
+  archive_url: null
+  event_date: '2026-09-30'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From weball26.txt in the FEC''s bulk data, downloaded 2026-10-18 (sha256 is of the zip file); columns as described at https://www.fec.gov/campaign-finance-data/all-candidates-file-description/. The totals are cumulative for the cycle as reported by the campaign. Matched by last name and district (first name too when two filers share a last name). The candidate''s FEC page: https://www.fec.gov/data/candidate/H0WA08046/. The bulk file is updated as new reports arrive.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/us-house-1/elections/2026-11-03/us-representative/candidates/suzan-delbene#O-01
+    headline: Public and private health coverage options
+    statement: 'Campaign website: "I support getting America to universal quality coverage and the best way to incentivize competition is to give people a choice between public and private coverage options."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://delbeneforcongress.com/issues/
+    source_title: Issues - Delbene For Congress
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/us-house-1/elections/2026-11-03/us-representative/candidates/suzan-delbene#O-02
+    headline: Comprehensive immigration reform and limits on ICE
+    statement: 'Campaign website: "We must pass comprehensive immigration reform which I have championed since being sworn in to Congress and we need legal guardrails to prevent ICE from committing violence and terrorizing our communities."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://delbeneforcongress.com/issues/
+    source_title: Issues - Delbene For Congress
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/us-house-1/elections/2026-11-03/us-representative/candidates/suzan-delbene#O-03
+    headline: Community policing and crime diversion
+    statement: 'Campaign website: "I support investing in proven community policing and crime diversion programs to keep our streets, homes, and communities safe."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://delbeneforcongress.com/issues/
+    source_title: Issues - Delbene For Congress
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

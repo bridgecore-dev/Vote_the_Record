@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: paul-l-lepak
+name: Paul L. LePak
+incumbent: true
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/bell-county/elections/2026-11-03/district-court-264/candidates/paul-l-lepak#M-01
+  headline: Raised $1,500 and had $2,524 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 14, 2026: $1,500.00 in total political contributions, $2,523.77 in contributions on hand at the end of the period, and $1,500.00 in outstanding loans. The report data lists no amount for total political expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101037659.PDF
+  source_title: 'Texas Ethics Commission: LePak, Paul L. (The Honorable), campaign finance report 101037659 (filed Jul 14, 2026)'
+  source_kind: document
+  sha256: c92549d18c2dfc1b79c5f55e4b17ae7008d787fd6b3640c4d793346dc18e2a1c
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101037659, form JCOH, TEC report type SEMIJUL; filer ID 00067544 (LePak, Paul L. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-20; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

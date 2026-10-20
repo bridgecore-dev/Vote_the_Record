@@ -1,0 +1,65 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: gary-granger
+name: Gary Granger
+incumbent: false
+ballot_party: null
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/willis-isd/elections/2026-11-03/trustee-position-3/candidates/gary-granger#O-01
+    headline: Teacher and staff pay
+    statement: 'Campaign website: "Advocate for competitive teacher and staff compensation at every budget cycle"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.garygranger.org/en/issues
+    source_title: Issues & Positions – Gary Granger for WISD School Board
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/willis-isd/elections/2026-11-03/trustee-position-3/candidates/gary-granger#O-02
+    headline: Facility and enrollment planning
+    statement: 'Campaign website: "Develop and publish a multi-year facility and enrollment plan"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.garygranger.org/en/issues
+    source_title: Issues & Positions – Gary Granger for WISD School Board
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/willis-isd/elections/2026-11-03/trustee-position-3/candidates/gary-granger#O-03
+    headline: Campus improvement targets
+    statement: 'Campaign website: "Set specific, public improvement targets for each campus"'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.garygranger.org/en/issues
+    source_title: Issues & Positions – Gary Granger for WISD School Board
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: esteban-steve-rodriguez
+name: Esteban "Steve" Rodriguez
+incumbent: false
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/jp-precinct-3-place-1/candidates/esteban-steve-rodriguez#M-01
+  headline: Raised $1,000 and had $0 on hand (Jul 15, 2026 - Oct 4, 2026)
+  statement: 'Campaign finance report covering Jul 15, 2026 - Oct 4, 2026, received by Cameron County on Oct 5, 2026: $1,000.00 in total political contributions, $0.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $897.77 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/fr/FINANCE%20REPORTS/2026/07%20October%2026/Q-R/RODRIGUEZ%20ESTEBAN.pdf
+  source_title: 'Cameron County: campaign finance report, Mr. ESTEBAN (nickname STEVE) RODRIGUEZ (received Oct 5, 2026)'
+  source_kind: document
+  sha256: 7040c9b4c219422ae23e04e796e003e2b8bd3954003780d247cb5d30c3b964aa
+  archive_url: null
+  event_date: '2026-10-04'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in Cameron County Elections Department''s campaign finance file tree (https://www.cameroncountytx.gov/elections/wp-content/fr/) as filed by "Mr. ESTEBAN (nickname STEVE) RODRIGUEZ" (30th day before election); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Not yet archived on the Wayback Machine. Reading note: Line 3 (unitemized expenditures) shows 1,000.00 while line 4 (total expenditures) shows 0.00, as printed. Office held/sought left blank.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

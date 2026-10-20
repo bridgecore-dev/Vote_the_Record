@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: benito-bo-ochoa
+name: Benito "BO" Ochoa
+incumbent: null
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/jp-precinct-1/candidates/benito-bo-ochoa#M-01
+  headline: Raised $8,104 and had $6,559 on hand (Jul 1, 2026 - Oct 4, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Oct 4, 2026, received by Cameron County on Oct 5, 2026: $8,104.00 in total political contributions, $6,199.04 in total political expenditures, and $6,559.30 in contributions on hand at the end of the period. Left out: outstanding loans (blank or not legible on the scanned report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/fr/FINANCE%20REPORTS/2026/07%20October%2026/O-P/OCHOA%20IV%20BENITO.pdf
+  source_title: 'Cameron County: campaign finance report, Benito Ochoa IV (received Oct 5, 2026)'
+  source_kind: document
+  sha256: 550e87323f1bf913285ddcfd0cc1170c03598ebbc7a03f2d56b33140947c999c
+  archive_url: null
+  event_date: '2026-10-04'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in Cameron County Elections Department''s campaign finance file tree (https://www.cameroncountytx.gov/elections/wp-content/fr/) as filed by "Benito Ochoa IV" (30th day before election); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Not yet archived on the Wayback Machine. The report is filed under the name "Benito Ochoa IV", which differs from the ballot name; it was matched by office and election. The owner should confirm this is the same person. Reading note: Cash-on-hand box has a struck-over character before 6,559.30. Office held: Justice of Peace Pct 1-1.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

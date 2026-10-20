@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: juan-mendoza
+name: Juan Mendoza
+incumbent: null
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/jp-precinct-4/candidates/juan-mendoza#M-01
+  headline: Raised $200 (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, received by Cameron County on Jul 15, 2026: $200.00 in total political contributions, $4,212.15 in total political expenditures, and $0.00 in outstanding loans. The cash-on-hand box holds a handwritten calculation ("2,674.70" prior, then a negative new balance with one digit not legible).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/fr/FINANCE%20REPORTS/2026/06%20July%2015/M-N/MENDOZA%20JUAN.pdf
+  source_title: 'Cameron County: campaign finance report, Juan Mendoza (received Jul 15, 2026)'
+  source_kind: document
+  sha256: 809139cfd1839ce5546ae91938190889a4b701cd16d6741a8bf80ff3bc026074
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in Cameron County Elections Department''s campaign finance file tree (https://www.cameroncountytx.gov/elections/wp-content/fr/) as filed by "Juan Mendoza" (July 15 (semiannual)); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Not yet archived on the Wayback Machine. Reading note: Cash-on-hand box has handwritten ''2,674.70 (prior)'' and ''negative 1,53?.49 = (new bal)''; one digit illegible. Election date left blank. Office held/sought: Justice of the Peace Pct 4. No 30-day-before report posted for this filer as of retrieval.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

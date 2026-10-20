@@ -1,0 +1,82 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: joseph-l-lucio
+name: Joseph L. Lucio
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/commissioner-precinct-2/candidates/joseph-l-lucio#M-01
+  headline: Raised $27,003 and had $24,175 on hand (Jul 16, 2026 - Oct 2, 2026)
+  statement: 'Campaign finance report covering Jul 16, 2026 - Oct 2, 2026, received by Cameron County on Oct 2, 2026: $27,003.48 in total political contributions, $1,934.87 in total political expenditures, and $24,174.56 in contributions on hand at the end of the period. Left out: outstanding loans (blank or not legible on the scanned report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/fr/FINANCE%20REPORTS/2026/07%20October%2026/K-L/LUCIO%20JOSEPH%20L.pdf
+  source_title: 'Cameron County: campaign finance report, Mr Joseph L Lucio (received Oct 2, 2026)'
+  source_kind: document
+  sha256: 2e316c53c9352b8180ecc27539b1195323c5e751d377df1230cf248a347eb621
+  archive_url: null
+  event_date: '2026-10-02'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in Cameron County Elections Department''s campaign finance file tree (https://www.cameroncountytx.gov/elections/wp-content/fr/) as filed by "Mr Joseph L Lucio" (30th day before election); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Not yet archived on the Wayback Machine. Reading note: Office sought: County Commissioner Pct 2.'
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/cameron-county/elections/2026-11-03/commissioner-precinct-2/candidates/joseph-l-lucio#O-01
+    headline: Road spending report
+    statement: 'Campaign website: "I will publish an annual Precinct 2 Infrastructure Report Card so every resident can track where money is going, what projects are underway, and what progress is being made."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.josephlucio.com/about
+    source_title: About | Joseph Lucio for Cameron County PCT 2
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/cameron-county/elections/2026-11-03/commissioner-precinct-2/candidates/joseph-l-lucio#O-02
+    headline: County staff pay
+    statement: 'Campaign website: "I will push for fair raises, clear career ladders, and a minimum salary threshold so that every employee can support their family with dignity."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.josephlucio.com/about
+    source_title: About | Joseph Lucio for Cameron County PCT 2
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/cameron-county/elections/2026-11-03/commissioner-precinct-2/candidates/joseph-l-lucio#O-03
+    headline: County spending
+    statement: 'Campaign website: "I will ensure spending focuses on core needs like roads, public safety, and essential services, not wasteful or self-serving projects."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.josephlucio.com/about
+    source_title: About | Joseph Lucio for Cameron County PCT 2
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

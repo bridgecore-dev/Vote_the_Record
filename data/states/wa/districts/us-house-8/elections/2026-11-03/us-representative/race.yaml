@@ -2,7 +2,6 @@
 name: U.S. Representative, District 8
 office_type: us-representative
 election_date: '2026-11-03'
-detail: basic
 sources:
 - id: wa/districts/us-house-8/elections/2026-11-03/us-representative/race#S-01
   headline: Candidates as printed on the sample ballot
@@ -21,3 +20,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's sample ballot, which says it "contains all races and measures in King County." Names and wording are from the PDF's text layer, kept as printed. Candidates for partisan office are listed with the party preference printed under their names.
+- id: wa/districts/us-house-8/elections/2026-11-03/us-representative/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official list (Office of the Clerk, U.S. House of Representatives: Member Data (XML)), checked on October 18, 2026, shows that Kim Schrier, a candidate in this race, currently holds this office. It lists Kim Schrier for WA08. It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://clerk.house.gov/xml/lists/MemberData.xml
+  source_title: 'Office of the Clerk, U.S. House of Representatives: Member Data (XML)'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-18'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null

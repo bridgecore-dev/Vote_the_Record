@@ -1,13 +1,81 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: mary-anito
 name: Mary Anito
-incumbent: null
+incumbent: false
 ballot_party: Prefers Democratic Party
 records: []
-funding: []
+funding:
+- id: wa/districts/legislative-district-34/elections/2026-11-03/representative-position-2/candidates/mary-anito#M-01
+  headline: Raised $10,865 and spent $9,953 (2026 election year, record updated Oct 13, 2026)
+  statement: 'The Public Disclosure Commission''s campaign finance summary for the 2026 election year lists, for Mary Anito (state representative, LEG DISTRICT 34 - HOUSE, position 2), in the record last updated October 13, 2026: $10,865.32 in contributions, $3,336.32 in loans, and $9,952.74 in expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://data.wa.gov/resource/3h9x-7bvm.json?$where=election_year%3D%272026%27%20AND%20filer_type%3D%27CA%27&$limit=50000
+  source_title: 'Washington Public Disclosure Commission: Campaign Finance Summary, 2026 candidates (data.wa.gov dataset 3h9x-7bvm)'
+  source_kind: document
+  sha256: f7946f6715074954e86bfc8c2fd0f42053f7b84619b12dc498db4ee5ca381870
+  archive_url: null
+  event_date: '2026-10-13'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/69937.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-34/elections/2026-11-03/representative-position-2/candidates/mary-anito#O-01
+    headline: School levy and equalization fix
+    statement: 'Campaign website: "She''ll fix the levy and equalization structure so districts aren''t forced to run local elections just to keep the lights on, and she''ll invest in educator recruitment and retention so every classroom has a qualified teacher in it."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.maryforwa.com/
+    source_title: Mary for Washington | 34th
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-34/elections/2026-11-03/representative-position-2/candidates/mary-anito#O-02
+    headline: Housing supply, retrofits, and eviction prevention
+    statement: 'Campaign website: "Her playbook: expand supply, retrofit existing homes for energy efficiency, prevent evictions before they happen, and use a centralized data dashboard to track progress and cut what isn''t working."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.maryforwa.com/
+    source_title: Mary for Washington | 34th
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-34/elections/2026-11-03/representative-position-2/candidates/mary-anito#O-03
+    headline: Streamline small business licensing
+    statement: 'Campaign website: "Her fix: streamline licensing, cut unnecessary barriers, and expand access to funding - without sacrificing worker or consumer protections."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.maryforwa.com/
+    source_title: Mary for Washington | 34th
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

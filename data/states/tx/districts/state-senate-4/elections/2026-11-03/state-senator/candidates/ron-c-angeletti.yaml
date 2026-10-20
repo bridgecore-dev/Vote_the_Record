@@ -40,6 +40,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101060837, form COH, TEC report type SEMIJUL; filer ID 00090324 (Angeletti, Ron C. (Mr.)). Found in TEC's bulk campaign finance data (https://www.ethics.state.tx.us/data/search/cf/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-09-30; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-senate-4/elections/2026-11-03/state-senator/candidates/ron-c-angeletti#M-02
+  headline: Raised $825 and had $1,348 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 8, 2026: $825.47 in total political contributions, $4,395.72 in total political expenditures, $1,347.76 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069350.PDF
+  source_title: 'Texas Ethics Commission: Angeletti, Ron C. (Mr.), campaign finance report 101069350 (filed Oct 8, 2026)'
+  source_kind: document
+  sha256: a251f1f50ac97702f7b858b21409e8accb7b29e6537bf83dbdbaaf6f838bb587
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101069350, form COH, TEC report type E30DAYBEF; filer ID 00090324 (Angeletti, Ron C. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-19; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals:

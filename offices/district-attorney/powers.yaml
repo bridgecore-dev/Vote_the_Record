@@ -1,0 +1,3 @@
+office_type: district-attorney
+level: county
+powers: []   # state powers: data/states/<st>/office-overrides/district-attorney.yaml

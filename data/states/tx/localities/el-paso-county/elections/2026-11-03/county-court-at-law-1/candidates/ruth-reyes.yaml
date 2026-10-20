@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: ruth-reyes
+name: Ruth Reyes
+incumbent: true
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/el-paso-county/elections/2026-11-03/county-court-at-law-1/candidates/ruth-reyes#M-01
+  headline: Raised $0 and had $203 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, filed with El Paso County on Jul 10, 2026: $0.00 in total political contributions, $0.00 in total political expenditures, $203.46 in contributions on hand at the end of the period, and $126,060.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://apps.epcountytx.gov/campaignfinancereport/tmp/4185.pdf
+  source_title: 'El Paso County: campaign finance report, REYES, RUTH (filed Jul 10, 2026)'
+  source_kind: document
+  sha256: 4a57d7b7ef94ec0b364d2fa549c0059d6a77383c79263ca8de22c01a10782e40
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in El Paso County''s campaign finance report search (https://apps.epcountytx.gov/campaignfinancereport/) under filer "REYES, RUTH" (Form JC/OH, July 15 semiannual); matched by name and office. This is the newest report listed for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Report page: https://apps.epcountytx.gov/campaignfinancereport/View.aspx?rpt=4095. Not yet archived on the Wayback Machine. Reading note: Typed. Latest report in system; no 30-day-before-general report listed as of 2026-10-20.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

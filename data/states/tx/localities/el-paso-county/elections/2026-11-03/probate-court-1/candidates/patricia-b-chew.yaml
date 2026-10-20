@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: patricia-b-chew
+name: Patricia B. Chew
+incumbent: true
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/el-paso-county/elections/2026-11-03/probate-court-1/candidates/patricia-b-chew#M-01
+  headline: Raised $0 and had $0 on hand (Jul 1, 2019 - Dec 31, 2019)
+  statement: 'Campaign finance report covering Jul 1, 2019 - Dec 31, 2019, filed with El Paso County on Jan 13, 2020: $0.00 in total political contributions, $0.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $34,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://apps.epcountytx.gov/campaignfinancereport/tmp/3083.pdf
+  source_title: 'El Paso County: campaign finance report, CHEW, PATRICIA B (filed Jan 13, 2020)'
+  source_kind: document
+  sha256: b32edb4d3ca592e598d6373faee01c6a5ded2a2998712f9d95a36917cd19eaa0
+  archive_url: null
+  event_date: '2019-12-31'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in El Paso County''s campaign finance report search (https://apps.epcountytx.gov/campaignfinancereport/) under filer "CHEW, PATRICIA B" (Form JC/OH, January 15 semiannual (2020)); matched by name and office. This is the newest report listed for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Report page: https://apps.epcountytx.gov/campaignfinancereport/View.aspx?rpt=3012. Not yet archived on the Wayback Machine. Reading note: Old report: the most recent one in the county system for this filer is from January 2020. Candidate search lists years 2009-2020 only, and an Office search for ''JUDGE, COUNTY PROBATE COURT NO. 1'' lists no year after 2020. No 2021-2026 report found.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

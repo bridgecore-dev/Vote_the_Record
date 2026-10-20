@@ -1,0 +1,65 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: destinee-milton
+name: Destinee Milton
+incumbent: false
+ballot_party: null
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/conroe-isd/elections/2026-11-03/trustee-position-2/candidates/destinee-milton#O-01
+    headline: Closed board sessions
+    statement: 'Campaign website: "To ensure transparency for our community I will ensure that "behind-closed-doors" sessions are only used when absolutely necessary by law."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://destineeforcisd.poliengine.com/values
+    source_title: Issues — Destinee for CISD (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/conroe-isd/elections/2026-11-03/trustee-position-2/candidates/destinee-milton#O-02
+    headline: Legal and outside contracts
+    statement: 'Campaign website: "I will review our legal representation and external contracts to ensure we are getting the best price for our district."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://destineeforcisd.poliengine.com/values
+    source_title: Issues — Destinee for CISD (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/conroe-isd/elections/2026-11-03/trustee-position-2/candidates/destinee-milton#O-03
+    headline: Library consent form
+    statement: 'Campaign website: "This includes a simple annual consent form where parents can easily set individual preferences for what their own child can check out from the library."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://destineeforcisd.poliengine.com/values
+    source_title: Issues — Destinee for CISD (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

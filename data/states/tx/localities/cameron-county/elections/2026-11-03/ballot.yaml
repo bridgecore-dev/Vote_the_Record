@@ -1,0 +1,112 @@
+# Contests on this ballot, in ballot order. complete: false until every contest is added.
+name: Cameron County ballot
+election_date: '2026-11-03'
+lookup_url: https://www.cameroncountytx.gov/elections/index.php/sample-ballots-2/
+complete: true
+unmapped:
+- san-benito-mud-1
+sources:
+- id: tx/localities/cameron-county/elections/2026-11-03/ballot#S-01
+  headline: Every contest on the sample ballot
+  statement: The Cameron County Elections Department's sample ballot for the November 3, 2026 general and special elections lists every contest on this ballot.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/09/26GCAMER_SAMPLE.pdf
+  source_title: 'Cameron County Elections Department: Sample Ballot, November 3, 2026 General and Special Elections, Cameron County, Texas (all ballots)'
+  source_kind: document
+  sha256: d68a292fb6f1f0ea761af3a4456512dcc6d960f438fedc6d182d4c0d491721a4
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The county''s "All ballots for the November 3, 2026 General and Special Elections Sample Ballot" (https://www.cameroncountytx.gov/elections/index.php/sample-ballots-2/): every ballot style (142) in one PDF. Names and wording are from the PDF''s text layer, kept as printed (English text only); the page cited is the first style that carries the contest.'
+contests:
+- tx/statewide/elections/2026-11-03/us-senate
+- tx/districts/us-house-34/elections/2026-11-03/us-representative
+- tx/statewide/elections/2026-11-03/governor
+- tx/statewide/elections/2026-11-03/lieutenant-governor
+- tx/statewide/elections/2026-11-03/attorney-general
+- tx/statewide/elections/2026-11-03/comptroller
+- tx/statewide/elections/2026-11-03/land-commissioner
+- tx/statewide/elections/2026-11-03/agriculture-commissioner
+- tx/statewide/elections/2026-11-03/railroad-commissioner
+- tx/statewide/elections/2026-11-03/supreme-court-chief-justice
+- tx/statewide/elections/2026-11-03/supreme-court-place-2
+- tx/statewide/elections/2026-11-03/supreme-court-place-7
+- tx/statewide/elections/2026-11-03/supreme-court-place-8
+- tx/statewide/elections/2026-11-03/cca-place-3
+- tx/statewide/elections/2026-11-03/cca-place-4
+- tx/statewide/elections/2026-11-03/cca-place-9
+- tx/districts/sboe-2/elections/2026-11-03/sboe-member
+- tx/districts/state-house-37/elections/2026-11-03/state-representative
+- tx/districts/state-house-38/elections/2026-11-03/state-representative
+- tx/districts/state-house-35/elections/2026-11-03/state-representative
+- tx/districts/court-of-appeals-15/elections/2026-11-03/chief-justice
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-2
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-3
+- tx/districts/court-of-appeals-13/elections/2026-11-03/place-6
+- tx/localities/cameron-county/elections/2026-11-03/district-court-103
+- tx/localities/cameron-county/elections/2026-11-03/district-court-107
+- tx/localities/cameron-county/elections/2026-11-03/district-court-197
+- tx/localities/cameron-county/elections/2026-11-03/district-court-357
+- tx/localities/cameron-county/elections/2026-11-03/district-court-484
+- tx/localities/cameron-county/elections/2026-11-03/county-judge
+- tx/localities/cameron-county/elections/2026-11-03/county-court-at-law-1
+- tx/localities/cameron-county/elections/2026-11-03/county-court-at-law-2
+- tx/localities/cameron-county/elections/2026-11-03/county-court-at-law-3
+- tx/localities/cameron-county/elections/2026-11-03/district-clerk
+- tx/localities/cameron-county/elections/2026-11-03/county-clerk
+- tx/localities/cameron-county/elections/2026-11-03/county-treasurer
+- tx/localities/cameron-county/elections/2026-11-03/commissioner-precinct-2
+- tx/localities/cameron-county/elections/2026-11-03/jp-precinct-1
+- tx/localities/cameron-county/elections/2026-11-03/jp-precinct-4
+- tx/localities/cameron-county/elections/2026-11-03/jp-precinct-2-place-2
+- tx/localities/cameron-county/elections/2026-11-03/commissioner-precinct-4
+- tx/localities/cameron-county/elections/2026-11-03/jp-precinct-3-place-1
+- tx/localities/cameron-county/elections/2026-11-03/jp-precinct-3-place-2
+- tx/localities/cameron-county/elections/2026-11-03/jp-precinct-2-place-3
+- tx/localities/cameron-county/elections/2026-11-03/jp-precinct-5-place-2
+- tx/localities/cameron-county/elections/2026-11-03/cad-place-1
+- tx/localities/cameron-county/elections/2026-11-03/cad-place-2
+- tx/localities/cameron-county/elections/2026-11-03/cad-place-3
+- tx/localities/city-of-south-padre-island/elections/2026-11-03/mayor
+- tx/localities/los-fresnos-cisd/elections/2026-11-03/trustee-place-3
+- tx/localities/brownsville-isd/elections/2026-11-03/trustee-place-1
+- tx/localities/santa-maria-isd/elections/2026-11-03/trustee-place-1
+- tx/localities/san-benito-mud-1/elections/2026-11-03/proposition-a
+- tx/localities/la-feria-isd/elections/2026-11-03/trustee-place-4
+- tx/localities/city-of-south-padre-island/elections/2026-11-03/council-place-4
+- tx/localities/los-fresnos-cisd/elections/2026-11-03/trustee-place-4
+- tx/localities/laguna-madre-water-district/elections/2026-11-03/director-place-1
+- tx/localities/laguna-madre-water-district/elections/2026-11-03/director-place-5
+- tx/localities/city-of-los-fresnos/elections/2026-11-03/mayor
+- tx/localities/brownsville-isd/elections/2026-11-03/trustee-place-2
+- tx/localities/santa-maria-isd/elections/2026-11-03/trustee-place-2
+- tx/localities/san-benito-mud-1/elections/2026-11-03/directors
+- tx/localities/la-feria-isd/elections/2026-11-03/trustee-place-5
+- tx/localities/city-of-los-fresnos/elections/2026-11-03/council-place-1
+- tx/localities/brownsville-isd/elections/2026-11-03/trustee-place-4
+- tx/localities/santa-maria-isd/elections/2026-11-03/trustee-place-3
+- tx/localities/la-feria-isd/elections/2026-11-03/trustee-place-6
+- tx/localities/brownsville-isd/elections/2026-11-03/trustee-place-7-unexpired
+- tx/localities/south-texas-isd/elections/2026-11-03/director-cameron-commissioner-2
+- tx/localities/city-of-brownsville/elections/2026-11-03/proposition-a
+- tx/localities/santa-maria-isd/elections/2026-11-03/trustee-place-4
+- tx/localities/la-feria-isd/elections/2026-11-03/trustee-place-7
+- tx/localities/city-of-brownsville/elections/2026-11-03/proposition-b
+- tx/localities/city-of-brownsville/elections/2026-11-03/proposition-c
+- tx/localities/city-of-brownsville/elections/2026-11-03/proposition-d
+- tx/localities/city-of-brownsville/elections/2026-11-03/proposition-e
+- tx/localities/city-of-brownsville/elections/2026-11-03/proposition-f
+- tx/localities/city-of-brownsville/elections/2026-11-03/proposition-g
+- tx/localities/city-of-brownsville/elections/2026-11-03/proposition-h
+- tx/localities/city-of-brownsville/elections/2026-11-03/proposition-i
+- tx/localities/city-of-brownsville/elections/2026-11-03/proposition-j
+- tx/localities/city-of-brownsville/elections/2026-11-03/proposition-k
+- tx/localities/city-of-brownsville/elections/2026-11-03/proposition-l
+- tx/localities/city-of-brownsville/elections/2026-11-03/proposition-m
+- tx/localities/city-of-brownsville/elections/2026-11-03/proposition-n
+- tx/localities/city-of-brownsville/elections/2026-11-03/proposition-o

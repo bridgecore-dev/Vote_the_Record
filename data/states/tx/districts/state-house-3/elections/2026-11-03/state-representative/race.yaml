@@ -1,0 +1,38 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: State Representative, District 3
+office_type: state-representative
+election_date: '2026-11-03'
+sources:
+- id: tx/districts/state-house-3/elections/2026-11-03/state-representative/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Montgomery County Elections'' sample ballot for the November 3, 2026 joint election lists "State Representative, District 3" on page 2, with these candidates: Kristen Plaisance (REP); Nicole King (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://elections.mctx.org/Samples/GEN110326/paper.pdf
+  source_title: 'Montgomery County Elections: Sample Ballot, November 3, 2026 Joint Election, Montgomery County, Texas (master sample ballot) (page 2)'
+  source_kind: document
+  sha256: b4040f7eb585b3c551a5a0d3cda80e6cb6c86cdac800e6e77b097f8da4e1437e
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's master sample ballot, which its sample ballot page describes as "the master sample ballot for all elections which we will be conducting in the November 3, 2026 Joint Election." Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/districts/state-house-3/elections/2026-11-03/state-representative/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Texas House of Representatives: member page, District 3), checked on October 19, 2026, lists "Rep. Bell Jr., Cecil" as holding this office; none of the candidates in this race is listed as the current officeholder. It reads "Rep. Bell Jr., Cecil - District 3".'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://house.texas.gov/members/member-page/?district=3
+  source_title: 'Texas House of Representatives: member page, District 3'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null

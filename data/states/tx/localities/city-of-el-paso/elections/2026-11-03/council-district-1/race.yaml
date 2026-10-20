@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: El Paso City Council, District 1
+office_type: city-council-member
+election_date: '2026-11-03'
+area: city-of-el-paso/district-1
+sources:
+- id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-1/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The El Paso County Elections Department''s sample ballot for the November 3, 2026 general and special election lists "City of El Paso, Representative, District 1" on page 1, with these candidates: "MJK" Matthew James Kozik; Sam Armijo; Daniela Garcia; Alejandra "Ale" Chávez.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/824/original/10._City_of_EP_Ballot.pdf?1789660550
+  source_title: 'El Paso County Elections Department: Sample Ballot, November 3, 2026 General and Special Election, El Paso County, Texas: City of El Paso (page 1)'
+  source_kind: document
+  sha256: be1a26fb7ee23169cf02e912b02f5f97c15360d8ebb2a59e61e87e34ad44fc52
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the sample ballots the county lists under "Sample Ballots" on its Current Election page (https://epcountyvotestx.gov/voter-information/current-election), one per jurisdiction. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-1/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (District 1), checked on October 19, 2026, shows that Alejandra "Ale" Chávez, a candidate in this race, currently holds this office. It reads: "City Representative Alejandra Chávez" It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.elpasotexas.gov/government/district-1
+  source_title: District 1
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null

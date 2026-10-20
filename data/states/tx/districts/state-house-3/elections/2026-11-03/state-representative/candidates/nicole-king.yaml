@@ -1,0 +1,82 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: nicole-king
+name: Nicole King
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/districts/state-house-3/elections/2026-11-03/state-representative/candidates/nicole-king#M-01
+  headline: Raised $3,693 and had $365 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $3,692.60 in total political contributions, $5,797.74 in total political expenditures, $365.44 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068669.PDF
+  source_title: 'Texas Ethics Commission: King, Nicole S. (Mrs.), campaign finance report 101068669 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: b205684fccf2699b7a595a204d421b1dfdc3f91fb2d4b78e7eedffb87a49d075
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101068669, form COH, TEC report type E30DAYBEF; filer ID 00090444 (King, Nicole S. (Mrs.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-19; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/state-house-3/elections/2026-11-03/state-representative/candidates/nicole-king#O-01
+    headline: Teacher pay and school funding
+    statement: 'Campaign website: "Nicole will work to support teachers and school staff with stronger salaries beyond the Teacher Incentive Allotment, fund schools based on enrollment rather than attendance, and protect safe learning environments for every student."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://nicolekingforall.com/issues
+    source_title: Issues | Nicole King for District 3
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-3/elections/2026-11-03/state-representative/candidates/nicole-king#O-02
+    headline: Property taxes, insurance, and wages
+    statement: 'Campaign website: "Her legislative priorities include sensible property tax relief through appraisal reform, innovative solutions for insurance, and support for living wages—including raising the minimum wage to a true living wage so no Texan working full time lives in poverty."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://nicolekingforall.com/issues
+    source_title: Issues | Nicole King for District 3
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-3/elections/2026-11-03/state-representative/candidates/nicole-king#O-03
+    headline: Emergency equipment rebates
+    statement: 'Campaign website: "I support rebates for homeowners who have spent thousands on generators or water purification systems."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://nicolekingforall.com/issues
+    source_title: Issues | Nicole King for District 3
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

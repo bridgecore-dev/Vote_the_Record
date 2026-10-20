@@ -1,13 +1,119 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: jorge-l-baron
 name: Jorge L. Barón
-incumbent: null
+incumbent: true
 ballot_party: null
-records: []
-funding: []
+records:
+- id: wa/localities/king-county/elections/2026-11-03/council-district-4/candidates/jorge-l-baron#R-01
+  record_type: vote
+  headline: Voted yes on a 2026 supplemental county budget (Ordinance 20086, 2026)
+  result: Passed the council 9-0.
+  statement: As a member of the Metropolitan King County Council, voted yes on 2026-0071 (AN ORDINANCE making a net supplemental appropriation of $70,172,000 to various general fund agencies, a net supplemental appropriation of $147,858,000 to various non-general fund agencies and a net supplemental appropriation of $213,368,141 from various capital fund budgets; amending the 2026-2027 Biennial Budget Ordinance, Ordinance 20023 ...), which the council passed as amended on June 23, 2026, becoming Ordinance 20086. The council's recorded vote lists 9 yes and 0 no.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://webapi.legistar.com/v1/kingcounty/eventitems/341243/votes
+  source_title: 'King County Council Legistar: recorded vote on 2026-0071, June 23, 2026'
+  source_kind: document
+  sha256: 08a20a5418c0ad3ae50b28bbec32d8f2498d51f448eef6aa5aea281c39621489
+  archive_url: null
+  event_date: '2026-06-23'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The council''s official legislative system (Legistar) vote data, downloaded 2026-10-19. The legislation page: https://kingcounty.legistar.com/LegislationDetail.aspx?ID=26439&GUID=701D7108-BD9B-4832-88CE-82B950DA6273. Not yet archived on the Wayback Machine.'
+- id: wa/localities/king-county/elections/2026-11-03/council-district-4/candidates/jorge-l-baron#R-02
+  record_type: vote
+  headline: Voted yes on the 2026-2027 county budget (Ordinance 20023, 2025)
+  result: Passed the council 9-0.
+  statement: As a member of the Metropolitan King County Council, voted yes on 2025-0288 (AN ORDINANCE that adopts the 2026-2027 Biennial Budget and makes appropriations for the operation of county agencies and departments and capital improvements for the fiscal biennium beginning January 1, 2026, and ending December 31, 2027; and establishing an effective date.), which the council passed as amended on November 18, 2025, becoming Ordinance 20023. The council's recorded vote lists 9 yes and 0 no.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://webapi.legistar.com/v1/kingcounty/eventitems/336850/votes
+  source_title: 'King County Council Legistar: recorded vote on 2025-0288, November 18, 2025'
+  source_kind: document
+  sha256: 7acfe2d1d7902ce77068f6a865123159137a983458c985da501aa863346520b6
+  archive_url: null
+  event_date: '2025-11-18'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The council''s official legislative system (Legistar) vote data, downloaded 2026-10-19. The legislation page: https://kingcounty.legistar.com/LegislationDetail.aspx?ID=25998&GUID=034ECF21-D1D6-4492-B324-C021F9110868. Not yet archived on the Wayback Machine.'
+funding:
+- id: wa/localities/king-county/elections/2026-11-03/council-district-4/candidates/jorge-l-baron#M-01
+  headline: Raised $41,705 and spent $9,754 (2026 election year, record updated Oct 13, 2026)
+  statement: 'The Public Disclosure Commission''s campaign finance summary for the 2026 election year lists, for Jorge L. Barón (county council member, KING CO, position 4), in the record last updated October 13, 2026: $41,704.52 in contributions, $2,466.27 carried forward from an earlier campaign, $1,600.00 in loans, and $9,754.06 in expenditures. It also lists $113.07 in independent expenditures by others supporting the candidate and $0.00 opposing the candidate.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://data.wa.gov/resource/3h9x-7bvm.json?$where=election_year%3D%272026%27%20AND%20filer_type%3D%27CA%27&$limit=50000
+  source_title: 'Washington Public Disclosure Commission: Campaign Finance Summary, 2026 candidates (data.wa.gov dataset 3h9x-7bvm)'
+  source_kind: document
+  sha256: f7946f6715074954e86bfc8c2fd0f42053f7b84619b12dc498db4ee5ca381870
+  archive_url: null
+  event_date: '2026-10-13'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/68555.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/localities/king-county/elections/2026-11-03/council-district-4/candidates/jorge-l-baron#O-01
+    headline: Law enforcement oversight and de-escalation training
+    statement: 'Campaign website: "I support measures to strengthen law enforcement oversight, enhance training in de-escalation techniques, and promote unbiased policing practices."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://electjorgebaron.com/vision
+    source_title: Vision — Elect Jorge Baron - King County Council District 4
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/localities/king-county/elections/2026-11-03/council-district-4/candidates/jorge-l-baron#O-02
+    headline: Carry out Transit Safety Task Force recommendations
+    statement: 'Campaign website: "I served as part of the King County Transit Safety Task Force and will continue to advocate for the implementation of its recommendations."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://electjorgebaron.com/vision
+    source_title: Vision — Elect Jorge Baron - King County Council District 4
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/localities/king-county/elections/2026-11-03/council-district-4/candidates/jorge-l-baron#O-03
+    headline: Progressive revenue sources for county services
+    statement: 'Campaign website: "It is essential that we generate new urgency to the work with state legislators to develop progressive sources of revenue that will support the investments necessary to tackle the challenges in all of these areas."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://electjorgebaron.com/vision
+    source_title: Vision — Elect Jorge Baron - King County Council District 4
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

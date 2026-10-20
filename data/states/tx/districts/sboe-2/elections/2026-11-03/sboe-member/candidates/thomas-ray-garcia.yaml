@@ -1,0 +1,99 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: thomas-ray-garcia
+name: Thomas Ray Garcia
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/districts/sboe-2/elections/2026-11-03/sboe-member/candidates/thomas-ray-garcia#M-01
+  headline: Raised $30,275 and had $2,426 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $30,274.78 in total political contributions, $32,030.45 in total political expenditures, $2,425.66 in contributions on hand at the end of the period, and $10,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101067847.PDF
+  source_title: 'Texas Ethics Commission: Garcia, Thomas R. (Mr.), campaign finance report 101067847 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 54fa7ada5666a32c9192faa139b09e71a1ee1b16bf78065a8610960323200133
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101067847, form COH, TEC report type E30DAYBEF; filer ID 00086208 (Garcia, Thomas R. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-20; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/sboe-2/elections/2026-11-03/sboe-member/candidates/thomas-ray-garcia#O-01
+    headline: Anti-bullying materials
+    statement: 'Campaign website: "I will approve instructional materials and learning standards that educate students on bullying prevention."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.thomasraygarciatx.com/platform
+    source_title: My Platform | Thomas Ray Garcia for State Board of Education
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/sboe-2/elections/2026-11-03/sboe-member/candidates/thomas-ray-garcia#O-02
+    headline: Anti-bullying law
+    statement: 'Campaign website: "I will work with state lawmakers to strengthen anti-bullying standards, including cyberbullying, in the Texas Education Code."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.thomasraygarciatx.com/platform
+    source_title: My Platform | Thomas Ray Garcia for State Board of Education
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/sboe-2/elections/2026-11-03/sboe-member/candidates/thomas-ray-garcia#O-03
+    headline: School safety
+    statement: 'Campaign website: "I will work with our Texas Education Agency personnel and state lawmakers to ensure school safety is a priority."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.thomasraygarciatx.com/platform
+    source_title: My Platform | Thomas Ray Garcia for State Board of Education
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/sboe-2/elections/2026-11-03/sboe-member/candidates/thomas-ray-garcia#O-04
+    headline: Ethnic studies credit
+    statement: 'Campaign website: "I support legislation that would make Ethnic Studies courses count toward the Social Studies credits required for high school graduation."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.thomasraygarciatx.com/platform
+    source_title: My Platform | Thomas Ray Garcia for State Board of Education
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

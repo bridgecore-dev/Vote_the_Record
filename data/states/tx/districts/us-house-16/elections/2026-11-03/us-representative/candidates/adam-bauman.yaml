@@ -1,0 +1,65 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: adam-bauman
+name: Adam Bauman
+incumbent: false
+ballot_party: REP
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/us-house-16/elections/2026-11-03/us-representative/candidates/adam-bauman#O-01
+    headline: Social Security benefit age
+    statement: 'Campaign website: "I fully support enacting changes that will ensure Social Security remains in place, however, raising the minimum age limit to receive these benefits is not one of them."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.adambaumanforcongress.com/
+    source_title: Adam Bauman for Congress campaign website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-16/elections/2026-11-03/us-representative/candidates/adam-bauman#O-02
+    headline: Border enforcement support
+    statement: 'Campaign website: "I am committed to supporting the Custom''s and Border Protection mission to protect our border and keep El Paso safe."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.adambaumanforcongress.com/
+    source_title: Adam Bauman for Congress campaign website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-16/elections/2026-11-03/us-representative/candidates/adam-bauman#O-03
+    headline: Health insurance premium costs
+    statement: 'Campaign website: "I am committed to working with other leaders to find a solution that will reduce the cost of insurance premiums and make insurance more affordable without the federal government subsidizing these costs."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.adambaumanforcongress.com/
+    source_title: Adam Bauman for Congress campaign website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

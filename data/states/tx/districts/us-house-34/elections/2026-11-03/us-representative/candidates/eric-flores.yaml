@@ -1,0 +1,82 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: eric-flores
+name: Eric Flores
+incumbent: false
+ballot_party: REP
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/us-house-34/elections/2026-11-03/us-representative/candidates/eric-flores#O-01
+    headline: Cost of living
+    statement: 'Campaign website: "I''ll oppose reckless federal spending that fuels inflation, fight to cut the red tape driving up costs for families and small businesses, and support affordable housing solutions that keep pace with our growing communities."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ericflores.com/priorities
+    source_title: PRIORITIES | Flores for Congress
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-34/elections/2026-11-03/us-representative/candidates/eric-flores#O-02
+    headline: Roads, ports, broadband
+    statement: 'Campaign website: "I''ll fight to secure federal funding for road, bridge, and port improvements, expand broadband in rural communities, and advocate for the Port of Corpus Christi and Brownsville like the national economic assets they are."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ericflores.com/priorities
+    source_title: PRIORITIES | Flores for Congress
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-34/elections/2026-11-03/us-representative/candidates/eric-flores#O-03
+    headline: Water supply
+    statement: 'Campaign website: "I''ll fight for federal investment in our water infrastructure, support efforts to protect agricultural and municipal water supplies, and push for long-term regional water planning instead of relying on short-term fixes."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ericflores.com/priorities
+    source_title: PRIORITIES | Flores for Congress
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-34/elections/2026-11-03/us-representative/candidates/eric-flores#O-04
+    headline: Veterans care
+    statement: 'Campaign website: "I''ll fight to reduce VA wait times and expand access to care throughout our communities, support fully funding veterans'' benefits and disability claims, and champion mental health and suicide prevention resources for veterans."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ericflores.com/priorities
+    source_title: PRIORITIES | Flores for Congress
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

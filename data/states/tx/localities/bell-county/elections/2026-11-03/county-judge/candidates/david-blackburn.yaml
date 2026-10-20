@@ -1,0 +1,88 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: david-blackburn
+name: David Blackburn
+incumbent: true
+ballot_party: REP
+records:
+- id: tx/localities/bell-county/elections/2026-11-03/county-judge/candidates/david-blackburn#R-01
+  record_type: vote
+  headline: Voted yes on the 2026 county property tax rate (2026)
+  result: Passed the Commissioners Court 4-1.
+  statement: 'As County Judge, presiding over the Bell County Commissioners Court, voted yes on Minute Order #208/26, adopting the FY2027 Bell County tax rate. The minutes record the motion "I move that the property tax rate be increased by the adoption of a tax rate of $0.3463, which is below the proposed tax rate" ($0.2995 for Bell County and $0.0468 for the Bell County Road District, per $100 assessed value) and that "The matter passed in a vote of four (4) in favor - County Judge David Blackburn, Commissioner Russell Schneider, Commissioner Bobby Whitson, and Commissioner Greg Reynolds; and one (1) opposed - Commissioner Louie Minor." The vote was at the August 24, 2026 special session.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://bell.tx.publicsearch.us/doc/330662205
+  source_title: Bell County Commissioners Court minutes, Special Session, August 24, 2026 (page 3 of 10)
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-08-24'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The court''s minutes as recorded by the County Clerk (Bell County records portal, linked from the county''s Commissioners Court 2026 page); approved as a consent item in Minute Order #220/26 on September 1, 2026. The portal shows each page as an image; the cited page image''s SHA-256 is 4f2f2a1a630c4310fe95ebdcea673cbea17471b424e80f123cda8e8ecc2c298d. Not yet archived on the Wayback Machine.'
+- id: tx/localities/bell-county/elections/2026-11-03/county-judge/candidates/david-blackburn#R-02
+  record_type: vote
+  headline: Voted yes on a motion to lower the 2026 tax rate (2026)
+  result: Failed in the Commissioners Court 2-3.
+  statement: 'As County Judge, presiding over the Bell County Commissioners Court, voted yes on an amendment, during Minute Order #208/26, to a motion for a tax rate of $0.3635 (the proposed rate). The minutes record that Commissioner Bobby Whitson "moved to amend said motion to lower the tax rate with the intent of taking the loss of revenue from the General Fund reserve, to include a budgeted transfer out of the General Fund to Road and Bridge and putting the matter on the ballot next year for voters to decide" and that "This amended motion failed in a vote of two (2) in favor - County Judge David Blackburn and Commissioner Bobby Whitson; and three (3) opposed - Commissioner Russell Schneider, Commissioner Greg Reynolds and Commissioner Louie Minor." The minutes give no rate for the amendment. The vote was at the August 24, 2026 special session.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://bell.tx.publicsearch.us/doc/330662205
+  source_title: Bell County Commissioners Court minutes, Special Session, August 24, 2026 (page 3 of 10)
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-08-24'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The court''s minutes as recorded by the County Clerk (Bell County records portal, linked from the county''s Commissioners Court 2026 page); approved as a consent item in Minute Order #220/26 on September 1, 2026. The portal shows each page as an image; the cited page image''s SHA-256 is 4f2f2a1a630c4310fe95ebdcea673cbea17471b424e80f123cda8e8ecc2c298d. Not yet archived on the Wayback Machine.'
+- id: tx/localities/bell-county/elections/2026-11-03/county-judge/candidates/david-blackburn#R-03
+  record_type: vote
+  headline: Voted yes on the 2026-27 county budget (2026)
+  result: Passed the Commissioners Court 4-1.
+  statement: 'As County Judge, presiding over the Bell County Commissioners Court, voted yes on Minute Order #209/26, adoption of the FY2027 Bell County Budget under Section 111.039(c) of the Texas Local Government Code. The minutes record that "The Court approved this matter in a vote of four (4) in favor - County Judge David Blackburn, Commissioner Russell Schneider, Commissioner Bobby Whitson, and Commissioner Greg Reynolds; and one (1) opposed - Commissioner Louie Minor." The vote was at the August 24, 2026 special session.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://bell.tx.publicsearch.us/doc/330662205
+  source_title: Bell County Commissioners Court minutes, Special Session, August 24, 2026 (page 4 of 10)
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-08-24'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The court''s minutes as recorded by the County Clerk (Bell County records portal, linked from the county''s Commissioners Court 2026 page); approved as a consent item in Minute Order #220/26 on September 1, 2026. The portal shows each page as an image; the cited page image''s SHA-256 is 98094d4cb84b92cf65e9e17a2e1f73447e56366e3257bc23f28180fe9409fe5e. Not yet archived on the Wayback Machine.'
+funding:
+- id: tx/localities/bell-county/elections/2026-11-03/county-judge/candidates/david-blackburn#M-01
+  headline: Raised $1,525 and had $1,270 on hand (Feb 24, 2026 - Jul 15, 2026)
+  statement: 'Campaign finance report covering Feb 24, 2026 - Jul 15, 2026, filed with Bell County on Jul 7, 2026: $1,525.00 in total political contributions, $5,453.98 in total political expenditures, and $1,269.63 in contributions on hand at the end of the period. Left out: outstanding loans (blank or not legible on the scanned report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Campaign%20Treasurer/2026/2026_Blackburn_David.pdf
+  source_title: 'Bell County: campaign finance report, Blackburn, David (filed Jul 7, 2026)'
+  source_kind: document
+  sha256: 633b0aa6e23f4a6e74f8d6f312634dae2e61ffa3a883ad37d0a5fb7eb6ba52ba
+  archive_url: null
+  event_date: '2026-07-15'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted on Bell County Elections Department's Campaign Treasury Postings page (https://www.bellcountytx.com/departments/elections/2026.php) as filed by "Blackburn, David" (Form C/OH (TEC cover sheet), July 15 semiannual); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Not yet archived on the Wayback Machine. The form gives the period end as 07/15/2026.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: Northeast Regional Management District, Proposition E
+election_date: '2026-11-03'
+kind: tax-rate
+ballot_text: THIS IS A TAX INCREASE The levy of an operation and maintenance tax not to exceed one and fifty/100 dollars ($1.50) per one hundred dollars ($100) valuation of taxable property
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/northeast-regional-md/elections/2026-11-03/proposition-e/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Montgomery County Elections'' sample ballot for the November 3, 2026 joint election prints "Northeast Regional Management District, Proposition E" on page 21 with the choices FOR and AGAINST and this English wording: "THIS IS A TAX INCREASE The levy of an operation and maintenance tax not to exceed one and fifty/100 dollars ($1.50) per one hundred dollars ($100) valuation of taxable property"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://elections.mctx.org/Samples/GEN110326/paper.pdf
+  source_title: 'Montgomery County Elections: Sample Ballot, November 3, 2026 Joint Election, Montgomery County, Texas (master sample ballot) (page 21)'
+  source_kind: document
+  sha256: b4040f7eb585b3c551a5a0d3cda80e6cb6c86cdac800e6e77b097f8da4e1437e
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's master sample ballot, which its sample ballot page describes as "the master sample ballot for all elections which we will be conducting in the November 3, 2026 Joint Election." Names and wording are from the PDF's text layer, kept as printed (English text only).

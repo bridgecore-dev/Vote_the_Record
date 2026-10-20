@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Bell County District Clerk
+office_type: district-clerk
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/bell-county/elections/2026-11-03/district-clerk/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Bell County Elections Department''s sample ballot for the November 3, 2026 general and special elections lists "District Clerk" on page 2, with these candidates: Lacey Martindale (REP).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_101CW.pdf?t=202609171545410
+  source_title: 'Bell County Elections Department: Sample Ballot, ballot style 101CW, November 3, 2026 General Election, Bell County, Texas (page 2)'
+  source_kind: document
+  sha256: c8e23d55a3d8f49287880271bf71a2371dda2d0ddc4c0247a1fa49950e1f5826
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.
+- id: tx/localities/bell-county/elections/2026-11-03/district-clerk/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Bell County, TX), checked on October 20, 2026, lists "Joanna Staton" as holding this office; none of the candidates in this race is listed as the current officeholder. It reads: "Joanna Staton - District Clerk"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/district_clerk/index.php
+  source_title: Bell County, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null

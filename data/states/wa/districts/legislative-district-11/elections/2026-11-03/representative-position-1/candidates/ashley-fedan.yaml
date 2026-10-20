@@ -1,13 +1,81 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: ashley-fedan
 name: Ashley Fedan
-incumbent: null
+incumbent: false
 ballot_party: Prefers Democratic Party
 records: []
-funding: []
+funding:
+- id: wa/districts/legislative-district-11/elections/2026-11-03/representative-position-1/candidates/ashley-fedan#M-01
+  headline: Raised $98,069 and spent $109,399 (2026 election year, record updated Oct 18, 2026)
+  statement: 'The Public Disclosure Commission''s campaign finance summary for the 2026 election year lists, for Ashley Fedan (state representative, LEG DISTRICT 11 - HOUSE, position 1), in the record last updated October 18, 2026: $98,069.23 in contributions, $9,000.00 in loans, $109,398.92 in expenditures, and $17,423.32 in debts. It also lists $132.34 in independent expenditures by others supporting the candidate and $0.00 opposing the candidate.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://data.wa.gov/resource/3h9x-7bvm.json?$where=election_year%3D%272026%27%20AND%20filer_type%3D%27CA%27&$limit=50000
+  source_title: 'Washington Public Disclosure Commission: Campaign Finance Summary, 2026 candidates (data.wa.gov dataset 3h9x-7bvm)'
+  source_kind: document
+  sha256: f7946f6715074954e86bfc8c2fd0f42053f7b84619b12dc498db4ee5ca381870
+  archive_url: null
+  event_date: '2026-10-18'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/68195.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-11/elections/2026-11-03/representative-position-1/candidates/ashley-fedan#O-01
+    headline: Speed up affordable housing permits
+    statement: 'Campaign website: "Cut through bureaucratic delays that slow down affordable housing projects, so good developments are built instead of permits that sit on desks for years."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://electashleyfedan.com/priorities/
+    source_title: Priorities - Ashley Fedan
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-11/elections/2026-11-03/representative-position-1/candidates/ashley-fedan#O-02
+    headline: Insurer and hospital accountability
+    statement: 'Campaign website: "I’ll advocate for transparency and accountability from insurance companies and hospital systems."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://electashleyfedan.com/priorities/
+    source_title: Priorities - Ashley Fedan
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-11/elections/2026-11-03/representative-position-1/candidates/ashley-fedan#O-03
+    headline: Wages that match cost of living
+    statement: 'Campaign website: "I’ll push for wages that actually keep up with the real cost of living, not just small adjustments that fall further behind every year."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://electashleyfedan.com/priorities/
+    source_title: Priorities - Ashley Fedan
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

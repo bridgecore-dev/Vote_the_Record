@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: Montgomery County MUD No. 264, Proposition C
+election_date: '2026-11-03'
+kind: bond
+ballot_text: THIS IS A TAX INCREASE The issuance of $143,000,000 in bonds and the issuance of $214,500,000 in refunding bonds and the levy of ad valorem taxes sufficient to pay the principal of and interest on the road bonds (paved roads and turnpikes)
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/montgomery-county-mud-264/elections/2026-11-03/proposition-c/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Montgomery County Elections'' sample ballot for the November 3, 2026 joint election prints "Montgomery County MUD No. 264, Proposition C" on page 13 with the choices FOR and AGAINST and this English wording: "THIS IS A TAX INCREASE The issuance of $143,000,000 in bonds and the issuance of $214,500,000 in refunding bonds and the levy of ad valorem taxes sufficient to pay the principal of and interest on the road bonds (paved roads and turnpikes)"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://elections.mctx.org/Samples/GEN110326/paper.pdf
+  source_title: 'Montgomery County Elections: Sample Ballot, November 3, 2026 Joint Election, Montgomery County, Texas (master sample ballot) (page 13)'
+  source_kind: document
+  sha256: b4040f7eb585b3c551a5a0d3cda80e6cb6c86cdac800e6e77b097f8da4e1437e
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's master sample ballot, which its sample ballot page describes as "the master sample ballot for all elections which we will be conducting in the November 3, 2026 Joint Election." Names and wording are from the PDF's text layer, kept as printed (English text only).

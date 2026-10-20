@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: Bell County ESD No. 3, Proposition A
+election_date: '2026-11-03'
+kind: district-confirmation
+ballot_text: 'THIS IS A PROPERTY TAX INCREASE: Confirmation of the creation of Bell County Emergency Services District No 3 and the levy by the district of a tax not to exceed ten (10) cents on the one hundred dollars ($100.00) of valuation.'
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/bell-county-esd-3/elections/2026-11-03/proposition-a/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Bell County Elections Department''s sample ballot for the November 3, 2026 general and special elections prints "Bell County ESD No. 3, Proposition A" on page 3 with the choices FOR and AGAINST and this English wording: "THIS IS A PROPERTY TAX INCREASE: Confirmation of the creation of Bell County Emergency Services District No 3 and the levy by the district of a tax not to exceed ten (10) cents on the one hundred dollars ($100.00) of valuation."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_101ESD3.pdf?t=202609171547380
+  source_title: 'Bell County Elections Department: Sample Ballot, ballot style 101ESD3, November 3, 2026 General Election, Bell County, Texas (page 3)'
+  source_kind: document
+  sha256: d8f2061b71567edf0bf237e8f0e759eb4d624659ef2efe8878ed204641f01540
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.

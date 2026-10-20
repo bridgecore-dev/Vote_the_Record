@@ -1,0 +1,82 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: matt-sistrunk
+name: Matt Sistrunk
+incumbent: false
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/el-paso-county/elections/2026-11-03/commissioner-precinct-2/candidates/matt-sistrunk#M-01
+  headline: Raised $4,585 and had $10 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with El Paso County on Oct 6, 2026: $4,585.00 in total political contributions, $5,139.23 in total political expenditures, $10.12 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://apps.epcountytx.gov/campaignfinancereport/tmp/4235.pdf
+  source_title: 'El Paso County: campaign finance report, SISTRUNK, THOMAS MATTHEW (filed Oct 6, 2026)'
+  source_kind: document
+  sha256: 16f2d36d1da2a925590fc61201cca6726270d3295446fc47cf0d28ecae72af77
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in El Paso County''s campaign finance report search (https://apps.epcountytx.gov/campaignfinancereport/) under filer "SISTRUNK, THOMAS MATTHEW" (Form C/OH, 30th day before election); matched by name and office. This is the newest report listed for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Report page: https://apps.epcountytx.gov/campaignfinancereport/View.aspx?rpt=4145. Not yet archived on the Wayback Machine. Reading note: Typed. Cover lists the filer as MATT SISTRUNK.'
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/el-paso-county/elections/2026-11-03/commissioner-precinct-2/candidates/matt-sistrunk#O-01
+    headline: Homestead property tax
+    statement: 'Campaign website: "Regarding property tax, let''s begin to solve this problem by totally removing homes from the calculation."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.mattsistrunkforelpasocounty.com/platform
+    source_title: 'Matt Sistrunk for El Paso County campaign website: Platform'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/el-paso-county/elections/2026-11-03/commissioner-precinct-2/candidates/matt-sistrunk#O-02
+    headline: Certificates of Obligation
+    statement: 'Campaign website: "I am adamantly opposed to the issuance of Certificates of Obligation, which have funded expenses unknown to voters."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.mattsistrunkforelpasocounty.com/platform
+    source_title: 'Matt Sistrunk for El Paso County campaign website: Platform'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/el-paso-county/elections/2026-11-03/commissioner-precinct-2/candidates/matt-sistrunk#O-03
+    headline: County road maintenance
+    statement: 'Campaign website: "I will prioritize maintenance to quickly repair El Paso County roads and other County infrastructure."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.mattsistrunkforelpasocounty.com/platform
+    source_title: 'Matt Sistrunk for El Paso County campaign website: Platform'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

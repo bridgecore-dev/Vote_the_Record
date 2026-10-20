@@ -1,13 +1,119 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: claudia-balducci
 name: Claudia Balducci
-incumbent: null
+incumbent: true
 ballot_party: null
-records: []
-funding: []
+records:
+- id: wa/localities/king-county/elections/2026-11-03/council-district-6/candidates/claudia-balducci#R-01
+  record_type: vote
+  headline: Voted yes on a 2026 supplemental county budget (Ordinance 20086, 2026)
+  result: Passed the council 9-0.
+  statement: As a member of the Metropolitan King County Council, voted yes on 2026-0071 (AN ORDINANCE making a net supplemental appropriation of $70,172,000 to various general fund agencies, a net supplemental appropriation of $147,858,000 to various non-general fund agencies and a net supplemental appropriation of $213,368,141 from various capital fund budgets; amending the 2026-2027 Biennial Budget Ordinance, Ordinance 20023 ...), which the council passed as amended on June 23, 2026, becoming Ordinance 20086. The council's recorded vote lists 9 yes and 0 no.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://webapi.legistar.com/v1/kingcounty/eventitems/341243/votes
+  source_title: 'King County Council Legistar: recorded vote on 2026-0071, June 23, 2026'
+  source_kind: document
+  sha256: 08a20a5418c0ad3ae50b28bbec32d8f2498d51f448eef6aa5aea281c39621489
+  archive_url: null
+  event_date: '2026-06-23'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The council''s official legislative system (Legistar) vote data, downloaded 2026-10-19. The legislation page: https://kingcounty.legistar.com/LegislationDetail.aspx?ID=26439&GUID=701D7108-BD9B-4832-88CE-82B950DA6273. Not yet archived on the Wayback Machine.'
+- id: wa/localities/king-county/elections/2026-11-03/council-district-6/candidates/claudia-balducci#R-02
+  record_type: vote
+  headline: Voted yes on the 2026-2027 county budget (Ordinance 20023, 2025)
+  result: Passed the council 9-0.
+  statement: As a member of the Metropolitan King County Council, voted yes on 2025-0288 (AN ORDINANCE that adopts the 2026-2027 Biennial Budget and makes appropriations for the operation of county agencies and departments and capital improvements for the fiscal biennium beginning January 1, 2026, and ending December 31, 2027; and establishing an effective date.), which the council passed as amended on November 18, 2025, becoming Ordinance 20023. The council's recorded vote lists 9 yes and 0 no.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://webapi.legistar.com/v1/kingcounty/eventitems/336850/votes
+  source_title: 'King County Council Legistar: recorded vote on 2025-0288, November 18, 2025'
+  source_kind: document
+  sha256: 7acfe2d1d7902ce77068f6a865123159137a983458c985da501aa863346520b6
+  archive_url: null
+  event_date: '2025-11-18'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The council''s official legislative system (Legistar) vote data, downloaded 2026-10-19. The legislation page: https://kingcounty.legistar.com/LegislationDetail.aspx?ID=25998&GUID=034ECF21-D1D6-4492-B324-C021F9110868. Not yet archived on the Wayback Machine.'
+funding:
+- id: wa/localities/king-county/elections/2026-11-03/council-district-6/candidates/claudia-balducci#M-01
+  headline: Raised $200,947 and spent $274,173 (2026 election year, record updated Oct 13, 2026)
+  statement: 'The Public Disclosure Commission''s campaign finance summary for the 2026 election year lists, for Claudia Balducci (county council member, KING CO, position 6), in the record last updated October 13, 2026: $200,947.00 in contributions, $113,453.76 carried forward from an earlier campaign, and $274,172.60 in expenditures. It also lists $113.07 in independent expenditures by others supporting the candidate and $0.00 opposing the candidate.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://data.wa.gov/resource/3h9x-7bvm.json?$where=election_year%3D%272026%27%20AND%20filer_type%3D%27CA%27&$limit=50000
+  source_title: 'Washington Public Disclosure Commission: Campaign Finance Summary, 2026 candidates (data.wa.gov dataset 3h9x-7bvm)'
+  source_kind: document
+  sha256: f7946f6715074954e86bfc8c2fd0f42053f7b84619b12dc498db4ee5ca381870
+  archive_url: null
+  event_date: '2026-10-13'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/67730.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/localities/king-county/elections/2026-11-03/council-district-6/candidates/claudia-balducci#O-01
+    headline: Lower housing and utility costs
+    statement: 'Campaign website: "In an increasingly expensive region, Claudia will make it a top priority to address the increasing cost of living, including making housing and utilities less prohibitive, so that people can afford to build a future in East King County."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.claudiabalducci.com/priorities/
+    source_title: Priorities - Re-Elect Claudia Balducci for King County Council Dist. 6
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/localities/king-county/elections/2026-11-03/council-district-6/candidates/claudia-balducci#O-02
+    headline: Bus connections, streets, roads, and trails
+    statement: 'Campaign website: "With light rail opening across I-90 and beyond, Claudia will focus on strong bus connections, safe and accessible streets, and continued investment in roads and regional trails so everyone can benefit from our growing transit system."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.claudiabalducci.com/priorities/
+    source_title: Priorities - Re-Elect Claudia Balducci for King County Council Dist. 6
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/localities/king-county/elections/2026-11-03/council-district-6/candidates/claudia-balducci#O-03
+    headline: Expand housing options at all income levels
+    statement: 'Campaign website: "A recognized regional leader on housing, Claudia will keep pushing to expand housing options at all income levels — so seniors can age in place and working people and families can afford to live near jobs, schools, and transit."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.claudiabalducci.com/priorities/
+    source_title: Priorities - Re-Elect Claudia Balducci for King County Council Dist. 6
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

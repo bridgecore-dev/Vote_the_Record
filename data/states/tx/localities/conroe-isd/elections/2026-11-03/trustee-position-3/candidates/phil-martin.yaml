@@ -1,0 +1,48 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: phil-martin
+name: Phil Martin
+incumbent: false
+ballot_party: null
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/conroe-isd/elections/2026-11-03/trustee-position-3/candidates/phil-martin#O-01
+    headline: Teachers, resources, and long-term planning
+    statement: 'Campaign website: "I believe Conroe ISD succeeds when we support quality teachers, manage resources responsibly, and plan for the long term."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://philforcisd.com/
+    source_title: Phillip Martin for Conroe ISD School Board (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/conroe-isd/elections/2026-11-03/trustee-position-3/candidates/phil-martin#O-02
+    headline: Community-guided decisions
+    statement: 'Campaign website: "Decisions should be guided by our community—not outside political interests."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://philforcisd.com/
+    source_title: Phillip Martin for Conroe ISD School Board (campaign website)
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

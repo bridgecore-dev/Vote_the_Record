@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: maria-salas-mendoza
+name: Maria Salas Mendoza
+incumbent: true
+ballot_party: DEM
+records: []
+funding:
+- id: tx/districts/court-of-appeals-8/elections/2026-11-03/chief-justice/candidates/maria-salas-mendoza#M-01
+  headline: Raised $4,500 and had $27,266 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 15, 2026: $4,500.00 in total political contributions, $6,219.65 in total political expenditures, $27,266.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101061347.PDF
+  source_title: 'Texas Ethics Commission: Salas-Mendoza, Maria (The Honorable), campaign finance report 101061347 (filed Jul 15, 2026)'
+  source_kind: document
+  sha256: a7af7effc32d62c564786c7a74f879d66a2ea821bc2a0d7afd97e0ed82f28bd1
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101061347, form JCOH, TEC report type SEMIJUL; filer ID 00057807 (Salas-Mendoza, Maria (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-19; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

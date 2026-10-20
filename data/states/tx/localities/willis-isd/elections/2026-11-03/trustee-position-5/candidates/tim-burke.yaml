@@ -1,0 +1,65 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: tim-burke
+name: Tim Burke
+incumbent: false
+ballot_party: null
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/willis-isd/elections/2026-11-03/trustee-position-5/candidates/tim-burke#O-01
+    headline: Enrollment growth planning
+    statement: 'Campaign website: "The district should publish one plan for what we''ll need to build, hire, and wire to keep up, and update it in public every year."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://timforwillis.org/
+    source_title: Tim Burke for Willis ISD School Board of Trustees, Position 5
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/willis-isd/elections/2026-11-03/trustee-position-5/candidates/tim-burke#O-02
+    headline: Campus safety system testing
+    statement: 'Campaign website: "Every campus should be tested the same way: someone tries every door and keys a radio from the far end of every building, on a schedule, with the results in front of the board."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://timforwillis.org/
+    source_title: Tim Burke for Willis ISD School Board of Trustees, Position 5
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/willis-isd/elections/2026-11-03/trustee-position-5/candidates/tim-burke#O-03
+    headline: Communication with families
+    statement: 'Campaign website: "Parents shouldn''t have to dig through agendas to learn what''s happening at their school or why the board voted the way it did."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://timforwillis.org/
+    source_title: Tim Burke for Willis ISD School Board of Trustees, Position 5
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

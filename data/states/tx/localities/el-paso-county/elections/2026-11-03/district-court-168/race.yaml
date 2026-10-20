@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: District Judge, 168th Judicial District
+office_type: district-judge
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/el-paso-county/elections/2026-11-03/district-court-168/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The El Paso County Elections Department''s sample ballot for the November 3, 2026 general and special election lists "District Judge, 168th Judicial District" on page 4, with these candidates: R. Wayne Pritchard (REP); Bernardo Cruz (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550
+  source_title: 'El Paso County Elections Department: Sample Ballot, November 3, 2026 General and Special Election, El Paso County, Texas: Federal, State & County (page 4)'
+  source_kind: document
+  sha256: cdb43152a132333b0623fa25c6eed276af4bc335046358cc5b4ccccfa78919cd
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the sample ballots the county lists under "Sample Ballots" on its Current Election page (https://epcountyvotestx.gov/voter-information/current-election), one per jurisdiction. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/el-paso-county/elections/2026-11-03/district-court-168/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Elected Officials - El Paso County, TX Elections | El Paso County Elections Department), checked on October 19, 2026, lists "Marcos Lizarraga" as holding this office; none of the candidates in this race is listed as the current officeholder. It reads: "District Judge, 168th Judicial District - Marcos Lizarraga"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials
+  source_title: Elected Officials - El Paso County, TX Elections | El Paso County Elections Department
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null

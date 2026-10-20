@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: juan-a-magallanes
+name: Juan A. Magallanes
+incumbent: true
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/district-court-357/candidates/juan-a-magallanes#M-01
+  headline: Had $45,335 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 14, 2026: $50,860.96 in total political expenditures, $45,334.98 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101061045.PDF
+  source_title: 'Texas Ethics Commission: Magallanes, Juan A. (The Honorable), campaign finance report 101061045 (filed Jul 14, 2026)'
+  source_kind: document
+  sha256: 71d5685eceeda961d833cf4b3db6fde094a9270b7eaa1670142b31badcb1b207
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101061045, form JCOH, TEC report type SEMIJUL; filer ID 00022775 (Magallanes, Juan A. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-20; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

@@ -1,13 +1,64 @@
-# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
 id: danica-noble
 name: Danica Noble
-incumbent: null
+incumbent: false
 ballot_party: Prefers Democratic Party
 records: []
-funding: []
+funding:
+- id: wa/districts/legislative-district-32/elections/2026-11-03/representative-position-1/candidates/danica-noble#M-01
+  headline: Raised $181,413 and spent $154,867 (2026 election year, record updated Oct 13, 2026)
+  statement: 'The Public Disclosure Commission''s campaign finance summary for the 2026 election year lists, for Danica Noble (state representative, LEG DISTRICT 32 - HOUSE, position 1), in the record last updated October 13, 2026: $181,412.56 in contributions, $7,500.00 in loans, and $154,866.86 in expenditures. It also lists $220.51 in independent expenditures by others supporting the candidate and $0.00 opposing the candidate.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://data.wa.gov/resource/3h9x-7bvm.json?$where=election_year%3D%272026%27%20AND%20filer_type%3D%27CA%27&$limit=50000
+  source_title: 'Washington Public Disclosure Commission: Campaign Finance Summary, 2026 candidates (data.wa.gov dataset 3h9x-7bvm)'
+  source_kind: document
+  sha256: f7946f6715074954e86bfc8c2fd0f42053f7b84619b12dc498db4ee5ca381870
+  archive_url: null
+  event_date: '2026-10-13'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'From the PDC''s Campaign Finance Summary (https://data.wa.gov/d/3h9x-7bvm), downloaded 2026-10-18 through the data.wa.gov API (sha256 is of the downloaded JSON). The dataset says each candidate record "covers all activity of the campaign for the given election year." Matched by office, jurisdiction, position, and last name (first name too when needed). The candidate''s PDC registration: https://my.pdc.wa.gov/registration/public/-/#/public/registration/68329.'
 endorsements: []
 running_on:
-  policy_proposals: []
+  policy_proposals:
+  - id: wa/districts/legislative-district-32/elections/2026-11-03/representative-position-1/candidates/danica-noble#O-01
+    headline: Cost of living, school funding, and AI
+    statement: 'Campaign website: "In Olympia, I’ll work to lower the cost of living, fully fund public education, and make technology like AI work for people, not billionaires."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.electdanica.com/
+    source_title: Home | Elect Danica Noble
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: wa/districts/legislative-district-32/elections/2026-11-03/representative-position-1/candidates/danica-noble#O-02
+    headline: Corporate accountability and online child safety
+    statement: 'Campaign website: "I will focus on holding companies (and the government) accountable, encouraging innovation, and protecting kids online."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.electdanica.com/
+    source_title: Home | Elect Danica Noble
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
   attack_messaging: []
   contested_claims: []
 mappings: []

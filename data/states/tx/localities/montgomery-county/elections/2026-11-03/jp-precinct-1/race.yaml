@@ -1,0 +1,40 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Justice of the Peace, Precinct 1
+office_type: justice-of-the-peace
+election_date: '2026-11-03'
+detail: basic
+area: montgomery-county/jp-1
+sources:
+- id: tx/localities/montgomery-county/elections/2026-11-03/jp-precinct-1/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Montgomery County Elections'' sample ballot for the November 3, 2026 joint election lists "Justice of the Peace, Precinct No. 1" on page 2, with these candidates: Scott Carson (REP); John A. Lagway, Jr. (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://elections.mctx.org/Samples/GEN110326/paper.pdf
+  source_title: 'Montgomery County Elections: Sample Ballot, November 3, 2026 Joint Election, Montgomery County, Texas (master sample ballot) (page 2)'
+  source_kind: document
+  sha256: b4040f7eb585b3c551a5a0d3cda80e6cb6c86cdac800e6e77b097f8da4e1437e
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's master sample ballot, which its sample ballot page describes as "the master sample ballot for all elections which we will be conducting in the November 3, 2026 Joint Election." Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/montgomery-county/elections/2026-11-03/jp-precinct-1/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Montgomery County: Justice of the Peace Precinct 1), checked on October 19, 2026, lists "Judge Wayne L. Mack" as holding this office; none of the candidates in this race is listed as the current officeholder. It lists "Justice of the Peace Precinct 1 / Judge Wayne L. Mack".'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.mctx.org/departments/departments_g_-_j/justice_of_the_peace_precinct_1/index.php
+  source_title: 'Montgomery County: Justice of the Peace Precinct 1'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: laura-perez-reyes
+name: Laura Perez-Reyes
+incumbent: true
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/district-clerk/candidates/laura-perez-reyes#M-01
+  headline: Raised $0 and had $0 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, received by Cameron County on Jul 14, 2026: $0.00 in total political contributions, $0.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/fr/FINANCE%20REPORTS/2026/06%20July%2015/O-P/PEREZ-REYES%20LAURA.pdf
+  source_title: 'Cameron County: campaign finance report, MS. LAURA PEREZ-REYES (received Jul 14, 2026)'
+  source_kind: document
+  sha256: e4572741b9d1bd93d8821ad20688241d042eb22fe7513754e4e4fbd5e991f5a3
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in Cameron County Elections Department''s campaign finance file tree (https://www.cameroncountytx.gov/elections/wp-content/fr/) as filed by "MS. LAURA PEREZ-REYES" (July 15 (semiannual); separator: ''SEMI-ANNUAL REPORT JULY 15, 2026''); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Not yet archived on the Wayback Machine. Reading note: Office held/sought: Cameron County District Clerk.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

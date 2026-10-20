@@ -1,0 +1,65 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: breanne-barnes
+name: Breanne Barnes
+incumbent: true
+ballot_party: null
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/canutillo-isd/elections/2026-11-03/trustees-at-large/candidates/breanne-barnes#O-01
+    headline: District transparency and accountability
+    statement: 'Campaign website: "We need to guarantee transparency and accountability from the top down."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://breannebarnes.com/about
+    source_title: Breanne Barnes for CISD
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/canutillo-isd/elections/2026-11-03/trustees-at-large/candidates/breanne-barnes#O-02
+    headline: Partnering with parents
+    statement: 'Campaign website: "Parental rights need to be honored and respected at all times, and we need to partner with them for a quality education for all students."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://breannebarnes.com/about
+    source_title: Breanne Barnes for CISD
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/canutillo-isd/elections/2026-11-03/trustees-at-large/candidates/breanne-barnes#O-03
+    headline: Teacher classroom autonomy
+    statement: 'Campaign website: "I saw the lack of autonomy that teachers had over their own classrooms. We need to return to that."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://breannebarnes.com/about
+    source_title: Breanne Barnes for CISD
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

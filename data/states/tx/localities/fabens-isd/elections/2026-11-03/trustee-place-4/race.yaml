@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Fabens ISD Trustee, Place 4
+office_type: school-trustee
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/fabens-isd/elections/2026-11-03/trustee-place-4/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The El Paso County Elections Department''s sample ballot for the November 3, 2026 general and special election lists "Fabens Independent School District Board of Trustees, Place 4" on page 1, with these candidates: Julieta Sepulveda Ramirez; Raymundo Calzadias.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/818/original/7._Fabens_ISD_Ballot.pdf?1789660550
+  source_title: 'El Paso County Elections Department: Sample Ballot, November 3, 2026 General and Special Election, El Paso County, Texas: Fabens ISD (page 1)'
+  source_kind: document
+  sha256: ec0ebaba8033aedda41ea6e6b00d2007ae8dcb259e4fb21f67075a3fcfb95162
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the sample ballots the county lists under "Sample Ballots" on its Current Election page (https://epcountyvotestx.gov/voter-information/current-election), one per jurisdiction. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/fabens-isd/elections/2026-11-03/trustee-place-4/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Board Elections - Fabens Independent School District), checked on October 19, 2026, shows that Julieta Sepulveda Ramirez, a candidate in this race, currently holds this office. It reads: "Place IV Julieta Sepulveda Ramirez" It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.fabensisd.net/board-of-trustees/board-elections
+  source_title: Board Elections - Fabens Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null

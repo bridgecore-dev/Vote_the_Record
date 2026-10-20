@@ -1,0 +1,48 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: veronica-escobar
+name: Veronica Escobar
+incumbent: true
+ballot_party: DEM
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/us-house-16/elections/2026-11-03/us-representative/candidates/veronica-escobar#O-01
+    headline: Healthcare coverage
+    statement: 'Campaign website: "I believe healthcare is a human right. That’s why I support Medicare for All to guarantee every American has access to comprehensive, affordable care."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://veronicaescobar.com/issues/
+    source_title: 'Veronica Escobar campaign website: Issues'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-16/elections/2026-11-03/us-representative/candidates/veronica-escobar#O-02
+    headline: Immigration reform bill
+    statement: 'Campaign website: "The Dignity Act creates a pathway to legal status for long-term undocumented immigrants, protects Dreamers, expands legal pathways for workers and families, and improves how we process asylum claims."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://veronicaescobar.com/issues/
+    source_title: 'Veronica Escobar campaign website: Issues'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

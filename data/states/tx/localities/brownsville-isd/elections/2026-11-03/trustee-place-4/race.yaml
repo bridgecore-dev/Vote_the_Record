@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Brownsville ISD Trustee, Place 4
+office_type: school-trustee
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/brownsville-isd/elections/2026-11-03/trustee-place-4/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Cameron County Elections Department''s sample ballot for the November 3, 2026 general and special elections lists "Board of Trustees, Place 4" on page 12, with these candidates: Frank Ortiz; Cecy Noriega.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/09/26GCAMER_SAMPLE.pdf
+  source_title: 'Cameron County Elections Department: Sample Ballot, November 3, 2026 General and Special Elections, Cameron County, Texas (all ballots) (page 12)'
+  source_kind: document
+  sha256: d68a292fb6f1f0ea761af3a4456512dcc6d960f438fedc6d182d4c0d491721a4
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The county''s "All ballots for the November 3, 2026 General and Special Elections Sample Ballot" (https://www.cameroncountytx.gov/elections/index.php/sample-ballots-2/): every ballot style (142) in one PDF. Names and wording are from the PDF''s text layer, kept as printed (English text only); the page cited is the first style that carries the contest.'
+- id: tx/localities/brownsville-isd/elections/2026-11-03/trustee-place-4/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Board of Trustees | Brownsville ISD), checked on October 20, 2026, shows that Frank Ortiz, a candidate in this race, currently holds this office. It reads: "Frank Ortiz / Vice President / Position 4 / Term Expires 2026" It does not list the other candidates as holding this office. The district''s page numbers its trustee seats as positions; the ballot calls them places.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bisd.us/page/board-of-trustees
+  source_title: Board of Trustees | Brownsville ISD
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null

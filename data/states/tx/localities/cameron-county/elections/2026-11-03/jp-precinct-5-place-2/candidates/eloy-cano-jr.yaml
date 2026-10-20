@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: eloy-cano-jr
+name: Eloy Cano, Jr.
+incumbent: true
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/jp-precinct-5-place-2/candidates/eloy-cano-jr#M-01
+  headline: Raised $0 and had $0 on hand (Jan 1, 2025 - Jun 30, 2025)
+  statement: 'Campaign finance report covering Jan 1, 2025 - Jun 30, 2025, received by Cameron County on Aug 1, 2025: $0.00 in total political contributions, $0.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/fr/FINANCE%20REPORTS/2025/02%20July%2015/C-D/CANO%20ELOY.pdf
+  source_title: 'Cameron County: campaign finance report, Mr Eloy Cano JR (received Aug 1, 2025)'
+  source_kind: document
+  sha256: d985d075a24af92369cbd75d5b1f687118b24925ac500913ee89d09c1e67669d
+  archive_url: null
+  event_date: '2025-06-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in Cameron County Elections Department''s campaign finance file tree (https://www.cameroncountytx.gov/elections/wp-content/fr/) as filed by "Mr Eloy Cano JR" (July 15 (semiannual)); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Not yet archived on the Wayback Machine. Reading note: NOT a 2026-cycle report: no 2026 report for this filer is posted on the county site. Newest posted (folder ''2025/02 July 15''); election box lists 03/03/2026 Primary. All totals written as slashed zeros. Office held/sought: JP 5-2.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

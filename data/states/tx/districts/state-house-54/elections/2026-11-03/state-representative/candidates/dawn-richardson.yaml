@@ -1,0 +1,99 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: dawn-richardson
+name: Dawn Richardson
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/districts/state-house-54/elections/2026-11-03/state-representative/candidates/dawn-richardson#M-01
+  headline: Raised $12,041 and had $14,623 on hand (Jul 1 - Sep 30, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 30, 2026, filed Oct 5, 2026: $12,040.62 in total political contributions, $9,551.39 in total political expenditures, $14,623.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068482.PDF
+  source_title: 'Texas Ethics Commission: Williams-Richardson, Dawn T. (Mrs.), campaign finance report 101068482 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 67c3202091d5ba9dc7490694b335f69b0a6f8560c4ca860621ef66959eff62e1
+  archive_url: null
+  event_date: '2026-09-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101068482, form COH, TEC report type E30DAYBEF; filer ID 00087957 (Williams-Richardson, Dawn T. (Mrs.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by surname variant, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-20; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/state-house-54/elections/2026-11-03/state-representative/candidates/dawn-richardson#O-01
+    headline: Public school funding
+    statement: 'Campaign website: "I will continue to fight for money to fully fund our public schools up to the national average and beyond, giving parents true choice in education."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.dawn4texas.org/
+    source_title: HOME | Dawn Richardson Camp
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-54/elections/2026-11-03/state-representative/candidates/dawn-richardson#O-02
+    headline: Insurance regulation, Medicaid
+    statement: 'Campaign website: "We must regulate the insurance industry to reign in premiums and out of pocket costs and expand Medicaid for those who cannot get insurance through their place of work."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.dawn4texas.org/
+    source_title: HOME | Dawn Richardson Camp
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-54/elections/2026-11-03/state-representative/candidates/dawn-richardson#O-03
+    headline: Employer tax breaks
+    statement: 'Campaign website: "We need to expand Medicaid and eliminate tax breaks on companies with 100+ employees that don''t provide a living wage or benefits."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.dawn4texas.org/
+    source_title: HOME | Dawn Richardson Camp
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-54/elections/2026-11-03/state-representative/candidates/dawn-richardson#O-04
+    headline: Veterans exemption funding
+    statement: 'Campaign website: "State mandates such as the 100% Disabled Veteran property tax exemption needs to be fully funded by the state, and not passed to local communities fund."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.dawn4texas.org/
+    source_title: HOME | Dawn Richardson Camp
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

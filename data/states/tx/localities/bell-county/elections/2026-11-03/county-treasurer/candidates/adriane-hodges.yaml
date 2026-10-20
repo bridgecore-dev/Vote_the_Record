@@ -1,0 +1,82 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: adriane-hodges
+name: Adriane Hodges
+incumbent: false
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/bell-county/elections/2026-11-03/county-treasurer/candidates/adriane-hodges#M-01
+  headline: Raised $5,733 and had $1,740 on hand (Oct 15, 2025 - Dec 31, 2025)
+  statement: 'Campaign finance report covering Oct 15, 2025 - Dec 31, 2025, filed with Bell County on Jan 15, 2026: $5,732.83 in total political contributions, $8,442.52 in total political expenditures, $1,740.31 in contributions on hand at the end of the period, and $4,450.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Campaign%20Treasurer/2026/2026_Hodges_Adrian.pdf
+  source_title: 'Bell County: campaign finance report, Hodges, Adriane (filed Jan 15, 2026)'
+  source_kind: document
+  sha256: bcfa1715532c0d395483a5123cbfd1fcbb6d6e6ea42e6dfbe6fc6230b2bf6dd7
+  archive_url: null
+  event_date: '2025-12-31'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted on Bell County Elections Department's Campaign Treasury Postings page (https://www.bellcountytx.com/departments/elections/2026.php) as filed by "Hodges, Adriane" (Form C/OH (TEC cover sheet), January 15 semiannual); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Not yet archived on the Wayback Machine. The newest report posted for this candidate is the January 15, 2026 semiannual report.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/bell-county/elections/2026-11-03/county-treasurer/candidates/adriane-hodges#O-01
+    headline: Online county payments
+    statement: 'Campaign website: "We will work with the departments who don’t already collect payments to collect payments and provide an online payment portal for all of the county."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://adrianehodges.com/issues
+    source_title: Adriane Hodges for Treasurer
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/bell-county/elections/2026-11-03/county-treasurer/candidates/adriane-hodges#O-02
+    headline: Appointed county CPA
+    statement: 'Campaign website: "We will create an appointed CPA position that can run the accounting for the county."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://adrianehodges.com/issues
+    source_title: Adriane Hodges for Treasurer
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/bell-county/elections/2026-11-03/county-treasurer/candidates/adriane-hodges#O-03
+    headline: Eliminate Treasurer's office
+    statement: 'Campaign website: "After these three steps, we can eliminate the Treasurer’s office, save the taxpayers even more money, and let the commissioners hold the County CPA accountable."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://adrianehodges.com/issues
+    source_title: Adriane Hodges for Treasurer
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

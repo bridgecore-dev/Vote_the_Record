@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Canutillo ISD Trustee, At Large (2-Year Term)
+office_type: school-trustee
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/canutillo-isd/elections/2026-11-03/trustee-at-large-2-year/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The El Paso County Elections Department''s sample ballot for the November 3, 2026 general and special election lists "Canutillo Independent School District Board of Trustees District at Large, 2 Year Term" on page 1, with these candidates: Patsy Mendoza.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/823/original/4._Canutillo_ISD_Ballot.pdf?1789660550
+  source_title: 'El Paso County Elections Department: Sample Ballot, November 3, 2026 General and Special Election, El Paso County, Texas: Canutillo ISD (page 1)'
+  source_kind: document
+  sha256: 55ed75a08d024e0132d7419007c5a0d2a157c55b843b9d7409bf175de88d0ad9
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the sample ballots the county lists under "Sample Ballots" on its Current Election page (https://epcountyvotestx.gov/voter-information/current-election), one per jurisdiction. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/canutillo-isd/elections/2026-11-03/trustee-at-large-2-year/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Canutillo ISD 2026 School Board Election - Canutillo Independent School District), checked on October 19, 2026, lists "Sergio Martinez" as holding this office; none of the candidates in this race is listed as the current officeholder. It reads: "One unexpired, two-year term (position currently held by Trustee Sergio Martinez)."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.canutillo-isd.org/school-board/election
+  source_title: Canutillo ISD 2026 School Board Election - Canutillo Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null

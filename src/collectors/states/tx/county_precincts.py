@@ -18,7 +18,8 @@ Sources (all official, all public):
 
 precincts.yaml is exact: each precinct's districts come straight from the county layer.
 zips.yaml is approximate: both layers are rasterized on a ~110 m grid, and a precinct counts
-for a ZIP when it covers at least MIN_SHARE of the ZIP's grid cells inside the county.
+for a ZIP when it covers at least MIN_SHARE of the ZIP's grid cells inside the county, or when at
+least PCT_IN_ZIP of the precinct lies in the ZIP.
 When a ZIP's precincts fall in different districts of the same kind, those districts are
 written as a nested list ("depends on your address").
 
@@ -137,6 +138,47 @@ TLC_H2316 = ("https://data.capitol.texas.gov/dataset/71af633c-21bf-42cf-ad48-4fe
              "a4d3230f-47f2-4253-85f3-51a6c3c9ad0a/download/planh2316.zip")
 TLC_S2168 = ("https://data.capitol.texas.gov/dataset/70836384-f10c-423d-a36e-748d7e000872/resource/"
              "8247dbc6-b942-4a29-813c-1ebc603a7236/download/plans2168.zip")
+TLC_PRECINCTS_26 = ("https://data.capitol.texas.gov/dataset/d04c72b9-16c4-4ab2-8c6d-c666d41e04b7/resource/"
+                    "33ec5b30-ee4d-424f-9769-57b87cb5e311/download/precincts26p.zip")
+EL_PASO_COMMISSIONER = "https://maps.epcounty.com/arcgis/rest/services/Infrastructure_Map/MapServer/8"
+EL_PASO_JP = "https://maps.epcounty.com/arcgis/rest/services/Infrastructure_Map/MapServer/9"
+EL_PASO_COUNCIL = "https://gis.elpasotexas.gov/arcgis/rest/services/RepresentativeDistricts/MapServer/0"
+EL_PASO_LOCAL_AREAS = {
+    "city-of-el-paso": (PLACE_LAYER, "4824000"),
+    "village-of-vinton": (PLACE_LAYER, "4875668"),
+    "canutillo-isd": (SCHOOL_LAYER, "4812780"),
+    "fabens-isd": (SCHOOL_LAYER, "4818900"),
+    "socorro-isd": (SCHOOL_LAYER, "4840710"),
+    "tornillo-isd": (SCHOOL_LAYER, "4842990"),
+    "ysleta-isd": (SCHOOL_LAYER, "4846680"),
+    "lower-valley-water-district": (TCEQ_MUD, "5505000"),
+    "el-paso-county-wcid-4": (TCEQ_WCID, "2858000"),
+}
+CAMERON_COMMISSIONER = "https://services5.arcgis.com/p65BQlkv8na0Y5l9/arcgis/rest/services/CC_CommPcts_2022_/FeatureServer/0"
+CAMERON_JP = "https://services5.arcgis.com/p65BQlkv8na0Y5l9/arcgis/rest/services/JP_Constables/FeatureServer/0"
+CAMERON_LOCAL_AREAS = {
+    "city-of-brownsville": (PLACE_LAYER, "4810768"),
+    "city-of-los-fresnos": (PLACE_LAYER, "4844116"),
+    "city-of-south-padre-island": (PLACE_LAYER, "4869140"),
+    "brownsville-isd": (SCHOOL_LAYER, "4811680"),
+    "la-feria-isd": (SCHOOL_LAYER, "4826040"),
+    "los-fresnos-cisd": (SCHOOL_LAYER, "4828290"),
+    "santa-maria-isd": (SCHOOL_LAYER, "4839330"),
+    "laguna-madre-water-district": (TCEQ_MUD, "5300700"),
+}
+BELL_GIS = "https://services3.arcgis.com/jjDKBbyoUNyhuTYf/arcgis/rest/services"
+BELL_COMMISSIONER = BELL_GIS + "/Commissioners_Shapefiles/FeatureServer/0"
+BELL_JP = BELL_GIS + "/Bell_County_Justice_of_the_Peace_Districts/FeatureServer/0"
+BELL_LOCAL_AREAS = {
+    "city-of-killeen": (PLACE_LAYER, "4839148"),
+    "city-of-nolanville": (PLACE_LAYER, "4851708"),
+    "city-of-temple": (PLACE_LAYER, "4872176"),
+    "bartlett-isd": (SCHOOL_LAYER, "4809540"),
+    "copperas-cove-isd": (SCHOOL_LAYER, "4815240"),
+    "florence-isd": (SCHOOL_LAYER, "4819320"),
+    "holland-isd": (SCHOOL_LAYER, "4823370"),
+    "solana-ranch-mud-1": (TCEQ_MUD, "7576132"),
+}
 BEXAR_LOCAL_AREAS = {
     "city-of-china-grove": (PLACE_LAYER, "4814716"),
     "city-of-converse": (PLACE_LAYER, "4816468"),
@@ -232,7 +274,20 @@ TARRANT_LOCAL_AREAS = {
     "eagle-mountain-saginaw-isd": (SCHOOL_LAYER, "4817700"),
     "keller-isd": (SCHOOL_LAYER, "4825260"),
 }
-KC_SERVICE = "https://gismaps.kingcounty.gov/arcgis/rest/services/Districts/KingCo_Electoral_Districts/MapServer"
+MONTGOMERY_LAYER = ("https://services1.arcgis.com/PRoAPGnMSUqvTrzq/arcgis/rest/services/Elections_Precincts_2026/"
+                    "FeatureServer/0")
+MONTGOMERY_LOCAL_AREAS = {
+    "city-of-houston": (PLACE_LAYER, "4835000"),
+    "city-of-roman-forest": (PLACE_LAYER, "4863044"),
+    "conroe-isd": (SCHOOL_LAYER, "4815000"),
+    "new-caney-isd": (SCHOOL_LAYER, "4832400"),
+    "tomball-isd": (SCHOOL_LAYER, "4842960"),
+    "willis-isd": (SCHOOL_LAYER, "4845900"),
+    "montgomery-county-mud-94": (TCEQ_MUD, "5858170"),
+    "montgomery-county-mud-187": (TCEQ_MUD, "5857709"),
+    "montgomery-county-mud-228": (TCEQ_MUD, "4287793"),
+}
+KC_SERVICE ="https://gismaps.kingcounty.gov/arcgis/rest/services/Districts/KingCo_Electoral_Districts/MapServer"
 KC_LAYER = KC_SERVICE + "/0"  # Voting precincts
 KC_LOCAL_AREAS = {
     "city-of-bothell": (PLACE_LAYER, "5307380"),
@@ -326,6 +381,95 @@ COUNTIES = {
                     "district maps named in precincts#S-05."),
         "field_note": ("Bexar County's own congressional layer still shows the pre-2025 districts (it includes District 28), "
                        "so congressional districts come from the Texas Legislative Council's PLANC2333 shapefile instead."),
+    },
+    "el-paso-county": {
+        "name": "El Paso County", "item": TLC_PRECINCTS_26, "layer": TLC_PRECINCTS_26, "precinct_field": "PREC",
+        # El Paso County redrew its precincts for 2026 (236 precincts) and publishes them only as PDFs; the Texas
+        # Legislative Council's 2026 precinct shapefile has them (county code 141). The city's precinct layer is the
+        # 2024 map. Districts come from overlays: state plans for Congress and the State House, the county's own
+        # commissioner and JP layers, and the city's council (representative) districts adopted in 2022.
+        "precinct_shapefile": (TLC_PRECINCTS_26, "PCTKEY", "141"),
+        "fields": {kind: kind for kind in ("us-house", "state-house", "commissioner", "jp", "council")},
+        "patterns": {"council": "city-of-el-paso/district-{}"},
+        "partial": {"council"},  # council districts cover only the city
+        "values": {"jp": lambda v: v.split("-")[0]},  # the JP layer draws Precinct 6 (two places) as "6-1" and "6-2"
+        "overlays": {
+            "us-house": ("shapefile", TLC_C2333, "District", "Texas Legislative Council: PLANC2333 (congressional districts "
+                         "enacted 2025, 89th Legislature, 2nd C.S.)"),
+            "state-house": ("shapefile", TLC_H2316, "District", "Texas Legislative Council: PLANH2316 (State House "
+                            "districts, 2023-2026)"),
+            "commissioner": ("arcgis", EL_PASO_COMMISSIONER, "COMM", "El Paso County GIS: Commissioner Precincts"),
+            "jp": ("arcgis", EL_PASO_JP, "JPs", "El Paso County GIS: Justice of the Peace Precincts"),
+            "council": ("arcgis", EL_PASO_COUNCIL, "DISTRICT", "City of El Paso GIS: Representative Districts"),
+        },
+        "everywhere": ["court-of-appeals-8"],  # Gov't Code 22.201(i)
+        "local_areas": EL_PASO_LOCAL_AREAS,
+        "headline": "El Paso County voting precincts (2026)",
+        "statement": ("The Texas Legislative Council's \"2026 Primary Election Voting Precincts\" shapefile, compiled from "
+                      "county election officials and the Secretary of State, gives El Paso County's 236 precincts "
+                      "(0001-0236) and their outlines, matching the county's 2026 precinct map."),
+        "title": "Texas Legislative Council: 2026 Primary Election Voting Precincts (precincts26p.zip)",
+        "credits": ("Only precinct numbers and outlines are used; each precinct's districts were assigned by overlaying "
+                    "the district maps named in precincts#S-05."),
+        "field_note": ("The City of El Paso's congressional layer still shows the pre-2025 districts, so congressional "
+                       "districts come from the Texas Legislative Council's PLANC2333 shapefile."),
+    },
+    "bell-county": {
+        "name": "Bell County", "item": TLC_PRECINCTS_26, "layer": TLC_PRECINCTS_26, "precinct_field": "PREC",
+        # Bell County's 72 precincts come from the Texas Legislative Council's 2026 precinct shapefile (county code 27),
+        # matching the county's own precinct layer (72 polygons, field EP). Districts come from overlays: the state
+        # plans for Congress and the State House, and the county's commissioner and JP layers. Every Bell precinct is
+        # in State Senate District 24 (the Council's Precincts26P_Districts table).
+        "precinct_shapefile": (TLC_PRECINCTS_26, "PCTKEY", "27"),
+        "fields": {kind: kind for kind in ("us-house", "state-house", "commissioner", "jp")},
+        "overlays": {
+            "us-house": ("shapefile", TLC_C2333, "District", "Texas Legislative Council: PLANC2333 (congressional districts "
+                         "enacted 2025, 89th Legislature, 2nd C.S.)"),
+            "state-house": ("shapefile", TLC_H2316, "District", "Texas Legislative Council: PLANH2316 (State House "
+                            "districts, 2023-2026)"),
+            "commissioner": ("arcgis", BELL_COMMISSIONER, "PRECINCT", "Bell County GIS: Commissioners Precincts"),
+            "jp": ("arcgis", BELL_JP, "DISTRICTN", "Bell County GIS: Justice of the Peace Districts"),
+        },
+        "everywhere": ["court-of-appeals-3", "state-senate-24"],  # Gov't Code 22.201(d); plan S2168 puts all of Bell in SD 24
+        "local_areas": BELL_LOCAL_AREAS,
+        "headline": "Bell County voting precincts (2026)",
+        "statement": ("The Texas Legislative Council's \"2026 Primary Election Voting Precincts\" shapefile, compiled from "
+                      "county election officials and the Secretary of State, gives Bell County's 72 precincts and their "
+                      "outlines, matching the county's own precinct layer."),
+        "title": "Texas Legislative Council: 2026 Primary Election Voting Precincts (precincts26p.zip)",
+        "credits": ("Only precinct numbers and outlines are used; each precinct's districts were assigned by overlaying "
+                    "the district maps named in precincts#S-05."),
+        "field_note": ("Bell County's precinct layer lists only precinct numbers, so every district comes from an overlay "
+                       "or, for State Senate District 24 and the 3rd Court of Appeals, covers the whole county."),
+    },
+    "cameron-county": {
+        "name": "Cameron County", "item": TLC_PRECINCTS_26, "layer": TLC_PRECINCTS_26, "precinct_field": "PREC",
+        # Cameron County's 102 precincts for 2026 come from the Texas Legislative Council's 2026 precinct shapefile
+        # (county code 61), matching the county elections office's 2026_Precincts layer (1-102). The precinct layers
+        # carry no district fields, so districts come from overlays: the State House plan and the county's own
+        # commissioner and JP layers (2022 plans). Every Cameron precinct is in Congressional District 34 and SBOE
+        # District 2 (the Council's Precincts26P_Districts table).
+        "precinct_shapefile": (TLC_PRECINCTS_26, "PCTKEY", "61"),
+        "fields": {kind: kind for kind in ("us-house", "state-house", "commissioner", "jp")},
+        "overlays": {
+            "us-house": ("shapefile", TLC_C2333, "District", "Texas Legislative Council: PLANC2333 (congressional districts "
+                         "enacted 2025, 89th Legislature, 2nd C.S.)"),
+            "state-house": ("shapefile", TLC_H2316, "District", "Texas Legislative Council: PLANH2316 (State House "
+                            "districts, 2023-2026)"),
+            "commissioner": ("arcgis", CAMERON_COMMISSIONER, "COMM_PCT", "Cameron County GIS: Commissioner Precincts (2022)"),
+            "jp": ("arcgis", CAMERON_JP, "JP_PCT", "Cameron County GIS: Justice of the Peace and Constable Precincts (2022)"),
+        },
+        "everywhere": ["court-of-appeals-13", "sboe-2"],  # Gov't Code 22.201(n); plan E2106 puts all of Cameron in SBOE 2
+        "local_areas": CAMERON_LOCAL_AREAS,
+        "headline": "Cameron County voting precincts (2026)",
+        "statement": ("The Texas Legislative Council's \"2026 Primary Election Voting Precincts\" shapefile, compiled from "
+                      "county election officials and the Secretary of State, gives Cameron County's 102 precincts "
+                      "(0001-0102) and their outlines, matching the county elections office's 2026 precinct layer."),
+        "title": "Texas Legislative Council: 2026 Primary Election Voting Precincts (precincts26p.zip)",
+        "credits": ("Only precinct numbers and outlines are used; each precinct's districts were assigned by overlaying "
+                    "the district maps named in precincts#S-05."),
+        "field_note": ("Cameron County's precinct layers list only precinct numbers, so every district comes from an "
+                       "overlay or, for SBOE District 2 and the 13th Court of Appeals, covers the whole county."),
     },
     "collin-county": {
         "name": "Collin County", "item": COLLIN_ITEM, "layer": COLLIN_LAYER, "precinct_field": "PRECINCT",
@@ -431,6 +575,21 @@ COUNTIES = {
                     "(\"Districts in Election\")."),
         "field_note": "The layer's Congress field gives the districts listed for this election under the 2025 map.",
     },
+    "montgomery-county": {
+        "name": "Montgomery County", "item": MONTGOMERY_LAYER, "layer": MONTGOMERY_LAYER, "precinct_field": "PCTLBL",
+        "fields": {"us-house": "USRepNm", "state-house": "STRepNm", "state-senate": "STSenNm", "sboe": "STBOE",
+                   "commissioner": "CPNm", "jp": "JPNm"},
+        "everywhere": ["court-of-appeals-9"],  # Gov't Code 22.201(j)
+        "local_areas": MONTGOMERY_LOCAL_AREAS,
+        "headline": "Montgomery County voting precincts and their districts (2026)",
+        "statement": ("Montgomery County's GIS layer \"Elections Precincts 2026\" (121 precincts), published on the county's "
+                      "open data site with the data source \"MCTX ELECTIONS\" and effective date \"Jan 2026\", lists each "
+                      "precinct's congressional, State Senate, State House, State Board of Education, Commissioners Court "
+                      "and justice of the peace districts."),
+        "title": "Montgomery County GIS: Elections Precincts 2026",
+        "credits": "Only precinct numbers, outlines and district numbers from the layer are used.",
+        "field_note": "",
+    },
     "king-county": {
         "name": "King County", "item": KC_LAYER, "layer": KC_LAYER, "precinct_field": "votdst", "scotus": False,
         # The precinct layer lists precinct numbers only; districts come from the county's own district layers.
@@ -467,7 +626,8 @@ ARCHIVES = {
 }
 SURE_SHARE = 0.99  # a precinct or ZIP at least this much inside an area is treated as fully inside
 STEP = 0.001      # grid step in degrees (~110 m north-south)
-MIN_SHARE = 0.01  # a precinct must cover 1% of a ZIP's in-county cells to count for that ZIP
+MIN_SHARE = 0.01  # a precinct must cover 1% of a ZIP's in-county cells to count for that ZIP...
+PCT_IN_ZIP = 0.5  # ...or have at least half of its own cells in that ZIP
 MIN_CELLS = 5     # ZIPs with fewer in-county cells than this are left out (map-edge slivers)
 SIMPLIFY = 0.00002  # precinct outlines for the address lookup: ~2 m Douglas-Peucker tolerance
 
@@ -814,9 +974,17 @@ def main(argv=None) -> int:
         on_ballot.add(race.get("area") or default)
 
     print("downloading county precinct layer...", file=sys.stderr)
-    fields = pid if cfg.get("overlays") else ",".join([pid, *cfg["fields"].values()])
-    pct = paged(cfg["layer"], {"where": "1=1", "outFields": fields, "returnGeometry": "true",
-                               "outSR": 4326, "geometryPrecision": 6, "f": "geojson"}, args.cache, "vpct", 200)
+    if cfg.get("precinct_shapefile"):  # a statewide precinct shapefile (Texas Legislative Council), filtered to the county
+        url, key_field, prefix = cfg["precinct_shapefile"]
+        # keys are the county code plus a 4-digit precinct ("27" alone would also match counties 271-279)
+        pct = read_shapefile(download(url, args.cache, url.rsplit("/", 1)[1]), key_field,
+                             keep=lambda v: v.startswith(prefix) and len(v) == len(prefix) + 4)
+        for f in pct:
+            f["properties"] = {pid: f["properties"][key_field][len(prefix):]}
+    else:
+        fields = pid if cfg.get("overlays") else ",".join([pid, *cfg["fields"].values()])
+        pct = paged(cfg["layer"], {"where": "1=1", "outFields": fields, "returnGeometry": "true",
+                                   "outSR": 4326, "geometryPrecision": 6, "f": "geojson"}, args.cache, "vpct", 200)
     attrs = [f["properties"] for f in pct]
     for f in pct:  # precinct numbers as integers (Travis stores them as text)
         f["properties"][pid] = precinct_id(f["properties"][pid])
@@ -853,6 +1021,9 @@ def main(argv=None) -> int:
                 feats = paged(url, {"where": "1=1", "outFields": field, "returnGeometry": "true", "outSR": 4326,
                                     "geometryPrecision": 6, "f": "geojson"}, args.cache, f"ov-{kind}", 200)
                 data = b"".join((args.cache / f).read_bytes() for f in sorted(p.name for p in args.cache.glob(f"ov-{kind}-*.json")))
+            if kind in cfg.get("values", {}):  # e.g. El Paso's JP layer draws Precinct 6 as "6-1" and "6-2"
+                for f in feats:
+                    f["properties"][field] = cfg["values"][kind](f["properties"][field])
             raw_overlay.append(data)
             used.append(f"{title} ({url})")
             got = overlay(pgrid, feats, field, x0, y0, cols, rows)
@@ -865,6 +1036,15 @@ def main(argv=None) -> int:
                     # Split between districts: keep every district covering at least MIN_SHARE, as "depends on address".
                     _, _, total, votes = fine_assign(f, feats, field, with_votes=True)
                     parts = sorted((v for v in votes if v is not None and votes[v] / total >= MIN_SHARE), key=str)
+                    if kind in cfg.get("partial", ()):
+                        # A layer that covers only part of the county (e.g. a city's council districts): a precinct
+                        # wholly outside it has no district; one partly outside depends on the address.
+                        if not parts:
+                            d = None
+                            f["properties"][kind] = d
+                            continue
+                        if votes.get(None, 0) / total >= MIN_SHARE:
+                            parts = parts + [None]
                     flagged.append((p, kind, d, share))
                     split_kinds.setdefault(p, {})[kind] = parts
                 f["properties"][kind] = d
@@ -879,6 +1059,10 @@ def main(argv=None) -> int:
             if p and z:
                 counts.setdefault(z, {}).setdefault(p, 0)
                 counts[z][p] += 1
+    pct_cells: dict[int, int] = {}
+    for per in counts.values():
+        for p, n in per.items():
+            pct_cells[p] = pct_cells.get(p, 0) + n
 
     # Local areas (cities): rasterize each outline and measure how much of every precinct and
     # ZIP falls inside it. Mostly inside -> the area; partly inside -> a "maybe" entry.
@@ -937,9 +1121,9 @@ def main(argv=None) -> int:
     by_pct = {a[pid]: areas_for(a, on_ballot, args.county) for a in attrs}
     for p, kinds in split_kinds.items():  # precincts split between districts (overlay counties only)
         for kind, parts in kinds.items():
-            areas = [areas_for({kind: v}, on_ballot, args.county).get(kind) for v in parts]
+            areas = [areas_for({kind: v}, on_ballot, args.county).get(kind) for v in parts if v is not None]
             areas = sorted({a for a in areas if a})
-            if len(areas) > 1:
+            if len(areas) > 1 or (areas and None in parts):  # partly outside the layer: depends on the address
                 by_pct[p][kind] = areas
             elif areas:
                 by_pct[p][kind] = areas[0]
@@ -951,7 +1135,9 @@ def main(argv=None) -> int:
         total = sum(per.values())
         if total < MIN_CELLS:
             continue
-        kept = [p for p, n in per.items() if n / total >= MIN_SHARE]
+        # A precinct counts for a ZIP when it covers MIN_SHARE of the ZIP, or when most of the precinct lies in the ZIP
+        # (a small city precinct inside a large, mostly empty ZIP).
+        kept = [p for p, n in per.items() if n / total >= MIN_SHARE or n / pct_cells[p] >= PCT_IN_ZIP]
         kinds: dict[str, set[str]] = {}
         for p in kept:
             for kind, area in by_pct[p].items():
@@ -966,13 +1152,20 @@ def main(argv=None) -> int:
                 entry.append(values)
         zips[z] = entry + local_zip.get(z, [])
 
-    raw_pct = b"".join((args.cache / f).read_bytes() for f in sorted(p.name for p in args.cache.glob("vpct-*.json")))
     raw_zcta = b"".join((args.cache / f).read_bytes() for f in sorted(p.name for p in args.cache.glob("zcta-*.json")))
     fid = ballot_dir.relative_to(repo_states).as_posix()
-    county_src = source(
-        f"{fid}/precincts#S-01", cfg["headline"], cfg["statement"], cfg["item"], cfg["title"], "page", None,
-        f"Read from {cfg['layer']} on {TODAY}; SHA-256 of the downloaded query responses: {sha(raw_pct)}. "
-        + cfg["credits"])
+    if cfg.get("precinct_shapefile"):
+        url = cfg["precinct_shapefile"][0]
+        raw_pct = (args.cache / url.rsplit("/", 1)[1]).read_bytes()
+        county_src = source(
+            f"{fid}/precincts#S-01", cfg["headline"], cfg["statement"], url, cfg["title"], "document", sha(raw_pct),
+            f"Downloaded on {TODAY}; filtered to {cfg['name']}. " + cfg["credits"])
+    else:
+        raw_pct = b"".join((args.cache / f).read_bytes() for f in sorted(p.name for p in args.cache.glob("vpct-*.json")))
+        county_src = source(
+            f"{fid}/precincts#S-01", cfg["headline"], cfg["statement"], cfg["item"], cfg["title"], "page", None,
+            f"Read from {cfg['layer']} on {TODAY}; SHA-256 of the downloaded query responses: {sha(raw_pct)}. "
+            + cfg["credits"])
     scotus_src = None if not cfg.get("scotus", True) else source(
         f"{fid}/precincts#S-02", "The 2025 congressional map (plan C2333) is in use for 2026",
         "On December 4, 2025, the U.S. Supreme Court granted Texas's application to stay the November 18, 2025 "
@@ -988,7 +1181,7 @@ def main(argv=None) -> int:
         f"Read on {TODAY}; SHA-256 of the downloaded query responses: {sha(raw_zcta)}. ZIP-to-district links "
         f"were computed by overlaying these areas on the county precinct layer on a {STEP}-degree grid; a "
         f"precinct counts for a ZIP when it covers at least {MIN_SHARE:.0%} of the ZIP's grid cells in "
-        f"{cfg['name']}. Results are approximate; the precinct lookup is exact.")
+        f"{cfg['name']}, or when at least {PCT_IN_ZIP:.0%} of the precinct lies in the ZIP. Results are approximate; the precinct lookup is exact.")
     zip_county = dict(county_src, id=f"{fid}/zips#S-02")
     raw_places = b"".join((args.cache / f).read_bytes() for f in sorted(p.name for p in args.cache.glob("place-*.json")))
     raw_tceq = b"".join((args.cache / f).read_bytes() for f in sorted(p.name for p in args.cache.glob("tceq-*.json")))
