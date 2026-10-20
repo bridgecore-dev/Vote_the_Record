@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: tim-mcdonald
+name: Tim McDonald
+incumbent: null
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/smith-county/elections/2026-11-03/jp-precinct-3/candidates/tim-mcdonald#M-01
+  headline: Spent $8,911 and had $602 on hand (Jan 23, 2026 - Feb 21, 2026)
+  statement: 'Campaign finance report covering Jan 23, 2026 - Feb 21, 2026, received by Smith County on Feb 23, 2026: $8,911.21 in total political expenditures, $602.49 in contributions on hand at the end of the period, and $9,300.00 in outstanding loans. One handwritten digit of the total-contributions amount is not certain.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=6074&repo=r-927d42fb
+  source_title: 'Smith County: campaign finance report, Mr. Timothy R. McDonald (received Feb 23, 2026)'
+  source_kind: document
+  sha256: f8bf796a484a2c1873d75013dceb8c59598fef38d750e59167aad348d7f0a83e
+  archive_url: null
+  event_date: '2026-02-21'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted in Smith County's campaign filings on its Laserfiche portal (https://portal.laserfiche.com/Portal/Browse.aspx?id=1456&repo=r-927d42fb) as filed by "Mr. Timothy R. McDonald" (8th day before election (Primary 03/03/2026)); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Not yet archived on the Wayback Machine. The newest report posted for this candidate is the 8-day-before-primary report (March 3, 2026 primary).
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

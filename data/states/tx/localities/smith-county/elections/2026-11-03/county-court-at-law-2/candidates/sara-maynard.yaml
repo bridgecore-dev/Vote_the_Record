@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: sara-maynard
+name: Sara Maynard
+incumbent: null
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/smith-county/elections/2026-11-03/county-court-at-law-2/candidates/sara-maynard#M-01
+  headline: Raised $59,120 and had $27,169 on hand (Jul 1, 2025 - Dec 31, 2025)
+  statement: 'Campaign finance report covering Jul 1, 2025 - Dec 31, 2025, received by Smith County on Jan 20, 2026: $59,120.27 in total political contributions, $31,722.75 in total political expenditures, $27,169.47 in contributions on hand at the end of the period, and $12,190.36 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=2615&repo=r-927d42fb
+  source_title: 'Smith County: campaign finance report, Ms. Sara K. Maynard (received Jan 20, 2026)'
+  source_kind: document
+  sha256: 1627608c4decffb776de76e1c629f60171f3f03f57996f3058bcfe9a5bdc606d
+  archive_url: null
+  event_date: '2025-12-31'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted in Smith County's campaign filings on its Laserfiche portal (https://portal.laserfiche.com/Portal/Browse.aspx?id=1456&repo=r-927d42fb) as filed by "Ms. Sara K. Maynard" (July 15 box marked (Form JC/OH); period is 07/01/2025-12/31/2025); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Not yet archived on the Wayback Machine. The newest report posted for this candidate is the semiannual report for July 1 - December 31, 2025 (the form's July 15 box is marked).
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

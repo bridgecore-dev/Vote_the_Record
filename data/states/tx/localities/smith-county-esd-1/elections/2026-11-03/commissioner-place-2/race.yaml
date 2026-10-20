@@ -1,0 +1,24 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Smith County ESD No. 1 Commissioner, Place 2
+office_type: esd-commissioner
+election_date: '2026-11-03'
+area: smith-county-esd-1/district-2
+detail: basic
+sources:
+- id: tx/localities/smith-county-esd-1/elections/2026-11-03/commissioner-place-2/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Smith County Elections Administration''s sample ballot for the November 3, 2026 general and special election lists "Smith County Emergency Services District No. 1, Commissioner, Place 2" on page 2, with these candidates: Russ Thedford; Keith W. Johnson.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=10297&repo=r-927d42fb
+  source_title: 'Smith County Elections Administration: Publication Sample Ballot, November 3, 2026 General and Special Election, Smith County, Texas (page 2)'
+  source_kind: document
+  sha256: 6bf9b0b57c1b823005a913932e0c2a9824585e538bd90e77881cf2c6166489c4
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The county''s "2026-11 Publication Sample Ballot" on its Current Sample Ballots page (https://www.smith-county.com/396/Current-Sample-Ballots), served from the county''s Laserfiche portal: one ballot carrying every contest on any Smith County ballot (per-precinct ballots are posted beside it). Names and wording are from the PDF''s text layer, kept as printed (English text only). The ESD''s commissioner places are voted on by district: the county''s per-precinct sample ballots labeled "ESD 1 District 2" carry only this place, and the county''s election district layer gives each precinct piece its ESD fire district.'

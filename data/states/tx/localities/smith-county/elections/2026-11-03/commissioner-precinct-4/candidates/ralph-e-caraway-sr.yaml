@@ -1,0 +1,88 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: ralph-e-caraway-sr
+name: Ralph E. Caraway, Sr.
+incumbent: null
+ballot_party: DEM
+records:
+- id: tx/localities/smith-county/elections/2026-11-03/commissioner-precinct-4/candidates/ralph-e-caraway-sr#R-01
+  record_type: vote
+  headline: Voted yes on the 2026-27 county budget (2026)
+  result: Passed the Commissioners Court 3-1.
+  statement: 'As Commissioner for Precinct 4 on the Smith County Commissioners Court, voted AYE on adoption of the Fiscal Year 2027 budget at the September 15, 2026 meeting. The court''s signed "Order of the Commissioners Court of Smith County, Texas, Adoption of the FY27 Budget" records the motion by Commissioner Ralph Caraway, Sr., seconded by Commissioner J Scott Herod, and the record vote: Neal Franklin AYE, Christina Drewry NAY, John Moore ABSENT, J Scott Herod AYE, Ralph Caraway Sr. AYE.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=10957&dbid=0&repo=r-927d42fb
+  source_title: 'Smith County, Texas: Adopted Budget, Fiscal Year 2027 (County Auditor) (pages 7 and 9 of 191)'
+  source_kind: document
+  sha256: 6f5feb44412094007239fdc272c5d1fd399bf7545da49064a7b28088b4d2dc27
+  archive_url: null
+  event_date: '2026-09-15'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's adopted budget book on its Laserfiche portal (Auditor > Budgets). The court's approved minutes for this meeting are not posted online; the signed order printed in the budget book records each member's vote. The pages are scanned; the vote was read from the page images. Not yet archived on the Wayback Machine.
+- id: tx/localities/smith-county/elections/2026-11-03/commissioner-precinct-4/candidates/ralph-e-caraway-sr#R-02
+  record_type: vote
+  headline: Voted yes on the 2026 county property tax rate (2026)
+  result: Passed the Commissioners Court 3-1.
+  statement: 'As Commissioner for Precinct 4 on the Smith County Commissioners Court, voted AYE on the order adopting the 2026 property tax rate at the September 15, 2026 meeting. The court''s signed order records the motion "I move that the property tax rate be increased by the adoption of a tax rate of $0.374088 per $100, which is effectively a 4.59 percent increase in the tax rate," made by Commissioner Ralph Caraway, Sr. and seconded by Commissioner J Scott Herod, and the record vote on the tax rate order: Neal Franklin AYE, Christina Drewry NAY, John Moore ABSENT, J Scott Herod AYE, Ralph Caraway, Sr. AYE.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=10957&dbid=0&repo=r-927d42fb
+  source_title: 'Smith County, Texas: Adopted Budget, Fiscal Year 2027 (County Auditor) (pages 10 and 11 of 191)'
+  source_kind: document
+  sha256: 6f5feb44412094007239fdc272c5d1fd399bf7545da49064a7b28088b4d2dc27
+  archive_url: null
+  event_date: '2026-09-15'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's adopted budget book on its Laserfiche portal (Auditor > Budgets). The court's approved minutes for this meeting are not posted online; the signed order printed in the budget book records each member's vote. The pages are scanned; the vote was read from the page images. The order also records separate votes on the maintenance and operations component (same votes) and the debt-service component (all four members present AYE). Not yet archived on the Wayback Machine.
+- id: tx/localities/smith-county/elections/2026-11-03/commissioner-precinct-4/candidates/ralph-e-caraway-sr#R-03
+  record_type: vote
+  headline: Voted yes on the 2025-26 county budget (2025)
+  result: Passed the Commissioners Court 4-1.
+  statement: 'As Commissioner for Precinct 4 on the Smith County Commissioners Court, voted AYE on adoption of the 2026 budget at the September 9, 2025 meeting. The adopted budget''s cover statement reads: "Record vote for the adoption of the budget is: County Judge, Neal Franklin AYE; Commissioner Pct. 1, Christina Drewry NAY; Commissioner Pct. 2, John Moore AYE; Commissioner Pct. 3, J Scott Herod AYE; Commissioner Pct. 4, Ralph Caraway, Sr. AYE."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=1817&dbid=0&repo=r-927d42fb
+  source_title: 'Smith County, Texas: Adopted Budget, Fiscal Year 2025-2026 (County Auditor) (page 3 of 208)'
+  source_kind: document
+  sha256: d7ef99356287516a693404173b2b13b8382e243b6893857c7c9d032eeb579a6e
+  archive_url: null
+  event_date: '2025-09-09'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The county's adopted budget book on its Laserfiche portal (Auditor > Budgets). The court's approved minutes for this meeting are not posted online; the signed order printed in the budget book records each member's vote. Text PDF. Not yet archived on the Wayback Machine.
+funding:
+- id: tx/localities/smith-county/elections/2026-11-03/commissioner-precinct-4/candidates/ralph-e-caraway-sr#M-01
+  headline: Raised $0 and had $3,228 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, received by Smith County on Jul 9, 2026: $0.00 in total political contributions, $0.00 in total political expenditures, $3,227.71 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=7954&repo=r-927d42fb
+  source_title: 'Smith County: campaign finance report, Rev Ralph E Caraway Sr. (received Jul 9, 2026)'
+  source_kind: document
+  sha256: 6b82d429d3c53e2f7ce0d03b7896859dc909826c45073d786d3668de8626fba9
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted in Smith County's campaign filings on its Laserfiche portal (https://portal.laserfiche.com/Portal/Browse.aspx?id=1456&repo=r-927d42fb) as filed by "Rev Ralph E Caraway Sr." (July 15); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Not yet archived on the Wayback Machine.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

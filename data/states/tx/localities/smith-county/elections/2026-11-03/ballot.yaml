@@ -1,0 +1,71 @@
+# Contests on this ballot, in ballot order. complete: false until every contest is added.
+name: Smith County ballot
+election_date: '2026-11-03'
+lookup_url: https://www.smith-county.com/396/Current-Sample-Ballots
+complete: true
+sources:
+- id: tx/localities/smith-county/elections/2026-11-03/ballot#S-01
+  headline: Every contest on the sample ballot
+  statement: The Smith County Elections Administration's sample ballot for the November 3, 2026 general and special election lists every contest on this ballot.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=10297&repo=r-927d42fb
+  source_title: 'Smith County Elections Administration: Publication Sample Ballot, November 3, 2026 General and Special Election, Smith County, Texas'
+  source_kind: document
+  sha256: 6bf9b0b57c1b823005a913932e0c2a9824585e538bd90e77881cf2c6166489c4
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The county''s "2026-11 Publication Sample Ballot" on its Current Sample Ballots page (https://www.smith-county.com/396/Current-Sample-Ballots), served from the county''s Laserfiche portal: one ballot carrying every contest on any Smith County ballot (per-precinct ballots are posted beside it). Names and wording are from the PDF''s text layer, kept as printed (English text only).'
+contests:
+- tx/statewide/elections/2026-11-03/us-senate
+- tx/districts/us-house-1/elections/2026-11-03/us-representative
+- tx/statewide/elections/2026-11-03/governor
+- tx/statewide/elections/2026-11-03/lieutenant-governor
+- tx/statewide/elections/2026-11-03/attorney-general
+- tx/statewide/elections/2026-11-03/comptroller
+- tx/statewide/elections/2026-11-03/land-commissioner
+- tx/statewide/elections/2026-11-03/agriculture-commissioner
+- tx/statewide/elections/2026-11-03/railroad-commissioner
+- tx/statewide/elections/2026-11-03/supreme-court-chief-justice
+- tx/statewide/elections/2026-11-03/supreme-court-place-2
+- tx/statewide/elections/2026-11-03/supreme-court-place-7
+- tx/statewide/elections/2026-11-03/supreme-court-place-8
+- tx/statewide/elections/2026-11-03/cca-place-3
+- tx/statewide/elections/2026-11-03/cca-place-4
+- tx/statewide/elections/2026-11-03/cca-place-9
+- tx/districts/sboe-9/elections/2026-11-03/sboe-member
+- tx/districts/state-senate-1/elections/2026-11-03/state-senator
+- tx/districts/state-house-5/elections/2026-11-03/state-representative
+- tx/districts/state-house-6/elections/2026-11-03/state-representative
+- tx/districts/court-of-appeals-15/elections/2026-11-03/chief-justice
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-2
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-3
+- tx/districts/court-of-appeals-12/elections/2026-11-03/chief-justice
+- tx/districts/court-of-appeals-12/elections/2026-11-03/place-3-unexpired
+- tx/localities/smith-county/elections/2026-11-03/district-court-241
+- tx/localities/smith-county/elections/2026-11-03/district-court-321
+- tx/localities/smith-county/elections/2026-11-03/criminal-district-attorney
+- tx/localities/smith-county/elections/2026-11-03/county-judge
+- tx/localities/smith-county/elections/2026-11-03/county-court-at-law-1
+- tx/localities/smith-county/elections/2026-11-03/county-court-at-law-2
+- tx/localities/smith-county/elections/2026-11-03/county-court-at-law-3
+- tx/localities/smith-county/elections/2026-11-03/district-clerk
+- tx/localities/smith-county/elections/2026-11-03/county-clerk
+- tx/localities/smith-county/elections/2026-11-03/county-treasurer
+- tx/localities/smith-county/elections/2026-11-03/commissioner-precinct-2
+- tx/localities/smith-county/elections/2026-11-03/commissioner-precinct-4
+- tx/localities/smith-county/elections/2026-11-03/jp-precinct-1
+- tx/localities/smith-county/elections/2026-11-03/jp-precinct-2
+- tx/localities/smith-county/elections/2026-11-03/jp-precinct-3
+- tx/localities/smith-county/elections/2026-11-03/jp-precinct-4
+- tx/localities/smith-county/elections/2026-11-03/jp-precinct-5
+- tx/localities/city-of-arp/elections/2026-11-03/council-unexpired
+- tx/localities/smith-county-esd-1/elections/2026-11-03/commissioner-place-2
+- tx/localities/smith-county-esd-1/elections/2026-11-03/commissioner-place-3
+- tx/localities/smith-county-esd-1/elections/2026-11-03/commissioner-place-5
+- tx/localities/smith-county-esd-2/elections/2026-11-03/commissioner-place-5

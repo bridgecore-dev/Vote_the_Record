@@ -1,0 +1,82 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: yolanda-r-prince
+name: Yolanda R. Prince
+incumbent: false
+ballot_party: DEM
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/us-house-1/elections/2026-11-03/us-representative/candidates/yolanda-r-prince#O-01
+    headline: Federal minimum wage
+    statement: 'Campaign website: "I support raising the minimum wage to at least $15 per hour so that full-time workers can earn a living wage and support their families without relying on government assistance."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://yolandaprince.com/issues
+    source_title: Issues
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-1/elections/2026-11-03/us-representative/candidates/yolanda-r-prince#O-02
+    headline: Rural hospital funding
+    statement: 'Campaign website: "Congress must increase Medicare reimbursement rates for providers and hospitals to help keep rural healthcare facilities open and financially stable."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://yolandaprince.com/issues
+    source_title: Issues
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-1/elections/2026-11-03/us-representative/candidates/yolanda-r-prince#O-03
+    headline: Medicare for All
+    statement: 'Campaign website: "I support a Medicare for All single-payer healthcare systems, that guarantees health insurance coverage for every American."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://yolandaprince.com/issues
+    source_title: Issues
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-1/elections/2026-11-03/us-representative/candidates/yolanda-r-prince#O-04
+    headline: Private prisons
+    statement: 'Campaign website: "I support ending the use of privately owned, for-profit prisons and ensuring the justice system focuses on fairness, accountability."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://yolandaprince.com/issues
+    source_title: Issues
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

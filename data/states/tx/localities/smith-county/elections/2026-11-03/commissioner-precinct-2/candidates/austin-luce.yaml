@@ -1,0 +1,99 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: austin-luce
+name: Austin Luce
+incumbent: null
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/smith-county/elections/2026-11-03/commissioner-precinct-2/candidates/austin-luce#M-01
+  headline: Raised $350 and had $1,260 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, received by Smith County on Oct 2, 2026: $350.00 in total political contributions, $764.90 in total political expenditures, $1,259.69 in contributions on hand at the end of the period, and $50.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=10693&repo=r-927d42fb
+  source_title: 'Smith County: campaign finance report, Austin Luce (received Oct 2, 2026)'
+  source_kind: document
+  sha256: 40bb1e66261efe3386f999cf6eaaa94fa4ed4beae576b405f3d519bd8319c3d1
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted in Smith County's campaign filings on its Laserfiche portal (https://portal.laserfiche.com/Portal/Browse.aspx?id=1456&repo=r-927d42fb) as filed by "Austin Luce" (30th day before election); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Not yet archived on the Wayback Machine.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/smith-county/elections/2026-11-03/commissioner-precinct-2/candidates/austin-luce#O-01
+    headline: County budget growth limit
+    statement: 'Campaign website: "Keep budgets limited to grow only as much as household incomes."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.voteluce.com/
+    source_title: Austin Luce
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/smith-county/elections/2026-11-03/commissioner-precinct-2/candidates/austin-luce#O-02
+    headline: County spending review
+    statement: 'Campaign website: "Review expenditures, not just taxes. Look for transparent vendors and seek best practices from other counties across the state."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.voteluce.com/
+    source_title: Austin Luce
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/smith-county/elections/2026-11-03/commissioner-precinct-2/candidates/austin-luce#O-03
+    headline: Roads and public safety
+    statement: 'Campaign website: "Remain laser focused on the services Smith County citizens depend on, like roads & bridges, public safety, and a strong justice system."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.voteluce.com/
+    source_title: Austin Luce
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/smith-county/elections/2026-11-03/commissioner-precinct-2/candidates/austin-luce#O-04
+    headline: Industry recruitment
+    statement: 'Campaign website: "Focus on recruiting industries that pay high wages and sell outside the county, reducing homeowners’ tax burden."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.voteluce.com/
+    source_title: Austin Luce
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []
