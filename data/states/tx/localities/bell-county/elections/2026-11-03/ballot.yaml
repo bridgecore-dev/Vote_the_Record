@@ -1,0 +1,103 @@
+# Contests on this ballot, in ballot order. complete: false until every contest is added.
+name: Bell County ballot
+election_date: '2026-11-03'
+lookup_url: https://www.bellcountytx.com/departments/elections/ballot_samples.php
+complete: true
+unmapped:
+- bell-county-esd-3
+sources:
+- id: tx/localities/bell-county/elections/2026-11-03/ballot#S-01
+  headline: Every contest on the sample ballot
+  statement: The Bell County Elections Department's sample ballot for the November 3, 2026 general and special elections lists every contest on this ballot.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_101CW.pdf?t=202609171545410
+  source_title: 'Bell County Elections Department: Sample Ballots by Voting Precinct, November 3, 2026 General Election, Bell County, Texas'
+  source_kind: document
+  sha256: c8e23d55a3d8f49287880271bf71a2371dda2d0ddc4c0247a1fa49950e1f5826
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The county''s "Ballots by Voting Precinct" page (https://www.bellcountytx.com/departments/elections/ballot_samples.php) posts one scanned PDF per ballot style (117). The PDFs have no text layer: they were read with OCR, merged into one ballot order, and checked against the page images where the wording appears on few styles. English text only. The source cited is ballot style 101CW; each contest names the style and page it was read from.'
+contests:
+- tx/statewide/elections/2026-11-03/us-senate
+- tx/districts/us-house-31/elections/2026-11-03/us-representative
+- tx/districts/us-house-17/elections/2026-11-03/us-representative
+- tx/statewide/elections/2026-11-03/governor
+- tx/statewide/elections/2026-11-03/lieutenant-governor
+- tx/statewide/elections/2026-11-03/attorney-general
+- tx/statewide/elections/2026-11-03/comptroller
+- tx/statewide/elections/2026-11-03/land-commissioner
+- tx/statewide/elections/2026-11-03/agriculture-commissioner
+- tx/statewide/elections/2026-11-03/railroad-commissioner
+- tx/statewide/elections/2026-11-03/supreme-court-chief-justice
+- tx/statewide/elections/2026-11-03/supreme-court-place-2
+- tx/statewide/elections/2026-11-03/supreme-court-place-7
+- tx/statewide/elections/2026-11-03/supreme-court-place-8
+- tx/statewide/elections/2026-11-03/cca-place-3
+- tx/statewide/elections/2026-11-03/cca-place-4
+- tx/statewide/elections/2026-11-03/cca-place-9
+- tx/districts/state-senate-24/elections/2026-11-03/state-senator
+- tx/districts/state-house-55/elections/2026-11-03/state-representative
+- tx/districts/state-house-54/elections/2026-11-03/state-representative
+- tx/districts/court-of-appeals-15/elections/2026-11-03/chief-justice
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-2
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-3
+- tx/districts/court-of-appeals-3/elections/2026-11-03/chief-justice
+- tx/localities/bell-county/elections/2026-11-03/district-court-169
+- tx/localities/bell-county/elections/2026-11-03/district-court-264
+- tx/localities/bell-county/elections/2026-11-03/district-court-478
+- tx/localities/bell-county/elections/2026-11-03/county-judge
+- tx/localities/bell-county/elections/2026-11-03/county-court-at-law-1
+- tx/localities/bell-county/elections/2026-11-03/county-court-at-law-2
+- tx/localities/bell-county/elections/2026-11-03/county-court-at-law-3
+- tx/localities/bell-county/elections/2026-11-03/district-clerk
+- tx/localities/bell-county/elections/2026-11-03/county-clerk
+- tx/localities/bell-county/elections/2026-11-03/county-treasurer
+- tx/localities/bell-county/elections/2026-11-03/jp-precinct-1
+- tx/localities/bell-county/elections/2026-11-03/jp-precinct-3-place-2
+- tx/localities/bell-county/elections/2026-11-03/commissioner-precinct-2
+- tx/localities/bell-county/elections/2026-11-03/jp-precinct-2
+- tx/localities/bell-county/elections/2026-11-03/commissioner-precinct-4
+- tx/localities/bell-county/elections/2026-11-03/jp-precinct-4-place-2
+- tx/localities/bell-county/elections/2026-11-03/cad-place-1
+- tx/localities/bell-county/elections/2026-11-03/cad-place-2
+- tx/localities/bell-county/elections/2026-11-03/cad-place-3
+- tx/localities/bell-county/elections/2026-11-03/hospital-services-district-proposition-a
+- tx/localities/city-of-nolanville/elections/2026-11-03/mayor
+- tx/localities/city-of-temple/elections/2026-11-03/proposition-a
+- tx/localities/bartlett-isd/elections/2026-11-03/proposition-a
+- tx/localities/city-of-nolanville/elections/2026-11-03/council-seat-1
+- tx/localities/bartlett-isd/elections/2026-11-03/proposition-b
+- tx/localities/holland-isd/elections/2026-11-03/proposition-a
+- tx/localities/city-of-killeen/elections/2026-11-03/proposition-a
+- tx/localities/city-of-nolanville/elections/2026-11-03/council-seat-3
+- tx/localities/city-of-nolanville/elections/2026-11-03/proposition-a
+- tx/localities/florence-isd/elections/2026-11-03/proposition-a
+- tx/localities/solana-ranch-mud-1/elections/2026-11-03/proposition-a
+- tx/localities/city-of-killeen/elections/2026-11-03/proposition-b
+- tx/localities/bartlett-isd/elections/2026-11-03/proposition-c
+- tx/localities/florence-isd/elections/2026-11-03/proposition-b
+- tx/localities/solana-ranch-mud-1/elections/2026-11-03/directors
+- tx/localities/copperas-cove-isd/elections/2026-11-03/trustee-place-5-unexpired
+- tx/localities/city-of-killeen/elections/2026-11-03/proposition-c
+- tx/localities/city-of-nolanville/elections/2026-11-03/proposition-b
+- tx/localities/city-of-nolanville/elections/2026-11-03/proposition-c
+- tx/localities/copperas-cove-isd/elections/2026-11-03/trustee-place-6
+- tx/localities/city-of-killeen/elections/2026-11-03/proposition-d
+- tx/localities/copperas-cove-isd/elections/2026-11-03/trustee-place-7
+- tx/localities/city-of-killeen/elections/2026-11-03/proposition-e
+- tx/localities/city-of-nolanville/elections/2026-11-03/proposition-d
+- tx/localities/city-of-nolanville/elections/2026-11-03/proposition-e
+- tx/localities/city-of-killeen/elections/2026-11-03/proposition-f
+- tx/localities/city-of-killeen/elections/2026-11-03/proposition-g
+- tx/localities/city-of-nolanville/elections/2026-11-03/proposition-f
+- tx/localities/city-of-nolanville/elections/2026-11-03/proposition-g
+- tx/localities/city-of-nolanville/elections/2026-11-03/proposition-h
+- tx/localities/city-of-nolanville/elections/2026-11-03/proposition-i
+- tx/localities/bell-county-esd-3/elections/2026-11-03/proposition-a
+- tx/localities/city-of-killeen/elections/2026-11-03/proposition-h

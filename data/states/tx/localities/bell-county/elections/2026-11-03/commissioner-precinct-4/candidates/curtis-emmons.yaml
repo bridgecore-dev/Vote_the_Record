@@ -1,0 +1,65 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: curtis-emmons
+name: Curtis Emmons
+incumbent: false
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/bell-county/elections/2026-11-03/commissioner-precinct-4/candidates/curtis-emmons#M-01
+  headline: Raised $1,250 and had $2,160 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, filed with Bell County on Jul 8, 2026: $1,249.78 in total political contributions, $1,182.91 in total political expenditures, $2,160.19 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Campaign%20Treasurer/2026/2026_Emmons_Curtis.pdf
+  source_title: 'Bell County: campaign finance report, Emmons, Curtis (filed Jul 8, 2026)'
+  source_kind: document
+  sha256: 8dca333800b417896c13af55ff7d77bd007ff6f739450526c7abb1b2c150cebe
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted on Bell County Elections Department's Campaign Treasury Postings page (https://www.bellcountytx.com/departments/elections/2026.php) as filed by "Emmons, Curtis" (Form C/OH (TEC cover sheet), July 15 semiannual); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Not yet archived on the Wayback Machine.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/bell-county/elections/2026-11-03/commissioner-precinct-4/candidates/curtis-emmons#O-01
+    headline: County road plan
+    statement: 'Campaign website: "We need to work with the cities across the county to come up with a comprehensive county road plan that gets ahead of the maintenance schedule."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://electemmons.com/issues
+    source_title: Curtis Emmons for County Commissioner Precinct 4
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/bell-county/elections/2026-11-03/commissioner-precinct-4/candidates/curtis-emmons#O-02
+    headline: Law enforcement coordination
+    statement: 'Campaign website: "We need a leader who can sit down with both the Sheriff''s Department and the Killeen Chief of Police to coordinate policing effectively."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://electemmons.com/issues
+    source_title: Curtis Emmons for County Commissioner Precinct 4
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

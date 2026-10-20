@@ -166,6 +166,19 @@ CAMERON_LOCAL_AREAS = {
     "santa-maria-isd": (SCHOOL_LAYER, "4839330"),
     "laguna-madre-water-district": (TCEQ_MUD, "5300700"),
 }
+BELL_GIS = "https://services3.arcgis.com/jjDKBbyoUNyhuTYf/arcgis/rest/services"
+BELL_COMMISSIONER = BELL_GIS + "/Commissioners_Shapefiles/FeatureServer/0"
+BELL_JP = BELL_GIS + "/Bell_County_Justice_of_the_Peace_Districts/FeatureServer/0"
+BELL_LOCAL_AREAS = {
+    "city-of-killeen": (PLACE_LAYER, "4839148"),
+    "city-of-nolanville": (PLACE_LAYER, "4851708"),
+    "city-of-temple": (PLACE_LAYER, "4872176"),
+    "bartlett-isd": (SCHOOL_LAYER, "4809540"),
+    "copperas-cove-isd": (SCHOOL_LAYER, "4815240"),
+    "florence-isd": (SCHOOL_LAYER, "4819320"),
+    "holland-isd": (SCHOOL_LAYER, "4823370"),
+    "solana-ranch-mud-1": (TCEQ_MUD, "7576132"),
+}
 BEXAR_LOCAL_AREAS = {
     "city-of-china-grove": (PLACE_LAYER, "4814716"),
     "city-of-converse": (PLACE_LAYER, "4816468"),
@@ -400,6 +413,34 @@ COUNTIES = {
                     "the district maps named in precincts#S-05."),
         "field_note": ("The City of El Paso's congressional layer still shows the pre-2025 districts, so congressional "
                        "districts come from the Texas Legislative Council's PLANC2333 shapefile."),
+    },
+    "bell-county": {
+        "name": "Bell County", "item": TLC_PRECINCTS_26, "layer": TLC_PRECINCTS_26, "precinct_field": "PREC",
+        # Bell County's 72 precincts come from the Texas Legislative Council's 2026 precinct shapefile (county code 27),
+        # matching the county's own precinct layer (72 polygons, field EP). Districts come from overlays: the state
+        # plans for Congress and the State House, and the county's commissioner and JP layers. Every Bell precinct is
+        # in State Senate District 24 (the Council's Precincts26P_Districts table).
+        "precinct_shapefile": (TLC_PRECINCTS_26, "PCTKEY", "27"),
+        "fields": {kind: kind for kind in ("us-house", "state-house", "commissioner", "jp")},
+        "overlays": {
+            "us-house": ("shapefile", TLC_C2333, "District", "Texas Legislative Council: PLANC2333 (congressional districts "
+                         "enacted 2025, 89th Legislature, 2nd C.S.)"),
+            "state-house": ("shapefile", TLC_H2316, "District", "Texas Legislative Council: PLANH2316 (State House "
+                            "districts, 2023-2026)"),
+            "commissioner": ("arcgis", BELL_COMMISSIONER, "PRECINCT", "Bell County GIS: Commissioners Precincts"),
+            "jp": ("arcgis", BELL_JP, "DISTRICTN", "Bell County GIS: Justice of the Peace Districts"),
+        },
+        "everywhere": ["court-of-appeals-3", "state-senate-24"],  # Gov't Code 22.201(d); plan S2168 puts all of Bell in SD 24
+        "local_areas": BELL_LOCAL_AREAS,
+        "headline": "Bell County voting precincts (2026)",
+        "statement": ("The Texas Legislative Council's \"2026 Primary Election Voting Precincts\" shapefile, compiled from "
+                      "county election officials and the Secretary of State, gives Bell County's 72 precincts and their "
+                      "outlines, matching the county's own precinct layer."),
+        "title": "Texas Legislative Council: 2026 Primary Election Voting Precincts (precincts26p.zip)",
+        "credits": ("Only precinct numbers and outlines are used; each precinct's districts were assigned by overlaying "
+                    "the district maps named in precincts#S-05."),
+        "field_note": ("Bell County's precinct layer lists only precinct numbers, so every district comes from an overlay "
+                       "or, for State Senate District 24 and the 3rd Court of Appeals, covers the whole county."),
     },
     "cameron-county": {
         "name": "Cameron County", "item": TLC_PRECINCTS_26, "layer": TLC_PRECINCTS_26, "precinct_field": "PREC",
@@ -935,7 +976,9 @@ def main(argv=None) -> int:
     print("downloading county precinct layer...", file=sys.stderr)
     if cfg.get("precinct_shapefile"):  # a statewide precinct shapefile (Texas Legislative Council), filtered to the county
         url, key_field, prefix = cfg["precinct_shapefile"]
-        pct = read_shapefile(download(url, args.cache, url.rsplit("/", 1)[1]), key_field, keep=lambda v: v.startswith(prefix))
+        # keys are the county code plus a 4-digit precinct ("27" alone would also match counties 271-279)
+        pct = read_shapefile(download(url, args.cache, url.rsplit("/", 1)[1]), key_field,
+                             keep=lambda v: v.startswith(prefix) and len(v) == len(prefix) + 4)
         for f in pct:
             f["properties"] = {pid: f["properties"][key_field][len(prefix):]}
     else:

@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: City of Killeen, Proposition H
+election_date: '2026-11-03'
+kind: charter-amendment
+ballot_text: Amend the Charter of the City of Killeen to require that a person filing a recall affidavit for a district council member live within the district in which the council member represents, and to make certain other grammatical and technical changes related thereto.
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/city-of-killeen/elections/2026-11-03/proposition-h/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Bell County Elections Department''s sample ballot for the November 3, 2026 general and special elections prints "City of Killeen, Proposition H" on page 3 with the choices FOR and AGAINST and this English wording: "Amend the Charter of the City of Killeen to require that a person filing a recall affidavit for a district council member live within the district in which the council member represents, and to make certain other grammatical and technical changes related thereto."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_106.pdf?t=202609171556570
+  source_title: 'Bell County Elections Department: Sample Ballot, ballot style 106, November 3, 2026 General Election, Bell County, Texas (page 3)'
+  source_kind: document
+  sha256: 8fec115be96566ca4e8e3f125004f7eec10e021fc08666da79a64ee4555f936d
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.

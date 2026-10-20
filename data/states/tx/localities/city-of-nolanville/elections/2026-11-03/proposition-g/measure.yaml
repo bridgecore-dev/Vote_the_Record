@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: City of Nolanville, Proposition G
+election_date: '2026-11-03'
+kind: charter-amendment
+ballot_text: 'Shall Section 3.09 - Prohibitions of the Nolanville Charter be amended to revise the term limit provisions by limiting an individual to four (4) two-year terms in any one elective office regardless of whether the terms are consecutive, while retaining separate term limits for each elective office? If approved, this section will read: SECTION 3.09 - Prohibitions Term Limits. No person shall serve for more than four (4) two (2) year terms in any one office. For purposes of this section: a. Service by appointment to fill a vacancy shall not be counted toward the term limits established herein. b. Term limits shall apply separately to each elective office. Service in one office shall not be counted toward the term limits of another office.'
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/city-of-nolanville/elections/2026-11-03/proposition-g/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Bell County Elections Department''s sample ballot for the November 3, 2026 general and special elections prints "City of Nolanville, Proposition G" on page 4 with the choices FOR and AGAINST and this English wording: "Shall Section 3.09 - Prohibitions of the Nolanville Charter be amended to revise the term limit provisions by limiting an individual to four (4) two-year terms in any one elective office regardless of whether the terms are consecutive, while retaining separate term limits for each elective office? If approved, this section will read: SECTION 3.09 - Prohibitions Term Limits. No person shall serve for more than four (4) two (2) year terms in any one office. For purposes of this section: a. Service by appointment to fill a vacancy shall not be counted toward the term limits established herein. b. Term limits shall apply separately to each elective office. Service in one office shall not be counted toward the term limits of another office."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_111NOL.pdf?t=202609171612570
+  source_title: 'Bell County Elections Department: Sample Ballot, ballot style 111NOL, November 3, 2026 General Election, Bell County, Texas (page 4)'
+  source_kind: document
+  sha256: cbaf8202d3537cb50fa13274960da51ca6ed49c98a534f859f9eab690ffeed59
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.

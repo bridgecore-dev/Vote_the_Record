@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: City of Nolanville, Proposition B
+election_date: '2026-11-03'
+kind: charter-amendment
+ballot_text: 'Shall Section 3.03 - Qualifications of the Nolanville Charter be amended to require that candidates for Mayor or City Council have resided continuously within the corporate limits of the City for twelve (12) months immediately preceding the filing deadline for office, rather than the date of the election or appointment? If approved, Section 3.03 will read: SECTION 3.03 - Qualifications Have resided continuously in the corporate limits of the City for twelve (12) months immediately preceding the filing deadline.'
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/city-of-nolanville/elections/2026-11-03/proposition-b/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Bell County Elections Department''s sample ballot for the November 3, 2026 general and special elections prints "City of Nolanville, Proposition B" on page 3 with the choices FOR and AGAINST and this English wording: "Shall Section 3.03 - Qualifications of the Nolanville Charter be amended to require that candidates for Mayor or City Council have resided continuously within the corporate limits of the City for twelve (12) months immediately preceding the filing deadline for office, rather than the date of the election or appointment? If approved, Section 3.03 will read: SECTION 3.03 - Qualifications Have resided continuously in the corporate limits of the City for twelve (12) months immediately preceding the filing deadline."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_114NOL.pdf?t=202609171615130
+  source_title: 'Bell County Elections Department: Sample Ballot, ballot style 114NOL, November 3, 2026 General Election, Bell County, Texas (page 3)'
+  source_kind: document
+  sha256: 40d3181693629c5e0caf32fd5d479cf47e5ce9c5c33f32369a411b72e3a6bc1f
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.

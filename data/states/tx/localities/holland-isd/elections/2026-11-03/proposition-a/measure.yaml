@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: Holland ISD, Proposition A
+election_date: '2026-11-03'
+kind: tax-rate
+ballot_text: 'THIS IS A TAX INCREASE: Ratifying the ad valorem tax rate of $1.0269 in Holland ISD for the current year, a rate that will result in an increase of 4.39 percent in maintenance and operations tax revenue for the district for the current year as compared to the preceding year, which is an additional $432,918.'
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/holland-isd/elections/2026-11-03/proposition-a/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Bell County Elections Department''s sample ballot for the November 3, 2026 general and special elections prints "Holland ISD, Proposition A" on page 3 with the choices FOR and AGAINST and this English wording: "THIS IS A TAX INCREASE: Ratifying the ad valorem tax rate of $1.0269 in Holland ISD for the current year, a rate that will result in an increase of 4.39 percent in maintenance and operations tax revenue for the district for the current year as compared to the preceding year, which is an additional $432,918."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_107HISD.pdf?t=202609171557300
+  source_title: 'Bell County Elections Department: Sample Ballot, ballot style 107HISD, November 3, 2026 General Election, Bell County, Texas (page 3)'
+  source_kind: document
+  sha256: f32dfecf65acb5aed2c063b2fb12d84e9b6c9915a2a5f7d0ea4c3635b55d48f8
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.

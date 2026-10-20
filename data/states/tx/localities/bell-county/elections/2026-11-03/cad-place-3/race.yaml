@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Bell County Appraisal District Director, Place 3
+office_type: appraisal-district-director
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/bell-county/elections/2026-11-03/cad-place-3/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Bell County Elections Department''s sample ballot for the November 3, 2026 general and special elections lists "Bell County Appraisal District, Bell County, Board of Directors, Place 3 (Four Year Term)" on page 2, with these candidates: Charles Wilson; Cheyenne Minick.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_107BISD.pdf?t=202609171557140
+  source_title: 'Bell County Elections Department: Sample Ballot, ballot style 107BISD, November 3, 2026 General Election, Bell County, Texas (page 2)'
+  source_kind: document
+  sha256: 0462947e8f0efcd5f826eec0085cc0df1822107037bfac7926c25d7e1d1fb6a2
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.
+- id: tx/localities/bell-county/elections/2026-11-03/cad-place-3/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Board Members & Meeting Agendas – Bell CAD), checked on October 20, 2026, lists "Ashley Smith" as holding this office; none of the candidates in this race is listed as the current officeholder. It reads: "Ashley Smith | Elected – Place 3"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://bellcad.org/board-members/
+  source_title: Board Members & Meeting Agendas – Bell CAD
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null

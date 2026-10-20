@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: City of Nolanville, Proposition I
+election_date: '2026-11-03'
+kind: charter-amendment
+ballot_text: 'Shall Section 9.13 - Referendum; Petition; Procedure; Effect Prior to Election of the Nolanville Charter be amended to revise the timeframe for the City Council to repeal or submit a referendum ordinance to the qualified voters from thirty (30) days to sixty (60) days, consistent with other provisions of the Charter? If approved, this section will read: SECTION 9.13 - Referendum; Petition; Procedure; Effect Prior to Election City Council shall either repeal the referendum ordinance or submit the referendum ordinance to the qualified voters of the City within sixty (60) days after the date the petition was finally determined sufficient, or at the next uniform election date, if a uniform election date does not exist within sixty (60) days after the petition is finally determined sufficient.'
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/city-of-nolanville/elections/2026-11-03/proposition-i/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Bell County Elections Department''s sample ballot for the November 3, 2026 general and special elections prints "City of Nolanville, Proposition I" on page 4 with the choices FOR and AGAINST and this English wording: "Shall Section 9.13 - Referendum; Petition; Procedure; Effect Prior to Election of the Nolanville Charter be amended to revise the timeframe for the City Council to repeal or submit a referendum ordinance to the qualified voters from thirty (30) days to sixty (60) days, consistent with other provisions of the Charter? If approved, this section will read: SECTION 9.13 - Referendum; Petition; Procedure; Effect Prior to Election City Council shall either repeal the referendum ordinance or submit the referendum ordinance to the qualified voters of the City within sixty (60) days after the date the petition was finally determined sufficient, or at the next uniform election date, if a uniform election date does not exist within sixty (60) days after the petition is finally determined sufficient."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_111NOL.pdf?t=202609171612570
+  source_title: 'Bell County Elections Department: Sample Ballot, ballot style 111NOL, November 3, 2026 General Election, Bell County, Texas (page 4)'
+  source_kind: document
+  sha256: cbaf8202d3537cb50fa13274960da51ca6ed49c98a534f859f9eab690ffeed59
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.

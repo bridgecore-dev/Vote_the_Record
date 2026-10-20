@@ -1,0 +1,38 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: State Representative, District 54
+office_type: state-representative
+election_date: '2026-11-03'
+sources:
+- id: tx/districts/state-house-54/elections/2026-11-03/state-representative/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Bell County Elections Department''s sample ballot for the November 3, 2026 general and special elections lists "State Representative, District 54" on page 2, with these candidates: Brad Buckley (REP); Dawn Richardson (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_104CW.pdf?t=202609171555530
+  source_title: 'Bell County Elections Department: Sample Ballot, ballot style 104CW, November 3, 2026 General Election, Bell County, Texas (page 2)'
+  source_kind: document
+  sha256: 611bc92edc1c18fecef423457dc8addfa8270a133f8e776055c9e5348970ad15
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.
+- id: tx/districts/state-house-54/elections/2026-11-03/state-representative/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Official Home Page of the Texas House of Representatives Website for Rep. Buckley, Brad.), checked on October 20, 2026, shows that Brad Buckley, a candidate in this race, currently holds this office. It reads: "Rep. Buckley, Brad - District 54" It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://house.texas.gov/members/member-page/?district=54
+  source_title: Official Home Page of the Texas House of Representatives Website for Rep. Buckley, Brad.
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null

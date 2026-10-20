@@ -1,0 +1,23 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Copperas Cove ISD Trustee, Place 6
+office_type: school-trustee
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/copperas-cove-isd/elections/2026-11-03/trustee-place-6/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Bell County Elections Department''s sample ballot for the November 3, 2026 general and special elections lists "Copperas Cove ISD, For School Board Trustee, Place 6 Three Year Term" on page 3, with these candidates: Trang Nguyen; Inez Faison.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_401CCISD.pdf?t=202609171626520
+  source_title: 'Bell County Elections Department: Sample Ballot, ballot style 401CCISD, November 3, 2026 General Election, Bell County, Texas (page 3)'
+  source_kind: document
+  sha256: 9f7680bd3afc8c337a2a9e681816fe3ae361a07a21a1e506d6175c0a6e3cf824
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.

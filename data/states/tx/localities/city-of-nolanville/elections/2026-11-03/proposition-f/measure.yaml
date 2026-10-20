@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: City of Nolanville, Proposition F
+election_date: '2026-11-03'
+kind: charter-amendment
+ballot_text: 'Shall Section 3.08 - Vacancies; Forfeiture of Office; Filling of Vacancies of the Nolanville Charter be amended to require the City Council to fill a vacancy in the office of Mayor or City Council within ninety (90) days and provide that the appointee shall serve until the next regular November municipal election, at which time a successor shall be elected to serve the remainder of the unexpired term, if any? If approved, this section will read: SECTION 3.08 - Vacancies; Forfeiture of Office; Filling of Vacancies When a vacancy occurs in the office of Mayor or City Council, the remaining members of the City Council shall appoint a qualified person to fill such vacancy within ninety (90) days of the occurrence of the vacancy. The appointee shall serve until the next regular municipal election held in November, at which time a successor shall be elected to serve the remainder of the unexpired term, if any. For purposes of this section, a vacancy shall be deemed to occur on the date the office is declared vacant in accordance with this Charter.'
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/city-of-nolanville/elections/2026-11-03/proposition-f/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Bell County Elections Department''s sample ballot for the November 3, 2026 general and special elections prints "City of Nolanville, Proposition F" on page 4 with the choices FOR and AGAINST and this English wording: "Shall Section 3.08 - Vacancies; Forfeiture of Office; Filling of Vacancies of the Nolanville Charter be amended to require the City Council to fill a vacancy in the office of Mayor or City Council within ninety (90) days and provide that the appointee shall serve until the next regular November municipal election, at which time a successor shall be elected to serve the remainder of the unexpired term, if any? If approved, this section will read: SECTION 3.08 - Vacancies; Forfeiture of Office; Filling of Vacancies When a vacancy occurs in the office of Mayor or City Council, the remaining members of the City Council shall appoint a qualified person to fill such vacancy within ninety (90) days of the occurrence of the vacancy. The appointee shall serve until the next regular municipal election held in November, at which time a successor shall be elected to serve the remainder of the unexpired term, if any. For purposes of this section, a vacancy shall be deemed to occur on the date the office is declared vacant in accordance with this Charter."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_114NOL.pdf?t=202609171615130
+  source_title: 'Bell County Elections Department: Sample Ballot, ballot style 114NOL, November 3, 2026 General Election, Bell County, Texas (page 4)'
+  source_kind: document
+  sha256: 40d3181693629c5e0caf32fd5d479cf47e5ce9c5c33f32369a411b72e3a6bc1f
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.

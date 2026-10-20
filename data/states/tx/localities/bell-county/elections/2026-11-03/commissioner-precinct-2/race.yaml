@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: County Commissioner, Precinct 2
+office_type: county-commissioner
+election_date: '2026-11-03'
+area: bell-county/commissioner-2
+sources:
+- id: tx/localities/bell-county/elections/2026-11-03/commissioner-precinct-2/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Bell County Elections Department''s sample ballot for the November 3, 2026 general and special elections lists "County Commissioner, Precinct No. 2" on page 2, with these candidates: Bobby Whitson (REP); Stacey L. Wilson (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_201CW.pdf?t=202609171551340
+  source_title: 'Bell County Elections Department: Sample Ballot, ballot style 201CW, November 3, 2026 General Election, Bell County, Texas (page 2)'
+  source_kind: document
+  sha256: 8a4d7eaf3ef49d8ae3c0162a610bf90b0805daf67743f726ab73f422e3482bd2
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.
+- id: tx/localities/bell-county/elections/2026-11-03/commissioner-precinct-2/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Bell County, TX), checked on October 20, 2026, shows that Bobby Whitson, a candidate in this race, currently holds this office. It reads: "Bobby Whitson, County Commissioner, Precinct 2" It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/county_government/commissioners_court/index.php
+  source_title: Bell County, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null

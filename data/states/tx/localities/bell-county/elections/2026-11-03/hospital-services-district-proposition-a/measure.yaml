@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: Hospital Services District, Proposition A
+election_date: '2026-11-03'
+kind: other
+ballot_text: 'THIS IS A TAX INCREASE: The creation of a Hospital district and the levy of a tax not to exceed 75 cents on each $100 of the taxable value of Property taxable by the district.'
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/bell-county/elections/2026-11-03/hospital-services-district-proposition-a/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Bell County Elections Department''s sample ballot for the November 3, 2026 general and special elections prints "Hospital Services District, Proposition A" on page 2 with the choices FOR and AGAINST and this English wording: "THIS IS A TAX INCREASE: The creation of a Hospital district and the levy of a tax not to exceed 75 cents on each $100 of the taxable value of Property taxable by the district."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Sample/SAMPLE_101CW.pdf?t=202609171545410
+  source_title: 'Bell County Elections Department: Sample Ballot, ballot style 101CW, November 3, 2026 General Election, Bell County, Texas (page 2)'
+  source_kind: document
+  sha256: c8e23d55a3d8f49287880271bf71a2371dda2d0ddc4c0247a1fa49950e1f5826
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.

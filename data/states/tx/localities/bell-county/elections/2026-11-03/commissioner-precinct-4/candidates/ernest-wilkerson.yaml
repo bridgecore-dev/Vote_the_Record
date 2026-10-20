@@ -1,0 +1,99 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: ernest-wilkerson
+name: Ernest Wilkerson
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/bell-county/elections/2026-11-03/commissioner-precinct-4/candidates/ernest-wilkerson#M-01
+  headline: Raised $3,025 and had $1,217 on hand (Feb 23, 2026 - Jul 14, 2026)
+  statement: 'Campaign finance report covering Feb 23, 2026 - Jul 14, 2026, filed with Bell County on Jul 15, 2026: $3,024.79 in total political contributions, $5,064.85 in total political expenditures, $1,217.39 in contributions on hand at the end of the period, and $2,040.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/elections/Campaign%20Treasurer/2026/2026_Wilkerson_Ernest.pdf
+  source_title: 'Bell County: campaign finance report, Wilkerson, Ernest (filed Jul 15, 2026)'
+  source_kind: document
+  sha256: 4f9bd45d359ed4e89b341f81392934fb5b43f1e1cc2a836989a67810183ff337
+  archive_url: null
+  event_date: '2026-07-14'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted on Bell County Elections Department's Campaign Treasury Postings page (https://www.bellcountytx.com/departments/elections/2026.php) as filed by "Wilkerson, Ernest" (Form C/OH (TEC cover sheet), July 15 semiannual); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Not yet archived on the Wayback Machine. The form gives the period end as 07/14/2026.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/bell-county/elections/2026-11-03/commissioner-precinct-4/candidates/ernest-wilkerson#O-01
+    headline: Chaparral Road expansion
+    statement: 'Campaign website: "Work with City of Killeen officials to finish Chaparral Road’s expansion project on a reasonable timeline."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://ernestwilkerson.com/
+    source_title: Ernest Wilkerson for Bell County Commissioner, Precinct 4 | People. Not Politics.
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/bell-county/elections/2026-11-03/commissioner-precinct-4/candidates/ernest-wilkerson#O-02
+    headline: County economic development corporation
+    statement: 'Campaign website: "Champion a county-level Economic Development Corporation to identify tax abatements and grants that can be provided to attract more industry to Western Bell County."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://ernestwilkerson.com/
+    source_title: Ernest Wilkerson for Bell County Commissioner, Precinct 4 | People. Not Politics.
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/bell-county/elections/2026-11-03/commissioner-precinct-4/candidates/ernest-wilkerson#O-03
+    headline: Public Health District review
+    statement: 'Campaign website: "Demand a comprehensive review of Public Health District management and resources to increase public transparency and accountability."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://ernestwilkerson.com/
+    source_title: Ernest Wilkerson for Bell County Commissioner, Precinct 4 | People. Not Politics.
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/bell-county/elections/2026-11-03/commissioner-precinct-4/candidates/ernest-wilkerson#O-04
+    headline: Data center moratorium
+    statement: 'Campaign website: "Enact a moratorium on new data centers that do not present a full environmental plan about their impact on our local environment and water usage."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://ernestwilkerson.com/
+    source_title: Ernest Wilkerson for Bell County Commissioner, Precinct 4 | People. Not Politics.
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []
