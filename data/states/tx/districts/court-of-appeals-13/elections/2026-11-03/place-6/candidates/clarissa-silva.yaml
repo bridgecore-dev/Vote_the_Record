@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: clarissa-silva
+name: Clarissa Silva
+incumbent: true
+ballot_party: REP
+records: []
+funding:
+- id: tx/districts/court-of-appeals-13/elections/2026-11-03/place-6/candidates/clarissa-silva#M-01
+  headline: Raised $36,018 and had $8,948 on hand (Jul 1 - Oct 4, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Oct 4, 2026, filed Oct 5, 2026: $36,017.56 in total political contributions, $31,905.02 in total political expenditures, $8,947.69 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068012.PDF
+  source_title: 'Texas Ethics Commission: Silva, Clarissa (The Honorable), campaign finance report 101068012 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 6c36a7a899cf5092bbac7cce4743f51930ffcc6095fb6d9c5681d4617301e478
+  archive_url: null
+  event_date: '2026-10-04'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101068012, form JCOH, TEC report type E30DAYBEF; filer ID 00082355 (Silva, Clarissa (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-20; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

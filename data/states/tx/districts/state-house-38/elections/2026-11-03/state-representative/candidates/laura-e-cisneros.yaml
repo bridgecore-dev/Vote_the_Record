@@ -1,0 +1,99 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: laura-e-cisneros
+name: Laura E. Cisneros
+incumbent: false
+ballot_party: REP
+records: []
+funding:
+- id: tx/districts/state-house-38/elections/2026-11-03/state-representative/candidates/laura-e-cisneros#M-01
+  headline: Raised $1,505 and had $14,674 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $1,505.00 in total political contributions, $2,937.00 in total political expenditures, $14,674.00 in contributions on hand at the end of the period, and $20,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069922.PDF
+  source_title: 'Texas Ethics Commission: Cisneros, Laura E. (Dr.), campaign finance report 101069922 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: f96b2e4a00bb4d9f04194e7e2287b4329e7ab06f38dd0e4b399c4571572f494b
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101069922, form COH, TEC report type A15DAYAFT; filer ID 00090273 (Cisneros, Laura E. (Dr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-20; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/state-house-38/elections/2026-11-03/state-representative/candidates/laura-e-cisneros#O-01
+    headline: Property taxes
+    statement: 'Campaign website: "I will work to make property taxes more affordable, increase transparency, and hold local taxing entities accountable for how taxpayer dollars are spent."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://drcisnerosfortexas.com/issues
+    source_title: Dr. Laura Cisneros for Texas District 38 | Dr. Cisneros for Texas
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-38/elections/2026-11-03/state-representative/candidates/laura-e-cisneros#O-02
+    headline: First responders
+    statement: 'Campaign website: "I will support policies that provide them with the training, equipment, resources, and protections they need to do their jobs safely and effectively."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://drcisnerosfortexas.com/issues
+    source_title: Dr. Laura Cisneros for Texas District 38 | Dr. Cisneros for Texas
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-38/elections/2026-11-03/state-representative/candidates/laura-e-cisneros#O-03
+    headline: Schools and career training
+    statement: 'Campaign website: "I will support strong academic standards, better opportunities for students with learning challenges, and greater access to career and technical education."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://drcisnerosfortexas.com/issues
+    source_title: Dr. Laura Cisneros for Texas District 38 | Dr. Cisneros for Texas
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-38/elections/2026-11-03/state-representative/candidates/laura-e-cisneros#O-04
+    headline: Drainage, roads, water
+    statement: 'Campaign website: "I will work to improve drainage, address flooding, strengthen our roads and transportation infrastructure, and protect our community’s access to a reliable water supply."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://drcisnerosfortexas.com/issues
+    source_title: Dr. Laura Cisneros for Texas District 38 | Dr. Cisneros for Texas
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

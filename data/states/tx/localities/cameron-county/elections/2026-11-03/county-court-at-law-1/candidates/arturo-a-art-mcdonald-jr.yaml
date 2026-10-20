@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: arturo-a-art-mcdonald-jr
+name: Arturo A. "Art" McDonald, Jr.
+incumbent: true
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/county-court-at-law-1/candidates/arturo-a-art-mcdonald-jr#M-01
+  headline: Raised $2,500 and had $18,251 on hand (report received Jul 13, 2026)
+  statement: 'Campaign finance report received by Cameron County on Jul 13, 2026; the form gives the period as 01/01/2024 - 06/30/2024: $2,500.00 in total political contributions, $18,251.31 in contributions on hand at the end of the period, and $0.00 in outstanding loans. Left out: total political expenditures (blank or not legible on the scanned report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/fr/FINANCE%20REPORTS/2026/06%20July%2015/M-N/MCDONALD%20ARTURO.pdf
+  source_title: 'Cameron County: campaign finance report, Mr. Arturo A. McDonald Jr. (nickname Art) (received Jul 13, 2026)'
+  source_kind: document
+  sha256: 7b228a1d1c68a66423a98ceabd119b1c6e00a05ae9dc897c6c97e020a3aaf8a7
+  archive_url: null
+  event_date: '2026-07-13'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in Cameron County Elections Department''s campaign finance file tree (https://www.cameroncountytx.gov/elections/wp-content/fr/) as filed by "Mr. Arturo A. McDonald Jr. (nickname Art)" (July 15 (semiannual)); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Not yet archived on the Wayback Machine. Reading note: Form JC/OH. Period and election date are handwritten with year ''2024'' (election 11/03/2024, Primary box checked) although stamped received JUL 13 2026 and notarized July 13, 2026 on a form revised 1/1/2026; recorded as written. Third digit of total expenditures is overwritten/illegible. Posted in folder ''2026/06 July 15''.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

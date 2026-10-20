@@ -154,6 +154,18 @@ EL_PASO_LOCAL_AREAS = {
     "lower-valley-water-district": (TCEQ_MUD, "5505000"),
     "el-paso-county-wcid-4": (TCEQ_WCID, "2858000"),
 }
+CAMERON_COMMISSIONER = "https://services5.arcgis.com/p65BQlkv8na0Y5l9/arcgis/rest/services/CC_CommPcts_2022_/FeatureServer/0"
+CAMERON_JP = "https://services5.arcgis.com/p65BQlkv8na0Y5l9/arcgis/rest/services/JP_Constables/FeatureServer/0"
+CAMERON_LOCAL_AREAS = {
+    "city-of-brownsville": (PLACE_LAYER, "4810768"),
+    "city-of-los-fresnos": (PLACE_LAYER, "4844116"),
+    "city-of-south-padre-island": (PLACE_LAYER, "4869140"),
+    "brownsville-isd": (SCHOOL_LAYER, "4811680"),
+    "la-feria-isd": (SCHOOL_LAYER, "4826040"),
+    "los-fresnos-cisd": (SCHOOL_LAYER, "4828290"),
+    "santa-maria-isd": (SCHOOL_LAYER, "4839330"),
+    "laguna-madre-water-district": (TCEQ_MUD, "5300700"),
+}
 BEXAR_LOCAL_AREAS = {
     "city-of-china-grove": (PLACE_LAYER, "4814716"),
     "city-of-converse": (PLACE_LAYER, "4816468"),
@@ -388,6 +400,35 @@ COUNTIES = {
                     "the district maps named in precincts#S-05."),
         "field_note": ("The City of El Paso's congressional layer still shows the pre-2025 districts, so congressional "
                        "districts come from the Texas Legislative Council's PLANC2333 shapefile."),
+    },
+    "cameron-county": {
+        "name": "Cameron County", "item": TLC_PRECINCTS_26, "layer": TLC_PRECINCTS_26, "precinct_field": "PREC",
+        # Cameron County's 102 precincts for 2026 come from the Texas Legislative Council's 2026 precinct shapefile
+        # (county code 61), matching the county elections office's 2026_Precincts layer (1-102). The precinct layers
+        # carry no district fields, so districts come from overlays: the State House plan and the county's own
+        # commissioner and JP layers (2022 plans). Every Cameron precinct is in Congressional District 34 and SBOE
+        # District 2 (the Council's Precincts26P_Districts table).
+        "precinct_shapefile": (TLC_PRECINCTS_26, "PCTKEY", "61"),
+        "fields": {kind: kind for kind in ("us-house", "state-house", "commissioner", "jp")},
+        "overlays": {
+            "us-house": ("shapefile", TLC_C2333, "District", "Texas Legislative Council: PLANC2333 (congressional districts "
+                         "enacted 2025, 89th Legislature, 2nd C.S.)"),
+            "state-house": ("shapefile", TLC_H2316, "District", "Texas Legislative Council: PLANH2316 (State House "
+                            "districts, 2023-2026)"),
+            "commissioner": ("arcgis", CAMERON_COMMISSIONER, "COMM_PCT", "Cameron County GIS: Commissioner Precincts (2022)"),
+            "jp": ("arcgis", CAMERON_JP, "JP_PCT", "Cameron County GIS: Justice of the Peace and Constable Precincts (2022)"),
+        },
+        "everywhere": ["court-of-appeals-13", "sboe-2"],  # Gov't Code 22.201(n); plan E2106 puts all of Cameron in SBOE 2
+        "local_areas": CAMERON_LOCAL_AREAS,
+        "headline": "Cameron County voting precincts (2026)",
+        "statement": ("The Texas Legislative Council's \"2026 Primary Election Voting Precincts\" shapefile, compiled from "
+                      "county election officials and the Secretary of State, gives Cameron County's 102 precincts "
+                      "(0001-0102) and their outlines, matching the county elections office's 2026 precinct layer."),
+        "title": "Texas Legislative Council: 2026 Primary Election Voting Precincts (precincts26p.zip)",
+        "credits": ("Only precinct numbers and outlines are used; each precinct's districts were assigned by overlaying "
+                    "the district maps named in precincts#S-05."),
+        "field_note": ("Cameron County's precinct layers list only precinct numbers, so every district comes from an "
+                       "overlay or, for SBOE District 2 and the 13th Court of Appeals, covers the whole county."),
     },
     "collin-county": {
         "name": "Collin County", "item": COLLIN_ITEM, "layer": COLLIN_LAYER, "precinct_field": "PRECINCT",

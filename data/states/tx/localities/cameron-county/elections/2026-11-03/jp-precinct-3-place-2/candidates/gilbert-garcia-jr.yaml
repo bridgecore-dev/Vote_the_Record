@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: gilbert-garcia-jr
+name: Gilbert Garcia, Jr.
+incumbent: false
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/jp-precinct-3-place-2/candidates/gilbert-garcia-jr#M-01
+  headline: Raised $3,000 (report received Oct 5, 2026)
+  statement: 'Campaign finance report received by Cameron County on Oct 5, 2026; the form gives the period as 07/15/2024 - 10/05/2024: $3,000.00 in total political contributions and $3,000.00 in total political expenditures. Left out: contributions on hand at the end of the period, outstanding loans (blank or not legible on the scanned report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/fr/FINANCE%20REPORTS/2026/07%20October%2026/G-H/GARCIA%20JR%20GILBERTO.pdf
+  source_title: 'Cameron County: campaign finance report, Mr. Gilberto Garcia Jr (received Oct 5, 2026)'
+  source_kind: document
+  sha256: 90df172279ee6168f91419f0168cf36bc0dcafebc43cd5d0d31b69cf4be434c0
+  archive_url: null
+  event_date: '2026-10-05'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in Cameron County Elections Department''s campaign finance file tree (https://www.cameroncountytx.gov/elections/wp-content/fr/) as filed by "Mr. Gilberto Garcia Jr" (30th day before election); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Not yet archived on the Wayback Machine. Reading note: Period handwritten as ''7/15/24 THROUGH 10/5/2024'' (election 11/03/26 General); recorded as written. Office sought: Justice of the Peace 3-2.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

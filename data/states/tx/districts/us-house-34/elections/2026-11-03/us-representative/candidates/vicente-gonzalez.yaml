@@ -1,0 +1,82 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: vicente-gonzalez
+name: Vicente Gonzalez
+incumbent: true
+ballot_party: DEM
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/us-house-34/elections/2026-11-03/us-representative/candidates/vicente-gonzalez#O-01
+    headline: Jobs and small business
+    statement: 'Campaign website: "Vicente Gonzalez supports efforts that encourage job creation, strengthen small businesses, and invest in industries that bring sustainable growth to the region."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://vicentegonzalez.com/issues/
+    source_title: Issues – Vicente Gonzalez
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-34/elections/2026-11-03/us-representative/candidates/vicente-gonzalez#O-02
+    headline: Seniors
+    statement: 'Campaign website: "Vicente remains committed to strengthening support systems for seniors, ensuring they receive the care, respect, and protection they deserve throughout their retirement years."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://vicentegonzalez.com/issues/
+    source_title: Issues – Vicente Gonzalez
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-34/elections/2026-11-03/us-representative/candidates/vicente-gonzalez#O-03
+    headline: Health care access
+    statement: 'Campaign website: "Vicente remains focused on strengthening healthcare access and supporting solutions that put patients and families first."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://vicentegonzalez.com/issues/
+    source_title: Issues – Vicente Gonzalez
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/us-house-34/elections/2026-11-03/us-representative/candidates/vicente-gonzalez#O-04
+    headline: Veterans
+    statement: 'Campaign website: "Vicente is committed to standing with veterans by supporting programs and policies that recognize their service and provide real, lasting assistance."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://vicentegonzalez.com/issues/
+    source_title: Issues – Vicente Gonzalez
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

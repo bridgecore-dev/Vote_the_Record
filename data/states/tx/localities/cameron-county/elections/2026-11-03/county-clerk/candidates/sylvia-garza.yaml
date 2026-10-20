@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: sylvia-garza
+name: Sylvia Garza
+incumbent: null
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/county-clerk/candidates/sylvia-garza#M-01
+  headline: Raised $9,398 and had $6,613 on hand (Jul 1, 2026 - Sep 30, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 30, 2026, received by Cameron County on Oct 1, 2026: $9,398.00 in total political contributions, $3,244.90 in total political expenditures, $6,613.20 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/fr/FINANCE%20REPORTS/2026/07%20October%2026/G-H/GARZA%20PEREZ%20SYLVIA.pdf
+  source_title: 'Cameron County: campaign finance report, Ms. Sylvia Garza Perez (received Oct 1, 2026)'
+  source_kind: document
+  sha256: 9bde8fe8ee67732933348863fb857dddeb5d6f413dce1de2b7b34d1ec3206632
+  archive_url: null
+  event_date: '2026-09-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in Cameron County Elections Department''s campaign finance file tree (https://www.cameroncountytx.gov/elections/wp-content/fr/) as filed by "Ms. Sylvia Garza Perez" (30th day before election); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Not yet archived on the Wayback Machine. The report is filed under the name "Sylvia Garza Perez", which differs from the ballot name; it was matched by office and election. The owner should confirm this is the same person. Reading note: Filed as ''Sylvia Garza Perez'' (site file ''GARZA PEREZ SYLVIA''); office held: Cameron County Clerk. Matched to ''Sylvia Garza'' by office; confirm against the ballot name.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

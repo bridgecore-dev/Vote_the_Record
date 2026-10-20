@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: lucy-jeannette-gonzales
+name: Lucy Jeannette Gonzales
+incumbent: false
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/county-treasurer/candidates/lucy-jeannette-gonzales#M-01
+  headline: Raised $1,830 and had $285 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, received by Cameron County on Oct 5, 2026: $1,830.00 in total political contributions, $4,445.63 in total political expenditures, $285.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/fr/FINANCE%20REPORTS/2026/07%20October%2026/G-H/GONZALES%20LUCY.pdf
+  source_title: 'Cameron County: campaign finance report, Mrs Lucy Jeannette Gonzales (received Oct 5, 2026)'
+  source_kind: document
+  sha256: 16908ff093efe5018e0dc5b5000b524c79e1a5747bc13d9caaf188865abe43ed
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in Cameron County Elections Department''s campaign finance file tree (https://www.cameroncountytx.gov/elections/wp-content/fr/) as filed by "Mrs Lucy Jeannette Gonzales" (30th day before election); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Not yet archived on the Wayback Machine. Reading note: Box 14 lists a notice from a general-purpose political committee (a county party committee, Brownsville). Office sought: Cameron County Treasurer. Loans written as a slashed zero.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

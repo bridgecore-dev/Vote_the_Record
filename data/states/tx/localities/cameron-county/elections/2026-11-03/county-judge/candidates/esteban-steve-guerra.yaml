@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: esteban-steve-guerra
+name: Esteban "Steve" Guerra
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/county-judge/candidates/esteban-steve-guerra#M-01
+  headline: Raised $155,981 and had $28,093 on hand (from Feb 24, 2026)
+  statement: 'Primary runoff campaign finance report for the period beginning Feb 24, 2026 (the end date is blank on the form), received by Cameron County on Jun 17, 2026: $155,980.95 in total political contributions, $162,774.21 in total political expenditures, $28,093.17 in contributions on hand at the end of the period, and $42,981.15 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/fr/FINANCE%20REPORTS/2026/06%20July%2015/G-H/Esteban%20Guerra.pdf
+  source_title: 'Cameron County: campaign finance report, MR ESTEBAN (nickname STEVE) GUERRA (received Jun 17, 2026)'
+  source_kind: document
+  sha256: 88fddae833d045a0a8d71ddee649e4a53c8beca289286e9bafe654bf500ce820
+  archive_url: null
+  event_date: '2026-06-17'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in Cameron County Elections Department''s campaign finance file tree (https://www.cameroncountytx.gov/elections/wp-content/fr/) as filed by "MR ESTEBAN (nickname STEVE) GUERRA" (Runoff (box checked); separator page says ''PRIMARY RUNOFF REPORT MAY 18, 2026''); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Not yet archived on the Wayback Machine. Reading note: Posted in the site''s ''2026/06 July 15'' folder, but the document is a primary-runoff report (election 5/26/26, Runoff box checked, ''through'' date left blank). No July 15 semiannual or 30-day report for this filer is posted. Newest posted for this candidate. Notarized June 16, 2026.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

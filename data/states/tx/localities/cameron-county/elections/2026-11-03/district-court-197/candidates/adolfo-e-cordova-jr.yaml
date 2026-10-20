@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: adolfo-e-cordova-jr
+name: Adolfo E. Cordova, Jr.
+incumbent: true
+ballot_party: DEM
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/district-court-197/candidates/adolfo-e-cordova-jr#M-01
+  headline: Raised $8,750 and had $121,228 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 14, 2026: $8,750.00 in total political contributions, $7,354.57 in total political expenditures, $121,228.19 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101061026.PDF
+  source_title: 'Texas Ethics Commission: Cordova Jr., Adolfo E. (The Honorable), campaign finance report 101061026 (filed Jul 14, 2026)'
+  source_kind: document
+  sha256: ae9f32c1abdc6f2c696c9e119bc60ff8774318368c99c3d0cfd36cb0dbff9082
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101061026, form JCOH, TEC report type SEMIJUL; filer ID 00081759 (Cordova Jr., Adolfo E. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-20; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

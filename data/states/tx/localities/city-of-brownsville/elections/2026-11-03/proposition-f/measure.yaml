@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: City of Brownsville, Proposition F
+election_date: '2026-11-03'
+kind: charter-amendment
+ballot_text: Shall the City Charter of the City of Brownsville be amended by adding section 21-C to Article V, providing for the appointment and removal of a City Auditor and defining the duties and powers of the Office of the City Auditor, including the obligation to conduct, or cause to be conducted, financial, fiscal compliance, and financial procedure audits, as well as performance, investigative, and other audits, of all city departments, offices, agencies, created entities, corporations, and programs; serve as an advisor to the Audit and Oversight Committee and report to them administrative and operational functions of the Office of the City Auditor?
+choices:
+- For
+- Against
+explained: []
+sources:
+- id: tx/localities/city-of-brownsville/elections/2026-11-03/proposition-f/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Cameron County Elections Department''s sample ballot for the November 3, 2026 general and special elections prints "City of Brownsville, Proposition F" on page 15 with the choices For and Against and this English wording: "Shall the City Charter of the City of Brownsville be amended by adding section 21-C to Article V, providing for the appointment and removal of a City Auditor and defining the duties and powers of the Office of the City Auditor, including the obligation to conduct, or cause to be conducted, financial, fiscal compliance, and financial procedure audits, as well as performance, investigative, and other audits, of all city departments, offices, agencies, created entities, corporations, and programs; serve as an advisor to the Audit and Oversight Committee and report to them administrative and operational functions of the Office of the City Auditor?"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/09/26GCAMER_SAMPLE.pdf
+  source_title: 'Cameron County Elections Department: Sample Ballot, November 3, 2026 General and Special Elections, Cameron County, Texas (all ballots) (page 15)'
+  source_kind: document
+  sha256: d68a292fb6f1f0ea761af3a4456512dcc6d960f438fedc6d182d4c0d491721a4
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The county''s "All ballots for the November 3, 2026 General and Special Elections Sample Ballot" (https://www.cameroncountytx.gov/elections/index.php/sample-ballots-2/): every ballot style (142) in one PDF. Names and wording are from the PDF''s text layer, kept as printed (English text only); the page cited is the first style that carries the contest.'

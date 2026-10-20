@@ -1,0 +1,38 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: State Representative, District 37
+office_type: state-representative
+election_date: '2026-11-03'
+sources:
+- id: tx/districts/state-house-37/elections/2026-11-03/state-representative/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Cameron County Elections Department''s sample ballot for the November 3, 2026 general and special elections lists "State Representative, District 37" on page 1, with these candidates: Janie Lopez (REP); Oziel "Ozzie" Ochoa, Jr. (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/09/26GCAMER_SAMPLE.pdf
+  source_title: 'Cameron County Elections Department: Sample Ballot, November 3, 2026 General and Special Elections, Cameron County, Texas (all ballots) (page 1)'
+  source_kind: document
+  sha256: d68a292fb6f1f0ea761af3a4456512dcc6d960f438fedc6d182d4c0d491721a4
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The county''s "All ballots for the November 3, 2026 General and Special Elections Sample Ballot" (https://www.cameroncountytx.gov/elections/index.php/sample-ballots-2/): every ballot style (142) in one PDF. Names and wording are from the PDF''s text layer, kept as printed (English text only); the page cited is the first style that carries the contest.'
+- id: tx/districts/state-house-37/elections/2026-11-03/state-representative/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Official Home Page of the Texas House of Representatives Website for Rep. Lopez, Janie.), checked on October 20, 2026, shows that Janie Lopez, a candidate in this race, currently holds this office. It reads: "Rep. Lopez, Janie - District 37" It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://house.texas.gov/members/member-page?district=37
+  source_title: Official Home Page of the Texas House of Representatives Website for Rep. Lopez, Janie.
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null

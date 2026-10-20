@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: District Judge, 484th Judicial District
+office_type: district-judge
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/cameron-county/elections/2026-11-03/district-court-484/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Cameron County Elections Department''s sample ballot for the November 3, 2026 general and special elections lists "District Judge, 484th Judicial District" on page 2, with these candidates: Adela Kowalski-Garza (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/09/26GCAMER_SAMPLE.pdf
+  source_title: 'Cameron County Elections Department: Sample Ballot, November 3, 2026 General and Special Elections, Cameron County, Texas (all ballots) (page 2)'
+  source_kind: document
+  sha256: d68a292fb6f1f0ea761af3a4456512dcc6d960f438fedc6d182d4c0d491721a4
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The county''s "All ballots for the November 3, 2026 General and Special Elections Sample Ballot" (https://www.cameroncountytx.gov/elections/index.php/sample-ballots-2/): every ballot style (142) in one PDF. Names and wording are from the PDF''s text layer, kept as printed (English text only); the page cited is the first style that carries the contest.'
+- id: tx/localities/cameron-county/elections/2026-11-03/district-court-484/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (District Courts - Cameron County), checked on October 20, 2026, shows that Adela Kowalski-Garza, a candidate in this race, currently holds this office. It reads: "484th District Court of Cameron County Honorable Judge Adela Kowalski-Garza"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/district-courts/
+  source_title: District Courts - Cameron County
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null

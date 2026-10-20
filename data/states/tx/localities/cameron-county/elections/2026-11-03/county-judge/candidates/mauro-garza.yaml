@@ -1,0 +1,82 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: mauro-garza
+name: Mauro Garza
+incumbent: false
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/county-judge/candidates/mauro-garza#M-01
+  headline: Raised $2,951 and had $224 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, received by Cameron County on Jul 15, 2026: $2,951.00 in total political contributions, $11,743.83 in total political expenditures, $224.17 in contributions on hand at the end of the period, and $174,480.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/fr/FINANCE%20REPORTS/2026/06%20July%2015/G-H/GARZA%20MAURO.pdf
+  source_title: 'Cameron County: campaign finance report, MR MAURO E GARZA (received Jul 15, 2026)'
+  source_kind: document
+  sha256: 7a934991f2d91a8267a2e86667d1bca0b1c4c86972328d749646845b6f80feff
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in Cameron County Elections Department''s campaign finance file tree (https://www.cameroncountytx.gov/elections/wp-content/fr/) as filed by "MR MAURO E GARZA" (July 15 (semiannual)); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Not yet archived on the Wayback Machine. Reading note: Form C/OH. Office sought: Cameron County Judge.'
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/cameron-county/elections/2026-11-03/county-judge/candidates/mauro-garza#O-01
+    headline: Water supply
+    statement: 'Campaign website: "As Cameron County continues to grow, we must work with regional, state, and federal partners to strengthen water infrastructure, encourage innovation, improve conservation, and pursue long-term solutions that protect our future."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.mauroforjudge.com/the-plan
+    source_title: Mauro Garza’s Priorities for Cameron County
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/cameron-county/elections/2026-11-03/county-judge/candidates/mauro-garza#O-02
+    headline: Drainage and roads
+    statement: 'Campaign website: "That means improving drainage, maintaining county roads, modernizing public facilities, and planning for the next generation instead of simply reacting to today’s needs."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.mauroforjudge.com/the-plan
+    source_title: Mauro Garza’s Priorities for Cameron County
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/cameron-county/elections/2026-11-03/county-judge/candidates/mauro-garza#O-03
+    headline: County spending
+    statement: 'Campaign website: "Taxpayers deserve a government that spends responsibly, seeks outside funding whenever possible, and operates with complete transparency and accountability."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.mauroforjudge.com/the-plan
+    source_title: Mauro Garza’s Priorities for Cameron County
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

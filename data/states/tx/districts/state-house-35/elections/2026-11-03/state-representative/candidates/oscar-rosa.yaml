@@ -1,0 +1,82 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: oscar-rosa
+name: Oscar Rosa
+incumbent: false
+ballot_party: REP
+records: []
+funding:
+- id: tx/districts/state-house-35/elections/2026-11-03/state-representative/candidates/oscar-rosa#M-01
+  headline: Raised $1,500 and had $1,600 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $1,500.00 in total political contributions, $582.48 in total political expenditures, $1,600.00 in contributions on hand at the end of the period, and $100.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068968.PDF
+  source_title: 'Texas Ethics Commission: Rosa, Oscar (Mr.), campaign finance report 101068968 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: f7f68b8e05fd076de1585c6234c86b7a5d9d4e6953e4e23f10b87d599bd9a711
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101068968, form COH, TEC report type E30DAYBEF; filer ID 00086008 (Rosa, Oscar (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-20; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/state-house-35/elections/2026-11-03/state-representative/candidates/oscar-rosa#O-01
+    headline: Taxes and health costs
+    statement: 'Campaign website: "Affordable Living: Cut property taxes, lower prescription drug costs, and make healthcare accessible for every family."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://rosafortexas.com/
+    source_title: Oscar Rosa for Texas State Representative District 35
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-35/elections/2026-11-03/state-representative/candidates/oscar-rosa#O-02
+    headline: Jobs and business
+    statement: 'Campaign website: "Economic Growth: Create jobs by making Texas more business-friendly and supporting small businesses like the ones I ran."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://rosafortexas.com/
+    source_title: Oscar Rosa for Texas State Representative District 35
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-house-35/elections/2026-11-03/state-representative/candidates/oscar-rosa#O-03
+    headline: Border security
+    statement: 'Campaign website: "Secure Our Border: End the chaos of human trafficking, drug smuggling, and cartel violence that''s destroying lives and families. We''ll push for state solutions to protect our communities."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://rosafortexas.com/
+    source_title: Oscar Rosa for Texas State Representative District 35
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: julian-b-martinez
+name: Julian B. Martinez
+incumbent: false
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/cameron-county/elections/2026-11-03/jp-precinct-2-place-2/candidates/julian-b-martinez#M-01
+  headline: Raised $7,440 and had $1,211 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, received by Cameron County on Oct 5, 2026: $7,439.60 in total political contributions, $3,961.31 in total political expenditures, and $1,210.68 in contributions on hand at the end of the period. Left out: outstanding loans (blank or not legible on the scanned report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/fr/FINANCE%20REPORTS/2026/07%20October%2026/M-N/MARTINEZ%20JULIAN.pdf
+  source_title: 'Cameron County: campaign finance report, Julian Martinez, MI B (received Oct 5, 2026)'
+  source_kind: document
+  sha256: 9831c55a5c758d7c8369141fc4a8514aefa56072dab908d6462aea32d75d14a7
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in Cameron County Elections Department''s campaign finance file tree (https://www.cameroncountytx.gov/elections/wp-content/fr/) as filed by "Julian Martinez, MI B" (30th day before election); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Not yet archived on the Wayback Machine. Reading note: Election type box checked ''Primary'' with date 11/03/2026. Office held/sought left blank. Middle digit of loan figure unclear.'
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []
