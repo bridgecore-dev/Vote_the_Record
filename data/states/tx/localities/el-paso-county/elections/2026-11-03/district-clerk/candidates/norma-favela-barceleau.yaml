@@ -4,7 +4,24 @@ name: Norma Favela Barceleau
 incumbent: true
 ballot_party: DEM
 records: []
-funding: []
+funding:
+- id: tx/localities/el-paso-county/elections/2026-11-03/district-clerk/candidates/norma-favela-barceleau#M-01
+  headline: Raised $800 and had $6,579 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, filed with El Paso County on Jul 15, 2026: $800.00 in total political contributions, $310.00 in total political expenditures, $6,578.75 in contributions on hand at the end of the period, and $10,600.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://apps.epcountytx.gov/campaignfinancereport/tmp/4209.pdf
+  source_title: 'El Paso County: campaign finance report, FAVELA BARCELEAU, NORMA L (filed Jul 15, 2026)'
+  source_kind: document
+  sha256: b82fc011ce38b0f25be5c33328cea6c0d0472ca0cd9ca4779cebd9a9e1944bd0
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in El Paso County''s campaign finance report search (https://apps.epcountytx.gov/campaignfinancereport/) under filer "FAVELA BARCELEAU, NORMA L" (Form C/OH, July 15 semiannual); matched by name and office. This is the newest report listed for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Report page: https://apps.epcountytx.gov/campaignfinancereport/View.aspx?rpt=4119. Not yet archived on the Wayback Machine. Reading note: Handwritten with superscript cents.'
 endorsements: []
 running_on:
   policy_proposals: []

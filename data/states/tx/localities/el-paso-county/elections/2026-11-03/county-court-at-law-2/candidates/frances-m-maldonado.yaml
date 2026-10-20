@@ -4,7 +4,24 @@ name: Frances M. Maldonado
 incumbent: false
 ballot_party: DEM
 records: []
-funding: []
+funding:
+- id: tx/localities/el-paso-county/elections/2026-11-03/county-court-at-law-2/candidates/frances-m-maldonado#M-01
+  headline: Raised $200 and had $0 on hand (May 17, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering May 17, 2026 - Jun 30, 2026, filed with El Paso County on Jul 15, 2026: $200.00 in total political contributions, $16,158.89 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $84,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://apps.epcountytx.gov/campaignfinancereport/tmp/4211.pdf
+  source_title: 'El Paso County: campaign finance report, MALDONADO, FRANCES M (filed Jul 15, 2026)'
+  source_kind: document
+  sha256: e84e7b7b6bf96699a039d2f7f9064e1e448e7a2bfd89b8239bdc3448cd107337
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in El Paso County''s campaign finance report search (https://apps.epcountytx.gov/campaignfinancereport/) under filer "MALDONADO, FRANCES M" (Form JC/OH, July 15 semiannual); matched by name and office. This is the newest report listed for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Report page: https://apps.epcountytx.gov/campaignfinancereport/View.aspx?rpt=4121. Not yet archived on the Wayback Machine. Reading note: Chosen over a later-filed item: the ''AMENDED RUNOFF'' entry filed 07-22-2026 (View.aspx?rpt=4136, tmp/4226.pdf, sha256 33a7fac1e411138e7f3f020c109e8201ca7203d97e572c8ff135ef8e6a903093) is a Form COR-C/OH correction affidavit for the runoff report covering 02/22/2026-05/16/2026; it withdraws a final-report (C/OH-FR) designation attached in error and carries no totals. Line 1 left blank on the form.'
 endorsements: []
 running_on:
   policy_proposals: []

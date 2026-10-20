@@ -4,7 +4,24 @@ name: Humberto "Beto" Enriquez
 incumbent: true
 ballot_party: DEM
 records: []
-funding: []
+funding:
+- id: tx/localities/el-paso-county/elections/2026-11-03/jp-precinct-7/candidates/humberto-beto-enriquez#M-01
+  headline: Raised $400 and had $420 on hand (Feb 4, 2026 - Feb 23, 2026)
+  statement: 'Campaign finance report covering Feb 4, 2026 - Feb 23, 2026, filed with El Paso County on Feb 23, 2026: $400.00 in total political contributions, $4,936.00 in total political expenditures, $420.05 in contributions on hand at the end of the period, and $29,250.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://apps.epcountytx.gov/campaignfinancereport/tmp/4139.pdf
+  source_title: 'El Paso County: campaign finance report, ENRIQUEZ, HUMBERTO (filed Feb 23, 2026)'
+  source_kind: document
+  sha256: d62ed3a8a7eb04b56f5696a5bf467e5fa2fab5570ea7c2f088742639332a76d6
+  archive_url: null
+  event_date: '2026-02-23'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in El Paso County''s campaign finance report search (https://apps.epcountytx.gov/campaignfinancereport/) under filer "ENRIQUEZ, HUMBERTO" (Form JC/OH, 8th day before election (primary, 03/03/2026)); matched by name and office. This is the newest report listed for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 3). Report page: https://apps.epcountytx.gov/campaignfinancereport/View.aspx?rpt=4055. Not yet archived on the Wayback Machine. Reading note: Handwritten. Latest report in the system: no July 15, 2026 or 30-day-before-general report is listed for this filer as of 2026-10-20.'
 endorsements: []
 running_on:
   policy_proposals: []

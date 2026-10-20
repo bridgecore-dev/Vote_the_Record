@@ -4,7 +4,24 @@ name: M. Sue Kurita
 incumbent: true
 ballot_party: DEM
 records: []
-funding: []
+funding:
+- id: tx/localities/el-paso-county/elections/2026-11-03/county-court-at-law-6/candidates/m-sue-kurita#M-01
+  headline: Raised $200 and had $33,426 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, filed with El Paso County on Jul 14, 2026: $200.00 in total political contributions, $5,830.81 in total political expenditures, and $33,425.86 in contributions on hand at the end of the period.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://apps.epcountytx.gov/campaignfinancereport/tmp/4199.pdf
+  source_title: 'El Paso County: campaign finance report, KURITA, MARTHA SUE (filed Jul 14, 2026)'
+  source_kind: document
+  sha256: 3b9d1879a3fb1a9bdbc753ff00825b974c2fb0a9fcfddc5d7cf68a98f3e57ce3
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Listed in El Paso County''s campaign finance report search (https://apps.epcountytx.gov/campaignfinancereport/) under filer "KURITA, MARTHA SUE" (Form JC/OH, July 15 semiannual); matched by name and office. This is the newest report listed for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Report page: https://apps.epcountytx.gov/campaignfinancereport/View.aspx?rpt=4109. Not yet archived on the Wayback Machine. Reading note: Handwritten; amounts written without thousands separators, reproduced as written.'
 endorsements: []
 running_on:
   policy_proposals: []
