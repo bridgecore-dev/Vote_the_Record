@@ -1,0 +1,23 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: El Paso County WCID No. 4 Director, Position 2
+office_type: water-district-director
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/el-paso-county-wcid-4/elections/2026-11-03/director-position-2/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The El Paso County Elections Department''s sample ballot for the November 3, 2026 general and special election lists "Director for Position No. 2" on page 1, with these candidates: Luz Marquez; Jorge Carrasco, Jr..'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/821/original/3._EPCWID4_Ballot.pdf?1789660550
+  source_title: 'El Paso County Elections Department: Sample Ballot, November 3, 2026 General and Special Election, El Paso County, Texas: El Paso County Water Control & Improvement District No.4 (page 1)'
+  source_kind: document
+  sha256: 347b84000ff1c5a4e84fa43a02711bfde6e7f9583f246cced74caad5ec96a2dc
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the sample ballots the county lists under "Sample Ballots" on its Current Election page (https://epcountyvotestx.gov/voter-information/current-election), one per jurisdiction. Names and wording are from the PDF's text layer, kept as printed (English text only).

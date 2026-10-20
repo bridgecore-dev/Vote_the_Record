@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: Ysleta ISD, Proposition A
+election_date: '2026-11-03'
+kind: tax-rate
+ballot_text: THIS IS A TAX INCREASE. “Ratifying the ad valorem tax rate of $1.1954 per $100 valuation in the Ysleta Independent School District for the current year, a rate that will result in an increase of -1.70 percent in maintenance and operations tax revenue for the District for the current year as compared to the preceding year, which is an additional -$992,296.04.”
+choices:
+- For
+- Against
+explained: []
+sources:
+- id: tx/localities/ysleta-isd/elections/2026-11-03/proposition-a/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The El Paso County Elections Department''s sample ballot for the November 3, 2026 general and special election prints "Ysleta ISD, Proposition A" on page 1 with the choices For and Against and this English wording: "THIS IS A TAX INCREASE. “Ratifying the ad valorem tax rate of $1.1954 per $100 valuation in the Ysleta Independent School District for the current year, a rate that will result in an increase of -1.70 percent in maintenance and operations tax revenue for the District for the current year as compared to the preceding year, which is an additional -$992,296.04.”"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/825/original/5._Ysleta_ISD_Ballot.pdf?1789660550
+  source_title: 'El Paso County Elections Department: Sample Ballot, November 3, 2026 General and Special Election, El Paso County, Texas: Ysleta ISD (page 1)'
+  source_kind: document
+  sha256: d8aeb1892bc6c49025a2bbabec62c5842a8412ac1ea5fd52ac5f216a098518c9
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the sample ballots the county lists under "Sample Ballots" on its Current Election page (https://epcountyvotestx.gov/voter-information/current-election), one per jurisdiction. Names and wording are from the PDF's text layer, kept as printed (English text only).

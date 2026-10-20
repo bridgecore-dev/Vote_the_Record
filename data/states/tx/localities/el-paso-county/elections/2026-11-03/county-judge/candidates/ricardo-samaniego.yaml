@@ -1,0 +1,141 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: ricardo-samaniego
+name: Ricardo Samaniego
+incumbent: true
+ballot_party: DEM
+records:
+- id: tx/localities/el-paso-county/elections/2026-11-03/county-judge/candidates/ricardo-samaniego#R-01
+  record_type: vote
+  headline: Voted yes on the 2026-27 county budget (2026)
+  result: Passed the Commissioners Court 5-0.
+  statement: 'As County Judge, presiding over the El Paso County Commissioners Court, voted yes on item 11D at the September 14, 2026 regular meeting. The approved minutes record the motion "APPROVE AND ADOPT THE ATTACHED EL PASO COUNTY ANNUAL OPERATING BUDGET FOR THE FISCAL YEAR BEGINNING OCTOBER 1, 2026, AND ENDING SEPTEMBER 30, 2027." with "RESULT: Pass [5 TO 0]" and "AYES: Samaniego, Butler, Stout, Holguin, Coronado; NAYS: None".'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://epcounty.primegov.com/Public/CompiledDocument?meetingTemplateId=6152&compileOutputType=1
+  source_title: El Paso County Commissioners Court minutes, Regular Meeting, September 14, 2026 (page 21 of 25)
+  source_kind: document
+  sha256: d154cf96495e367aa87d65648dd5cb12e42d82561be136dcc442702be74f1be2
+  archive_url: null
+  event_date: '2026-09-14'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The court's approved minutes from the county's PrimeGov meeting portal (the link forwards to the compiled PDF). The PDF is scanned; the motion and vote box were read from the page image. Not yet archived on the Wayback Machine.
+- id: tx/localities/el-paso-county/elections/2026-11-03/county-judge/candidates/ricardo-samaniego#R-02
+  record_type: vote
+  headline: Voted yes on the 2026 county property tax rate (2026)
+  result: Passed the Commissioners Court 5-0.
+  statement: 'As County Judge, presiding over the El Paso County Commissioners Court, voted yes on item 13E at the August 17, 2026 regular meeting. The approved minutes record the motion "APPROVE THAT THE EL PASO COUNTY COMMISSIONERS ADOPT THE (NO-NEW REVENUE) TAX RATE FOR THE 2026 TAX YEAR. THE (NO-NEW REVENUE) TAX RATE FOR EL PASO COUNTY IS A PROPERTY TAX RATE OF $(0.451133) PER $100 ASSESSED VALUE" with "RESULT: Pass [5 TO 0]" and "AYES: Samaniego, Butler, Stout, Holguin, Coronado; NAYS: None".'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://epcounty.primegov.com/Public/CompiledDocument?meetingTemplateId=6073&compileOutputType=1
+  source_title: El Paso County Commissioners Court minutes, Regular Meeting, August 17, 2026 (page 17 of 22)
+  source_kind: document
+  sha256: bf2eab1cae144692bb7af5ce9fa386560d75cf2f72fd779a0d48e82e8db61c09
+  archive_url: null
+  event_date: '2026-08-17'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The court's approved minutes from the county's PrimeGov meeting portal (the link forwards to the compiled PDF). The PDF is scanned; the motion and vote box were read from the page image. Not yet archived on the Wayback Machine.
+- id: tx/localities/el-paso-county/elections/2026-11-03/county-judge/candidates/ricardo-samaniego#R-03
+  record_type: vote
+  headline: Voted yes on the 2025-26 county budget (2025)
+  result: Passed the Commissioners Court 5-0.
+  statement: 'As County Judge, presiding over the El Paso County Commissioners Court, voted yes on item 15B at the September 15, 2025 regular meeting. The approved minutes record the motion "APPROVE AND ADOPT THE ATTACHED EL PASO COUNTY ANNUAL OPERATING BUDGET FOR THE FISCAL YEAR BEGINNING OCTOBER 1, 2025, AND ENDING, SEPTEMBER 30, 2026" with "RESULT: Pass [5 TO 0]" and "AYES: Samaniego, Butler, Holguin, Stout, Coronado; NAYS: None".'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://epcounty.primegov.com/Public/CompiledDocument?meetingTemplateId=2083&compileOutputType=1
+  source_title: El Paso County Commissioners Court minutes, Regular Meeting, September 15, 2025 (page 21 of 24)
+  source_kind: document
+  sha256: cbc579e579c13390c5e087a1381a2b27466a0593c2b5ab9207728879a798ec8b
+  archive_url: null
+  event_date: '2025-09-15'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The court's approved minutes from the county's PrimeGov meeting portal (the link forwards to the compiled PDF). The PDF is scanned; the motion and vote box were read from the page image. Not yet archived on the Wayback Machine.
+- id: tx/localities/el-paso-county/elections/2026-11-03/county-judge/candidates/ricardo-samaniego#R-04
+  record_type: vote
+  headline: Voted yes on the 2025 county property tax rate (2025)
+  result: Passed the Commissioners Court 4-1.
+  statement: 'As County Judge, presiding over the El Paso County Commissioners Court, voted yes on item 9C at the August 18, 2025 regular meeting. The approved minutes record the motion "MOTION THAT FOR THE 2025 TAX YEAR THE EL PASO COUNTY PROPERTY TAX RATE BE INCREASED BY THE ADOPTION OF A TAX RATE OF $0.458889, WHICH IS EFFECTIVELY A 12% PERCENT INCREASE IN THE TAX RATE." with "RESULT: Pass [4 TO 1]" and "AYES: Samaniego, Butler, Stout, Coronado; NAYS: Holguin".'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://epcounty.primegov.com/Public/CompiledDocument?meetingTemplateId=2028&compileOutputType=1
+  source_title: El Paso County Commissioners Court minutes, Regular Meeting, August 18, 2025 (page 11 of 19)
+  source_kind: document
+  sha256: befe8e560f5198a041ad8a750d4d84746b81b8e0e76fbb4a346d68fa137b1b81
+  archive_url: null
+  event_date: '2025-08-18'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The court's approved minutes from the county's PrimeGov meeting portal (the link forwards to the compiled PDF). The PDF is scanned; the motion and vote box were read from the page image. Not yet archived on the Wayback Machine.
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/el-paso-county/elections/2026-11-03/county-judge/candidates/ricardo-samaniego#O-01
+    headline: County healthcare hub
+    statement: 'Campaign website: "His vision includes a new Healthcare Hub at the Reynolds entrance, focused on bringing real services to the communities that need them most and ensuring equitable access to healthcare across the county."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.samaniegoforjudge.com/issues
+    source_title: 'Ricardo Samaniego for County Judge campaign website: Issues'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/el-paso-county/elections/2026-11-03/county-judge/candidates/ricardo-samaniego#O-02
+    headline: Agriculture in county development
+    statement: 'Campaign website: "Judge Samaniego has made agriculture a key piece of county development, especially in Tornillo."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.samaniegoforjudge.com/issues
+    source_title: 'Ricardo Samaniego for County Judge campaign website: Issues'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/el-paso-county/elections/2026-11-03/county-judge/candidates/ricardo-samaniego#O-03
+    headline: Manufacturing investment
+    statement: 'Campaign website: "His work with Taiwan-based companies and Borderplex has positioned El Paso as a serious player in global manufacturing, bringing investments that fuel local jobs and long-term growth."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.samaniegoforjudge.com/issues
+    source_title: 'Ricardo Samaniego for County Judge campaign website: Issues'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

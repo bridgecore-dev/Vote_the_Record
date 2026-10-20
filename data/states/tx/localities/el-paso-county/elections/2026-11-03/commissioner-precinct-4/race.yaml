@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: County Commissioner, Precinct 4
+office_type: county-commissioner
+election_date: '2026-11-03'
+area: el-paso-county/commissioner-4
+sources:
+- id: tx/localities/el-paso-county/elections/2026-11-03/commissioner-precinct-4/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The El Paso County Elections Department''s sample ballot for the November 3, 2026 general and special election lists "County Commissioner, Precinct No. 4" on page 6, with these candidates: Leo Arcos (REP); Annette Griego (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550
+  source_title: 'El Paso County Elections Department: Sample Ballot, November 3, 2026 General and Special Election, El Paso County, Texas: Federal, State & County (page 6)'
+  source_kind: document
+  sha256: cdb43152a132333b0623fa25c6eed276af4bc335046358cc5b4ccccfa78919cd
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the sample ballots the county lists under "Sample Ballots" on its Current Election page (https://epcountyvotestx.gov/voter-information/current-election), one per jurisdiction. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/el-paso-county/elections/2026-11-03/commissioner-precinct-4/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Elected Officials - El Paso County, TX Elections | El Paso County Elections Department), checked on October 19, 2026, lists "Sergio Coronado" as holding this office; none of the candidates in this race is listed as the current officeholder. It reads: "County Commissioner #4 - Sergio Coronado"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials
+  source_title: Elected Officials - El Paso County, TX Elections | El Paso County Elections Department
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null

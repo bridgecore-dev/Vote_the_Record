@@ -1,0 +1,14 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: benjamin-morales
+name: Benjamin Morales
+incumbent: true
+ballot_party: null
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

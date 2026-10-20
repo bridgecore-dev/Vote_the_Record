@@ -1,0 +1,31 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: minerva-torres-shelton
+name: Minerva Torres Shelton
+incumbent: false
+ballot_party: REP
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/el-paso-county/elections/2026-11-03/county-judge/candidates/minerva-torres-shelton#O-01
+    headline: County budget, debt, and disaster response
+    statement: 'Campaign website: "As your next County Judge, I will conduct a line-by-line audit of the budget to expose waste, create citizen advisory boards to oversee spending, limit Certificates of Obligation to true emergencies, strengthen disaster response, and even propose reducing the County Judge’s salary."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://minervaforelpaso.com/
+    source_title: Minerva for El Paso County Judge campaign website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

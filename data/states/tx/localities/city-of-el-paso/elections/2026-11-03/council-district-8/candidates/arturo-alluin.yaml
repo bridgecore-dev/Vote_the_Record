@@ -1,0 +1,65 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: arturo-alluin
+name: Arturo Alluin
+incumbent: false
+ballot_party: null
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-8/candidates/arturo-alluin#O-01
+    headline: Small business and development
+    statement: 'Campaign website: "He will work to strengthen small businesses, support responsible development, and help District 8 remain one of the most dynamic areas in El Paso."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://arturoforelpaso.com/
+    source_title: Arturo Alluin for El Paso District 8 campaign website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-8/candidates/arturo-alluin#O-02
+    headline: Public safety and roads
+    statement: 'Campaign website: "Arturo will advocate for stronger public safety resources, improved roads, and infrastructure investments that support both residents and local businesses."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://arturoforelpaso.com/
+    source_title: Arturo Alluin for El Paso District 8 campaign website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-8/candidates/arturo-alluin#O-03
+    headline: City budgeting
+    statement: 'Campaign website: "His focus is on responsible budgeting that supports essential services while protecting residents from unnecessary financial burdens."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://arturoforelpaso.com/
+    source_title: Arturo Alluin for El Paso District 8 campaign website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

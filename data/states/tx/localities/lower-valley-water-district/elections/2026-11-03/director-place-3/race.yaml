@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Lower Valley Water District Director, Place 3
+office_type: water-district-director
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/lower-valley-water-district/elections/2026-11-03/director-place-3/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The El Paso County Elections Department''s sample ballot for the November 3, 2026 general and special election lists "Lower Valley Water District, Board of Directors, Place 3" on page 1, with these candidates: Henry A. Trujillo.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/817/original/1._LVWD_Ballot.pdf?1789660550
+  source_title: 'El Paso County Elections Department: Sample Ballot, November 3, 2026 General and Special Election, El Paso County, Texas: Lower Valley Water District (page 1)'
+  source_kind: document
+  sha256: f04933cfe6f029d9480f7470043d46bdb36e3facc8e270050f24c56fb9396538
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the sample ballots the county lists under "Sample Ballots" on its Current Election page (https://epcountyvotestx.gov/voter-information/current-election), one per jurisdiction. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/lower-valley-water-district/elections/2026-11-03/director-place-3/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Elected Officials - El Paso County, TX Elections | El Paso County Elections Department), checked on October 19, 2026, shows that Henry A. Trujillo, a candidate in this race, currently holds this office. It reads: "Director #3 - Henry Trujillo"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials
+  source_title: Elected Officials - El Paso County, TX Elections | El Paso County Elections Department
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null

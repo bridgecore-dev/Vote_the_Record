@@ -1,0 +1,65 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: annette-griego
+name: Annette Griego
+incumbent: false
+ballot_party: DEM
+records: []
+funding: []
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/localities/el-paso-county/elections/2026-11-03/commissioner-precinct-4/candidates/annette-griego#O-01
+    headline: Property tax and county spending
+    statement: 'Campaign website: "Annette Griego believes county government should review spending, reduce unnecessary costs, and prioritize essential services before increasing property taxes on homeowners."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://annettegriego.com/
+    source_title: Annette Griego for County Commissioner campaign website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/el-paso-county/elections/2026-11-03/commissioner-precinct-4/candidates/annette-griego#O-02
+    headline: Roads, drainage, and flooding
+    statement: 'Campaign website: "As County Commissioner, Annette will support infrastructure investments that fix what''s broken, reduce flooding risks, and improve safety for families and first responders."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://annettegriego.com/
+    source_title: Annette Griego for County Commissioner campaign website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/localities/el-paso-county/elections/2026-11-03/commissioner-precinct-4/candidates/annette-griego#O-03
+    headline: County hospital oversight
+    statement: 'Campaign website: "As County Commissioner, she will support policies that strengthen UMC''s ability to deliver quality care while insisting on transparent budgeting, clear performance goals, and responsible long-term planning."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://annettegriego.com/
+    source_title: Annette Griego for County Commissioner campaign website
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-19'
+    retrieved: '2026-10-19'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: Socorro ISD, Proposition A
+election_date: '2026-11-03'
+kind: tax-rate
+ballot_text: '"Ratifying the ad valorem tax rate of $1.0505 per $100 valuation in the Socorro Independent School District for the current year, a rate that will result in an increase of 18.13 percent in maintenance and operations tax revenue for the District for the current year as compared to the preceding year, which is an additional $17,341,476.00."'
+choices:
+- For
+- Against
+explained: []
+sources:
+- id: tx/localities/socorro-isd/elections/2026-11-03/proposition-a/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The El Paso County Elections Department''s sample ballot for the November 3, 2026 general and special election prints "Socorro ISD, Proposition A" on page 1 with the choices For and Against and this English wording: ""Ratifying the ad valorem tax rate of $1.0505 per $100 valuation in the Socorro Independent School District for the current year, a rate that will result in an increase of 18.13 percent in maintenance and operations tax revenue for the District for the current year as compared to the preceding year, which is an additional $17,341,476.00.""'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/816/original/6._Socorro_ISD_Ballot.pdf?1789660550
+  source_title: 'El Paso County Elections Department: Sample Ballot, November 3, 2026 General and Special Election, El Paso County, Texas: Socorro ISD (page 1)'
+  source_kind: document
+  sha256: b5cabbcdd3c106e79d6d2a76a41a6383f3fad1c94f2044fe9f1f307863b8000e
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the sample ballots the county lists under "Sample Ballots" on its Current Election page (https://epcountyvotestx.gov/voter-information/current-election), one per jurisdiction. Names and wording are from the PDF's text layer, kept as printed (English text only).

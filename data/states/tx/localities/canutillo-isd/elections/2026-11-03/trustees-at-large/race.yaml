@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Canutillo ISD Trustees, At Large (3 seats)
+office_type: school-trustee
+election_date: '2026-11-03'
+seats: 3
+sources:
+- id: tx/localities/canutillo-isd/elections/2026-11-03/trustees-at-large/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The El Paso County Elections Department''s sample ballot for the November 3, 2026 general and special election lists "Canutillo Independent School District Board of Trustees District at Large" on page 1, with these candidates: Cindy Andrade Carrillo; Breanne Barnes; Sergio Martinez; Guadalupe Montañez; Blanca Trout; Ryan Escamilla; Dr. Pedro Galaviz.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/823/original/4._Canutillo_ISD_Ballot.pdf?1789660550
+  source_title: 'El Paso County Elections Department: Sample Ballot, November 3, 2026 General and Special Election, El Paso County, Texas: Canutillo ISD (page 1)'
+  source_kind: document
+  sha256: 55ed75a08d024e0132d7419007c5a0d2a157c55b843b9d7409bf175de88d0ad9
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the sample ballots the county lists under "Sample Ballots" on its Current Election page (https://epcountyvotestx.gov/voter-information/current-election), one per jurisdiction. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/canutillo-isd/elections/2026-11-03/trustees-at-large/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Canutillo ISD 2026 School Board Election - Canutillo Independent School District), checked on October 19, 2026, shows that Breanne Barnes, a candidate in this race, currently holds this office. It reads: "Three full four-year terms (positions currently held by trustees Cindy Zuñiga, Breanne Barnes and Lucia Borrego)" It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.canutillo-isd.org/school-board/election
+  source_title: Canutillo ISD 2026 School Board Election - Canutillo Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null

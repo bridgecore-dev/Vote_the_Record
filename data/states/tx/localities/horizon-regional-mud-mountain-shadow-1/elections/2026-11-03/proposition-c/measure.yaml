@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: Horizon Regional MUD, Mountain Shadow Unit 1 Defined Area, Proposition C
+election_date: '2026-11-03'
+kind: bond
+ballot_text: THIS IS A TAX INCREASE. The issuance of bonds in the maximum amount of Three Million, Five Hundred Thousand Dollars and 00/100 dollars ($3,500,000) for refunding any bonds or refunding bonds of Mountain Shadow Unit 1 Defined Area, and the levy of ad valorem taxes, within Mountain Shadow Defined Area sufficient to pay the principal of and interest on the bonds.
+choices:
+- For
+- Against
+explained: []
+sources:
+- id: tx/localities/horizon-regional-mud-mountain-shadow-1/elections/2026-11-03/proposition-c/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The El Paso County Elections Department''s sample ballot for the November 3, 2026 general and special election prints "Horizon Regional MUD, Mountain Shadow Unit 1 Defined Area, Proposition C" on page 1 with the choices For and Against and this English wording: "THIS IS A TAX INCREASE. The issuance of bonds in the maximum amount of Three Million, Five Hundred Thousand Dollars and 00/100 dollars ($3,500,000) for refunding any bonds or refunding bonds of Mountain Shadow Unit 1 Defined Area, and the levy of ad valorem taxes, within Mountain Shadow Defined Area sufficient to pay the principal of and interest on the bonds."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/819/original/2._HMUD_Mtn_Shadow_Ballot.pdf?1789660550
+  source_title: 'El Paso County Elections Department: Sample Ballot, November 3, 2026 General and Special Election, El Paso County, Texas: Horizon Regional Municipal Utility District (page 1)'
+  source_kind: document
+  sha256: 80ada5c5a85723d624cc3c33de8e69ae4e3186dda1ae69ecc8a703c82df12c03
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the sample ballots the county lists under "Sample Ballots" on its Current Election page (https://epcountyvotestx.gov/voter-information/current-election), one per jurisdiction. Names and wording are from the PDF's text layer, kept as printed (English text only).

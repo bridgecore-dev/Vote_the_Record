@@ -1,0 +1,39 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Village of Vinton Alderman, Place 4
+office_type: city-council-member
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/village-of-vinton/elections/2026-11-03/alderman-place-4/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The El Paso County Elections Department''s sample ballot for the November 3, 2026 general and special election lists "Village of Vinton, Alderman, Place No. 4" on page 1, with these candidates: Lourdes (Lulu) Cloud; Richard Tovar Jr..'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/822/original/9._Vinton_Ballot.pdf?1789660550
+  source_title: 'El Paso County Elections Department: Sample Ballot, November 3, 2026 General and Special Election, El Paso County, Texas: Village of Vinton (page 1)'
+  source_kind: document
+  sha256: 120ce839feba0f258c8fb0258fefb95ea208cdef0e1bf323209e437954102b32
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the sample ballots the county lists under "Sample Ballots" on its Current Election page (https://epcountyvotestx.gov/voter-information/current-election), one per jurisdiction. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/village-of-vinton/elections/2026-11-03/alderman-place-4/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (City Council - Vinton, TX), checked on October 19, 2026, shows that Lourdes (Lulu) Cloud, a candidate in this race, currently holds this office. It reads: "Lourdes "Lulu" Cloud, Place 4, Mayor Pro Tem" It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://vintontx.govoffice2.com/citycouncil
+  source_title: City Council - Vinton, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null

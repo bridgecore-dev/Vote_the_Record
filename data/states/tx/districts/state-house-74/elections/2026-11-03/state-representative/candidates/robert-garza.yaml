@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: robert-garza
+name: Robert Garza
+incumbent: false
+ballot_party: REP
+records: []
+funding:
+- id: tx/districts/state-house-74/elections/2026-11-03/state-representative/candidates/robert-garza#M-01
+  headline: Raised $36,500 and had $10,500 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 6, 2026: $36,500.00 in total political contributions, $1,555.00 in total political expenditures, $10,500.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070403.PDF
+  source_title: 'Texas Ethics Commission: Garza, Robert (Mr.), campaign finance report 101070403 (filed Oct 6, 2026)'
+  source_kind: document
+  sha256: 901e11098738fe4e306cebf3dbc38e2f93a1a5ee370d7820773e3f52e202611c
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101070403, form COH, TEC report type E30DAYBEF; filer ID 00026785 (Garza, Robert (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-19; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []
