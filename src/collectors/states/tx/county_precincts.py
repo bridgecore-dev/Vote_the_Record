@@ -179,6 +179,17 @@ BELL_LOCAL_AREAS = {
     "holland-isd": (SCHOOL_LAYER, "4823370"),
     "solana-ranch-mud-1": (TCEQ_MUD, "7576132"),
 }
+SMITH_GIS = "https://services3.arcgis.com/dPuMck04cWB2fx4h/arcgis/rest/services/FallElectionDistricts_20261103b_WFL1/FeatureServer"
+SMITH_PRECINCTS = SMITH_GIS + "/2"  # "Voting Precincts" (66)
+SMITH_DISTRICTS = SMITH_GIS + "/3"  # "Voting Districts": precinct pieces with every district they vote in (286)
+
+
+def _smith_esd(v):
+    """"ESD 1 - Fire District 3" -> "1/district-3"; blank -> None (outside both ESDs)."""
+    m = re.match(r"ESD (\d) - Fire District (\d)", (v or "").strip())
+    return f"{m.group(1)}/district-{m.group(2)}" if m else None
+
+
 BEXAR_LOCAL_AREAS = {
     "city-of-china-grove": (PLACE_LAYER, "4814716"),
     "city-of-converse": (PLACE_LAYER, "4816468"),
@@ -441,6 +452,37 @@ COUNTIES = {
                     "the district maps named in precincts#S-05."),
         "field_note": ("Bell County's precinct layer lists only precinct numbers, so every district comes from an overlay "
                        "or, for State Senate District 24 and the 3rd Court of Appeals, covers the whole county."),
+    },
+    "smith-county": {
+        "name": "Smith County", "item": "https://www.arcgis.com/home/item.html?id=FallElectionDistricts_20261103b",
+        "layer": SMITH_PRECINCTS, "precinct_field": "FIRST_PRECINCTID",
+        # Smith County Elections' "Voting Locations, Precincts & Districts for Smith County, TX in Fall 2026" service:
+        # 66 precincts, and 286 precinct pieces listing each piece's districts. The pieces are overlaid on the
+        # precincts for the State House, commissioner and JP precincts, the ESD fire districts (each ESD commissioner
+        # place is elected by district) and the City of Arp. The whole county is in Congressional District 1, State
+        # Senate District 1, SBOE District 9 and the 12th Court of Appeals.
+        "fields": {kind: kind for kind in ("state-house", "commissioner", "jp", "esd", "city")},
+        "patterns": {"esd": "smith-county-esd-{s}", "city": "{s}"},
+        "partial": {"esd", "city"},
+        "values": {"esd": _smith_esd, "city": lambda v: "city-of-arp" if (v or "").strip() == "Arp" else None},
+        "overlays": {
+            "state-house": ("arcgis", SMITH_DISTRICTS, "FIRST_STREP", "Smith County Elections: Voting Districts (State House)"),
+            "commissioner": ("arcgis", SMITH_DISTRICTS, "FIRST_COMM", "Smith County Elections: Voting Districts (Commissioner)"),
+            "jp": ("arcgis", SMITH_DISTRICTS, "FIRST_JP", "Smith County Elections: Voting Districts (Justice of the Peace)"),
+            "esd": ("arcgis", SMITH_DISTRICTS, "FIRST_EDSM", "Smith County Elections: Voting Districts (ESD fire districts)"),
+            "city": ("arcgis", SMITH_DISTRICTS, "FIRST_CITY", "Smith County Elections: Voting Districts (City)"),
+        },
+        "everywhere": ["us-house-1", "state-senate-1", "sboe-9", "court-of-appeals-12"],  # Gov't Code 22.201(m)
+        "local_areas": {},
+        "headline": "Smith County voting precincts (2026)",
+        "statement": ("Smith County Elections' map service \"Voting Locations, Precincts & Districts for Smith County, TX "
+                      "in Fall 2026\" gives the county's 66 voting precincts and, for each piece of a precinct, the "
+                      "districts it votes in."),
+        "title": "Smith County Elections: Fall Election Districts 2026-11-03 (ArcGIS feature service)",
+        "credits": ("Precinct outlines come from the Voting Precincts layer; each precinct's districts were assigned by "
+                    "overlaying the county's Voting Districts layer (precincts#S-05)."),
+        "field_note": ("The whole county is in Congressional District 1, State Senate District 1 and SBOE District 9 (the "
+                       "county layer and the Texas Legislative Council's district table agree)."),
     },
     "cameron-county": {
         "name": "Cameron County", "item": TLC_PRECINCTS_26, "layer": TLC_PRECINCTS_26, "precinct_field": "PREC",
@@ -1226,7 +1268,9 @@ def main(argv=None) -> int:
             f"{fid}/precincts#S-05", "District maps used to assign each precinct its districts",
             f"The {cfg['name']} precinct layer lists precinct numbers only, so each precinct was assigned the district "
             "that covers most of it on these official maps: " + "; ".join(used) + ".",
-            cfg["overlays"]["us-house"][1], cfg.get("overlay_title", "Texas Legislative Council and county district maps"), "page", None,
+            # cite the congressional plan when overlaid (a county wholly in one district has no us-house overlay)
+            (cfg["overlays"].get("us-house") or next(iter(cfg["overlays"].values())))[1],
+            cfg.get("overlay_title", "Texas Legislative Council and county district maps"), "page", None,
             f"Read on {TODAY}; SHA-256 of the downloaded files: {digest}. Each precinct and district was laid on a "
             f"{STEP}-degree grid (and a finer grid of points inside the precinct for small precincts); a precinct takes "
             f"the district covering at least {OVERLAY_SHARE:.0%} of it. Checked against Harris and Dallas counties, whose "

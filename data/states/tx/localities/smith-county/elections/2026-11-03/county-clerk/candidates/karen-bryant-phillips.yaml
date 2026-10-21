@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: karen-bryant-phillips
+name: Karen Bryant Phillips
+incumbent: null
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/smith-county/elections/2026-11-03/county-clerk/candidates/karen-bryant-phillips#M-01
+  headline: Raised $0 and had $603 on hand (Jul 15, 2026 - Oct 5, 2026)
+  statement: 'Campaign finance report covering Jul 15, 2026 - Oct 5, 2026, received by Smith County on Oct 5, 2026: $0.00 in total political contributions, $0.00 in total political expenditures, $602.60 in contributions on hand at the end of the period, and $2,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=10727&repo=r-927d42fb
+  source_title: 'Smith County: campaign finance report, Mrs. Karen K Phillips (received Oct 5, 2026)'
+  source_kind: document
+  sha256: 328407f09e9209563e25050db7f797234b7daa2f6ce95a387260106ddb06263c
+  archive_url: null
+  event_date: '2026-10-05'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted in Smith County's campaign filings on its Laserfiche portal (https://portal.laserfiche.com/Portal/Browse.aspx?id=1456&repo=r-927d42fb) as filed by "Mrs. Karen K Phillips" (30th day before election); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Not yet archived on the Wayback Machine.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

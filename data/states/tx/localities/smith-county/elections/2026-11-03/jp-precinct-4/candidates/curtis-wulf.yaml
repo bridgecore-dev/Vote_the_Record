@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: curtis-wulf
+name: Curtis Wulf
+incumbent: null
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/smith-county/elections/2026-11-03/jp-precinct-4/candidates/curtis-wulf#M-01
+  headline: Raised $2,200 and had $864 on hand (Jan 1, 2026 - Mar 9, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Mar 9, 2026, received by Smith County on Mar 12, 2026: $2,200.00 in total political contributions, $10,713.19 in total political expenditures, and $863.53 in contributions on hand at the end of the period. Left out: outstanding loans (blank or not legible on the scanned report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=4489&repo=r-927d42fb
+  source_title: 'Smith County: campaign finance report, Curtis W Wulf (received Mar 12, 2026)'
+  source_kind: document
+  sha256: 8aff378dec4e33dc3a8305965cbc7069bac1177c0803e2666291c57f6652a3dd
+  archive_url: null
+  event_date: '2026-03-09'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted in Smith County's campaign filings on its Laserfiche portal (https://portal.laserfiche.com/Portal/Browse.aspx?id=1456&repo=r-927d42fb) as filed by "Curtis W Wulf" (Both '30th day before election' and '8th day before election' boxes checked (Primary 03/03/2026)); matched by name and office. This is the newest report posted for the candidate as of 2026-10-20. The report is a scan; totals were read from the cover sheet image (PDF page 2). Not yet archived on the Wayback Machine. The newest report posted for this candidate is a primary-season report (the form marks both the 30-day and 8-day boxes).
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

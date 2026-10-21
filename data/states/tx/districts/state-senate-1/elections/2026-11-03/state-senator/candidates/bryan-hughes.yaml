@@ -1,0 +1,85 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: bryan-hughes
+name: Bryan Hughes
+incumbent: true
+ballot_party: REP
+records:
+- id: tx/districts/state-senate-1/elections/2026-11-03/state-senator/candidates/bryan-hughes#R-01
+  record_type: vote
+  headline: Voted yes on SB 2, education savings accounts (2025)
+  result: Passed the Senate 19-12.
+  statement: As a member of the Texas Senate, voted yes on SB 2 (Relating to the establishment of an education savings account program). The Senate Journal records that the bill passed on third reading on 2025-02-05, 19 yeas to 12 nays, and lists each senator's vote.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://journals.senate.texas.gov/SJRNL/89R/PDF/89RSJ02-05-F.PDF
+  source_title: Texas Senate Journal, 89th Legislature, Regular Session, 2025-02-05 (page 190)
+  source_kind: document
+  sha256: 3b5fe879555005ce59329dd7b7b059a45cdc4159c7bf10f66314e2249efbef8c
+  archive_url: null
+  event_date: '2025-02-05'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Official journal PDF of the 89th Legislature, Regular Session; the bill caption is from Texas Legislature Online (https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2). Names on the roll call are as printed in the journal. Not yet archived on the Wayback Machine.
+- id: tx/districts/state-senate-1/elections/2026-11-03/state-senator/candidates/bryan-hughes#R-02
+  record_type: vote
+  headline: Voted yes on SB 9, bail rules and charitable bail groups (2025)
+  result: Passed the Senate 27-3.
+  statement: As a member of the Texas Senate, voted yes on SB 9 (Relating to the confinement or release of defendants before trial or sentencing, including regulating charitable bail organizations, and the conditions of and procedures for setting bail and reviewing bail decisions). The Senate Journal records that the bill passed on third reading on 2025-02-19, 27 yeas to 3 nays, and lists each senator's vote.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://journals.senate.texas.gov/SJRNL/89R/PDF/89RSJ02-19-F.PDF
+  source_title: Texas Senate Journal, 89th Legislature, Regular Session, 2025-02-19 (page 283)
+  source_kind: document
+  sha256: e8a518f22b641bace7acbcf38ebf37baff7a904f4b30532603c7f63f4988b97a
+  archive_url: null
+  event_date: '2025-02-19'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Official journal PDF of the 89th Legislature, Regular Session; the bill caption is from Texas Legislature Online (https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB9). Names on the roll call are as printed in the journal. Not yet archived on the Wayback Machine.
+funding:
+- id: tx/districts/state-senate-1/elections/2026-11-03/state-senator/candidates/bryan-hughes#M-01
+  headline: Raised $311,501 and had $3,969,227 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 5, 2026: $311,500.66 in total political contributions, $101,144.90 in total political expenditures, $3,969,226.60 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101067724.PDF
+  source_title: 'Texas Ethics Commission: Hughes, D. Bryan (The Honorable), campaign finance report 101067724 (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: de4f1a6c433a9b745863fa6d9e089a19684358cbf49ba9e65c186ceedabdd1f3
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101067724, form COH, TEC report type E30DAYBEF; filer ID 00051630 (Hughes, D. Bryan (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-20; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings:
+- record: tx/districts/state-senate-1/elections/2026-11-03/state-senator/candidates/bryan-hughes#R-01
+  question: state-senator/S-01
+  options:
+  - A
+  rationale: Voted for SB 2, which created an education savings account program. That matches creating such a program (A).
+  verification: unverified
+  verified_on: null
+  reviewer: null
+- record: tx/districts/state-senate-1/elections/2026-11-03/state-senator/candidates/bryan-hughes#R-02
+  question: state-senator/S-03
+  options:
+  - A
+  rationale: Voted for SB 9, which changed bail procedures and regulated charitable bail organizations. That is consistent with tightening bail rules (A).
+  verification: unverified
+  verified_on: null
+  reviewer: null
+promise_tracker: []

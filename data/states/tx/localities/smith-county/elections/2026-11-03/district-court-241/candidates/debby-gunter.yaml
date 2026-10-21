@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: debby-gunter
+name: Debby Gunter
+incumbent: null
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/smith-county/elections/2026-11-03/district-court-241/candidates/debby-gunter#M-01
+  headline: Raised $500 and had $36,787 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 2, 2026: $500.00 in total political contributions, $509.76 in total political expenditures, $36,786.77 in contributions on hand at the end of the period, and $2,500.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101056880.PDF
+  source_title: 'Texas Ethics Commission: Gunter, Debra E. (The Honorable), campaign finance report 101056880 (filed Jul 2, 2026)'
+  source_kind: document
+  sha256: 4d76d26565eb0cd75f7f4be2de843dedad68ecf0f43fa2aca5d2a4eb03bfca6c
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101056880, form JCOH, TEC report type SEMIJUL; filer ID 00085325 (Gunter, Debra E. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-20; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

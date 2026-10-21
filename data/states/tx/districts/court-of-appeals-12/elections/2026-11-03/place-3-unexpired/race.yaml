@@ -1,0 +1,40 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Justice, 12th Court of Appeals District, Place 3 (Unexpired Term)
+office_type: court-of-appeals-justice
+election_date: '2026-11-03'
+detail: basic
+notes: The ballot marks this an unexpired term.
+sources:
+- id: tx/districts/court-of-appeals-12/elections/2026-11-03/place-3-unexpired/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Smith County Elections Administration''s sample ballot for the November 3, 2026 general and special election lists "Justice, 12th Court of Appeals District, Place 3-Unexpired Term" on page 2, with these candidates: Michael Davis (REP).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=10297&repo=r-927d42fb
+  source_title: 'Smith County Elections Administration: Publication Sample Ballot, November 3, 2026 General and Special Election, Smith County, Texas (page 2)'
+  source_kind: document
+  sha256: 6bf9b0b57c1b823005a913932e0c2a9824585e538bd90e77881cf2c6166489c4
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The county''s "2026-11 Publication Sample Ballot" on its Current Sample Ballots page (https://www.smith-county.com/396/Current-Sample-Ballots), served from the county''s Laserfiche portal: one ballot carrying every contest on any Smith County ballot (per-precinct ballots are posted beside it). Names and wording are from the PDF''s text layer, kept as printed (English text only).'
+- id: tx/districts/court-of-appeals-12/elections/2026-11-03/place-3-unexpired/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (TJB | 12th COA | About the Court | Justices), checked on October 20, 2026, shows that Michael Davis, a candidate in this race, currently holds this office. It reads: "Justice C. Michael Davis Place 3 ... Judge Michael Davis serves as a Justice on the Twelfth Court of Appeals, appointed by Governor Greg Abbott in November 2025."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/12thcoa/about-the-court/justices/
+  source_title: TJB | 12th COA | About the Court | Justices
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null

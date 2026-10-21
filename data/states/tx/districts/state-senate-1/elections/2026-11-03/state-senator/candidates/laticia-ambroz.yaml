@@ -1,0 +1,99 @@
+# Unverified; written by an AI assistant from official records and the candidate's own statements. Owner review required.
+id: laticia-ambroz
+name: Laticia Ambroz
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/districts/state-senate-1/elections/2026-11-03/state-senator/candidates/laticia-ambroz#M-01
+  headline: Raised $10,797 and had $3,973 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 14, 2026: $10,797.06 in total political contributions, $7,535.26 in total political expenditures, $3,972.95 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071303.PDF
+  source_title: 'Texas Ethics Commission: Ambroz, Laticia E. (Mrs.), campaign finance report 101071303 (filed Oct 14, 2026)'
+  source_kind: document
+  sha256: 2daca65a5d5881e342c7e5f1746a83fcb64fdcf91f99f1693ef4e3dffae3652e
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071303, form CORCOH, TEC report type E30DAYBEF; filer ID 00090286 (Ambroz, Laticia E. (Mrs.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-20; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals:
+  - id: tx/districts/state-senate-1/elections/2026-11-03/state-senator/candidates/laticia-ambroz#O-01
+    headline: State minimum wage
+    statement: 'Campaign website: "I will fight for an increase in the minimum wage and advocate for policies that guarantee a living wage across the state."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ambrozforstatesenate.com/issues
+    source_title: Issues — Ambroz for Texas State Senate
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-senate-1/elections/2026-11-03/state-senator/candidates/laticia-ambroz#O-02
+    headline: Rural health care
+    statement: 'Campaign website: "I will fight to expand rural healthcare infrastructure, support local clinics, and ensure that no Texan has to drive hours just to see a doctor."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ambrozforstatesenate.com/issues
+    source_title: Issues — Ambroz for Texas State Senate
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-senate-1/elections/2026-11-03/state-senator/candidates/laticia-ambroz#O-03
+    headline: Health care model
+    statement: 'Campaign website: "I support exploring a hybrid model that blends the strengths of public and private healthcare, giving Texans more options, better coverage, and lower costs."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ambrozforstatesenate.com/issues
+    source_title: Issues — Ambroz for Texas State Senate
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  - id: tx/districts/state-senate-1/elections/2026-11-03/state-senator/candidates/laticia-ambroz#O-04
+    headline: Teacher recruitment
+    statement: 'Campaign website: "To achieve this, we must prioritize the recruitment and retention of highly qualified, passionate teachers."'
+    label: candidate_claim
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://www.ambrozforstatesenate.com/issues
+    source_title: Issues — Ambroz for Texas State Senate
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-10-20'
+    retrieved: '2026-10-20'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: The campaign's own website, read from the rendered page. event_date is the date the page was read, not the date it was first posted. Not yet archived on the Wayback Machine.
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

@@ -1,0 +1,23 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: District Judge, 321st Judicial District
+office_type: district-judge
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/smith-county/elections/2026-11-03/district-court-321/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Smith County Elections Administration''s sample ballot for the November 3, 2026 general and special election lists "District Judge, 321st Judicial District" on page 2, with these candidates: Robert Wilson (REP).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=10297&repo=r-927d42fb
+  source_title: 'Smith County Elections Administration: Publication Sample Ballot, November 3, 2026 General and Special Election, Smith County, Texas (page 2)'
+  source_kind: document
+  sha256: 6bf9b0b57c1b823005a913932e0c2a9824585e538bd90e77881cf2c6166489c4
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The county''s "2026-11 Publication Sample Ballot" on its Current Sample Ballots page (https://www.smith-county.com/396/Current-Sample-Ballots), served from the county''s Laserfiche portal: one ballot carrying every contest on any Smith County ballot (per-precinct ballots are posted beside it). Names and wording are from the PDF''s text layer, kept as printed (English text only).'

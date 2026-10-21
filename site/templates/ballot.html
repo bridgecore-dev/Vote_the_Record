@@ -40,11 +40,12 @@
 
 {% if not ballot.complete %}
 <aside class="notice notice-warn">
-  <p><strong>We're still adding races to this page.</strong> {{ ballot.count }} so far. Every contest is on the <a href="{{ ballot.sources[0].source_url }}" rel="noopener noreferrer">official sample ballot</a>.</p>
+  <p><strong>We're still adding races to this page.</strong> {{ ballot.count }} so far. Every contest is on the <a href="{{ ballot.sample_ballot_url }}" rel="noopener noreferrer">official sample ballot</a>.</p>
 </aside>
 {% endif %}
 <aside class="notice">
   <p><strong>Your exact ballot depends on your street address.</strong> ZIP codes can cross district lines, so some races are marked "Depends on your address".{% if ballot.lookup_url %} <a href="{{ ballot.lookup_url }}" rel="noopener noreferrer">Check your exact ballot with the county</a>.{% endif %}</p>
+  <p><a href="{{ ballot.sample_ballot_url }}" rel="noopener noreferrer">See the county's official sample ballot</a>.</p>
 </aside>
 
 {% if ballot.topics_used and topic_labels %}
