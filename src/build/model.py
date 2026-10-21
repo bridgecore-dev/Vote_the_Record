@@ -115,6 +115,7 @@ def assemble_ballot(docs: dict, rel: str, doc: dict, races_by_path: dict, root: 
                                                  "address_example": "", "zip_example": ""}),
         "url": f"/ballot/{state}/{locality}/{date}/",
         "lookup_url": doc.get("lookup_url"), "sources": doc["sources"],
+        "sample_ballot_url": doc.get("sample_ballot_url") or doc["sources"][0]["source_url"],
         "complete": doc.get("complete", True),
         "unmapped_races": [{"n": i, "race": r} for i, r in enumerate(ranked) if r["area"] in set(doc.get("unmapped") or [])],
         "zip_sources": zips_doc.get("sources") or [],
