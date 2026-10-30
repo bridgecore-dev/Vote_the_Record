@@ -4,7 +4,24 @@ name: Margaret O'Brien
 incumbent: true
 ballot_party: Democratic Party
 records: []
-funding: []
+funding:
+- id: tx/localities/dallas-county/elections/2026-11-03/jp-precinct-2-place-1/candidates/margaret-obrien#M-01
+  headline: Spent $142 (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Dallas County: $141.91 in total political expenditures and $43,000.00 in outstanding loans. Left out: total political contributions, contributions on hand at the end of the period (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dallascounty.org/department/countyclerk/courtorders/finrpts/OBrien_Margaret/Oct2026_8DayReport.pdf
+  source_title: 'Dallas County: campaign finance report, OBrien, Margaret'
+  source_kind: document
+  sha256: 972d6c5a4cece104914d74ac7656d7f8c98165e41db4840900f7da693912f3cb
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Dallas County (https://www.dallascounty.org/government/campaign-finance/) as filed by "OBrien, Margaret" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: handwritten with superscript cents; contributions line blank; cash on hand reads 21,285 dollars but the superscript cents are unclear (look like 07), so recorded as ?'
 endorsements: []
 running_on:
   policy_proposals: []

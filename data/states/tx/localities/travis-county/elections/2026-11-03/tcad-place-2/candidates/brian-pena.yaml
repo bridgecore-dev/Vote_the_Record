@@ -4,7 +4,24 @@ name: Brian Peña
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/travis-county/elections/2026-11-03/tcad-place-2/candidates/brian-pena#M-01
+  headline: Raised $1,017 (report filed Oct 26, 2026)
+  statement: 'Campaign finance report filed with Travis Central Appraisal District on Oct 26, 2026; the form gives the period as 08/24/2026 - 10/26/2024: $1,016.82 in total political contributions and $1,016.82 in total political expenditures. Left out: contributions on hand at the end of the period, outstanding loans (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://traviscad.org/wp-content/uploads/10.26.2026Brian-Pena-8-Day-Report-TCAD.pdf
+  source_title: 'Travis Central Appraisal District: campaign finance report, Brian Pena (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 034838ad54ce92f095d71657c9d4e69e589e26abb638feaca8c34dd83a9f9cd1
+  archive_url: null
+  event_date: '2026-10-26'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Travis Central Appraisal District (https://traviscad.org/financereports) as filed by "Brian Pena" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 3). Not yet archived on the Wayback Machine. Reading note: Handwritten. Period ''from'' written as 8/24/26; ''through'' written as 10 / 26 / 24 (year written as 24, as shown). Cover sheet pg 2 (totals) is PDF page 3; lines 1, 3, 5 and 6 left blank. Subtotals page (PDF p.2) shows Sched A1 1,016.82, F1 116.91, G ?99.91 (first digit unclear).'
 endorsements: []
 running_on:
   policy_proposals: []

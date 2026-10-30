@@ -4,7 +4,24 @@ name: Lizbeth Diaz
 incumbent: false
 ballot_party: Republican Party
 records: []
-funding: []
+funding:
+- id: tx/localities/dallas-county/elections/2026-11-03/jp-precinct-1-place-1/candidates/lizbeth-diaz#M-01
+  headline: Raised $350 and had $0 on hand (Jun 30, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jun 30, 2026 - Sep 24, 2026, filed with Dallas County: $350.00 in total political contributions, $350.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dallascounty.org/department/countyclerk/courtorders/finrpts/Diaz_Lizbeth/Sep2026_30DayReport.pdf
+  source_title: 'Dallas County: campaign finance report, Diaz, Lizbeth'
+  source_kind: document
+  sha256: 280c0941af7c67fc68d4521c368fa25bba522d15dc59c3c14420fe175a7f1f6e
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Dallas County (https://www.dallascounty.org/government/campaign-finance/) as filed by "Diaz, Lizbeth" (30th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: handwritten amounts'
 endorsements: []
 running_on:
   policy_proposals: []

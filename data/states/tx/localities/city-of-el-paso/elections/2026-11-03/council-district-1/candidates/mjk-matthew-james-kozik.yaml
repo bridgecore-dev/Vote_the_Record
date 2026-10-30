@@ -4,7 +4,24 @@ name: '"MJK" Matthew James Kozik'
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-1/candidates/mjk-matthew-james-kozik#M-01
+  headline: Raised $225 and had $0 on hand (Oct 6, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Oct 6, 2026 - Oct 24, 2026, filed with City of El Paso on Oct 26, 2026: $225.00 in total political contributions, $6,610.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www2.elpasotexas.gov/municipal-clerk/CCElectionDocs/campaign%20finance%20reports/2026-11-03/8-Days-Matthew-James-Kozik.pdf
+  source_title: 'City of El Paso: campaign finance report, Kozik, Matthew James (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 7559c418808bc1c0ecc1b52610d5d49f6dd16f1b86518c42a5f3d84b6ba985c9
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by City of El Paso (https://www2.elpasotexas.gov/municipal-clerk/CCElectionDocs/campaign%20finance%20reports/cfr-2026-11-03.php) as filed by "Kozik, Matthew James" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Electronically generated TEC-form PDF; totals read from text layer.'
 endorsements: []
 running_on:
   policy_proposals: []

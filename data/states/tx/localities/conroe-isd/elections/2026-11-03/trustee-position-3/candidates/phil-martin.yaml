@@ -4,7 +4,24 @@ name: Phil Martin
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/conroe-isd/elections/2026-11-03/trustee-position-3/candidates/phil-martin#M-01
+  headline: Raised $3,540 (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Conroe ISD on Oct 26, 2026: $3,540.00 in total political contributions, $3,577.42 in total political expenditures, and $0.00 in outstanding loans. Left out: contributions on hand at the end of the period (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5052/Cisd/45764cbf-442f-428c-908e-894e5f115a91/261026-Phillip-Martin-Finance-Report_Redacted.pdf
+  source_title: 'Conroe ISD: campaign finance report, Phillip A. "Phil" Martin (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: cac3c188926ced4bc296b8f22f8dfbbf7be59fb9414c964d145a87522ce44568
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Conroe ISD (https://www.conroeisd.net/page/trustee-elections) as filed by "Phillip A. "Phil" Martin" (July 15 (box marked on form)); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Listed as ''Finance Report 10/26/26'' via short link https://aptg.co/CnNbp_. Form marks ''July 15'' but covers 9/25-10/24/26 and was received Oct 26. Cash on hand printed ''$3,540,00'' (comma for decimal point). Cover says 12 total pages; PDF has 30.'
 endorsements: []
 running_on:
   policy_proposals:

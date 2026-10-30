@@ -4,7 +4,24 @@ name: Corsandra Brigham Phelps
 incumbent: false
 ballot_party: Republican Party
 records: []
-funding: []
+funding:
+- id: tx/localities/dallas-county/elections/2026-11-03/county-treasurer/candidates/corsandra-brigham-phelps#M-01
+  headline: Raised $2,760 and had $69 on hand (Jul 16, 2026 - Oct 3, 2026)
+  statement: 'Campaign finance report covering Jul 16, 2026 - Oct 3, 2026, filed with Dallas County: $2,760.00 in total political contributions, $1,953.17 in total political expenditures, $68.77 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dallascounty.org/department/countyclerk/courtorders/finrpts/Phelps_Corsandra/Sep2026_30DayReport.pdf
+  source_title: 'Dallas County: campaign finance report, Phelps, Corsandra'
+  source_kind: document
+  sha256: dc13d2abe8c211c534ddeefc0ea83a37a0d43581c588e4a4a0ad5b205a7226c2
+  archive_url: null
+  event_date: '2026-10-03'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Dallas County (https://www.dallascounty.org/government/campaign-finance/) as filed by "Phelps, Corsandra" (30th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 3). Not yet archived on the Wayback Machine. Reading note: period printed as 7/16/26 through 10/3/26; PDF page 2 is an unrelated non-form page (song lyrics) included in the posted file; totals are on PDF page 3'
 endorsements: []
 running_on:
   policy_proposals: []

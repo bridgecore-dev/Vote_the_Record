@@ -61,7 +61,24 @@ records:
   verified_on: null
   reviewer: null
   notes: 'The packet prints the August 19, 2025 minutes marked "DRAFT"; Council approved them on the consent agenda on September 2, 2025 (minutes of that meeting, in the September 16, 2025 packet: https://public.destinyhosted.com/scherdocs/2025/CC/20250916_867/AGENDApacket__09-16-25_0711_866.pdf). The minutes list each member''s vote (AYE/NAY). Paul Macaluso made the motion. Not yet archived on the Wayback Machine.'
-funding: []
+funding:
+- id: tx/localities/city-of-schertz/elections/2026-11-03/council-place-3/candidates/paul-macaluso#M-01
+  headline: Raised $0 (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with City of Schertz on Oct 5, 2026: $0.00 in total political contributions and $0.00 in outstanding loans. Left out: total political expenditures, contributions on hand at the end of the period (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://laserfiche.schertzweb.com/WebLink/ElectronicFile.aspx?docid=550770&dbid=1&repo=SCHERTZ
+  source_title: 'City of Schertz: campaign finance report, Paul R. Macaluso (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 77fd647a4e25d0bd425654f581510eb61300c88a469303f47800a7b86ecad6d7
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by City of Schertz (https://laserfiche.schertzweb.com/WebLink/Browse.aspx?id=550763&dbid=1&repo=SCHERTZ) as filed by "Paul R. Macaluso" (30th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Scanned handwritten form; no 8-day report posted as of 2026-10-30. Total expenditures (items 3 and 4) are written as ''25'' with a mark between the digits, so the amount could be 25 or 2.5; recorded as ''?''. Cash on hand looks like ''105.54'', but the digits after the decimal are overwritten and unclear; recorded as ''?''.'
 endorsements: []
 running_on:
   policy_proposals: []

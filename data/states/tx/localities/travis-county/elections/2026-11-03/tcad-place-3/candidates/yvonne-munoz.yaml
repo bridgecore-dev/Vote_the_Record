@@ -4,7 +4,24 @@ name: Yvonne Muñoz
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/travis-county/elections/2026-11-03/tcad-place-3/candidates/yvonne-munoz#M-01
+  headline: Raised $725 and had $1,210 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Travis Central Appraisal District on Oct 26, 2026: $725.00 in total political contributions, $1,650.06 in total political expenditures, $1,210.50 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://traviscad.org/wp-content/uploads/10.26-Yvonne-Munoz_Redacted.pdf
+  source_title: 'Travis Central Appraisal District: campaign finance report, Yvonne Munoz (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 3df3ada6b3b4153b5c489a952be3bc9ba55be01236898f718f74ecc910e4bb1d
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Travis Central Appraisal District (https://traviscad.org/financereports) as filed by "Yvonne Munoz" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Typed (scanned). Redacted copy posted by TCAD.'
 endorsements: []
 running_on:
   policy_proposals: []

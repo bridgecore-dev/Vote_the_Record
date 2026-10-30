@@ -4,7 +4,24 @@ name: Sarah Dille
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/austin-isd/elections/2026-11-03/trustee-district-6/candidates/sarah-dille#M-01
+  headline: Raised $8,731 and had $6,679 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Austin ISD on Oct 26, 2026: $8,731.17 in total political contributions, $14,808.99 in total political expenditures, $6,679.19 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.austinisd.org/sites/default/files/dept/board/docs/Finance%20Reports/CandidatesReports/Campaign-Finance-Report_Sarah_Dille_20261026.pdf
+  source_title: 'Austin ISD: campaign finance report, Sarah Dille (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 424ac8fd47e65f2b2b2910269707b89765bc5409a52c7d4c3a31012b8c72ffa9
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted by Austin ISD (https://www.austinisd.org/board/finance-reports/finance-reports-candidates) as filed by "Sarah Dille" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine.
 endorsements:
 - id: tx/localities/austin-isd/elections/2026-11-03/trustee-district-6/candidates/sarah-dille#E-01
   headline: Lloyd Doggett

@@ -5,7 +5,24 @@ incumbent: false
 ballot_party: null
 research: pending
 records: []
-funding: []
+funding:
+- id: tx/localities/edgewood-isd/elections/2026-11-03/trustee-place-2/candidates/jose-joe-gallegos-ii#M-01
+  headline: Raised $1,310 and had $492 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Edgewood ISD on Oct 5, 2026: $1,309.64 in total political contributions, $2,317.83 in total political expenditures, $491.81 in contributions on hand at the end of the period, and $1,500.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4254/Eisd/add54399-f8d9-4802-9ac8-329d697257a3/30-Day-Finance-Report---J.-Gallegos.pdf?disposition=inline
+  source_title: 'Edgewood ISD: campaign finance report, Jose Joe Gallegos, II (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: b2d3a2351065fadab73a89794f83d5f6eca1ae073d8efe66d4b635e55bc08862
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Edgewood ISD (https://www.eisd.net/page/board-elections/) as filed by "Jose Joe Gallegos, II" (30th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Scanned handwritten form. No 8-day report posted as of 2026-10-30.'
 endorsements: []
 running_on:
   policy_proposals: []

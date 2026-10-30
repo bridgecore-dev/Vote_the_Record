@@ -4,7 +4,24 @@ name: Barbara Brewer
 incumbent: null
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/keller-isd/elections/2026-11-03/trustee-place-6/candidates/barbara-brewer#M-01
+  headline: Raised $252 and had $313 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Keller ISD: $251.99 in total political contributions, $562.60 in total political expenditures, $313.25 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://resources.finalsite.net/images/v1793040708/kellerisdnet/ih1kx7fwfehz44jtv2ms/FilingDocs_P6_Brewer.pdf
+  source_title: 'Keller ISD: campaign finance report, Barbara Brewer'
+  source_kind: document
+  sha256: b61be183d9730ae6c67dbb52a23a6e72ed147af6c5a3a9cc7214718806c38b1e
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Keller ISD (https://www.kellerisd.net/board-of-trustees/elections) as filed by "Barbara Brewer" (8th day before election (Special election)); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 20). Not yet archived on the Wayback Machine. Reading note: Keller ISD posts one combined filing-documents PDF per candidate (CTA, earlier reports, etc.); values are from the 8-day-before-election report inside it.'
 endorsements: []
 running_on:
   policy_proposals: []

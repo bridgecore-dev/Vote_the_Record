@@ -4,7 +4,24 @@ name: Rod Hammer
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/conroe-isd/elections/2026-11-03/trustee-position-2/candidates/rod-hammer#M-01
+  headline: Raised $7,140 and had $0 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Conroe ISD on Oct 26, 2026: $7,140.47 in total political contributions, $2,405.37 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5052/Cisd/cf1f87dd-cbd9-486f-884d-539f043bfcbf/261026-Rod-Hammer-Finance-Report_Redacted.pdf
+  source_title: 'Conroe ISD: campaign finance report, Rod Hammer (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: d251715df959e55a0ba2f887062d8d8cf0b022e331ba5a7caa73f378ea26e930
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Conroe ISD (https://www.conroeisd.net/page/trustee-elections) as filed by "Rod Hammer" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Listed as ''Finance Report 10/26/26'' via short link https://aptg.co/XN-4Gp. Page lists the candidate as ''Rodney Hammer''. Election date left blank. Expenditures shown under Schedule G (personal funds) 2,405.37.'
 endorsements: []
 running_on:
   policy_proposals: []

@@ -4,7 +4,24 @@ name: Serenity Coats
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/leander-isd/elections/2026-11-03/trustee-place-1/candidates/serenity-coats#M-01
+  headline: Raised $564 and had $1,559 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Leander ISD on Oct 26, 2026: $564.11 in total political contributions, $1,974.66 in total political expenditures, $1,558.90 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://drive.google.com/uc?export=download&id=1YqTi8tdXmiHl8-szcU-qDXFyHGfjdvwm
+  source_title: 'Leander ISD: campaign finance report, Coats, Serenity (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 2e4af01e48218a5e2f14019aabeccb42c34d6e3494e2b30b909877773d956f06
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Leander ISD (https://drive.google.com/drive/folders/1VHvOpwwOdJAWAumMPKMMyZckEb4GHKgF) as filed by "Coats, Serenity" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Scanned (no text layer); read from rendered image.'
 endorsements: []
 running_on:
   policy_proposals: []

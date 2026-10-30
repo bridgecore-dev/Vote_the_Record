@@ -4,7 +4,24 @@ name: Chitra Nedun
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/leander-isd/elections/2026-11-03/trustee-place-2/candidates/chitra-nedun#M-01
+  headline: Raised $1,197 (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Leander ISD on Oct 26, 2026: $1,196.95 in total political contributions, $3,282.00 in total political expenditures, and $3,100.00 in outstanding loans. Left out: contributions on hand at the end of the period (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://drive.google.com/uc?export=download&id=1dkVRZ0Om9Ye1Am2CPdNOf3rSE6KWXuaN
+  source_title: 'Leander ISD: campaign finance report, MS Chitra Nedunchelliyan (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 87234525e4fde2b8a3c6aa708a7fba51a06fb1db65f581103afc1da329e692c8
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Leander ISD (https://drive.google.com/drive/folders/1VHvOpwwOdJAWAumMPKMMyZckEb4GHKgF) as filed by "MS Chitra Nedunchelliyan" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Scanned (no text layer); read from rendered image. Cash on hand printed as ''$5,265,74'' (comma before cents, as printed).'
 endorsements: []
 running_on:
   policy_proposals: []

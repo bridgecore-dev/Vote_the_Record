@@ -4,7 +4,24 @@ name: Ryan Tsamouris
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/conroe-isd/elections/2026-11-03/trustee-position-1/candidates/ryan-tsamouris#M-01
+  headline: Raised $2,423 and had $524 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Conroe ISD on Oct 26, 2026: $2,423.19 in total political contributions, $3,651.82 in total political expenditures, $524.16 in contributions on hand at the end of the period, and $100.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5052/Cisd/07b42faf-483e-421e-a4f3-fe31850cb44b/261026-Ryan-Tsamouris-Campaign-Finance-Report_Redacted.pdf
+  source_title: 'Conroe ISD: campaign finance report, Mr Ryan Tsamouris (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 36322c59c76514e32cd23c854a294e36e3af990f02dc7e6d37c905cbe33b7c2b
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Conroe ISD (https://www.conroeisd.net/page/trustee-elections) as filed by "Mr Ryan Tsamouris" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Listed as ''Finance Report 10/26/26'' via short link https://aptg.co/KRvcm6.'
 endorsements: []
 running_on:
   policy_proposals:

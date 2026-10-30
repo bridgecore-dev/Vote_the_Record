@@ -4,7 +4,24 @@ name: Tracey Gulley
 incumbent: true
 ballot_party: Democratic Party
 records: []
-funding: []
+funding:
+- id: tx/localities/dallas-county/elections/2026-11-03/constable-precinct-1/candidates/tracey-gulley#M-01
+  headline: Raised $185 and had $30 on hand (Sep 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Sep 1, 2026 - Sep 24, 2026, filed with Dallas County: $184.73 in total political contributions, $154.72 in total political expenditures, $30.01 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dallascounty.org/department/countyclerk/courtorders/finrpts/Gulley_Tracey/Oct2026_30DayReport.pdf
+  source_title: 'Dallas County: campaign finance report, Gulley, Tracey'
+  source_kind: document
+  sha256: 6a1a2d96324fe5e8fcd2b321621a24a7a51c0883b04d0657fe655d45c551b455
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Dallas County (https://www.dallascounty.org/government/campaign-finance/) as filed by "Gulley, Tracey" (30th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: handwritten amounts; loans line is a handwritten slashed zero'
 endorsements: []
 running_on:
   policy_proposals: []

@@ -61,7 +61,24 @@ records:
   verified_on: null
   reviewer: null
   notes: 'The packet prints the August 19, 2025 minutes marked "DRAFT"; Council approved them on the consent agenda on September 2, 2025 (minutes of that meeting, in the September 16, 2025 packet: https://public.destinyhosted.com/scherdocs/2025/CC/20250916_867/AGENDApacket__09-16-25_0711_866.pdf). The minutes list each member''s vote (AYE/NAY). Paul Macaluso made the motion. Not yet archived on the Wayback Machine.'
-funding: []
+funding:
+- id: tx/localities/city-of-schertz/elections/2026-11-03/council-place-4/candidates/benjamin-guerrero#M-01
+  headline: Raised $2,341 and had $0 on hand (report filed Oct 26, 2026)
+  statement: 'Campaign finance report filed with City of Schertz on Oct 26, 2026: $2,341.30 in total political contributions, $1,883.55 in total political expenditures, and $0.00 in contributions on hand at the end of the period. Left out: outstanding loans (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://laserfiche.schertzweb.com/WebLink/ElectronicFile.aspx?docid=551075&dbid=1&repo=SCHERTZ
+  source_title: 'City of Schertz: campaign finance report, Benjamin Guerrero (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: f065bfae61094607e483d08704b9c7f429fc3a8bd95fec8bac4468fc91a64a1f
+  archive_url: null
+  event_date: '2026-10-26'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by City of Schertz (https://laserfiche.schertzweb.com/WebLink/Browse.aspx?id=550765&dbid=1&repo=SCHERTZ) as filed by "Benjamin Guerrero" (? (cover sheet page 1 not included in posted PDF)); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 1). Not yet archived on the Wayback Machine. Reading note: Posted PDF starts with cover sheet page 2, so report type and period are not shown. A signed Form C/OH-FR (Designation of Final Report) is included as PDF page 3. Cash on hand is handwritten as a slashed zero, recorded as ''0''. Contributions are all in-kind (Schedule A2 $2,341.30). No other report posted for this candidate.'
 endorsements: []
 running_on:
   policy_proposals: []

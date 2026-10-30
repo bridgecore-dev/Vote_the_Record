@@ -5,7 +5,24 @@ incumbent: false
 ballot_party: null
 research: pending
 records: []
-funding: []
+funding:
+- id: tx/localities/austin-isd/elections/2026-11-03/trustee-at-large-9/candidates/kirk-becker#M-01
+  headline: Raised $11 and had $187 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Austin ISD on Oct 26, 2026: $11.48 in total political contributions, $11.48 in total political expenditures, $187.19 in contributions on hand at the end of the period, and $400.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.austinisd.org/sites/default/files/dept/board/docs/Finance%20Reports/CandidatesReports/Campaign-Finance-Report_Kirk_Becker_20261026.pdf
+  source_title: 'Austin ISD: campaign finance report, Blane K. Becker (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: e705ed8c7871485b5bf05abd0b9cd193d6a06f6cfee3a980770f5c6c2293b3e5
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Austin ISD (https://www.austinisd.org/board/finance-reports/finance-reports-candidates) as filed by "Blane K. Becker" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Period years written as ''26''.'
 endorsements: []
 running_on:
   policy_proposals: []

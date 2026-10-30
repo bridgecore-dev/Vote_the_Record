@@ -4,7 +4,24 @@ name: Rachel Weatherington
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/keller-isd/elections/2026-11-03/trustee-place-4/candidates/rachel-weatherington#M-01
+  headline: Raised $1,081 and had $4,567 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Keller ISD: $1,080.90 in total political contributions, $2,768.53 in total political expenditures, $4,567.24 in contributions on hand at the end of the period, and $1,500.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://resources.finalsite.net/images/v1793196592/kellerisdnet/vphsshzjcguyxapgjyrd/FilingDocs_P4_Weatherington.pdf
+  source_title: 'Keller ISD: campaign finance report, Rachel Weatherington'
+  source_kind: document
+  sha256: 124e636b0f14064f98610bb3f7eaa67d6db9aa1fa2fea7fcf7f50e67dff1ae8c
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Keller ISD (https://www.kellerisd.net/board-of-trustees/elections) as filed by "Rachel Weatherington" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 36). Not yet archived on the Wayback Machine. Reading note: Keller ISD posts one combined filing-documents PDF per candidate (CTA, earlier reports, etc.); values are from the 8-day-before-election report inside it.'
 endorsements: []
 running_on:
   policy_proposals: []

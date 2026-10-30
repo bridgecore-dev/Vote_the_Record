@@ -4,7 +4,24 @@ name: Edward M. Bradfield
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/austin-isd/elections/2026-11-03/trustee-district-4/candidates/edward-m-bradfield#M-01
+  headline: Raised $41 and had $117 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Austin ISD on Oct 28, 2026: $41.20 in total political contributions, $0.00 in total political expenditures, $116.95 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.austinisd.org/sites/default/files/dept/board/docs/Finance%20Reports/CandidatesReports/Campaign-Finance-Report_Edward_Bradfield_20261028.pdf
+  source_title: 'Austin ISD: campaign finance report, Edward M Bradfield (filed Oct 28, 2026)'
+  source_kind: document
+  sha256: d991f245d05c86305732c11c141ed434ba43c1d7b7d0887b7787b8edb78a6e2d
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted by Austin ISD (https://www.austinisd.org/board/finance-reports/finance-reports-candidates) as filed by "Edward M Bradfield" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
   policy_proposals: []

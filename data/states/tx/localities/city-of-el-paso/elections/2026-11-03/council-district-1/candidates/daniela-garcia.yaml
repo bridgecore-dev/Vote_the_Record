@@ -4,7 +4,24 @@ name: Daniela Garcia
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-1/candidates/daniela-garcia#M-01
+  headline: Raised $601 and had $78 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with City of El Paso on Oct 26, 2026: $601.39 in total political contributions, $71.57 in total political expenditures, $77.88 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www2.elpasotexas.gov/municipal-clerk/CCElectionDocs/campaign%20finance%20reports/2026-11-03/8-Days-Daniela-Garcia.pdf
+  source_title: 'City of El Paso: campaign finance report, Garcia, Daniela (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: bda7d9f4a8f9345f9b7cc59b89d2370d4fb684ad486e5ae164c515d625cf5f92
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by City of El Paso (https://www2.elpasotexas.gov/municipal-clerk/CCElectionDocs/campaign%20finance%20reports/cfr-2026-11-03.php) as filed by "Garcia, Daniela" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Electronically generated TEC-form PDF; totals read from text layer.'
 endorsements: []
 running_on:
   policy_proposals: []
