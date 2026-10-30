@@ -21,3 +21,20 @@ sources:
   verification: unverified
   verified_on: null
   reviewer: null
+- id: tx/localities/channelview-isd/elections/2026-11-03/trustee-position-5/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (About the Board  | Channelview ISD), checked on October 30, 2026, shows that STEVE DENNIS, a candidate in this race, currently holds this office. It reads: "Steven Dennis was elected to serve as Board Trustee for Position 5 in November 2022 and is currently serving a four-year term through November 2026."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cvisd.org/page/school-board/
+  source_title: About the Board  | Channelview ISD
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Member cards are in the page's embedded content JSON (accordion panels), read from the saved raw HTML pages_b/channelview.html. Ballot shows STEVE DENNIS; the page shows Steven Dennis (nickname form).

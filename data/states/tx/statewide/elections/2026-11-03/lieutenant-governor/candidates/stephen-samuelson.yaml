@@ -40,6 +40,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101069361, form COH, TEC report type E30DAYBEF; filer ID 00090381 (Samuelson, Stephen (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/statewide/elections/2026-11-03/lieutenant-governor/candidates/stephen-samuelson#M-03
+  headline: Had $0 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 25, 2026: $85.08 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072312.PDF
+  source_title: 'Texas Ethics Commission: Samuelson, Stephen (Mr.), campaign finance report 101072312 (filed Oct 25, 2026)'
+  source_kind: document
+  sha256: 02128367edd95368f2ac17a01f7be255f2c609d5599c387b9ce1611e8d88c467
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072312, form COH, TEC report type E08DAYBEF; filer ID 00090381 (Samuelson, Stephen (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

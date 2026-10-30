@@ -39,6 +39,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101069353, form JCOH, TEC report type E30DAYBEF; filer ID 00089132 (Caird, Jessica A. (Ms.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/court-of-appeals-1/elections/2026-11-03/place-5/candidates/jessica-caird#M-03
+  headline: Raised $4,500 and had $2,855 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 25, 2026: $4,500.00 in total political contributions, $13,450.09 in total political expenditures, $2,854.98 in contributions on hand at the end of the period, and $1,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072103.PDF
+  source_title: 'Texas Ethics Commission: Caird, Jessica A. (Ms.), campaign finance report 101072103 (filed Oct 25, 2026)'
+  source_kind: document
+  sha256: ea0272edfc0cdc79f8d99eb57f3b78f9d9fb7f06839a8b3c9fe021b86e61e61c
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072103, form JCOH, TEC report type E08DAYBEF; filer ID 00089132 (Caird, Jessica A. (Ms.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

@@ -23,6 +23,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101070139, form COH, TEC report type E30DAYBEF; filer ID 00090315 (Carraway, Angela Bree (Mrs.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-house-89/elections/2026-11-03/state-representative/candidates/angie-carraway#M-02
+  headline: Raised $23,921 and had $35,937 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $23,921.38 in total political contributions, $7,126.00 in total political expenditures, $35,937.13 in contributions on hand at the end of the period, and $25.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101073016.PDF
+  source_title: 'Texas Ethics Commission: Carraway, Angela Bree (Mrs.), campaign finance report 101073016 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 378c483d229fbe8ab31e8143b2376c9c3e3d9cbf7e19157a5169d66301c6e3fe
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101073016, form COH, TEC report type E08DAYBEF; filer ID 00090315 (Carraway, Angela Bree (Mrs.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

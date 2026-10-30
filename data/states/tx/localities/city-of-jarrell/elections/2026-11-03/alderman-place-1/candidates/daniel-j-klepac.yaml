@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: daniel-j-klepac
 name: Daniel J. Klepac
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

@@ -155,6 +155,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101067892, form COH, TEC report type E30DAYBEF; filer ID 00088078 (Little, Jason Mitchell (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-house-65/elections/2026-11-03/state-representative/candidates/mitch-little#M-02
+  headline: Raised $187,105 and had $300,362 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $187,105.25 in total political contributions, $291,174.87 in total political expenditures, $300,361.81 in contributions on hand at the end of the period, and $125,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071829.PDF
+  source_title: 'Texas Ethics Commission: Little, Jason Mitchell (The Honorable), campaign finance report 101071829 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 4ec1d1f5403d77abca281025b9347cbbc6b13ead18daa701042f3855b4241c76
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071829, form COH, TEC report type E08DAYBEF; filer ID 00088078 (Little, Jason Mitchell (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals:

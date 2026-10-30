@@ -39,6 +39,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101066738, form COH, TEC report type E30DAYBEF; filer ID 00090358 (Taylor, Amy). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/sboe-14/elections/2026-11-03/sboe-member/candidates/amy-taylor#M-03
+  headline: Raised $8,507 and had $6,708 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 25, 2026: $8,506.66 in total political contributions, $7,500.93 in total political expenditures, $6,708.43 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071472.PDF
+  source_title: 'Texas Ethics Commission: Taylor, Amy, campaign finance report 101071472 (filed Oct 25, 2026)'
+  source_kind: document
+  sha256: d4648954a262027c3f5669966e1b08d3c7813ec2890a7bda5bb93b05e06d0fc0
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071472, form COH, TEC report type E08DAYBEF; filer ID 00090358 (Taylor, Amy). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

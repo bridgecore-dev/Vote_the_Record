@@ -134,6 +134,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101070379, form COH, TEC report type E30DAYBEF; filer ID 00084202 (Young, Audrey G. (Dr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/sboe-8/elections/2026-11-03/sboe-member/candidates/audrey-g-young#M-03
+  headline: Had $15,300 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $6,700.00 in total political expenditures, $15,300.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072873.PDF
+  source_title: 'Texas Ethics Commission: Young, Audrey G. (Dr.), campaign finance report 101072873 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 9ffd0db16cd1d3518b80158753b0fc7cbdc325b22d9ce2e7ba102136ed5e13af
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072873, form COH, TEC report type E08DAYBEF; filer ID 00084202 (Young, Audrey G. (Dr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

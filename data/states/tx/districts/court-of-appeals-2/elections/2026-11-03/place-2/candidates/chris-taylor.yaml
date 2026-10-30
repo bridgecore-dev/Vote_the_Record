@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: chris-taylor
 name: Chris Taylor
-incumbent: null
+incumbent: false
 ballot_party: Republican Party
 records: []
 funding:

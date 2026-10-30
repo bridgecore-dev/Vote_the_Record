@@ -22,3 +22,20 @@ sources:
   verification: unverified
   verified_on: null
   reviewer: null
+- id: tx/localities/northtown-mud/elections/2026-11-03/directors/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Special Purpose District Public Information Database - Northtown Municipal Utility District (2026 report)), checked on October 30, 2026, lists the current members: Brenda Richter, Christopher Capers, Lee Hill, Lisa Baker and Colette Downey. Of the candidates in this race, Chris Capers and R. Lee Hill are among them. It reads: "Lisa Baker - Asst Secretary; Lee Hill - Treasurer; Brenda Richter - President; Christopher Capers - Vice President; Colette Downey - Secretary"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://spdpid.comptroller.texas.gov/view/2026/103226078
+  source_title: Special Purpose District Public Information Database - Northtown Municipal Utility District (2026 report)
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Source is the Texas Comptroller's Special Purpose District Public Information Database (official state record; the district's own 2026 filing). The page renders from the Comptroller API (api.comptroller.texas.gov/open-data/v1/spdpid/spdpid-related-party/103226078?year=2026), saved raw as pages_c/spdpid2026_northtown.json; the quote joins the record's first-name, last-name and title fields verbatim. Filed 2026-03-19. The district's own board page (northtownmud.org/board.html; saved pages_c/northtown.html) is out of date (it says 'The next elections are scheduled for the fall of 2024') and lists Brenda Richter, Robin Campbell, Felix Amaro, Chris Capers and Lee Hill, so the newer Comptroller filing is used. 'Chris Capers' matched to 'Christopher Capers' (nickname; the district page itself shows 'Chris Capers'); 'R. Lee Hill' matched to 'Lee Hill' (first initial added). Ballot candidate Brenda Vrabel is NOT matched to current President Brenda Richter (different surname) - owner may want to check whether this is the same person. Scott Moser is not a current director. Terms not shown.

@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: Names and wording are from the PDF's text layer, read column by column; proposition wording is kept exactly as printed, with only the English text and choices listed. The ballot prints parties as Rep, Dem, Lib, and Grn.
+- id: tx/localities/collin-county/elections/2026-11-03/ccad-place-2/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Board of Directors – Collin Central Appraisal District), checked on October 30, 2026, lists "Sumbel Zeb" as holding this office; none of the candidates in this race is listed as the current officeholder. It reads: "Randal Shinn (Secretary) – Place 1 Scott Grigg – Tax Assessor/Collector Doug Bender Alvin Benton Jason Ross Veronica Yost Sumbel Zeb – Place 2 Andrew Cook – Place 3"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://collincad.org/district-information/board-of-directors/
+  source_title: Board of Directors – Collin Central Appraisal District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Neither ballot candidate holds Place 2. Ballot candidate Andrew Cook is shown on the page as the Place 3 director (a different place). Michael G. Smith is not listed.

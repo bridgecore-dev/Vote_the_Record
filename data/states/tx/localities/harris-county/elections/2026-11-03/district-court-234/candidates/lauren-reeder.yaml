@@ -22,6 +22,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101060816, form JCOH, TEC report type SEMIJUL; filer ID 00081718 (Reeder, Lauren R. (The Honorable)). Found in TEC's bulk campaign finance data (https://www.ethics.state.tx.us/data/search/cf/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-09-30; a correction filed later replaces the version it corrects.
+- id: tx/localities/harris-county/elections/2026-11-03/district-court-234/candidates/lauren-reeder#M-02
+  headline: Raised $45,350 and had $243,656 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $45,350.00 in total political contributions, $21,753.83 in total political expenditures, $243,656.19 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072397.PDF
+  source_title: 'Texas Ethics Commission: Reeder, Lauren R. (The Honorable), campaign finance report 101072397 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 58fecbaad1b1eefd17c6a6c2ef4bda2da0922967a4bc95021bc010f396d8148b
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072397, form JCOH, TEC report type E08DAYBEF; filer ID 00081718 (Reeder, Lauren R. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

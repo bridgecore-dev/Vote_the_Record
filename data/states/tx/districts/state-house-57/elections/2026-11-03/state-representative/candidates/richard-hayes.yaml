@@ -155,6 +155,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101069605, form COH, TEC report type E30DAYBEF; filer ID 00031197 (Hayes, Richard D. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-house-57/elections/2026-11-03/state-representative/candidates/richard-hayes#M-02
+  headline: Raised $168,994 and had $111,855 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $168,994.06 in total political contributions, $84,905.48 in total political expenditures, $111,855.29 in contributions on hand at the end of the period, and $5,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071583.PDF
+  source_title: 'Texas Ethics Commission: Hayes, Richard D. (The Honorable), campaign finance report 101071583 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: a38954c7cb9531261a1a868e72898f59c70248f9a72ef1ccea76600b84e67b4e
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071583, form COH, TEC report type E08DAYBEF; filer ID 00031197 (Hayes, Richard D. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals:

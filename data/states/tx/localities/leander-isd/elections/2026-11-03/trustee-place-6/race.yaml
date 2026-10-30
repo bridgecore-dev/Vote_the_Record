@@ -21,3 +21,20 @@ sources:
   verification: unverified
   verified_on: null
   reviewer: null
+- id: tx/localities/leander-isd/elections/2026-11-03/trustee-place-6/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Leander ISD Honors School Board Recognition Month | Leander ISD News), checked on October 30, 2026, shows that Laura Marques, a candidate in this race, currently holds this office. It reads: "Laura Marques | — Leander ISD Board Member, Place 6 (Term: Nov. 2025-Nov. 2026)"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://news.leanderisd.org/leander-isd-honors-school-board-recognition-month/
+  source_title: Leander ISD Honors School Board Recognition Month | Leander ISD News
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Source is the district's own news site (article dated Jan 6, 2026), because the board page https://www.leanderisd.org/boardoftrustees/ (saved as leander.html) shows no member roster. The term dates (Nov. 2025-Nov. 2026) suggest a partial term, but the article does not say whether she was appointed or elected.

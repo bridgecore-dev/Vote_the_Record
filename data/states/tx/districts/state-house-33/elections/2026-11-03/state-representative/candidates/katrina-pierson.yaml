@@ -155,6 +155,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101068368, form COH, TEC report type E30DAYBEF; filer ID 00088279 (Pierson, Katrina L. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-house-33/elections/2026-11-03/state-representative/candidates/katrina-pierson#M-02
+  headline: Raised $86,083 and had $308,281 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $86,083.26 in total political contributions, $41,673.49 in total political expenditures, $308,280.61 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071824.PDF
+  source_title: 'Texas Ethics Commission: Pierson, Katrina L. (The Honorable), campaign finance report 101071824 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 26119c4c3f162c222ea1b959dccf98c0735142401684401400f3c6a31ee3fc64
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071824, form COH, TEC report type E08DAYBEF; filer ID 00088279 (Pierson, Katrina L. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

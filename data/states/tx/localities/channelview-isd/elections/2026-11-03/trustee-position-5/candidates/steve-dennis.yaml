@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed by the Harris County Clerk. Unverified.
 id: steve-dennis
 name: STEVE DENNIS
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

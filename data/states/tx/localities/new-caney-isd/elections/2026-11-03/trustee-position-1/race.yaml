@@ -21,3 +21,20 @@ sources:
   verification: unverified
   verified_on: null
   reviewer: null
+- id: tx/localities/new-caney-isd/elections/2026-11-03/trustee-position-1/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Meet the Board - New Caney ISD District Site), checked on October 30, 2026, shows that Elizabeth Rhoden Harrell, a candidate in this race, currently holds this office. It reads: "Elizabeth Harrell | President, Position 1, 2023-2026"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.newcaneyisd.org/our-district/board-of-trustees/meet-the-board
+  source_title: Meet the Board - New Caney ISD District Site
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Ballot shows "Elizabeth Rhoden Harrell" (an added middle name); same first and last name, no suffix.

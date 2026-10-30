@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's all-precinct preview ballot. Names and wording are from the PDF's text layer, kept exactly as printed, with spaces restored where the text layer drops them between fragments. The ballot prints parties as REP, DEM, LIB, and GRN.
+- id: tx/districts/court-of-appeals-2/elections/2026-11-03/place-2/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (TJB | 2nd COA | About the Court | Justices), checked on October 30, 2026, lists "Dana Womack" as holding this office; none of the candidates in this race is listed as the current officeholder. It reads: "Justice Dana Womack Place 2 Prior to her appointment to the Second Court of Appeals"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/2ndcoa/about-the-court/justices/
+  source_title: TJB | 2nd COA | About the Court | Justices
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Ballot candidate Chris Taylor is not the holder. The page says Justice Womack was appointed to the court (no date in the visible text); it does not say whether this ballot seat is a full or unexpired term. Separately, the Tarrant County elected-officials page lists "Chris Taylor Judge 48th District Court" (same name; not confirmed to be the same person).

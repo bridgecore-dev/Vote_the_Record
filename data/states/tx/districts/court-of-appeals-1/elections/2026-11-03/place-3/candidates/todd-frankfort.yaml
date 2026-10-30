@@ -39,6 +39,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101069775, form JCOH, TEC report type E30DAYBEF; filer ID 00086207 (Frankfort, Todd (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/court-of-appeals-1/elections/2026-11-03/place-3/candidates/todd-frankfort#M-03
+  headline: Raised $4,984 and had $8,787 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $4,984.33 in total political contributions, $1,921.31 in total political expenditures, $8,786.72 in contributions on hand at the end of the period, and $2,512.52 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072996.PDF
+  source_title: 'Texas Ethics Commission: Frankfort, Todd (Mr.), campaign finance report 101072996 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 59c8208d86b4042a8e6db6ab5cc1e55c7686aa97c8d5ceca8ecb52a13b04ec00
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072996, form JCOH, TEC report type E08DAYBEF; filer ID 00086207 (Frankfort, Todd (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

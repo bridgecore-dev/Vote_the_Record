@@ -23,6 +23,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101069393, form COH, TEC report type E30DAYBEF; filer ID 00082081 (Markowitz, Elizabeth A. (Ms.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-house-26/elections/2026-11-03/state-representative/candidates/elizabeth-eliz-markowitz#M-02
+  headline: Raised $9,192 and had $8,671 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $9,192.00 in total political contributions, $6,231.92 in total political expenditures, $8,671.10 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072560.PDF
+  source_title: 'Texas Ethics Commission: Markowitz, Elizabeth A. (Ms.), campaign finance report 101072560 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 5015d681f3eaa89b2f936dc31e1b5e07a75331dc46e2a40dd4048cc4eb1d4ba7
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072560, form COH, TEC report type E08DAYBEF; filer ID 00082081 (Markowitz, Elizabeth A. (Ms.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

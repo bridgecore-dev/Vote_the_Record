@@ -39,6 +39,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101068725, form COH, TEC report type E30DAYBEF; filer ID 00055583 (Dixon, Patrick J. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/statewide/elections/2026-11-03/governor/candidates/pat-dixon#M-03
+  headline: Raised $2,597 and had $1,064 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $2,596.75 in total political contributions, $3,510.96 in total political expenditures, $1,063.85 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072014.PDF
+  source_title: 'Texas Ethics Commission: Dixon, Patrick J. (Mr.), campaign finance report 101072014 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: b45bda539156d8bb359c4a2faa60655a609ddc3913b9b91ce9c9357ecb0e7a25
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072014, form COH, TEC report type E08DAYBEF; filer ID 00055583 (Dixon, Patrick J. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

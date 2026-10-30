@@ -39,6 +39,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101070048, form JCOH, TEC report type E30DAYBEF; filer ID 00089246 (Sullivan, James P. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/statewide/elections/2026-11-03/supreme-court-place-2/candidates/james-p-sullivan#M-03
+  headline: Raised $115,193 and had $204,999 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $115,192.71 in total political contributions, $582,817.50 in total political expenditures, $204,998.76 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072076.PDF
+  source_title: 'Texas Ethics Commission: Sullivan, James P. (The Honorable), campaign finance report 101072076 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 5311d3f56808a8e098994249d7efb085653dd917894dbec58b6f18c0324ef743
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072076, form JCOH, TEC report type E08DAYBEF; filer ID 00089246 (Sullivan, James P. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

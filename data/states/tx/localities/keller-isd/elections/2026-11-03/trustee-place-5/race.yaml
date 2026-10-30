@@ -21,3 +21,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: A sample ballot for one ballot style (one precinct part), from the county's Find My Ballot service (https://gisit.tarrantcounty.com/findmyballot/). The county posts no all-contest ballot; every style was collected by asking the service for each of the county's 1,703 voting sub-precincts. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/keller-isd/elections/2026-11-03/trustee-place-5/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Board of Trustees - Keller Independent School District), checked on October 30, 2026, shows that Chris Coker, a candidate in this race, currently holds this office. It does not list the other candidates as holding this office. It reads: "Trustee Chris Coker, Place 5 | Board Member Chris Coker is in the third year of his first term as a Keller ISD Trustee. He assumed office in May 2023."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.kellerisd.net/board-of-trustees
+  source_title: Board of Trustees - Keller Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -21,3 +21,20 @@ sources:
   verification: unverified
   verified_on: null
   reviewer: null
+- id: tx/localities/city-of-lago-vista/elections/2026-11-03/council-place-6/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (City Council | Lago Vista, TX), checked on October 30, 2026, lists "Paul Prince" as holding this office; none of the candidates in this race is listed as the current officeholder. It reads: "Paul Prince | Council Place 6 | November 2026"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://lagovistatexas.gov/252/City-Council
+  source_title: City Council | Lago Vista, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The current Place 6 holder is not on the ballot. The only candidate is David vonOhlerking III.

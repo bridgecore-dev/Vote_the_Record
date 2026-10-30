@@ -22,3 +22,20 @@ sources:
   verification: unverified
   verified_on: null
   reviewer: null
+- id: tx/localities/williamson-travis-mud-1/elections/2026-11-03/directors/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Board of Directors / WTCMUD 1), checked on October 30, 2026, lists the current members: Beth Jones, Hanoi Avila, Carrol Norrell and Chris Rocco. Of the candidates in this race, Beth Jones and Hanoi Avila are among them. It reads: "Beth Jones PRESIDENT Term: Nov 2026 ... Hanoi Avila VICE PRESIDENT/TREASURER Term: Nov 2026 ... Carrol Norrell ASSISTANT SECRETARY Term: Nov 2028 ... Chris Rocco SECRETARY Term: Nov 2028 ... Vacant Seat ASSISTANT SECRETARY Term: Nov 2026 Seat is currently vacant"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wtcmud1.org/board-of-directors/
+  source_title: Board of Directors / WTCMUD 1
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'District''s own site (saved pages_c/wtcmud1_board.html). Terms ending November 2026: Beth Jones, Hanoi Avila, and one vacant seat (three seats on the ballot). Not current directors: David Flores, Kimberly Massaro, Linda Fabre, Stephen Bodnarchuk Jr., Thomas Vacek. The Comptroller SPDPID 2026 filing (March 13, 2026) listed ''David Flores - Asst. Secretary''; the website now shows that Assistant Secretary seat (term Nov 2026) as vacant, so ballot candidate David Flores appears to be a former director - owner may want to confirm.'

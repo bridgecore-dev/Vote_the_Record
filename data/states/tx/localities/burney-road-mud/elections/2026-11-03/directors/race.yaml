@@ -22,3 +22,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: Fort Bend County posts one sample ballot per ballot style (64 styles across 201 precincts); names and wording are from each PDF's text layer and are kept exactly as printed. The ballots print parties as REP, DEM, LIB, and GRE. This contest appears on 3 of the 64 ballot styles; this fact cites the first style that carries it (style 30, first listed for precinct 3016).
+- id: tx/localities/burney-road-mud/elections/2026-11-03/directors/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Special Purpose District Public Information Database - Burney Road Municipal Utility District (2026 report)), checked on October 30, 2026, lists the current members: Mark Johnson, Douglas Otto, Cynthia Van Deursen, Lydia Rosenthal and Asif Syed. Of the candidates in this race, CYNTHIA VAN DEURSEN, DOUG OTTO and MARK JOHNSON are among them. It reads: "Douglas Otto - Director; Cynthia Van Deursen - Secretary; Mark Johnson - President; Asif Syed - Deputy Secretary; Lydia Rosenthal - Vice President"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://spdpid.comptroller.texas.gov/view/2026/103227146
+  source_title: Special Purpose District Public Information Database - Burney Road Municipal Utility District (2026 report)
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Source is the Texas Comptroller''s Special Purpose District Public Information Database (official state record; the district''s own 2026 filing). The page renders from the Comptroller API (api.comptroller.texas.gov/open-data/v1/spdpid/spdpid-related-party/103227146?year=2026), saved raw as pages_c/spdpid2026_burney.json; the quote joins the record''s first-name, last-name and title fields verbatim. Filed 2026-03-06. No district website found (Fort Bend County''s MUD list links only to a third-party listing). ''DOUG OTTO'' matched to ''Douglas Otto'' as a nickname. Not current directors: MUZAFFAR VOHRA, NAJEED ISMAIL. Terms not shown. TCEQ iWUD also lists MARK JOHNSON, PRESIDENT.'

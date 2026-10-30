@@ -39,6 +39,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101068721, form JCOH, TEC report type E30DAYBEF; filer ID 00080055 (Countiss, Julie (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/court-of-appeals-1/elections/2026-11-03/place-4/candidates/julie-countiss#M-03
+  headline: Raised $3,850 and had $4,023 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $3,849.79 in total political contributions, $4,552.26 in total political expenditures, $4,023.08 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072895.PDF
+  source_title: 'Texas Ethics Commission: Countiss, Julie (The Honorable), campaign finance report 101072895 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 5eaed79c7139a30f137c6a022ecf4e542353548465853ab811891ce2c4db74ae
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072895, form JCOH, TEC report type E08DAYBEF; filer ID 00080055 (Countiss, Julie (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

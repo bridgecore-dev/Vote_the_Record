@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: ryan-sullivan
 name: Ryan Sullivan
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

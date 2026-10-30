@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: jeff-gorres
 name: Jeff Gorres
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

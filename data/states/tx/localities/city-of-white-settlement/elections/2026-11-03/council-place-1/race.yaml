@@ -21,3 +21,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: A sample ballot for one ballot style (one precinct part), from the county's Find My Ballot service (https://gisit.tarrantcounty.com/findmyballot/). The county posts no all-contest ballot; every style was collected by asking the service for each of the county's 1,703 voting sub-precincts. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/city-of-white-settlement/elections/2026-11-03/council-place-1/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (City Council | White Settlement, TX), checked on October 30, 2026, shows that Aaron James, a candidate in this race, currently holds this office. It does not list the other candidates as holding this office. It reads: "Aaron James, Place 1 | Term expires: November 2026"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wstx.us/219/City-Council
+  source_title: City Council | White Settlement, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null

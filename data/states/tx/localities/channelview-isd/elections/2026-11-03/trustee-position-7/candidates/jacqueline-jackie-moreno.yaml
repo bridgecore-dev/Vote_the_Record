@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed by the Harris County Clerk. Unverified.
 id: jacqueline-jackie-moreno
 name: JACQUELINE "JACKIE" MORENO
-incumbent: null
+incumbent: false
 ballot_party: null
 records: []
 funding: []

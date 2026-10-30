@@ -39,6 +39,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101067815, form COH, TEC report type E30DAYBEF; filer ID 00058885 (Snider, Neill (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-04; a correction filed later replaces the version it corrects.
+- id: tx/statewide/elections/2026-11-03/land-commissioner/candidates/neill-snider#M-03
+  headline: Raised $391 and had $0 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $390.75 in total political contributions, $250.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069144.PDF
+  source_title: 'Texas Ethics Commission: Snider, Neill (Mr.), campaign finance report 101069144 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 7846077c5ce47deb67d42846279da801c439c3587fe6c44c26818c5ac9f21592
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101069144, form COH, TEC report type E08DAYBEF; filer ID 00058885 (Snider, Neill (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

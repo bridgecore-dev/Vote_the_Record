@@ -39,6 +39,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101067613, form JCOH, TEC report type E30DAYBEF; filer ID 00080514 (Meyer, Marc M. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/court-of-appeals-15/elections/2026-11-03/place-3/candidates/marc-m-meyer#M-03
+  headline: Raised $4,025 and had $4,523 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $4,024.52 in total political contributions, $4,647.83 in total political expenditures, $4,523.02 in contributions on hand at the end of the period, and $500.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072273.PDF
+  source_title: 'Texas Ethics Commission: Meyer, Marc M. (Mr.), campaign finance report 101072273 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 9ba4065129c848714044222eed9ca9c6a669791a9d7514c601192eb549263c95
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072273, form JCOH, TEC report type E08DAYBEF; filer ID 00080514 (Meyer, Marc M. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

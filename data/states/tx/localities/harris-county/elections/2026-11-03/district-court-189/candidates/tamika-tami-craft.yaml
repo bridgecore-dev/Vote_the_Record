@@ -22,6 +22,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101062757, form CORCOH, TEC report type SEMIJUL; filer ID 00065738 (Craft, Tamika (The Honorable)). Found in TEC's bulk campaign finance data (https://www.ethics.state.tx.us/data/search/cf/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-09-30; a correction filed later replaces the version it corrects.
+- id: tx/localities/harris-county/elections/2026-11-03/district-court-189/candidates/tamika-tami-craft#M-02
+  headline: Raised $21,100 and had $248,814 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $21,100.00 in total political contributions, $65,901.56 in total political expenditures, $248,814.31 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072393.PDF
+  source_title: 'Texas Ethics Commission: Craft, Tamika (The Honorable), campaign finance report 101072393 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 7a41dd484a132d067307d2c823b093a7ca86430752392a5984146b23bb61ca39
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072393, form JCOH, TEC report type E08DAYBEF; filer ID 00065738 (Craft, Tamika (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

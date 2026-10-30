@@ -155,6 +155,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101056902, form COH, TEC report type SEMIJUL; filer ID 00062108 (Walle Jr., Armando L. (The Honorable)). Found in TEC's bulk campaign finance data (https://www.ethics.state.tx.us/data/search/cf/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-09-30; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-house-140/elections/2026-11-03/state-representative/candidates/armando-lucio-walle#M-02
+  headline: Raised $66,063 and had $274,277 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 24, 2026: $66,062.98 in total political contributions, $25,918.39 in total political expenditures, $274,277.48 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071964.PDF
+  source_title: 'Texas Ethics Commission: Walle Jr., Armando L. (The Honorable), campaign finance report 101071964 (filed Oct 24, 2026)'
+  source_kind: document
+  sha256: b72aecd322385818230ef75fa7993c57816ea4f0a1abe070721597f7b9e71f6d
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071964, form COH, TEC report type E08DAYBEF; filer ID 00062108 (Walle Jr., Armando L. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

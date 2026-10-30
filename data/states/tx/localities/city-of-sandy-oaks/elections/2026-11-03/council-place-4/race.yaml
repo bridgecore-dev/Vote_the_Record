@@ -21,3 +21,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: Candidate names are from the PDF's text layer. Proposition wording was transcribed from the pages rendered as images and checked against the text layer; it is kept exactly as printed, including the ballot's own typos, with the outer quotation marks left off and only the English choices listed. The ballot prints parties as REP, DEM, LIB, GRN, and IND ("Independent Party" in its legend).
+- id: tx/localities/city-of-sandy-oaks/elections/2026-11-03/council-place-4/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (City Directory | City Of Sandy Oaks), checked on October 30, 2026, shows that CJ Walker, a candidate in this race, currently holds this office. It reads: "Alderman Pl. 4 | CJ Walker | Alderman, Place 4"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://cityofsandyoaks.com/city-directory/
+  source_title: City Directory | City Of Sandy Oaks
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null

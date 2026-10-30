@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: 'The county''s "2026-11 Publication Sample Ballot" on its Current Sample Ballots page (https://www.smith-county.com/396/Current-Sample-Ballots), served from the county''s Laserfiche portal: one ballot carrying every contest on any Smith County ballot (per-precinct ballots are posted beside it). Names and wording are from the PDF''s text layer, kept as printed (English text only).'
+- id: tx/localities/smith-county/elections/2026-11-03/commissioner-precinct-2/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Precinct 2 | Smith County, TX), checked on October 30, 2026, lists "John Moore" as holding this office; none of the candidates in this race is listed as the current officeholder. It reads: "Contact Us John Moore Commissioner"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.smith-county.com/280/Precinct-2
+  source_title: Precinct 2 | Smith County, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Neither ballot candidate (Austin Luce, Dustin Gray Stephens) is the holder.

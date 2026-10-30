@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: derrick-choice
 name: Derrick Choice
-incumbent: null
+incumbent: true
 ballot_party: DEM
 records: []
 funding:

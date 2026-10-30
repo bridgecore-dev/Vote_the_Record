@@ -21,3 +21,20 @@ sources:
   verification: unverified
   verified_on: null
   reviewer: null
+- id: tx/localities/round-rock-isd/elections/2026-11-03/trustee-place-3/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Board of Trustees | Round Rock ISD), checked on October 30, 2026, shows that Amber Feller Landrum, a candidate in this race, currently holds this office. It does not list the other candidates as holding this office. It reads: "Amber Landrum | Trustee Board of Trustees – Place 3 Feller Landrum Bio | Feller Landrum Email"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.roundrockisd.org/o/rrisd/page/board-of-trustees
+  source_title: Board of Trustees | Round Rock ISD
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Member cards are in the page's embedded content JSON; the card heading gives the name and the card text gives the place. The heading shows "Amber Landrum"; the same card's links say "Feller Landrum", and the ballot shows "Amber Feller Landrum" (same first and last name).

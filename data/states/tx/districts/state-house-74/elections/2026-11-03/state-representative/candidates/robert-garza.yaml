@@ -22,6 +22,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101070403, form COH, TEC report type E30DAYBEF; filer ID 00026785 (Garza, Robert (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-19; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-house-74/elections/2026-11-03/state-representative/candidates/robert-garza#M-02
+  headline: Had $7,948 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $2,552.00 in total political expenditures, $7,948.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101073023.PDF
+  source_title: 'Texas Ethics Commission: Garza, Robert (Mr.), campaign finance report 101073023 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 91c26e66802d1f9dbdf586f0f47a844927eb945a023f7e2e036fd3ee4007f42c
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101073023, form COH, TEC report type E08DAYBEF; filer ID 00026785 (Garza, Robert (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

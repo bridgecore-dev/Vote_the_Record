@@ -40,6 +40,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101068804, form COH, TEC report type E30DAYBEF; filer ID 00090374 (Colbert, Keenen D. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-senate-2/elections/2026-11-03/state-senator/candidates/keenen-colbert#M-03
+  headline: Raised $7,031 and had $231 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $7,030.64 in total political contributions, $6,799.75 in total political expenditures, $230.89 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072868.PDF
+  source_title: 'Texas Ethics Commission: Colbert, Keenen D. (Mr.), campaign finance report 101072868 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: bab8e4e03323202666ec59ab33996d801eb5fd826798d7c4cac40fae0d81c215
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072868, form COH, TEC report type E08DAYBEF; filer ID 00090374 (Colbert, Keenen D. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

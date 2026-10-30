@@ -22,3 +22,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's comprehensive (all-contest) sample ballot, linked from its Elections page as "Composite Sample Ballot". Names and wording are from the PDF's text layer, kept exactly as printed (English text only), with one space restored where the text layer drops it ("UtilityDistrict"). The county's website blocks automated downloads, so the project owner downloaded the file; neither it nor the Wayback Machine could be reached for an archive copy on 2026-10-15.
+- id: tx/localities/block-house-mud/elections/2026-11-03/directors/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Block House MUD Board of Directors - Block House Municipal Utility District), checked on October 30, 2026, lists the current members: Ursula Logan, Amanda Stanfield, David Johnson, Sandy Martin and Robert Young. Of the candidates in this race, Sandra Martin is among them. It reads: "Ursula Logan President Electoral term - November 2024 - November 2028 ... Amanda Stanfield Vice President Electoral Term - November 2024 - November 2028 ... David Johnson Secretary Electoral term - November 2022 - November 2026 ... Sandy Martin Assistant Secretary ... Robert Young Electoral term - November 2022 - November 2026"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.blockhousemudtx.gov/about-us/block-house-mud-board-of-directors/
+  source_title: Block House MUD Board of Directors - Block House Municipal Utility District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'District''s own site (page modified 2026-10-22; saved pages_c/blockhouse.html). Terms ending November 2026: David Johnson and Robert Young (neither is on the ballot). Sandy Martin is listed with no term shown; matched to ballot ''Sandra Martin'' as a nickname (Sandy/Sandra) - owner should confirm. Not current directors: Ashley Musso, Jaden Tipton, Matt Sanner, Nancy Winston, Ryan Poppe, Terri L. Hutton, Tina Reckaway. The Comptroller SPDPID 2026 filing (March 2026) listed David Shoemaker as Vice President and did not list Sandy Martin, so the board changed during 2026; the website is the more recent source.'

@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: Fort Bend County posts one sample ballot per ballot style (64 styles across 201 precincts); names and wording are from each PDF's text layer and are kept exactly as printed. The ballots print parties as REP, DEM, LIB, and GRE. This contest appears on 64 of the 64 ballot styles; this fact cites the first style that carries it (style 1, first listed for precinct 1002).
+- id: tx/localities/fort-bend-county/elections/2026-11-03/fbcad-position-2/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Board of Directors – Fort Bend Central Appraisal District), checked on October 30, 2026, lists "Andrew Johnson" as holding this office; none of the candidates in this race is listed as the current officeholder. It reads: "Shaizad “Sam” Chatriwala At-Large Position No. 1 Andrew Johnson At-Large Position No. 2 Larry Indermuhle At-Large Position No. 3"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.fbcad.org/board-members/
+  source_title: Board of Directors – Fort Bend Central Appraisal District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Neither ballot candidate (DAYNA DRUKE, MUZAFFAR VOHRA) is the holder. Page heading reads "Board Members 2025 – 2026".

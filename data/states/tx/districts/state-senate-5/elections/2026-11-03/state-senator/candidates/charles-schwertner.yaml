@@ -60,6 +60,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101068101, form COH, TEC report type E30DAYBEF; filer ID 00065996 (Schwertner, Charles (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-senate-5/elections/2026-11-03/state-senator/candidates/charles-schwertner#M-02
+  headline: Had $306,302 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $2,500.00 in total political expenditures, $306,301.94 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071420.PDF
+  source_title: 'Texas Ethics Commission: Schwertner, Charles (The Honorable), campaign finance report 101071420 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 7a1c6abce37586fc0ecfe6de05719a79502db1716e4fbcd8205c568979e0926b
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071420, form COH, TEC report type E08DAYBEF; filer ID 00065996 (Schwertner, Charles (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

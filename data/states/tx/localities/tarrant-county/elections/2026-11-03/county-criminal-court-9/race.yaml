@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: A sample ballot for one ballot style (one precinct part), from the county's Find My Ballot service (https://gisit.tarrantcounty.com/findmyballot/). The county posts no all-contest ballot; every style was collected by asking the service for each of the county's 1,703 voting sub-precincts. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/tarrant-county/elections/2026-11-03/county-criminal-court-9/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Elected County Officials), checked on October 30, 2026, shows that Brian Bolton, a candidate in this race, currently holds this office. It does not list the other candidates as holding this office. It reads: "Brian Bolton Judge County Criminal Court No. 9"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.tarrantcountytx.gov/en/county/about-tarrant/elected-county-officials.html
+  source_title: Elected County Officials
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Page footer: "This page was last modified on August 05, 2026".'

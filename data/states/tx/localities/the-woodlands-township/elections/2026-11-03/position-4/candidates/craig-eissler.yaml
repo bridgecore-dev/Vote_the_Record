@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed by the Harris County Clerk. Unverified.
 id: craig-eissler
 name: Craig Eissler
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []
