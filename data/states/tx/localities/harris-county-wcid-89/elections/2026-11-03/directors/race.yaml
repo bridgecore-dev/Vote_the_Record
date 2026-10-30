@@ -22,3 +22,20 @@ sources:
   verification: unverified
   verified_on: null
   reviewer: null
+- id: tx/localities/harris-county-wcid-89/elections/2026-11-03/directors/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Special Purpose District Public Information Database - Harris County Water Control and Improvement District #89 (2026 report)), checked on October 30, 2026, lists the current members: Michael Smith, Naomi Smith, AK Babers, Byron Watson and Tahir Charles. Of the candidates in this race, Mike Smith and Tahir H. Charles are among them. It reads: "Michael Smith - President; Naomi Smith - Assistant Secretary; AK Babers - Vice President; Byron Watson - Assistant Secretary; Tahir Charles - Secretary"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://spdpid.comptroller.texas.gov/view/2026/103227258
+  source_title: 'Special Purpose District Public Information Database - Harris County Water Control and Improvement District #89 (2026 report)'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Source is the Texas Comptroller''s Special Purpose District Public Information Database (official state record; the district''s own 2026 filing). The page renders from the Comptroller API (api.comptroller.texas.gov/open-data/v1/spdpid/spdpid-related-party/103227258?year=2026), saved raw as pages_c/spdpid2026_hcwcid89.json; the quote joins the record''s first-name, last-name and title fields verbatim. Filed 2026-01-02. No district website found. ''Mike Smith'' matched to ''Michael Smith'' (nickname); ''Tahir H. Charles'' matched to ''Tahir Charles'' (middle initial). Not a current director: Tashia Coleman. Terms not shown. TCEQ iWUD also lists MICHAEL SMITH, PRESIDENT.'

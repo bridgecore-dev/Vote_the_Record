@@ -21,3 +21,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.
+- id: tx/localities/copperas-cove-isd/elections/2026-11-03/trustee-place-7/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Board Members – Board & Superintendent – Copperas Cove Independent School District), checked on October 30, 2026, shows that Jeff Gorres, a candidate in this race, currently holds this office. It does not list the other candidates as holding this office. It reads: "Jeff Gorres, Board Member | Place 7 - Term began November 7, 2023 –Term expires November 2026"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ccisd.com/apps/pages/index.jsp?uREC_ID=4477461&type=d&pREC_ID=2757636
+  source_title: Board Members – Board & Superintendent – Copperas Cove Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null

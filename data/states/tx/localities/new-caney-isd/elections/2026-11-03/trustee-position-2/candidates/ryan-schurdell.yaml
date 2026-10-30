@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed by the Harris County Clerk. Unverified.
 id: ryan-schurdell
 name: Ryan Schurdell
-incumbent: null
+incumbent: false
 ballot_party: null
 records: []
 funding: []

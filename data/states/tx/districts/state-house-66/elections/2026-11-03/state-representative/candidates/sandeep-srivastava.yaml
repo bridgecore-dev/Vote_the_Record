@@ -23,6 +23,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101067819, form COH, TEC report type E30DAYBEF; filer ID 00089720 (Srivastava, Sandeep). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-house-66/elections/2026-11-03/state-representative/candidates/sandeep-srivastava#M-02
+  headline: Raised $4,320 and had $29,799 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $4,319.66 in total political contributions, $56,631.55 in total political expenditures, $29,799.39 in contributions on hand at the end of the period, and $136,951.98 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071745.PDF
+  source_title: 'Texas Ethics Commission: Srivastava, Sandeep, campaign finance report 101071745 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: e1b1be4dd7342246ceee4056e10f9595d5c408d57b5ffde37aaa8998e0333c50
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071745, form COH, TEC report type E08DAYBEF; filer ID 00089720 (Srivastava, Sandeep). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

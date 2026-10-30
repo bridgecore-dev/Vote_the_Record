@@ -21,3 +21,20 @@ sources:
   verification: unverified
   verified_on: null
   reviewer: null
+- id: tx/localities/spring-isd/elections/2026-11-03/trustee-position-5/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Overview | Spring ISD), checked on October 30, 2026, shows that Rhonda Newhouse, a candidate in this race, currently holds this office. It does not list the other candidates as holding this office. It reads: "Rhonda Newhouse Position 5"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.springisd.org/o/sisd/page/board-of-trustees
+  source_title: Overview | Spring ISD
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Read from the page's embedded content JSON.

@@ -39,6 +39,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101069279, form JCOH, TEC report type E30DAYBEF; filer ID 00083553 (Guerra, Amparo Yanez (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/court-of-appeals-1/elections/2026-11-03/place-5/candidates/amy-guerra#M-03
+  headline: Raised $1,150 and had $125,641 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $1,150.00 in total political contributions, $62,426.15 in total political expenditures, $125,641.23 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071988.PDF
+  source_title: 'Texas Ethics Commission: Guerra, Amparo Yanez (The Honorable), campaign finance report 101071988 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: c4b2ecc31f866f8607d074732bd76ebab69e4b0d793c9fa3f854d0d77bc48017
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071988, form JCOH, TEC report type E08DAYBEF; filer ID 00083553 (Guerra, Amparo Yanez (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

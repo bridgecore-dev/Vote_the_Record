@@ -21,3 +21,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's all-precinct preview ballot. Names and wording are from the PDF's text layer, kept exactly as printed, with spaces restored where the text layer drops them between fragments. The ballot prints parties as REP, DEM, LIB, and GRN.
+- id: tx/districts/court-of-appeals-2/elections/2026-11-03/place-7/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (TJB | 2nd COA | About the Court | Justices), checked on October 30, 2026, shows that Brian Walker, a candidate in this race, currently holds this office. It reads: "Justice Brian Walker Place 7"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/2ndcoa/about-the-court/justices/
+  source_title: TJB | 2nd COA | About the Court | Justices
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null

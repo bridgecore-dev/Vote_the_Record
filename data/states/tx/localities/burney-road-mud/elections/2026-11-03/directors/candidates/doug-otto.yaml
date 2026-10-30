@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: doug-otto
 name: DOUG OTTO
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

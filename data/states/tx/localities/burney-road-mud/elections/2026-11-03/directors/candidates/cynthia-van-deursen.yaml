@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: cynthia-van-deursen
 name: CYNTHIA VAN DEURSEN
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

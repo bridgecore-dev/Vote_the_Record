@@ -155,6 +155,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101067580, form COH, TEC report type E30DAYBEF; filer ID 00080350 (Wilson, Terry M. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-house-20/elections/2026-11-03/state-representative/candidates/terry-m-wilson#M-02
+  headline: Raised $482,908 and had $289,934 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $482,908.18 in total political contributions, $82,807.10 in total political expenditures, $289,934.46 in contributions on hand at the end of the period, and $95,910.90 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071564.PDF
+  source_title: 'Texas Ethics Commission: Wilson, Terry M. (The Honorable), campaign finance report 101071564 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 15561a4a670f76b1ee75925b5a8430bda32aef0ac86ca866f4bf6b96bf9df7ef
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071564, form COH, TEC report type E08DAYBEF; filer ID 00080350 (Wilson, Terry M. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals:

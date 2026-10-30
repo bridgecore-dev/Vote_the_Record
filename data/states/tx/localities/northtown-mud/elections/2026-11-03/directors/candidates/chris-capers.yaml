@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: chris-capers
 name: Chris Capers
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

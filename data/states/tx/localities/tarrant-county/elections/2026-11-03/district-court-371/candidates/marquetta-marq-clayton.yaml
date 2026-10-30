@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: marquetta-marq-clayton
 name: Marquetta 'MarQ' Clayton
-incumbent: null
+incumbent: false
 ballot_party: DEM
 records: []
 funding:
@@ -22,6 +22,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101069927, form JCOH, TEC report type E30DAYBEF; filer ID 00088003 (Clayton, MarQuetta). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/localities/tarrant-county/elections/2026-11-03/district-court-371/candidates/marquetta-marq-clayton#M-02
+  headline: Raised $1,065 and had $1,518 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 25, 2026: $1,065.49 in total political contributions, $3,222.49 in total political expenditures, $1,518.15 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072285.PDF
+  source_title: 'Texas Ethics Commission: Clayton, MarQuetta, campaign finance report 101072285 (filed Oct 25, 2026)'
+  source_kind: document
+  sha256: 258926d40f12272da0bef4d26048f482cc6e61cc0c7482297a2b86a1792fdada
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072285, form JCOH, TEC report type E08DAYBEF; filer ID 00088003 (Clayton, MarQuetta). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

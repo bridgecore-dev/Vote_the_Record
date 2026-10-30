@@ -21,3 +21,19 @@ sources:
   verification: unverified
   verified_on: null
   reviewer: null
+- id: tx/localities/city-of-lago-vista/elections/2026-11-03/council-place-2/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (City Council | Lago Vista, TX), checked on October 30, 2026, shows that Adam Benefield, a candidate in this race, currently holds this office. It does not list the other candidates as holding this office. It reads: "Adam Benefield | Council Place 2 | November 2026"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://lagovistatexas.gov/252/City-Council
+  source_title: City Council | Lago Vista, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null

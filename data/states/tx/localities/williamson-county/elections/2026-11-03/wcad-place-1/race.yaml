@@ -21,3 +21,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's comprehensive (all-contest) sample ballot, linked from its Elections page as "Composite Sample Ballot". Names and wording are from the PDF's text layer, kept exactly as printed (English text only), with one space restored where the text layer drops it ("UtilityDistrict"). The county's website blocks automated downloads, so the project owner downloaded the file; neither it nor the Wayback Machine could be reached for an archive copy on 2026-10-15.
+- id: tx/localities/williamson-county/elections/2026-11-03/wcad-place-1/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Board of Directors – Williamson CAD), checked on October 30, 2026, shows that Hope Hisle-Piper, a candidate in this race, currently holds this office. It does not list the other candidates as holding this office. It reads: "Board Members – Publicly Elected Catherine Totty Tax Assessor/Collector Term Expires 12/31/26 Bio Hope Hisle-Piper Place 1 Term Expires 12/31/26 Bio Mike Sanders Place 2 Term Expires 12/31/26 Bio Mason Moses Place 3 – Secretary Term Expires 12/31/26"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wcad.org/board-of-directors/
+  source_title: Board of Directors – Williamson CAD
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null

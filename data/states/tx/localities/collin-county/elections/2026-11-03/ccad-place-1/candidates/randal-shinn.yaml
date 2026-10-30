@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: randal-shinn
 name: Randal Shinn
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

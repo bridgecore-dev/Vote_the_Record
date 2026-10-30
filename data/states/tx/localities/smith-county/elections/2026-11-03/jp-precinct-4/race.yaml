@@ -22,3 +22,19 @@ sources:
   verified_on: null
   reviewer: null
   notes: 'The county''s "2026-11 Publication Sample Ballot" on its Current Sample Ballots page (https://www.smith-county.com/396/Current-Sample-Ballots), served from the county''s Laserfiche portal: one ballot carrying every contest on any Smith County ballot (per-precinct ballots are posted beside it). Names and wording are from the PDF''s text layer, kept as printed (English text only).'
+- id: tx/localities/smith-county/elections/2026-11-03/jp-precinct-4/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (JP Precinct 4 | Smith County, TX), checked on October 30, 2026, shows that Curtis Wulf, a candidate in this race, currently holds this office. It reads: "Contact Us Curtis Wulf Judge"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.smith-county.com/323/JP-Precinct-4
+  source_title: JP Precinct 4 | Smith County, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null

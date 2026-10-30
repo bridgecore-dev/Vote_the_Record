@@ -117,6 +117,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101062403, form CORCOH, TEC report type SEMIJUL; filer ID 00086370 (Bryant, John W. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-04; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-house-114/elections/2026-11-03/state-representative/candidates/john-bryant#M-02
+  headline: Raised $36,390 and had $72,791 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $36,390.00 in total political contributions, $24,377.81 in total political expenditures, $72,790.67 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071800.PDF
+  source_title: 'Texas Ethics Commission: Bryant, John W. (The Honorable), campaign finance report 101071800 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 551b24c244648fef1430710b11b8bb74b535eddca25aefb3b68e21a690e60758
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071800, form COH, TEC report type E08DAYBEF; filer ID 00086370 (Bryant, John W. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

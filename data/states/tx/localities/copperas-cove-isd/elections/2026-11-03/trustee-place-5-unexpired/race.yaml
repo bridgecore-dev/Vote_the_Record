@@ -22,3 +22,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: A scanned PDF with no text layer, read with OCR. Names and wording were checked across every ballot style that carries the contest and, where the contest is on few styles, against the page image; English text only.
+- id: tx/localities/copperas-cove-isd/elections/2026-11-03/trustee-place-5-unexpired/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Board Members – Board & Superintendent – Copperas Cove Independent School District), checked on October 30, 2026, lists "Mike Wilburn" as holding this office; none of the candidates in this race is listed as the current officeholder. It reads: "Mike Wilburn, Interim Board Member | Place 5 - Appointed to serve from June 2026 - Nov 2026. | During the June 8, 2026 Board Meeting, the Board of Trustees unanimously approved the appointment of former trustee Mike Wilburn to fill the vacant Place 5 seat, replacing former board member Heather Copland."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ccisd.com/apps/pages/index.jsp?uREC_ID=4477461&type=d&pREC_ID=2757636
+  source_title: Board Members – Board & Superintendent – Copperas Cove Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The holder was APPOINTED as interim and is not a candidate. The page adds that he "will serve until the upcoming trustee election in November 2026" and that the special election fills the rest of the term "through November 2028". The ccisd.com page loaded normally this time (no Cloudflare check).

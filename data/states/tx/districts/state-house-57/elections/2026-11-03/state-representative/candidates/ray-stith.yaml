@@ -22,6 +22,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101068457, form COH, TEC report type E30DAYBEF; filer ID 00090241 (Stith III, Raymond L.). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-house-57/elections/2026-11-03/state-representative/candidates/ray-stith#M-02
+  headline: Raised $348 and had $2,247 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 25, 2026: $347.66 in total political contributions, $4,171.24 in total political expenditures, $2,247.47 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071691.PDF
+  source_title: 'Texas Ethics Commission: Stith III, Raymond L., campaign finance report 101071691 (filed Oct 25, 2026)'
+  source_kind: document
+  sha256: b6852d6b9a1bd1d8ead1ff469bd074c3a12ef6b463559d98556dcdd2bcf21232
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071691, form COH, TEC report type E08DAYBEF; filer ID 00090241 (Stith III, Raymond L.). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals:

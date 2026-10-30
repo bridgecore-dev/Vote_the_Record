@@ -39,6 +39,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101070028, form JCOH, TEC report type E30DAYBEF; filer ID 00088174 (Taylor, Holly E. (Ms.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/statewide/elections/2026-11-03/cca-place-9/candidates/holly-taylor#M-03
+  headline: Raised $17,434 and had $32,738 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $17,433.54 in total political contributions, $54,633.67 in total political expenditures, $32,737.56 in contributions on hand at the end of the period, and $20,250.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072230.PDF
+  source_title: 'Texas Ethics Commission: Taylor, Holly E. (Ms.), campaign finance report 101072230 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: cf0ae05cc55ca3ecc50f6419a69374e9f547f6eec65e9901e420d0ac942a3fc0
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072230, form JCOH, TEC report type E08DAYBEF; filer ID 00088174 (Taylor, Holly E. (Ms.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

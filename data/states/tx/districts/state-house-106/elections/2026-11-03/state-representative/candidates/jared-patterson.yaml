@@ -155,6 +155,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101067950, form COH, TEC report type E30DAYBEF; filer ID 00069343 (Patterson, Jared L. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-07; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-house-106/elections/2026-11-03/state-representative/candidates/jared-patterson#M-02
+  headline: Raised $129,158 and had $1,072,896 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $129,157.91 in total political contributions, $189,289.64 in total political expenditures, $1,072,895.77 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071387.PDF
+  source_title: 'Texas Ethics Commission: Patterson, Jared L. (The Honorable), campaign finance report 101071387 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 302dbcaac1fb66fc2dfb5d4362d4440773ec6a193ae5d08d5d34f565b4c2bd4e
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071387, form COH, TEC report type E08DAYBEF; filer ID 00069343 (Patterson, Jared L. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals:

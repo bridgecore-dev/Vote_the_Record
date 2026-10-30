@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's comprehensive (all-contest) sample ballot, linked from its Elections page as "Composite Sample Ballot". Names and wording are from the PDF's text layer, kept exactly as printed (English text only), with one space restored where the text layer drops it ("UtilityDistrict"). The county's website blocks automated downloads, so the project owner downloaded the file; neither it nor the Wayback Machine could be reached for an archive copy on 2026-10-15.
+- id: tx/localities/city-of-jarrell/elections/2026-11-03/alderman-place-2/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Contacts - Jarrell), checked on October 30, 2026, lists "Lori Allen" as holding this office; none of the candidates in this race is listed as the current officeholder. It reads: "Lori Allen | Alderwoman Place 2"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cityofjarrell.com/contact
+  source_title: Contacts - Jarrell
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The current Place 2 holder (Lori Allen) is running for Mayor on this ballot, not for Place 2. The only Place 2 candidate is Tim Jordan.

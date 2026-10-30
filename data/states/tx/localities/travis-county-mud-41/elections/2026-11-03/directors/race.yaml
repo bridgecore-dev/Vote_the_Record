@@ -22,3 +22,20 @@ sources:
   verification: unverified
   verified_on: null
   reviewer: null
+- id: tx/localities/travis-county-mud-41/elections/2026-11-03/directors/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Travis Co MUD No. 41 | Nov 2026 Election | Order Calling Election), checked on October 30, 2026, lists the current members: Ashtyn Bogue, Lyndsey Mylius, Jason Nobbe, Kelly Schill and Jared Williams. Of the candidates in this race, Ashtyn Bogue, Jared Williams, Jason Nobbe, Kelly Schill and Lyndsey Mylius are among them. It reads: "The ballots used in the election for the permanent directors shall have the names of five temporary directors appointed by the Commission, or their replacements as follows: ( ) Ashtyn Bogue ( ) Lyndsey Mylius ( ) Jason Nobbe ( ) Kelly Schill ( ) Jared Williams"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://votetravis.gov/wp-content/uploads/TC-MUD-41_Order-of-Election.pdf
+  source_title: Travis Co MUD No. 41 | Nov 2026 Election | Order Calling Election
+  source_kind: document
+  sha256: e269d3e34d9fa32133589ef5fd80de53fa8afb6194f95bde7eb89ae49da28a67
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Newly created TCEQ district (confirmation election). Source is the district board's own order calling the election, posted by Travis County Elections (saved pages_c/vt_TC-MUD-41_Order-of-Election.pdf; PDF document). All five ballot candidates are the sitting temporary directors; no regular terms. TCEQ iWUD lists ASHTYN BOGUE as responsible party.

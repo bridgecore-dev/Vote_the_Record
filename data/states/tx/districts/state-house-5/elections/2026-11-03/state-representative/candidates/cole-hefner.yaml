@@ -155,6 +155,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101067663, form COH, TEC report type E30DAYBEF; filer ID 00080101 (Hefner, Joseph Cole (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-20; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-house-5/elections/2026-11-03/state-representative/candidates/cole-hefner#M-02
+  headline: Raised $55,750 and had $393,650 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $55,750.00 in total political contributions, $5,609.34 in total political expenditures, $393,649.50 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069686.PDF
+  source_title: 'Texas Ethics Commission: Hefner, Joseph Cole (The Honorable), campaign finance report 101069686 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: f2fbb0c69f973a13d884b1803b22ca2079e7c4ea467c9a2da711276ee227a700
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101069686, form COH, TEC report type E08DAYBEF; filer ID 00080101 (Hefner, Joseph Cole (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

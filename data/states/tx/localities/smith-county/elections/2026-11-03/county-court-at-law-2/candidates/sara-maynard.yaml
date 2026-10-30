@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: sara-maynard
 name: Sara Maynard
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
 funding:

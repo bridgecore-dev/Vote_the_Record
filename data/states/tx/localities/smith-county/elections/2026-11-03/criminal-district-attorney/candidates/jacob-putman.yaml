@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: jacob-putman
 name: Jacob Putman
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
 funding:

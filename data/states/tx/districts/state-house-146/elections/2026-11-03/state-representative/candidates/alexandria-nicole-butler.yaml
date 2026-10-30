@@ -23,6 +23,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101061025, form COH, TEC report type SEMIJUL; filer ID 00090404 (Butler, Alexandria Nicole (Mrs.)). Found in TEC's bulk campaign finance data (https://www.ethics.state.tx.us/data/search/cf/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-09-30; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-house-146/elections/2026-11-03/state-representative/candidates/alexandria-nicole-butler#M-02
+  headline: Raised $901 and had $0 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $901.09 in total political contributions, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no amount for total political expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072883.PDF
+  source_title: 'Texas Ethics Commission: Butler, Alexandria Nicole (Mrs.), campaign finance report 101072883 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: a9deecdbba76ecc6f6dc0b3208f563e728bd0109d06e92934c0fef7adf4ed6b4
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072883, form COH, TEC report type E08DAYBEF; filer ID 00090404 (Butler, Alexandria Nicole (Mrs.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

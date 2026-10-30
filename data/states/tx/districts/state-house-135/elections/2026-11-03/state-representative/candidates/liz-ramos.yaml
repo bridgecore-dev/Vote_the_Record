@@ -40,6 +40,23 @@ funding:
   verified_on: null
   reviewer: null
   notes: Report ID 101061799, form CORCOH, TEC report type SEMIJUL; filer ID 00089479 (Ramos, Lizbeth). Found in TEC's bulk campaign finance data (https://www.ethics.state.tx.us/data/search/cf/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-09-30; a correction filed later replaces the version it corrects.
+- id: tx/districts/state-house-135/elections/2026-11-03/state-representative/candidates/liz-ramos#M-02
+  headline: Raised $2,880 and had $12,617 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 24, 2026: $2,879.53 in total political contributions, $6,710.91 in total political expenditures, $12,617.28 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070197.PDF
+  source_title: 'Texas Ethics Commission: Ramos, Lizbeth, campaign finance report 101070197 (filed Oct 24, 2026)'
+  source_kind: document
+  sha256: dd6b53f3744080cb381f48de668c16f6a483c999f060de6e7ed3cc9175a7a4f2
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101070197, form COH, TEC report type E08DAYBEF; filer ID 00089479 (Ramos, Lizbeth). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-10-30; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals:

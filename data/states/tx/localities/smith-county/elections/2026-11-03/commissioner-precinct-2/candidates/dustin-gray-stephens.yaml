@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: dustin-gray-stephens
 name: Dustin Gray Stephens
-incumbent: null
+incumbent: false
 ballot_party: DEM
 records: []
 funding:

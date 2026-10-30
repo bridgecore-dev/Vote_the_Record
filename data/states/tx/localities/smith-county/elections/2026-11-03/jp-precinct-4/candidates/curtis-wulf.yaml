@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: curtis-wulf
 name: Curtis Wulf
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
 funding:

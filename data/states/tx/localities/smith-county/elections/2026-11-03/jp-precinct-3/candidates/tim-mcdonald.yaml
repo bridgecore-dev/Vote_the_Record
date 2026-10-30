@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: tim-mcdonald
 name: Tim McDonald
-incumbent: null
+incumbent: false
 ballot_party: REP
 records: []
 funding:

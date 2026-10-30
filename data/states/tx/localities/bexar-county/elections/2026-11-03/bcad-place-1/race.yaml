@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: Candidate names are from the PDF's text layer. Proposition wording was transcribed from the pages rendered as images and checked against the text layer; it is kept exactly as printed, including the ballot's own typos, with the outer quotation marks left off and only the English choices listed. The ballot prints parties as REP, DEM, LIB, GRN, and IND ("Independent Party" in its legend).
+- id: tx/localities/bexar-county/elections/2026-11-03/bcad-place-1/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Transparency – Board of Directors – Bexar Central Appraisal District), checked on October 30, 2026, lists "Naomi Miller" as holding this office; none of the candidates in this race is listed as the current officeholder. It reads: "Naomi Miller Place 1 Expires 12/31/26 Erika Hizel Place 2 Expires 12/31/26 Jon Melendez Place 3 Expires 12/31/26"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://bcad.org/board-meetings/
+  source_title: Transparency – Board of Directors – Bexar Central Appraisal District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Neither ballot candidate (Diana Arévalo, Susan Bayne) is listed as holder. Same page also posts "Vacant Seat on Bexar Central Appraisal District Board of Directors ... The term expires December 31, 2026" (application deadline May 29, 2026) without naming which seat; the member list does not mark anyone as appointed. The /board-of-directors/ URL returns 404; the list is on /board-meetings/.

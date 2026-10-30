@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: clay-white
 name: Clay White
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
 funding:

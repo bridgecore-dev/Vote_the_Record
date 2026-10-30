@@ -21,3 +21,20 @@ sources:
   verification: unverified
   verified_on: null
   reviewer: null
+- id: tx/localities/the-woodlands-township/elections/2026-11-03/position-1/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Chairman, Brad Bailey | The Woodlands Township, TX), checked on October 30, 2026, lists "Brad Bailey" as holding this office; none of the candidates in this race is listed as the current officeholder. It reads: "Chairman, Brad Bailey Chairman of the Board At-Large Position No. 1 ... TERM TO EXPIRE NOVEMBER 2026"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.thewoodlandstownship-tx.gov/Government/Board-of-Directors/Brad-Bailey
+  source_title: Chairman, Brad Bailey | The Woodlands Township, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Township's own director page ties the director to At-Large Position No. 1 and shows the term expiring November 2026 (saved pages_c/woodlands_Brad-Bailey.html). Ballot candidate Lee Wilson is not the current holder; Brad Bailey is not on the ballot. The Township elections page (saved pages_c/woodlands_elections.html) confirms positions 1-4 are on the November 2026 ballot.

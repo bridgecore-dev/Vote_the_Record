@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: troy-j-evanovich
 name: Troy J. Evanovich
-incumbent: null
+incumbent: false
 ballot_party: null
 records: []
 funding: []

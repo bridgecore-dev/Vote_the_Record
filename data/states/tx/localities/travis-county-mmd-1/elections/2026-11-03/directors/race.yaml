@@ -22,3 +22,20 @@ sources:
   verification: unverified
   verified_on: null
   reviewer: null
+- id: tx/localities/travis-county-mmd-1/elections/2026-11-03/directors/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Order Calling an Operation and Maintenance Tax Election ... and a Permanent Directors Election for Travis County Municipal Management District No. 1), checked on October 30, 2026, lists the current members: Mickey Jamail, Daniel Kavelman, Felicity Maxwell, Casey Paulson and Ryan Puzycki. Of the candidates in this race, Casey Paulson, Daniel Kavelman, Felicity Maxwell, Mickey Jamail and Ryan Puzycki are among them. It reads: "The ballots used in the election for the permanent directors shall have the names of five initial directors appointed by the Commission, or their replacements as follows: ( ) Mickey Jamail ( ) Daniel Kavelman ( ) Felicity Maxwell ( ) Casey Paulson ( ) Ryan Puzycki"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://votetravis.gov/wp-content/uploads/TC-MMD-1_Order-of-Election.pdf
+  source_title: Order Calling an Operation and Maintenance Tax Election ... and a Permanent Directors Election for Travis County Municipal Management District No. 1
+  source_kind: document
+  sha256: 77cd7bafc92477dc3e6f658f61f139e5e12362cc6d07e281654a7149c463f537
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Source is the district board's own order calling the election, posted by Travis County Elections (saved pages_c/vt_TC-MMD-1_Order-of-Election.pdf; PDF document). All five ballot candidates are the sitting initial (temporary) directors appointed by TCEQ; no regular terms. TCEQ iWUD lists CASEY PAULSON as responsible party.

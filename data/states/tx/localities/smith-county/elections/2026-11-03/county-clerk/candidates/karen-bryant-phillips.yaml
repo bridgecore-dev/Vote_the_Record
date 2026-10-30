@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: karen-bryant-phillips
 name: Karen Bryant Phillips
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
 funding:
