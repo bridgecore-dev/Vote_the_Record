@@ -4,7 +4,24 @@ name: Misty Odenweller
 incumbent: true
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/conroe-isd/elections/2026-11-03/trustee-position-3/candidates/misty-odenweller#M-01
+  headline: Raised $7,675 and had $5,026 on hand (Oct 1, 2026 - Oct 26, 2026)
+  statement: 'Campaign finance report covering Oct 1, 2026 - Oct 26, 2026, filed with Conroe ISD on Oct 26, 2026: $7,675.13 in total political contributions, $2,600.00 in total political expenditures, $5,026.11 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5052/Cisd/4528d7c0-5dd4-470a-93f4-740f5d18f81e/261026-Misty-Odenweller-Finance-Report_Redacted.pdf
+  source_title: 'Conroe ISD: campaign finance report, Misty A. Odenweller (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 5e839f62079b7e5bb58196c693012b4fa69f8dbfd00591d74fbb5a7711adac83
+  archive_url: null
+  event_date: '2026-10-26'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Conroe ISD (https://www.conroeisd.net/page/trustee-elections) as filed by "Misty A. Odenweller" ((no report-type box marked)); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Listed as ''Finance Report 10/26/26'' via short link https://aptg.co/5YXjdT. No report-type box marked. Small pen mark over the second digit of contributions (reads 7,675.13). Schedule subtotals A1 350.00 + A2 6,975.13.'
 endorsements: []
 running_on:
   policy_proposals: []

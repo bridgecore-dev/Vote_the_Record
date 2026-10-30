@@ -4,7 +4,24 @@ name: Alexandra Guio
 incumbent: false
 ballot_party: Democratic Party
 records: []
-funding: []
+funding:
+- id: tx/localities/dallas-county/elections/2026-11-03/county-criminal-appeals-1/candidates/alexandra-guio#M-01
+  headline: Raised $1,100 and had $1,742 on hand (Feb 22, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Feb 22, 2026 - Jun 30, 2026, filed with Dallas County: $1,100.00 in total political contributions, $3,885.95 in total political expenditures, $1,741.52 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dallascounty.org/department/countyclerk/courtorders/finrpts/Guio_Alexandra/Feb2026_Jun2026.pdf
+  source_title: 'Dallas County: campaign finance report, Guio, Alexandra'
+  source_kind: document
+  sha256: 26b8fb4d1fe42e3b3530eacde27cb8aba99eabbf6f94606664e30a70a16babe4
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted by Dallas County (https://www.dallascounty.org/government/campaign-finance/) as filed by "Guio, Alexandra" (July 15 (Form JC/OH)); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
   policy_proposals: []

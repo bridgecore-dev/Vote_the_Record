@@ -4,7 +4,24 @@ name: Brett Fagan
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/wylie-isd/elections/2026-11-03/trustee-place-2/candidates/brett-fagan#M-01
+  headline: Raised $50 (Sep 25, 2026 - Oct 26, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 26, 2026, filed with Wylie ISD: $50.00 in total political contributions and $332.98 in total political expenditures. Left out: contributions on hand at the end of the period, outstanding loans (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://resources.finalsite.net/images/v1793108814/wylieisdnet/xaggae3ycyyukev3uxut/BF_CFR_2_Redacted.pdf
+  source_title: 'Wylie ISD: campaign finance report, Stephen B. Fagan'
+  source_kind: document
+  sha256: f162b2c7679b42ae01b2ef606f6d8b65dbac2f07edc5df6612d0b6d82d2e3c23
+  archive_url: null
+  event_date: '2026-10-26'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Wylie ISD (https://www.wylieisd.net/our-district/school-board/board-elections) as filed by "Stephen B. Fagan" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Cash-on-hand and loan lines left blank.'
 endorsements: []
 running_on:
   policy_proposals: []

@@ -61,7 +61,24 @@ records:
   verified_on: null
   reviewer: null
   notes: 'The packet prints the August 19, 2025 minutes marked "DRAFT"; Council approved them on the consent agenda on September 2, 2025 (minutes of that meeting, in the September 16, 2025 packet: https://public.destinyhosted.com/scherdocs/2025/CC/20250916_867/AGENDApacket__09-16-25_0711_866.pdf). The minutes list each member''s vote (AYE/NAY). Paul Macaluso made the motion. Not yet archived on the Wayback Machine.'
-funding: []
+funding:
+- id: tx/localities/city-of-schertz/elections/2026-11-03/council-place-5/candidates/robert-m-westbrook#M-01
+  headline: Raised $3,750 and had $0 on hand (Sep 3, 2026 - Oct 3, 2026)
+  statement: 'Campaign finance report covering Sep 3, 2026 - Oct 3, 2026, filed with City of Schertz: $3,750.00 in total political contributions, $3,822.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://laserfiche.schertzweb.com/WebLink/ElectronicFile.aspx?docid=551045&dbid=1&repo=SCHERTZ
+  source_title: 'City of Schertz: campaign finance report, Robert M. Westbrook'
+  source_kind: document
+  sha256: 9111f900a3404cddeba0b84d56ad4b8c3e4c2c37c8deda0187d7d264ca213ff9
+  archive_url: null
+  event_date: '2026-10-03'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by City of Schertz (https://laserfiche.schertzweb.com/WebLink/Browse.aspx?id=550766&dbid=1&repo=SCHERTZ) as filed by "Robert M. Westbrook" (30th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Scanned handwritten form. 30th-day box is checked, but it was received 10/20/2026. Cash on hand and loans are written as slashed zeros, recorded as ''0''. No 8-day report posted.'
 endorsements: []
 running_on:
   policy_proposals: []

@@ -4,7 +4,24 @@ name: Alicia Markum
 incumbent: true
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/round-rock-isd/elections/2026-11-03/trustee-place-4/candidates/alicia-markum#M-01
+  headline: Raised $11 and had $1,032 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Round Rock ISD on Oct 5, 2026: $10.84 in total political contributions, $19.82 in total political expenditures, $1,032.34 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://drive.google.com/uc?export=download&id=1RhnMZYzX02DYi1zXwmZvsVbRZdfmI6_1
+  source_title: 'Round Rock ISD: campaign finance report, Markum, Alicia (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: efeec0b240c28bfcae111090a4d8c918657ff6ec9d58d6cac73079ca756b6fa1
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Round Rock ISD (https://drive.google.com/drive/folders/0ByDbfMafTyNdNzZGWnE0NnhzUFU?resourcekey=0-hsN_n-004Ve3QEoc4nQ0vg) as filed by "Markum, Alicia" (30th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: No 8-day report posted for this filer; newest posted is the 30-day.'
 endorsements: []
 running_on:
   policy_proposals: []

@@ -5,7 +5,24 @@ incumbent: false
 ballot_party: null
 research: pending
 records: []
-funding: []
+funding:
+- id: tx/localities/city-of-league-city/elections/2026-11-03/council-position-2/candidates/gregory-van-etten#M-01
+  headline: Raised $0 and had $0 on hand (report filed Oct 26, 2026)
+  statement: 'Campaign finance report filed with City of League City on Oct 26, 2026; the form gives the period as ? - 10/24/26: $0.00 in total political contributions, $0.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.leaguecitytx.gov/DocumentCenter/View/52840/Van-Etten-Gregory---Campaign-Finance-Report-10-26-26
+  source_title: 'City of League City: campaign finance report, Mr Gregory A Van Etten (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 4caf64895a5ca76689d80debf02bd73f8b258bc9a60a4a2f7d8315d3a5fca9d4
+  archive_url: null
+  event_date: '2026-10-26'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by City of League City (https://www.leaguecitytx.gov/2999/Campaign-Finance-Reports) as filed by "Mr Gregory A Van Etten" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Handwritten. Period start day unclear (reads 9/2?/2026). All totals written as ''0''. City posted this file without ''Redacted'' in its name.'
 endorsements: []
 running_on:
   policy_proposals: []

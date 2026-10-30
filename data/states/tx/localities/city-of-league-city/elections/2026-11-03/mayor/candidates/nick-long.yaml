@@ -61,7 +61,24 @@ records:
   verified_on: null
   reviewer: null
   notes: Official minutes posted on the city's Legistar site (https://leaguecity.legistar.com/). Not yet archived on the Wayback Machine.
-funding: []
+funding:
+- id: tx/localities/city-of-league-city/elections/2026-11-03/mayor/candidates/nick-long#M-01
+  headline: Raised $4,275 (Oct 1, 2026 - Oct 25, 2026)
+  statement: 'Campaign finance report covering Oct 1, 2026 - Oct 25, 2026, filed with City of League City on Oct 26, 2026: $4,275.00 in total political contributions and $60,986.00 in total political expenditures. Left out: contributions on hand at the end of the period, outstanding loans (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.leaguecitytx.gov/DocumentCenter/View/52835/Long-Nick---Campaign-Finance-Report-10-26-26_Redacted
+  source_title: 'City of League City: campaign finance report, Mr. Nicholas R (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: dd382616b4334dbf3d78ad8e4af447c9cd01222a15c94994c9e71a4717d474a3
+  archive_url: null
+  event_date: '2026-10-25'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by City of League City (https://www.leaguecitytx.gov/2999/Campaign-Finance-Reports) as filed by "Mr. Nicholas R" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Handwritten. Loans line 6 is a dash, but Schedule E (loans) subtotal on cover sheet pg 3 reads 13,399.33. Line 5 blank.'
 endorsements: []
 running_on:
   policy_proposals: []

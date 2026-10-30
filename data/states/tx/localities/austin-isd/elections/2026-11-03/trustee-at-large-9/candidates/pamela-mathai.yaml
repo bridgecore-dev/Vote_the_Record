@@ -4,7 +4,24 @@ name: Pamela Mathai
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/austin-isd/elections/2026-11-03/trustee-at-large-9/candidates/pamela-mathai#M-01
+  headline: Raised $14,235 and had $14,633 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Austin ISD on Oct 26, 2026: $14,235.00 in total political contributions, $22,945.20 in total political expenditures, $14,632.75 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.austinisd.org/sites/default/files/dept/board/docs/Finance%20Reports/CandidatesReports/Campaign-Finance-Report_Pamela_Mathai_20261026.pdf
+  source_title: 'Austin ISD: campaign finance report, Pamela Mathai (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 0be1a72ea29e8a29a14423d9a53d8a66dabba71bf38c73c6d557562bbfbd3ffb
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted by Austin ISD (https://www.austinisd.org/board/finance-reports/finance-reports-candidates) as filed by "Pamela Mathai" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
   policy_proposals:

@@ -4,7 +4,24 @@ name: Jimmy Counihan
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/austin-isd/elections/2026-11-03/trustee-district-7/candidates/jimmy-counihan#M-01
+  headline: Raised $580 and had $176 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Austin ISD on Oct 28, 2026: $579.56 in total political contributions, $897.60 in total political expenditures, $175.71 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.austinisd.org/sites/default/files/dept/board/docs/Finance%20Reports/CandidatesReports/Campaign-Finance-Report_Jimmy_Counihan_20261028.pdf
+  source_title: 'Austin ISD: campaign finance report, COUNIHAN, JIMMY (filed Oct 28, 2026)'
+  source_kind: document
+  sha256: a83c7359344f91d15ff2f1d9cc5a0d23f1c92fbccbe2277a00285357337f5733
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Austin ISD (https://www.austinisd.org/board/finance-reports/finance-reports-candidates) as filed by "COUNIHAN, JIMMY" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Period years written as ''26''.'
 endorsements: []
 running_on:
   policy_proposals: []

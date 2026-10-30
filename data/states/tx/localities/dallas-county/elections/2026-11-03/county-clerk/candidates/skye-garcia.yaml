@@ -4,7 +4,24 @@ name: Skye Garcia
 incumbent: false
 ballot_party: Republican Party
 records: []
-funding: []
+funding:
+- id: tx/localities/dallas-county/elections/2026-11-03/county-clerk/candidates/skye-garcia#M-01
+  headline: Raised $2,165 and had $839 on hand (Jul 1, 2026 - Sep 26, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 26, 2026, filed with Dallas County: $2,165.00 in total political contributions, $2,901.18 in total political expenditures, $838.80 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dallascounty.org/department/countyclerk/courtorders/finrpts/Garcia_Skye/Sep2026_30DayReport.pdf
+  source_title: 'Dallas County: campaign finance report, Garcia, Skye'
+  source_kind: document
+  sha256: 747c63e37749f9d9bf16f54e8ecce22a5296751a70d5002d406884a43b7c0195
+  archive_url: null
+  event_date: '2026-09-26'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Dallas County (https://www.dallascounty.org/government/campaign-finance/) as filed by "Garcia, Skye" (30th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 1). Not yet archived on the Wayback Machine. Reading note: PDF page order is cover sheet pg 2 first, then pg 1; period printed as 7/1/26 through 9/26/26'
 endorsements: []
 running_on:
   policy_proposals: []

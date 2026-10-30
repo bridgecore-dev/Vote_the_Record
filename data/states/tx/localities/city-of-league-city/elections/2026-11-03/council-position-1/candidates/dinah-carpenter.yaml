@@ -4,7 +4,24 @@ name: Dinah Carpenter
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/city-of-league-city/elections/2026-11-03/council-position-1/candidates/dinah-carpenter#M-01
+  headline: Raised $1,155 and had $946 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with City of League City on Oct 26, 2026: $1,154.77 in total political contributions, $2,775.67 in total political expenditures, $945.87 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.leaguecitytx.gov/DocumentCenter/View/52838/Carpenter-Dinah---Campaign-Finance-Report-10-26-26_Redacted
+  source_title: 'City of League City: campaign finance report, Dinah Carpenter (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: b001903c60ccfae4c9263eade908b093e59e09997b8649e2e17b0a42c78be971
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by City of League City (https://www.leaguecitytx.gov/2999/Campaign-Finance-Reports) as filed by "Dinah Carpenter" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Older C/OH layout (software-generated, version V4.1.0); totals at bottom of cover sheet pg 2.'
 endorsements: []
 running_on:
   policy_proposals: []

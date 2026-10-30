@@ -4,7 +4,24 @@ name: Vera Southwell
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/round-rock-isd/elections/2026-11-03/trustee-place-3/candidates/vera-southwell#M-01
+  headline: Raised $0 and had $9 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Round Rock ISD on Oct 26, 2026: $0.00 in total political contributions, $1,236.53 in total political expenditures, $9.30 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://drive.google.com/uc?export=download&id=1sfBIohBSeXLbRcHdBK1F-TT9nlaTZOCh
+  source_title: 'Round Rock ISD: campaign finance report, Ms. Vera V Southwell (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: d6bed9269e009ccb361342639830d112ebcde23ee534863874462fe3013cbaef
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Round Rock ISD (https://drive.google.com/drive/folders/1h9i-v_gBPNiWTL9ukZ4i6_bC_TObfTdv) as filed by "Ms. Vera V Southwell" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Scanned.'
 endorsements: []
 running_on:
   policy_proposals: []

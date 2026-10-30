@@ -99,7 +99,24 @@ records:
   verified_on: null
   reviewer: null
   notes: Minutes published on the district's BoardDocs site; the link opens the meeting, and the minutes are under its Minutes tab. Read on 2026-10-04 through BoardDocs' minutes view. Not yet archived on the Wayback Machine.
-funding: []
+funding:
+- id: tx/localities/austin-isd/elections/2026-11-03/trustee-district-1/candidates/candace-l-hunter#M-01
+  headline: Raised $6,404 and had $5,397 on hand (Oct 5, 2026 - Oct 23, 2026)
+  statement: 'Campaign finance report covering Oct 5, 2026 - Oct 23, 2026, filed with Austin ISD on Oct 28, 2026: $6,403.58 in total political contributions, $1,006.60 in total political expenditures, $5,396.98 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.austinisd.org/sites/default/files/dept/board/docs/Finance%20Reports/CandidatesReports/Campaign-Finance-Report_Candace_Hunter_20261028.pdf
+  source_title: 'Austin ISD: campaign finance report, Candace L Hunter (filed Oct 28, 2026)'
+  source_kind: document
+  sha256: 083c35d8de58ea3ba79206f895d9e2f6a7c8572b82a0747763cd9315cd71d0d7
+  archive_url: null
+  event_date: '2026-10-23'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Austin ISD (https://www.austinisd.org/board/finance-reports/finance-reports-candidates) as filed by "Candace L Hunter" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 4). Not yet archived on the Wayback Machine. Reading note: PDF page 1 is a Correction/Amendment Affidavit (COR-C/OH) for the 30-day report (original period 8/17/26-10/04/26); the 8-day report cover is PDF page 2, totals on PDF page 4. Handwritten values; period end written ''10/23/2026''. C/OH name field on the totals page left blank.'
 endorsements: []
 running_on:
   policy_proposals: []

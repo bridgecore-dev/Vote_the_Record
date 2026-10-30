@@ -4,7 +4,24 @@ name: Laura Marques
 incumbent: true
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/leander-isd/elections/2026-11-03/trustee-place-6/candidates/laura-marques#M-01
+  headline: Raised $5,382 and had $2,284 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Leander ISD on Oct 5, 2026: $5,381.58 in total political contributions, $3,814.49 in total political expenditures, $2,283.92 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://drive.google.com/uc?export=download&id=1PqLl2ZRLYOCF6iVi99ixGlTtPnhUepfF
+  source_title: 'Leander ISD: campaign finance report, Dr. Laura Marques (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: c5997ac4f47140436553acac22bd3489e7c46aa7f908da54d6ca120739ae5c81
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Leander ISD (https://drive.google.com/drive/folders/1ukwEhNq93txKh5YF6tUVj1u9LjZd0Atz) as filed by "Dr. Laura Marques" (30th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Scanned (no text layer); read from rendered image. No 8-day report posted for this filer; newest posted is the 30-day.'
 endorsements: []
 running_on:
   policy_proposals: []

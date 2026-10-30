@@ -4,7 +4,24 @@ name: Sasha Moreno
 incumbent: true
 ballot_party: Democratic Party
 records: []
-funding: []
+funding:
+- id: tx/localities/dallas-county/elections/2026-11-03/jp-precinct-4-place-2/candidates/sasha-moreno#M-01
+  headline: Raised $1,027 and had $730 on hand (Feb 22, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Feb 22, 2026 - Jun 30, 2026, filed with Dallas County: $1,026.55 in total political contributions, $5,363.13 in total political expenditures, and $730.19 in contributions on hand at the end of the period. Left out: outstanding loans (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dallascounty.org/department/countyclerk/courtorders/finrpts/Moreno_Sasha/Feb2026_Jun2026.pdf
+  source_title: 'Dallas County: campaign finance report, Moreno, Sasha'
+  source_kind: document
+  sha256: 959f1cb2be2b61862589c4a9586d73cb260aed680b7679c6d746378955fa99bd
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Dallas County (https://www.dallascounty.org/government/campaign-finance/) as filed by "Moreno, Sasha" (July 15); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: no election date or type filled in'
 endorsements: []
 running_on:
   policy_proposals: []

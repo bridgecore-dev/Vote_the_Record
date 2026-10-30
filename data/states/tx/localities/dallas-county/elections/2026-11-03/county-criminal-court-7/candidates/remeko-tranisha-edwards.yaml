@@ -4,7 +4,24 @@ name: Remeko Tranisha Edwards
 incumbent: true
 ballot_party: Democratic Party
 records: []
-funding: []
+funding:
+- id: tx/localities/dallas-county/elections/2026-11-03/county-criminal-court-7/candidates/remeko-tranisha-edwards#M-01
+  headline: Raised $10 and had $6,304 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, filed with Dallas County: $9.93 in total political contributions, $1,313.32 in total political expenditures, $6,303.70 in contributions on hand at the end of the period, and $8,335.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dallascounty.org/department/countyclerk/courtorders/finrpts/Edwards_Remeko_T/Jan2026_Jun2026.pdf
+  source_title: 'Dallas County: campaign finance report, Edwards, Remeko T'
+  source_kind: document
+  sha256: 2a9002074491ac5a18522576ead0e062e2991fa8a334ba45ea713668cbbfdc97
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Dallas County (https://www.dallascounty.org/government/campaign-finance/) as filed by "Edwards, Remeko T" (July 15 (Form JC/OH)); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: election type also marked Other: ''July Semiannual Report'''
 endorsements: []
 running_on:
   policy_proposals: []

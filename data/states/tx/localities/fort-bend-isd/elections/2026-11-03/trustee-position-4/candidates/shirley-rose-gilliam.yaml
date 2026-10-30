@@ -4,7 +4,24 @@ name: SHIRLEY ROSE-GILLIAM
 incumbent: true
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/fort-bend-isd/elections/2026-11-03/trustee-position-4/candidates/shirley-rose-gilliam#M-01
+  headline: Raised $3,610 (Oct 6, 2026 - Oct 27, 2026)
+  statement: 'Campaign finance report covering Oct 6, 2026 - Oct 27, 2026, filed with Fort Bend ISD: $3,610.00 in total political contributions and $1,597.57 in total political expenditures. Left out: contributions on hand at the end of the period, outstanding loans (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://resources.finalsite.net/images/v1793198294/fortbendisdcom/uztu3ugqa9xb4slt05kd/2026-10-27CampaignFinanceReport-8d-Rose-Gilliam.pdf
+  source_title: 'Fort Bend ISD: campaign finance report, Shirley Rose-Gilliam'
+  source_kind: document
+  sha256: 63e14be297338e2f710fe1c0572499d5444c32c9c1afb51e92faa6c16714a302
+  archive_url: null
+  event_date: '2026-10-27'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Fort Bend ISD (https://www.fortbendisd.gov/our-district/leadership/board-of-trustees/required-postings) as filed by "Shirley Rose-Gilliam" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Handwritten totals. Contributions written ''3610.'' with superscript ''00''. Cash-on-hand reads ''3610.'' followed by superscript cents that are not legible, so recorded as ''?''. Loans line left blank. Period start written as ''October/6/26''.'
 endorsements: []
 running_on:
   policy_proposals: []

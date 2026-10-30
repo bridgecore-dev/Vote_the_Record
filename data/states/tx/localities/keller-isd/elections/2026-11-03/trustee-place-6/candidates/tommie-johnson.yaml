@@ -4,7 +4,24 @@ name: Tommie Johnson
 incumbent: null
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/keller-isd/elections/2026-11-03/trustee-place-6/candidates/tommie-johnson#M-01
+  headline: Raised $400 and had $1,576 on hand (Oct 5, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Oct 5, 2026 - Oct 24, 2026, filed with Keller ISD: $400.00 in total political contributions, $3,471.93 in total political expenditures, $1,575.53 in contributions on hand at the end of the period, and $9,793.40 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://resources.finalsite.net/images/v1793041590/kellerisdnet/pu5h5yrheoulkhocld1n/FilingDocs_P6_Johnson.pdf
+  source_title: 'Keller ISD: campaign finance report, Tommie Johnson'
+  source_kind: document
+  sha256: 22204940512b21d805608e3d1d4ab85d0662704e8761d3516a334cdf48471506
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Keller ISD (https://www.kellerisd.net/board-of-trustees/elections) as filed by "Tommie Johnson" (8th day before election (Special election)); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 19). Not yet archived on the Wayback Machine. Reading note: Keller ISD posts one combined filing-documents PDF per candidate (CTA, earlier reports, etc.); values are from the 8-day-before-election report inside it. Handwritten totals.'
 endorsements: []
 running_on:
   policy_proposals: []

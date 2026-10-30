@@ -4,7 +4,24 @@ name: Meghna Roy
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/round-rock-isd/elections/2026-11-03/trustee-place-5/candidates/meghna-roy#M-01
+  headline: Raised $300 and had $2,713 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Round Rock ISD on Oct 26, 2026: $300.42 in total political contributions, $2,313.25 in total political expenditures, $2,712.95 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://drive.google.com/uc?export=download&id=11RmEFWq96CgTmm1VLGzqeQTd1lrx9JWW
+  source_title: 'Round Rock ISD: campaign finance report, MEGHNA ROY (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 7f2ae63ebd0bf1c66333aa080926a863f3acf7dacb42f895c453653cee2dd52c
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted by Round Rock ISD (https://drive.google.com/drive/folders/1h9i-v_gBPNiWTL9ukZ4i6_bC_TObfTdv) as filed by "MEGHNA ROY" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
   policy_proposals: []

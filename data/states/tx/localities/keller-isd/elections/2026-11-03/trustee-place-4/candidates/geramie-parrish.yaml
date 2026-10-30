@@ -4,7 +4,24 @@ name: Geramie Parrish
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/keller-isd/elections/2026-11-03/trustee-place-4/candidates/geramie-parrish#M-01
+  headline: Raised $4,567 and had $7,350 on hand (Sep 25, 2026 - Oct 25, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 25, 2026, filed with Keller ISD: $4,567.18 in total political contributions, $3,920.05 in total political expenditures, $7,350.00 in contributions on hand at the end of the period, and $3,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://resources.finalsite.net/images/v1793040774/kellerisdnet/pc1nq9vru3f4pobgbdmy/FilingDocs_P4_Parrish.pdf
+  source_title: 'Keller ISD: campaign finance report, Geramie Parrish'
+  source_kind: document
+  sha256: e619790deeaf1b9c34d90dbdf282dd0263e4ad01a7eff93bf2cac45041d67bf4
+  archive_url: null
+  event_date: '2026-10-25'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Keller ISD (https://www.kellerisd.net/board-of-trustees/elections) as filed by "Geramie Parrish" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 10). Not yet archived on the Wayback Machine. Reading note: Keller ISD posts one combined filing-documents PDF per candidate (CTA, earlier reports, etc.); values are from the 8-day-before-election report inside it. Handwritten totals.'
 endorsements: []
 running_on:
   policy_proposals: []

@@ -5,7 +5,24 @@ incumbent: false
 ballot_party: null
 research: pending
 records: []
-funding: []
+funding:
+- id: tx/localities/city-of-schertz/elections/2026-11-03/council-place-3/candidates/billie-langhus#M-01
+  headline: Raised $0 (Oct 5, 2026 - Oct 26, 2026)
+  statement: 'Campaign finance report covering Oct 5, 2026 - Oct 26, 2026, filed with City of Schertz on Oct 26, 2026: $0.00 in total political contributions. Left out: total political expenditures, contributions on hand at the end of the period, outstanding loans (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://laserfiche.schertzweb.com/WebLink/ElectronicFile.aspx?docid=551083&dbid=1&repo=SCHERTZ
+  source_title: 'City of Schertz: campaign finance report, Billie Langhus (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 208743fa05bdd0bbe9f47033ed64426ef5263a404c2e4f100ffabe6222c8805a
+  archive_url: null
+  event_date: '2026-10-26'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by City of Schertz (https://laserfiche.schertzweb.com/WebLink/Browse.aspx?id=550763&dbid=1&repo=SCHERTZ) as filed by "Billie Langhus" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Scanned handwritten form. Items 3-6 are written with a leading dash (''-0.00''), recorded as printed; item 2 is written ''0.00'' with a stroke before it. An earlier 10-05-2026 report is also posted.'
 endorsements: []
 running_on:
   policy_proposals: []

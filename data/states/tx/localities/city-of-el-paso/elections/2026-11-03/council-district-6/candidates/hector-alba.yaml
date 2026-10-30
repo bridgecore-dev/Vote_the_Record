@@ -4,7 +4,24 @@ name: Hector Alba
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/city-of-el-paso/elections/2026-11-03/council-district-6/candidates/hector-alba#M-01
+  headline: Raised $0 and had $0 on hand (Jul 1, 2026 - Oct 7, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Oct 7, 2026, filed with City of El Paso on Oct 7, 2026: $0.00 in total political contributions, $0.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www2.elpasotexas.gov/municipal-clerk/CCElectionDocs/campaign%20finance%20reports/2026-11-03/Hector-Alva-30day-00000080-R.pdf
+  source_title: 'City of El Paso: campaign finance report, Alva, Hector (filed Oct 7, 2026)'
+  source_kind: document
+  sha256: cdf916aaac182910eb8dfc1553de4024a837ed1aeb77c6baf1494ec1cd50731a
+  archive_url: null
+  event_date: '2026-10-07'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by City of El Paso (https://www2.elpasotexas.gov/municipal-clerk/CCElectionDocs/campaign%20finance%20reports/cfr-2026-11-03.php) as filed by "Alva, Hector" (30th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: No 8-day report posted for this candidate on the city page as of 2026-10-30, so this is the 30-day report. Name spelled ''Hector Alva'' on the city page and on the report (our list has ''Hector Alba''). The text layer also shows an X near the ''15th day after campaign treasurer appointment'' line; report type taken from the 30th-day box and the file name.'
 endorsements: []
 running_on:
   policy_proposals: []

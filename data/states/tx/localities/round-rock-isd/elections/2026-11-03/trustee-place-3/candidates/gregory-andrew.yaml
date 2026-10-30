@@ -4,7 +4,24 @@ name: Gregory Andrew
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/round-rock-isd/elections/2026-11-03/trustee-place-3/candidates/gregory-andrew#M-01
+  headline: Raised $0 and had $0 on hand (Oct 5, 2026 - Oct 26, 2026)
+  statement: 'Campaign finance report covering Oct 5, 2026 - Oct 26, 2026, filed with Round Rock ISD on Oct 26, 2026: $0.00 in total political contributions, $0.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://drive.google.com/uc?export=download&id=1_yJaPodKXIIs9BcTo-OWHGfkEO1RCZBQ
+  source_title: 'Round Rock ISD: campaign finance report, Mr Gregory G Andrew (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: b03b7cbf701c74c7819623a502a1f28e70d3c51f144cc62ee1a0e3c74b18c75f
+  archive_url: null
+  event_date: '2026-10-26'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Round Rock ISD (https://drive.google.com/drive/folders/1h9i-v_gBPNiWTL9ukZ4i6_bC_TObfTdv) as filed by "Mr Gregory G Andrew" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Scanned; period written 10/5/26 through 10/26/26.'
 endorsements: []
 running_on:
   policy_proposals: []

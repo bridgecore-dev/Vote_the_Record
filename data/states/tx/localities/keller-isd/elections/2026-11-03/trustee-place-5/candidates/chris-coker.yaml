@@ -4,7 +4,24 @@ name: Chris Coker
 incumbent: true
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/keller-isd/elections/2026-11-03/trustee-place-5/candidates/chris-coker#M-01
+  headline: Raised $8,030 (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Keller ISD: $8,030.00 in total political contributions, $26,101.81 in total political expenditures, and $20,000.00 in outstanding loans. Left out: contributions on hand at the end of the period (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://resources.finalsite.net/images/v1793138564/kellerisdnet/sjsxmmhnsez9hdthncle/FilingDocs_P5_Coker.pdf
+  source_title: 'Keller ISD: campaign finance report, Chris Coker'
+  source_kind: document
+  sha256: d380bf96e7db2d90bb7d0e08c78d398df107dbebe298343dada2a40bb1cf526d
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Keller ISD (https://www.kellerisd.net/board-of-trustees/elections) as filed by "Chris Coker" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 8). Not yet archived on the Wayback Machine. Reading note: Keller ISD posts one combined filing-documents PDF per candidate (CTA, earlier reports, etc.); values are from the 8-day-before-election report inside it. Cash-on-hand line left blank.'
 endorsements: []
 running_on:
   policy_proposals: []

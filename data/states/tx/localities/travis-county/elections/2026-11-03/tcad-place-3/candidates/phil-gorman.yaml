@@ -4,7 +4,24 @@ name: Phil Gorman
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/travis-county/elections/2026-11-03/tcad-place-3/candidates/phil-gorman#M-01
+  headline: Raised $0 (Sep 25, 2026 - Oct 26, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 26, 2026, filed with Travis Central Appraisal District on Oct 26, 2026: $0.00 in total political contributions and $0.00 in total political expenditures. Left out: contributions on hand at the end of the period, outstanding loans (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://traviscad.org/wp-content/uploads/8-Day-Phil-Gorman.10.26.2026.pdf
+  source_title: 'Travis Central Appraisal District: campaign finance report, Philip Gorman (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 8115a9ee4c40c16c6fe034bcf399cf1ce8ef9bd6ae4839d4bfb33705f40a621f
+  archive_url: null
+  event_date: '2026-10-26'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Travis Central Appraisal District (https://traviscad.org/financereports) as filed by "Philip Gorman" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Handwritten scan. Lines 1-4 written as 0; lines 5 (balance) and 6 (loans) blank. TCAD also lists a 30-day report dated 10/24/2026 (Gorman-30-day10.24.2026.pdf), not downloaded.'
 endorsements: []
 running_on:
   policy_proposals: []

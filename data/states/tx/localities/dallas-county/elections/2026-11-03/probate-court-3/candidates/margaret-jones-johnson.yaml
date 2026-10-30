@@ -4,7 +4,24 @@ name: Margaret Jones-Johnson
 incumbent: true
 ballot_party: Democratic Party
 records: []
-funding: []
+funding:
+- id: tx/localities/dallas-county/elections/2026-11-03/probate-court-3/candidates/margaret-jones-johnson#M-01
+  headline: Raised $0 and had $43,788 on hand (Jan 1, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1, 2026 - Jun 30, 2026, filed with Dallas County: $0.00 in total political contributions, $1,115.09 in total political expenditures, $43,788.25 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dallascounty.org/department/countyclerk/courtorders/finrpts/Jones_Johnson_Margaret/Jan2026_Jun2026.pdf
+  source_title: 'Dallas County: campaign finance report, Jones, Johnson Margaret'
+  source_kind: document
+  sha256: b3b70d3dafd417b00848e67d768663ab8783f3ec00666d0083700dbc56d8d56a
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Dallas County (https://www.dallascounty.org/government/campaign-finance/) as filed by "Jones, Johnson Margaret" (July 15 (Form JC/OH)); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: election box shows 03/03/2026 Primary'
 endorsements: []
 running_on:
   policy_proposals: []

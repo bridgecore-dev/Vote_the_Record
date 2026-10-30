@@ -4,7 +4,24 @@ name: Destinee Milton
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/conroe-isd/elections/2026-11-03/trustee-position-2/candidates/destinee-milton#M-01
+  headline: Raised $2,763 and had $3,709 on hand (Oct 6, 2026 - Oct 26, 2026)
+  statement: 'Campaign finance report covering Oct 6, 2026 - Oct 26, 2026, filed with Conroe ISD on Oct 26, 2026: $2,762.80 in total political contributions, $4,084.36 in total political expenditures, $3,709.27 in contributions on hand at the end of the period, and $330.78 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5052/Cisd/2a083e31-7200-4ff2-9bcd-3ad90c547e0f/261026-Destinee-Milton-Finance-Report_Redacted.pdf
+  source_title: 'Conroe ISD: campaign finance report, Ms. Destinee Milton (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 57227d2b23394fbb1fad642add1ad7601040090f7ccd68b888220cb2991699c9
+  archive_url: null
+  event_date: '2026-10-26'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Conroe ISD (https://www.conroeisd.net/page/trustee-elections) as filed by "Ms. Destinee Milton" (July 15 (box marked on form)); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Listed as ''Finance Report 10/26/26'' via short link https://aptg.co/JDDv2S. Form marks ''July 15'' but covers 10/6-10/26/26 and was received Oct 26. Period year handwritten ''26'' over print. Cover says 8 total pages; PDF has 18.'
 endorsements: []
 running_on:
   policy_proposals:

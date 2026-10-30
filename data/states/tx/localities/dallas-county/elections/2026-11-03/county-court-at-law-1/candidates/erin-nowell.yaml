@@ -4,7 +4,24 @@ name: Erin Nowell
 incumbent: false
 ballot_party: Democratic Party
 records: []
-funding: []
+funding:
+- id: tx/localities/dallas-county/elections/2026-11-03/county-court-at-law-1/candidates/erin-nowell#M-01
+  headline: Raised $58,450 (Feb 22, 2026 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Feb 22, 2026 - Jun 30, 2026, filed with Dallas County: $58,450.00 in total political contributions, $53,768.10 in total political expenditures, and $0.00 in outstanding loans. Left out: contributions on hand at the end of the period (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dallascounty.org/department/countyclerk/courtorders/finrpts/Nowell_Erin/Feb2026_Jun2026.pdf
+  source_title: 'Dallas County: campaign finance report, Nowell, Erin'
+  source_kind: document
+  sha256: adba8fdc7986e1aafbe8419786fd563dbd71e7f1ba9f6ae4f35ca28d7f6b26cf
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Dallas County (https://www.dallascounty.org/government/campaign-finance/) as filed by "Nowell, Erin" (July 15 (Form JC/OH)); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: handwritten totals; contributions and expenditures match typed schedule subtotals on cover sheet pg 3; cash-on-hand second digit is overwritten (reads 7?,517.31, possibly 73,517.31) so recorded as ?'
 endorsements: []
 running_on:
   policy_proposals: []

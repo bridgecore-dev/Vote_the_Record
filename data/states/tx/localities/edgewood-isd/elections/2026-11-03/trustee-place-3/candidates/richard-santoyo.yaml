@@ -42,7 +42,24 @@ records:
   verified_on: null
   reviewer: null
   notes: Approved minutes posted on the district's BoardBook page (https://meetings.boardbook.org/Public/Minutes/844?meeting=747916), with each trustee's vote under "Voting Detail." SB 1882 (2017) lets a district give an outside partner control of a campus. James Hernandez is listed as absent. Not yet archived on the Wayback Machine.
-funding: []
+funding:
+- id: tx/localities/edgewood-isd/elections/2026-11-03/trustee-place-3/candidates/richard-santoyo#M-01
+  headline: Raised $0 and had $0 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Edgewood ISD on Sep 29, 2026: $0.00 in total political contributions, $0.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/4254/Eisd/4c2e88eb-9507-40ac-8e03-fd0540c29c1a/30-Day-Finance-Report---R.-Santoyo.pdf?disposition=inline
+  source_title: 'Edgewood ISD: campaign finance report, Richard Santoyo (filed Sep 29, 2026)'
+  source_kind: document
+  sha256: 395361ea9e65648bdbdc6740a1ca789040d9bdf1d34414b132e2cc07c53fa31f
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Edgewood ISD (https://www.eisd.net/page/board-elections/) as filed by "Richard Santoyo" (30th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Scanned handwritten form. All six totals are written as slashed zeros, recorded as ''0''. No 8-day report posted.'
 endorsements: []
 running_on:
   policy_proposals: []

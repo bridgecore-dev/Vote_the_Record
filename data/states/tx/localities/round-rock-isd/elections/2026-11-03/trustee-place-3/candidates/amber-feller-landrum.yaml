@@ -4,7 +4,24 @@ name: Amber Feller Landrum
 incumbent: true
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/round-rock-isd/elections/2026-11-03/trustee-place-3/candidates/amber-feller-landrum#M-01
+  headline: Raised $263 and had $1,472 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Round Rock ISD on Oct 26, 2026: $263.47 in total political contributions, $0.00 in total political expenditures, and $1,471.90 in contributions on hand at the end of the period. Left out: outstanding loans (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://drive.google.com/uc?export=download&id=1rp4nw35quLd6pBrfT3Foc4l66OzIyBWA
+  source_title: 'Round Rock ISD: campaign finance report, Amber C Feller Landrum (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: b63e95a49a7cbbde3fec845665cd27de98fbccf75d284eabac3de75ba2be9212
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Round Rock ISD (https://drive.google.com/drive/folders/1h9i-v_gBPNiWTL9ukZ4i6_bC_TObfTdv) as filed by "Amber C Feller Landrum" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Photo scan; handwritten. Lines 1, 3 and 4 written as slashed-zero marks; loans line blank.'
 endorsements: []
 running_on:
   policy_proposals: []

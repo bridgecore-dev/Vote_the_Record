@@ -4,7 +4,24 @@ name: Chad Calvert
 incumbent: false
 ballot_party: Republican Party
 records: []
-funding: []
+funding:
+- id: tx/localities/dallas-county/elections/2026-11-03/constable-precinct-2/candidates/chad-calvert#M-01
+  headline: Raised $0 and had $0 on hand (Jan 15, 2026 - Jul 15, 2026)
+  statement: 'Campaign finance report covering Jan 15, 2026 - Jul 15, 2026, filed with Dallas County: $0.00 in total political contributions, $0.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dallascounty.org/department/countyclerk/courtorders/finrpts/Calvert_Chad/Jan2026_Jul2026.pdf
+  source_title: 'Dallas County: campaign finance report, Calvert, Chad'
+  source_kind: document
+  sha256: a959cbf142001f035f1ec720efcb4550ed55e6a302c86d19d9129441c9a2825f
+  archive_url: null
+  event_date: '2026-07-15'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Dallas County (https://www.dallascounty.org/government/campaign-finance/) as filed by "Calvert, Chad" (July 15); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: all totals are handwritten slashed zeros; period printed as 1/15/2026 through 7/15/2026'
 endorsements: []
 running_on:
   policy_proposals: []

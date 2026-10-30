@@ -4,7 +4,24 @@ name: Colin Hodges
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/keller-isd/elections/2026-11-03/trustee-place-5/candidates/colin-hodges#M-01
+  headline: Raised $1,450 and had $3,181 on hand (Oct 5, 2026 - Oct 25, 2026)
+  statement: 'Campaign finance report covering Oct 5, 2026 - Oct 25, 2026, filed with Keller ISD: $1,450.00 in total political contributions, $6,681.23 in total political expenditures, $3,181.45 in contributions on hand at the end of the period, and $2,500.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://resources.finalsite.net/images/v1793040760/kellerisdnet/ogpk7xj4ps1hjizmwv2z/FilingDocs_P5_Hodges.pdf
+  source_title: 'Keller ISD: campaign finance report, Colin Hodges'
+  source_kind: document
+  sha256: 98e277e2f153244433efed5423ce45020df537f69c9ce6bc32776016a82b7b3f
+  archive_url: null
+  event_date: '2026-10-25'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Keller ISD (https://www.kellerisd.net/board-of-trustees/elections) as filed by "Colin Hodges" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 24). Not yet archived on the Wayback Machine. Reading note: Keller ISD posts one combined filing-documents PDF per candidate (CTA, earlier reports, etc.); values are from the 8-day-before-election report inside it.'
 endorsements: []
 running_on:
   policy_proposals: []

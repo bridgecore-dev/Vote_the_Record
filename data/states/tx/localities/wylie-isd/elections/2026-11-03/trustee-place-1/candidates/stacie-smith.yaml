@@ -4,7 +4,24 @@ name: Stacie Smith
 incumbent: true
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/wylie-isd/elections/2026-11-03/trustee-place-1/candidates/stacie-smith#M-01
+  headline: Raised $0 and had $0 on hand (Jul 14, 2026 - Oct 9, 2026)
+  statement: 'Campaign finance report covering Jul 14, 2026 - Oct 9, 2026, filed with Wylie ISD on Oct 9, 2026: $0.00 in total political contributions, $0.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://resources.finalsite.net/images/v1791565001/wylieisdnet/wib9jcshg0zj5tfjujbk/SS_CampaignFinanceReport100926.pdf
+  source_title: 'Wylie ISD: campaign finance report, Stacie J Smith (filed Oct 9, 2026)'
+  source_kind: document
+  sha256: 7aac837887f35e0462d0025f9b89b688fb81309d24374513ce6df3982ff9a116
+  archive_url: null
+  event_date: '2026-10-09'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Wylie ISD (https://www.wylieisd.net/our-district/school-board/board-elections) as filed by "Stacie J Smith" (Final Report (Attach C/OH - FR)); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Final Report box checked (not an 8-day/30-day report); all totals handwritten 0. Only report posted for this candidate.'
 endorsements: []
 running_on:
   policy_proposals: []

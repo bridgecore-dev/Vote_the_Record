@@ -61,7 +61,24 @@ records:
   verified_on: null
   reviewer: null
   notes: Official minutes posted on the district's BoardBook page (https://meetings.boardbook.org/Public/Minutes/675?meeting=752975). The PDF is a scan with no text layer; the wording was read from the page images. Not yet archived on the Wayback Machine.
-funding: []
+funding:
+- id: tx/localities/del-valle-isd/elections/2026-11-03/trustee-district-7/candidates/susanna-ledesma-woody#M-01
+  headline: Raised $572 and had $245 on hand (Jul 1, 2026 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1, 2026 - Sep 24, 2026, filed with Del Valle ISD on Oct 5, 2026: $572.20 in total political contributions, $326.94 in total political expenditures, and $245.26 in contributions on hand at the end of the period. Left out: outstanding loans (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://drive.google.com/uc?export=download&id=1tdg3p5sa_LbfzLOGqT0lM427AyCxdE1o
+  source_title: 'Del Valle ISD: campaign finance report, Susanna M Woody (filed Oct 5, 2026)'
+  source_kind: document
+  sha256: 3d9bc9bb7ffb8676a9a70ca448f2ea150165d856e574d55c3e4c368020217017
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Del Valle ISD (https://www.dvisd.net/about-us/board-of-trustees/election-information/campaign-finance-reports) as filed by "Susanna M Woody" (30th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Del Valle ISD page lists only ''Reports Filed for October 5, 2026 Deadline'' (checked 2026-10-30); no 8-day reports posted yet. Scanned; read from rendered image. Handwritten totals; loans line blank.'
 endorsements: []
 running_on:
   policy_proposals: []

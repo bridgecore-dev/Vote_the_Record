@@ -4,7 +4,24 @@ name: Sam Satterwhite
 incumbent: false
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/wylie-isd/elections/2026-11-03/trustee-place-2/candidates/sam-satterwhite#M-01
+  headline: Raised $0 and had $0 on hand (Oct 3, 2026 - Oct 26, 2026)
+  statement: 'Campaign finance report covering Oct 3, 2026 - Oct 26, 2026, filed with Wylie ISD: $0.00 in total political contributions, $0.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://resources.finalsite.net/images/v1793289398/wylieisdnet/itxcqvt4upvykuav5opo/SSatterwhite_CFR2.pdf
+  source_title: 'Wylie ISD: campaign finance report, Samuel Satterwhite'
+  source_kind: document
+  sha256: f534c035c25730185bb4cf89af7303f2d79828df11a6d09627199968ad05587f
+  archive_url: null
+  event_date: '2026-10-26'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted by Wylie ISD (https://www.wylieisd.net/our-district/school-board/board-elections) as filed by "Samuel Satterwhite" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine.
 endorsements: []
 running_on:
   policy_proposals: []

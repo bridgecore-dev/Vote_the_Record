@@ -4,7 +4,24 @@ name: Aggie Gambino
 incumbent: true
 ballot_party: null
 records: []
-funding: []
+funding:
+- id: tx/localities/conroe-isd/elections/2026-11-03/trustee-position-1/candidates/aggie-gambino#M-01
+  headline: Raised $7,842 (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with Conroe ISD on Oct 26, 2026: $7,842.26 in total political contributions. Left out: total political expenditures, contributions on hand at the end of the period, outstanding loans (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5052/Cisd/b330c899-1437-4358-ac8c-e2bd95818baa/261026-Aggie-Gambino-Finance-Report_Redacted.pdf
+  source_title: 'Conroe ISD: campaign finance report, Mrs Agueda I (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: ffe5fb3ecef85b7740cfd45bccb248b4aa9e59498f1169a34942c126bad82418
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Conroe ISD (https://www.conroeisd.net/page/trustee-elections) as filed by "Mrs Agueda I" (30th day before election (box marked on form)); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: Listed as ''Finance Report 10/26/26'' via short link https://aptg.co/SbkYXd. Form marks ''30th day before election'' but covers 9/25-10/24 and was received Oct 26 (the 8-day report window). Lines 1, 3, 4, 5, 6 blank; Schedule A2 (in-kind) subtotal 7,842.26.'
 endorsements: []
 running_on:
   policy_proposals: []

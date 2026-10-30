@@ -61,7 +61,24 @@ records:
   verified_on: null
   reviewer: null
   notes: Official minutes posted on the city's Legistar site (https://leaguecity.legistar.com/). Not yet archived on the Wayback Machine.
-funding: []
+funding:
+- id: tx/localities/city-of-league-city/elections/2026-11-03/mayor/candidates/tom-crews#M-01
+  headline: Raised $596 and had $0 on hand (Sep 25, 2026 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25, 2026 - Oct 24, 2026, filed with City of League City on Oct 26, 2026: $596.15 in total political contributions and $0.00 in contributions on hand at the end of the period. Left out: total political expenditures, outstanding loans (blank or not legible on the report).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.leaguecitytx.gov/DocumentCenter/View/52836/Crews-Tom---Campaign-Finance-Report-10-26-26_Redacted
+  source_title: 'City of League City: campaign finance report, Mr Tommie M (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 30f78bfbef8fedc7104e67971df3aeb8f0931efb2fa74e238afb5ce6c8f6d407
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by City of League City (https://www.leaguecitytx.gov/2999/Campaign-Finance-Reports) as filed by "Mr Tommie M" (8th day before election); matched by name and office. This is the newest report found for the candidate as of 2026-10-30. Totals were read from the cover sheet (PDF page 3). Not yet archived on the Wayback Machine. Reading note: Handwritten. Cover sheet pg 2 is PDF page 3. Expenditures written ''4,18_56'' (one digit and decimal point unclear; 4,181.56 or 4,186.56 possible). Schedule F1 subtotal reads 3,455.75 and line 3 unitemized 61.46. Cash on hand is a slashed zero.'
 endorsements: []
 running_on:
   policy_proposals: []
