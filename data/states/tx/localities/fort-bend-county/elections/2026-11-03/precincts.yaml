@@ -18,6 +18,23 @@ sources:
   verified_on: null
   reviewer: null
   notes: 'Read on 2026-10-09; SHA-256 of the 64 downloaded ballot-style PDFs, in style order: ff77696040b0aeaefec079ed4f459daf9675a6bf2b3f2a0e51fe82ed5c7db154. Each precinct''s areas are the areas of the contests printed on its style(s); an area on only some of a split precinct''s styles is marked as depending on the address. No map overlay is used.'
+- id: tx/localities/fort-bend-county/elections/2026-11-03/precincts#S-02
+  headline: Precinct outlines for the address lookup
+  statement: The Texas Legislative Council's "2026 Primary Election Voting Precincts" shapefile, compiled from county election officials and the Secretary of State, gives the outlines of Fort Bend County's 201 precincts, the same precinct numbers as the county's ballot styles.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://data.capitol.texas.gov/dataset/d04c72b9-16c4-4ab2-8c6d-c666d41e04b7/resource/33ec5b30-ee4d-424f-9769-57b87cb5e311/download/precincts26p.zip
+  source_title: 'Texas Legislative Council: 2026 Primary Election Voting Precincts (precincts26p.zip)'
+  source_kind: document
+  sha256: 70a67743d55a218ba5ce6057816563376f61cf0bc531a77d1edc98644c310107
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-10-25'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Used only for outlines, simplified for the in-browser address lookup; each precinct's districts come from the ballot styles (precincts#S-01). Not yet archived on the Wayback Machine.
 everywhere: ["court-of-appeals-1", "court-of-appeals-14"]
 precincts:
   '1002': ["fort-bend-county/jp-1", "sboe-7", "state-house-85", "us-house-22"]

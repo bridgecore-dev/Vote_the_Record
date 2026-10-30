@@ -2,7 +2,7 @@
 name: Denton County ballot
 election_date: '2026-11-03'
 lookup_url: https://www.votedenton.gov/election-day-information/current-and-upcoming-election-information/
-complete: false
+complete: true
 sources:
 - id: tx/localities/denton-county/elections/2026-11-03/ballot#S-01
   headline: Every contest on the sample ballot
