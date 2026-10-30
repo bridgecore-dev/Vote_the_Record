@@ -2,7 +2,7 @@
 name: Bexar County ballot
 election_date: '2026-11-03'
 lookup_url: https://elections.bexar.gov/precinctfinder
-complete: false
+complete: true
 sources:
 - id: tx/localities/bexar-county/elections/2026-11-03/ballot#S-01
   headline: Every contest on the sample ballot

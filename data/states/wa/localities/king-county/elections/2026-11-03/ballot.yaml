@@ -2,7 +2,7 @@
 name: King County ballot
 election_date: '2026-11-03'
 lookup_url: https://info.kingcounty.gov/kcelections/vote/myvoterinfo.aspx
-complete: false
+complete: true
 unmapped:
 - king-county-cemetery-district-1
 sources:
