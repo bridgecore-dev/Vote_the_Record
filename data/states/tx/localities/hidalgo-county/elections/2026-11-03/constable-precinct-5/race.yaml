@@ -1,0 +1,24 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Constable, Precinct 5
+office_type: constable
+election_date: '2026-11-03'
+detail: basic
+area: hidalgo-county/jp-5
+sources:
+- id: tx/localities/hidalgo-county/elections/2026-11-03/constable-precinct-5/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Hidalgo County Elections Department''s sample ballot for the November 3, 2026 General and Local Entities Elections lists "Constable, Precinct No. 5" on page 2, with these candidates: Daniel ''Danny'' Marichalar (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hidalgocounty.us/DocumentCenter/View/73257
+  source_title: 'Hidalgo County Elections Department: Hidalgo County Elections Department: Sample Ballot, Ballot Style 12, November 3, 2026 General and Local Entities Elections (page 2)'
+  source_kind: document
+  sha256: a4fe95e055510e91738d3cd4d46c82dcf605dfdf9bc560efc726f6269dc6637c
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of 64 ballot-style sample ballots on the county's 2026 General Election sample ballot page (https://www.hidalgocounty.us/3522/Sample-Ballots-2026-General-Election); the county's Ballot Style Legend gives the precincts for each style. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).

@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: City of Freeport, Proposition A
+election_date: '2026-11-03'
+kind: other
+ballot_text: Shall Jerry Cain be removed from the office of Mayor?
+choices:
+- 'YES'
+- 'NO'
+explained: []
+sources:
+- id: tx/localities/city-of-freeport/elections/2026-11-03/proposition-a/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Brazoria County Clerk''s sample ballot for the November 3, 2026 General & Joint Election prints "City of Freeport, Proposition A" on page 2 with the choices YES and NO and this English wording: "Shall Jerry Cain be removed from the office of Mayor?"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.brazoriacountyclerktx.gov/home/showpublisheddocument/33468/639251690418530000
+  source_title: 'Brazoria County Clerk: Brazoria County Clerk: Sample Ballot, Precinct 7-FPT, November 3, 2026 General & Joint Election (page 2)'
+  source_kind: document
+  sha256: 11436bfb726910ed5e6f7f702cd387303e34aa7b651cbe9fa69e35eab98f4876
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of 89 precinct sample ballots in the Brazoria County Clerk's sample ballot folder (https://www.brazoriacountyclerktx.gov/departments/elections/sample-ballots/-folder-1389). Saved in the owner's browser on November 2, 2026 (the clerk's site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).

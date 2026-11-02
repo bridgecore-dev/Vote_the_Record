@@ -1,0 +1,25 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: London ISD Trustees, At Large (4 seats)
+office_type: school-trustee
+election_date: '2026-11-03'
+detail: basic
+seats: 4
+notes: 'The ballot says: "Vote for None, One, Two, Three or Four".'
+sources:
+- id: tx/localities/london-isd/elections/2026-11-03/trustees-at-large/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Nueces County Clerk''s sample ballot for the November 3, 2026 General Election lists "London Independent School District, Board of Trustees, At-Large" on page 2, with these candidates: Blake Chapman; Scott Frazier; Jessica Gutierrez; Cara Fines; Maggie Freeborn.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct
+  source_title: 'Nueces County Clerk: Nueces County Clerk: Sample Ballot, Precinct 16-04, November 3, 2026 General Election (page 2)'
+  source_kind: document
+  sha256: e8b674a4b981de4bb47ae9502f6a90e03a4fb2a7d006078d402fad2e793acb8a
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the county clerk's precinct sample ballots linked from its November 3, 2026 sample ballot page (https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct). Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only). The PDF's own link was not recorded when it was saved, so the page is cited; the file is identified by its SHA-256 hash.

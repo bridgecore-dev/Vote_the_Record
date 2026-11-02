@@ -1,0 +1,23 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: State Representative, District 40
+office_type: state-representative
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/districts/state-house-40/elections/2026-11-03/state-representative/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Hidalgo County Elections Department''s sample ballot for the November 3, 2026 General and Local Entities Elections lists "State Representative, District 40" on page 1, with these candidates: Celeste Cabrera- Huff (REP); Terry Canales (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hidalgocounty.us/DocumentCenter/View/73265
+  source_title: 'Hidalgo County Elections Department: Hidalgo County Elections Department: Sample Ballot, Ballot Style 20, November 3, 2026 General and Local Entities Elections (page 1)'
+  source_kind: document
+  sha256: 245c2239f3fb8d72f11b16dc5837be7a5216a94d49546e1a3ca960f2216a943c
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of 64 ballot-style sample ballots on the county's 2026 General Election sample ballot page (https://www.hidalgocounty.us/3522/Sample-Ballots-2026-General-Election); the county's Ballot Style Legend gives the precincts for each style. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).

@@ -1,0 +1,23 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Robstown ISD Trustee, Place 6
+office_type: school-trustee
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/robstown-isd/elections/2026-11-03/trustee-place-6/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Nueces County Clerk''s sample ballot for the November 3, 2026 General Election lists "Robstown Independent School District Board of Trustees, School Trustee, Place 6" on page 2, with these candidates: Lori Ann Flores-Garza.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct
+  source_title: 'Nueces County Clerk: Nueces County Clerk: Sample Ballot, Precinct 12-04, November 3, 2026 General Election (page 2)'
+  source_kind: document
+  sha256: 8875c8182d9f2eaa49bc2bf2a54e620291c5b5eb6af9ca3f90af1ab3eeb828d2
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the county clerk's precinct sample ballots linked from its November 3, 2026 sample ballot page (https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct). Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only). The PDF's own link was not recorded when it was saved, so the page is cited; the file is identified by its SHA-256 hash.

@@ -1,0 +1,126 @@
+# Contests on this ballot, in ballot order. complete: false until every contest is added.
+name: Hidalgo County ballot
+election_date: '2026-11-03'
+lookup_url: https://www.hidalgocounty.us/3522/Sample-Ballots-2026-General-Election
+complete: true
+sources:
+- id: tx/localities/hidalgo-county/elections/2026-11-03/ballot#S-01
+  headline: Every contest on the sample ballot
+  statement: The Hidalgo County Elections Department's sample ballot for the November 3, 2026 General and Local Entities Elections lists every contest on this ballot.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hidalgocounty.us/DocumentCenter/View/73246
+  source_title: 'Hidalgo County Elections Department: Hidalgo County Elections Department: Sample Ballot, Ballot Style 1, November 3, 2026 General and Local Entities Elections'
+  source_kind: document
+  sha256: 7ea8d4ce04eb36eb62d9ef08e9bf2355383da9cf43492f9a486dc7e6ac8b2d43
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of 64 ballot-style sample ballots on the county's 2026 General Election sample ballot page (https://www.hidalgocounty.us/3522/Sample-Ballots-2026-General-Election); the county's Ballot Style Legend gives the precincts for each style. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only). The source cited is ballot style 1; each contest names the style it was read from.
+contests:
+- tx/statewide/elections/2026-11-03/us-senate
+- tx/districts/us-house-28/elections/2026-11-03/us-representative
+- tx/districts/us-house-15/elections/2026-11-03/us-representative
+- tx/statewide/elections/2026-11-03/governor
+- tx/statewide/elections/2026-11-03/lieutenant-governor
+- tx/statewide/elections/2026-11-03/attorney-general
+- tx/statewide/elections/2026-11-03/comptroller
+- tx/statewide/elections/2026-11-03/land-commissioner
+- tx/statewide/elections/2026-11-03/agriculture-commissioner
+- tx/statewide/elections/2026-11-03/railroad-commissioner
+- tx/statewide/elections/2026-11-03/supreme-court-chief-justice
+- tx/statewide/elections/2026-11-03/supreme-court-place-2
+- tx/statewide/elections/2026-11-03/supreme-court-place-7
+- tx/statewide/elections/2026-11-03/supreme-court-place-8
+- tx/statewide/elections/2026-11-03/cca-place-3
+- tx/statewide/elections/2026-11-03/cca-place-4
+- tx/statewide/elections/2026-11-03/cca-place-9
+- tx/districts/sboe-2/elections/2026-11-03/sboe-member
+- tx/districts/state-house-36/elections/2026-11-03/state-representative
+- tx/districts/state-house-35/elections/2026-11-03/state-representative
+- tx/districts/state-house-41/elections/2026-11-03/state-representative
+- tx/districts/state-house-39/elections/2026-11-03/state-representative
+- tx/districts/state-house-40/elections/2026-11-03/state-representative
+- tx/districts/court-of-appeals-15/elections/2026-11-03/chief-justice
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-2
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-3
+- tx/districts/court-of-appeals-13/elections/2026-11-03/place-6
+- tx/localities/hidalgo-county/elections/2026-11-03/district-court-206
+- tx/localities/hidalgo-county/elections/2026-11-03/district-court-275
+- tx/localities/hidalgo-county/elections/2026-11-03/district-court-370
+- tx/localities/hidalgo-county/elections/2026-11-03/criminal-district-attorney
+- tx/localities/hidalgo-county/elections/2026-11-03/county-judge
+- tx/localities/hidalgo-county/elections/2026-11-03/county-court-at-law-1
+- tx/localities/hidalgo-county/elections/2026-11-03/county-court-at-law-2
+- tx/localities/hidalgo-county/elections/2026-11-03/county-court-at-law-4
+- tx/localities/hidalgo-county/elections/2026-11-03/county-court-at-law-5
+- tx/localities/hidalgo-county/elections/2026-11-03/county-court-at-law-6
+- tx/localities/hidalgo-county/elections/2026-11-03/county-court-at-law-8
+- tx/localities/hidalgo-county/elections/2026-11-03/probate-court-1
+- tx/localities/hidalgo-county/elections/2026-11-03/probate-court-2
+- tx/localities/hidalgo-county/elections/2026-11-03/district-clerk
+- tx/localities/hidalgo-county/elections/2026-11-03/county-clerk
+- tx/localities/hidalgo-county/elections/2026-11-03/county-treasurer
+- tx/localities/hidalgo-county/elections/2026-11-03/commissioner-precinct-2
+- tx/localities/hidalgo-county/elections/2026-11-03/jp-precinct-2-place-1
+- tx/localities/hidalgo-county/elections/2026-11-03/jp-precinct-2-place-2
+- tx/localities/hidalgo-county/elections/2026-11-03/jp-precinct-3-place-2
+- tx/localities/city-of-mission/elections/2026-11-03/mayor
+- tx/localities/city-of-mission/elections/2026-11-03/council-place-1
+- tx/localities/city-of-mission/elections/2026-11-03/council-place-3
+- tx/localities/city-of-mission/elections/2026-11-03/council-place-2-unexpired
+- tx/localities/hidalgo-county/elections/2026-11-03/commissioner-precinct-4
+- tx/localities/hidalgo-county/elections/2026-11-03/jp-precinct-4-place-2
+- tx/localities/donna-isd/elections/2026-11-03/trustee-place-5
+- tx/localities/donna-isd/elections/2026-11-03/trustee-place-6
+- tx/localities/donna-isd/elections/2026-11-03/trustee-place-7
+- tx/localities/pharr-san-juan-alamo-isd/elections/2026-11-03/trustee-place-1
+- tx/localities/pharr-san-juan-alamo-isd/elections/2026-11-03/trustee-place-2
+- tx/localities/pharr-san-juan-alamo-isd/elections/2026-11-03/trustee-place-3
+- tx/localities/south-texas-isd/elections/2026-11-03/trustee-hidalgo-commissioner-precinct-2
+- tx/localities/hidalgo-isd/elections/2026-11-03/trustee-place-3
+- tx/localities/hidalgo-isd/elections/2026-11-03/trustee-place-4
+- tx/localities/hidalgo-isd/elections/2026-11-03/trustee-place-5
+- tx/localities/la-joya-isd/elections/2026-11-03/trustee-place-1
+- tx/localities/la-joya-isd/elections/2026-11-03/trustee-place-2
+- tx/localities/la-joya-isd/elections/2026-11-03/trustee-place-3
+- tx/localities/hidalgo-county/elections/2026-11-03/jp-precinct-1-place-2
+- tx/localities/city-of-progreso/elections/2026-11-03/mayor
+- tx/localities/city-of-progreso/elections/2026-11-03/council-place-4
+- tx/localities/city-of-progreso/elections/2026-11-03/council-place-5
+- tx/localities/city-of-progreso/elections/2026-11-03/council-place-6
+- tx/localities/city-of-progreso/elections/2026-11-03/proposition-a
+- tx/localities/city-of-weslaco/elections/2026-11-03/commissioner-at-large
+- tx/localities/city-of-weslaco/elections/2026-11-03/commissioner-district-4
+- tx/localities/weslaco-isd/elections/2026-11-03/trustee-place-4
+- tx/localities/weslaco-isd/elections/2026-11-03/trustee-place-5
+- tx/localities/weslaco-isd/elections/2026-11-03/trustee-place-6
+- tx/localities/weslaco-isd/elections/2026-11-03/trustee-place-7
+- tx/localities/hidalgo-county/elections/2026-11-03/jp-precinct-5-place-1
+- tx/localities/hidalgo-county/elections/2026-11-03/constable-precinct-5
+- tx/localities/city-of-edcouch/elections/2026-11-03/alderman-place-5
+- tx/localities/edcouch-elsa-isd/elections/2026-11-03/trustee-place-1
+- tx/localities/edcouch-elsa-isd/elections/2026-11-03/trustee-place-4
+- tx/localities/edcouch-elsa-isd/elections/2026-11-03/trustee-place-5
+- tx/localities/edinburg-cisd/elections/2026-11-03/trustee-place-1
+- tx/localities/edinburg-cisd/elections/2026-11-03/trustee-place-2
+- tx/localities/edinburg-cisd/elections/2026-11-03/trustee-place-3
+- tx/localities/edinburg-cisd/elections/2026-11-03/trustee-place-5
+- tx/localities/la-villa-isd/elections/2026-11-03/trustee-place-5
+- tx/localities/la-villa-isd/elections/2026-11-03/trustee-place-6
+- tx/localities/la-villa-isd/elections/2026-11-03/trustee-place-7
+- tx/localities/monte-alto-isd/elections/2026-11-03/trustee-place-4
+- tx/localities/monte-alto-isd/elections/2026-11-03/trustee-place-5
+- tx/localities/monte-alto-isd/elections/2026-11-03/trustee-place-6
+- tx/localities/monte-alto-isd/elections/2026-11-03/trustee-place-7
+- tx/localities/mercedes-isd/elections/2026-11-03/trustee-place-1
+- tx/localities/mercedes-isd/elections/2026-11-03/trustee-place-2
+- tx/localities/mercedes-isd/elections/2026-11-03/trustee-place-3
+- tx/localities/mercedes-isd/elections/2026-11-03/trustee-place-4
+- tx/localities/hidalgo-county-appraisal-district/elections/2026-11-03/director-place-1
+- tx/localities/hidalgo-county-appraisal-district/elections/2026-11-03/director-place-2
+- tx/localities/hidalgo-county-appraisal-district/elections/2026-11-03/director-place-3

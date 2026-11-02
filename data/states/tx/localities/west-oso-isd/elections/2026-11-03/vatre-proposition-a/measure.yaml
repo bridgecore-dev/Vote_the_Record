@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: West Oso ISD, VATRE Proposition A
+election_date: '2026-11-03'
+kind: tax-rate
+ballot_text: THIS IS A TAX INCREASE Ratifying the ad valorem tax rate of $1.2169 in West Oso Independent School District for the current year, a rate that will result in an increase of 8.95 percent in maintenance and operations tax revenue for the district for the current year as compared to the preceding year, which is an additional $2,039,356.
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/west-oso-isd/elections/2026-11-03/vatre-proposition-a/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Nueces County Clerk''s sample ballot for the November 3, 2026 General Election prints "West Oso ISD, VATRE Proposition A" on page 3 with the choices FOR and AGAINST and this English wording: "THIS IS A TAX INCREASE Ratifying the ad valorem tax rate of $1.2169 in West Oso Independent School District for the current year, a rate that will result in an increase of 8.95 percent in maintenance and operations tax revenue for the district for the current year as compared to the preceding year, which is an additional $2,039,356."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.nuecesco.com/home/showpublisheddocument/34315/639263761638670000
+  source_title: 'Nueces County Clerk: Nueces County Clerk: Sample Ballot, Precinct 15-03, November 3, 2026 General Election (page 3)'
+  source_kind: document
+  sha256: 5971d76dfc9cf28c7bc03fb5376e7412df2bca306f3131eeff50e71b7ea5c610
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the county clerk's precinct sample ballots linked from its November 3, 2026 sample ballot page (https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct). Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only). The county links one PDF for both precincts 15-03 and 15-04.

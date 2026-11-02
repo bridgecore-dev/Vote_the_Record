@@ -1,0 +1,24 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: County Commissioner, Precinct 4
+office_type: county-commissioner
+election_date: '2026-11-03'
+detail: basic
+area: lubbock-county/commissioner-4
+sources:
+- id: tx/localities/lubbock-county/elections/2026-11-03/commissioner-precinct-4/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Lubbock County Elections'' sample ballot for the November 2026 Joint General and Special Election lists "County Commissioner, Precinct No. 4" on page 3, with these candidates: Jordan Rackler (REP).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://votelubbock.gov/wp-content/uploads/3_044.pdf
+  source_title: 'Lubbock County Elections: Lubbock County Elections: Sample Ballot, Ballot Style 3, November 2026 Joint General and Special Election (page 3)'
+  source_kind: document
+  sha256: 63f063fc5f9954b8609bfb316f57c101e5ee171f6c6de38184a2243993090c89
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of 13 ballot-style sample ballots posted on the county's sample ballot page (https://votelubbock.gov/november-2026-general-and-special-election-sample-ballots/), each listing the precincts it covers. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).

@@ -1,0 +1,113 @@
+# Contests on this ballot, in ballot order. complete: false until every contest is added.
+name: Hays County ballot
+election_date: '2026-11-03'
+lookup_url: https://www.hayscountytx.gov/873/November-3-2026-General-Election
+complete: true
+sources:
+- id: tx/localities/hays-county/elections/2026-11-03/ballot#S-01
+  headline: Every contest on the sample ballot
+  statement: The Hays County Elections' sample ballot for the November 3, 2026 General Election lists every contest on this ballot.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hayscountytx.gov/DocumentCenter/View/5305/Hays-County-Combined-Sample-Ballot-11x17
+  source_title: 'Hays County Elections: Hays County Combined Sample Ballot, November 3, 2026 General Election'
+  source_kind: document
+  sha256: d23c6ef5c616cd8f526a5ee448f7104d04723187d7148faad8287f993368d5d1
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Linked from the county's November 3, 2026 General Election page (https://www.hayscountytx.gov/873/November-3-2026-General-Election); it says it contains all contests and propositions on any Hays County ballot. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).
+contests:
+- tx/statewide/elections/2026-11-03/us-senate
+- tx/districts/us-house-21/elections/2026-11-03/us-representative
+- tx/districts/us-house-27/elections/2026-11-03/us-representative
+- tx/statewide/elections/2026-11-03/governor
+- tx/statewide/elections/2026-11-03/lieutenant-governor
+- tx/statewide/elections/2026-11-03/attorney-general
+- tx/statewide/elections/2026-11-03/comptroller
+- tx/statewide/elections/2026-11-03/land-commissioner
+- tx/statewide/elections/2026-11-03/agriculture-commissioner
+- tx/statewide/elections/2026-11-03/railroad-commissioner
+- tx/statewide/elections/2026-11-03/supreme-court-chief-justice
+- tx/statewide/elections/2026-11-03/supreme-court-place-2
+- tx/statewide/elections/2026-11-03/supreme-court-place-7
+- tx/statewide/elections/2026-11-03/supreme-court-place-8
+- tx/statewide/elections/2026-11-03/cca-place-3
+- tx/statewide/elections/2026-11-03/cca-place-4
+- tx/statewide/elections/2026-11-03/cca-place-9
+- tx/districts/sboe-5/elections/2026-11-03/sboe-member
+- tx/districts/state-senate-21/elections/2026-11-03/state-senator
+- tx/districts/state-house-45/elections/2026-11-03/state-representative
+- tx/districts/state-house-73/elections/2026-11-03/state-representative
+- tx/districts/court-of-appeals-15/elections/2026-11-03/chief-justice
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-2
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-3
+- tx/districts/court-of-appeals-3/elections/2026-11-03/chief-justice
+- tx/localities/hays-county/elections/2026-11-03/district-court-207
+- tx/localities/hays-county/elections/2026-11-03/district-court-274
+- tx/localities/hays-county/elections/2026-11-03/district-court-428
+- tx/localities/hays-county/elections/2026-11-03/criminal-district-attorney
+- tx/localities/hays-county/elections/2026-11-03/county-judge
+- tx/localities/hays-county/elections/2026-11-03/county-court-at-law-1
+- tx/localities/hays-county/elections/2026-11-03/county-court-at-law-2
+- tx/localities/hays-county/elections/2026-11-03/district-clerk
+- tx/localities/hays-county/elections/2026-11-03/county-clerk
+- tx/localities/hays-county/elections/2026-11-03/county-treasurer
+- tx/localities/hays-county/elections/2026-11-03/commissioner-precinct-2
+- tx/localities/hays-county/elections/2026-11-03/commissioner-precinct-4
+- tx/localities/hays-county/elections/2026-11-03/jp-precinct-1-place-2
+- tx/localities/hays-county/elections/2026-11-03/jp-precinct-2-place-1
+- tx/localities/hays-county/elections/2026-11-03/jp-precinct-3
+- tx/localities/hays-county/elections/2026-11-03/jp-precinct-4
+- tx/localities/hays-county/elections/2026-11-03/jp-precinct-5
+- tx/localities/city-of-austin/elections/2026-11-03/council-district-8
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-a
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-b
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-c
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-d
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-e
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-f
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-g
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-h
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-i
+- tx/localities/city-of-austin/elections/2026-11-03/proposition-j
+- tx/localities/city-of-buda/elections/2026-11-03/council-district-b
+- tx/localities/city-of-buda/elections/2026-11-03/council-at-large-1-unexpired
+- tx/localities/city-of-kyle/elections/2026-11-03/mayor
+- tx/localities/city-of-kyle/elections/2026-11-03/council-district-2
+- tx/localities/city-of-kyle/elections/2026-11-03/council-district-4
+- tx/localities/city-of-san-marcos/elections/2026-11-03/mayor
+- tx/localities/city-of-san-marcos/elections/2026-11-03/council-place-3
+- tx/localities/city-of-san-marcos/elections/2026-11-03/council-place-4
+- tx/localities/city-of-san-marcos/elections/2026-11-03/council-place-6
+- tx/localities/city-of-woodcreek/elections/2026-11-03/council-at-large
+- tx/localities/village-of-bear-creek/elections/2026-11-03/mayor
+- tx/localities/village-of-bear-creek/elections/2026-11-03/commissioner
+- tx/localities/austin-community-college/elections/2026-11-03/trustee-place-1
+- tx/localities/austin-community-college/elections/2026-11-03/trustee-place-2
+- tx/localities/austin-community-college/elections/2026-11-03/trustee-place-3
+- tx/localities/comal-isd/elections/2026-11-03/proposition-a
+- tx/localities/comal-isd/elections/2026-11-03/proposition-b
+- tx/localities/crystal-clear-sud/elections/2026-11-03/directors
+- tx/localities/hays-trinity-gcd/elections/2026-11-03/director-district-2
+- tx/localities/hays-trinity-gcd/elections/2026-11-03/director-district-3
+- tx/localities/hays-trinity-gcd/elections/2026-11-03/director-district-4
+- tx/localities/la-cima-mmd-1a/elections/2026-11-03/proposition-a
+- tx/localities/la-cima-mmd-1a/elections/2026-11-03/directors
+- tx/localities/la-cima-mmd-1a/elections/2026-11-03/proposition-b
+- tx/localities/la-cima-mmd-1a/elections/2026-11-03/proposition-c
+- tx/localities/la-cima-mmd-1a/elections/2026-11-03/proposition-d
+- tx/localities/la-cima-mmd-1a/elections/2026-11-03/proposition-e
+- tx/localities/la-cima-mmd-1a/elections/2026-11-03/proposition-f
+- tx/localities/la-cima-mmd-1a/elections/2026-11-03/proposition-g
+- tx/localities/la-cima-mmd-1a/elections/2026-11-03/proposition-h
+- tx/localities/sunfield-mud-2/elections/2026-11-03/proposition-a
+- tx/localities/sunfield-mud-2/elections/2026-11-03/proposition-b
+- tx/localities/sunfield-mud-2/elections/2026-11-03/proposition-c
+- tx/localities/sunfield-mud-2/elections/2026-11-03/proposition-d
+- tx/localities/sunfield-mud-2/elections/2026-11-03/proposition-e
+- tx/localities/sunfield-mud-2/elections/2026-11-03/proposition-f

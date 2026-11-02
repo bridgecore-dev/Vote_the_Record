@@ -1,0 +1,25 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Corpus Christi City Council, At Large (3 seats)
+office_type: city-council-member
+election_date: '2026-11-03'
+detail: basic
+seats: 3
+notes: 'The ballot says: "Vote for None, One, Two, or Three".'
+sources:
+- id: tx/localities/city-of-corpus-christi/elections/2026-11-03/council-at-large/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Nueces County Clerk''s sample ballot for the November 3, 2026 General Election lists "City of Corpus Christi, Council Member, At-Large" on page 3, with these candidates: Anthem Powers; Merida Nardone Mendoza; Scott F. Corliss; Sammy Gonzales; Zoraida Basaldu; Michael Miller; Joshua Fraedrick; Willie Morales Jr.; Mark Scott; Nancy Vera; Julian Jacob Hernandez; Carolyn Vaughn; Richard Shelton; Dan McQueen; Alex Johnston.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct
+  source_title: 'Nueces County Clerk: Nueces County Clerk: Sample Ballot, Precinct 1, November 3, 2026 General Election (page 3)'
+  source_kind: document
+  sha256: f5d9e6c3e63676875077f4bf492ab5e4da2846fd334f5117e5f0414342675a06
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the county clerk's precinct sample ballots linked from its November 3, 2026 sample ballot page (https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct). Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only). The PDF's own link was not recorded when it was saved, so the page is cited; the file is identified by its SHA-256 hash.

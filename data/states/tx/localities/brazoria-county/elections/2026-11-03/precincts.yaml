@@ -1,0 +1,106 @@
+# Each precinct's areas from Brazoria County's precinct sample ballots. Unverified.
+# A nested list means only part of the precinct is in that area (a precinct split between ballots).
+sources:
+- id: tx/localities/brazoria-county/elections/2026-11-03/precincts#S-01
+  headline: Brazoria County precinct sample ballots
+  statement: The Brazoria County Clerk posts one sample ballot per voting precinct (1-83; precinct 14 only as "14-SISD"), with separate ballots for the parts of precincts 7, 8, 17 and 20 inside the City
+    of Freeport ("-FPT") and of precincts 32 and 33 inside Sweeny ISD ("-SISD"). Each precinct's areas are the contests on its ballot.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.brazoriacountyclerktx.gov/departments/elections/sample-ballots/-folder-1389
+  source_title: 'Brazoria County Clerk: Sample Ballots (Boletas de Muestra), November 3, 2026'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Read in the owner's browser on November 2, 2026 (the clerk's site refuses automated readers).
+everywhere: ["brazoria-central-appraisal-district", "court-of-appeals-1", "court-of-appeals-14", "sboe-7"]
+precincts:
+  '1': ["brazoria-county/jp-1", "state-house-25", "us-house-22"]
+  '2': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "us-house-22"]
+  '3': ["brazoria-county/jp-1", "state-house-29", "state-senate-11", "us-house-22"]
+  '4': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "us-house-22"]
+  '5': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "us-house-22"]
+  '6': ["brazoria-county/jp-1", "state-house-29", "us-house-22"]
+  '7': ["brazoria-county/jp-1", "state-house-29", "us-house-22", ["city-of-freeport"]]
+  '8': ["brazoria-county/jp-1", "state-house-25", "us-house-22", ["city-of-freeport"]]
+  '9': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "state-senate-11", "us-house-22"]
+  '10': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "us-house-22"]
+  '11': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-29", "state-senate-11", "us-house-14"]
+  '12': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-36"]
+  '13': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-29", "state-senate-11", "us-house-14"]
+  '14': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "sweeny-isd", "us-house-22"]
+  '15': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-25", "us-house-22"]
+  '16': ["brazoria-county/jp-1", "state-house-29", "state-senate-11", "us-house-14"]
+  '17': ["brazoria-county/jp-1", "state-house-25", "us-house-22", ["city-of-freeport"]]
+  '18': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-14"]
+  '19': ["brazoria-county/jp-1", "state-house-25", "us-house-22"]
+  '20': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "us-house-22", ["city-of-freeport"]]
+  '21': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "state-senate-11", "us-house-14"]
+  '22': ["brazoria-county/jp-1", "state-house-25", "us-house-22"]
+  '23': ["brazoria-county/jp-1", "state-house-25", "us-house-22"]
+  '24': ["brazoria-county/jp-1", "state-house-29", "us-house-22"]
+  '25': ["brazoria-county/jp-1", "state-house-29", "state-senate-11", "us-house-22"]
+  '26': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-36"]
+  '27': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-36"]
+  '28': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-36"]
+  '29': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-29", "state-senate-11", "us-house-36"]
+  '30': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "us-house-22"]
+  '31': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "us-house-22"]
+  '32': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "us-house-22", ["sweeny-isd"]]
+  '33': ["brazoria-county/jp-1", "state-house-25", "us-house-22", ["sweeny-isd"]]
+  '34': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-29", "state-senate-11", "us-house-14"]
+  '35': ["brazoria-county/jp-1", "state-house-29", "us-house-22"]
+  '36': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-29", "state-senate-11", "us-house-14"]
+  '37': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-14"]
+  '38': ["brazoria-county/jp-1", "state-house-25", "us-house-22"]
+  '39': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-14"]
+  '40': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-29", "state-senate-11", "us-house-14"]
+  '41': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-29", "state-senate-11", "us-house-36"]
+  '42': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-25", "state-senate-11", "us-house-22"]
+  '43': ["brazoria-county/jp-1", "state-house-25", "us-house-22"]
+  '44': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-29", "state-senate-11", "us-house-36"]
+  '45': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "us-house-22"]
+  '46': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-14"]
+  '47': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-36"]
+  '48': ["brazoria-county/jp-1", "state-house-25", "us-house-22"]
+  '49': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "us-house-22"]
+  '50': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-25", "state-senate-11", "us-house-36"]
+  '51': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-14"]
+  '52': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-14"]
+  '53': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "state-senate-11", "us-house-14"]
+  '54': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-36"]
+  '55': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-25", "state-senate-11", "us-house-22"]
+  '56': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-25", "state-senate-11", "us-house-22"]
+  '57': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-29", "state-senate-11", "us-house-22"]
+  '58': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-29", "state-senate-11", "us-house-14"]
+  '59': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-25", "state-senate-11", "us-house-36"]
+  '60': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-29", "state-senate-11", "us-house-14"]
+  '61': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-14"]
+  '62': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-29", "state-senate-11", "us-house-36"]
+  '63': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "state-senate-11", "us-house-14"]
+  '64': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "state-senate-11", "us-house-14"]
+  '65': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-29", "state-senate-11", "us-house-14"]
+  '66': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "state-senate-11", "us-house-36"]
+  '67': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-36"]
+  '68': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "state-senate-11", "us-house-14"]
+  '69': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "state-senate-11", "us-house-36"]
+  '70': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "state-senate-11", "us-house-14"]
+  '71': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-29", "state-senate-11", "us-house-36"]
+  '72': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-25", "state-senate-11", "us-house-36"]
+  '73': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-25", "state-senate-11", "us-house-14"]
+  '74': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-22"]
+  '75': ["brazoria-county/jp-1", "state-house-25", "us-house-22"]
+  '76': ["brazoria-county/jp-1", "state-house-29", "state-senate-11", "us-house-22"]
+  '77': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-14"]
+  '78': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "state-senate-11", "us-house-14"]
+  '79': ["brazoria-county/commissioner-4", "brazoria-county/jp-4", "state-house-25", "state-senate-11", "us-house-14"]
+  '80': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-29", "state-senate-11", "us-house-14"]
+  '81': ["brazoria-county/jp-1", "state-house-29", "state-senate-11", "us-house-14"]
+  '82': ["brazoria-county/constable-3", "brazoria-county/jp-3", "state-house-29", "state-senate-11", "us-house-22"]
+  '83': ["brazoria-county/commissioner-2", "brazoria-county/jp-2", "state-house-29", "state-senate-11", "us-house-22"]

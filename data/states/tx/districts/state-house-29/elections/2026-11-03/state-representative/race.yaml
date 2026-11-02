@@ -1,0 +1,23 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: State Representative, District 29
+office_type: state-representative
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/districts/state-house-29/elections/2026-11-03/state-representative/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Brazoria County Clerk''s sample ballot for the November 3, 2026 General & Joint Election lists "State Representative District 29" on page 1, with these candidates: Jeff Barry (REP); Karen Reeder (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.brazoriacountyclerktx.gov/home/showpublisheddocument/33458/639251690400830000
+  source_title: 'Brazoria County Clerk: Brazoria County Clerk: Sample Ballot, Precinct 3, November 3, 2026 General & Joint Election (page 1)'
+  source_kind: document
+  sha256: 6160f7dc1d7e5c6760f2fca3ff3a5db213b0b15a293aac0cf11ee2bb16ff9761
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of 89 precinct sample ballots in the Brazoria County Clerk's sample ballot folder (https://www.brazoriacountyclerktx.gov/departments/elections/sample-ballots/-folder-1389). Saved in the owner's browser on November 2, 2026 (the clerk's site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).
