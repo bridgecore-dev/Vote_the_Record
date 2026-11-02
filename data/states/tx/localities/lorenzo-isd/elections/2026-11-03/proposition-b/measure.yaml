@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: Lorenzo ISD, Proposition B
+election_date: '2026-11-03'
+kind: bond
+ballot_text: THIS IS A PROPERTY TAX INCREASE. THE ISSUANCE OF REFUNDING BONDS OF THE LORENZO INDEPENDENT SCHOOL DISTRICT IN AN AMOUNT NOT TO EXCEED $930,000 FOR THE PURPOSE OF REFUNDING THE DISTRICT'S MAINTENANCE TAX NOTES, SERIES 2026, AND LEVYING AND IMPOSITION OF TAXES SUFFICIENT TO PAY THE PRINCIPAL OF AND INTEREST ON THE BONDS AND THE COSTS OF ANY CREDIT AGREEMENTS.
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/lorenzo-isd/elections/2026-11-03/proposition-b/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Lubbock County Elections'' sample ballot for the November 2026 Joint General and Special Election prints "Lorenzo ISD, Proposition B" on page 3 with the choices FOR and AGAINST and this English wording: "THIS IS A PROPERTY TAX INCREASE. THE ISSUANCE OF REFUNDING BONDS OF THE LORENZO INDEPENDENT SCHOOL DISTRICT IN AN AMOUNT NOT TO EXCEED $930,000 FOR THE PURPOSE OF REFUNDING THE DISTRICT''S MAINTENANCE TAX NOTES, SERIES 2026, AND LEVYING AND IMPOSITION OF TAXES SUFFICIENT TO PAY THE PRINCIPAL OF AND INTEREST ON THE BONDS AND THE COSTS OF ANY CREDIT AGREEMENTS."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://votelubbock.gov/wp-content/uploads/6_041-LRZ.pdf
+  source_title: 'Lubbock County Elections: Lubbock County Elections: Sample Ballot, Ballot Style 6, November 2026 Joint General and Special Election (page 3)'
+  source_kind: document
+  sha256: ef84e9167ad29cefc403563fbf7b07b4c915c1511a3d16ade2532623bee6de52
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of 13 ballot-style sample ballots posted on the county's sample ballot page (https://votelubbock.gov/november-2026-general-and-special-election-sample-ballots/), each listing the precincts it covers. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).

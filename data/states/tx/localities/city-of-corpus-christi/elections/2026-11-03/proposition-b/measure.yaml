@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: City of Corpus Christi, Proposition B
+election_date: '2026-11-03'
+kind: charter-amendment
+ballot_text: CITY OF CORPUS CHRISTI CHARTER AMENDMENT REGARDING INDUSTRIAL WATER DROUGHT SURCHARGE AND CURTAILMENT Shall Article IX for the City Charter be amended to terminate and prohibit programs that exempt large industrial water users from drought surcharges or curtailment requirements during declared drought stages, and require large industrial water users to pay drought surcharges at rates set by the City Council in the March 2025 Drought Contingency Plan?
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/city-of-corpus-christi/elections/2026-11-03/proposition-b/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Nueces County Clerk''s sample ballot for the November 3, 2026 General Election prints "City of Corpus Christi, Proposition B" on page 3 with the choices FOR and AGAINST and this English wording: "CITY OF CORPUS CHRISTI CHARTER AMENDMENT REGARDING INDUSTRIAL WATER DROUGHT SURCHARGE AND CURTAILMENT Shall Article IX for the City Charter be amended to terminate and prohibit programs that exempt large industrial water users from drought surcharges or curtailment requirements during declared drought stages, and require large industrial water users to pay drought surcharges at rates set by the City Council in the March 2025 Drought Contingency Plan?"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct
+  source_title: 'Nueces County Clerk: Nueces County Clerk: Sample Ballot, Precinct 1, November 3, 2026 General Election (page 3)'
+  source_kind: document
+  sha256: f5d9e6c3e63676875077f4bf492ab5e4da2846fd334f5117e5f0414342675a06
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the county clerk's precinct sample ballots linked from its November 3, 2026 sample ballot page (https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct). Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only). The PDF's own link was not recorded when it was saved, so the page is cited; the file is identified by its SHA-256 hash.

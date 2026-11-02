@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: Sweeny ISD, Proposition A
+election_date: '2026-11-03'
+kind: tax-rate
+ballot_text: THIS IS A TAX INCREASE Ratifying the ad valorem tax rate of $0.8371 in Sweeny ISD for the current year, a rate that will result in an increase of 48.67 percent in maintenance and operations tax revenue for the district for the current year as compared to the preceding year, which is an additional $8,712,499.
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/sweeny-isd/elections/2026-11-03/proposition-a/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Brazoria County Clerk''s sample ballot for the November 3, 2026 General & Joint Election prints "Sweeny ISD, Proposition A" on page 2 with the choices FOR and AGAINST and this English wording: "THIS IS A TAX INCREASE Ratifying the ad valorem tax rate of $0.8371 in Sweeny ISD for the current year, a rate that will result in an increase of 48.67 percent in maintenance and operations tax revenue for the district for the current year as compared to the preceding year, which is an additional $8,712,499."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.brazoriacountyclerktx.gov/home/showpublisheddocument/33486/639251690451500000
+  source_title: 'Brazoria County Clerk: Brazoria County Clerk: Sample Ballot, Precinct 14-SISD, November 3, 2026 General & Joint Election (page 2)'
+  source_kind: document
+  sha256: fc8a4ad4041bf64e36ddf94f28d4fb02bc41ea113f2651ada1f14065dedd2638
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of 89 precinct sample ballots in the Brazoria County Clerk's sample ballot folder (https://www.brazoriacountyclerktx.gov/departments/elections/sample-ballots/-folder-1389). Saved in the owner's browser on November 2, 2026 (the clerk's site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).

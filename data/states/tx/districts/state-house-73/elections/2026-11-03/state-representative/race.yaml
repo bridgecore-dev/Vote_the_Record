@@ -1,0 +1,23 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: State Representative, District 73
+office_type: state-representative
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/districts/state-house-73/elections/2026-11-03/state-representative/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Hays County Elections'' sample ballot for the November 3, 2026 General Election lists "State Representative, District 73" on page 1, with these candidates: Carrie Isaac (REP); Merrie Fox (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hayscountytx.gov/DocumentCenter/View/5305/Hays-County-Combined-Sample-Ballot-11x17
+  source_title: 'Hays County Elections: Hays County Combined Sample Ballot, November 3, 2026 General Election (page 1)'
+  source_kind: document
+  sha256: d23c6ef5c616cd8f526a5ee448f7104d04723187d7148faad8287f993368d5d1
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Linked from the county's November 3, 2026 General Election page (https://www.hayscountytx.gov/873/November-3-2026-General-Election); it says it contains all contests and propositions on any Hays County ballot. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).

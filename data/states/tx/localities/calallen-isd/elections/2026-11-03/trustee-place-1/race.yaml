@@ -1,0 +1,23 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Calallen ISD Trustee, Place 1
+office_type: school-trustee
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/calallen-isd/elections/2026-11-03/trustee-place-1/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Nueces County Clerk''s sample ballot for the November 3, 2026 General Election lists "Calallen Independent School District, Board of Trustees, Place 1" on page 3, with these candidates: Caleb Wright; Heather Luckenbach.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct
+  source_title: 'Nueces County Clerk: Nueces County Clerk: Sample Ballot, Precinct 9-02, November 3, 2026 General Election (page 3)'
+  source_kind: document
+  sha256: 587f3088f29a6b7ec6e85e121dcff48b97c5ab285eff82a5af6ea722a76626e8
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the county clerk's precinct sample ballots linked from its November 3, 2026 sample ballot page (https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct). Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only). The PDF's own link was not recorded when it was saved, so the page is cited; the file is identified by its SHA-256 hash.

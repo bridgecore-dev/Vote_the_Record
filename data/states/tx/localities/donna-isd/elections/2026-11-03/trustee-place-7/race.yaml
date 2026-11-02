@@ -1,0 +1,23 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Donna ISD Trustee, Place 7
+office_type: school-trustee
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/donna-isd/elections/2026-11-03/trustee-place-7/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Hidalgo County Elections Department''s sample ballot for the November 3, 2026 General and Local Entities Elections lists "For School Board Trustee, Place 7, Donna Independent School District" on page 2, with these candidates: Dr. Maricela Valdez; Efrain Gomez, Jr..'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hidalgocounty.us/DocumentCenter/View/73258
+  source_title: 'Hidalgo County Elections Department: Hidalgo County Elections Department: Sample Ballot, Ballot Style 13, November 3, 2026 General and Local Entities Elections (page 2)'
+  source_kind: document
+  sha256: 0e17c84b232a0384c0861450ec530d1de7ab76f38eb8743b661c188d6b160009
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of 64 ballot-style sample ballots on the county's 2026 General Election sample ballot page (https://www.hidalgocounty.us/3522/Sample-Ballots-2026-General-Election); the county's Ballot Style Legend gives the precincts for each style. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).

@@ -4,7 +4,24 @@ name: Mariel Kelley
 incumbent: false
 ballot_party: Democratic Party
 records: []
-funding: []
+funding:
+- id: tx/localities/travis-county/elections/2026-11-03/jp-precinct-2/candidates/mariel-kelley#M-01
+  headline: Raised $8,315 and had $6,680 on hand (Jan 23, 2026 - Feb 21, 2026)
+  statement: 'Campaign finance report covering Jan 23, 2026 - Feb 21, 2026, filed with Travis County on Feb 23, 2026: $8,315.00 in total political contributions, $22,079.23 in total political expenditures, $6,680.17 in contributions on hand at the end of the period, and $5,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://ecf-api.easyvoteapp.com/documents/568760D3-0B7B-464B-8319-5AC83D7EAF82/viewfinalredactedpdf
+  source_title: 'Travis County: campaign finance report, Kelley, Mariel (filed Feb 23, 2026)'
+  source_kind: document
+  sha256: ad388a86440f7ae6791da65b6b433d603e12d1f73948ca98d6be149f2cd13985
+  archive_url: null
+  event_date: '2026-02-21'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Posted by Travis County (https://traviscountytx.easyvotecampaignfinance.com/) as filed by "Kelley, Mariel" (8th day before the primary election (C/OH)); matched by name and office. This is the newest report found for the candidate as of 2026-11-02. Totals were read from the cover sheet (PDF page 2). Not yet archived on the Wayback Machine. Reading note: The portal lists no later report for this filer as of November 2, 2026.'
 endorsements: []
 running_on:
   policy_proposals: []

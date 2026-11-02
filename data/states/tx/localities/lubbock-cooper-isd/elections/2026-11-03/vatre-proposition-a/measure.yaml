@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: Lubbock-Cooper ISD, VATRE Proposition A
+election_date: '2026-11-03'
+kind: tax-rate
+ballot_text: THIS IS A TAX INCREASE. RATIFYING THE AD VALOREM TAX RATE OF $1.1969 IN LUBBOCK-COOPER INDEPENDENT SCHOOL DISTRICT FOR THE CURRENT YEAR, A RATE THAT WILL RESULT IN AN INCREASE OF 8.7013 PERCENT IN MAINTENANCE AND OPERATIONS TAX REVENUE FOR THE DISTRICT FOR THE CURRENT YEAR AS COMPARED TO THE PRECEDING YEAR, WHICH IS AN ADDITIONAL $3,072,732.
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/lubbock-cooper-isd/elections/2026-11-03/vatre-proposition-a/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Lubbock County Elections'' sample ballot for the November 2026 Joint General and Special Election prints "Lubbock-Cooper ISD, VATRE Proposition A" on page 3 with the choices FOR and AGAINST and this English wording: "THIS IS A TAX INCREASE. RATIFYING THE AD VALOREM TAX RATE OF $1.1969 IN LUBBOCK-COOPER INDEPENDENT SCHOOL DISTRICT FOR THE CURRENT YEAR, A RATE THAT WILL RESULT IN AN INCREASE OF 8.7013 PERCENT IN MAINTENANCE AND OPERATIONS TAX REVENUE FOR THE DISTRICT FOR THE CURRENT YEAR AS COMPARED TO THE PRECEDING YEAR, WHICH IS AN ADDITIONAL $3,072,732."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://votelubbock.gov/wp-content/uploads/1_034-LCSD.pdf
+  source_title: 'Lubbock County Elections: Lubbock County Elections: Sample Ballot, Ballot Style 1, November 2026 Joint General and Special Election (page 3)'
+  source_kind: document
+  sha256: efbc1d3c79315706bf3612bd1695a4a7cda56259670101321d8be0a7aa8070d9
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of 13 ballot-style sample ballots posted on the county's sample ballot page (https://votelubbock.gov/november-2026-general-and-special-election-sample-ballots/), each listing the precincts it covers. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).

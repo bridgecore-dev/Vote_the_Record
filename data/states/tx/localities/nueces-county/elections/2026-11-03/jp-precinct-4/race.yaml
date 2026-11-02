@@ -1,0 +1,24 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Justice of the Peace, Precinct 4
+office_type: justice-of-the-peace
+election_date: '2026-11-03'
+detail: basic
+area: nueces-county/jp-4
+sources:
+- id: tx/localities/nueces-county/elections/2026-11-03/jp-precinct-4/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Nueces County Clerk''s sample ballot for the November 3, 2026 General Election lists "JUSTICE OF THE PEACE, PRECINCT 4" on page 2, with these candidates: Duncan Neblett, Jr (REP).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct
+  source_title: 'Nueces County Clerk: Nueces County Clerk: Sample Ballot, Precinct 19-01, November 3, 2026 General Election (page 2)'
+  source_kind: document
+  sha256: 24db3987993c130b9d5ec22819a6d9b2661f87c4e83249fe1f47e4dcfd9c07c2
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the county clerk's precinct sample ballots linked from its November 3, 2026 sample ballot page (https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct). Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only). The PDF's own link was not recorded when it was saved, so the page is cited; the file is identified by its SHA-256 hash.

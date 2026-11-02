@@ -1,0 +1,101 @@
+# Contests on this ballot, in ballot order. complete: false until every contest is added.
+name: Nueces County ballot
+election_date: '2026-11-03'
+lookup_url: https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct
+complete: true
+sources:
+- id: tx/localities/nueces-county/elections/2026-11-03/ballot#S-01
+  headline: Every contest on the sample ballot
+  statement: The Nueces County Clerk's sample ballot for the November 3, 2026 General Election lists every contest on this ballot.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct
+  source_title: 'Nueces County Clerk: Nueces County Clerk: Sample Ballot, Precinct 1, November 3, 2026 General Election'
+  source_kind: document
+  sha256: f5d9e6c3e63676875077f4bf492ab5e4da2846fd334f5117e5f0414342675a06
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of the county clerk's precinct sample ballots linked from its November 3, 2026 sample ballot page (https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct). Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only). The county posts one PDF per precinct (198). The source cited is precinct 1's; each contest names the precinct ballot it was read from.
+contests:
+- tx/statewide/elections/2026-11-03/us-senate
+- tx/districts/us-house-27/elections/2026-11-03/us-representative
+- tx/districts/us-house-34/elections/2026-11-03/us-representative
+- tx/statewide/elections/2026-11-03/governor
+- tx/statewide/elections/2026-11-03/lieutenant-governor
+- tx/statewide/elections/2026-11-03/attorney-general
+- tx/statewide/elections/2026-11-03/comptroller
+- tx/statewide/elections/2026-11-03/land-commissioner
+- tx/statewide/elections/2026-11-03/agriculture-commissioner
+- tx/statewide/elections/2026-11-03/railroad-commissioner
+- tx/statewide/elections/2026-11-03/supreme-court-chief-justice
+- tx/statewide/elections/2026-11-03/supreme-court-place-2
+- tx/statewide/elections/2026-11-03/supreme-court-place-7
+- tx/statewide/elections/2026-11-03/supreme-court-place-8
+- tx/statewide/elections/2026-11-03/cca-place-3
+- tx/statewide/elections/2026-11-03/cca-place-4
+- tx/statewide/elections/2026-11-03/cca-place-9
+- tx/districts/sboe-2/elections/2026-11-03/sboe-member
+- tx/districts/state-house-32/elections/2026-11-03/state-representative
+- tx/districts/state-house-34/elections/2026-11-03/state-representative
+- tx/districts/court-of-appeals-15/elections/2026-11-03/chief-justice
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-2
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-3
+- tx/districts/court-of-appeals-13/elections/2026-11-03/place-6
+- tx/localities/nueces-county/elections/2026-11-03/district-court-94
+- tx/localities/nueces-county/elections/2026-11-03/district-court-105
+- tx/localities/nueces-county/elections/2026-11-03/district-court-117
+- tx/localities/nueces-county/elections/2026-11-03/district-court-148
+- tx/localities/nueces-county/elections/2026-11-03/district-court-319
+- tx/localities/nueces-county/elections/2026-11-03/county-judge
+- tx/localities/nueces-county/elections/2026-11-03/county-court-at-law-1
+- tx/localities/nueces-county/elections/2026-11-03/county-court-at-law-2
+- tx/localities/nueces-county/elections/2026-11-03/county-court-at-law-3
+- tx/localities/nueces-county/elections/2026-11-03/county-court-at-law-4
+- tx/localities/nueces-county/elections/2026-11-03/county-court-at-law-5
+- tx/localities/nueces-county/elections/2026-11-03/district-clerk
+- tx/localities/nueces-county/elections/2026-11-03/county-clerk
+- tx/localities/nueces-county/elections/2026-11-03/commissioner-precinct-2
+- tx/localities/nueces-county/elections/2026-11-03/commissioner-precinct-4
+- tx/localities/nueces-county/elections/2026-11-03/jp-precinct-1-place-3
+- tx/localities/nueces-county/elections/2026-11-03/jp-precinct-2-place-2
+- tx/localities/nueces-county/elections/2026-11-03/jp-precinct-3
+- tx/localities/nueces-county/elections/2026-11-03/jp-precinct-4
+- tx/localities/nueces-county/elections/2026-11-03/jp-precinct-5-place-2
+- tx/localities/nueces-central-appraisal-district/elections/2026-11-03/director-place-1
+- tx/localities/nueces-central-appraisal-district/elections/2026-11-03/director-place-2
+- tx/localities/nueces-central-appraisal-district/elections/2026-11-03/director-place-3
+- tx/localities/del-mar-college/elections/2026-11-03/regent-district-4
+- tx/localities/del-mar-college/elections/2026-11-03/regent-at-large
+- tx/localities/city-of-corpus-christi/elections/2026-11-03/mayor
+- tx/localities/city-of-corpus-christi/elections/2026-11-03/council-at-large
+- tx/localities/city-of-corpus-christi/elections/2026-11-03/council-district-1
+- tx/localities/city-of-corpus-christi/elections/2026-11-03/council-district-2
+- tx/localities/city-of-corpus-christi/elections/2026-11-03/council-district-3
+- tx/localities/city-of-corpus-christi/elections/2026-11-03/council-district-4
+- tx/localities/city-of-corpus-christi/elections/2026-11-03/council-district-5
+- tx/localities/city-of-corpus-christi/elections/2026-11-03/proposition-a
+- tx/localities/city-of-corpus-christi/elections/2026-11-03/proposition-b
+- tx/localities/corpus-christi-isd/elections/2026-11-03/trustee-district-1
+- tx/localities/corpus-christi-isd/elections/2026-11-03/trustee-district-4
+- tx/localities/calallen-isd/elections/2026-11-03/trustee-place-1
+- tx/localities/calallen-isd/elections/2026-11-03/trustee-place-2
+- tx/localities/calallen-isd/elections/2026-11-03/trustee-place-5
+- tx/localities/calallen-isd/elections/2026-11-03/trustee-place-6
+- tx/localities/tuloso-midway-isd/elections/2026-11-03/trustee-position-2
+- tx/localities/tuloso-midway-isd/elections/2026-11-03/trustee-position-5
+- tx/localities/tuloso-midway-isd/elections/2026-11-03/trustee-position-6
+- tx/localities/tuloso-midway-isd/elections/2026-11-03/trustee-position-7
+- tx/localities/nueces-county-esd-1/elections/2026-11-03/proposition-a
+- tx/localities/banquete-isd/elections/2026-11-03/trustees-at-large
+- tx/localities/robstown-isd/elections/2026-11-03/trustee-place-5
+- tx/localities/robstown-isd/elections/2026-11-03/trustee-place-6
+- tx/localities/robstown-isd/elections/2026-11-03/trustee-place-7
+- tx/localities/west-oso-isd/elections/2026-11-03/vatre-proposition-a
+- tx/localities/london-isd/elections/2026-11-03/trustees-at-large
+- tx/localities/corpus-christi-isd/elections/2026-11-03/trustee-district-3
+- tx/localities/driscoll-isd/elections/2026-11-03/trustee-place-7
