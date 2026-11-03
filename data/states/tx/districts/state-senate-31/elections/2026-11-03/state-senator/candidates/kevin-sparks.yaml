@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: kevin-sparks
+name: Kevin Sparks
+incumbent: true
+ballot_party: REP
+records: []
+funding:
+- id: tx/districts/state-senate-31/elections/2026-11-03/state-senator/candidates/kevin-sparks#M-01
+  headline: Raised $61,850 and had $854,715 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $61,850.00 in total political contributions, $17,574.41 in total political expenditures, $854,715.05 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072732.PDF
+  source_title: 'Texas Ethics Commission: Sparks, Kevin D (The Honorable), campaign finance report 101072732 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 579cd327ba5a358eb21571a19cacfed6711267d3ca3535631fd74c05eace31a1
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072732, form COH, TEC report type E08DAYBEF; filer ID 00085798 (Sparks, Kevin D (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-11-02; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

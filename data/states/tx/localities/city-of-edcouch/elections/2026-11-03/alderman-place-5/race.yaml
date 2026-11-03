@@ -3,6 +3,7 @@ name: Edcouch Alderman, Place 5
 office_type: city-council-member
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: The page lists ''Selma Garcia Gonzalez'' for Place 5 but the ballot lists ''Selma Garcia Morales''; the last names differ, so it is unclear whether they are the same person.'
 sources:
 - id: tx/localities/city-of-edcouch/elections/2026-11-03/alderman-place-5/race#S-01
   headline: Candidates as printed on the sample ballot

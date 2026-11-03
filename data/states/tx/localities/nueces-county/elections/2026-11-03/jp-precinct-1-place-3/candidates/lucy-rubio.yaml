@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: lucy-rubio
 name: Lucy Rubio
-incumbent: null
+incumbent: true
 ballot_party: DEM
 records: []
 funding: []

@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: geoff-barr
 name: Geoff Barr
-incumbent: null
+incumbent: false
 ballot_party: REP
 records: []
 funding: []

@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: ricardo-chief-saldana
 name: Ricardo 'Chief' Saldaña
-incumbent: null
+incumbent: false
 ballot_party: null
 records: []
 funding: []

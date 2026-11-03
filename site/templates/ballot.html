@@ -9,7 +9,7 @@
   <p class="eyebrow">Election Day {{ ballot.election_date | longdate }}</p>
   <h1>{{ ballot.name }}</h1>
   <p class="lead">{% if ballot.complete %}Every race on this ballot{% else %}Races on this ballot{% endif %}, starting with the ones closest to home. They shape your daily life soonest, and fewer people vote in them, so your vote counts for more.</p>
-  {% if ballot.has_zips %}
+  {% if ballot.has_zips or ballot.has_precincts %}
   <form id="zip-form" class="zip-form" role="search" hidden>
     {% if ballot.payload.shapesUrl %}
     <label for="address">Your street address <span class="muted">(exact)</span></label>
@@ -18,22 +18,28 @@
     </div>
     <p class="muted">Your address is looked up by the U.S. Census Bureau through our server and never stored. Or use your ZIP code:</p>
     {% endif %}
+    {% if ballot.has_zips %}
     <label for="zip">Your ZIP code</label>
     <div class="zip-row">
       <input id="zip" name="zip" type="text" inputmode="numeric" autocomplete="postal-code" maxlength="10" pattern="\d{5}(-\d{4})?" placeholder="{{ ballot.state_info.zip_example }}">
       <button type="submit">Show my races</button>
       <button type="button" id="zip-reset" class="button-secondary" hidden>Show everything</button>
     </div>
+    {% endif %}
     {% if ballot.has_precincts %}
-    <label for="precinct" class="precinct-label">Precinct number <span class="muted">(optional, exact)</span></label>
+    <label for="precinct" class="precinct-label">Precinct number <span class="muted">{% if ballot.has_zips %}(optional, exact){% else %}(exact){% endif %}</span></label>
     <div class="zip-row">
       <input id="precinct" name="precinct" type="text" autocomplete="off" maxlength="6" pattern="\d[0-9A-Za-z]{0,5}" placeholder="e.g. 123">
+      {% if not ballot.has_zips %}
+      <button type="submit">Show my races</button>
+      <button type="button" id="zip-reset" class="button-secondary" hidden>Show everything</button>
+      {% endif %}
     </div>
     <p class="muted">Your precinct number is on your voter registration card. With it, you see exactly your races.</p>
     {% endif %}
     <p class="muted">What you type stays on your device: nothing is sent or saved.</p>
   </form>
-  <noscript><p class="muted">Turn on JavaScript to filter by ZIP code. Every race is listed below.</p></noscript>
+  <noscript><p class="muted">Turn on JavaScript to filter by {{ "ZIP code" if ballot.has_zips else "precinct" }}. Every race is listed below.</p></noscript>
   {% endif %}
   <p id="zip-status" class="zip-status" role="status" aria-live="polite">{{ ballot.count }} {{ "race" if ballot.count == 1 else "races" }} {{ "on this ballot" if ballot.complete else "added so far" }}.</p>
 </header>

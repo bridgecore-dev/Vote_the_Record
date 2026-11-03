@@ -22,3 +22,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: One of 89 precinct sample ballots in the Brazoria County Clerk's sample ballot folder (https://www.brazoriacountyclerktx.gov/departments/elections/sample-ballots/-folder-1389). Saved in the owner's browser on November 2, 2026 (the clerk's site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/brazoria-county/elections/2026-11-03/commissioner-precinct-2/race#S-HOLDER
+  headline: Who holds this office now
+  statement: The county's official page (Commissioner Precinct 2 | Brazoria County, TX), saved from the county's website on November 2, 2026, lists Ryan Cade as the current holder of this office, not any of the candidates in this race.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.brazoriacountytx.gov/government/commissioners-court/commissioner-precinct-2
+  source_title: Commissioner Precinct 2 | Brazoria County, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Read in the owner's browser on November 2, 2026 (the county site refuses automated readers).

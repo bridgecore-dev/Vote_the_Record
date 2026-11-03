@@ -1,0 +1,25 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Justice of the Peace, Precinct 1
+office_type: justice-of-the-peace
+election_date: '2026-11-03'
+detail: basic
+area: ector-county/jp-1
+notes: 'Incumbent status not confirmed: The saved JP Precinct 1 page names no judge.'
+sources:
+- id: tx/localities/ector-county/elections/2026-11-03/jp-precinct-1/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Ector County Elections'' sample ballot for the November 3, 2026 General and City of Odessa Election lists "Justice of the Peace, Precinct 1" on page 2, with these candidates: Steven Brennan (REP).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ectorcountytx.gov/DocumentCenter/View/3246
+  source_title: 'Ector County Elections: Sample Ballot, Precinct 110.7, 111, November 3, 2026 General and City of Odessa Election (page 2)'
+  source_kind: document
+  sha256: 6c76e63ca8c56918c4e2d8300ec537d4068ca6c9b6cb77d7cf86843e68a76b2a
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'One of 14 sample ballots on the county''s Elections page (https://www.ectorcountytx.gov/271/Elections); the ballot''s header names its precincts. Saved in the owner''s browser on November 2, 2026 (the county site limits automated downloads). The PDF is a scan: names and wording were read from its text layer and checked against the page images, kept as printed (English only).'

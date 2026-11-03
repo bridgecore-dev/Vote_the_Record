@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import verification_badge, source_line, report_link %}
+{% from "partials/result.html" import result_box %}
+{% block title %}Results: {{ ballot.name }}{% endblock %}
+{% block description %}Vote counts for every contest on the {{ ballot.name }}, {{ ballot.election_date | longdate }}, from official results reports.{% endblock %}
+{% block content %}
+<header class="race-hero">
+  <p class="eyebrow">Results · Election Day {{ ballot.election_date | longdate }}</p>
+  <h1>{{ ballot.name | replace(" ballot", "") }} results</h1>
+  <p class="lead">{{ ballot.reported }} of {{ ballot.count }} contests reported{% if ballot.official %}, {{ ballot.official }} official{% endif %}. Contests follow the ballot's order, closest to home first.</p>
+</header>
+
+<aside class="notice">
+  <p><strong>Unofficial counts can change.</strong> Mail ballots, provisional ballots, and corrections are added until the county canvasses the votes. Only then do we mark anyone elected or a proposition passed or failed. <a href="/results/">How we report results</a>.</p>
+</aside>
+
+{% for group in ballot.groups %}
+<section class="ballot-group" aria-labelledby="lvl-{{ group.level }}">
+  <h2 id="lvl-{{ group.level }}">{{ group.title }}</h2>
+  <ul class="ballot-list">
+    {% for entry in group.races %}
+    {% set race = entry.race %}
+    <li class="card ballot-race">
+      <h3 class="ballot-race-name"><a href="{{ race.url }}">{{ race.name }}</a></h3>
+      {% if race.kind == "measure" %}<span class="chip chip-measure">Proposition</span>{% endif %}
+      {% if race.result %}
+      {{ result_box(race.result, sources=False) }}
+      <p class="race-meta"><a href="{{ race.url }}#results">Sources &amp; details →</a></p>
+      {% else %}
+      <p class="empty">Results not posted yet.</p>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% endblock %}

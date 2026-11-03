@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: jane-garnette-hughson
 name: Jane Garnette Hughson
-incumbent: null
+incumbent: false
 ballot_party: null
 records: []
 funding: []

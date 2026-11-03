@@ -86,13 +86,36 @@ as "BY HAND" and isn't added.
 
 Ballot pages disappear from the site once their election date passes. Race pages stay.
 
+## Election night and the canvass (results)
+
+Each race or measure gets a `result.yaml` beside it (schema `result` in `schemas/other.schema.json`), shown on
+`/results/` (one page per county ballot) and at the top of the race page. Candidates stay alphabetical.
+
+1. **Get the county's results report** from its official results page: a CSV/JSON export, or the Hart
+   "Cumulative Report" PDF that Harris and many Texas counties post. Sites that block scripts are saved in
+   the owner's browser (the `claude --chrome` session), the same way as sample ballots.
+2. **Preview, then write:**
+   `python src/collectors/results.py --ballot <county ballot.yaml> --file <report> --source-url <report URL>
+   --source-title "<County>: Unofficial Results, ..." --as-of <report date> [--source-kind document]`, then
+   again with `--write`. It matches contests by candidate names (measures by proposition label and place),
+   lists anything it can't match (settle those with `--map "Contest as printed=<contest path>"`), and never
+   replaces an official or verified result.
+3. **Coverage:** a county's report fills in its own county contests in full, and its city, school, and
+   special-district contests (marked "partial" with the county's name; pass `--whole <path>` for one that lies
+   entirely inside the county). It leaves statewide and district races alone: their totals come from the
+   Secretary of State, with `--statewide TX 2026-11-03` in place of `--ballot`. A partial count never replaces
+   a whole one, or another county's partial one.
+4. **After the canvass:** rerun with `--status official` and the canvass report. Only then add `outcome`
+   (`elected`/`runoff`, or `passed`/`failed`) to each `result.yaml` by hand, from the canvass.
+5. Validate and build as usual; every result shows an Unverified badge until the owner checks it.
+
 ## After Election Day (design, to build once results are certified)
 
 After the election, the site shifts from candidates to the people who won: what they said,
 what they do, and how they vote, next to each other and sourced. The plan:
 
-1. **Results.** Each race gets a sourced `result`: the winners, citing the official canvass.
-   The ballot page becomes an archive page that shows outcomes.
+1. **Results.** Done for vote counts (above). Next, the ballot page becomes an archive page that
+   shows outcomes.
 2. **People.** Add a person record, `data/states/<st>/people/<slug>.yaml`, so that someone who
    runs again, or wins and later runs for another office, keeps one history. Candidate files
    point to their person. Records and promises then belong to the person, not to one race.

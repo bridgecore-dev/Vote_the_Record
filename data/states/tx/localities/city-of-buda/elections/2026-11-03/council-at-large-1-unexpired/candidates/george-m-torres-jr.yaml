@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: george-m-torres-jr
 name: George M. Torres, Jr.
-incumbent: null
+incumbent: false
 ballot_party: null
 records: []
 funding: []

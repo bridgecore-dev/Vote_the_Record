@@ -27,6 +27,13 @@
   {% if site.races %}<a class="button{% if site.zip_index %} button-secondary{% endif %}" href="#races">{{ icon("quiz") }} Browse all races</a>{% endif %}
 </header>
 
+{% if site.results %}
+<aside class="notice" aria-labelledby="results-note-h">
+  <h2 id="results-note-h" class="notice-h">Election results</h2>
+  <p>Vote counts from official results reports, county by county. Counts stay marked <strong>Unofficial</strong> until each county canvasses the votes. <a href="/results/">See the results</a>.</p>
+</aside>
+{% endif %}
+
 <section aria-labelledby="essentials-h">
   <h2 id="essentials-h">Key dates</h2>
   {% for election in site.essentials %}

@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: trey-wharton
+name: Trey Wharton
+incumbent: true
+ballot_party: REP
+records: []
+funding:
+- id: tx/districts/state-house-12/elections/2026-11-03/state-representative/candidates/trey-wharton#M-01
+  headline: Raised $68,567 and had $192,606 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $68,566.67 in total political contributions, $19,511.87 in total political expenditures, $192,605.83 in contributions on hand at the end of the period, and $30,000.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071395.PDF
+  source_title: 'Texas Ethics Commission: Wharton, Arthur D. (The Honorable), campaign finance report 101071395 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: b6b41e54080a0a32fa0af317db75a3df13a339e7d336054417c528540f6c04be
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071395, form COH, TEC report type E08DAYBEF; filer ID 00088008 (Wharton, Arthur D. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-11-02; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

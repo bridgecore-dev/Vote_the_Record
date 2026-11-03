@@ -3,6 +3,7 @@ name: Judge, Nueces County Court at Law No. 2
 office_type: county-court-at-law-judge
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: The biography never prints the judge''s name; only the link slug ''judge-gonzales'' hints at it, which is not enough to tie the seat to candidate Lisa Gonzales.'
 sources:
 - id: tx/localities/nueces-county/elections/2026-11-03/county-court-at-law-2/race#S-01
   headline: Candidates as printed on the sample ballot

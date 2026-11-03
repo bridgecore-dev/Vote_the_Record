@@ -2,6 +2,7 @@
 {% from "partials/macros.html" import fact_list, verification_badge, source_line, report_link %}
 {% from "partials/icons.html" import icon %}
 {% from "partials/quiz.html" import quiz_question %}
+{% from "partials/result.html" import result_box %}
 {% block title %}{{ race.name }}{% endblock %}
 {% block description %}What the {{ race.name }} does, who's running, and a quick quiz to compare your views with their record.{% endblock %}
 {% block content %}
@@ -15,6 +16,13 @@
     <a class="button button-secondary" href="#candidates">Meet the candidates</a>
   </div>
 </header>
+
+{% if race.result %}
+<section id="results" aria-labelledby="results-h">
+  <h2 id="results-h">Results</h2>
+  {{ result_box(race.result) }}
+</section>
+{% endif %}
 
 <section id="office" aria-labelledby="office-h">
   <h2 id="office-h">What this job is</h2>

@@ -4,7 +4,7 @@ office_type: constable
 election_date: '2026-11-03'
 detail: basic
 area: brazoria-county/constable-3
-notes: The ballot marks this an unexpired term.
+notes: 'The ballot marks this an unexpired term. Incumbent status not confirmed: constable-pct-3.txt names no constable. constables-office.txt lists ''Buck Stevens'' and the Jan 1, 2026 PDF lists CB ''Buck'' Stevens for Precinct 3, but this race fills an unexpired term, so the seat was vacated after those lists were made; no saved page names the current (possibly appointed) holder.'
 sources:
 - id: tx/localities/brazoria-county/elections/2026-11-03/constable-precinct-3-unexpired/race#S-01
   headline: Candidates as printed on the sample ballot

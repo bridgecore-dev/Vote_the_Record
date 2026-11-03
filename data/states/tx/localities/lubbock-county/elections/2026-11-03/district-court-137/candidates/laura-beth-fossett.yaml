@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: laura-beth-fossett
 name: Laura Beth Fossett
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
-funding: []
+funding:
+- id: tx/localities/lubbock-county/elections/2026-11-03/district-court-137/candidates/laura-beth-fossett#M-01
+  headline: Raised $1,700 and had $15,092 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 21, 2026: $1,700.00 in total political contributions, $15,091.95 in contributions on hand at the end of the period, and $5,000.00 in outstanding loans. The report data lists no amount for total political expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101062758.PDF
+  source_title: 'Texas Ethics Commission: Fossett, Laura B. (The Honorable), campaign finance report 101062758 (filed Jul 21, 2026)'
+  source_kind: document
+  sha256: 187fb2306af2f580afdda181cb84b97f0b1c161d7c98ca651b0e6defacc52805
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101062758, form JCOH, TEC report type SEMIJUL; filer ID 00090011 (Fossett, Laura B. (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-11-02; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

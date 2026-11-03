@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: Linked from the county's November 3, 2026 General Election page (https://www.hayscountytx.gov/873/November-3-2026-General-Election); it says it contains all contests and propositions on any Hays County ballot. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/city-of-san-marcos/elections/2026-11-03/mayor/race#S-HOLDER
+  headline: Who holds this office now
+  statement: The official page (City Council | City of San Marcos, TX), saved from its official website on November 2, 2026, lists Jane Hughson as the current holder of this office, not any of the candidates in this race.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.sanmarcostx.gov/149/City-Council
+  source_title: City Council | City of San Marcos, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Read in the owner's browser on November 2, 2026 (the site refuses automated readers or loads its text by script).

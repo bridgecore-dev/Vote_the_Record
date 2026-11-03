@@ -3,6 +3,7 @@ name: Judge, Hidalgo County Probate Court No. 2
 office_type: probate-judge
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: No saved page names a judge of Probate Court No. 2; county-officials.txt lists only one unnumbered ''Probate Court''. Aissa Garza appears only on a campaign-finance filer list (county-court-at-law-judge.txt), which does not show office held.'
 sources:
 - id: tx/localities/hidalgo-county/elections/2026-11-03/probate-court-2/race#S-01
   headline: Candidates as printed on the sample ballot

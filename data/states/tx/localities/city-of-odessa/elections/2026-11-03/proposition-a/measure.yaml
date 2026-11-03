@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: City of Odessa, Proposition A
+election_date: '2026-11-03'
+kind: tax-rate
+ballot_text: THIS IS A TAX INCREASE Authorizing the City of Odessa, Texas, to designate a venue project and provide for the financing, planning, design, acquisition, construction, development, improvement, operation, and maintenance of the following venue project, a new multipurpose sports venue facility in the City known as the Odessa Sports Complex and related infrastructure and facilities, a venue project of the type described in and as authorized by Chapter 334 of the Texas Local Government Code and as designated and described by the City of Odessa City Council Resolution No. 2026R-42 dated April 14, 2026 (the "Resolution"), and to impose a new and an additional hotel occupancy tax at the maximum rate of 2.0% for the purpose of financing the Odessa Sports Complex venue project and approving the Resolution. If approved, the maximum hotel occupancy tax rate imposed from all sources in the City of Odessa would be 17.0% of the price paid for a room in a hotel.
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/city-of-odessa/elections/2026-11-03/proposition-a/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Ector County Elections'' sample ballot for the November 3, 2026 General and City of Odessa Election prints "City of Odessa, Proposition A" on page 2 with the choices FOR and AGAINST and this English wording: "THIS IS A TAX INCREASE Authorizing the City of Odessa, Texas, to designate a venue project and provide for the financing, planning, design, acquisition, construction, development, improvement, operation, and maintenance of the following venue project, a new multipurpose sports venue facility in the City known as the Odessa Sports Complex and related infrastructure and facilities, a venue project of the type described in and as authorized by Chapter 334 of the Texas Local Government Code and as designated and described by the City of Odessa City Council Resolution No. 2026R-42 dated April 14, 2026 (the "Resolution"), and to impose a new and an additional hotel occupancy tax at the maximum rate of 2.0% for the purpose of financing the Odessa Sports Complex venue project and approving the Resolution. If approved, the maximum hotel occupancy tax rate imposed from all sources in the City of Odessa would be 17.0% of the price paid for a room in a hotel."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ectorcountytx.gov/DocumentCenter/View/3234
+  source_title: 'Ector County Elections: Sample Ballot, Precinct 408, November 3, 2026 General and City of Odessa Election (page 2)'
+  source_kind: document
+  sha256: 2ab9ebd32cca5b8b36f069bb3d3bfcbe6653cdc31801ff899c04020e95cbf578
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'One of 14 sample ballots on the county''s Elections page (https://www.ectorcountytx.gov/271/Elections); the ballot''s header names its precincts. Saved in the owner''s browser on November 2, 2026 (the county site limits automated downloads). The PDF is a scan: names and wording were read from its text layer and checked against the page images, kept as printed (English only).'

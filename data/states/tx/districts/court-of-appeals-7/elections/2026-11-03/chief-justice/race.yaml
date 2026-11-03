@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: One of 13 ballot-style sample ballots posted on the county's sample ballot page (https://votelubbock.gov/november-2026-general-and-special-election-sample-ballots/), each listing the precincts it covers. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/districts/court-of-appeals-7/elections/2026-11-03/chief-justice/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official list (Seventh Court of Appeals: Justices), checked on November 2, 2026, shows that Judy Parker, a candidate in this race, currently holds this seat.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/7thcoa/about-the-court/justices/
+  source_title: 'Seventh Court of Appeals: Justices'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The page lists Chief Justice Judy C. Parker.

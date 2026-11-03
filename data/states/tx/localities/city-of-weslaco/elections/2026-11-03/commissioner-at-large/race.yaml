@@ -3,6 +3,7 @@ name: Weslaco City Commissioner, At Large
 office_type: city-council-member
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: Weslaco has two unnumbered at-large seats (Pete Garcia Jr. and Israel Gonzalez Jr.) and the page does not say which one is on this ballot.'
 sources:
 - id: tx/localities/city-of-weslaco/elections/2026-11-03/commissioner-at-large/race#S-01
   headline: Candidates as printed on the sample ballot

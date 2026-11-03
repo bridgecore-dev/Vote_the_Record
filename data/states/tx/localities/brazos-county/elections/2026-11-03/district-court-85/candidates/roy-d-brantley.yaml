@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: roy-d-brantley
+name: Roy D. Brantley
+incumbent: false
+ballot_party: REP
+records: []
+funding:
+- id: tx/localities/brazos-county/elections/2026-11-03/district-court-85/candidates/roy-d-brantley#M-01
+  headline: Raised $2,400 and had $3,161 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 16, 2026: $2,400.00 in total political contributions, $1,418.48 in total political expenditures, $3,161.08 in contributions on hand at the end of the period, and $6,350.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101062440.PDF
+  source_title: 'Texas Ethics Commission: Brantley, Roy Dayton (The Honorable), campaign finance report 101062440 (filed Jul 16, 2026)'
+  source_kind: document
+  sha256: e483a8326e03b7651be256f8f8afcfe88c4b564637d1edaf6fcbd0ac75990bb7
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101062440, form JCOH, TEC report type SEMIJUL; filer ID 00066807 (Brantley, Roy Dayton (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-11-02; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

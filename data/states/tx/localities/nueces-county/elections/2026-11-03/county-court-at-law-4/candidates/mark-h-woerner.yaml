@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: mark-h-woerner
 name: Mark H. Woerner
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
 funding: []

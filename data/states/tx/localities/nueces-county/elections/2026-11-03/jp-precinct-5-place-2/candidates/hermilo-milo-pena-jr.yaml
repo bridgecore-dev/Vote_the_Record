@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: hermilo-milo-pena-jr
 name: Hermilo (Milo) Pena, Jr
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
 funding: []

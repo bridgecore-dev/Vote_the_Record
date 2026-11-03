@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: 'One of 12 sample ballots on the county''s Elections page (https://www.comalcounty.gov/193/Elections-Voter-Registration); the ballot''s header names its precincts. Saved in the owner''s browser on November 2, 2026 (the county site challenges automated downloads). The PDF is a scan with no text layer: names and wording were read with OCR and checked against the page images, kept as printed (English text only).'
+- id: tx/localities/comal-county/elections/2026-11-03/county-judge/race#S-HOLDER
+  headline: Who holds this office now
+  statement: The county's official page (Elected Officials | Comal County, TX), saved from the county's website on November 2, 2026, lists Sherman Krause as the current holder of this office, not any of the candidates in this race.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.comalcounty.gov/161/Elected-Officials
+  source_title: Elected Officials | Comal County, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Read in the owner's browser on November 2, 2026 (the county site refuses automated readers).

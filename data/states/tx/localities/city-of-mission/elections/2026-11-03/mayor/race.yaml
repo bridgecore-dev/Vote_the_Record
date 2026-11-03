@@ -3,6 +3,7 @@ name: Mission Mayor
 office_type: mayor
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: The saved City Mayor page has a mayor''s message but never names the mayor; the council page lists conflict-of-interest filings by Norie Garza without stating her office.'
 sources:
 - id: tx/localities/city-of-mission/elections/2026-11-03/mayor/race#S-01
   headline: Candidates as printed on the sample ballot

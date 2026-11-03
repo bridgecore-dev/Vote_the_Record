@@ -3,6 +3,7 @@ name: Judge, Hidalgo County Probate Court No. 1
 office_type: probate-judge
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: county-officials.txt lists one unnumbered ''Probate Court''; the ballot has both Probate Court No. 1 and No. 2, so the page does not tie the name to No. 1. (The name does match candidate Joanne García.).'
 sources:
 - id: tx/localities/hidalgo-county/elections/2026-11-03/probate-court-1/race#S-01
   headline: Candidates as printed on the sample ballot

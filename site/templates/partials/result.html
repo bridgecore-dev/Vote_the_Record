@@ -1,0 +1,40 @@
+{% from "partials/macros.html" import verification_badge, source_line, report_link %}
+
+{# Vote counts for one race or measure. Rows keep the page's usual order (candidates alphabetical,
+   choices as printed); only an official canvass marks who was elected or whether a measure passed. #}
+{% macro result_box(result, sources=True) -%}
+{% set official = result.status == "official" %}
+<div class="result-box">
+  <p class="result-status">
+    <span class="chip {{ 'chip-official' if official else 'chip-unofficial' }}">{{ "Official" if official else "Unofficial" }}</span>
+    {{ verification_badge(result) }}
+    {% if official %}Final canvassed count, {{ result.as_of | longdate }}.{% else %}Count as of {{ result.as_of | longdate }}. These numbers can change until the official canvass.{% endif %}
+  </p>
+  {% if result.covers == "partial" %}<p class="muted"><strong>Partial count:</strong> {{ result.covers_note }}</p>{% endif %}
+  {% if result.decided %}<p class="result-decided"><strong>{{ result.decided }}</strong> (official canvass)</p>{% endif %}
+  <table class="result-table">
+    <thead><tr><th scope="col">{{ "Choice" if result.kind == "measure" else "Candidate" }}</th><th scope="col" class="num">Votes</th><th scope="col" class="num">Share</th></tr></thead>
+    <tbody>
+      {% for row in result.rows %}
+      <tr>
+        <th scope="row">{{ row.label }}{% if row.outcome %} <span class="chip chip-outcome">{{ row.outcome }}</span>{% endif %}</th>
+        <td class="num">{{ "{:,}".format(row.votes) }}</td>
+        <td class="num share"><meter min="0" max="100" value="{{ row.pct }}" aria-hidden="true"></meter> {{ row.pct }}%</td>
+      </tr>
+      {% endfor %}
+      {% if result.other_votes %}
+      <tr><th scope="row">Write-ins and other votes</th><td class="num">{{ "{:,}".format(result.other_votes) }}</td><td class="num share"></td></tr>
+      {% endif %}
+    </tbody>
+    <tfoot><tr><th scope="row">Total votes counted</th><td class="num">{{ "{:,}".format(result.total) }}</td><td></td></tr></tfoot>
+  </table>
+  {% if result.notes %}<p class="muted">{{ result.notes }}</p>{% endif %}
+  {% if sources %}
+  <ul class="item-list">
+    {% for fact in result.sources %}
+    <li class="item-meta">{{ verification_badge(fact) }} {{ source_line(fact) }} · {{ report_link(fact.id) }}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</div>
+{%- endmacro %}

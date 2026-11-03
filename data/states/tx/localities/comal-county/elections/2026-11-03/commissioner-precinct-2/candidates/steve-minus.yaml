@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: steve-minus
 name: Steve Minus
-incumbent: null
+incumbent: false
 ballot_party: REP
 records: []
 funding: []

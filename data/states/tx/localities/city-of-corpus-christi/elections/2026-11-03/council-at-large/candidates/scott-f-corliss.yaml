@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: scott-f-corliss
 name: Scott F. Corliss
-incumbent: null
+incumbent: false
 ballot_party: null
 records: []
 funding: []

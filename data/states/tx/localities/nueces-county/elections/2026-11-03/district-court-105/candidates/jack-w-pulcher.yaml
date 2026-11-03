@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: jack-w-pulcher
 name: Jack W. Pulcher
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
-funding: []
+funding:
+- id: tx/localities/nueces-county/elections/2026-11-03/district-court-105/candidates/jack-w-pulcher#M-01
+  headline: Raised $5,000 and had $8,870 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 14, 2026: $5,000.00 in total political contributions, $1,550.00 in total political expenditures, $8,870.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101054481.PDF
+  source_title: 'Texas Ethics Commission: Pulcher, Jack William (The Honorable), campaign finance report 101054481 (filed Jul 14, 2026)'
+  source_kind: document
+  sha256: a13d289cff5a46904952d541d1ff9bc666ea95fee505f83aa818654d0f8e903f
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101054481, form JCOH, TEC report type SEMIJUL; filer ID 00068130 (Pulcher, Jack William (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-11-02; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

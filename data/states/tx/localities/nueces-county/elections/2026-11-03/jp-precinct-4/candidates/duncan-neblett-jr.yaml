@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: duncan-neblett-jr
 name: Duncan Neblett, Jr
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
 funding: []

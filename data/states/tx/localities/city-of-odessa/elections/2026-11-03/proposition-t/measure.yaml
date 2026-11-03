@@ -1,0 +1,27 @@
+# Proposition: exact wording and choices as printed on the sample ballot. Unverified.
+name: City of Odessa, Proposition T
+election_date: '2026-11-03'
+kind: charter-amendment
+ballot_text: 'Election of city council members: Shall Section 46 of the City of Odessa Home Rule Charter be amended to clarify the title of Section 46 to more clearly describe content, to eliminate out-of-date and excessive language, to provide for time spent filling a vacancy may not be counted towards calculation of service time for the purpose of term limitations, and providing for disqualification and forfeiture of office for convictions of a felony or a crime involving moral turpitude?'
+choices:
+- FOR
+- AGAINST
+explained: []
+sources:
+- id: tx/localities/city-of-odessa/elections/2026-11-03/proposition-t/measure#S-01
+  headline: Proposition as printed on the sample ballot
+  statement: 'The Ector County Elections'' sample ballot for the November 3, 2026 General and City of Odessa Election prints "City of Odessa, Proposition T" on page 5 with the choices FOR and AGAINST and this English wording: "Election of city council members: Shall Section 46 of the City of Odessa Home Rule Charter be amended to clarify the title of Section 46 to more clearly describe content, to eliminate out-of-date and excessive language, to provide for time spent filling a vacancy may not be counted towards calculation of service time for the purpose of term limitations, and providing for disqualification and forfeiture of office for convictions of a felony or a crime involving moral turpitude?"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ectorcountytx.gov/DocumentCenter/View/3234
+  source_title: 'Ector County Elections: Sample Ballot, Precinct 408, November 3, 2026 General and City of Odessa Election (page 5)'
+  source_kind: document
+  sha256: 2ab9ebd32cca5b8b36f069bb3d3bfcbe6653cdc31801ff899c04020e95cbf578
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'One of 14 sample ballots on the county''s Elections page (https://www.ectorcountytx.gov/271/Elections); the ballot''s header names its precincts. Saved in the owner''s browser on November 2, 2026 (the county site limits automated downloads). The PDF is a scan: names and wording were read from its text layer and checked against the page images, kept as printed (English only).'

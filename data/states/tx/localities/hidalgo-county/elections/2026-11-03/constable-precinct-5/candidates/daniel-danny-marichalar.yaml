@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: daniel-danny-marichalar
 name: Daniel 'Danny' Marichalar
-incumbent: null
+incumbent: true
 ballot_party: DEM
 records: []
 funding: []

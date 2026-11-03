@@ -1,0 +1,101 @@
+# Each precinct's areas from Webb County's per-precinct sample ballots. Unverified.
+# A nested list means only part of the precinct is in that area (a precinct split between ballots).
+sources:
+- id: tx/localities/webb-county/elections/2026-11-03/precincts#S-01
+  headline: Webb County sample ballots by precinct
+  statement: The county's Paper Sample Ballots page posts one sample ballot for each precinct split (128 in all, e.g. "PCT 154 01"). Each precinct's areas are the contests on its ballots; a precinct split
+    across several ballots gets the contests found on only some of them as partial areas.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.webbcountytx.gov/714/Paper-Sample-Ballots
+  source_title: 'Webb County: Paper Sample Ballots'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Sample ballots saved in the owner''s browser on November 2, 2026. They are scans with a "SAMPLE BALLOT" watermark: each ballot''s contests were found by OCR (candidate names and headings), checked
+    against the ballot''s own rules (one state house district, one justice of the peace precinct, at most one council district and one school district), and 33 ballots were read by eye, including every
+    one that broke a rule.'
+everywhere: ["court-of-appeals-4", "state-senate-21", "us-house-28"]
+precincts:
+  '123': ["city-of-laredo", "laredo-college", "state-house-80", "webb-county/jp-2", ["city-of-laredo/district-2"]]
+  '124': ["city-of-laredo", "city-of-laredo/district-2", "laredo-college", "state-house-42", "webb-county/jp-2", ["laredo-isd/district-6"]]
+  '125': ["city-of-laredo", "city-of-laredo/district-3", "laredo-college", "state-house-42", "webb-county/jp-2"]
+  '128': ["city-of-laredo", "city-of-laredo/district-2", "laredo-college", "state-house-80", "webb-county/jp-2"]
+  '129': ["city-of-laredo", "city-of-laredo/district-3", "laredo-college", "state-house-80", "webb-county/jp-2"]
+  '130': ["city-of-laredo", "city-of-laredo/district-2", "laredo-college", "state-house-80", "webb-county/jp-2"]
+  '132': ["city-of-laredo", "city-of-laredo/district-2", "laredo-college", "state-house-80", "webb-county/jp-2"]
+  '133': ["city-of-laredo", "city-of-laredo/district-1", "laredo-college", "state-house-80", "webb-county/jp-2"]
+  '134': ["city-of-rio-bravo", "state-house-80", "webb-county/jp-2"]
+  '135': ["city-of-el-cenizo", "state-house-80", "webb-county/jp-2"]
+  '136': ["state-house-80", "webb-cisd", "webb-county/jp-3"]
+  '154': ["state-house-80", "webb-county/jp-2", ["city-of-laredo"], ["city-of-laredo/district-1"], ["laredo-college"], ["webb-cisd"]]
+  '164': ["city-of-laredo", "city-of-laredo/district-3", "laredo-college", "state-house-42", "webb-county/jp-1"]
+  '169': ["city-of-laredo", "city-of-laredo/district-2", "laredo-college", "state-house-80", "webb-county/jp-2"]
+  '176': ["city-of-laredo", "laredo-college", "state-house-80", "webb-county/jp-2", ["city-of-laredo/district-1"], ["city-of-laredo/district-2"]]
+  '177': ["city-of-laredo", "city-of-laredo/district-1", "laredo-college", "state-house-80", "webb-county/jp-2"]
+  '218': ["city-of-laredo", "laredo-college", "state-house-42", "webb-county/commissioner-2", "webb-county/jp-1"]
+  '219': ["city-of-laredo", "laredo-college", "laredo-isd/district-6", "state-house-42", "webb-county/commissioner-2", "webb-county/jp-1"]
+  '220': ["city-of-laredo", "laredo-college", "laredo-isd/district-6", "state-house-42", "webb-county/commissioner-2", "webb-county/jp-1"]
+  '221': ["city-of-laredo", "city-of-laredo/district-3", "laredo-college", "state-house-42", "webb-county/commissioner-2", "webb-county/jp-1"]
+  '226': ["city-of-laredo", "laredo-college", "state-house-42", "webb-county/commissioner-2", "webb-county/jp-2"]
+  '227': ["state-house-80", "webb-county/commissioner-2", "webb-county/jp-2", ["city-of-laredo"], ["city-of-laredo/district-3"], ["laredo-college"]]
+  '231': ["city-of-laredo", "city-of-laredo/district-1", "laredo-college", "state-house-42", "webb-county/commissioner-2", "webb-county/jp-2"]
+  '237': ["state-house-80", "webb-cisd", "webb-county/commissioner-2", "webb-county/jp-3"]
+  '238': ["state-house-80", "united-isd/district-3", "webb-county/commissioner-2", "webb-county/jp-3"]
+  '239': ["city-of-laredo", "laredo-college", "state-house-42", "webb-county/commissioner-2", "webb-county/jp-4", ["united-isd/district-3"]]
+  '250': ["city-of-laredo", "city-of-laredo/district-3", "laredo-college", "state-house-80", "webb-county/commissioner-2", "webb-county/jp-2", ["united-isd/district-3"]]
+  '251': ["city-of-laredo", "laredo-college", "state-house-42", "webb-county/commissioner-2", "webb-county/jp-1"]
+  '252': ["city-of-laredo", "city-of-laredo/district-1", "laredo-college", "state-house-42", "webb-county/commissioner-2", "webb-county/jp-2"]
+  '255': ["city-of-laredo", "laredo-college", "state-house-42", "united-isd/district-3", "webb-county/commissioner-2", "webb-county/jp-4"]
+  '266': ["city-of-laredo", "city-of-laredo/district-3", "laredo-college", "state-house-42", "webb-county/commissioner-2", "webb-county/jp-2"]
+  '267': ["city-of-laredo", "laredo-college", "state-house-80", "webb-county/commissioner-2", "webb-county/jp-2", ["united-isd/district-3"]]
+  '268': ["city-of-laredo", "city-of-laredo/district-1", "laredo-college", "state-house-80", "webb-county/commissioner-2", "webb-county/jp-2"]
+  '272': ["city-of-laredo", "laredo-college", "state-house-42", "united-isd/district-3", "webb-county/commissioner-2", "webb-county/jp-4"]
+  '273': ["city-of-laredo", "laredo-college", "state-house-42", "webb-county/commissioner-2", "webb-county/jp-2", ["city-of-laredo/district-1"], ["city-of-laredo/district-3"]]
+  '274': ["city-of-laredo", "city-of-laredo/district-3", "laredo-college", "state-house-80", "webb-county/commissioner-2", "webb-county/jp-2"]
+  '275': ["city-of-laredo", "laredo-college", "state-house-42", "webb-county/commissioner-2", "webb-county/jp-2", ["city-of-laredo/district-1"], ["city-of-laredo/district-3"]]
+  '278': ["state-house-80", "webb-county/commissioner-2", "webb-county/jp-4"]
+  '308': ["city-of-laredo", "laredo-college", "state-house-42", "united-isd/district-5", "webb-county/jp-1"]
+  '309': ["city-of-laredo", "laredo-college", "state-house-42", "united-isd/district-3", "webb-county/jp-1"]
+  '310': ["city-of-laredo", "laredo-college", "laredo-isd/district-3", "state-house-42", "webb-county/jp-1"]
+  '311': ["city-of-laredo", "laredo-college", "state-house-42", "webb-county/jp-1", ["laredo-isd/district-3"]]
+  '312': ["city-of-laredo", "laredo-college", "state-house-42", "webb-county/jp-1", ["laredo-isd/district-3"]]
+  '340': ["city-of-laredo", "laredo-college", "state-house-42", "united-isd/district-5", "webb-county/jp-4"]
+  '341': ["city-of-laredo", "laredo-college", "state-house-42", "united-isd/district-5", "webb-county/jp-4"]
+  '342': ["city-of-laredo", "laredo-college", "state-house-42", "united-isd/district-5", "webb-county/jp-4"]
+  '343': ["city-of-laredo", "laredo-college", "state-house-42", "united-isd/district-5", "webb-county/jp-4", ["city-of-laredo/district-6"]]
+  '344': ["city-of-laredo", "city-of-laredo/district-6", "laredo-college", "state-house-42", "webb-county/jp-4", ["united-isd/district-5"]]
+  '345': ["city-of-laredo", "city-of-laredo/district-6", "laredo-college", "state-house-42", "webb-county/jp-4"]
+  '349': ["state-house-42", "webb-county/jp-4", ["city-of-laredo"], ["city-of-laredo/district-6"], ["laredo-college"]]
+  '356': ["city-of-laredo", "city-of-laredo/district-6", "laredo-college", "state-house-42", "webb-county/jp-4"]
+  '359': ["city-of-laredo", "laredo-college", "state-house-42", "webb-county/jp-4", ["city-of-laredo/district-6"], ["united-isd/district-5"]]
+  '361': ["city-of-laredo", "laredo-college", "state-house-42", "united-isd/district-5", "webb-county/jp-1"]
+  '362': ["city-of-laredo", "laredo-college", "laredo-isd/district-3", "state-house-42", "webb-county/commissioner-4", "webb-county/jp-1"]
+  '363': ["city-of-laredo", "laredo-college", "laredo-isd/district-3", "state-house-42", "webb-county/jp-1"]
+  '370': ["city-of-laredo", "laredo-college", "state-house-42", "united-isd/district-3", "webb-county/jp-4"]
+  '371': ["city-of-laredo", "city-of-laredo/district-6", "laredo-college", "state-house-42", "webb-county/jp-4"]
+  '403': ["city-of-laredo", "laredo-college", "state-house-42", "webb-county/commissioner-4", "webb-county/jp-1"]
+  '404': ["city-of-laredo", "laredo-college", "state-house-42", "webb-county/commissioner-4", "webb-county/jp-1"]
+  '405': ["city-of-laredo", "laredo-college", "state-house-42", "webb-county/commissioner-4", "webb-county/jp-1"]
+  '406': ["city-of-laredo", "laredo-college", "state-house-42", "webb-county/commissioner-4", "webb-county/jp-1"]
+  '407': ["city-of-laredo", "laredo-college", "state-house-42", "united-isd/district-6", "webb-county/commissioner-4", "webb-county/jp-1"]
+  '413': ["city-of-laredo", "laredo-college", "state-house-42", "webb-county/commissioner-4", "webb-county/jp-1", ["laredo-isd/district-3"]]
+  '414': ["city-of-laredo", "laredo-college", "laredo-isd/district-3", "state-house-42", "webb-county/commissioner-4", "webb-county/jp-1"]
+  '415': ["city-of-laredo", "city-of-laredo/district-3", "laredo-college", "state-house-42", "webb-county/commissioner-4", "webb-county/jp-1"]
+  '416': ["city-of-laredo", "laredo-college", "state-house-80", "webb-county/commissioner-4", "webb-county/jp-1", ["laredo-isd/district-3"]]
+  '417': ["city-of-laredo", "city-of-laredo/district-3", "laredo-college", "state-house-42", "webb-county/commissioner-4", "webb-county/jp-1"]
+  '422': ["city-of-laredo", "city-of-laredo/district-3", "laredo-college", "state-house-42", "webb-county/commissioner-4", "webb-county/jp-1"]
+  '446': ["city-of-laredo", "laredo-college", "state-house-42", "united-isd/district-6", "webb-county/commissioner-4", "webb-county/jp-4"]
+  '447': ["state-house-42", "united-isd/district-6", "webb-county/commissioner-4", "webb-county/jp-4", ["city-of-laredo"], ["laredo-college"]]
+  '448': ["state-house-42", "united-isd/district-6", "webb-county/commissioner-4", "webb-county/jp-4", ["city-of-laredo"], ["laredo-college"]]
+  '453': ["city-of-laredo", "laredo-college", "laredo-isd/district-3", "state-house-42", "webb-county/commissioner-4", "webb-county/jp-1"]
+  '457': ["state-house-80", "united-isd/district-6", "webb-county/commissioner-4", "webb-county/jp-4", ["city-of-laredo"], ["laredo-college"]]
+  '458': ["city-of-laredo", "laredo-college", "state-house-42", "united-isd/district-6", "webb-county/commissioner-4", "webb-county/jp-4"]
+  '460': ["city-of-laredo", "laredo-college", "state-house-42", "united-isd/district-5", "webb-county/commissioner-4", "webb-county/jp-1"]
+  '465': ["city-of-laredo", "laredo-college", "state-house-42", "webb-county/commissioner-4", "webb-county/jp-1"]

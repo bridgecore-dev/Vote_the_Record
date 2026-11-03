@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: richard-pena-raymond
+name: Richard Pena Raymond
+incumbent: true
+ballot_party: DEM
+records: []
+funding:
+- id: tx/districts/state-house-42/elections/2026-11-03/state-representative/candidates/richard-pena-raymond#M-01
+  headline: Raised $105,530 and had $1,025,386 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 27, 2026: $105,529.68 in total political contributions, $55,861.32 in total political expenditures, $1,025,385.82 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101073060.PDF
+  source_title: 'Texas Ethics Commission: Raymond, Richard E. Pena (The Honorable), campaign finance report 101073060 (filed Oct 27, 2026)'
+  source_kind: document
+  sha256: 2337057eeaf77dbb24321e20780e4ab0ef5994951df67e45df956ffd58ab1587
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101073060, form CORCOH, TEC report type E08DAYBEF; filer ID 00021186 (Raymond, Richard E. Pena (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-11-02; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

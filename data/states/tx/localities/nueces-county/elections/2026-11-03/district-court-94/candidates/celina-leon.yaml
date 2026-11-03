@@ -1,10 +1,27 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: celina-leon
 name: Celina Leon
-incumbent: null
+incumbent: false
 ballot_party: DEM
 records: []
-funding: []
+funding:
+- id: tx/localities/nueces-county/elections/2026-11-03/district-court-94/candidates/celina-leon#M-01
+  headline: Raised $6,515 and had $9,258 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $6,515.00 in total political contributions, $10,914.29 in total political expenditures, $9,257.81 in contributions on hand at the end of the period, and $0.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072469.PDF
+  source_title: 'Texas Ethics Commission: Lopez Leon, Celina Marie (Mrs.), campaign finance report 101072469 (filed Oct 26, 2026)'
+  source_kind: document
+  sha256: 70c3f1d2a87629c3fcb404d7185d07082574a09faf269da8b9c11766dff94fdc
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072469, form JCOH, TEC report type E08DAYBEF; filer ID 00085657 (Lopez Leon, Celina Marie (Mrs.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by surname variant, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-11-02; a correction filed later replaces the version it corrects.
 endorsements: []
 running_on:
   policy_proposals: []

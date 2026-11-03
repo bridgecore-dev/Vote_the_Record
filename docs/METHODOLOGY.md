@@ -282,6 +282,25 @@ every piece of evidence for a decided promise. Unchecked ones are listed with an
 
 The tracker is for information only and does not change the match percentage.
 
+## Election results
+
+After the polls close we show vote counts for every race and proposition on the ballots we cover, on a
+Results page for each county and at the top of each race page.
+
+- **Official sources only.** Every count comes from an official results report: the county elections
+  office, or the Secretary of State for statewide and district races. Each count links to its report.
+- **Unofficial, then official.** Election-night counts are marked *Unofficial* and can change as mail,
+  provisional, and corrected ballots are added. When the county canvasses the votes, we replace them with
+  the canvassed counts and mark them *Official*.
+- **No winner before the canvass.** We mark a candidate elected (or headed to a runoff), or a proposition
+  passed or failed, only from the official canvass. Before then we show the numbers and nothing more.
+- **Same order as everywhere else.** Candidates stay in alphabetical order, never sorted by votes, and no
+  party colors are used.
+- **Partial counts are labeled.** A race that crosses county lines may show one county's count; the page
+  says which voters it covers.
+- **Unverified until checked.** Like every other fact, a result shows an *Unverified* badge until we have
+  checked it against its report.
+
 ## Corrections
 Found an error? [Submit a correction](CORRECTIONS_FORM_URL). Every reviewed correction is
 logged publicly with the date, what changed, why, and who reviewed it.

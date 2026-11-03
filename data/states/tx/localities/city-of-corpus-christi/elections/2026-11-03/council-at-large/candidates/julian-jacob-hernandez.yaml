@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: julian-jacob-hernandez
 name: Julian Jacob Hernandez
-incumbent: null
+incumbent: false
 ballot_party: null
 records: []
 funding: []

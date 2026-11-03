@@ -1,0 +1,24 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Rio Bravo City Council, Place 2
+office_type: city-council-member
+election_date: '2026-11-03'
+detail: basic
+notes: 'Incumbent status not confirmed: The saved home page names only the mayor; no council members are listed.'
+sources:
+- id: tx/localities/city-of-rio-bravo/elections/2026-11-03/council-place-2/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Webb County Elections'' sample ballot for the November 3, 2026 Joint General and Special Election lists "City of Rio Bravo, City Council Place 2" on page 2, with these candidates: Yanely Picasso; Nora Rivera.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.webbcountytx.gov/DocumentCenter/View/11763/134-01
+  source_title: 'Webb County Elections: Sample Ballot, Precinct 134 01, November 3, 2026 Joint General and Special Election (page 2)'
+  source_kind: document
+  sha256: 71751f7e5bee48c02e296d7584475415bc9afc18faeae93e611ae3e3f949cdbd
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of 128 per-precinct sample ballots on the county's Paper Sample Ballots page (https://www.webbcountytx.gov/714/Paper-Sample-Ballots). Saved in the owner's browser on November 2, 2026 (the county site limits automated downloads). The PDF is a scan with a "SAMPLE BALLOT" watermark; names and wording were read from the page images, kept as printed (English text only).

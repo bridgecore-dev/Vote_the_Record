@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: eduardo-eddie-cantu
 name: Eduardo 'Eddie' Cantú
-incumbent: null
+incumbent: true
 ballot_party: DEM
 records: []
 funding: []

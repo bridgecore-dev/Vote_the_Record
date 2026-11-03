@@ -3,6 +3,7 @@ name: Hays County Judge
 office_type: county-judge
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: the only county page naming the holder is its Federal, State, & County Elected Officials list (updated February 11, 2026), which still lists state officials who no longer hold office.'
 sources:
 - id: tx/localities/hays-county/elections/2026-11-03/county-judge/race#S-01
   headline: Candidates as printed on the sample ballot

@@ -118,6 +118,9 @@ votes and filings as they are recorded.
     voter in them; the page lists them separately with the county's lookup link.
     Generated per county by `src/collectors/states/tx/county_precincts.py --county <slug>`.
   - `localities/<locality>/elections/<YYYY-MM-DD>/<race>/race.yaml` + `candidates/<slug>.yaml`
+  - `<race or measure folder>/result.yaml` — vote counts from an official results report
+    (`status` unofficial → official after the canvass; `outcome` only from the canvass). Shown on
+    `/results/` and the race page; candidates stay alphabetical.
   - `localities/<locality>/actions/<YYYY-MM-DD>.yaml` — official body actions from one
     meeting (what passed), which candidate vote records point to via `same_event`.
   - Localities are flat under the state (a city can span several counties).
@@ -140,6 +143,8 @@ votes and filings as they are recorded.
   `python src/tools/status.py [--check-links]`, `python src/tools/check_rosters.py`,
   `python src/tools/archive.py`, `python src/tools/new_election.py --spec <file>`,
   `python src/collectors/states/tx/tec_finance.py --ballot <ballot.yaml> (--zip <file> | --download)`.
+- Election results (preview first, `--write` to apply): `python src/collectors/results.py --ballot <ballot.yaml>
+  --file <export.csv|json> --source-url URL --source-title TITLE --as-of YYYY-MM-DD [--status official]`
   The weekly `upkeep` workflow posts the same checks to a GitHub issue; it never commits.
 - Owner's review page (verify facts with one click; owner only, never run by Claude): `python src/review/review.py` — see `docs/REVIEWING.md`
 

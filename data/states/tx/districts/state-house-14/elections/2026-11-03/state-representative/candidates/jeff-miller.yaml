@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: jeff-miller
+name: Jeff Miller
+incumbent: false
+ballot_party: LIB
+records: []
+funding:
+- id: tx/districts/state-house-14/elections/2026-11-03/state-representative/candidates/jeff-miller#M-01
+  headline: Raised $100 and had $100 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 14, 2026: $100.00 in total political contributions, $100.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no amount for total political expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101060625.PDF
+  source_title: 'Texas Ethics Commission: Miller, Jeffrey A. (Mr.), campaign finance report 101060625 (filed Jul 14, 2026)'
+  source_kind: document
+  sha256: 516e5b10d66aeb093134cc9690b44c0e0f28033609e277d77c07faf09215c266
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101060625, form COH, TEC report type SEMIJUL; filer ID 00086360 (Miller, Jeffrey A. (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-11-02; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

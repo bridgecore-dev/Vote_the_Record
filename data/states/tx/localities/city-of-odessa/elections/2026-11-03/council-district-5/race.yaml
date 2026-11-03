@@ -1,0 +1,41 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Odessa City Council, District 5
+office_type: city-council-member
+election_date: '2026-11-03'
+detail: basic
+area: city-of-odessa/district-5
+sources:
+- id: tx/localities/city-of-odessa/elections/2026-11-03/council-district-5/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Ector County Elections'' sample ballot for the November 3, 2026 General and City of Odessa Election lists "Council Member, District 5" on page 2, with these candidates: Chris M. Hanie.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ectorcountytx.gov/DocumentCenter/View/3241
+  source_title: 'Ector County Elections: Sample Ballot, Precinct 301, 302, 304, 305, 311.7, November 3, 2026 General and City of Odessa Election (page 2)'
+  source_kind: document
+  sha256: 0fd60f1f5a01ab86b5b40a2c796fe0d3eb332c5dfebfb989533db9eebf17bfbd
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'One of 14 sample ballots on the county''s Elections page (https://www.ectorcountytx.gov/271/Elections); the ballot''s header names its precincts. Saved in the owner''s browser on November 2, 2026 (the county site limits automated downloads). The PDF is a scan: names and wording were read from its text layer and checked against the page images, kept as printed (English only).'
+- id: tx/localities/city-of-odessa/elections/2026-11-03/council-district-5/race#S-HOLDER
+  headline: Who holds this office now
+  statement: The official page (City Council | Odessa, TX), saved from its official website on November 2, 2026, shows that Chris M. Hanie, a candidate in this race, currently holds this seat.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.odessa-tx.gov/670/City-Council
+  source_title: City Council | Odessa, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Read in the owner's browser on November 2, 2026 (the site refuses automated readers or loads its text by script).

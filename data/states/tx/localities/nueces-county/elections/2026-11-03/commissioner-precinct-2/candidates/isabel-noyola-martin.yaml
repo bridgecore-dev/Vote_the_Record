@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: isabel-noyola-martin
 name: Isabel Noyola-Martin
-incumbent: null
+incumbent: false
 ballot_party: DEM
 records: []
 funding: []
