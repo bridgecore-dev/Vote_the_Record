@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import fact_list, verification_badge, source_line, report_link %}
+{% from "partials/result.html" import result_box %}
 {% block title %}{{ measure.name }}{% endblock %}
 {% block description %}The exact ballot wording of {{ measure.name }}, your choices, and what it means, with sources.{% endblock %}
 {% block content %}
@@ -8,6 +9,13 @@
   <h1>{{ measure.name }}</h1>
   <p class="lead">A question for voters, not a candidate race. Here's exactly what the ballot says, and what it means.</p>
 </header>
+
+{% if measure.result %}
+<section id="results" aria-labelledby="results-h">
+  <h2 id="results-h">Results</h2>
+  {{ result_box(measure.result) }}
+</section>
+{% endif %}
 
 <section id="wording" aria-labelledby="wording-h">
   <h2 id="wording-h">What the ballot says</h2>

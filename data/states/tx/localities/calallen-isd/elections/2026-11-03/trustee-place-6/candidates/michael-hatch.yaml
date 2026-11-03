@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: michael-hatch
 name: Michael Hatch
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

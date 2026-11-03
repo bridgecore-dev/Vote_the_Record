@@ -1,0 +1,40 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Justice, 11th Court of Appeals, Place 2
+office_type: court-of-appeals-justice
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/districts/court-of-appeals-11/elections/2026-11-03/place-2/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Ector County Elections'' sample ballot for the November 3, 2026 General and City of Odessa Election lists "Justice, 11th Court of Appeals District, Place 2" on page 2, with these candidates: Bruce Williams (REP).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ectorcountytx.gov/DocumentCenter/View/3234
+  source_title: 'Ector County Elections: Sample Ballot, Precinct 408, November 3, 2026 General and City of Odessa Election (page 2)'
+  source_kind: document
+  sha256: 2ab9ebd32cca5b8b36f069bb3d3bfcbe6653cdc31801ff899c04020e95cbf578
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'One of 14 sample ballots on the county''s Elections page (https://www.ectorcountytx.gov/271/Elections); the ballot''s header names its precincts. Saved in the owner''s browser on November 2, 2026 (the county site limits automated downloads). The PDF is a scan: names and wording were read from its text layer and checked against the page images, kept as printed (English only).'
+- id: tx/districts/court-of-appeals-11/elections/2026-11-03/place-2/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official list (Eleventh Court of Appeals: Justices), checked on November 2, 2026, shows that Bruce Williams, a candidate in this race, currently holds this seat.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/11thcoa/about-the-court/justices/
+  source_title: 'Eleventh Court of Appeals: Justices'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The page lists Justice W. Bruce Williams, Place 2.

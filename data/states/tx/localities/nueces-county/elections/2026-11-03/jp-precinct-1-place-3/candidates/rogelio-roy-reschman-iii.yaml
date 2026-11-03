@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: rogelio-roy-reschman-iii
 name: Rogelio "Roy" Reschman III
-incumbent: null
+incumbent: false
 ballot_party: null
 records: []
 funding: []

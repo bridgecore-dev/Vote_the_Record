@@ -292,7 +292,8 @@ function initBallotPage(payload) {
   function applyPrecinct(text, updateHash, label = "", atPoint = null) {
     const clean = cleanPrecinct(text);
     if (!clean) {
-      status.textContent = "Enter your precinct number as it appears on your voter registration card, or leave it blank and use your ZIP code.";
+      status.textContent = "Enter your precinct number as it appears on your voter registration card" +
+        (input ? ", or leave it blank and use your ZIP code." : ".");
       return;
     }
     const found = racesForPrecinct(payload, clean, atPoint);
@@ -409,14 +410,15 @@ function initBallotPage(payload) {
     event.preventDefault();
     if (addrInput && addrInput.value.trim()) applyAddress(addrInput.value);
     else if (pctInput && pctInput.value.trim()) applyPrecinct(pctInput.value, true);
-    else applyZip(input.value, true);
+    else if (input) applyZip(input.value, true);
+    else applyPrecinct(pctInput ? pctInput.value : "", true);
   });
   if (topicOnly) topicOnly.addEventListener("change", render);
   reset.addEventListener("click", () => {
     showAll();
     status.textContent = "Showing every race on this ballot.";
     history.replaceState(null, "", window.location.pathname);
-    input.focus();
+    (input || pctInput).focus();
   });
 
   const hash = parseHash(window.location.hash);
@@ -435,7 +437,7 @@ function initBallotPage(payload) {
   } else if (hash.precinct && pctInput) {
     pctInput.value = hash.precinct;
     applyPrecinct(hash.precinct, false);
-  } else if (hash.zip) {
+  } else if (hash.zip && input) {
     input.value = hash.zip;
     applyZip(hash.zip, false);
   } else {

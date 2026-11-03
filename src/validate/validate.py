@@ -42,6 +42,7 @@ FILE_KINDS = [
     (re.compile(r"^data/states/[a-z]{2}/localities/[^/]+/elections/\d{4}-\d{2}-\d{2}/precincts\.yaml$"), "precincts"),
     (re.compile(r"^data/states/[a-z]{2}/(statewide|districts/[^/]+|localities/[^/]+)/elections/\d{4}-\d{2}-\d{2}/[^/]+/race\.yaml$"), "race"),
     (re.compile(r"^data/states/[a-z]{2}/(statewide|districts/[^/]+|localities/[^/]+)/elections/\d{4}-\d{2}-\d{2}/[^/]+/measure\.yaml$"), "measure"),
+    (re.compile(r"^data/states/[a-z]{2}/(statewide|districts/[^/]+|localities/[^/]+)/elections/\d{4}-\d{2}-\d{2}/[^/]+/result\.yaml$"), "result"),
     (re.compile(r"^data/states/[a-z]{2}/(statewide|districts/[^/]+|localities/[^/]+)/elections/\d{4}-\d{2}-\d{2}/[^/]+/candidates/[^/]+\.yaml$"), "candidate"),
     (re.compile(r"^data/states/[a-z]{2}/decisions/[^/]+\.yaml$"), "decisions"),
     (re.compile(r"^data/states/[a-z]{2}/who-decides\.yaml$"), "who_decides"),
@@ -85,7 +86,7 @@ def load_validators(schemas_dir: Path) -> dict[str, Draft202012Validator]:
             kind: for_ref(f"urn:vtr:schema:other#/$defs/{kind}")
             for kind in ("race", "actions", "powers", "office_override", "survey",
                          "state", "locality", "corrections", "voter_essentials", "ballot", "zips", "precincts", "measure",
-                         "decisions", "who_decides")
+                         "result", "decisions", "who_decides")
         },
     }
 
@@ -130,7 +131,7 @@ def measure_level(rel: str, doc: dict) -> str:
 
 def iter_facts(kind: str, doc: dict):
     """Yield (section, fact) for every fact-like item that carries a path-based ID."""
-    if kind in ("race", "ballot", "zips", "precincts", "measure"):
+    if kind in ("race", "ballot", "zips", "precincts", "measure", "result"):
         for fact in doc.get("sources") or []:
             yield "sources", fact
         for fact in doc.get("explained") or []:
@@ -449,7 +450,48 @@ def validate(root: Path, schemas_dir: Path | None = None) -> Report:
                     report.error(rel, f"promise_tracker[{i}]: '{ref}' does not exist")
 
     check_decisions_and_issues(root, docs, powers, all_ids, report)
+    check_results(docs, report)
     return report
+
+
+def check_results(docs: dict, report: Report) -> None:
+    """result.yaml: sits beside a race or measure, counts exactly its candidates or choices, and names a sane outcome."""
+    for rel, (kind, doc) in docs.items():
+        if kind != "result" or not isinstance(doc, dict):
+            continue
+        folder = rel.rsplit("/", 1)[0]
+        contest_kind, contest = next(((k, d) for k, d in (docs.get(f"{folder}/race.yaml", (None, None)),
+                                                          docs.get(f"{folder}/measure.yaml", (None, None)))
+                                      if k in ("race", "measure")), (None, None))
+        if not isinstance(contest, dict):
+            report.error(rel, "result.yaml needs a race.yaml or measure.yaml in the same folder")
+            continue
+        if doc.get("election_date") != contest.get("election_date"):
+            report.error(rel, f"election_date must be {contest.get('election_date')} to match the contest")
+        if str(doc.get("as_of", "")) < str(doc.get("election_date", "")):
+            report.error(rel, "as_of may not be earlier than the election")
+        counts = set(doc.get("counts") or {})
+        outcome = doc.get("outcome") or {}
+        named = set(outcome.get("candidates") or [])
+        if contest_kind == "measure":
+            if counts != set(contest.get("choices") or []):
+                report.error(rel, f"counts must list exactly the measure's choices {contest.get('choices')}")
+            if outcome and (outcome.get("result") not in ("passed", "failed") or named):
+                report.error(rel, "outcome: a measure is passed or failed, with no candidates")
+            continue
+        cands = {d.get("id"): d for r, (k, d) in docs.items()
+                 if k == "candidate" and r.startswith(folder + "/candidates/") and isinstance(d, dict)}
+        for cid in sorted(counts - set(cands)):
+            report.error(rel, f"counts: '{cid}' is not a candidate in this race")
+        for cid in sorted(c for c in set(cands) - counts if not cands[c].get("write_in")):
+            report.error(rel, f"counts: candidate '{cid}' is missing")
+        if outcome:
+            if outcome.get("result") not in ("elected", "runoff"):
+                report.error(rel, "outcome: a race is elected or runoff")
+            if not named or named - counts:
+                report.error(rel, "outcome: candidates must name who won or advanced, from counts")
+            if outcome.get("result") == "elected" and len(named) > (contest.get("seats") or 1):
+                report.error(rel, f"outcome: more candidates elected than the race's {contest.get('seats') or 1} seat(s)")
 
 
 def check_decisions_and_issues(root: Path, docs: dict, powers: dict, all_ids: dict, report: Report) -> None:

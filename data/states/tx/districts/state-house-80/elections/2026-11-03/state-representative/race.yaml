@@ -1,0 +1,40 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: State Representative, District 80
+office_type: state-representative
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/districts/state-house-80/elections/2026-11-03/state-representative/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Webb County Elections'' sample ballot for the November 3, 2026 Joint General and Special Election lists "State Representative, District 80" on page 2, with these candidates: Don McLaughlin (REP); Cecilia Castellano (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.webbcountytx.gov/DocumentCenter/View/11765/136-01
+  source_title: 'Webb County Elections: Sample Ballot, Precinct 136 01, November 3, 2026 Joint General and Special Election (page 2)'
+  source_kind: document
+  sha256: 5b736978e598f2a8ee747c19817e1d46a9a0eddb621ba2502d67f34fdd774e03
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of 128 per-precinct sample ballots on the county's Paper Sample Ballots page (https://www.webbcountytx.gov/714/Paper-Sample-Ballots). Saved in the owner's browser on November 2, 2026 (the county site limits automated downloads). The PDF is a scan with a "SAMPLE BALLOT" watermark; names and wording were read from the page images, kept as printed (English text only).
+- id: tx/districts/state-house-80/elections/2026-11-03/state-representative/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official list (Texas Legislature Online: Member Information, Don McLaughlin, 89th Legislature), checked on November 2, 2026, shows that Don McLaughlin, a candidate in this race, currently holds this seat. It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4655
+  source_title: 'Texas Legislature Online: Member Information, Don McLaughlin, 89th Legislature'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The member page gives District 80.

@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: tom-w-brummett
 name: Tom W. Brummett
-incumbent: null
+incumbent: true
 ballot_party: REP
 records: []
 funding: []

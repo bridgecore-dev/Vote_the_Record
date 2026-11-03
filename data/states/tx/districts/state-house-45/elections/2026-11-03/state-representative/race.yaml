@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: Linked from the county's November 3, 2026 General Election page (https://www.hayscountytx.gov/873/November-3-2026-General-Election); it says it contains all contests and propositions on any Hays County ballot. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/districts/state-house-45/elections/2026-11-03/state-representative/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official list (Texas Legislature Online: Member Information, Erin Zwiener, 89th Legislature), checked on November 2, 2026, shows that Erin Zwiener, a candidate in this race, currently holds this seat. It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3710
+  source_title: 'Texas Legislature Online: Member Information, Erin Zwiener, 89th Legislature'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The member page gives District 45.

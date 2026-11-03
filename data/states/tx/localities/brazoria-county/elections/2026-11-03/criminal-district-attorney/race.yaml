@@ -3,6 +3,7 @@ name: Brazoria County Criminal District Attorney
 office_type: criminal-district-attorney
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: the county''s list of elected officials names a District Attorney, not a Criminal District Attorney.'
 sources:
 - id: tx/localities/brazoria-county/elections/2026-11-03/criminal-district-attorney/race#S-01
   headline: Candidates as printed on the sample ballot

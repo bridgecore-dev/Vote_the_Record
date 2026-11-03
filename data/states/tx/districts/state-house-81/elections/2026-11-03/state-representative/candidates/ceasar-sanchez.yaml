@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: ceasar-sanchez
+name: Ceasar Sanchez
+incumbent: false
+ballot_party: DEM
+records: []
+funding:
+- id: tx/districts/state-house-81/elections/2026-11-03/state-representative/candidates/ceasar-sanchez#M-01
+  headline: Raised $319 and had $161 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 15, 2026: $319.17 in total political contributions, $161.44 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no amount for total political expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101061024.PDF
+  source_title: 'Texas Ethics Commission: Sanchez, Ceasar (Mr.), campaign finance report 101061024 (filed Jul 15, 2026)'
+  source_kind: document
+  sha256: 8bf581f5798ad6b6b03c899c9bc777fde00ad316acb6384569f868b98f086c5d
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101061024, form COH, TEC report type SEMIJUL; filer ID 00090303 (Sanchez, Ceasar (Mr.)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-11-02; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: One of 13 ballot-style sample ballots posted on the county's sample ballot page (https://votelubbock.gov/november-2026-general-and-special-election-sample-ballots/), each listing the precincts it covers. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/lubbock-county/elections/2026-11-03/county-judge/race#S-HOLDER
+  headline: Who holds this office now
+  statement: The county's official page (County Judge / Lubbock County, Texas), saved from the county's website on November 2, 2026, shows that Curtis Parrish, a candidate in this race, currently holds this seat.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.lubbockcounty.gov/department/division.php?structureid=70
+  source_title: County Judge / Lubbock County, Texas
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Read in the owner's browser on November 2, 2026 (the county site refuses automated readers).

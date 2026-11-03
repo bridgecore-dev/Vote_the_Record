@@ -3,6 +3,7 @@ name: Robstown ISD Trustee, Place 7
 office_type: school-trustee
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: The district''s biography page does not give place numbers for trustees.'
 sources:
 - id: tx/localities/robstown-isd/elections/2026-11-03/trustee-place-7/race#S-01
   headline: Candidates as printed on the sample ballot

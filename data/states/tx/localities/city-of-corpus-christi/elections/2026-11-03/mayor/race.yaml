@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: One of the county clerk's precinct sample ballots linked from its November 3, 2026 sample ballot page (https://www.nuecesco.com/county-services/county-clerk/sample-ballot-1126-precinct). Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only). The PDF's own link was not recorded when it was saved, so the page is cited; the file is identified by its SHA-256 hash.
+- id: tx/localities/city-of-corpus-christi/elections/2026-11-03/mayor/race#S-HOLDER
+  headline: Who holds this office now
+  statement: The official page (Mayor's Office | City of Corpus Christi), saved from its official website on November 2, 2026, shows that Paulette M. Guajardo, a candidate in this race, currently holds this seat. It does not list the other candidates as holding this office.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.corpuschristitx.gov/our-government/mayor-and-council/mayor-s-office/
+  source_title: Mayor's Office | City of Corpus Christi
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Read in the owner's browser on November 2, 2026 (the site refuses automated readers or loads its text by script).

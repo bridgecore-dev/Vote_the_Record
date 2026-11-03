@@ -1,0 +1,41 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Constable, Precinct 4
+office_type: constable
+election_date: '2026-11-03'
+detail: basic
+area: brazos-county/jp-4
+sources:
+- id: tx/localities/brazos-county/elections/2026-11-03/constable-precinct-4/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Brazos County Elections'' sample ballot for the November 3, 2026 General and Special Elections lists "COUNTY CONSTABLE PRECINCT 4" on page 2, with these candidates: Guadalupe “Lupe” Arredondo (REP); Hezekiah Carter, Jr (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf
+  source_title: 'Brazos County Elections: Sample Ballot, 2026 General/Special Election, Brazos County, City of Bryan, Bryan ISD, City of College Station, College Station ISD, Navasota ISD, November 3, 2026 (page 2)'
+  source_kind: document
+  sha256: c33ea3b6cf478068373ff8329dfa34754a56dab4ab09255f4cac0e32f6830104
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted on the Brazos County Elections site. Saved in the owner's browser on November 2, 2026 (the site refuses automated readers). One ballot listing every contest in the county; names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/brazos-county/elections/2026-11-03/constable-precinct-4/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The county''s official page (Constable: Precinct 4 – Brazos County, TX – Official Website), saved from the county''s website on November 2, 2026, shows that Hezekiah Carter, Jr, a candidate in this race, currently holds this seat. It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://brazoscountytx.gov/constables/constable-precinct-4/
+  source_title: 'Constable: Precinct 4 – Brazos County, TX – Official Website'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Read in the owner's browser on November 2, 2026 (the county site refuses automated readers).

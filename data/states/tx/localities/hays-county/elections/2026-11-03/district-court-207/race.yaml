@@ -3,6 +3,7 @@ name: District Judge, 207th Judicial District
 office_type: district-judge
 election_date: '2026-11-03'
 detail: basic
+notes: 'The Hays County sample ballot prints this candidate''s name as "Tracy Wright Reneau"; the Comal County sample ballot prints "Tracie Wright Reneau". The Texas Ethics Commission campaign finance report cited on this page lists the filer as "Wright-Reneau, Tracie L.". Incumbent status not confirmed: the only county page naming the holder is its Federal, State, & County Elected Officials list (updated February 11, 2026), which still lists state officials who no longer hold office.'
 sources:
 - id: tx/localities/hays-county/elections/2026-11-03/district-court-207/race#S-01
   headline: Candidates as printed on the sample ballot

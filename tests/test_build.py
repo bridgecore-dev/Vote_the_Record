@@ -842,3 +842,38 @@ def test_quiz_asks_only_scenarios_written_for_the_state_whose_powers_apply(tmp_p
     q1, q2 = '"id":"county-commissioner/S-01"', '"id":"county-commissioner/S-02"'
     assert q1 in tx and q1 not in wa
     assert q2 not in tx and q2 not in wa
+
+
+RESULTS_PAGE = "results/tx/demo-county/2026-11-03/index.html"
+
+
+def test_results_pages_list_counts_in_page_order_and_mark_status(demo_site):
+    index = (demo_site / "results/index.html").read_text(encoding="utf-8")
+    assert "/results/tx/demo-county/2026-11-03/" in index
+    html = (demo_site / RESULTS_PAGE).read_text(encoding="utf-8")
+    assert "3 of 8 contests reported, 1 official" in html
+    assert "Unofficial" in html and "Official" in html and "Partial count:" in html
+    # candidates stay alphabetical, never sorted by votes
+    assert html.index("Avery Example") < html.index("Blake Sample") < html.index("Casey Placeholder")
+    assert html.count(">Elected<") == 1
+    assert "Results not posted yet." in html
+
+
+def test_race_page_shows_its_result_with_sources(demo_site):
+    html = (demo_site / RACE_PAGE).read_text(encoding="utf-8")
+    assert 'id="results"' in html and "41,210" in html and "DEMO County: Official Canvass Report" in html
+
+
+def test_results_link_appears_in_nav_only_with_results(demo_site, tmp_path):
+    assert 'href="/results/"' in (demo_site / "index.html").read_text(encoding="utf-8")
+
+
+def test_home_links_results_once_there_are_any(demo_site):
+    html = (demo_site / "index.html").read_text(encoding="utf-8")
+    assert 'id="results-note-h"' in html and '<a href="/results/">See the results</a>' in html
+
+
+def test_precinct_lookup_shows_for_a_county_with_precincts_but_no_zip_codes(real_site):
+    html = (real_site / "ballot/tx/webb-county/2026-11-03/index.html").read_text(encoding="utf-8")
+    assert 'id="zip-form"' in html and 'id="precinct"' in html and 'id="zip"' not in html
+    assert html.count('id="zip-reset"') == 1 and html.count('Show my races') == 1

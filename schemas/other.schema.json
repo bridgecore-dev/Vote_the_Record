@@ -77,6 +77,39 @@
         "notes": { "type": "string" }
       }
     },
+    "result": {
+      "description": "Vote counts for one race or measure, as an official results report states them (result.yaml beside race.yaml or measure.yaml). Unofficial counts are replaced by the official canvass; the outcome is recorded only from an official canvass.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["election_date", "status", "as_of", "covers", "counts", "sources"],
+      "properties": {
+        "election_date": { "$ref": "urn:vtr:schema:fact#/$defs/date" },
+        "status": { "enum": ["unofficial", "official"], "description": "official = the canvassed result." },
+        "as_of": { "$ref": "urn:vtr:schema:fact#/$defs/date", "description": "Date of the results report the counts come from." },
+        "covers": { "enum": ["whole", "partial"], "description": "partial = the report counts only part of the contest's voters (e.g. one county of a district)." },
+        "covers_note": { "type": "string", "minLength": 1, "description": "Which voters a partial report covers, in plain words." },
+        "counts": {
+          "description": "Votes for each candidate (by candidate id) or each measure choice (exactly as printed).",
+          "type": "object", "minProperties": 1, "additionalProperties": { "type": "integer", "minimum": 0 }
+        },
+        "other_votes": { "type": "integer", "minimum": 0, "description": "Votes the report counts without naming a listed candidate (e.g. write-ins as one total)." },
+        "outcome": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["result"],
+          "properties": {
+            "result": { "enum": ["elected", "runoff", "passed", "failed"] },
+            "candidates": { "type": "array", "uniqueItems": true, "items": { "type": "string", "minLength": 1 }, "description": "Who was elected or goes to the runoff (candidate ids)." }
+          }
+        },
+        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "urn:vtr:schema:fact" } },
+        "notes": { "type": "string" }
+      },
+      "allOf": [
+        { "if": { "properties": { "covers": { "const": "partial" } } }, "then": { "required": ["covers_note"] } },
+        { "if": { "required": ["outcome"] }, "then": { "properties": { "status": { "const": "official" } } } }
+      ]
+    },
     "everywhere": {
       "description": "Areas that apply to every ZIP code or precinct in the file (e.g. a court of appeals district that covers the whole county).",
       "type": "array", "uniqueItems": true, "items": { "$ref": "#/$defs/area" }

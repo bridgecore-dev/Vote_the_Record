@@ -1,0 +1,25 @@
+# DEMO: fictional results for testing the results pages.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: partial
+covers_note: Votes counted in Demo County only; the district also covers other counties.
+counts:
+  gale-generic: 20311
+  harper-hypothetical: 22870
+sources:
+- id: tx/districts/us-house-2/elections/2026-11-03/us-representative/result#S-01
+  statement: 'DEMO: The county election-night results report lists these vote counts.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://example.org/demo-county/results
+  source_title: 'DEMO County: Election Night Results'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

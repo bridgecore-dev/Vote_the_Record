@@ -4,7 +4,7 @@ office_type: school-trustee
 election_date: '2026-11-03'
 detail: basic
 seats: 4
-notes: 'The ballot says: "Vote for None, One, Two, Three or Four".'
+notes: 'The ballot says: "Vote for None, One, Two, Three or Four". Incumbent status not confirmed: The district''s page lists board members but no seat numbers or term dates, so it does not show which four seats are on this ballot.'
 sources:
 - id: tx/localities/london-isd/elections/2026-11-03/trustees-at-large/race#S-01
   headline: Candidates as printed on the sample ballot

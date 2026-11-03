@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: carlos-townsend-sr
 name: Carlos Townsend, Sr
-incumbent: null
+incumbent: false
 ballot_party: DEM
 records: []
 funding: []

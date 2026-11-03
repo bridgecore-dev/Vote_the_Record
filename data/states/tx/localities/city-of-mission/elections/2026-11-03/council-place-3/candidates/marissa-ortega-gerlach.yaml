@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: marissa-ortega-gerlach
 name: Marissa Ortega Gerlach
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

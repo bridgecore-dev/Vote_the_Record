@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: One of 64 ballot-style sample ballots on the county's 2026 General Election sample ballot page (https://www.hidalgocounty.us/3522/Sample-Ballots-2026-General-Election); the county's Ballot Style Legend gives the precincts for each style. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/city-of-progreso/elections/2026-11-03/mayor/race#S-HOLDER
+  headline: Who holds this office now
+  statement: The official page (City Officials | City of Progreso), saved from its official website on November 2, 2026, shows that Hugo Gamboa, a candidate in this race, currently holds this seat. It does not list the other candidates as holding this office.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://cityofprogreso.com/city-officials/
+  source_title: City Officials | City of Progreso
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Read in the owner's browser on November 2, 2026 (the site refuses automated readers or loads its text by script).

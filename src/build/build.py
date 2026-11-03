@@ -173,6 +173,7 @@ def build(root: Path, out: Path, *, demo: bool = False, config_path: Path | None
     today = today or dt.date.today().isoformat()
     site = load_site(root, today)
     env = make_env(config, demo)
+    env.globals["has_results"] = bool(site["results"])
     pages = {
         "/": env.get_template("home.html").render(site=site, page="home"),
         "/methodology/": env.get_template("methodology.html").render(
@@ -189,6 +190,10 @@ def build(root: Path, out: Path, *, demo: bool = False, config_path: Path | None
         ballot["payload"]["topicLabels"] = config.get("topics") or {}
         ballot["payload"]["formUrl"] = config.get("corrections_form_url")
         pages[ballot["url"]] = ballot_template.render(ballot=ballot, page="ballot")
+    pages["/results/"] = env.get_template("results.html").render(site=site, page="results")
+    results_template = env.get_template("results_ballot.html")
+    for ballot in site["results"]:
+        pages[ballot["url"]] = results_template.render(ballot=ballot, page="results")
     measure_template = env.get_template("measure.html")
     for measure in site["measures"]:
         pages[measure["url"]] = measure_template.render(measure=measure, page="measure")

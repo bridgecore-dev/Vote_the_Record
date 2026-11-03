@@ -1,0 +1,79 @@
+# Contests on this ballot, in ballot order. complete: false until every contest is added.
+name: Brazos County ballot
+election_date: '2026-11-03'
+lookup_url: https://elections.brazoscountytx.gov/
+complete: true
+sources:
+- id: tx/localities/brazos-county/elections/2026-11-03/ballot#S-01
+  headline: Every contest on the sample ballot
+  statement: The Brazos County Elections' sample ballot for the November 3, 2026 General and Special Elections lists every contest on this ballot.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf
+  source_title: 'Brazos County Elections: Sample Ballot, 2026 General/Special Election, Brazos County, City of Bryan, Bryan ISD, City of College Station, College Station ISD, Navasota ISD, November 3, 2026'
+  source_kind: document
+  sha256: c33ea3b6cf478068373ff8329dfa34754a56dab4ab09255f4cac0e32f6830104
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Posted on the Brazos County Elections site. Saved in the owner's browser on November 2, 2026 (the site refuses automated readers). One ballot listing every contest in the county; names and wording are from the PDF's text layer, kept as printed (English text only).
+contests:
+- tx/statewide/elections/2026-11-03/us-senate
+- tx/districts/us-house-10/elections/2026-11-03/us-representative
+- tx/statewide/elections/2026-11-03/governor
+- tx/statewide/elections/2026-11-03/lieutenant-governor
+- tx/statewide/elections/2026-11-03/attorney-general
+- tx/statewide/elections/2026-11-03/comptroller
+- tx/statewide/elections/2026-11-03/land-commissioner
+- tx/statewide/elections/2026-11-03/agriculture-commissioner
+- tx/statewide/elections/2026-11-03/railroad-commissioner
+- tx/statewide/elections/2026-11-03/supreme-court-chief-justice
+- tx/statewide/elections/2026-11-03/supreme-court-place-2
+- tx/statewide/elections/2026-11-03/supreme-court-place-7
+- tx/statewide/elections/2026-11-03/supreme-court-place-8
+- tx/statewide/elections/2026-11-03/cca-place-3
+- tx/statewide/elections/2026-11-03/cca-place-4
+- tx/statewide/elections/2026-11-03/cca-place-9
+- tx/districts/state-senate-5/elections/2026-11-03/state-senator
+- tx/districts/state-house-12/elections/2026-11-03/state-representative
+- tx/districts/state-house-14/elections/2026-11-03/state-representative
+- tx/districts/court-of-appeals-15/elections/2026-11-03/chief-justice
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-2
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-3
+- tx/districts/court-of-appeals-10/elections/2026-11-03/place-2
+- tx/localities/brazos-county/elections/2026-11-03/district-court-85
+- tx/localities/brazos-county/elections/2026-11-03/district-court-361
+- tx/localities/brazos-county/elections/2026-11-03/county-judge
+- tx/localities/brazos-county/elections/2026-11-03/county-court-at-law-1
+- tx/localities/brazos-county/elections/2026-11-03/county-court-at-law-2
+- tx/localities/brazos-county/elections/2026-11-03/district-clerk
+- tx/localities/brazos-county/elections/2026-11-03/county-clerk
+- tx/localities/brazos-county/elections/2026-11-03/county-treasurer
+- tx/localities/brazos-county/elections/2026-11-03/commissioner-precinct-2
+- tx/localities/brazos-county/elections/2026-11-03/commissioner-precinct-4
+- tx/localities/brazos-county/elections/2026-11-03/jp-precinct-1
+- tx/localities/brazos-county/elections/2026-11-03/jp-precinct-2
+- tx/localities/brazos-county/elections/2026-11-03/jp-precinct-3
+- tx/localities/brazos-county/elections/2026-11-03/jp-precinct-4
+- tx/localities/brazos-county/elections/2026-11-03/constable-precinct-1
+- tx/localities/brazos-county/elections/2026-11-03/constable-precinct-2
+- tx/localities/brazos-county/elections/2026-11-03/constable-precinct-3
+- tx/localities/brazos-county/elections/2026-11-03/constable-precinct-4
+- tx/localities/city-of-bryan/elections/2026-11-03/mayor
+- tx/localities/city-of-bryan/elections/2026-11-03/council-district-1
+- tx/localities/city-of-bryan/elections/2026-11-03/council-district-2
+- tx/localities/city-of-bryan/elections/2026-11-03/proposition-a
+- tx/localities/bryan-isd/elections/2026-11-03/trustee-district-2
+- tx/localities/bryan-isd/elections/2026-11-03/trustee-place-6
+- tx/localities/bryan-isd/elections/2026-11-03/proposition-a
+- tx/localities/city-of-college-station/elections/2026-11-03/mayor
+- tx/localities/city-of-college-station/elections/2026-11-03/council-place-1
+- tx/localities/city-of-college-station/elections/2026-11-03/council-place-2
+- tx/localities/city-of-college-station/elections/2026-11-03/council-place-5-unexpired
+- tx/localities/college-station-isd/elections/2026-11-03/trustee-place-6
+- tx/localities/college-station-isd/elections/2026-11-03/trustee-place-7
+- tx/localities/navasota-isd/elections/2026-11-03/proposition-a

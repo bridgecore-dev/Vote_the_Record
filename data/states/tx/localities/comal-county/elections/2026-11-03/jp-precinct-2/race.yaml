@@ -4,6 +4,7 @@ office_type: justice-of-the-peace
 election_date: '2026-11-03'
 detail: basic
 area: comal-county/jp-2
+notes: 'Incumbent status not confirmed: The elected-officials page lists JP judges without precinct numbers, and the JP #2 page names no judge.'
 sources:
 - id: tx/localities/comal-county/elections/2026-11-03/jp-precinct-2/race#S-01
   headline: Candidates as printed on the sample ballot

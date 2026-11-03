@@ -1,0 +1,40 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: State Representative, District 81
+office_type: state-representative
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/districts/state-house-81/elections/2026-11-03/state-representative/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Ector County Elections'' sample ballot for the November 3, 2026 General and City of Odessa Election lists "State Representative, District 81" on page 1, with these candidates: Brooks Landgraf (REP); Ceasar Sanchez (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ectorcountytx.gov/DocumentCenter/View/3234
+  source_title: 'Ector County Elections: Sample Ballot, Precinct 408, November 3, 2026 General and City of Odessa Election (page 1)'
+  source_kind: document
+  sha256: 2ab9ebd32cca5b8b36f069bb3d3bfcbe6653cdc31801ff899c04020e95cbf578
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'One of 14 sample ballots on the county''s Elections page (https://www.ectorcountytx.gov/271/Elections); the ballot''s header names its precincts. Saved in the owner''s browser on November 2, 2026 (the county site limits automated downloads). The PDF is a scan: names and wording were read from its text layer and checked against the page images, kept as printed (English only).'
+- id: tx/districts/state-house-81/elections/2026-11-03/state-representative/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official list (Texas Legislature Online: Member Information, Brooks Landgraf, 89th Legislature), checked on November 2, 2026, shows that Brooks Landgraf, a candidate in this race, currently holds this seat. It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3040
+  source_title: 'Texas Legislature Online: Member Information, Brooks Landgraf, 89th Legislature'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The member page gives District 81.

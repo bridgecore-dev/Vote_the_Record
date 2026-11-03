@@ -1,0 +1,29 @@
+# DEMO: fictional results for testing the results pages.
+election_date: '2026-11-03'
+status: official
+as_of: '2026-11-14'
+covers: whole
+counts:
+  avery-example: 41210
+  blake-sample: 38750
+  casey-placeholder: 9120
+other_votes: 215
+outcome:
+  result: elected
+  candidates: [avery-example]
+sources:
+- id: tx/localities/demo-county/elections/2026-11-03/commissioner-precinct-9/result#S-01
+  statement: 'DEMO: The canvassed results report lists these vote counts.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://example.org/demo-county/canvass.pdf
+  source_title: 'DEMO County: Official Canvass Report'
+  source_kind: document
+  sha256: '0000000000000000000000000000000000000000000000000000000000000000'
+  archive_url: null
+  event_date: '2026-11-14'
+  retrieved: '2026-11-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null

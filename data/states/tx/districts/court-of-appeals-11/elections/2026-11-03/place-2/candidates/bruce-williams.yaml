@@ -1,0 +1,31 @@
+# Basic race: name and ballot label as printed on the sample ballot. Unverified.
+id: bruce-williams
+name: Bruce Williams
+incumbent: true
+ballot_party: REP
+records: []
+funding:
+- id: tx/districts/court-of-appeals-11/elections/2026-11-03/place-2/candidates/bruce-williams#M-01
+  headline: Raised $0 and had $5,264 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 1, 2026: $0.00 in total political contributions, $0.00 in total political expenditures, $5,263.93 in contributions on hand at the end of the period, and $1,875.00 in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101056406.PDF
+  source_title: 'Texas Ethics Commission: Williams, W. Bruce (The Honorable), campaign finance report 101056406 (filed Jul 1, 2026)'
+  source_kind: document
+  sha256: 4090f923c986e4f452afcb51fd0b6052cff1698cb9088cb3a2e25395b795454c
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101056406, form JCOH, TEC report type SEMIJUL; filer ID 00084117 (Williams, W. Bruce (The Honorable)). Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-11-02; a correction filed later replaces the version it corrects.
+endorsements: []
+running_on:
+  policy_proposals: []
+  attack_messaging: []
+  contested_claims: []
+mappings: []
+promise_tracker: []

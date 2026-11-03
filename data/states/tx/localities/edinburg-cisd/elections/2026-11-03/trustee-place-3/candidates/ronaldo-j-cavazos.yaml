@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: ronaldo-j-cavazos
 name: Ronaldo J. Cavazos
-incumbent: null
+incumbent: false
 ballot_party: null
 records: []
 funding: []

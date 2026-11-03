@@ -3,6 +3,7 @@ name: La Joya ISD Trustee, Place 1
 office_type: school-trustee
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: The district''s page lists board members and officer roles but no place numbers.'
 sources:
 - id: tx/localities/la-joya-isd/elections/2026-11-03/trustee-place-1/race#S-01
   headline: Candidates as printed on the sample ballot

@@ -1,0 +1,24 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Judge, Webb County Court at Law No. 1
+office_type: county-court-at-law-judge
+election_date: '2026-11-03'
+detail: basic
+notes: 'Incumbent status not confirmed: County Court at Law I page has no text beyond the heading.'
+sources:
+- id: tx/localities/webb-county/elections/2026-11-03/county-court-at-law-1/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Webb County Elections'' sample ballot for the November 3, 2026 Joint General and Special Election lists "Judge, County Court at Law No. 1" on page 2, with these candidates: Leticia Martinez Mendoza (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.webbcountytx.gov/DocumentCenter/View/11760/231-02
+  source_title: 'Webb County Elections: Sample Ballot, Precinct 231 02, November 3, 2026 Joint General and Special Election (page 2)'
+  source_kind: document
+  sha256: 752065cb6f52b621fbf0ce3bb818a53442e6c67c70d6ebf37af47df2c044e35e
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of 128 per-precinct sample ballots on the county's Paper Sample Ballots page (https://www.webbcountytx.gov/714/Paper-Sample-Ballots). Saved in the owner's browser on November 2, 2026 (the county site limits automated downloads). The PDF is a scan with a "SAMPLE BALLOT" watermark; names and wording were read from the page images, kept as printed (English text only).

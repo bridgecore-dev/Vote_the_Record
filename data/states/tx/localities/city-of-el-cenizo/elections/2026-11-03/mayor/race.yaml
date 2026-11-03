@@ -1,0 +1,24 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: El Cenizo Mayor
+office_type: mayor
+election_date: '2026-11-03'
+detail: basic
+notes: 'On the only sample ballot that lists this contest (precinct 135, split 01), the "SAMPLE BALLOT" watermark crosses parts of "Juany A. Gomez (Jannie)" and "Carina Hernandez"; the names were read from the page image as shown and still need checking against the city''s candidate list. Incumbent status not confirmed: The saved Government page describes the offices but names no officeholders.'
+sources:
+- id: tx/localities/city-of-el-cenizo/elections/2026-11-03/mayor/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Webb County Elections'' sample ballot for the November 3, 2026 Joint General and Special Election lists "City of El Cenizo, Mayor" on page 2, with these candidates: Juany A. Gomez (Jannie); Carina Hernandez.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.webbcountytx.gov/DocumentCenter/View/11764/135-01
+  source_title: 'Webb County Elections: Sample Ballot, Precinct 135 01, November 3, 2026 Joint General and Special Election (page 2)'
+  source_kind: document
+  sha256: 502fab2adc4dd28d0a7b881c4445f6b4d711d69209e9893d58e6fdb60e933559
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: One of 128 per-precinct sample ballots on the county's Paper Sample Ballots page (https://www.webbcountytx.gov/714/Paper-Sample-Ballots). Saved in the owner's browser on November 2, 2026 (the county site limits automated downloads). The PDF is a scan with a "SAMPLE BALLOT" watermark; names and wording were read from the page images, kept as printed (English text only).

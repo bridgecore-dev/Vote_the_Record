@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: One of 89 precinct sample ballots in the Brazoria County Clerk's sample ballot folder (https://www.brazoriacountyclerktx.gov/departments/elections/sample-ballots/-folder-1389). Saved in the owner's browser on November 2, 2026 (the clerk's site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/brazoria-county/elections/2026-11-03/district-court-149/race#S-HOLDER
+  headline: Who holds this office now
+  statement: The county's official page (2026 ELECTED OFFICIALS-COUNTY-STATE-FEDERAL), saved from the county's website on November 2, 2026, shows that Jessica Pulcher, a candidate in this race, currently holds this seat.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.brazoriacountytx.gov/home/showpublisheddocument/18540/639244740948270000
+  source_title: 2026 ELECTED OFFICIALS-COUNTY-STATE-FEDERAL
+  source_kind: document
+  sha256: a45c05d1cd9d30a9c548b295f3dbf86427b49629b57ad4fcf8a5942cc07b8a27
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Read in the owner's browser on November 2, 2026 (the county site refuses automated readers).

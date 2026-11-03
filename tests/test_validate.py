@@ -496,3 +496,68 @@ def test_power_topics_must_come_from_the_topic_list(tmp_path):
     doc["powers"][0]["topics"] = ["hot-button-issue"]
     powers.write_text(yaml.safe_dump(doc, sort_keys=False), encoding="utf-8")
     assert validate(tmp_path).errors != []
+
+
+# ---- Election results (result.yaml beside a race) ----
+RESULT_REL = f"{RACE_DIR}/result.yaml"
+RESULT_PREFIX = "tx/localities/test-county/elections/2026-11-03/test-race/result"
+
+
+def result(**overrides):
+    doc = {
+        "election_date": "2026-11-03", "status": "unofficial", "as_of": "2026-11-04", "covers": "whole",
+        "counts": {"pat-doe": 100},
+        "sources": [{**FACT, "id": f"{RESULT_PREFIX}#S-01", "record_type": None, "same_event": None}],
+    }
+    for key in ("record_type", "same_event"):
+        doc["sources"][0].pop(key)
+    doc.update(overrides)
+    return doc
+
+
+def build_with_result(tmp_path, doc):
+    build(tmp_path)
+    path = tmp_path / RESULT_REL
+    path.write_text(yaml.safe_dump(doc, sort_keys=False), encoding="utf-8")
+    return validate(tmp_path).errors
+
+
+def test_valid_result_passes(tmp_path):
+    assert build_with_result(tmp_path, result()) == []
+
+
+def test_official_result_with_outcome_passes(tmp_path):
+    doc = result(status="official", outcome={"result": "elected", "candidates": ["pat-doe"]})
+    assert build_with_result(tmp_path, doc) == []
+
+
+def test_outcome_on_unofficial_result_fails(tmp_path):
+    errors = build_with_result(tmp_path, result(outcome={"result": "elected", "candidates": ["pat-doe"]}))
+    assert any("official" in e for e in errors)
+
+
+def test_result_counting_an_unknown_candidate_fails(tmp_path):
+    errors = build_with_result(tmp_path, result(counts={"pat-doe": 1, "someone-else": 2}))
+    assert any("'someone-else' is not a candidate" in e for e in errors)
+
+
+def test_result_missing_a_candidate_fails(tmp_path):
+    errors = build_with_result(tmp_path, result(counts={}))
+    assert errors
+
+
+def test_partial_result_needs_a_note(tmp_path):
+    errors = build_with_result(tmp_path, result(covers="partial"))
+    assert any("covers_note" in e for e in errors)
+
+
+def test_measure_outcome_on_a_race_fails(tmp_path):
+    errors = build_with_result(tmp_path, result(status="official", outcome={"result": "passed"}))
+    assert any("elected or runoff" in e for e in errors)
+
+
+def test_result_id_must_match_its_path(tmp_path):
+    doc = result()
+    doc["sources"][0]["id"] = "tx/elsewhere/result#S-01"
+    errors = build_with_result(tmp_path, doc)
+    assert any("path-based" in e for e in errors)

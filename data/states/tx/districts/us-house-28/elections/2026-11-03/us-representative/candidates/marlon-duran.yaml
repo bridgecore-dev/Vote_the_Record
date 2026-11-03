@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: marlon-duran
 name: Marlón Durán
-incumbent: null
+incumbent: false
 ballot_party: GRN
 records: []
 funding: []

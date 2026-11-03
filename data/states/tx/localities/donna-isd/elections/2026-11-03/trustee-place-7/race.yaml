@@ -3,6 +3,7 @@ name: Donna ISD Trustee, Place 7
 office_type: school-trustee
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: The district''s page shows the board only as an image, without place numbers.'
 sources:
 - id: tx/localities/donna-isd/elections/2026-11-03/trustee-place-7/race#S-01
   headline: Candidates as printed on the sample ballot

@@ -30,8 +30,13 @@ def load_yaml(path: Path):
     return yaml.load(path.read_text(encoding="utf-8"), Loader=_NoDateLoader)
 
 
+SMALL_WORDS = {"of", "the", "and", "at", "on", "in", "for"}
+
+
 def title_from_slug(slug: str) -> str:
-    return " ".join(word.capitalize() for word in slug.split("-"))
+    """'city-of-odessa' -> 'City of Odessa'."""
+    words = slug.split("-")
+    return " ".join(w if i and w in SMALL_WORDS else w.capitalize() for i, w in enumerate(words))
 
 
 def load_docs(root: Path) -> dict[str, tuple[str, object]]:
@@ -204,7 +209,14 @@ def load_site(root: Path, today: str) -> dict:
     for race in races:
         race.update(assemble_race(docs, race, facts))
 
+    for contest in races + measures:
+        result = docs.get(contest["rel"].rsplit("/", 1)[0] + "/result.yaml", (None, None))[1]
+        contest["result"] = assemble_result(result, contest) if result else None
+
     races_by_path = {r["path"]: r for r in races + measures}
+    results = [assemble_results_ballot(assemble_ballot(docs, rel, doc, races_by_path))
+               for rel, (kind, doc) in docs.items() if kind == "ballot"]
+    results = sorted((b for b in results if b["reported"]), key=lambda b: (b["election_date"], b["state"], b["name"].casefold()))
     ballots = [assemble_ballot(docs, rel, doc, races_by_path, root)
                for rel, (kind, doc) in docs.items() if kind == "ballot" and doc["election_date"] >= today]
     ballots.sort(key=lambda b: (b["election_date"], b["state"], b["name"].casefold()))
@@ -219,8 +231,53 @@ def load_site(root: Path, today: str) -> dict:
             zip_index.setdefault(zip_code, []).append({"name": b["name"], "url": b["url"]})
 
     return {"races": races, "measures": measures, "essentials": essentials, "corrections": corrections,
-            "ballots": ballots, "other_races": [r for r in races if r["path"] not in on_ballot],
+            "ballots": ballots, "results": results, "other_races": [r for r in races if r["path"] not in on_ballot],
             "zip_index": zip_index, "county_index": county_index, "who_decides": load_who_decides(docs)}
+
+
+OUTCOME_WORDS = {"elected": "Elected", "runoff": "Runoff", "passed": "Passed", "failed": "Failed"}
+
+
+def assemble_result(doc: dict, contest: dict) -> dict:
+    """Vote counts for one contest, in the page's usual order (candidates alphabetical, choices as printed).
+
+    Percentages are of every vote the report counts, write-ins included. Nothing is ranked or
+    called a winner here: the outcome comes only from an official canvass (result.yaml outcome).
+    """
+    counts = doc["counts"]
+    other = doc.get("other_votes") or 0
+    total = sum(counts.values()) + other
+    outcome = doc.get("outcome") or {}
+    named = set(outcome.get("candidates") or [])
+
+    def row(key, label):
+        votes = counts[key]
+        return {"key": key, "label": label, "votes": votes, "pct": round(100 * votes / total, 1) if total else 0.0,
+                "outcome": OUTCOME_WORDS[outcome["result"]] if key in named else None}
+
+    if contest["kind"] == "measure":
+        rows = [row(c, c) for c in contest["choices"]]
+        decided = OUTCOME_WORDS[outcome["result"]] if outcome else None
+    else:
+        rows = [row(c["id"], c["name"]) for c in contest["candidates"] if c["id"] in counts]
+        decided = None
+    verified = all(s["verification"] == "verified" for s in doc["sources"])
+    return {"status": doc["status"], "as_of": doc["as_of"], "covers": doc["covers"], "covers_note": doc.get("covers_note"),
+            "kind": contest["kind"], "verification": "verified" if verified else "unverified",
+            "verified_on": max(s["verified_on"] for s in doc["sources"]) if verified else None,
+            "rows": rows, "other_votes": other, "total": total, "decided": decided,
+            "outcome": outcome.get("result"), "sources": doc["sources"], "notes": doc.get("notes")}
+
+
+def assemble_results_ballot(ballot: dict) -> dict:
+    """A county ballot's results page: the same groups and order as the ballot, with counts so far."""
+    contests = ballot["ranked"]
+    with_result = [c for c in contests if c["result"]]
+    return {**ballot,
+            "url": f"/results/{ballot['state']}/{ballot['locality']}/{ballot['election_date']}/",
+            "reported": len(with_result),
+            "official": sum(c["result"]["status"] == "official" for c in with_result),
+            "as_of": max((c["result"]["as_of"] for c in with_result), default=None)}
 
 
 FACT_SECTIONS = ("summary", "records", "funding", "endorsements")

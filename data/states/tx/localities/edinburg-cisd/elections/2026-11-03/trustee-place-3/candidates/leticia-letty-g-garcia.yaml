@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: leticia-letty-g-garcia
 name: Leticia 'Letty G' Garcia
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

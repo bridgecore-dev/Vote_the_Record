@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: laura-flores-commons
 name: Laura Flores Commons
-incumbent: null
+incumbent: false
 ballot_party: null
 records: []
 funding: []

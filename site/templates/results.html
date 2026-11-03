@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Election results{% endblock %}
+{% block description %}Vote counts for every race and proposition on the ballots we cover, from official results reports.{% endblock %}
+{% block content %}
+<header class="race-hero">
+  <h1>Election results</h1>
+  <p class="lead">Vote counts from official results reports, county by county. Election-night counts are marked <strong>Unofficial</strong> until the county canvasses the votes; then they're marked <strong>Official</strong>.</p>
+</header>
+
+{% if site.results %}
+{% for date, group in site.results | groupby("election_date") %}
+<section aria-labelledby="res-{{ date }}">
+  <h2 id="res-{{ date }}">{{ date | longdate }}</h2>
+  <ul class="link-list results-index">
+    {% for b in group %}
+    <li><a href="{{ b.url }}">{{ b.name }}</a>
+      <span class="muted">· {{ b.reported }} of {{ b.count }} contests reported{% if b.official %}, {{ b.official }} official{% endif %} · as of {{ b.as_of | longdate }}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% else %}
+<p class="empty">No results yet. Counts appear here after the polls close and the first official results reports are posted.</p>
+{% endif %}
+
+<section aria-labelledby="how-h">
+  <h2 id="how-h">How we report results</h2>
+  <ul>
+    <li>Every number comes from an official results report (the county or the Secretary of State), linked under each contest.</li>
+    <li>Candidates are listed in alphabetical order, the same as everywhere on this site, never by vote count.</li>
+    <li>We mark a candidate elected, or a proposition passed or failed, only after the official canvass.</li>
+    <li>A race that crosses county lines may show a partial count; the page says which voters it covers.</li>
+  </ul>
+</section>
+{% endblock %}

@@ -423,3 +423,21 @@ details.more[open] > summary { margin-bottom: 8px; }
   a { color: #000; }
 }
 .earlier { margin-top: 4px; font-size: 0.9rem; }
+
+/* Election results (partials/result.html). No party colors: one neutral bar for every row. */
+.result-box { margin: 8px 0; }
+.result-status { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.chip-official { border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.chip-unofficial { border-color: var(--warn-ink); color: var(--warn-ink); }
+.chip-outcome { border-color: var(--accent); background: var(--accent-soft); color: var(--ink); font-weight: 600; }
+.result-decided { margin: 4px 0; }
+.result-table { width: 100%; border-collapse: collapse; margin: 6px 0; }
+.result-table th, .result-table td { border-bottom: 1px solid var(--line); padding: 6px 4px; text-align: left; font-weight: normal; }
+.result-table thead th { color: var(--muted); font-size: 0.85rem; }
+.result-table tbody th { font-weight: 600; }
+.result-table tfoot th, .result-table tfoot td { color: var(--muted); border-bottom: 0; }
+.result-table .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.result-table td.share { width: 10rem; }
+.result-table meter { display: inline-block; width: 5rem; height: 0.7rem; vertical-align: middle; margin-right: 4px; }
+@media (max-width: 480px) { .result-table meter { display: none; } }
+.results-index li { margin: 6px 0; }

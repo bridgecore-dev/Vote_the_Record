@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: juan-j-j-pena-jr
 name: Juan 'J.J.' Peña, Jr.
-incumbent: null
+incumbent: true
 ballot_party: DEM
 records: []
 funding: []

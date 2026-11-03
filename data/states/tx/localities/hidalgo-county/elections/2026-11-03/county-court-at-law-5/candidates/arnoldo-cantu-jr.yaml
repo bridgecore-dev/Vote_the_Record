@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: arnoldo-cantu-jr
 name: Arnoldo Cantú, Jr.
-incumbent: null
+incumbent: true
 ballot_party: DEM
 records: []
 funding: []
