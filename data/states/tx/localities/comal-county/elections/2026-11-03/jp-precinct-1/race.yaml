@@ -1,0 +1,24 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Justice of the Peace, Precinct 1
+office_type: justice-of-the-peace
+election_date: '2026-11-03'
+detail: basic
+area: comal-county/jp-1
+sources:
+- id: tx/localities/comal-county/elections/2026-11-03/jp-precinct-1/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Comal County Elections'' sample ballot for the November 3, 2026 General Election lists "Justice of the Peace, Precinct No. 1" on page 2, with these candidates: Tom Clark (REP); Amandine Ngakoue (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.comalcounty.gov/DocumentCenter/View/8582
+  source_title: 'Comal County Elections: Sample Ballot, Precinct 101, 103, 104, 107, 110, and 111, November 3, 2026 General Election (page 2)'
+  source_kind: document
+  sha256: 0d692b079a59e3f7d7cc0014434711d44502f7784f72d6ed85478eb295f97b6d
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'One of 12 sample ballots on the county''s Elections page (https://www.comalcounty.gov/193/Elections-Voter-Registration); the ballot''s header names its precincts. Saved in the owner''s browser on November 2, 2026 (the county site challenges automated downloads). The PDF is a scan with no text layer: names and wording were read with OCR and checked against the page images, kept as printed (English text only).'

@@ -1,0 +1,24 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Justice of the Peace, Precinct 2
+office_type: justice-of-the-peace
+election_date: '2026-11-03'
+detail: basic
+area: comal-county/jp-2
+sources:
+- id: tx/localities/comal-county/elections/2026-11-03/jp-precinct-2/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Comal County Elections'' sample ballot for the November 3, 2026 General Election lists "Justice of the Peace, Precinct No. 2" on page 2, with these candidates: James "Rick" Walker (REP); Michael Piña (DEM).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.comalcounty.gov/DocumentCenter/View/8584
+  source_title: 'Comal County Elections: Sample Ballot, Precinct 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, and 211 - Comal ISD, November 3, 2026 General Election (page 2)'
+  source_kind: document
+  sha256: 6e50e933a4a3217640a9bd27e6be13dbee56b1af9fe2fd2eb37cf207669e02b5
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'One of 12 sample ballots on the county''s Elections page (https://www.comalcounty.gov/193/Elections-Voter-Registration); the ballot''s header names its precincts. Saved in the owner''s browser on November 2, 2026 (the county site challenges automated downloads). The PDF is a scan with no text layer: names and wording were read with OCR and checked against the page images, kept as printed (English text only).'
