@@ -39,6 +39,16 @@ def test_areas_for_keeps_only_districts_with_a_contest_on_the_ballot():
                                              "sboe": "sboe-4", "jp": "harris-county/jp-1"}
 
 
+def test_a_split_precinct_partly_in_a_district_with_no_contest_depends_on_the_address():
+    on_ballot = {"brazos-county/commissioner-2", "brazos-county/commissioner-4", "brazos-county/jp-1",
+                 "brazos-county/jp-3"}
+    # part in Precinct 4 (on the ballot), part in Precinct 1 (no contest): not every voter there has the Pct 4 race
+    assert h.split_areas("commissioner", [1, 4], on_ballot, "brazos-county") == ["brazos-county/commissioner-4"]
+    assert h.split_areas("jp", [1, 3], on_ballot, "brazos-county") == ["brazos-county/jp-1", "brazos-county/jp-3"]
+    assert h.split_areas("commissioner", [4], on_ballot, "brazos-county") == "brazos-county/commissioner-4"
+    assert h.split_areas("commissioner", [1, 3], on_ballot, "brazos-county") is None
+
+
 TLC_PRJ = ('PROJCS["NAD_1983_Lambert_Conformal_Conic",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",'
            'SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],'
            'PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",1000000.0],PARAMETER["False_Northing",1000000.0],'

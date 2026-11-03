@@ -3,6 +3,7 @@ name: City of Forest Hill Council, Place 2 (Unexpired Term)
 office_type: city-council-member
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: the city''s council page lists Anthony Cook in Place 2, but this race is for an unexpired term, so the page may not show a vacancy.'
 sources:
 - id: tx/localities/city-of-forest-hill/elections/2026-11-03/council-place-2/race#S-01
   headline: Candidates as printed on the sample ballot

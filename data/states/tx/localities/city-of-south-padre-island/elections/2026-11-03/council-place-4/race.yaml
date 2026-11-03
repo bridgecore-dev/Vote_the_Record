@@ -3,6 +3,7 @@ name: City of South Padre Island Council, Place 4
 office_type: city-council-member
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: the page lists council members but not their place numbers; Rees Langston is listed as Mayor Pro Tem.'
 sources:
 - id: tx/localities/city-of-south-padre-island/elections/2026-11-03/council-place-4/race#S-01
   headline: Candidates as printed on the sample ballot

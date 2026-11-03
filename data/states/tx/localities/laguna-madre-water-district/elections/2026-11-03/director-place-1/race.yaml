@@ -3,6 +3,7 @@ name: Laguna Madre Water District Director, Place 1
 office_type: water-district-director
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: the page lists board members by officer title but not their place numbers.'
 sources:
 - id: tx/localities/laguna-madre-water-district/elections/2026-11-03/director-place-1/race#S-01
   headline: Candidates as printed on the sample ballot

@@ -3,6 +3,11 @@ name: Ector County ballot
 election_date: '2026-11-03'
 lookup_url: https://www.ectorcountytx.gov/271/Elections
 complete: true
+unmapped:
+- ector-county/jp-1
+- ector-county/jp-2
+- ector-county/jp-3
+- ector-county/jp-4
 sources:
 - id: tx/localities/ector-county/elections/2026-11-03/ballot#S-01
   headline: Every contest on the sample ballot

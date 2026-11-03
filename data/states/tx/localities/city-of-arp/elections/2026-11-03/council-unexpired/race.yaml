@@ -4,7 +4,7 @@ office_type: city-council-member
 election_date: '2026-11-03'
 detail: basic
 seats: 3
-notes: The ballot marks these unexpired terms.
+notes: 'The ballot marks these unexpired terms. Incumbent status not confirmed: the city''s elections page says the change to a Type A city opened seats for three new council members, so these seats have no current holder to compare.'
 sources:
 - id: tx/localities/city-of-arp/elections/2026-11-03/council-unexpired/race#S-01
   headline: Candidates as printed on the sample ballot

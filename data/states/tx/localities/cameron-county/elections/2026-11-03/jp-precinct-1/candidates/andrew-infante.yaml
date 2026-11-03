@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: andrew-infante
 name: Andrew Infante
-incumbent: null
+incumbent: false
 ballot_party: REP
 records: []
 funding:

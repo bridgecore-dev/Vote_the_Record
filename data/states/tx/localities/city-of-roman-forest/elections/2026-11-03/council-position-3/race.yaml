@@ -3,6 +3,7 @@ name: City of Roman Forest Council, Position 3
 office_type: city-council-member
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: site refused an automated request.'
 sources:
 - id: tx/localities/city-of-roman-forest/elections/2026-11-03/council-position-3/race#S-01
   headline: Candidates as printed on the sample ballot

@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: A sample ballot for one ballot style (one precinct part), from the county's Find My Ballot service (https://gisit.tarrantcounty.com/findmyballot/). The county posts no all-contest ballot; every style was collected by asking the service for each of the county's 1,703 voting sub-precincts. Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/city-of-benbrook/elections/2026-11-03/council-place-6/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (City of Benbrook: Place 6), checked on November 3, 2026, shows that Laura Mackey, a candidate in this race, currently holds this seat. It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.benbrook-tx.gov/328/Place-6
+  source_title: 'City of Benbrook: Place 6'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-03'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Quoted on the page: "Laura Mackey City Council Place 6"'

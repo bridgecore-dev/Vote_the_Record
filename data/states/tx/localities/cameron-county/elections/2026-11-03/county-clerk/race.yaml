@@ -2,6 +2,7 @@
 name: Cameron County County Clerk
 office_type: county-clerk
 election_date: '2026-11-03'
+notes: 'Incumbent status not confirmed: the county page names Sylvia Garza-Perez, a different surname from the ballot''s Sylvia Garza.'
 sources:
 - id: tx/localities/cameron-county/elections/2026-11-03/county-clerk/race#S-01
   headline: Candidates as printed on the sample ballot

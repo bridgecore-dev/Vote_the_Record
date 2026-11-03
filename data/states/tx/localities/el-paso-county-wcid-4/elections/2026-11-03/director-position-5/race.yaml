@@ -3,6 +3,7 @@ name: El Paso County WCID No. 4 Director, Position 5
 office_type: water-district-director
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: the page lists board members but not their position numbers.'
 sources:
 - id: tx/localities/el-paso-county-wcid-4/elections/2026-11-03/director-position-5/race#S-01
   headline: Candidates as printed on the sample ballot

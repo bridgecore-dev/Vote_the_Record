@@ -4,6 +4,7 @@ office_type: esd-commissioner
 election_date: '2026-11-03'
 area: smith-county-esd-1/district-5
 detail: basic
+notes: 'Incumbent status not confirmed: no official district website listing commissioners was found.'
 sources:
 - id: tx/localities/smith-county-esd-1/elections/2026-11-03/commissioner-place-5/race#S-01
   headline: Candidates as printed on the sample ballot

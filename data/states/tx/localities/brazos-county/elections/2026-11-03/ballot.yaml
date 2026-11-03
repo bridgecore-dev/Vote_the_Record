@@ -3,6 +3,10 @@ name: Brazos County ballot
 election_date: '2026-11-03'
 lookup_url: https://elections.brazoscountytx.gov/
 complete: true
+unmapped:
+- bryan-isd/district-2
+- city-of-bryan/district-1
+- city-of-bryan/district-2
 sources:
 - id: tx/localities/brazos-county/elections/2026-11-03/ballot#S-01
   headline: Every contest on the sample ballot

@@ -4,6 +4,7 @@ office_type: water-district-director
 election_date: '2026-11-03'
 detail: basic
 seats: 5
+notes: 'Incumbent status not confirmed: no official district website listing directors was found.'
 sources:
 - id: tx/localities/theon-ranches-mud-1/elections/2026-11-03/directors/race#S-01
   headline: Candidates as printed on the sample ballot
