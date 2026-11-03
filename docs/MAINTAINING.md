@@ -91,9 +91,17 @@ Ballot pages disappear from the site once their election date passes. Race pages
 Each race or measure gets a `result.yaml` beside it (schema `result` in `schemas/other.schema.json`), shown on
 `/results/` (one page per county ballot) and at the top of the race page. Candidates stay alphabetical.
 
-1. **Get the county's results report** from its official results page: a CSV/JSON export, or the Hart
-   "Cumulative Report" PDF that Harris and many Texas counties post. Sites that block scripts are saved in
-   the owner's browser (the `claude --chrome` session), the same way as sample ballots.
+1. **Get the county's results report** from its official results page. The collector reads:
+   - a Clarity ENR `summary.zip` (or the `summary.csv` inside it): Bexar, Comal, El Paso, Fort Bend,
+     Tarrant, Travis;
+   - a Hart "Cumulative Results Report" PDF, in either text layout: Harris, Tarrant, Brazoria, Brazos,
+     Ector, Hays, Nueces, Denton;
+   - an ES&S "Summary Results Report" PDF: Bell, Bexar (official), Dallas, Williamson, Webb (probably);
+   - a precinct-by-precinct CSV with a `COUNTY TOTALS` row: Collin;
+   - any CSV or JSON with contest, choice, and vote columns.
+
+   Clarity, and several county sites, refuse scripts; save those files in the owner's browser (the
+   `claude --chrome` session), the same way as sample ballots.
 2. **Preview, then write:**
    `python src/collectors/results.py --ballot <county ballot.yaml> --file <report> --source-url <report URL>
    --source-title "<County>: Unofficial Results, ..." --as-of <report date> [--source-kind document]`, then

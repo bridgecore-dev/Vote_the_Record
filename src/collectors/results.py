@@ -10,8 +10,10 @@ Without --write it only prints what it would write.
 
 The export is a table of contest, choice, and votes (CSV with a header row, or JSON: a list of such rows, or
 {"contests": [{"name", "choices": [{"name", "votes"}]}]}). Column names are matched loosely ("Contest Name",
-"Race", "Choice", "Candidate", "Total Votes", ...), so a Clarity ENR "summary.csv" reads as is. A PDF is read as a
-Hart "Cumulative Report" or ES&S "Summary Results Report" (parse_hart_text).
+"Race", "Choice", "Candidate", "Total Votes", ...), so a Clarity ENR "summary.csv" reads as is, as does the
+"summary.zip" it comes in. A precinct-by-precinct CSV (one column per choice, a COUNTY TOTALS row) reads from that
+row. A PDF is read as a Hart "Cumulative Report" or ES&S "Summary Results Report" (parse_hart_text), or as a Hart
+report whose text comes out one value per line (parse_hart_columns).
 
 How contests are matched to the ballot (never by guessing):
   - a race: the ballot race whose candidate names match the contest's choices (every listed candidate found,
@@ -75,6 +77,8 @@ def name_keys(name: str) -> set[str]:
     out = {key(name)}
     if len(words) >= 2:
         out.add(key(words[0] + words[-1]))
+    # a PDF may print an accented letter as an unreadable character ("Pe�a"): match on the plain letters around it
+    out.add(re.sub(r"[^a-z0-9]", "", re.sub(r"[^\x00-\x7f]", "", name).lower()))
     return out
 
 
@@ -132,12 +136,115 @@ def parse_hart_text(text: str) -> list[tuple[str, str, int]]:
     return rows
 
 
+PARTY_LINE = re.compile(r"^(?:REP|DEM|LIB|GRN|GRE|IND|NP|NON)$")
+NUMBER_LINE = re.compile(r"^(?:\d{1,3}(?:,\d{3})*|\d+(?:\.\d+)?%)$")
+STAT_LINE = re.compile(r"(?i)^(cast votes|undervotes|overvotes|under votes|over votes|rejected write-in votes):?$")
+
+
+def drop_page_tops(pages: list[str]) -> list[str]:
+    """Lines of each page without the block printed at the top of every page (county, election, page number, turnout,
+    run time). A line counts as that block if it starts most pages (page numbers and digits aside)."""
+    split = [[ln.strip() for ln in p.splitlines() if ln.strip()] for p in pages]
+    shape = lambda ln: re.sub(r"\d+", "#", ln)  # noqa: E731
+    starts: dict[str, int] = {}
+    for lines in split:
+        for ln in set(map(shape, lines[:30])):
+            starts[ln] = starts.get(ln, 0) + 1
+    common = {ln for ln, n in starts.items() if n >= max(2, len(pages) * 0.6)} - {"Choice", "Party"}
+    out = []
+    for lines in split:
+        i = 0
+        while i < len(lines) and shape(lines[i]) in common and lines[i] != "Choice":
+            i += 1
+        out.extend(lines[i:])
+    return out
+
+
+def parse_hart_columns(pages: list[str]) -> list[tuple[str, str, int]]:
+    """(contest, choice, votes) from a Hart "Cumulative Results Report" whose text comes out one value per line (Harris
+    and Tarrant since 2024): the contest title, then the headings "Choice", "Party", the voting methods, and "Total";
+    then each choice's name, its party code if any, and a count and percent per method, the total last. The total is
+    the largest count in the choice's block. Cast, under, and over vote lines end the choices."""
+    lines = drop_page_tops(pages)
+    rows, contest, i = [], None, 0
+    name, counts, stats = [], [], False
+
+    def flush():
+        if contest and name and counts and not stats:
+            rows.append((contest, " ".join(name), max(counts)))
+
+    while i < len(lines):
+        ln = lines[i]
+        if ln == "Choice" and i + 1 < len(lines) and lines[i + 1] == "Party":
+            flush()
+            title, j = [], i - 1
+            while j >= 0 and len(title) < 3 and not NUMBER_LINE.match(lines[j]) and not STAT_LINE.match(lines[j]) \
+                    and lines[j] != "Total":
+                title.insert(0, lines[j])
+                j -= 1
+            title_text = re.sub(r"(?i)\s*-\s*vote for .*$", "", " ".join(title)).strip(" ,")
+            # a contest carried onto the next page repeats its headings, not always its title
+            contest = title_text or contest
+            while i < len(lines) and lines[i] != "Total":
+                i += 1
+            name, counts, stats = [], [], False
+        elif STAT_LINE.match(ln):
+            flush()
+            name, counts, stats = [], [], True
+        elif NUMBER_LINE.match(ln):
+            if not ln.endswith("%"):
+                counts.append(int(ln.replace(",", "")))
+        elif PARTY_LINE.match(ln) and name and not counts:
+            pass
+        else:
+            if counts or stats:
+                flush()
+                name, counts, stats = [], [], False
+            name.append(ln)
+        i += 1
+    flush()
+    return rows
+
+
+def parse_precinct_csv(text: str) -> list[tuple[str, str, int]]:
+    """(contest, choice, votes) from a precinct-by-precinct CSV (Collin County): a header row of contest names, a row
+    of parties, a row of choice names, then one row per precinct, the county totals row last. Uses the totals row."""
+    table = list(csv.reader(io.StringIO(text)))
+    contests, choices = table[0], table[2]
+    body = [r for r in table[3:] if any(c.strip() for c in r)]
+    totals = [r for r in body if any(re.search(r"(?i)county\s+totals?", c) for c in r[:3])]
+    if len(totals) != 1:
+        raise SystemExit("precinct CSV: no single COUNTY TOTALS row; not adding up precincts by guess")
+    row = totals[0]
+    start = next(k for k, c in enumerate(contests) if k >= 3 and c.strip() and not re.search(
+        r"(?i)registered|ballots cast", c))
+    return [(contests[k].strip(), choices[k].strip(), int(row[k].replace(",", "") or 0))
+            for k in range(start, len(contests)) if contests[k].strip() and choices[k].strip()]
+
+
 def read_rows(path: Path) -> list[tuple[str, str, int]]:
-    """(contest, choice, votes) rows from a CSV, JSON, or Hart cumulative-report PDF export."""
+    """(contest, choice, votes) rows from a CSV, JSON, Clarity summary zip, or Hart/ES&S results-report PDF."""
     if path.suffix.lower() == ".pdf":
         from pypdf import PdfReader
-        return parse_hart_text("\n".join(p.extract_text() or "" for p in PdfReader(str(path)).pages))
-    text = path.read_text(encoding="utf-8-sig")
+        pages = [p.extract_text() or "" for p in PdfReader(str(path)).pages]
+        if any(re.search(r"(?m)^\s*Choice\s*\n\s*Party\s*$", p) for p in pages):
+            return parse_hart_columns(pages)
+        return parse_hart_text("\n".join(pages))
+    if path.suffix.lower() == ".zip":
+        import zipfile
+        with zipfile.ZipFile(path) as z:
+            names = [n for n in z.namelist() if n.lower().endswith(".csv")]
+            if len(names) != 1:
+                raise SystemExit(f"{path}: expected one CSV inside (Clarity summary.zip), found {names}")
+            text = z.read(names[0]).decode("utf-8-sig")
+    else:
+        raw = path.read_bytes()
+        try:
+            text = raw.decode("utf-8-sig")
+        except UnicodeDecodeError:  # county exports saved from Excel are often Windows-1252
+            text = raw.decode("cp1252")
+    if path.suffix.lower() in (".csv", ".zip") and re.match(r"(?i)[^\n]*precinct (code|name)", text):
+        return parse_precinct_csv(text)
     if path.suffix.lower() == ".json":
         data = json.loads(text)
         if isinstance(data, dict) and "contests" in data:

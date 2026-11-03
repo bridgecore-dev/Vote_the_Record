@@ -163,3 +163,34 @@ def test_ess_summary_report_titles_wrap_and_write_in_totals_count_once(demo, tmp
     results.main(["--statewide", "TX", "2026-11-03", "--root", str(root), "--file", str(export), "--source-url",
                   "https://example.org/sos", "--source-title", "DEMO", "--as-of", "2026-11-04", "--write"])
     assert read(root, "tx/statewide/elections/2026-11-03/governor")["other_votes"] == 15
+
+
+def test_hart_report_one_value_per_line_drops_page_tops_and_takes_the_total():
+    top = "Demo County, Texas\nGeneral Election\n11/3/2026\nPage {n}\nUnofficial Results\nRun Time\n9:15 PM\n"
+    heads = "Choice\nParty\nEarly Voting\nElection Day\nTotal\n"
+    pages = [top.format(n=1) + "GOVERNOR - Vote for none or one\n" + heads
+             + "DANA DEMO\nREP\n800\n60.00%\n400\n57.00%\n1,200\n59.00%\n"
+             + "Pat Write (W)\n5\n0.10%\n10\n0.20%\n15\n0.20%\n"
+             + "Cast Votes:\n805\n100.00%\n410\n100.00%\n1,215\n100.00%\nUndervotes:\n3\n4\n7\nOvervotes:\n0\n0\n0\n"
+             + "CITY OF DEMO CITY,\nPROPOSITION A\n" + heads + "FOR\n10\n50.00%\n2\n50.00%\n12\n50.00%\n",
+             top.format(n=12) + heads + "AGAINST\n9\n50.00%\n3\n50.00%\n12\n50.00%\nCast Votes:\n19\n100.00%\n"]
+    assert results.parse_hart_columns(pages) == [
+        ("GOVERNOR", "DANA DEMO", 1200), ("GOVERNOR", "Pat Write (W)", 15),
+        ("CITY OF DEMO CITY, PROPOSITION A", "FOR", 12), ("CITY OF DEMO CITY, PROPOSITION A", "AGAINST", 12)]
+
+
+def test_precinct_csv_uses_the_county_totals_row_and_zip_reads_the_csv_inside(tmp_path):
+    import zipfile
+    text = ("COUNTY NUMBER,PRECINCT CODE,PRECINCT NAME,REGISTERED VOTERS TOTAL,BALLOTS CAST TOTAL,MAYOR,MAYOR,MAYOR\n"
+            ",,,,,NON,NON,NON\n,,,VOTERS,BALLOTS CAST,KAI KIDDING,LEE LOREM,OVER VOTES\n"
+            "DEMO,1,Precinct 1,100,50,20,30,0\nDEMO,2,Precinct 2,100,40,25,15,1\nDEMO,ZZZ,COUNTY TOTALS,200,90,45,45,1\n")
+    assert results.parse_precinct_csv(text) == [("MAYOR", "KAI KIDDING", 45), ("MAYOR", "LEE LOREM", 45),
+                                                ("MAYOR", "OVER VOTES", 1)]
+    z = tmp_path / "summary.zip"
+    with zipfile.ZipFile(z, "w") as f:
+        f.writestr("summary.csv", CSV)
+    assert ("GOVERNOR", "DANA DEMO", 1200) in results.read_rows(z)
+
+
+def test_a_name_printed_with_an_unreadable_accent_still_matches():
+    assert results.name_keys("Jubilee Pe�a") & results.name_keys("Jubilee Peña")
