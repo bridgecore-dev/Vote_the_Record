@@ -1,0 +1,64 @@
+# Each precinct's areas from Comal County's sample ballots. Unverified.
+# A nested list means only part of the precinct is in that area (a precinct split between ballots).
+sources:
+- id: tx/localities/comal-county/elections/2026-11-03/precincts#S-01
+  headline: Comal County sample ballots and their precincts
+  statement: The county's Elections page posts 12 sample ballots for the November 3, 2026 General Election; each ballot's header lists the precincts it covers (some precincts are on several ballots, split
+    by school district, city, or utility district). Each precinct's areas are the contests on its ballots.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.comalcounty.gov/193/Elections-Voter-Registration
+  source_title: 'Comal County: Elections & Voter Registration'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Sample ballots saved in the owner's browser on November 2, 2026 (the county site challenges automated downloads); they are scans, read with OCR and checked against the page images.
+everywhere: ["court-of-appeals-3", "state-house-73", "us-house-21"]
+precincts:
+  '101': ["comal-county/jp-1"]
+  '102': ["comal-county/jp-1", "comal-isd"]
+  '103': ["comal-county/jp-1", ["comal-isd"]]
+  '104': ["comal-county/jp-1", ["comal-isd"]]
+  '105': ["comal-county/jp-1", "comal-isd"]
+  '106': ["comal-county/jp-1", "comal-isd"]
+  '107': ["comal-county/jp-1", ["comal-isd"]]
+  '108': ["comal-county/jp-1", "comal-isd"]
+  '109': ["comal-county/jp-1", "comal-isd"]
+  '110': ["comal-county/jp-1", ["comal-isd"]]
+  '111': ["comal-county/jp-1", ["comal-isd"]]
+  '201': ["comal-county/commissioner-2", "comal-county/jp-2", ["comal-isd"]]
+  '202': ["comal-county/commissioner-2", "comal-county/jp-2", "comal-isd", ["city-of-schertz"]]
+  '203': ["comal-county/commissioner-2", "comal-county/jp-2", ["comal-isd"]]
+  '204': ["comal-county/commissioner-2", "comal-county/jp-2", "comal-isd"]
+  '205': ["comal-county/commissioner-2", "comal-county/jp-2", "comal-isd", ["city-of-schertz"]]
+  '206': ["comal-county/commissioner-2", "comal-county/jp-2", ["comal-isd"]]
+  '207': ["comal-county/commissioner-2", "comal-county/jp-2", ["comal-isd"]]
+  '208': ["comal-county/commissioner-2", "comal-county/jp-2", "comal-isd"]
+  '209': ["comal-county/commissioner-2", "comal-county/jp-2", "comal-isd"]
+  '210': ["comal-county/commissioner-2", "comal-county/jp-2", "comal-isd"]
+  '211': ["comal-county/commissioner-2", "comal-county/jp-2", "comal-isd"]
+  '301': ["comal-county/jp-3", ["city-of-schertz"], ["comal-isd"]]
+  '302': ["comal-county/jp-3"]
+  '303': ["comal-county/jp-3", ["comal-isd"]]
+  '304': ["comal-county/jp-3", "comal-isd", ["crystal-clear-sud"]]
+  '305': ["comal-county/jp-3", "comal-isd", ["crystal-clear-sud"]]
+  '306': ["comal-county/jp-3", "comal-isd", ["crystal-clear-sud"]]
+  '307': ["comal-county/jp-3", "comal-isd"]
+  '308': ["comal-county/jp-3", ["comal-isd"]]
+  '309': ["comal-county/jp-3", "comal-isd"]
+  '401': ["comal-county/commissioner-4", "comal-county/jp-4", ["comal-isd"]]
+  '402': ["comal-county/commissioner-4", "comal-county/jp-4", "comal-isd"]
+  '403': ["comal-county/commissioner-4", "comal-county/jp-4", "comal-isd"]
+  '404': ["comal-county/commissioner-4", "comal-county/jp-4", "comal-isd", ["crystal-clear-sud"]]
+  '405': ["comal-county/commissioner-4", "comal-county/jp-4", "comal-isd"]
+  '406': ["comal-county/commissioner-4", "comal-county/jp-4", "comal-isd"]
+  '407': ["comal-county/commissioner-4", "comal-county/jp-4", "comal-isd"]
+  '408': ["comal-county/commissioner-4", "comal-county/jp-4", "comal-isd"]
+  '409': ["comal-county/commissioner-4", "comal-county/jp-4", "comal-isd"]
+  '410': ["comal-county/commissioner-4", "comal-county/jp-4", "comal-isd"]

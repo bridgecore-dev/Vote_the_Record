@@ -1,0 +1,23 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Comal County Tax Assessor-Collector (Unexpired Term)
+office_type: tax-assessor-collector
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/comal-county/elections/2026-11-03/tax-assessor-collector/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Comal County Elections'' sample ballot for the November 3, 2026 General Election lists "County Tax Assessor-Collector - Unexpired Term" on page 2, with these candidates: Stuart Hansmann (REP).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.comalcounty.gov/DocumentCenter/View/8579
+  source_title: 'Comal County Elections: Sample Ballot, Precinct 301 - Comal ISD - Schertz, November 3, 2026 General Election (page 2)'
+  source_kind: document
+  sha256: af9fcc00874809498bbe229477389a40cf8d37ebd4a67f9c924c61f6ab558e01
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'One of 12 sample ballots on the county''s Elections page (https://www.comalcounty.gov/193/Elections-Voter-Registration); the ballot''s header names its precincts. Saved in the owner''s browser on November 2, 2026 (the county site challenges automated downloads). The PDF is a scan with no text layer: names and wording were read with OCR and checked against the page images, kept as printed (English text only).'
