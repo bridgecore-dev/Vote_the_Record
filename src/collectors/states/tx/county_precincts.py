@@ -179,6 +179,40 @@ BELL_LOCAL_AREAS = {
     "holland-isd": (SCHOOL_LAYER, "4823370"),
     "solana-ranch-mud-1": (TCEQ_MUD, "7576132"),
 }
+TCEQ_SUD = TCEQ_SERVICE + "/11"   # Special Utility Districts
+HAYS_GIS = "https://services5.arcgis.com/bVphnK8rPe5MHUSr/arcgis/rest/services"
+HAYS_ITEM = "https://www.arcgis.com/home/item.html?id=d3bb4e33973a45419c2f4f585c1dd8ca"
+HAYS_LAYER = HAYS_GIS + "/Hays_County_Voting_Precincts/FeatureServer/0"  # "Elections_Precincts_2026" (88)
+HAYS_COMMISSIONER = HAYS_GIS + "/HaysCountyCommissionerPrecincts/FeatureServer/0"
+HAYS_JP = HAYS_GIS + "/HaysCoJusticeOfPeace/FeatureServer/0"
+BUDA_COUNCIL = ("https://services6.arcgis.com/vXZW4vAaPRr14z2s/arcgis/rest/services/Single_Member_Districts/"
+                "FeatureServer/0")
+HAYS_LOCAL_AREAS = {
+    "city-of-austin": (PLACE_LAYER, "4805000"),
+    "city-of-buda": (PLACE_LAYER, "4811080"),
+    "city-of-kyle": (PLACE_LAYER, "4839952"),
+    "city-of-san-marcos": (PLACE_LAYER, "4865600"),
+    "city-of-woodcreek": (PLACE_LAYER, "4880058"),
+    "village-of-bear-creek": (PLACE_LAYER, "4806242"),
+    "comal-isd": (SCHOOL_LAYER, "4814730"),
+    "crystal-clear-sud": (TCEQ_SUD, "2412188"),
+    "la-cima-mmd-1a": (TCEQ_MMD, "5280634"),
+    "sunfield-mud-2": (TCEQ_MUD, "7632800"),
+}
+BRAZOS_GIS = "https://services5.arcgis.com/s91b2wxhO15FkWh5/arcgis/rest/services"
+BRAZOS_COMMISSIONER = BRAZOS_GIS + "/BRAZOS_COUNTY_COMMISSIONERS_COURT_PRECINCTS/FeatureServer/0"
+BRAZOS_JP = BRAZOS_GIS + "/BRAZS_COUNTY_JP_PRECINCTS/FeatureServer/0"
+BRAZOS_LOCAL_AREAS = {
+    "city-of-bryan": (PLACE_LAYER, "4810912"),
+    "city-of-college-station": (PLACE_LAYER, "4815976"),
+    "bryan-isd": (SCHOOL_LAYER, "4811790"),
+    "college-station-isd": (SCHOOL_LAYER, "4807350"),
+    "navasota-isd": (SCHOOL_LAYER, "4832190"),
+}
+ODESSA_GIS = "https://services6.arcgis.com/96XBo0KviQ3nV6zg/arcgis/rest/services"  # City of Odessa GIS (OGIS)
+ECTOR_COMMISSIONER = ODESSA_GIS + "/County_District_view/FeatureServer/183"
+ODESSA_COUNCIL = ODESSA_GIS + "/Local_District1/FeatureServer/5"
+ECTOR_LOCAL_AREAS = {"city-of-odessa": (PLACE_LAYER, "4853388")}
 SMITH_GIS = "https://services3.arcgis.com/dPuMck04cWB2fx4h/arcgis/rest/services/FallElectionDistricts_20261103b_WFL1/FeatureServer"
 SMITH_PRECINCTS = SMITH_GIS + "/2"  # "Voting Precincts" (66)
 SMITH_DISTRICTS = SMITH_GIS + "/3"  # "Voting Districts": precinct pieces with every district they vote in (286)
@@ -656,6 +690,93 @@ COUNTIES = {
                     "precincts#S-05. Only precinct numbers and outlines are used; the layer's voter counts are not."),
         "field_note": "",
     },
+    "hays-county": {
+        "name": "Hays County", "item": HAYS_ITEM, "layer": HAYS_LAYER, "precinct_field": "VTD",
+        # The county's 2026 precinct layer (88, matching the Texas Legislative Council's 2026 precinct file) lists only
+        # precinct numbers. Districts come from overlays: the state plans for Congress, the State House and the State
+        # Senate, the county's commissioner and JP layers, and the City of Buda's single-member council districts. The
+        # Council's Precincts26P_Districts table puts all 88 precincts in SBOE District 5.
+        "fields": {kind: kind for kind in ("us-house", "state-house", "state-senate", "commissioner", "jp", "buda")},
+        "patterns": {"buda": "city-of-buda/district-{s}"},
+        "partial": {"buda"},  # Buda's districts cover only the city
+        "overlays": {
+            "us-house": ("shapefile", TLC_C2333, "District", "Texas Legislative Council: PLANC2333 (congressional districts "
+                         "enacted 2025, 89th Legislature, 2nd C.S.)"),
+            "state-house": ("shapefile", TLC_H2316, "District", "Texas Legislative Council: PLANH2316 (State House "
+                            "districts, 2023-2026)"),
+            "state-senate": ("shapefile", TLC_S2168, "District", "Texas Legislative Council: PLANS2168 (State Senate "
+                             "districts)"),
+            "commissioner": ("arcgis", HAYS_COMMISSIONER, "CommPrcnt", "Hays County GIS: Commissioner Precincts"),
+            "jp": ("arcgis", HAYS_JP, "PRECINCT", "Hays County GIS: Justice of the Peace Precincts"),
+            "buda": ("arcgis", BUDA_COUNCIL, "District", "City of Buda GIS: Single Member Districts"),
+        },
+        "everywhere": ["court-of-appeals-3", "sboe-5"],  # Gov't Code 22.201(d); Precincts26P_Districts: all in SBOE 5
+        "local_areas": HAYS_LOCAL_AREAS,
+        "headline": "Hays County voting precincts (2026)",
+        "statement": ("Hays County's GIS layer \"Hays County Election Precincts\" (Elections_Precincts_2026, 88 precincts) "
+                      "gives each precinct's number and outline."),
+        "title": "Hays County GIS: Hays County Election Precincts",
+        "credits": ("The layer lists only precinct numbers; each precinct's districts were assigned by overlaying the "
+                    "district maps named in precincts#S-05."),
+        "field_note": ("The Texas Legislative Council's Precincts26P_Districts table places all 88 Hays County precincts in "
+                       "State Board of Education District 5."),
+    },
+    "brazos-county": {
+        "name": "Brazos County", "item": TLC_PRECINCTS_26, "layer": TLC_PRECINCTS_26, "precinct_field": "PREC",
+        # Brazos County's 77 precincts come from the Texas Legislative Council's 2026 precinct shapefile (county code 41);
+        # the county's own 2025 layer draws one of them in two pieces (78 shapes, 77 numbers). Districts come from
+        # overlays: the State House plan
+        # and the county's commissioner and JP layers (constables are elected from the JP precincts). The Council's
+        # Precincts26P_Districts table puts every Brazos precinct in Congressional District 10 and State Senate District 5.
+        "precinct_shapefile": (TLC_PRECINCTS_26, "PCTKEY", "41"),
+        "fields": {kind: kind for kind in ("state-house", "commissioner", "jp")},
+        "overlays": {
+            "state-house": ("shapefile", TLC_H2316, "District", "Texas Legislative Council: PLANH2316 (State House "
+                            "districts, 2023-2026)"),
+            "commissioner": ("arcgis", BRAZOS_COMMISSIONER, "CC_PCT", "Brazos County GIS: Commissioners Court Precincts"),
+            "jp": ("arcgis", BRAZOS_JP, "JP_PCT", "Brazos County GIS: Justice of the Peace Precincts"),
+        },
+        "everywhere": ["court-of-appeals-10", "us-house-10", "state-senate-5"],  # Gov't Code 22.201(k); Precincts26P_Districts
+        "local_areas": BRAZOS_LOCAL_AREAS,
+        "headline": "Brazos County voting precincts (2026)",
+        "statement": ("The Texas Legislative Council's \"2026 Primary Election Voting Precincts\" shapefile, compiled from "
+                      "county election officials and the Secretary of State, gives Brazos County's 77 precincts and their "
+                      "outlines."),
+        "title": "Texas Legislative Council: 2026 Primary Election Voting Precincts (precincts26p.zip)",
+        "credits": ("The layer lists only precinct numbers; each precinct's districts were assigned by overlaying the "
+                    "district maps named in precincts#S-05."),
+        "field_note": ("The Texas Legislative Council's Precincts26P_Districts table places every Brazos County precinct in "
+                       "Congressional District 10 and State Senate District 5."),
+    },
+    "ector-county": {
+        "name": "Ector County", "item": TLC_PRECINCTS_26, "layer": TLC_PRECINCTS_26, "precinct_field": "PREC",
+        # Ector County's 41 precincts come from the Texas Legislative Council's 2026 precinct shapefile (county code 135),
+        # matching the 41 in the City of Odessa GIS precinct layer. Districts come from overlays: the county commissioner
+        # precincts and the city council districts, both from City of Odessa GIS. The Council's Precincts26P_Districts
+        # table puts every Ector precinct in Congressional District 11, State House District 81 and State Senate District 31.
+        "precinct_shapefile": (TLC_PRECINCTS_26, "PCTKEY", "135"),
+        "fields": {kind: kind for kind in ("commissioner", "council")},
+        "patterns": {"council": "city-of-odessa/district-{}"},
+        "partial": {"council"},  # council districts cover only the city
+        "values": {"council": lambda v: v if str(v or "").strip().isdigit() else None},  # the at-large seat has no district
+        "overlays": {
+            "commissioner": ("arcgis", ECTOR_COMMISSIONER, "DISTRICTID", "City of Odessa GIS: County Commissioner Precinct "
+                             "District"),
+            "council": ("arcgis", ODESSA_COUNCIL, "DISTRICTID", "City of Odessa GIS: City Council districts (Local District)"),
+        },
+        "everywhere": ["court-of-appeals-11", "us-house-11", "state-house-81", "state-senate-31"],  # 22.201(l); table
+        "local_areas": ECTOR_LOCAL_AREAS,
+        "headline": "Ector County voting precincts (2026)",
+        "statement": ("The Texas Legislative Council's \"2026 Primary Election Voting Precincts\" shapefile, compiled from "
+                      "county election officials and the Secretary of State, gives Ector County's 41 precincts and their "
+                      "outlines."),
+        "title": "Texas Legislative Council: 2026 Primary Election Voting Precincts (precincts26p.zip)",
+        "credits": ("Only precinct numbers and outlines are used; each precinct's districts were assigned by overlaying "
+                    "the district maps named in precincts#S-05."),
+        "field_note": ("The Texas Legislative Council's Precincts26P_Districts table places every Ector County precinct in "
+                       "Congressional District 11, State House District 81 and State Senate District 31. No justice of "
+                       "the peace precinct map was found, so JP contests are listed as not mapped."),
+    },
 }
 
 # Wayback Machine copies, checked when made (documents: same SHA-256 as the original).
@@ -949,6 +1070,17 @@ def areas_for(attrs: dict, on_ballot: set[str], county: str = "harris-county") -
     return {k: v for k, v in cand.items() if v in on_ballot}
 
 
+def split_areas(kind: str, parts: list, on_ballot: set[str], county: str):
+    """Areas for a precinct split between districts of one kind (parts: the district values covering it, None for
+    outside the layer). One area if the precinct is wholly in it; a list ("depends on the address") if it is partly
+    outside the layer or partly in a district with no contest on this ballot; None if no part has a contest."""
+    mapped = [areas_for({kind: v}, on_ballot, county).get(kind) for v in parts if v is not None]
+    areas = sorted({a for a in mapped if a})
+    if len(areas) > 1 or (areas and (None in parts or None in mapped)):
+        return areas
+    return areas[0] if areas else None
+
+
 def sha(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
@@ -1163,12 +1295,8 @@ def main(argv=None) -> int:
     by_pct = {a[pid]: areas_for(a, on_ballot, args.county) for a in attrs}
     for p, kinds in split_kinds.items():  # precincts split between districts (overlay counties only)
         for kind, parts in kinds.items():
-            areas = [areas_for({kind: v}, on_ballot, args.county).get(kind) for v in parts if v is not None]
-            areas = sorted({a for a in areas if a})
-            if len(areas) > 1 or (areas and None in parts):  # partly outside the layer: depends on the address
-                by_pct[p][kind] = areas
-            elif areas:
-                by_pct[p][kind] = areas[0]
+            if (got := split_areas(kind, parts, on_ballot, args.county)) is not None:
+                by_pct[p][kind] = got
     precincts = {str(p): sorted(x for x in v.values() if isinstance(x, str)) + [x for x in v.values() if isinstance(x, list)]
                  + local_pct.get(p, [])
                  for p, v in sorted(by_pct.items(), key=lambda kv: pct_order(kv[0]))}

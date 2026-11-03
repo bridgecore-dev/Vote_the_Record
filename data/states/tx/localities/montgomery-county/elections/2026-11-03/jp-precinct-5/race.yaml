@@ -4,6 +4,7 @@ office_type: justice-of-the-peace
 election_date: '2026-11-03'
 detail: basic
 area: montgomery-county/jp-5
+notes: 'Incumbent status not confirmed: the county page names Judge Matt Masden; the ballot lists Billy Masden, a different first name.'
 sources:
 - id: tx/localities/montgomery-county/elections/2026-11-03/jp-precinct-5/race#S-01
   headline: Candidates as printed on the sample ballot

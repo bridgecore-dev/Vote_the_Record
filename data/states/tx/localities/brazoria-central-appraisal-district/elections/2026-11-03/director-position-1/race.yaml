@@ -3,6 +3,7 @@ name: Brazoria Central Appraisal District Director, Position 1
 office_type: appraisal-district-director
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: the page lists board members but not their position numbers; neither candidate is listed.'
 sources:
 - id: tx/localities/brazoria-central-appraisal-district/elections/2026-11-03/director-position-1/race#S-01
   headline: Candidates as printed on the sample ballot

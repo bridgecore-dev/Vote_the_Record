@@ -21,3 +21,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: The county's comprehensive (all-contest) sample ballot, linked from its Elections page as "Composite Sample Ballot". Names and wording are from the PDF's text layer, kept exactly as printed (English text only), with one space restored where the text layer drops it ("UtilityDistrict"). The county's website blocks automated downloads, so the project owner downloaded the file; neither it nor the Wayback Machine could be reached for an archive copy on 2026-10-15.
+- id: tx/localities/city-of-jarrell/elections/2026-11-03/mayor/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (City of Jarrell: Contacts), checked on November 3, 2026, lists this seat as vacant; none of the candidates in this race currently holds it.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cityofjarrell.com/contact/
+  source_title: 'City of Jarrell: Contacts'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-03'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Quoted on the page: "Mayor (Vacant) Mayor (512) 746-4593, ext. 121 mayor@cityofjarrell.gov"'

@@ -4,7 +4,7 @@ office_type: management-district-director
 election_date: '2026-11-03'
 detail: basic
 seats: 5
-notes: The ballot says to vote for none, one, two, three, four, or five.
+notes: 'The ballot says to vote for none, one, two, three, four, or five. Incumbent status not confirmed: no official district web page naming the directors was found.'
 sources:
 - id: tx/localities/la-cima-mmd-1a/elections/2026-11-03/directors/race#S-01
   headline: Candidates as printed on the sample ballot

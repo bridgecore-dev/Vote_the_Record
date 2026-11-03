@@ -3,6 +3,7 @@ name: Montgomery Central Appraisal District Director, Place 1
 office_type: appraisal-district-director
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: the appraisal district site is a JavaScript-only app with no board names in the page.'
 sources:
 - id: tx/localities/montgomery-county/elections/2026-11-03/mcad-place-1/race#S-01
   headline: Candidates as printed on the sample ballot

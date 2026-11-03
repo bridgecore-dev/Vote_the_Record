@@ -3,6 +3,7 @@ name: Tarrant Appraisal District Director (At-Large), Place 1
 office_type: appraisal-district-director
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: site refused an automated request.'
 sources:
 - id: tx/localities/tarrant-county/elections/2026-11-03/tad-place-1/race#S-01
   headline: Candidates as printed on the sample ballot

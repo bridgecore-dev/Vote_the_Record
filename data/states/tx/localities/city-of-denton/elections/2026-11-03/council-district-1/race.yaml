@@ -4,6 +4,7 @@ office_type: city-council-member
 election_date: '2026-11-03'
 detail: basic
 area: city-of-denton/district-1
+notes: 'Incumbent status not confirmed: site refused an automated request.'
 sources:
 - id: tx/localities/city-of-denton/elections/2026-11-03/council-district-1/race#S-01
   headline: Candidates as printed on the sample ballot

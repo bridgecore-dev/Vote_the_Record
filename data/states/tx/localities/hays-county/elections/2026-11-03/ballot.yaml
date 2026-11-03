@@ -3,6 +3,13 @@ name: Hays County ballot
 election_date: '2026-11-03'
 lookup_url: https://www.hayscountytx.gov/873/November-3-2026-General-Election
 complete: true
+unmapped:
+- austin-community-college
+- city-of-kyle/district-2
+- city-of-kyle/district-4
+- hays-trinity-gcd/district-2
+- hays-trinity-gcd/district-3
+- hays-trinity-gcd/district-4
 sources:
 - id: tx/localities/hays-county/elections/2026-11-03/ballot#S-01
   headline: Every contest on the sample ballot

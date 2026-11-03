@@ -270,7 +270,7 @@ precincts:
   '180': ["el-paso-county/jp-6", "state-house-75", "us-house-16", ["lower-valley-water-district"], ["socorro-isd"]]
   '181': ["city-of-el-paso/district-5", "el-paso-county/jp-6", "state-house-75", "us-house-16", "socorro-isd"]
   '182': ["el-paso-county/jp-4", "state-house-74", "us-house-16", ["city-of-el-paso/district-5"], "socorro-isd"]
-  '183': ["el-paso-county/jp-6", "state-house-75", "us-house-16", ["lower-valley-water-district"], "socorro-isd"]
+  '183': ["socorro-isd", "state-house-75", "us-house-16", ["lower-valley-water-district"], ["el-paso-county/jp-6"]]
   '184': ["el-paso-county/commissioner-4", "el-paso-county/jp-2", "state-house-78", "us-house-16", ["canutillo-isd"]]
   '185': ["el-paso-county/commissioner-2", "el-paso-county/jp-1", "state-house-78", "us-house-16"]
   '186': ["el-paso-county/commissioner-2", "el-paso-county/jp-1", "state-house-77", "us-house-16"]

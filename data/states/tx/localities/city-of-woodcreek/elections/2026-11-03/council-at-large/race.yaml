@@ -23,3 +23,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: Linked from the county's November 3, 2026 General Election page (https://www.hayscountytx.gov/873/November-3-2026-General-Election); it says it contains all contests and propositions on any Hays County ballot. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/city-of-woodcreek/elections/2026-11-03/council-at-large/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (City of Woodcreek: City Council), checked on November 3, 2026, shows that Jeff Rasco, a candidate in this race, currently holds this seat.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://woodcreektx.gov/212/City-Council
+  source_title: 'City of Woodcreek: City Council'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-03'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Quoted on the page: "Jeff Rasco Mayor Pro Tem More Information Krista Richardson Council Member"'

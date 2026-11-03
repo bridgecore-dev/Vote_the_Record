@@ -3,6 +3,7 @@ name: City of River Oaks Mayor
 office_type: mayor
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: the city site has no list of current council members or mayor.'
 sources:
 - id: tx/localities/city-of-river-oaks/elections/2026-11-03/mayor/race#S-01
   headline: Candidates as printed on the sample ballot

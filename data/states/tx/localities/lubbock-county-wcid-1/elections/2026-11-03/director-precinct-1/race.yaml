@@ -22,3 +22,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: One of 13 ballot-style sample ballots posted on the county's sample ballot page (https://votelubbock.gov/november-2026-general-and-special-election-sample-ballots/), each listing the precincts it covers. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/lubbock-county-wcid-1/elections/2026-11-03/director-precinct-1/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Lubbock County WCID No. 1 (Buffalo Springs Lake): Government), checked on November 3, 2026, shows that Kristy Doss, a candidate in this race, currently holds this seat. It does not list the other candidates as holding this office.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.buffalospringslake.net/government/
+  source_title: 'Lubbock County WCID No. 1 (Buffalo Springs Lake): Government'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-03'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Quoted on the page: "Kristy Doss, Precinct 1"'

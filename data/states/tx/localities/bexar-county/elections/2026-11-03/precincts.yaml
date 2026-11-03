@@ -654,7 +654,7 @@ precincts:
   '3205': ["bexar-county/jp-3", "state-house-120", "state-senate-26", "us-house-20", "city-of-san-antonio", "san-antonio-isd"]
   '3206': ["bexar-county/jp-3", "state-house-121", "us-house-21"]
   '3207': ["bexar-county/jp-3", "state-house-122", "us-house-23"]
-  '3208': ["bexar-county/jp-3", "state-house-122", "state-senate-26", "us-house-23", ["city-of-san-antonio"], "northside-isd"]
+  '3208': ["bexar-county/jp-3", "northside-isd", "state-house-122", "us-house-23", ["city-of-san-antonio"], ["state-senate-26"]]
   '3209': ["bexar-county/jp-3", "state-house-122", "us-house-21", "northside-isd"]
   '3210': ["bexar-county/jp-3", "state-house-121", "us-house-23", ["city-of-san-antonio"]]
   '3211': ["bexar-county/jp-3", "state-house-118", "us-house-21", "city-of-san-antonio"]

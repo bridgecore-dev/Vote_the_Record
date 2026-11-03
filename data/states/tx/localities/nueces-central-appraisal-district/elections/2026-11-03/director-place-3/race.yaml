@@ -3,6 +3,7 @@ name: Nueces Central Appraisal District Director, Place 3
 office_type: appraisal-district-director
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: the page lists the elected at-large directors but not their place numbers.'
 sources:
 - id: tx/localities/nueces-central-appraisal-district/elections/2026-11-03/director-place-3/race#S-01
   headline: Candidates as printed on the sample ballot

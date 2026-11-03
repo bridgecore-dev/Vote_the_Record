@@ -3,6 +3,7 @@ name: District Judge, 512th Judicial District
 office_type: district-judge
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: site refused an automated request.'
 sources:
 - id: tx/localities/williamson-county/elections/2026-11-03/district-court-512/race#S-01
   headline: Candidates as printed on the sample ballot

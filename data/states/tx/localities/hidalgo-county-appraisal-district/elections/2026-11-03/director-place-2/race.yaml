@@ -3,6 +3,7 @@ name: Hidalgo County Appraisal District Director, Place 2
 office_type: appraisal-district-director
 election_date: '2026-11-03'
 detail: basic
+notes: 'Incumbent status not confirmed: the appraisal district site is a JavaScript-only app with no board names in the page.'
 sources:
 - id: tx/localities/hidalgo-county-appraisal-district/elections/2026-11-03/director-place-2/race#S-01
   headline: Candidates as printed on the sample ballot

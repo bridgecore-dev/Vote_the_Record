@@ -1,7 +1,7 @@
 # Basic race: name and ballot label as printed on the sample ballot. Unverified.
 id: jeff-rasco
 name: Jeff Rasco
-incumbent: null
+incumbent: true
 ballot_party: null
 records: []
 funding: []

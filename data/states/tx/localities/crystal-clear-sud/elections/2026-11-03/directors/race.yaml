@@ -23,3 +23,20 @@ sources:
   verified_on: null
   reviewer: null
   notes: Linked from the county's November 3, 2026 General Election page (https://www.hayscountytx.gov/873/November-3-2026-General-Election); it says it contains all contests and propositions on any Hays County ballot. Saved in the owner's browser on November 2, 2026 (the county site refuses automated downloads). Names and wording are from the PDF's text layer, kept as printed (English text only).
+- id: tx/localities/crystal-clear-sud/elections/2026-11-03/directors/race#S-HOLDER
+  headline: Who holds this office now
+  statement: 'The official page (Crystal Clear Special Utility District: Board Members), checked on November 3, 2026, lists Cheryl Patterson, Joseph Benavides, Jamie Trant, Pamela Kraft, Ben Raska and Andrea Velasquez as the current members of this body; none of the candidates in this race is among them.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.crystalclearsud.org/board-members
+  source_title: 'Crystal Clear Special Utility District: Board Members'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-03'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'Quoted on the page: "President: Ms. Pamela Kraft pkraft@crystalclearsud.org Director: Mr. Ben Raska ben@crystalclearsud.org Secretary/Treasurer: Ms. Andrea Velasquez"'
