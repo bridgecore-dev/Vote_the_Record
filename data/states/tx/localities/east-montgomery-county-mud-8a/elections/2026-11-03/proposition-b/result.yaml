@@ -1,0 +1,25 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: partial
+covers_note: Votes counted in Montgomery County only.
+counts:
+  FOR: 1
+  AGAINST: 0
+sources:
+- id: tx/localities/east-montgomery-county-mud-8a/elections/2026-11-03/proposition-b/result#S-01
+  statement: Montgomery County Cumulative Results, November 3, 2026 Joint Election (Unofficial; 11/4/2026 12:55:24 AM) lists these vote counts for "EMC MUD No. 8A Proposition B" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://elections.mctx.org/pdf/GEN110326/Cumulative%20Results-11-4-2026%2012-55-24%20AM.pdf
+  source_title: Montgomery County Cumulative Results, November 3, 2026 Joint Election (Unofficial; 11/4/2026 12:55:24 AM)
+  source_kind: document
+  sha256: f426a3c1c1aba0e3670421f8fdafeab266e67003f834566aaab13d89cb0106d8
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

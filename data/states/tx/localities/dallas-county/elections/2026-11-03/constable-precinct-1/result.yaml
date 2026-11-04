@@ -1,0 +1,23 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: whole
+counts:
+  tracey-gulley: 118266
+sources:
+- id: tx/localities/dallas-county/elections/2026-11-03/constable-precinct-1/result#S-01
+  statement: Dallas County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 2:37 AM) lists these vote counts for "Constable, Precinct No. 1 (Vote For 1)" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://results.enr.clarityelections.com/TX/Dallas/127396/385536/reports/summary.zip
+  source_title: Dallas County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 2:37 AM)
+  source_kind: document
+  sha256: e9e39e644865e944a5ce4098cb081b805ede3d47c3d0c66ba4b4f4dd4e104dd3
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

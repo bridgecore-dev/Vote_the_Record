@@ -1,0 +1,23 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: whole
+counts:
+  bill-bowen: 3994
+sources:
+- id: tx/localities/ector-county/elections/2026-11-03/jp-precinct-3/result#S-01
+  statement: Ector County Cumulative Results Report, General and The City of Odessa Election, 11/3/2026 (Unofficial; run 12:47 AM 11/04/2026, 19 of 27 polling places reporting) lists these vote counts for "Justice of the Peace, Precinct 3" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ectorcountytx.gov/DocumentCenter/View/3573
+  source_title: Ector County Cumulative Results Report, General and The City of Odessa Election, 11/3/2026 (Unofficial; run 12:47 AM 11/04/2026, 19 of 27 polling places reporting)
+  source_kind: document
+  sha256: 8917555d9aceb697d7863562a671af0af60bcc249c858cfff3fa97a41eac9c46
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

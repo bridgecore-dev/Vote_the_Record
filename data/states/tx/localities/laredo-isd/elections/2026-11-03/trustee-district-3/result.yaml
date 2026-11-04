@@ -1,0 +1,25 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-03'
+covers: partial
+covers_note: Votes counted in Webb County only.
+counts:
+  veronica-v-orduno: 768
+  priscilla-trevino: 674
+sources:
+- id: tx/localities/laredo-isd/elections/2026-11-03/trustee-district-3/result#S-01
+  statement: Webb County Election Summary Results Report, 2026 Joint General and Special Election, November 3, 2026 (Unofficial Combined Results; run 11/03/2026 11:05 PM, precincts partially reported) lists these vote counts for "Laredo ISD, School Board Trustee Dist. 3" (unofficial, as of 2026-11-03).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.webbcountytx.gov/DocumentCenter/View/12238
+  source_title: Webb County Election Summary Results Report, 2026 Joint General and Special Election, November 3, 2026 (Unofficial Combined Results; run 11/03/2026 11:05 PM, precincts partially reported)
+  source_kind: document
+  sha256: 84f193b25fbf1bba4562c438a5569341046939275b92fc9c54fa7c19c0465cba
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

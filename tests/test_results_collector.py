@@ -1,5 +1,6 @@
 """src/collectors/results.py on a copy of the fictional demo data: matching, writing, and never overwriting."""
 
+import hashlib
 import shutil
 import sys
 from pathlib import Path
@@ -248,3 +249,47 @@ def test_a_shared_name_does_not_match_a_race_with_other_names_listed():
 
 def test_an_incumbent_mark_and_quoted_nickname_still_match():
     assert results.name_keys('MARIA LUISA "LULU" FLORES (I)') & results.name_keys("Maria Luisa \u201cLulu\u201d Flores")
+
+
+def test_a_typed_up_scan_takes_its_hash_from_the_downloaded_report(demo, tmp_path):
+    root, export = demo
+    scan = tmp_path / "report.pdf"
+    scan.write_bytes(b"%PDF-1.4 scanned results report")
+    run(root, export, "--source-kind", "document", "--source-file", str(scan), "--write")
+    fact = read(root, "tx/localities/demo-county/elections/2026-11-03/jp-precinct-1")["sources"][0]
+    assert fact["sha256"] == hashlib.sha256(scan.read_bytes()).hexdigest()
+
+
+def test_a_spelled_out_district_type_fits_and_the_fuller_name_wins():
+    mud7 = {"kind": "measure", "name": "Blue Meadow MUD No. 7, Proposition A", "choices": ["For", "Against"]}
+    assert results.measure_fits(mud7, "Blue Meadow Municipal Utility District No. 7 Proposition A (Vote For 1)")
+    city = {"path": "tx/localities/city-of-dallas/elections/2026-11-03/proposition-a", "kind": "measure",
+            "name": "City of Dallas, Proposition A", "choices": ["For", "Against"]}
+    lake = {"path": "tx/localities/city-of-lake-dallas/elections/2026-11-03/proposition-a", "kind": "measure",
+            "name": "City of Lake Dallas, Proposition A", "choices": ["For", "Against"]}
+    county = {"path": "tx/localities/dallas-county/elections/2026-11-03/proposition-a", "kind": "measure",
+              "name": "Dallas County, Proposition A", "choices": ["For", "Against"]}
+    rows = [(t, c, 1) for t in ("City of Lake Dallas Proposition A", "DALLAS COUNTY PROPOSITION A")
+            for c in ("For", "Against")]
+    matched, problems = results.plan([city, lake, county], rows, {})
+    assert {m["contest"]["path"].split("/")[2] for m in matched} == {"city-of-lake-dallas", "dallas-county"}
+    assert problems == []
+
+
+def test_a_party_code_printed_after_the_name_still_matches():
+    assert results.name_keys("Juan Zamora DEM") & results.name_keys("Juan Zamora")
+
+
+def test_two_places_races_printed_under_one_title_each_keep_their_own_names():
+    def race(path, *names):
+        return {"path": path, "kind": "race", "name": path, "election_date": "2026-11-03",
+                "candidates": [{"id": n.lower().replace(" ", "-"), "name": n, "write_in": False} for n in names]}
+    contests = [race("tx/localities/city-of-a/elections/2026-11-03/mayor", "Bob Yancy", "Elizabeth Cunha"),
+                race("tx/localities/city-of-b/elections/2026-11-03/mayor", "Rafael D. Pe\u00f1a III", "Bobby Gutierrez")]
+    contests[1]["candidates"][0]["id"] = "rafael-d-pena-iii"
+    rows = [("MAYOR", "BOB YANCY", 5), ("MAYOR", "ELIZABETH CUNHA", 4), ("MAYOR", "RAFAEL D. PE?A III", 3),
+            ("MAYOR", "BOBBY GUTIERREZ", 6)]
+    matched, problems = results.plan(contests, rows, {})
+    got = {m["contest"]["path"].split("/")[2]: m["counts"] for m in matched}
+    assert got == {"city-of-a": {"bob-yancy": 5, "elizabeth-cunha": 4},
+                   "city-of-b": {"rafael-d-pena-iii": 3, "bobby-gutierrez": 6}} and problems == []

@@ -1,0 +1,25 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-03'
+covers: partial
+covers_note: Votes counted in Brazos County only.
+counts:
+  bob-yancy: 18365
+  elizabeth-cunha: 12691
+sources:
+- id: tx/localities/city-of-college-station/elections/2026-11-03/mayor/result#S-01
+  statement: Brazos County Cumulative Results Report, 2026 Nov 3rd General & Special Election (Unofficial; run 10:45 PM 11/03/2026, 8 of 99 precincts reporting) lists these vote counts for "MAYOR" (unofficial, as of 2026-11-03).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://elections.brazoscountytx.gov/wp-content/uploads/2026/11/Unofficial-Cumulative-Results-11-3-2026.pdf
+  source_title: Brazos County Cumulative Results Report, 2026 Nov 3rd General & Special Election (Unofficial; run 10:45 PM 11/03/2026, 8 of 99 precincts reporting)
+  source_kind: document
+  sha256: 2d0d7ff5b264d7572bf1039890bc5e280a801a84c9546f65bfeb7fd2df12ec0b
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
