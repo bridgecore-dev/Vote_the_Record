@@ -148,7 +148,7 @@ def parse_hart_text(text: str) -> list[tuple[str, str, int]]:
 PARTY_LINE = re.compile(r"^(?:REP|DEM|LIB|GRN|GRE|IND|NP|NON)$")
 NUMBER_LINE = re.compile(r"^(?:\d{1,3}(?:,\d{3})*|\d+(?:\.\d+)?%)$")
 STAT_LINE = re.compile(r"(?i)^(cast votes|undervotes|overvotes|under votes|over votes|rejected write-in votes):?$")
-REPEAT_MARK = re.compile(r" \[\d+\]$")  # parse_hart_columns' mark on a title printed a second time
+REPEAT_MARK = re.compile(r" \[\d+\]$")  # the mark on a title printed a second time (parse_hart_columns, mark_repeats)
 TABLE_HEADINGS = {"Choice", "Party", "Total", "Absentee", "Absentee Voting", "Early Voting", "Election Day",
                   "Election Day Voting"}
 
@@ -249,6 +249,20 @@ def parse_precinct_csv(text: str) -> list[tuple[str, str, int]]:
         r"(?i)registered|ballots cast", c))
     return [(contests[k].strip(), choices[k].strip(), int(row[k].replace(",", "") or 0))
             for k in range(start, len(contests)) if contests[k].strip() and choices[k].strip()]
+
+
+def mark_repeats(rows: list[tuple[str, str, int]]) -> list[tuple[str, str, int]]:
+    """A title that comes back after other contests, or whose choices start over (For, Against, For, ...), is another
+    contest of the same name (two districts' "Proposition A", or titles a Clarity export cut short): the second becomes
+    "Proposition A [2]", as parse_hart_columns marks it."""
+    out, runs, prev, seen = [], {}, None, set()
+    for title, choice, votes in rows:
+        if title != prev or choice in seen:
+            runs[title] = runs.get(title, 0) + 1
+            prev, seen = title, set()
+        seen.add(choice)
+        out.append((f"{title} [{runs[title]}]" if runs[title] > 1 else title, choice, votes))
+    return out
 
 
 def read_rows(path: Path) -> list[tuple[str, str, int]]:
@@ -525,7 +539,7 @@ def main(argv: list[str] | None = None) -> int:
         contests = load_ballot(None, root, statewide_contests(root, args.statewide[0].lower(), args.statewide[1]))
         locality, county = None, None
     contests = [c for c in contests if c["path"] not in args.skip]
-    matched, problems = plan(contests, read_rows(args.file), manual)
+    matched, problems = plan(contests, mark_repeats(read_rows(args.file)), manual)
     sha = hashlib.sha256((args.source_file or args.file).read_bytes()).hexdigest()         if args.source_kind == "document" else None
     wrote = skipped = 0
     for m in matched:

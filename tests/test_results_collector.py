@@ -293,3 +293,10 @@ def test_two_places_races_printed_under_one_title_each_keep_their_own_names():
     got = {m["contest"]["path"].split("/")[2]: m["counts"] for m in matched}
     assert got == {"city-of-a": {"bob-yancy": 5, "elizabeth-cunha": 4},
                    "city-of-b": {"rafael-d-pena-iii": 3, "bobby-gutierrez": 6}} and problems == []
+
+
+def test_a_title_that_comes_back_or_whose_choices_start_over_is_another_contest():
+    rows = [("Proposition A", "For", 10), ("Proposition A", "Against", 5), ("Mayor", "Pat", 7),
+            ("Proposition A", "For", 3), ("Proposition A", "Against", 4), ("Proposition A", "For", 1)]
+    assert [r[0] for r in results.mark_repeats(rows)] == \
+        ["Proposition A"] * 2 + ["Mayor"] + ["Proposition A [2]"] * 2 + ["Proposition A [3]"]

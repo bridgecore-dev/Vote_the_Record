@@ -1,0 +1,25 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: partial
+covers_note: Votes counted in Williamson County only.
+counts:
+  For: 3
+  Against: 0
+sources:
+- id: tx/localities/williamson-county-mud-80/elections/2026-11-03/proposition-a/result#S-01
+  statement: Williamson County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 12:52 AM) lists these vote counts for "Williamson County Municipal Utility District No. 80 Pr (Vote For 1)" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://results.enr.clarityelections.com/TX/Williamson/127488/385435/reports/summary.zip
+  source_title: Williamson County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 12:52 AM)
+  source_kind: document
+  sha256: c20faa7ff60072163f7cb0a9d0f5a5d7db11ac9e63a994a4878ef3298a473d9a
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
