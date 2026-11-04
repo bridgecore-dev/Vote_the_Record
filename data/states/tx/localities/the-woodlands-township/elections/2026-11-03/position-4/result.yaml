@@ -3,19 +3,19 @@ election_date: '2026-11-03'
 status: unofficial
 as_of: '2026-11-04'
 covers: partial
-covers_note: Votes counted in Harris County only.
+covers_note: Votes counted in Montgomery County only.
 counts:
-  craig-eissler: 2839
+  craig-eissler: 26020
 sources:
-- id: tx/localities/the-woodlands-township/elections/2026-11-03/position-4/result#S-01
-  statement: Harris County Cumulative Results Report, General and Special Elections, 11/3/2026 (Unofficial; run 11/04/2026 12:50 AM) lists these vote counts for "The Woodlands Township, Position No. 4" (unofficial, as of 2026-11-04).
+- id: tx/localities/the-woodlands-township/elections/2026-11-03/position-4/result#S-02
+  statement: Montgomery County Cumulative Results, November 3, 2026 Joint Election (Unofficial; 11/4/2026 12:55:24 AM) lists these vote counts for "The Woodlands Township Position No. 4" (unofficial, as of 2026-11-04).
   label: official_record
   claim_status: documented
   contradicted_by: []
-  source_url: https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/cumulative.pdf
-  source_title: Harris County Cumulative Results Report, General and Special Elections, 11/3/2026 (Unofficial; run 11/04/2026 12:50 AM)
+  source_url: https://elections.mctx.org/pdf/GEN110326/Cumulative%20Results-11-4-2026%2012-55-24%20AM.pdf
+  source_title: Montgomery County Cumulative Results, November 3, 2026 Joint Election (Unofficial; 11/4/2026 12:55:24 AM)
   source_kind: document
-  sha256: c4b3bce4afc2bda7f8304ff74613a46d88062466a0747badf1ac3e2758c9b79b
+  sha256: f426a3c1c1aba0e3670421f8fdafeab266e67003f834566aaab13d89cb0106d8
   archive_url: null
   event_date: '2026-11-03'
   retrieved: '2026-11-04'

@@ -1,0 +1,23 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: whole
+counts:
+  chance-oliver: 219484
+sources:
+- id: tx/localities/denton-county/elections/2026-11-03/county-criminal-court-4/result#S-01
+  statement: Denton County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 1:24 AM) lists these vote counts for "Judge, County Criminal Court at Law No. 4 (Vote For 1)" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://results.enr.clarityelections.com/TX/Denton/127398/385491/reports/summary.zip
+  source_title: Denton County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 1:24 AM)
+  source_kind: document
+  sha256: 3429e785fb7f20b5c12d7ebf041a184cee6c9a321a9ee5e71daaa435aa0c5d70
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

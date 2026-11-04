@@ -1,0 +1,25 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: partial
+covers_note: Votes counted in Lubbock County only.
+counts:
+  FOR: 7
+  AGAINST: 25
+sources:
+- id: tx/localities/lorenzo-isd/elections/2026-11-03/proposition-a/result#S-01
+  statement: Lubbock County Cumulative Results Report, November 2026 Joint General and Special Election (Unofficial; run 7:06 AM 11/04/2026, 57 of 57 polling places reporting) lists these vote counts for "Lorenzo Independent School District, Proposition A" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://votelubbock.gov/wp-content/uploads/November-General-Election-Night-Report.pdf
+  source_title: Lubbock County Cumulative Results Report, November 2026 Joint General and Special Election (Unofficial; run 7:06 AM 11/04/2026, 57 of 57 polling places reporting)
+  source_kind: document
+  sha256: b8a66d50041677316fdd6b7a4c06e17bda99228e38e1909e9cee1ad1f3e1cc66
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

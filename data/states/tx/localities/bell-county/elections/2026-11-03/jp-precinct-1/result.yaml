@@ -1,0 +1,23 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: whole
+counts:
+  patrick-pat-patterson: 18652
+sources:
+- id: tx/localities/bell-county/elections/2026-11-03/jp-precinct-1/result#S-01
+  statement: Bell County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 1:47 AM) lists these vote counts for "JOP Pct 1 (Vote For 1)" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://results.enr.clarityelections.com/TX/Bell/127475/385515/reports/summary.zip
+  source_title: Bell County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 1:47 AM)
+  source_kind: document
+  sha256: 9d5b790000f02d247ad0487d9eba0edff0a80d92bdef3f897aedbff07bb94e43
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

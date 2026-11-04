@@ -1,0 +1,27 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: partial
+covers_note: Votes counted in Hays County only.
+counts:
+  justin-cofield: 115
+  trent-brackenridge: 65
+  david-f-prindle: 29
+  barbara-stinson: 81
+sources:
+- id: tx/localities/village-of-bear-creek/elections/2026-11-03/commissioner/result#S-01
+  statement: Hays County Cumulative Results Report 20261103 - unofficial (CSV in Results Reports (PDF and CSV), 11/4/2026 12:20 AM) lists these vote counts for "Village of Bear Creek, City Commissioner - Vote for two, one, or none." (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hayscountytx.gov/DocumentCenter/View/5587/Results-Reports-20261103---unofficial
+  source_title: Hays County Cumulative Results Report 20261103 - unofficial (CSV in Results Reports (PDF and CSV), 11/4/2026 12:20 AM)
+  source_kind: document
+  sha256: ebb86908f557101dc4e5a5895075329a0de2a1e1fdcaa647891c9a02e2970b23
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

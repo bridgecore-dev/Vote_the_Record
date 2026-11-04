@@ -1,0 +1,24 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-03'
+covers: whole
+counts:
+  ed-bennett: 7957
+  isabel-noyola-martin: 13726
+sources:
+- id: tx/localities/nueces-county/elections/2026-11-03/commissioner-precinct-2/result#S-01
+  statement: Nueces County Cumulative Results, November 3, 2026 General Election (Unofficial; 11/3/2026 11:56:46 PM, 74 of 91 polling places reporting) lists these vote counts for "COUNTY COMMISSIONER, PRECINCT 2" (unofficial, as of 2026-11-03).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.nuecesco.com/home/showpublisheddocument/34819
+  source_title: Nueces County Cumulative Results, November 3, 2026 General Election (Unofficial; 11/3/2026 11:56:46 PM, 74 of 91 polling places reporting)
+  source_kind: document
+  sha256: 229f741665701772e7e7e0c67e59622eb66d3bfb171d5994b5a5e337993b4b17
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

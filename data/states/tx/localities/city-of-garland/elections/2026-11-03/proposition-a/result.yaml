@@ -3,20 +3,20 @@ election_date: '2026-11-03'
 status: unofficial
 as_of: '2026-11-04'
 covers: partial
-covers_note: Votes counted in Collin County only.
+covers_note: Votes counted in Dallas County only.
 counts:
-  For: 74
-  Against: 57
+  For: 34570
+  Against: 33203
 sources:
-- id: tx/localities/city-of-garland/elections/2026-11-03/proposition-a/result#S-01
-  statement: Collin County Summary Results Report, General and Special Election, November 3, 2026 (Unofficial; 11/04/2026 1:02 AM) lists these vote counts for "Proposition A - City of  Garland" (unofficial, as of 2026-11-04).
+- id: tx/localities/city-of-garland/elections/2026-11-03/proposition-a/result#S-02
+  statement: Dallas County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 2:37 AM) lists these vote counts for "City of Garland Proposition A (Vote For 1)" (unofficial, as of 2026-11-04).
   label: official_record
   claim_status: documented
   contradicted_by: []
-  source_url: https://www.collincountytx.gov/docs/default-source/elections/election-results/november-3-2026---joint-general-and-special-election---summary-results-report---unofficial-totals82d47b712e4e479b9ef59ce6102cec92.pdf?sfvrsn=309a3c78_3
-  source_title: Collin County Summary Results Report, General and Special Election, November 3, 2026 (Unofficial; 11/04/2026 1:02 AM)
+  source_url: https://results.enr.clarityelections.com/TX/Dallas/127396/385536/reports/summary.zip
+  source_title: Dallas County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 2:37 AM)
   source_kind: document
-  sha256: e50f535bc3d508fd9c3a828b41578289493655ee99620d6af3c6c08a76454c08
+  sha256: e9e39e644865e944a5ce4098cb081b805ede3d47c3d0c66ba4b4f4dd4e104dd3
   archive_url: null
   event_date: '2026-11-03'
   retrieved: '2026-11-04'

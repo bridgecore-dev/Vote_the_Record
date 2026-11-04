@@ -1,0 +1,39 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-03'
+covers: partial
+covers_note: Votes counted in Nueces County only.
+counts:
+  anthem-powers: 4007
+  merida-nardone-mendoza: 17806
+  scott-f-corliss: 15116
+  sammy-gonzales: 8362
+  zoraida-basaldu: 5087
+  michael-miller: 15385
+  joshua-fraedrick: 9702
+  willie-morales-jr: 5502
+  mark-scott: 26000
+  nancy-vera: 14334
+  julian-jacob-hernandez: 4779
+  carolyn-vaughn: 18457
+  richard-shelton: 4367
+  dan-mcqueen: 5809
+  alex-johnston: 4711
+other_votes: 1
+sources:
+- id: tx/localities/city-of-corpus-christi/elections/2026-11-03/council-at-large/result#S-01
+  statement: Nueces County Cumulative Results, November 3, 2026 General Election (Unofficial; 11/3/2026 11:56:46 PM, 74 of 91 polling places reporting) lists these vote counts for "Polling Places Reporting 74 of 91 = 81.32% Council Member, At-Large" (unofficial, as of 2026-11-03).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.nuecesco.com/home/showpublisheddocument/34819
+  source_title: Nueces County Cumulative Results, November 3, 2026 General Election (Unofficial; 11/3/2026 11:56:46 PM, 74 of 91 polling places reporting)
+  source_kind: document
+  sha256: 229f741665701772e7e7e0c67e59622eb66d3bfb171d5994b5a5e337993b4b17
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

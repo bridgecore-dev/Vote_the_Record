@@ -3,20 +3,20 @@ election_date: '2026-11-03'
 status: unofficial
 as_of: '2026-11-04'
 covers: partial
-covers_note: Votes counted in Travis County only.
+covers_note: Votes counted in Williamson County only.
 counts:
-  serenity-coats: 12816
-  gerald-prater: 6207
+  serenity-coats: 30222
+  gerald-prater: 14205
 sources:
-- id: tx/localities/leander-isd/elections/2026-11-03/trustee-place-1/result#S-01
-  statement: Travis County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 3:35 AM) lists these vote counts for "Leander ISD Board of Trustees, Place 1 (Vote For 1)" (unofficial, as of 2026-11-04).
+- id: tx/localities/leander-isd/elections/2026-11-03/trustee-place-1/result#S-02
+  statement: Williamson County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 12:52 AM) lists these vote counts for "Leander Independent School District Board of Trustees, (Vote For 1)" (unofficial, as of 2026-11-04).
   label: official_record
   claim_status: documented
   contradicted_by: []
-  source_url: https://results.enr.clarityelections.com/TX/Travis/127492/385566/reports/summary.zip
-  source_title: Travis County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 3:35 AM)
+  source_url: https://results.enr.clarityelections.com/TX/Williamson/127488/385435/reports/summary.zip
+  source_title: Williamson County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 12:52 AM)
   source_kind: document
-  sha256: 9017e6e3cca51534b44c025936c76ac26f1266abaa23ce23bf94b30cca0d96d7
+  sha256: c20faa7ff60072163f7cb0a9d0f5a5d7db11ac9e63a994a4878ef3298a473d9a
   archive_url: null
   event_date: '2026-11-03'
   retrieved: '2026-11-04'

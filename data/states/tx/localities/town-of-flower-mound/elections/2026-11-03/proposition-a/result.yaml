@@ -3,20 +3,20 @@ election_date: '2026-11-03'
 status: unofficial
 as_of: '2026-11-04'
 covers: partial
-covers_note: Votes counted in Tarrant County only.
+covers_note: Votes counted in Denton County only.
 counts:
-  For: 307
-  Against: 102
+  For: 26446
+  Against: 8431
 sources:
-- id: tx/localities/town-of-flower-mound/elections/2026-11-03/proposition-a/result#S-01
-  statement: Tarrant County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 2:54 AM) lists these vote counts for "Town of Flower Mound Proposition A (Vote For 1)" (unofficial, as of 2026-11-04).
+- id: tx/localities/town-of-flower-mound/elections/2026-11-03/proposition-a/result#S-02
+  statement: Denton County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 1:24 AM) lists these vote counts for "Town of Flower Mound Proposition A (Vote For 1)" (unofficial, as of 2026-11-04).
   label: official_record
   claim_status: documented
   contradicted_by: []
-  source_url: https://results.enr.clarityelections.com/TX/Tarrant/127297/385548/reports/summary.zip
-  source_title: Tarrant County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 2:54 AM)
+  source_url: https://results.enr.clarityelections.com/TX/Denton/127398/385491/reports/summary.zip
+  source_title: Denton County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 1:24 AM)
   source_kind: document
-  sha256: 4c77e37e074002adbabd028ebfc4a40f7f01adc03696f128bee4edfa6c72e0fd
+  sha256: 3429e785fb7f20b5c12d7ebf041a184cee6c9a321a9ee5e71daaa435aa0c5d70
   archive_url: null
   event_date: '2026-11-03'
   retrieved: '2026-11-04'

@@ -1,0 +1,26 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: partial
+covers_note: Votes counted in Hidalgo County only.
+counts:
+  gloria-alonzo: 16007
+  jesus-jesse-mata: 9942
+  dominga-minga-vela: 9888
+sources:
+- id: tx/localities/edinburg-cisd/elections/2026-11-03/trustee-place-1/result#S-01
+  statement: Hidalgo County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 2:07 AM) lists these vote counts for "For School Board Trustee, Place 1, Edinburg Consolidated Independent School District" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://results.enr.clarityelections.com/TX/Hidalgo/127350/385524/reports/summary.zip
+  source_title: Hidalgo County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 2:07 AM)
+  source_kind: document
+  sha256: 266a026bae7bc0eb76a062a190b225ca11e0898356ede0243c24e77aa3d6f6d1
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

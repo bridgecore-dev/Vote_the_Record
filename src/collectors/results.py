@@ -76,6 +76,7 @@ def key(s: str) -> str:
 def name_keys(name: str) -> set[str]:
     """Ways a candidate's name may be printed: full, and first + last (middle names, initials, suffixes dropped)."""
     name = PARTY_CODE.sub("", name)  # Fort Bend's Clarity file prints "REP ASHA REDDI"
+    name = PARTY_AFTER.sub("", name)  # Hidalgo's prints "Juan Zamora DEM"
     name = re.sub(r"\([^)]*\)", " ", name)  # "(I)" marks the incumbent in the Secretary of State's returns
     words = [w for w in re.findall(r"[A-Za-z][A-Za-z'\-]*", unicodedata.normalize("NFKD", name)
                                    .encode("ascii", "ignore").decode())
@@ -83,12 +84,14 @@ def name_keys(name: str) -> set[str]:
     out = {key(name)}
     if len(words) >= 2:
         out.add(key(words[0] + words[-1]))
-    # a PDF may print an accented letter as an unreadable character ("Pe�a"): match on the plain letters around it
-    out.add(re.sub(r"[^a-z0-9]", "", re.sub(r"[^\x00-\x7f]", "", name).lower()))
+    # a PDF may print an accented letter as an unreadable character ("Pe�a", or "PE?A" in a Hart report): match on
+    # the plain letters around it
+    out.add(re.sub(r"[^a-z0-9]", "", re.sub(r"[^\x00-\x7f]|\?", "", name).lower()))
     return out
 
 
 PARTY_CODE = re.compile(r"^(?:REP|DEM|LIB|GRN|IND|NP)\s+")
+PARTY_AFTER = re.compile(r"\s+(?:REP|DEM|LIB|GRN|IND|NP)$")
 COUNT = re.compile(r"^\d{1,3}(?:,\d{3})*$")
 REPORT_NOISE = re.compile(r"(?i)(cumulative report|summary results report|election summary -|total number of voters|"
                           r"^page \d|page \d+ of|votes:|precincts|vote centers reporting|counted|registered|ballots cast|voter turnout|"
@@ -145,24 +148,37 @@ def parse_hart_text(text: str) -> list[tuple[str, str, int]]:
 PARTY_LINE = re.compile(r"^(?:REP|DEM|LIB|GRN|GRE|IND|NP|NON)$")
 NUMBER_LINE = re.compile(r"^(?:\d{1,3}(?:,\d{3})*|\d+(?:\.\d+)?%)$")
 STAT_LINE = re.compile(r"(?i)^(cast votes|undervotes|overvotes|under votes|over votes|rejected write-in votes):?$")
+REPEAT_MARK = re.compile(r" \[\d+\]$")  # parse_hart_columns' mark on a title printed a second time
+TABLE_HEADINGS = {"Choice", "Party", "Total", "Absentee", "Absentee Voting", "Early Voting", "Election Day",
+                  "Election Day Voting"}
 
 
 def drop_page_tops(pages: list[str]) -> list[str]:
     """Lines of each page without the block printed at the top of every page (county, election, page number, turnout,
-    run time). A line counts as that block if it starts most pages (page numbers and digits aside)."""
+    run time). A line counts as that block if it starts most pages (page numbers and digits aside). Some reports'
+    text puts that block last on the page (Montgomery, Nueces), so it is taken off the end the same way; counts, vote
+    lines and the table headings never count as part of it."""
     split = [[ln.strip() for ln in p.splitlines() if ln.strip()] for p in pages]
     shape = lambda ln: re.sub(r"\d+", "#", ln)  # noqa: E731
+    keep = lambda ln: NUMBER_LINE.match(ln) or STAT_LINE.match(ln) or ln in TABLE_HEADINGS  # noqa: E731
     starts: dict[str, int] = {}
+    ends: dict[str, int] = {}
     for lines in split:
         for ln in set(map(shape, lines[:30])):
             starts[ln] = starts.get(ln, 0) + 1
-    common = {ln for ln, n in starts.items() if n >= max(2, len(pages) * 0.6)} - {"Choice", "Party"}
+        for ln in set(map(shape, (x for x in lines[-30:] if not keep(x)))):
+            ends[ln] = ends.get(ln, 0) + 1
+    least = max(2, len(pages) * 0.6)
+    common = {ln for ln, n in starts.items() if n >= least} - {"Choice", "Party"}
+    common_end = {ln for ln, n in ends.items() if n >= least}
     out = []
     for lines in split:
-        i = 0
+        i, j = 0, len(lines)
         while i < len(lines) and shape(lines[i]) in common and lines[i] != "Choice":
             i += 1
-        out.extend(lines[i:])
+        while j > i and shape(lines[j - 1]) in common_end and not keep(lines[j - 1]):
+            j -= 1
+        out.extend(lines[i:j])
     return out
 
 
@@ -174,6 +190,8 @@ def parse_hart_columns(pages: list[str]) -> list[tuple[str, str, int]]:
     lines = drop_page_tops(pages)
     rows, contest, i = [], None, 0
     name, counts, stats = [], [], False
+    seen: set[str] = set()
+    printed = None  # the current contest's title as printed (contest may carry a " #2")
 
     def flush():
         if contest and name and counts and not stats:
@@ -190,7 +208,12 @@ def parse_hart_columns(pages: list[str]) -> list[tuple[str, str, int]]:
                 j -= 1
             title_text = re.sub(r"(?i)\s*-\s*vote for .*$", "", " ".join(title)).strip(" ,")
             # a contest carried onto the next page repeats its headings, not always its title
-            contest = title_text or contest
+            if title_text and title_text != printed:
+                # two places' measures may both print as "Proposition A" (Nueces): the later one is "Proposition A [2]"
+                printed, contest, n = title_text, title_text, 2
+                while contest in seen:
+                    contest, n = f"{printed} [{n}]", n + 1
+                seen.add(contest)
             while i < len(lines) and lines[i] != "Total":
                 i += 1
             name, counts, stats = [], [], False
@@ -263,6 +286,13 @@ def read_rows(path: Path) -> list[tuple[str, str, int]]:
         rows = [{(k or "").lower().strip(): v for k, v in r.items()} for r in csv.DictReader(io.StringIO(text))]
     if not rows:
         return []
+    if "tbcontestname" in rows[0] and "choicename" in rows[0]:
+        # Hart's "Cumulative Results Report" saved as CSV (Hays): one column of votes per voting method
+        # (ID1__Votes, ID2__Votes, ...); the other column names are the report's own text boxes
+        methods = [k for k in rows[0] if re.fullmatch(r"id\d+__votes", k)]
+        return [(r["tbcontestname"].strip(), r["choicename"].strip(),
+                 sum(int(r[k].replace(",", "") or 0) for k in methods)) for r in rows
+                if r["tbcontestname"] and r["choicename"]]
 
     def col(names):
         found = next((n for n in names if n in rows[0]), None)
@@ -344,15 +374,33 @@ def split_title(contests: list[dict], names: list[str]) -> list[tuple[dict, set[
 PROP = re.compile(r"(?i)\b(?:prop(?:osition)?|measure|propuesta)\s*(?:no\.?\s*)?([a-z0-9]{1,3})\b")
 
 
-def measure_fits(contest: dict, title: str) -> bool:
+DISTRICT_TYPES = [(re.compile(r"(?i)\b" + long + r"\b"), short) for long, short in (
+    (r"municipal utility district", "mud"), (r"municipal management district", "mmd"),
+    (r"water control and improvement district", "wcid"),
+    (r"fresh water supply district", "fwsd"), (r"emergency services district", "esd"),
+    (r"independent school district", "isd"))]
+
+
+NAME_WORD = re.compile(r"\d+[a-z](?![a-z])|[a-z]+|\d+")  # "265a" (MUD No. 265A) stays one word
+
+
+def measure_fits(contest: dict, title: str) -> int:
+    """How well a printed title fits a ballot measure: 0 if not at all, else the number of the measure's name words
+    the title shares (so "City of Lake Dallas" beats "City of Dallas", and "Georgetown ISD" beats "City of Georgetown")."""
     a, b = PROP.search(contest["name"]), PROP.search(title)
     if not (a and b) or a[1].lower() != b[1].lower():
-        return False
-    place = [w for w in re.findall(r"[a-z]+|\d+", contest["name"].lower().split("proposition")[0])
-             if w not in ("city", "of", "the", "county", "isd", "district", "town", "village", "no")]
-    # a district number must match as a whole number ("MUD No. 2" is not "MUD No. 12" or "MUD No. 4")
-    numbers = re.findall(r"\d+", title.replace(b[0], " "))
-    return all(w in numbers if w.isdigit() else w in title.lower() for w in place)
+        return 0
+    name = contest["name"]
+    for long, short in DISTRICT_TYPES:  # Denton prints "Municipal Utility District No. 7"; most of our names say "MUD"
+        title, name = long.sub(short, title), long.sub(short, name)
+    named = [w for w in NAME_WORD.findall(name.lower().split("proposition")[0]) if w not in ("of", "the", "no")]
+    place = [w for w in named if w not in ("city", "county", "isd", "district", "town", "village")]
+    # a district number must match whole ("MUD No. 2" is not "MUD No. 12" or "MUD No. 4"; "MUD No. 8A" is not "8B")
+    numbers = re.findall(r"\d+[a-z](?![a-z])|\d+", title.replace(b[0], " ").lower())
+    if not all(w in numbers if w[0].isdigit() else w in title.lower() for w in place):
+        return 0
+    words = set(NAME_WORD.findall(title.lower()))
+    return sum(w in words for w in named) or 1
 
 
 def plan(contests: list[dict], rows: list[tuple[str, str, int]], manual: dict[str, str]) -> tuple[list, list[str]]:
@@ -373,10 +421,15 @@ def plan(contests: list[dict], rows: list[tuple[str, str, int]], manual: dict[st
         else:
             cands = [c for c in contests if (c["kind"] == "race" or measure_fits(c, title))]
         fits = [(c, m) for c in cands if (m := match_choices(c, names))]
+        if len(fits) > 1 and all(c["kind"] != "race" for c, _ in fits):
+            # two measures fit the title: the one whose name the title spells out more fully ("City of Lake Dallas")
+            best = max(measure_fits(c, title) for c, _ in fits)
+            fits = [(c, m) for c, m in fits if measure_fits(c, title) == best]
         if len(fits) != 1 and title not in manual and (parts := split_title(contests, names)):
             # several seats printed under one title (Fort Bend's appraisal district): each race takes its own names
             for c, own in parts:
-                part = f"{title} [{c['path'].rsplit('/', 1)[-1]}]"
+                # keyed by the whole path: Brazos prints two cities' races as plain "MAYOR"
+                part = f"{title} [{c['path']}]"
                 manual[part], shown[part] = c["path"], title
                 queue.append((part, [x for x in choices if x[0] in own]))
             continue
@@ -394,7 +447,7 @@ def plan(contests: list[dict], rows: list[tuple[str, str, int]], manual: dict[st
         counts = {}
         for printed, target in found.items():
             counts[target] = counts.get(target, 0) + votes[printed]
-        matched.append({"contest": contest, "title": shown.get(title, title), "counts": counts,
+        matched.append({"contest": contest, "title": REPEAT_MARK.sub("", shown.get(title, title)), "counts": counts,
                         # a "Write-In Totals" line already sums the write-in lines listed under it (ES&S)
                         "other_votes": next((votes[w] for w in writeins if WRITE_IN_TOTAL.match(w)),
                                             sum(votes[w] for w in writeins))})
@@ -461,7 +514,7 @@ def main(argv: list[str] | None = None) -> int:
     args = ap.parse_args(argv)
 
     root = args.root.resolve()
-    manual = dict(m.split("=", 1) for m in args.map)
+    manual = dict(m.rsplit("=", 1) for m in args.map)  # a printed title may hold "=" ("74 of 91 = 81.32%")
     if args.ballot:
         ballot = args.ballot if args.ballot.is_absolute() else root / args.ballot
         # statewide and district races come in full from the Secretary of State (--statewide), not one county's share

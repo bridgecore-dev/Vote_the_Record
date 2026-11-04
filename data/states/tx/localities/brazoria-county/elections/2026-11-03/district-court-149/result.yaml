@@ -1,0 +1,23 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-03'
+covers: whole
+counts:
+  jessica-pulcher: 90443
+sources:
+- id: tx/localities/brazoria-county/elections/2026-11-03/district-court-149/result#S-01
+  statement: Brazoria County Cumulative Results Report, 2026 General & Joint Election, 11/3/2026 (Unofficial; run 11:18 PM 11/03/2026) lists these vote counts for "District Judge, 149th Judicial District" (unofficial, as of 2026-11-03).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.brazoriacountyclerktx.gov/home/showpublisheddocument/34160
+  source_title: Brazoria County Cumulative Results Report, 2026 General & Joint Election, 11/3/2026 (Unofficial; run 11:18 PM 11/03/2026)
+  source_kind: document
+  sha256: a287f91880cebc8bf92ae862662e5f46ad3f0c23b77d0dd114fad4a3babc0143
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
