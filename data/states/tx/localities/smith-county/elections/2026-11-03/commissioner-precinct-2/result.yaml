@@ -1,0 +1,24 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: whole
+counts:
+  austin-luce: 16405
+  dustin-gray-stephens: 5885
+sources:
+- id: tx/localities/smith-county/elections/2026-11-03/commissioner-precinct-2/result#S-01
+  statement: Smith County Summary Results Report, November 3, 2026 (Unofficial; Final Report of the Night, 11/04/2026 1:04 AM) lists these vote counts for "County Commissioner Pct 2" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://portal.laserfiche.com/Portal/ElectronicFile.aspx?docid=12215&repo=r-927d42fb
+  source_title: Smith County Summary Results Report, November 3, 2026 (Unofficial; Final Report of the Night, 11/04/2026 1:04 AM)
+  source_kind: document
+  sha256: ac2120cfb9c29313931af4177f05ba9636ae6318ce928e55383f029c41431246
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

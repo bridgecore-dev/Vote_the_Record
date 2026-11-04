@@ -1,0 +1,25 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-03'
+covers: partial
+covers_note: Votes counted in Cameron County only.
+counts:
+  rees-langston: 400
+  beverly-skloss: 737
+sources:
+- id: tx/localities/city-of-south-padre-island/elections/2026-11-03/council-place-4/result#S-02
+  statement: Cameron County Summary Results, General & Special Election, November 3, 2026 (Unofficial; election night report, 11:46 PM) lists these vote counts for "Council Member, Place 4 South Padre" (unofficial, as of 2026-11-03).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/11/1145pm-RPT11-04-2026-060050.pdf
+  source_title: Cameron County Summary Results, General & Special Election, November 3, 2026 (Unofficial; election night report, 11:46 PM)
+  source_kind: document
+  sha256: 794d4d3b0034e1bdcf144fba2c3e07841b943b43a1d6e0075aa2f360cc1fe58b
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

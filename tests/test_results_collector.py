@@ -1,5 +1,6 @@
 """src/collectors/results.py on a copy of the fictional demo data: matching, writing, and never overwriting."""
 
+import hashlib
 import shutil
 import sys
 from pathlib import Path
@@ -248,3 +249,12 @@ def test_a_shared_name_does_not_match_a_race_with_other_names_listed():
 
 def test_an_incumbent_mark_and_quoted_nickname_still_match():
     assert results.name_keys('MARIA LUISA "LULU" FLORES (I)') & results.name_keys("Maria Luisa \u201cLulu\u201d Flores")
+
+
+def test_a_typed_up_scan_takes_its_hash_from_the_downloaded_report(demo, tmp_path):
+    root, export = demo
+    scan = tmp_path / "report.pdf"
+    scan.write_bytes(b"%PDF-1.4 scanned results report")
+    run(root, export, "--source-kind", "document", "--source-file", str(scan), "--write")
+    fact = read(root, "tx/localities/demo-county/elections/2026-11-03/jp-precinct-1")["sources"][0]
+    assert fact["sha256"] == hashlib.sha256(scan.read_bytes()).hexdigest()

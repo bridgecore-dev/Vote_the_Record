@@ -4,7 +4,8 @@ Usage:
   python src/collectors/results.py (--ballot data/states/tx/localities/harris-county/elections/2026-11-03/ballot.yaml
                                     | --statewide TX 2026-11-03) \
       --file <export.csv|.json|.pdf> --source-url URL --source-title TITLE --as-of YYYY-MM-DD \
-      [--status unofficial|official] [--source-kind page|document] [--whole PATH ...] [--map "CONTEST=PATH" ...] [--write]
+      [--status unofficial|official] [--source-kind page|document] [--source-file PDF] [--whole PATH ...]
+      [--map "CONTEST=PATH" ...] [--write]
 
 Without --write it only prints what it would write.
 
@@ -13,7 +14,8 @@ The export is a table of contest, choice, and votes (CSV with a header row, or J
 "Race", "Choice", "Candidate", "Total Votes", ...), so a Clarity ENR "summary.csv" reads as is, as does the
 "summary.zip" it comes in. A precinct-by-precinct CSV (one column per choice, a COUNTY TOTALS row) reads from that
 row. A PDF is read as a Hart "Cumulative Report" or ES&S "Summary Results Report" (parse_hart_text), or as a Hart
-report whose text comes out one value per line (parse_hart_columns).
+report whose text comes out one value per line (parse_hart_columns). A scanned report is typed up (OCR, each row
+checked) as the JSON above; --source-file then names the downloaded report, which is what sha256 is taken of.
 
 How contests are matched to the ballot (never by guessing):
   - a race: the ballot race whose candidate names match the contest's choices (every listed candidate found,
@@ -445,6 +447,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--source-url", required=True)
     ap.add_argument("--source-title", required=True)
     ap.add_argument("--source-kind", choices=("page", "document"), default="page")
+    ap.add_argument("--source-file", type=Path,
+                    help="the downloaded document, when --file is a transcription of it (a scan read by OCR)")
     ap.add_argument("--status", choices=("unofficial", "official"), default="unofficial")
     ap.add_argument("--as-of", required=True, help="date of the results report (YYYY-MM-DD)")
     ap.add_argument("--retrieved", default=dt.date.today().isoformat())
@@ -469,7 +473,7 @@ def main(argv: list[str] | None = None) -> int:
         locality, county = None, None
     contests = [c for c in contests if c["path"] not in args.skip]
     matched, problems = plan(contests, read_rows(args.file), manual)
-    sha = hashlib.sha256(args.file.read_bytes()).hexdigest() if args.source_kind == "document" else None
+    sha = hashlib.sha256((args.source_file or args.file).read_bytes()).hexdigest()         if args.source_kind == "document" else None
     wrote = skipped = 0
     for m in matched:
         target = root / "data/states" / m["contest"]["path"] / "result.yaml"
