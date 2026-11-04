@@ -138,6 +138,8 @@ TLC_H2316 = ("https://data.capitol.texas.gov/dataset/71af633c-21bf-42cf-ad48-4fe
              "a4d3230f-47f2-4253-85f3-51a6c3c9ad0a/download/planh2316.zip")
 TLC_S2168 = ("https://data.capitol.texas.gov/dataset/70836384-f10c-423d-a36e-748d7e000872/resource/"
              "8247dbc6-b942-4a29-813c-1ebc603a7236/download/plans2168.zip")
+TLC_E2106 = ("https://data.capitol.texas.gov/dataset/ad1ae979-6df9-4322-98cf-6771cc67f02d/resource/"
+             "640a507d-e26e-4b50-861c-7913c152bdc7/download/plane2106.zip")
 TLC_PRECINCTS_26 = ("https://data.capitol.texas.gov/dataset/d04c72b9-16c4-4ab2-8c6d-c666d41e04b7/resource/"
                     "33ec5b30-ee4d-424f-9769-57b87cb5e311/download/precincts26p.zip")
 EL_PASO_COMMISSIONER = "https://maps.epcounty.com/arcgis/rest/services/Infrastructure_Map/MapServer/8"
@@ -213,7 +215,15 @@ ODESSA_GIS = "https://services6.arcgis.com/96XBo0KviQ3nV6zg/arcgis/rest/services
 ECTOR_COMMISSIONER = ODESSA_GIS + "/County_District_view/FeatureServer/183"
 ODESSA_COUNCIL = ODESSA_GIS + "/Local_District1/FeatureServer/5"
 ECTOR_LOCAL_AREAS = {"city-of-odessa": (PLACE_LAYER, "4853388")}
-SMITH_GIS = "https://services3.arcgis.com/dPuMck04cWB2fx4h/arcgis/rest/services/FallElectionDistricts_20261103b_WFL1/FeatureServer"
+GALVESTON_GIS = "https://services5.arcgis.com/NAnnb4W7JLztFw9i/arcgis/rest/services"  # Galveston County (galvcountymaps)
+GALVESTON_LAYER = GALVESTON_GIS + "/Voting_Precincts_Update_July_17_2026/FeatureServer/0"  # 94 precincts, 95 shapes
+GALVESTON_COMMISSIONER = GALVESTON_GIS + "/Galveston_County_Commissioner_Precincts_2026/FeatureServer/0"
+GALVESTON_LOCAL_AREAS = {
+    "city-of-league-city": (PLACE_LAYER, "4841980"),
+    "santa-fe-isd": (SCHOOL_LAYER, "4839270"),
+    "galveston-county-navigation-district-1": (GALVESTON_GIS + "/GC_Navigation_District/FeatureServer/0", "N01", "CODE"),
+}
+SMITH_GIS ="https://services3.arcgis.com/dPuMck04cWB2fx4h/arcgis/rest/services/FallElectionDistricts_20261103b_WFL1/FeatureServer"
 SMITH_PRECINCTS = SMITH_GIS + "/2"  # "Voting Precincts" (66)
 SMITH_DISTRICTS = SMITH_GIS + "/3"  # "Voting Districts": precinct pieces with every district they vote in (286)
 
@@ -777,6 +787,40 @@ COUNTIES = {
                        "Congressional District 11, State House District 81 and State Senate District 31. No justice of "
                        "the peace precinct map was found, so JP contests are listed as not mapped."),
     },
+    "galveston-county": {
+        "name": "Galveston County", "item": GALVESTON_LAYER, "layer": GALVESTON_LAYER, "precinct_field": "VTD",
+        "precinct_pieces": {"130.1": 130},  # drawn as two shapes sharing a border, split by the State House line
+        # The county's precinct layer updated July 17, 2026 (95 precincts) replaces many of the 96 in the Texas
+        # Legislative Council's 2026 primary file, so districts come from overlays: the state plans for Congress, the
+        # State House, the State Senate and SBOE, and the county's own commissioner and JP layers.
+        "fields": {kind: kind for kind in ("us-house", "state-house", "state-senate", "sboe", "commissioner", "jp")},
+        "overlays": {
+            "us-house": ("shapefile", TLC_C2333, "District", "Texas Legislative Council: PLANC2333 (congressional districts "
+                         "enacted 2025, 89th Legislature, 2nd C.S.)"),
+            "state-house": ("shapefile", TLC_H2316, "District", "Texas Legislative Council: PLANH2316 (State House "
+                            "districts, 2023-2026)"),
+            "state-senate": ("shapefile", TLC_S2168, "District", "Texas Legislative Council: PLANS2168 (State Senate "
+                             "districts)"),
+            "sboe": ("shapefile", TLC_E2106, "District", "Texas Legislative Council: PLANE2106 (State Board of "
+                     "Education districts)"),
+            "commissioner": ("arcgis", GALVESTON_COMMISSIONER, "Commission", "Galveston County GIS: Galveston County "
+                             "Commissioner Precincts 2026"),
+            # The 2026 layer gives each commissioner precinct's JP precinct and justice (matching the ballot: Rikard 1,
+            # Apffel 2, Williams 4); the separate "JP Precincts" layer (last edited 2025) has the older lines.
+            "jp": ("arcgis", GALVESTON_COMMISSIONER, "JP_Precincts", "Galveston County GIS: Galveston County "
+                   "Commissioner Precincts 2026 (JP precinct field)"),
+        },
+        "everywhere": ["court-of-appeals-1", "court-of-appeals-14"],  # Gov't Code 22.201(b), (o)
+        "local_areas": GALVESTON_LOCAL_AREAS,
+        "headline": "Galveston County voting precincts (2026)",
+        "statement": ("Galveston County's GIS layer \"Voting Precincts Update (July 17, 2026)\" gives the number and outline "
+                      "of each of the county's 94 precincts (95 shapes: precinct 130 is drawn in two pieces, labeled 130 "
+                      "and 130.1)."),
+        "title": "Galveston County GIS: Voting Precincts Update (July 17, 2026)",
+        "credits": ("The layer lists only precinct numbers; each precinct's districts were assigned by overlaying the "
+                    "district maps named in precincts#S-05."),
+        "field_note": "",
+    },
 }
 
 # Wayback Machine copies, checked when made (documents: same SHA-256 as the original).
@@ -1049,6 +1093,20 @@ def precinct_id(value) -> int | str:
     return int(text) if text.isdigit() else text
 
 
+def merge_pieces(features: list[dict], pid: str, pieces: dict) -> list[dict]:
+    """Join a precinct drawn in pieces ({"130.1": 130}: piece "130.1" is part of precinct 130) into one MultiPolygon."""
+    out: dict = {}
+    for f in features:
+        p = pieces.get(str(f["properties"][pid]), f["properties"][pid])
+        polys = [f["geometry"]["coordinates"]] if f["geometry"]["type"] == "Polygon" else f["geometry"]["coordinates"]
+        if p in out:
+            out[p]["geometry"]["coordinates"] += polys
+        else:
+            out[p] = {**f, "properties": {**f["properties"], pid: p},
+                      "geometry": {"type": "MultiPolygon", "coordinates": list(polys)}}
+    return list(out.values())
+
+
 def pct_order(p) -> tuple[int, str]:
     """Numeric order, with lettered precincts after the number they start with ("32A0" after 32)."""
     return int(re.match(r"\d*", str(p)).group() or 0), str(p)
@@ -1159,9 +1217,10 @@ def main(argv=None) -> int:
         fields = pid if cfg.get("overlays") else ",".join([pid, *cfg["fields"].values()])
         pct = paged(cfg["layer"], {"where": "1=1", "outFields": fields, "returnGeometry": "true",
                                    "outSR": 4326, "geometryPrecision": 6, "f": "geojson"}, args.cache, "vpct", 200)
-    attrs = [f["properties"] for f in pct]
     for f in pct:  # precinct numbers as integers (Travis stores them as text)
         f["properties"][pid] = precinct_id(f["properties"][pid])
+    pct = merge_pieces(pct, pid, cfg.get("precinct_pieces") or {})
+    attrs = [f["properties"] for f in pct]
     assert len(attrs) == len({a[pid] for a in attrs}), "duplicate precinct numbers"
     xs = [x for f in pct for r in rings(f["geometry"]) for x, _ in r]
     ys = [y for f in pct for r in rings(f["geometry"]) for _, y in r]

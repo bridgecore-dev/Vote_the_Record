@@ -1,0 +1,36 @@
+# Powers of a navigation district commissioner (Water Code chapter 60, which applies to every navigation district
+# organized under Article III, Section 52, or Article XVI, Section 59, of the Texas Constitution: § 60.001(1)).
+# Checked on statutes.capitol.texas.gov (read through tcss.legis.texas.gov) on 2026-11-03. Each district's creating
+# law may add to these.
+office_type: navigation-district-commissioner
+state: TX
+powers:
+  - id: P-PORT
+    description: The district may acquire land and build, repair, maintain, operate, and lease port facilities such as wharves, docks, and warehouses.
+    statute: Water Code § 60.101(a)
+    source_url: https://statutes.capitol.texas.gov/Docs/WA/htm/WA.60.htm
+    topics: [roads-transportation]
+
+  - id: P-FEES
+    description: The district sets the fees and charges for using its land, improvements, and facilities.
+    statute: Water Code § 60.103
+    source_url: https://statutes.capitol.texas.gov/Docs/WA/htm/WA.60.htm
+    topics: [taxes-budget]
+
+  - id: P-CONTRACT
+    description: The district may contract with any person needed or convenient for operating or developing its ports and waterways.
+    statute: Water Code § 60.003
+    source_url: https://statutes.capitol.texas.gov/Docs/WA/htm/WA.60.htm
+    topics: [roads-transportation]
+
+plain_summary:
+  intro:
+    text: Helps run a navigation district, which builds and operates port facilities and waterways and sets the fees for using them.
+    powers: [P-PORT, P-FEES]
+  points:
+    - text: Oversees port facilities such as docks and warehouses
+      icon: contract
+      powers: [P-PORT, P-CONTRACT]
+    - text: Sets fees for using the district's facilities
+      icon: budget
+      powers: [P-FEES]
