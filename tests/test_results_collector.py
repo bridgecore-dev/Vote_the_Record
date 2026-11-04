@@ -194,3 +194,57 @@ def test_precinct_csv_uses_the_county_totals_row_and_zip_reads_the_csv_inside(tm
 
 def test_a_name_printed_with_an_unreadable_accent_still_matches():
     assert results.name_keys("Jubilee Pe�a") & results.name_keys("Jubilee Peña")
+
+
+def test_a_district_number_must_match_whole_and_contest_totals_are_not_a_choice():
+    mud2 = {"kind": "measure", "name": "Blue Meadow MUD No. 2, Proposition A", "choices": ["For", "Against"]}
+    assert results.measure_fits(mud2, "Proposition A - Blue Meadow MUD No. 2")
+    assert not results.measure_fits(mud2, "Proposition A - Blue Meadow MUD No. 4")
+    assert not results.measure_fits(mud2, "Proposition A - Blue Meadow MUD No. 12")
+    assert results.match_choices(mud2, ["For", "Against", "Overvotes", "Contest Totals"])[2] == []
+
+
+def test_a_contest_crossing_county_lines_shows_the_county_share_with_more_votes(demo):
+    root, export = demo
+    target = root / "data/states/tx/localities/demo-city/elections/2026-11-03/prop-a/result.yaml"
+    for other, kept in ((100, False), (50000, True)):
+        target.write_text(yaml.safe_dump({"election_date": "2026-11-03", "status": "unofficial", "as_of": "2026-11-04",
+                                          "covers": "partial", "covers_note": "Votes counted in Other County only.",
+                                          "counts": {"FOR": other, "AGAINST": 0}, "sources": []}), encoding="utf-8")
+        run(root, export, "--write")
+        assert (read(root, "tx/localities/demo-city/elections/2026-11-03/prop-a")["counts"]["FOR"] == other) == kept
+
+
+def test_a_clarity_summary_zip_in_windows_1252_reads(tmp_path):
+    import zipfile
+    z = tmp_path / "summary.zip"
+    with zipfile.ZipFile(z, "w") as f:
+        f.writestr("summary.csv", CSV.replace("DANA DEMO", "DANA DEMO PE\xd1A").encode("cp1252"))
+    assert ("GOVERNOR", "DANA DEMO PE\xd1A", 1200) in results.read_rows(z)
+
+
+def test_seats_printed_under_one_title_split_by_their_candidates():
+    def race(path, *names):
+        return {"path": path, "kind": "race", "name": path, "election_date": "2026-11-03",
+                "candidates": [{"id": n.lower().replace(" ", "-"), "name": n, "write_in": False} for n in names]}
+    contests = [race("cad-1", "Martin John", "Sam Chatriwala"), race("cad-2", "Dayna Druke", "Muzaffar Vohra"),
+                race("cad-3", "Ameer Malik"), race("judge", "Asha Reddi")]
+    t = "CAD BOARD OF DIRECTORS (Vote For 1)"
+    rows = [(t, "MARTIN JOHN", 5), (t, "SAM CHATRIWALA", 4), (t, "MUZAFFAR VOHRA", 3), (t, "DAYNA DRUKE", 6),
+            (t, "AMEER MALIK", 9), ("JUDGE", "REP ASHA REDDI", 1)]
+    matched, problems = results.plan(contests, rows, {})
+    got = {m["contest"]["path"]: m["counts"] for m in matched}
+    assert got["cad-1"] == {"martin-john": 5, "sam-chatriwala": 4} and got["cad-3"] == {"ameer-malik": 9}
+    assert got["judge"] == {"asha-reddi": 1}  # a party code printed before the name
+    assert all(m["title"] in (t, "JUDGE") for m in matched)
+
+
+def test_a_shared_name_does_not_match_a_race_with_other_names_listed():
+    court = {"path": "ccc-1", "kind": "race", "name": "ccc-1", "election_date": "2026-11-03",
+             "candidates": [{"id": "david-cook", "name": "David Cook", "write_in": False}]}
+    assert results.match_choices(court, ["David Cook", "Amy Martinez-Salas"]) is None
+    assert results.match_choices(court, ["David Cook", "Write-in Totals"]) is not None
+
+
+def test_an_incumbent_mark_and_quoted_nickname_still_match():
+    assert results.name_keys('MARIA LUISA "LULU" FLORES (I)') & results.name_keys("Maria Luisa \u201cLulu\u201d Flores")

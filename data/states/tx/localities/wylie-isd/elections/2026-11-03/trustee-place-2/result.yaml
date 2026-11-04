@@ -1,0 +1,28 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: partial
+covers_note: Votes counted in Collin County only.
+counts:
+  bonnie-tinsley: 3909
+  brett-fagan: 2684
+  brandon-thomas: 3023
+  sam-satterwhite: 6312
+  scott-johnson: 2912
+sources:
+- id: tx/localities/wylie-isd/elections/2026-11-03/trustee-place-2/result#S-01
+  statement: Collin County Summary Results Report, General and Special Election, November 3, 2026 (Unofficial; 11/04/2026 1:02 AM) lists these vote counts for "Board of Trustees, Place 2 - Wylie ISD" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.collincountytx.gov/docs/default-source/elections/election-results/november-3-2026---joint-general-and-special-election---summary-results-report---unofficial-totals82d47b712e4e479b9ef59ce6102cec92.pdf?sfvrsn=309a3c78_3
+  source_title: Collin County Summary Results Report, General and Special Election, November 3, 2026 (Unofficial; 11/04/2026 1:02 AM)
+  source_kind: document
+  sha256: e50f535bc3d508fd9c3a828b41578289493655ee99620d6af3c6c08a76454c08
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

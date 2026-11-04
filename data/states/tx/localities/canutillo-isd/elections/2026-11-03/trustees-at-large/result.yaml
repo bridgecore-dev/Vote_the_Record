@@ -1,0 +1,30 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: partial
+covers_note: Votes counted in El Paso County only.
+counts:
+  cindy-andrade-carrillo: 3195
+  breanne-barnes: 2324
+  sergio-martinez: 2861
+  guadalupe-montanez: 2297
+  blanca-trout: 2976
+  ryan-escamilla: 1373
+  dr-pedro-galaviz: 3947
+sources:
+- id: tx/localities/canutillo-isd/elections/2026-11-03/trustees-at-large/result#S-01
+  statement: El Paso County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 2:03 AM) lists these vote counts for "Canutillo ISD Bd of Trustees at Large" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://results.enr.clarityelections.com/TX/El_Paso/127348/385516/reports/summary.zip
+  source_title: El Paso County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 2:03 AM)
+  source_kind: document
+  sha256: 07b21716557bff8cf0c477ffef7e41c0a5bbaef6693ec61f1cb886613a1a2a68
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

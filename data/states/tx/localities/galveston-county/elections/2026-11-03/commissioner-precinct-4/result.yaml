@@ -1,0 +1,23 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: whole
+counts:
+  robin-armstrong: 25579
+sources:
+- id: tx/localities/galveston-county/elections/2026-11-03/commissioner-precinct-4/result#S-01
+  statement: Galveston County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 3, 2026 11:17 PM) lists these vote counts for "County Commissioner, Precinct 4 (Vote For 1)" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://results.enr.clarityelections.com/TX/Galveston/127478/385244/reports/summary.zip
+  source_title: Galveston County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 3, 2026 11:17 PM)
+  source_kind: document
+  sha256: 2d32315eeab413d54625ddc644e28c046719976b976a4cdda72b9d2660c19b69
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

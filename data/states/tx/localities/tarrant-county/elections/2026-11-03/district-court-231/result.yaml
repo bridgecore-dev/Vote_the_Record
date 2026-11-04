@@ -1,0 +1,24 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: whole
+counts:
+  leslie-barrows: 314134
+  lyndsay-newell: 393522
+sources:
+- id: tx/localities/tarrant-county/elections/2026-11-03/district-court-231/result#S-01
+  statement: Tarrant County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 2:54 AM) lists these vote counts for "Family District Judge, 231st Judicial District (Vote For 1)" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://results.enr.clarityelections.com/TX/Tarrant/127297/385548/reports/summary.zip
+  source_title: Tarrant County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 2:54 AM)
+  source_kind: document
+  sha256: 4c77e37e074002adbabd028ebfc4a40f7f01adc03696f128bee4edfa6c72e0fd
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
