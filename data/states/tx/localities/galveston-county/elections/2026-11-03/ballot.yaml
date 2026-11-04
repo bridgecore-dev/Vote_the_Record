@@ -1,0 +1,85 @@
+# Contests on this ballot, in ballot order. complete: false until every contest is added.
+name: Galveston County ballot
+election_date: '2026-11-03'
+lookup_url: https://tx.omniballot.us/sites/48167
+complete: false
+unmapped:
+- galveston-county-mud-71
+sources:
+- id: tx/localities/galveston-county/elections/2026-11-03/ballot#S-01
+  headline: Every contest on the sample ballot
+  statement: The Galveston County Elections' sample ballot for the November 3, 2026 General Election lists every contest on this ballot.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://galvestonvotes.org/wp-content/uploads/2026/09/November-2026-General-Election-Ballot-and-Measures.pdf
+  source_title: 'Galveston County Elections: November 2026 General Election Ballot and Measures'
+  source_kind: document
+  sha256: 0d2c0f25d5691d0ea49b62acef21fe899182b641ad71de1665bd0802c11a0ca3
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-03'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The only ballot file posted on the county elections office''s Current and Upcoming Elections page (https://galvestonvotes.org/election-information/current-and-upcoming-elections/); saved in the owner''s browser on November 3, 2026 (the site challenges automated requests). Pages 1-6 are the Texas Secretary of State''s Ballot Certification Report for Galveston County, which prints names in capital letters and parties in full (shown here as party codes); pages 7-11 list the local contests. The PDF is a scan with no text layer: names were read with OCR and checked against the page images.'
+contests:
+- tx/statewide/elections/2026-11-03/us-senate
+- tx/districts/us-house-14/elections/2026-11-03/us-representative
+- tx/statewide/elections/2026-11-03/governor
+- tx/statewide/elections/2026-11-03/lieutenant-governor
+- tx/statewide/elections/2026-11-03/attorney-general
+- tx/statewide/elections/2026-11-03/comptroller
+- tx/statewide/elections/2026-11-03/land-commissioner
+- tx/statewide/elections/2026-11-03/agriculture-commissioner
+- tx/statewide/elections/2026-11-03/railroad-commissioner
+- tx/statewide/elections/2026-11-03/supreme-court-chief-justice
+- tx/statewide/elections/2026-11-03/supreme-court-place-2
+- tx/statewide/elections/2026-11-03/supreme-court-place-7
+- tx/statewide/elections/2026-11-03/supreme-court-place-8
+- tx/statewide/elections/2026-11-03/cca-place-3
+- tx/statewide/elections/2026-11-03/cca-place-4
+- tx/statewide/elections/2026-11-03/cca-place-9
+- tx/districts/sboe-4/elections/2026-11-03/sboe-member
+- tx/districts/sboe-7/elections/2026-11-03/sboe-member
+- tx/districts/sboe-8/elections/2026-11-03/sboe-member
+- tx/districts/state-senate-4/elections/2026-11-03/state-senator
+- tx/districts/state-senate-11/elections/2026-11-03/state-senator
+- tx/districts/state-house-23/elections/2026-11-03/state-representative
+- tx/districts/state-house-24/elections/2026-11-03/state-representative
+- tx/districts/court-of-appeals-15/elections/2026-11-03/chief-justice
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-2
+- tx/districts/court-of-appeals-15/elections/2026-11-03/place-3
+- tx/districts/court-of-appeals-14/elections/2026-11-03/chief-justice
+- tx/districts/court-of-appeals-1/elections/2026-11-03/place-3
+- tx/districts/court-of-appeals-1/elections/2026-11-03/place-4
+- tx/districts/court-of-appeals-1/elections/2026-11-03/place-5
+- tx/districts/court-of-appeals-14/elections/2026-11-03/place-7
+- tx/localities/galveston-county/elections/2026-11-03/district-court-122
+- tx/localities/galveston-county/elections/2026-11-03/district-court-212
+- tx/localities/galveston-county/elections/2026-11-03/district-court-306
+- tx/localities/galveston-county/elections/2026-11-03/criminal-district-attorney
+- tx/localities/galveston-county/elections/2026-11-03/county-judge
+- tx/localities/galveston-county/elections/2026-11-03/county-court-at-law-1
+- tx/localities/galveston-county/elections/2026-11-03/county-court-at-law-2
+- tx/localities/galveston-county/elections/2026-11-03/county-court-at-law-3
+- tx/localities/galveston-county/elections/2026-11-03/probate-court
+- tx/localities/galveston-county/elections/2026-11-03/district-clerk
+- tx/localities/galveston-county/elections/2026-11-03/county-clerk
+- tx/localities/galveston-county/elections/2026-11-03/commissioner-precinct-2
+- tx/localities/galveston-county/elections/2026-11-03/commissioner-precinct-4
+- tx/localities/galveston-county/elections/2026-11-03/jp-precinct-1
+- tx/localities/galveston-county/elections/2026-11-03/jp-precinct-2
+- tx/localities/galveston-county/elections/2026-11-03/jp-precinct-4
+- tx/localities/santa-fe-isd/elections/2026-11-03/trustee-position-4
+- tx/localities/santa-fe-isd/elections/2026-11-03/trustee-position-5
+- tx/localities/santa-fe-isd/elections/2026-11-03/trustee-position-6
+- tx/localities/city-of-league-city/elections/2026-11-03/mayor
+- tx/localities/city-of-league-city/elections/2026-11-03/council-position-1
+- tx/localities/city-of-league-city/elections/2026-11-03/council-position-2
+- tx/localities/city-of-league-city/elections/2026-11-03/council-position-3
+- tx/localities/city-of-league-city/elections/2026-11-03/council-position-6
+- tx/localities/city-of-league-city/elections/2026-11-03/council-position-7
+- tx/localities/city-of-league-city/elections/2026-11-03/proposition-a
+- tx/localities/galveston-county-navigation-district-1/elections/2026-11-03/commissioner
+- tx/localities/galveston-county-mud-71/elections/2026-11-03/directors

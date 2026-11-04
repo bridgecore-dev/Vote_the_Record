@@ -1,0 +1,23 @@
+# Basic race page: the office and candidates as printed on the sample ballot. Unverified.
+name: Santa Fe ISD Trustee, Position 4
+office_type: school-trustee
+election_date: '2026-11-03'
+detail: basic
+sources:
+- id: tx/localities/santa-fe-isd/elections/2026-11-03/trustee-position-4/race#S-01
+  headline: Candidates as printed on the sample ballot
+  statement: 'The Galveston County Elections'' sample ballot for the November 3, 2026 General Election lists "Trustee Position 4" on page 7, with these candidates: Clay Hertenberger.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://galvestonvotes.org/wp-content/uploads/2026/09/November-2026-General-Election-Ballot-and-Measures.pdf
+  source_title: 'Galveston County Elections: November 2026 General Election Ballot and Measures (page 7)'
+  source_kind: document
+  sha256: 0d2c0f25d5691d0ea49b62acef21fe899182b641ad71de1665bd0802c11a0ca3
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-03'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The only ballot file posted on the county elections office''s Current and Upcoming Elections page (https://galvestonvotes.org/election-information/current-and-upcoming-elections/); saved in the owner''s browser on November 3, 2026 (the site challenges automated requests). Pages 1-6 are the Texas Secretary of State''s Ballot Certification Report for Galveston County, which prints names in capital letters and parties in full (shown here as party codes); pages 7-11 list the local contests. The PDF is a scan with no text layer: names were read with OCR and checked against the page images.'

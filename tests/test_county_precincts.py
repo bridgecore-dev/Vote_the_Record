@@ -49,6 +49,15 @@ def test_a_split_precinct_partly_in_a_district_with_no_contest_depends_on_the_ad
     assert h.split_areas("commissioner", [1, 3], on_ballot, "brazos-county") is None
 
 
+def test_a_precinct_drawn_in_pieces_becomes_one_precinct():
+    a, b, c = square(0, 0, 1, None), square(1, 0, 1, None), square(5, 5, 1, None)
+    for f, v in ((a, 130), (b, "130.1"), (c, 131)):
+        f["properties"] = {"VTD": v}
+    got = h.merge_pieces([a, b, c], "VTD", {"130.1": 130})
+    assert [f["properties"]["VTD"] for f in got] == [130, 131]
+    assert got[0]["geometry"]["type"] == "MultiPolygon" and len(got[0]["geometry"]["coordinates"]) == 2
+
+
 TLC_PRJ = ('PROJCS["NAD_1983_Lambert_Conformal_Conic",GEOGCS["GCS_North_American_1983",DATUM["D_North_American_1983",'
            'SPHEROID["GRS_1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],'
            'PROJECTION["Lambert_Conformal_Conic"],PARAMETER["False_Easting",1000000.0],PARAMETER["False_Northing",1000000.0],'
