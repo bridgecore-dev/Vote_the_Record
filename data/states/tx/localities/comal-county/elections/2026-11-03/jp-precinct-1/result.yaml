@@ -1,0 +1,24 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-03'
+covers: whole
+counts:
+  tom-clark: 19468
+  amandine-ngakoue: 6379
+sources:
+- id: tx/localities/comal-county/elections/2026-11-03/jp-precinct-1/result#S-01
+  statement: Comal County Election Results (Enhanced Voting media export), General Election November 3, 2026 (Unofficial; last updated Nov 3, 2026 11:04 PM) lists these vote counts for "Justice of the Peace, Precinct No. 1" (unofficial, as of 2026-11-03).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://app.enhancedvoting.com/cdn/results/comal-county-tx/export-ComalCountyNov2026General.json
+  source_title: Comal County Election Results (Enhanced Voting media export), General Election November 3, 2026 (Unofficial; last updated Nov 3, 2026 11:04 PM)
+  source_kind: document
+  sha256: 05cee2e7c3b07fce8520d316e32e750503f15f575b0248988eeb60622c0ee243
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

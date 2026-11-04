@@ -19,7 +19,8 @@ How contests are matched to the ballot (never by guessing):
   - a race: the ballot race whose candidate names match the contest's choices (every listed candidate found,
     write-ins aside). Office titles are printed differently everywhere; names are not.
   - a measure: the ballot measure whose name has the same proposition label and place words.
-  - --map "Contest as printed=tx/localities/x/elections/2026-11-03/slug" settles anything else by hand.
+  - --map "Contest as printed=tx/localities/x/elections/2026-11-03/slug" settles anything else by hand, and --skip
+    leaves a contest out (e.g. one measure the report counts in two parts, "Full Purpose" and "Limited Purpose").
 Unmatched contests and choices are listed, never written.
 
 What gets written, per matched contest (CLAUDE.md rules 2, 3, 3a):
@@ -30,7 +31,8 @@ What gets written, per matched contest (CLAUDE.md rules 2, 3, 3a):
     races are skipped unless listed in --whole: their totals come from the Secretary of State (--statewide);
   - one source fact (S-01, S-02, ... a new ID each update), written unverified.
 An official or verified result is never replaced, a whole count never by a partial one (a county's share of a
-statewide race), and an unofficial one only by a report at least as new. --statewide TX DATE matches every statewide
+statewide race), and an unofficial one only by a report at least as new. A contest crossing county lines shows one
+county's share, the one with the most votes counted (another county's smaller share is kept out). --statewide TX DATE matches every statewide
 and district contest instead of one county's ballot, and counts them in full (the Secretary of State's report).
 No outcome is written: who was elected (or whether a measure passed) is added by hand from the canvass.
 """
@@ -58,7 +60,7 @@ CONTEST_COLS = ("contest name", "contest", "race", "office", "contest title")
 CHOICE_COLS = ("choice name", "choice", "candidate name", "candidate", "selection", "name")
 VOTES_COLS = ("total votes", "votes", "total", "vote count", "count")
 SKIP_CHOICES = re.compile(r"(?i)^(over\s*votes?|under\s*votes?|overvotes?|undervotes?|blank|registered voters|ballots cast|"
-                          r"total votes cast|not assigned|cast votes:?)$")
+                          r"total votes cast|not assigned|cast votes:?|contest totals)$")
 WRITE_IN_TOTAL = re.compile(r"(?i)^write[\s-]*in totals?$")
 WRITE_IN = re.compile(r"(?i)write[\s-]*in|\(w\)\s*$")
 
@@ -71,6 +73,8 @@ def key(s: str) -> str:
 
 def name_keys(name: str) -> set[str]:
     """Ways a candidate's name may be printed: full, and first + last (middle names, initials, suffixes dropped)."""
+    name = PARTY_CODE.sub("", name)  # Fort Bend's Clarity file prints "REP ASHA REDDI"
+    name = re.sub(r"\([^)]*\)", " ", name)  # "(I)" marks the incumbent in the Secretary of State's returns
     words = [w for w in re.findall(r"[A-Za-z][A-Za-z'\-]*", unicodedata.normalize("NFKD", name)
                                    .encode("ascii", "ignore").decode())
              if w.lower().rstrip(".") not in ("jr", "sr", "ii", "iii", "iv")]
@@ -85,7 +89,7 @@ def name_keys(name: str) -> set[str]:
 PARTY_CODE = re.compile(r"^(?:REP|DEM|LIB|GRN|IND|NP)\s+")
 COUNT = re.compile(r"^\d{1,3}(?:,\d{3})*$")
 REPORT_NOISE = re.compile(r"(?i)(cumulative report|summary results report|election summary -|total number of voters|"
-                          r"^page \d|page \d+ of|votes:|precincts|counted|registered|ballots cast|voter turnout|"
+                          r"^page \d|page \d+ of|votes:|precincts|vote centers reporting|counted|registered|ballots cast|voter turnout|"
                           r"party candidate|candidate party|^(?:election|early|absentee|total|party|candidate)(?:\s|$))")
 
 
@@ -236,19 +240,22 @@ def read_rows(path: Path) -> list[tuple[str, str, int]]:
             names = [n for n in z.namelist() if n.lower().endswith(".csv")]
             if len(names) != 1:
                 raise SystemExit(f"{path}: expected one CSV inside (Clarity summary.zip), found {names}")
-            text = z.read(names[0]).decode("utf-8-sig")
+            raw = z.read(names[0])
     else:
         raw = path.read_bytes()
-        try:
-            text = raw.decode("utf-8-sig")
-        except UnicodeDecodeError:  # county exports saved from Excel are often Windows-1252
-            text = raw.decode("cp1252")
+    try:
+        text = raw.decode("utf-8-sig")
+    except UnicodeDecodeError:  # county exports (and some Clarity summary.csv files) are Windows-1252
+        text = raw.decode("cp1252")
     if path.suffix.lower() in (".csv", ".zip") and re.match(r"(?i)[^\n]*precinct (code|name)", text):
         return parse_precinct_csv(text)
     if path.suffix.lower() == ".json":
         data = json.loads(text)
         if isinstance(data, dict) and "contests" in data:
             return [(c["name"], ch["name"], int(ch["votes"])) for c in data["contests"] for ch in c["choices"]]
+        if isinstance(data, dict) and "ballotItems" in (data.get("results") or {}):  # Enhanced Voting "Media Export"
+            return [(b["name"], o["name"], int(o["voteCount"])) for b in data["results"]["ballotItems"]
+                    for o in b["ballotOptions"]]
         rows = [{k.lower().strip(): v for k, v in r.items()} for r in data]
     else:
         rows = [{(k or "").lower().strip(): v for k, v in r.items()} for r in csv.DictReader(io.StringIO(text))]
@@ -309,9 +316,27 @@ def match_choices(contest: dict, choices: list[str]) -> tuple[dict, list[str], l
         k = name_keys(c)
         hits = [x for x in contest["candidates"] if k & name_keys(x["name"])]
         (found.__setitem__(c, hits[0]["id"]) if len(hits) == 1 else unknown.append(c))
-    if not listed or {x["id"] for x in listed} - set(found.values()):
+    # every printed name must belong to the race: two people can share a name (Tarrant's two David Cooks, one in a
+    # Senate race, one alone in a county court race)
+    if not listed or {x["id"] for x in listed} - set(found.values()) or unknown:
         return None
     return found, writeins, unknown
+
+
+def split_title(contests: list[dict], names: list[str]) -> list[tuple[dict, set[str]]] | None:
+    """Races whose candidates together are exactly the named choices under one title, each choice in one race."""
+    named = [n for n in names if not SKIP_CHOICES.match(n) and not WRITE_IN.search(n)]
+    parts, taken = [], set()
+    for c in contests:
+        listed = [x for x in c.get("candidates") or [] if not x["write_in"]]
+        own = {n for n in named if any(name_keys(n) & name_keys(x["name"]) for x in listed)}
+        if listed and len(own) == len(listed) and all(any(name_keys(n) & name_keys(x["name"]) for n in own)
+                                                      for x in listed):
+            if own & taken:
+                return None
+            parts.append((c, own))
+            taken |= own
+    return parts if len(parts) > 1 and taken == set(named) else None
 
 
 PROP = re.compile(r"(?i)\b(?:prop(?:osition)?|measure|propuesta)\s*(?:no\.?\s*)?([a-z0-9]{1,3})\b")
@@ -321,9 +346,11 @@ def measure_fits(contest: dict, title: str) -> bool:
     a, b = PROP.search(contest["name"]), PROP.search(title)
     if not (a and b) or a[1].lower() != b[1].lower():
         return False
-    place = [w for w in re.findall(r"[a-z]+", contest["name"].lower().split("proposition")[0])
-             if w not in ("city", "of", "the", "county", "isd", "district", "town", "village")]
-    return all(w in title.lower() for w in place)
+    place = [w for w in re.findall(r"[a-z]+|\d+", contest["name"].lower().split("proposition")[0])
+             if w not in ("city", "of", "the", "county", "isd", "district", "town", "village", "no")]
+    # a district number must match as a whole number ("MUD No. 2" is not "MUD No. 12" or "MUD No. 4")
+    numbers = re.findall(r"\d+", title.replace(b[0], " "))
+    return all(w in numbers if w.isdigit() else w in title.lower() for w in place)
 
 
 def plan(contests: list[dict], rows: list[tuple[str, str, int]], manual: dict[str, str]) -> tuple[list, list[str]]:
@@ -332,7 +359,9 @@ def plan(contests: list[dict], rows: list[tuple[str, str, int]], manual: dict[st
         by_title.setdefault(title, []).append((choice, votes))
     by_path = {c["path"]: c for c in contests}
     matched, problems, used = [], [], {}
-    for title, choices in by_title.items():
+    manual, queue, shown = dict(manual), list(by_title.items()), {}
+    while queue:
+        title, choices = queue.pop(0)
         names = [c for c, _ in choices]
         if title in manual:
             cands = [by_path[manual[title]]] if manual[title] in by_path else []
@@ -342,6 +371,13 @@ def plan(contests: list[dict], rows: list[tuple[str, str, int]], manual: dict[st
         else:
             cands = [c for c in contests if (c["kind"] == "race" or measure_fits(c, title))]
         fits = [(c, m) for c in cands if (m := match_choices(c, names))]
+        if len(fits) != 1 and title not in manual and (parts := split_title(contests, names)):
+            # several seats printed under one title (Fort Bend's appraisal district): each race takes its own names
+            for c, own in parts:
+                part = f"{title} [{c['path'].rsplit('/', 1)[-1]}]"
+                manual[part], shown[part] = c["path"], title
+                queue.append((part, [x for x in choices if x[0] in own]))
+            continue
         if len(fits) != 1:
             problems.append(f"{'NO MATCH' if not fits else 'AMBIGUOUS'}: {title} {names[:6]}")
             continue
@@ -356,7 +392,7 @@ def plan(contests: list[dict], rows: list[tuple[str, str, int]], manual: dict[st
         counts = {}
         for printed, target in found.items():
             counts[target] = counts.get(target, 0) + votes[printed]
-        matched.append({"contest": contest, "title": title, "counts": counts,
+        matched.append({"contest": contest, "title": shown.get(title, title), "counts": counts,
                         # a "Write-In Totals" line already sums the write-in lines listed under it (ES&S)
                         "other_votes": next((votes[w] for w in writeins if WRITE_IN_TOTAL.match(w)),
                                             sum(votes[w] for w in writeins))})
@@ -390,6 +426,10 @@ def result_doc(m: dict, args, locality: str, county: str, n: int, sha: str | Non
     return doc
 
 
+def total(doc: dict) -> int:
+    return sum(doc["counts"].values()) + (doc.get("other_votes") or 0)
+
+
 def next_number(old: dict | None) -> int:
     nums = [int(m[1]) for s in (old or {}).get("sources") or [] if (m := re.search(r"#S-(\d+)$", s["id"]))]
     return max(nums, default=0) + 1
@@ -410,6 +450,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--retrieved", default=dt.date.today().isoformat())
     ap.add_argument("--whole", nargs="*", help="contest paths this report counts in full (e.g. a city inside the county)")
     ap.add_argument("--map", nargs="*", default=[], help='"Contest as printed=contest path" for contests matched by hand')
+    ap.add_argument("--skip", nargs="*", default=[],
+                    help="contest paths to leave out (the report counts them in a way that doesn't fit one result)")
     ap.add_argument("--root", type=Path, default=REPO, help="data repo root (default: this repo)")
     ap.add_argument("--write", action="store_true")
     args = ap.parse_args(argv)
@@ -425,6 +467,7 @@ def main(argv: list[str] | None = None) -> int:
     else:
         contests = load_ballot(None, root, statewide_contests(root, args.statewide[0].lower(), args.statewide[1]))
         locality, county = None, None
+    contests = [c for c in contests if c["path"] not in args.skip]
     matched, problems = plan(contests, read_rows(args.file), manual)
     sha = hashlib.sha256(args.file.read_bytes()).hexdigest() if args.source_kind == "document" else None
     wrote = skipped = 0
@@ -434,9 +477,13 @@ def main(argv: list[str] | None = None) -> int:
         if old:
             verified = any(s.get("verification") == "verified" for s in old.get("sources") or [])
             new = result_doc(m, args, locality, county, 1, None)
-            other_county = old["covers"] == "partial" and new["covers"] == "partial" and old["covers_note"] != new["covers_note"]
-            if verified or (old["covers"] == "whole" and new["covers"] == "partial") or other_county \
-                    or (old["status"] == "official" and args.status == "unofficial") or str(old["as_of"]) > args.as_of:
+            # a contest crossing county lines shows the county share with the most votes counted
+            # (report dates only order one county's own reports)
+            other_county = old["covers"] == "partial" and new["covers"] == "partial" \
+                and old.get("covers_note") != new.get("covers_note")
+            if verified or (old["covers"] == "whole" and new["covers"] == "partial") \
+                    or (old["status"] == "official" and args.status == "unofficial") \
+                    or (total(old) >= total(new) if other_county else str(old["as_of"]) > args.as_of):
                 skipped += 1
                 print(f"KEEP {m['contest']['path']}: has a {old['status']} {old['covers']} result as of {old['as_of']}"
                       f"{' (verified)' if verified else ''}")

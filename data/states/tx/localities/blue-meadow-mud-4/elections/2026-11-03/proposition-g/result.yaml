@@ -1,0 +1,25 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: partial
+covers_note: Votes counted in Collin County only.
+counts:
+  For: 2
+  Against: 0
+sources:
+- id: tx/localities/blue-meadow-mud-4/elections/2026-11-03/proposition-g/result#S-01
+  statement: Collin County Summary Results Report, General and Special Election, November 3, 2026 (Unofficial; 11/04/2026 1:02 AM) lists these vote counts for "Proposition G - Blue Meadow MUD No. 4" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.collincountytx.gov/docs/default-source/elections/election-results/november-3-2026---joint-general-and-special-election---summary-results-report---unofficial-totals82d47b712e4e479b9ef59ce6102cec92.pdf?sfvrsn=309a3c78_3
+  source_title: Collin County Summary Results Report, General and Special Election, November 3, 2026 (Unofficial; 11/04/2026 1:02 AM)
+  source_kind: document
+  sha256: e50f535bc3d508fd9c3a828b41578289493655ee99620d6af3c6c08a76454c08
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,24 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: whole
+counts:
+  jason-roland-garrahan: 221088
+  alfredo-ximenez: 403519
+sources:
+- id: tx/localities/bexar-county/elections/2026-11-03/county-court-at-law-4/result#S-01
+  statement: Bexar County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 1:30 AM) lists these vote counts for "Judge, County Court at Law No. 4 (Vote For 1)" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://results.enr.clarityelections.com/TX/Bexar/127291/385501/reports/summary.zip
+  source_title: Bexar County Election Night Results, November 3, 2026 (Unofficial; summary.csv, last updated Nov 4, 2026 1:30 AM)
+  source_kind: document
+  sha256: 562b27b10bb8d060a77434646d05202343568bd143f211e47abfe80f5b7dc5d1
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

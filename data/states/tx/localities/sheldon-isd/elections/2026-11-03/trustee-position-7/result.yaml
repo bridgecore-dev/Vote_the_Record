@@ -1,0 +1,25 @@
+# Vote counts from an official results report. Unverified.
+election_date: '2026-11-03'
+status: unofficial
+as_of: '2026-11-04'
+covers: partial
+covers_note: Votes counted in Harris County only.
+counts:
+  erika-martinez: 3744
+  nora-banks-willis: 3221
+sources:
+- id: tx/localities/sheldon-isd/elections/2026-11-03/trustee-position-7/result#S-01
+  statement: Harris County Cumulative Results Report, General and Special Elections, 11/3/2026 (Unofficial; run 11/04/2026 12:50 AM) lists these vote counts for "Sheldon ISD, Trustee Position 7" (unofficial, as of 2026-11-04).
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://appfiles.harrisvotes.com/harrisvotes/prd/Data/1126/cumulative.pdf
+  source_title: Harris County Cumulative Results Report, General and Special Elections, 11/3/2026 (Unofficial; run 11/04/2026 12:50 AM)
+  source_kind: document
+  sha256: c4b3bce4afc2bda7f8304ff74613a46d88062466a0747badf1ac3e2758c9b79b
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
