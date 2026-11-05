@@ -2,8 +2,31 @@
 id: jim-wright
 name: Jim Wright
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/jim-wright#M-01
+  headline: Raised $330,000 and had $9,000 on hand (May 17 - Jun 30, 2026)
+  statement: 'Campaign finance report covering May 17 - Jun 30, 2026, filed Jul 15, 2026: $330,000.05 in total political contributions,
+    $478,458.24 in total political expenditures, $9,000.28 in contributions on hand at the end of the period, and $0.00 in
+    outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101061339.PDF
+  source_title: 'Texas Ethics Commission: Wright, James D. (The Honorable), campaign finance report 101061339 (filed Jul 15,
+    2026)'
+  source_kind: document
+  sha256: 26ced8705ebd4d7a50ce97a637cf14c04645ee667d35c20a2b1ff12a2945c8c2
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101061339, form COH, TEC report type SEMIJUL; filer ID 00084408 (Wright, James D. (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the
+    PDF. This is the filer's latest report for a period ending by 2026-11-05; a correction filed later replaces the version
+    it corrects.
 promise_tracker: []

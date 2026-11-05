@@ -2,8 +2,30 @@
 id: denise-m-fortenberry
 name: Denise M. Fortenberry
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/denise-m-fortenberry#M-01
+  headline: Had $68 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 14, 2026: $2,402.22 in total political expenditures,
+    $68.03 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no amount
+    for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101055557.PDF
+  source_title: 'Texas Ethics Commission: Fortenberry, Denise M. (The Honorable), campaign finance report 101055557 (filed
+    Jul 14, 2026)'
+  source_kind: document
+  sha256: 9f94cb2cbb554b12073593a06c3e4f50f5e7d596be921d54efda1b3b9751aca5
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101055557, form JCOH, TEC report type SEMIJUL; filer ID 00084375 (Fortenberry, Denise M. (The Honorable)).
+    Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv)
+    and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for
+    a period ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

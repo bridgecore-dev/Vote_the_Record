@@ -3,8 +3,34 @@ id: dave-nelsen
 name: Dave Nelsen
 candidacies:
 - tx/localities/city-of-jonestown/elections/2026-11-03/council-place-4/candidates/dave-nelsen
-research: pending
-records: []
+records:
+- id: tx/people/dave-nelsen#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 city tax rate of $0.419112 per $100 (Aug. 2026)
+  result: Proposed 6-0.
+  statement: As a member of the Jonestown City Council, voted FOR the proposal of a 2026 Jonestown tax rate of $0.419112 per
+    $100, which the notice lists as greater than the no-new-revenue tax rate (the notice lists the no-new-revenue rate as
+    $0.419112 per $100) and not greater than the voter-approval rate ($0.483488). The notice lists Mayor Paul Johnson, Councilman
+    Eric Davis, Mayor Pro Tem Tom Buckle, Councilman Mark Holmstrom, Councilman David Nelsen, and Councilwoman Linda Bush
+    voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.jonestowntx.gov/DocumentCenter/View/598/Jonestown-Published-Notice-Tax-Rate-Hearing
+  source_title: 'City of Jonestown: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 6c07c55b9a71e87e550f891f3edd11a735cf8a83eba33379f522f76d68a86ca5
+  archive_url: null
+  event_date: '2026-08-25'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice gives no date of its own or of the vote; event_date is the public hearing date (Aug. 25, 2026). This is the
+    tax year 2026 notice posted on the city's site; the 2025 notice link on the city's news page returns 404. The notice prints
+    the proposed rate as $0.4191 in its first line and $0.419112 in its rate table; it lists the no-new-revenue rate as the
+    same $0.419112 while stating that the proposed rate is greater than the no-new-revenue rate.
 statements: []
 funding: []
 promise_tracker: []

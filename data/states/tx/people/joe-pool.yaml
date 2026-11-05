@@ -2,8 +2,29 @@
 id: joe-pool
 name: Joe Pool
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/joe-pool#M-01
+  headline: Raised $2,350 and had $3,717 on hand (Feb 22 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Feb 22 - Jun 30, 2026, filed Jul 15, 2026: $2,350.00 in total political contributions,
+    $13,941.78 in total political expenditures, $3,716.99 in contributions on hand at the end of the period, and $18,550.00
+    in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101061996.PDF
+  source_title: 'Texas Ethics Commission: Pool, Joe R. (Mr.), campaign finance report 101061996 (filed Jul 15, 2026)'
+  source_kind: document
+  sha256: 970e084648ad2f3a0340aafd64849294e84ff288432b368ddf5d6fc787ebebe3
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101061996, form JCOH, TEC report type SEMIJUL; filer ID 00068006 (Pool, Joe R. (Mr.)). Found in TEC's bulk
+    campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched by first
+    name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending by 2026-11-05;
+    a correction filed later replaces the version it corrects.
 promise_tracker: []

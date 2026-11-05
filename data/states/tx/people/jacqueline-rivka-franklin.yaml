@@ -2,8 +2,30 @@
 id: jacqueline-rivka-franklin
 name: Jacqueline Rivka Franklin
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/jacqueline-rivka-franklin#M-01
+  headline: Raised $12,750 and had $11,613 on hand (Sep 3 - Sep 23, 2026)
+  statement: 'Campaign finance report covering Sep 3 - Sep 23, 2026, filed Sep 23, 2026: $12,750.00 in total political contributions,
+    $2,884.70 in total political expenditures, $11,613.02 in contributions on hand at the end of the period, and $0.00 in
+    outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101067682.PDF
+  source_title: 'Texas Ethics Commission: Franklin, Jacqueline R. (The Honorable), campaign finance report 101067682 (filed
+    Sep 23, 2026)'
+  source_kind: document
+  sha256: 22f468e186864c52384650ca33320e71ba695f06e5bca819312e0ecaac24172f
+  archive_url: null
+  event_date: '2026-09-23'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101067682, form JCOH, TEC report type A15DAYAFT; filer ID 00091185 (Franklin, Jacqueline R. (The Honorable)).
+    Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv)
+    and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for
+    a period ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

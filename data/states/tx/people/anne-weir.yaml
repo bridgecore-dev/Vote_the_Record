@@ -3,8 +3,34 @@ id: anne-weir
 name: Anne Weir
 candidacies:
 - tx/localities/city-of-manor/elections/2026-11-03/council-place-2/candidates/anne-weir
-research: pending
-records: []
+records:
+- id: tx/people/anne-weir#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 city tax rate of $0.847548 per $100 (Aug. 2026)
+  result: Proposed 7-0.
+  statement: As a member of the Manor City Council, voted FOR the proposal of a 2026 Manor tax rate of $0.847548 per $100,
+    which the notice lists as below the no-new-revenue rate ($0.869266) and not above the voter-approval rate ($0.847548).
+    The notice lists Dr. Christopher Harvey, Emily Hill, Anne Weir, Maria Amezcua, Sonia Wallace, Aaron Moreno and Deja Hill
+    voting for, and no one against.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.manortx.gov/DocumentCenter/View/3344/2026-Notice-Tax-Public-Hearing
+  source_title: 'City of Manor: 2026 Notice of Public Hearing on Tax Rate'
+  source_kind: document
+  sha256: edef64ffc2f4be7f1bb3517f744e7fe53dc5740b755c90a65327c3f1f774184f
+  archive_url: null
+  event_date: '2026-08-28'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The notice is titled ''Notice of Public Hearing on Tax Rate'' and lists how each member of the governing body voted
+    on the proposal; it states that the proposed rate is not greater than the no-new-revenue rate and that the City of Manor
+    ''is not proposing to increase property taxes for the 2026 tax year''. The notice does not give the date of the vote;
+    event_date is the first publication date printed on the notice (''Published: 8/28/26 & 9/4/26''). Hearings were set for
+    September 8 and 16, 2026. This is the 2026 notice (tax year 2026); the city''s FY 25-26 page has no 2025 notice. AGAINST,
+    PRESENT and not voting, and ABSENT are blank.'
 statements: []
 funding: []
 promise_tracker: []

@@ -2,8 +2,29 @@
 id: jenny-cron
 name: Jenny Cron
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/jenny-cron#M-01
+  headline: Had $5,406 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 12, 2026: $5,405.79 in contributions on hand
+    at the end of the period, and $0.00 in outstanding loans. The report data lists no amount for total political contributions
+    or total political expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101059751.PDF
+  source_title: 'Texas Ethics Commission: Cron, Jenny (The Honorable), campaign finance report 101059751 (filed Jul 12, 2026)'
+  source_kind: document
+  sha256: fac2ccd8fd2f6fb6d59c2cae16be40e52652803f6af8a03292a5a571b8645a3d
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101059751, form JCOH, TEC report type SEMIJUL; filer ID 00088040 (Cron, Jenny (The Honorable)). Found in
+    TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched
+    by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending
+    by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

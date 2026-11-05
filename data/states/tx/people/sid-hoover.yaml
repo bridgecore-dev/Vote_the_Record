@@ -2,8 +2,31 @@
 id: sid-hoover
 name: Sid Hoover
 candidacies: []
-research: pending
-records: []
+records:
+- id: tx/people/sid-hoover#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 city tax rate of $0.543438 per $100 (Aug. 2025)
+  result: Proposed 6-0.
+  statement: As a member of the Wylie City Council, voted FOR the proposal of a 2025 City of Wylie tax rate of $0.543438 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.521441) and below the voter-approval rate ($0.559554).
+    The notice lists Matthew Porter, David R. Duke, Dave Strang, Todd Pickens, Sid Hoover, and Gino Mulliqi voting for, Scott
+    Williams absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://mccmeetingspublic.blob.core.usgovcloudapi.net/wylietx-meet-9760ebbafcf14aec9da08cd5e17586bd/ITEM-Attachment-001-dd3a81f9ce0549269580535c7d84dce2.pdf
+  source_title: 'City of Wylie: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 2cf2db0aab4eab97fc17d3df70257dd9e51ae725abe50bfeb416286e0b726ed6
+  archive_url: null
+  event_date: '2025-08-26'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote; event_date is the hearing date (Aug. 26, 2025) printed in the notice. Retrieved
+    from a City of Wylie meeting agenda attachment.
 statements: []
 funding: []
 promise_tracker: []

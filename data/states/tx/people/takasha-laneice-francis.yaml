@@ -2,8 +2,30 @@
 id: takasha-laneice-francis
 name: Takasha Laneice Francis
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/takasha-laneice-francis#M-01
+  headline: Had $119,825 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 13, 2026: $4,384.45 in total political expenditures,
+    $119,824.53 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no
+    amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101060376.PDF
+  source_title: 'Texas Ethics Commission: Francis, TaKasha L. (The Honorable), campaign finance report 101060376 (filed Jul
+    13, 2026)'
+  source_kind: document
+  sha256: 0f3be9b6c29c64b860f80be1f1643b0c9061af61d601e1b75085c219d7c967f9
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101060376, form JCOH, TEC report type SEMIJUL; filer ID 00088218 (Francis, TaKasha L. (The Honorable)).
+    Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv)
+    and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for
+    a period ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

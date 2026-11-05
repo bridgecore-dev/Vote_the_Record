@@ -2,8 +2,29 @@
 id: clinton-jerrod-davis
 name: Clinton Jerrod Davis
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/clinton-jerrod-davis#M-01
+  headline: Raised $575 and had $10,068 on hand (Feb 22 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Feb 22 - Jun 30, 2026, filed Jul 1, 2026: $575.10 in total political contributions,
+    $5,324.90 in total political expenditures, $10,068.49 in contributions on hand at the end of the period, and $0.00 in
+    outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101043543.PDF
+  source_title: 'Texas Ethics Commission: Davis, Clinton J. (Mr.), campaign finance report 101043543 (filed Jul 1, 2026)'
+  source_kind: document
+  sha256: 9a702210b726b9559a04e471af82cee3b34c625122282c7eed8e26e23e4a7561
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101043543, form JCOH, TEC report type SEMIJUL; filer ID 00090082 (Davis, Clinton J. (Mr.)). Found in TEC's
+    bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched
+    by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending
+    by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

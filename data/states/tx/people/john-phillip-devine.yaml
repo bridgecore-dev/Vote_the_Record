@@ -2,8 +2,30 @@
 id: john-phillip-devine
 name: John Phillip Devine
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/john-phillip-devine#M-01
+  headline: Had $40 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 15, 2026: $9,805.70 in total political expenditures,
+    $39.97 in contributions on hand at the end of the period, and $5,909.00 in outstanding loans. The report data lists no
+    amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101043920.PDF
+  source_title: 'Texas Ethics Commission: Devine, John P. (The Honorable), campaign finance report 101043920 (filed Jul 15,
+    2026)'
+  source_kind: document
+  sha256: 3bbaaf14525e5108631822c19a4c19c08eb360cda12b4d38a8483e6bf208ed69
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101043920, form JCOH, TEC report type SEMIJUL; filer ID 00026739 (Devine, John P. (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period
+    ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

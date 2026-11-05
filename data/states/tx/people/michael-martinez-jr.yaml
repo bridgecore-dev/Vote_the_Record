@@ -3,8 +3,31 @@ id: michael-martinez-jr
 name: Michael Martinez Jr
 candidacies:
 - tx/localities/city-of-sandy-oaks/elections/2026-11-03/mayor/candidates/michael-martinez-jr
-research: pending
-records: []
+records:
+- id: tx/people/michael-martinez-jr#R-01
+  record_type: vote
+  headline: Was present and not voting on proposing a 2026 city tax rate of $0.356390 per $100 (Sept. 2026)
+  result: Proposed 5-0, with one member present and not voting.
+  statement: As a member of the Sandy Oaks City Council, was listed as PRESENT and not voting on the proposal of a 2026 Sandy
+    Oaks tax rate of $0.356390 per $100, which the notice lists as above the no-new-revenue rate ($0.345818) and not above
+    the voter-approval rate ($0.356390). The notice lists Mayor Pro Tem Madero, Aldermen Crickmer, Tremblay and McNeal, and
+    Alderwoman Walker voting for, none against, Mayor Martinez present and not voting, and none absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://files.heygov.com/cityofsandyoaks.com/file_01m1gy105cr3aeez03c7ge4wgv/Notice%20-%20Public%20-Hearing%20-%20%20Tax%20-Increase.pdf
+  source_title: 'City of Sandy Oaks: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 9e29ccc92d5226dbfaea644931684f22065506c35a5d120ff6adb69bcf409962
+  archive_url: null
+  event_date: '2026-09-10'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or its own date; event_date is the public hearing date printed in the notice
+    (September 10, 2026). This is the 2026 notice (tax year 2026); the 2025 notice link on the city site returns 404.
 statements: []
 funding: []
 promise_tracker: []

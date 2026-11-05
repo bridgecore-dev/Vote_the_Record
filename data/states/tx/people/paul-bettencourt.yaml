@@ -2,8 +2,30 @@
 id: paul-bettencourt
 name: Paul Bettencourt
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/paul-bettencourt#M-01
+  headline: Had $0 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 15, 2026: $0.00 in contributions on hand at
+    the end of the period, and $0.00 in outstanding loans. The report data lists no amount for total political contributions
+    or total political expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101061462.PDF
+  source_title: 'Texas Ethics Commission: Bettencourt, Paul (The Honorable), campaign finance report 101061462 (filed Jul
+    15, 2026)'
+  source_kind: document
+  sha256: 5b6548e094bd3acb8fabc9485e3bef38760bce87b48659bfe30ae87a4c20befd
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101061462, form COH, TEC report type SEMIJUL; filer ID 00069337 (Bettencourt, Paul (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period
+    ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

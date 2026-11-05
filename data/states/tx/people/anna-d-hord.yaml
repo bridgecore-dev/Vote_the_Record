@@ -2,8 +2,30 @@
 id: anna-d-hord
 name: Anna D. Hord
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/anna-d-hord#M-01
+  headline: Had $0 on hand (Nov 12 - Dec 31, 2025)
+  statement: 'Campaign finance report covering Nov 12 - Dec 31, 2025, filed Jan 14, 2026: $1,700.13 in total political expenditures,
+    $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no amount
+    for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101029821.PDF
+  source_title: 'Texas Ethics Commission: Hord, Anna D. (The Honorable), campaign finance report 101029821 (filed Jan 14,
+    2026)'
+  source_kind: document
+  sha256: c7e04517552d429b0a64d95d28eb5790cde35439ee356a8346ea90292535e1b7
+  archive_url: null
+  event_date: '2025-12-31'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101029821, form COHFR, TEC report type FINAL; filer ID 00090265 (Hord, Anna D. (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period
+    ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

@@ -2,8 +2,30 @@
 id: jason-cameron-cashon
 name: Jason Cameron Cashon
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/jason-cameron-cashon#M-01
+  headline: Had $0 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 15, 2026: $0.00 in contributions on hand at
+    the end of the period, and $1,673.92 in outstanding loans. The report data lists no amount for total political contributions
+    or total political expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101061730.PDF
+  source_title: 'Texas Ethics Commission: Cashon, Jason C. (The Honorable), campaign finance report 101061730 (filed Jul 15,
+    2026)'
+  source_kind: document
+  sha256: 99c5efb137b4e19ca4d9f683e3d55578476e5a46ff8ab4f5eae0780760af65bb
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101061730, form JCOH, TEC report type SEMIJUL; filer ID 00063375 (Cashon, Jason C. (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period
+    ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

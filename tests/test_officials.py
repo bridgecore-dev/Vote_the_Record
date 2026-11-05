@@ -186,3 +186,27 @@ def test_records_go_to_the_seat_holder_only_when_the_source_names_them(tmp_path,
     assert [r["id"] for r in doc["records"]] == ["tx/people/pat-doe#R-01"]
     assert doc["records"][0]["verification"] == "unverified"
     assert any("the seat's holder is 'Pat Doe'" in n for n in notes)
+
+
+def test_a_record_on_an_at_large_board_goes_to_the_member_it_names(tmp_path, monkeypatch):
+    import records_from_sources as records
+    data = tmp_path / "data" / "states"
+    board = dict(SEAT, holders=SEAT["holders"] + [{"person": "lee-roe", "start": None, "end": None,
+                                                     "basis": f"{SEAT_ID}#S-01"}])
+    lee = dict(PERSON, id="lee-roe", name="Lee Roe")
+    for rel, doc in {SEAT_REL.removeprefix("data/states/"): board, "tx/people/pat-doe.yaml": PERSON,
+                     "tx/people/lee-roe.yaml": lee}.items():
+        (data / rel).parent.mkdir(parents=True, exist_ok=True)
+        (data / rel).write_text(yaml.safe_dump(doc), encoding="utf-8")
+    monkeypatch.setattr(records, "DATA", data)
+    (tmp_path / "notice.txt").write_text("FOR the proposal: Pat Doe, Lee Roe\n", encoding="utf-8")
+    rec = {"seat": SEAT_ID, "record_type": "vote", "headline": "Voted for proposing a tax rate",
+           "statement": "Voted FOR the proposal.", "quote": "FOR the proposal: Pat Doe, Lee Roe"}
+    src = {"source_url": "https://example.gov/notice", "source_title": "Notice", "source_kind": "page",
+           "retrieved": "2026-11-05", "event_date": "2025-08-26", "saved": "notice.txt", "original": None,
+           "records": [dict(rec, printed_name="Lee Roe"), dict(rec, printed_name="Kim Poe")]}
+    path = tmp_path / "x.records.json"
+    path.write_text(json.dumps(src), encoding="utf-8")
+    people, notes = records.plan([path], "2026-11-05")
+    assert [p.stem for p in people] == ["lee-roe"]
+    assert any("no single current holder on file named 'Kim Poe'" in n for n in notes)

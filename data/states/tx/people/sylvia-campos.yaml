@@ -2,8 +2,31 @@
 id: sylvia-campos
 name: Sylvia Campos
 candidacies: []
-research: pending
-records: []
+records:
+- id: tx/people/sylvia-campos#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 city tax rate of $0.599774 per $100 (Sept. 2026)
+  result: Proposed 7-1.
+  statement: As a member of the Corpus Christi City Council, voted FOR the proposal of a 2026 Corpus Christi tax rate of $0.599774
+    per $100, which the notice lists as above the no-new-revenue rate ($0.596985) and below the voter-approval rate ($0.654552).
+    The notice lists Roland Barrera, Mark Scott, Carolyn Vaughn, Everett Roy, Sylvia Campos, Eric Cantu, and Gil Hernandez
+    voting for, Kaylynn Paxson voting against, and Mayor Paulette M Guajardo absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.corpuschristitx.gov/media/adjkzfzr/notice-of-public-hearing-on-tax-increase.pdf
+  source_title: 'City of Corpus Christi: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 50983d0eca2b89faa82d432c8ef77c677c52a1b127f41d52e8f0d16544eb4dcd
+  archive_url: null
+  event_date: '2026-09-01'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice gives no date of its own or of the vote; event_date is the public hearing date (Sept. 1, 2026). This is the
+    tax year 2026 notice posted on the city's site; a 2025 notice was not found there.
 statements: []
 funding: []
 promise_tracker: []

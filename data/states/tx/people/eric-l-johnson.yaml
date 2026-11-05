@@ -2,8 +2,31 @@
 id: eric-l-johnson
 name: Eric L. Johnson
 candidacies: []
-research: pending
-records: []
+records:
+- id: tx/people/eric-l-johnson#R-01
+  record_type: vote
+  headline: Voted against proposing a 2025 city tax rate of $0.702200 per $100 (Sept. 2025)
+  result: Proposed 10-5.
+  statement: As a member of the Dallas City Council, voted AGAINST the proposal of a 2025 Dallas tax rate of $0.702200 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.673196) and below the voter-approval rate ($0.703274).
+    The notice lists Deputy Mayor Pro Tem Gay Donnell Willis, Chad West, Zarin D. Gracey, Jaime Resendez, Laura Cadena, Adam
+    Bazaldua, Lorie Blair, Paula Blackmon, Kathy Stewart, and William Roth voting for and Mayor Eric Johnson, Mayor Pro Tem
+    Jesse Moreno, Maxie Johnson, Cara Mendelsohn, and Paul E. Ridley voting against.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://dallascityhall.com/departments/budget/DCH%20Documents/FY2025-26-public-hearing-tax-increase.pdf
+  source_title: 'City of Dallas: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 3963d05549aa75b2220ea35388a25e50b0a2230cff398d0754f8237cfbfd766d
+  archive_url: null
+  event_date: '2025-09-17'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice gives no date of its own or of the vote; event_date is the public hearing date (Sept. 17, 2025).
 statements: []
 funding: []
 promise_tracker: []

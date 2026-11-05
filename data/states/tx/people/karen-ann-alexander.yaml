@@ -2,8 +2,30 @@
 id: karen-ann-alexander
 name: Karen Ann Alexander
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/karen-ann-alexander#M-01
+  headline: Had $27,436 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 15, 2026: $42.00 in total political expenditures,
+    $27,436.26 in contributions on hand at the end of the period, and $27,394.26 in outstanding loans. The report data lists
+    no amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101062048.PDF
+  source_title: 'Texas Ethics Commission: Alexander, Karen (The Honorable), campaign finance report 101062048 (filed Jul 15,
+    2026)'
+  source_kind: document
+  sha256: e8e8bd9698a18a1a319c1c2dcc8dc0433e4dca1561a29f373dbf4e04678bcc30
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101062048, form JCOH, TEC report type SEMIJUL; filer ID 00069803 (Alexander, Karen (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period
+    ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

@@ -2,8 +2,30 @@
 id: arimy-beasley
 name: Arimy Beasley
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/arimy-beasley#M-01
+  headline: Raised $0 and had $1,445 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 10, 2026: $0.00 in total political contributions,
+    $0.00 in total political expenditures, $1,445.00 in contributions on hand at the end of the period, and $0.00 in outstanding
+    loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101059320.PDF
+  source_title: 'Texas Ethics Commission: Beasley, Arimy (The Honorable), campaign finance report 101059320 (filed Jul 10,
+    2026)'
+  source_kind: document
+  sha256: 8fcd9a6c4d30349593710df9e9ded0a3fad0c7231645915f40d785274ae86f12
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101059320, form JCOH, TEC report type SEMIJUL; filer ID 00088086 (Beasley, Arimy (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period
+    ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

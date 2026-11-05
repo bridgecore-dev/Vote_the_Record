@@ -2,8 +2,29 @@
 id: hubert-vo
 name: Hubert Vo
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/hubert-vo#M-01
+  headline: Raised $250 and had $83,797 on hand (Jul 1 - Sep 24, 2026)
+  statement: 'Campaign finance report covering Jul 1 - Sep 24, 2026, filed Oct 6, 2026: $250.00 in total political contributions,
+    $2,298.31 in total political expenditures, $83,797.27 in contributions on hand at the end of the period, and $0.00 in
+    outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070388.PDF
+  source_title: 'Texas Ethics Commission: Vo, Hubert (The Honorable), campaign finance report 101070388 (filed Oct 6, 2026)'
+  source_kind: document
+  sha256: 1ef7637e15db0fc5c54fa1f19456c41f44aa1dde73d9ba6e42ea3bd85ae4a719
+  archive_url: null
+  event_date: '2026-09-24'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101070388, form COH, TEC report type E30DAYBEF; filer ID 00054795 (Vo, Hubert (The Honorable)). Found in
+    TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched
+    by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending
+    by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

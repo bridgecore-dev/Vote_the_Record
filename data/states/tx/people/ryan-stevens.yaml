@@ -2,8 +2,32 @@
 id: ryan-stevens
 name: Ryan Stevens
 candidacies: []
-research: pending
-records: []
+records:
+- id: tx/people/ryan-stevens#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 city tax rate of $0.658175 per $100 (Sept. 2026)
+  result: Proposed 7-0.
+  statement: As a member of the Justin City Council, voted FOR the proposal of a 2026 Justin tax rate of $0.658175 per $100,
+    which the notice lists as above the no-new-revenue rate ($0.641816) and not above the voter-approval rate ($0.658175).
+    The notice lists Councilmen Stevens, Mendoza, Teschke, Castle and Dennis, Mayor Clark and Mayor Pro Tem St. Claire voting
+    for, and no one against.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cityofjustin.com/DocumentCenter/View/2462
+  source_title: 'City of Justin: 2026 Notice of Public Hearing on Tax Rate'
+  source_kind: document
+  sha256: 52650540da46f95e25817a2c1e523381b2a4a7cb00c025800bde88a7dad523c4
+  archive_url: null
+  event_date: '2026-09-17'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or its own date; event_date is the public hearing date printed in the notice
+    (September 17, 2026). This is the 2026 notice (tax year 2026), the one posted on the city site; the 2025 notice was not
+    found there. AGAINST, PRESENT and not voting, and ABSENT are blank.
 statements: []
 funding: []
 promise_tracker: []

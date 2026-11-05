@@ -212,3 +212,29 @@ def test_relink_repoints_unverified_bulk_facts_only(tmp_path):
     assert fact["id"] == bulk["id"] and fact["statement"] == "s" and fact["verification"] == "unverified"
     assert fact["source_url"].endswith("ScrubbedReport_102.PDF") and "report 102" in fact["source_title"]
     assert load(tmp_path, bob.relative_to(tmp_path).as_posix())["funding"] == [verified]  # verified: untouched
+
+
+def test_officials_without_a_2026_candidacy_get_their_latest_report(tmp_path):
+    make_repo(tmp_path)
+    make_zip(tmp_path / "tec.zip", FILERS, COVERS)
+    seat = "data/states/tx/districts/state-house-5/offices/state-representative.yaml"
+    people = {"jane-doe": {"name": "Jane Doe", "candidacies": []},
+              "bob-smith": {"name": "Bob Smith", "candidacies": [f"tx/{HOUSE.removeprefix('tx/')}/candidates/bob-smith"]}}
+    for rel, doc in {seat: {"name": "State Representative, District 5", "office_type": "state-representative",
+                            "holders": [{"person": p, "start": None, "end": None, "basis": "x"} for p in people],
+                            "sources": []},
+                     **{f"data/states/tx/people/{p}.yaml": {"id": p, **d, "records": [], "statements": [],
+                                                            "funding": [], "promise_tracker": [], "research": "pending"}
+                        for p, d in people.items()}}.items():
+        (tmp_path / rel).parent.mkdir(parents=True, exist_ok=True)
+        (tmp_path / rel).write_text("# header\n" + yaml.safe_dump(doc, sort_keys=False), encoding="utf-8")
+    config = yaml.safe_load((tmp_path / "site/site.yaml").read_text(encoding="utf-8"))
+    tec = tf.TecData(tmp_path / "tec.zip", "2025-01-01", "2026-09-30")
+    changes, log = tf.plan_officials(tmp_path, tec, "2026-09-30", config, getter=fake_get)
+    assert [p.stem for p, _ in changes] == ["jane-doe"]  # Bob Smith ran in 2026: his candidate file has it
+    path, text = changes[0]
+    assert text.startswith("# header\n")
+    doc = yaml.safe_load(text)
+    (fact,) = doc["funding"]
+    assert fact["id"] == "tx/people/jane-doe#M-01" and "report 102" in fact["source_title"]
+    assert fact["verification"] == "unverified" and "research" not in doc

@@ -2,8 +2,32 @@
 id: paige-ellis
 name: Paige Ellis
 candidacies: []
-research: pending
-records: []
+records:
+- id: tx/people/paige-ellis#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 city tax rate of $0.579948 per $100 (Aug. 2026)
+  result: Proposed 11-0.
+  statement: As a member of the Austin City Council, voted FOR the proposal of a 2026 Austin tax rate of $0.579948 per $100,
+    which the notice lists as above the no-new-revenue rate ($0.535466) and equal to the voter-approval rate ($0.579948).
+    The notice lists Kirk Watson, Natasha Harper-Madison, Vanessa Fuentes, Jose Velasquez, Jose "Chito" Vela, Ryan Alter,
+    Krista Laine, Mike Siegel, Paige Ellis, Zohaib "Zo" Qadri, and Marc Duchen voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://austin.widen.net/view/pdf/jv1qbeebol/2027-Notice_Tax_Public_Hearing.pdf
+  source_title: 'City of Austin: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: ccc0aa53f43b7edd328c64866ddfa000cc96410ec8896791e7cdf6d3b2fb27b8
+  archive_url: null
+  event_date: '2026-08-12'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice gives no date of its own or of the vote; event_date is the public hearing date (Aug. 12, 2026). This is the
+    tax year 2026 notice linked from the city's Tax Rates page (austintexas.gov/budget-excellence/tax-rates); the 2025 notice
+    is no longer posted there. The original was downloaded from the Widen viewer's PDF preview link.
 statements: []
 funding: []
 promise_tracker: []

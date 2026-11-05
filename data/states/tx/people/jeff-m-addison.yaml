@@ -2,8 +2,30 @@
 id: jeff-m-addison
 name: Jeff M. Addison
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/jeff-m-addison#M-01
+  headline: Raised $0 and had $450 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 8, 2026: $0.00 in total political contributions,
+    $0.00 in total political expenditures, $450.00 in contributions on hand at the end of the period, and $0.00 in outstanding
+    loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101058622.PDF
+  source_title: 'Texas Ethics Commission: Addison, Jeff M. (The Honorable), campaign finance report 101058622 (filed Jul 8,
+    2026)'
+  source_kind: document
+  sha256: cd7e0c8396e89d3f60e81d88da5ef6c931cfeb618d0157e53012f6bbf16fe282
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101058622, form JCOH, TEC report type A15DAYAFT; filer ID 00082305 (Addison, Jeff M. (The Honorable)).
+    Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv)
+    and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for
+    a period ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

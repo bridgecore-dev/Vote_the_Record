@@ -2,8 +2,31 @@
 id: terry-adams
 name: Terry Adams
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/terry-adams#M-01
+  headline: Raised $0 and had $10,769 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 14, 2026: $0.00 in total political contributions,
+    $2,004.37 in total political expenditures, $10,769.31 in contributions on hand at the end of the period, and $0.00 in
+    outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101061188.PDF
+  source_title: 'Texas Ethics Commission: Adams, Noel T. (The Honorable), campaign finance report 101061188 (filed Jul 14,
+    2026)'
+  source_kind: document
+  sha256: ac2043e158559a65fc51db5e556b6d18fb026a8fe4fbf9cc8d3bb94227a44117
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101061188, form JCOH, TEC report type SEMIJUL; filer ID 00084087 (Adams, Noel T. (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the
+    PDF. This is the filer's latest report for a period ending by 2026-11-05; a correction filed later replaces the version
+    it corrects.
 promise_tracker: []

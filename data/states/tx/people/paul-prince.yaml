@@ -2,8 +2,33 @@
 id: paul-prince
 name: Paul Prince
 candidacies: []
-research: pending
-records: []
+records:
+- id: tx/people/paul-prince#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 city tax rate of $0.430564 per $100 (Sept. 2025)
+  result: Proposed 4-3.
+  statement: As a member of the Lago Vista City Council, voted FOR the proposal of a 2025 Lago Vista tax rate of $0.430564
+    per $100, which the notice lists as equal to the no-new-revenue rate ($0.430564) and below the voter-approval rate ($0.506442).
+    The notice lists Councilors Benefield, Prince and Owen and Mayor Sullivan voting for, Councilors Saum, Durbin and Roberts
+    voting against, none present and not voting, and none absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://lagovistatexas.gov/DocumentCenter/View/9135/Notice-of-Public-Hearing-on-Tax-IncreasePDF
+  source_title: 'City of Lago Vista: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 3d9454ade5e0addd0e3602a5a32c5e5a45cd7528501c4ac57388592e8d031b27
+  archive_url: null
+  event_date: '2025-09-25'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is titled 'Notice of Public Hearing on Tax Increase' and lists how each member of the governing body voted
+    on the proposal, but it states that the proposed rate equals the no-new-revenue rate and that the city 'is not proposing
+    to increase property taxes for the 2025 tax year'. The notice does not give the date of the vote or its own date; event_date
+    is the date of the public meeting to vote on the rate printed in the notice (September 25, 2025). Shane Saum is listed
+    as 'Councilor Saum'; the city's roster now shows Shane R Saum as mayor.
 statements: []
 funding: []
 promise_tracker: []

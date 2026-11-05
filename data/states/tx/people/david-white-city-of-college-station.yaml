@@ -2,8 +2,31 @@
 id: david-white-city-of-college-station
 name: David White
 candidacies: []
-research: pending
-records: []
+records:
+- id: tx/people/david-white-city-of-college-station#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 city tax rate of $0.530254 per $100 (Aug. 2026)
+  result: Proposed 6-0.
+  statement: As a member of the College Station City Council, voted FOR the proposal of a 2026 College Station tax rate of
+    $0.530254 per $100, which the notice lists as above the no-new-revenue rate ($0.506934) and below the voter-approval rate
+    ($0.537862). The notice lists John Nichols, Mark Smith, William Wright, David White, Melissa McllHaney, and Scott Schafer
+    voting for and Bob Yancy absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cstx.gov/media/aiqcv2w2/city-of-college-station-form-50-876.pdf
+  source_title: 'City of College Station: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: f735a3fc884eb0741598c4d66f868b486b0ec4627332634abce87ba63ad4b318
+  archive_url: null
+  event_date: '2026-08-27'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice gives no date of its own or of the vote; event_date is the public hearing date (Aug. 27, 2026). This is the
+    tax year 2026 notice (Form 50-876) posted on the city's site; a 2025 notice was not found there.
 statements: []
 funding: []
 promise_tracker: []

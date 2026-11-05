@@ -2,8 +2,30 @@
 id: lisa-soto
 name: Lisa Soto
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/lisa-soto#M-01
+  headline: Had $41,302 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 14, 2026: $41,302.16 in contributions on hand
+    at the end of the period, and $10,000.00 in outstanding loans. The report data lists no amount for total political contributions
+    or total political expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101060592.PDF
+  source_title: 'Texas Ethics Commission: Soto, Lisa J. (The Honorable), campaign finance report 101060592 (filed Jul 14,
+    2026)'
+  source_kind: document
+  sha256: 1c4c64fbba66d5c33b80ffd507f71a97e83e2df3399c4bf92d5fb5e5a4fc3212
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101060592, form JCOH, TEC report type SEMIJUL; filer ID 00085995 (Soto, Lisa J. (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period
+    ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

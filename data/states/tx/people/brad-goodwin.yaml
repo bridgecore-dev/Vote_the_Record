@@ -2,8 +2,31 @@
 id: brad-goodwin
 name: Brad Goodwin
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/brad-goodwin#M-01
+  headline: Raised $1 and had $2,652 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 11, 2026: $1.00 in total political contributions,
+    $2,651.72 in contributions on hand at the end of the period, and $11,000.00 in outstanding loans. The report data lists
+    no amount for total political expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101056449.PDF
+  source_title: 'Texas Ethics Commission: Goodwin, Ronald B. (The Honorable), campaign finance report 101056449 (filed Jul
+    11, 2026)'
+  source_kind: document
+  sha256: 8b18d4b4bf45ec0c00d9d33119154c9d85d9154e271902b8d2647b5a3f532fcf
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101056449, form JCOH, TEC report type SEMIJUL; filer ID 00080009 (Goodwin, Ronald B. (The Honorable)).
+    Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv)
+    and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against
+    the PDF. This is the filer's latest report for a period ending by 2026-11-05; a correction filed later replaces the version
+    it corrects.
 promise_tracker: []

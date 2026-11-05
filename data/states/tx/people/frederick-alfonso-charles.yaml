@@ -2,8 +2,31 @@
 id: frederick-alfonso-charles
 name: Frederick Alfonso Charles
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/frederick-alfonso-charles#M-01
+  headline: Had $38,627 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 13, 2026: $4,914.03 in total political expenditures,
+    $38,627.14 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no
+    amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101032979.PDF
+  source_title: 'Texas Ethics Commission: Charles, F. Alfonso (The Honorable), campaign finance report 101032979 (filed Jul
+    13, 2026)'
+  source_kind: document
+  sha256: 85e344fb9c535428242dcc37245e012174e086502b961928d89ccfb557783fb9
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101032979, form JCOH, TEC report type SEMIJUL; filer ID 00066130 (Charles, F. Alfonso (The Honorable)).
+    Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv)
+    and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against
+    the PDF. This is the filer's latest report for a period ending by 2026-11-05; a correction filed later replaces the version
+    it corrects.
 promise_tracker: []

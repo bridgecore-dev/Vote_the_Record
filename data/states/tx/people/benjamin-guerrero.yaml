@@ -3,7 +3,31 @@ id: benjamin-guerrero
 name: Benjamin Guerrero
 candidacies:
 - tx/localities/city-of-schertz/elections/2026-11-03/council-place-4/candidates/benjamin-guerrero
-records: []
+records:
+- id: tx/people/benjamin-guerrero#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 city tax rate of $0.5593 per $100 (Sept. 2026)
+  result: Proposed 6-1.
+  statement: As a member of the Schertz City Council, voted FOR the proposal of a 2026 City of Schertz tax rate of $0.5593
+    per $100, which the notice lists as above the no-new-revenue rate ($0.5296) and equal to the voter-approval rate ($0.5593).
+    The notice lists Councilmember Davis, Councilmember Watson, Councilmember Macaluso, Councilmember Guerrero, Councilmember
+    Westbrook, and Councilmember Dietz voting for, Councilmember Sheridan voting against.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.schertz.com/Notice%20of%20Public%20Hearing%20on%20Tax%20Increase.pdf
+  source_title: 'City of Schertz: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: fd70d3036e66e9fc3f2d50f56d96e8075f6da1fdb5b9da0828cda274ad962a83
+  archive_url: null
+  event_date: '2026-09-15'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    It is for the 2026 tax year; the city's site posts it in place of the 2025 notice. The mayor is not listed. The notice
+    does not give the date of the vote; event_date is the hearing date (Sept. 15, 2026) printed in the notice.
 statements: []
 funding: []
 promise_tracker: []

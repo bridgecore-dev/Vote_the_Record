@@ -2,8 +2,30 @@
 id: nicole-h-garza
 name: Nicole H. Garza
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/nicole-h-garza#M-01
+  headline: Had $68,486 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 15, 2026: $21,445.04 in total political expenditures,
+    $68,486.30 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no
+    amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101061130.PDF
+  source_title: 'Texas Ethics Commission: Garza, Nicole Henning (The Honorable), campaign finance report 101061130 (filed
+    Jul 15, 2026)'
+  source_kind: document
+  sha256: 5dc81f1da00ffcfdfe92add89bf90a48ca0e8c8e40241d74e9e0424168a2205e
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101061130, form JCOH, TEC report type SEMIJUL; filer ID 00067765 (Garza, Nicole Henning (The Honorable)).
+    Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv)
+    and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for
+    a period ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

@@ -2,8 +2,31 @@
 id: pat-curry
 name: Pat Curry
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/pat-curry#M-01
+  headline: Raised $94,265 and had $461,934 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $94,265.35 in total political contributions,
+    $84,074.51 in total political expenditures, $461,934.05 in contributions on hand at the end of the period, and $819,779.91
+    in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072660.PDF
+  source_title: 'Texas Ethics Commission: Curry, Patrick J. (The Honorable), campaign finance report 101072660 (filed Oct
+    26, 2026)'
+  source_kind: document
+  sha256: 215d96974e67173a017f4ddb88edf250ae4527b2e80bf1e6e9586affeeab18d6
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072660, form COH, TEC report type E08DAYBEF; filer ID 00087954 (Curry, Patrick J. (The Honorable)).
+    Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv)
+    and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against
+    the PDF. This is the filer's latest report for a period ending by 2026-11-05; a correction filed later replaces the version
+    it corrects.
 promise_tracker: []

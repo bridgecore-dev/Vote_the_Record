@@ -2,8 +2,30 @@
 id: john-l-pool
 name: John L. Pool
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/john-l-pool#M-01
+  headline: Raised $0 and had $0 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jun 18, 2026: $0.00 in total political contributions,
+    $0.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding
+    loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101055301.PDF
+  source_title: 'Texas Ethics Commission: Pool, John L. (The Honorable), campaign finance report 101055301 (filed Jun 18,
+    2026)'
+  source_kind: document
+  sha256: 1d77a15a7c8c24cb6e345fbad45482b309f0509ddcf8bad4fb0c393baf21c46b
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101055301, form JCOH, TEC report type SEMIJUL; filer ID 00082059 (Pool, John L. (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period
+    ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

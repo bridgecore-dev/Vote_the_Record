@@ -2,8 +2,31 @@
 id: mike-wallach
 name: Mike Wallach
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/mike-wallach#M-01
+  headline: Had $1,233 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 8, 2026: $2,310.73 in total political expenditures,
+    $1,232.87 in contributions on hand at the end of the period, and $28,092.05 in outstanding loans. The report data lists
+    no amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101055375.PDF
+  source_title: 'Texas Ethics Commission: Wallach, David M. (The Honorable), campaign finance report 101055375 (filed Jul
+    8, 2026)'
+  source_kind: document
+  sha256: 3a5fe995d048c98cc1318c2a6244f43146bc25d1255a5aa66c71697250711ad3
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101055375, form JCOH, TEC report type SEMIJUL; filer ID 00080315 (Wallach, David M. (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the
+    PDF. This is the filer's latest report for a period ending by 2026-11-05; a correction filed later replaces the version
+    it corrects.
 promise_tracker: []
