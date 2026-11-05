@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice, Supreme Court of Texas, Place 3
+office_type: supreme-court-justice
+holders:
+- person: debra-lehrmann
+  start: null
+  end: null
+  basis: tx/statewide/offices/supreme-court-place-3#S-01
+sources:
+- id: tx/statewide/offices/supreme-court-place-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Texas Judicial Branch: SC | About the Court | Justices), checked on November 4, 2026, shows
+    Debra Lehrmann as Justice, Supreme Court of Texas, Place 3. It reads: "Justice Debra Lehrmann"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/supreme/about-the-court/justices/
+  source_title: 'Texas Judicial Branch: SC | About the Court | Justices'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: King County Director of Elections
+office_type: elections-director
+holders:
+- person: julie-wise
+  start: null
+  end: null
+  basis: wa/localities/king-county/offices/director-of-elections#S-01
+sources:
+- id: wa/localities/king-county/offices/director-of-elections#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Meet the Director - King County, Washington), checked on October 18, 2026, shows Julie Wise
+    holding this office (recorded for the November 3, 2026 election: King County Director of Elections).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://kingcounty.gov/en/dept/elections/about-us/meet-the-director
+  source_title: Meet the Director - King County, Washington
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-18'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in wa/localities/king-county/elections/2026-11-03/director-of-elections/race#S-HOLDER.

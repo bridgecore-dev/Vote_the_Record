@@ -1,0 +1,32 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: aaron-m-trevino
+name: Aaron M. Trevino
+candidacies: []
+records:
+- id: tx/people/aaron-m-trevino#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 county tax rate of $0.867505 per $100 (Sept. 2026)
+  result: Proposed 3-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2026 Brooks County tax rate of $0.867505 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.856115) and not above the voter-approval rate ($0.928533).
+    The notice lists Judge Ramos and Commissioners Salinas and Trevino voting for; and Commissioners Garza and Gutierrez absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/5145/Notice%20of%20Public%20Hearing-%20County.pdf
+  source_title: 'Brooks County: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 852e0fd22f7d104043c556d836c78f877a21672ec51b761a00054a5ac9147455
+  archive_url: null
+  event_date: '2026-09-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or its own date; event_date is the public hearing date printed in the notice
+    (September 3, 2026). The file name does not carry a year; the notice itself is for the 2026 tax year. A 2025 notice was
+    not found (the county site lists a Notice of Adopted 2025 Tax Rate only).
+statements: []
+funding: []
+promise_tracker: []

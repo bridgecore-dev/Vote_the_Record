@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Judge, County Civil Court at Law No. 3
+office_type: county-civil-court-judge
+holders:
+- person: lashawn-a-williams
+  start: null
+  end: null
+  basis: tx/localities/harris-county/offices/county-civil-court-3#S-01
+sources:
+- id: tx/localities/harris-county/offices/county-civil-court-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Harris County Civil Courts at Law: courts and judges), checked on September 30, 2026, shows
+    Lashawn A. Williams holding this office (recorded for the November 3, 2026 election: Judge, County Civil Court at Law
+    No. 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ccl.hctx.net/civil/
+  source_title: 'Harris County Civil Courts at Law: courts and judges'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001022322/https://www.ccl.hctx.net/civil/
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/harris-county/elections/2026-11-03/county-civil-court-3/race#S-HOLDER.

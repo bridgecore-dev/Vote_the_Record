@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Attorney, 81st Judicial District
+office_type: district-attorney
+holders:
+- person: audrey-gossett-louis
+  start: null
+  end: null
+  basis: tx/districts/judicial-district-81/offices/district-attorney#S-01
+sources:
+- id: tx/districts/judicial-district-81/offices/district-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Karnes County: 81st Judicial District Attorney), checked on November 4, 2026, shows Audrey
+    Gossett Louis as District Attorney, 81st Judicial District. It reads: "Audrey Gossett Louis"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.karnes.tx.us/page/karnes.District.Attorney
+  source_title: 'Karnes County: 81st Judicial District Attorney'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

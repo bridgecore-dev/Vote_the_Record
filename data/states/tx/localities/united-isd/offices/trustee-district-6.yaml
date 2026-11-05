@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: United ISD Trustee, District 6
+office_type: school-trustee
+area: united-isd/district-6
+holders:
+- person: michelle-molina
+  start: null
+  end: null
+  basis: tx/localities/united-isd/offices/trustee-district-6#S-01
+sources:
+- id: tx/localities/united-isd/offices/trustee-district-6#S-01
+  headline: Who holds this office now
+  statement: 'The official page (United ISD - Board Of Trustees Home), checked on November 2, 2026, shows Michelle Molina
+    holding this office (recorded for the November 3, 2026 election: United ISD Trustee, District 6).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.uisd.net/133760_3
+  source_title: United ISD - Board Of Trustees Home
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/united-isd/elections/2026-11-03/trustee-district-6/race#S-HOLDER.

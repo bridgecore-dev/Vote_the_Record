@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice, Place 9, 5th Court of Appeals
+office_type: court-of-appeals-justice
+holders:
+- person: tina-clinton
+  start: null
+  end: null
+  basis: tx/districts/court-of-appeals-5/offices/place-9#S-01
+sources:
+- id: tx/districts/court-of-appeals-5/offices/place-9#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Texas Judicial Branch: 5th COA | About the Court | Justices), checked on November 4, 2026,
+    shows Tina Clinton as Justice, Place 9, 5th Court of Appeals. It reads: "Justice Tina Clinton"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/5thcoa/about-the-court/justices/
+  source_title: 'Texas Judicial Branch: 5th COA | About the Court | Justices'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,23 @@
+# Who holds this seat, from official rosters. Unverified.
+name: State Senator, District 22
+office_type: state-senator
+vacant: true
+holders: []
+sources:
+- id: tx/districts/state-senate-22/offices/state-senator#S-01
+  headline: Who holds this office now
+  statement: 'The official list (The Texas State Senate: Texas Senators of the 89th Legislature), checked on November 4, 2026,
+    shows nobody as State Senator, District 22. It reads: "Constituent Services *"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://senate.texas.gov/members.php
+  source_title: 'The Texas State Senate: Texas Senators of the 89th Legislature'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

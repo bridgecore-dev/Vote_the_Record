@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 2
+office_type: county-commissioner
+holders:
+- person: haden-braziel
+  start: null
+  end: null
+  basis: tx/localities/hardeman-county/offices/commissioner-precinct-2#S-01
+sources:
+- id: tx/localities/hardeman-county/offices/commissioner-precinct-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Hardeman County, Texas: County Commissioners - Hardeman County), checked on November 4, 2026,
+    shows Haden Braziel as County Commissioner, Precinct 2. It reads: "County Commissioner Precinct 2 Haden Braziel"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.hardeman.tx.us/page/hardeman.Commishioners
+  source_title: 'Hardeman County, Texas: County Commissioners - Hardeman County'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

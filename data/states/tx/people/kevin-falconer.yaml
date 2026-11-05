@@ -1,0 +1,32 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: kevin-falconer
+name: Kevin Falconer
+candidacies:
+- tx/localities/denton-county/elections/2026-11-03/commissioner-precinct-2/candidates/kevin-falconer
+records:
+- id: tx/people/kevin-falconer#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 county tax rate of $0.183394 per $100 (Sept. 2026)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2026 Denton County tax rate of $0.183394 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.179909) and not above the voter-approval rate ($0.191201).
+    The notice lists Judge Eads and Commissioners Williams, Falconer, Mitchell and Edmondson voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dentoncounty.gov/DocumentCenter/View/12509/Notice-of-Public-Hearing-on-Tax-Increase-PDF
+  source_title: 'Denton County: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: c2799e3b6d4db4461e22cff8745284b50161b33ebe3cd6c7d35a9b250837da0d
+  archive_url: null
+  event_date: '2026-09-22'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice
+    (September 22, 2026).
+statements: []
+funding: []
+promise_tracker: []

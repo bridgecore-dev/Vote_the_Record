@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 4
+office_type: constable
+holders:
+- person: jesse-stewart
+  start: null
+  end: null
+  basis: tx/localities/rusk-county/offices/constable-precinct-4#S-01
+sources:
+- id: tx/localities/rusk-county/offices/constable-precinct-4#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Rusk County, Texas: Constables), checked on November 4, 2026, shows Jesse Stewart as Constable,
+    Precinct 4. It reads: "Precinct 4 Constable Jesse Stewart"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ruskcountytx.gov/page/Constable
+  source_title: 'Rusk County, Texas: Constables'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

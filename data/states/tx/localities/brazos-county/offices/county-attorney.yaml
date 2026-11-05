@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Attorney
+office_type: county-attorney
+holders:
+- person: earl-gray
+  start: null
+  end: null
+  basis: tx/localities/brazos-county/offices/county-attorney#S-01
+sources:
+- id: tx/localities/brazos-county/offices/county-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Brazos County: County Attorney), checked on November 5, 2026, shows Earl Gray as County Attorney.
+    It reads: "Earl Gray and his office are committed not only to seeking justice"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://brazoscountytx.gov/county-attorney/
+  source_title: 'Brazos County: County Attorney'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

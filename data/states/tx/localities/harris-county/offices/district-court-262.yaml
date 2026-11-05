@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Criminal District Judge, 262nd Judicial District
+office_type: district-judge
+holders:
+- person: lori-chambers-gray
+  start: null
+  end: null
+  basis: tx/localities/harris-county/offices/district-court-262#S-01
+sources:
+- id: tx/localities/harris-county/offices/district-court-262#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Harris County District Courts (JUSTEX): criminal district courts and judges), checked on
+    September 30, 2026, shows Lori Chambers Gray holding this office (recorded for the November 3, 2026 election: Criminal
+    District Judge, 262nd Judicial District).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.justex.net/JustexAPI/api/Courts/?CourtClassID=2
+  source_title: 'Harris County District Courts (JUSTEX): criminal district courts and judges'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001022224/https://www.justex.net/JustexAPI/api/Courts/?CourtClassID=2
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/harris-county/elections/2026-11-03/district-court-262/race#S-HOLDER.

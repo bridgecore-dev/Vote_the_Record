@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Cameron County District Clerk
+office_type: district-clerk
+holders:
+- person: laura-perez-reyes
+  start: null
+  end: null
+  basis: tx/localities/cameron-county/offices/district-clerk#S-01
+sources:
+- id: tx/localities/cameron-county/offices/district-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Laura Perez-Reyes, District Clerk - Cameron County), checked on October 20, 2026, shows Laura
+    Perez-Reyes holding this office (recorded for the November 3, 2026 election: Cameron County District Clerk).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/cameron-county-district-clerk/
+  source_title: Laura Perez-Reyes, District Clerk - Cameron County
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/cameron-county/elections/2026-11-03/district-clerk/race#S-HOLDER.

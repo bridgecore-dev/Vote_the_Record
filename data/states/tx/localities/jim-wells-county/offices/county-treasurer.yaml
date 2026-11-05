@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Treasurer
+office_type: county-treasurer
+holders:
+- person: mark-dominguez
+  start: null
+  end: null
+  basis: tx/localities/jim-wells-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/jim-wells-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Jim Wells County: Jim Wells County Treasurer), checked on November 4, 2026, shows Mark Dominguez
+    as County Treasurer. It reads: "Mark Dominguez"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.jim-wells.tx.us/page/co.county.treasurer
+  source_title: 'Jim Wells County: Jim Wells County Treasurer'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

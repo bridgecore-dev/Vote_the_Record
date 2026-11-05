@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Treasurer
+office_type: county-treasurer
+holders:
+- person: fatima-hernandez
+  start: null
+  end: null
+  basis: tx/localities/sherman-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/sherman-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Sherman County: Sherman County Directory), checked on November 4, 2026, shows Fatima Hernandez
+    as County Treasurer. It reads: "County Treasurer Fatima Hernandez"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.shermancountytx.gov/page/contact
+  source_title: 'Sherman County: Sherman County Directory'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

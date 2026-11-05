@@ -1,0 +1,33 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: doug-hughes
+name: Doug Hughes
+candidacies: []
+records:
+- id: tx/people/doug-hughes#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.6035 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Tyler County tax rate of $0.6035 per $100,
+    which the notice lists as equal to the no-new-revenue rate ($0.6035) and not above the voter-approval rate ($0.6929).
+    The notice lists Judge Powers and Commissioners Marshall, Hudson, Blacksher and Hughes voting for, and no members (n/a)
+    against, present and not voting, or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/10582/2025%20Meeting%20county%20general.pdf
+  source_title: 'Tyler County: 2025 Notice of Meeting to Vote on Tax Rate (General Fund)'
+  source_kind: document
+  sha256: b66f622af5e9af432333d009f8c08db15eb8fb9ef7e4fd0cbe2c2cfb4bff5474
+  archive_url: null
+  event_date: '2025-09-08'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.061 (rate not above the no-new-revenue rate) and lists how each member of
+    the governing body voted on the proposal. The notice is a filled-in PDF form; the names, rates and date are in its form
+    fields, which the saved .txt lists at the end. The notice does not give its own date or the date of the vote; event_date
+    is the date of the public meeting to vote on the rate in the notice (Sept. 8, 2025).
+statements: []
+funding: []
+promise_tracker: []

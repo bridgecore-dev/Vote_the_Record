@@ -1,0 +1,32 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: mitch-curtis
+name: Mitch Curtis
+candidacies: []
+records:
+- id: tx/people/mitch-curtis#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.399600 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Van Zandt County tax rate of $0.399600 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.376512) and not above the voter-approval rate ($0.417681).
+    The notice lists Judge Reese and Commissioners Curtis, Williams, Phillips and Barton voting for, and no members against,
+    present and not voting, or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/2726/Notice%20of%20Public%20Hearing%20on%20Tax%20Increase%202025-2026.v1.1.pdf
+  source_title: 'Van Zandt County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 84a99aac02d2fd762c12c60858a341c31a558850e8a87f4d8b22e49af21eff3f
+  archive_url: null
+  event_date: '2025-09-29'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The file name marks it as version 1.1 of the notice. The notice does not give its own date or the date of the vote; event_date
+    is the public hearing date printed in the notice (Sept. 29, 2025).
+statements: []
+funding: []
+promise_tracker: []

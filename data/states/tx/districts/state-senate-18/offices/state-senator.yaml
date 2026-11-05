@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: State Senator, District 18
+office_type: state-senator
+holders:
+- person: lois-w-kolkhorst
+  start: null
+  end: null
+  basis: tx/districts/state-senate-18/offices/state-senator#S-01
+sources:
+- id: tx/districts/state-senate-18/offices/state-senator#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Texas Senate: Members), checked on September 30, 2026, shows Lois W. Kolkhorst holding this
+    office (recorded for the November 3, 2026 election: State Senator, District 18).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://senate.texas.gov/members.php
+  source_title: 'Texas Senate: Members'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001021309/https://senate.texas.gov/members.php
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/state-senate-18/elections/2026-11-03/state-senator/race#S-HOLDER.

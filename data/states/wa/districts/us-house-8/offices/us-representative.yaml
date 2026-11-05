@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: U.S. Representative, District 8
+office_type: us-representative
+holders:
+- person: kim-schrier
+  start: null
+  end: null
+  basis: wa/districts/us-house-8/offices/us-representative#S-01
+sources:
+- id: wa/districts/us-house-8/offices/us-representative#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Office of the Clerk, U.S. House of Representatives: Member Data (XML)), checked on October
+    18, 2026, shows Kim Schrier holding this office (recorded for the November 3, 2026 election: U.S. Representative, District
+    8).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://clerk.house.gov/xml/lists/MemberData.xml
+  source_title: 'Office of the Clerk, U.S. House of Representatives: Member Data (XML)'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-18'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in wa/districts/us-house-8/elections/2026-11-03/us-representative/race#S-HOLDER.

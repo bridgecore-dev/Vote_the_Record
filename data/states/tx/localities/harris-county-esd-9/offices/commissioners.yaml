@@ -1,0 +1,33 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Harris County ESD No. 9, Board of Emergency Services Commissioners
+office_type: esd-commissioner
+holders:
+- person: cameron-dickey
+  start: null
+  end: null
+  basis: tx/localities/harris-county-esd-9/offices/commissioners#S-01
+- person: naressa-mackinnon
+  start: null
+  end: null
+  basis: tx/localities/harris-county-esd-9/offices/commissioners#S-01
+sources:
+- id: tx/localities/harris-county-esd-9/offices/commissioners#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Harris County ESD 9 (Cy-Fair Fire Department): Commissioners), checked on September 30, 2026,
+    shows Cameron Dickey and Naressa MacKinnon holding seats on this board (recorded for the November 3, 2026 election: Harris
+    County ESD No. 9, Board of Emergency Services Commissioners).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://cyfairfd.org/182/Commissioners
+  source_title: 'Harris County ESD 9 (Cy-Fair Fire Department): Commissioners'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001023206/https://cyfairfd.org/182/Commissioners
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/harris-county-esd-9/elections/2026-11-03/commissioners/race#S-HOLDER.
+    Lists only the members whose seats were on that ballot.

@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice of the Peace, Precinct 2
+office_type: justice-of-the-peace
+area: smith-county/jp-2
+holders:
+- person: andy-dunklin
+  start: null
+  end: null
+  basis: tx/localities/smith-county/offices/jp-precinct-2#S-01
+sources:
+- id: tx/localities/smith-county/offices/jp-precinct-2#S-01
+  headline: Who holds this office now
+  statement: 'The official page (JP Precinct 2 | Smith County, TX), checked on October 30, 2026, shows Andy Dunklin holding
+    this office (recorded for the November 3, 2026 election: Justice of the Peace, Precinct 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.smith-county.com/325/JP-Precinct-2
+  source_title: JP Precinct 2 | Smith County, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/smith-county/elections/2026-11-03/jp-precinct-2/race#S-HOLDER.

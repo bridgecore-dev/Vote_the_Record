@@ -1,0 +1,29 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 4
+office_type: county-commissioner
+area: brazos-county/commissioner-4
+holders:
+- person: wanda-j-watson
+  start: null
+  end: null
+  basis: tx/localities/brazos-county/offices/commissioner-precinct-4#S-01
+sources:
+- id: tx/localities/brazos-county/offices/commissioner-precinct-4#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Commissioner: Precinct 4 – Brazos County, TX – Official Website), checked on November 2,
+    2026, shows Wanda J. Watson holding this office (recorded for the November 3, 2026 election: County Commissioner, Precinct
+    4).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://brazoscountytx.gov/commissioners-court/commissioner-precinct-4/
+  source_title: 'Commissioner: Precinct 4 – Brazos County, TX – Official Website'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/brazos-county/elections/2026-11-03/commissioner-precinct-4/race#S-HOLDER.

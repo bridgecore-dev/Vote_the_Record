@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Austin Community College Trustee, Place 3
+office_type: community-college-trustee
+holders:
+- person: nan-mcraven
+  start: null
+  end: null
+  basis: tx/localities/austin-community-college/offices/trustee-place-3#S-01
+sources:
+- id: tx/localities/austin-community-college/offices/trustee-place-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Austin Community College: Board Members), checked on October 1, 2026, shows Nan McRaven holding
+    this office (recorded for the November 3, 2026 election: Austin Community College Trustee, Place 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://offices.austincc.edu/board-of-trustees/board-members/
+  source_title: 'Austin Community College: Board Members'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20260516103555/https://offices.austincc.edu/board-of-trustees/board-members/
+  event_date: '2026-10-01'
+  retrieved: '2026-10-01'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/austin-community-college/elections/2026-11-03/trustee-place-3/race#S-HOLDER.

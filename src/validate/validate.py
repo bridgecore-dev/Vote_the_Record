@@ -44,6 +44,8 @@ FILE_KINDS = [
     (re.compile(r"^data/states/[a-z]{2}/(statewide|districts/[^/]+|localities/[^/]+)/elections/\d{4}-\d{2}-\d{2}/[^/]+/measure\.yaml$"), "measure"),
     (re.compile(r"^data/states/[a-z]{2}/(statewide|districts/[^/]+|localities/[^/]+)/elections/\d{4}-\d{2}-\d{2}/[^/]+/result\.yaml$"), "result"),
     (re.compile(r"^data/states/[a-z]{2}/(statewide|districts/[^/]+|localities/[^/]+)/elections/\d{4}-\d{2}-\d{2}/[^/]+/candidates/[^/]+\.yaml$"), "candidate"),
+    (re.compile(r"^data/states/[a-z]{2}/(statewide|districts/[^/]+|localities/[^/]+)/offices/[^/]+\.yaml$"), "office"),
+    (re.compile(r"^data/states/[a-z]{2}/people/[^/]+\.yaml$"), "person"),
     (re.compile(r"^data/states/[a-z]{2}/decisions/[^/]+\.yaml$"), "decisions"),
     (re.compile(r"^data/states/[a-z]{2}/who-decides\.yaml$"), "who_decides"),
     (re.compile(r"^corrections/log\.yaml$"), "corrections"),
@@ -82,11 +84,12 @@ def load_validators(schemas_dir: Path) -> dict[str, Draft202012Validator]:
 
     return {
         "candidate": for_ref("urn:vtr:schema:candidate"),
+        "person": for_ref("urn:vtr:schema:person"),
         **{
             kind: for_ref(f"urn:vtr:schema:other#/$defs/{kind}")
             for kind in ("race", "actions", "powers", "office_override", "survey",
                          "state", "locality", "corrections", "voter_essentials", "ballot", "zips", "precincts", "measure",
-                         "result", "decisions", "who_decides")
+                         "result", "decisions", "who_decides", "office")
         },
     }
 
@@ -131,7 +134,7 @@ def measure_level(rel: str, doc: dict) -> str:
 
 def iter_facts(kind: str, doc: dict):
     """Yield (section, fact) for every fact-like item that carries a path-based ID."""
-    if kind in ("race", "ballot", "zips", "precincts", "measure", "result"):
+    if kind in ("race", "ballot", "zips", "precincts", "measure", "result", "office"):
         for fact in doc.get("sources") or []:
             yield "sources", fact
         for fact in doc.get("explained") or []:
@@ -151,6 +154,10 @@ def iter_facts(kind: str, doc: dict):
         for section, facts in (doc.get("running_on") or {}).items():
             for fact in facts or []:
                 yield f"running_on.{section}", fact
+    elif kind == "person":
+        for section in ("summary", "records", "statements", "funding"):
+            for fact in doc.get(section) or []:
+                yield section, fact
 
 
 def find_party_keys(node, path: str = ""):
@@ -451,7 +458,46 @@ def validate(root: Path, schemas_dir: Path | None = None) -> Report:
 
     check_decisions_and_issues(root, docs, powers, all_ids, report)
     check_results(docs, report)
+    check_officials(root, docs, powers, all_ids, report)
     return report
+
+
+def check_officials(root: Path, docs: dict, powers: dict, all_ids: dict, report: Report) -> None:
+    """Seats and people (docs/OFFICIALS.md): every link between them, and to candidacies, exists."""
+    for rel, (kind, doc) in docs.items():
+        if not isinstance(doc, dict):
+            continue
+        state = rel.split("/")[2]
+        if kind == "person":
+            if doc.get("id") != Path(rel).stem:
+                report.error(rel, f"id must be '{Path(rel).stem}' to match the file name")
+            for cand in doc.get("candidacies") or []:
+                if docs.get(f"data/states/{cand}.yaml", (None,))[0] != "candidate":
+                    report.error(rel, f"candidacy '{cand}' is not a candidate file")
+                elif not cand.startswith(f"{state}/"):
+                    report.error(rel, f"candidacy '{cand}' is in another state")
+            photo = doc.get("photo")
+            if isinstance(photo, dict) and photo.get("file") and not (root / rel).parent.joinpath(photo["file"]).is_file():
+                report.error(rel, f"photo: file '{photo['file']}' not found next to the person file")
+            for i, entry in enumerate(doc.get("promise_tracker") or []):
+                if isinstance(entry, dict):
+                    for ref in [entry.get("promise"), *(entry.get("evidence") or [])]:
+                        if ref not in all_ids:
+                            report.error(rel, f"promise_tracker[{i}]: '{ref}' does not exist")
+        elif kind == "office":
+            if doc.get("office_type") not in powers:
+                report.error(rel, f"office_type '{doc.get('office_type')}' has no offices/<type>/powers.yaml")
+            own = {s.get("id") for s in doc.get("sources") or [] if isinstance(s, dict)}
+            holders = [h for h in doc.get("holders") or [] if isinstance(h, dict)]
+            if doc.get("vacant") and any(h.get("end") is None for h in holders):
+                report.error(rel, "vacant: a seat marked vacant can't have a holder with no end date")
+            for i, h in enumerate(holders):
+                if docs.get(f"data/states/{state}/people/{h.get('person')}.yaml", (None,))[0] != "person":
+                    report.error(rel, f"holders[{i}]: no person file data/states/{state}/people/{h.get('person')}.yaml")
+                if h.get("basis") not in own:
+                    report.error(rel, f"holders[{i}]: basis '{h.get('basis')}' is not one of this file's sources")
+                if h.get("start") and h.get("end") and h["end"] < h["start"]:
+                    report.error(rel, f"holders[{i}]: end {h['end']} is before start {h['start']}")
 
 
 def check_results(docs: dict, report: Report) -> None:

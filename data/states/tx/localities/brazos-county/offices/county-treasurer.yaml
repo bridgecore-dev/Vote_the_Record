@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Brazos County Treasurer
+office_type: county-treasurer
+holders:
+- person: cristian-villarreal
+  start: null
+  end: null
+  basis: tx/localities/brazos-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/brazos-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official page (County Treasurer – Brazos County, TX – Official Website), checked on November 2, 2026, shows
+    Cristian Villarreal holding this office (recorded for the November 3, 2026 election: Brazos County Treasurer).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://brazoscountytx.gov/treasurer/
+  source_title: County Treasurer – Brazos County, TX – Official Website
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/brazos-county/elections/2026-11-03/county-treasurer/race#S-HOLDER.

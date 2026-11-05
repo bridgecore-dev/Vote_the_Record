@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Hidalgo ISD Trustee, Place 4
+office_type: school-trustee
+holders:
+- person: yesenia-ayala
+  start: null
+  end: null
+  basis: tx/localities/hidalgo-isd/offices/trustee-place-4#S-01
+sources:
+- id: tx/localities/hidalgo-isd/offices/trustee-place-4#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Board of Trustees – Board of Trustees – Hidalgo Independent School District), checked on
+    November 2, 2026, shows Yesenia Ayala holding this office (recorded for the November 3, 2026 election: Hidalgo ISD Trustee,
+    Place 4).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hidalgo-isd.org/apps/pages/index.jsp?uREC_ID=2626675&type=d&pREC_ID=2269157
+  source_title: Board of Trustees – Board of Trustees – Hidalgo Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/hidalgo-isd/elections/2026-11-03/trustee-place-4/race#S-HOLDER.

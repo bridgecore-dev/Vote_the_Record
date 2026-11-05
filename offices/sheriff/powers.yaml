@@ -1,0 +1,3 @@
+office_type: sheriff
+level: county
+powers: []   # Texas powers: data/states/tx/office-overrides/sheriff.yaml

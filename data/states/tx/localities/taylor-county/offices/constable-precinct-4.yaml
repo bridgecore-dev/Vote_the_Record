@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 4
+office_type: constable
+holders:
+- person: mark-moore
+  start: null
+  end: null
+  basis: tx/localities/taylor-county/offices/constable-precinct-4#S-01
+sources:
+- id: tx/localities/taylor-county/offices/constable-precinct-4#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Taylor County, TX: Elected Officials), checked on November 4, 2026, shows Mark Moore as Constable,
+    Precinct 4. It reads: "Constable, Precinct No. 4 Mark Moore"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.taylorcounty.texas.gov/612/Elected-Officials
+  source_title: 'Taylor County, TX: Elected Officials'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

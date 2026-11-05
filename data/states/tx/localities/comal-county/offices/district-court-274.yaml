@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Judge, 274th Judicial District
+office_type: district-judge
+holders:
+- person: gary-l-steel
+  start: null
+  end: null
+  basis: tx/localities/comal-county/offices/district-court-274#S-01
+sources:
+- id: tx/localities/comal-county/offices/district-court-274#S-01
+  headline: Who holds this office now
+  statement: 'The official page (District Clerk | Comal County, TX), checked on November 2, 2026, shows Gary L Steel holding
+    this office (recorded for the November 3, 2026 election: District Judge, 274th Judicial District).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.comalcounty.gov/195/District-Clerk
+  source_title: District Clerk | Comal County, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/comal-county/elections/2026-11-03/district-court-274/race#S-HOLDER.

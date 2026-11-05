@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Criminal District Judge, Court No. 3
+office_type: district-judge
+holders:
+- person: douglas-allen
+  start: null
+  end: null
+  basis: tx/localities/tarrant-county/offices/criminal-district-court-3#S-01
+sources:
+- id: tx/localities/tarrant-county/offices/criminal-district-court-3#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Tarrant County: Criminal District Court No. 3), checked on October 17, 2026, shows Douglas
+    Allen holding this office (recorded for the November 3, 2026 election: Criminal District Judge, Court No. 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.tarrantcountytx.gov/en/criminal-courts/felony-courts/criminal-district-court-3.html
+  source_title: 'Tarrant County: Criminal District Court No. 3'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-17'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/tarrant-county/elections/2026-11-03/criminal-district-court-3/race#S-HOLDER.

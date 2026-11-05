@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Court of Appeals, Division 1, District 1, Judge Position 6
+office_type: court-of-appeals-justice
+holders:
+- person: bill-a-bowman
+  start: null
+  end: null
+  basis: wa/districts/court-of-appeals-1-1/offices/judge-position-6#S-01
+sources:
+- id: wa/districts/court-of-appeals-1-1/offices/judge-position-6#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Washington Secretary of State: November 3, 2020 General Election results, Judicial), checked
+    on October 18, 2026, shows Bill A. Bowman holding this office (recorded for the November 3, 2026 election: Court of Appeals,
+    Division 1, District 1, Judge Position 6).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://results.vote.wa.gov/results/20201103/Judicial-All.html
+  source_title: 'Washington Secretary of State: November 3, 2020 General Election results, Judicial'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-18'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in wa/districts/court-of-appeals-1-1/elections/2026-11-03/judge-position-6/race#S-HOLDER.

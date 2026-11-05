@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Treasurer
+office_type: county-treasurer
+holders:
+- person: michelle-clark
+  start: null
+  end: null
+  basis: tx/localities/throckmorton-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/throckmorton-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Throckmorton County: Throckmorton County Treasurer), checked on November 4, 2026, shows Michelle
+    Clark as County Treasurer. It reads: "Michelle Clark"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/page/throckmorton.treasurer
+  source_title: 'Throckmorton County: Throckmorton County Treasurer'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

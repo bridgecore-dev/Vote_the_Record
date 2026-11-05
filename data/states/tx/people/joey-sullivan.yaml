@@ -1,0 +1,31 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: joey-sullivan
+name: Joey Sullivan
+candidacies: []
+records:
+- id: tx/people/joey-sullivan#R-01
+  record_type: vote
+  headline: Voted for proposing a 2024 county tax rate of $0.422888 per $100 (Sept. 2024)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2024 Leon County tax rate of $0.422888 per $100,
+    which the notice lists as above the no-new-revenue rate ($0.389591) and not above the voter-approval rate ($0.422888).
+    The notice lists Judge Ryder and Commissioners Sullivan, Bing, Foley and Workman voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/4995/2025%20Notice%20of%20Public%20Tax%20Hearing.pdf
+  source_title: 'Leon County: 2024 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 111ef236ae5957f45a66e1caa2f7d544db9d02683d91a493dcf5a0396a19ee45
+  archive_url: null
+  event_date: '2024-09-09'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date it lists (September
+    9, 2024). The county's file name says 2025, but the notice is for the 2024 tax year.
+statements: []
+funding: []
+promise_tracker: []

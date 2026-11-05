@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 2
+office_type: constable
+holders:
+- person: chris-bazar
+  start: null
+  end: null
+  basis: tx/localities/bell-county/offices/constable-precinct-2#S-01
+sources:
+- id: tx/localities/bell-county/offices/constable-precinct-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Bell County: Elected Officials), checked on November 4, 2026, shows Chris Bazar as Constable,
+    Precinct 2. It reads: "Constable Pct. 2 Chris Bazar"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/about_us/elected_officials/index.php
+  source_title: 'Bell County: Elected Officials'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

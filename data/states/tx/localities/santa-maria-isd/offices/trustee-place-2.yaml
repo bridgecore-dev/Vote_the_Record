@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Santa Maria ISD Trustee, Place 2
+office_type: school-trustee
+holders:
+- person: javier-jimenez-jr
+  start: null
+  end: null
+  basis: tx/localities/santa-maria-isd/offices/trustee-place-2#S-01
+sources:
+- id: tx/localities/santa-maria-isd/offices/trustee-place-2#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Members - Santa Maria Independent School District), checked on October 20, 2026, shows Javier
+    Jimenez, Jr. holding this office (recorded for the November 3, 2026 election: Santa Maria ISD Trustee, Place 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.smisd.net/schoolboard/members
+  source_title: Members - Santa Maria Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/santa-maria-isd/elections/2026-11-03/trustee-place-2/race#S-HOLDER.

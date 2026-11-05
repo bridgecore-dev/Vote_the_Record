@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Clerk
+office_type: district-clerk
+holders:
+- person: robin-woods
+  start: null
+  end: null
+  basis: tx/localities/montague-county/offices/district-clerk#S-01
+sources:
+- id: tx/localities/montague-county/offices/district-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Montague County: District Clerk), checked on November 4, 2026, shows Robin Woods as District
+    Clerk. It reads: "District Clerk Robin Woods"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.montague.tx.us/page/montague.District.Clerk
+  source_title: 'Montague County: District Clerk'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

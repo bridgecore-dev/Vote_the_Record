@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Judge, Court of Criminal Appeals, Place 6
+office_type: cca-judge
+holders:
+- person: jesse-f-mcclure-iii
+  start: null
+  end: null
+  basis: tx/statewide/offices/cca-place-6#S-01
+sources:
+- id: tx/statewide/offices/cca-place-6#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Texas Judicial Branch: CCA | About the Court | Judges), checked on November 4, 2026, shows
+    Jesse F. McClure, III as Judge, Court of Criminal Appeals, Place 6. It reads: "Judge Jesse F. McClure, III"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/cca/about-the-court/judges/
+  source_title: 'Texas Judicial Branch: CCA | About the Court | Judges'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

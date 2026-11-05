@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: State Representative, District 104
+office_type: state-representative
+holders:
+- person: jessica-gonzalez
+  start: null
+  end: null
+  basis: tx/districts/state-house-104/offices/state-representative#S-01
+sources:
+- id: tx/districts/state-house-104/offices/state-representative#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Texas House of Representatives: member page, District 104), checked on October 4, 2026, shows
+    Jessica Gonzalez holding this office (recorded for the November 3, 2026 election: State Representative, District 104).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://house.texas.gov/members/3335
+  source_title: 'Texas House of Representatives: member page, District 104'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261005154511/https://house.texas.gov/members/3335
+  event_date: '2026-10-04'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/state-house-104/elections/2026-11-03/state-representative/race#S-HOLDER.

@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Block House MUD Directors (3 seats)
+office_type: water-district-director
+holders:
+- person: sandra-martin
+  start: null
+  end: null
+  basis: tx/localities/block-house-mud/offices/directors#S-01
+sources:
+- id: tx/localities/block-house-mud/offices/directors#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Block House MUD Board of Directors - Block House Municipal Utility District), checked on
+    October 30, 2026, shows Sandra Martin holding this office (recorded for the November 3, 2026 election: Block House MUD
+    Directors (3 seats)).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.blockhousemudtx.gov/about-us/block-house-mud-board-of-directors/
+  source_title: Block House MUD Board of Directors - Block House Municipal Utility District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/block-house-mud/elections/2026-11-03/directors/race#S-HOLDER.

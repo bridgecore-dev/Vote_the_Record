@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Attorney
+office_type: county-attorney
+holders:
+- person: chris-baran
+  start: null
+  end: null
+  basis: tx/localities/young-county/offices/county-attorney#S-01
+sources:
+- id: tx/localities/young-county/offices/county-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Young County: Young County Attorney), checked on November 4, 2026, shows Chris Baran as County
+    Attorney. It reads: "Chris Baran"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.young.tx.us/page/young.County.Attorney
+  source_title: 'Young County: Young County Attorney'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

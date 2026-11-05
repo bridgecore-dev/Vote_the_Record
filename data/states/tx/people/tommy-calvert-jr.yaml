@@ -1,0 +1,35 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: tommy-calvert-jr
+name: Tommy Calvert Jr.
+candidacies:
+- tx/localities/bexar-county/elections/2026-11-03/commissioner-precinct-4/candidates/tommy-calvert-jr
+records:
+- id: tx/people/tommy-calvert-jr#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 county tax rate of $0.299999 per $100 (Sept. 2026)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2026 Bexar County tax rate of $0.299999 per $100,
+    which the notice lists as not above the no-new-revenue rate ($0.309043) and not above the voter-approval rate ($0.386728).
+    The notice lists Judge Sakai and Commissioners Rodriguez, Calvert, Clay-Flores and Moody voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bexar.org/DocumentCenter/View/57010/2026-Notice-of-Public-Hearing-Bexar-County-Tax-Rate-PDF
+  source_title: 'Bexar County: 2026 Notice of Meeting to Vote on Tax Rate'
+  source_kind: document
+  sha256: 5abd7b3ac1e65d75e9c328ea4e2b67a095e9a57e8bdb1a366227a1ebf615df8e
+  archive_url: null
+  event_date: '2026-09-15'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    This is the Tax Code § 26.061 notice (Notice of Meeting to Vote on Tax Rate), used when the proposed rate does not exceed
+    the no-new-revenue rate; it lists how each member voted on the proposal. No 2025 tax-increase notice was found: the county
+    kept its $0.299999 rate for 2025, below that year''s no-new-revenue rate. The notice does not give the date of the vote
+    or its own date; event_date is the meeting date printed in the notice (September 15, 2026). Commissioners Clay-Flores
+    (Precinct 1) and Moody (Precinct 3) are listed too but have no seat file in the data yet.'
+statements: []
+funding: []
+promise_tracker: []

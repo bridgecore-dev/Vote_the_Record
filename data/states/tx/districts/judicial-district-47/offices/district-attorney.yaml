@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Attorney, 47th Judicial District
+office_type: district-attorney
+holders:
+- person: jason-herring
+  start: null
+  end: null
+  basis: tx/districts/judicial-district-47/offices/district-attorney#S-01
+sources:
+- id: tx/districts/judicial-district-47/offices/district-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Armstrong County: 47th District Attorney), checked on November 4, 2026, shows Jason Herring
+    as District Attorney, 47th Judicial District. It reads: "47th District Attorney Jason Herring"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.armstrong.tx.us/page/armstrong.District.Attorney
+  source_title: 'Armstrong County: 47th District Attorney'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

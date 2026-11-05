@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Travis County Treasurer
+office_type: county-treasurer
+holders:
+- person: dolores-ortega-carter
+  start: null
+  end: null
+  basis: tx/localities/travis-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/travis-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Travis County: Treasurer), checked on October 1, 2026, shows Dolores Ortega Carter holding
+    this office (recorded for the November 3, 2026 election: Travis County Treasurer).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.traviscountytx.gov/treasurer
+  source_title: 'Travis County: Treasurer'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-01'
+  retrieved: '2026-10-01'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/travis-county/elections/2026-11-03/county-treasurer/race#S-HOLDER.

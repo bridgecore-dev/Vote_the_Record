@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Attorney, 34th Judicial District
+office_type: district-attorney
+holders:
+- person: james-montoya
+  start: null
+  end: null
+  basis: tx/districts/judicial-district-34/offices/district-attorney#S-01
+sources:
+- id: tx/districts/judicial-district-34/offices/district-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (El Paso County: Staff Directory), checked on November 4, 2026, shows James Montoya as District
+    Attorney, 34th Judicial District. It reads: "James Montoya"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.epcounty.com/m/directory
+  source_title: 'El Paso County: Staff Directory'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice, 13th Court of Appeals District, Place 6
+office_type: court-of-appeals-justice
+holders:
+- person: clarissa-silva
+  start: null
+  end: null
+  basis: tx/districts/court-of-appeals-13/offices/place-6#S-01
+sources:
+- id: tx/districts/court-of-appeals-13/offices/place-6#S-01
+  headline: Who holds this office now
+  statement: 'The official page (TJB | 13th COA | About the Court | Justices), checked on October 20, 2026, shows Clarissa
+    Silva holding this office (recorded for the November 3, 2026 election: Justice, 13th Court of Appeals District, Place
+    6).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/13thcoa/about-the-court/justices/
+  source_title: TJB | 13th COA | About the Court | Justices
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/court-of-appeals-13/elections/2026-11-03/place-6/race#S-HOLDER.

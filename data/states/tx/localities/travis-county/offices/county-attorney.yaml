@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Attorney
+office_type: county-attorney
+holders:
+- person: delia-garza
+  start: null
+  end: null
+  basis: tx/localities/travis-county/offices/county-attorney#S-01
+sources:
+- id: tx/localities/travis-county/offices/county-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Travis County, Texas: County Attorney), checked on November 4, 2026, shows Delia Garza as
+    County Attorney. It reads: "Delia Garza, County Attorney"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.traviscountytx.gov/county-attorney
+  source_title: 'Travis County, Texas: County Attorney'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: State Senator, Legislative District 32
+office_type: state-senator
+holders:
+- person: jesse-salomon
+  start: null
+  end: null
+  basis: wa/districts/legislative-district-32/offices/state-senator#S-01
+sources:
+- id: wa/districts/legislative-district-32/offices/state-senator#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Washington State Legislature: Senator Jesse Salomon), checked on October 18, 2026, shows
+    Jesse Salomon holding this office (recorded for the November 3, 2026 election: State Senator, Legislative District 32).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://leg.wa.gov/legislators/member/jesse-salomon
+  source_title: 'Washington State Legislature: Senator Jesse Salomon'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-18'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in wa/districts/legislative-district-32/elections/2026-11-03/state-senator/race#S-HOLDER.

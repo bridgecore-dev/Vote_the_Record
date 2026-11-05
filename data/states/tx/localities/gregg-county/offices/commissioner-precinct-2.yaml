@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 2
+office_type: county-commissioner
+holders:
+- person: ray-bostick-jr
+  start: null
+  end: null
+  basis: tx/localities/gregg-county/offices/commissioner-precinct-2#S-01
+sources:
+- id: tx/localities/gregg-county/offices/commissioner-precinct-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Gregg County, Texas: Commissioner - Precinct 2), checked on November 4, 2026, shows Ray Bostick,
+    Jr. as County Commissioner, Precinct 2. It reads: "Ray Bostick, Jr., Commissioner"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://greggcounty.texas.gov/government/precinct-2/commissioner-precinct-2
+  source_title: 'Gregg County, Texas: Commissioner - Precinct 2'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

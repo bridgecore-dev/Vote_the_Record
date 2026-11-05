@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 1
+office_type: constable
+holders:
+- person: kyle-nevil
+  start: null
+  end: null
+  basis: tx/localities/hill-county/offices/constable-precinct-1#S-01
+sources:
+- id: tx/localities/hill-county/offices/constable-precinct-1#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Hill County, Texas: Constable), checked on November 4, 2026, shows Kyle Nevil as Constable,
+    Precinct 1. It reads: "Precinct 1 Constable Kyle Nevil"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.hill.tx.us/page/hill.Constable
+  source_title: 'Hill County, Texas: Constable'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

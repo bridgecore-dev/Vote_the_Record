@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice of the Peace, Precinct 2
+office_type: justice-of-the-peace
+holders:
+- person: frank-bill-w-price
+  start: null
+  end: null
+  basis: tx/localities/coryell-county/offices/jp-precinct-2#S-01
+sources:
+- id: tx/localities/coryell-county/offices/jp-precinct-2#S-01
+  headline: Who holds this office now
+  statement: 'The official document (Texas Office of Court Administration: Court Activity Reporting and Directory System,
+    Directory Search Results (personnel export, justice of the peace courts, all counties)), checked on November 4, 2026,
+    shows Frank (Bill) W. Price as Justice of the Peace, Precinct 2. It reads: "Precinct 2 Coryell Frank (Bill) W. Price Judge"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://card.txcourts.gov/ExcelExportPublic.aspx?type=P&export=E&CommitteeID=0&Court=&SortBy=tblCounty.Sort_ID,%20Last_Name&Active_Flg=true&Last_Name=&First_Name=&Court_Type_CD=56&Court_Sub_Type_CD=0&County_ID=0&City_CD=0&Address_Type_CD=0&Annual_Report_CD=0&PersonnelType1=&PersonnelType2=&DistrictPrimaryLocOnly=0&AdminJudicialRegion=0&COADistrictId=0
+  source_title: 'Texas Office of Court Administration: Court Activity Reporting and Directory System, Directory Search Results
+    (personnel export, justice of the peace courts, all counties)'
+  source_kind: document
+  sha256: 8090e6d6fb5ce9d1509b1357ba6479b6413d26d6090ce61eeab976728c544013
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

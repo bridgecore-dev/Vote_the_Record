@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice, Place 2, 1st Court of Appeals
+office_type: court-of-appeals-justice
+holders:
+- person: jennifer-caughey
+  start: null
+  end: null
+  basis: tx/districts/court-of-appeals-1/offices/place-2#S-01
+sources:
+- id: tx/districts/court-of-appeals-1/offices/place-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Texas Judicial Branch: 1st COA | About The Court | Justices), checked on November 4, 2026,
+    shows Jennifer Caughey as Justice, Place 2, 1st Court of Appeals. It reads: "Justice Jennifer Caughey"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/1stcoa/about-the-court/justices/
+  source_title: 'Texas Judicial Branch: 1st COA | About The Court | Justices'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

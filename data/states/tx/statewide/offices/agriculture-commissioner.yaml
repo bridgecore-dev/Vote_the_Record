@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Commissioner of Agriculture
+office_type: agriculture-commissioner
+holders:
+- person: sid-miller
+  start: null
+  end: null
+  basis: tx/statewide/offices/agriculture-commissioner#S-01
+sources:
+- id: tx/statewide/offices/agriculture-commissioner#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Texas Department of Agriculture: Commissioner Miller), checked on November 4, 2026, shows
+    Sid Miller as Commissioner of Agriculture. It reads: "Texas Agriculture Commissioner Sid Miller"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://texasagriculture.gov/About/Commissioner-Miller
+  source_title: 'Texas Department of Agriculture: Commissioner Miller'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,32 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: gustavo-flores
+name: Gustavo "Gus" Flores
+candidacies: []
+records:
+- id: tx/people/gustavo-flores#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.4977 per $100 (Aug. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Val Verde County tax rate of $0.4977 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.4711) and not above the voter-approval rate ($0.5146).
+    The notice lists Judge Owens and Commissioners Wardlaw, Vazquez, Garcia and Flores voting for, and no members against,
+    present and not voting, or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.valverdecounty.texas.gov/DocumentCenter/View/9434/2025-proposed-rate-PDF
+  source_title: 'Val Verde County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 38cfc0a16cc6d1a2d460fb589c8945c8c04f55db175e1eaa312ca4f45ff27a1b
+  archive_url: null
+  event_date: '2025-08-25'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice
+    (Aug. 25, 2025).
+statements: []
+funding: []
+promise_tracker: []

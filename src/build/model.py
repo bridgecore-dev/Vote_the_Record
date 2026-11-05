@@ -230,7 +230,15 @@ def load_site(root: Path, today: str) -> dict:
         for zip_code in b["payload"]["zips"]:
             zip_index.setdefault(zip_code, []).append({"name": b["name"], "url": b["url"]})
 
-    return {"races": races, "measures": measures, "essentials": essentials, "corrections": corrections,
+    from officials import assemble_officials  # noqa: E402 (imports this module)
+    officials = assemble_officials(docs, races, facts, today)
+    profiles = {path: p["url"] for p in officials["people"] for path in p["candidacies"]}
+    for race in races:
+        for cand in race["candidates"]:
+            cand["profile_url"] = profiles.get(cand["file_path"])
+
+    return {"officials": officials, "facts": facts,
+            "races": races, "measures": measures, "essentials": essentials, "corrections": corrections,
             "ballots": ballots, "results": results, "other_races": [r for r in races if r["path"] not in on_ballot],
             "zip_index": zip_index, "county_index": county_index, "who_decides": load_who_decides(docs)}
 
@@ -290,6 +298,11 @@ def fact_index(docs: dict) -> dict[str, dict]:
     for kind, doc in docs.values():
         if kind == "actions":
             index.update((f["id"], f) for f in doc.get("facts") or [])
+        elif kind == "person":
+            for section in ("summary", "records", "statements", "funding"):
+                index.update((f["id"], f) for f in doc.get(section) or [])
+        elif kind == "office":
+            index.update((f["id"], f) for f in doc.get("sources") or [])
         elif kind == "candidate":
             for section in FACT_SECTIONS:
                 index.update((f["id"], f) for f in doc.get(section) or [])
@@ -490,7 +503,8 @@ def assemble_race(docs: dict, race: dict, facts: dict) -> dict:
             f"data/states/{race['state']}/localities/{race['locality']}/locality.yaml", (None, None))[1]
 
     race_dir = race["rel"].rsplit("/", 1)[0]
-    candidates = [doc for rel, (kind, doc) in docs.items()
+    candidates = [dict(doc, file_path=rel.removeprefix("data/states/").removesuffix(".yaml"))
+                  for rel, (kind, doc) in docs.items()
                   if kind == "candidate" and rel.startswith(race_dir + "/candidates/")]
     candidates.sort(key=lambda c: (c["name"].casefold(), c["name"]))
     cand_dir = race_dir + "/candidates"

@@ -1,0 +1,32 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: shane-stolarczyk
+name: Shane Stolarczyk
+candidacies: []
+records:
+- id: tx/people/shane-stolarczyk#R-01
+  record_type: vote
+  headline: Voted against adopting the Fiscal Year 2026 county budget (Aug. 2025)
+  result: Adopted 4-1.
+  statement: As a member of Commissioners Court, voted AGAINST the Fiscal Year 2026 Kendall County budget. The adopted budget's
+    cover page states that the budget will raise more revenue from property taxes than last year's budget by $1,875,858, a
+    5.74 percent increase, and lists Commissioners McCall, Wisian, Chapman and Carpenter voting for and Judge Stolarczyk voting
+    against. It states the budget was adopted on August 26, 2025, with a 2025 property tax rate of $.377000 per $100.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.kendallcountytx.gov/Archive.aspx?ADID=1100
+  source_title: 'Kendall County: Adopted Budget, Fiscal Year 2026'
+  source_kind: document
+  sha256: 13a6bf33e34a034caff4d5613d2036357958f0b6f623e3f04fafb0f534eaee37
+  archive_url: null
+  event_date: '2025-08-26'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Source is the cover statement of the adopted Fiscal Year 2026 budget, which lists how each member voted on the budget
+    (Local Government Code § 111.068 cover-page statement). This is a vote on the budget, not the Tax Code § 26.06 tax-rate
+    notice, which was not found on the county site. The budget's cover page lists the members' votes as Yes/No.
+statements: []
+funding: []
+promise_tracker: []

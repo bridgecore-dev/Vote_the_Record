@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Tax Assessor-Collector
+office_type: tax-assessor-collector
+holders:
+- person: rosario-benavidez
+  start: null
+  end: null
+  basis: tx/localities/zavala-county/offices/tax-assessor-collector#S-01
+sources:
+- id: tx/localities/zavala-county/offices/tax-assessor-collector#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Zavala County: County Tax Assessor/Collector), checked on November 4, 2026, shows Rosario
+    “Chari” Benavidez as Tax Assessor-Collector. It reads: "Rosario “Chari” Benavidez"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.zavala.tx.us/page/County%20Tax%20AssessorCollector
+  source_title: 'Zavala County: County Tax Assessor/Collector'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Commissioner of the General Land Office
+office_type: land-commissioner
+holders:
+- person: dawn-buckingham
+  start: null
+  end: null
+  basis: tx/statewide/offices/land-commissioner#S-01
+sources:
+- id: tx/statewide/offices/land-commissioner#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Texas General Land Office: home page), checked on September 30, 2026, shows Dawn Buckingham
+    holding this office (recorded for the November 3, 2026 election: Commissioner of the General Land Office).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.glo.texas.gov/
+  source_title: 'Texas General Land Office: home page'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001021844/https://www.glo.texas.gov/
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/statewide/elections/2026-11-03/land-commissioner/race#S-HOLDER.

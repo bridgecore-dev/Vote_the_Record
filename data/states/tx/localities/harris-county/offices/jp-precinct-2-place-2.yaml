@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice of the Peace, Precinct 2, Place 2
+office_type: justice-of-the-peace
+area: harris-county/jp-2
+holders:
+- person: dolores-lozano
+  start: null
+  end: null
+  basis: tx/localities/harris-county/offices/jp-precinct-2-place-2#S-01
+sources:
+- id: tx/localities/harris-county/offices/jp-precinct-2-place-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Harris County Justice Courts: home page), checked on September 30, 2026, shows Dolores Lozano
+    holding this office (recorded for the November 3, 2026 election: Justice of the Peace, Precinct 2, Place 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.jp.hctx.net/
+  source_title: 'Harris County Justice Courts: home page'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001022602/https://www.jp.hctx.net/
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/harris-county/elections/2026-11-03/jp-precinct-2-place-2/race#S-HOLDER.

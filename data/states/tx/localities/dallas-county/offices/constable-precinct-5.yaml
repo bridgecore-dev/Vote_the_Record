@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct No. 5
+office_type: constable
+area: dallas-county/jp-5
+holders:
+- person: michael-orozco
+  start: null
+  end: null
+  basis: tx/localities/dallas-county/offices/constable-precinct-5#S-01
+sources:
+- id: tx/localities/dallas-county/offices/constable-precinct-5#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Dallas County: Elected Officials), checked on October 4, 2026, shows Michael Orozco holding
+    this office (recorded for the November 3, 2026 election: Constable, Precinct No. 5).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dallascounty.org/government/elected-officials/
+  source_title: 'Dallas County: Elected Officials'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-04'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/dallas-county/elections/2026-11-03/constable-precinct-5/race#S-HOLDER.

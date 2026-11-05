@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice of the Peace, Precinct 2
+office_type: justice-of-the-peace
+area: lubbock-county/jp-2
+holders:
+- person: susan-rowley
+  start: null
+  end: null
+  basis: tx/localities/lubbock-county/offices/jp-precinct-2#S-01
+sources:
+- id: tx/localities/lubbock-county/offices/jp-precinct-2#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Wedding Information / Lubbock County, Texas), checked on November 2, 2026, shows Susan Rowley
+    holding this office (recorded for the November 3, 2026 election: Justice of the Peace, Precinct 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.lubbockcounty.gov/department/division.php?structureid=25
+  source_title: Wedding Information / Lubbock County, Texas
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/lubbock-county/elections/2026-11-03/jp-precinct-2/race#S-HOLDER.

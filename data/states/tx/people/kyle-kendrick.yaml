@@ -1,0 +1,31 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: kyle-kendrick
+name: Kyle Kendrick
+candidacies: []
+records:
+- id: tx/people/kyle-kendrick#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.5578 per $100 (Aug. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Taylor County tax rate of $0.5578 per $100,
+    which the notice lists as greater than the no-new-revenue rate ($0.5278) and not greater than the voter-approval rate
+    ($0.5591). The notice lists Judge Crowley and Commissioners Williams, Kendrick, Birchum and Statler voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.taylorcounty.texas.gov/DocumentCenter/View/4805/FY26-Notice-of-Public-Hearing-on-Tax-Rate-50-876
+  source_title: 'Taylor County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 372772dbaa13406e11fbedf6863f9299e839c5969831571e13866f96367cfa72
+  archive_url: null
+  event_date: '2025-08-26'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice (Comptroller Form 50-876) is required by Tax Code § 26.06 and lists how each member of the governing body
+    voted on the proposal. It prints no date of its own or of the vote; event_date is the hearing date (08/26/2025). The AGAINST,
+    PRESENT and not voting, and ABSENT lines are blank in the notice.
+statements: []
+funding: []
+promise_tracker: []

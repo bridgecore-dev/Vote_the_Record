@@ -1,0 +1,33 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: mariano-pargas-jr
+name: Mariano Pargas, Jr.
+candidacies: []
+records:
+- id: tx/people/mariano-pargas-jr#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.613900 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Uvalde County tax rate of $0.613900 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.544961) and not above the voter-approval rate ($0.613989).
+    The notice lists Judge Mitchell and Commissioners Pargas, Garza, Yeackle and Kothmann voting for, and no members against,
+    present and not voting, or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.uvaldecounty.gov/_files/ugd/e2f0cf_1435815bc7534b43a834915701a39dec.pdf
+  source_title: 'Uvalde County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 13894ab9b091382b887a2cfab57c3dfb4686b362e96780906a6de32ceba4c06c
+  archive_url: null
+  event_date: '2025-09-22'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The saved .txt uses pypdf's layout mode so the names stay beside the FOR line, as printed. The county's page lists the
+    notice as posted Sept. 9, 2025; the notice does not give its own date or the date of the vote; event_date is the public
+    hearing date printed in the notice (Sept. 22, 2025).
+statements: []
+funding: []
+promise_tracker: []

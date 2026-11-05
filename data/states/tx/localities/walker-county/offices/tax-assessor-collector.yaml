@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Tax Assessor-Collector
+office_type: tax-assessor-collector
+holders:
+- person: diana-l-mcrae
+  start: null
+  end: null
+  basis: tx/localities/walker-county/offices/tax-assessor-collector#S-01
+sources:
+- id: tx/localities/walker-county/offices/tax-assessor-collector#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Walker County, TX: Tax Assessor-Collector), checked on November 4, 2026, shows Diana L. McRae
+    as Tax Assessor-Collector. It reads: "Diana L. McRae"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.walker.tx.us/department/index.php?structureid=35
+  source_title: 'Walker County, TX: Tax Assessor-Collector'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

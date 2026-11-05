@@ -1,0 +1,29 @@
+# Who holds this seat, from official rosters. Unverified.
+name: South Texas ISD Trustee, Hidalgo County Commissioners Precinct 2
+office_type: school-trustee
+area: hidalgo-county/commissioner-2
+holders:
+- person: margarita-garcia
+  start: null
+  end: null
+  basis: tx/localities/south-texas-isd/offices/trustee-hidalgo-commissioner-precinct-2#S-01
+sources:
+- id: tx/localities/south-texas-isd/offices/trustee-hidalgo-commissioner-precinct-2#S-01
+  headline: Who holds this office now
+  statement: 'The official page (South Texas Independent School District: Board of Directors), checked on November 3, 2026,
+    shows Margarita Garcia holding this office (recorded for the November 3, 2026 election: South Texas ISD Trustee, Hidalgo
+    County Commissioners Precinct 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.stisd.net/community/board-of-directors
+  source_title: 'South Texas Independent School District: Board of Directors'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-03'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/south-texas-isd/elections/2026-11-03/trustee-hidalgo-commissioner-precinct-2/race#S-HOLDER.

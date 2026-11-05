@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: City of Nolanville Mayor
+office_type: mayor
+holders:
+- person: andy-williams
+  start: null
+  end: null
+  basis: tx/localities/city-of-nolanville/offices/mayor#S-01
+sources:
+- id: tx/localities/city-of-nolanville/offices/mayor#S-01
+  headline: Who holds this office now
+  statement: 'The official page (City of Nolanville, Texas), checked on October 20, 2026, shows Andy Williams holding this
+    office (recorded for the November 3, 2026 election: City of Nolanville Mayor).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.nolanvilletx.gov/page/Council
+  source_title: City of Nolanville, Texas
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/city-of-nolanville/elections/2026-11-03/mayor/race#S-HOLDER.

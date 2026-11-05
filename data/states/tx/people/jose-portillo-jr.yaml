@@ -1,0 +1,32 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: jose-portillo-jr
+name: Jose Portillo Jr.
+candidacies: []
+records:
+- id: tx/people/jose-portillo-jr#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 county tax rate of $0.52670 per $100 (Aug. 2026)
+  result: Proposed 4-0, one member absent.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2026 Presidio County tax rate of $0.52670 per
+    $100, which the notice lists as greater than the no-new-revenue rate ($0.47041), greater than the voter-approval rate
+    ($0.49429), and not greater than the de minimis rate ($0.52670). The notice lists Judge Portillo and Commissioners Hisler,
+    Hernandez and Escontrias voting for, Commissioner Knight absent, and none against.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.presidio.tx.us/upload/page/4648/2026/NOTICE%20ON%20PUBLIC%20HEARING%20ON%20TAX%20INCREASE.pdf
+  source_title: 'Presidio County: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 4a32566dd2a860cdeffefe156601ca0a7f35ba2a796f99b14f31c34e806e67e5
+  archive_url: null
+  event_date: '2026-08-25'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    It prints no date of its own or of the vote; event_date and the month in the headline are the hearing date (8/25/26).
+    The brief asked for 2025, but the county's posted notice is for tax year 2026.
+statements: []
+funding: []
+promise_tracker: []

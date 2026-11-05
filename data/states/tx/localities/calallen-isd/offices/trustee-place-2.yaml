@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Calallen ISD Trustee, Place 2
+office_type: school-trustee
+holders:
+- person: lori-jo-walker
+  start: null
+  end: null
+  basis: tx/localities/calallen-isd/offices/trustee-place-2#S-01
+sources:
+- id: tx/localities/calallen-isd/offices/trustee-place-2#S-01
+  headline: Who holds this office now
+  statement: 'The official page (School Board - Calallen Independent School District), checked on November 2, 2026, shows
+    Lori Jo Walker holding this office (recorded for the November 3, 2026 election: Calallen ISD Trustee, Place 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.calallen.org/district-information-main/school-board
+  source_title: School Board - Calallen Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/calallen-isd/elections/2026-11-03/trustee-place-2/race#S-HOLDER.

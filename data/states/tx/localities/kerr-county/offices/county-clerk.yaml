@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Clerk
+office_type: county-clerk
+holders:
+- person: nadene-alford
+  start: null
+  end: null
+  basis: tx/localities/kerr-county/offices/county-clerk#S-01
+sources:
+- id: tx/localities/kerr-county/offices/county-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Kerr County: County Clerk''s Office), checked on November 4, 2026, shows Nadene Alford as
+    County Clerk. It reads: "Kerr County Clerk Nadene Alford"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.kerrcountytx.gov/kerr-county-all-departments/kerr-county-clerk
+  source_title: 'Kerr County: County Clerk''s Office'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

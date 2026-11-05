@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Tax Assessor-Collector
+office_type: tax-assessor-collector
+holders:
+- person: david-matthijetz
+  start: null
+  end: null
+  basis: tx/localities/lee-county/offices/tax-assessor-collector#S-01
+sources:
+- id: tx/localities/lee-county/offices/tax-assessor-collector#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Lee County: County Tax Assessor - Collector), checked on November 4, 2026, shows David Matthijetz
+    as Tax Assessor-Collector. It reads: "David Matthijetz"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.lee.tx.us/page/lee.County.Assessor.Collector
+  source_title: 'Lee County: County Tax Assessor - Collector'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Channelview ISD Trustee, Position 5
+office_type: school-trustee
+holders:
+- person: steve-dennis
+  start: null
+  end: null
+  basis: tx/localities/channelview-isd/offices/trustee-position-5#S-01
+sources:
+- id: tx/localities/channelview-isd/offices/trustee-position-5#S-01
+  headline: Who holds this office now
+  statement: 'The official page (About the Board  | Channelview ISD), checked on October 30, 2026, shows Steve Dennis holding
+    this office (recorded for the November 3, 2026 election: Channelview ISD Trustee, Position 5).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cvisd.org/page/school-board/
+  source_title: About the Board  | Channelview ISD
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/channelview-isd/elections/2026-11-03/trustee-position-5/race#S-HOLDER.

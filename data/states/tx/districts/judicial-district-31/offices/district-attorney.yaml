@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Attorney, 31st Judicial District
+office_type: district-attorney
+holders:
+- person: franklin-mcdonough
+  start: null
+  end: null
+  basis: tx/districts/judicial-district-31/offices/district-attorney#S-01
+sources:
+- id: tx/districts/judicial-district-31/offices/district-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Roberts County: 31st District Attorney), checked on November 4, 2026, shows Franklin McDonough
+    as District Attorney, 31st Judicial District. It reads: "31st District Attorney Franklin McDonough 31st District Attorney"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.roberts.tx.us/page/roberts.District.Attorney
+  source_title: 'Roberts County: 31st District Attorney'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

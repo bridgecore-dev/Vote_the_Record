@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Member, State Board of Education, District 4
+office_type: sboe-member
+holders:
+- person: tammie-nielsen
+  start: null
+  end: null
+  basis: tx/districts/sboe-4/offices/sboe-member#S-01
+sources:
+- id: tx/districts/sboe-4/offices/sboe-member#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Texas State Board of Education: SBOE Members), checked on September 30, 2026, shows Tammie
+    Nielsen holding this office (recorded for the November 3, 2026 election: Member, State Board of Education, District 4
+    (Unexpired Term)).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://sboe.texas.gov/state-board-of-education/sboe-board-members/sboe-members
+  source_title: 'Texas State Board of Education: SBOE Members'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001022107/https://sboe.texas.gov/state-board-of-education/sboe-board-members/sboe-members
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/sboe-4/elections/2026-11-03/sboe-member/race#S-HOLDER.

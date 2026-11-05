@@ -1,0 +1,31 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: kermit-kennedy
+name: Kermit Kennedy
+candidacies: []
+records:
+- id: tx/people/kermit-kennedy#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.449041 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Angelina County tax rate of $0.449041 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.422585) and not above the voter-approval rate ($0.465693).
+    The notice lists Judge Wright and Commissioners Sprinkle, Kennedy, Berry and Jeffrey voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.angelinacounty.net/files/pdf/agendas/COM-AGEN092325.pdf
+  source_title: 'Angelina County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: ad48921e0bb0428138a194ef79dfbda1b334e36fe6d03c9011acdefb635723e5
+  archive_url: null
+  event_date: '2025-09-23'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or its own date; event_date is the public hearing date printed in the notice
+    (September 23, 2025).
+statements: []
+funding: []
+promise_tracker: []

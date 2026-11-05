@@ -1,0 +1,32 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: jerry-cassity
+name: Jerry Cassity
+candidacies: []
+records:
+- id: tx/people/jerry-cassity#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.5986 per $100 (Aug. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Polk County tax rate of $0.5986 per $100,
+    which the notice lists as greater than the no-new-revenue rate ($0.566070) and not greater than the voter-approval rate
+    ($0.598659). The notice lists Judge Murphy and Commissioners Robertson, DuBose, Purvis and Cassity voting for, and none
+    against.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/3552/Notice%20of%20Public%20hearing%20on%20taxincrease.pdf
+  source_title: 'Polk County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: b393b7c4741860fdc52c524280ab80fb751e6b91993a397187e9a068fabb04f0
+  archive_url: null
+  event_date: '2025-08-26'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice prints no date of its own or of the vote; event_date is the hearing date (Aug. 26, 2025). The file is hosted
+    on newtools.cira.state.tx.us, the host serving Polk County's website (polktx.gov) uploads.
+statements: []
+funding: []
+promise_tracker: []

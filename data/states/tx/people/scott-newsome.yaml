@@ -1,0 +1,34 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: scott-newsome
+name: Scott Newsome
+candidacies: []
+records:
+- id: tx/people/scott-newsome#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 county tax rate of $0.38697 per $100 (Aug. 2026)
+  result: Proposed 3-2.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2026 Franklin County tax rate of $0.38697 per
+    $100, with a no-new-revenue rate of $0.34624 and a voter-approval rate of $0.45401 listed in the notice. The notice lists
+    County Judge Scott Lee and Commissioners Joe D Stanley and Scott Newsome voting for, and Commissioners Toby Godrey (as
+    printed) and Scott Smith voting against.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.franklin.tx.us/upload/page/1815/2026/Notice%20of%20Public%20Hearing%20to%20Increase%20Tax%20Rate%20Monday%201.pdf
+  source_title: 'Franklin County: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 38cc7bd0d00cfa78666f504742fc78cef3a4efcc5053f74ea955b95065f25087
+  archive_url: null
+  event_date: '2026-08-24'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or of the notice; event_date is the public hearing date printed in the notice.
+    The notice's sentences comparing the proposed rate to the no-new-revenue and voter-approval rates do not match its listed
+    rates (it says the proposed rate is greater than the voter-approval rate, and that the county is not proposing to increase
+    property taxes), so this record gives only the listed rates.
+statements: []
+funding: []
+promise_tracker: []

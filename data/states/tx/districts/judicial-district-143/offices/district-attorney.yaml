@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Attorney
+office_type: district-attorney
+holders:
+- person: sarah-stogner
+  start: null
+  end: null
+  basis: tx/districts/judicial-district-143/offices/district-attorney#S-01
+sources:
+- id: tx/districts/judicial-district-143/offices/district-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Loving County: District Clerk), checked on November 4, 2026, shows Sarah Stogner as District
+    Attorney. It reads: "143rd Judicial District Attorney HON. SARAH STOGNER"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.loving.tx.us/page/loving.District.Clerk
+  source_title: 'Loving County: District Clerk'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

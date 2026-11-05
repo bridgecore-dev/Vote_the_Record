@@ -1,0 +1,33 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: marty-c-lucke
+name: Marty C. Lucke
+candidacies: []
+records:
+- id: tx/people/marty-c-lucke#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.71210 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Floyd County tax rate of $0.71210 per $100,
+    which the notice lists as above the no-new-revenue rate ($0.68810) and not greater than the voter-approval rate ($0.71218).
+    The notice lists Smith, Bigham, Young, Martinez and Lucke voting for, and no members against, present and not voting,
+    or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.floyd.tx.us/upload/page/1781/2025/50-876%202025%20-%20Tax%20Rate%20Notice.docx
+  source_title: 'Floyd County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 50098853d132d291978caf281f78c9b4d5f265d17c8c93ca3277a5a8a0e36b67
+  archive_url: null
+  event_date: '2025-09-08'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or of the notice; event_date is the public hearing date printed in the notice.
+    The county posted the notice as a Word file (.docx); the saved text is the document's paragraph text. The notice lists
+    members by last name only.
+statements: []
+funding: []
+promise_tracker: []

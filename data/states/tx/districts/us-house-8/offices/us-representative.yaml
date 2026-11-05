@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: U.S. Representative, District 8
+office_type: us-representative
+holders:
+- person: morgan-luttrell
+  start: null
+  end: null
+  basis: tx/districts/us-house-8/offices/us-representative#S-01
+sources:
+- id: tx/districts/us-house-8/offices/us-representative#S-01
+  headline: Who holds this office now
+  statement: 'The official document (Office of the Clerk, U.S. House of Representatives: Member Data (published November 3,
+    2026)), checked on November 4, 2026, shows Morgan Luttrell as U.S. Representative, District 8. It reads: "TX08 Luttrell,
+    Morgan"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://clerk.house.gov/xml/lists/MemberData.xml
+  source_title: 'Office of the Clerk, U.S. House of Representatives: Member Data (published November 3, 2026)'
+  source_kind: document
+  sha256: 84458803178118dd612e41ff119daf2976e59d9f96780d8c794eba52d717711d
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

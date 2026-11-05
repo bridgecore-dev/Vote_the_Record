@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Sheriff
+office_type: sheriff
+holders:
+- person: robert-fisk
+  start: null
+  end: null
+  basis: tx/localities/motley-county/offices/sheriff#S-01
+sources:
+- id: tx/localities/motley-county/offices/sheriff#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Motley County: Sheriff), checked on November 4, 2026, shows Robert Fisk as Sheriff. It reads:
+    "Sheriff Robert Fisk"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.motley.tx.us/page/motley.Sheriff
+  source_title: 'Motley County: Sheriff'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

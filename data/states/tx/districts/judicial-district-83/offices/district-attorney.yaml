@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Attorney, 83rd Judicial District
+office_type: district-attorney
+holders:
+- person: ori-t-white
+  start: null
+  end: null
+  basis: tx/districts/judicial-district-83/offices/district-attorney#S-01
+sources:
+- id: tx/districts/judicial-district-83/offices/district-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Jeff Davis County: 83rd District Attorney), checked on November 4, 2026, shows Ori T. White
+    as District Attorney, 83rd Judicial District. It reads: "Ori T. White"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.jeffdaviscounty.texas.gov/page/jeffdavis.District.Attorney
+  source_title: 'Jeff Davis County: 83rd District Attorney'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

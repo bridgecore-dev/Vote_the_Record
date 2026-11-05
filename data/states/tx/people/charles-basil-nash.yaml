@@ -1,0 +1,34 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: charles-basil-nash
+name: Charles Basil Nash
+candidacies: []
+records:
+- id: tx/people/charles-basil-nash#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.894989 per $100 (Aug. 2025)
+  result: Proposed 4-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Bailey County tax rate of $0.894989 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.804843) and above the voter-approval rate ($0.839260)
+    and not above the de minimis rate ($0.901451). The notice lists Judge Nash and Commissioners Gartin, Slayden and Contreras
+    voting for; and Commissioner Daniel absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/8157/docs/Financials/Tax/FY26/2025-BAILEY%20CO-NOTICE%20OF%20PUBLIC%20HEARING%20ON%20TAX%20INCREASE.pdf
+  source_title: 'Bailey County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: cafb951fe1e897f37d684bdd2c70e4b43cc248ce1d6a8abff9fd2456573f6198
+  archive_url: null
+  event_date: '2025-08-28'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or its own date; event_date is the public hearing date printed in the notice
+    (08/28/2025). The PDF's text layer cannot be extracted (broken font encoding), so the saved .txt is machine OCR (Windows
+    OCR) of the rendered pages; the vote lines were checked against the page image. The notice lists Commissioner Jim Daniel
+    as ABSENT; he no longer holds a seat and is left out.
+statements: []
+funding: []
+promise_tracker: []

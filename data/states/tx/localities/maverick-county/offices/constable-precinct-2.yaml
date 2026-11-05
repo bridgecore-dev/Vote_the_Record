@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 2
+office_type: constable
+holders:
+- person: alberto-de-la-torre
+  start: null
+  end: null
+  basis: tx/localities/maverick-county/offices/constable-precinct-2#S-01
+sources:
+- id: tx/localities/maverick-county/offices/constable-precinct-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Maverick County: Your County Government), checked on November 4, 2026, shows Alberto De La
+    Torre as Constable, Precinct 2. It reads: "Constable · Pct. 2 Alberto De La Torre"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://co.maverick.tx.us/government
+  source_title: 'Maverick County: Your County Government'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

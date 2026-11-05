@@ -1,0 +1,31 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: chris-kirkendall
+name: Chris Kirkendall
+candidacies: []
+records:
+- id: tx/people/chris-kirkendall#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.496965 per $100 (Aug. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Hardin County tax rate of $0.496965 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.487183) and not greater than the voter-approval rate
+    ($0.533383). The notice lists Wayne McDaniel, L.W. Cooper, Jr., Chris Kirkendall, Amanda Young and Ernie Koch voting for,
+    and lists no members against, present and not voting, or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hardincountytx.gov/upload/page/0119/Notice%20of%20Meeting%202025%20Tax%20Rate.pdf
+  source_title: 'Hardin County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 34a257e5d2c21e3ea18a96a4aef17c60bddff81f8e07c889e00f8cc9040dbf56
+  archive_url: null
+  event_date: '2025-08-26'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or of the notice; event_date is the public hearing date printed in the notice.
+statements: []
+funding: []
+promise_tracker: []

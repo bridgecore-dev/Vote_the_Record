@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Attorney
+office_type: county-attorney
+holders:
+- person: john-dodson
+  start: null
+  end: null
+  basis: tx/localities/uvalde-county/offices/county-attorney#S-01
+sources:
+- id: tx/localities/uvalde-county/offices/county-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Uvalde County: County Attorney), checked on November 4, 2026, shows John Dodson as County
+    Attorney. It reads: "COUNTY ATTORNEY, JOHN DODSON"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.uvaldecounty.gov/uvalde-county-attorney
+  source_title: 'Uvalde County: County Attorney'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

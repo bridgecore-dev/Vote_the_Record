@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Treasurer
+office_type: county-treasurer
+holders:
+- person: vicki-j-schmidt
+  start: null
+  end: null
+  basis: tx/localities/gillespie-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/gillespie-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Gillespie County, Texas: County Treasurer), checked on November 4, 2026, shows Vicki J. Schmidt
+    as County Treasurer. It reads: "Vicki J. Schmidt County Treasurer"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.gillespiecounty.gov/1203/County-Treasurer
+  source_title: 'Gillespie County, Texas: County Treasurer'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Criminal District Attorney
+office_type: criminal-district-attorney
+holders:
+- person: angela-albers
+  start: null
+  end: null
+  basis: tx/localities/wood-county/offices/criminal-district-attorney#S-01
+sources:
+- id: tx/localities/wood-county/offices/criminal-district-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Wood County, Texas: District Attorney), checked on November 4, 2026, shows Angela Albers
+    as Criminal District Attorney. It reads: "Angela Albers"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.mywoodcounty.com/page/distatty.home
+  source_title: 'Wood County, Texas: District Attorney'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

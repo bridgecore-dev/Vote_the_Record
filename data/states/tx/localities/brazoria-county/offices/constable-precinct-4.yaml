@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 4
+office_type: constable
+holders:
+- person: james-brawner
+  start: null
+  end: null
+  basis: tx/localities/brazoria-county/offices/constable-precinct-4#S-01
+sources:
+- id: tx/localities/brazoria-county/offices/constable-precinct-4#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Brazoria County: Constable Precinct 4), checked on November 5, 2026, shows James Brawner
+    as Constable, Precinct 4. It reads: "Office of Constable James Brawner"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.brazoriacountytx.gov/departments/constables-office/constable-pct-4
+  source_title: 'Brazoria County: Constable Precinct 4'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

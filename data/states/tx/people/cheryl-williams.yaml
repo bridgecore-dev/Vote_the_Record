@@ -1,0 +1,31 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: cheryl-williams
+name: Cheryl Williams
+candidacies: []
+records:
+- id: tx/people/cheryl-williams#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 county tax rate of $0.151414 per $100 (Sept. 2026)
+  result: Proposed 4-1.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2026 Collin County tax rate of $0.151414 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.147806) and not above the voter-approval rate ($0.156434).
+    The notice lists Commissioners Fletcher, Williams, Hale and Webb voting for, and Judge Hill voting against.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.collincountytx.gov/docs/default-source/budget-and-finance/documents/2026-notice-of-public-hearing-collin-county.pdf?sfvrsn=ef8362f3_3
+  source_title: 'Collin County: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 8713709f7dd71f56b49c1051c70a51ce622e2e5dceed587837926ecc29e96eb0
+  archive_url: null
+  event_date: '2026-09-14'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice
+    (September 14, 2026).
+statements: []
+funding: []
+promise_tracker: []

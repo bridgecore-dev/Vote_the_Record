@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Seattle Municipal Court, Judge Position 7
+office_type: municipal-court-judge
+holders:
+- person: damon-shadid
+  start: null
+  end: null
+  basis: wa/localities/city-of-seattle/offices/municipal-court-position-7#S-01
+sources:
+- id: wa/localities/city-of-seattle/offices/municipal-court-position-7#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Washington Secretary of State: November 8, 2022 General Election results, King County), checked
+    on October 18, 2026, shows Damon Shadid holding this office (recorded for the November 3, 2026 election: Seattle Municipal
+    Court, Judge Position 7).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://results.vote.wa.gov/results/20221108/king/
+  source_title: 'Washington Secretary of State: November 8, 2022 General Election results, King County'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-18'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in wa/localities/city-of-seattle/elections/2026-11-03/municipal-court-position-7/race#S-HOLDER.

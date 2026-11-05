@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 3
+office_type: county-commissioner
+holders:
+- person: james-strain
+  start: null
+  end: null
+  basis: tx/localities/bowie-county/offices/commissioner-precinct-3#S-01
+sources:
+- id: tx/localities/bowie-county/offices/commissioner-precinct-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Bowie County: Staff Directory: Bowie County Commissioners), checked on November 4, 2026,
+    shows James Strain as County Commissioner, Precinct 3. It reads: "Precinct 3 Link: Commissioners Physical Address 850
+    Front St DeKalb, TX 75559 Fax 903-838-0696 James Strain"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bowiecounty.org/m/directory/department?did=37
+  source_title: 'Bowie County: Staff Directory: Bowie County Commissioners'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

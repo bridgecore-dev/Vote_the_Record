@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 3
+office_type: constable
+holders:
+- person: hector-valverde
+  start: null
+  end: null
+  basis: tx/localities/live-oak-county/offices/constable-precinct-3#S-01
+sources:
+- id: tx/localities/live-oak-county/offices/constable-precinct-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Live Oak County: Elected Officials), checked on November 4, 2026, shows Hector Valverde as
+    Constable, Precinct 3. It reads: "Constable 3: Hector Valverde"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.live-oak.tx.us/page/liveoak.Elected%20Officials
+  source_title: 'Live Oak County: Elected Officials'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,32 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: kyle-w-kutscher
+name: Kyle W. Kutscher
+candidacies: []
+records:
+- id: tx/people/kyle-w-kutscher#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.3304 per $100 (Sept. 2025)
+  result: Proposed 3-2.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Guadalupe County tax rate of $0.3304 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.3177) and not greater than the voter-approval rate ($0.4913).
+    The notice lists Drew Engelke, Michael Carpenter and Judge Kyle Kutscher voting for, and Jackie Ott and Stephen Germann
+    voting against.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.guadalupetx.gov/upload/page/0052/docs/Form_50-876_Proposed_Rate_Exceeds_No-New-Revenue.pdf
+  source_title: 'Guadalupe County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 62bc7eb2310f498a32ff0bc5f88b2633643e9ea647763efa5fbfa8ee8812d58e
+  archive_url: null
+  event_date: '2025-09-02'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice's entries are in the PDF's fillable form fields; the saved text lists those values after the page text. The
+    notice does not give the date of the vote or of the notice; event_date is the public hearing date printed in the notice.
+statements: []
+funding: []
+promise_tracker: []

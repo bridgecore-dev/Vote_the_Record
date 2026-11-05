@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Clerk
+office_type: county-clerk
+holders:
+- person: tina-petty
+  start: null
+  end: null
+  basis: tx/localities/bowie-county/offices/county-clerk#S-01
+sources:
+- id: tx/localities/bowie-county/offices/county-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Bowie County: Staff Directory: County Clerk), checked on November 4, 2026, shows Tina Petty
+    as County Clerk. It reads: "County Clerk Hours Monday through Friday 8 am to 4:30 pm Closed during lunch, 12 pm to 1 pm
+    Link: County Clerk Page Physical Address 710 James Bowie Drive New Boston, TX 75570 Phone Number 903-628-6740 Fax 903-628-6729
+    Tina Petty"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bowiecounty.org/m/directory/department?did=25
+  source_title: 'Bowie County: Staff Directory: County Clerk'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

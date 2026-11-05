@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Sheriff
+office_type: sheriff
+holders:
+- person: bryan-weatherford
+  start: null
+  end: null
+  basis: tx/localities/tyler-county/offices/sheriff#S-01
+sources:
+- id: tx/localities/tyler-county/offices/sheriff#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Tyler County, Texas: Tyler County Sheriff), checked on November 4, 2026, shows Bryan Weatherford
+    as Sheriff. It reads: "- Bryan Weatherford, Sheriff"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.tyler.tx.us/page/tyler.Sheriff
+  source_title: 'Tyler County, Texas: Tyler County Sheriff'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

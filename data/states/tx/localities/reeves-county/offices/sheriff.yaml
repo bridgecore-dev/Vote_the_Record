@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Sheriff
+office_type: sheriff
+holders:
+- person: arturo-granado
+  start: null
+  end: null
+  basis: tx/localities/reeves-county/offices/sheriff#S-01
+sources:
+- id: tx/localities/reeves-county/offices/sheriff#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Reeves County: Sheriff''s Office), checked on November 5, 2026, shows Arturo "Art" Granado
+    as Sheriff. It reads: "REEVES COUNTY SHERIFF ARTURO "ART" GRANADO"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.reevescounty.org/departments/sheriff-s-office
+  source_title: 'Reeves County: Sheriff''s Office'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

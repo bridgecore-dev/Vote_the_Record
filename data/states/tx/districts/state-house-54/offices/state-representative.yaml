@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: State Representative, District 54
+office_type: state-representative
+holders:
+- person: brad-buckley
+  start: null
+  end: null
+  basis: tx/districts/state-house-54/offices/state-representative#S-01
+sources:
+- id: tx/districts/state-house-54/offices/state-representative#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Official Home Page of the Texas House of Representatives Website for Rep. Buckley, Brad.),
+    checked on October 20, 2026, shows Brad Buckley holding this office (recorded for the November 3, 2026 election: State
+    Representative, District 54).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://house.texas.gov/members/member-page/?district=54
+  source_title: Official Home Page of the Texas House of Representatives Website for Rep. Buckley, Brad.
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/state-house-54/elections/2026-11-03/state-representative/race#S-HOLDER.

@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import fact_list, fact_card, verification_badge, source_line, report_link %}
+{% from "partials/icons.html" import icon %}
+{% block title %}{{ person.name }}{% endblock %}
+{% block description %}{{ person.name }}: offices held, recorded votes and actions, statements, and campaign finance, each with its source.{% endblock %}
+{% block content %}
+<header class="race-hero">
+  <p class="eyebrow"><a href="/officials/">Officials</a>{% for s in person.seats[:1] %} · <a href="{{ s.place.url }}">{{ s.place.name }}</a>{% endfor %}</p>
+  <h1>{{ person.name }}</h1>
+  {% if person.seats %}
+  <p class="lead">{% for s in person.seats %}{{ s.name }}, {{ s.place.name }}{% if not loop.last %}; {% endif %}{% endfor %}</p>
+  {% endif %}
+  <p class="muted">{{ person.record_summary }}.</p>
+</header>
+
+<section id="record" aria-labelledby="record-h">
+  <h2 id="record-h">On the record</h2>
+  <p class="muted">Recorded votes first, then other actions, newest first. The same order for everyone.</p>
+  {% if person.all_records %}
+  <ul class="item-list">{% for fact in person.all_records %}{{ fact_card(fact, facts) }}{% endfor %}</ul>
+  {% elif not person.researched %}
+  <p class="empty">We haven't researched this official's record yet.</p>
+  {% else %}
+  <p class="empty">Not found in the sources reviewed.</p>
+  {% endif %}
+</section>
+
+{% if person.said %}
+<section id="said" aria-labelledby="said-h">
+  <h2 id="said-h">What they said in office</h2>
+  {{ fact_list(person.said, facts) }}
+</section>
+{% endif %}
+
+{% if person.promises %}
+{% set pc = person.promise_card %}
+<section id="promises" aria-labelledby="prom-h">
+  <h2 id="prom-h">Promises</h2>
+  <p class="muted">Did they do what they said they would? For your information only.</p>
+  <p class="promise-count">Made {{ pc.made }} promise{{ "" if pc.made == 1 else "s" }}:
+    {{ pc.counts.kept }} kept · {{ pc.counts.broken }} not kept · {{ pc.counts.opposite }} did the opposite · {{ pc.counts.pending }} still open</p>
+  {% if pc.rate is not none %}
+  <p class="promise-rate"><strong>Kept {{ pc.counts.kept }} of {{ pc.decided }} decided promises ({{ pc.rate }}%)</strong></p>
+  {% else %}
+  <p class="muted">A kept rate appears once at least 3 checked promises are decided.</p>
+  {% endif %}
+  {% if pc.unchecked %}<p class="muted">{{ pc.unchecked }} more not counted yet: the promise or its evidence is not verified.</p>{% endif %}
+  <ul class="item-list">
+    {% for p in person.promises %}
+    <li class="promise">
+      <p class="item-main"><span class="status status-{{ p.status }}">{{ PROMISE_STATUSES[p.status] }}</span>
+        {% if p.promise_fact %}{{ p.promise_fact.get('headline') or p.promise_fact.statement }}{% else %}<code>{{ p.promise }}</code>{% endif %}</p>
+      {% if p.promise_fact %}
+      <details class="more">
+        <summary>Exact wording &amp; source</summary>
+        <p class="item-meta">Promise: {{ verification_badge(p.promise_fact) }} {{ source_line(p.promise_fact) }} · {{ report_link(p.promise) }}</p>
+        {% for ev in p.evidence_facts %}{% if ev %}
+        <p class="item-meta">Evidence: {{ ev.get('headline') or ev.statement }} {{ verification_badge(ev) }} {{ source_line(ev) }}</p>
+        {% endif %}{% endfor %}
+      </details>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if person.campaign %}
+<section id="campaign" aria-labelledby="camp-h">
+  <h2 id="camp-h">What they said as a candidate</h2>
+  <ul class="item-list">
+    {% for fact in person.campaign %}
+    <li class="card item fact" id="{{ fact.id | anchor }}">
+      <p class="item-main"><span class="kind">{{ fact.said_as }}</span> {{ fact.get('headline') or fact.statement }}</p>
+      <p class="item-meta"><span class="chip">{{ LABELS[fact.label] }}</span> {{ verification_badge(fact) }}{% if fact.race_name %} <span class="muted">· {{ fact.race_name }}</span>{% endif %}</p>
+      <details class="more">
+        <summary>Exact wording &amp; source</summary>
+        {% if fact.get('headline') %}<p class="exact">{{ fact.statement }}</p>{% endif %}
+        <p class="item-meta">{{ source_line(fact) }} · {{ report_link(fact.id) }}</p>
+      </details>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<section id="money" aria-labelledby="money-h">
+  <h2 id="money-h">Campaign finance</h2>
+  {% if person.money %}
+  {{ fact_list(person.money, facts) }}
+  {% elif not person.researched %}
+  <p class="empty">We haven't researched this official's campaign finance reports yet.</p>
+  {% else %}
+  <p class="empty">Not found in the sources reviewed.</p>
+  {% endif %}
+</section>
+
+{% if person.summary_facts %}
+<section id="about" aria-labelledby="about-h">
+  <h2 id="about-h">Background</h2>
+  {{ fact_list(person.summary_facts, facts) }}
+</section>
+{% endif %}
+
+<section id="offices" aria-labelledby="off-h">
+  <h2 id="off-h">Offices</h2>
+  <ul class="item-list">
+    {% for s in person.seats %}
+    {% set h = s.current | selectattr("person", "equalto", person.id) | first %}
+    <li class="card item"><p class="item-main"><strong>{{ s.name }}</strong>, <a href="{{ s.place.url }}">{{ s.place.name }}</a>{% if h.start %} · since {{ h.start | longdate }}{% endif %}</p>
+      <p class="item-meta">{{ h.basis_fact.statement }}</p>
+      <p class="item-meta">{{ verification_badge(h.basis_fact) }} {{ source_line(h.basis_fact) }} · {{ report_link(h.basis_fact.id) }}</p></li>
+    {% endfor %}
+    {% for s in person.past_seats %}
+    {% set h = s.past | selectattr("person", "equalto", person.id) | first %}
+    <li class="card item"><p class="item-main">{{ s.name }}, <a href="{{ s.place.url }}">{{ s.place.name }}</a>{% if h.start %} · {{ h.start[:4] }}{% endif %}{% if h.end %}–{{ h.end[:4] }}{% endif %}</p>
+      <p class="item-meta">{{ verification_badge(h.basis_fact) }} {{ source_line(h.basis_fact) }}</p></li>
+    {% endfor %}
+  </ul>
+</section>
+
+{% if person.candidacy_rows %}
+<section id="races" aria-labelledby="races-h">
+  <h2 id="races-h">Races</h2>
+  <ul class="link-list">
+    {% for c in person.candidacy_rows %}
+    <li>{% if c.race %}<a href="{{ c.race.url }}">{{ c.race.name }}</a> <span class="muted">· {{ c.race.locality_name }} · {{ c.race.election_date | longdate }}{% if c.row %} · {{ "{:,}".format(c.row.votes) }} votes ({{ c.row.pct }}%), {{ "official" if c.result.status == "official" else "unofficial" }} count{% if c.row.outcome %}: {{ c.row.outcome }}{% endif %}{% endif %}</span>{% endif %}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endblock %}

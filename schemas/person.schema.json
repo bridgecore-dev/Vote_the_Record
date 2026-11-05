@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vtr:schema:person",
+  "title": "Person (an official or past candidate; docs/OFFICIALS.md)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "candidacies", "records", "statements", "funding", "promise_tracker"],
+  "properties": {
+    "id": { "$ref": "urn:vtr:schema:fact#/$defs/slug" },
+    "name": { "type": "string", "minLength": 1 },
+    "candidacies": {
+      "description": "Candidate files (path under data/states/ without .yaml) whose records belong to this person.",
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z]{2}/.+/candidates/[a-z0-9]+(-[a-z0-9]+)*$" }
+    },
+    "research": { "description": "pending = this person's record has not been researched yet; the page says so instead of 'not found'.", "enum": ["pending"] },
+    "photo": { "$ref": "urn:vtr:schema:candidate#/properties/photo" },
+    "summary": { "description": "Biographical facts. Optional.", "$ref": "urn:vtr:schema:candidate#/$defs/facts" },
+    "records": { "$ref": "urn:vtr:schema:candidate#/properties/records" },
+    "statements": { "description": "What they said in office, sourced.", "$ref": "urn:vtr:schema:candidate#/$defs/facts" },
+    "funding": { "$ref": "urn:vtr:schema:candidate#/$defs/facts" },
+    "promise_tracker": { "$ref": "urn:vtr:schema:candidate#/properties/promise_tracker" },
+    "notes": { "type": "string" }
+  }
+}

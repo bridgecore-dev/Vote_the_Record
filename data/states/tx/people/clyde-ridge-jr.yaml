@@ -1,0 +1,58 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: clyde-ridge-jr
+name: Clyde Ridge Jr.
+candidacies: []
+records:
+- id: tx/people/clyde-ridge-jr#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.333500 per $100 (Aug. 2025)
+  result: Proposed 4-0, county judge present and not voting.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Freestone County tax rate of $0.333500 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.304621) and not greater than the voter-approval rate
+    ($0.333628). The notice lists Andy Bonner, Will McSwane, Lloyd Lane and Clyde Ridge voting for, no members voting against
+    or absent, and County Judge Linda Grant present and not voting.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.freestone.tx.us/upload/page/1943/Freestone%20TaxIncrease%204x14c.pdf
+  source_title: 'Freestone County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 0c6700f0fe89e68c79b7de3f329ecb533441705f329618768a31e10aadfa8a66
+  archive_url: null
+  event_date: '2025-08-20'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or of the notice; event_date is the public hearing date printed in the notice.
+    The notice lists the county judge as present and not voting, with the words "County Judge only votes to break a tie".
+    In the saved text, one member's name is extracted with broken spacing ("W i ll Mc Swane").
+- id: tx/people/clyde-ridge-jr#R-02
+  record_type: vote
+  headline: Voted for proposing a 2026 county tax rate of $0.333500 per $100 (Aug. 2026)
+  result: Proposed 4-0, county judge present and not voting.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2026 Freestone County tax rate of $0.333500 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.301625) and not greater than the voter-approval rate
+    ($0.336066). The notice lists Andy Bonner, Will McSwane, Richard McGowan and Clyde Ridge voting for, no members voting
+    against or absent, and County Judge Lloyd Lane present and not voting.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.freestone.tx.us/upload/page/1943/NOTICE%20OF%20PUBLIC%20HEARING%20TAX%20INCREASE%20FY2027%20FILLABLE.pdf
+  source_title: 'Freestone County: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 0e3884e1d09045ca5fc8d59c123a55a49d2b4da372804c5604402691e898addc
+  archive_url: null
+  event_date: '2026-08-19'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or of the notice; event_date is the public hearing date printed in the notice.
+    The notice lists the county judge as present and not voting, with the words "County Judge only votes to break a tie".
+    In the saved text, one member's name is extracted with broken spacing ("W i l l Mc Swane").
+statements: []
+funding: []
+promise_tracker: []

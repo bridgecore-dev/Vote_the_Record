@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: State Representative, District 102
+office_type: state-representative
+holders:
+- person: ana-maria-rodriguez-ramos
+  start: null
+  end: null
+  basis: tx/districts/state-house-102/offices/state-representative#S-01
+sources:
+- id: tx/districts/state-house-102/offices/state-representative#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Texas House of Representatives: member page, District 102), checked on October 4, 2026, shows
+    Ana-Maria Rodriguez Ramos holding this office (recorded for the November 3, 2026 election: State Representative, District
+    102).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://house.texas.gov/members/3735
+  source_title: 'Texas House of Representatives: member page, District 102'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261005153954/https://house.texas.gov/members/3735
+  event_date: '2026-10-04'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/state-house-102/elections/2026-11-03/state-representative/race#S-HOLDER.

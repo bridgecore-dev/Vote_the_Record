@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Attorney, 216th Judicial District
+office_type: district-attorney
+holders:
+- person: lucy-wilke
+  start: null
+  end: null
+  basis: tx/districts/judicial-district-216/offices/district-attorney#S-01
+sources:
+- id: tx/districts/judicial-district-216/offices/district-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Kerr County: 216th District Attorney''s Office), checked on November 4, 2026, shows Lucy
+    Wilke as District Attorney, 216th Judicial District. It reads: "Lucy Wilke"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.kerrcountytx.gov/kerr-county-all-departments/216th-district-attorney-s-office
+  source_title: 'Kerr County: 216th District Attorney''s Office'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 1
+office_type: county-commissioner
+holders:
+- person: sammy-stone
+  start: null
+  end: null
+  basis: tx/localities/bowie-county/offices/commissioner-precinct-1#S-01
+sources:
+- id: tx/localities/bowie-county/offices/commissioner-precinct-1#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Bowie County: Staff Directory: Bowie County Commissioners), checked on November 4, 2026,
+    shows Sammy Stone as County Commissioner, Precinct 1. It reads: "Precinct 1 Link: Commissioners Physical Address 699 FM
+    3244 Texarkana, TX 75501 Fax 903-838-0696 Sammy Stone"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bowiecounty.org/m/directory/department?did=37
+  source_title: 'Bowie County: Staff Directory: Bowie County Commissioners'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

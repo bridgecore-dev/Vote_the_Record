@@ -1,0 +1,54 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: hal-spain
+name: Hal Spain
+candidacies: []
+records:
+- id: tx/people/hal-spain#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.407150 per $100 (Aug. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Coke County tax rate of $0.407150 per $100,
+    which the notice lists as above the no-new-revenue rate ($0.393289) and not above the voter-approval rate ($0.407168).
+    The notice lists Judge Spain and Commissioners Robertson, Chisholm, Waggonner and Webb voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/0190/2025%20Tax%20Information/2025%20County%20Notice.pdf
+  source_title: 'Coke County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: df118a4ff6e9960a931fd7bd152e41e86a74a577d1f14b1f1ae39c757395fe2b
+  archive_url: null
+  event_date: '2025-08-25'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice.
+    The notice lists names without titles; seats are matched from the county's current officeholders.
+- id: tx/people/hal-spain#R-02
+  record_type: vote
+  headline: Voted for proposing a 2026 county tax rate of $0.437900 per $100 (Aug. 2026)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2026 Coke County tax rate of $0.437900 per $100,
+    which the notice lists as above the no-new-revenue rate ($0.422717) and not above the voter-approval rate ($0.437923).
+    The notice lists Judge Spain and Commissioners Robertson, Chisholm, Waggonner and Webb voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/0190/2026%20Tax%20Rates/2026%20Coke%20County%20Notice%20of%20Public%20Hearing.pdf
+  source_title: 'Coke County: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 192119aa4b3486c6d90d04d276980505f7c0a22b35dbf75968d77cb31d3e8304
+  archive_url: null
+  event_date: '2026-08-24'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice.
+    The notice lists names without titles; seats are matched from the county's current officeholders.
+statements: []
+funding: []
+promise_tracker: []

@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Clerk
+office_type: district-clerk
+holders:
+- person: linda-svrcek
+  start: null
+  end: null
+  basis: tx/localities/fayette-county/offices/district-clerk#S-01
+sources:
+- id: tx/localities/fayette-county/offices/district-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Fayette County, Texas: Fayette County, Texas), checked on November 4, 2026, shows Linda Svrcek
+    as District Clerk. It reads: "Fayette County District Clerk: Linda Svrcek"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.fayette.tx.us/page/fayette.District.Clerk
+  source_title: 'Fayette County, Texas: Fayette County, Texas'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

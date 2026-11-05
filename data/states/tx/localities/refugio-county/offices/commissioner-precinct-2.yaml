@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 2
+office_type: county-commissioner
+holders:
+- person: stanley-tuttle
+  start: null
+  end: null
+  basis: tx/localities/refugio-county/offices/commissioner-precinct-2#S-01
+sources:
+- id: tx/localities/refugio-county/offices/commissioner-precinct-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Refugio County: Refugio County, Texas), checked on November 5, 2026, shows Stanley Tuttle
+    as County Commissioner, Precinct 2. It reads: "Precinct 2 Commissioner Stanley Tuttle"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.refugio.tx.us/page/refugio.Commissioners.Court
+  source_title: 'Refugio County: Refugio County, Texas'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

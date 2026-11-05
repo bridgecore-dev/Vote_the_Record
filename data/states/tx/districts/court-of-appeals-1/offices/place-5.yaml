@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice, 1st Court of Appeals District, Place 5
+office_type: court-of-appeals-justice
+holders:
+- person: amy-guerra
+  start: null
+  end: null
+  basis: tx/districts/court-of-appeals-1/offices/place-5#S-01
+sources:
+- id: tx/districts/court-of-appeals-1/offices/place-5#S-01
+  headline: Who holds this office now
+  statement: 'The official list (First Court of Appeals: Justices), checked on September 30, 2026, shows Amy Guerra holding
+    this office (recorded for the November 3, 2026 election: Justice, 1st Court of Appeals District, Place 5).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/1stcoa/about-the-court/justices/
+  source_title: 'First Court of Appeals: Justices'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001021440/https://www.txcourts.gov/1stcoa/about-the-court/justices/
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/court-of-appeals-1/elections/2026-11-03/place-5/race#S-HOLDER.

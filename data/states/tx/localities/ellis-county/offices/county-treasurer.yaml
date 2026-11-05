@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Treasurer
+office_type: county-treasurer
+holders:
+- person: cheryl-chambers
+  start: null
+  end: null
+  basis: tx/localities/ellis-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/ellis-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Ellis County: Staff Directory), checked on November 4, 2026, shows Cheryl Chambers as County
+    Treasurer. It reads: "Cheryl Chambers"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: http://www.elliscountytx.gov/m/directory
+  source_title: 'Ellis County: Staff Directory'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

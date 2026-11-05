@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Harris Central Appraisal District Director, At-Large, Place 1
+office_type: appraisal-district-director
+holders:
+- person: kathy-blueford-daniels
+  start: null
+  end: null
+  basis: tx/localities/harris-county/offices/hcad-place-1#S-01
+sources:
+- id: tx/localities/harris-county/offices/hcad-place-1#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Harris Central Appraisal District: Board of Directors), checked on September 30, 2026, shows
+    Kathy Blueford-Daniels holding this office (recorded for the November 3, 2026 election: Harris Central Appraisal District
+    Director, At-Large, Place 1).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://hcad.org/about/hcad-board-of-directors/
+  source_title: 'Harris Central Appraisal District: Board of Directors'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001022640/https://hcad.org/about/hcad-board-of-directors/
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/harris-county/elections/2026-11-03/hcad-place-1/race#S-HOLDER.

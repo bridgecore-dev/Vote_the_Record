@@ -1,0 +1,45 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Kennedy Hill MUD Permanent Directors (5 seats)
+office_type: water-district-director
+holders:
+- person: chase-nixon
+  start: null
+  end: null
+  basis: tx/localities/kennedy-hill-mud/offices/directors#S-01
+- person: dane-rymer
+  start: null
+  end: null
+  basis: tx/localities/kennedy-hill-mud/offices/directors#S-01
+- person: daniel-mcelrath
+  start: null
+  end: null
+  basis: tx/localities/kennedy-hill-mud/offices/directors#S-01
+- person: jacob-clark
+  start: null
+  end: null
+  basis: tx/localities/kennedy-hill-mud/offices/directors#S-01
+- person: ross-hamilton
+  start: null
+  end: null
+  basis: tx/localities/kennedy-hill-mud/offices/directors#S-01
+sources:
+- id: tx/localities/kennedy-hill-mud/offices/directors#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Kennedy Hill MUD | Nov 2026 Election | Order Calling Election), checked on October 30, 2026,
+    shows Chase Nixon, Dane Rymer, Daniel McElrath, Jacob Clark and Ross Hamilton holding seats on this board (recorded for
+    the November 3, 2026 election: Kennedy Hill MUD Permanent Directors (5 seats)).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://votetravis.gov/wp-content/uploads/Kennedy-Hill-MUD_Order-of-Election_UPDATED.pdf
+  source_title: Kennedy Hill MUD | Nov 2026 Election | Order Calling Election
+  source_kind: document
+  sha256: 9bb40d523b67f07bf0af878b6ee9c0f24b694d750be0fe8eefb7b6b2d821c3e0
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/kennedy-hill-mud/elections/2026-11-03/directors/race#S-HOLDER. Lists
+    only the members whose seats were on that ballot.

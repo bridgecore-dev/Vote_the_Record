@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Judge, County Court at Law No. 4
+office_type: county-court-at-law-judge
+holders:
+- person: dianne-jones
+  start: null
+  end: null
+  basis: tx/localities/dallas-county/offices/county-court-at-law-4#S-01
+sources:
+- id: tx/localities/dallas-county/offices/county-court-at-law-4#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Dallas County: Elected Officials), checked on October 4, 2026, shows Dianne Jones holding
+    this office (recorded for the November 3, 2026 election: Judge, County Court at Law No. 4).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dallascounty.org/government/elected-officials/
+  source_title: 'Dallas County: Elected Officials'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-04'
+  retrieved: '2026-10-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/dallas-county/elections/2026-11-03/county-court-at-law-4/race#S-HOLDER.

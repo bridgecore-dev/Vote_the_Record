@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Manor City Council, Place 2
+office_type: city-council-member
+holders:
+- person: anne-weir
+  start: null
+  end: null
+  basis: tx/localities/city-of-manor/offices/council-place-2#S-01
+sources:
+- id: tx/localities/city-of-manor/offices/council-place-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (City of Manor: Staff Directory, City Council), checked on October 1, 2026, shows Anne Weir
+    holding this office (recorded for the November 3, 2026 election: Manor City Council, Place 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.manortx.gov/m/directory/department?did=19
+  source_title: 'City of Manor: Staff Directory, City Council'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001200538/https://www.manortx.gov/m/directory/department?did=19
+  event_date: '2026-10-01'
+  retrieved: '2026-10-01'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/city-of-manor/elections/2026-11-03/council-place-2/race#S-HOLDER.

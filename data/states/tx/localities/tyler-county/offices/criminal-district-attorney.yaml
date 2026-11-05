@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Criminal District Attorney
+office_type: criminal-district-attorney
+holders:
+- person: brooke-koi
+  start: null
+  end: null
+  basis: tx/localities/tyler-county/offices/criminal-district-attorney#S-01
+sources:
+- id: tx/localities/tyler-county/offices/criminal-district-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Tyler County, Texas: Criminal District Attorney), checked on November 4, 2026, shows Brooke
+    Koi as Criminal District Attorney. It reads: "Brooke Koi"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.tyler.tx.us/page/tyler.District.Attorney
+  source_title: 'Tyler County, Texas: Criminal District Attorney'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

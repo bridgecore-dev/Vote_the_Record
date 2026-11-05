@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County School Trustee, Position 7, At-Large
+office_type: county-school-trustee
+holders:
+- person: silky-joshi-malik
+  start: null
+  end: null
+  basis: tx/localities/harris-county/offices/county-school-trustee-7#S-01
+sources:
+- id: tx/localities/harris-county/offices/county-school-trustee-7#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Harris County Department of Education: Board of Trustees), checked on September 30, 2026,
+    shows Silky Joshi Malik holding this office (recorded for the November 3, 2026 election: County School Trustee, Position
+    7, At-Large).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hcde-texas.org/board
+  source_title: 'Harris County Department of Education: Board of Trustees'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001022713/https://www.hcde-texas.org/board
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/harris-county/elections/2026-11-03/county-school-trustee-7/race#S-HOLDER.

@@ -1,0 +1,29 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Hays Trinity Groundwater Conservation District Director, District 3
+office_type: water-district-director
+area: hays-trinity-gcd/district-3
+holders:
+- person: carlos-torres-verdin
+  start: null
+  end: null
+  basis: tx/localities/hays-trinity-gcd/offices/director-district-3#S-01
+sources:
+- id: tx/localities/hays-trinity-gcd/offices/director-district-3#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Hays Trinity Groundwater Conservation District: Board of Directors), checked on November
+    3, 2026, shows Carlos Torres-Verdín holding this office (recorded for the November 3, 2026 election: Hays Trinity Groundwater
+    Conservation District Director, District 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://haysgroundwater.com/about/board/
+  source_title: 'Hays Trinity Groundwater Conservation District: Board of Directors'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-03'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/hays-trinity-gcd/elections/2026-11-03/director-district-3/race#S-HOLDER.

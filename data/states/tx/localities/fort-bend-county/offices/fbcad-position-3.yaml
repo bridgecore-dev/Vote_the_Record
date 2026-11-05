@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Fort Bend Appraisal District Director, At-Large Position 3
+office_type: appraisal-district-director
+holders:
+- person: larry-indermuhle
+  start: null
+  end: null
+  basis: tx/localities/fort-bend-county/offices/fbcad-position-3#S-01
+sources:
+- id: tx/localities/fort-bend-county/offices/fbcad-position-3#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Board of Directors – Fort Bend Central Appraisal District), checked on October 30, 2026,
+    shows Larry Indermuhle holding this office (recorded for the November 3, 2026 election: Fort Bend Appraisal District Director,
+    At-Large Position 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.fbcad.org/board-members/
+  source_title: Board of Directors – Fort Bend Central Appraisal District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/fort-bend-county/elections/2026-11-03/fbcad-position-3/race#S-HOLDER.

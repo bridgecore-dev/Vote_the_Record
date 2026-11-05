@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Sheriff
+office_type: sheriff
+holders:
+- person: carl-l-squyres
+  start: null
+  end: null
+  basis: tx/localities/runnels-county/offices/sheriff#S-01
+sources:
+- id: tx/localities/runnels-county/offices/sheriff#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Runnels County: Runnels County Sheriff), checked on November 4, 2026, shows Carl L. Squyres
+    as Sheriff. It reads: "Runnels County Sheriff Sheriff Carl L. Squyres"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.runnelscounty.org/page/runnels.Sheriff
+  source_title: 'Runnels County: Runnels County Sheriff'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

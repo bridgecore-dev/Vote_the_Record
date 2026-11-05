@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Kyle City Council, District 2
+office_type: city-council-member
+area: city-of-kyle/district-2
+holders:
+- person: melisa-medina
+  start: null
+  end: null
+  basis: tx/localities/city-of-kyle/offices/council-district-2#S-01
+sources:
+- id: tx/localities/city-of-kyle/offices/council-district-2#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Mayor and Council | City of Kyle), checked on November 2, 2026, shows Melisa Medina holding
+    this office (recorded for the November 3, 2026 election: Kyle City Council, District 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cityofkyle.gov/city-hall/mayor-and-council/
+  source_title: Mayor and Council | City of Kyle
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/city-of-kyle/elections/2026-11-03/council-district-2/race#S-HOLDER.

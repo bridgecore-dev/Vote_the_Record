@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 3
+office_type: county-commissioner
+holders:
+- person: ritch-wheeler
+  start: null
+  end: null
+  basis: tx/localities/montgomery-county/offices/commissioner-precinct-3#S-01
+sources:
+- id: tx/localities/montgomery-county/offices/commissioner-precinct-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Montgomery County: County Commissioners), checked on November 4, 2026, shows Ritch Wheeler
+    as County Commissioner, Precinct 3. It reads: "Commissioner Precinct 3 Commissioner Ritch Wheeler"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.mctx.org/departments/departments_a_-_c/commissioner_s_court/county_commissioners/index.php
+  source_title: 'Montgomery County: County Commissioners'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -124,6 +124,9 @@ votes and filings as they are recorded.
   - `localities/<locality>/actions/<YYYY-MM-DD>.yaml` — official body actions from one
     meeting (what passed), which candidate vote records point to via `same_event`.
   - Localities are flat under the state (a city can span several counties).
+  - `<statewide | districts/<d> | localities/<l>>/offices/<seat>.yaml` — who holds each elected seat, from
+    official rosters; `people/<slug>.yaml` — one profile per officeholder, linked to their candidacies.
+    See `docs/OFFICIALS.md`.
 - `docs/` — METHODOLOGY.md (public explanation of sourcing and scoring).
 - `site/` — the public front end.
 - `.github/workflows/` — CI: runs the validator on every push and PR.

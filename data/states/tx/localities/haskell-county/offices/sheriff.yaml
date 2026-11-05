@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Sheriff
+office_type: sheriff
+holders:
+- person: conrad-saucedo-iii
+  start: null
+  end: null
+  basis: tx/localities/haskell-county/offices/sheriff#S-01
+sources:
+- id: tx/localities/haskell-county/offices/sheriff#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Haskell County, Texas: Sheriff), checked on November 4, 2026, shows Conrad Saucedo, III as
+    Sheriff. It reads: "Sheriff Conrad Saucedo, III"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.haskellcountytx.gov/page/haskell.Sheriff
+  source_title: 'Haskell County, Texas: Sheriff'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

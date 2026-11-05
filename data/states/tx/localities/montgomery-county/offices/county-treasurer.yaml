@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Montgomery County Treasurer
+office_type: county-treasurer
+holders:
+- person: melanie-k-bush
+  start: null
+  end: null
+  basis: tx/localities/montgomery-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/montgomery-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Montgomery County Treasurer: Staff), checked on October 19, 2026, shows Melanie K. Bush holding
+    this office (recorded for the November 3, 2026 election: Montgomery County Treasurer).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://mocotreasurer.org/about-us/staff/
+  source_title: 'Montgomery County Treasurer: Staff'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/montgomery-county/elections/2026-11-03/county-treasurer/race#S-HOLDER.

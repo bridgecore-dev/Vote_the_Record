@@ -18,7 +18,7 @@
     <a class="brand" href="/">{{ config.site_name }}</a>
     <nav aria-label="Main">
       <ul class="nav-list">
-        {% for href, label, key in [("/", "Home", "home")] + ([("/results/", "Results", "results")] if has_results else []) + [("/who-decides/", "Who decides?", "who-decides"), ("/methodology/", "Methodology", "methodology"), ("/corrections/", "Corrections", "corrections"), ("/about/", "About", "about")] %}
+        {% for href, label, key in [("/", "Home", "home")] + ([("/results/", "Results", "results")] if has_results else []) + [("/officials/", "Officials", "officials"), ("/who-decides/", "Who decides?", "who-decides"), ("/methodology/", "Methodology", "methodology"), ("/corrections/", "Corrections", "corrections"), ("/about/", "About", "about")] %}
         <li><a href="{{ href }}"{% if page == key %} aria-current="page"{% endif %}>{{ label }}</a></li>
         {% endfor %}
       </ul>

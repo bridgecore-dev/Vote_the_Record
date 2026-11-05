@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Attorney
+office_type: county-attorney
+holders:
+- person: robyn-r-harlin
+  start: null
+  end: null
+  basis: tx/localities/knox-county/offices/county-attorney#S-01
+sources:
+- id: tx/localities/knox-county/offices/county-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Knox County: County Attorney), checked on November 4, 2026, shows Robyn R. Harlin as County
+    Attorney. It reads: "Robyn R. Harlin"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.knoxcountytexas.org/page/knox.county.attorney
+  source_title: 'Knox County: County Attorney'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

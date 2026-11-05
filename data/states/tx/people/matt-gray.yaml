@@ -1,0 +1,32 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: matt-gray
+name: Matt Gray
+candidacies:
+- tx/localities/montgomery-county/elections/2026-11-03/commissioner-precinct-4/candidates/matt-gray
+records:
+- id: tx/people/matt-gray#R-01
+  record_type: vote
+  headline: Voted against proposing a 2024 county tax rate of $0.3790 per $100 (Sept. 2024)
+  result: Proposed 3-1.
+  statement: As a member of Commissioners Court, voted AGAINST the proposal of a 2024 Montgomery County tax rate of $0.3790
+    per $100, which the notice lists as above the no-new-revenue rate ($0.3480) and not above the voter-approval rate ($0.3875).
+    The notice lists Judge Keough and Commissioners Riley and Walker voting for, Commissioners Noack and Gray voting against,
+    and no one present and not voting or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://cms1files.revize.com/montgomerycountytx/Montgomery%20County%20Public%20Hearing%20Notice.pdf
+  source_title: 'Montgomery County: 2024 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: d6d320708b47baad74b2a0950e6be67e1be6610e3ccda3b71a298dc51ef8ce16
+  archive_url: null
+  event_date: '2024-09-06'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice.
+statements: []
+funding: []
+promise_tracker: []

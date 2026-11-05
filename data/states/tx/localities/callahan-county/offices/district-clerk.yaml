@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Clerk
+office_type: district-clerk
+holders:
+- person: kaitlin-eubanks
+  start: null
+  end: null
+  basis: tx/localities/callahan-county/offices/district-clerk#S-01
+sources:
+- id: tx/localities/callahan-county/offices/district-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Callahan County: Callahan County, Texas), checked on November 5, 2026, shows Kaitlin Eubanks
+    as District Clerk. It reads: "District Clerk KAITLIN EUBANKS"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.callahancounty.org/page/callahan.District.Clerk
+  source_title: 'Callahan County: Callahan County, Texas'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

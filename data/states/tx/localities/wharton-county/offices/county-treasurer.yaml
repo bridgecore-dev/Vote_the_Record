@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Treasurer
+office_type: county-treasurer
+holders:
+- person: audrey-scearce
+  start: null
+  end: null
+  basis: tx/localities/wharton-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/wharton-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Wharton County: County Treasurer), checked on November 4, 2026, shows Audrey Scearce as County
+    Treasurer. It reads: "Audrey Scearce"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.wharton.tx.us/page/wharton.County.Treasurer
+  source_title: 'Wharton County: County Treasurer'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

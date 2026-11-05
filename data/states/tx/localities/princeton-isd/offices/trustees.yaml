@@ -1,0 +1,32 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Princeton ISD Trustees
+office_type: school-trustee
+holders:
+- person: cyndi-darland
+  start: null
+  end: null
+  basis: tx/localities/princeton-isd/offices/trustees#S-01
+- person: starla-sharpe
+  start: null
+  end: null
+  basis: tx/localities/princeton-isd/offices/trustees#S-01
+sources:
+- id: tx/localities/princeton-isd/offices/trustees#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Princeton ISD: Board of Trustees), checked on October 8, 2026, shows Cyndi Darland and Starla
+    Sharpe holding seats on this board (recorded for the November 3, 2026 election: Princeton ISD Trustees).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.princetonisd.net/our-district/board
+  source_title: 'Princeton ISD: Board of Trustees'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-08'
+  retrieved: '2026-10-08'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/princeton-isd/elections/2026-11-03/trustees/race#S-HOLDER. Lists
+    only the members whose seats were on that ballot.

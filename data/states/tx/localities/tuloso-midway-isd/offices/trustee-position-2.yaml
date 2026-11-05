@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Tuloso-Midway ISD Trustee, Position 2
+office_type: school-trustee
+holders:
+- person: paul-arriaga
+  start: null
+  end: null
+  basis: tx/localities/tuloso-midway-isd/offices/trustee-position-2#S-01
+sources:
+- id: tx/localities/tuloso-midway-isd/offices/trustee-position-2#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Tuloso-Midway Independent School District - Board of Trustees Home), checked on November
+    2, 2026, shows Paul Arriaga holding this office (recorded for the November 3, 2026 election: Tuloso-Midway ISD Trustee,
+    Position 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.tmisd.us/board-of-trustees-home
+  source_title: Tuloso-Midway Independent School District - Board of Trustees Home
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/tuloso-midway-isd/elections/2026-11-03/trustee-position-2/race#S-HOLDER.

@@ -1,0 +1,31 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: scott-tuley
+name: Scott Tuley
+candidacies: []
+records:
+- id: tx/people/scott-tuley#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.331493 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Henderson County tax rate of $0.331493 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.315836) and not greater than the voter-approval rate
+    ($0.331493). The notice lists Judge Wade McKinney and Commissioners Wendy Spivey, Scott Tuley, Charles McHam and Mark
+    Richardson voting for, and lists no members against, present and not voting, or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://henderson-county.com/DocumentCenter/View/347/Notice-About-2025-Tax-Rates-PDF
+  source_title: 'Henderson County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: f77fb5db18d2466f6ae8f503a8f0e56f514e48db29c56576117d338c7530efbb
+  archive_url: null
+  event_date: '2025-09-09'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or of the notice; event_date is the public hearing date printed in the notice.
+statements: []
+funding: []
+promise_tracker: []

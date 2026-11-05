@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Canutillo ISD Trustees, At Large (3 seats)
+office_type: school-trustee
+holders:
+- person: breanne-barnes
+  start: null
+  end: null
+  basis: tx/localities/canutillo-isd/offices/trustees-at-large#S-01
+sources:
+- id: tx/localities/canutillo-isd/offices/trustees-at-large#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Canutillo ISD 2026 School Board Election - Canutillo Independent School District), checked
+    on October 19, 2026, shows Breanne Barnes holding this office (recorded for the November 3, 2026 election: Canutillo ISD
+    Trustees, At Large (3 seats)).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.canutillo-isd.org/school-board/election
+  source_title: Canutillo ISD 2026 School Board Election - Canutillo Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/canutillo-isd/elections/2026-11-03/trustees-at-large/race#S-HOLDER.

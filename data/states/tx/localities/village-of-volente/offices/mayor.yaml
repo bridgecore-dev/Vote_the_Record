@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Volente Village Mayor
+office_type: mayor
+holders:
+- person: tom-blauvelt
+  start: null
+  end: null
+  basis: tx/localities/village-of-volente/offices/mayor#S-01
+sources:
+- id: tx/localities/village-of-volente/offices/mayor#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Village of Volente: Mayor & City Council), checked on October 1, 2026, shows Tom Blauvelt
+    holding this office (recorded for the November 3, 2026 election: Volente Village Mayor).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.villageofvolente-tx.gov/index.asp?SEC=C733386C-B4EE-4A64-A90E-37D11448CB54
+  source_title: 'Village of Volente: Mayor & City Council'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-01'
+  retrieved: '2026-10-01'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/village-of-volente/elections/2026-11-03/mayor/race#S-HOLDER.

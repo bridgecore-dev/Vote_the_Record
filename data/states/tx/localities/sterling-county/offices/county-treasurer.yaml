@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Treasurer
+office_type: county-treasurer
+holders:
+- person: rhea-mcginnis
+  start: null
+  end: null
+  basis: tx/localities/sterling-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/sterling-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Sterling County, Tx: County Treasurer), checked on November 4, 2026, shows Rhea McGinnis
+    as County Treasurer. It reads: "County Treasurer Rhea McGinnis"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.sterlingcotx.gov/page/County.Treasurer
+  source_title: 'Sterling County, Tx: County Treasurer'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

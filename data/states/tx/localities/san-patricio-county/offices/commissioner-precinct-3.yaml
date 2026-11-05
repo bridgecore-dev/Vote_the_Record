@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 3
+office_type: county-commissioner
+holders:
+- person: ruben-gonzales
+  start: null
+  end: null
+  basis: tx/localities/san-patricio-county/offices/commissioner-precinct-3#S-01
+sources:
+- id: tx/localities/san-patricio-county/offices/commissioner-precinct-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (San Patricio County TX: Commissioners Court Home), checked on November 4, 2026, shows Ruben
+    Gonzales as County Commissioner, Precinct 3. It reads: "Commissioner Precinct 3 - Ruben Gonzales"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.sanpatriciocountytx.gov/page/comm.court.home
+  source_title: 'San Patricio County TX: Commissioners Court Home'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

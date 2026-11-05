@@ -1,0 +1,47 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Travis County MMD No. 1 Permanent Directors (5 seats)
+office_type: management-district-director
+holders:
+- person: casey-paulson
+  start: null
+  end: null
+  basis: tx/localities/travis-county-mmd-1/offices/directors#S-01
+- person: daniel-kavelman
+  start: null
+  end: null
+  basis: tx/localities/travis-county-mmd-1/offices/directors#S-01
+- person: felicity-maxwell
+  start: null
+  end: null
+  basis: tx/localities/travis-county-mmd-1/offices/directors#S-01
+- person: mickey-jamail
+  start: null
+  end: null
+  basis: tx/localities/travis-county-mmd-1/offices/directors#S-01
+- person: ryan-puzycki
+  start: null
+  end: null
+  basis: tx/localities/travis-county-mmd-1/offices/directors#S-01
+sources:
+- id: tx/localities/travis-county-mmd-1/offices/directors#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Order Calling an Operation and Maintenance Tax Election ... and a Permanent Directors Election
+    for Travis County Municipal Management District No. 1), checked on October 30, 2026, shows Casey Paulson, Daniel Kavelman,
+    Felicity Maxwell, Mickey Jamail and Ryan Puzycki holding seats on this board (recorded for the November 3, 2026 election:
+    Travis County MMD No. 1 Permanent Directors (5 seats)).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://votetravis.gov/wp-content/uploads/TC-MMD-1_Order-of-Election.pdf
+  source_title: Order Calling an Operation and Maintenance Tax Election ... and a Permanent Directors Election for Travis
+    County Municipal Management District No. 1
+  source_kind: document
+  sha256: 77cd7bafc92477dc3e6f658f61f139e5e12362cc6d07e281654a7149c463f537
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/travis-county-mmd-1/elections/2026-11-03/directors/race#S-HOLDER.
+    Lists only the members whose seats were on that ballot.

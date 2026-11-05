@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Attorney
+office_type: county-attorney
+holders:
+- person: john-price
+  start: null
+  end: null
+  basis: tx/localities/shelby-county/offices/county-attorney#S-01
+sources:
+- id: tx/localities/shelby-county/offices/county-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Shelby County: County Attorney), checked on November 4, 2026, shows John Price as County
+    Attorney. It reads: "County Attorney John Price"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.shelby.tx.us/page/shelby.County.Attorney
+  source_title: 'Shelby County: County Attorney'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

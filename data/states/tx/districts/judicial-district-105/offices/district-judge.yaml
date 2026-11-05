@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Judge, 105th Judicial District
+office_type: district-judge
+holders:
+- person: jack-william-pulcher
+  start: null
+  end: null
+  basis: tx/districts/judicial-district-105/offices/district-judge#S-01
+sources:
+- id: tx/districts/judicial-district-105/offices/district-judge#S-01
+  headline: Who holds this office now
+  statement: 'The official document (Texas Office of Court Administration: Court Activity Reporting and Directory System,
+    Directory Search Results (personnel export, district courts, all counties)), checked on November 4, 2026, shows Jack William
+    Pulcher as District Judge, 105th Judicial District. It reads: "105th District Court Kenedy Jack William Pulcher Judge"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://card.txcourts.gov/ExcelExportPublic.aspx?type=P&export=E&CommitteeID=0&Court=&SortBy=tblCounty.Sort_ID,%20Last_Name&Active_Flg=true&Last_Name=&First_Name=&Court_Type_CD=55&Court_Sub_Type_CD=0&County_ID=0&City_CD=0&Address_Type_CD=0&Annual_Report_CD=0&PersonnelType1=&PersonnelType2=&DistrictPrimaryLocOnly=0&AdminJudicialRegion=0&COADistrictId=0
+  source_title: 'Texas Office of Court Administration: Court Activity Reporting and Directory System, Directory Search Results
+    (personnel export, district courts, all counties)'
+  source_kind: document
+  sha256: 046c02cc0517e74293ff4f9084755b66b9eb702e2f8ed9094266fbd46d897d1e
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

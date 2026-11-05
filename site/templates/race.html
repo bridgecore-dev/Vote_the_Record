@@ -114,6 +114,7 @@
       {% endif %}
       <div>
         <h3 id="cand-{{ c.id }}">{{ c.name }}</h3>
+        {% if c.profile_url %}<p class="muted"><a href="{{ c.profile_url }}">Full profile and record in office</a></p>{% endif %}
         <p class="candidate-facts">
           {% if c.get('write_in') %}<span class="chip">Write-in candidate</span>{% endif %}
           {% if c.ballot_party is not none %}<span class="chip">On the ballot as: {{ c.ballot_party }}</span>{% endif %}

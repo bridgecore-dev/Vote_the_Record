@@ -1,0 +1,29 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice of the Peace, Precinct 4
+office_type: justice-of-the-peace
+area: montgomery-county/jp-4
+holders:
+- person: jason-dunn
+  start: null
+  end: null
+  basis: tx/localities/montgomery-county/offices/jp-precinct-4#S-01
+sources:
+- id: tx/localities/montgomery-county/offices/jp-precinct-4#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Montgomery County Justice of the Peace Precinct 4 | Judge Jason Dunn), checked on October
+    19, 2026, shows Jason Dunn holding this office (recorded for the November 3, 2026 election: Justice of the Peace, Precinct
+    4).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://jp4.mctx.org/
+  source_title: Montgomery County Justice of the Peace Precinct 4 | Judge Jason Dunn
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/montgomery-county/elections/2026-11-03/jp-precinct-4/race#S-HOLDER.

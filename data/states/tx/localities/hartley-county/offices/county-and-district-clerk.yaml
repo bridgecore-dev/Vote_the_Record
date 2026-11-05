@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County and District Clerk
+office_type: county-clerk
+holders:
+- person: melissa-mead
+  start: null
+  end: null
+  basis: tx/localities/hartley-county/offices/county-and-district-clerk#S-01
+sources:
+- id: tx/localities/hartley-county/offices/county-and-district-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Hartley County, Texas: County Clerk and Voter Registrar), checked on November 4, 2026, shows
+    Melissa Mead as County and District Clerk. It reads: "Melissa Mead County Clerk, District Clerk, and Voter Registrar"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.hartley.tx.us/page/County.Clerk
+  source_title: 'Hartley County, Texas: County Clerk and Voter Registrar'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

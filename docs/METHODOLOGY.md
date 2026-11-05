@@ -301,6 +301,24 @@ Results page for each county and at the top of each race page.
 - **Unverified until checked.** Like every other fact, a result shows an *Unverified* badge until we have
   checked it against its report.
 
+## Officials
+
+Between elections the site follows the people in office. Each elected office has a page entry naming who
+holds it, and each officeholder has a profile.
+
+- **Who holds an office comes from an official roster:** the government's own list of its officials (a
+  county's elected officials page, the Legislature's member lists, the courts' directories). Each entry
+  links to the roster and says when we checked it.
+- **The profile uses the same kinds of facts as a candidate card:** recorded votes first, then other
+  actions, newest first, then what they said, their promises, and their campaign finance reports. A
+  campaign's records stay on the profile after the election, so what someone said as a candidate sits
+  next to what they did in office.
+- **No score for officials.** Profiles show the record; there is no quiz match or rating. The promise
+  tracker works as described above and is for information only.
+- **Not researched yet is said plainly.** Where we have recorded who holds an office but haven't researched
+  their record, the profile says "We haven't researched this official's record yet."
+- **Party is not shown on profiles,** except as it was printed on a ballot in a past race.
+
 ## Corrections
 Found an error? [Submit a correction](CORRECTIONS_FORM_URL). Every reviewed correction is
 logged publicly with the date, what changed, why, and who reviewed it.

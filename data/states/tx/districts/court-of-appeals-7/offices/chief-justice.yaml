@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Chief Justice, 7th Court of Appeals
+office_type: court-of-appeals-justice
+holders:
+- person: judy-parker
+  start: null
+  end: null
+  basis: tx/districts/court-of-appeals-7/offices/chief-justice#S-01
+sources:
+- id: tx/districts/court-of-appeals-7/offices/chief-justice#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Seventh Court of Appeals: Justices), checked on November 2, 2026, shows Judy Parker holding
+    this office (recorded for the November 3, 2026 election: Chief Justice, 7th Court of Appeals).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/7thcoa/about-the-court/justices/
+  source_title: 'Seventh Court of Appeals: Justices'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/court-of-appeals-7/elections/2026-11-03/chief-justice/race#S-HOLDER.

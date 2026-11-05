@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Judge, 357th Judicial District
+office_type: district-judge
+holders:
+- person: juan-a-magallanes
+  start: null
+  end: null
+  basis: tx/localities/cameron-county/offices/district-court-357#S-01
+sources:
+- id: tx/localities/cameron-county/offices/district-court-357#S-01
+  headline: Who holds this office now
+  statement: 'The official page (District Courts - Cameron County), checked on October 20, 2026, shows Juan A. Magallanes
+    holding this office (recorded for the November 3, 2026 election: District Judge, 357th Judicial District).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/district-courts/
+  source_title: District Courts - Cameron County
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/cameron-county/elections/2026-11-03/district-court-357/race#S-HOLDER.

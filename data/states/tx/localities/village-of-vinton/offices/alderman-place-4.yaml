@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Village of Vinton Alderman, Place 4
+office_type: city-council-member
+holders:
+- person: lourdes-lulu-cloud
+  start: null
+  end: null
+  basis: tx/localities/village-of-vinton/offices/alderman-place-4#S-01
+sources:
+- id: tx/localities/village-of-vinton/offices/alderman-place-4#S-01
+  headline: Who holds this office now
+  statement: 'The official page (City Council - Vinton, TX), checked on October 19, 2026, shows Lourdes (Lulu) Cloud holding
+    this office (recorded for the November 3, 2026 election: Village of Vinton Alderman, Place 4).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://vintontx.govoffice2.com/citycouncil
+  source_title: City Council - Vinton, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/village-of-vinton/elections/2026-11-03/alderman-place-4/race#S-HOLDER.

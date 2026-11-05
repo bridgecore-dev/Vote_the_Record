@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Judge, 285th Judicial District
+office_type: district-judge
+holders:
+- person: nadine-melissa-nieto
+  start: null
+  end: null
+  basis: tx/localities/bexar-county/offices/district-court-285#S-01
+sources:
+- id: tx/localities/bexar-county/offices/district-court-285#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Bexar County: Civil District Courts Judges), checked on October 7, 2026, shows Nadine Melissa
+    Nieto holding this office (recorded for the November 3, 2026 election: District Judge, 285th Judicial District).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bexar.org/1703/District-Courts
+  source_title: 'Bexar County: Civil District Courts Judges'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-07'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/bexar-county/elections/2026-11-03/district-court-285/race#S-HOLDER.

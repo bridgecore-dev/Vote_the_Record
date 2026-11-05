@@ -1,0 +1,31 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: steven-harrison
+name: Steven Harrison
+candidacies: []
+records:
+- id: tx/people/steven-harrison#R-01
+  record_type: vote
+  headline: Voted for proposing a 2024 county tax rate of $.355000 per $100 (Sept. 2024)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2024 Hunt County tax rate of $.355000 per $100,
+    which the notice lists as above the no-new-revenue rate ($.323328) and not above the voter-approval rate ($.372805). The
+    notice lists Judge Stovall and Commissioners Monroe, Harrison, Hutchins and Martin voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/8875/docs/NOTICE%20OF%20PUBLIC%20HEARING%20ON%20TAX%20INCREASE%20-%20Hunt%20County%202024-2025.pdf
+  source_title: 'Hunt County: 2024 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 5d62723df0c2e9b264786bea55aa68e9d6faaaaa24c0dcea06e2b86dbd3acb32
+  archive_url: null
+  event_date: '2024-09-03'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date it lists (September
+    3, 2024; the notice gives no year with the date, and the year is from the notice's 2024 tax year).
+statements: []
+funding: []
+promise_tracker: []

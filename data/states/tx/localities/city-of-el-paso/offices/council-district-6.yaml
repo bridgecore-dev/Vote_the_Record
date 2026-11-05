@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: El Paso City Council, District 6
+office_type: city-council-member
+area: city-of-el-paso/district-6
+holders:
+- person: art-fierro
+  start: null
+  end: null
+  basis: tx/localities/city-of-el-paso/offices/council-district-6#S-01
+sources:
+- id: tx/localities/city-of-el-paso/offices/council-district-6#S-01
+  headline: Who holds this office now
+  statement: 'The official page (District 6), checked on October 19, 2026, shows Art Fierro holding this office (recorded
+    for the November 3, 2026 election: El Paso City Council, District 6).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.elpasotexas.gov/government/district-6
+  source_title: District 6
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/city-of-el-paso/elections/2026-11-03/council-district-6/race#S-HOLDER.

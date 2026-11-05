@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: City of Benbrook Council, Place 2
+office_type: city-council-member
+holders:
+- person: renee-franklin
+  start: null
+  end: null
+  basis: tx/localities/city-of-benbrook/offices/council-place-2#S-01
+sources:
+- id: tx/localities/city-of-benbrook/offices/council-place-2#S-01
+  headline: Who holds this office now
+  statement: 'The official page (City of Benbrook: Place 2), checked on November 3, 2026, shows Renee Franklin holding this
+    office (recorded for the November 3, 2026 election: City of Benbrook Council, Place 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.benbrook-tx.gov/324/Place-2
+  source_title: 'City of Benbrook: Place 2'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-03'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/city-of-benbrook/elections/2026-11-03/council-place-2/race#S-HOLDER.

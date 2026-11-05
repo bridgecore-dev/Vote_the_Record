@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Attorney
+office_type: county-attorney
+holders:
+- person: michael-sales
+  start: null
+  end: null
+  basis: tx/localities/crosby-county/offices/county-attorney#S-01
+sources:
+- id: tx/localities/crosby-county/offices/county-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Crosby County: County Attorney), checked on November 4, 2026, shows Michael Sales as County
+    Attorney. It reads: "Michael Sales"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.crosby.tx.us/page/crosby.County.Attorney
+  source_title: 'Crosby County: County Attorney'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

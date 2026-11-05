@@ -1,0 +1,32 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: rick-bacon
+name: Rick Bacon
+candidacies: []
+records:
+- id: tx/people/rick-bacon#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.47075 per $100 (Sept. 2025)
+  result: Proposed 4-0, one absent.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Tom Green County tax rate of $0.47075 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.43848) and not above the voter-approval rate ($0.48738).
+    The notice lists Judge Carter and Commissioners Farmer, Bacon and Nanny voting for, none against, and Commissioner Hoelscher
+    absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.tomgreencountytx.gov/upload/page/0129/docs/2025/noticeOfPublicHearingOnTaxIncrease.pdf
+  source_title: 'Tom Green County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 22f924515cc8e238cfaa1e0832dcdfc15f345a3786470199df32193b7664b283
+  archive_url: null
+  event_date: '2025-09-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice
+    (Sept. 4, 2025).
+statements: []
+funding: []
+promise_tracker: []

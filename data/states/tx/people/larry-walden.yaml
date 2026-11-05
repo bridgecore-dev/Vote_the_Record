@@ -1,0 +1,56 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: larry-walden
+name: Larry Walden
+candidacies: []
+records:
+- id: tx/people/larry-walden#R-01
+  record_type: vote
+  headline: Voted for proposing a 2024 county tax rate of $0.299238 per $100 (Sept. 2024)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2024 Parker County (General & Lateral Road) tax
+    rate of $0.299238 per $100, which the notice lists as above the no-new-revenue rate ($0.279237) and not above the voter-approval
+    rate ($0.325138). The notice lists Judge Deen and Commissioners Conley, Holt, Walden and Hale voting for, and no one voting
+    against, present and not voting, or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://parkercountytx.gov/DocumentCenter/View/11352
+  source_title: 'Parker County: 2024 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 3be612441cead3371335ec354ae15e400de1cc3a469e6be50853850026a86766
+  archive_url: null
+  event_date: '2024-09-18'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice.
+- id: tx/people/larry-walden#R-02
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.28507 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Parker County (General & Lateral Road) tax
+    rate of $0.28507 per $100, which the notice lists as not above the no-new-revenue rate ($0.28507003) and not above the
+    voter-approval rate ($0.315233). The notice lists Judge Deen and Commissioners Conley, Holt, Walden and Hale voting for,
+    and no one voting against, present and not voting, or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://parkercountytx.gov/DocumentCenter/View/12585
+  source_title: 'Parker County: 2025 Notice of Meeting to Vote on Tax Rate'
+  source_kind: document
+  sha256: 686e38d19cbcde525ab301b8b5735c1f5111cd9add7dd50cb7572db3ee149e92
+  archive_url: null
+  event_date: '2025-09-17'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: This is a Notice of Meeting to Vote on Tax Rate (Tax Code § 26.061), used when the proposed rate does not exceed
+    the no-new-revenue rate; it lists how each member of the governing body voted on the proposal. The notice prints the proposed
+    rate as $0.28507000. The notice does not give its own date or the date of the vote; event_date is the meeting date printed
+    in the notice.
+statements: []
+funding: []
+promise_tracker: []

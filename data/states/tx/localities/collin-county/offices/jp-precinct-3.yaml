@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice of the Peace, Precinct 3
+office_type: justice-of-the-peace
+area: collin-county/jp-3
+holders:
+- person: mike-missildine
+  start: null
+  end: null
+  basis: tx/localities/collin-county/offices/jp-precinct-3#S-01
+sources:
+- id: tx/localities/collin-county/offices/jp-precinct-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Collin County: County Officials), checked on October 8, 2026, shows Mike Missildine holding
+    this office (recorded for the November 3, 2026 election: Justice of the Peace, Precinct 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.collincountytx.gov/contact/county-officials
+  source_title: 'Collin County: County Officials'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-08'
+  retrieved: '2026-10-08'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/collin-county/elections/2026-11-03/jp-precinct-3/race#S-HOLDER.

@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Tornillo ISD Trustee, Place 5
+office_type: school-trustee
+holders:
+- person: enrique-vega
+  start: null
+  end: null
+  basis: tx/localities/tornillo-isd/offices/trustee-place-5#S-01
+sources:
+- id: tx/localities/tornillo-isd/offices/trustee-place-5#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Board Elections | Tornillo Independent School District), checked on October 19, 2026, shows
+    Enrique Vega holding this office (recorded for the November 3, 2026 election: Tornillo ISD Trustee, Place 5).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.tisd.us/page/board-elections
+  source_title: Board Elections | Tornillo Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/tornillo-isd/elections/2026-11-03/trustee-place-5/race#S-HOLDER.

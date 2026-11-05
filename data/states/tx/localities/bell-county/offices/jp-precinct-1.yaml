@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice of the Peace, Precinct 1
+office_type: justice-of-the-peace
+area: bell-county/jp-1
+holders:
+- person: theodore-r-ted-duffield
+  start: null
+  end: null
+  basis: tx/localities/bell-county/offices/jp-precinct-1#S-01
+sources:
+- id: tx/localities/bell-county/offices/jp-precinct-1#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Bell County, TX), checked on October 20, 2026, shows Theodore R. (Ted) Duffield holding this
+    office (recorded for the November 3, 2026 election: Justice of the Peace, Precinct 1).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bellcountytx.com/county_government/justice_of_the_peace/precinct_1/index.php
+  source_title: Bell County, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/bell-county/elections/2026-11-03/jp-precinct-1/race#S-HOLDER.

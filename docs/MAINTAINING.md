@@ -117,6 +117,19 @@ Each race or measure gets a `result.yaml` beside it (schema `result` in `schemas
    (`elected`/`runoff`, or `passed`/`failed`) to each `result.yaml` by hand, from the canvass.
 5. Validate and build as usual; every result shows an Unverified badge until the owner checks it.
 
+## Officials (who holds each office)
+
+Seat and person files are described in [OFFICIALS.md](OFFICIALS.md). To add or refresh them:
+
+1. Save each official roster page (a county's elected officials page, the Legislature's member list, a court
+   directory) as text, and write a `roster.json` beside it (format at the top of the collector).
+2. Run `python src/tools/officials_from_rosters.py <folder>/*.roster.json` to preview, then add `--write`.
+   It refuses any name or quote not found in the saved page, never changes an existing seat, and lists seats
+   whose roster now shows someone else (`DIFFERS`): update those by hand, ending the old holder's term
+   with the date from an official source and adding the new holder.
+3. `python src/tools/seed_officials.py` did the first pass from the 2026 races' "Who holds this office now"
+   facts; rerun it after a new election's roster checks (preview first, `--write` to apply).
+
 ## After Election Day (design, to build once results are certified)
 
 After the election, the site shifts from candidates to the people who won: what they said,

@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Judge, County Court at Law No. 3
+office_type: county-court-at-law-judge
+holders:
+- person: juli-a-mathew
+  start: null
+  end: null
+  basis: tx/localities/fort-bend-county/offices/county-court-at-law-3#S-01
+sources:
+- id: tx/localities/fort-bend-county/offices/county-court-at-law-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Fort Bend County: Elected Officials), checked on October 9, 2026, shows Juli A. Mathew holding
+    this office (recorded for the November 3, 2026 election: Judge, County Court at Law No. 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.fortbendcountytx.gov/government/governing-body/elected-officials
+  source_title: 'Fort Bend County: Elected Officials'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-09'
+  retrieved: '2026-10-09'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/fort-bend-county/elections/2026-11-03/county-court-at-law-3/race#S-HOLDER.
