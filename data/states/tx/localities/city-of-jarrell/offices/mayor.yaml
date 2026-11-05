@@ -1,0 +1,23 @@
+# Who holds this seat, from official rosters. Unverified.
+name: City of Jarrell Mayor
+office_type: mayor
+vacant: true
+holders: []
+sources:
+- id: tx/localities/city-of-jarrell/offices/mayor#S-01
+  headline: Who holds this office now
+  statement: 'The official list (City of Jarrell: Contacts), checked on November 5, 2026, shows nobody as City of Jarrell
+    Mayor. It reads: "Mayor (Vacant)"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cityofjarrell.com/contact/
+  source_title: 'City of Jarrell: Contacts'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

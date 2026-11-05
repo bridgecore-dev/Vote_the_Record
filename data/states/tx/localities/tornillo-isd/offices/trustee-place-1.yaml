@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Tornillo ISD Trustee, Place 1
+office_type: school-trustee
+holders:
+- person: maria-kika-saldana
+  start: null
+  end: null
+  basis: tx/localities/tornillo-isd/offices/trustee-place-1#S-01
+sources:
+- id: tx/localities/tornillo-isd/offices/trustee-place-1#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Tornillo ISD: Board of Trustees), checked on November 5, 2026, shows Maria Kika Saldaña as
+    Tornillo ISD Trustee, Place 1. It reads: "Maria Kika Saldaña Board Trustee - Place 1"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.tisd.us/page/board-of-trustees
+  source_title: 'Tornillo ISD: Board of Trustees'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Tuloso-Midway ISD Trustee, Position 4
+office_type: school-trustee
+holders:
+- person: ricardo-chapa
+  start: null
+  end: null
+  basis: tx/localities/tuloso-midway-isd/offices/trustee-position-4#S-01
+sources:
+- id: tx/localities/tuloso-midway-isd/offices/trustee-position-4#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Tuloso-Midway ISD: Board of Trustees Home), checked on November 5, 2026, shows Ricardo Chapa
+    as Tuloso-Midway ISD Trustee, Position 4. It reads: "4 Ricardo Chapa Trustee"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.tmisd.us/board-of-trustees-home
+  source_title: 'Tuloso-Midway ISD: Board of Trustees Home'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

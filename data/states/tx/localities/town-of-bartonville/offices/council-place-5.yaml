@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Bartonville Town Council, Place 5
+office_type: city-council-member
+holders:
+- person: margie-arens
+  start: null
+  end: null
+  basis: tx/localities/town-of-bartonville/offices/council-place-5#S-01
+sources:
+- id: tx/localities/town-of-bartonville/offices/council-place-5#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Town of Bartonville: Town Council), checked on November 5, 2026, shows Margie Arens as Bartonville
+    Town Council, Place 5. It reads: "Margie Arens Mayor Pro Tem/Place 5"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://townofbartonville.com/2152/Town-Council
+  source_title: 'Town of Bartonville: Town Council'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

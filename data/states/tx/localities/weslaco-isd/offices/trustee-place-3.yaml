@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Weslaco ISD Trustee, Place 3
+office_type: school-trustee
+holders:
+- person: jaclyn-sustaita
+  start: null
+  end: null
+  basis: tx/localities/weslaco-isd/offices/trustee-place-3#S-01
+sources:
+- id: tx/localities/weslaco-isd/offices/trustee-place-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Weslaco Independent School District: Board of Trustees), checked on November 5, 2026, shows
+    Jaclyn Sustaita as Weslaco ISD Trustee, Place 3. It reads: "Jaclyn Sustaita Trustee Place 3- Term 2024-2028"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wisd.us/superintendentboard/board-members
+  source_title: 'Weslaco Independent School District: Board of Trustees'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

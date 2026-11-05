@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Dallas City Council, District 4
+office_type: city-council-member
+holders:
+- person: maxie-johnson
+  start: null
+  end: null
+  basis: tx/localities/city-of-dallas/offices/council-district-4#S-01
+sources:
+- id: tx/localities/city-of-dallas/offices/council-district-4#S-01
+  headline: Who holds this office now
+  statement: 'The official list (City of Dallas: Dallas Council Members), checked on November 5, 2026, shows Maxie Johnson
+    as Dallas City Council, District 4. It reads: "Maxie Johnson District 4"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://dallascityhall.com/government/Pages/city-council.aspx
+  source_title: 'City of Dallas: Dallas Council Members'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

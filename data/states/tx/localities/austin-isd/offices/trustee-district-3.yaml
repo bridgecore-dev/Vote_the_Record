@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Austin ISD Board of Trustees, District 3
+office_type: school-trustee
+holders:
+- person: kevin-foster
+  start: null
+  end: null
+  basis: tx/localities/austin-isd/offices/trustee-district-3#S-01
+sources:
+- id: tx/localities/austin-isd/offices/trustee-district-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Austin ISD: Members), checked on November 5, 2026, shows Kevin Foster as Austin ISD Board
+    of Trustees, District 3. It reads: "Dr. Kevin Foster, District 3, Secretary"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.austinisd.org/board/members
+  source_title: 'Austin ISD: Members'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

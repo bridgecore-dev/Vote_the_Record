@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Anna City Council, Place 3
+office_type: city-council-member
+holders:
+- person: jessica-walden
+  start: null
+  end: null
+  basis: tx/localities/city-of-anna/offices/council-place-3#S-01
+sources:
+- id: tx/localities/city-of-anna/offices/council-place-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Anna, TX: City Council), checked on November 5, 2026, shows Jessica Walden as Anna City Council,
+    Place 3. It reads: "Place 3, Jessica Walden, Term one 2026 - 2030"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.annatexas.gov/319/City-Council
+  source_title: 'Anna, TX: City Council'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

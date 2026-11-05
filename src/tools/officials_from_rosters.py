@@ -18,7 +18,9 @@ its offices) and the seats it shows:
 A holder is the name as printed, or {"printed": "Alders, Daniel", "name": "Daniel Alders"} when the page prints
 it last name first: the two must have the same words. Every holder's printed name and every quote must appear in the saved text (spacing and capitals aside), or
 the seat is refused: nothing is filled in from memory (CLAUDE.md rule 3). A seat file that already
-exists is left alone; one whose holders differ from the roster is reported, never changed. A
+exists is left alone, except that a board seat whose current holders are all on the roster under the same names
+gets the roster's other members added, with the roster as their source. Any other difference is reported,
+never changed. A
 person is reused only when their file already has this name and holds a seat in the same place.
 Writes only unverified facts (rule 3a). Preview first; --write to apply.
 """
@@ -66,6 +68,19 @@ def existing_people() -> dict[tuple[str, str], dict]:
     return out
 
 
+def source(fid: str, roster: dict, seat: dict, kind: str, sha: str | None, who: str) -> dict:
+    """The fact behind a seat's holders: what the roster shows, quoted."""
+    return {"id": fid, "headline": "Who holds this office now",
+            "statement": f"The official {'list' if kind == 'page' else 'document'} "
+                         f"({roster['source_title']}), checked on {longdate(roster['retrieved'])}, "
+                         f"shows {who} as {seat['name']}. It reads: \"{seat['quote']}\"",
+            "label": "official_record", "claim_status": "documented", "contradicted_by": [],
+            "source_url": roster["source_url"], "source_title": roster["source_title"],
+            "source_kind": kind, "sha256": sha, "archive_url": roster.get("archive_url"),
+            "event_date": roster["retrieved"], "retrieved": roster["retrieved"],
+            "verification": "unverified", "verified_on": None, "reviewer": None}
+
+
 def plan(rosters: list[Path]) -> tuple[list[tuple[Path, str]], list[str]]:
     people = existing_people()
     writes, notes = [], []
@@ -109,13 +124,19 @@ def plan(rosters: list[Path]) -> tuple[list[tuple[Path, str]], list[str]]:
             else:
                 target = DATA / f"{rel}.yaml"
                 state = rel.split("/")[0]
+                old = None
                 if target.exists():
                     old = yaml.safe_load(target.read_text(encoding="utf-8"))
                     now = sorted(people.get((state, h["person"]), {"name": h["person"]})["name"]
                                  for h in old["holders"] if not h["end"])
-                    if sorted(norm(n) for n in now) != sorted(norm(n) for n in names):
-                        notes.append(f"DIFFERS {rel}: on file {now}, roster {names} ({roster['source_url']})")
-                    continue
+                    extra = [n for n in names if norm(n) not in {norm(m) for m in now}]
+                    # a board with only some members on file (those on a ballot) gets the rest from the roster
+                    board = now and extra and len(names) - len(extra) == len(now) and not old.get("vacant")
+                    if not board:
+                        if sorted(norm(n) for n in now) != sorted(norm(n) for n in names):
+                            notes.append(f"DIFFERS {rel}: on file {now}, roster {names} ({roster['source_url']})")
+                        continue
+                    names = extra
                 slugs = []
                 for name in names:
                     slug = slugify(name)
@@ -135,23 +156,22 @@ def plan(rosters: list[Path]) -> tuple[list[tuple[Path, str]], list[str]]:
                     people[(state, slug)]["places"].add(place_of(rel))
                     slugs.append(slug)
                 else:
-                    fid = f"{rel}#S-01"
                     who = " and ".join(names) if names else "nobody"
+                    if old is not None:
+                        fid = f"{rel}#S-{len(old['sources']) + 1:02d}"
+                        old["holders"] += [{"person": s, "start": None, "end": None, "basis": fid} for s in slugs]
+                        old["sources"].append(source(fid, roster, seat, kind, sha, who))
+                        head = target.read_text(encoding="utf-8").split("\n", 1)[0]
+                        writes.append((target, (head + "\n" if head.startswith("#") else "") + to_yaml(old)))
+                        notes.append(f"EXTEND {rel}: adds {names} ({roster['source_url']})")
+                        continue
+                    fid = f"{rel}#S-01"
                     doc = {"name": seat["name"], "office_type": seat["office_type"],
                            **({"area": seat["area"]} if seat.get("area") else {}),
                            **({"vacant": True} if not seat["holders"] else {}),
                            "holders": [{"person": s, "start": seat.get("start"), "end": None, "basis": fid}
                                        for s in slugs],
-                           "sources": [{
-                               "id": fid, "headline": "Who holds this office now",
-                               "statement": f"The official {'list' if kind == 'page' else 'document'} "
-                                            f"({roster['source_title']}), checked on {longdate(roster['retrieved'])}, "
-                                            f"shows {who} as {seat['name']}. It reads: \"{seat['quote']}\"",
-                               "label": "official_record", "claim_status": "documented", "contradicted_by": [],
-                               "source_url": roster["source_url"], "source_title": roster["source_title"],
-                               "source_kind": kind, "sha256": sha, "archive_url": roster.get("archive_url"),
-                               "event_date": roster["retrieved"], "retrieved": roster["retrieved"],
-                               "verification": "unverified", "verified_on": None, "reviewer": None}]}
+                           "sources": [source(fid, roster, seat, kind, sha, who)]}
                     writes.append((target, "# Who holds this seat, from official rosters. Unverified.\n" + to_yaml(doc)))
     return writes, notes
 

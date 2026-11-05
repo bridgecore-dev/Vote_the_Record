@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Mayor of Forest Hill
+office_type: mayor
+holders:
+- person: stephanie-boardingham
+  start: null
+  end: null
+  basis: tx/localities/city-of-forest-hill/offices/mayor#S-01
+sources:
+- id: tx/localities/city-of-forest-hill/offices/mayor#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Forest Hill, TX: Government), checked on November 5, 2026, shows Stephanie Boardingham as
+    Mayor of Forest Hill. It reads: "Mayor Stephanie Boardingham"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.foresthilltx.org/27/Government
+  source_title: 'Forest Hill, TX: Government'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

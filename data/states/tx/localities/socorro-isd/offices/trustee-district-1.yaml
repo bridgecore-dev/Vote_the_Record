@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Socorro ISD Trustee, District 1
+office_type: school-trustee
+holders:
+- person: alice-gardea
+  start: null
+  end: null
+  basis: tx/localities/socorro-isd/offices/trustee-district-1#S-01
+sources:
+- id: tx/localities/socorro-isd/offices/trustee-district-1#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Socorro ISD: Board of Trustees), checked on November 5, 2026, shows Alice Gardea as Socorro
+    ISD Trustee, District 1. It reads: "Alice Gardea Vice President District 1"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.sisd.net/o/sisd/page/board-of-trustees
+  source_title: 'Socorro ISD: Board of Trustees'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

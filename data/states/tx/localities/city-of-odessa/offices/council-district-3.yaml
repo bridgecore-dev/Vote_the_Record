@@ -1,0 +1,23 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Odessa City Council, District 3
+office_type: city-council-member
+vacant: true
+holders: []
+sources:
+- id: tx/localities/city-of-odessa/offices/council-district-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (City of Odessa: City Council), checked on November 5, 2026, shows nobody as Odessa City Council,
+    District 3. It reads: "Vacant District 3"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.odessa-tx.gov/670/City-Council
+  source_title: 'City of Odessa: City Council'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

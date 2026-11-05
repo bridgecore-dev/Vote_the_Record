@@ -1,0 +1,38 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Del Mar College Regent, At Large
+office_type: community-college-trustee
+holders:
+- person: carol-a-scott
+  start: null
+  end: null
+  basis: tx/localities/del-mar-college/offices/trustee-at-large#S-01
+- person: nicholas-l-adame
+  start: null
+  end: null
+  basis: tx/localities/del-mar-college/offices/trustee-at-large#S-01
+- person: libby-averyt
+  start: null
+  end: null
+  basis: tx/localities/del-mar-college/offices/trustee-at-large#S-01
+- person: anantha-babbili
+  start: null
+  end: null
+  basis: tx/localities/del-mar-college/offices/trustee-at-large#S-01
+sources:
+- id: tx/localities/del-mar-college/offices/trustee-at-large#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Del Mar College: Board of Regents), checked on November 5, 2026, shows Carol A. Scott and
+    Nicholas L. Adame and Libby Averyt and Anantha Babbili as Del Mar College Regent, At Large. It reads: "Carol A. Scott"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.delmar.edu/regents-and-community/board-of-regents/
+  source_title: 'Del Mar College: Board of Regents'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Austin Community College Trustee, Place 5
+office_type: community-college-trustee
+holders:
+- person: manuel-gonzalez
+  start: null
+  end: null
+  basis: tx/localities/austin-community-college/offices/trustee-place-5#S-01
+sources:
+- id: tx/localities/austin-community-college/offices/trustee-place-5#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Austin Community College District: Dr. Manuel Gonzalez), checked on November 5, 2026, shows
+    Manuel Gonzalez as Austin Community College Trustee, Place 5. It reads: "Board of Trustee Place 5"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://offices.austincc.edu/board-of-trustees/board-members/dr-manuel-gonzalez/
+  source_title: 'Austin Community College District: Dr. Manuel Gonzalez'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: East Central ISD Trustee, District 7
+office_type: school-trustee
+holders:
+- person: dell-braziel
+  start: null
+  end: null
+  basis: tx/localities/east-central-isd/offices/trustee-district-7#S-01
+sources:
+- id: tx/localities/east-central-isd/offices/trustee-district-7#S-01
+  headline: Who holds this office now
+  statement: 'The official list (East Central ISD: Board of Trustees: Members and Bios), checked on November 5, 2026, shows
+    Dell Braziel as East Central ISD Trustee, District 7. It reads: "Dell Braziel, (District 7)"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ecisd.net/fs/pages/7768
+  source_title: 'East Central ISD: Board of Trustees: Members and Bios'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

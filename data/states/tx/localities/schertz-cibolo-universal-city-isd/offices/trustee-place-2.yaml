@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: SCUC ISD Trustee, Place 2
+office_type: school-trustee
+holders:
+- person: margaret-a-carlin
+  start: null
+  end: null
+  basis: tx/localities/schertz-cibolo-universal-city-isd/offices/trustee-place-2#S-01
+sources:
+- id: tx/localities/schertz-cibolo-universal-city-isd/offices/trustee-place-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Schertz-Cibolo-Universal City ISD: Meet Our Board of Trustees), checked on November 5, 2026,
+    shows Margaret A. Carlin as SCUC ISD Trustee, Place 2. It reads: "Margaret A. Carlin Trustee Place 2"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.scucisd.org/page/boardoftrustees-meetourteam
+  source_title: 'Schertz-Cibolo-Universal City ISD: Meet Our Board of Trustees'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

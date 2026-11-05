@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Taylor City Council, District 2
+office_type: city-council-member
+holders:
+- person: shelli-cobb
+  start: null
+  end: null
+  basis: tx/localities/city-of-taylor/offices/council-district-2#S-01
+sources:
+- id: tx/localities/city-of-taylor/offices/council-district-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (City of Taylor: Mayor and City Council), checked on November 5, 2026, shows Shelli Cobb as
+    Taylor City Council, District 2. It reads: "District 2 Shelli Cobb"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.taylortx.gov/757/Mayor-and-City-Council
+  source_title: 'City of Taylor: Mayor and City Council'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

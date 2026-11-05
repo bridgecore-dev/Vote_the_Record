@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: City of River Oaks Mayor
+office_type: mayor
+holders:
+- person: darren-houk
+  start: null
+  end: null
+  basis: tx/localities/city-of-river-oaks/offices/mayor#S-01
+sources:
+- id: tx/localities/city-of-river-oaks/offices/mayor#S-01
+  headline: Who holds this office now
+  statement: 'The official document (City of River Oaks: Notice to the Public, City Departments Weekly Staff Meeting, November
+    3, 2026 (agenda)), checked on November 5, 2026, shows Darren Houk as City of River Oaks Mayor. It reads: "Mayor Darren
+    Houk City Council"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.riveroakstx.com/AgendaCenter/ViewFile/Agenda/_11032026-415
+  source_title: 'City of River Oaks: Notice to the Public, City Departments Weekly Staff Meeting, November 3, 2026 (agenda)'
+  source_kind: document
+  sha256: 5bd0b457eaee07b9f462292f1b6aa646705fe30bc67023fc4d7f23f6239ff87c
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

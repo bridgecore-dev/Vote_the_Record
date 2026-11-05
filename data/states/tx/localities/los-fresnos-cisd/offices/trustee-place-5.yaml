@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Los Fresnos CISD Trustee, Place 5
+office_type: school-trustee
+holders:
+- person: donald-henderson
+  start: null
+  end: null
+  basis: tx/localities/los-fresnos-cisd/offices/trustee-place-5#S-01
+sources:
+- id: tx/localities/los-fresnos-cisd/offices/trustee-place-5#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Los Fresnos CISD: Board Members), checked on November 5, 2026, shows Donald Henderson as
+    Los Fresnos CISD Trustee, Place 5. It reads: "Donald Henderson President Place 5 Trustee"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.lfcisd.net/apps/pages/index.jsp?uREC_ID=1823983&type=d&pREC_ID=2079407
+  source_title: 'Los Fresnos CISD: Board Members'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

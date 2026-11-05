@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Lubbock Central Appraisal District Director, Place 2
+office_type: appraisal-district-director
+holders:
+- person: jim-baxa
+  start: null
+  end: null
+  basis: tx/localities/lubbock-central-appraisal-district/offices/director-place-2#S-01
+sources:
+- id: tx/localities/lubbock-central-appraisal-district/offices/director-place-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Lubbock Central Appraisal District: Members), checked on November 5, 2026, shows Jim Baxa
+    as Lubbock Central Appraisal District Director, Place 2. It reads: "Jim Baxa - Director, Place 2"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.lubbockcad.org/Members
+  source_title: 'Lubbock Central Appraisal District: Members'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

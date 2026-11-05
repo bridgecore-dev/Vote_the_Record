@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Baytown City Council, District 3
+office_type: city-council-member
+holders:
+- person: ken-griffith
+  start: null
+  end: null
+  basis: tx/localities/city-of-baytown/offices/council-district-3#S-01
+sources:
+- id: tx/localities/city-of-baytown/offices/council-district-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Baytown, TX: Mayor & City Council), checked on November 5, 2026, shows Ken Griffith as Baytown
+    City Council, District 3. It reads: "Ken Griffith Council Member District 3"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://baytown.org/593/Mayor-City-Council
+  source_title: 'Baytown, TX: Mayor & City Council'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

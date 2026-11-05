@@ -131,6 +131,23 @@ def test_the_roster_collector_never_changes_a_seat_and_keeps_two_people_apart(ro
     assert "data/states/tx/people/pat-doe-other-county.yaml" in {t.relative_to(root).as_posix() for t, _ in writes}
 
 
+def test_a_board_on_file_in_part_gets_the_rest_of_its_members(roster_repo):
+    root, saved = roster_repo
+    board = "tx/localities/test-county/offices/board"
+    for target, text in rosters.plan([roster(saved, seat(board, "Board", ["Pat Doe"], "Pat Doe"))])[0]:
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_text(text, encoding="utf-8")
+    writes, notes = rosters.plan([roster(saved, seat(board, "Board", ["Lee Roe", "Pat Doe"], "Lee Roe"))])
+    doc = yaml.safe_load(next(text for t, text in writes if "offices" in t.as_posix()))
+    assert [h["person"] for h in doc["holders"]] == ["pat-doe", "lee-roe"]
+    assert doc["holders"][1]["basis"] == f"{board}#S-02" == doc["sources"][1]["id"]
+    assert any(n.startswith(f"EXTEND {board}") for n in notes)
+    # a member on file who isn't on the roster: reported, not changed
+    writes, notes = rosters.plan([roster(saved, seat(board, "Board", ["Lee Roe"], "Lee Roe"))])
+    assert not any("offices" in t.as_posix() for t, _ in writes)
+    assert any(n.startswith(f"DIFFERS {board}") for n in notes)
+
+
 def test_names_from_ballots_become_readable_and_ids_fold_accents():
     assert seed_officials.proper("RAFAEL D. PEÑA III") == "Rafael D. Peña III"
     assert seed_officials.slugify("Rafael D. Peña III") == "rafael-d-pena-iii"
