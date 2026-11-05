@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Sheriff
+office_type: sheriff
+holders:
+- person: justin-lindemann
+  start: null
+  end: null
+  basis: tx/localities/colorado-county/offices/sheriff#S-01
+sources:
+- id: tx/localities/colorado-county/offices/sheriff#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Colorado County Sheriff''s Office: Administration), checked on November 5, 2026, shows Justin
+    Lindemann as Sheriff. It reads: "Sheriff Justin Lindemann"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.coloradoso.net/administration
+  source_title: 'Colorado County Sheriff''s Office: Administration'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

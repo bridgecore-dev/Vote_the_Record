@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Clerk
+office_type: county-clerk
+holders:
+- person: heather-henigan
+  start: null
+  end: null
+  basis: tx/localities/harrison-county/offices/county-clerk#S-01
+sources:
+- id: tx/localities/harrison-county/offices/county-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Harrison County, Texas: County Clerk), checked on November 5, 2026, shows Heather Henigan
+    as County Clerk. It reads: "Heather Henigan Harrison County Clerk"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.harrisoncountytexas.gov/page/CountyClerk
+  source_title: 'Harrison County, Texas: County Clerk'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

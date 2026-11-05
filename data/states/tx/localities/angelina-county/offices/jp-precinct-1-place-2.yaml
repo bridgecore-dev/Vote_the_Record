@@ -1,18 +1,14 @@
 # Who holds this seat, from official rosters. Unverified.
 name: Justice of the Peace, Precinct 1, Place 2
 office_type: justice-of-the-peace
-holders:
-- person: position-vacant-angelina-county
-  start: null
-  end: null
-  basis: tx/localities/angelina-county/offices/jp-precinct-1-place-2#S-01
+vacant: true
+holders: []
 sources:
 - id: tx/localities/angelina-county/offices/jp-precinct-1-place-2#S-01
   headline: Who holds this office now
   statement: 'The official document (Texas Office of Court Administration: Court Activity Reporting and Directory System,
     Directory Search Results (personnel export, justice of the peace courts, all counties)), checked on November 4, 2026,
-    shows Position Vacant as Justice of the Peace, Precinct 1, Place 2. It reads: "Precinct 1 Place 2 Angelina Position Vacant
-    Judge"'
+    shows nobody as Justice of the Peace, Precinct 1, Place 2. It reads: "Precinct 1 Place 2 Angelina Position Vacant Judge"'
   label: official_record
   claim_status: documented
   contradicted_by: []

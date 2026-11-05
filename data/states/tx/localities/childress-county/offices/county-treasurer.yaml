@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Treasurer
+office_type: county-treasurer
+holders:
+- person: brenda-overstreet
+  start: null
+  end: null
+  basis: tx/localities/childress-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/childress-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Childress County Texas: County Treasurer), checked on November 5, 2026, shows Brenda Overstreet
+    as County Treasurer. It reads: "County Treasurer Brenda Overstreet"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.childresstx.us/pages/county-treasurer
+  source_title: 'Childress County Texas: County Treasurer'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
