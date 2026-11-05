@@ -6,9 +6,9 @@ covers: whole
 counts:
   steve-radack: 92210
   lesley-briones: 155712
-other_votes: 46
+  michelle-gwinn: 46
 sources:
-- id: tx/localities/harris-county/elections/2026-11-03/commissioner-precinct-4/result#S-01
+- id: tx/localities/harris-county/elections/2026-11-03/commissioner-precinct-4/result#S-02
   statement: Harris County Cumulative Results Report, General and Special Elections, 11/3/2026 (Unofficial; run 11/04/2026 12:50 AM) lists these vote counts for "County Commissioner, Precinct 4" (unofficial, as of 2026-11-04).
   label: official_record
   claim_status: documented

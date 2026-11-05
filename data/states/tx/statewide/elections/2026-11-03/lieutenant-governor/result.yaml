@@ -8,9 +8,10 @@ counts:
   vikki-goodwin: 4814293
   kevin-mccormick: 81299
   dan-patrick: 4274861
-other_votes: 1197
+  arturo-espinosa: 518
+  stephen-samuelson: 679
 sources:
-- id: tx/statewide/elections/2026-11-03/lieutenant-governor/result#S-01
+- id: tx/statewide/elections/2026-11-03/lieutenant-governor/result#S-02
   statement: 'Texas Secretary of State: Election Night Returns, 2026 November General Election (Unofficial; last updated Nov 4, 2026 4:28 AM CST, 253 of 254 counties reporting) lists these vote counts for "LIEUTENANT GOVERNOR" (unofficial, as of 2026-11-04).'
   label: official_record
   claim_status: documented

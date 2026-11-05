@@ -26,8 +26,8 @@ How contests are matched to the ballot (never by guessing):
 Unmatched contests and choices are listed, never written.
 
 What gets written, per matched contest (CLAUDE.md rules 2, 3, 3a):
-  - counts by candidate id (or by measure choice as printed); write-in totals go to other_votes; over/under votes
-    are left out;
+  - counts by candidate id (or by measure choice as printed), a declared write-in candidate's line included; other
+    write-ins go to other_votes; over/under votes are left out;
   - status and as_of; covers "whole" for the county's own contests and any --whole path, else "partial" with a
     note naming the county (a city or district that crosses county lines). With --ballot, statewide and district
     races are skipped unless listed in --whole: their totals come from the Secretary of State (--statewide);
@@ -65,6 +65,7 @@ SKIP_CHOICES = re.compile(r"(?i)^(over\s*votes?|under\s*votes?|overvotes?|underv
                           r"total votes cast|not assigned|cast votes:?|contest totals)$")
 WRITE_IN_TOTAL = re.compile(r"(?i)^write[\s-]*in totals?$")
 WRITE_IN = re.compile(r"(?i)write[\s-]*in|\(w\)\s*$")
+WRITE_IN_MARK = re.compile(r"(?i)^write[\s-]*in\s*:?\s*|\s*\(w\)\s*$")  # "Write-in: Terry Morrow", "MIKE MILLER (W)"
 
 
 def key(s: str) -> str:
@@ -362,6 +363,13 @@ def match_choices(contest: dict, choices: list[str]) -> tuple[dict, list[str], l
         k = name_keys(c)
         hits = [x for x in contest["candidates"] if k & name_keys(x["name"])]
         (found.__setitem__(c, hits[0]["id"]) if len(hits) == 1 else unknown.append(c))
+    # a write-in line naming one of the race's declared write-in candidates is that candidate's count
+    for c in [w for w in writeins if not WRITE_IN_TOTAL.match(w)]:
+        k = name_keys(WRITE_IN_MARK.sub("", c))
+        hits = [x for x in contest["candidates"] if x["write_in"] and k & name_keys(x["name"])]
+        if len(hits) == 1:
+            found[c] = hits[0]["id"]
+            writeins.remove(c)
     # every printed name must belong to the race: two people can share a name (Tarrant's two David Cooks, one in a
     # Senate race, one alone in a county court race)
     if not listed or {x["id"] for x in listed} - set(found.values()) or unknown:
@@ -461,9 +469,10 @@ def plan(contests: list[dict], rows: list[tuple[str, str, int]], manual: dict[st
         counts = {}
         for printed, target in found.items():
             counts[target] = counts.get(target, 0) + votes[printed]
+        # a "Write-In Totals" line already sums the write-in lines listed under it (ES&S), named candidates' included
+        named_writeins = sum(votes[p] for p in found if WRITE_IN.search(p))
         matched.append({"contest": contest, "title": REPEAT_MARK.sub("", shown.get(title, title)), "counts": counts,
-                        # a "Write-In Totals" line already sums the write-in lines listed under it (ES&S)
-                        "other_votes": next((votes[w] for w in writeins if WRITE_IN_TOTAL.match(w)),
+                        "other_votes": next((votes[w] - named_writeins for w in writeins if WRITE_IN_TOTAL.match(w)),
                                             sum(votes[w] for w in writeins))})
     return matched, problems
 

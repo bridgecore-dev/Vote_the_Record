@@ -7,9 +7,12 @@ counts:
   greg-abbott: 4313096
   pat-dixon: 136614
   gina-hinojosa: 4950772
-other_votes: 3605
+  edward-earl-giles: 398
+  jenn-mack: 2014
+  jinghpaw-majoishingra: 68
+  mike-miller: 1125
 sources:
-- id: tx/statewide/elections/2026-11-03/governor/result#S-01
+- id: tx/statewide/elections/2026-11-03/governor/result#S-02
   statement: 'Texas Secretary of State: Election Night Returns, 2026 November General Election (Unofficial; last updated Nov 4, 2026 4:28 AM CST, 253 of 254 counties reporting) lists these vote counts for "GOVERNOR" (unofficial, as of 2026-11-04).'
   label: official_record
   claim_status: documented

@@ -250,16 +250,16 @@ def assemble_result(doc: dict, contest: dict) -> dict:
     outcome = doc.get("outcome") or {}
     named = set(outcome.get("candidates") or [])
 
-    def row(key, label):
+    def row(key, label, write_in=False):
         votes = counts[key]
         return {"key": key, "label": label, "votes": votes, "pct": round(100 * votes / total, 1) if total else 0.0,
-                "outcome": OUTCOME_WORDS[outcome["result"]] if key in named else None}
+                "outcome": OUTCOME_WORDS[outcome["result"]] if key in named else None, "write_in": write_in}
 
     if contest["kind"] == "measure":
         rows = [row(c, c) for c in contest["choices"]]
         decided = OUTCOME_WORDS[outcome["result"]] if outcome else None
     else:
-        rows = [row(c["id"], c["name"]) for c in contest["candidates"] if c["id"] in counts]
+        rows = [row(c["id"], c["name"], bool(c.get("write_in"))) for c in contest["candidates"] if c["id"] in counts]
         decided = None
     verified = all(s["verification"] == "verified" for s in doc["sources"])
     return {"status": doc["status"], "as_of": doc["as_of"], "covers": doc["covers"], "covers_note": doc.get("covers_note"),

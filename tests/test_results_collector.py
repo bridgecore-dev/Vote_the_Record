@@ -163,7 +163,9 @@ def test_ess_summary_report_titles_wrap_and_write_in_totals_count_once(demo, tmp
         encoding="utf-8")
     results.main(["--statewide", "TX", "2026-11-03", "--root", str(root), "--file", str(export), "--source-url",
                   "https://example.org/sos", "--source-title", "DEMO", "--as-of", "2026-11-04", "--write"])
-    assert read(root, "tx/statewide/elections/2026-11-03/governor")["other_votes"] == 15
+    # Wren Writein is a declared write-in candidate: their line is their count, and only the rest is other votes
+    governor = read(root, "tx/statewide/elections/2026-11-03/governor")
+    assert governor["counts"]["wren-writein"] == 12 and governor["other_votes"] == 3
 
 
 def test_hart_report_one_value_per_line_drops_page_tops_and_takes_the_total():
@@ -300,3 +302,20 @@ def test_a_title_that_comes_back_or_whose_choices_start_over_is_another_contest(
             ("Proposition A", "For", 3), ("Proposition A", "Against", 4), ("Proposition A", "For", 1)]
     assert [r[0] for r in results.mark_repeats(rows)] == \
         ["Proposition A"] * 2 + ["Mayor"] + ["Proposition A [2]"] * 2 + ["Proposition A [3]"]
+
+
+def test_a_declared_write_in_candidate_gets_their_own_count_and_the_rest_stay_other_votes():
+    race = {"path": "tx/localities/demo-county/elections/2026-11-03/county-clerk", "kind": "race", "name": "County Clerk",
+            "election_date": "2026-11-03",
+            "candidates": [{"id": "pat-listed", "name": "Pat Listed", "write_in": False},
+                           {"id": "terry-writein", "name": "Terry Writein", "write_in": True}]}
+    # ES&S: a "Write-In Totals" line sums the named and the uncertified write-ins under it
+    rows = [("County Clerk", "Pat Listed", 500), ("County Clerk", "Write-In Totals", 120),
+            ("County Clerk", "Write-in: Terry Writein", 100), ("County Clerk", "Write-in Not Certified", 20)]
+    (m,), problems = results.plan([race], rows, {})
+    assert m["counts"] == {"pat-listed": 500, "terry-writein": 100} and m["other_votes"] == 20 and problems == []
+    # the Secretary of State and Hart print each write-in as "NAME (W)" with no total line
+    rows = [("COUNTY CLERK", "PAT LISTED", 500), ("COUNTY CLERK", "TERRY WRITEIN (W)", 100),
+            ("COUNTY CLERK", "SOMEONE ELSE (W)", 7)]
+    (m,), problems = results.plan([race], rows, {})
+    assert m["counts"] == {"pat-listed": 500, "terry-writein": 100} and m["other_votes"] == 7
