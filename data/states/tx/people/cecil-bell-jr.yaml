@@ -2,8 +2,30 @@
 id: cecil-bell-jr
 name: Cecil Bell Jr.
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/cecil-bell-jr#M-01
+  headline: Raised $102,260 and had $19,625 on hand (Feb 22 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Feb 22 - Jun 30, 2026, filed Jul 15, 2026: $102,260.12 in total political contributions,
+    $73,258.84 in total political expenditures, $19,625.49 in contributions on hand at the end of the period, and $82,140.00
+    in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101061435.PDF
+  source_title: 'Texas Ethics Commission: Bell Jr., Cecil I. (The Honorable), campaign finance report 101061435 (filed Jul
+    15, 2026)'
+  source_kind: document
+  sha256: 26e02e360009964cb807496767e162f6a68293812b5491d9bdaf5804b3c3afef
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101061435, form COH, TEC report type SEMIJUL; filer ID 00067547 (Bell Jr., Cecil I. (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period
+    ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

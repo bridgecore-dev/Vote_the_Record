@@ -2,8 +2,31 @@
 id: pat-gallagher
 name: Pat Gallagher
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/pat-gallagher#M-01
+  headline: Had $39,491 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 13, 2026: $8,919.31 in total political expenditures,
+    $39,490.76 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no
+    amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101059256.PDF
+  source_title: 'Texas Ethics Commission: Gallagher, Joseph Patrick (The Honorable), campaign finance report 101059256 (filed
+    Jul 13, 2026)'
+  source_kind: document
+  sha256: 8c9ad7e9fb1f3638228fc577805a3ecf9ba417eaf526623b46b0e779d84c11be
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101059256, form JCOH, TEC report type SEMIJUL; filer ID 00062521 (Gallagher, Joseph Patrick (The Honorable)).
+    Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv)
+    and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against
+    the PDF. This is the filer's latest report for a period ending by 2026-11-05; a correction filed later replaces the version
+    it corrects.
 promise_tracker: []

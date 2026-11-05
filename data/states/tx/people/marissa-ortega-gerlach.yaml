@@ -3,8 +3,33 @@ id: marissa-ortega-gerlach
 name: Marissa Ortega Gerlach
 candidacies:
 - tx/localities/city-of-mission/elections/2026-11-03/council-place-3/candidates/marissa-ortega-gerlach
-research: pending
-records: []
+records:
+- id: tx/people/marissa-ortega-gerlach#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 city tax rate of $0.5580 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of the Mission City Commission, voted FOR the proposal of a 2025 Mission tax rate of $0.5580 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.5349) and not above the voter-approval rate ($0.5590).
+    The notice lists Mayor Gonzalez Garza, Mayor Pro-Tem Plata, Councilwoman Ortega, Councilwoman Gerlach and Councilman Vela
+    voting for, and none against.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://mccmeetingspublic.blob.core.usgovcloudapi.net/missiontx-meet-72f3d0c630e54838a5f35838ca8da553/ITEM-Attachment-001-564ae0f5b79e4e47a597a8d9ff0e7ff5.pdf
+  source_title: 'City of Mission: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: a94bc4c0b3fab0c520a8250c2388e9e9b9d9ba24e7ad62ec49b354b34724f721
+  archive_url: null
+  event_date: '2025-09-09'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or its own date; event_date is the public hearing date printed in the notice
+    (September 9, 2025). In the PDF the five names sit beside 'FOR the proposal:'; the plain text extraction (notice-2025.txt)
+    prints them after the table, and notice-2025.layout.txt keeps the page layout showing them in the FOR line. AGAINST and
+    PRESENT read N/A; ABSENT is blank. Source is the notice attached to the City of Mission's meeting agenda.
 statements: []
 funding: []
 promise_tracker: []

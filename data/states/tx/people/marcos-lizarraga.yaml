@@ -2,8 +2,30 @@
 id: marcos-lizarraga
 name: Marcos Lizarraga
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/marcos-lizarraga#M-01
+  headline: Had $11,088 on hand (Jan 1 - Jun 30, 2025)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2025, filed Jul 15, 2025: $811.88 in total political expenditures,
+    $11,088.12 in contributions on hand at the end of the period, and $67,000.00 in outstanding loans. The report data lists
+    no amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2025/pdfs/ScrubbedReport_101009838.PDF
+  source_title: 'Texas Ethics Commission: Lizarraga, Marcos (The Honorable), campaign finance report 101009838 (filed Jul
+    15, 2025)'
+  source_kind: document
+  sha256: f45f1fa18325630cad4079354f9055ccdc105680203529fa1eba3c0a1a4795c3
+  archive_url: null
+  event_date: '2025-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101009838, form JCOH, TEC report type SEMIJUL; filer ID 00042219 (Lizarraga, Marcos (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period
+    ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

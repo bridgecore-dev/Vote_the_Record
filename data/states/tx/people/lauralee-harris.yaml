@@ -2,8 +2,31 @@
 id: lauralee-harris
 name: Lauralee Harris
 candidacies: []
-research: pending
-records: []
+records:
+- id: tx/people/lauralee-harris#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 city tax rate of $0.595700 per $100 (Sept. 2025)
+  result: Proposed 6-0.
+  statement: As a member of the Kyle City Council, voted FOR the proposal of a 2025 Kyle tax rate of $0.595700 per $100, which
+    the notice lists as above the no-new-revenue rate ($0.488509) and not above the voter-approval rate ($0.595715). The notice
+    lists Mayor Mitchell, Mayor Pro Tem Heiser, and Council Members Zuniga, Harris, McKinney and Tobias voting for, none against,
+    none present and not voting, and none absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cityofkyle.gov/media/uc5pgqc1/notice_of_public_hearing_on_tax_increase_8-27-2025.pdf
+  source_title: 'City of Kyle: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 14b90afe6ec279baa510e86dc481159586cc113a05195ac0a6d232a481095ed9
+  archive_url: null
+  event_date: '2025-09-16'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or its own date; event_date is the public hearing date printed in the notice
+    (09/16/2025). The notice's file name on the city site carries 8-27-2025.
 statements: []
 funding: []
 promise_tracker: []

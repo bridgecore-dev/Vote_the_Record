@@ -2,8 +2,30 @@
 id: angela-h-saucier
 name: Angela H. Saucier
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/angela-h-saucier#M-01
+  headline: Raised $0 and had $3 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jun 22, 2026: $0.00 in total political contributions,
+    $0.00 in total political expenditures, $3.27 in contributions on hand at the end of the period, and $0.00 in outstanding
+    loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101055487.PDF
+  source_title: 'Texas Ethics Commission: Saucier, Angela H. (The Honorable), campaign finance report 101055487 (filed Jun
+    22, 2026)'
+  source_kind: document
+  sha256: 14685eda31b4f8c45079ebc083f69bbc8f086335d3f9e892ffe125566a26c24f
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101055487, form JCOH, TEC report type SEMIJUL; filer ID 00083373 (Saucier, Angela H. (The Honorable)).
+    Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv)
+    and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for
+    a period ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

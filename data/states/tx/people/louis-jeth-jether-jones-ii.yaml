@@ -2,8 +2,30 @@
 id: louis-jeth-jether-jones-ii
 name: Louis (Jeth) Jether Jones II
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/louis-jeth-jether-jones-ii#M-01
+  headline: Raised $3,750 and had $112,986 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 15, 2026: $3,750.00 in total political contributions,
+    $32,455.64 in total political expenditures, $112,986.12 in contributions on hand at the end of the period, and $12,500.00
+    in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101061259.PDF
+  source_title: 'Texas Ethics Commission: Jones, Louis J. (The Honorable), campaign finance report 101061259 (filed Jul 15,
+    2026)'
+  source_kind: document
+  sha256: 721c2c8420a9d46e0f6f005e5ae3b218e37c09c3fd3f804a865ffb3c1788b372
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101061259, form JCOH, TEC report type SEMIJUL; filer ID 00085621 (Jones, Louis J. (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period
+    ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

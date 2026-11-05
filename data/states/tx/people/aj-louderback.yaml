@@ -2,8 +2,31 @@
 id: aj-louderback
 name: AJ Louderback
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/aj-louderback#M-01
+  headline: Raised $111,433 and had $224,789 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $111,433.49 in total political contributions,
+    $15,257.23 in total political expenditures, $224,788.68 in contributions on hand at the end of the period, and $100,000.00
+    in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071885.PDF
+  source_title: 'Texas Ethics Commission: Louderback, Andrew J. (The Honorable), campaign finance report 101071885 (filed
+    Oct 26, 2026)'
+  source_kind: document
+  sha256: 8ee48818d8ef6863d0a9171dcc0de05945171c58bed1a88dc5946600e7d2edcf
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071885, form COH, TEC report type E08DAYBEF; filer ID 00088181 (Louderback, Andrew J. (The Honorable)).
+    Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv)
+    and matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against
+    the PDF. This is the filer's latest report for a period ending by 2026-11-05; a correction filed later replaces the version
+    it corrects.
 promise_tracker: []

@@ -2,8 +2,33 @@
 id: ben-long
 name: Ben Long
 candidacies: []
-research: pending
-records: []
+records:
+- id: tx/people/ben-long#R-01
+  record_type: vote
+  headline: Voted against proposing a 2026 city tax rate of $0.549999 per $100 (Aug. 2026)
+  result: Proposed 6-2.
+  statement: As a member of the Princeton City Council, voted AGAINST the proposal of a 2026 Princeton tax rate of $0.549999
+    per $100, which the notice lists as above the no-new-revenue rate ($0.445102) and above the voter-approval rate ($0.441143).
+    The notice lists Mayor Escobar and Council Members Todd, Rutledge, Washington, Deffibaugh and David-Graves voting for,
+    and Council Members Johnson and Long voting against.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://princetontx.gov/DocumentCenter/View/8792
+  source_title: 'City of Princeton: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 61cfb42d24e51f071886f6c23cb60b0a78947441f5872c34aeb7a1ac9f8676dd
+  archive_url: null
+  event_date: '2026-08-17'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or its own date; event_date is the public hearing date printed in the notice
+    (August 17, 2026). This is the 2026 notice (tax year 2026); the 2025 notice was not found on the city site. The notice
+    also says that, because the proposed rate is above the voter-approval rate, adopting it would require an election on November
+    3, 2026.
 statements: []
 funding: []
 promise_tracker: []

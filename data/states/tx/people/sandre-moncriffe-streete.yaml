@@ -2,8 +2,30 @@
 id: sandre-moncriffe-streete
 name: Sandre Moncriffe Streete
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/sandre-moncriffe-streete#M-01
+  headline: Had $248 on hand (Feb 22 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Feb 22 - Jun 30, 2026, filed Jul 15, 2026: $3,064.89 in total political expenditures,
+    $248.00 in contributions on hand at the end of the period, and $35,500.00 in outstanding loans. The report data lists
+    no amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101061489.PDF
+  source_title: 'Texas Ethics Commission: Streete, Sandre M. (The Honorable), campaign finance report 101061489 (filed Jul
+    15, 2026)'
+  source_kind: document
+  sha256: 838f7d54afd40dd224aa44ee87f8555915b0e479e13a6d3fdc31dbc190b8f5e2
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101061489, form JCOH, TEC report type SEMIJUL; filer ID 00081697 (Streete, Sandre M. (The Honorable)).
+    Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv)
+    and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for
+    a period ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

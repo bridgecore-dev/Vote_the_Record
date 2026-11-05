@@ -2,8 +2,31 @@
 id: mike-pilkington
 name: Mike Pilkington
 candidacies: []
-research: pending
-records: []
+records:
+- id: tx/people/mike-pilkington#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 city tax rate of $0.6999 per $100 (Aug. 2025)
+  result: Proposed 5-0.
+  statement: As a member of the Temple City Council, voted FOR the proposal of a 2025 City of Temple tax rate of $0.6999 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.6144) and below the voter-approval rate ($0.8032). The
+    notice lists Mayor Timothy A. Davis, Mayor Pro Tem Jessica Walker, Council Member Zoe Grant, Council Member Mike Pilkington,
+    and Karl Kuykendall voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.templetx.gov/departments/administration/city_finance/2025_notice_of_tax_rates.php
+  source_title: 'City of Temple: Notice About 2025 Tax Rates (includes Notice of Public Hearing on Tax Increase)'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-08-28'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote; event_date is the hearing date (Aug. 28, 2025) printed in the notice. The
+    notice text is on the city's web page.
 statements: []
 funding: []
 promise_tracker: []

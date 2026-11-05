@@ -18,7 +18,8 @@ a roll call) and the records it shows:
                 "quote": "FOR: Judge Smith, Commissioner Chapin ...",
                 "notes": null}]}
 
-A record goes to whoever holds the seat now, and only if the name printed in the source matches them (their
+A record goes to whoever holds the seat now (on a board seated at large, the one member whose last name is
+printed), and only if the name printed in the source matches them (their
 last name appears in printed_name), the printed name and the quote both appear in the saved text, and the
 same source isn't already on their file for that headline. IDs continue the person's R-NN numbering.
 Everything is written unverified (CLAUDE.md rule 3a). Preview first; --write to apply.
@@ -64,12 +65,21 @@ def candidacy_records(person: dict) -> list[dict]:
     return out
 
 
-def holder(seat: str, today: str) -> str | None:
+def last_name(name: str) -> str:
+    return fold(re.sub(r"(,? (jr|sr|ii|iii|iv|ed\.?d|m\.?d|ph\.?d)\.?)+$", "", name, flags=re.I)).split()[-1]
+
+
+def holder(seat: str, today: str, printed: str) -> str | None:
+    """Whoever holds the seat now; on a board seated at large, the one member whose last name is printed."""
     f = DATA / f"{seat}.yaml"
     if not f.is_file():
         return None
     now = [h["person"] for h in yaml.safe_load(f.read_text(encoding="utf-8"))["holders"]
            if not h["end"] or h["end"] >= today]
+    if len(now) > 1:
+        words = fold(printed).split()
+        now = [p for p in now if last_name(yaml.safe_load(
+            (DATA / seat.split("/")[0] / "people" / f"{p}.yaml").read_text(encoding="utf-8"))["name"]) in words]
     return now[0] if len(now) == 1 else None
 
 
@@ -92,13 +102,13 @@ def plan(files: list[Path], today: str) -> tuple[dict[Path, dict], list[str]]:
             sha = hashlib.sha256(original.read_bytes()).hexdigest()
         for rec in src["records"]:
             seat, printed = rec["seat"], rec["printed_name"]
-            who = holder(seat, today)
+            who = holder(seat, today, printed)
             if not who:
-                notes.append(f"REFUSE {seat}: no single current holder on file")
+                notes.append(f"REFUSE {seat}: no single current holder on file named {printed!r}")
                 continue
             target = DATA / seat.split("/")[0] / "people" / f"{who}.yaml"
             doc = people.get(target) or yaml.safe_load(target.read_text(encoding="utf-8"))
-            last = fold(re.sub(r"(,? (jr|sr|ii|iii|iv|ed\.?d|m\.?d|ph\.?d)\.?)+$", "", doc["name"], flags=re.I)).split()[-1]
+            last = last_name(doc["name"])
             missing = [x for x in (printed, rec["quote"]) if norm(x) not in text]
             if rec["record_type"] not in RECORD_TYPES:
                 notes.append(f"REFUSE {seat}: record_type {rec['record_type']}")

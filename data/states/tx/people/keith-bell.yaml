@@ -2,8 +2,31 @@
 id: keith-bell
 name: Keith Bell
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/keith-bell#M-01
+  headline: Raised $234,863 and had $1,050,791 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $234,863.32 in total political contributions,
+    $51,643.22 in total political expenditures, $1,050,791.13 in contributions on hand at the end of the period, and $0.00
+    in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071816.PDF
+  source_title: 'Texas Ethics Commission: Bell, Gregory (The Honorable), campaign finance report 101071816 (filed Oct 26,
+    2026)'
+  source_kind: document
+  sha256: 5433a63bdb86d020e95606dcb30ad43120d670b06e162acb7951dabca65aa3c0
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071816, form COH, TEC report type E08DAYBEF; filer ID 00082346 (Bell, Gregory (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by nickname, middle name, or initial, with office and district; every total in this fact was checked against the
+    PDF. This is the filer's latest report for a period ending by 2026-11-05; a correction filed later replaces the version
+    it corrects.
 promise_tracker: []

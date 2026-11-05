@@ -3,7 +3,31 @@ id: joel-marks
 name: Joel Marks
 candidacies:
 - tx/localities/city-of-the-colony/elections/2026-11-03/council-place-6/candidates/joel-marks
-records: []
+records:
+- id: tx/people/joel-marks#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 city tax rate of $0.6300 per $100 (Aug. 2025)
+  result: Proposed 7-0.
+  statement: As a member of the The Colony City Council, voted FOR the proposal of a 2025 City of The Colony tax rate of $0.6300
+    per $100, which the notice lists as above the no-new-revenue rate ($0.599298) and below the voter-approval rate ($0.928499).
+    The notice lists BOYER, ENSWEILER, HOLTZ, WADE, RAINEY, SCHRAG, and MARKS voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.thecolonytx.gov/DocumentCenter/View/12659/Notice-of-Public-Hearing-on-Tax-Increase
+  source_title: 'City of The Colony: 2025 Notice of Public Hearing on Tax Rate (Form 50-876)'
+  source_kind: document
+  sha256: aa2f8eef013e9d925a4a2dd12f7402145b560e59ffe9979f4eb9a780b46d67f3
+  archive_url: null
+  event_date: '2025-08-19'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice (Comptroller Form 50-876) is required by Tax Code § 26.06 and lists how each member of the governing body
+    voted on the proposal; the values are in the PDF's filled form fields, which are appended to the saved text. It lists
+    members by last name only, and no one against, present and not voting, or absent. The notice does not give the date of
+    the vote; event_date is the hearing date (Aug. 19, 2025) printed in the notice.
 statements: []
 funding: []
 promise_tracker: []

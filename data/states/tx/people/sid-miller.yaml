@@ -2,8 +2,29 @@
 id: sid-miller
 name: Sid Miller
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/sid-miller#M-01
+  headline: Raised $156,122 and had $13,947 on hand (Feb 22 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Feb 22 - Jun 30, 2026, filed Jul 15, 2026: $156,122.00 in total political contributions,
+    $355,784.44 in total political expenditures, $13,947.20 in contributions on hand at the end of the period, and $45,050.00
+    in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101052567.PDF
+  source_title: 'Texas Ethics Commission: Miller, Sid (The Honorable), campaign finance report 101052567 (filed Jul 15, 2026)'
+  source_kind: document
+  sha256: a128ab47b725b65b5a7849e0b2c23dffd54617c568528e052b1e1f4f8dd20978
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101052567, form COH, TEC report type SEMIJUL; filer ID 00042143 (Miller, Sid (The Honorable)). Found in
+    TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched
+    by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending
+    by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

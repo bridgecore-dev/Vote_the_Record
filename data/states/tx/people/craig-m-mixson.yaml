@@ -2,8 +2,30 @@
 id: craig-m-mixson
 name: Craig M. Mixson
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/craig-m-mixson#M-01
+  headline: Had $0 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 13, 2026: $0.00 in contributions on hand at
+    the end of the period, and $0.00 in outstanding loans. The report data lists no amount for total political contributions
+    or total political expenditures.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101060240.PDF
+  source_title: 'Texas Ethics Commission: Mixson, Craig M. (The Honorable), campaign finance report 101060240 (filed Jul 13,
+    2026)'
+  source_kind: document
+  sha256: 458f4e76229e93c47fb3a657ca800a7136fbf073c0809e5e4ebf31a895a5dcdd
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101060240, form JCOH, TEC report type SEMIJUL; filer ID 00067842 (Mixson, Craig M. (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period
+    ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

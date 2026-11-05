@@ -25,6 +25,9 @@ and district judges; site/site.yaml campaign_finance):
     file to their report's PDF, changing only source fields.)
   - For candidates with no such report, adds one race fact (S-FUND) saying so, if the race has
     none yet; otherwise it prints a note to update by hand.
+With --officials instead of --ballot, it does the same for every current holder of a seat whose
+reports go to TEC who has no 2026 candidacy (docs/OFFICIALS.md), adding the latest report as a
+funding fact on their person file; a holder with no report is only listed.
 Every fact is written unverified (CLAUDE.md rule 3a).
 """
 
@@ -81,7 +84,7 @@ def norm(text: str) -> list[str]:
 
 
 def race_district(race_path: str) -> str | None:
-    m = re.search(r"(?:state-house|state-senate|sboe|court-of-appeals|district-court)-(\d+)", race_path)
+    m = re.search(r"(?:state-house|state-senate|sboe|court-of-appeals|district-court|judicial-district)-(\d+)", race_path)
     return m.group(1).lstrip("0") if m else None
 
 
@@ -375,6 +378,66 @@ def plan(root: Path, ballot_path: Path, tec: TecData, zip_sha: str, retrieved: s
     return [(p, hd) for p, hd in changes.items()], log
 
 
+def tec_seats(root: Path, config: dict) -> list[tuple[str, dict]]:
+    """(seat path under data/states, seat doc) for every Texas seat whose holders report to TEC."""
+    state_types = set(((config.get("campaign_finance") or {}).get("tx") or {}).get("state_office_types") or [])
+    out = []
+    for f in sorted((root / "data/states/tx").glob("**/offices/*.yaml")):
+        seat = yaml.safe_load(f.read_text(encoding="utf-8"))
+        office = seat["office_type"]
+        powers = root / "offices" / office / "powers.yaml"
+        level = yaml.safe_load(powers.read_text(encoding="utf-8")).get("level") if powers.exists() else None
+        if office in OFFICE_CODES and (level == "state" or office in state_types):
+            out.append((f.relative_to(root / "data/states").as_posix().removesuffix(".yaml"), seat))
+    return out
+
+
+def plan_officials(root: Path, tec: TecData, retrieved: str, config: dict,
+                   getter=http_get) -> tuple[list[tuple[Path, str]], list[str]]:
+    """Person files to rewrite (path, new text) and a log, for officeholders with no 2026 candidacy.
+
+    A holder who ran in 2026 already has the campaign's reports on their candidate file, which the
+    profile shows; everyone else gets their latest report as a funding fact on their own person file.
+    """
+    sys.path.insert(0, str(REPO / "src" / "tools"))
+    from seed_officials import to_yaml as person_yaml  # person files are written in the officials tools' format
+    changes: dict[Path, tuple[str, dict]] = {}
+    log = []
+    for seat_path, seat in tec_seats(root, config):
+        district = race_district(seat_path)
+        for h in seat["holders"]:
+            if h["end"]:
+                continue
+            person_file = root / "data/states/tx/people" / f"{h['person']}.yaml"
+            if person_file in changes:
+                header, person = changes[person_file]
+            else:
+                text = person_file.read_text(encoding="utf-8")
+                header = text.split("\n", 1)[0] + "\n" if text.startswith("#") else ""
+                person = yaml.safe_load(text)
+            if person.get("candidacies"):
+                continue
+            m = tec.match(person["name"], seat["office_type"], district)
+            if m["status"] != "report":
+                log.append(f"{m['status'].upper()} {seat_path}: {person['name']}"
+                           + (f" matches filers {', '.join(m['filers'])}" if m["status"] == "ambiguous" else ""))
+                continue
+            report_id = m["report"]["reportInfoIdent"]
+            if report_id in {report_id_of(f) for f in person.get("funding") or []}:
+                continue
+            pdf = report_pdf(m["report"], getter)
+            if pdf["problem"]:
+                log.append(f"BY HAND {seat_path}: {person['name']}, report {report_id}: {pdf['problem']} ({pdf['url'] or 'no URL'})")
+                continue
+            numbers = [int(x) for f in person.get("funding") or [] for x in re.findall(r"#M-(\d+)$", f["id"])]
+            fact_id = f"tx/people/{h['person']}#M-{max(numbers, default=0) + 1:02d}"
+            person["funding"] = list(person.get("funding") or []) + [funding_fact(fact_id, m, "", retrieved, pdf)]
+            person.pop("research", None)
+            changes[person_file] = (header, person)
+            log.append(f"ADD {fact_id}: report {report_id} ({m['matched_by']})")
+    return [(p, header + person_yaml(doc)) for p, (header, doc) in changes.items()], log
+
+
 def sha256(path: Path) -> str:
     h = hashlib.sha256()
     with path.open("rb") as fh:
@@ -385,11 +448,15 @@ def sha256(path: Path) -> str:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--ballot", type=Path, required=True)
+    which = parser.add_mutually_exclusive_group(required=True)
+    which.add_argument("--ballot", type=Path, help="one ballot's candidates")
+    which.add_argument("--officials", action="store_true",
+                       help="current officeholders with no 2026 candidacy (their person files)")
     src = parser.add_mutually_exclusive_group(required=True)
     src.add_argument("--zip", type=Path, help="a downloaded TEC_CF_CSV.zip")
     src.add_argument("--download", action="store_true", help=f"download it into cache/tec/ (about 1 GB)")
-    parser.add_argument("--since", help="earliest period end to count (default: Jan 1 of the year before the election)")
+    parser.add_argument("--since", help="earliest period end to count (default: Jan 1 of the year before the "
+                                        "election; with --officials, of last year)")
     parser.add_argument("--today", default=dt.date.today().isoformat())
     parser.add_argument("--root", type=Path, default=REPO)
     parser.add_argument("--write", action="store_true", help="write the changes (otherwise only print them)")
@@ -403,15 +470,21 @@ def main(argv: list[str] | None = None) -> int:
         zip_path.parent.mkdir(parents=True, exist_ok=True)
         print(f"Downloading {TEC_URL} ...")
         urllib.request.urlretrieve(TEC_URL, zip_path)
-    election = yaml.safe_load(args.ballot.read_text(encoding="utf-8"))["election_date"]
-    since = args.since or f"{int(election[:4]) - 1}-01-01"
+    year = (yaml.safe_load(args.ballot.read_text(encoding="utf-8"))["election_date"] if args.ballot else args.today)[:4]
+    since = args.since or f"{int(year) - 1}-01-01"
     config = yaml.safe_load((args.root / "site" / "site.yaml").read_text(encoding="utf-8")) or {}
     tec = TecData(zip_path, since, args.today)
-    changes, log = plan(args.root, args.ballot, tec, sha256(zip_path), args.today, since, config, relink=args.relink)
+    if args.officials:
+        changes, log = plan_officials(args.root, tec, args.today, config)
+    else:
+        changes, log = plan(args.root, args.ballot, tec, sha256(zip_path), args.today, since, config, relink=args.relink)
     print("\n".join(log) or "Nothing new.")
     if args.write:
-        for path, (header, doc) in changes:
-            write_doc(path, header, doc)
+        for path, written in changes:
+            if args.officials:
+                path.write_text(written, encoding="utf-8")
+            else:
+                write_doc(path, *written)
         print(f"Wrote {len(changes)} file(s). Every new fact is unverified.")
     else:
         print(f"{len(changes)} file(s) would change. Run again with --write to apply.")

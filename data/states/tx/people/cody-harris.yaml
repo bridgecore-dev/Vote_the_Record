@@ -2,8 +2,30 @@
 id: cody-harris
 name: Cody Harris
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/cody-harris#M-01
+  headline: Raised $54,013 and had $238,772 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 26, 2026: $54,013.32 in total political contributions,
+    $70,050.82 in total political expenditures, $238,771.50 in contributions on hand at the end of the period, and $0.00 in
+    outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071425.PDF
+  source_title: 'Texas Ethics Commission: Harris, Cody J. (The Honorable), campaign finance report 101071425 (filed Oct 26,
+    2026)'
+  source_kind: document
+  sha256: 34a6887b0b9a56f4fbf92076d14c27d0128f2e18c77b59d5a455dc1c5f7a6640
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101071425, form COH, TEC report type E08DAYBEF; filer ID 00082156 (Harris, Cody J. (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period
+    ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

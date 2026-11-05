@@ -130,6 +130,9 @@ Seat and person files are described in [OFFICIALS.md](OFFICIALS.md). To add or r
    with the date from an official source and adding the new holder.
 3. `python src/tools/seed_officials.py` did the first pass from the 2026 races' "Who holds this office now"
    facts; rerun it after a new election's roster checks (preview first, `--write` to apply).
+4. Campaign finance for officeholders who weren't 2026 candidates (state offices and district judges):
+   `python src/collectors/states/tx/tec_finance.py --officials --download`, then `--write`. It adds each
+   holder's latest TEC report, checked against the report's own PDF, to their person file.
 
 ## After Election Day (design, to build once results are certified)
 

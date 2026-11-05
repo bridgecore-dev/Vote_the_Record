@@ -2,8 +2,29 @@
 id: erica-r-hughes
 name: Erica R. Hughes
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/erica-r-hughes#M-01
+  headline: Had $316,003 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 9, 2026: $13,563.42 in total political expenditures,
+    $316,002.64 in contributions on hand at the end of the period, and $0.00 in outstanding loans. The report data lists no
+    amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101058581.PDF
+  source_title: 'Texas Ethics Commission: Hughes, Erica (The Honorable), campaign finance report 101058581 (filed Jul 9, 2026)'
+  source_kind: document
+  sha256: 29de66cb3812c1c37c58da239e9f87f0591af16562ae06ba563c3d7ec915c033
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101058581, form CORCOH, TEC report type SEMIJUL; filer ID 00088116 (Hughes, Erica (The Honorable)). Found
+    in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and
+    matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period
+    ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

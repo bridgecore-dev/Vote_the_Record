@@ -2,8 +2,29 @@
 id: deborah-debbie-allison-garrett
 name: Deborah (Debbie) Allison Garrett
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/deborah-debbie-allison-garrett#M-01
+  headline: Had $8,228 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jul 13, 2026: $134.61 in total political expenditures,
+    $8,227.92 in contributions on hand at the end of the period, and $12,500.00 in outstanding loans. The report data lists
+    no amount for total political contributions.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101060402.PDF
+  source_title: 'Texas Ethics Commission: Garrett, Deborah A. (Mrs.), campaign finance report 101060402 (filed Jul 13, 2026)'
+  source_kind: document
+  sha256: 8e299d4d3d888257721153bbb87a826678c28af031aae75d0ed1e15dbeaee9c9
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101060402, form JCOH, TEC report type SEMIJUL; filer ID 00087795 (Garrett, Deborah A. (Mrs.)). Found in
+    TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv) and matched
+    by first name; every total in this fact was checked against the PDF. This is the filer's latest report for a period ending
+    by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

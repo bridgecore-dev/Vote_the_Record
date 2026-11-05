@@ -2,8 +2,30 @@
 id: jason-bramow
 name: Jason Bramow
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/jason-bramow#M-01
+  headline: Raised $6,641 and had $6,454 on hand (Sep 1 - Sep 16, 2026)
+  statement: 'Campaign finance report covering Sep 1 - Sep 16, 2026, filed Sep 16, 2026: $6,641.02 in total political contributions,
+    $608.84 in total political expenditures, $6,454.36 in contributions on hand at the end of the period, and $77.05 in outstanding
+    loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101066674.PDF
+  source_title: 'Texas Ethics Commission: Bramow, Jason T. (The Honorable), campaign finance report 101066674 (filed Sep 16,
+    2026)'
+  source_kind: document
+  sha256: 7924b8cdd0cf8546efbd51e8d935e42b3ae3a0e9ae80dae624baef8a500caff4
+  archive_url: null
+  event_date: '2026-09-16'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101066674, form JCOH, TEC report type A15DAYAFT; filer ID 00091173 (Bramow, Jason T. (The Honorable)).
+    Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv)
+    and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for
+    a period ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

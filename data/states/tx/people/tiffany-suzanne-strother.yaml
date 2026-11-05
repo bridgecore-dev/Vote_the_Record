@@ -2,8 +2,30 @@
 id: tiffany-suzanne-strother
 name: Tiffany Suzanne Strother
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/tiffany-suzanne-strother#M-01
+  headline: Raised $1,725 and had $0 on hand (Jan 1 - Jun 30, 2026)
+  statement: 'Campaign finance report covering Jan 1 - Jun 30, 2026, filed Jun 26, 2026: $1,725.00 in total political contributions,
+    $0.00 in total political expenditures, $0.00 in contributions on hand at the end of the period, and $0.00 in outstanding
+    loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101055795.PDF
+  source_title: 'Texas Ethics Commission: Strother, Tiffany S. (The Honorable), campaign finance report 101055795 (filed Jun
+    26, 2026)'
+  source_kind: document
+  sha256: d5c7b502ba8abb48806a8e11caa3de47b389f006ed89f0c85a217a337898be45
+  archive_url: null
+  event_date: '2026-06-30'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101055795, form JCOH, TEC report type A15DAYAFT; filer ID 00085033 (Strother, Tiffany S. (The Honorable)).
+    Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv)
+    and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for
+    a period ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

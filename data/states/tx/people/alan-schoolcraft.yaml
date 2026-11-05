@@ -2,8 +2,30 @@
 id: alan-schoolcraft
 name: Alan Schoolcraft
 candidacies: []
-research: pending
 records: []
 statements: []
-funding: []
+funding:
+- id: tx/people/alan-schoolcraft#M-01
+  headline: Raised $15,450 and had $98,426 on hand (Sep 25 - Oct 24, 2026)
+  statement: 'Campaign finance report covering Sep 25 - Oct 24, 2026, filed Oct 25, 2026: $15,450.00 in total political contributions,
+    $93,987.96 in total political expenditures, $98,425.88 in contributions on hand at the end of the period, and $355,000.00
+    in outstanding loans.'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072109.PDF
+  source_title: 'Texas Ethics Commission: Schoolcraft, Alan L. (The Honorable), campaign finance report 101072109 (filed Oct
+    25, 2026)'
+  source_kind: document
+  sha256: 5a90c6da2d8e69c27e0a2df35bb092e1cad83241db78ac2536090cbedee6afa4
+  archive_url: null
+  event_date: '2026-10-24'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Report ID 101072109, form COH, TEC report type E08DAYBEF; filer ID 00020891 (Schoolcraft, Alan L. (The Honorable)).
+    Found in TEC's bulk campaign finance data (https://prd.tecprd.ethicsefile.com/public/cf/public/TEC_CF_CSV.zip, cover.csv)
+    and matched by first name; every total in this fact was checked against the PDF. This is the filer's latest report for
+    a period ending by 2026-11-05; a correction filed later replaces the version it corrects.
 promise_tracker: []

@@ -2,8 +2,32 @@
 id: margie-arens
 name: Margie Arens
 candidacies: []
-research: pending
-records: []
+records:
+- id: tx/people/margie-arens#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 city tax rate of $0.173646 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of the Bartonville Town Council, voted FOR the proposal of a 2025 Town of Bartonville tax rate of
+    $0.173646 per $100, which the notice lists as above the no-new-revenue rate ($0.161552) and above the voter-approval rate
+    ($0.167738). The notice lists Council Member Chapman, Council Member Sams, Council Member Crandall, Council Member Arens,
+    and Council Member Roberts voting for, Mayor Carrington present and not voting.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://mccmeetingspublic.blob.core.usgovcloudapi.net/brtnvlletx-meet-71b917d922b440d3a9cc5d2b8502bda7/ITEM-Attachment-001-2c3a8b53684046939975aaf6adcda7ee.pdf
+  source_title: 'Town of Bartonville: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 0fcd9929c4b4c1eb452ceb4f279ef71161bfb21dc19b11aa01d7377918bbf057
+  archive_url: null
+  event_date: '2025-09-16'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice also lists a de minimis rate of $0.235144 per $100 and says the proposed rate is greater than the voter-approval
+    rate but not greater than the de minimis rate. The notice does not give the date of the vote; event_date is the hearing
+    date (Sept. 16, 2025) printed in the notice. Retrieved from a Town of Bartonville meeting agenda attachment.
 statements: []
 funding: []
 promise_tracker: []
