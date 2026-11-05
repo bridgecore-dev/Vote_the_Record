@@ -10,6 +10,26 @@ holders:
   start: null
   end: null
   basis: tx/localities/princeton-isd/offices/trustees#S-01
+- person: carlos-cuellar
+  start: null
+  end: null
+  basis: tx/localities/princeton-isd/offices/trustees#S-02
+- person: bianca-washington
+  start: null
+  end: null
+  basis: tx/localities/princeton-isd/offices/trustees#S-02
+- person: john-campbell
+  start: null
+  end: null
+  basis: tx/localities/princeton-isd/offices/trustees#S-02
+- person: duane-kelly
+  start: null
+  end: null
+  basis: tx/localities/princeton-isd/offices/trustees#S-02
+- person: sonia-ledezma
+  start: null
+  end: null
+  basis: tx/localities/princeton-isd/offices/trustees#S-02
 sources:
 - id: tx/localities/princeton-isd/offices/trustees#S-01
   headline: Who holds this office now
@@ -30,3 +50,21 @@ sources:
   reviewer: null
   notes: From the roster check recorded in tx/localities/princeton-isd/elections/2026-11-03/trustees/race#S-HOLDER. Lists
     only the members whose seats were on that ballot.
+- id: tx/localities/princeton-isd/offices/trustees#S-02
+  headline: Who holds this office now
+  statement: 'The official list (Princeton Independent School District: Board of Trustees), checked on November 5, 2026, shows
+    Carlos Cuellar and Bianca Washington and John Campbell and Duane Kelly and Sonia Ledezma as Princeton ISD Trustees. It
+    reads: "Carlos Cuellar President 2020 - 2027"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.princetonisd.net/our-district/board
+  source_title: 'Princeton Independent School District: Board of Trustees'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

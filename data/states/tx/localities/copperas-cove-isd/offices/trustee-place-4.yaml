@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Copperas Cove ISD Trustee, Place 4
+office_type: school-trustee
+holders:
+- person: joan-manning
+  start: null
+  end: null
+  basis: tx/localities/copperas-cove-isd/offices/trustee-place-4#S-01
+sources:
+- id: tx/localities/copperas-cove-isd/offices/trustee-place-4#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Copperas Cove ISD: Board Members), checked on November 5, 2026, shows Joan Manning as Copperas
+    Cove ISD Trustee, Place 4. It reads: "Joan Manning, President Place 4 -"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ccisd.com/apps/pages/index.jsp?uREC_ID=4477461&type=d&pREC_ID=2757636
+  source_title: 'Copperas Cove ISD: Board Members'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

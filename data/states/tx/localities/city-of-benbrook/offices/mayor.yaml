@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Mayor of Benbrook
+office_type: mayor
+holders:
+- person: jason-ward
+  start: null
+  end: null
+  basis: tx/localities/city-of-benbrook/offices/mayor#S-01
+sources:
+- id: tx/localities/city-of-benbrook/offices/mayor#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Benbrook, TX: Mayor, Place 1), checked on November 5, 2026, shows Jason Ward as Mayor of
+    Benbrook. It reads: "Mayor, Place 1 Jason Ward was elected mayor in November, 2021"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.benbrook-tx.gov/332/Mayor-Place-1
+  source_title: 'Benbrook, TX: Mayor, Place 1'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

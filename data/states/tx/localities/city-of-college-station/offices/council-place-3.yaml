@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: College Station City Council, Place 3
+office_type: city-council-member
+holders:
+- person: david-white-city-of-college-station
+  start: null
+  end: null
+  basis: tx/localities/city-of-college-station/offices/council-place-3#S-01
+sources:
+- id: tx/localities/city-of-college-station/offices/council-place-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (City of College Station: City Council), checked on November 5, 2026, shows David White as
+    College Station City Council, Place 3. It reads: "City Council Place 3- David White"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cstx.gov/your-government/city-council/
+  source_title: 'City of College Station: City Council'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

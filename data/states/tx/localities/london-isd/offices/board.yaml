@@ -1,0 +1,51 @@
+# Who holds this seat, from official rosters. Unverified.
+name: London ISD Board of Trustees
+office_type: school-trustee
+holders:
+- person: russell-manning
+  start: null
+  end: null
+  basis: tx/localities/london-isd/offices/board#S-01
+- person: scott-frazier
+  start: null
+  end: null
+  basis: tx/localities/london-isd/offices/board#S-01
+- person: jessica-gutierrez
+  start: null
+  end: null
+  basis: tx/localities/london-isd/offices/board#S-01
+- person: michelle-braselton
+  start: null
+  end: null
+  basis: tx/localities/london-isd/offices/board#S-01
+- person: blake-chapman
+  start: null
+  end: null
+  basis: tx/localities/london-isd/offices/board#S-01
+- person: cara-fines
+  start: null
+  end: null
+  basis: tx/localities/london-isd/offices/board#S-01
+- person: rob-leon
+  start: null
+  end: null
+  basis: tx/localities/london-isd/offices/board#S-01
+sources:
+- id: tx/localities/london-isd/offices/board#S-01
+  headline: Who holds this office now
+  statement: 'The official list (London ISD: Board Members), checked on November 5, 2026, shows Russell Manning and Scott
+    Frazier and Jessica Gutierrez and Michelle Braselton and Blake Chapman and Cara Fines and Rob Leon as London ISD Board
+    of Trustees. It reads: "Russell Manning, Board President"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.londonisd.net/school-board/board-members
+  source_title: 'London ISD: Board Members'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

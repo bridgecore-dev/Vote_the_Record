@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Klein ISD Trustee, Position 7
+office_type: school-trustee
+holders:
+- person: rob-ellis
+  start: null
+  end: null
+  basis: tx/localities/klein-isd/offices/trustee-position-7#S-01
+sources:
+- id: tx/localities/klein-isd/offices/trustee-position-7#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Klein ISD: Board of Trustees), checked on November 5, 2026, shows Rob Ellis as Klein ISD
+    Trustee, Position 7. It reads: "Rob Ellis Trustee Email Rob Ellis Position 7 | 2019 - 2028"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.kleinisd.net/page/klein-isd-board-of-trustees
+  source_title: 'Klein ISD: Board of Trustees'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

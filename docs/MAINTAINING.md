@@ -124,7 +124,8 @@ Seat and person files are described in [OFFICIALS.md](OFFICIALS.md). To add or r
 1. Save each official roster page (a county's elected officials page, the Legislature's member list, a court
    directory) as text, and write a `roster.json` beside it (format at the top of the collector).
 2. Run `python src/tools/officials_from_rosters.py <folder>/*.roster.json` to preview, then add `--write`.
-   It refuses any name or quote not found in the saved page, never changes an existing seat, and lists seats
+   It refuses any name or quote not found in the saved page. It never changes an existing seat, except to add
+   a board's other members when everyone on file is on the roster (`EXTEND`). It lists seats
    whose roster now shows someone else (`DIFFERS`): update those by hand, ending the old holder's term
    with the date from an official source and adding the new holder.
 3. `python src/tools/seed_officials.py` did the first pass from the 2026 races' "Who holds this office now"

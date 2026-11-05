@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Houston City Council, District E
+office_type: city-council-member
+holders:
+- person: fred-flickinger
+  start: null
+  end: null
+  basis: tx/localities/city-of-houston/offices/council-district-e#S-01
+sources:
+- id: tx/localities/city-of-houston/offices/council-district-e#S-01
+  headline: Who holds this office now
+  statement: 'The official list (City of Houston: City Council), checked on November 5, 2026, shows Fred Flickinger as Houston
+    City Council, District E. It reads: "District E Fred Flickinger"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.houstontx.gov/council/
+  source_title: 'City of Houston: City Council'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

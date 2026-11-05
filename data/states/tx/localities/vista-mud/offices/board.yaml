@@ -1,0 +1,43 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Vista MUD of Travis County Board of Directors
+office_type: water-district-director
+holders:
+- person: kelly-tarun
+  start: null
+  end: null
+  basis: tx/localities/vista-mud/offices/board#S-01
+- person: shanna-heidmann
+  start: null
+  end: null
+  basis: tx/localities/vista-mud/offices/board#S-01
+- person: amber-sue-huff
+  start: null
+  end: null
+  basis: tx/localities/vista-mud/offices/board#S-01
+- person: theresa-ellington
+  start: null
+  end: null
+  basis: tx/localities/vista-mud/offices/board#S-01
+- person: heidi-parker
+  start: null
+  end: null
+  basis: tx/localities/vista-mud/offices/board#S-01
+sources:
+- id: tx/localities/vista-mud/offices/board#S-01
+  headline: Who holds this office now
+  statement: 'The official list (SK Law District Data: Vista Municipal Utility District of Travis County), checked on November
+    5, 2026, shows Kelly Tarun and Shanna Heidmann and Amber Sue Huff and Theresa Ellington and Heidi Parker as Vista MUD
+    of Travis County Board of Directors. It reads: "VISTA MUNICIPAL UTILITY DISTRICT OF TRAVIS COUNTY"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.sklawdistrictdata.org/travis-county/vista-municipal-utility-district-of-travis-county/
+  source_title: 'SK Law District Data: Vista Municipal Utility District of Travis County'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

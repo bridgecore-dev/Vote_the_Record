@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: PSJA ISD Trustee, Place 2
+office_type: school-trustee
+holders:
+- person: romeo-robles-jr
+  start: null
+  end: null
+  basis: tx/localities/pharr-san-juan-alamo-isd/offices/trustee-place-2#S-01
+sources:
+- id: tx/localities/pharr-san-juan-alamo-isd/offices/trustee-place-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Pharr-San Juan-Alamo Independent School District: School Board), checked on November 5, 2026,
+    shows Romeo Robles, Jr. as PSJA ISD Trustee, Place 2. It reads: "Romeo Robles, Jr., Member (Place 2)"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.psjaisd.us/about-us/school-board
+  source_title: 'Pharr-San Juan-Alamo Independent School District: School Board'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Keller ISD Board of Trustees, Place 1
+office_type: school-trustee
+holders:
+- person: randy-campbell
+  start: null
+  end: null
+  basis: tx/localities/keller-isd/offices/trustee-place-1#S-01
+sources:
+- id: tx/localities/keller-isd/offices/trustee-place-1#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Keller ISD: Board of Trustees), checked on November 5, 2026, shows Randy Campbell as Keller
+    ISD Board of Trustees, Place 1. It reads: "Secretary Randy Campbell, Place 1"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.kellerisd.net/board-of-trustees
+  source_title: 'Keller ISD: Board of Trustees'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

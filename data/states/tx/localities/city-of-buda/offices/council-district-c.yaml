@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Buda City Council, Single Member District C
+office_type: city-council-member
+holders:
+- person: kimberly-goodman
+  start: null
+  end: null
+  basis: tx/localities/city-of-buda/offices/council-district-c#S-01
+sources:
+- id: tx/localities/city-of-buda/offices/council-district-c#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Buda, TX: City Council Members), checked on November 5, 2026, shows Kimberly Goodman as Buda
+    City Council, Single Member District C. It reads: "Kimberly Goodman, Single Member District C"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.budatx.gov/1027/City-Council-Members
+  source_title: 'Buda, TX: City Council Members'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

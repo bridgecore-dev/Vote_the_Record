@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Cypress-Fairbanks ISD Trustee, Position 3
+office_type: school-trustee
+holders:
+- person: justin-ray
+  start: null
+  end: null
+  basis: tx/localities/cypress-fairbanks-isd/offices/trustee-position-3#S-01
+sources:
+- id: tx/localities/cypress-fairbanks-isd/offices/trustee-position-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Cypress-Fairbanks ISD: Meet Our Board), checked on November 5, 2026, shows Justin Ray as
+    Cypress-Fairbanks ISD Trustee, Position 3. It reads: "3 Justin Ray"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cfisd.net/our-district/board-of-trustees/meet-our-board
+  source_title: 'Cypress-Fairbanks ISD: Meet Our Board'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

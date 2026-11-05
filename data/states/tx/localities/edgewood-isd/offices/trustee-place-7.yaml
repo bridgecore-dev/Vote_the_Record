@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Edgewood ISD Trustee, Place 7
+office_type: school-trustee
+holders:
+- person: sergio-delgado-jr
+  start: null
+  end: null
+  basis: tx/localities/edgewood-isd/offices/trustee-place-7#S-01
+sources:
+- id: tx/localities/edgewood-isd/offices/trustee-place-7#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Edgewood ISD: School Board Members), checked on November 5, 2026, shows Sergio Delgado, Jr.
+    as Edgewood ISD Trustee, Place 7. It reads: "Email Sergio Delgado Jr. Place 7"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.eisd.net/page/school-board-members
+  source_title: 'Edgewood ISD: School Board Members'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

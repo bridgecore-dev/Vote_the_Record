@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: La Porte ISD Trustee, Position 7
+office_type: school-trustee
+holders:
+- person: dee-anne-thomson
+  start: null
+  end: null
+  basis: tx/localities/la-porte-isd/offices/trustee-position-7#S-01
+sources:
+- id: tx/localities/la-porte-isd/offices/trustee-position-7#S-01
+  headline: Who holds this office now
+  statement: 'The official list (La Porte ISD: Meet the Board), checked on November 5, 2026, shows Dee Anne Thomson as La
+    Porte ISD Trustee, Position 7. It reads: "Dee Anne Thomson Trustee Position 7 (2025-2028)"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.lpisd.org/board
+  source_title: 'La Porte ISD: Meet the Board'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

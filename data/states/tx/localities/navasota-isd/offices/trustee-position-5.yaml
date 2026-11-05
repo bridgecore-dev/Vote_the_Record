@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Navasota ISD Trustee, Position 5
+office_type: school-trustee
+holders:
+- person: amy-s-jarvis
+  start: null
+  end: null
+  basis: tx/localities/navasota-isd/offices/trustee-position-5#S-01
+sources:
+- id: tx/localities/navasota-isd/offices/trustee-position-5#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Navasota ISD: Board Member Bios), checked on November 5, 2026, shows Amy S. Jarvis as Navasota
+    ISD Trustee, Position 5. It reads: "Amy S. Jarvis, Secretary Position #5"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.navasotaisd.org/apps/pages/index.jsp?uREC_ID=136149&type=d&pREC_ID=1431153
+  source_title: 'Navasota ISD: Board Member Bios'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

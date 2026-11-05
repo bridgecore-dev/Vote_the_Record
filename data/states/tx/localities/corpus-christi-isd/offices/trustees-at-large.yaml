@@ -1,0 +1,34 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Corpus Christi ISD Trustees, At Large
+office_type: school-trustee
+holders:
+- person: steve-barrera
+  start: null
+  end: null
+  basis: tx/localities/corpus-christi-isd/offices/trustees-at-large#S-01
+- person: don-clark
+  start: null
+  end: null
+  basis: tx/localities/corpus-christi-isd/offices/trustees-at-large#S-01
+- person: alice-upshaw-hawkins
+  start: null
+  end: null
+  basis: tx/localities/corpus-christi-isd/offices/trustees-at-large#S-01
+sources:
+- id: tx/localities/corpus-christi-isd/offices/trustees-at-large#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Corpus Christi ISD: Board Members), checked on November 5, 2026, shows Steve Barrera and
+    Don Clark and Alice Upshaw Hawkins as Corpus Christi ISD Trustees, At Large. It reads: "Dr. Alice Upshaw Hawkins At-Large"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ccisd.us/page/board-members
+  source_title: 'Corpus Christi ISD: Board Members'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

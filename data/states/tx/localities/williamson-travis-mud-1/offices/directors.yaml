@@ -10,6 +10,14 @@ holders:
   start: null
   end: null
   basis: tx/localities/williamson-travis-mud-1/offices/directors#S-01
+- person: carrol-norrell
+  start: null
+  end: null
+  basis: tx/localities/williamson-travis-mud-1/offices/directors#S-02
+- person: chris-rocco
+  start: null
+  end: null
+  basis: tx/localities/williamson-travis-mud-1/offices/directors#S-02
 sources:
 - id: tx/localities/williamson-travis-mud-1/offices/directors#S-01
   headline: Who holds this office now
@@ -31,3 +39,20 @@ sources:
   reviewer: null
   notes: From the roster check recorded in tx/localities/williamson-travis-mud-1/elections/2026-11-03/directors/race#S-HOLDER.
     Lists only the members whose seats were on that ballot.
+- id: tx/localities/williamson-travis-mud-1/offices/directors#S-02
+  headline: Who holds this office now
+  statement: 'The official list (WTCMUD 1: Board of Directors), checked on November 5, 2026, shows Carrol Norrell and Chris
+    Rocco as Williamson-Travis Counties MUD No. 1 Directors. It reads: "Board of Directors / WTCMUD 1"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wtcmud1.org/board-of-directors/
+  source_title: 'WTCMUD 1: Board of Directors'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

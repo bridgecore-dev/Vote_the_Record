@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Florence ISD Trustee, Place 3
+office_type: school-trustee
+holders:
+- person: anthony-deaugustineo
+  start: null
+  end: null
+  basis: tx/localities/florence-isd/offices/trustee-place-3#S-01
+sources:
+- id: tx/localities/florence-isd/offices/trustee-place-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Florence ISD: School Board), checked on November 5, 2026, shows Anthony DeAugustineo as Florence
+    ISD Trustee, Place 3. It reads: "Anthony DeAugustineo, Board Member Place 3, Term Expires 2029"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.florenceisd.net/page/school-board
+  source_title: 'Florence ISD: School Board'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

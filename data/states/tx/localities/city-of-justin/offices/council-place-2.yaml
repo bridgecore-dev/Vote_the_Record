@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justin City Council, Place 2
+office_type: city-council-member
+holders:
+- person: tomas-mendoza
+  start: null
+  end: null
+  basis: tx/localities/city-of-justin/offices/council-place-2#S-01
+sources:
+- id: tx/localities/city-of-justin/offices/council-place-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (City of Justin: City Council), checked on November 5, 2026, shows Tomas Mendoza as Justin
+    City Council, Place 2. It reads: "Place 2 – Tomas Mendoza"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cityofjustin.com/202/City-Council
+  source_title: 'City of Justin: City Council'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

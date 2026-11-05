@@ -1,0 +1,30 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Lorenzo ISD Trustee, At-Large
+office_type: school-trustee
+holders:
+- person: larry-birdwell
+  start: null
+  end: null
+  basis: tx/localities/lorenzo-isd/offices/trustee-at-large#S-01
+- person: rebeca-mendoza
+  start: null
+  end: null
+  basis: tx/localities/lorenzo-isd/offices/trustee-at-large#S-01
+sources:
+- id: tx/localities/lorenzo-isd/offices/trustee-at-large#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Lorenzo ISD: Board of Trustees), checked on November 5, 2026, shows Larry Birdwell and Rebeca
+    Mendoza as Lorenzo ISD Trustee, At-Large. It reads: "Larry Birdwell - Trustee At-Large"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.lorenzoisd.net/page/board
+  source_title: 'Lorenzo ISD: Board of Trustees'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

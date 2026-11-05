@@ -10,6 +10,18 @@ holders:
   start: null
   end: null
   basis: tx/localities/village-of-volente/offices/council#S-01
+- person: wade-peikert
+  start: null
+  end: null
+  basis: tx/localities/village-of-volente/offices/council#S-02
+- person: judy-graci
+  start: null
+  end: null
+  basis: tx/localities/village-of-volente/offices/council#S-02
+- person: jan-yenawine
+  start: null
+  end: null
+  basis: tx/localities/village-of-volente/offices/council#S-02
 sources:
 - id: tx/localities/village-of-volente/offices/council#S-01
   headline: Who holds this office now
@@ -30,3 +42,20 @@ sources:
   reviewer: null
   notes: From the roster check recorded in tx/localities/village-of-volente/elections/2026-11-03/council/race#S-HOLDER. Lists
     only the members whose seats were on that ballot.
+- id: tx/localities/village-of-volente/offices/council#S-02
+  headline: Who holds this office now
+  statement: 'The official list (Volente, TX: Mayor & City Council), checked on November 5, 2026, shows Wade Peikert and Judy
+    Graci and Jan Yenawine as Volente Village Council. It reads: "Eric Peeters Council Member"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.villageofvolente-tx.gov/index.asp?SEC=C733386C-B4EE-4A64-A90E-37D11448CB54
+  source_title: 'Volente, TX: Mayor & City Council'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

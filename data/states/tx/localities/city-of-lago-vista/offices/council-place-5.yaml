@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Lago Vista City Council, Place 5
+office_type: city-council-member
+holders:
+- person: karen-van-ness
+  start: null
+  end: null
+  basis: tx/localities/city-of-lago-vista/offices/council-place-5#S-01
+sources:
+- id: tx/localities/city-of-lago-vista/offices/council-place-5#S-01
+  headline: Who holds this office now
+  statement: 'The official list (City of Lago Vista: City Council), checked on November 5, 2026, shows Karen Van Ness as Lago
+    Vista City Council, Place 5. It reads: "Karen Van Ness Council Place 5"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://lagovistatexas.gov/252/City-Council
+  source_title: 'City of Lago Vista: City Council'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

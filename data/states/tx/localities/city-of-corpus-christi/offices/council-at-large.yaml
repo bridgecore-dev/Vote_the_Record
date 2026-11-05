@@ -10,6 +10,10 @@ holders:
   start: null
   end: null
   basis: tx/localities/city-of-corpus-christi/offices/council-at-large#S-01
+- person: roland-barrera
+  start: null
+  end: null
+  basis: tx/localities/city-of-corpus-christi/offices/council-at-large#S-02
 sources:
 - id: tx/localities/city-of-corpus-christi/offices/council-at-large#S-01
   headline: Who holds this office now
@@ -31,3 +35,21 @@ sources:
   reviewer: null
   notes: From the roster check recorded in tx/localities/city-of-corpus-christi/elections/2026-11-03/council-at-large/race#S-HOLDER.
     Lists only the members whose seats were on that ballot.
+- id: tx/localities/city-of-corpus-christi/offices/council-at-large#S-02
+  headline: Who holds this office now
+  statement: 'The official list (City of Corpus Christi: Council Members), checked on November 5, 2026, shows Roland Barrera
+    as Corpus Christi City Council, At Large (3 seats). It reads: "Roland Barrera At-Large Mark Scott At-Large Carolyn Vaughn
+    At-Large"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.corpuschristitx.gov/our-government/mayor-and-council/council-members/
+  source_title: 'City of Corpus Christi: Council Members'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null
