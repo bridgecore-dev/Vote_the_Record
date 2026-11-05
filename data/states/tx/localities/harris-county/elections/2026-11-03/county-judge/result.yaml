@@ -6,9 +6,10 @@ covers: whole
 counts:
   orlando-sanchez: 439389
   letitia-plummer: 706845
-other_votes: 233
+  marianne-yan-hess: 120
+  vince-duncan: 113
 sources:
-- id: tx/localities/harris-county/elections/2026-11-03/county-judge/result#S-01
+- id: tx/localities/harris-county/elections/2026-11-03/county-judge/result#S-02
   statement: Harris County Cumulative Results Report, General and Special Elections, 11/3/2026 (Unofficial; run 11/04/2026 12:50 AM) lists these vote counts for "County Judge" (unofficial, as of 2026-11-04).
   label: official_record
   claim_status: documented

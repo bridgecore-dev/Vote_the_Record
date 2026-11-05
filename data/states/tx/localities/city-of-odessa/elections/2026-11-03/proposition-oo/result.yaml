@@ -5,18 +5,18 @@ as_of: '2026-11-04'
 covers: partial
 covers_note: Votes counted in Ector County only.
 counts:
-  FOR: 10098
-  AGAINST: 3380
+  FOR: 11952
+  AGAINST: 4000
 sources:
-- id: tx/localities/city-of-odessa/elections/2026-11-03/proposition-oo/result#S-01
-  statement: Ector County Cumulative Results Report, General and The City of Odessa Election, 11/3/2026 (Unofficial; run 12:47 AM 11/04/2026, 19 of 27 polling places reporting) lists these vote counts for "Proposition OO" (unofficial, as of 2026-11-04).
+- id: tx/localities/city-of-odessa/elections/2026-11-03/proposition-oo/result#S-02
+  statement: Ector County Cumulative Results Report, General and The City of Odessa Election, 11/3/2026 (Unofficial; run 12:12 AM 11/04/2026, 27 of 27 polling places reporting) lists these vote counts for "Proposition OO" (unofficial, as of 2026-11-04).
   label: official_record
   claim_status: documented
   contradicted_by: []
-  source_url: https://www.ectorcountytx.gov/DocumentCenter/View/3573
-  source_title: Ector County Cumulative Results Report, General and The City of Odessa Election, 11/3/2026 (Unofficial; run 12:47 AM 11/04/2026, 19 of 27 polling places reporting)
+  source_url: https://www.ectorcountytx.gov/DocumentCenter/View/3575
+  source_title: Ector County Cumulative Results Report, General and The City of Odessa Election, 11/3/2026 (Unofficial; run 12:12 AM 11/04/2026, 27 of 27 polling places reporting)
   source_kind: document
-  sha256: 8917555d9aceb697d7863562a671af0af60bcc249c858cfff3fa97a41eac9c46
+  sha256: 9c4d78770e514517950bf006793bfec8b2e13ac7f8f3dff5e2f4ab92b65e34dd
   archive_url: null
   event_date: '2026-11-03'
   retrieved: '2026-11-04'
