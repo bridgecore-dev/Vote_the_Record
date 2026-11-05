@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 1
+office_type: county-commissioner
+holders:
+- person: b-j-westmoreland
+  start: null
+  end: null
+  basis: tx/localities/caldwell-county/offices/commissioner-precinct-1#S-01
+sources:
+- id: tx/localities/caldwell-county/offices/commissioner-precinct-1#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Caldwell County: Commissioners Court- Caldwell County, TX), checked on November 5, 2026,
+    shows B. J. Westmoreland as County Commissioner, Precinct 1. It reads: "Precinct 1 Commissioner B. J. Westmoreland"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.caldwell.tx.us/page/Commissioners.Court
+  source_title: 'Caldwell County: Commissioners Court- Caldwell County, TX'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

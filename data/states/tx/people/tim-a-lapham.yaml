@@ -1,0 +1,31 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: tim-a-lapham
+name: Tim A. Lapham
+candidacies: []
+records:
+- id: tx/people/tim-a-lapham#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.50377 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Austin County tax rate of $0.50377 per $100,
+    which the notice lists as above the no-new-revenue rate ($0.48105) and not above the voter-approval rate ($0.50379). The
+    notice lists Judge Lapham and Commissioners Mikel, Rinn, Cerny and Reed voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/10524/2025/Austin%20County%20Notice%20of%20Public%20Hearing.doc
+  source_title: 'Austin County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 3bdb0e33cde267e31705e769a4fd7f7143bafd834566e4a8169ddad3bad6e792
+  archive_url: null
+  event_date: '2025-09-08'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or its own date; event_date is the public hearing date printed in the notice
+    (September 8, 2025). The source is a Word (.doc) file; the saved text is the document's text extracted from it.
+statements: []
+funding: []
+promise_tracker: []

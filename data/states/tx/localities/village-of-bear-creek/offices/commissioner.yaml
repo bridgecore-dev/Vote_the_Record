@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Village of Bear Creek Commissioner (2 seats)
+office_type: city-council-member
+holders:
+- person: trent-brackenridge
+  start: null
+  end: null
+  basis: tx/localities/village-of-bear-creek/offices/commissioner#S-01
+sources:
+- id: tx/localities/village-of-bear-creek/offices/commissioner#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Village of Bear Creek: Village Of Bear Creek, Texas), checked on November 3, 2026, shows
+    Trent Brackenridge holding this office (recorded for the November 3, 2026 election: Village of Bear Creek Commissioner
+    (2 seats)).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.vilbc.org/
+  source_title: 'Village of Bear Creek: Village Of Bear Creek, Texas'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-03'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/village-of-bear-creek/elections/2026-11-03/commissioner/race#S-HOLDER.

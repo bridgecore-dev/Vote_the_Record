@@ -1,0 +1,33 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: gary-martin
+name: Gary Martin
+candidacies: []
+records:
+- id: tx/people/gary-martin#R-01
+  record_type: vote
+  headline: Was absent for the vote on proposing a 2025 county tax rate of $0.405961 per $100 (Sept. 2025)
+  result: Proposed 3-0, one absent.
+  statement: As a member of Commissioners Court, is listed as ABSENT for the vote on the proposal of a 2025 Wilson County
+    tax rate of $0.405961 per $100, which the notice lists as above the no-new-revenue rate ($0.388265) and equal to the voter-approval
+    rate ($0.405961). The notice lists Commissioners King, Pierdolla and Akin voting for, and Commissioner Martin absent;
+    it does not list the county judge.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wilsoncountytx.gov/upload/page/2221/docs/Notice%20on%20Public%20Hearing%20on%202025%20Tax%20Rate%2050-876.pdf
+  source_title: 'Wilson County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 60c7e8e05657266822c68147d6aa6a5908587ef0cb0c45b325cc5290b10541c2
+  archive_url: null
+  event_date: '2025-09-08'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice is a filled-in PDF form; the names, rates and date are in its form fields, which the saved .txt lists at the
+    end. The notice does not give its own date or the date of the vote; event_date is the public hearing date in the notice
+    (Sept. 8, 2025).
+statements: []
+funding: []
+promise_tracker: []

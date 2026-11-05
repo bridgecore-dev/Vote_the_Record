@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Austin City Council, District 3
+office_type: city-council-member
+holders:
+- person: jose-velasquez
+  start: null
+  end: null
+  basis: tx/localities/city-of-austin/offices/council-district-3#S-01
+sources:
+- id: tx/localities/city-of-austin/offices/council-district-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (City of Austin: City Council), checked on October 1, 2026, shows José Velásquez holding this
+    office (recorded for the November 3, 2026 election: Austin City Council, District 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.austintexas.gov/department/city-council
+  source_title: 'City of Austin: City Council'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001200044/https://www.austintexas.gov/department/city-council
+  event_date: '2026-10-01'
+  retrieved: '2026-10-01'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/city-of-austin/elections/2026-11-03/council-district-3/race#S-HOLDER.

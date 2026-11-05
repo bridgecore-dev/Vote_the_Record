@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Attorney
+office_type: county-attorney
+holders:
+- person: megan-moody-barcak
+  start: null
+  end: null
+  basis: tx/localities/grimes-county/offices/county-attorney#S-01
+sources:
+- id: tx/localities/grimes-county/offices/county-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Grimes County, Texas: County Attorney - Grimes County, TX), checked on November 4, 2026,
+    shows Megan Moody Barcak as County Attorney. It reads: "MEGAN MOODY BARCAK"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://grimescountytexas.gov/cty-attorney
+  source_title: 'Grimes County, Texas: County Attorney - Grimes County, TX'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Clerk
+office_type: county-clerk
+holders:
+- person: sally-lichtenberger
+  start: null
+  end: null
+  basis: tx/localities/duval-county/offices/county-clerk#S-01
+sources:
+- id: tx/localities/duval-county/offices/county-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Duval County: County Clerk''s Office), checked on November 4, 2026, shows Sally Lichtenberger
+    as County Clerk. It reads: "Sally Lichtenberger"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.duval.tx.us/page/duval.county-clerk
+  source_title: 'Duval County: County Clerk''s Office'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

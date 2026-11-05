@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Bexar Appraisal District Director, Place 3
+office_type: appraisal-district-director
+holders:
+- person: jon-melendez
+  start: null
+  end: null
+  basis: tx/localities/bexar-county/offices/bcad-place-3#S-01
+sources:
+- id: tx/localities/bexar-county/offices/bcad-place-3#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Transparency – Board of Directors – Bexar Central Appraisal District), checked on October
+    30, 2026, shows Jon Melendez holding this office (recorded for the November 3, 2026 election: Bexar Appraisal District
+    Director, Place 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://bcad.org/board-meetings/
+  source_title: Transparency – Board of Directors – Bexar Central Appraisal District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/bexar-county/elections/2026-11-03/bcad-place-3/race#S-HOLDER.

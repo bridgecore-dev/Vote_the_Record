@@ -1,0 +1,33 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Sunset Valley City Council (2 seats)
+office_type: city-council-member
+holders:
+- person: charles-young
+  start: null
+  end: null
+  basis: tx/localities/city-of-sunset-valley/offices/council#S-01
+- person: robert-johnson
+  start: null
+  end: null
+  basis: tx/localities/city-of-sunset-valley/offices/council#S-01
+sources:
+- id: tx/localities/city-of-sunset-valley/offices/council#S-01
+  headline: Who holds this office now
+  statement: 'The official list (City of Sunset Valley: Mayor and Council), checked on October 1, 2026, shows Charles Young
+    and Robert Johnson holding seats on this board (recorded for the November 3, 2026 election: Sunset Valley City Council
+    (2 seats)).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.sunsetvalley.gov/government/mayor-and-council
+  source_title: 'City of Sunset Valley: Mayor and Council'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20260610062338/https://www.sunsetvalley.gov/government/mayor-and-council
+  event_date: '2026-10-01'
+  retrieved: '2026-10-01'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/city-of-sunset-valley/elections/2026-11-03/council/race#S-HOLDER.
+    Lists only the members whose seats were on that ballot.

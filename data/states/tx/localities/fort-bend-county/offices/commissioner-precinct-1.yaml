@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 1
+office_type: county-commissioner
+holders:
+- person: vincent-morales
+  start: null
+  end: null
+  basis: tx/localities/fort-bend-county/offices/commissioner-precinct-1#S-01
+sources:
+- id: tx/localities/fort-bend-county/offices/commissioner-precinct-1#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Fort Bend County, Texas: Elected Officials), checked on November 4, 2026, shows Vincent Morales
+    as County Commissioner, Precinct 1. It reads: "Commissioner Precinct 1 - Vincent Morales"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.fortbendcountytx.gov/government/governing-body/elected-officials
+  source_title: 'Fort Bend County, Texas: Elected Officials'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Comptroller of Public Accounts
+office_type: comptroller
+holders:
+- person: don-huffines
+  start: null
+  end: null
+  basis: tx/statewide/offices/comptroller#S-01
+sources:
+- id: tx/statewide/offices/comptroller#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Texas Comptroller of Public Accounts: home page), checked on September 30, 2026, shows Don
+    Huffines holding this office (recorded for the November 3, 2026 election: Comptroller of Public Accounts).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://comptroller.texas.gov/
+  source_title: 'Texas Comptroller of Public Accounts: home page'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001021815/https://comptroller.texas.gov/
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/statewide/elections/2026-11-03/comptroller/race#S-HOLDER.

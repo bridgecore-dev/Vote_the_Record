@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Treasurer
+office_type: county-treasurer
+holders:
+- person: brittney-ross
+  start: null
+  end: null
+  basis: tx/localities/bastrop-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/bastrop-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Bastrop County: County Treasurer Brittney Ross), checked on November 5, 2026, shows Brittney
+    Ross as County Treasurer. It reads: "County Treasurer Brittney Ross"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bastropcounty.gov/page/tr.treasurer
+  source_title: 'Bastrop County: County Treasurer Brittney Ross'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

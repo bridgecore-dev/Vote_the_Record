@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Judge, Brazoria County Court at Law No. 3
+office_type: county-court-at-law-judge
+holders:
+- person: jeremy-e-warren
+  start: null
+  end: null
+  basis: tx/localities/brazoria-county/offices/county-court-at-law-3#S-01
+sources:
+- id: tx/localities/brazoria-county/offices/county-court-at-law-3#S-01
+  headline: Who holds this office now
+  statement: 'The official page (2026 ELECTED OFFICIALS-COUNTY-STATE-FEDERAL), checked on November 2, 2026, shows Jeremy E.
+    Warren holding this office (recorded for the November 3, 2026 election: Judge, Brazoria County Court at Law No. 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.brazoriacountytx.gov/home/showpublisheddocument/18540/639244740948270000
+  source_title: 2026 ELECTED OFFICIALS-COUNTY-STATE-FEDERAL
+  source_kind: document
+  sha256: a45c05d1cd9d30a9c548b295f3dbf86427b49629b57ad4fcf8a5942cc07b8a27
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/brazoria-county/elections/2026-11-03/county-court-at-law-3/race#S-HOLDER.

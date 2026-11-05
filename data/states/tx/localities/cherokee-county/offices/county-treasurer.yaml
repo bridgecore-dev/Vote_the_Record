@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Treasurer
+office_type: county-treasurer
+holders:
+- person: erin-curtis
+  start: null
+  end: null
+  basis: tx/localities/cherokee-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/cherokee-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Cherokee County: Treasurer), checked on November 4, 2026, shows Erin Curtis as County Treasurer.
+    It reads: "County Treasurer Erin Curtis"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: http://www.co.cherokee.tx.us/ips/cms/countyoffices/treasurer.html
+  source_title: 'Cherokee County: Treasurer'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

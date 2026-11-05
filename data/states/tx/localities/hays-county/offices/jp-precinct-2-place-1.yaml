@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice of the Peace, Precinct 2, Place 1
+office_type: justice-of-the-peace
+area: hays-county/jp-2
+holders:
+- person: beth-smith
+  start: null
+  end: null
+  basis: tx/localities/hays-county/offices/jp-precinct-2-place-1#S-01
+sources:
+- id: tx/localities/hays-county/offices/jp-precinct-2-place-1#S-01
+  headline: Who holds this office now
+  statement: 'The official page (JP 2-1 (Kyle) Beth Smith | Hays County, TX), checked on November 2, 2026, shows Beth Smith
+    holding this office (recorded for the November 3, 2026 election: Justice of the Peace, Precinct 2, Place 1).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hayscountytx.gov/406/JP-2-1-Kyle-Beth-Smith
+  source_title: JP 2-1 (Kyle) Beth Smith | Hays County, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/hays-county/elections/2026-11-03/jp-precinct-2-place-1/race#S-HOLDER.

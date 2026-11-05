@@ -1,0 +1,33 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: domingo-escobedo
+name: Domingo Escobedo
+candidacies: []
+records:
+- id: tx/people/domingo-escobedo#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.812929 per $100 (Sept. 2025)
+  result: Proposed 4-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Crane County tax rate of $0.812929 per $100,
+    which the notice lists as above the no-new-revenue rate ($0.625339) and not above the voter-approval rate ($0.812929).
+    The notice lists Judge Hodges and Commissioners Kirkpatrick, Escobedo and Castro voting for, and Commissioner Young absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/0591/docs/Financial/Tax/Notice%20of%202025%20Pub%20Hear%20on%20Tax%20Rate.pdf
+  source_title: 'Crane County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 542be6ebc26a36502c9e6786e99e18fa46df0b8a6023349f1a0b20e8696d378a
+  archive_url: null
+  event_date: '2025-09-09'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice
+    (September 9, 2025). The notice lists names without titles; seats are matched from the county's current officeholders.
+    The text layer splits the FOR list into two columns (Escobedo and Kirkpatrick beside the heading, Castro and Hodges in
+    a second column); the page image shows all four under FOR the proposal.
+statements: []
+funding: []
+promise_tracker: []

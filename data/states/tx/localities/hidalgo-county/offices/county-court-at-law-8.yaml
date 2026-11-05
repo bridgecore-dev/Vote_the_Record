@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Judge, Hidalgo County Court at Law No. 8
+office_type: county-court-at-law-judge
+holders:
+- person: omar-maldonado
+  start: null
+  end: null
+  basis: tx/localities/hidalgo-county/offices/county-court-at-law-8#S-01
+sources:
+- id: tx/localities/hidalgo-county/offices/county-court-at-law-8#S-01
+  headline: Who holds this office now
+  statement: 'The official page (County Officials | Hidalgo County, TX - Official Website), checked on November 2, 2026, shows
+    Omar Maldonado holding this office (recorded for the November 3, 2026 election: Judge, Hidalgo County Court at Law No.
+    8).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hidalgocounty.us/937/County-Officials
+  source_title: County Officials | Hidalgo County, TX - Official Website
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/hidalgo-county/elections/2026-11-03/county-court-at-law-8/race#S-HOLDER.

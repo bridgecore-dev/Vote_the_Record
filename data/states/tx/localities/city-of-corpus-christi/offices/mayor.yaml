@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Corpus Christi Mayor
+office_type: mayor
+holders:
+- person: paulette-m-guajardo
+  start: null
+  end: null
+  basis: tx/localities/city-of-corpus-christi/offices/mayor#S-01
+sources:
+- id: tx/localities/city-of-corpus-christi/offices/mayor#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Mayor''s Office | City of Corpus Christi), checked on November 2, 2026, shows Paulette M.
+    Guajardo holding this office (recorded for the November 3, 2026 election: Corpus Christi Mayor).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.corpuschristitx.gov/our-government/mayor-and-council/mayor-s-office/
+  source_title: Mayor's Office | City of Corpus Christi
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/city-of-corpus-christi/elections/2026-11-03/mayor/race#S-HOLDER.

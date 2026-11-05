@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Sheriff
+office_type: sheriff
+holders:
+- person: peter-salinas
+  start: null
+  end: null
+  basis: tx/localities/frio-county/offices/sheriff#S-01
+sources:
+- id: tx/localities/frio-county/offices/sheriff#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Frio County, Texas: Sheriff''s Office), checked on November 4, 2026, shows Peter Salinas
+    as Sheriff. It reads: "Frio County Sheriff''s Office Peter Salinas"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.frio.tx.us/page/co.sheriff
+  source_title: 'Frio County, Texas: Sheriff''s Office'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Judge, 221st Judicial District
+office_type: district-judge
+holders:
+- person: lisa-michalk
+  start: null
+  end: null
+  basis: tx/localities/montgomery-county/offices/district-court-221#S-01
+sources:
+- id: tx/localities/montgomery-county/offices/district-court-221#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Montgomery County: District Courts), checked on October 19, 2026, shows Lisa Michalk holding
+    this office (recorded for the November 3, 2026 election: District Judge, 221st Judicial District).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.mctx.org/departments/departments_d_-_f/district_courts/index.php
+  source_title: 'Montgomery County: District Courts'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/montgomery-county/elections/2026-11-03/district-court-221/race#S-HOLDER.

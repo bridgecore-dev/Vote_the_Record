@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Tax Assessor-Collector
+office_type: tax-assessor-collector
+holders:
+- person: edelmiro-garcia
+  start: null
+  end: null
+  basis: tx/localities/cameron-county/offices/tax-assessor-collector#S-01
+sources:
+- id: tx/localities/cameron-county/offices/tax-assessor-collector#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Cameron County: Appointments), checked on November 5, 2026, shows Edelmiro “Eddie” Garcia
+    as Tax Assessor-Collector. It reads: "Edelmiro “Eddie” Garcia Tax Assessor-Collector"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/tac/
+  source_title: 'Cameron County: Appointments'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

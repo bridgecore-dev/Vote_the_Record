@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 2
+office_type: county-commissioner
+area: harris-county/commissioner-2
+holders:
+- person: adrian-garcia
+  start: null
+  end: null
+  basis: tx/localities/harris-county/offices/commissioner-precinct-2#S-01
+sources:
+- id: tx/localities/harris-county/offices/commissioner-precinct-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Harris County: Harris County Elected Officials), checked on September 30, 2026, shows Adrian
+    Garcia holding this office (recorded for the November 3, 2026 election: County Commissioner, Precinct 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.harriscountytx.gov/County-Judge-and-Commissioners/Harris-County-Elected-Officials
+  source_title: 'Harris County: Harris County Elected Officials'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001022136/https://www.harriscountytx.gov/County-Judge-and-Commissioners/Harris-County-Elected-Officials
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/harris-county/elections/2026-11-03/commissioner-precinct-2/race#S-HOLDER.

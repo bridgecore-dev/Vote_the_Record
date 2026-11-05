@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Judge, 241st Judicial District
+office_type: district-judge
+holders:
+- person: debby-gunter
+  start: null
+  end: null
+  basis: tx/localities/smith-county/offices/district-court-241#S-01
+sources:
+- id: tx/localities/smith-county/offices/district-court-241#S-01
+  headline: Who holds this office now
+  statement: 'The official page (241st District Court | Smith County, TX), checked on October 30, 2026, shows Debby Gunter
+    holding this office (recorded for the November 3, 2026 election: District Judge, 241st Judicial District).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.smith-county.com/320/241st-District-Court
+  source_title: 241st District Court | Smith County, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/smith-county/elections/2026-11-03/district-court-241/race#S-HOLDER.

@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Austin ISD Board of Trustees, District 1
+office_type: school-trustee
+holders:
+- person: candace-l-hunter
+  start: null
+  end: null
+  basis: tx/localities/austin-isd/offices/trustee-district-1#S-01
+sources:
+- id: tx/localities/austin-isd/offices/trustee-district-1#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Austin ISD: Board of Trustees), checked on October 1, 2026, shows Candace L. Hunter holding
+    this office (recorded for the November 3, 2026 election: Austin ISD Board of Trustees, District 1).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.austinisd.org/board/members
+  source_title: 'Austin ISD: Board of Trustees'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001195950/https://www.austinisd.org/board/members
+  event_date: '2026-10-01'
+  retrieved: '2026-10-01'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/austin-isd/elections/2026-11-03/trustee-district-1/race#S-HOLDER.

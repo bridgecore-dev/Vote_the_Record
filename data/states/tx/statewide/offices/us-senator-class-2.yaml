@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: U.S. Senator (Class II)
+office_type: us-senator
+holders:
+- person: john-cornyn
+  start: null
+  end: null
+  basis: tx/statewide/offices/us-senator-class-2#S-01
+sources:
+- id: tx/statewide/offices/us-senator-class-2#S-01
+  headline: Who holds this office now
+  statement: 'The official document (U.S. Senate: Senators'' contact information (senators_cfm.xml)), checked on November
+    4, 2026, shows John Cornyn as U.S. Senator (Class II). It reads: "https://www.cornyn.senate.gov/ Class II"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.senate.gov/general/contact_information/senators_cfm.xml
+  source_title: 'U.S. Senate: Senators'' contact information (senators_cfm.xml)'
+  source_kind: document
+  sha256: 01459d6977e9b5590e7d27cb333ff062cf9cf0783c934373393512fe2542b5e2
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

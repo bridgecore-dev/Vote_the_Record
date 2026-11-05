@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Sheriff
+office_type: sheriff
+holders:
+- person: parnell-mcnamara
+  start: null
+  end: null
+  basis: tx/localities/mclennan-county/offices/sheriff#S-01
+sources:
+- id: tx/localities/mclennan-county/offices/sheriff#S-01
+  headline: Who holds this office now
+  statement: 'The official document (McLennan County: County Office Holders (Contact Information and Terms)), checked on November
+    5, 2026, shows Parnell McNamara as Sheriff. It reads: "COUNTY S HERIFF 4-Year Term PARNELL McNAMARA"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.mclennan.gov/DocumentCenter/View/16889/County-Offices-2026
+  source_title: 'McLennan County: County Office Holders (Contact Information and Terms)'
+  source_kind: document
+  sha256: 129a5d1166a6195f8c07345af6c249aa3cef461b9d5b079ccd64435c1556b8f9
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

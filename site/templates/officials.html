@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}Your officials{% endblock %}
+{% block description %}Who holds each elected office, from official rosters, with their record in office.{% endblock %}
+{% block content %}
+<header class="race-hero">
+  <h1>Your officials</h1>
+  <p class="lead">Who holds each elected office now, from official government rosters, and what they have done in office: recorded votes, actions, what they said, and where their campaign money came from.</p>
+</header>
+
+{% for st in officials.index %}
+<section aria-labelledby="st-{{ st.state }}">
+  <h2 id="st-{{ st.state }}">{{ st.state_name }}</h2>
+  <p class="muted">{{ st.seat_count }} offices · {{ st.people_count }} people on file so far.</p>
+  {% if st.statewide %}
+  <ul class="link-list">
+    {% for p in st.statewide %}<li><a href="{{ p.url }}">{{ p.name }}</a> <span class="muted">· {{ p.seats | length }} offices</span></li>{% endfor %}
+  </ul>
+  {% endif %}
+  {% if st.counties %}
+  <h3>Counties</h3>
+  <p class="muted">Each county page lists its county offices and the cities, school districts, and special districts inside it.</p>
+  <ul class="link-list columns">
+    {% for p in st.counties %}<li><a href="{{ p.url }}">{{ p.name }}</a></li>{% endfor %}
+  </ul>
+  {% endif %}
+  {% if st.districts %}
+  <details class="more">
+    <summary>Legislative, congressional, and court districts ({{ st.districts | length }})</summary>
+    <ul class="link-list columns">
+      {% for p in st.districts %}<li><a href="{{ p.url }}">{{ p.name }}</a></li>{% endfor %}
+    </ul>
+  </details>
+  {% endif %}
+  {% if st.others %}
+  <details class="more">
+    <summary>Other places ({{ st.others | length }})</summary>
+    <ul class="link-list columns">
+      {% for p in st.others %}<li><a href="{{ p.url }}">{{ p.name }}</a></li>{% endfor %}
+    </ul>
+  </details>
+  {% endif %}
+</section>
+{% endfor %}
+
+<section aria-labelledby="how-h">
+  <h2 id="how-h">How we know who holds an office</h2>
+  <ul>
+    <li>Every officeholder comes from an official roster: the government's own list of who holds each office. Each one is linked.</li>
+    <li>Offices we haven't found on an official roster yet aren't listed. We're adding every county, city, school district, and special district.</li>
+    <li>Like everything on this site, each entry is marked <strong>Unverified</strong> until the project owner checks it against the source.</li>
+  </ul>
+</section>
+{% endblock %}

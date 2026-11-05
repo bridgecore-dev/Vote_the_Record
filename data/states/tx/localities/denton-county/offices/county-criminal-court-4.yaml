@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Judge, County Criminal Court at Law No. 4
+office_type: county-criminal-court-judge
+holders:
+- person: chance-oliver
+  start: null
+  end: null
+  basis: tx/localities/denton-county/offices/county-criminal-court-4#S-01
+sources:
+- id: tx/localities/denton-county/offices/county-criminal-court-4#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Denton County: Elected Officials Directory), checked on October 14, 2026, shows Chance Oliver
+    holding this office (recorded for the November 3, 2026 election: Judge, County Criminal Court at Law No. 4).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.dentoncounty.gov/1144/Elected-Officials
+  source_title: 'Denton County: Elected Officials Directory'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-14'
+  retrieved: '2026-10-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/denton-county/elections/2026-11-03/county-criminal-court-4/race#S-HOLDER.

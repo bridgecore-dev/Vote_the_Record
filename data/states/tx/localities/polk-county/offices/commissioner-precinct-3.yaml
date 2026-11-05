@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 3
+office_type: county-commissioner
+holders:
+- person: milt-purvis
+  start: null
+  end: null
+  basis: tx/localities/polk-county/offices/commissioner-precinct-3#S-01
+sources:
+- id: tx/localities/polk-county/offices/commissioner-precinct-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Polk County, TX: Commissioner Precinct 3), checked on November 4, 2026, shows Milt Purvis
+    as County Commissioner, Precinct 3. It reads: "MILT PURVIS Commissioner, Precinct 3"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.polktx.gov/506/Commissioner-Precinct-3
+  source_title: 'Polk County, TX: Commissioner Precinct 3'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

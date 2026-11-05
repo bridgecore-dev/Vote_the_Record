@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: State Senator, District 5
+office_type: state-senator
+holders:
+- person: charles-schwertner
+  start: null
+  end: null
+  basis: tx/districts/state-senate-5/offices/state-senator#S-01
+sources:
+- id: tx/districts/state-senate-5/offices/state-senator#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Texas Senate: member page, District 5), checked on October 15, 2026, shows Charles Schwertner
+    holding this office (recorded for the November 3, 2026 election: State Senator, District 5).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://senate.texas.gov/member.php?d=5
+  source_title: 'Texas Senate: member page, District 5'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-15'
+  retrieved: '2026-10-15'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/state-senate-5/elections/2026-11-03/state-senator/race#S-HOLDER.

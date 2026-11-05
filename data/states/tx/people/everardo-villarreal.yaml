@@ -1,0 +1,32 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: everardo-villarreal
+name: Everardo "Ever" Villarreal
+candidacies: []
+records:
+- id: tx/people/everardo-villarreal#R-01
+  record_type: vote
+  headline: Was absent for the vote on proposing a 2025 county tax rate of $0.5750 per $100 (Sept. 2025)
+  result: Proposed 4-0, one absent.
+  statement: As a member of Commissioners Court, was listed as ABSENT for the vote on the proposal of a 2025 Hidalgo County
+    tax rate of $0.5750 per $100, which the notice lists as above the no-new-revenue rate ($0.5422) and not greater than the
+    voter-approval rate ($0.6859). The notice lists County Judge Richard F. Cortez and Commissioners David Fuentes, Eduardo
+    "Eddie" Cantu and Ellie Torres voting for, no members voting against, and Commissioner Everardo "Ever" Villarreal absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hidalgocounty.us/DocumentCenter/View/71123
+  source_title: 'Hidalgo County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 3a083c7d4ab90e018aae8223e48e5570b0fc1c207e7e5e5165e5832553d939e2
+  archive_url: null
+  event_date: '2025-09-23'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or of the notice; event_date is the public hearing date printed in the notice.
+    The county's 2026 Budget Process page lists this notice as "Tax Increase (09/10/25)".
+statements: []
+funding: []
+promise_tracker: []

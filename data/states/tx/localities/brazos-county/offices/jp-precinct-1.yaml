@@ -1,0 +1,29 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice of the Peace, Precinct 1
+office_type: justice-of-the-peace
+area: brazos-county/jp-1
+holders:
+- person: kenny-e-elliott
+  start: null
+  end: null
+  basis: tx/localities/brazos-county/offices/jp-precinct-1#S-01
+sources:
+- id: tx/localities/brazos-county/offices/jp-precinct-1#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Justice of the Peace: Precinct 1 – Brazos County, TX – Official Website), checked on November
+    2, 2026, shows Kenny E. Elliott holding this office (recorded for the November 3, 2026 election: Justice of the Peace,
+    Precinct 1).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://brazoscountytx.gov/justices-of-the-peace/justice-of-the-peace-precinct-1/
+  source_title: 'Justice of the Peace: Precinct 1 – Brazos County, TX – Official Website'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/brazos-county/elections/2026-11-03/jp-precinct-1/race#S-HOLDER.

@@ -1,0 +1,34 @@
+# Powers of a Texas sheriff.
+# Text checked against the Texas Constitution and Local Government Code chapters 85 and 351
+# (statutes.capitol.texas.gov, read through its document server tcss.legis.texas.gov) on 2026-11-05.
+office_type: sheriff
+state: TX
+powers:
+  - id: P-TERM
+    description: Each county elects a sheriff for a four-year term. If the office becomes vacant, the commissioners court fills it until the next general election.
+    statute: Texas Constitution art. V, § 23
+    source_url: https://statutes.capitol.texas.gov/Docs/CN/htm/CN.5.htm
+
+  - id: P-JAIL
+    description: Keeps the county jail and must safely keep every prisoner a court lawfully sends there. The sheriff may appoint a jailer but stays in charge of the jail.
+    statute: Local Government Code § 351.041
+    source_url: https://statutes.capitol.texas.gov/Docs/LG/htm/LG.351.htm
+    topics: [courts-justice]
+
+  - id: P-STAFF
+    description: Appoints deputy sheriffs in writing, and may hire jail guards with the commissioners court's approval (or the county judge's in an emergency).
+    statute: Local Government Code §§ 85.003, 85.005
+    source_url: https://statutes.capitol.texas.gov/Docs/LG/htm/LG.85.htm
+    topics: [courts-justice]
+
+plain_summary:
+  intro:
+    text: Elected countywide for four years to run the county jail and lead the sheriff's deputies.
+    powers: [P-TERM, P-JAIL, P-STAFF]
+  points:
+    - text: Runs the county jail and is responsible for the people held there
+      icon: shield
+      powers: [P-JAIL]
+    - text: Appoints deputies and hires jail staff, with the county's approval for guards
+      icon: contract
+      powers: [P-STAFF]

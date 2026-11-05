@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice, Place 7, 4th Court of Appeals
+office_type: court-of-appeals-justice
+holders:
+- person: lori-i-valenzuela
+  start: null
+  end: null
+  basis: tx/districts/court-of-appeals-4/offices/place-7#S-01
+sources:
+- id: tx/districts/court-of-appeals-4/offices/place-7#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Texas Judicial Branch: 4th COA | About the Court | Justices), checked on November 4, 2026,
+    shows Lori I. Valenzuela as Justice, Place 7, 4th Court of Appeals. It reads: "Justice Lori I. Valenzuela"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/4thcoa/about-the-court/justices/
+  source_title: 'Texas Judicial Branch: 4th COA | About the Court | Justices'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

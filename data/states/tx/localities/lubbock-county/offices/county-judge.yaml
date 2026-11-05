@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Lubbock County Judge
+office_type: county-judge
+holders:
+- person: curtis-parrish
+  start: null
+  end: null
+  basis: tx/localities/lubbock-county/offices/county-judge#S-01
+sources:
+- id: tx/localities/lubbock-county/offices/county-judge#S-01
+  headline: Who holds this office now
+  statement: 'The official page (County Judge / Lubbock County, Texas), checked on November 2, 2026, shows Curtis Parrish
+    holding this office (recorded for the November 3, 2026 election: Lubbock County Judge).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.lubbockcounty.gov/department/division.php?structureid=70
+  source_title: County Judge / Lubbock County, Texas
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/lubbock-county/elections/2026-11-03/county-judge/race#S-HOLDER.

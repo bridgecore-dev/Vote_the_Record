@@ -1,0 +1,33 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: joe-recio
+name: Joe Recio
+candidacies: []
+records:
+- id: tx/people/joe-recio#R-01
+  record_type: vote
+  headline: Was absent for the vote on proposing a 2025 county tax rate of $0.800000 per $100 (Sept. 2025)
+  result: Proposed 3-0.
+  statement: As a member of Commissioners Court, is listed as ABSENT for the vote on the proposal of a 2025 Kenedy County
+    tax rate of $0.800000 per $100, which the notice lists as below the no-new-revenue rate ($0.856733) and not above the
+    voter-approval rate ($0.886742). The notice lists Judge Burns and Commissioners Vela and Hixon voting for, and Commissioners
+    Recio and Salazar absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.kenedycountytx.gov/upload/page/4734/Budget/2026%20BUDGET%20AND%202025%20TAX%20RATE.pdf
+  source_title: 'Kenedy County: Notice of Public Hearing on 2026 Budget and 2025 Tax Rate'
+  source_kind: document
+  sha256: 60ac35495f1684940701a522746d2bcbfd620e189449adfdc316c51343d2a4b0
+  archive_url: null
+  event_date: '2025-09-08'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date it lists (September
+    8, 2025). The notice uses the Tax Code § 26.06(b-2) form, though it lists the proposed rate as below the no-new-revenue
+    rate.
+statements: []
+funding: []
+promise_tracker: []

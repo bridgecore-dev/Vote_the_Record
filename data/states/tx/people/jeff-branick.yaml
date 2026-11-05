@@ -1,0 +1,31 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: jeff-branick
+name: Jeff Branick
+candidacies: []
+records:
+- id: tx/people/jeff-branick#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.357000 per $100 (Aug. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Jefferson County tax rate of $0.357000 per
+    $100, which the notice lists as below the no-new-revenue rate ($0.359759) and not above the voter-approval rate ($0.400506).
+    The notice lists Judge Branick and Commissioners Willis, Erickson, Sinegal and Alfred voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://blobs.jeffersoncountytx.gov/Home/Documents/PublicInfo/Auditing/2025_Jefferson_County_Public_Hearing_Notice.pdf
+  source_title: 'Jefferson County: 2025 Notice of Meeting to Vote on Tax Rate'
+  source_kind: document
+  sha256: c088890ff43f9ef8cbc690081b967d29d1d9897a021330cc25bc263f4becd1fc
+  archive_url: null
+  event_date: '2025-08-26'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: This is the county's 2025 Notice of Meeting to Vote on Tax Rate (the Comptroller's form for a proposed rate not above
+    the no-new-revenue rate, Tax Code § 26.061), which lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the meeting date it lists (August 26, 2025).
+statements: []
+funding: []
+promise_tracker: []

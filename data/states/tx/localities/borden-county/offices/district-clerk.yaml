@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Clerk
+office_type: district-clerk
+holders:
+- person: jana-underwood
+  start: null
+  end: null
+  basis: tx/localities/borden-county/offices/district-clerk#S-01
+sources:
+- id: tx/localities/borden-county/offices/district-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Borden County: District Clerk), checked on November 4, 2026, shows Jana Underwood as District
+    Clerk. It reads: "Jana Underwood District Clerk"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.borden.tx.us/page/District.Clerk
+  source_title: 'Borden County: District Clerk'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

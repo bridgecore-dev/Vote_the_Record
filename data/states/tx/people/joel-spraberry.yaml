@@ -1,0 +1,31 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: joel-spraberry
+name: Joel Spraberry
+candidacies: []
+records:
+- id: tx/people/joel-spraberry#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.536293 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Jones County tax rate of $0.536293 per $100,
+    which the notice lists as above the no-new-revenue rate ($0.522710) and not above the voter-approval rate ($0.536293).
+    The notice lists Judge Spurgin and Commissioners Spalding, Vivian, Collett and Spraberry voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/1278/2025/2025_notice_of_public_hearing_2025_tax_rate.pdf
+  source_title: 'Jones County: 2025 Notice of Meeting to Vote on Tax Rate'
+  source_kind: document
+  sha256: 9bcbf3d6f566eb980bbf365addfbf7fcdd6707dd086ce0e10160e450afe06fe9
+  archive_url: null
+  event_date: '2025-09-08'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: This is the county's 2025 Notice of Meeting to Vote on Tax Rate, which lists a de minimis rate of $0.560452 and how
+    each member of the governing body voted on the proposed tax rate. The notice does not give its own date or the date of
+    the vote; event_date is the meeting date it lists (September 8, 2025).
+statements: []
+funding: []
+promise_tracker: []

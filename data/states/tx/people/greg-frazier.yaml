@@ -1,0 +1,32 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: greg-frazier
+name: Greg Frazier
+candidacies: []
+records:
+- id: tx/people/greg-frazier#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.410000 per $100 (Aug. 2025)
+  result: Proposed 3-1.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Morris County tax rate of $0.410000 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.389341) and not above the voter-approval rate ($0.530059).
+    The notice lists Commissioners Clair, Freeman and Frazier voting for, Commissioner McCoy voting against, and no one present
+    and not voting or absent ("NA"). The notice does not list the county judge.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/3442/Notice%20of%20Public%20Hearing.pdf
+  source_title: 'Morris County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 26966536a47e81824c47c556b28bd4ea79428ca81c509a0390584f99d9d75e0f
+  archive_url: null
+  event_date: '2025-08-29'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice.
+    The notice does not list County Judge Reeder under any vote category.
+statements: []
+funding: []
+promise_tracker: []

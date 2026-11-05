@@ -1,0 +1,29 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice of the Peace, Precinct 4
+office_type: justice-of-the-peace
+area: williamson-county/jp-4
+holders:
+- person: rhonda-redden
+  start: null
+  end: null
+  basis: tx/localities/williamson-county/offices/jp-precinct-4#S-01
+sources:
+- id: tx/localities/williamson-county/offices/jp-precinct-4#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Williamson County: Justice of the Peace Precinct Four (county web page)), checked on August
+    13, 2026, shows Rhonda Redden holding this office (recorded for the November 3, 2026 election: Justice of the Peace, Precinct
+    4).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wilcotx.gov/625/Precinct-Four
+  source_title: 'Williamson County: Justice of the Peace Precinct Four (county web page)'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20260813085656/https://www.wilcotx.gov/625/Precinct-Four
+  event_date: '2026-08-13'
+  retrieved: '2026-10-15'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/williamson-county/elections/2026-11-03/jp-precinct-4/race#S-HOLDER.

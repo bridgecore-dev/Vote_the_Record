@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 4
+office_type: constable
+holders:
+- person: marcus-davee
+  start: null
+  end: null
+  basis: tx/localities/gillespie-county/offices/constable-precinct-4#S-01
+sources:
+- id: tx/localities/gillespie-county/offices/constable-precinct-4#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Gillespie County, Texas: County Constable Precinct 4), checked on November 4, 2026, shows
+    Marcus Davee as Constable, Precinct 4. It reads: "Marcus Davee Constable Precinct 4"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.gillespiecounty.gov/1350/County-Constable-Precinct-4
+  source_title: 'Gillespie County, Texas: County Constable Precinct 4'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

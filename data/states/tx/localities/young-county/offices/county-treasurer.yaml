@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Treasurer
+office_type: county-treasurer
+holders:
+- person: kyle-milam
+  start: null
+  end: null
+  basis: tx/localities/young-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/young-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Young County: Young County Treasurer), checked on November 4, 2026, shows Kyle Milam as County
+    Treasurer. It reads: "Kyle Milam: First oath of Office August 7, 2023"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.young.tx.us/page/young.County.Treasurer
+  source_title: 'Young County: Young County Treasurer'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

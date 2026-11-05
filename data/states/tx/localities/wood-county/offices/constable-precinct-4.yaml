@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 4
+office_type: constable
+holders:
+- person: chase-glover
+  start: null
+  end: null
+  basis: tx/localities/wood-county/offices/constable-precinct-4#S-01
+sources:
+- id: tx/localities/wood-county/offices/constable-precinct-4#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Wood County, Texas: Precinct 4 Constable), checked on November 4, 2026, shows Chase Glover
+    as Constable, Precinct 4. It reads: "Chase Glover"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.mywoodcounty.com/page/constable4
+  source_title: 'Wood County, Texas: Precinct 4 Constable'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

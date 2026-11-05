@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Attorney, 100th Judicial District
+office_type: district-attorney
+holders:
+- person: luke-m-inman
+  start: null
+  end: null
+  basis: tx/districts/judicial-district-100/offices/district-attorney#S-01
+sources:
+- id: tx/districts/judicial-district-100/offices/district-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Hall County, Texas: District Attorney), checked on November 4, 2026, shows Luke M. Inman
+    as District Attorney, 100th Judicial District. It reads: "100th Judicial District Attorney Luke M. Inman"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.hall.tx.us/page/hall.District.Attorney
+  source_title: 'Hall County, Texas: District Attorney'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

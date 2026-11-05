@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Bexar County Clerk
+office_type: county-clerk
+holders:
+- person: lucy-adame-clark
+  start: null
+  end: null
+  basis: tx/localities/bexar-county/offices/county-clerk#S-01
+sources:
+- id: tx/localities/bexar-county/offices/county-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Bexar County: County Clerk), checked on October 7, 2026, shows Lucy Adame-Clark holding this
+    office (recorded for the November 3, 2026 election: Bexar County Clerk).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bexar.org/2946/County-Clerk
+  source_title: 'Bexar County: County Clerk'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-07'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/bexar-county/elections/2026-11-03/county-clerk/race#S-HOLDER.

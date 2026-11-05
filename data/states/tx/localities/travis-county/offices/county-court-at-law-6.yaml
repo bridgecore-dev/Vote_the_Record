@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Judge, County Court at Law No. 6
+office_type: county-court-at-law-judge
+holders:
+- person: denise-hernandez
+  start: null
+  end: null
+  basis: tx/localities/travis-county/offices/county-court-at-law-6#S-01
+sources:
+- id: tx/localities/travis-county/offices/county-court-at-law-6#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Travis County: County Court at Law No. 6), checked on October 1, 2026, shows Denise Hernández
+    holding this office (recorded for the November 3, 2026 election: Judge, County Court at Law No. 6).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.traviscountytx.gov/courts/criminal/county/cc6
+  source_title: 'Travis County: County Court at Law No. 6'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-01'
+  retrieved: '2026-10-01'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/travis-county/elections/2026-11-03/county-court-at-law-6/race#S-HOLDER.

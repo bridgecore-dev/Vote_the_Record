@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Treasurer
+office_type: county-treasurer
+holders:
+- person: stephen-jones
+  start: null
+  end: null
+  basis: tx/localities/wichita-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/wichita-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Wichita County: Treasurer’s Office), checked on November 5, 2026, shows Stephen Jones as
+    County Treasurer. It reads: "County Treasurer: Stephen Jones"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wichitacountytx.com/locations/treasurers-office/
+  source_title: 'Wichita County: Treasurer’s Office'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

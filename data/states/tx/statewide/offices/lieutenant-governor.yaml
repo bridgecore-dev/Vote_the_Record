@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Lieutenant Governor
+office_type: lieutenant-governor
+holders:
+- person: dan-patrick
+  start: null
+  end: null
+  basis: tx/statewide/offices/lieutenant-governor#S-01
+sources:
+- id: tx/statewide/offices/lieutenant-governor#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Office of the Lieutenant Governor of Texas: home page), checked on September 30, 2026, shows
+    Dan Patrick holding this office (recorded for the November 3, 2026 election: Lieutenant Governor).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ltgov.texas.gov/
+  source_title: 'Office of the Lieutenant Governor of Texas: home page'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001021649/https://www.ltgov.texas.gov/
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/statewide/elections/2026-11-03/lieutenant-governor/race#S-HOLDER.

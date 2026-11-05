@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Bell County Appraisal District Director, Place 1
+office_type: appraisal-district-director
+holders:
+- person: kevin-koch
+  start: null
+  end: null
+  basis: tx/localities/bell-county/offices/cad-place-1#S-01
+sources:
+- id: tx/localities/bell-county/offices/cad-place-1#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Board Members & Meeting Agendas – Bell CAD), checked on October 20, 2026, shows Kevin Koch
+    holding this office (recorded for the November 3, 2026 election: Bell County Appraisal District Director, Place 1).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://bellcad.org/board-members/
+  source_title: Board Members & Meeting Agendas – Bell CAD
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/bell-county/elections/2026-11-03/cad-place-1/race#S-HOLDER.

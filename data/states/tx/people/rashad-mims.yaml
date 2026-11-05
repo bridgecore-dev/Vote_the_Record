@@ -1,0 +1,34 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: rashad-mims
+name: Rashad Mims
+candidacies: []
+records:
+- id: tx/people/rashad-mims#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.497815 per $100 (Aug. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Anderson County tax rate of $0.497815 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.464777) and not above the voter-approval rate ($0.504156).
+    The notice lists Judge McKinney and Commissioners Chapin, Mims, Wilbanks and Hill voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/10148/docs/Truth%20In%20Tax/2025/Anderson%20County%20Public%20Notice.pdf
+  source_title: 'Anderson County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 32334251d25befb00ff7298ffb8e8c5abab0a390ae69a4ebc441f5138fccfd3e
+  archive_url: null
+  event_date: '2025-08-25'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: 'The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or its own date; event_date is the public hearing date printed in the notice
+    (August 25, at 09:30 AM; the notice is for the 2025 tax year and does not print the hearing''s year). The PDF is a scan
+    with no text layer: the saved .txt is a hand transcription checked against the page image, and the raw machine OCR is
+    in notice-2025.ocr.txt. In the scan, the first name printed for the Precinct 4 commissioner is blurred (it can read "Jocy");
+    it is transcribed as "Joey".'
+statements: []
+funding: []
+promise_tracker: []

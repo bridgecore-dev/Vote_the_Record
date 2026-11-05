@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import verification_badge, source_line, report_link %}
+{% block title %}Officials: {{ place.name }}{% endblock %}
+{% block description %}Who holds each elected office in {{ place.name }}, from official rosters.{% endblock %}
+{% block content %}
+<header class="race-hero">
+  <p class="eyebrow"><a href="/officials/">Officials</a> · {{ place.state_name }}</p>
+  <h1>{{ place.name }}</h1>
+  <p class="lead">Who holds each elected office here, from official rosters.{% if place.counties %} In {% for c in place.counties %}<a href="{{ c.url }}">{{ c.name }}</a>{% if not loop.last %}, {% endif %}{% endfor %}.{% endif %}</p>
+</header>
+
+{% for group in place.groups %}
+<section aria-labelledby="g-{{ loop.index }}">
+  <h2 id="g-{{ loop.index }}">{{ group.title }}</h2>
+  <ul class="item-list">
+    {% for seat in group.seats %}
+    <li class="card item seat">
+      <p class="item-main"><strong>{{ seat.name }}</strong></p>
+      {% if seat.current %}
+      <p>{% for h in seat.current %}<a href="{{ h.who.url }}">{{ h.who.name }}</a>{% if h.start %} <span class="muted">(since {{ h.start | longdate }})</span>{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</p>
+      {% elif seat.vacant %}
+      <p class="muted">The official roster lists nobody in this office.</p>
+      {% endif %}
+      <details class="more">
+        <summary>Source</summary>
+        {% for fact in seat.sources %}
+        <p class="item-meta">{{ fact.statement }}</p>
+        <p class="item-meta">{{ verification_badge(fact) }} {{ source_line(fact) }} · {{ report_link(fact.id) }}</p>
+        {% endfor %}
+        {% if seat.notes %}<p class="muted">{{ seat.notes }}</p>{% endif %}
+      </details>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+
+{% if place.inside %}
+<section aria-labelledby="inside-h">
+  <h2 id="inside-h">Cities, school districts, and special districts</h2>
+  <p class="muted">Places that had contests on this county's ballot. Some also reach into other counties.</p>
+  <ul class="link-list columns">
+    {% for p in place.inside %}<li><a href="{{ p.url }}">{{ p.name }}</a> <span class="muted">· {{ p.seats | length }}</span></li>{% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<p class="muted">Only offices found on an official roster are listed. We're still adding the rest.</p>
+{% endblock %}

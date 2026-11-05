@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Judge, 261st Judicial District
+office_type: district-judge
+holders:
+- person: daniella-deseta-lyttle
+  start: null
+  end: null
+  basis: tx/localities/travis-county/offices/district-court-261#S-01
+sources:
+- id: tx/localities/travis-county/offices/district-court-261#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Travis County: 261st Civil District Court), checked on October 1, 2026, shows Daniella Deseta
+    Lyttle holding this office (recorded for the November 3, 2026 election: District Judge, 261st Judicial District).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.traviscountytx.gov/courts/civil/district/261
+  source_title: 'Travis County: 261st Civil District Court'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-01'
+  retrieved: '2026-10-01'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/travis-county/elections/2026-11-03/district-court-261/race#S-HOLDER.

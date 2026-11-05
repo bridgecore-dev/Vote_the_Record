@@ -1,0 +1,33 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Williamson-Travis Counties MUD No. 1 Directors (3 seats)
+office_type: water-district-director
+holders:
+- person: beth-jones
+  start: null
+  end: null
+  basis: tx/localities/williamson-travis-mud-1/offices/directors#S-01
+- person: hanoi-avila
+  start: null
+  end: null
+  basis: tx/localities/williamson-travis-mud-1/offices/directors#S-01
+sources:
+- id: tx/localities/williamson-travis-mud-1/offices/directors#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Board of Directors / WTCMUD 1), checked on October 30, 2026, shows Beth Jones and Hanoi Avila
+    holding seats on this board (recorded for the November 3, 2026 election: Williamson-Travis Counties MUD No. 1 Directors
+    (3 seats)).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wtcmud1.org/board-of-directors/
+  source_title: Board of Directors / WTCMUD 1
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/williamson-travis-mud-1/elections/2026-11-03/directors/race#S-HOLDER.
+    Lists only the members whose seats were on that ballot.

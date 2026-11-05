@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 1
+office_type: constable
+holders:
+- person: christopher-dorr
+  start: null
+  end: null
+  basis: tx/localities/nueces-county/offices/constable-precinct-1#S-01
+sources:
+- id: tx/localities/nueces-county/offices/constable-precinct-1#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Nueces County: Constable Precinct 1), checked on November 5, 2026, shows Christopher Dorr
+    as Constable, Precinct 1. It reads: "Dorr, Christopher Constable"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.nuecesco.com/law-enforcement/constables/constable-precinct-1
+  source_title: 'Nueces County: Constable Precinct 1'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

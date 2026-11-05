@@ -1,0 +1,29 @@
+# Who holds this seat, from official rosters. Unverified.
+name: King County District Court, Southeast Electoral District, Judge Position 1
+office_type: district-court-judge
+area: king-county/district-court-southeast
+holders:
+- person: leah-taguba
+  start: null
+  end: null
+  basis: wa/localities/king-county/offices/district-court-southeast-position-1#S-01
+sources:
+- id: wa/localities/king-county/offices/district-court-southeast-position-1#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Washington Secretary of State: November 8, 2022 General Election results, King County), checked
+    on October 18, 2026, shows Leah Taguba holding this office (recorded for the November 3, 2026 election: King County District
+    Court, Southeast Electoral District, Judge Position 1).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://results.vote.wa.gov/results/20221108/king/
+  source_title: 'Washington Secretary of State: November 8, 2022 General Election results, King County'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-18'
+  retrieved: '2026-10-18'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in wa/localities/king-county/elections/2026-11-03/district-court-southeast-position-1/race#S-HOLDER.

@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice, Place 3, 3rd Court of Appeals
+office_type: court-of-appeals-justice
+holders:
+- person: chari-l-kelly
+  start: null
+  end: null
+  basis: tx/districts/court-of-appeals-3/offices/place-3#S-01
+sources:
+- id: tx/districts/court-of-appeals-3/offices/place-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Texas Judicial Branch: 3rd COA | About The Court | Justices), checked on November 4, 2026,
+    shows Chari L. Kelly as Justice, Place 3, 3rd Court of Appeals. It reads: "Justice Chari L. Kelly"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/3rdcoa/about-the-court/justices/
+  source_title: 'Texas Judicial Branch: 3rd COA | About The Court | Justices'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

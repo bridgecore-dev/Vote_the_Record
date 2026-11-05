@@ -1,0 +1,31 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: john-mark-baggerman
+name: John Mark Baggerman
+candidacies: []
+records:
+- id: tx/people/john-mark-baggerman#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 county tax rate of $0.602478 per $100 (Sept. 2026)
+  result: Proposed 4-0, one absent.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2026 Gray County tax rate of $0.602478 per $100,
+    which the notice lists as above the no-new-revenue rate ($0.577682) and not greater than the voter-approval rate ($0.602478).
+    The notice lists County Judge Chris Porter and Commissioners Lake Arrington, John Mark Baggerman and Jeff Haley voting
+    for, no members voting against, and Commissioner Logan Hudson absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.gray.tx.us/upload/page/2036/2026/Gray%20County%202026%20Notice.pdf
+  source_title: 'Gray County: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 0a405a3179367dea9f63445fbb7d04f275d293734559345b89be2dffc3d38ba0
+  archive_url: null
+  event_date: '2026-09-01'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or of the notice; event_date is the public hearing date printed in the notice.
+statements: []
+funding: []
+promise_tracker: []

@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 4
+office_type: constable
+holders:
+- person: paula-williams
+  start: null
+  end: null
+  basis: tx/localities/randall-county/offices/constable-precinct-4#S-01
+sources:
+- id: tx/localities/randall-county/offices/constable-precinct-4#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Randall County, TX: Elected Officials), checked on November 4, 2026, shows Paula Williams
+    as Constable, Precinct 4. It reads: "Paula Williams County Constable, Precinct 4"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.randallcounty.gov/296/Elected-Officials
+  source_title: 'Randall County, TX: Elected Officials'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

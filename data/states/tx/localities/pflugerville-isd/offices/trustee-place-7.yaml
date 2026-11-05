@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Pflugerville ISD Board of Trustees, Place 7
+office_type: school-trustee
+holders:
+- person: chevonne-lorigo-johst
+  start: null
+  end: null
+  basis: tx/localities/pflugerville-isd/offices/trustee-place-7#S-01
+sources:
+- id: tx/localities/pflugerville-isd/offices/trustee-place-7#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Pflugerville ISD: Board of Trustees), checked on October 1, 2026, shows Chevonne Lorigo-Johst
+    holding this office (recorded for the November 3, 2026 election: Pflugerville ISD Board of Trustees, Place 7).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.pfisd.net/about-us/pfisd-board-of-trustees
+  source_title: 'Pflugerville ISD: Board of Trustees'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-01'
+  retrieved: '2026-10-01'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/pflugerville-isd/elections/2026-11-03/trustee-place-7/race#S-HOLDER.

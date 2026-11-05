@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: State Representative, District 127
+office_type: state-representative
+holders:
+- person: charles-cunningham
+  start: null
+  end: null
+  basis: tx/districts/state-house-127/offices/state-representative#S-01
+sources:
+- id: tx/districts/state-house-127/offices/state-representative#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Texas House of Representatives: Members), checked on September 30, 2026, shows Charles Cunningham
+    holding this office (recorded for the November 3, 2026 election: State Representative, District 127).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://house.texas.gov/members/
+  source_title: 'Texas House of Representatives: Members'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001021239/https://house.texas.gov/members
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/state-house-127/elections/2026-11-03/state-representative/race#S-HOLDER.

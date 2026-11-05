@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Sheldon ISD Trustee, Position 7
+office_type: school-trustee
+holders:
+- person: erika-martinez
+  start: null
+  end: null
+  basis: tx/localities/sheldon-isd/offices/trustee-position-7#S-01
+sources:
+- id: tx/localities/sheldon-isd/offices/trustee-position-7#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Sheldon ISD: Meet the Members), checked on September 30, 2026, shows Erika Martinez holding
+    this office (recorded for the November 3, 2026 election: Sheldon ISD Trustee, Position 7).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.sheldonisd.com/about-us/board-of-trustees/meet-the-members
+  source_title: 'Sheldon ISD: Meet the Members'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001023002/https://www.sheldonisd.com/about-us/board-of-trustees/meet-the-members
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/sheldon-isd/elections/2026-11-03/trustee-position-7/race#S-HOLDER.

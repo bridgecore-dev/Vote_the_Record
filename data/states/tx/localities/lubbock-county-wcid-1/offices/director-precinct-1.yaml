@@ -1,0 +1,29 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Lubbock County WCID No. 1 Director, Precinct 1
+office_type: water-district-director
+area: lubbock-county-wcid-1/precinct-1
+holders:
+- person: kristy-doss
+  start: null
+  end: null
+  basis: tx/localities/lubbock-county-wcid-1/offices/director-precinct-1#S-01
+sources:
+- id: tx/localities/lubbock-county-wcid-1/offices/director-precinct-1#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Lubbock County WCID No. 1 (Buffalo Springs Lake): Government), checked on November 3, 2026,
+    shows Kristy Doss holding this office (recorded for the November 3, 2026 election: Lubbock County WCID No. 1 Director,
+    Precinct 1).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.buffalospringslake.net/government/
+  source_title: 'Lubbock County WCID No. 1 (Buffalo Springs Lake): Government'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-03'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/lubbock-county-wcid-1/elections/2026-11-03/director-precinct-1/race#S-HOLDER.

@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Collin County Judge
+office_type: county-judge
+holders:
+- person: chris-hill
+  start: null
+  end: null
+  basis: tx/localities/collin-county/offices/county-judge#S-01
+sources:
+- id: tx/localities/collin-county/offices/county-judge#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Collin County: Commissioners Court), checked on October 8, 2026, shows Chris Hill holding
+    this office (recorded for the November 3, 2026 election: Collin County Judge).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.collincountytx.gov/government/commissioners-court
+  source_title: 'Collin County: Commissioners Court'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-08'
+  retrieved: '2026-10-08'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/collin-county/elections/2026-11-03/county-judge/race#S-HOLDER.

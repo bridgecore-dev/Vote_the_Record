@@ -1,0 +1,33 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: john-lee-durrenberger
+name: John Lee Durrenberger
+candidacies: []
+records:
+- id: tx/people/john-lee-durrenberger#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.3840 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Washington County tax rate of $0.3840 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.368477) and not above the voter-approval rate ($0.402669).
+    The notice lists Durrenberger, Corn, Bullock, Hanath and Majewski voting for, and lists no one against, present and not
+    voting, or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/0944/2026/Notice%20of%202025%20Tax%20Year%20Proposed%20Property%20Tax%20Rate.pdf
+  source_title: 'Washington County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 9620f4722375b5cbf6e2a1b410721743d59eb580492a3021362c22a4476db6b4
+  archive_url: null
+  event_date: '2025-09-09'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice is a filled-in PDF form; the names, rates and date are in its form fields, which the saved .txt lists at the
+    end. The notice does not give its own date or the date of the vote; event_date is the public hearing date in the notice
+    (Sept. 9, 2025). The notice lists names without titles.
+statements: []
+funding: []
+promise_tracker: []

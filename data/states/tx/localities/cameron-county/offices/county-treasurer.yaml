@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Cameron County County Treasurer
+office_type: county-treasurer
+holders:
+- person: david-a-betancourt
+  start: null
+  end: null
+  basis: tx/localities/cameron-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/cameron-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official page (County Treasurer - Cameron County), checked on October 20, 2026, shows David A. Betancourt
+    holding this office (recorded for the November 3, 2026 election: Cameron County County Treasurer).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/county-treasurer/
+  source_title: County Treasurer - Cameron County
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/cameron-county/elections/2026-11-03/county-treasurer/race#S-HOLDER.

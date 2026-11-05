@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Treasurer
+office_type: county-treasurer
+holders:
+- person: tonya-cox
+  start: null
+  end: null
+  basis: tx/localities/hamilton-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/hamilton-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Hamilton County, Texas: County Treasurer), checked on November 4, 2026, shows Tonya Cox as
+    County Treasurer. It reads: "Tonya Cox"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hamiltoncountytx.gov/page/hamilton.cotreasurer
+  source_title: 'Hamilton County, Texas: County Treasurer'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

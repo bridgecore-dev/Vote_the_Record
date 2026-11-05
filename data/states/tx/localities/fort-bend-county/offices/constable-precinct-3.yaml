@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 3
+office_type: constable
+holders:
+- person: ali-sheikhani
+  start: null
+  end: null
+  basis: tx/localities/fort-bend-county/offices/constable-precinct-3#S-01
+sources:
+- id: tx/localities/fort-bend-county/offices/constable-precinct-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Fort Bend County, Texas: Elected Officials), checked on November 4, 2026, shows Ali Sheikhani
+    as Constable, Precinct 3. It reads: "Constable Precinct 3 - Ali Sheikhani"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.fortbendcountytx.gov/government/governing-body/elected-officials
+  source_title: 'Fort Bend County, Texas: Elected Officials'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Constable, Precinct 4
+office_type: constable
+area: travis-county/jp-4
+holders:
+- person: gabriel-padilla
+  start: null
+  end: null
+  basis: tx/localities/travis-county/offices/constable-precinct-4#S-01
+sources:
+- id: tx/localities/travis-county/offices/constable-precinct-4#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Travis County: Constable, Precinct 4), checked on October 1, 2026, shows Gabriel Padilla
+    holding this office (recorded for the November 3, 2026 election: County Constable, Precinct 4 (Unexpired Term)).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.traviscountytx.gov/constables/4
+  source_title: 'Travis County: Constable, Precinct 4'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-01'
+  retrieved: '2026-10-01'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/travis-county/elections/2026-11-03/constable-precinct-4/race#S-HOLDER.

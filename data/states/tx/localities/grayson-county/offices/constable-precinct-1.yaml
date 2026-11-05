@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 1
+office_type: constable
+holders:
+- person: tommy-carter
+  start: null
+  end: null
+  basis: tx/localities/grayson-county/offices/constable-precinct-1#S-01
+sources:
+- id: tx/localities/grayson-county/offices/constable-precinct-1#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Grayson County, Texas: Elected Officials), checked on November 4, 2026, shows Tommy Carter
+    as Constable, Precinct 1. It reads: "Tommy Carter Constable Precinct 1"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.grayson.tx.us/page/co.officials
+  source_title: 'Grayson County, Texas: Elected Officials'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

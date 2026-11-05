@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Lago Vista City Council, Place 6
+office_type: city-council-member
+holders:
+- person: paul-prince
+  start: null
+  end: null
+  basis: tx/localities/city-of-lago-vista/offices/council-place-6#S-01
+sources:
+- id: tx/localities/city-of-lago-vista/offices/council-place-6#S-01
+  headline: Who holds this office now
+  statement: 'The official page (City Council | Lago Vista, TX), checked on October 30, 2026, shows Paul Prince holding this
+    office (recorded for the November 3, 2026 election: Lago Vista City Council, Place 6).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://lagovistatexas.gov/252/City-Council
+  source_title: City Council | Lago Vista, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/city-of-lago-vista/elections/2026-11-03/council-place-6/race#S-HOLDER.

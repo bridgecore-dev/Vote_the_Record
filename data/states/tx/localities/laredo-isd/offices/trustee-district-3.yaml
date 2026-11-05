@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Laredo ISD Trustee, District 3
+office_type: school-trustee
+area: laredo-isd/district-3
+holders:
+- person: veronica-v-orduno
+  start: null
+  end: null
+  basis: tx/localities/laredo-isd/offices/trustee-district-3#S-01
+sources:
+- id: tx/localities/laredo-isd/offices/trustee-district-3#S-01
+  headline: Who holds this office now
+  statement: 'The official page (LISD Board | Laredo Independent School District), checked on November 2, 2026, shows Verónica
+    V. Orduño holding this office (recorded for the November 3, 2026 election: Laredo ISD Trustee, District 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.laredoisd.org/o/lisd/page/lisd-board-of-trustees
+  source_title: LISD Board | Laredo Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/laredo-isd/elections/2026-11-03/trustee-district-3/race#S-HOLDER.

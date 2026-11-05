@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Leander ISD Board of Trustees, Place 1
+office_type: school-trustee
+holders:
+- person: trish-bode
+  start: null
+  end: null
+  basis: tx/localities/leander-isd/offices/trustee-place-1#S-01
+sources:
+- id: tx/localities/leander-isd/offices/trustee-place-1#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Leander ISD Honors School Board Recognition Month | Leander ISD News), checked on October
+    30, 2026, shows Trish Bode holding this office (recorded for the November 3, 2026 election: Leander ISD Board of Trustees,
+    Place 1).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://news.leanderisd.org/leander-isd-honors-school-board-recognition-month/
+  source_title: Leander ISD Honors School Board Recognition Month | Leander ISD News
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/leander-isd/elections/2026-11-03/trustee-place-1/race#S-HOLDER.

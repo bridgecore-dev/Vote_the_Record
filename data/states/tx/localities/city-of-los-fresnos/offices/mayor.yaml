@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: City of Los Fresnos Mayor
+office_type: mayor
+holders:
+- person: alejandro-flores
+  start: null
+  end: null
+  basis: tx/localities/city-of-los-fresnos/offices/mayor#S-01
+sources:
+- id: tx/localities/city-of-los-fresnos/offices/mayor#S-01
+  headline: Who holds this office now
+  statement: 'The official page (City Council | Los Fresnos Texas), checked on October 20, 2026, shows Alejandro Flores holding
+    this office (recorded for the November 3, 2026 election: City of Los Fresnos Mayor).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://cityoflosfresnos.com/citycouncil
+  source_title: City Council | Los Fresnos Texas
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/city-of-los-fresnos/elections/2026-11-03/mayor/race#S-HOLDER.

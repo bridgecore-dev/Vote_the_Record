@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice of the Peace, Precinct 3
+office_type: justice-of-the-peace
+area: travis-county/jp-3
+holders:
+- person: sylvia-holmes
+  start: null
+  end: null
+  basis: tx/localities/travis-county/offices/jp-precinct-3#S-01
+sources:
+- id: tx/localities/travis-county/offices/jp-precinct-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Travis County: Justices of the Peace), checked on October 1, 2026, shows Sylvia Holmes holding
+    this office (recorded for the November 3, 2026 election: Justice of the Peace, Precinct 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.traviscountytx.gov/justices-of-peace
+  source_title: 'Travis County: Justices of the Peace'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-01'
+  retrieved: '2026-10-01'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/travis-county/elections/2026-11-03/jp-precinct-3/race#S-HOLDER.

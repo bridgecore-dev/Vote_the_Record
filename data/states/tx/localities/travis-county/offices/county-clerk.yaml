@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Travis County Clerk
+office_type: county-clerk
+holders:
+- person: dyana-limon-mercado
+  start: null
+  end: null
+  basis: tx/localities/travis-county/offices/county-clerk#S-01
+sources:
+- id: tx/localities/travis-county/offices/county-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Travis County Clerk: Travis County Elections (VoteTravis.gov) home page), checked on October
+    1, 2026, shows Dyana Limon-Mercado holding this office (recorded for the November 3, 2026 election: Travis County Clerk).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://votetravis.gov/
+  source_title: 'Travis County Clerk: Travis County Elections (VoteTravis.gov) home page'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-01'
+  retrieved: '2026-10-01'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/travis-county/elections/2026-11-03/county-clerk/race#S-HOLDER.

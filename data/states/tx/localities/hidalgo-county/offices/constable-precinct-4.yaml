@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 4
+office_type: constable
+holders:
+- person: atanacio-j-r-gaitan
+  start: null
+  end: null
+  basis: tx/localities/hidalgo-county/offices/constable-precinct-4#S-01
+sources:
+- id: tx/localities/hidalgo-county/offices/constable-precinct-4#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Hidalgo County, Texas: County Officials), checked on November 4, 2026, shows Atanacio J.R.
+    Gaitan as Constable, Precinct 4. It reads: "Constable Precinct 4 Atanacio J.R. Gaitan"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hidalgocounty.us/937/County-Officials
+  source_title: 'Hidalgo County, Texas: County Officials'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

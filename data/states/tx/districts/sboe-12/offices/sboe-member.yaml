@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: State Board of Education, District 12
+office_type: sboe-member
+holders:
+- person: pam-little
+  start: null
+  end: null
+  basis: tx/districts/sboe-12/offices/sboe-member#S-01
+sources:
+- id: tx/districts/sboe-12/offices/sboe-member#S-01
+  headline: Who holds this office now
+  statement: 'The official list (State Board of Education: SBOE Members), checked on November 4, 2026, shows Pam Little as
+    State Board of Education, District 12. It reads: "Pam Little"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://sboe.texas.gov/state-board-of-education/sboe-board-members/sboe-members
+  source_title: 'State Board of Education: SBOE Members'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

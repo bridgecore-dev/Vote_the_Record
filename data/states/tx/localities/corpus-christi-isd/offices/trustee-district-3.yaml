@@ -1,0 +1,29 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Corpus Christi ISD Trustee, District 3
+office_type: school-trustee
+area: corpus-christi-isd/district-3
+holders:
+- person: marty-bell
+  start: null
+  end: null
+  basis: tx/localities/corpus-christi-isd/offices/trustee-district-3#S-01
+sources:
+- id: tx/localities/corpus-christi-isd/offices/trustee-district-3#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Board Members | CORPUS CHRISTI INDEPENDENT SCHOOL DISTRICT), checked on November 2, 2026,
+    shows Marty Bell holding this office (recorded for the November 3, 2026 election: Corpus Christi ISD Trustee, District
+    3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ccisd.us/page/board-members
+  source_title: Board Members | CORPUS CHRISTI INDEPENDENT SCHOOL DISTRICT
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/corpus-christi-isd/elections/2026-11-03/trustee-district-3/race#S-HOLDER.

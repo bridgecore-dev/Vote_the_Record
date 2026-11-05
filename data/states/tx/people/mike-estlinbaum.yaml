@@ -1,0 +1,33 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: mike-estlinbaum
+name: Mike Estlinbaum
+candidacies: []
+records:
+- id: tx/people/mike-estlinbaum#R-01
+  record_type: vote
+  headline: Voted for proposing a 2023 county tax rate of $0.35928 per $100 (Sept. 2023)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2023 Matagorda County tax rate of $0.35928 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.34179) and not above the voter-approval rate ($0.35928).
+    The notice lists Judge Seiferman and Commissioners Cook, Estlinbaum, Frick and Shimek voting for, and no one voting against,
+    present and not voting, or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/5650/2024%20Notice%20of%20Public%20Hearing%20Tax%20Increase.pdf
+  source_title: 'Matagorda County: 2023 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 44a4109090c27643719fff90c7b5fa84b92917100115b1c36cefa73b3d164d5a
+  archive_url: null
+  event_date: '2023-09-11'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice.
+    The file on the county site is named '2024 Notice of Public Hearing Tax Increase', but the notice text is for the 2023
+    tax year. The notice prints Frick as PCT 3 and Shimek as PCT 4; the seat here follows the county's current roster.
+statements: []
+funding: []
+promise_tracker: []

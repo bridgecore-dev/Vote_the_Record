@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 1
+office_type: county-commissioner
+holders:
+- person: larry-garcia
+  start: null
+  end: null
+  basis: tx/localities/mcmullen-county/offices/commissioner-precinct-1#S-01
+sources:
+- id: tx/localities/mcmullen-county/offices/commissioner-precinct-1#S-01
+  headline: Who holds this office now
+  statement: 'The official list (McMullen County: Precinct 1 Commissioner), checked on November 4, 2026, shows Larry Garcia
+    as County Commissioner, Precinct 1. It reads: "Larry Garcia Commissioner Precinct 1"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://mcmullencounty.org/precinct-1-commissioner/
+  source_title: 'McMullen County: Precinct 1 Commissioner'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

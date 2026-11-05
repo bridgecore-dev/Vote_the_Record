@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Bryan City Council, District 2
+office_type: city-council-member
+area: city-of-bryan/district-2
+holders:
+- person: ray-arrington
+  start: null
+  end: null
+  basis: tx/localities/city-of-bryan/offices/council-district-2#S-01
+sources:
+- id: tx/localities/city-of-bryan/offices/council-district-2#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Mayor & City Council | City of Bryan), checked on November 2, 2026, shows Ray Arrington holding
+    this office (recorded for the November 3, 2026 election: Bryan City Council, District 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bryantx.gov/mayor-city-council/
+  source_title: Mayor & City Council | City of Bryan
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/city-of-bryan/elections/2026-11-03/council-district-2/race#S-HOLDER.

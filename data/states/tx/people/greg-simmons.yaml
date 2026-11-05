@@ -1,0 +1,31 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: greg-simmons
+name: Greg Simmons
+candidacies: []
+records:
+- id: tx/people/greg-simmons#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 county tax rate of $0.437469 per $100 (Aug. 2026)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2026 Ector County tax rate of $0.437469 per $100,
+    which the notice lists as above the no-new-revenue rate ($0.411655) and not above the voter-approval rate ($0.466938).
+    The notice lists Judge Fawcett and Commissioners Gardner, Simmons, Russell and Hall voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.ectorcountytx.gov/DocumentCenter/View/2891/NOTICE-OF-PUBLIC-HEARING-UPDATED
+  source_title: 'Ector County: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: b4d01b5a4a7a2a8f59b271ae8f1a646dbd73a5580edee1845cc4bed4e6711853
+  archive_url: null
+  event_date: '2026-08-24'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the first public hearing date printed in
+    the notice (August 24, 2026). The notice lists names without titles; seats are matched from the county's current officeholders.
+statements: []
+funding: []
+promise_tracker: []

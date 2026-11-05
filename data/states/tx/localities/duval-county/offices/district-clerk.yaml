@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Clerk
+office_type: district-clerk
+holders:
+- person: rachel-s-vela
+  start: null
+  end: null
+  basis: tx/localities/duval-county/offices/district-clerk#S-01
+sources:
+- id: tx/localities/duval-county/offices/district-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Duval County: District Clerk), checked on November 4, 2026, shows Rachel S. Vela as District
+    Clerk. It reads: "Rachel S. Vela"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.duval.tx.us/page/duval.District.Clerk
+  source_title: 'Duval County: District Clerk'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

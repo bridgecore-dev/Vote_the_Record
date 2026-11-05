@@ -4,8 +4,14 @@
 {% block title %}Home{% endblock %}
 {% block content %}
 <header class="hero">
+  {% if site.ballots %}
   <h1>Know who's on your ballot.</h1>
   <p class="lead">Straight facts about what each office does and what the candidates have actually done, with a source for everything. No spin, no party colors.</p>
+  {% else %}
+  <h1>Know who represents you.</h1>
+  <p class="lead">Who holds each elected office, and what they have actually done in it: recorded votes, actions, and what they said, with a source for everything. No spin, no party colors.</p>
+  {% if site.officials.places %}<a class="button" href="/officials/">Find your officials</a>{% endif %}
+  {% endif %}
   {% if site.zip_index %}
   <form id="zip-find" class="zip-form" role="search" hidden>
     <label for="zip-home">See what's on your ballot</label>
@@ -26,6 +32,13 @@
   {% endif %}
   {% if site.races %}<a class="button{% if site.zip_index %} button-secondary{% endif %}" href="#races">{{ icon("quiz") }} Browse all races</a>{% endif %}
 </header>
+
+{% if site.ballots and site.officials.places %}
+<aside class="notice" aria-labelledby="officials-note-h">
+  <h2 id="officials-note-h" class="notice-h">Your officials</h2>
+  <p>Who holds each office now, from official rosters, with their record in office. <a href="/officials/">See your officials</a>.</p>
+</aside>
+{% endif %}
 
 {% if site.results %}
 <aside class="notice" aria-labelledby="results-note-h">

@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 3
+office_type: constable
+holders:
+- person: robert-chambers
+  start: null
+  end: null
+  basis: tx/localities/fayette-county/offices/constable-precinct-3#S-01
+sources:
+- id: tx/localities/fayette-county/offices/constable-precinct-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Fayette County, Texas: Fayette County Constables), checked on November 4, 2026, shows Robert
+    Chambers as Constable, Precinct 3. It reads: "Precinct 3 Constable Robert Chambers"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.fayette.tx.us/page/fayette.Constable
+  source_title: 'Fayette County, Texas: Fayette County Constables'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

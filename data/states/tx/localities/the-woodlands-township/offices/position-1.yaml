@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: The Woodlands Township, Position 1
+office_type: township-director
+holders:
+- person: brad-bailey
+  start: null
+  end: null
+  basis: tx/localities/the-woodlands-township/offices/position-1#S-01
+sources:
+- id: tx/localities/the-woodlands-township/offices/position-1#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Chairman, Brad Bailey | The Woodlands Township, TX), checked on October 30, 2026, shows Brad
+    Bailey holding this office (recorded for the November 3, 2026 election: The Woodlands Township, Position 1).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.thewoodlandstownship-tx.gov/Government/Board-of-Directors/Brad-Bailey
+  source_title: Chairman, Brad Bailey | The Woodlands Township, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/the-woodlands-township/elections/2026-11-03/position-1/race#S-HOLDER.

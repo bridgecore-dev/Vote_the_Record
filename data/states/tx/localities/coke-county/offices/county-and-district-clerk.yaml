@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County and District Clerk
+office_type: county-clerk
+holders:
+- person: carolla-orcutt
+  start: null
+  end: null
+  basis: tx/localities/coke-county/offices/county-and-district-clerk#S-01
+sources:
+- id: tx/localities/coke-county/offices/county-and-district-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Coke County: County/District Clerk), checked on November 4, 2026, shows Carolla Orcutt as
+    County and District Clerk. It reads: "Carolla Orcutt"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.coke.tx.us/page/coke.County.Clerk
+  source_title: 'Coke County: County/District Clerk'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

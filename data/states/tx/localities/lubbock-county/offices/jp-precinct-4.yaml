@@ -1,0 +1,32 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice of the Peace, Precinct 4
+office_type: justice-of-the-peace
+area: lubbock-county/jp-4
+holders:
+- person: lance-cansino
+  start: null
+  end: null
+  basis: tx/localities/lubbock-county/offices/jp-precinct-4#S-01
+sources:
+- id: tx/localities/lubbock-county/offices/jp-precinct-4#S-01
+  headline: Who holds this office now
+  statement: 'The official page (CivilCriminalEvictionsJustice CourtSmall ClaimsMap of JP Precinct 4Find Your PrecinctAppointment
+    of AttorneysTexas Legal HelpLocal Rules for Lubbock County Justice CourtsRules of Practice in Justice CourtsADR Rules
+    of Justice of the Peace / Lubbock County, Texas), checked on November 2, 2026, shows Lance Cansino holding this office
+    (recorded for the November 3, 2026 election: Justice of the Peace, Precinct 4).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.lubbockcounty.gov/department/division.php?structureid=27
+  source_title: CivilCriminalEvictionsJustice CourtSmall ClaimsMap of JP Precinct 4Find Your PrecinctAppointment of AttorneysTexas
+    Legal HelpLocal Rules for Lubbock County Justice CourtsRules of Practice in Justice CourtsADR Rules of Justice of the
+    Peace / Lubbock County, Texas
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/lubbock-county/elections/2026-11-03/jp-precinct-4/race#S-HOLDER.

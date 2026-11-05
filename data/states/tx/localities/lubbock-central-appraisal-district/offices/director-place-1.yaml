@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Lubbock Central Appraisal District Director, Place 1
+office_type: appraisal-district-director
+holders:
+- person: micah-ohair
+  start: null
+  end: null
+  basis: tx/localities/lubbock-central-appraisal-district/offices/director-place-1#S-01
+sources:
+- id: tx/localities/lubbock-central-appraisal-district/offices/director-place-1#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Lubbock Central Appraisal District: Members), checked on November 3, 2026, shows Micah O''Hair
+    holding this office (recorded for the November 3, 2026 election: Lubbock Central Appraisal District Director, Place 1).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.lubbockcad.org/Members
+  source_title: 'Lubbock Central Appraisal District: Members'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-03'
+  retrieved: '2026-11-03'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/lubbock-central-appraisal-district/elections/2026-11-03/director-place-1/race#S-HOLDER.

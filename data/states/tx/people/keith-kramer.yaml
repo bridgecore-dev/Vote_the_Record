@@ -1,0 +1,55 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: keith-kramer
+name: Keith Kramer
+candidacies: []
+records:
+- id: tx/people/keith-kramer#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.2850 per $100 (Sept. 2025)
+  result: Proposed 4-0, one absent.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Gillespie County tax rate of $0.2850 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.2654) and not greater than the voter-approval rate ($0.3423).
+    The notice lists Daniel Jones, Charles Olfers, Keith Kramer and Don Weinheimer voting for, no members voting against or
+    present and not voting, and Chuck Jenschke absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://gillespiecounty.gov/DocumentCenter/View/1397/G086-2025-Notice-of-Public-Hearing-on-Tax-Increase-50-876-pub-PDF
+  source_title: 'Gillespie County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: f8b957ff515fb5f54901b02f998bafa3c9cf33034c122af7044c1a4c6008f8aa
+  archive_url: null
+  event_date: '2025-09-08'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or of the notice; event_date is the public hearing date printed in the notice.
+    The notice's entries are in the PDF's fillable form fields; the saved text lists those values after the page text.
+- id: tx/people/keith-kramer#R-02
+  record_type: vote
+  headline: Voted for proposing a 2026 county tax rate of $0.2873 per $100 (Sept. 2026)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2026 Gillespie County tax rate of $0.2873 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.2770) and not greater than the voter-approval rate ($0.3683).
+    The notice lists Daniel Jones, Charles Olfers, Keith Kramer, Charles Jenschke and Don Weinheimer voting for, and no members
+    against, present and not voting, or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://gillespiecounty.gov/DocumentCenter/View/2806
+  source_title: 'Gillespie County: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 6ed044858d54182e954410333595546679ac6abb2d298d35cb752cfacc627268
+  archive_url: null
+  event_date: '2026-09-08'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or of the notice; event_date is the public hearing date printed in the notice.
+statements: []
+funding: []
+promise_tracker: []

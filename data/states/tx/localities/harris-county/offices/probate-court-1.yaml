@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Judge, County Probate Court No. 1
+office_type: probate-judge
+holders:
+- person: jerry-simoneaux
+  start: null
+  end: null
+  basis: tx/localities/harris-county/offices/probate-court-1#S-01
+sources:
+- id: tx/localities/harris-county/offices/probate-court-1#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Harris County Probate Courts: home page), checked on September 30, 2026, shows Jerry Simoneaux
+    holding this office (recorded for the November 3, 2026 election: Judge, County Probate Court No. 1).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://probate.harriscountytx.gov/
+  source_title: 'Harris County Probate Courts: home page'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001022526/https://probate.harriscountytx.gov/
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/harris-county/elections/2026-11-03/probate-court-1/race#S-HOLDER.

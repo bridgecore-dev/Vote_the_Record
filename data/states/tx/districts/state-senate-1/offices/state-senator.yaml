@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: State Senator, District 1
+office_type: state-senator
+holders:
+- person: bryan-hughes
+  start: null
+  end: null
+  basis: tx/districts/state-senate-1/offices/state-senator#S-01
+sources:
+- id: tx/districts/state-senate-1/offices/state-senator#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Senator Bryan   Hughes: District 1 | The Texas State Senate), checked on October 20, 2026,
+    shows Bryan Hughes holding this office (recorded for the November 3, 2026 election: State Senator, District 1).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://senate.texas.gov/member.php?d=1
+  source_title: 'Senator Bryan   Hughes: District 1 | The Texas State Senate'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/state-senate-1/elections/2026-11-03/state-senator/race#S-HOLDER.

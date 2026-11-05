@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: State Representative, District 22
+office_type: state-representative
+holders:
+- person: christian-manuel
+  start: null
+  end: null
+  basis: tx/districts/state-house-22/offices/state-representative#S-01
+sources:
+- id: tx/districts/state-house-22/offices/state-representative#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Texas House of Representatives: Texas House Members), checked on November 4, 2026, shows
+    Christian Manuel as State Representative, District 22. It reads: "Manuel, Christian District 22"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://house.texas.gov/members
+  source_title: 'Texas House of Representatives: Texas House Members'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

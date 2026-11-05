@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Williamson County Judge
+office_type: county-judge
+holders:
+- person: steve-snell
+  start: null
+  end: null
+  basis: tx/localities/williamson-county/offices/county-judge#S-01
+sources:
+- id: tx/localities/williamson-county/offices/county-judge#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Williamson County: County Judge (county web page)), checked on August 13, 2026, shows Steve
+    Snell holding this office (recorded for the November 3, 2026 election: Williamson County Judge).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wilcotx.gov/334/County-Judge
+  source_title: 'Williamson County: County Judge (county web page)'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20260813085738/https://www.wilcotx.gov/334/County-Judge
+  event_date: '2026-08-13'
+  retrieved: '2026-10-15'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/williamson-county/elections/2026-11-03/county-judge/race#S-HOLDER.

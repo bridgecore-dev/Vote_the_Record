@@ -1,0 +1,45 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Eastwood MUD Permanent Directors (5 seats)
+office_type: water-district-director
+holders:
+- person: carrington-saathoff
+  start: null
+  end: null
+  basis: tx/localities/eastwood-mud/offices/directors#S-01
+- person: grant-ballew
+  start: null
+  end: null
+  basis: tx/localities/eastwood-mud/offices/directors#S-01
+- person: john-berry
+  start: null
+  end: null
+  basis: tx/localities/eastwood-mud/offices/directors#S-01
+- person: ryan-sullivan
+  start: null
+  end: null
+  basis: tx/localities/eastwood-mud/offices/directors#S-01
+- person: william-waller
+  start: null
+  end: null
+  basis: tx/localities/eastwood-mud/offices/directors#S-01
+sources:
+- id: tx/localities/eastwood-mud/offices/directors#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Eastwood MUD | Nov 2026 Election | Order Calling Election), checked on October 30, 2026,
+    shows Carrington Saathoff, Grant Ballew, John Berry, Ryan Sullivan and William Waller holding seats on this board (recorded
+    for the November 3, 2026 election: Eastwood MUD Permanent Directors (5 seats)).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://votetravis.gov/wp-content/uploads/Eastwood-MUD_Order-of-Election.pdf
+  source_title: Eastwood MUD | Nov 2026 Election | Order Calling Election
+  source_kind: document
+  sha256: 5273e215901ddf47a56b152d46463fcc49b4fa5884846334ba60d838b88f90f7
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/eastwood-mud/elections/2026-11-03/directors/race#S-HOLDER. Lists
+    only the members whose seats were on that ballot.

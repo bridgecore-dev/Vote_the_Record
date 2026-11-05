@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Attorney
+office_type: county-attorney
+holders:
+- person: edmund-j-zielinski
+  start: null
+  end: null
+  basis: tx/localities/cooke-county/offices/county-attorney#S-01
+sources:
+- id: tx/localities/cooke-county/offices/county-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Cooke County: Cooke County Attorney''s Office), checked on November 4, 2026, shows Edmund
+    J. Zielinski as County Attorney. It reads: "EDMUND J. ZIELINSKI"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.cooke.tx.us/page/cooke.County.Attorney
+  source_title: 'Cooke County: Cooke County Attorney''s Office'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Williamson County Tax Assessor-Collector
+office_type: tax-assessor-collector
+holders:
+- person: catherine-totty
+  start: null
+  end: null
+  basis: tx/localities/williamson-county/offices/tax-assessor-collector#S-01
+sources:
+- id: tx/localities/williamson-county/offices/tax-assessor-collector#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Williamson County: Tax Assessor-Collector (county web page)), checked on August 13, 2026,
+    shows Catherine Totty holding this office (recorded for the November 3, 2026 election: Williamson County Tax Assessor-Collector
+    (Unexpired Term)).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wilcotx.gov/687/Tax-Assessor-Collector
+  source_title: 'Williamson County: Tax Assessor-Collector (county web page)'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20260813085654/https://www.wilcotx.gov/687/Tax-Assessor-Collector
+  event_date: '2026-08-13'
+  retrieved: '2026-10-15'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/williamson-county/elections/2026-11-03/tax-assessor-collector/race#S-HOLDER.

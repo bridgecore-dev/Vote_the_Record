@@ -485,6 +485,35 @@
         "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } }
       }
     },
+    "office": {
+      "description": "One elected seat and who holds it (docs/OFFICIALS.md).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "office_type", "holders", "sources"],
+      "properties": {
+        "name": { "description": "The office as the government names it.", "type": "string", "minLength": 1 },
+        "office_type": { "description": "offices/<type>/powers.yaml", "$ref": "urn:vtr:schema:fact#/$defs/slug" },
+        "area": { "description": "Voting area, as for races. Optional.", "type": "string", "pattern": "^[a-z0-9-]+(/[a-z0-9-]+)?$" },
+        "vacant": { "description": "The roster lists nobody in this seat.", "type": "boolean" },
+        "holders": {
+          "description": "Oldest first. Every holder with no end (or an end not yet reached) holds it now: one for a single seat, several for a board elected at large.",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["person", "start", "end", "basis"],
+            "properties": {
+              "person": { "description": "data/states/<st>/people/<slug>.yaml", "$ref": "urn:vtr:schema:fact#/$defs/slug" },
+              "start": { "description": "Only from a source; null if none gives it.", "anyOf": [{ "$ref": "urn:vtr:schema:fact#/$defs/date" }, { "type": "null" }] },
+              "end": { "anyOf": [{ "$ref": "urn:vtr:schema:fact#/$defs/date" }, { "type": "null" }] },
+              "basis": { "description": "The fact in this file's sources that shows they hold (or held) the seat.", "$ref": "urn:vtr:schema:fact#/$defs/fact_id" }
+            }
+          }
+        },
+        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "urn:vtr:schema:fact" } },
+        "notes": { "type": "string" }
+      }
+    },
     "locality": {
       "type": "object",
       "additionalProperties": false,

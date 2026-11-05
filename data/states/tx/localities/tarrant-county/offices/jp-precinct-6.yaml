@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice of the Peace, Precinct 6
+office_type: justice-of-the-peace
+area: tarrant-county/jp-6
+holders:
+- person: jason-m-charbonnet
+  start: null
+  end: null
+  basis: tx/localities/tarrant-county/offices/jp-precinct-6#S-01
+sources:
+- id: tx/localities/tarrant-county/offices/jp-precinct-6#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Tarrant County: Elected Officials), checked on October 17, 2026, shows Jason M. Charbonnet
+    holding this office (recorded for the November 3, 2026 election: Justice of the Peace, Precinct 6).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.tarrantcountytx.gov/en/elections/online-resources/elected-officials.html
+  source_title: 'Tarrant County: Elected Officials'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-17'
+  retrieved: '2026-10-17'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/tarrant-county/elections/2026-11-03/jp-precinct-6/race#S-HOLDER.

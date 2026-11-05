@@ -1,0 +1,31 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: jack-moseley
+name: Jack Moseley
+candidacies: []
+records:
+- id: tx/people/jack-moseley#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.53040 per $100 (Aug. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Bandera County tax rate of $0.53040 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.52278) and not above the voter-approval rate ($0.55413).
+    The notice lists Judge Evans and Commissioners Konvicka, Moseley, Rutherford and Grothues voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.banderacounty.org/page/open/1769/0/Notice%20of%20Public%20Hearing%20on%20Tax%20Rate%202025
+  source_title: 'Bandera County: 2025 Notice of Public Hearing on Tax Rate'
+  source_kind: document
+  sha256: 67aa786a87c6c6e0f3e75ac17f15a2697004c115a2d3dde14bc975c5fde74200
+  archive_url: null
+  event_date: '2025-08-28'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give the date of the vote or its own date; event_date is the public hearing date printed in the notice
+    (August 28, 2025). The notice also lists Greg Grothues voting for; he no longer holds a seat and is left out.
+statements: []
+funding: []
+promise_tracker: []

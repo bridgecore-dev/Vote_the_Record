@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: State Board of Education, District 2
+office_type: sboe-member
+holders:
+- person: lj-francis
+  start: null
+  end: null
+  basis: tx/districts/sboe-2/offices/sboe-member#S-01
+sources:
+- id: tx/districts/sboe-2/offices/sboe-member#S-01
+  headline: Who holds this office now
+  statement: 'The official page (SBOE Members | State Board of Education), checked on October 20, 2026, shows LJ Francis holding
+    this office (recorded for the November 3, 2026 election: State Board of Education, District 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://sboe.texas.gov/state-board-of-education/sboe-board-members/sboe-members
+  source_title: SBOE Members | State Board of Education
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/sboe-2/elections/2026-11-03/sboe-member/race#S-HOLDER.

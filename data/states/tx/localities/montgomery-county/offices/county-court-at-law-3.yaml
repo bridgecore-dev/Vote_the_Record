@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Judge, County Court at Law No. 3
+office_type: county-court-at-law-judge
+holders:
+- person: amy-tucker
+  start: null
+  end: null
+  basis: tx/localities/montgomery-county/offices/county-court-at-law-3#S-01
+sources:
+- id: tx/localities/montgomery-county/offices/county-court-at-law-3#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Montgomery County: County Courts at Law), checked on October 19, 2026, shows Amy Tucker holding
+    this office (recorded for the November 3, 2026 election: Judge, County Court at Law No. 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.mctx.org/departments/departments_a_-_c/county_courts/index.php
+  source_title: 'Montgomery County: County Courts at Law'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/montgomery-county/elections/2026-11-03/county-court-at-law-3/race#S-HOLDER.

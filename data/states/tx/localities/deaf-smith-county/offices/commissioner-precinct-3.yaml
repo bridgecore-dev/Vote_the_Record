@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 3
+office_type: county-commissioner
+holders:
+- person: kevin-brown
+  start: null
+  end: null
+  basis: tx/localities/deaf-smith-county/offices/commissioner-precinct-3#S-01
+sources:
+- id: tx/localities/deaf-smith-county/offices/commissioner-precinct-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Deaf Smith County: Commissioners Court), checked on November 4, 2026, shows Kevin Brown as
+    County Commissioner, Precinct 3. It reads: "Kevin Brown"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.deaf-smith.tx.us/page/deafsmith.Commissioners.Court
+  source_title: 'Deaf Smith County: Commissioners Court'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

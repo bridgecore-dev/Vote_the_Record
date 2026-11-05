@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Los Fresnos CISD Trustee, Place 4
+office_type: school-trustee
+holders:
+- person: jesus-amaya
+  start: null
+  end: null
+  basis: tx/localities/los-fresnos-cisd/offices/trustee-place-4#S-01
+sources:
+- id: tx/localities/los-fresnos-cisd/offices/trustee-place-4#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Board Members – Board Members – Los Fresnos Consolidated Independent School District), checked
+    on October 30, 2026, shows Jesus Amaya holding this office (recorded for the November 3, 2026 election: Los Fresnos CISD
+    Trustee, Place 4).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.lfcisd.net/apps/pages/index.jsp?uREC_ID=1823983&type=d&pREC_ID=2079407
+  source_title: Board Members – Board Members – Los Fresnos Consolidated Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/los-fresnos-cisd/elections/2026-11-03/trustee-place-4/race#S-HOLDER.

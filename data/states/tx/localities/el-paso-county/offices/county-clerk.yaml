@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: El Paso County County Clerk
+office_type: county-clerk
+holders:
+- person: delia-briones
+  start: null
+  end: null
+  basis: tx/localities/el-paso-county/offices/county-clerk#S-01
+sources:
+- id: tx/localities/el-paso-county/offices/county-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Elected Officials - El Paso County, TX Elections | El Paso County Elections Department),
+    checked on October 19, 2026, shows Delia Briones holding this office (recorded for the November 3, 2026 election: El Paso
+    County County Clerk).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials
+  source_title: Elected Officials - El Paso County, TX Elections | El Paso County Elections Department
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/el-paso-county/elections/2026-11-03/county-clerk/race#S-HOLDER.

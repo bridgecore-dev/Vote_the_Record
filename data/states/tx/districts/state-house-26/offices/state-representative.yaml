@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: State Representative, District 26
+office_type: state-representative
+holders:
+- person: matt-morgan
+  start: null
+  end: null
+  basis: tx/districts/state-house-26/offices/state-representative#S-01
+sources:
+- id: tx/districts/state-house-26/offices/state-representative#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Texas House of Representatives: member page, District 26), checked on October 9, 2026, shows
+    Matt Morgan holding this office (recorded for the November 3, 2026 election: State Representative, District 26).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://house.texas.gov/members/member-page/?district=26
+  source_title: 'Texas House of Representatives: member page, District 26'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-09'
+  retrieved: '2026-10-09'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/state-house-26/elections/2026-11-03/state-representative/race#S-HOLDER.

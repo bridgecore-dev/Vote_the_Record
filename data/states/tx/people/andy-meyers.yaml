@@ -1,0 +1,33 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: andy-meyers
+name: Andy Meyers
+candidacies: []
+records:
+- id: tx/people/andy-meyers#R-01
+  record_type: vote
+  headline: Was absent for the vote on proposing a 2025 county tax rate of $0.412000 per $100 (Sept. 2025)
+  result: Proposed 4-0, one absent.
+  statement: As a member of Commissioners Court, was listed as ABSENT for the vote on the proposal of a 2025 Fort Bend County
+    tax rate of $0.412000 per $100, which the notice lists as not greater than the no-new-revenue rate ($0.418595) and not
+    greater than the voter-approval rate ($0.429394). The notice lists Judge KP George and Commissioners Dexter L McCoy, Vincent
+    Morales and Grady Prestage voting for, no members voting against, and Commissioner Andy Meyers absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.fortbendcountytx.gov/sites/default/files/document-central/document-central/tax-assessor-documents/tax-rate-info-notices/2025-Notice-of-Public-Hearing.pdf
+  source_title: 'Fort Bend County: 2025 Notice of Meeting to Vote on Tax Rate'
+  source_kind: document
+  sha256: f60a4e6305ac4af165b05a7cc311d714b5ffd58ea40a41f529606fc3506181ae
+  archive_url: null
+  event_date: '2025-09-23'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    This is the notice form for a proposed rate not greater than the no-new-revenue rate (Notice of Meeting to Vote on Tax
+    Rate). The notice does not give the date of the vote or of the notice; event_date is the public meeting date printed in
+    the notice.
+statements: []
+funding: []
+promise_tracker: []

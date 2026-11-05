@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 2
+office_type: constable
+holders:
+- person: curtis-graham
+  start: null
+  end: null
+  basis: tx/localities/lamar-county/offices/constable-precinct-2#S-01
+sources:
+- id: tx/localities/lamar-county/offices/constable-precinct-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Lamar County: Lamar County Constables), checked on November 4, 2026, shows Curtis Graham
+    as Constable, Precinct 2. It reads: "Curtis Graham"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.lamarcountytx.gov/page/Constable
+  source_title: 'Lamar County: Lamar County Constables'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

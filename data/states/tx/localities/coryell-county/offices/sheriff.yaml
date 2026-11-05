@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Sheriff
+office_type: sheriff
+holders:
+- person: scott-williams
+  start: null
+  end: null
+  basis: tx/localities/coryell-county/offices/sheriff#S-01
+sources:
+- id: tx/localities/coryell-county/offices/sheriff#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Coryell County Sheriff: Home), checked on November 4, 2026, shows Scott Williams as Sheriff.
+    It reads: "Want to learn more about Sheriff Scott Williams?"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: http://coryellcountysheriff.com/
+  source_title: 'Coryell County Sheriff: Home'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

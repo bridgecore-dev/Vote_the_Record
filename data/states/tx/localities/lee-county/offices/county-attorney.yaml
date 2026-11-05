@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Attorney
+office_type: county-attorney
+holders:
+- person: martin-placke
+  start: null
+  end: null
+  basis: tx/localities/lee-county/offices/county-attorney#S-01
+sources:
+- id: tx/localities/lee-county/offices/county-attorney#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Lee County: Lee County Attorney''s Office), checked on November 4, 2026, shows Martin Placke
+    as County Attorney. It reads: "Martin Placke - County Attorney"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.lee.tx.us/page/lee.County.Attorney
+  source_title: 'Lee County: Lee County Attorney''s Office'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

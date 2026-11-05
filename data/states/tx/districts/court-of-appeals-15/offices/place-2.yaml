@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice, 15th Court of Appeals District, Place 2
+office_type: court-of-appeals-justice
+area: tx
+holders:
+- person: scott-k-field
+  start: null
+  end: null
+  basis: tx/districts/court-of-appeals-15/offices/place-2#S-01
+sources:
+- id: tx/districts/court-of-appeals-15/offices/place-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Fifteenth Court of Appeals: Justices), checked on September 30, 2026, shows Scott K. Field
+    holding this office (recorded for the November 3, 2026 election: Justice, 15th Court of Appeals District, Place 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/15thcoa/about-the-court/justices/
+  source_title: 'Fifteenth Court of Appeals: Justices'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001021541/https://www.txcourts.gov/15thcoa/about-the-court/justices/
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/court-of-appeals-15/elections/2026-11-03/place-2/race#S-HOLDER.

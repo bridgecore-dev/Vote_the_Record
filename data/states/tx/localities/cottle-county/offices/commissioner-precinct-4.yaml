@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 4
+office_type: county-commissioner
+holders:
+- person: john-b-brothers
+  start: null
+  end: null
+  basis: tx/localities/cottle-county/offices/commissioner-precinct-4#S-01
+sources:
+- id: tx/localities/cottle-county/offices/commissioner-precinct-4#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Cottle County: Commissioners'' Court), checked on November 4, 2026, shows John B. Brothers
+    as County Commissioner, Precinct 4. It reads: "John B. Brothers"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cottlecountytx.gov/page/Commissioners.Court
+  source_title: 'Cottle County: Commissioners'' Court'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

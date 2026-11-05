@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice, Supreme Court, Place 8
+office_type: supreme-court-justice
+holders:
+- person: brett-busby
+  start: null
+  end: null
+  basis: tx/statewide/offices/supreme-court-place-8#S-01
+sources:
+- id: tx/statewide/offices/supreme-court-place-8#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Supreme Court of Texas: Justices), checked on September 30, 2026, shows Brett Busby holding
+    this office (recorded for the November 3, 2026 election: Justice, Supreme Court, Place 8).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/supreme/about-the-court/justices/
+  source_title: 'Supreme Court of Texas: Justices'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20261001021339/https://www.txcourts.gov/supreme/about-the-court/justices/
+  event_date: '2026-09-30'
+  retrieved: '2026-09-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/statewide/elections/2026-11-03/supreme-court-place-8/race#S-HOLDER.

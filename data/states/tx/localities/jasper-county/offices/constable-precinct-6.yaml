@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 6
+office_type: constable
+holders:
+- person: chad-ainsworth
+  start: null
+  end: null
+  basis: tx/localities/jasper-county/offices/constable-precinct-6#S-01
+sources:
+- id: tx/localities/jasper-county/offices/constable-precinct-6#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Jasper County: Constables), checked on November 4, 2026, shows Chad Ainsworth as Constable,
+    Precinct 6. It reads: "Chad Ainsworth"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.jasper.tx.us/page/Constable
+  source_title: 'Jasper County: Constables'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: New Caney ISD Trustee, Position 2
+office_type: school-trustee
+holders:
+- person: creg-mixon
+  start: null
+  end: null
+  basis: tx/localities/new-caney-isd/offices/trustee-position-2#S-01
+sources:
+- id: tx/localities/new-caney-isd/offices/trustee-position-2#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Meet the Board - New Caney ISD District Site), checked on October 30, 2026, shows Creg Mixon
+    holding this office (recorded for the November 3, 2026 election: New Caney ISD Trustee, Position 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.newcaneyisd.org/our-district/board-of-trustees/meet-the-board
+  source_title: Meet the Board - New Caney ISD District Site
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/new-caney-isd/elections/2026-11-03/trustee-position-2/race#S-HOLDER.

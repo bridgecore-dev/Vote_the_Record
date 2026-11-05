@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Smith County Judge
+office_type: county-judge
+holders:
+- person: neal-franklin
+  start: null
+  end: null
+  basis: tx/localities/smith-county/offices/county-judge#S-01
+sources:
+- id: tx/localities/smith-county/offices/county-judge#S-01
+  headline: Who holds this office now
+  statement: 'The official page (County Judge | Smith County, TX), checked on October 30, 2026, shows Neal Franklin holding
+    this office (recorded for the November 3, 2026 election: Smith County Judge).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.smith-county.com/284/County-Judge
+  source_title: County Judge | Smith County, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/smith-county/elections/2026-11-03/county-judge/race#S-HOLDER.

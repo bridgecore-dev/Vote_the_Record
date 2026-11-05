@@ -203,6 +203,13 @@ def build(root: Path, out: Path, *, demo: bool = False, config_path: Path | None
         payload = dict(race["payload"], corrections_form_url=config.get("corrections_form_url"))
         pages[race["url"]] = race_template.render(race=race, payload=payload, page="race")
 
+    officials = site["officials"]
+    pages["/officials/"] = env.get_template("officials.html").render(officials=officials, page="officials")
+    place_template, person_template = env.get_template("officials_place.html"), env.get_template("person.html")
+    for place in officials["places"]:
+        pages[place["url"]] = place_template.render(place=place, page="officials")
+    for person in officials["people"]:
+        pages[person["url"]] = person_template.render(person=person, facts=site["facts"], page="officials")
     tmp = Path(tempfile.mkdtemp(prefix="vtr-build-"))
     for url_path, html in pages.items():
         write_page(tmp, url_path, html)

@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Bryan ISD Trustee, At-Large Place 6
+office_type: school-trustee
+holders:
+- person: joel-bryan
+  start: null
+  end: null
+  basis: tx/localities/bryan-isd/offices/trustee-place-6#S-01
+sources:
+- id: tx/localities/bryan-isd/offices/trustee-place-6#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Board of Trustees | Bryan ISD), checked on November 2, 2026, shows Joel Bryan holding this
+    office (recorded for the November 3, 2026 election: Bryan ISD Trustee, At-Large Place 6).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bryanisd.org/page/board-of-trustees
+  source_title: Board of Trustees | Bryan ISD
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/bryan-isd/elections/2026-11-03/trustee-place-6/race#S-HOLDER.

@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Clerk
+office_type: county-clerk
+holders:
+- person: cathy-jentho
+  start: null
+  end: null
+  basis: tx/localities/eastland-county/offices/county-clerk#S-01
+sources:
+- id: tx/localities/eastland-county/offices/county-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Eastland County: County Clerk), checked on November 4, 2026, shows Cathy Jentho as County
+    Clerk. It reads: "Cathy Jentho"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.eastlandcounty.gov/1218/County-Clerk
+  source_title: 'Eastland County: County Clerk'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

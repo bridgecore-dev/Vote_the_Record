@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Sheriff
+office_type: sheriff
+holders:
+- person: lewis-tatum
+  start: null
+  end: null
+  basis: tx/localities/hopkins-county/offices/sheriff#S-01
+sources:
+- id: tx/localities/hopkins-county/offices/sheriff#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Hopkins County: Sheriff''s Office), checked on November 4, 2026, shows Lewis Tatum as Sheriff.
+    It reads: "Sheriff Lewis Tatum"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hopkinscountytx.org/page/hopkins.Sheriff
+  source_title: 'Hopkins County: Sheriff''s Office'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

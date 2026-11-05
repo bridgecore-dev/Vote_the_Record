@@ -1,0 +1,33 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Wells Branch Community Library District Board of Trustees (3 seats)
+office_type: library-district-trustee
+holders:
+- person: abigail-joffrain
+  start: null
+  end: null
+  basis: tx/localities/wells-branch-library-district/offices/trustees#S-01
+- person: elizabeth-martin
+  start: null
+  end: null
+  basis: tx/localities/wells-branch-library-district/offices/trustees#S-01
+sources:
+- id: tx/localities/wells-branch-library-district/offices/trustees#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Wells Branch Community Library: Board of Trustees), checked on October 1, 2026, shows Abigail
+    Joffrain and Elizabeth Martin holding seats on this board (recorded for the November 3, 2026 election: Wells Branch Community
+    Library District Board of Trustees (3 seats)).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wblibrary.org/about-us/board-of-trustees
+  source_title: 'Wells Branch Community Library: Board of Trustees'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-01'
+  retrieved: '2026-10-01'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/wells-branch-library-district/elections/2026-11-03/trustees/race#S-HOLDER.
+    Lists only the members whose seats were on that ballot.

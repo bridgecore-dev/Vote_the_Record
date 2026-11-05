@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Judge, 480th Judicial District
+office_type: district-judge
+holders:
+- person: terence-davis
+  start: null
+  end: null
+  basis: tx/localities/williamson-county/offices/district-court-480#S-01
+sources:
+- id: tx/localities/williamson-county/offices/district-court-480#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Williamson County: 480th District Court (county web page)), checked on August 13, 2026, shows
+    Terence Davis holding this office (recorded for the November 3, 2026 election: District Judge, 480th Judicial District,
+    Unexpired Term).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.wilcotx.gov/537/480th-District-Court
+  source_title: 'Williamson County: 480th District Court (county web page)'
+  source_kind: page
+  sha256: null
+  archive_url: https://web.archive.org/web/20260813085724/https://www.wilcotx.gov/537/480th-District-Court
+  event_date: '2026-08-13'
+  retrieved: '2026-10-15'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/williamson-county/elections/2026-11-03/district-court-480/race#S-HOLDER.

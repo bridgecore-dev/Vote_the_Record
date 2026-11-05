@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice, 12th Court of Appeals District, Place 3
+office_type: court-of-appeals-justice
+holders:
+- person: michael-davis
+  start: null
+  end: null
+  basis: tx/districts/court-of-appeals-12/offices/place-3#S-01
+sources:
+- id: tx/districts/court-of-appeals-12/offices/place-3#S-01
+  headline: Who holds this office now
+  statement: 'The official page (TJB | 12th COA | About the Court | Justices), checked on October 20, 2026, shows Michael
+    Davis holding this office (recorded for the November 3, 2026 election: Justice, 12th Court of Appeals District, Place
+    3 (Unexpired Term)).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/12thcoa/about-the-court/justices/
+  source_title: TJB | 12th COA | About the Court | Justices
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/court-of-appeals-12/elections/2026-11-03/place-3-unexpired/race#S-HOLDER.

@@ -1,0 +1,29 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice of the Peace, Precinct 2, Place 3
+office_type: justice-of-the-peace
+area: cameron-county/jp-2
+holders:
+- person: mary-esther-sorola
+  start: null
+  end: null
+  basis: tx/localities/cameron-county/offices/jp-precinct-2-place-3#S-01
+sources:
+- id: tx/localities/cameron-county/offices/jp-precinct-2-place-3#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Cameron County - Justice of the Peace - Cameron County), checked on October 20, 2026, shows
+    Mary Esther Sorola holding this office (recorded for the November 3, 2026 election: Justice of the Peace, Precinct 2,
+    Place 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.cameroncountytx.gov/cameron-county-justice-of-the-peace/
+  source_title: Cameron County - Justice of the Peace - Cameron County
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-20'
+  retrieved: '2026-10-20'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/cameron-county/elections/2026-11-03/jp-precinct-2-place-3/race#S-HOLDER.

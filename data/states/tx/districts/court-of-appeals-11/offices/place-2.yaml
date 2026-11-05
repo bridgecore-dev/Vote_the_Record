@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Justice, 11th Court of Appeals, Place 2
+office_type: court-of-appeals-justice
+holders:
+- person: bruce-williams
+  start: null
+  end: null
+  basis: tx/districts/court-of-appeals-11/offices/place-2#S-01
+sources:
+- id: tx/districts/court-of-appeals-11/offices/place-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Eleventh Court of Appeals: Justices), checked on November 2, 2026, shows Bruce Williams holding
+    this office (recorded for the November 3, 2026 election: Justice, 11th Court of Appeals, Place 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.txcourts.gov/11thcoa/about-the-court/justices/
+  source_title: 'Eleventh Court of Appeals: Justices'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/districts/court-of-appeals-11/elections/2026-11-03/place-2/race#S-HOLDER.

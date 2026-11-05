@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: College Station ISD Trustee, Place 6
+office_type: school-trustee
+holders:
+- person: kim-ege
+  start: null
+  end: null
+  basis: tx/localities/college-station-isd/offices/trustee-place-6#S-01
+sources:
+- id: tx/localities/college-station-isd/offices/trustee-place-6#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Meet our Board - College Station Independent School District), checked on November 2, 2026,
+    shows Kim Ege holding this office (recorded for the November 3, 2026 election: College Station ISD Trustee, Place 6).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.csisd.org/our-district/board/meet-our-board
+  source_title: Meet our Board - College Station Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/college-station-isd/elections/2026-11-03/trustee-place-6/race#S-HOLDER.

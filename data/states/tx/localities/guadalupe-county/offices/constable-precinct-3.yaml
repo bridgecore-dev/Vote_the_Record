@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 3
+office_type: constable
+holders:
+- person: jeff-large
+  start: null
+  end: null
+  basis: tx/localities/guadalupe-county/offices/constable-precinct-3#S-01
+sources:
+- id: tx/localities/guadalupe-county/offices/constable-precinct-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Guadalupe County, Texas: Constables), checked on November 4, 2026, shows Jeff Large as Constable,
+    Precinct 3. It reads: "Precinct 3 Jeff Large"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.guadalupetx.gov/page/constables.home
+  source_title: 'Guadalupe County, Texas: Constables'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: City of White Settlement Mayor
+office_type: mayor
+holders:
+- person: faron-young
+  start: null
+  end: null
+  basis: tx/localities/city-of-white-settlement/offices/mayor#S-01
+sources:
+- id: tx/localities/city-of-white-settlement/offices/mayor#S-01
+  headline: Who holds this office now
+  statement: 'The official page (City Council | White Settlement, TX), checked on October 30, 2026, shows Faron Young holding
+    this office (recorded for the November 3, 2026 election: City of White Settlement Mayor).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wstx.us/219/City-Council
+  source_title: City Council | White Settlement, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/city-of-white-settlement/elections/2026-11-03/mayor/race#S-HOLDER.

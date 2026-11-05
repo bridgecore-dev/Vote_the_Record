@@ -1,0 +1,61 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: lina-maria-hidalgo
+name: Lina Maria Hidalgo
+candidacies: []
+records:
+- id: tx/people/lina-maria-hidalgo#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 Harris County Flood Control District tax rate of $0.04966 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Harris County Flood Control District tax
+    rate of $0.04966 per $100, which the notice lists as above the no-new-revenue rate ($0.04781) and not greater than the
+    voter-approval rate ($0.04966). The notice lists Judge Lina Hidalgo and Commissioners Rodney Ellis, Adrian Garcia, Lesley
+    Briones and Tom S. Ramsey, P.E. voting for, and no members against, present and not voting, or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hctax.net/About/Announcements/Tax%20Hearing%20Notices/2025/2025%20Notice%20of%20Public%20Hearing%20and%20Rates%2009-10-2025.pdf
+  source_title: 'Harris County Tax Assessor-Collector: 2025 Notices of Public Hearing and Rates (Harris County Flood Control
+    District, Port of Houston Authority, Harris Health)'
+  source_kind: document
+  sha256: 370aa98dfe81744ea4331c50f525d257acd10def93a49e250124cdc42753ed6d
+  archive_url: null
+  event_date: '2025-09-18'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The Harris County Commissioners Court is the governing body of this district. The saved file combines several taxing units'
+    notices; this record is from the district's notice. The notice does not give the date of the vote or of the notice; event_date
+    is the public hearing date printed in the notice; the file name gives 09-10-2025.
+- id: tx/people/lina-maria-hidalgo#R-02
+  record_type: vote
+  headline: Voted for proposing a 2025 Harris County Hospital District (Harris Health) tax rate of $0.18761 per $100 (Sept.
+    2025)
+  result: Proposed 3-2.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Harris County Hospital District dba Harris
+    Health tax rate of $0.18761 per $100, which the notice lists as above the no-new-revenue rate ($0.16086) and not greater
+    than the voter-approval rate ($0.18761). The notice lists Judge Lina Hidalgo and Commissioners Rodney Ellis and Lesley
+    Briones voting for, and Commissioners Adrian Garcia and Tom S. Ramsey, P.E. voting against.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.hctax.net/About/Announcements/Tax%20Hearing%20Notices/2025/2025%20Notice%20of%20Public%20Hearing%20and%20Rates%2009-10-2025.pdf
+  source_title: 'Harris County Tax Assessor-Collector: 2025 Notices of Public Hearing and Rates (Harris County Flood Control
+    District, Port of Houston Authority, Harris Health)'
+  source_kind: document
+  sha256: 370aa98dfe81744ea4331c50f525d257acd10def93a49e250124cdc42753ed6d
+  archive_url: null
+  event_date: '2025-09-18'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The Harris County Commissioners Court is the governing body of this district. The saved file combines several taxing units'
+    notices; this record is from the district's notice. The notice does not give the date of the vote or of the notice; event_date
+    is the public hearing date printed in the notice; the file name gives 09-10-2025.
+statements: []
+funding: []
+promise_tracker: []

@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 2
+office_type: county-commissioner
+area: bexar-county/commissioner-2
+holders:
+- person: justin-rodriguez
+  start: null
+  end: null
+  basis: tx/localities/bexar-county/offices/commissioner-precinct-2#S-01
+sources:
+- id: tx/localities/bexar-county/offices/commissioner-precinct-2#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Bexar County: Elected Officials), checked on October 7, 2026, shows Justin Rodriguez holding
+    this office (recorded for the November 3, 2026 election: County Commissioner, Precinct 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.bexar.org/152/Elected-Officials
+  source_title: 'Bexar County: Elected Officials'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-07'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/bexar-county/elections/2026-11-03/commissioner-precinct-2/race#S-HOLDER.

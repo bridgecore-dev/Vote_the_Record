@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Edgewood ISD Trustee, Place 3
+office_type: school-trustee
+holders:
+- person: richard-santoyo
+  start: null
+  end: null
+  basis: tx/localities/edgewood-isd/offices/trustee-place-3#S-01
+sources:
+- id: tx/localities/edgewood-isd/offices/trustee-place-3#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Edgewood ISD: School Board Members), checked on October 7, 2026, shows Richard Santoyo holding
+    this office (recorded for the November 3, 2026 election: Edgewood ISD Trustee, Place 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.eisd.net/page/school-board-members
+  source_title: 'Edgewood ISD: School Board Members'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-07'
+  retrieved: '2026-10-07'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/edgewood-isd/elections/2026-11-03/trustee-place-3/race#S-HOLDER.

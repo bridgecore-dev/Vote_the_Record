@@ -1,0 +1,28 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Constable, Precinct 2
+office_type: constable
+area: brazos-county/jp-2
+holders:
+- person: donald-joe-lampo
+  start: null
+  end: null
+  basis: tx/localities/brazos-county/offices/constable-precinct-2#S-01
+sources:
+- id: tx/localities/brazos-county/offices/constable-precinct-2#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Constable: Precinct 2 – Brazos County, TX – Official Website), checked on November 2, 2026,
+    shows Donald Joe Lampo holding this office (recorded for the November 3, 2026 election: Constable, Precinct 2).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://brazoscountytx.gov/constables/constable-precinct-2/
+  source_title: 'Constable: Precinct 2 – Brazos County, TX – Official Website'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-02'
+  retrieved: '2026-11-02'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/brazos-county/elections/2026-11-03/constable-precinct-2/race#S-HOLDER.

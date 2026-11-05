@@ -1,0 +1,33 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: chance-singleton
+name: Chance Singleton
+candidacies: []
+records:
+- id: tx/people/chance-singleton#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.511090 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Comanche County tax rate of $0.511090 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.474380) and not above the voter-approval rate ($0.511090).
+    The notice lists Judge Davis and Commissioners Scott, Gillette, Singleton and Sides voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/9401/2025/notice_of_public_hearing_on_tax_increase_2025%20kjhvcx.pdf
+  source_title: 'Comanche County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 62587db617ab75c2c6b90e36d2bc6126a6f3e6e024cb850674633ec1d409bfdd
+  archive_url: null
+  event_date: '2025-09-08'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice
+    (the scanned text reads 'September B, 2025', i.e. September 8, 2025). The PDF is a scan; its text layer has OCR errors,
+    so the county judge (printed 'Juge Stephanie' / 'Davis' on separate lines) and Commissioner Sides (read as 'Sldes') could
+    not be quoted exactly; the notice lists all five members FOR.
+statements: []
+funding: []
+promise_tracker: []

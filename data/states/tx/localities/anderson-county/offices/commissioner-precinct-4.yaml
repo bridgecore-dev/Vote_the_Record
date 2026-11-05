@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Commissioner, Precinct 4
+office_type: county-commissioner
+holders:
+- person: joey-hill
+  start: null
+  end: null
+  basis: tx/localities/anderson-county/offices/commissioner-precinct-4#S-01
+sources:
+- id: tx/localities/anderson-county/offices/commissioner-precinct-4#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Anderson County: County Commissioners), checked on November 4, 2026, shows Joey Hill as County
+    Commissioner, Precinct 4. It reads: "County Commissioner Precinct 4 Joey Hill"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.andersoncountytx.gov/page/Commissioners.Court
+  source_title: 'Anderson County: County Commissioners'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-04'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null

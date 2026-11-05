@@ -1,0 +1,55 @@
+# One person's record in office (docs/OFFICIALS.md). Unverified.
+id: gered-lee
+name: Gered Lee
+candidacies: []
+records:
+- id: tx/people/gered-lee#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.5358775 per $100 (Aug. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Marion County tax rate of $0.5358775 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.5180983) and not above the voter-approval rate ($0.6185990).
+    The notice lists Judge LaFleur and Commissioners Ashley, Pattison, Webb and Lee voting for, and no one voting against,
+    present and not voting, or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/1272/docs/public%20notices/budget%20notices/2025/NOTCE%20OF%20TAX%20PUBLIC%20HEARING.pdf
+  source_title: 'Marion County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: fc5a90880e5b3651c46170e44c270a2cfbf1f677ff9145c7ccefcd8568a4da32
+  archive_url: null
+  event_date: '2025-08-25'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice.
+- id: tx/people/gered-lee#R-02
+  record_type: vote
+  headline: Voted for proposing a 2026 county tax rate of $0.5358775 per $100 (Aug. 2026)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2026 Marion County tax rate of $0.5358775 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.5181298) and not above the voter-approval rate ($0.5584300).
+    The notice lists Judge LaFleur and Commissioners Ashley, Pattison, Webb and Lee voting for, and no one voting against,
+    present and not voting, or absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/1272/docs/public%20notices/2027%20Notice%20of%20Tax%20Increase.pdf
+  source_title: 'Marion County: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: b09a9499c0b8792698fa1213c8f9a19cf40c02812654003e0cd6e4ba3d49261c
+  archive_url: null
+  event_date: '2026-08-31'
+  retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice.
+    The file on the county site is titled '2027 Notice of Tax Increase'; the notice text is for the 2026 tax year.
+statements: []
+funding: []
+promise_tracker: []

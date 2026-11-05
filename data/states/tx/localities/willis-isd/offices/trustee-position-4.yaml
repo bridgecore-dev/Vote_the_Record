@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Willis ISD Trustee, Position 4
+office_type: school-trustee
+holders:
+- person: kyle-hoegemeyer
+  start: null
+  end: null
+  basis: tx/localities/willis-isd/offices/trustee-position-4#S-01
+sources:
+- id: tx/localities/willis-isd/offices/trustee-position-4#S-01
+  headline: Who holds this office now
+  statement: 'The official page (Board of Trustees - Willis Independent School District), checked on October 19, 2026, shows
+    Kyle Hoegemeyer holding this office (recorded for the November 3, 2026 election: Willis ISD Trustee, Position 4).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.willisisd.org/about/board-of-trustees
+  source_title: Board of Trustees - Willis Independent School District
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-19'
+  retrieved: '2026-10-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/willis-isd/elections/2026-11-03/trustee-position-4/race#S-HOLDER.

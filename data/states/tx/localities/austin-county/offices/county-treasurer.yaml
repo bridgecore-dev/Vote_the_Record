@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: County Treasurer
+office_type: county-treasurer
+holders:
+- person: bryan-haevischer
+  start: null
+  end: null
+  basis: tx/localities/austin-county/offices/county-treasurer#S-01
+sources:
+- id: tx/localities/austin-county/offices/county-treasurer#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Austin County: Austin County, Texas), checked on November 5, 2026, shows Bryan Haevischer
+    as County Treasurer. It reads: "Bryan Haevischer Austin County Treasurer"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.austincounty.com/page/austin.County.Treasurer
+  source_title: 'Austin County: Austin County, Texas'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

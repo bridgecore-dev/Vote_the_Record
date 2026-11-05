@@ -1,0 +1,27 @@
+# Who holds this seat, from official rosters. Unverified.
+name: Judge, County Court at Law No. 3
+office_type: county-court-at-law-judge
+holders:
+- person: clay-white
+  start: null
+  end: null
+  basis: tx/localities/smith-county/offices/county-court-at-law-3#S-01
+sources:
+- id: tx/localities/smith-county/offices/county-court-at-law-3#S-01
+  headline: Who holds this office now
+  statement: 'The official page (County Court at Law 3 | Smith County, TX), checked on October 30, 2026, shows Clay White
+    holding this office (recorded for the November 3, 2026 election: Judge, County Court at Law No. 3).'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.smith-county.com/305/County-Court-at-Law-3
+  source_title: County Court at Law 3 | Smith County, TX
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-10-30'
+  retrieved: '2026-10-30'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: From the roster check recorded in tx/localities/smith-county/elections/2026-11-03/county-court-at-law-3/race#S-HOLDER.
