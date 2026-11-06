@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Ball, Johnathan (Mr.), campaign finance report 101071206 (filed Oct 14, 2026)'
   source_kind: document
   sha256: 6f7d6d9b784c42f0afaf439f157b7431be8ebcb20997bbca5eeb5bfb81ec6fcd
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106000614/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071206.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-20'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Ball, Johnathan (Mr.), campaign finance report 101073103 (filed Oct 27, 2026)'
   source_kind: document
   sha256: 7ecf65808194062295dc77c8e0f7abc555c3071b4bc13f0fed1067b5d190a9a1
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106000636/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101073103.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

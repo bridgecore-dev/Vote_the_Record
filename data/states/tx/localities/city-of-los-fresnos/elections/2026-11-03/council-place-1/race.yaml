@@ -14,7 +14,7 @@ sources:
   source_title: 'Cameron County Elections Department: Sample Ballot, November 3, 2026 General and Special Elections, Cameron County, Texas (all ballots) (page 8)'
   source_kind: document
   sha256: d68a292fb6f1f0ea761af3a4456512dcc6d960f438fedc6d182d4c0d491721a4
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106000700/https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/09/26GCAMER_SAMPLE.pdf
   event_date: '2026-11-03'
   retrieved: '2026-10-20'
   verification: unverified

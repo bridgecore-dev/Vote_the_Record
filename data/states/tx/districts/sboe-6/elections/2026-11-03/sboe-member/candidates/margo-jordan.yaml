@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Jordan, Margo, campaign finance report 101070395 (filed Oct 14, 2026)'
   source_kind: document
   sha256: 36c020de0d1d5b456cc20ed351f198304a5e2828739bfcb21ff1fcecc298246f
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106013020/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070395.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-19'
   verification: unverified

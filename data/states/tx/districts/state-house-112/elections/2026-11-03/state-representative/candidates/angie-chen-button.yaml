@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Button, Angie C. (The Honorable), campaign finance report 101069955 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 99cfafaca7c1415927e8b499959b0fd6eca56bdf9b77465e9377a49c5e5c5c7d
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106015527/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069955.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Meyer, Morgan D. (The Honorable), campaign finance report 101072232 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 54f1eb958bf71d3278a0422f03272e79318ef74bb3d498b0b84c606c0873e9c6
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106015335/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072232.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

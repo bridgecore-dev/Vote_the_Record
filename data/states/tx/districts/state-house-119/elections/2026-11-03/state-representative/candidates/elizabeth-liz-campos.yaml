@@ -16,7 +16,7 @@ records:
   source_title: Texas House Journal, 89th Legislature, Regular Session, 46th Day (page 1667)
   source_kind: document
   sha256: aea8381390be0c448fce37b83813a4e1dbeae9304349c9f538ba4e7063c43a00
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261023013342/https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY46FINAL.PDF
   event_date: '2025-04-17'
   retrieved: '2026-10-04'
   verification: unverified
@@ -35,7 +35,7 @@ records:
   source_title: Texas House Journal, 89th Legislature, Regular Session, 46th Day (page 1670)
   source_kind: document
   sha256: aea8381390be0c448fce37b83813a4e1dbeae9304349c9f538ba4e7063c43a00
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261023013342/https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY46FINAL.PDF
   event_date: '2025-04-17'
   retrieved: '2026-10-04'
   verification: unverified
@@ -54,7 +54,7 @@ records:
   source_title: Texas House Journal, 89th Legislature, Regular Session, 42nd Day (page 1376)
   source_kind: document
   sha256: 365aa8cc6ad22abc36de80f4c64733530ba35ebfaaef649a8917485c32c6c9cb
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106014517/https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY42FINAL.PDF
   event_date: '2025-04-11'
   retrieved: '2026-10-04'
   verification: unverified
@@ -73,7 +73,7 @@ records:
   source_title: Texas House Journal, 89th Legislature, Regular Session, 69th Day (page 5442)
   source_kind: document
   sha256: 2ed8bff78641f59806a2a195e3dc861701e3394f0f7837532b28eed6f6254252
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261026142554/https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY69FINAL.PDF
   event_date: '2025-05-21'
   retrieved: '2026-10-04'
   verification: unverified
@@ -92,7 +92,7 @@ records:
   source_title: Texas House Journal, 89th Legislature, Regular Session, 69th Day (page 5444)
   source_kind: document
   sha256: 2ed8bff78641f59806a2a195e3dc861701e3394f0f7837532b28eed6f6254252
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261026142554/https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY69FINAL.PDF
   event_date: '2025-05-21'
   retrieved: '2026-10-04'
   verification: unverified
@@ -111,7 +111,7 @@ records:
   source_title: Texas House Journal, 89th Legislature, Regular Session, 68th Day (page 5298)
   source_kind: document
   sha256: 4b31f86822420b237e0745e3a48f9e8868acebee86c28f1f691fb3b2624935ad
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106014609/https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY68FINAL.PDF
   event_date: '2025-05-20'
   retrieved: '2026-10-04'
   verification: unverified
@@ -130,7 +130,7 @@ records:
   source_title: Texas House Journal, 89th Legislature, Regular Session, 38th Day (page 916)
   source_kind: document
   sha256: c0249fe78f9e679ff368448947197a653ea1c850e8e09aae6a151d2634b97087
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261005153119/https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY38FINAL.PDF
   event_date: '2025-04-03'
   retrieved: '2026-10-04'
   verification: unverified
@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Campos, Elizabeth (The Honorable), campaign finance report 101069980 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 6f6b8147cca6057c82f1f52a2c0adcd6a7ce3e5072c289998f8a37b25f2f0cb8
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106020811/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069980.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Campos, Elizabeth (The Honorable), campaign finance report 101072570 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 9de96099ee0af91c8f690f42921aa8d11a2611ca943d9fe406e2a746af95a60f
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106020833/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072570.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

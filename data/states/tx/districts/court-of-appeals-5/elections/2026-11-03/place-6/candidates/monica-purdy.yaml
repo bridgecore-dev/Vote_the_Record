@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Purdy, Monica McCoy (The Honorable), campaign finance report 101069226 (filed Oct 4, 2026)'
   source_kind: document
   sha256: 58b5c1d6e95826e8c9461e1223e7df70ac67d83e8c78010831b2a2fc4bab52ad
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009113622/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069226.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Purdy, Monica McCoy (The Honorable), campaign finance report 101072346 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 0d327d2466454287b3ea1478ffca4cb5374a372ab7703eea2bc088eed464e0a1
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106003043/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072346.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

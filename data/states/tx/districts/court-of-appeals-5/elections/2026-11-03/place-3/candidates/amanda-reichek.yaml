@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Reichek, Amanda (The Honorable), campaign finance report 101068848 (filed Oct 4, 2026)'
   source_kind: document
   sha256: 45f27a20afa0722059de33b73d911da3d5fbe098d11507bea068f9bef3e09417
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106002803/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068848.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Reichek, Amanda (The Honorable), campaign finance report 101072061 (filed Oct 25, 2026)'
   source_kind: document
   sha256: 2122a3670301ad67a6ca4beb1675af1edf0117601ceead18bae11c7dbf0f6452
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106002825/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072061.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hernandez, Cassandra (The Honorable), campaign finance report 101073006 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 69edee9cd8d7cc7fa45c5254829e3520497af7c3ad2f6bfcb99584ada6bafe8d
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106015745/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101073006.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -16,7 +16,7 @@ funding:
   source_title: 'Texas Ethics Commission: Smith, Rhett R. (Mr.), campaign finance report 101068478 (filed Oct 1, 2026)'
   source_kind: document
   sha256: 4f8d3a803d67d5aefe97ce58a6267dbfb017bb6ecca48677010996ae97db9db8
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106015830/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068478.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Smith, Rhett R. (Mr.), campaign finance report 101072520 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 293093e810fe8875bcec6e7e767e91981c30f1b6fb6d8cb97e0022594b43c56c
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106015852/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072520.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

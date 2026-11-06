@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Meyer, Marc M. (Mr.), campaign finance report 101067613 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 08e0e16bdd6750205e7f50d98d21a5090e78c50d713f31d079379448bf5ce287
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009125300/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101067613.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Meyer, Marc M. (Mr.), campaign finance report 101072273 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 9ba4065129c848714044222eed9ca9c6a669791a9d7514c601192eb549263c95
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106001917/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072273.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

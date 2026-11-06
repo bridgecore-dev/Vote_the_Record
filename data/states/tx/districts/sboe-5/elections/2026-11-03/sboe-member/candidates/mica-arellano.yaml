@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Arellano, Dolores (Ms.), campaign finance report 101073222 (filed Oct 27, 2026)'
   source_kind: document
   sha256: b063b824a83609dbdd87b3851e1d9d66fb28a2783dfd38864ac3ab199d69c121
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106012957/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101073222.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

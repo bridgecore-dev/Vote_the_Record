@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Guerra, Amparo Yanez (The Honorable), campaign finance report 101069279 (filed Oct 5, 2026)'
   source_kind: document
   sha256: e0cc7d5649e165cde1b4d6f94f0bbe7e40fd742fe6c191839df0debf9426b539
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009123346/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069279.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Guerra, Amparo Yanez (The Honorable), campaign finance report 101071988 (filed Oct 26, 2026)'
   source_kind: document
   sha256: c4b2ecc31f866f8607d074732bd76ebab69e4b0d793c9fa3f854d0d77bc48017
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261105234718/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071988.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -4,8 +4,12 @@ office_type: county-judge
 holders:
 - person: roger-a-miller
   start: null
-  end: null
+  end: '2026-09-22'
   basis: tx/localities/coryell-county/offices/county-judge#S-01
+- person: robert-a-erwin
+  start: null
+  end: null
+  basis: tx/localities/coryell-county/offices/county-judge#S-02
 sources:
 - id: tx/localities/coryell-county/offices/county-judge#S-01
   headline: Who holds this office now
@@ -24,6 +28,25 @@ sources:
   archive_url: null
   event_date: '2026-11-04'
   retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+- id: tx/localities/coryell-county/offices/county-judge#S-02
+  headline: Change of officeholder
+  statement: 'The official minutes (Coryell County: Commissioners'' Court Minutes, September 22, 2026), checked on November
+    5, 2026, record that the court accepted the resignation letter from County Judge Roger Miller and appointed Robert A.
+    Erwin to fill the vacancy. It reads: "The Court appointed Robert A. Erwin to fill the vacancy in the office of County
+    Judge and set a bond"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://coryellcountyclerk.com/wp-content/uploads/2026/10/CC-MINS-9-22-26.pdf
+  source_title: 'Coryell County: Commissioners'' Court Minutes, September 22, 2026'
+  source_kind: document
+  sha256: 227049f7ec2e2ccb821418d6ad93c73536b83c7d18f04adee3c4c6dca9fd0e0e
+  archive_url: null
+  event_date: '2026-09-22'
+  retrieved: '2026-11-05'
   verification: unverified
   verified_on: null
   reviewer: null

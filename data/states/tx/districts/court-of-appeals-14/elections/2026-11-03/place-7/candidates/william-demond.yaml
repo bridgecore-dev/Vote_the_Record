@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Demond, William P. (Mr.), campaign finance report 101070110 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 6ac62f2878b9e68812c73e2ae01dbe5272a6ba30cf0eb0958136e1f246a4fc16
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106001140/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070110.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Demond, William P. (Mr.), campaign finance report 101072256 (filed Oct 25, 2026)'
   source_kind: document
   sha256: a435fe8d64fcf5e55c0c66bccd71d1b8b2179b7592127e9f719bcdd8cfd701ad
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106001202/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072256.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

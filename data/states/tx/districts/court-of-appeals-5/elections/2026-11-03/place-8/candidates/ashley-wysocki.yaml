@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Wysocki, Ashley E. (The Honorable), campaign finance report 101068933 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 4bf70317991331c204c3ca12ccacb1c21ab64b38ea3596166236e09ad2a2085f
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009135038/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068933.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Wysocki, Ashley E. (The Honorable), campaign finance report 101073000 (filed Oct 26, 2026)'
   source_kind: document
   sha256: b45545164ca533984be5d8c83a41499d976d0cb62f54edd436a8c4f80f38696c
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106003152/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101073000.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

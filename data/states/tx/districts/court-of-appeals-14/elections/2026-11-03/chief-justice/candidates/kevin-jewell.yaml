@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Jewell, Kevin D. (The Honorable), campaign finance report 101068969 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 7e1e2a23e3efff7b09a9a6e6eab44d4dcd456dfd3fba26f1dfb44f4e28646beb
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009120246/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068969.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Jewell, Kevin D. (The Honorable), campaign finance report 101072028 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 9ffed4d7342b3b0e31f5e87a0cfe445cd4759380b885c801521376f723885f58
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106000945/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072028.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

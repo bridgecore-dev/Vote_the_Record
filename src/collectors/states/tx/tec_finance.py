@@ -67,7 +67,8 @@ OFFICE_CODES = {
     "railroad-commissioner": {"RRCOMM"}, "supreme-court-justice": {"JUSTICE_SC", "CHIEFJUSTICE_SC"},
     "cca-judge": {"JUDGE_COCA", "PRESIDINGJUDGE_COCA"}, "sboe-member": {"STATEEDU"}, "state-senator": {"STATESEN"},
     "state-representative": {"STATEREP"}, "court-of-appeals-justice": {"JUSTICE_COA", "CHIEFJUSTICE_COA"},
-    "district-judge": {"JUDGEDIST", "JUDGEDIST_FAMILY", "CRIMINAL_JUDGEDIST", "JUDGEDIST_MULTI"},
+    "district-judge": {"JUDGEDIST", "JUDGEDIST_FAMILY", "CRIMINAL_JUDGEDIST", "JUDGEDIST_MULTI",
+                       "CRIMINAL_JUDGEDIST_DAL", "CRIMINAL_JUDGEDIST_TAR"},  # Dallas and Tarrant criminal district courts
 }
 AMOUNTS = (("totalContribAmount", "in total political contributions"),
            ("totalExpendAmount", "in total political expenditures"),
@@ -140,17 +141,19 @@ class TecData:
         def corroborated(fid: str) -> bool:
             return bool(wanted & self.codes(fid)) and (district is None or district in self.districts(fid))
 
-        def first_ok(row: dict, loose: bool) -> bool:
+        def first_ok(row: dict, loose: bool, middle: list[str] = ()) -> bool:
             given, short = norm(row["filerNameFirst"]), norm(row["filerNameShort"])
             if given and given[0] == first:
                 return True
-            return loose and (first in given or (short and short[0] == first) or any(g[0] == first[0] for g in given))
+            # loose: a nickname, initial, or the middle name the person files under ("R. Bruce" as "Bruce")
+            return loose and (first in given or (short and short[0] == first) or any(g[0] == first[0] for g in given)
+                              or bool(given and given[0] in middle))
 
         for split in range(1, len(toks)):  # every surname split, for compound surnames
             for fid, row in self.by_last.get("".join(toks[split:]), []):
                 if first_ok(row, loose=False) and wanted & self.codes(fid):
                     found.setdefault(fid, ("first name", row))
-                elif corroborated(fid) and first_ok(row, loose=True):
+                elif corroborated(fid) and first_ok(row, loose=True, middle=toks[1:split]):
                     found.setdefault(fid, ("nickname, middle name, or initial, with office and district", row))
         if not found:  # surname printed differently on the ballot (a part added or dropped)
             joined = "".join(toks[1:])

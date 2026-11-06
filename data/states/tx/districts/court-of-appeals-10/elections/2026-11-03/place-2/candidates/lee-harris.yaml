@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Harris, Artie L. (The Honorable), campaign finance report 101056846 (filed Jul 2, 2026)'
   source_kind: document
   sha256: 03150e44d4d220d1f2971265db0cda542b911d65c2978eacd0ea39ef428af006
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261008212040/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101056846.PDF
   event_date: '2026-06-30'
   retrieved: '2026-11-02'
   verification: unverified

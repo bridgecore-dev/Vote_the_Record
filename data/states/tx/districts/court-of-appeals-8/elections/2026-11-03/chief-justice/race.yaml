@@ -14,7 +14,7 @@ sources:
   source_title: 'El Paso County Elections Department: Sample Ballot, November 3, 2026 General and Special Election, El Paso County, Texas: Federal, State & County (page 4)'
   source_kind: document
   sha256: cdb43152a132333b0623fa25c6eed276af4bc335046358cc5b4ccccfa78919cd
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106003845/https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550
   event_date: '2026-11-03'
   retrieved: '2026-10-19'
   verification: unverified
@@ -31,7 +31,7 @@ sources:
   source_title: TJB | 8th COA | About the Court | Justices
   source_kind: page
   sha256: null
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106003955/https://www.txcourts.gov/8thcoa/about-the-court/justices/
   event_date: '2026-10-19'
   retrieved: '2026-10-19'
   verification: unverified

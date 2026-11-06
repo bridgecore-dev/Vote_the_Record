@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Carranza, Kristian, campaign finance report 101068857 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 1e3c0f06ea33811daabe59b0677da81cb4caeafa6100303634e89f83b222d565
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261022203329/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068857.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Carranza, Kristian, campaign finance report 101072114 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 0b0d9ae127f9d5b4578e45e2960507d1f2a05f61c43f6bff48f824c196c381a6
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106020607/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072114.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

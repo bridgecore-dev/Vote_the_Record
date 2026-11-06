@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Taylor, Amy, campaign finance report 101066738 (filed Oct 4, 2026)'
   source_kind: document
   sha256: e30a9fd6c81cd7964fefaa293c120eeea41c6ead016b9e1b58481fd0e4ef698e
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009114031/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101066738.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Taylor, Amy, campaign finance report 101071472 (filed Oct 25, 2026)'
   source_kind: document
   sha256: d4648954a262027c3f5669966e1b08d3c7813ec2890a7bda5bb93b05e06d0fc0
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106012235/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071472.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

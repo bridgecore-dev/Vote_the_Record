@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Ramos, Ana-Maria (The Honorable), campaign finance report 101071938 (filed Oct 26, 2026)'
   source_kind: document
   sha256: fa681e472182a6418bf6854a1dd9deb9a886ae24da89902693874d0c18a03dd8
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106014254/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071938.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

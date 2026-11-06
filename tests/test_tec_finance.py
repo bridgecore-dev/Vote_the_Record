@@ -170,6 +170,17 @@ def test_nickname_without_matching_district_is_not_accepted(tmp_path):
     assert tec.match("BOB SMITH", "state-representative", "9")["status"] == "report"
 
 
+def test_a_middle_name_matches_only_with_office_and_district(tmp_path):
+    tec_zip = tmp_path / "tec.zip"
+    make_zip(tec_zip, [filer("5", "West", "Raquel", code="JUDGEDIST", district="252", ftype="JCOH"),
+                       filer("6", "Knight", "William A.", code="CRIMINAL_JUDGEDIST_TAR", district="2", ftype="JCOH")],
+             [cover("5", "500", "20260630", "20260715", ftype="JCOH"), cover("6", "600", "20260630", "20260715", ftype="JCOH")])
+    tec = tf.TecData(tec_zip, "2025-01-01", "2026-09-30")
+    assert tec.match("Jayne Raquel West", "district-judge", "252")["status"] == "report"
+    assert tec.match("Jayne Raquel West", "district-judge", "253")["status"] == "not-found"
+    assert tec.match("William A. Knight", "district-judge", "2")["status"] == "report"  # Tarrant criminal district court
+
+
 def test_hand_formatted_files_are_skipped_not_rewritten(tmp_path):
     make_repo(tmp_path)
     rel = tmp_path / f"data/states/{HOUSE}/candidates/jane-doe.yaml"

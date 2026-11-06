@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Bush, Allison (Ms.), campaign finance report 101069731 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 574178709b207369cc804c4af806890975afc196b6f7128f18e231f762ed876b
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106012911/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069731.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Bush, Allison (Ms.), campaign finance report 101072593 (filed Oct 26, 2026)'
   source_kind: document
   sha256: a7e0e828417587b60a8d3172e4edfb25dfa05d6e028a4e90bac36412e665a893
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106012934/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072593.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

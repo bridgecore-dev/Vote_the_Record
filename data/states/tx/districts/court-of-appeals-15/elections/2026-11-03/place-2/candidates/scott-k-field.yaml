@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Field, Scott K. (The Honorable), campaign finance report 101068040 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 43f20c5573d42b69c62b84a695ce2fdb5520517756089ddf9008b93238de03b7
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009162201/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068040.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Field, Scott K. (The Honorable), campaign finance report 101071414 (filed Oct 26, 2026)'
   source_kind: document
   sha256: f256b361b60db85951662306de18bd10cf9f5c9dc1afcb7b30f5019687b5d961
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106001601/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071414.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -16,7 +16,7 @@ funding:
   source_title: 'Texas Ethics Commission: Mostyn, Benjamin M. (Mr.), campaign finance report 101069395 (filed Oct 4, 2026)'
   source_kind: document
   sha256: 3ffa63bfbaaf9087e2a1ff870b81f322e0a9fc34ccc0d63251979c3304dc92a0
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106020143/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069395.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Mostyn, Benjamin M. (Mr.), campaign finance report 101072332 (filed Oct 25, 2026)'
   source_kind: document
   sha256: e7e0f384ee7325a7fe0929b7a88c6a27c50c02d52f5e38c5c2aaeefb104e2f34
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106020205/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072332.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

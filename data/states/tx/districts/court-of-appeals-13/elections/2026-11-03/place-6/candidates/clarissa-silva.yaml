@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Silva, Clarissa (The Honorable), campaign finance report 101068012 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 6c36a7a899cf5092bbac7cce4743f51930ffcc6095fb6d9c5681d4617301e478
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009112442/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068012.PDF
   event_date: '2026-10-04'
   retrieved: '2026-10-20'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Silva, Clarissa (The Honorable), campaign finance report 101072138 (filed Oct 25, 2026)'
   source_kind: document
   sha256: 0799c3a9581ab8d78ef4dbef9e0478b4c8034d1d57a30b15340b11b15f3feb0f
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106000552/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072138.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

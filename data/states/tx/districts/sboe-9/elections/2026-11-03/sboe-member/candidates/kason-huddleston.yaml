@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Huddleston, Kason, campaign finance report 101070090 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 07084865a66b4d12a4f4284cfcfb42bd926ca754b182cc2e12ead9877e3dc436
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009122331/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070090.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-20'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Huddleston, Kason, campaign finance report 101072604 (filed Oct 26, 2026)'
   source_kind: document
   sha256: e2e90910bec240c1c6a71fcba4b81f9aba5baf9e87f92e3804b473ad2a78b8ef
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106013547/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072604.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

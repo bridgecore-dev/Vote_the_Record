@@ -16,7 +16,7 @@ records:
   source_title: Texas House Journal, 89th Legislature, Regular Session, 46th Day (page 1667)
   source_kind: document
   sha256: aea8381390be0c448fce37b83813a4e1dbeae9304349c9f538ba4e7063c43a00
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261023013342/https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY46FINAL.PDF
   event_date: '2025-04-17'
   retrieved: '2026-10-04'
   verification: unverified
@@ -35,7 +35,7 @@ records:
   source_title: Texas House Journal, 89th Legislature, Regular Session, 46th Day (page 1670)
   source_kind: document
   sha256: aea8381390be0c448fce37b83813a4e1dbeae9304349c9f538ba4e7063c43a00
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261023013342/https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY46FINAL.PDF
   event_date: '2025-04-17'
   retrieved: '2026-10-04'
   verification: unverified
@@ -54,7 +54,7 @@ records:
   source_title: Texas House Journal, 89th Legislature, Regular Session, 69th Day (page 5442)
   source_kind: document
   sha256: 2ed8bff78641f59806a2a195e3dc861701e3394f0f7837532b28eed6f6254252
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261026142554/https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY69FINAL.PDF
   event_date: '2025-05-21'
   retrieved: '2026-10-04'
   verification: unverified
@@ -73,7 +73,7 @@ records:
   source_title: Texas House Journal, 89th Legislature, Regular Session, 69th Day (page 5444)
   source_kind: document
   sha256: 2ed8bff78641f59806a2a195e3dc861701e3394f0f7837532b28eed6f6254252
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261026142554/https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY69FINAL.PDF
   event_date: '2025-05-21'
   retrieved: '2026-10-04'
   verification: unverified
@@ -92,7 +92,7 @@ records:
   source_title: Texas House Journal, 89th Legislature, Regular Session, 68th Day (page 5298)
   source_kind: document
   sha256: 4b31f86822420b237e0745e3a48f9e8868acebee86c28f1f691fb3b2624935ad
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106014609/https://journals.house.texas.gov/HJRNL/89R/PDF/89RDAY68FINAL.PDF
   event_date: '2025-05-20'
   retrieved: '2026-10-04'
   verification: unverified
@@ -110,7 +110,7 @@ funding:
   source_title: 'Texas Ethics Commission: Martinez Fischer, Trey (The Honorable), campaign finance report 101068299 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 7b751169ffcae94b01ef67579b1b65ba7a55d92ae33d7e2009625ab86827a0a4
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106015914/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068299.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -127,7 +127,7 @@ funding:
   source_title: 'Texas Ethics Commission: Martinez Fischer, Trey (The Honorable), campaign finance report 101071424 (filed Oct 26, 2026)'
   source_kind: document
   sha256: f9d85fc9f21545898d394a6902d9eb95b37ca8d5ed8e471b5a812cd26da9a926
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106015937/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071424.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

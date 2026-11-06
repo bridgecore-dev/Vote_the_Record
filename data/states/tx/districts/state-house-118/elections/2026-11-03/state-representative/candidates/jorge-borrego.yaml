@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Borrego, Jorge Antonio (Mr.), campaign finance report 101069730 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 4a830336ee67cb3609cbacb80cef613a7df5ade2ac91c422470ed86e4b46791e
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106020458/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069730.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Borrego, Jorge Antonio (Mr.), campaign finance report 101072477 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 656ea8f55770a7360c26f383ed5cae8d8ae706b8b6fa10d0311ced959dee2810
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106020520/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072477.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

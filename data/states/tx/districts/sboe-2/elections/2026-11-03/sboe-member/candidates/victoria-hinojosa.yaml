@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hinojosa, Victoria (Mrs.), campaign finance report 101069236 (filed Oct 4, 2026)'
   source_kind: document
   sha256: 66b3c22022d7dfa00e4f65a46d85e05114a1031fc325fe9a71e3223a9dcfabfe
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009114325/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069236.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-20'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hinojosa, Victoria (Mrs.), campaign finance report 101072026 (filed Oct 26, 2026)'
   source_kind: document
   sha256: f1baf7cc83b741ff881d86741b65a81cf84bd00b7e2e59ad2641734bbb46ff61
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106012617/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072026.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: Victoria Hinojosa | Candidate For Texas State Board of Education
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261106012753/https://www.victoriafortexas.org/
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -69,7 +69,7 @@ running_on:
     source_title: Victoria Hinojosa | Candidate For Texas State Board of Education
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261106012753/https://www.victoriafortexas.org/
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -86,7 +86,7 @@ running_on:
     source_title: Victoria Hinojosa | Candidate For Texas State Board of Education
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261106012753/https://www.victoriafortexas.org/
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified

@@ -70,7 +70,7 @@ funding:
   source_title: 'Texas Ethics Commission: Jones Jr., Venton C. (The Honorable), campaign finance report 101072734 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 54db03eead07bb27a09c9f07308586d836453b2f5afe954e2feb9baf2a5a4ec1
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106013823/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072734.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

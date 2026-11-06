@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Garcia, Thomas R. (Mr.), campaign finance report 101067847 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 54fa7ada5666a32c9192faa139b09e71a1ee1b16bf78065a8610960323200133
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106012346/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101067847.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-20'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Garcia, Thomas R. (Mr.), campaign finance report 101070798 (filed Oct 26, 2026)'
   source_kind: document
   sha256: d754ff0514269d0743215a890d677c57a0e02ff23e5dba46faa959824dbeea4d
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106012409/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070798.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: My Platform | Thomas Ray Garcia for State Board of Education
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261106012521/https://www.thomasraygarciatx.com/platform
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -69,7 +69,7 @@ running_on:
     source_title: My Platform | Thomas Ray Garcia for State Board of Education
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261106012521/https://www.thomasraygarciatx.com/platform
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -86,7 +86,7 @@ running_on:
     source_title: My Platform | Thomas Ray Garcia for State Board of Education
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261106012521/https://www.thomasraygarciatx.com/platform
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -103,7 +103,7 @@ running_on:
     source_title: My Platform | Thomas Ray Garcia for State Board of Education
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261106012521/https://www.thomasraygarciatx.com/platform
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
