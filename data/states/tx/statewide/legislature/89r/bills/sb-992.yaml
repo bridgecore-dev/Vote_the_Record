@@ -1,0 +1,233 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 992
+caption: Relating to the procedure by which the attorney general approves or denies approval of a state agency contract for outside legal services.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-992#L-01
+  headline: Signed by the Governor (May 29, 2025)
+  statement: The bill history records "Signed by the Governor" on May 29, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB992
+  source_title: 'Texas Legislature Online: SB 992, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-29'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-03-12'
+  record: null
+  tally:
+    yeas: 30
+    nays: 1
+  names:
+    nays:
+    - Creighton
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-992#V-01
+    headline: 'Senate: passed, 30-1 (March 12, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 30, Nays 1. (Same as previous roll call)" With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ03-12-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, March 12, 2025 (page 495)
+    source_kind: document
+    sha256: d182a1c16b01ff44797e276db20e995df05bbfd4f1f6d2bf887b382b208d9e53
+    archive_url: null
+    event_date: '2025-03-12'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-20'
+  record: 3046
+  tally:
+    yeas: 111
+    nays: 33
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Hayes
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Shofner
+    - Simmons
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Walle
+    - Wu
+    - Zwiener
+    nays:
+    - Bernal
+    - Bumgarner
+    - Cain
+    - Fairly
+    - Gates
+    - Harris Davila
+    - Harrison
+    - Hefner
+    - Hopper
+    - Hull
+    - LaHood
+    - Leo Wilson
+    - Little
+    - Louderback
+    - Lowe
+    - Lozano
+    - Luther
+    - Metcalf
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Patterson
+    - Schatzline
+    - Shaheen
+    - Slawson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Vo
+    - Wharton
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    absent_excused:
+    - Jones, V.
+    absent:
+    - Frank
+    - Hernandez
+    - Ward Johnson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-992#V-02
+    headline: 'House: passed, 111-33 (May 20, 2025)'
+    statement: 'The House Journal records that "SB 992 was passed by (Record 3046): 111 Yeas, 33 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY68FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 68th Day (page 5330)
+    source_kind: document
+    sha256: 4b31f86822420b237e0745e3a48f9e8868acebee86c28f1f691fb3b2624935ad
+    archive_url: null
+    event_date: '2025-05-20'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

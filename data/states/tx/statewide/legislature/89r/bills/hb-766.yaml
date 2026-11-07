@@ -1,0 +1,232 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 766
+caption: Relating to the ballot application requirements for the election of a precinct chair.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/hb-766#L-01
+  headline: Filed without the Governor's signature (June 22, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 22, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB766
+  source_title: 'Texas Legislature Online: HB 766, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-22'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-06'
+  record: 1450
+  tally:
+    yeas: 130
+    nays: 15
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Zwiener
+    nays:
+    - Cain
+    - Harrison
+    - Hickland
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Luther
+    - Money
+    - Morgan
+    - Olcott
+    - Patterson
+    - Pierson
+    - Schoolcraft
+    - Tinderholt
+    - Toth
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent:
+    - Harris Davila
+    - Schatzline
+    - Slawson
+    - Wu
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-766#V-01
+    headline: 'House: passed, 130-15 (May 6, 2025)'
+    statement: 'The House Journal records that "HB 766 was passed by (Record 1450): 130 Yeas, 15 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY57FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 57th Day (page 3150)
+    source_kind: document
+    sha256: 0485ba48dbb1a5c1ed85aed76f3921ae878734652059d96ee322da1aaa83e64f
+    archive_url: null
+    event_date: '2025-05-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-25'
+  record: null
+  tally:
+    yeas: 30
+    nays: 1
+  names:
+    nays:
+    - Sparks
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-766#V-02
+    headline: 'Senate: passed, 30-1 (May 25, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (vivavocevote)(30-1)"Nay"Sparks(30-1)"Nay"Sparks" With 31 seats in the Senate, every senator not listed as voting no voted yes.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-25-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 25, 2025 (page 2513)
+    source_kind: document
+    sha256: bf282f0af10d9ba2bac0a660fae41d182df666f306f7ab97ad96043fae850dff
+    archive_url: null
+    event_date: '2025-05-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

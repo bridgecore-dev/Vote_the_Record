@@ -1,0 +1,257 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 3070
+caption: Relating to the abolishment of the Texas Lottery Commission and the transfer of the administration of the state lottery and the licensing and regulation of charitable bingo to the Texas Commission of Licensing and Regulation; creating criminal offenses.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-3070#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB3070
+  source_title: 'Texas Legislature Online: SB 3070, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-15'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-3070#V-01
+    headline: 'Senate: passed, 31-0 (May 15, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-15-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 15, 2025 (page 2175)
+    source_kind: document
+    sha256: 4802daf07347fed935399135565b477aa9163babd5da232a68a3719759e70204
+    archive_url: null
+    event_date: '2025-05-15'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-26'
+  record: 3544
+  tally:
+    yeas: 112
+    nays: 27
+    present_not_voting: 1
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dutton
+    - Dyson
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hayes
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Longoria
+    - Lopez, R.
+    - Louderback
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Noble
+    - Ordaz
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Romero
+    - Rose
+    - Rosenthal
+    - Shaheen
+    - Simmons
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Bryant
+    - Bumgarner
+    - Cain
+    - Cook
+    - Dorazio
+    - Frank
+    - Harrison
+    - Hefner
+    - Hopper
+    - Kerwin
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Lozano
+    - Money
+    - Olcott
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shofner
+    - Slawson
+    - Tinderholt
+    - Toth
+    - Vasut
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Bowers
+    absent:
+    - Fairly
+    - Gates
+    - Lopez, J.
+    - Luther
+    - Muñoz
+    - Oliverson
+    - Orr
+    - Rodríguez Ramos
+    - Virdell
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-3070#V-02
+    headline: 'House: passed, 112-27 (May 26, 2025)'
+    statement: 'The House Journal records that "SB 3070 was passed by (Record 3544): 112 Yeas, 27 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY74FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 74th Day (page 6188)
+    source_kind: document
+    sha256: e1bf0a2263baf43962dce3e2b06857a2eb82255d4a8e10e4c28059dead32b86a
+    archive_url: null
+    event_date: '2025-05-26'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-30'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-3070#V-03
+    headline: 'Senate: concurred in the House''s amendments, 31-0 (May 30, 2025)'
+    statement: 'The Senate Journal records that "Senator Hall moved to concur in the House amendments to SB 3070. The motion prevailed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-30-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 30, 2025 (page 3440)
+    source_kind: document
+    sha256: becf8f244f927b86c6a8684b93cf97ce6294476c3847244d6caee73d67dff647
+    archive_url: null
+    event_date: '2025-05-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

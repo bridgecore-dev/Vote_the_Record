@@ -1,0 +1,323 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 22
+caption: Relating to the Texas moving image industry incentive program and the establishment and funding of the Texas moving image industry incentive fund.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/sb-22#L-01
+  headline: Filed without the Governor's signature (June 22, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 22, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB22
+  source_title: 'Texas Legislature Online: SB 22, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-22'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-16'
+  record: null
+  tally:
+    yeas: 23
+    nays: 8
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Flores
+    - Hagenbuch
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Creighton
+    - Eckhardt
+    - Gutierrez
+    - Hall
+    - Hughes
+    - Kolkhorst
+    - Middleton
+    - Perry
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-22#V-01
+    headline: 'Senate: passed, 23-8 (April 16, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 23, Nays 8."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-16-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 16, 2025 (page 1322)
+    source_kind: document
+    sha256: bb2783203cc37f9481c5129b1b57f66a1c1531f2cb7979378a71fa0013485ade
+    archive_url: null
+    event_date: '2025-04-16'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed as amended
+  date: '2025-05-26'
+  record: 3545
+  tally:
+    yeas: 114
+    nays: 26
+    present_not_voting: 2
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Hull
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Simmons
+    - Smithee
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Gerdes
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Isaac
+    - Kerwin
+    - Little
+    - Lowe
+    - Lozano
+    - Money
+    - Olcott
+    - Oliverson
+    - Richardson
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Virdell
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Bowers
+    - Leo Wilson
+    absent:
+    - Cain
+    - Guerra
+    - Louderback
+    - Morgan
+    - Pierson
+    - Rodríguez Ramos
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-22#V-02
+    headline: 'House: passed as amended, 114-26 (May 26, 2025)'
+    statement: 'The House Journal records that "SB 22, as amended, was passed by (Record 3545): 114 Yeas, 26 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY74FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 74th Day (page 6197)
+    source_kind: document
+    sha256: e1bf0a2263baf43962dce3e2b06857a2eb82255d4a8e10e4c28059dead32b86a
+    archive_url: null
+    event_date: '2025-05-26'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-28'
+  record: null
+  tally:
+    yeas: 23
+    nays: 8
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Flores
+    - Hagenbuch
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Creighton
+    - Eckhardt
+    - Gutierrez
+    - Hall
+    - Hughes
+    - Kolkhorst
+    - Middleton
+    - Perry
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-22#V-03
+    headline: 'Senate: concurred in the House''s amendments, 23-8 (May 28, 2025)'
+    statement: 'The Senate Journal records that "The motion prevailed by the following vote: Yeas 23, Nays 8."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-28-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 28, 2025 (page 3140)
+    source_kind: document
+    sha256: 8b236c6d093f3f3e325e5c04732391cf5735314d035c8778791c078501cc6cf7
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

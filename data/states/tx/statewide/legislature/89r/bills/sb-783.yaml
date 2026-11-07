@@ -1,0 +1,295 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 783
+caption: Relating to certain regulations adopted by governmental entities for the construction or alteration of residential or commercial buildings.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/sb-783#L-01
+  headline: Filed without the Governor's signature (May 20, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on May 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB783
+  source_title: 'Texas Legislature Online: SB 783, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-10'
+  record: null
+  tally:
+    yeas: 27
+    nays: 3
+  names:
+    nays:
+    - Campbell
+    - Hall
+    - Middleton
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-783#V-01
+    headline: 'Senate: passed, 27-3 (April 10, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (viva voce vote) (27-3) "Nays" Campbell, Hall, Middleton (27-3) "Nays" Campbell, Hall,Middleton"
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-10-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 10, 2025 (page 1085)
+    source_kind: document
+    sha256: eed93f4e5c720fcb8649b9bd2adac574b714d60ce51cfdadcdb3928cd9d95630
+    archive_url: null
+    event_date: '2025-04-10'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-04-30'
+  record: 940
+  tally:
+    yeas: 112
+    nays: 29
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hull
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Oliverson
+    - Ordaz
+    - Patterson
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Shaheen
+    - Simmons
+    - Smithee
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    - Zwiener
+    nays:
+    - Bumgarner
+    - Cain
+    - Cook
+    - Dorazio
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hopper
+    - Isaac
+    - LaHood
+    - Louderback
+    - Lowe
+    - Luther
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Paul
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Shofner
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    absent_excused:
+    - Bernal
+    - Schoolcraft
+    - Vo
+    absent_excused_committee:
+    - Orr
+    absent:
+    - Gates
+    - Lozano
+    - Slawson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-783#V-02
+    headline: 'House: passed, 112-29 (April 30, 2025)'
+    statement: 'The House Journal records that "SB 783 was passed by (Record 940): 112 Yeas, 29 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY53FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 53rd Day (page 2410)
+    source_kind: document
+    sha256: 6cc699339e48eb95298c3ab0a9bc20893359dfbe347f83c84236aaead0c87430
+    archive_url: null
+    event_date: '2025-04-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-07'
+  record: null
+  tally:
+    yeas: 28
+    nays: 3
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Campbell
+    - Hall
+    - Middleton
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-783#V-03
+    headline: 'Senate: concurred in the House''s amendments, 28-3 (May 7, 2025)'
+    statement: 'The Senate Journal records that "The motionprevailed by the following vote: Yeas 28, Nays 3."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-07-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 7, 2025 (page 1842)
+    source_kind: document
+    sha256: f424fc773e1b6cc025031d333ea9b701c66796ddc6f21239bf545a9d27b9ccd8
+    archive_url: null
+    event_date: '2025-05-07'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -2,8 +2,31 @@
 id: joel-kelton
 name: Joel Kelton
 candidacies: []
-research: pending
-records: []
+records:
+- id: tx/people/joel-kelton#R-01
+  record_type: vote
+  headline: Voted for proposing a 2026 county tax rate of $0.51609 per $100 (Sept. 2026)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2026 Brown County tax rate of $0.51609 per $100,
+    which the notice lists as above the no-new-revenue rate ($0.49723) and not above the voter-approval rate ($0.51694). The
+    notice lists Commissioners Chastain, Kelton, Reid and Traweek and Thomas Munson voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.browncountytx.gov/upload/page/0845/9-23%20Notice%20of%20Public%20Hearing%20on%20Tax%20Increase.pdf
+  source_title: 'Brown County: 2026 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: f95e073059f37e3dbe38b833a4a2df617ad3a8041a1246c79f6c00f846a87176
+  archive_url: null
+  event_date: '2026-09-23'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice
+    (09/23/2026). Names are listed without titles; seats are matched from the county's current officeholders. The notice also
+    lists Thomas Munson voting for; that name does not match the county judge on file, so no record is attached for it.
 statements: []
 funding: []
 promise_tracker: []

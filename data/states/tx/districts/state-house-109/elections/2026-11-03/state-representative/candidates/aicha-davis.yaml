@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Davis, Aicha (The Honorable), campaign finance report 101072968 (filed Oct 26, 2026)'
   source_kind: document
   sha256: e8a63061996aa802ddbdac73c4e6002148ee03e8a7c793af8f6ce7c963557bf8
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106015357/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072968.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

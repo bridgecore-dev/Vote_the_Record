@@ -1,0 +1,265 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2112
+caption: Relating to the punishment for certain criminal offenses related to cultivated oyster mariculture; increasing a criminal penalty.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2112#L-01
+  headline: Signed by the Governor (May 30, 2025)
+  statement: The bill history records "Signed by the Governor" on May 30, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2112
+  source_title: 'Texas Legislature Online: SB 2112, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-30'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-09'
+  record: null
+  tally:
+    yeas: 28
+    nays: 2
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Creighton
+    - Hughes
+    absent_excused:
+    - King
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2112#V-01
+    headline: 'Senate: passed, 28-2 (April 9, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 28, Nays 2. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-09-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 9, 2025 (page 1014)
+    source_kind: document
+    sha256: 759b6690750ff4c77cac23456b5874efe86a0f98a30f2a598f7e3d35c59f8040
+    archive_url: null
+    event_date: '2025-04-09'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-20'
+  record: 3020
+  tally:
+    yeas: 110
+    nays: 36
+    present_not_voting: 2
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Smithee
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Bumgarner
+    - Cain
+    - Cunningham
+    - DeAyala
+    - Harris Davila
+    - Harrison
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Isaac
+    - LaHood
+    - Little
+    - Lowe
+    - Luther
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Patterson
+    - Pierson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Spiller
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Virdell
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    absent_excused:
+    - Jones, V.
+    absent:
+    - Morales Shaw
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2112#V-02
+    headline: 'House: passed, 110-36 (May 20, 2025)'
+    statement: 'The House Journal records that "SB 2112 was passed by (Record 3020): 110 Yeas, 36 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY68FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 68th Day (page 5310)
+    source_kind: document
+    sha256: 4b31f86822420b237e0745e3a48f9e8868acebee86c28f1f691fb3b2624935ad
+    archive_url: null
+    event_date: '2025-05-20'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -1,0 +1,265 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 5115
+caption: Relating to the penalty for the crime of election fraud; increasing a criminal penalty.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-5115#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB5115
+  source_title: 'Texas Legislature Online: HB 5115, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-15'
+  record: 2619
+  tally:
+    yeas: 88
+    nays: 54
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Canales
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gámez
+    - Gates
+    - Gerdes
+    - Geren
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Phelan
+    - Pierson
+    - Raymond
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Anchía
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Campos
+    - Cole
+    - Collier
+    - Cortez
+    - Davis, A.
+    - Davis, Y.
+    - Flores
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Lalani
+    - Longoria
+    - Lopez, R.
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Talarico
+    - Thompson
+    - Turner
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Dutton
+    - Gervin-Hawkins
+    - Lambert
+    - Paul
+    absent_excused_committee:
+    - Bonnen
+    absent:
+    - Simmons
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-5115#V-01
+    headline: 'House: passed, 88-54 (May 15, 2025)'
+    statement: 'The House Journal records that "HB 5115 was passed by (Record 2619): 88 Yeas, 54 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY65FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 65th Day (page 4779)
+    source_kind: document
+    sha256: a0fee098fc84b627fe8a7281ef6e571d72637bd979f5b742f5db5d04c251ca00
+    archive_url: null
+    event_date: '2025-05-15'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-28'
+  record: null
+  tally:
+    yeas: 21
+    nays: 10
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - Johnson
+    - Menéndez
+    - Miles
+    - West
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-5115#V-02
+    headline: 'Senate: passed, 21-10 (May 28, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 21, Nays 10. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-28-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 28, 2025 (page 2908)
+    source_kind: document
+    sha256: a49310f9d251ef79787e2a723f610535d1c72744c19ef770d9faa17a25e7d772
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

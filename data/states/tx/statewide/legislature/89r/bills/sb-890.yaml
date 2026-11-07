@@ -1,0 +1,264 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 890
+caption: Relating to the issuance of a license to carry a handgun to certain active and retired judicial officers.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-890#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB890
+  source_title: 'Texas Legislature Online: SB 890, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-03-12'
+  record: null
+  tally:
+    yeas: 28
+    nays: 3
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Cook
+    - Eckhardt
+    - Johnson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-890#V-01
+    headline: 'Senate: passed, 28-3 (March 12, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 28, Nays 3. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ03-12-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, March 12, 2025 (page 491)
+    source_kind: document
+    sha256: d182a1c16b01ff44797e276db20e995df05bbfd4f1f6d2bf887b382b208d9e53
+    archive_url: null
+    event_date: '2025-03-12'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-23'
+  record: 3314
+  tally:
+    yeas: 105
+    nays: 33
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Canales
+    - Capriglione
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Frank
+    - Gámez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Moody
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Romero
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Spiller
+    - Swanson
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    - Wu
+    nays:
+    - Allen
+    - Anchía
+    - Bernal
+    - Bowers
+    - Bucy
+    - Collier
+    - Davis, A.
+    - Davis, Y.
+    - Flores
+    - Garcia, L.
+    - Garcia Hernandez
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Hinojosa
+    - Howard
+    - Jones, J.
+    - Jones, V.
+    - Lalani
+    - Martinez
+    - Meza
+    - Morales, C.
+    - Morales Shaw
+    - Perez, M.
+    - Reynolds
+    - Rodríguez Ramos
+    - Rose
+    - Rosenthal
+    - Talarico
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Bryant
+    - Campos
+    - Garcia, J.
+    - Harris
+    - Paul
+    - Smithee
+    absent:
+    - Cole
+    - Johnson
+    - Lopez, R.
+    - Martinez Fischer
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-890#V-02
+    headline: 'House: passed, 105-33 (May 23, 2025)'
+    statement: 'The House Journal records that "SB 890 was passed by (Record 3314): 105 Yeas, 33 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY71FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 71st Day (page 5758)
+    source_kind: document
+    sha256: 41c65c87ba564c421c36154d6db85e50de3e15f2ca84d68e11200a8b17dcad9c
+    archive_url: null
+    event_date: '2025-05-23'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

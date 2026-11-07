@@ -1,0 +1,265 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 1844
+caption: Relating to disannexation of certain areas of a municipality for failure to provide services.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-1844#L-01
+  headline: Signed by the Governor (May 28, 2025)
+  statement: The bill history records "Signed by the Governor" on May 28, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1844
+  source_title: 'Texas Legislature Online: SB 1844, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-28'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-07'
+  record: null
+  tally:
+    yeas: 21
+    nays: 10
+  names:
+    yeas:
+    - Bettencourt
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Birdwell
+    - Eckhardt
+    - Hall
+    - Hancock
+    - Johnson
+    - Menéndez
+    - Miles
+    - West
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1844#V-01
+    headline: 'Senate: passed, 21-10 (May 7, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 21, Nays 10."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-07-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 7, 2025 (page 1834)
+    source_kind: document
+    sha256: f424fc773e1b6cc025031d333ea9b701c66796ddc6f21239bf545a9d27b9ccd8
+    archive_url: null
+    event_date: '2025-05-07'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-15'
+  record: 2593
+  tally:
+    yeas: 91
+    nays: 44
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bryant
+    - Buckley
+    - Bumgarner
+    - Button
+    - Canales
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Lopez, J.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Perez, M.
+    - Phelan
+    - Pierson
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Anchía
+    - Bernal
+    - Bhojani
+    - Bucy
+    - Campos
+    - Cole
+    - Collier
+    - Cortez
+    - Davis, A.
+    - Davis, Y.
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Longoria
+    - Lopez, R.
+    - Lowe
+    - Martinez Fischer
+    - McLaughlin
+    - Meza
+    - Olcott
+    - Perez, V.
+    - Plesa
+    - Reynolds
+    - Romero
+    - Rose
+    - Rosenthal
+    - Talarico
+    - Thompson
+    - Turner
+    - Vo
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Dutton
+    - Gervin-Hawkins
+    - Paul
+    absent_excused_committee:
+    - Bonnen
+    absent:
+    - Bowers
+    - Cain
+    - Geren
+    - Lambert
+    - Little
+    - Luther
+    - Morales Shaw
+    - Simmons
+    - Walle
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1844#V-02
+    headline: 'House: passed, 91-44 (May 15, 2025)'
+    statement: 'The House Journal records that "SB 1844 was passed by (Record 2593): 91 Yeas, 44 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY65FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 65th Day (page 4752)
+    source_kind: document
+    sha256: a0fee098fc84b627fe8a7281ef6e571d72637bd979f5b742f5db5d04c251ca00
+    archive_url: null
+    event_date: '2025-05-15'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

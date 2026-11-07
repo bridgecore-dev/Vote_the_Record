@@ -1,0 +1,323 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 3047
+caption: Relating to the creation of certain municipal management districts; providing authority to issue bonds; providing authority to impose assessments, fees, and taxes; granting a limited power of eminent domain.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/sb-3047#L-01
+  headline: Filed without the Governor's signature (June 20, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB3047
+  source_title: 'Texas Legislature Online: SB 3047, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-13'
+  record: null
+  tally:
+    yeas: 27
+    nays: 4
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - West
+    - Zaffirini
+    nays:
+    - Hall
+    - Hughes
+    - Middleton
+    - Sparks
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-3047#V-01
+    headline: 'Senate: passed, 27-4 (May 13, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 27, Nays 4. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-13-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 13, 2025 (page 2065)
+    source_kind: document
+    sha256: 915fa68791eb620489520aac52c55d9568308a0a4d88f351a89a99dd16ec5d60
+    archive_url: null
+    event_date: '2025-05-13'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed as amended
+  date: '2025-05-28'
+  record: 3904
+  tally:
+    yeas: 80
+    nays: 57
+    present_not_voting: 3
+  names:
+    yeas:
+    - Allen
+    - Bell, C.
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Button
+    - Campos
+    - Canales
+    - Cole
+    - Collier
+    - Cortez
+    - Curry
+    - Davis, A.
+    - Davis, Y.
+    - Dyson
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Hernandez
+    - Hickland
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Leach
+    - Lopez, R.
+    - Louderback
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Spiller
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, K.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Cain
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Fairly
+    - Gates
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Holt
+    - Hopper
+    - Hull
+    - Isaac
+    - LaHood
+    - Leo Wilson
+    - Lopez, J.
+    - Lowe
+    - Lozano
+    - Luther
+    - McQueeney
+    - Metcalf
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Oliverson
+    - Patterson
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Virdell
+    - Wharton
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - King
+    - Landgraf(C)
+    absent_excused:
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Kerwin
+    - Longoria
+    - Talarico
+    absent:
+    - Dutton
+    - Little
+    - Schofield
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-3047#V-02
+    headline: 'House: passed as amended, 80-57 (May 28, 2025)'
+    statement: 'The House Journal records that "SB 3047, as amended, was passed by (Record 3904): 80 Yeas, 57 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 6755)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-30'
+  record: null
+  tally:
+    yeas: 27
+    nays: 4
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - West
+    - Zaffirini
+    nays:
+    - Hall
+    - Hughes
+    - Middleton
+    - Sparks
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-3047#V-03
+    headline: 'Senate: concurred in the House''s amendments, 27-4 (May 30, 2025)'
+    statement: 'The Senate Journal records that "Senator Zaffirini moved to concur in the House amendments to SB 3047. The motion prevailed by the following vote: Yeas 27, Nays 4."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-30-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 30, 2025 (page 3522)
+    source_kind: document
+    sha256: becf8f244f927b86c6a8684b93cf97ce6294476c3847244d6caee73d67dff647
+    archive_url: null
+    event_date: '2025-05-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

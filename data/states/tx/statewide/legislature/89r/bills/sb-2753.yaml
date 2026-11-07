@@ -1,0 +1,323 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2753
+caption: Relating to the integration of early voting by personal appearance and election day voting, including the manner in which election returns are processed and other related changes.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2753#L-01
+  headline: Signed by the Governor (June 22, 2025)
+  statement: The bill history records "Signed by the Governor" on June 22, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2753
+  source_title: 'Texas Legislature Online: SB 2753, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-22'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-06'
+  record: null
+  tally:
+    yeas: 20
+    nays: 11
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - J. Hinojosa
+    - Johnson
+    - Menéndez
+    - Miles
+    - West
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2753#V-01
+    headline: 'Senate: passed, 20-11 (May 6, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 20, Nays 11. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-06-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 6, 2025 (page 1799)
+    source_kind: document
+    sha256: fba289bbabac13b646abc9e228418044b925b1373947164d1f8abc2593c69108
+    archive_url: null
+    event_date: '2025-05-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed as amended
+  date: '2025-05-28'
+  record: 3938
+  tally:
+    yeas: 111
+    nays: 20
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Capriglione
+    - Cole
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Frank
+    - Garcia, L.
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - Goodwin
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - King
+    - LaHood
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Morales, C.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Ward Johnson
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Bernal
+    - Bowers
+    - Campos
+    - Canales
+    - Collier
+    - Davis, A.
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - González, J.
+    - González, M.
+    - Jones, V.
+    - Lambert
+    - Morales, E.
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Walle
+    - Wharton
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Allen
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Kerwin
+    - Longoria
+    - Talarico
+    absent:
+    - Ashby
+    - Barry
+    - Garcia Hernandez
+    - Kitzman
+    - Lalani
+    - Moody
+    - Ordaz
+    - Perez, M.
+    - Rodríguez Ramos
+    - Swanson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2753#V-02
+    headline: 'House: passed as amended, 111-20 (May 28, 2025)'
+    statement: 'The House Journal records that "SB 2753, as amended, was passed by (Record 3938): 111 Yeas, 20 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 6819)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: adopted the conference committee report
+  date: '2025-06-01'
+  record: null
+  tally:
+    yeas: 20
+    nays: 11
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - J. Hinojosa
+    - Johnson
+    - Menéndez
+    - Miles
+    - West
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2753#V-03
+    headline: 'Senate: adopted the conference committee report, 20-11 (June 1, 2025)'
+    statement: 'The Senate Journal records that "On motion of Senator Hall, the Conference Committee Report was adopted by the following vote: Yeas 20, Nays 11."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ06-01-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, June 1, 2025 (page 3833)
+    source_kind: document
+    sha256: 546007bd863a820e34cfb4f18ececffdfc19399195fe8cfb528967988c976db1
+    archive_url: null
+    event_date: '2025-06-01'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

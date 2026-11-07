@@ -1,0 +1,232 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 1804
+caption: Relating to restitution and compensation paid to victims of certain offenses for tattoo removal related to the offense.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-1804#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1804
+  source_title: 'Texas Legislature Online: SB 1804, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-16'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1804#V-01
+    headline: 'Senate: passed, 31-0 (April 16, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (vivavocevote)(31-0)(31-0)" With 31 seats in the Senate, every senator not listed as voting no voted yes.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-16-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 16, 2025 (page 1361)
+    source_kind: document
+    sha256: eca8f44d40dda7a5197277f38cb610a396c91e345462ab4d9ea1d03281f0d730
+    archive_url: null
+    event_date: '2025-04-16'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-21'
+  record: 3133
+  tally:
+    yeas: 135
+    nays: 9
+    present_not_voting: 3
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Ashby
+    - Cain
+    - Lowe
+    - Money
+    - Olcott
+    - Patterson
+    - Schatzline
+    - Tinderholt
+    - Toth
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    - Morales, E.
+    absent_excused:
+    - Jones, V.
+    absent_excused_committee:
+    - Leo Wilson
+    absent:
+    - Oliverson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1804#V-02
+    headline: 'House: passed, 135-9 (May 21, 2025)'
+    statement: 'The House Journal records that "(Bryant and Hinojosa now present) SB 1804 was passed by (Record 3133): 135 Yeas, 9 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY69FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 69th Day (page 5462)
+    source_kind: document
+    sha256: 2ed8bff78641f59806a2a195e3dc861701e3394f0f7837532b28eed6f6254252
+    archive_url: null
+    event_date: '2025-05-21'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

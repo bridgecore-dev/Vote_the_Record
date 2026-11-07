@@ -1,0 +1,413 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 700
+caption: Relating to disclosures for certain commercial sales-based financing transactions, the effect of certain commercial sales-based financing contract provisions, and the registration of commercial sales-based financing brokers and providers; authorizing a fee and providing a civil penalty.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-700#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB700
+  source_title: 'Texas Legislature Online: HB 700, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-12'
+  record: 2149
+  tally:
+    yeas: 116
+    nays: 28
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dutton
+    - Dyson
+    - Fairly
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Hull
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Shofner
+    - Smithee
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    nays:
+    - Bumgarner
+    - Cain
+    - Canales
+    - Cook
+    - Dorazio
+    - Harrison
+    - Hickland
+    - Holt
+    - Hopper
+    - Isaac
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Luther
+    - Money
+    - Olcott
+    - Oliverson
+    - Patterson
+    - Pierson
+    - Schatzline
+    - Schoolcraft
+    - Shaheen
+    - Slawson
+    - Spiller
+    - Tinderholt
+    - Toth
+    - Wharton
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Flores
+    - Schofield
+    - Simmons
+    absent:
+    - Hunter
+    - Lalani
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-700#V-01
+    headline: 'House: passed, 116-28 (May 12, 2025)'
+    statement: 'The House Journal records that "HB 700 was passed by (Record 2149): 116 Yeas, 28 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY62FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 62nd Day (page 4041)
+    source_kind: document
+    sha256: 47d2e3310c039f0d60062a2d9405a28bcf9cc4599e2d42f2f18e69ede4870917
+    archive_url: null
+    event_date: '2025-05-12'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-26'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-700#V-02
+    headline: 'Senate: passed, 31-0 (May 26, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-26-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 26, 2025 (page 2760)
+    source_kind: document
+    sha256: cc2c380225c07bc1bf00b1f24c66e45e5c10fba3d5c3194040850783b1b4f74b
+    archive_url: null
+    event_date: '2025-05-26'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-28'
+  record: 4008
+  tally:
+    yeas: 98
+    nays: 23
+    present_not_voting: 3
+  names:
+    yeas:
+    - Alders
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Capriglione
+    - Cook
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Garcia, J.
+    - Garcia, L.
+    - Gates
+    - Gerdes
+    - Geren
+    - González, J.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Jones, V.
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Romero
+    - Schofield
+    - Shaheen
+    - Shofner
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    nays:
+    - Bernal
+    - Bucy
+    - Collier
+    - Flores
+    - Gámez
+    - Garcia Hernandez
+    - Harrison
+    - Howard
+    - Johnson
+    - Leo Wilson
+    - Lowe
+    - Morales, C.
+    - Olcott
+    - Perez, V.
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Rosenthal
+    - Schatzline
+    - Schoolcraft
+    - Slawson
+    - Vo
+    - Wu
+    present_not_voting:
+    - Mr. Speaker(C)
+    - Ashby
+    - Morgan
+    absent_excused:
+    - Allen
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Jones, J.
+    - Kerwin
+    - Longoria
+    - Money
+    - Talarico
+    absent:
+    - Canales
+    - Cole
+    - Cunningham
+    - Dutton
+    - Gervin-Hawkins
+    - González, M.
+    - Hernandez
+    - King
+    - Lopez, R.
+    - Lozano
+    - Martinez Fischer
+    - Ordaz
+    - Rose
+    - Simmons
+    - Turner
+    - Zwiener
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-700#V-03
+    headline: 'House: concurred in the Senate''s amendments, 98-23 (May 28, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 700 prevailed by (Record 4008): 98 Yeas, 23 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 7078)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

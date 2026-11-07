@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Perkinz, Tiffany M. (Mrs.), campaign finance report 101070175 (filed Oct 6, 2026)'
   source_kind: document
   sha256: cf8003c5173fa47b4a9155d49e32d6aedafe83a0a34e33b5ea46e8ec4f5638ac
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009123642/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070175.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified

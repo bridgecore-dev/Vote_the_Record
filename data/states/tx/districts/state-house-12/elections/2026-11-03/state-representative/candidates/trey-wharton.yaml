@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Wharton, Arthur D. (The Honorable), campaign finance report 101071395 (filed Oct 26, 2026)'
   source_kind: document
   sha256: b6b41e54080a0a32fa0af317db75a3df13a339e7d336054417c528540f6c04be
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106021143/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071395.PDF
   event_date: '2026-10-24'
   retrieved: '2026-11-02'
   verification: unverified

@@ -1,0 +1,446 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 171
+caption: Relating to the certificate of medical examination for chemical dependency and the duration of court-ordered treatment for a person with a chemical dependency.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-171#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB171
+  source_title: 'Texas Legislature Online: HB 171, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-04-25'
+  record: 556
+  tally:
+    yeas: 117
+    nays: 20
+    present_not_voting: 1
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hayes
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Longoria
+    - Lopez, J.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Zwiener
+    nays:
+    - Alders
+    - Cain
+    - Cook
+    - Harrison
+    - Hefner
+    - Holt
+    - Hopper
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Luther
+    - Money
+    - Morgan
+    - Olcott
+    - Pierson
+    - Schatzline
+    - Slawson
+    - Tinderholt
+    - Toth
+    - Vasut
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Cortez
+    - Geren
+    - Jones, J.
+    - LaHood
+    - Martinez Fischer
+    - Morales, C.
+    - Oliverson
+    - Wu
+    absent:
+    - Campos
+    - Lopez, R.
+    - Noble
+    - Reynolds
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-171#V-01
+    headline: 'House: passed, 117-20 (April 25, 2025)'
+    statement: 'The House Journal records that "HB 171 was passed by (Record 556): 117 Yeas, 20 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY50FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 50th Day (page 1973)
+    source_kind: document
+    sha256: 61bad7809a56e9577332121c0b47028967c423ef12685c0e2795fd199d98f3de
+    archive_url: null
+    event_date: '2025-04-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-23'
+  record: null
+  tally:
+    yeas: 28
+    nays: 3
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Hagenbuch
+    - Hall
+    - Hughes
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-171#V-02
+    headline: 'Senate: passed, 28-3 (May 23, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 28, Nays 3. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-23-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 23, 2025 (page 2453)
+    source_kind: document
+    sha256: 7f65d0c0392d8ecc9ecc7564d2ef8f92472801aff8f40698b3106aae2701f1a0
+    archive_url: null
+    event_date: '2025-05-23'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-28'
+  record: 3956
+  tally:
+    yeas: 109
+    nays: 27
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hopper
+    - Howard
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Meyer
+    - Meza
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Smithee
+    - Spiller
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    - Zwiener
+    nays:
+    - Bonnen
+    - Bumgarner
+    - Cain
+    - Capriglione
+    - Harrison
+    - Holt
+    - Hull
+    - LaHood
+    - Leo Wilson
+    - Lowe
+    - Metcalf
+    - Money
+    - Morgan
+    - Olcott
+    - Patterson
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Swanson
+    - Toth
+    - Vasut
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker(C)
+    - Virdell
+    absent_excused:
+    - Allen
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Kerwin
+    - Longoria
+    - Talarico
+    absent:
+    - Canales
+    - Jones, V.
+    - King
+    - Moody
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-171#V-03
+    headline: 'House: concurred in the Senate''s amendments, 109-27 (May 28, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 171 prevailed by (Record 3956): 109 Yeas, 27 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 6867)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

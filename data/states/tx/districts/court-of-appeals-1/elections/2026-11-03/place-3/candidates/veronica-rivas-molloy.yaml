@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Rivas-Molloy, Veronica (The Honorable), campaign finance report 101069352 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 976d856d295db4cf25dd94b63656900687cac41ee6cb8828508dcb006a1f2598
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009115917/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069352.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Rivas-Molloy, Veronica (The Honorable), campaign finance report 101071981 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 87f1fc0fb841a3044212dd78a940a12b2b35e9a523734c5cc574cd36496bb366
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261105234334/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071981.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

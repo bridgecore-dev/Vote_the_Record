@@ -1,0 +1,231 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2550
+caption: Relating to an exemption of the transfer of certain rights in water from certain disclosure requirements applicable to the transfer of certain interests in real property.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2550#L-01
+  headline: Signed by the Governor (May 24, 2025)
+  statement: The bill history records "Signed by the Governor" on May 24, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2550
+  source_title: 'Texas Legislature Online: SB 2550, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-24'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-05'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2550#V-01
+    headline: 'Senate: passed, 31-0 (May 5, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-05-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 5, 2025 (page 1733)
+    source_kind: document
+    sha256: 882975731a43c7b76539a8eccbed5b1cc4e952b1d63784b5c9843d5c03d3f2cf
+    archive_url: null
+    event_date: '2025-05-05'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-12'
+  record: 2154
+  tally:
+    yeas: 126
+    nays: 17
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dutton
+    - Dyson
+    - Fairly
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hull
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Shaheen
+    - Shofner
+    - Smithee
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Cain
+    - Cook
+    - Dorazio
+    - Harrison
+    - Hopper
+    - Isaac
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Luther
+    - Money
+    - Olcott
+    - Schatzline
+    - Schoolcraft
+    - Slawson
+    - Swanson
+    - Toth
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    absent_excused:
+    - Flores
+    - Schofield
+    - Simmons
+    absent:
+    - González, M.
+    - Vasut
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2550#V-02
+    headline: 'House: passed, 126-17 (May 12, 2025)'
+    statement: 'The House Journal records that "SB 2550 was passed by (Record 2154): 126 Yeas, 17 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY62FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 62nd Day (page 4045)
+    source_kind: document
+    sha256: 47d2e3310c039f0d60062a2d9405a28bcf9cc4599e2d42f2f18e69ede4870917
+    archive_url: null
+    event_date: '2025-05-12'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

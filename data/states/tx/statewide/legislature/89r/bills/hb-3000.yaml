@@ -1,0 +1,414 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 3000
+caption: Relating to a grant program to provide financial assistance to qualified ambulance service providers in certain rural counties.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-3000#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB3000
+  source_title: 'Texas Legislature Online: HB 3000, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-02'
+  record: 1274
+  tally:
+    yeas: 124
+    nays: 13
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - McQueeney
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Bumgarner
+    - Cain
+    - Harrison
+    - Lowe
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Patterson
+    - Pierson
+    - Tinderholt
+    - Toth
+    - Vasut
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Campos
+    - Holt
+    - LaHood
+    - Martinez Fischer
+    - McLaughlin
+    - Schatzline
+    absent_excused_committee:
+    - Orr
+    absent:
+    - Dutton
+    - Lopez, R.
+    - Metcalf
+    - Schoolcraft
+    - Slawson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3000#V-01
+    headline: 'House: passed, 124-13 (May 2, 2025)'
+    statement: 'The House Journal records that "HB 3000 was passed by (Record 1274): 124 Yeas, 13 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY55FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 55th Day (page 2864)
+    source_kind: document
+    sha256: 2c5fc76e27aa2e976ce463d1d4af4d12e1c8bdcb2704df1da4e68a32d08950c1
+    archive_url: null
+    event_date: '2025-05-02'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-27'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3000#V-02
+    headline: 'Senate: passed, 31-0 (May 27, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-27-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 27, 2025 (page 2852)
+    source_kind: document
+    sha256: b4b7b0aafc18d2e44572c3df0329ffc096a78b1b4e41d993eb4cb69fa53b9764
+    archive_url: null
+    event_date: '2025-05-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-30'
+  record: 4062
+  tally:
+    yeas: 112
+    nays: 24
+    present_not_voting: 2
+  names:
+    yeas:
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Bucy
+    - Button
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Landgraf
+    - Leach
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schoolcraft
+    - Simmons
+    - Smithee
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Bumgarner
+    - Cain
+    - Cunningham
+    - Harrison
+    - Hickland
+    - Hull
+    - Isaac
+    - LaHood
+    - Leo Wilson
+    - Lowe
+    - McQueeney
+    - Money
+    - Olcott
+    - Oliverson
+    - Patterson
+    - Pierson
+    - Schofield
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Swanson
+    - Tinderholt
+    - Toth
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Allen
+    - Garcia, J.
+    - Harris
+    - Jones, V.
+    - Lambert
+    - Phelan
+    absent:
+    - Buckley
+    - Campos
+    - Cortez
+    - Davis, Y.
+    - Manuel
+    - Reynolds
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3000#V-03
+    headline: 'House: concurred in the Senate''s amendments, 112-24 (May 30, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 3000 prevailed by (Record 4062): 112 Yeas, 24 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY78FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 78th Day (page 7476)
+    source_kind: document
+    sha256: f797cbdb3518523cfecbb02edd2dd1a0d59963ceec0ce949dc603db8a0a98807
+    archive_url: null
+    event_date: '2025-05-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

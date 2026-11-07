@@ -1,0 +1,265 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 1677
+caption: Relating to a study on prevention and reduction of diabetes-related amputation.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/sb-1677#L-01
+  headline: Filed without the Governor's signature (June 20, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1677
+  source_title: 'Texas Legislature Online: SB 1677, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-10'
+  record: null
+  tally:
+    yeas: 24
+    nays: 6
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - Kolkhorst
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - West
+    - Zaffirini
+    nays:
+    - Creighton
+    - Hagenbuch
+    - Hall
+    - Hughes
+    - Middleton
+    - Sparks
+    absent_excused:
+    - King
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1677#V-01
+    headline: 'Senate: passed, 24-6 (April 10, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 24, Nays 6. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-10-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 10, 2025 (page 1044)
+    source_kind: document
+    sha256: ef9fe030eaab050cc60786509b3b53c0103495dad67211c11676a3fa7bad4209
+    archive_url: null
+    event_date: '2025-04-10'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-24'
+  record: 3460
+  tally:
+    yeas: 78
+    nays: 57
+    present_not_voting: 3
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Bucy
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Hefner
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Hunter
+    - Jones, J.
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - Meyer
+    - Moody
+    - Morales, E.
+    - Muñoz
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Talarico
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Barry
+    - Buckley
+    - Bumgarner
+    - Cain
+    - Cook
+    - Cunningham
+    - DeAyala
+    - Fairly
+    - Gates
+    - Gerdes
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Isaac
+    - LaHood
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Louderback
+    - Lowe
+    - Lozano
+    - Luther
+    - McQueeney
+    - Metcalf
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Orr
+    - Patterson
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Virdell
+    - Wharton
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Bell, C.
+    - Geren(C)
+    absent_excused:
+    - Davis, Y.
+    - Johnson
+    - Jones, V.
+    - Kerwin
+    - Meza
+    - Morales, C.
+    - Paul
+    - Reynolds
+    - Vo
+    absent:
+    - Morales Shaw
+    - Oliverson
+    - Simmons
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1677#V-02
+    headline: 'House: passed, 78-57 (May 24, 2025)'
+    statement: 'The House Journal records that "SB 1677 was passed by (Record 3460): 78 Yeas, 57 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY72FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 72nd Day (page 5998)
+    source_kind: document
+    sha256: 6d6b9ee2f20055e3317f682645aa72265abe8b33913fd879a524902fc4ff5282
+    archive_url: null
+    event_date: '2025-05-24'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

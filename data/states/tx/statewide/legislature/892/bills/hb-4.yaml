@@ -1,0 +1,262 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: '892'
+bill: HB 4
+caption: Relating to the composition of the districts for the election of members of the United States House of Representatives from the State of Texas.
+became_law: signed
+law:
+  id: tx/statewide/legislature/892/bills/hb-4#L-01
+  headline: Signed by the Governor (August 29, 2025)
+  statement: The bill history records "Signed by the Governor" on August 29, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB4
+  source_title: 'Texas Legislature Online: HB 4, 89th Legislature, 2nd Called Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-08-29'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-08-20'
+  record: 30
+  tally:
+    yeas: 88
+    nays: 52
+    present_not_voting: 0
+  names:
+    yeas:
+    - Mr. Speaker(C)
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - Geren
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Phelan
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Allen
+    - Anchía
+    - Bernal
+    - Bowers
+    - Bryant
+    - Bucy
+    - Canales
+    - Cole
+    - Collier
+    - Cortez
+    - Davis, Y.
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, V.
+    - Lalani
+    - Longoria
+    - Lopez, R.
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - Meza
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Romero
+    - Rose
+    - Rosenthal
+    - Talarico
+    - Thompson
+    - Turner
+    - Walle
+    - Wu
+    - Zwiener
+    absent:
+    - Bhojani
+    - Campos
+    - Davis, A.
+    - Garcia, J.
+    - Jones, J.
+    - Morales, C.
+    - Rodríguez Ramos
+    - Simmons
+    - Vo
+    - Ward Johnson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/hb-4#V-01
+    headline: 'House: passed, 88-52 (August 20, 2025)'
+    statement: 'The House Journal records that "HB 4 was passed by (Record 30): 88 Yeas, 52 Nays, 0 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/892/pdf/89C2DAY05FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, 2nd Called Session, 5th Day (page 86)
+    source_kind: document
+    sha256: 394522d6511c2aa07037e216160b4fb2af5694a15254f577e4df42d6730a2e59
+    archive_url: null
+    event_date: '2025-08-20'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-08-23'
+  record: null
+  tally:
+    yeas: 18
+    nays: 11
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - J. Hinojosa
+    - Johnson
+    - Menéndez
+    - Miles
+    - West
+    - Zaffirini
+    absent_excused:
+    - Paxton
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/hb-4#V-02
+    headline: 'Senate: passed, 18-11 (August 23, 2025)'
+    statement: 'The Senate Journal records that "HB 4 was passed by the following vote: Yeas 18, Nays 11."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ08-22-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, August 22, 2025 (page 61)
+    source_kind: document
+    sha256: cdc25ad2db09d3238bf70108cc137a1c6d4e093be2a436be8ba4693cf9864bd5
+    archive_url: null
+    event_date: '2025-08-23'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

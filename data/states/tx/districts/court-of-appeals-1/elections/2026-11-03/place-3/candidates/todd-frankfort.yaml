@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Frankfort, Todd (Mr.), campaign finance report 101069775 (filed Oct 5, 2026)'
   source_kind: document
   sha256: bf4d256e864049502bc20620ec930bbec3fe59386f0c8054207bf14959041b90
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261105234149/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069775.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Frankfort, Todd (Mr.), campaign finance report 101072996 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 59c8208d86b4042a8e6db6ab5cc1e55c7686aa97c8d5ceca8ecb52a13b04ec00
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261105234212/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072996.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

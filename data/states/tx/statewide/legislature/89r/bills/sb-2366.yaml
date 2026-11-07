@@ -1,0 +1,82 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2366
+caption: Relating to a grant program to fund certain short line railroad projects.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2366#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2366
+  source_title: 'Texas Legislature Online: SB 2366, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-30'
+  record: null
+  tally:
+    yeas: 25
+    nays: 6
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Hughes
+    - Johnson
+    - King
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Creighton
+    - Hagenbuch
+    - Hall
+    - Huffman
+    - Kolkhorst
+    - Middleton
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2366#V-01
+    headline: 'Senate: passed, 25-6 (April 30, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 25, Nays 6. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-30-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 30, 2025 (page 1672)
+    source_kind: document
+    sha256: 4bec166e13e796985abe431c77b031d5fd53ff63f0495798443483eda25baaf3
+    archive_url: null
+    event_date: '2025-04-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -16,7 +16,7 @@ records:
   source_title: 'Texas State Board of Education: Minutes, January 30, 2026 (page 13)'
   source_kind: document
   sha256: 02fbe42b90520acaa124441faa86a5ab2ab2d6deeb2035c3869008145edffc7e
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106011932/https://sboe.texas.gov/state-board-of-education/sboe-meetings/january2026-sboe-minutes.pdf
   event_date: '2026-01-30'
   retrieved: '2026-10-04'
   verification: unverified
@@ -35,7 +35,7 @@ records:
   source_title: 'Texas State Board of Education: Minutes, April 2026 (page 14)'
   source_kind: document
   sha256: 4083d7387da7af1681298a2bdef5d36fa6ab759ef7d66bae40c35dc5df435816
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106012000/https://sboe.texas.gov/state-board-of-education/sboe-meetings/april-2026-sboe-minutes.pdf
   event_date: '2026-04-10'
   retrieved: '2026-10-04'
   verification: unverified
@@ -127,7 +127,7 @@ funding:
   source_title: 'Texas Ethics Commission: Pickren, Julie M. (The Honorable), campaign finance report 101069982 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 8cfa78f0daea2725f62d7aa6f9961c7758787405e7e897bfb02ede463f237afa
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106013151/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069982.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -144,7 +144,7 @@ funding:
   source_title: 'Texas Ethics Commission: Pickren, Julie M. (The Honorable), campaign finance report 101073005 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 05541660280af229859832ed652b6c5798a058256f5adc8fa43af84ddcb676f6
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106013215/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101073005.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

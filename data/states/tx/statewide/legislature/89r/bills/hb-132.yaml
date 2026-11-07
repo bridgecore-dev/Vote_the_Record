@@ -1,0 +1,234 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 132
+caption: Relating to the confidentiality of information used to prevent, detect, respond to, or investigate a hostile act of a foreign adversary of the United States.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-132#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB132
+  source_title: 'Texas Legislature Online: HB 132, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-04-30'
+  record: 968
+  tally:
+    yeas: 140
+    nays: 1
+    present_not_voting: 3
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Jones, J.
+    present_not_voting:
+    - Mr. Speaker
+    - Flores
+    - Harris(C)
+    absent_excused:
+    - Bernal
+    - Hinojosa
+    - Schoolcraft
+    - Vo
+    absent_excused_committee:
+    - Walle
+    absent:
+    - Meza
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-132#V-01
+    headline: 'House: passed, 140-1 (April 30, 2025)'
+    statement: 'The House Journal records that "HB 132 was passed by (Record 968): 140 Yeas, 1 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY53FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 53rd Day (page 2437)
+    source_kind: document
+    sha256: 6cc699339e48eb95298c3ab0a9bc20893359dfbe347f83c84236aaead0c87430
+    archive_url: null
+    event_date: '2025-04-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-20'
+  record: null
+  tally:
+    yeas: 30
+    nays: 1
+  names:
+    nays:
+    - Cook
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-132#V-02
+    headline: 'Senate: passed, 30-1 (May 20, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 30, Nays 1. (Same as previous roll call)" With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-20-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 20, 2025 (page 2274)
+    source_kind: document
+    sha256: 403bc49434ff4f38c936e19d99ec6a4f6c65391865ba965f41098b9b982bb6b2
+    archive_url: null
+    event_date: '2025-05-20'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -1,0 +1,264 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 1620
+caption: Relating to the establishment of the Texas forensic analyst apprenticeship pilot program.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-1620#L-01
+  headline: Signed by the Governor (May 30, 2025)
+  statement: The bill history records "Signed by the Governor" on May 30, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1620
+  source_title: 'Texas Legislature Online: SB 1620, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-30'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-22'
+  record: null
+  tally:
+    yeas: 29
+    nays: 2
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - West
+    - Zaffirini
+    nays:
+    - Hughes
+    - Sparks
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1620#V-01
+    headline: 'Senate: passed, 29-2 (April 22, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 29, Nays 2. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-22-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 22, 2025 (page 1379)
+    source_kind: document
+    sha256: 8ee05d0e2a9b4d5696dee6009135b2351edb56c3412ddcd5f4fcaee8844b0a5d
+    archive_url: null
+    event_date: '2025-04-22'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-20'
+  record: 3011
+  tally:
+    yeas: 107
+    nays: 39
+    present_not_voting: 2
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Howard
+    - Hull
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Shaheen
+    - Simmons
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Bumgarner
+    - Cain
+    - Canales
+    - Cook
+    - DeAyala
+    - Frank
+    - Gates
+    - Harris Davila
+    - Harrison
+    - Holt
+    - Hopper
+    - Isaac
+    - Kerwin
+    - LaHood
+    - Leo Wilson
+    - Louderback
+    - Lowe
+    - Lozano
+    - Luther
+    - Money
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shofner
+    - Slawson
+    - Smithee
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    absent_excused:
+    - Jones, V.
+    absent:
+    - Dean
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1620#V-02
+    headline: 'House: passed, 107-39 (May 20, 2025)'
+    statement: 'The House Journal records that "SB 1620 was passed by (Record 3011): 107 Yeas, 39 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY68FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 68th Day (page 5304)
+    source_kind: document
+    sha256: 4b31f86822420b237e0745e3a48f9e8868acebee86c28f1f691fb3b2624935ad
+    archive_url: null
+    event_date: '2025-05-20'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

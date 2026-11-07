@@ -1,0 +1,205 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2790
+caption: Relating to the designation of a portion of U.S. Highway 67 in Dallas and Ellis Counties as the Eddie Bernice Johnson Memorial Highway.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2790#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2790
+  source_title: 'Texas Legislature Online: SB 2790, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-28'
+  record: 3832
+  tally:
+    yeas: 124
+    nays: 17
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hernandez
+    - Holt
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Little
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Meyer
+    - Meza
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Moody(C)
+    absent_excused:
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Talarico
+    absent:
+    - Cunningham
+    - Longoria
+    nays:
+    - Gerdes
+    - Hefner
+    - Hickland
+    - Hopper
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Lowe
+    - Luther
+    - Metcalf
+    - Money
+    - Morgan
+    - Olcott
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Toth
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2790#V-01
+    headline: 'House: passed, 124-17 (May 28, 2025)'
+    statement: 'The House Journal records a calendar of bills passed by one record vote, "(Record 3832): 141 Yeas, 0 Nays, 2 Present, not voting.", and lists this bill with the members whose votes differ from it and its own tally: "SB 2790 (Gerdes, Hefner, Hickland, Hopper, Landgraf, Leach, Leo Wilson, Lowe, Luther, Metcalf, Money, Morgan, Olcott, Pierson, Richardson, Schatzline, and Toth — no) (124 - 17 - 2)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 6672)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

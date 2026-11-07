@@ -20,7 +20,7 @@ sources:
   source_title: 'Texas Secretary of State: Election Night Returns, 2026 November General Election (Unofficial; last updated Nov 4, 2026 4:28 AM CST, 253 of 254 counties reporting)'
   source_kind: page
   sha256: null
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261105234450/https://goelect.txelections.civixapps.com/ivis-enr-ui/races
   event_date: '2026-11-03'
   retrieved: '2026-11-04'
   verification: unverified

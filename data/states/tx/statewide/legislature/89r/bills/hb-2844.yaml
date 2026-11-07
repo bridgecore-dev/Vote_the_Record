@@ -1,0 +1,447 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 2844
+caption: Relating to the regulation of food service establishments, including retail food stores and mobile food vendors; requiring an occupational license; imposing fees; authorizing an administrative penalty.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-2844#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB2844
+  source_title: 'Texas Legislature Online: HB 2844, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-16'
+  record: 2860
+  tally:
+    yeas: 86
+    nays: 31
+    present_not_voting: 4
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bryant
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Cole
+    - Cook
+    - Cortez
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Garcia, J.
+    - Garcia, L.
+    - Gates
+    - Gerdes
+    - Goodwin
+    - Guerra
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Leach
+    - Lopez, J.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - McLaughlin
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Schatzline
+    - Shofner
+    - Simmons
+    - Slawson
+    - Spiller
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Villalobos
+    - Walle
+    - Wharton
+    - Wilson
+    nays:
+    - Bowers
+    - Bucy
+    - Campos
+    - Canales
+    - Collier
+    - Craddick
+    - Cunningham
+    - Curry
+    - Davis, A.
+    - Davis, Y.
+    - Flores
+    - Garcia Hernandez
+    - González, J.
+    - González, M.
+    - Hinojosa
+    - Hopper
+    - Howard
+    - Jones, V.
+    - Lopez, R.
+    - Lowe
+    - Martinez Fischer
+    - Morales Shaw
+    - Pierson
+    - Reynolds
+    - Rose
+    - Rosenthal
+    - Shaheen
+    - Thompson
+    - Vo
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Schoolcraft
+    - Vasut(C)
+    - Virdell
+    absent_excused:
+    - Anchía
+    - Capriglione
+    - Dean
+    - Dutton
+    - Gámez
+    - Gervin-Hawkins
+    - Kerwin
+    - Lalani
+    - Landgraf
+    - Longoria
+    - Plesa
+    - Schofield
+    - Swanson
+    - Talarico
+    absent_excused_committee:
+    - Darby
+    - Geren
+    - Guillen
+    - Hernandez
+    - Hull
+    - King
+    - McQueeney
+    - Metcalf
+    - Phelan
+    - Smithee
+    - Turner
+    absent:
+    - Bonnen
+    - Leo Wilson
+    - Little
+    - Ward Johnson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2844#V-01
+    headline: 'House: passed, 86-31 (May 16, 2025)'
+    statement: 'The House Journal records that "HB 2844 was passed by (Record 2860): 86 Yeas, 31 Nays, 4 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY66FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 66th Day (page 5087)
+    source_kind: document
+    sha256: a9f4f4e3589754b532e5f6bd4ca3c6fbea604b9cc17ba3ed9d0848e215cafa6c
+    archive_url: null
+    event_date: '2025-05-16'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-26'
+  record: null
+  tally:
+    yeas: 29
+    nays: 2
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Eckhardt
+    - Miles
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2844#V-02
+    headline: 'Senate: passed, 29-2 (May 26, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 29, Nays 2. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-26-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 26, 2025 (page 2793)
+    source_kind: document
+    sha256: cc2c380225c07bc1bf00b1f24c66e45e5c10fba3d5c3194040850783b1b4f74b
+    archive_url: null
+    event_date: '2025-05-26'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-29'
+  record: 4056
+  tally:
+    yeas: 102
+    nays: 36
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Cain
+    - Campos
+    - Canales
+    - Capriglione
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gámez
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - González, J.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hunter
+    - Isaac
+    - Johnson
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez
+    - Martinez Fischer
+    - Metcalf
+    - Meyer
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Walle
+    - WardJohnson
+    - Wilson
+    - Zwiener
+    nays:
+    - Anchía
+    - Bernal
+    - Bumgarner
+    - Cole
+    - Collier
+    - Flores
+    - Gervin-Hawkins
+    - González, M.
+    - Harrison
+    - Hernandez
+    - Hinojosa
+    - Hopper
+    - Howard
+    - Hull
+    - Jones, J.
+    - Leo Wilson
+    - Longoria
+    - McLaughlin
+    - McQueeney
+    - Money
+    - Morgan
+    - Olcott
+    - Pierson
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Simmons
+    - Slawson
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Turner
+    - Vo
+    - Wharton
+    - Wu
+    present_not_voting:
+    - Mr.Speaker(C)
+    absent_excused:
+    - Allen
+    - Dutton
+    - Harris
+    - Kerwin
+    - Meza
+    - Virdell
+    absent:
+    - Bonnen
+    - Garcia,J
+    - Garcia,L
+    - Jones,V
+    - Manuel
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2844#V-03
+    headline: 'House: concurred in the Senate''s amendments, 102-36 (May 29, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 2844 prevailed by (Record 4056): 102 Yeas, 36 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY77FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 77th Day (page 7370)
+    source_kind: document
+    sha256: dd7d75cbc783539a6b794ec34d85f5c47a8b6db83821cbe16210db2a3072b783
+    archive_url: null
+    event_date: '2025-05-29'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -1,0 +1,413 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 4749
+caption: Relating to reconstitution of the petit jury wheel and grand juror and petit juror qualifications and juror summoning in certain counties.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-4749#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB4749
+  source_title: 'Texas Legislature Online: HB 4749, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-02'
+  record: 1290
+  tally:
+    yeas: 135
+    nays: 0
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Capriglione
+    - Cole
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Luther
+    - Manuel
+    - Martinez
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Noble
+    - Olcott
+    - Ordaz
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Campos
+    - Canales
+    - Collier
+    - Holt
+    - LaHood
+    - Martinez Fischer
+    - McLaughlin
+    - Morales, C.
+    - Muñoz
+    - Schatzline
+    absent_excused_committee:
+    - Orr
+    absent:
+    - Lopez, R.
+    - Lujan
+    - Oliverson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-4749#V-01
+    headline: 'House: passed, 135-0 (May 2, 2025)'
+    statement: 'The House Journal records that "HB 4749 was passed by (Record 1290): 135 Yeas, 0 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY55FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 55th Day (page 2881)
+    source_kind: document
+    sha256: 2c5fc76e27aa2e976ce463d1d4af4d12e1c8bdcb2704df1da4e68a32d08950c1
+    archive_url: null
+    event_date: '2025-05-02'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-26'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-4749#V-02
+    headline: 'Senate: passed, 31-0 (May 26, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-26-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 26, 2025 (page 2799)
+    source_kind: document
+    sha256: cc2c380225c07bc1bf00b1f24c66e45e5c10fba3d5c3194040850783b1b4f74b
+    archive_url: null
+    event_date: '2025-05-26'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-29'
+  record: 4055
+  tally:
+    yeas: 120
+    nays: 18
+    present_not_voting: 1
+  names:
+    yeas:
+    - Anchía
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schoolcraft
+    - Simmons
+    - Smithee
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    nays:
+    - Ashby
+    - Bumgarner
+    - Cain
+    - Hull
+    - Isaac
+    - Leo Wilson
+    - Lowe
+    - Morgan
+    - Olcott
+    - Patterson
+    - Schofield
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Swanson
+    - Vasut
+    - Wharton
+    - Wilson
+    present_not_voting:
+    - Mr.Speaker(C)
+    absent_excused:
+    - Allen
+    - Dutton
+    - Harris
+    - Kerwin
+    - Meza
+    - Virdell
+    absent:
+    - Alders
+    - Bonnen
+    - Jones,V
+    - Manuel
+    - Pierson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-4749#V-03
+    headline: 'House: concurred in the Senate''s amendments, 120-18 (May 29, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 4749 prevailed by (Record 4055): 120 Yeas, 18 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY77FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 77th Day (page 7369)
+    source_kind: document
+    sha256: dd7d75cbc783539a6b794ec34d85f5c47a8b6db83821cbe16210db2a3072b783
+    archive_url: null
+    event_date: '2025-05-29'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Zimmerer, Gerald L. (Mr.), campaign finance report 101069319 (filed Oct 5, 2026)'
   source_kind: document
   sha256: e09b159e913896985b89d3a02fa2ad011aa5f62893f729d5d4371101f01c819c
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009122701/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069319.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Zimmerer, Gerald L. (Mr.), campaign finance report 101072554 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 789142a2678524d306fb31905e7bc196dd438950ff55561d0f52fbb5641b9f2c
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106001424/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072554.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

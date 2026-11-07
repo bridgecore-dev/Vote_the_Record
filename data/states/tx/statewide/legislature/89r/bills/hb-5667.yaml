@@ -1,0 +1,229 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 5667
+caption: Relating to the chairman of the juvenile board of Parker County.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-5667#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB5667
+  source_title: 'Texas Legislature Online: HB 5667, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-07'
+  record: 1573
+  tally:
+    yeas: 137
+    nays: 11
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Canales
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Moody(C)
+    nays:
+    - Bonnen
+    - Buckley
+    - Capriglione
+    - Cunningham
+    - Curry
+    - Fairly
+    - Harris
+    - Hefner
+    - Oliverson
+    - Patterson
+    - Slawson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-5667#V-01
+    headline: 'House: passed, 137-11 (May 7, 2025)'
+    statement: 'The House Journal records a calendar of bills passed by one record vote, "(Record 1573): 148 Yeas, 0 Nays, 2 Present, not voting.", and lists this bill with the members whose votes differ from it and its own tally: "HB 5667 (Bonnen, Buckley, Capriglione, Cunningham, Curry, Fairly, Harris, Hefner, Oliverson, Patterson, and Slawson — no) (137 - 11 - 2)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY58FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 58th Day (page 3313)
+    source_kind: document
+    sha256: a6537898d7f1aba022d6dda160ad595f688eabb7264b297e0387598b39f5e2af
+    archive_url: null
+    event_date: '2025-05-07'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-25'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-5667#V-02
+    headline: 'Senate: passed, 31-0 (May 25, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (vivavocevote)(31-0)(31-0)" With 31 seats in the Senate, every senator not listed as voting no voted yes.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-25-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 25, 2025 (page 2517)
+    source_kind: document
+    sha256: bf282f0af10d9ba2bac0a660fae41d182df666f306f7ab97ad96043fae850dff
+    archive_url: null
+    event_date: '2025-05-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

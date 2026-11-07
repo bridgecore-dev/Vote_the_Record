@@ -1,0 +1,264 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 3031
+caption: Relating to the punishment for the offense of aggravated assault.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-3031#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB3031
+  source_title: 'Texas Legislature Online: SB 3031, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-28'
+  record: null
+  tally:
+    yeas: 26
+    nays: 5
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - Johnson
+    - King
+    - Kolkhorst
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    nays:
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - Menéndez
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-3031#V-01
+    headline: 'Senate: passed, 26-5 (April 28, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 26, Nays 5. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-28-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 28, 2025 (page 1523)
+    source_kind: document
+    sha256: 8af731077898c8ffde365fc9845bef2af2f9d1f6f638feaccf848adee6137ccd
+    archive_url: null
+    event_date: '2025-04-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-22'
+  record: 3208
+  tally:
+    yeas: 104
+    nays: 39
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bumgarner
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - Dutton
+    - Dyson
+    - Fairly
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gerdes
+    - Geren
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Hayes
+    - Hernandez
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McQueeney
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    - Zwiener
+    nays:
+    - Ashby
+    - Bonnen
+    - Cain
+    - Collier
+    - Cook
+    - Dorazio
+    - Flores
+    - Frank
+    - Gates
+    - Harris Davila
+    - Harrison
+    - Hefner
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Kerwin
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Luther
+    - Metcalf
+    - Money
+    - Olcott
+    - Patterson
+    - Paul
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Virdell
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Gervin-Hawkins
+    - LaHood
+    absent:
+    - Bucy
+    - DeAyala
+    - McLaughlin
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-3031#V-02
+    headline: 'House: passed, 104-39 (May 22, 2025)'
+    statement: 'The House Journal records that "SB 3031 was passed by (Record 3208): 104 Yeas, 39 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY70FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 70th Day (page 5598)
+    source_kind: document
+    sha256: 9655f90dce7fa9b638ee449e5ac833bdc92ef52f7f38e8cfd3db1a72d2f361e2
+    archive_url: null
+    event_date: '2025-05-22'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -1,0 +1,294 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2312
+caption: Relating to the establishment and powers and duties of the Texas Advisory Committee on Geopolitical Conflict.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2312#L-01
+  headline: Signed by the Governor (May 20, 2025)
+  statement: The bill history records "Signed by the Governor" on May 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2312
+  source_title: 'Texas Legislature Online: SB 2312, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-10'
+  record: null
+  tally:
+    yeas: 28
+    nays: 2
+  names:
+    nays:
+    - Cook
+    - Eckhardt
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2312#V-01
+    headline: 'Senate: passed, 28-2 (April 10, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (vivavocevote)(28-2)"Nays"Cook,Eckhardt(28-2)"Nays"Cook,Eckhardt"
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-10-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 10, 2025 (page 1092)
+    source_kind: document
+    sha256: eed93f4e5c720fcb8649b9bd2adac574b714d60ce51cfdadcdb3928cd9d95630
+    archive_url: null
+    event_date: '2025-04-10'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-01'
+  record: 1114
+  tally:
+    yeas: 127
+    nays: 13
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Bowers
+    - Bryant
+    - Goodwin
+    - Harrison
+    - Hinojosa
+    - Little
+    - Lowe
+    - Luther
+    - Meza
+    - Morales, C.
+    - Rodríguez Ramos
+    - Schoolcraft
+    - Simmons
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Holt
+    absent_excused_committee:
+    - King
+    absent:
+    - Bell, C.
+    - Bernal
+    - Leo Wilson
+    - Morgan
+    - Tinderholt
+    - Toth
+    - Vo
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2312#V-02
+    headline: 'House: passed, 127-13 (May 1, 2025)'
+    statement: 'The House Journal records that "SB 2312 was passed by (Record 1114): 127 Yeas, 13 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY54FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 54th Day (page 2652)
+    source_kind: document
+    sha256: 64cb971455e03a66e77073d751f29b07b3113b36a032cd933d051c7c2ca7bc3b
+    archive_url: null
+    event_date: '2025-05-01'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-07'
+  record: null
+  tally:
+    yeas: 29
+    nays: 2
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Cook
+    - Eckhardt
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2312#V-03
+    headline: 'Senate: concurred in the House''s amendments, 29-2 (May 7, 2025)'
+    statement: 'The Senate Journal records that "The motionprevailed by the following vote: Yeas 29, Nays 2."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-07-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 7, 2025 (page 1858)
+    source_kind: document
+    sha256: f424fc773e1b6cc025031d333ea9b701c66796ddc6f21239bf545a9d27b9ccd8
+    archive_url: null
+    event_date: '2025-05-07'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -1,0 +1,264 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 75
+caption: Relating to the duty of a magistrate to make written findings in certain criminal proceedings.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-75#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB75
+  source_title: 'Texas Legislature Online: HB 75, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-16'
+  record: 2819
+  tally:
+    yeas: 94
+    nays: 38
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Bryant
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Garcia, J.
+    - Garcia, L.
+    - Gates
+    - Gerdes
+    - Geren
+    - González, M.
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Jones, V.
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Moody
+    - Morales, C.
+    - Morgan
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Raymond
+    - Richardson
+    - Schatzline
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wilson
+    nays:
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bucy
+    - Canales
+    - Collier
+    - Cortez
+    - Davis, A.
+    - Davis, Y.
+    - Flores
+    - Garcia Hernandez
+    - González, J.
+    - Goodwin
+    - Guerra
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, J.
+    - Manuel
+    - Meza
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Ordaz
+    - Pierson
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schoolcraft
+    - Thompson
+    - Turner
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Anchía
+    - Dean
+    - Dutton
+    - Gámez
+    - Gervin-Hawkins
+    - Kerwin
+    - Lalani
+    - Landgraf
+    - Longoria
+    - Plesa
+    - Schofield
+    - Swanson
+    - Talarico
+    absent:
+    - Cole
+    - Hernandez
+    - Simmons
+    - Wharton
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-75#V-01
+    headline: 'House: passed, 94-38 (May 16, 2025)'
+    statement: 'The House Journal records that "HB 75 was passed by (Record 2819): 94 Yeas, 38 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY66FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 66th Day (page 5041)
+    source_kind: document
+    sha256: a9f4f4e3589754b532e5f6bd4ca3c6fbea604b9cc17ba3ed9d0848e215cafa6c
+    archive_url: null
+    event_date: '2025-05-16'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-25'
+  record: null
+  tally:
+    yeas: 27
+    nays: 4
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - Johnson
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Cook
+    - Gutierrez
+    - Menéndez
+    - Miles
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-75#V-02
+    headline: 'Senate: passed, 27-4 (May 25, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 27, Nays 4. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-25-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 25, 2025 (page 2548)
+    source_kind: document
+    sha256: 016a5dfac73523efbbe233609b768fd35011b1f6644a1cbab90af1f31ebf41fa
+    archive_url: null
+    event_date: '2025-05-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

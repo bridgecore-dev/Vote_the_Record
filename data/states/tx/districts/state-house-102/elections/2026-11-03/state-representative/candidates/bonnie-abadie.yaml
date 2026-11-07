@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Abadie, Bonnie, campaign finance report 101071642 (filed Oct 25, 2026)'
   source_kind: document
   sha256: 500fcf15883214360c0a694c3151902d7945f1f99408a5ad85c580376aa6a279
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106014319/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071642.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

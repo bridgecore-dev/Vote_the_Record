@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Wise, Kenneth P. (The Honorable), campaign finance report 101069815 (filed Oct 5, 2026)'
   source_kind: document
   sha256: ec322474e703f449c3b2c2153e4c5f190b1b3fc5d75c3ee4cfed9cb08cc43398
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106001053/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069815.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Wise, Kenneth P. (The Honorable), campaign finance report 101072686 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 4af7b03d5132e089693aec49dc691a4182f783e7473ea47eba94786eb346834a
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106001117/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072686.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

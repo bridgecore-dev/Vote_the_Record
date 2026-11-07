@@ -1,0 +1,258 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 985
+caption: Relating to the combination of certain election precincts.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-985#L-01
+  headline: Signed by the Governor (May 24, 2025)
+  statement: The bill history records "Signed by the Governor" on May 24, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB985
+  source_title: 'Texas Legislature Online: SB 985, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-24'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-02'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-985#V-01
+    headline: 'Senate: passed, 31-0 (April 2, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-02-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 2, 2025 (page 878)
+    source_kind: document
+    sha256: af229b9e96f7d9df0e2efb9ab14ecf01a324968ffe2c5bb11448ca0e40c887f3
+    archive_url: null
+    event_date: '2025-04-02'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-07'
+  record: 1579
+  tally:
+    yeas: 94
+    nays: 52
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Phelan
+    - Pierson
+    - Raymond
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Allen
+    - Anchía
+    - Bernal
+    - Bowers
+    - Bryant
+    - Bucy
+    - Campos
+    - Canales
+    - Cole
+    - Collier
+    - Cortez
+    - Davis, A.
+    - Davis, Y.
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Longoria
+    - Lopez, R.
+    - Manuel
+    - Martinez Fischer
+    - Meza
+    - Morales, C.
+    - Morales, E.
+    - Ordaz
+    - Perez, V.
+    - Plesa
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Talarico
+    - Thompson
+    - Turner
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Moody(C)
+    absent:
+    - Dean
+    - Schoolcraft
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-985#V-02
+    headline: 'House: passed, 94-52 (May 7, 2025)'
+    statement: 'The House Journal records that "SB 985 was passed by (Record 1579): 94 Yeas, 52 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY58FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 58th Day (page 3318)
+    source_kind: document
+    sha256: a6537898d7f1aba022d6dda160ad595f688eabb7264b297e0387598b39f5e2af
+    archive_url: null
+    event_date: '2025-05-07'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-12'
+  record: null
+  tally:
+    yeas: 30
+    nays: 0
+  names:
+    absent_excused:
+    - Gutierrez
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-985#V-03
+    headline: 'Senate: concurred in the House''s amendments, 30-0 (May 12, 2025)'
+    statement: 'The Senate Journal records that "The motionprevailed by the following vote: Yeas 30, Nays 0."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-12-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 12, 2025 (page 2008)
+    source_kind: document
+    sha256: 15e84917d7f87d30177c8754260618897916ce6dda780e7f58d56e32fc91312d
+    archive_url: null
+    event_date: '2025-05-12'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

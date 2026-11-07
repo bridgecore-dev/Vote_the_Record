@@ -1,0 +1,237 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: '892'
+bill: HB 23
+caption: Relating to the exemption from ad valorem taxation of property owned by certain nonprofit corporations, located in a populous county, and used to promote agriculture, support youth, and provide educational support in the community.
+became_law: signed
+law:
+  id: tx/statewide/legislature/892/bills/hb-23#L-01
+  headline: Signed by the Governor (September 17, 2025)
+  statement: The bill history records "Signed by the Governor" on September 17, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB23
+  source_title: 'Texas Legislature Online: HB 23, 89th Legislature, 2nd Called Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-09-17'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-08-25'
+  record: 66
+  tally:
+    yeas: 113
+    nays: 13
+    present_not_voting: 1
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dyson
+    - Fairly
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Gervin-Hawkins
+    - González,J
+    - González,M
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Landgraf
+    - Little
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Raymond
+    - Richardson
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - WardJohnson
+    - Wharton
+    - Wilson
+    - Zwiener
+    nays:
+    - Bumgarner
+    - Dorazio
+    - Harrison
+    - Leo Wilson
+    - Lowe
+    - Luther
+    - McLaughlin
+    - Olcott
+    - Patterson
+    - Pierson
+    - Slawson
+    - Vasut
+    - Virdell
+    present_not_voting:
+    - Mr.Speaker(C)
+    absent_excused:
+    - Canales
+    - Dutton
+    - Flores
+    - Geren
+    - Jones, V.
+    - Lambert
+    - Lozano
+    - MoralesShaw
+    - Phelan
+    - Reynolds
+    - Toth
+    - Wu
+    absent:
+    - Alders
+    - Bernal
+    - Cain
+    - Cook
+    - Garcia, J.
+    - Lalani
+    - Leach
+    - Longoria
+    - Morales,C
+    - Noble
+    - RodríguezRamos
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/hb-23#V-01
+    headline: 'House: passed, 113-13 (August 25, 2025)'
+    statement: 'The House Journal records that "HB 23waspassedby (Record 66): 113 Yeas, 13 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/892/pdf/89C2DAY07FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, 2nd Called Session, 7th Day (page 196)
+    source_kind: document
+    sha256: 1c1e839daa8421b709fa211ca9effc16a3729b8518eedff0baeaac08ec4bcbb9
+    archive_url: null
+    event_date: '2025-08-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-08-26'
+  record: null
+  tally:
+    yeas: 26
+    nays: 1
+  names:
+    nays:
+    - Schwertner
+    absent_excused:
+    - Eckhardt
+    - Miles
+    - West
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/hb-23#V-02
+    headline: 'Senate: passed, 26-1 (August 26, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 26, Nays 1. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ08-26-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, August 26, 2025 (page 89)
+    source_kind: document
+    sha256: b1a681e8c569efcc888c7dc954ef0fa03787fc9929a16b3cd54fe6ce5b4ea8e7
+    archive_url: null
+    event_date: '2025-08-26'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

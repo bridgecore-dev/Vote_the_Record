@@ -1,0 +1,323 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2477
+caption: Relating to certain municipal regulation of conversion of certain office buildings to mixed-use and multifamily residential occupancy.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2477#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2477
+  source_title: 'Texas Legislature Online: SB 2477, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-08'
+  record: null
+  tally:
+    yeas: 28
+    nays: 3
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Alvarado
+    - Cook
+    - Eckhardt
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2477#V-01
+    headline: 'Senate: passed, 28-3 (May 8, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 28, Nays 3. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-08-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 8, 2025 (page 1883)
+    source_kind: document
+    sha256: dee7028735ea2fd219c0ea038d493eba5f6ac0b2182b8cac165ce06d89d95273
+    archive_url: null
+    event_date: '2025-05-08'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-28'
+  record: 3848
+  tally:
+    yeas: 112
+    nays: 26
+    present_not_voting: 2
+  names:
+    yeas:
+    - Allen
+    - Ashby
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Moody
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Phelan
+    - Raymond
+    - Reynolds
+    - Romero
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Thompson
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Barry
+    - Bernal
+    - Bowers
+    - Cain
+    - Collier
+    - Dutton
+    - Garcia Hernandez
+    - González, J.
+    - Hernandez
+    - Holt
+    - Meza
+    - Morales, C.
+    - Morales Shaw
+    - Perez, V.
+    - Plesa
+    - Richardson
+    - Rodríguez Ramos
+    - Rose
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Tinderholt
+    - Walle
+    - Ward Johnson
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Longoria
+    - Talarico
+    absent:
+    - Garcia, J.
+    - Lopez, R.
+    - Pierson
+    - Virdell
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2477#V-02
+    headline: 'House: passed, 112-26 (May 28, 2025)'
+    statement: 'The House Journal records that "SB 2477 was passed by (Record 3848): 112 Yeas, 26 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 6697)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-30'
+  record: null
+  tally:
+    yeas: 28
+    nays: 3
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Alvarado
+    - Cook
+    - Eckhardt
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2477#V-03
+    headline: 'Senate: concurred in the House''s amendments, 28-3 (May 30, 2025)'
+    statement: 'The Senate Journal records that "The motion prevailed by the following vote: Yeas 28, Nays 3."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-30-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 30, 2025 (page 3390)
+    source_kind: document
+    sha256: becf8f244f927b86c6a8684b93cf97ce6294476c3847244d6caee73d67dff647
+    archive_url: null
+    event_date: '2025-05-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

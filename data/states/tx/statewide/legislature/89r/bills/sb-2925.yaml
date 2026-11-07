@@ -1,0 +1,265 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2925
+caption: Relating to the establishment of the Task Force on Modernizing Manufacturing.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2925#L-01
+  headline: Signed by the Governor (May 28, 2025)
+  statement: The bill history records "Signed by the Governor" on May 28, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2925
+  source_title: 'Texas Legislature Online: SB 2925, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-28'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-05'
+  record: null
+  tally:
+    yeas: 29
+    nays: 2
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - West
+    - Zaffirini
+    nays:
+    - Hughes
+    - Sparks
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2925#V-01
+    headline: 'Senate: passed, 29-2 (May 5, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 29, Nays 2. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-05-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 5, 2025 (page 1732)
+    source_kind: document
+    sha256: 882975731a43c7b76539a8eccbed5b1cc4e952b1d63784b5c9843d5c03d3f2cf
+    archive_url: null
+    event_date: '2025-05-05'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-15'
+  record: 2608
+  tally:
+    yeas: 92
+    nays: 46
+    present_not_voting: 3
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - Dyson
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, V.
+    - King
+    - Kitzman
+    - Lalani
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Longoria
+    - Lopez, R.
+    - Louderback
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Ordaz
+    - Patterson
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Smithee
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Bell, C.
+    - Bumgarner
+    - Cain
+    - Cook
+    - Cunningham
+    - DeAyala
+    - Dorazio
+    - Fairly
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Isaac
+    - Kerwin
+    - LaHood
+    - Little
+    - Lopez, J.
+    - Lowe
+    - Lozano
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Spiller
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Virdell
+    - Wharton
+    present_not_voting:
+    - Mr. Speaker
+    - Hunter
+    - Vasut(C)
+    absent_excused:
+    - Dutton
+    - Gervin-Hawkins
+    - Lambert
+    - Paul
+    absent_excused_committee:
+    - Bonnen
+    absent:
+    - Bowers
+    - Harris
+    - Jones, J.
+    - Pierson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2925#V-02
+    headline: 'House: passed, 92-46 (May 15, 2025)'
+    statement: 'The House Journal records that "SB 2925 was passed by (Record 2608): 92 Yeas, 46 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY65FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 65th Day (page 4767)
+    source_kind: document
+    sha256: a0fee098fc84b627fe8a7281ef6e571d72637bd979f5b742f5db5d04c251ca00
+    archive_url: null
+    event_date: '2025-05-15'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

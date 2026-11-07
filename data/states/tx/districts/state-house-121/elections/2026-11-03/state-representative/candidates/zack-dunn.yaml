@@ -16,7 +16,7 @@ funding:
   source_title: 'Texas Ethics Commission: Dunn, Zachary (Mr.), campaign finance report 101068691 (filed Oct 4, 2026)'
   source_kind: document
   sha256: 34f122e969d908d0be003fdc6896e6928f2d18198d386234915161e07f3c20e9
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106021631/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068691.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Dunn, Zachary (Mr.), campaign finance report 101072358 (filed Oct 26, 2026)'
   source_kind: document
   sha256: d6a65b4cf7082cfb606ba2b94053088265289e5c80a69d110a1ccba91139cfcd
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106021656/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072358.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

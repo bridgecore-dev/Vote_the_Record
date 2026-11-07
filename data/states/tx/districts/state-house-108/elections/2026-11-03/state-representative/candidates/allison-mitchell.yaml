@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Mitchell, Allison, campaign finance report 101072906 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 61d694c2330fbedadea3cf43ce923dcffb6eff4176bf4c329a6e4efd091d0b85
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106015312/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072906.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -1,0 +1,230 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2165
+caption: Relating to prohibiting the dismissal of certain suits affecting the parent-child relationship involving the Department of Family and Protective Services.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2165#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2165
+  source_title: 'Texas Legislature Online: SB 2165, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-09'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2165#V-01
+    headline: 'Senate: passed, 31-0 (May 9, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (viva voce vote) (31-0) (31-0)" With 31 seats in the Senate, every senator not listed as voting no voted yes.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-09-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 9, 2025 (page 1932)
+    source_kind: document
+    sha256: 61106655d5be6c8c2dcc573c19bc14144d10f406d9e34d2bd25257c0042f5e81
+    archive_url: null
+    event_date: '2025-05-09'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-23'
+  record: 3329
+  tally:
+    yeas: 134
+    nays: 0
+    present_not_voting: 3
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Canales
+    - Capriglione
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Longoria
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Jones, J.
+    - Patterson(C)
+    absent_excused:
+    - Bryant
+    - Campos
+    - Garcia, J.
+    - Harris
+    - Johnson
+    - Paul
+    - Smithee
+    absent:
+    - Cole
+    - Dutton
+    - Little
+    - Lopez, R.
+    - Martinez Fischer
+    - Vasut
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2165#V-02
+    headline: 'House: passed, 134-0 (May 23, 2025)'
+    statement: 'The House Journal records that "SB 2165 was passed by (Record 3329): 134 Yeas, 0 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY71FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 71st Day (page 5773)
+    source_kind: document
+    sha256: 41c65c87ba564c421c36154d6db85e50de3e15f2ca84d68e11200a8b17dcad9c
+    archive_url: null
+    event_date: '2025-05-23'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -1,0 +1,232 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 3114
+caption: Relating to the view of the State Capitol.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-3114#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB3114
+  source_title: 'Texas Legislature Online: HB 3114, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-04-23'
+  record: 381
+  tally:
+    yeas: 128
+    nays: 16
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    - Zwiener
+    nays:
+    - Cain
+    - Collier
+    - Hinojosa
+    - Isaac
+    - Leo Wilson
+    - Lozano
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Oliverson
+    - Schofield
+    - Slawson
+    - Toth
+    - Vasut
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    absent:
+    - Holt
+    - Plesa
+    - Richardson
+    - Schatzline
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3114#V-01
+    headline: 'House: passed, 128-16 (April 23, 2025)'
+    statement: 'The House Journal records that "HB 3114 was passed by (Record 381): 128 Yeas, 16 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY48FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 48th Day (page 1768)
+    source_kind: document
+    sha256: d980b88b902f018c60829a97341a445c06278608868ab6c675c1a011fadf6199
+    archive_url: null
+    event_date: '2025-04-23'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-25'
+  record: null
+  tally:
+    yeas: 30
+    nays: 1
+  names:
+    nays:
+    - Eckhardt
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3114#V-02
+    headline: 'Senate: passed, 30-1 (May 25, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (vivavocevote)(30-1)"Nay"Eckhardt(30-1)"Nay"Eckhardt" With 31 seats in the Senate, every senator not listed as voting no voted yes.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-25-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 25, 2025 (page 2515)
+    source_kind: document
+    sha256: bf282f0af10d9ba2bac0a660fae41d182df666f306f7ab97ad96043fae850dff
+    archive_url: null
+    event_date: '2025-05-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

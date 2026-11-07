@@ -1,0 +1,258 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2407
+caption: Relating to the Lower Neches Valley Authority, following recommendations of the Sunset Advisory Commission; specifying term length grounds for the removal of a member of the board of directors.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2407#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2407
+  source_title: 'Texas Legislature Online: SB 2407, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-09'
+  record: null
+  tally:
+    yeas: 30
+    nays: 0
+  names:
+    absent_excused:
+    - King
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2407#V-01
+    headline: 'Senate: passed, 30-0 (April 9, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 30, Nays 0. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-09-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 9, 2025 (page 1020)
+    source_kind: document
+    sha256: 759b6690750ff4c77cac23456b5874efe86a0f98a30f2a598f7e3d35c59f8040
+    archive_url: null
+    event_date: '2025-04-09'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-24'
+  record: 3444
+  tally:
+    yeas: 132
+    nays: 0
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Gerdes
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Jones, J.
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Moody
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Ordaz
+    - Orr
+    - Patterson
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Geren(C)
+    absent_excused:
+    - Johnson
+    - Jones, V.
+    - Kerwin
+    - Meza
+    - Morales, C.
+    - Paul
+    - Reynolds
+    - Vo
+    absent:
+    - Davis, Y.
+    - Garcia Hernandez
+    - Gates
+    - Hernandez
+    - Lopez, R.
+    - Morales Shaw
+    - Oliverson
+    - Simmons
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2407#V-02
+    headline: 'House: passed, 132-0 (May 24, 2025)'
+    statement: 'The House Journal records that "SB 2407 was passed by (Record 3444): 132 Yeas, 0 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY72FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 72nd Day (page 5983)
+    source_kind: document
+    sha256: 6d6b9ee2f20055e3317f682645aa72265abe8b33913fd879a524902fc4ff5282
+    archive_url: null
+    event_date: '2025-05-24'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-30'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2407#V-03
+    headline: 'Senate: concurred in the House''s amendments, 31-0 (May 30, 2025)'
+    statement: 'The Senate Journal records that "The motion prevailed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-30-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 30, 2025 (page 3366)
+    source_kind: document
+    sha256: becf8f244f927b86c6a8684b93cf97ce6294476c3847244d6caee73d67dff647
+    archive_url: null
+    event_date: '2025-05-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

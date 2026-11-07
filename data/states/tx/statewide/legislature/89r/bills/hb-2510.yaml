@@ -1,0 +1,229 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 2510
+caption: Relating to assisted living facility operations and provision of certain services to assisted living facility residents without a license; creating a criminal offense.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-2510#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB2510
+  source_title: 'Texas Legislature Online: HB 2510, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-06'
+  record: 1433
+  tally:
+    yeas: 129
+    nays: 20
+    present_not_voting: 1
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hefner
+    - Hernandez
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hull
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Cain
+    - Frank
+    - Harrison
+    - Hayes
+    - Hickland
+    - Hopper
+    - Isaac
+    - Kerwin
+    - Leo Wilson
+    - Lowe
+    - Luther
+    - Money
+    - Olcott
+    - Paul
+    - Swanson
+    - Toth
+    - Troxclair
+    - Vasut
+    - Virdell
+    present_not_voting:
+    - Mr. Speaker(C)
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2510#V-01
+    headline: 'House: passed, 129-20 (May 6, 2025)'
+    statement: 'The House Journal records that "HB 2510 was passed by (Record 1433): 129 Yeas, 20 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY57FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 57th Day (page 3136)
+    source_kind: document
+    sha256: 0485ba48dbb1a5c1ed85aed76f3921ae878734652059d96ee322da1aaa83e64f
+    archive_url: null
+    event_date: '2025-05-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-20'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2510#V-02
+    headline: 'Senate: passed, 31-0 (May 20, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-20-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 20, 2025 (page 2277)
+    source_kind: document
+    sha256: 403bc49434ff4f38c936e19d99ec6a4f6c65391865ba965f41098b9b982bb6b2
+    archive_url: null
+    event_date: '2025-05-20'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

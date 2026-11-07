@@ -127,7 +127,7 @@ funding:
   source_title: 'Texas Ethics Commission: Bryant, John W. (The Honorable), campaign finance report 101071800 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 551b24c244648fef1430710b11b8bb74b535eddca25aefb3b68e21a690e60758
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106015659/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071800.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

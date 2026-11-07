@@ -514,6 +514,87 @@
         "notes": { "type": "string" }
       }
     },
+    "legislature_bill": {
+      "description": "A bill that became law, and each chamber's final-passage votes (docs/METHODOLOGY.md, Votes in the Texas Legislature).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["session", "bill", "caption", "became_law", "law", "votes"],
+      "properties": {
+        "session": { "description": "Texas Legislature Online session code, e.g. 89R or 892.", "type": "string", "pattern": "^\\d{2}[R1-9]$" },
+        "bill": { "type": "string", "pattern": "^(HB|SB) \\d+$" },
+        "caption": { "description": "The enrolled caption, as Texas Legislature Online prints it.", "type": "string", "minLength": 1 },
+        "became_law": { "enum": ["signed", "filed_without_signature"] },
+        "law": { "description": "How it became law, from the bill history.", "$ref": "urn:vtr:schema:fact" },
+        "votes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["chamber", "action", "date", "record", "tally", "names", "every_member", "fact"],
+            "properties": {
+              "chamber": { "enum": ["house", "senate"] },
+              "action": { "enum": ["passed", "passed as amended", "concurred in the Senate's amendments",
+                                   "concurred in the House's amendments", "adopted the conference committee report"] },
+              "date": { "$ref": "urn:vtr:schema:fact#/$defs/date" },
+              "record": { "description": "House record vote number; null for the Senate or a non-record vote.", "anyOf": [{ "type": "integer" }, { "type": "null" }] },
+              "tally": {
+                "description": "As printed; null for a vote taken without a record.",
+                "anyOf": [{ "type": "null" }, { "type": "object", "additionalProperties": false, "required": ["yeas", "nays"],
+                  "properties": { "yeas": { "type": "integer" }, "nays": { "type": "integer" }, "present_not_voting": { "type": "integer" } } }]
+              },
+              "names": {
+                "description": "Members' names exactly as the journal prints them, by how they voted; null when the journal prints none.",
+                "anyOf": [{ "type": "null" }, { "type": "object", "additionalProperties": false,
+                  "properties": { "yeas": { "$ref": "#/$defs/name_list" }, "nays": { "$ref": "#/$defs/name_list" },
+                                  "present_not_voting": { "$ref": "#/$defs/name_list" }, "absent": { "$ref": "#/$defs/name_list" },
+                                  "absent_excused": { "$ref": "#/$defs/name_list" }, "absent_excused_committee": { "$ref": "#/$defs/name_list" } } }]
+              },
+              "every_member": { "description": "Senate: the tally accounts for all 31 seats and every nay is named, so every other senator voted yes.", "type": "boolean" },
+              "fact": { "$ref": "urn:vtr:schema:fact" }
+            }
+          }
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "name_list": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "legislature_members": {
+      "description": "Members of one session, linking the names the journals print to their districts and profiles.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["session", "members"],
+      "properties": {
+        "session": { "type": "string", "pattern": "^\\d{2}[R1-9]$" },
+        "members": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["chamber", "district", "name", "printed", "person", "fact"],
+            "properties": {
+              "chamber": { "enum": ["house", "senate"] },
+              "district": { "type": "integer", "minimum": 1 },
+              "name": { "description": "As the member's Texas Legislature Online page prints it.", "type": "string" },
+              "printed": { "description": "Every way the journals print this member's name in a roll call.", "$ref": "#/$defs/name_list" },
+              "person": { "description": "data/states/<st>/people/<slug>.yaml, or null when we have no profile.", "anyOf": [{ "$ref": "urn:vtr:schema:fact#/$defs/slug" }, { "type": "null" }] },
+              "fact": { "$ref": "urn:vtr:schema:fact" }
+            }
+          }
+        },
+        "senate_roll": {
+          "description": "The senators the session's Senate Journal roll calls list, as printed. A vote marked every_member counts these senators, less the nays, as voting yes. Null when the roll calls don't list all 31 seats.",
+          "anyOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["names", "fact"],
+              "properties": { "names": { "$ref": "#/$defs/name_list" }, "fact": { "$ref": "urn:vtr:schema:fact" } }
+            },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
     "locality": {
       "type": "object",
       "additionalProperties": false,

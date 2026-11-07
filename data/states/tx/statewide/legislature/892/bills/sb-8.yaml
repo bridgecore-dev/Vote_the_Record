@@ -1,0 +1,322 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: '892'
+bill: SB 8
+caption: Relating to the designation and use of certain spaces and facilities according to sex; authorizing a civil penalty and a private civil right of action.
+became_law: signed
+law:
+  id: tx/statewide/legislature/892/bills/sb-8#L-01
+  headline: Signed by the Governor (September 22, 2025)
+  statement: The bill history records "Signed by the Governor" on September 22, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB8
+  source_title: 'Texas Legislature Online: SB 8, 89th Legislature, 2nd Called Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-09-22'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-08-19'
+  record: null
+  tally:
+    yeas: 19
+    nays: 11
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - J. Hinojosa
+    - Johnson
+    - Menéndez
+    - Miles
+    - West
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-8#V-01
+    headline: 'Senate: passed, 19-11 (August 19, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 19, Nays 11."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ08-19-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, August 19, 2025 (page 33)
+    source_kind: document
+    sha256: dbab7b95aede78d1923aed47d2b801a01f4aa8b07ed86c580df2d0bd6709c30c
+    archive_url: null
+    event_date: '2025-08-19'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-08-28'
+  record: 134
+  tally:
+    yeas: 86
+    nays: 45
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morgan
+    - Muñoz
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Phelan
+    - Pierson
+    - Raymond
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Allen
+    - Anchía
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Campos
+    - Canales
+    - Cole
+    - Collier
+    - Cortez
+    - Davis, Y.
+    - Dutton
+    - Flores
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Hinojosa
+    - Howard
+    - Jones, J.
+    - Jones, V.
+    - Lalani
+    - Lopez, R.
+    - Manuel
+    - Martinez
+    - Moody
+    - Morales Shaw
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Talarico
+    - Thompson
+    - Turner
+    - Vo
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Davis, A.
+    - Gámez
+    - Geren
+    - Guerra
+    - Hernandez
+    - Johnson
+    - Longoria
+    - Martinez Fischer
+    - Meza
+    - Morales, E.
+    - Noble
+    - Ordaz
+    - Walle
+    absent:
+    - Garcia, J.
+    - Leo Wilson
+    - Morales, C.
+    - Reynolds
+    - Rodríguez Ramos
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-8#V-02
+    headline: 'House: passed, 86-45 (August 28, 2025)'
+    statement: 'The House Journal records that "SB8 was passed by (Record 134): 86 Yeas, 45 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/892/pdf/89C2DAY10FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, 2nd Called Session, 10th Day (page 338)
+    source_kind: document
+    sha256: f84d6910dabeb5dd24a4c22efed6bd9e3c81c16af985645dd66174748b5cc23b
+    archive_url: null
+    event_date: '2025-08-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-09-03'
+  record: null
+  tally:
+    yeas: 18
+    nays: 8
+  names:
+    yeas:
+    - Bettencourt
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - J. Hinojosa
+    - Johnson
+    - Menéndez
+    - Miles
+    - Zaffirini
+    absent_excused:
+    - Birdwell
+    - Eckhardt
+    - Gutierrez
+    - West
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-8#V-03
+    headline: 'Senate: concurred in the House''s amendments, 18-8 (September 3, 2025)'
+    statement: 'The Senate Journal records that "The motion prevailed by the following vote: Yeas 18, Nays 8."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ09-03-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, September 3, 2025 (page 132)
+    source_kind: document
+    sha256: 1eb64bff6c87e3924155d3a693278cea8d31b403b98cbdb265748407a0a02c26
+    archive_url: null
+    event_date: '2025-09-03'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

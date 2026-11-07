@@ -1,0 +1,232 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 1106
+caption: Relating to publication of public improvement district service plans and assessments on certain public Internet websites.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-1106#L-01
+  headline: Signed by the Governor (May 19, 2025)
+  statement: The bill history records "Signed by the Governor" on May 19, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1106
+  source_title: 'Texas Legislature Online: SB 1106, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-19'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-03-24'
+  record: null
+  tally:
+    yeas: 30
+    nays: 0
+  names:
+    absent_excused:
+    - Miles
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1106#V-01
+    headline: 'Senate: passed, 30-0 (March 24, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 30, Nays 0. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ03-24-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, March 24, 2025 (page 669)
+    source_kind: document
+    sha256: 55c4a24c04e3297034ac561bd04856ff88e7c05e0bb290581b669e94f05f7154
+    archive_url: null
+    event_date: '2025-03-24'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-05'
+  record: 1368
+  tally:
+    yeas: 136
+    nays: 0
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - McLaughlin
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, C.
+    - Morales,E
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Vo
+    - Walle
+    - WardJohnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr.Speaker
+    - Harris(C)
+    absent_excused:
+    - Bell,K
+    - Bernal
+    - Virdell
+    absent:
+    - Davis, Y.
+    - González, J.
+    - Harless
+    - Hull
+    - Lopez, R.
+    - Lozano
+    - MartinezFischer
+    - McQueeney
+    - Schatzline
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1106#V-02
+    headline: 'House: passed, 136-0 (May 5, 2025)'
+    statement: 'The House Journal records that "SB 1106 was passed by (Record 1368): 136 Yeas, 0 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY56FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 56th Day (page 3002)
+    source_kind: document
+    sha256: 0ba6f41a9e6cb5d058940c6c6b0f6cf717849f160664a09206692280dec8db84
+    archive_url: null
+    event_date: '2025-05-05'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

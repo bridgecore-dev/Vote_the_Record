@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Van De Walker, Dana J. (Ms.), campaign finance report 101068087 (filed Oct 4, 2026)'
   source_kind: document
   sha256: a86ae440c5d4fe1758b6a8f018900c73858546337b5b9d0375ad238bcdd06e37
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009133408/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068087.PDF
   event_date: '2026-09-30'
   retrieved: '2026-10-07'
   verification: unverified
@@ -50,7 +50,7 @@ funding:
   source_title: 'Texas Ethics Commission: Van De Walker, Dana J. (Ms.), campaign finance report 101072412 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 18ffecc1638ec518b0e45f961434e7d2f2bd982114b0137793f1b8cc55d9eba1
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106013415/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072412.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

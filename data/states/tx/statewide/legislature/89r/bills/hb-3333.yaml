@@ -1,0 +1,417 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 3333
+caption: Relating to a restriction on permits authorizing direct discharges of waste or pollutants into water in certain river segments and drainage areas.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/hb-3333#L-01
+  headline: Filed without the Governor's signature (June 20, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB3333
+  source_title: 'Texas Legislature Online: HB 3333, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-15'
+  record: 2688
+  tally:
+    yeas: 113
+    nays: 26
+    present_not_voting: 2
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Ordaz
+    - Orr
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Bumgarner
+    - Cain
+    - Cook
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Isaac
+    - Lowe
+    - Luther
+    - Money
+    - Noble
+    - Olcott
+    - Oliverson
+    - Patterson
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Swanson
+    - Tinderholt
+    - Toth
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Dutton
+    - Gervin-Hawkins
+    - Paul
+    - Schofield
+    absent_excused_committee:
+    - Harris
+    absent:
+    - Bell, K.
+    - Collier
+    - Harrison
+    - Smithee
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3333#V-01
+    headline: 'House: passed, 113-26 (May 15, 2025)'
+    statement: 'The House Journal records that "HB 3333 was passed by (Record 2688): 113 Yeas, 26 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY65FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 65th Day (page 4851)
+    source_kind: document
+    sha256: a0fee098fc84b627fe8a7281ef6e571d72637bd979f5b742f5db5d04c251ca00
+    archive_url: null
+    event_date: '2025-05-15'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-28'
+  record: null
+  tally:
+    yeas: 29
+    nays: 2
+  names:
+    nays:
+    - Hall
+    - Hughes
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3333#V-02
+    headline: 'Senate: passed, 29-2 (May 28, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (viva voce vote) (29-2) "Nays" Hall, Hughes (29-2) "Nays" Hall, Hughes" With 31 seats in the Senate, every senator not listed as voting no voted yes.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-28-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 28, 2025 (page 3156)
+    source_kind: document
+    sha256: 8b236c6d093f3f3e325e5c04732391cf5735314d035c8778791c078501cc6cf7
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-30'
+  record: 4084
+  tally:
+    yeas: 99
+    nays: 37
+    present_not_voting: 2
+  names:
+    yeas:
+    - Anchía
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hefner
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, J.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Landgraf
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Lozano
+    - Lujan
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Shaheen
+    - Simmons
+    - Smithee
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Barry
+    - Bumgarner
+    - Cain
+    - Cook
+    - Harrison
+    - Hayes
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - LaHood
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Luther
+    - McQueeney
+    - Metcalf
+    - Money
+    - Morgan
+    - Oliverson
+    - Pierson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shofner
+    - Slawson
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Villalobos
+    - Wharton
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Allen
+    - Garcia, J.
+    - Harris
+    - Jones, V.
+    - Lambert
+    - Phelan
+    absent:
+    - Campos
+    - Davis, Y.
+    - Louderback
+    - Manuel
+    - Olcott
+    - Reynolds
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3333#V-03
+    headline: 'House: concurred in the Senate''s amendments, 99-37 (May 30, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 3333 prevailed by (Record 4084): 99 Yeas, 37 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY78FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 78th Day (page 7563)
+    source_kind: document
+    sha256: f797cbdb3518523cfecbb02edd2dd1a0d59963ceec0ce949dc603db8a0a98807
+    archive_url: null
+    event_date: '2025-05-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

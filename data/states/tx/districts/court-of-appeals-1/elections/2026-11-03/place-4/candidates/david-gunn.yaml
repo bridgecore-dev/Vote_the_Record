@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Gunn, David M. (The Honorable), campaign finance report 101069231 (filed Oct 4, 2026)'
   source_kind: document
   sha256: 90235d4978fa8b870c973fc6dafb0cf8244f5101a319f2534fb4603f245fcc8c
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009115801/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069231.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Gunn, David M. (The Honorable), campaign finance report 101072013 (filed Oct 25, 2026)'
   source_kind: document
   sha256: b03f3017ee42b2557c514491b5d37d062ef7442cfa159fe903ac0656970ef37c
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261105234547/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072013.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

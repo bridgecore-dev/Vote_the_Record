@@ -1,0 +1,257 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 3039
+caption: Relating to the transfer of students in public higher education and to transparency regarding certificate or degree program requirements.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-3039#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB3039
+  source_title: 'Texas Legislature Online: SB 3039, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-06'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-3039#V-01
+    headline: 'Senate: passed, 31-0 (May 6, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-06-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 6, 2025 (page 1782)
+    source_kind: document
+    sha256: fba289bbabac13b646abc9e228418044b925b1373947164d1f8abc2593c69108
+    archive_url: null
+    event_date: '2025-05-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-28'
+  record: 3903
+  tally:
+    yeas: 77
+    nays: 60
+    present_not_voting: 4
+  names:
+    yeas:
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Button
+    - Campos
+    - Canales
+    - Cole
+    - Collier
+    - Cortez
+    - Davis, A.
+    - Davis, Y.
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Hernandez
+    - Howard
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kitzman
+    - Lalani
+    - Leach
+    - Lopez, J.
+    - Lopez, R.
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Spiller
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Barry
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Cain
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Fairly
+    - Gerdes
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - LaHood
+    - Lambert
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Oliverson
+    - Patterson
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Villalobos
+    - Wharton
+    present_not_voting:
+    - Mr. Speaker
+    - King
+    - Landgraf(C)
+    - Virdell
+    absent_excused:
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Kerwin
+    - Longoria
+    - Talarico
+    absent:
+    - Allen
+    - Louderback
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-3039#V-02
+    headline: 'House: passed, 77-60 (May 28, 2025)'
+    statement: 'The House Journal records that "SB 3039 was passed by (Record 3903): 77 Yeas, 60 Nays, 4 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 6754)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-30'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-3039#V-03
+    headline: 'Senate: concurred in the House''s amendments, 31-0 (May 30, 2025)'
+    statement: 'The Senate Journal records that "The motion prevailed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-30-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 30, 2025 (page 3467)
+    source_kind: document
+    sha256: becf8f244f927b86c6a8684b93cf97ce6294476c3847244d6caee73d67dff647
+    archive_url: null
+    event_date: '2025-05-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -1,0 +1,264 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 38
+caption: Relating to the eviction from real property of certain persons not entitled to enter, occupy, or remain in possession of the premises.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-38#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB38
+  source_title: 'Texas Legislature Online: SB 38, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-24'
+  record: 3464
+  tally:
+    yeas: 85
+    nays: 44
+    present_not_voting: 3
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Capriglione
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Lopez, J.
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Moody
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Orr
+    - Patterson
+    - Phelan
+    - Pierson
+    - Raymond
+    - Richardson
+    - Schatzline
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Allen
+    - Anchía
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Campos
+    - Canales
+    - Cole
+    - Collier
+    - Davis, A.
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Hinojosa
+    - Howard
+    - Jones, J.
+    - Lalani
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Talarico
+    - Thompson
+    - Turner
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Geren(C)
+    - Lopez, R.
+    absent_excused:
+    - Davis, Y.
+    - Johnson
+    - Jones, V.
+    - Kerwin
+    - Meza
+    - Morales, C.
+    - Paul
+    - Reynolds
+    - Vo
+    absent:
+    - Guerra
+    - Hernandez
+    - Little
+    - Longoria
+    - Louderback
+    - Morales Shaw
+    - Oliverson
+    - Schofield
+    - Simmons
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-38#V-01
+    headline: 'House: passed, 85-44 (May 24, 2025)'
+    statement: 'The House Journal records that "SB 38 was passed by (Record 3464): 85 Yeas, 44 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY72FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 72nd Day (page 6003)
+    source_kind: document
+    sha256: 6d6b9ee2f20055e3317f682645aa72265abe8b33913fd879a524902fc4ff5282
+    archive_url: null
+    event_date: '2025-05-24'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-28'
+  record: null
+  tally:
+    yeas: 23
+    nays: 8
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    nays:
+    - Alvarado
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - Johnson
+    - Menéndez
+    - Miles
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-38#V-02
+    headline: 'Senate: concurred in the House''s amendments, 23-8 (May 28, 2025)'
+    statement: 'The Senate Journal records that "The motion prevailed by the following vote: Yeas 23, Nays 8."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-28-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 28, 2025 (page 2920)
+    source_kind: document
+    sha256: 8b236c6d093f3f3e325e5c04732391cf5735314d035c8778791c078501cc6cf7
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

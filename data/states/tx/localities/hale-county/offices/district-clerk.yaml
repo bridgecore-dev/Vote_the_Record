@@ -1,0 +1,26 @@
+# Who holds this seat, from official rosters. Unverified.
+name: District Clerk
+office_type: district-clerk
+holders:
+- person: julie-kelly
+  start: null
+  end: null
+  basis: tx/localities/hale-county/offices/district-clerk#S-01
+sources:
+- id: tx/localities/hale-county/offices/district-clerk#S-01
+  headline: Who holds this office now
+  statement: 'The official list (Hale County, TX: District Clerk), checked on November 5, 2026, shows Julie Kelly as District
+    Clerk. It reads: "Julie Kelly Hale County District Clerk"'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.halecounty.org/district_offices/district_clerk.php
+  source_title: 'Hale County, TX: District Clerk'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-05'
+  retrieved: '2026-11-05'
+  verification: unverified
+  verified_on: null
+  reviewer: null

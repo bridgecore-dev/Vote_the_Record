@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Farris, April L. (The Honorable), campaign finance report 101067544 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 49fc41a9801a4a4615a2d436b8bf0f58c1575df0e79c6f005646b4ca07423685
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009115143/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101067544.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Farris, April L. (The Honorable), campaign finance report 101071645 (filed Oct 25, 2026)'
   source_kind: document
   sha256: 8dcabfdfb801fe7557908c205fdc9d8b6c25a99fe0ec9c68074d77b4a2b71c4f
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106001831/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071645.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

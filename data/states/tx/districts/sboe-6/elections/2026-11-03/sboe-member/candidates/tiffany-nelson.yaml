@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Nelson, Tiffany, campaign finance report 101068224 (filed Oct 5, 2026)'
   source_kind: document
   sha256: abcdcda7c08cb6ba617c3ec899b0d03798ceb050cee9b4c20d622514320827b4
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106013105/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068224.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-19'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Nelson, Tiffany, campaign finance report 101072033 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 64baa0b470fb86fce57185de9d409d37fc7fb8ec266a592115a23663f36363f0
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106013129/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072033.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

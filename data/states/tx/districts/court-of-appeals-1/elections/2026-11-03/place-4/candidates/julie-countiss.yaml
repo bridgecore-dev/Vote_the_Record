@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Countiss, Julie (The Honorable), campaign finance report 101068721 (filed Oct 1, 2026)'
   source_kind: document
   sha256: 2341be37309fe0ef5ca31177a4b39bbf4905b1b18b2325980a3f00206bdd9605
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261105234609/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068721.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Countiss, Julie (The Honorable), campaign finance report 101072895 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 5eaed79c7139a30f137c6a022ecf4e542353548465853ab811891ce2c4db74ae
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261105234632/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072895.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

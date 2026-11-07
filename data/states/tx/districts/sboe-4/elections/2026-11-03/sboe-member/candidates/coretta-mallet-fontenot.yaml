@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Mallet-Fontenot, Coretta L. (Mrs.), campaign finance report 101071976 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 0c47ff12bb157158efe7b782d1d43e07b9c416b3ba754ebb2796b4ea1d4b0a9f
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106012827/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071976.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

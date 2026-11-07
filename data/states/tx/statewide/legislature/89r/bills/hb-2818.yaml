@@ -1,0 +1,416 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 2818
+caption: Relating to the artificial intelligence division within the Department of Information Resources.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-2818#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB2818
+  source_title: 'Texas Legislature Online: HB 2818, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-04-25'
+  record: 578
+  tally:
+    yeas: 111
+    nays: 14
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Howard
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leo Wilson
+    - Longoria
+    - Lopez, R.
+    - Lujan
+    - Manuel
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Thompson
+    - Tinderholt
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Zwiener
+    nays:
+    - Bhojani
+    - Cain
+    - Harrison
+    - Hopper
+    - Little
+    - Lowe
+    - Lozano
+    - Luther
+    - Money
+    - Olcott
+    - Schatzline
+    - Toth
+    - Vasut
+    - Virdell
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Cortez
+    - Geren
+    - Jones, J.
+    - LaHood
+    - Martinez Fischer
+    - Morales, C.
+    - Oliverson
+    - Reynolds
+    - Wu
+    absent_excused_committee:
+    - Canales
+    - Gerdes
+    - Harris
+    - Hernandez
+    - Hunter
+    - Johnson
+    - Leach
+    - Lopez, J.
+    - Romero
+    - Rose
+    - Tepper
+    absent:
+    - Hull
+    - Jones, V.
+    - Louderback
+    - Slawson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2818#V-01
+    headline: 'House: passed, 111-14 (April 25, 2025)'
+    statement: 'The House Journal records that "HB 2818 was passed by (Record 578): 111 Yeas, 14 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY50FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 50th Day (page 1994)
+    source_kind: document
+    sha256: 61bad7809a56e9577332121c0b47028967c423ef12685c0e2795fd199d98f3de
+    archive_url: null
+    event_date: '2025-04-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-26'
+  record: null
+  tally:
+    yeas: 30
+    nays: 1
+  names:
+    nays:
+    - Middleton
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2818#V-02
+    headline: 'Senate: passed, 30-1 (May 26, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 30, Nays 1. (Same as previous roll call)" With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-26-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 26, 2025 (page 2792)
+    source_kind: document
+    sha256: cc2c380225c07bc1bf00b1f24c66e45e5c10fba3d5c3194040850783b1b4f74b
+    archive_url: null
+    event_date: '2025-05-26'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-28'
+  record: 3989
+  tally:
+    yeas: 105
+    nays: 32
+    present_not_voting: 2
+  names:
+    yeas:
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hernandez
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, V.
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Simmons
+    - Smithee
+    - Spiller
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Cain
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Isaac
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Luther
+    - Metcalf
+    - Morgan
+    - Olcott
+    - Orr
+    - Patterson
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker(C)
+    - Virdell
+    absent_excused:
+    - Allen
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Jones, J.
+    - Kerwin
+    - Longoria
+    - Money
+    - Talarico
+    absent:
+    - Canales
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2818#V-03
+    headline: 'House: concurred in the Senate''s amendments, 105-32 (May 28, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 2818 prevailed by (Record 3989): 105 Yeas, 32 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 6955)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

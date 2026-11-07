@@ -1,0 +1,415 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 4623
+caption: Relating to liability of public schools and professional school employees for sexual misconduct involving students.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-4623#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB4623
+  source_title: 'Texas Legislature Online: HB 4623, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-14'
+  record: 2487
+  tally:
+    yeas: 109
+    nays: 19
+    present_not_voting: 6
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Canales
+    - Capriglione
+    - Cole
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Frank
+    - Gámez
+    - Gerdes
+    - Geren
+    - González, M.
+    - Guerra
+    - Guillen
+    - Harris Davila
+    - Harrison
+    - Hefner
+    - Hernandez
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Darby
+    - Davis, Y.
+    - Flores
+    - Gates
+    - González, J.
+    - Goodwin
+    - Hayes
+    - Howard
+    - Jones, V.
+    - Manuel
+    - Morales, C.
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Schofield
+    - Simmons
+    - Smithee
+    - Thompson
+    - Vo
+    present_not_voting:
+    - Mr. Speaker
+    - Anchía
+    - Bryant
+    - Collier
+    - Harris(C)
+    - Hinojosa
+    absent_excused:
+    - Buckley
+    - Holt
+    - Olcott
+    absent:
+    - Bernal
+    - Campos
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - Harless
+    - Hickland
+    - Lopez, R.
+    - Martinez Fischer
+    - Morales Shaw
+    - Noble
+    - Tepper
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-4623#V-01
+    headline: 'House: passed, 109-19 (May 14, 2025)'
+    statement: 'The House Journal records that "HB 4623 was passed by (Record 2487): 109 Yeas, 19 Nays, 6 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY64FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 64th Day (page 4592)
+    source_kind: document
+    sha256: e13efebc557ba81242bab8b5b6d1c5c1faea43cc9379cedc4e0954678ceee919
+    archive_url: null
+    event_date: '2025-05-14'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-27'
+  record: null
+  tally:
+    yeas: 30
+    nays: 1
+  names:
+    nays:
+    - Eckhardt
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-4623#V-02
+    headline: 'Senate: passed, 30-1 (May 27, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 30, Nays 1. (Same as previous roll call)" With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-27-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 27, 2025 (page 2870)
+    source_kind: document
+    sha256: b4b7b0aafc18d2e44572c3df0329ffc096a78b1b4e41d993eb4cb69fa53b9764
+    archive_url: null
+    event_date: '2025-05-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-30'
+  record: 4061
+  tally:
+    yeas: 106
+    nays: 28
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Anchía
+    - Bell, C.
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Canales
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Frank
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Landgraf
+    - Leach
+    - Little
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Pierson
+    - Raymond
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Walle
+    - Ward Johnson
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Ashby
+    - Barry
+    - Bell, K.
+    - Cole
+    - Darby
+    - Flores
+    - Gámez
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Harrison
+    - Hernandez
+    - Johnson
+    - Jones, J.
+    - Leo Wilson
+    - Longoria
+    - Lowe
+    - Meza
+    - Plesa
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Wharton
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Allen
+    - Garcia, J.
+    - Harris
+    - Jones, V.
+    - Lambert
+    - Phelan
+    absent:
+    - Bernal
+    - Campos
+    - Collier
+    - Cortez
+    - Davis, Y.
+    - Manuel
+    - Reynolds
+    - Vo
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-4623#V-03
+    headline: 'House: concurred in the Senate''s amendments, 106-28 (May 30, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 4623 prevailed by (Record 4061): 106 Yeas, 28 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY78FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 78th Day (page 7472)
+    source_kind: document
+    sha256: f797cbdb3518523cfecbb02edd2dd1a0d59963ceec0ce949dc603db8a0a98807
+    archive_url: null
+    event_date: '2025-05-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

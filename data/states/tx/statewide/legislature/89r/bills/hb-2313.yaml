@@ -1,0 +1,446 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 2313
+caption: Relating to the authority of certain municipalities to use certain tax revenue for certain qualified projects.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/hb-2313#L-01
+  headline: Filed without the Governor's signature (June 20, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB2313
+  source_title: 'Texas Legislature Online: HB 2313, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-14'
+  record: 2479
+  tally:
+    yeas: 100
+    nays: 40
+    present_not_voting: 2
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harris Davila
+    - Hefner
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Longoria
+    - Lopez, J.
+    - Louderback
+    - Lujan
+    - Manuel
+    - Martinez
+    - McLaughlin
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Ordaz
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Shaheen
+    - Simmons
+    - Smithee
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Cain
+    - Cook
+    - Cunningham
+    - DeAyala
+    - Harless
+    - Harrison
+    - Hayes
+    - Hickland
+    - Hopper
+    - Isaac
+    - Kerwin
+    - LaHood
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Lozano
+    - Luther
+    - McQueeney
+    - Money
+    - Morgan
+    - Noble
+    - Oliverson
+    - Orr
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shofner
+    - Slawson
+    - Spiller
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Virdell
+    - Wharton
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    absent_excused:
+    - Buckley
+    - Holt
+    - Olcott
+    absent:
+    - Guerra
+    - Hull
+    - Lopez, R.
+    - Martinez Fischer
+    - Ward Johnson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2313#V-01
+    headline: 'House: passed, 100-40 (May 14, 2025)'
+    statement: 'The House Journal records that "HB 2313 was passed by (Record 2479): 100 Yeas, 40 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY64FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 64th Day (page 4584)
+    source_kind: document
+    sha256: e13efebc557ba81242bab8b5b6d1c5c1faea43cc9379cedc4e0954678ceee919
+    archive_url: null
+    event_date: '2025-05-14'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-26'
+  record: null
+  tally:
+    yeas: 25
+    nays: 6
+  names:
+    yeas:
+    - Alvarado
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Bettencourt
+    - Creighton
+    - Hagenbuch
+    - Hughes
+    - Kolkhorst
+    - Middleton
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2313#V-02
+    headline: 'Senate: passed, 25-6 (May 26, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 25, Nays 6. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-26-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 26, 2025 (page 2749)
+    source_kind: document
+    sha256: cc2c380225c07bc1bf00b1f24c66e45e5c10fba3d5c3194040850783b1b4f74b
+    archive_url: null
+    event_date: '2025-05-26'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-28'
+  record: 3988
+  tally:
+    yeas: 82
+    nays: 55
+    present_not_voting: 1
+  names:
+    yeas:
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - Dorazio
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Hernandez
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, V.
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Lopez, J.
+    - Lopez, R.
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Ordaz
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Barry
+    - Bonnen
+    - Buckley
+    - Cain
+    - Capriglione
+    - Craddick
+    - Cunningham
+    - Curry
+    - DeAyala
+    - Dyson
+    - Fairly
+    - Gerdes
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Isaac
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Louderback
+    - Lowe
+    - Lozano
+    - Luther
+    - McQueeney
+    - Metcalf
+    - Morales, E.
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Wharton
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Allen
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Jones, J.
+    - Kerwin
+    - Longoria
+    - Money
+    - Talarico
+    absent:
+    - Canales
+    - Frank
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2313#V-03
+    headline: 'House: concurred in the Senate''s amendments, 82-55 (May 28, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 2313 prevailed by (Record 3988): 82 Yeas, 55 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 6953)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -16,7 +16,7 @@ funding:
   source_title: 'Texas Ethics Commission: Nickels, Shelly (Dr.), campaign finance report 101069290 (filed Oct 4, 2026)'
   source_kind: document
   sha256: d5cd311e80e4d6db057e66349478d103c7a151333c125a138f159cd0c0ed1089
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009113652/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069290.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Nickels, Shelly (Dr.), campaign finance report 101072307 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 68fcd02b6f725c6d12883cda411619794895e4f0cde599e2d502b76df6cf76c0
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106021954/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072307.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -1,0 +1,292 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 840
+caption: Relating to certain municipal regulation of certain mixed-use and multifamily residential development projects and conversion of certain commercial buildings to mixed-use and multifamily residential occupancy.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-840#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB840
+  source_title: 'Texas Legislature Online: SB 840, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-03-24'
+  record: null
+  tally:
+    yeas: 23
+    nays: 7
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Eckhardt
+    - Gutierrez
+    - J. Hinojosa
+    - Johnson
+    - Nichols
+    - West
+    - Zaffirini
+    absent_excused:
+    - Miles
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-840#V-01
+    headline: 'Senate: passed, 23-7 (March 24, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 23, Nays 7."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ03-24-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, March 24, 2025 (page 676)
+    source_kind: document
+    sha256: 55c4a24c04e3297034ac561bd04856ff88e7c05e0bb290581b669e94f05f7154
+    archive_url: null
+    event_date: '2025-03-24'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed as amended
+  date: '2025-05-21'
+  record: 3127
+  tally:
+    yeas: 106
+    nays: 33
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bowers
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Canales
+    - Cole
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Gates
+    - Gerdes
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Holt
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Longoria
+    - Lopez, J.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meza
+    - Money
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Schoolcraft
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    - Zwiener
+    nays:
+    - Allen
+    - Anchía
+    - Barry
+    - Bernal
+    - Bonnen
+    - Capriglione
+    - Collier
+    - Cook
+    - Garcia, L.
+    - Garcia Hernandez
+    - Geren
+    - González, J.
+    - Harris Davila
+    - Hopper
+    - Little
+    - Lopez, R.
+    - Lowe
+    - Martinez Fischer
+    - Meyer
+    - Noble
+    - Patterson
+    - Plesa
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Shaheen
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vo
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    absent_excused:
+    - Jones, V.
+    absent_excused_committee:
+    - Ashby
+    - Bryant
+    - Frank
+    - Hinojosa
+    - Leo Wilson
+    absent:
+    - Cunningham
+    - Dean
+    - Gervin-Hawkins
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-840#V-02
+    headline: 'House: passed as amended, 106-33 (May 21, 2025)'
+    statement: 'The House Journal records that "SB 840, as amended, was passed by (Record 3127): 106 Yeas, 33 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY69FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 69th Day (page 5455)
+    source_kind: document
+    sha256: 2ed8bff78641f59806a2a195e3dc861701e3394f0f7837532b28eed6f6254252
+    archive_url: null
+    event_date: '2025-05-21'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-26'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-840#V-03
+    headline: 'Senate: concurred in the House''s amendments, 31-0 (May 26, 2025)'
+    statement: 'The Senate Journal records that "by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-26-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 26, 2025 (page 2716)
+    source_kind: document
+    sha256: cc2c380225c07bc1bf00b1f24c66e45e5c10fba3d5c3194040850783b1b4f74b
+    archive_url: null
+    event_date: '2025-05-26'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

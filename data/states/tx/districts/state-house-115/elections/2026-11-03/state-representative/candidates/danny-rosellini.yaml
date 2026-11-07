@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Rosellini, Danny (Mr.), campaign finance report 101072177 (filed Oct 25, 2026)'
   source_kind: document
   sha256: 7f7a65e7d05aa2c19c415d3999c5067157ad3789c83e0ee77c4709092e843a62
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106015808/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072177.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

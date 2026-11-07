@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Mayes, Joseph L., campaign finance report 101069214 (filed Oct 4, 2026)'
   source_kind: document
   sha256: 8638bc2ef4d77cdf814eb7da4583779974e2a2c319a693ea722c32e43b763621
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009182301/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069214.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Mayes, Joseph L., campaign finance report 101072244 (filed Oct 25, 2026)'
   source_kind: document
   sha256: c46a7e4c33e5079d0ae90c73ee0cf20523228cb336f9bcbbafc039463387c652
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106014946/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072244.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: 'Joe Mayes for Texas HD 106: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261106015113/https://www.joemayesfortexas.com/issues
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -69,7 +69,7 @@ running_on:
     source_title: 'Joe Mayes for Texas HD 106: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261106015113/https://www.joemayesfortexas.com/issues
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -86,7 +86,7 @@ running_on:
     source_title: 'Joe Mayes for Texas HD 106: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261106015113/https://www.joemayesfortexas.com/issues
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

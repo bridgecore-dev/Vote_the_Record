@@ -1,0 +1,231 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 243
+caption: Relating to the regulation of migrant labor housing facilities; changing the amount of a civil penalty.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/sb-243#L-01
+  headline: Filed without the Governor's signature (June 20, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB243
+  source_title: 'Texas Legislature Online: SB 243, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-05'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-243#V-01
+    headline: 'Senate: passed, 31-0 (May 5, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-05-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 5, 2025 (page 1735)
+    source_kind: document
+    sha256: 882975731a43c7b76539a8eccbed5b1cc4e952b1d63784b5c9843d5c03d3f2cf
+    archive_url: null
+    event_date: '2025-05-05'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-22'
+  record: 3198
+  tally:
+    yeas: 114
+    nays: 29
+    present_not_voting: 3
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Hernandez
+    - Hinojosa
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Patterson
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Smithee
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Bumgarner
+    - Cain
+    - Cook
+    - Fairly
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Isaac
+    - Lowe
+    - Metcalf
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Paul
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Swanson
+    - Toth
+    - Troxclair
+    present_not_voting:
+    - Mr. Speaker
+    - Davis, Y.
+    - Vasut(C)
+    absent_excused:
+    - Gervin-Hawkins
+    - LaHood
+    absent:
+    - Davis, A.
+    - Money
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-243#V-02
+    headline: 'House: passed, 114-29 (May 22, 2025)'
+    statement: 'The House Journal records that "SB 243 was passed by (Record 3198): 114 Yeas, 29 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY70FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 70th Day (page 5588)
+    source_kind: document
+    sha256: 9655f90dce7fa9b638ee449e5ac833bdc92ef52f7f38e8cfd3db1a72d2f361e2
+    archive_url: null
+    event_date: '2025-05-22'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

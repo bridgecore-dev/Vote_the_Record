@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Richardson, Robert C. (The Honorable), campaign finance report 101069032 (filed Oct 4, 2026)'
   source_kind: document
   sha256: 158edf1b5acc4134c60f4b28dcd315302562811bb61bb9d87a9b1f0efbcf0a3f
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009113648/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069032.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Richardson, Robert C. (The Honorable), campaign finance report 101072499 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 279d3538562ad93ec4d91514ee6dd17fbd6036fe10fe61378eae70bf6ec61e12
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106002618/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072499.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

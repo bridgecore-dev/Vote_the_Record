@@ -1,0 +1,323 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 1951
+caption: Relating to the imposition of a penalty for failure to timely file a rendition statement or property report with the chief appraiser of an appraisal district.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-1951#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1951
+  source_title: 'Texas Legislature Online: SB 1951, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-22'
+  record: null
+  tally:
+    yeas: 25
+    nays: 6
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - Johnson
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Alvarado
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - Menéndez
+    - Miles
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1951#V-01
+    headline: 'Senate: passed, 25-6 (April 22, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 25, Nays 6. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-22-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 22, 2025 (page 1377)
+    source_kind: document
+    sha256: 8ee05d0e2a9b4d5696dee6009135b2351edb56c3412ddcd5f4fcaee8844b0a5d
+    archive_url: null
+    event_date: '2025-04-22'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-20'
+  record: 3040
+  tally:
+    yeas: 136
+    nays: 9
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Kerwin
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Flores
+    - González, J.
+    - González, M.
+    - Hinojosa
+    - Jones, J.
+    - Meza
+    - Morales, C.
+    - Reynolds
+    - Rodríguez Ramos
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    absent_excused:
+    - Jones, V.
+    absent:
+    - King
+    - Leach
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1951#V-02
+    headline: 'House: passed, 136-9 (May 20, 2025)'
+    statement: 'The House Journal records that "SB 1951 was passed by (Record 3040): 136 Yeas, 9 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY68FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 68th Day (page 5325)
+    source_kind: document
+    sha256: 4b31f86822420b237e0745e3a48f9e8868acebee86c28f1f691fb3b2624935ad
+    archive_url: null
+    event_date: '2025-05-20'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-22'
+  record: null
+  tally:
+    yeas: 25
+    nays: 6
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - Johnson
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Alvarado
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - Menéndez
+    - Miles
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1951#V-03
+    headline: 'Senate: concurred in the House''s amendments, 25-6 (May 22, 2025)'
+    statement: 'The Senate Journal records that "The motionprevailed by the following vote: Yeas 25, Nays 6."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-22-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 22, 2025 (page 2399)
+    source_kind: document
+    sha256: eaf6158ab21e2051df646047c18cf8b29103107ee8adffc807ea805d45b87532
+    archive_url: null
+    event_date: '2025-05-22'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

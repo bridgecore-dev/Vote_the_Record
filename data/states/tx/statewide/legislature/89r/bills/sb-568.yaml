@@ -1,0 +1,445 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 568
+caption: Relating to special education in public schools, including funding for special education under the Foundation School Program.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-568#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB568
+  source_title: 'Texas Legislature Online: SB 568, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-07'
+  record: null
+  tally:
+    yeas: 29
+    nays: 1
+  names:
+    nays:
+    - Hughes
+    absent_excused:
+    - King
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-568#V-01
+    headline: 'Senate: passed, 29-1 (April 7, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 29, Nays 1. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-07-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 7, 2025 (page 947)
+    source_kind: document
+    sha256: 5057dfe28fdb1ec0c8e9fbc61a8427f41d3e55709cb222e4614b7dbfe0319695
+    archive_url: null
+    event_date: '2025-04-07'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-28'
+  record: 3832
+  tally:
+    yeas: 125
+    nays: 16
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Holt
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - Metcalf
+    - Meyer
+    - Meza
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Moody(C)
+    absent_excused:
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Talarico
+    absent:
+    - Cunningham
+    - Longoria
+    nays:
+    - Cain
+    - Hopper
+    - Lowe
+    - Luther
+    - McQueeney
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Oliverson
+    - Richardson
+    - Schatzline
+    - Schoolcraft
+    - Tinderholt
+    - Toth
+    - Virdell
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-568#V-02
+    headline: 'House: passed, 125-16 (May 28, 2025)'
+    statement: 'The House Journal records a calendar of bills passed by one record vote, "(Record 3832): 141 Yeas, 0 Nays, 2 Present, not voting.", and lists this bill with the members whose votes differ from it and its own tally: "SB 568 (Cain, Hopper, Lowe, Luther, McQueeney, Money, Morgan, Noble, Olcott, Oliverson, Richardson, Schatzline, Schoolcraft, Tinderholt, Toth, and Virdell — no) (125 - 16 - 2)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 6671)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: adopted the conference committee report
+  date: '2025-05-31'
+  record: null
+  tally:
+    yeas: 30
+    nays: 1
+  names:
+    nays:
+    - Hughes
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-568#V-03
+    headline: 'Senate: adopted the conference committee report, 30-1 (May 31, 2025)'
+    statement: 'The Senate Journal records that "On motion of Senator Bettencourt, the Conference Committee Report was adopted by the following vote: Yeas 30, Nays 1." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-31-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 31, 2025 (page 3710)
+    source_kind: document
+    sha256: 0f9700a346d24062f98fba8cc758cb3f6c692819a04b4dfee416737250f38b17
+    archive_url: null
+    event_date: '2025-05-31'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: adopted the conference committee report
+  date: '2025-06-01'
+  record: 4139
+  tally:
+    yeas: 126
+    nays: 6
+    present_not_voting: 1
+  names:
+    yeas:
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Cain
+    - Harrison
+    - Hopper
+    - Lowe
+    - Olcott
+    - Toth
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Allen
+    - Garcia, L.
+    - Harris
+    - Jones, V.
+    - Morales Shaw
+    absent:
+    - Alders
+    - Bhojani
+    - Canales
+    - Davis, Y.
+    - Harless
+    - Longoria
+    - Martinez
+    - Morales, C.
+    - Reynolds
+    - Rose
+    - Simmons
+    - Virdell
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-568#V-04
+    headline: 'House: adopted the conference committee report, 126-6 (June 1, 2025)'
+    statement: 'The House Journal records that "The motion to adopt the conference committee report on SB 568 prevailed by (Record 4139): 126 Yeas, 6 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY80FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 80th Day (page 7798)
+    source_kind: document
+    sha256: 82621cd66a3f319682efb8f6cc301cb0c26364d61544f6217d500002b3de444c
+    archive_url: null
+    event_date: '2025-06-01'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -1,0 +1,445 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 5033
+caption: Relating to the authority of this state to implement a motor vehicle emissions inspection and maintenance program.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-5033#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB5033
+  source_title: 'Texas Legislature Online: HB 5033, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-08'
+  record: 1814
+  tally:
+    yeas: 101
+    nays: 45
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Campos
+    - Capriglione
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Garcia, J.
+    - Garcia, L.
+    - Gates
+    - Gerdes
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Phelan
+    - Pierson
+    - Raymond
+    - Richardson
+    - Romero
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    - Zwiener
+    nays:
+    - Allen
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Canales
+    - Cole
+    - Collier
+    - Davis, Y.
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, J.
+    - Lopez, R.
+    - Manuel
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales Shaw
+    - Ordaz
+    - Perez, V.
+    - Plesa
+    - Reynolds
+    - Rodríguez Ramos
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Talarico
+    - Thompson
+    - Turner
+    - Vo
+    - Walle
+    - WardJohnson
+    - Wu
+    present_not_voting:
+    - Mr.Speaker
+    - Geren(C)
+    absent_excused:
+    - Cain
+    - Longoria
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-5033#V-01
+    headline: 'House: passed, 101-45 (May 8, 2025)'
+    statement: 'The House Journal records that "HB 5033 was passed by (Record 1814): 101 Yeas, 45 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY59FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 59th Day (page 3601)
+    source_kind: document
+    sha256: 2a48eaf059a42894f3f00ed8fd74a7238e1bb300b92cbc5ff0e077188de8225a
+    archive_url: null
+    event_date: '2025-05-08'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-25'
+  record: null
+  tally:
+    yeas: 21
+    nays: 10
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - Johnson
+    - Menéndez
+    - Miles
+    - West
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-5033#V-02
+    headline: 'Senate: passed, 21-10 (May 25, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 21, Nays 10. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-25-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 25, 2025 (page 2551)
+    source_kind: document
+    sha256: 016a5dfac73523efbbe233609b768fd35011b1f6644a1cbab90af1f31ebf41fa
+    archive_url: null
+    event_date: '2025-05-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-28'
+  record: 3975
+  tally:
+    yeas: 106
+    nays: 23
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Button
+    - Cain
+    - Campos
+    - Capriglione
+    - Cole
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Garcia, J.
+    - Garcia, L.
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - Goodwin
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Jones, V.
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Lopez, J.
+    - Lopez, R.
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Romero
+    - Schofield
+    - Schoolcraft
+    - Shofner
+    - Simmons
+    - Smithee
+    - Spiller
+    - Tepper
+    - Thompson
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    nays:
+    - Bucy
+    - Bumgarner
+    - Collier
+    - Gámez
+    - González, J.
+    - González, M.
+    - Hickland
+    - Holt
+    - Johnson
+    - Lowe
+    - Metcalf
+    - Olcott
+    - Plesa
+    - Rodríguez Ramos
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Shaheen
+    - Slawson
+    - Swanson
+    - Tinderholt
+    - Wilson
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Allen
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Jones, J.
+    - Kerwin
+    - Longoria
+    - Money
+    - Talarico
+    absent:
+    - Bernal
+    - Canales
+    - Garcia Hernandez
+    - Harrison
+    - Hernandez
+    - Little
+    - Louderback
+    - Meyer
+    - Oliverson
+    - Vo
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-5033#V-03
+    headline: 'House: concurred in the Senate''s amendments, 106-23 (May 28, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 5033 prevailed by (Record 3975): 106 Yeas, 23 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 6917)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

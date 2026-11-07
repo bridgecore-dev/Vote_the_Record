@@ -1,0 +1,263 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: '892'
+bill: SB 12
+caption: Relating to the duty of the attorney general to prosecute criminal offenses prescribed by the election laws of this state.
+became_law: signed
+law:
+  id: tx/statewide/legislature/892/bills/sb-12#L-01
+  headline: Signed by the Governor (September 19, 2025)
+  statement: The bill history records "Signed by the Governor" on September 19, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB12
+  source_title: 'Texas Legislature Online: SB 12, 89th Legislature, 2nd Called Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-09-19'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-08-19'
+  record: null
+  tally:
+    yeas: 18
+    nays: 12
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - J. Hinojosa
+    - Johnson
+    - Menéndez
+    - Miles
+    - Nichols
+    - West
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-12#V-01
+    headline: 'Senate: passed, 18-12 (August 19, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 18, Nays 12."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ08-19-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, August 19, 2025 (page 36)
+    source_kind: document
+    sha256: dbab7b95aede78d1923aed47d2b801a01f4aa8b07ed86c580df2d0bd6709c30c
+    archive_url: null
+    event_date: '2025-08-19'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-08-26'
+  record: 87
+  tally:
+    yeas: 85
+    nays: 54
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Pierson
+    - Raymond
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Allen
+    - Anchía
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Canales
+    - Cole
+    - Collier
+    - Cortez
+    - Davis, A.
+    - Davis, Y.
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Lalani
+    - Longoria
+    - Lopez, R.
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - Meza
+    - Moody
+    - Morales, E.
+    - Muñoz
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Talarico
+    - Thompson
+    - Turner
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr.Speaker(C)
+    absent_excused:
+    - Campos
+    - Geren
+    - Morales Shaw
+    - Noble
+    - Phelan
+    - Reynolds
+    - Vo
+    absent:
+    - Garcia,J
+    - Morales,C
+    - RodríguezRamos
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-12#V-02
+    headline: 'House: passed, 85-54 (August 26, 2025)'
+    statement: 'The House Journal records that "SB 12waspassedby (Record 87): 85 Yeas, 54 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/892/pdf/89C2DAY08FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, 2nd Called Session, 8th Day (page 240)
+    source_kind: document
+    sha256: 09602eb7b2758836671a4e9e04a2b83f19b51e8a030b30f02064585a6aa33d83
+    archive_url: null
+    event_date: '2025-08-26'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

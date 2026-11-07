@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Caird, Jessica A. (Ms.), campaign finance report 101069353 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 9213aaf8a8ebad4ed6c3cf0a3bf90ddeb9a8005bf1f51854809865f85c9b5fa3
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009122910/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069353.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Caird, Jessica A. (Ms.), campaign finance report 101072103 (filed Oct 25, 2026)'
   source_kind: document
   sha256: ea0272edfc0cdc79f8d99eb57f3b78f9d9fb7f06839a8b3c9fe021b86e61e61c
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261105234803/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072103.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

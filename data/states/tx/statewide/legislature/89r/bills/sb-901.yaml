@@ -1,0 +1,232 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 901
+caption: Relating to the declaration of a candidate's ineligibility on the basis of filing an application for a place on the general primary election ballot or for nomination by convention with more than one political party.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-901#L-01
+  headline: Signed by the Governor (May 29, 2025)
+  statement: The bill history records "Signed by the Governor" on May 29, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB901
+  source_title: 'Texas Legislature Online: SB 901, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-29'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-10'
+  record: null
+  tally:
+    yeas: 30
+    nays: 0
+  names: null
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-901#V-01
+    headline: 'Senate: passed, 30-0 (April 10, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (vivavocevote)(30-0)(30-0)"
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-10-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 10, 2025 (page 1086)
+    source_kind: document
+    sha256: eed93f4e5c720fcb8649b9bd2adac574b714d60ce51cfdadcdb3928cd9d95630
+    archive_url: null
+    event_date: '2025-04-10'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-16'
+  record: 2919
+  tally:
+    yeas: 119
+    nays: 2
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Ashby
+    - Barry
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - DeAyala
+    - Dorazio
+    - Fairly
+    - Flores
+    - Frank
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - King
+    - Kitzman
+    - LaHood
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Patterson
+    - Paul
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Spiller
+    - Swanson
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Vo
+    - Wharton
+    - Wilson
+    - Wu
+    nays:
+    - Reynolds
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Anchía
+    - Bonnen
+    - Dean
+    - Dutton
+    - Gámez
+    - Gervin-Hawkins
+    - Jones, V.
+    - Kerwin
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Longoria
+    - Lopez, J.
+    - Orr
+    - Plesa
+    - Schofield
+    - Smithee
+    - Talarico
+    - Virdell
+    - Walle
+    absent_excused_committee:
+    - Hernandez
+    - Lowe
+    absent:
+    - Bell, C.
+    - Canales
+    - Dyson
+    - Martinez
+    - Perez, M.
+    - Ward Johnson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-901#V-02
+    headline: 'House: passed, 119-2 (May 16, 2025)'
+    statement: 'The House Journal records that "SB 901 was passed by (Record 2919): 119 Yeas, 2 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY66FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 66th Day (page 5153)
+    source_kind: document
+    sha256: a9f4f4e3589754b532e5f6bd4ca3c6fbea604b9cc17ba3ed9d0848e215cafa6c
+    archive_url: null
+    event_date: '2025-05-16'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

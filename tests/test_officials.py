@@ -148,6 +148,14 @@ def test_a_board_on_file_in_part_gets_the_rest_of_its_members(roster_repo):
     assert any(n.startswith(f"DIFFERS {board}") for n in notes)
 
 
+def test_a_roster_saying_position_vacant_makes_no_person(roster_repo):
+    root, saved = roster_repo
+    (saved / "page.txt").write_text("County Judge Position Vacant\n", encoding="utf-8")
+    rel = "tx/localities/test-county/offices/county-judge"
+    writes, notes = rosters.plan([roster(saved, seat(rel, "County Judge", ["Position Vacant"], "Position Vacant"))])
+    assert not writes and any(n.startswith(f"REFUSE {rel}: a holder named") for n in notes)
+
+
 def test_names_from_ballots_become_readable_and_ids_fold_accents():
     assert seed_officials.proper("RAFAEL D. PEÑA III") == "Rafael D. Peña III"
     assert seed_officials.slugify("Rafael D. Peña III") == "rafael-d-pena-iii"

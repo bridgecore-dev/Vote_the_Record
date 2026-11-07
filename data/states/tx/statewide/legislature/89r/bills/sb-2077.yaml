@@ -1,0 +1,205 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2077
+caption: Relating to the qualifications of members of the board of directors of the Texas Mutual Insurance Company.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2077#L-01
+  headline: Signed by the Governor (May 19, 2025)
+  statement: The bill history records "Signed by the Governor" on May 19, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2077
+  source_title: 'Texas Legislature Online: SB 2077, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-19'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-02'
+  record: 1355
+  tally:
+    yeas: 122
+    nays: 0
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Capriglione
+    - Cole
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Hinojosa
+    - Hopper
+    - Howard
+    - Hull
+    - Isaac
+    - Jones, J.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Landgraf
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Campos
+    - Canales
+    - Collier
+    - Holt
+    - Jones, V.
+    - LaHood
+    - Lambert
+    - Martinez Fischer
+    - McLaughlin
+    - Morales, C.
+    - Muñoz
+    - Schatzline
+    absent_excused_committee:
+    - Barry
+    - Gerdes
+    - Harris
+    - Hernandez
+    - Hunter
+    - Johnson
+    - Leach
+    - Lopez, J.
+    - Romero
+    - Rose
+    - Tepper
+    absent:
+    - Garcia, J.
+    - Gates
+    - Harless
+    - Lopez, R.
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2077#V-01
+    headline: 'House: passed, 122-0 (May 2, 2025)'
+    statement: 'The House Journal records that "SB 2077 was passed by (Record 1355): 122 Yeas, 0 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY55FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 55th Day (page 2975)
+    source_kind: document
+    sha256: 2c5fc76e27aa2e976ce463d1d4af4d12e1c8bdcb2704df1da4e68a32d08950c1
+    archive_url: null
+    event_date: '2025-05-02'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

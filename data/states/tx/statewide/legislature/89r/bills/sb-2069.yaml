@@ -1,0 +1,264 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2069
+caption: Relating to the establishment of a work group to conduct a study on the feasibility of implementing an acute psychiatric bed registry.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2069#L-01
+  headline: Filed without the Governor's signature (June 20, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2069
+  source_title: 'Texas Legislature Online: SB 2069, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-01'
+  record: null
+  tally:
+    yeas: 28
+    nays: 3
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - West
+    - Zaffirini
+    nays:
+    - Hughes
+    - Middleton
+    - Sparks
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2069#V-01
+    headline: 'Senate: passed, 28-3 (May 1, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 28, Nays 3. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-01-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 1, 2025 (page 1702)
+    source_kind: document
+    sha256: 46e2ab3bd9bf1eb4dd8b1fbc3325b92abaf5be3b72a24a97ded7a003909d3f02
+    archive_url: null
+    event_date: '2025-05-01'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-23'
+  record: 3346
+  tally:
+    yeas: 92
+    nays: 44
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Buckley
+    - Bucy
+    - Button
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - Dutton
+    - Dyson
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Jones, J.
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Longoria
+    - Lopez, J.
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - McQueeney
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    nays:
+    - Bonnen
+    - Bumgarner
+    - Cain
+    - Cook
+    - DeAyala
+    - Dorazio
+    - Fairly
+    - Gates
+    - Gerdes
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - Leach
+    - Leo Wilson
+    - Little
+    - Louderback
+    - Lowe
+    - McLaughlin
+    - Metcalf
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Patterson
+    - Phelan
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Swanson
+    - Troxclair
+    - Virdell
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Bryant
+    - Campos
+    - Garcia, J.
+    - Harris
+    - Johnson
+    - Paul
+    - Smithee
+    absent:
+    - Jones, V.
+    - Lopez, R.
+    - Martinez Fischer
+    - Orr
+    - Zwiener
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2069#V-02
+    headline: 'House: passed, 92-44 (May 23, 2025)'
+    statement: 'The House Journal records that "SB 2069 was passed by (Record 3346): 92 Yeas, 44 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY71FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 71st Day (page 5791)
+    source_kind: document
+    sha256: 41c65c87ba564c421c36154d6db85e50de3e15f2ca84d68e11200a8b17dcad9c
+    archive_url: null
+    event_date: '2025-05-23'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

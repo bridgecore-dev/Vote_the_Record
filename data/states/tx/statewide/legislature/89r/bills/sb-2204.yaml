@@ -1,0 +1,232 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2204
+caption: Relating to the applicability of uniform grant and contract management standards to certain Texas Water Development Board programs.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2204#L-01
+  headline: Signed by the Governor (May 19, 2025)
+  statement: The bill history records "Signed by the Governor" on May 19, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2204
+  source_title: 'Texas Legislature Online: SB 2204, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-19'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-16'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2204#V-01
+    headline: 'Senate: passed, 31-0 (April 16, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (vivavocevote)(31-0)(31-0)" With 31 seats in the Senate, every senator not listed as voting no voted yes.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-16-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 16, 2025 (page 1364)
+    source_kind: document
+    sha256: eca8f44d40dda7a5197277f38cb610a396c91e345462ab4d9ea1d03281f0d730
+    archive_url: null
+    event_date: '2025-04-16'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-02'
+  record: 1353
+  tally:
+    yeas: 93
+    nays: 27
+    present_not_voting: 2
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Capriglione
+    - Cole
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Hefner
+    - Hickland
+    - Hinojosa
+    - Howard
+    - Hull
+    - Isaac
+    - Jones, J.
+    - Kitzman
+    - Lalani
+    - Landgraf
+    - Longoria
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Noble
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Rosenthal
+    - Schofield
+    - Shaheen
+    - Simmons
+    - Smithee
+    - Talarico
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Cain
+    - Cook
+    - Cunningham
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hopper
+    - Kerwin
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Luther
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Pierson
+    - Schoolcraft
+    - Shofner
+    - Slawson
+    - Spiller
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker(C)
+    - King
+    absent_excused:
+    - Campos
+    - Canales
+    - Collier
+    - Holt
+    - Jones, V.
+    - LaHood
+    - Lambert
+    - Martinez Fischer
+    - McLaughlin
+    - Morales, C.
+    - Muñoz
+    - Schatzline
+    absent_excused_committee:
+    - Barry
+    - Gerdes
+    - Harris
+    - Hernandez
+    - Hunter
+    - Johnson
+    - Leach
+    - Lopez, J.
+    - Romero
+    - Rose
+    - Tepper
+    absent:
+    - Bell, C.
+    - Garcia, J.
+    - Lopez, R.
+    - Swanson
+    - Virdell
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2204#V-02
+    headline: 'House: passed, 93-27 (May 2, 2025)'
+    statement: 'The House Journal records that "SB 2204 was passed by (Record 1353): 93 Yeas, 27 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY55FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 55th Day (page 2973)
+    source_kind: document
+    sha256: 2c5fc76e27aa2e976ce463d1d4af4d12e1c8bdcb2704df1da4e68a32d08950c1
+    archive_url: null
+    event_date: '2025-05-02'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

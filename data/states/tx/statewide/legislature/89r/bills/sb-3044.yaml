@@ -1,0 +1,49 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 3044
+caption: Relating to the composition of the board of directors and the powers of the Presidio County Underground Water Conservation District.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-3044#L-01
+  headline: Signed by the Governor (May 29, 2025)
+  statement: The bill history records "Signed by the Governor" on May 29, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB3044
+  source_title: 'Texas Legislature Online: SB 3044, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-29'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-06'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-3044#V-01
+    headline: 'Senate: passed, 31-0 (May 6, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-06-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 6, 2025 (page 1779)
+    source_kind: document
+    sha256: fba289bbabac13b646abc9e228418044b925b1373947164d1f8abc2593c69108
+    archive_url: null
+    event_date: '2025-05-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

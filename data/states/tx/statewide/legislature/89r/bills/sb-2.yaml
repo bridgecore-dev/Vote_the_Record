@@ -1,0 +1,322 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2
+caption: Relating to the establishment of an education savings account program.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2#L-01
+  headline: Signed by the Governor (May 3, 2025)
+  statement: The bill history records "Signed by the Governor" on May 3, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2
+  source_title: 'Texas Legislature Online: SB 2, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-03'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-02-05'
+  record: null
+  tally:
+    yeas: 19
+    nays: 12
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - J. Hinojosa
+    - Johnson
+    - Menéndez
+    - Miles
+    - Nichols
+    - West
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2#V-01
+    headline: 'Senate: passed, 19-12 (February 5, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 19, Nays 12."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ02-05-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, February 5, 2025 (page 190)
+    source_kind: document
+    sha256: 3b5fe879555005ce59329dd7b7b059a45cdc4159c7bf10f66314e2249efbef8c
+    archive_url: null
+    event_date: '2025-02-05'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-04-17'
+  record: 300
+  tally:
+    yeas: 86
+    nays: 61
+    present_not_voting: 0
+  names:
+    yeas:
+    - Mr. Speaker(C)
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - Geren
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Allen
+    - Anchía
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Campos
+    - Canales
+    - Cole
+    - Collier
+    - Cortez
+    - Davis, A.
+    - Davis, Y.
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, J.
+    - Lalani
+    - Longoria
+    - Lopez, R.
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Muñoz
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Talarico
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Zwiener
+    absent_excused:
+    - Jones, V.
+    - Morales Shaw
+    absent:
+    - Wu
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2#V-02
+    headline: 'House: passed, 86-61 (April 17, 2025)'
+    statement: 'The House Journal records that "SB 2 was passed by (Record 300): 86 Yeas, 61 Nays, 0 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY46FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 46th Day (page 1667)
+    source_kind: document
+    sha256: aea8381390be0c448fce37b83813a4e1dbeae9304349c9f538ba4e7063c43a00
+    archive_url: null
+    event_date: '2025-04-17'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-04-24'
+  record: null
+  tally:
+    yeas: 19
+    nays: 12
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - J. Hinojosa
+    - Johnson
+    - Menéndez
+    - Miles
+    - Nichols
+    - West
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2#V-03
+    headline: 'Senate: concurred in the House''s amendments, 19-12 (April 24, 2025)'
+    statement: 'The Senate Journal records that "Senator Creighton moved to concur in the House amendments toSB 2. The motion prevailed by the following vote: Yeas 19, Nays 12."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-24-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 24, 2025 (page 1486)
+    source_kind: document
+    sha256: acd141f258cb0b842b3c92b7edcfe2746023791baf987a7f980681d6e4eb3619
+    archive_url: null
+    event_date: '2025-04-24'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

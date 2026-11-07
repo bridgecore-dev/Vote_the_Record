@@ -1,0 +1,465 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 293
+caption: Relating to the discipline of judges by the State Commission on Judicial Conduct, notice of certain reprimands, judicial compensation and related retirement benefits, and the reporting of certain judicial transparency information; authorizing an administrative penalty.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-293#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB293
+  source_title: 'Texas Legislature Online: SB 293, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-03-12'
+  record: null
+  tally:
+    yeas: 30
+    nays: 1
+  names:
+    nays:
+    - Eckhardt
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-293#V-01
+    headline: 'Senate: passed, 30-1 (March 12, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 30, Nays 1. (Same as previous roll call)" With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ03-12-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, March 12, 2025 (page 502)
+    source_kind: document
+    sha256: d182a1c16b01ff44797e276db20e995df05bbfd4f1f6d2bf887b382b208d9e53
+    archive_url: null
+    event_date: '2025-03-12'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-27'
+  record: 3685
+  tally:
+    yeas: 128
+    nays: 4
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meza
+    - Moody
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Bryant
+    - Morales, C.
+    - Rodríguez Ramos
+    - Simmons
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Bowers
+    - Canales
+    - Vo
+    absent_excused_committee:
+    - Geren
+    - Meyer
+    - Reynolds
+    absent:
+    - Davis, Y.
+    - Gervin-Hawkins
+    - Jones, V.
+    - Lopez, J.
+    - Lozano
+    - Luther
+    - Money
+    - Morales Shaw
+    - Swanson
+    - Troxclair
+    - Turner
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-293#V-02
+    headline: 'House: passed, 128-4 (May 27, 2025)'
+    statement: 'The House Journal records that "SB 293 was passed by (Record 3685): 128 Yeas, 4 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY75FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 75th Day (page 6448)
+    source_kind: document
+    sha256: 868822869c0eef8f9048b39efdbe35ce0761588a3748ce99994e586513b0309b
+    archive_url: null
+    event_date: '2025-05-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-30'
+  record: null
+  tally: null
+  names: null
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-293#V-03
+    headline: 'Senate: concurred in the House''s amendments without a record vote (May 30, 2025)'
+    statement: The bill history records "Senate concurs in House amendment(s)" in the Senate on May 30, 2025, with no record vote.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB293
+    source_title: 'Texas Legislature Online: SB 293, 89th Legislature, Regular Session, bill history'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2025-05-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: adopted the conference committee report
+  date: '2025-06-02'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-293#V-04
+    headline: 'Senate: adopted the conference committee report, 31-0 (June 2, 2025)'
+    statement: 'The Senate Journal records that "On motion of Senator Huffman, the Conference Committee Report was adopted by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ06-02-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, June 2, 2025 (page 3866)
+    source_kind: document
+    sha256: 30c1ddd5dc036f4d1f3abfb1993c9d0d0ea741ff0c42b9522caf15ac08279af3
+    archive_url: null
+    event_date: '2025-06-02'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: adopted the conference committee report
+  date: '2025-06-02'
+  record: 4171
+  tally:
+    yeas: 114
+    nays: 26
+    present_not_voting: 4
+  names:
+    yeas:
+    - Alders
+    - Anchía
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Button
+    - Cain
+    - Canales
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hernandez
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hull
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Ashby
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Curry
+    - Gates
+    - Gerdes
+    - Guillen
+    - Harrison
+    - Hefner
+    - Hickland
+    - Hopper
+    - Isaac
+    - Kerwin
+    - Leo Wilson
+    - Lowe
+    - Luther
+    - McQueeney
+    - Metcalf
+    - Olcott
+    - Patterson
+    - Raymond
+    - Schofield
+    - Slawson
+    - Toth
+    - Troxclair
+    present_not_voting:
+    - Mr.Speaker(C)
+    - Morgan
+    - Pierson
+    - Vasut
+    absent_excused:
+    - Allen
+    - Campos
+    - Capriglione
+    - Dorazio
+    - Harris
+    - Paul
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-293#V-05
+    headline: 'House: adopted the conference committee report, 114-26 (June 2, 2025)'
+    statement: 'The House Journal records that "The motion to adopt the conference committee report on SB 293 prevailed by (Record 4171): 114 Yeas, 26 Nays, 4 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY81FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 81st Day (page 7941)
+    source_kind: document
+    sha256: 5465c4f456a1239012e3a9675fbd589b30b1d663c1d97de1aaae8e231f73d280
+    archive_url: null
+    event_date: '2025-06-02'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

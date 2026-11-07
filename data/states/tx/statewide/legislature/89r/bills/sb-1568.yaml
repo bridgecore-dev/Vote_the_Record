@@ -1,0 +1,231 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 1568
+caption: Relating to the issuance of animal friendly specialty license plates.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-1568#L-01
+  headline: Signed by the Governor (May 24, 2025)
+  statement: The bill history records "Signed by the Governor" on May 24, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1568
+  source_title: 'Texas Legislature Online: SB 1568, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-24'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-30'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1568#V-01
+    headline: 'Senate: passed, 31-0 (April 30, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-30-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 30, 2025 (page 1619)
+    source_kind: document
+    sha256: 4bec166e13e796985abe431c77b031d5fd53ff63f0495798443483eda25baaf3
+    archive_url: null
+    event_date: '2025-04-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-09'
+  record: 1890
+  tally:
+    yeas: 102
+    nays: 36
+    present_not_voting: 3
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Barry
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Bucy
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Curry
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Geren
+    - Gervin-Hawkins
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lujan
+    - Martinez
+    - Martinez Fischer
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rosenthal
+    - Schofield
+    - Shaheen
+    - Simmons
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Bell, C.
+    - Bumgarner
+    - Canales
+    - Cook
+    - Cunningham
+    - Darby
+    - Dorazio
+    - Frank
+    - Gerdes
+    - Harrison
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Luther
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schoolcraft
+    - Shofner
+    - Slawson
+    - Tinderholt
+    - Toth
+    - Vasut
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    - Virdell
+    absent_excused:
+    - Cain
+    - Lozano
+    - Manuel
+    - Rose
+    absent:
+    - Buckley
+    - González, J.
+    - Lalani
+    - Longoria
+    - McLaughlin
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1568#V-02
+    headline: 'House: passed, 102-36 (May 9, 2025)'
+    statement: 'The House Journal records that "SB 1568 was passed by (Record 1890): 102 Yeas, 36 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY60FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 60th Day (page 3726)
+    source_kind: document
+    sha256: 9eb72898436f39d49352abe84570bf03d731ccfc52b2b2621c3183fd3fe2460c
+    archive_url: null
+    event_date: '2025-05-09'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

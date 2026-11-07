@@ -2,8 +2,32 @@
 id: steven-truss
 name: Steven Truss
 candidacies: []
-research: pending
-records: []
+records:
+- id: tx/people/steven-truss#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.5390 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Trinity County tax rate of $0.5390 per $100,
+    which the notice lists as above the no-new-revenue rate ($0.5289) and not above the voter-approval rate ($0.5658). The
+    notice lists Judge Martin and Commissioners Park, Loftin, Smith and Truss voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://newtools.cira.state.tx.us/upload/page/3743/2025/GTR%2050-876_Notice_2025.pdf
+  source_title: 'Trinity County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 26454ab46b44e9cc1d5471c28219b4f0fd9b94d39b5c146b7bece9f03074bc46
+  archive_url: null
+  event_date: '2025-09-23'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice
+    (09/23/2025). The notice is a filled Comptroller Form 50-876; in the saved text the filled-in values follow the form's
+    blank lines, so the member list and the three "None" entries (against, present and not voting, absent) appear after the
+    form labels rather than beside them.
 statements: []
 funding: []
 promise_tracker: []

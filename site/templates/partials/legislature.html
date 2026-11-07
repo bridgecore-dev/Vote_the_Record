@@ -1,0 +1,14 @@
+{% from "partials/macros.html" import verification_badge, source_line, report_link %}
+
+{# One member's final-passage vote on a bill that became law (docs/METHODOLOGY.md). Same words for everyone. #}
+{% macro leg_vote(v) -%}
+<li class="card item fact" id="{{ v.fact.id | anchor }}">
+  <p class="item-main"><span class="kind">{{ v.how }}</span> {{ v.bill }} ({{ v.caption | trim(".") }})</p>
+  <p class="item-meta">{{ v.result }} · {{ v.date | longdate }}{% if not v.action.startswith("passed") %} · vote to accept the final text ({{ v.action }}){% endif %} · {{ verification_badge(v.fact) }}</p>
+  <details class="more">
+    <summary>Exact wording &amp; source</summary>
+    <p class="exact">{{ v.fact.statement }}</p>
+    <p class="item-meta">{{ source_line(v.fact) }} · {{ report_link(v.fact.id) }}</p>
+  </details>
+</li>
+{%- endmacro %}

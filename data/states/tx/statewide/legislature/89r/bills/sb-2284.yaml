@@ -1,0 +1,265 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2284
+caption: Relating to the authority of a municipality or county to regulate certain matters related to firearms, air guns, archery equipment, and other weapons and related supplies.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2284#L-01
+  headline: Signed by the Governor (May 28, 2025)
+  statement: The bill history records "Signed by the Governor" on May 28, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2284
+  source_title: 'Texas Legislature Online: SB 2284, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-28'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-06'
+  record: null
+  tally:
+    yeas: 23
+    nays: 8
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - Johnson
+    - Menéndez
+    - Miles
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2284#V-01
+    headline: 'Senate: passed, 23-8 (May 6, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 23, Nays 8."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-06-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 6, 2025 (page 1779)
+    source_kind: document
+    sha256: fba289bbabac13b646abc9e228418044b925b1373947164d1f8abc2593c69108
+    archive_url: null
+    event_date: '2025-05-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-15'
+  record: 2595
+  tally:
+    yeas: 96
+    nays: 43
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Canales
+    - Capriglione
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dyson
+    - Fairly
+    - Frank
+    - Gámez
+    - Gates
+    - Gerdes
+    - Geren
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Perez, M.
+    - Phelan
+    - Pierson
+    - Raymond
+    - Richardson
+    - Romero
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Troxclair
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Anchía
+    - Bernal
+    - Bhojani
+    - Bryant
+    - Bucy
+    - Campos
+    - Cole
+    - Collier
+    - Davis, A.
+    - Davis, Y.
+    - Flores
+    - Garcia, J.
+    - Garcia, L.
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Jones, J.
+    - Jones, V.
+    - Longoria
+    - Lopez, R.
+    - Martinez Fischer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales Shaw
+    - Perez, V.
+    - Plesa
+    - Reynolds
+    - Rodríguez Ramos
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Talarico
+    - Turner
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Dutton
+    - Gervin-Hawkins
+    - Lambert
+    - Paul
+    absent_excused_committee:
+    - Bonnen
+    absent:
+    - Bowers
+    - Dorazio
+    - Garcia Hernandez
+    - Toth
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2284#V-02
+    headline: 'House: passed, 96-43 (May 15, 2025)'
+    statement: 'The House Journal records that "SB 2284 was passed by (Record 2595): 96 Yeas, 43 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY65FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 65th Day (page 4755)
+    source_kind: document
+    sha256: a0fee098fc84b627fe8a7281ef6e571d72637bd979f5b742f5db5d04c251ca00
+    archive_url: null
+    event_date: '2025-05-15'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

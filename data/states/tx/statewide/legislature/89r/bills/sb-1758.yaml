@@ -1,0 +1,205 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 1758
+caption: Relating to the operation of a cement kiln and the production of aggregates near a semiconductor wafer manufacturing facility.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/sb-1758#L-01
+  headline: Filed without the Governor's signature (June 22, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 22, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1758
+  source_title: 'Texas Legislature Online: SB 1758, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-22'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-28'
+  record: 3900
+  tally:
+    yeas: 115
+    nays: 24
+    present_not_voting: 3
+  names:
+    yeas:
+    - Alders
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Cunningham
+    - Curry
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Gervin-Hawkins
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Landgraf
+    - Leach
+    - Little
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Spiller
+    - Swanson
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Vo
+    - Ward Johnson
+    - Wilson
+    - Zwiener
+    nays:
+    - Allen
+    - Ashby
+    - Barry
+    - Canales
+    - Craddick
+    - Darby
+    - Davis, Y.
+    - Dorazio
+    - Geren
+    - González, J.
+    - Harless
+    - Hernandez
+    - Jones, J.
+    - Jones, V.
+    - Lambert
+    - Leo Wilson
+    - Manuel
+    - Ordaz
+    - Perez, V.
+    - Reynolds
+    - Smithee
+    - Walle
+    - Wharton
+    - Wu
+    present_not_voting:
+    - Mr. Speaker
+    - Morales Shaw
+    - Vasut(C)
+    absent_excused:
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Kerwin
+    - Longoria
+    - Talarico
+    absent:
+    - Bernal
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1758#V-01
+    headline: 'House: passed, 115-24 (May 28, 2025)'
+    statement: 'The House Journal records that "SB 1758 was passed by (Record 3900): 115 Yeas, 24 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 6751)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

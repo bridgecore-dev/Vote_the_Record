@@ -4,8 +4,12 @@ office_type: justice-of-the-peace
 holders:
 - person: mike-egon-rust
   start: null
-  end: null
+  end: '2026-01-31'
   basis: tx/localities/comal-county/offices/jp-precinct-3#S-01
+- person: mark-long
+  start: '2026-02-01'
+  end: null
+  basis: tx/localities/comal-county/offices/jp-precinct-3#S-02
 sources:
 - id: tx/localities/comal-county/offices/jp-precinct-3#S-01
   headline: Who holds this office now
@@ -23,6 +27,25 @@ sources:
   archive_url: null
   event_date: '2026-11-04'
   retrieved: '2026-11-04'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+- id: tx/localities/comal-county/offices/jp-precinct-3#S-02
+  headline: Change of officeholder
+  statement: 'The official minutes (Comal County: Commissioners Court Minutes, January 29, 2026), checked on November 5, 2026,
+    record that Judge Rust''s resignation letter said his last day would be January 31, and that the court voted to appoint
+    Mark Long to fill the unexpired term (February 1 to December 31, 2026). It reads: "Discuss and consider appointing Mark
+    Long to vacant Justice of the Peace, Precinct 3 to fill the unexpired term (Feb. 1-Dec. 31, 2026)."'
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://co-comal-tx.granicus.com/MinutesViewer.php?view_id=1&clip_id=1158&doc_id=53dafc34-128f-11f1-bb28-005056a89546
+  source_title: 'Comal County: Commissioners Court Minutes, January 29, 2026'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-01-29'
+  retrieved: '2026-11-05'
   verification: unverified
   verified_on: null
   reviewer: null

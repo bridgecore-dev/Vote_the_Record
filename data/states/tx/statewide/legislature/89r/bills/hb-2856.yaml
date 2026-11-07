@@ -1,0 +1,235 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 2856
+caption: Relating to a study by the Texas Higher Education Coordinating Board on the feasibility of implementing a statewide system for coordinating clinical training placements.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/hb-2856#L-01
+  headline: Filed without the Governor's signature (June 20, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB2856
+  source_title: 'Texas Legislature Online: HB 2856, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-04-29'
+  record: 781
+  tally:
+    yeas: 105
+    nays: 41
+    present_not_voting: 1
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Cunningham
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Hayes
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Hull
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Muñoz
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Simmons
+    - Smithee
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Bumgarner
+    - Cain
+    - Canales
+    - Cook
+    - Craddick
+    - Curry
+    - Gates
+    - Harris Davila
+    - Harrison
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Isaac
+    - Kerwin
+    - Leo Wilson
+    - Little
+    - Louderback
+    - Lowe
+    - Lozano
+    - Luther
+    - Metcalf
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Paul
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Virdell
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused_committee:
+    - Walle
+    absent:
+    - DeAyala
+    - Morales Shaw
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2856#V-01
+    headline: 'House: passed, 105-41 (April 29, 2025)'
+    statement: 'The House Journal records that "HB 2856 was passed by (Record 781): 105 Yeas, 41 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY52FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 52nd Day (page 2221)
+    source_kind: document
+    sha256: c76d83d3b71f69e04827f38fb52e15deff73275f3b9e9c468b823c40801a7f57
+    archive_url: null
+    event_date: '2025-04-29'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-25'
+  record: null
+  tally:
+    yeas: 28
+    nays: 3
+  names:
+    nays:
+    - Hall
+    - Hughes
+    - Sparks
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2856#V-02
+    headline: 'Senate: passed, 28-3 (May 25, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (viva voce vote) (28-3) "Nays" Hall, Hughes, Sparks (28-3) "Nays" Hall, Hughes, Sparks" With 31 seats in the Senate, every senator not listed as voting no voted yes.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-25-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 25, 2025 (page 2515)
+    source_kind: document
+    sha256: bf282f0af10d9ba2bac0a660fae41d182df666f306f7ab97ad96043fae850dff
+    archive_url: null
+    event_date: '2025-05-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

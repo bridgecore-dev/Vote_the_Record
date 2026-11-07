@@ -1,0 +1,447 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 148
+caption: Relating to the qualification of candidates for, and the training and education of members of, the board of directors of an appraisal district.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-148#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB148
+  source_title: 'Texas Legislature Online: HB 148, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-04-29'
+  record: 750
+  tally:
+    yeas: 109
+    nays: 34
+    present_not_voting: 2
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Lujan
+    - Manuel
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Shaheen
+    - Simmons
+    - Smithee
+    - Talarico
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Bumgarner
+    - Cain
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Holt
+    - Hopper
+    - Leo Wilson
+    - Little
+    - Louderback
+    - Lowe
+    - Lozano
+    - Luther
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Pierson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shofner
+    - Slawson
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Virdell
+    present_not_voting:
+    - Mr. Speaker(C)
+    - Canales
+    absent_excused_committee:
+    - Walle
+    absent:
+    - Bernal
+    - Bhojani
+    - DeAyala
+    - Martinez
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-148#V-01
+    headline: 'House: passed, 109-34 (April 29, 2025)'
+    statement: 'The House Journal records that "HB 148 was passed by (Record 750): 109 Yeas, 34 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY52FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 52nd Day (page 2195)
+    source_kind: document
+    sha256: c76d83d3b71f69e04827f38fb52e15deff73275f3b9e9c468b823c40801a7f57
+    archive_url: null
+    event_date: '2025-04-29'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-19'
+  record: null
+  tally:
+    yeas: 27
+    nays: 4
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - West
+    - Zaffirini
+    nays:
+    - Creighton
+    - Hughes
+    - Middleton
+    - Sparks
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-148#V-02
+    headline: 'Senate: passed, 27-4 (May 19, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 27, Nays 4. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-19-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 19, 2025 (page 2235)
+    source_kind: document
+    sha256: 1db56a01633faea488123e098132d498ee5179f068fd9388613df5540bb5c86d
+    archive_url: null
+    event_date: '2025-05-19'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-23'
+  record: 3435
+  tally:
+    yeas: 100
+    nays: 38
+    present_not_voting: 2
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Geren
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Isaac
+    - Jones, J.
+    - Jones, V.
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Leach
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Simmons
+    - Smithee
+    - Swanson
+    - Talarico
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    nays:
+    - Alders
+    - Bumgarner
+    - Cain
+    - Cunningham
+    - Gerdes
+    - Harris Davila
+    - Harrison
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Kerwin
+    - LaHood
+    - Leo Wilson
+    - Little
+    - Louderback
+    - Lowe
+    - Lozano
+    - Luther
+    - McQueeney
+    - Metcalf
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Patterson
+    - Pierson
+    - Schatzline
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Spiller
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Virdell
+    present_not_voting:
+    - Mr. Speaker
+    - Landgraf(C)
+    absent_excused:
+    - Campos
+    - Garcia, J.
+    - Harris
+    - Johnson
+    - Paul
+    - Zwiener
+    absent_excused_committee:
+    - Hunter
+    absent:
+    - Gervin-Hawkins
+    - Romero
+    - Walle
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-148#V-03
+    headline: 'House: concurred in the Senate''s amendments, 100-38 (May 23, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 148 prevailed by (Record 3435): 100 Yeas, 38 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY71FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 71st Day (page 5950)
+    source_kind: document
+    sha256: 41c65c87ba564c421c36154d6db85e50de3e15f2ca84d68e11200a8b17dcad9c
+    archive_url: null
+    event_date: '2025-05-23'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -208,8 +208,11 @@ def build(root: Path, out: Path, *, demo: bool = False, config_path: Path | None
     place_template, person_template = env.get_template("officials_place.html"), env.get_template("person.html")
     for place in officials["places"]:
         pages[place["url"]] = place_template.render(place=place, page="officials")
+    votes_template = env.get_template("person_votes.html")
     for person in officials["people"]:
         pages[person["url"]] = person_template.render(person=person, facts=site["facts"], page="officials")
+        if person["leg_votes"]:
+            pages[f"{person['url']}votes/"] = votes_template.render(person=person, page="officials")
     tmp = Path(tempfile.mkdtemp(prefix="vtr-build-"))
     for url_path, html in pages.items():
         write_page(tmp, url_path, html)

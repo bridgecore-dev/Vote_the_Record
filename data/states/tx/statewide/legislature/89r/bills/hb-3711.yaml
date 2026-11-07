@@ -1,0 +1,446 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 3711
+caption: Relating to assistance in the investigation of certain open meetings offenses by the open records division of the attorney general's office.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-3711#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB3711
+  source_title: 'Texas Legislature Online: HB 3711, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-04-29'
+  record: 758
+  tally:
+    yeas: 131
+    nays: 13
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Cain
+    - Canales
+    - Gervin-Hawkins
+    - Harrison
+    - Hopper
+    - Lowe
+    - Luther
+    - Money
+    - Olcott
+    - Swanson
+    - Toth
+    - Vasut
+    - Virdell
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused_committee:
+    - Walle
+    absent:
+    - Collier
+    - Gámez
+    - Richardson
+    - Romero
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3711#V-01
+    headline: 'House: passed, 131-13 (April 29, 2025)'
+    statement: 'The House Journal records that "HB 3711 was passed by (Record 758): 131 Yeas, 13 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY52FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 52nd Day (page 2202)
+    source_kind: document
+    sha256: c76d83d3b71f69e04827f38fb52e15deff73275f3b9e9c468b823c40801a7f57
+    archive_url: null
+    event_date: '2025-04-29'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-26'
+  record: null
+  tally:
+    yeas: 26
+    nays: 5
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Gutierrez
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Alvarado
+    - Cook
+    - Eckhardt
+    - Hagenbuch
+    - Miles
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3711#V-02
+    headline: 'Senate: passed, 26-5 (May 26, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 26, Nays 5. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-26-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 26, 2025 (page 2758)
+    source_kind: document
+    sha256: cc2c380225c07bc1bf00b1f24c66e45e5c10fba3d5c3194040850783b1b4f74b
+    archive_url: null
+    event_date: '2025-05-26'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-28'
+  record: 4009
+  tally:
+    yeas: 82
+    nays: 40
+    present_not_voting: 1
+  names:
+    yeas:
+    - Ashby
+    - Barry
+    - Bonnen
+    - Bowers
+    - Buckley
+    - Bumgarner
+    - Campos
+    - Capriglione
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lujan
+    - Luther
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Schatzline
+    - Shaheen
+    - Spiller
+    - Swanson
+    - Tepper
+    - Troxclair
+    - VanDeaver
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    nays:
+    - Bernal
+    - Bhojani
+    - Bryant
+    - Bucy
+    - Cain
+    - Cole
+    - Collier
+    - Davis, Y.
+    - Dutton
+    - Flores
+    - Garcia, L.
+    - Garcia Hernandez
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Harrison
+    - Howard
+    - Jones, V.
+    - Lowe
+    - Manuel
+    - Moody
+    - Morales, C.
+    - Olcott
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Shofner
+    - Simmons
+    - Slawson
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Turner
+    - Vasut
+    - Vo
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Allen
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Jones, J.
+    - Kerwin
+    - Longoria
+    - Money
+    - Talarico
+    absent:
+    - Alders
+    - Bell, C.
+    - Bell, K.
+    - Button
+    - Canales
+    - Dean
+    - Hernandez
+    - LaHood
+    - Lopez, R.
+    - Lozano
+    - Martinez Fischer
+    - Perez, V.
+    - Rose
+    - Smithee
+    - Villalobos
+    - Virdell
+    - Wu
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3711#V-03
+    headline: 'House: concurred in the Senate''s amendments, 82-40 (May 28, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 3711 prevailed by (Record 4009): 82 Yeas, 40 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 7081)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

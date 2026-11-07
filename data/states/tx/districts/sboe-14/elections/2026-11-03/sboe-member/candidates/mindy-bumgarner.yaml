@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Bumgarner, Caroline M. (Mrs.), campaign finance report 101069824 (filed Oct 5, 2026)'
   source_kind: document
   sha256: dcfd70ef46febfecebde1d6b5624d2c735986f6104f8531f08090caadc81a39c
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106012259/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069824.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Bumgarner, Caroline M. (Mrs.), campaign finance report 101072955 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 00faaf3e912a0e35ad18de8cd5e0231924d11b2b2007003f60fabf824f642e2f
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106012322/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072955.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

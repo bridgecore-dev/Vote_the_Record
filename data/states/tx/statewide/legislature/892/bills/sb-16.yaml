@@ -1,0 +1,260 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: '892'
+bill: SB 16
+caption: Relating to real property theft and real property fraud; establishing recording requirements for certain documents concerning real property; creating the criminal offenses of real property theft and real property fraud and establishing a statute of limitations, restitution, and certain procedures with respect to those offenses.
+became_law: signed
+law:
+  id: tx/statewide/legislature/892/bills/sb-16#L-01
+  headline: Signed by the Governor (September 17, 2025)
+  statement: The bill history records "Signed by the Governor" on September 17, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB16
+  source_title: 'Texas Legislature Online: SB 16, 89th Legislature, 2nd Called Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-09-17'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-08-18'
+  record: null
+  tally:
+    yeas: 30
+    nays: 0
+  names: null
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-16#V-01
+    headline: 'Senate: passed, 30-0 (August 18, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 30, Nays 0."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ08-18-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, August 18, 2025 (page 16)
+    source_kind: document
+    sha256: 5ebd3d8241422fb187d9b29a1633b93470a1e6ef2184fe4dad2bd4e23929b1a8
+    archive_url: null
+    event_date: '2025-08-18'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-08-26'
+  record: 84
+  tally:
+    yeas: 138
+    nays: 0
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Walle
+    - WardJohnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr.Speaker(C)
+    absent_excused:
+    - Campos
+    - Geren
+    - Morales Shaw
+    - Noble
+    - Phelan
+    - Reynolds
+    - Vo
+    absent:
+    - Garcia,J
+    - Martinez
+    - Morales,C
+    - RodríguezRamos
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-16#V-02
+    headline: 'House: passed, 138-0 (August 26, 2025)'
+    statement: 'The House Journal records that "SB 16waspassedby (Record 84): 138 Yeas, 0 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/892/pdf/89C2DAY08FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, 2nd Called Session, 8th Day (page 235)
+    source_kind: document
+    sha256: 09602eb7b2758836671a4e9e04a2b83f19b51e8a030b30f02064585a6aa33d83
+    archive_url: null
+    event_date: '2025-08-26'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-08-27'
+  record: null
+  tally:
+    yeas: 27
+    nays: 0
+  names:
+    absent_excused:
+    - Eckhardt
+    - Miles
+    - West
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-16#V-03
+    headline: 'Senate: concurred in the House''s amendments, 27-0 (August 27, 2025)'
+    statement: 'The Senate Journal records that "The motion prevailed by the following vote: Yeas 27, Nays 0."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ08-27-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, August 27, 2025 (page 97)
+    source_kind: document
+    sha256: 37ecd5a95bf0810df963ef136eec8d94631e507c92c94ec08c4d06cf7502cfa0
+    archive_url: null
+    event_date: '2025-08-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

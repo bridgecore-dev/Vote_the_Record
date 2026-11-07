@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Ho, Andie, campaign finance report 101071735 (filed Oct 25, 2026)'
   source_kind: document
   sha256: 0385aa0e634832fb23000b04c86f19a7821dfb07f584988f944b8ebd0517363f
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106021121/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071735.PDF
   event_date: '2026-10-24'
   retrieved: '2026-11-02'
   verification: unverified

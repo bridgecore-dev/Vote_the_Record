@@ -1,0 +1,505 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 37
+caption: Relating to the governance of public institutions of higher education, including review of curriculum and certain degree and certificate programs, a faculty council or senate, training for members of the governing board, and the establishment, powers, and duties of the Texas Higher Education Coordinating Board Office of the Ombudsman.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-37#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB37
+  source_title: 'Texas Legislature Online: SB 37, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-16'
+  record: null
+  tally:
+    yeas: 20
+    nays: 11
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - J. Hinojosa
+    - Johnson
+    - Menéndez
+    - Miles
+    - West
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-37#V-01
+    headline: 'Senate: passed, 20-11 (April 16, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 20, Nays 11. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-16-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 16, 2025 (page 1355)
+    source_kind: document
+    sha256: eca8f44d40dda7a5197277f38cb610a396c91e345462ab4d9ea1d03281f0d730
+    archive_url: null
+    event_date: '2025-04-16'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-25'
+  record: 3535
+  tally:
+    yeas: 85
+    nays: 56
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - Geren
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Phelan
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Allen
+    - Anchía
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Campos
+    - Canales
+    - Cole
+    - Collier
+    - Davis, A.
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, J.
+    - Lalani
+    - Longoria
+    - Lopez, R.
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Raymond
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Talarico
+    - Thompson
+    - Turner
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Cortez
+    - Davis, Y.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Meza
+    - Reynolds
+    absent_excused_committee:
+    - Lopez, J.
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-37#V-02
+    headline: 'House: passed, 85-56 (May 25, 2025)'
+    statement: 'The House Journal records that "(Speaker in the chair) (Hernandez now present) SB 37 was passed by (Record 3535): 85 Yeas, 56 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY73FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 73rd Day (page 6126)
+    source_kind: document
+    sha256: 6b608977e6ec44609bdeef7c367c84df33ca89a026c9e75f7a523fad98a4c61d
+    archive_url: null
+    event_date: '2025-05-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: adopted the conference committee report
+  date: '2025-05-31'
+  record: null
+  tally:
+    yeas: 20
+    nays: 11
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - J. Hinojosa
+    - Johnson
+    - Menéndez
+    - Miles
+    - West
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-37#V-03
+    headline: 'Senate: adopted the conference committee report, 20-11 (May 31, 2025)'
+    statement: 'The Senate Journal records that "On motion of Senator Creighton, the Conference Committee Report was adopted by the following vote: Yeas 20, Nays 11."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-31-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 31, 2025 (page 3688)
+    source_kind: document
+    sha256: 0f9700a346d24062f98fba8cc758cb3f6c692819a04b4dfee416737250f38b17
+    archive_url: null
+    event_date: '2025-05-31'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: adopted the conference committee report
+  date: '2025-05-31'
+  record: 4104
+  tally:
+    yeas: 83
+    nays: 47
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Capriglione
+    - Cook
+    - Craddick
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - Geren
+    - Guerra
+    - Guillen
+    - Harris Davila
+    - Harrison
+    - Hefner
+    - Hickland
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Kerwin
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Pierson
+    - Raymond
+    - Richardson
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Anchía
+    - Bernal
+    - Bowers
+    - Bryant
+    - Bucy
+    - Campos
+    - Canales
+    - Cole
+    - Collier
+    - Cortez
+    - Davis, A.
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Hayes
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Jones, J.
+    - Lalani
+    - Longoria
+    - Lopez, R.
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - Moody
+    - Morales, E.
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Rodríguez Ramos
+    - Romero
+    - Rosenthal
+    - Talarico
+    - Thompson
+    - Turner
+    - Vo
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Allen
+    - Cunningham
+    - Garcia, L.
+    - Harless
+    - Harris
+    - Holt
+    - Morales, C.
+    - Morales Shaw
+    - Phelan
+    - Rose
+    - Schatzline
+    - Tinderholt
+    - Walle
+    absent:
+    - Davis, Y.
+    - Jones, V.
+    - King
+    - Reynolds
+    - Simmons
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-37#V-04
+    headline: 'House: adopted the conference committee report, 83-47 (May 31, 2025)'
+    statement: 'The House Journal records that "The motion to adopt the conference committee report on SB 37 prevailed by (Record 4104): 83 Yeas, 47 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY79FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 79th Day (page 7679)
+    source_kind: document
+    sha256: 00f9c4f013e4c7be6936765c99ca29db9f5aa8dc1e19069d20f1e326a5ed8268
+    archive_url: null
+    event_date: '2025-05-31'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

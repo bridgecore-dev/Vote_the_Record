@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Palmer, Michelle L. (Ms.), campaign finance report 101072010 (filed Oct 25, 2026)'
   source_kind: document
   sha256: fceef32399386db08c5ed4210ae523d19711eb0a4041570da6182ccfdf741d97
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106013041/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072010.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -57,6 +57,66 @@ def office_rows(holders: list[dict], today: str) -> tuple[list[dict], list[dict]
     return current, [h for h in holders if h not in current]
 
 
+HOW = {"yeas": "Voted yes", "nays": "Voted no", "present_not_voting": "Present, not voting",
+       "absent": "Absent", "absent_excused": "Absent, excused", "absent_excused_committee": "Absent, excused (committee meeting)"}
+CHAMBER = {"house": "House", "senate": "Senate"}
+
+
+def legislature_votes(docs: dict) -> dict[tuple[str, str], list[dict]]:
+    """(state, person) -> their final-passage votes on bills that became law, newest first.
+
+    Names are matched only through the session's members file, exactly as the journal prints them. A Senate
+    vote printed only as a tally counts a senator as yes only when it is marked every_member, and only a senator
+    on the session's printed roll (senate_roll) who isn't named as a nay.
+    """
+    members: dict[tuple[str, str, str], dict[str, str]] = {}  # (state, session, chamber) -> printed -> person
+    roster: dict[tuple[str, str, str], list[str]] = {}
+    for rel, (kind, doc) in docs.items():
+        if kind == "legislature_members":
+            state, folder = rel.split("/")[2], rel.split("/")[5]
+            for m in doc["members"]:
+                if m["person"]:
+                    for name in m["printed"]:
+                        members.setdefault((state, folder, m["chamber"]), {})[name] = m["person"]
+            if doc.get("senate_roll"):
+                roster[(state, folder, "senate")] = doc["senate_roll"]["names"]
+    out: dict[tuple[str, str], list[dict]] = {}
+    for rel, (kind, doc) in docs.items():
+        if kind != "legislature_bill":
+            continue
+        state, folder = rel.split("/")[2], rel.split("/")[5]
+        for v in doc["votes"]:
+            key = (state, folder, v["chamber"])
+            how: dict[str, str] = {}
+            for cat, names in (v["names"] or {}).items():
+                for name in names:
+                    if name in members.get(key, {}):
+                        how[members[key][name]] = cat
+            if v["every_member"]:
+                for name in roster.get(key, []):
+                    if name in members.get(key, {}):
+                        how.setdefault(members[key][name], "yeas")
+            tally = v["tally"]
+            result = (f"{'Passed' if v['action'].startswith('passed') else 'Approved in'} the {CHAMBER[v['chamber']]} "
+                      f"{tally['yeas']}-{tally['nays']}") if tally else f"No record vote in the {CHAMBER[v['chamber']]}"
+            for person, cat in how.items():
+                out.setdefault((state, person), []).append({
+                    "bill": doc["bill"], "caption": doc["caption"], "session": doc["session"], "how": HOW[cat],
+                    "cat": cat, "action": v["action"], "date": v["date"], "result": result, "fact": v["fact"],
+                    "chamber": CHAMBER[v["chamber"]]})
+    for votes in out.values():
+        votes.sort(key=lambda r: (r["date"], r["bill"]), reverse=True)
+    return out
+
+
+def leg_summary(votes: list[dict]) -> dict | None:
+    if not votes:
+        return None
+    counts = {label: sum(v["how"] == label for v in votes) for label in dict.fromkeys(HOW.values())}
+    return {"total": len(votes), "bills": len({(v["session"], v["bill"]) for v in votes}),
+            "counts": {k: n for k, n in counts.items() if n}}
+
+
 def assemble_officials(docs: dict, races: list[dict], facts: dict, today: str) -> dict:
     people = {}
     for rel, (kind, doc) in docs.items():
@@ -115,6 +175,10 @@ def assemble_officials(docs: dict, races: list[dict], facts: dict, today: str) -
                            for key, title, _ in LEVELS if any(s["level"] == key for s in place["seats"])]
         place["people_count"] = len({h["person"] for s in place["seats"] for h in s["current"]})
 
+    for (state, slug), votes in legislature_votes(docs).items():
+        if (state, slug) in people:
+            people[(state, slug)]["leg_votes"] = votes
+
     for person in people.values():
         cands = []
         for path in person["candidacies"]:
@@ -142,7 +206,10 @@ def assemble_officials(docs: dict, races: list[dict], facts: dict, today: str) -
             "said": said, "campaign": campaign, "promises": promises,
             "promise_card": promise_score(promises) if promises else None,
             "money": money, "summary_facts": summary,
-            "researched": person.get("research") != "pending" or bool(records or said or campaign or money),
+            "leg_votes": person.get("leg_votes") or [],
+            "leg_summary": leg_summary(person.get("leg_votes") or []),
+            "researched": person.get("research") != "pending" or bool(records or said or campaign or money
+                                                                      or person.get("leg_votes")),
             "initials": "".join(w[0] for w in person["name"].split()[:2]).upper(),
         })
         person["seats"].sort(key=lambda s: LEVEL_RANK.get(s["level"], 0))

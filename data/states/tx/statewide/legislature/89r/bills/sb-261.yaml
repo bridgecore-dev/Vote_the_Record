@@ -1,0 +1,324 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 261
+caption: Relating to a prohibition on the offering for sale and the sale of cell-cultured protein for human consumption; providing civil and criminal penalties.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-261#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB261
+  source_title: 'Texas Legislature Online: SB 261, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-12'
+  record: null
+  tally:
+    yeas: 26
+    nays: 4
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Cook
+    - Eckhardt
+    - Hagenbuch
+    - Johnson
+    absent_excused:
+    - Gutierrez
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-261#V-01
+    headline: 'Senate: passed, 26-4 (May 12, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 26, Nays 4. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-12-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 12, 2025 (page 1977)
+    source_kind: document
+    sha256: 15e84917d7f87d30177c8754260618897916ce6dda780e7f58d56e32fc91312d
+    archive_url: null
+    event_date: '2025-05-12'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-25'
+  record: 3505
+  tally:
+    yeas: 99
+    nays: 36
+    present_not_voting: 3
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bonnen
+    - Bryant
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Canales
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - Geren
+    - González, M.
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris(C)
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morales, C.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Phelan
+    - Pierson
+    - Raymond
+    - Richardson
+    - Romero
+    - Rose
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Allen
+    - Bhojani
+    - Bowers
+    - Bucy
+    - Campos
+    - Cole
+    - Davis, A.
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Gervin-Hawkins
+    - González, J.
+    - Goodwin
+    - Harrison
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, J.
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Rodríguez Ramos
+    - Rosenthal
+    - Simmons
+    - Talarico
+    - Turner
+    - Vo
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Anchía
+    - Lalani
+    absent_excused:
+    - Cortez
+    - Davis, Y.
+    - Jones, V.
+    - Kerwin
+    - Meza
+    - Reynolds
+    - Walle
+    absent:
+    - Collier
+    - Garcia Hernandez
+    - Lopez, R.
+    - Martinez Fischer
+    - Plesa
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-261#V-02
+    headline: 'House: passed, 99-36 (May 25, 2025)'
+    statement: 'The House Journal records that "SB 261 was passed by (Record 3505): 99 Yeas, 36 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY73FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 73rd Day (page 6088)
+    source_kind: document
+    sha256: 6b608977e6ec44609bdeef7c367c84df33ca89a026c9e75f7a523fad98a4c61d
+    archive_url: null
+    event_date: '2025-05-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-28'
+  record: null
+  tally:
+    yeas: 27
+    nays: 4
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Gutierrez
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Cook
+    - Eckhardt
+    - Hagenbuch
+    - Johnson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-261#V-03
+    headline: 'Senate: concurred in the House''s amendments, 27-4 (May 28, 2025)'
+    statement: 'The Senate Journal records that "Senator Perry moved to concur in the House amendment toSB 261. The motion prevailed by the following vote: Yeas 27, Nays 4."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-28-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 28, 2025 (page 3047)
+    source_kind: document
+    sha256: 8b236c6d093f3f3e325e5c04732391cf5735314d035c8778791c078501cc6cf7
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

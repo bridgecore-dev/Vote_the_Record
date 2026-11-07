@@ -1,0 +1,264 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 546
+caption: Relating to seat belts on buses that transport children.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-546#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB546
+  source_title: 'Texas Legislature Online: SB 546, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-22'
+  record: null
+  tally:
+    yeas: 23
+    nays: 8
+  names:
+    yeas:
+    - Alvarado
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - West
+    - Zaffirini
+    nays:
+    - Bettencourt
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - Hughes
+    - Middleton
+    - Sparks
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-546#V-01
+    headline: 'Senate: passed, 23-8 (April 22, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 23, Nays 8."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-22-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 22, 2025 (page 1385)
+    source_kind: document
+    sha256: 8ee05d0e2a9b4d5696dee6009135b2351edb56c3412ddcd5f4fcaee8844b0a5d
+    archive_url: null
+    event_date: '2025-04-22'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-27'
+  record: 3665
+  tally:
+    yeas: 104
+    nays: 38
+    present_not_voting: 2
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Barry
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Capriglione
+    - Cole
+    - Collier
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Ordaz
+    - Patterson
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Shaheen
+    - Simmons
+    - Smithee
+    - Talarico
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Bell, C.
+    - Bumgarner
+    - Cain
+    - Cook
+    - Gates
+    - Harris Davila
+    - Harrison
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Isaac
+    - Kerwin
+    - LaHood
+    - Leo Wilson
+    - Lowe
+    - Luther
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Paul
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schoolcraft
+    - Shofner
+    - Slawson
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Bowers
+    - Canales
+    - Vo
+    absent:
+    - Campos
+    - Cortez
+    - Virdell
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-546#V-02
+    headline: 'House: passed, 104-38 (May 27, 2025)'
+    statement: 'The House Journal records that "SB 546 was passed by (Record 3665): 104 Yeas, 38 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY75FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 75th Day (page 6426)
+    source_kind: document
+    sha256: 868822869c0eef8f9048b39efdbe35ce0761588a3748ce99994e586513b0309b
+    archive_url: null
+    event_date: '2025-05-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

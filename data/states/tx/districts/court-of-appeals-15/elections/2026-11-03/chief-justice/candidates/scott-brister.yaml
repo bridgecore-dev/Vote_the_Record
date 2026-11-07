@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Brister, Scott A. (The Honorable), campaign finance report 101068309 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 846d3a9625c700288743a839528dcb41fee1e5a4b6130d791f37f4ba4c7c1bb6
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106001446/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068309.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Brister, Scott A. (The Honorable), campaign finance report 101071984 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 7fda1c1bdfa998c564bc070caa92cadfdb10e30cef52cdc063ed67576b3f493e
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106001511/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071984.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

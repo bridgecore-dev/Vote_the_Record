@@ -1,0 +1,413 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 3848
+caption: Relating to the electronic submission of inspection reports and filing fees for the inspection of elevators, escalators, and related equipment.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-3848#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB3848
+  source_title: 'Texas Legislature Online: HB 3848, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed as amended
+  date: '2025-05-10'
+  record: 2041
+  tally:
+    yeas: 116
+    nays: 16
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Morales, C.
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Shaheen
+    - Simmons
+    - Smithee
+    - Spiller
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Cain
+    - Harrison
+    - Leo Wilson
+    - Lowe
+    - Money
+    - Olcott
+    - Oliverson
+    - Schatzline
+    - Schoolcraft
+    - Shofner
+    - Slawson
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Vasut
+    - Virdell
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    absent_excused:
+    - Bernal
+    - Bryant
+    - Canales
+    - Davis, Y.
+    - Goodwin
+    - Hefner
+    - Holt
+    - Martinez Fischer
+    - Meza
+    - Moody
+    - Morales Shaw
+    - Ordaz
+    - Perez, M.
+    - Talarico
+    - Vo
+    absent:
+    - Dutton
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3848#V-01
+    headline: 'House: passed as amended, 116-16 (May 10, 2025)'
+    statement: 'The House Journal records that "HB 3848, as amended, was passed by (Record 2041): 116 Yeas, 16 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY61FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 61st Day (page 3930)
+    source_kind: document
+    sha256: 17b98063a57fa78ef5ec2609667520c82a562fa0d9207cc4247b037be8e186eb
+    archive_url: null
+    event_date: '2025-05-10'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-28'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3848#V-02
+    headline: 'Senate: passed, 31-0 (May 28, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (viva voce vote) (31-0) (31-0)" With 31 seats in the Senate, every senator not listed as voting no voted yes.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-28-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 28, 2025 (page 3157)
+    source_kind: document
+    sha256: 8b236c6d093f3f3e325e5c04732391cf5735314d035c8778791c078501cc6cf7
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-30'
+  record: 4088
+  tally:
+    yeas: 101
+    nays: 30
+    present_not_voting: 2
+  names:
+    yeas:
+    - Anchía
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bucy
+    - Button
+    - Canales
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hefner
+    - Hernandez
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Lozano
+    - Luther
+    - Martinez
+    - Martinez Fischer
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Shaheen
+    - Simmons
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Walle
+    - Ward Johnson
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Barry
+    - Bumgarner
+    - Cain
+    - Cook
+    - Gerdes
+    - Harrison
+    - Hayes
+    - Hickland
+    - Hopper
+    - Hull
+    - Isaac
+    - Leach
+    - Leo Wilson
+    - Lowe
+    - McLaughlin
+    - Money
+    - Olcott
+    - Oliverson
+    - Schofield
+    - Schoolcraft
+    - Shofner
+    - Slawson
+    - Smithee
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Wharton
+    present_not_voting:
+    - Mr. Speaker
+    - Landgraf(C)
+    absent_excused:
+    - Allen
+    - Garcia, J.
+    - Harris
+    - Jones, V.
+    - Lambert
+    - Phelan
+    absent:
+    - Bryant
+    - Buckley
+    - Campos
+    - Capriglione
+    - Davis, A.
+    - Louderback
+    - Lujan
+    - Manuel
+    - Reynolds
+    - Vasut
+    - Vo
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3848#V-03
+    headline: 'House: concurred in the Senate''s amendments, 101-30 (May 30, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 3848 prevailed by (Record 4088): 101 Yeas, 30 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY78FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 78th Day (page 7570)
+    source_kind: document
+    sha256: f797cbdb3518523cfecbb02edd2dd1a0d59963ceec0ce949dc603db8a0a98807
+    archive_url: null
+    event_date: '2025-05-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

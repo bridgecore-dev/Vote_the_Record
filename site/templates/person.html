@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% from "partials/macros.html" import fact_list, fact_card, verification_badge, source_line, report_link %}
 {% from "partials/icons.html" import icon %}
+{% from "partials/legislature.html" import leg_vote %}
 {% block title %}{{ person.name }}{% endblock %}
 {% block description %}{{ person.name }}: offices held, recorded votes and actions, statements, and campaign finance, each with its source.{% endblock %}
 {% block content %}
@@ -16,6 +17,14 @@
 <section id="record" aria-labelledby="record-h">
   <h2 id="record-h">On the record</h2>
   <p class="muted">Recorded votes first, then other actions, newest first. The same order for everyone.</p>
+  {% if person.leg_summary %}
+  {% set ls = person.leg_summary %}
+  <h3>Votes in the Texas Legislature</h3>
+  <p>On {{ "{:,}".format(ls.bills) }} bill{{ "" if ls.bills == 1 else "s" }} that became law ({{ "{:,}".format(ls.total) }} final vote{{ "" if ls.total == 1 else "s" }}):
+    {% for label, n in ls.counts.items() %}{{ label | lower }} {{ "{:,}".format(n) }}{% if not loop.last %} · {% endif %}{% endfor %}.</p>
+  <ul class="item-list">{% for v in person.leg_votes[:5] %}{{ leg_vote(v) }}{% endfor %}</ul>
+  <p><a href="{{ person.url }}votes/">All {{ "{:,}".format(ls.total) }} votes</a> · <a href="/methodology/#votes-in-the-texas-legislature">Which votes we show</a></p>
+  {% endif %}
   {% if person.all_records %}
   <ul class="item-list">{% for fact in person.all_records %}{{ fact_card(fact, facts) }}{% endfor %}</ul>
   {% elif not person.researched %}

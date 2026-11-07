@@ -1,0 +1,264 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 857
+caption: Relating to the authorized removal of certain motor vehicles.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-857#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB857
+  source_title: 'Texas Legislature Online: SB 857, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-03'
+  record: null
+  tally:
+    yeas: 24
+    nays: 7
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Hall
+    - Hughes
+    - Middleton
+    - Perry
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-857#V-01
+    headline: 'Senate: passed, 24-7 (April 3, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 24, Nays 7."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-03-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 3, 2025 (page 897)
+    source_kind: document
+    sha256: 9a165918fb5a67b22d5703456b2e2e944176c8a3ae92bf02b4305de62eab3551
+    archive_url: null
+    event_date: '2025-04-03'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-28'
+  record: 3913
+  tally:
+    yeas: 83
+    nays: 54
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dutton
+    - Dyson
+    - Fairly
+    - Frank
+    - Garcia, J.
+    - Garcia, L.
+    - Gates
+    - Gerdes
+    - Geren
+    - González, J.
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hickland
+    - Hunter
+    - Isaac
+    - Johnson
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Leach
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Meyer
+    - Money
+    - Morales, C.
+    - Morales, E.
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, V.
+    - Phelan
+    - Raymond
+    - Rodríguez Ramos
+    - Schofield
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Smithee
+    - Tepper
+    - Tinderholt
+    - Troxclair
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Ward Johnson
+    - Wharton
+    - Zwiener
+    nays:
+    - Allen
+    - Bernal
+    - Bhojani
+    - Bumgarner
+    - Cain
+    - Cole
+    - Collier
+    - Cook
+    - Davis, Y.
+    - Dorazio
+    - Flores
+    - Gámez
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - González, M.
+    - Goodwin
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Jones, J.
+    - Jones, V.
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Luther
+    - Metcalf
+    - Moody
+    - Morales Shaw
+    - Olcott
+    - Perez, M.
+    - Pierson
+    - Plesa
+    - Reynolds
+    - Richardson
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schoolcraft
+    - Slawson
+    - Spiller
+    - Swanson
+    - Thompson
+    - Toth
+    - Turner
+    - Vasut
+    - Vo
+    - Walle
+    - Wilson
+    - Wu
+    present_not_voting:
+    - Mr. Speaker
+    - Landgraf(C)
+    absent_excused:
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Kerwin
+    - Longoria
+    - Talarico
+    absent:
+    - Bucy
+    - Lalani
+    - Meza
+    - Morgan
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-857#V-02
+    headline: 'House: passed, 83-54 (May 28, 2025)'
+    statement: 'The House Journal records that "SB 857 was passed by (Record 3913): 83 Yeas, 54 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 6764)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

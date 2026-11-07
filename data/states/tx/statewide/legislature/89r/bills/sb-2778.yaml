@@ -1,0 +1,687 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2778
+caption: Relating to the amount of an expenditure that may be paid by an emergency services district employee without board approval.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2778#L-01
+  headline: Filed without the Governor's signature (June 20, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2778
+  source_title: 'Texas Legislature Online: SB 2778, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-06'
+  record: null
+  tally:
+    yeas: 29
+    nays: 2
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Hancock
+    - Hughes
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2778#V-01
+    headline: 'Senate: passed, 29-2 (May 6, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 29, Nays 2. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-06-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 6, 2025 (page 1780)
+    source_kind: document
+    sha256: fba289bbabac13b646abc9e228418044b925b1373947164d1f8abc2593c69108
+    archive_url: null
+    event_date: '2025-05-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-23'
+  record: 3321
+  tally:
+    yeas: 86
+    nays: 49
+    present_not_voting: 3
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Buckley
+    - Bucy
+    - Button
+    - Capriglione
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Davis, A.
+    - Davis, Y.
+    - Dorazio
+    - Dutton
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Howard
+    - Hunter
+    - Isaac
+    - Jones, J.
+    - Jones, V.
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Longoria
+    - Lopez, J.
+    - Lujan
+    - Manuel
+    - Martinez
+    - McQueeney
+    - Metcalf
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Shofner
+    - Simmons
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Barry
+    - Bonnen
+    - Bumgarner
+    - Cain
+    - Canales
+    - Collier
+    - Cook
+    - Darby
+    - Dean
+    - DeAyala
+    - Dyson
+    - Fairly
+    - Gates
+    - Guerra
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Holt
+    - Hopper
+    - Hull
+    - Kerwin
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Louderback
+    - Lozano
+    - McLaughlin
+    - Meyer
+    - Money
+    - Morgan
+    - Olcott
+    - Orr
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Slawson
+    - Spiller
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Patterson(C)
+    - Virdell
+    absent_excused:
+    - Bryant
+    - Campos
+    - Garcia, J.
+    - Harris
+    - Johnson
+    - Paul
+    - Smithee
+    absent:
+    - Cole
+    - Lopez, R.
+    - Lowe
+    - Luther
+    - Martinez Fischer
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2778#V-02
+    headline: 'House: passed, 86-49 (May 23, 2025)'
+    statement: 'The House Journal records that "Lopez SB 2778 was passed by (Record 3321): 86 Yeas, 49 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY71FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 71st Day (page 5765)
+    source_kind: document
+    sha256: 41c65c87ba564c421c36154d6db85e50de3e15f2ca84d68e11200a8b17dcad9c
+    archive_url: null
+    event_date: '2025-05-23'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed as amended
+  date: '2025-05-23'
+  record: 3380
+  tally:
+    yeas: 108
+    nays: 33
+    present_not_voting: 1
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - Dorazio
+    - Dutton
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Howard
+    - Hunter
+    - Isaac
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - Metcalf
+    - Meza
+    - Money
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    nays:
+    - Alders
+    - Bonnen
+    - Cain
+    - Canales
+    - Cook
+    - DeAyala
+    - Dyson
+    - Gates
+    - Harrison
+    - Holt
+    - Hopper
+    - Hull
+    - LaHood
+    - Leach
+    - Leo Wilson
+    - Lowe
+    - McQueeney
+    - Meyer
+    - Morgan
+    - Muñoz
+    - Olcott
+    - Pierson
+    - Schatzline
+    - Schofield
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Spiller
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Campos
+    - Garcia, J.
+    - Harris
+    - Johnson
+    - Paul
+    - Smithee
+    - Zwiener
+    absent:
+    - Schoolcraft
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2778#V-03
+    headline: 'House: passed as amended, 108-33 (May 23, 2025)'
+    statement: 'The House Journal records that "SB 2778, as amended, was passed by (Record 3380): 108 Yeas, 33 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY71FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 71st Day (page 5822)
+    source_kind: document
+    sha256: 41c65c87ba564c421c36154d6db85e50de3e15f2ca84d68e11200a8b17dcad9c
+    archive_url: null
+    event_date: '2025-05-23'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: adopted the conference committee report
+  date: '2025-05-29'
+  record: 4051
+  tally:
+    yeas: 97
+    nays: 39
+    present_not_voting: 1
+  names:
+    yeas:
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Buckley
+    - Bucy
+    - Button
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - Dorazio
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, M.
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Howard
+    - Hull
+    - Hunter
+    - Johnson
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez
+    - Martinez Fischer
+    - McQueeney
+    - Money
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Romero
+    - Rosenthal
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Smithee
+    - Talarico
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - WardJohnson
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Bryant
+    - Bumgarner
+    - Cain
+    - Campos
+    - Davis, Y.
+    - DeAyala
+    - Dyson
+    - Garcia, J.
+    - González, J.
+    - Goodwin
+    - Harrison
+    - Hayes
+    - Holt
+    - Hopper
+    - Isaac
+    - Jones, J.
+    - Leo Wilson
+    - Lowe
+    - Metcalf
+    - Meyer
+    - Morales, C.
+    - Olcott
+    - Patterson
+    - Paul
+    - Pierson
+    - Richardson
+    - Rodríguez Ramos
+    - Rose
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Slawson
+    - Spiller
+    - Swanson
+    - Tepper
+    - Toth
+    - Troxclair
+    - Vasut
+    - Wharton
+    present_not_voting:
+    - Mr.Speaker(C)
+    absent_excused:
+    - Allen
+    - Dutton
+    - Harris
+    - Kerwin
+    - Meza
+    - Virdell
+    absent:
+    - Alders
+    - Jones, V.
+    - Longoria
+    - Manuel
+    - McLaughlin
+    - Reynolds
+    - Tinderholt
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2778#V-04
+    headline: 'House: adopted the conference committee report, 97-39 (May 29, 2025)'
+    statement: 'The House Journal records that "The motion to adopt the conference committee report on SB 2778 prevailed by (Record 4051): 97 Yeas, 39 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY77FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 77th Day (page 7362)
+    source_kind: document
+    sha256: dd7d75cbc783539a6b794ec34d85f5c47a8b6db83821cbe16210db2a3072b783
+    archive_url: null
+    event_date: '2025-05-29'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: adopted the conference committee report
+  date: '2025-05-30'
+  record: null
+  tally:
+    yeas: 29
+    nays: 2
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Hancock
+    - Hughes
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2778#V-05
+    headline: 'Senate: adopted the conference committee report, 29-2 (May 30, 2025)'
+    statement: 'The Senate Journal records that "Hinojosa, the Conference Committee Report was adopted by the following vote: Yeas 29, Nays 2."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-30-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 30, 2025 (page 3369)
+    source_kind: document
+    sha256: becf8f244f927b86c6a8684b93cf97ce6294476c3847244d6caee73d67dff647
+    archive_url: null
+    event_date: '2025-05-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -1,0 +1,293 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 1579
+caption: Relating to the appointment of a receiver for and sale of certain parcels of land that are abandoned, unoccupied, tax delinquent, and undeveloped in certain municipalities.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-1579#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1579
+  source_title: 'Texas Legislature Online: SB 1579, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-24'
+  record: null
+  tally:
+    yeas: 29
+    nays: 2
+  names:
+    nays:
+    - Hall
+    - Hughes
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1579#V-01
+    headline: 'Senate: passed, 29-2 (April 24, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (viva voce vote) (29-2) "Nays" Hall, Hughes (29-2) "Nays" Hall, Hughes" With 31 seats in the Senate, every senator not listed as voting no voted yes.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-24-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 24, 2025 (page 1499)
+    source_kind: document
+    sha256: acd141f258cb0b842b3c92b7edcfe2746023791baf987a7f980681d6e4eb3619
+    archive_url: null
+    event_date: '2025-04-24'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-27'
+  record: 3659
+  tally:
+    yeas: 83
+    nays: 55
+    present_not_voting: 3
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cole
+    - Collier
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Hayes
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Landgraf
+    - Longoria
+    - Lopez, R.
+    - Lujan
+    - Manuel
+    - Martinez Fischer
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Simmons
+    - Smithee
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Barry
+    - Cain
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - DeAyala
+    - Fairly
+    - Gates
+    - Gerdes
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Isaac
+    - Kerwin
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Luther
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Spiller
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    - Virdell
+    absent_excused:
+    - Bowers
+    - Canales
+    - Vo
+    absent:
+    - Campos
+    - Cortez
+    - Guerra
+    - Lambert
+    - Muñoz
+    - Raymond
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1579#V-02
+    headline: 'House: passed, 83-55 (May 27, 2025)'
+    statement: 'The House Journal records that "SB 1579 was passed by (Record 3659): 83 Yeas, 55 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY75FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 75th Day (page 6420)
+    source_kind: document
+    sha256: 868822869c0eef8f9048b39efdbe35ce0761588a3748ce99994e586513b0309b
+    archive_url: null
+    event_date: '2025-05-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-30'
+  record: null
+  tally:
+    yeas: 28
+    nays: 3
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Hall
+    - Hughes
+    - Middleton
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1579#V-03
+    headline: 'Senate: concurred in the House''s amendments, 28-3 (May 30, 2025)'
+    statement: 'The Senate Journal records that "The motion prevailed by the following vote: Yeas 28, Nays 3."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-30-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 30, 2025 (page 3367)
+    source_kind: document
+    sha256: becf8f244f927b86c6a8684b93cf97ce6294476c3847244d6caee73d67dff647
+    archive_url: null
+    event_date: '2025-05-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -1,17 +1,14 @@
 # Who holds this seat, from official rosters. Unverified.
 name: District Judge, 517th Judicial District
 office_type: district-judge
-holders:
-- person: position-vacant-harris-county
-  start: null
-  end: null
-  basis: tx/localities/harris-county/offices/district-court-517#S-01
+vacant: true
+holders: []
 sources:
 - id: tx/localities/harris-county/offices/district-court-517#S-01
   headline: Who holds this office now
   statement: 'The official document (Texas Office of Court Administration: Court Activity Reporting and Directory System,
-    Directory Search Results (personnel export, district courts, all counties)), checked on November 4, 2026, shows Position
-    Vacant as District Judge, 517th Judicial District. It reads: "517th District Court Harris Position Vacant Judge"'
+    Directory Search Results (personnel export, district courts, all counties)), checked on November 4, 2026, shows nobody
+    as District Judge, 517th Judicial District. It reads: "517th District Court Harris Position Vacant Judge"'
   label: official_record
   claim_status: documented
   contradicted_by: []

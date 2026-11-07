@@ -1,0 +1,507 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2155
+caption: Relating to the regulation of veterinary professionals and facilities by the State Board of Veterinary Medical Examiners and the temporary administration of the board by the Department of Licensing and Regulation.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2155#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2155
+  source_title: 'Texas Legislature Online: SB 2155, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-08'
+  record: null
+  tally:
+    yeas: 28
+    nays: 2
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Creighton
+    - Hughes
+    absent_excused:
+    - King
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2155#V-01
+    headline: 'Senate: passed, 28-2 (April 8, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 28, Nays 2. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-08-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 8, 2025 (page 1001)
+    source_kind: document
+    sha256: 30984b88f3d8f1f9d63532fc707abf9b19881f3d7cb1d70bee2a8e760854f4a8
+    archive_url: null
+    event_date: '2025-04-08'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-21'
+  record: 3130
+  tally:
+    yeas: 113
+    nays: 26
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hefner
+    - Hernandez
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Smithee
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Bumgarner
+    - Cook
+    - Gates
+    - Harrison
+    - Hayes
+    - Hickland
+    - Holt
+    - Hopper
+    - Lowe
+    - Luther
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Spiller
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Vasut
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    absent_excused:
+    - Jones, V.
+    absent_excused_committee:
+    - Bryant
+    - Frank
+    - Hinojosa
+    - Leo Wilson
+    absent:
+    - Cain
+    - Kerwin
+    - Longoria
+    - Virdell
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2155#V-02
+    headline: 'House: passed, 113-26 (May 21, 2025)'
+    statement: 'The House Journal records that "SB 2155 was passed by (Record 3130): 113 Yeas, 26 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY69FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 69th Day (page 5459)
+    source_kind: document
+    sha256: 2ed8bff78641f59806a2a195e3dc861701e3394f0f7837532b28eed6f6254252
+    archive_url: null
+    event_date: '2025-05-21'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: adopted the conference committee report
+  date: '2025-05-29'
+  record: 4049
+  tally:
+    yeas: 108
+    nays: 28
+    present_not_voting: 1
+  names:
+    yeas:
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Holt
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Martinez
+    - Martinez Fischer
+    - Metcalf
+    - Meyer
+    - Money
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rosenthal
+    - Shofner
+    - Simmons
+    - Smithee
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Bumgarner
+    - Cain
+    - Harris Davila
+    - Harrison
+    - Hickland
+    - Hopper
+    - Hull
+    - Isaac
+    - LaHood
+    - Leo Wilson
+    - Lowe
+    - Luther
+    - McQueeney
+    - Morgan
+    - Olcott
+    - Patterson
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Slawson
+    - Spiller
+    - Swanson
+    - Troxclair
+    - Vasut
+    - Wharton
+    present_not_voting:
+    - Mr.Speaker(C)
+    absent_excused:
+    - Allen
+    - Dutton
+    - Harris
+    - Kerwin
+    - Meza
+    - Virdell
+    absent:
+    - Alders
+    - Hinojosa
+    - Jones, V.
+    - Longoria
+    - Manuel
+    - McLaughlin
+    - Rose
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2155#V-03
+    headline: 'House: adopted the conference committee report, 108-28 (May 29, 2025)'
+    statement: 'The House Journal records that "The motion to adopt the conference committee report on SB 2155 prevailed by (Record 4049): 108 Yeas, 28 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY77FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 77th Day (page 7360)
+    source_kind: document
+    sha256: dd7d75cbc783539a6b794ec34d85f5c47a8b6db83821cbe16210db2a3072b783
+    archive_url: null
+    event_date: '2025-05-29'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: adopted the conference committee report
+  date: '2025-05-30'
+  record: null
+  tally:
+    yeas: 29
+    nays: 2
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Creighton
+    - Hughes
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2155#V-04
+    headline: 'Senate: adopted the conference committee report, 29-2 (May 30, 2025)'
+    statement: 'The Senate Journal records that "On motion of Senator Perry, the Conference Committee Report was adopted by the following vote: Yeas 29, Nays 2."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-30-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 30, 2025 (page 3368)
+    source_kind: document
+    sha256: becf8f244f927b86c6a8684b93cf97ce6294476c3847244d6caee73d67dff647
+    archive_url: null
+    event_date: '2025-05-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -16,7 +16,7 @@ funding:
   source_title: 'Texas Ethics Commission: Campbell III, Wilson A. (Mr.), campaign finance report 101068203 (filed Sep 29, 2026)'
   source_kind: document
   sha256: 610d5c739b93a7992f70b7ad34a80c5c42e93f7d47f15747271dea706a5b8ce0
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106015419/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068203.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-04'
   verification: unverified
@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Campbell III, Wilson A. (Mr.), campaign finance report 101072348 (filed Oct 26, 2026)'
   source_kind: document
   sha256: f546c4e41a8151586dc142c8c049edb1a9bcb74891e6fb946781a62151955a56
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106015442/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072348.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

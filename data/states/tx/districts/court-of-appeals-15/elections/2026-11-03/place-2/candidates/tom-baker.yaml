@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Baker, Thomas J. (The Honorable), campaign finance report 101069200 (filed Oct 5, 2026)'
   source_kind: document
   sha256: cac43cac6bf219b7f22c0d0e0df0c0dc10874ff15aab9c8a7b678654d26da619
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009115122/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069200.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Baker, Thomas J. (The Honorable), campaign finance report 101072574 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 08f502fc8fa5965958a65cc7db85634a07982d4e65cc2084318aadbbf39e3a79
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106001648/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072574.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

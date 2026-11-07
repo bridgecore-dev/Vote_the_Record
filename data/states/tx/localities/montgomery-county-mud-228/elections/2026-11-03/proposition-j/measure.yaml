@@ -18,7 +18,7 @@ sources:
   source_title: 'Montgomery County Elections: Sample Ballot, November 3, 2026 Joint Election, Montgomery County, Texas (master sample ballot) (page 13)'
   source_kind: document
   sha256: b4040f7eb585b3c551a5a0d3cda80e6cb6c86cdac800e6e77b097f8da4e1437e
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106004056/https://elections.mctx.org/Samples/GEN110326/paper.pdf
   event_date: '2026-11-03'
   retrieved: '2026-10-19'
   verification: unverified

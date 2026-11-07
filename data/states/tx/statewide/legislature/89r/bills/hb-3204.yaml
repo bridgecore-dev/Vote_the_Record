@@ -1,0 +1,232 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 3204
+caption: Relating to the Polytechnic College at Sam Houston State University, including the college's eligibility to participate in certain programs.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-3204#L-01
+  headline: Signed by the Governor (May 26, 2025)
+  statement: The bill history records "Signed by the Governor" on May 26, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB3204
+  source_title: 'Texas Legislature Online: HB 3204, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-26'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-04-23'
+  record: 404
+  tally:
+    yeas: 137
+    nays: 7
+    present_not_voting: 3
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Canales
+    - Capriglione
+    - Cole
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Collier
+    - Harrison
+    - Hopper
+    - Olcott
+    - Richardson
+    - Schatzline
+    - Slawson
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    - Money
+    absent:
+    - Campos
+    - Garcia, J.
+    - Jones, V.
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3204#V-01
+    headline: 'House: passed, 137-7 (April 23, 2025)'
+    statement: 'The House Journal records that "HB 3204 was passed by (Record 404): 137 Yeas, 7 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY48FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 48th Day (page 1787)
+    source_kind: document
+    sha256: d980b88b902f018c60829a97341a445c06278608868ab6c675c1a011fadf6199
+    archive_url: null
+    event_date: '2025-04-23'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-12'
+  record: null
+  tally:
+    yeas: 30
+    nays: 0
+  names:
+    absent_excused:
+    - Gutierrez
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-3204#V-02
+    headline: 'Senate: passed, 30-0 (May 12, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 30, Nays 0. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-12-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 12, 2025 (page 1970)
+    source_kind: document
+    sha256: 15e84917d7f87d30177c8754260618897916ce6dda780e7f58d56e32fc91312d
+    archive_url: null
+    event_date: '2025-05-12'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

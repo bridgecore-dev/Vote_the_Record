@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Kolodoski, Matthew J. (Mr.), campaign finance report 101069914 (filed Oct 5, 2026)'
   source_kind: document
   sha256: b8bcc8f2e8dfbc4c93c4b967aef5877d1c38f0a2af160076afecbde41c120dbf
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106002847/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069914.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Kolodoski, Matthew J. (Mr.), campaign finance report 101072665 (filed Oct 26, 2026)'
   source_kind: document
   sha256: d863eb1420e2a4893293d01c93af5307ae5e14cc20e65fe6a956420d2716a2b3
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106002910/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072665.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

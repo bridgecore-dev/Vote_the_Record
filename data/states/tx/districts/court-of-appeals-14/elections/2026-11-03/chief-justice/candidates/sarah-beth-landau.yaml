@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Landau, Sarah Beth (The Honorable), campaign finance report 101069258 (filed Oct 5, 2026)'
   source_kind: document
   sha256: dcc2077b258b7333ec4072e31230861b8b53b984b4a6a1ae27059702f82be6f9
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009125147/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069258.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -49,7 +49,7 @@ funding:
   source_title: 'Texas Ethics Commission: Landau, Sarah Beth (The Honorable), campaign finance report 101071794 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 04b02e0a73e1cd5fd838f89fc926beba6d0b07fb27bb49dda5e0741353d1f330
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261106001031/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071794.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -1,0 +1,324 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 529
+caption: Relating to the entitlement of certain municipalities to receive and use tax revenue from certain establishments located near a hotel and convention center project.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-529#L-01
+  headline: Signed by the Governor (May 30, 2025)
+  statement: The bill history records "Signed by the Governor" on May 30, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB529
+  source_title: 'Texas Legislature Online: SB 529, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-30'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-30'
+  record: null
+  tally:
+    yeas: 27
+    nays: 4
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Hall
+    - Hancock
+    - Hughes
+    - Middleton
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-529#V-01
+    headline: 'Senate: passed, 27-4 (April 30, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 27, Nays 4. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-30-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 30, 2025 (page 1664)
+    source_kind: document
+    sha256: 4bec166e13e796985abe431c77b031d5fd53ff63f0495798443483eda25baaf3
+    archive_url: null
+    event_date: '2025-04-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-13'
+  record: 2316
+  tally:
+    yeas: 108
+    nays: 33
+    present_not_voting: 2
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dutton
+    - Dyson
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hefner
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Hull
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Smithee
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Cain
+    - Cook
+    - Dorazio
+    - Fairly
+    - Harrison
+    - Hickland
+    - Holt
+    - Hopper
+    - Isaac
+    - LaHood
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Luther
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Patterson
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Spiller
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Vasut
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    absent_excused:
+    - Gervin-Hawkins
+    - Schofield
+    - Simmons
+    absent_excused_committee:
+    - Leach
+    absent:
+    - Hayes
+    - Jones, V.
+    - Virdell
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-529#V-02
+    headline: 'House: passed, 108-33 (May 13, 2025)'
+    statement: 'The House Journal records that "SB 529 was passed by (Record 2316): 108 Yeas, 33 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY63FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 63rd Day (page 4320)
+    source_kind: document
+    sha256: b72f08bbe468883777bc3da13d2f80793a95cdc196e9e7f13fb053ee0169bd4c
+    archive_url: null
+    event_date: '2025-05-13'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-20'
+  record: null
+  tally:
+    yeas: 27
+    nays: 4
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Hall
+    - Hancock
+    - Hughes
+    - Middleton
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-529#V-03
+    headline: 'Senate: concurred in the House''s amendments, 27-4 (May 20, 2025)'
+    statement: 'The Senate Journal records that "The motionprevailed by the following vote: Yeas 27, Nays 4."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-20-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 20, 2025 (page 2296)
+    source_kind: document
+    sha256: 403bc49434ff4f38c936e19d99ec6a4f6c65391865ba965f41098b9b982bb6b2
+    archive_url: null
+    event_date: '2025-05-20'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

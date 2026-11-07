@@ -1,0 +1,265 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 1851
+caption: Relating to the disposition of certain surplus motor vehicles and other law enforcement equipment by the Texas Facilities Commission to certain school districts.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-1851#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB1851
+  source_title: 'Texas Legislature Online: HB 1851, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-04-25'
+  record: 584
+  tally:
+    yeas: 105
+    nays: 11
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Hayes
+    - Hefner
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Howard
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Thompson
+    - Tinderholt
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Zwiener
+    nays:
+    - Cain
+    - Harrison
+    - Hopper
+    - Lowe
+    - Luther
+    - Meza
+    - Money
+    - Olcott
+    - Rodríguez Ramos
+    - Toth
+    - Virdell
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Cortez
+    - Geren
+    - Jones, J.
+    - Jones, V.
+    - LaHood
+    - Martinez Fischer
+    - Morales, C.
+    - Oliverson
+    - Reynolds
+    - Wu
+    absent_excused_committee:
+    - Canales
+    - Davis, A.
+    - Dorazio
+    - Gerdes
+    - Harris
+    - Hernandez
+    - Hull
+    - Hunter
+    - Johnson
+    - Leach
+    - Lopez, J.
+    - Manuel
+    - Noble
+    - Richardson
+    - Romero
+    - Rose
+    - Schatzline
+    - Slawson
+    - Tepper
+    absent:
+    - Bumgarner
+    - Cunningham
+    - Harris Davila
+    - Troxclair
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-1851#V-01
+    headline: 'House: passed, 105-11 (April 25, 2025)'
+    statement: 'The House Journal records that "HB 1851 was passed by (Record 584): 105 Yeas, 11 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY50FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 50th Day (page 2002)
+    source_kind: document
+    sha256: 61bad7809a56e9577332121c0b47028967c423ef12685c0e2795fd199d98f3de
+    archive_url: null
+    event_date: '2025-04-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-25'
+  record: null
+  tally:
+    yeas: 27
+    nays: 4
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - West
+    - Zaffirini
+    nays:
+    - Cook
+    - Johnson
+    - Middleton
+    - Sparks
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-1851#V-02
+    headline: 'Senate: passed, 27-4 (May 25, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 27, Nays 4. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-25-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 25, 2025 (page 2662)
+    source_kind: document
+    sha256: 016a5dfac73523efbbe233609b768fd35011b1f6644a1cbab90af1f31ebf41fa
+    archive_url: null
+    event_date: '2025-05-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

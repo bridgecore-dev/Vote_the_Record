@@ -119,6 +119,9 @@ def plan(rosters: list[Path]) -> tuple[list[tuple[Path, str]], list[str]]:
                 notes.append(f"REFUSE {rel}: not in the saved page: {missing}")
             elif reordered:
                 notes.append(f"REFUSE {rel}: a name is not the printed name's words: {reordered}")
+            elif any(re.search(r"\bvacan", n, re.I) for n in names):
+                # a roster's "Position Vacant" is an empty seat, not a person
+                notes.append(f"REFUSE {rel}: a holder named {names}: list no holders and set vacant: true")
             elif not seat["holders"] and not seat.get("vacant"):
                 notes.append(f"REFUSE {rel}: no holders and not marked vacant")
             else:

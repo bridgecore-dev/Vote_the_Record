@@ -1,0 +1,206 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 2518
+caption: Relating to the use of installment premium payment plans on Texas Windstorm Insurance Association policies.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/hb-2518#L-01
+  headline: Filed without the Governor's signature (June 22, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 22, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB2518
+  source_title: 'Texas Legislature Online: HB 2518, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-22'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-02'
+  record: 1313
+  tally:
+    yeas: 120
+    nays: 15
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Capriglione
+    - Cole
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Longoria
+    - Lopez, J.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Shofner
+    - Simmons
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Cain
+    - Cook
+    - Harrison
+    - Little
+    - Lowe
+    - Luther
+    - Money
+    - Olcott
+    - Pierson
+    - Richardson
+    - Schoolcraft
+    - Slawson
+    - Tinderholt
+    - Toth
+    - Virdell
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Campos
+    - Canales
+    - Collier
+    - Holt
+    - LaHood
+    - Martinez Fischer
+    - McLaughlin
+    - Morales, C.
+    - Muñoz
+    - Schatzline
+    absent_excused_committee:
+    - Orr
+    - Shaheen
+    absent:
+    - Lopez, R.
+    - Smithee
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2518#V-01
+    headline: 'House: passed, 120-15 (May 2, 2025)'
+    statement: 'The House Journal records that "HB 2518 was passed by (Record 1313): 120 Yeas, 15 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY55FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 55th Day (page 2905)
+    source_kind: document
+    sha256: 2c5fc76e27aa2e976ce463d1d4af4d12e1c8bdcb2704df1da4e68a32d08950c1
+    archive_url: null
+    event_date: '2025-05-02'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
