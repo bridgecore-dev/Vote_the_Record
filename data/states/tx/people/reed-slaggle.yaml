@@ -2,8 +2,33 @@
 id: reed-slaggle
 name: Reed Slaggle
 candidacies: []
-research: pending
-records: []
+records:
+- id: tx/people/reed-slaggle#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.41637 per $100 (Sept. 2025)
+  result: Proposed 3-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Baylor County tax rate of $0.41637 per $100,
+    which the notice lists as above the no-new-revenue rate ($0.38637), with a voter-approval rate of $0.42069. The notice
+    lists Commissioners Holub, Slaggle and Stout voting for, and Commissioner Gillispie absent.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://www.co.baylor.tx.us/upload/page/9548/2025/50874%20ihgf.pdf
+  source_title: 'Baylor County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: 682062e407025f6c2b2002eb26c150520b15d609ae110f7cad5706d74144ea59
+  archive_url: null
+  event_date: '2025-09-08'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date filled in on the
+    notice (September 8, 2025). The rates and the vote lists are filled-in form fields of the PDF; the saved text appends
+    those field values after the page text. The notice is on Form 50-874, whose printed text says the proposed rate is also
+    greater than the voter-approval rate and the de minimis rate ($0.6045); the figures above are as filled in. The notice
+    lists no vote for the county judge. Names are listed without titles; seats are matched from the county's current officeholders.
 statements: []
 funding: []
 promise_tracker: []

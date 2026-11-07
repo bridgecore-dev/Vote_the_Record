@@ -2,8 +2,31 @@
 id: barry-mahler
 name: Barry Mahler
 candidacies: []
-research: pending
-records: []
+records:
+- id: tx/people/barry-mahler#R-01
+  record_type: vote
+  headline: Voted for proposing a 2025 county tax rate of $0.521303 per $100 (Sept. 2025)
+  result: Proposed 5-0.
+  statement: As a member of Commissioners Court, voted FOR the proposal of a 2025 Wichita County tax rate of $0.521303 per
+    $100, which the notice lists as above the no-new-revenue rate ($0.508054) and not above the voter-approval rate ($0.525064).
+    The notice lists Judge Johnson and Commissioners Beauchamp, Fincannon, Mahler and Watts voting for.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://wichitatax.com/wp-content/uploads/2025/08/NOTICE-OF-PUBLIC-HEARING-4.pdf
+  source_title: 'Wichita County: 2025 Notice of Public Hearing on Tax Increase'
+  source_kind: document
+  sha256: cfc31f5f1b0b8a7ab6f8f4223f46297940bff64364b368581c9ef997110b5103
+  archive_url: null
+  event_date: '2025-09-04'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The notice is required by Tax Code § 26.06 and lists how each member of the governing body voted on the proposal.
+    The notice does not give its own date or the date of the vote; event_date is the public hearing date printed in the notice.
+    The notice lists members by title and last name; seats are matched from the county's current officeholders. Source is
+    the Wichita County Tax Office website (wichitatax.com).
 statements: []
 funding: []
 promise_tracker: []
