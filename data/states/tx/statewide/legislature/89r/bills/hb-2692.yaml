@@ -1,0 +1,231 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 2692
+caption: Relating to the San Antonio River Authority.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/hb-2692#L-01
+  headline: Filed without the Governor's signature (May 29, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on May 29, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB2692
+  source_title: 'Texas Legislature Online: HB 2692, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-29'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-04-30'
+  record: 1040
+  tally:
+    yeas: 104
+    nays: 32
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Hefner
+    - Hernandez
+    - Howard
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - King
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Meyer
+    - Meza
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Shaheen
+    - Simmons
+    - Smithee
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    - Zwiener
+    nays:
+    - Cain
+    - Canales
+    - Cook
+    - Dorazio
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hickland
+    - Hopper
+    - Hull
+    - Isaac
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Luther
+    - Metcalf
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Shofner
+    - Slawson
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Virdell
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Moody(C)
+    absent_excused:
+    - Bernal
+    - Holt
+    - Schoolcraft
+    - Vo
+    absent_excused_committee:
+    - Ashby
+    - Buckley
+    - Cunningham
+    - Frank
+    - Hinojosa
+    - Hunter
+    - Kerwin
+    - Kitzman
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2692#V-01
+    headline: 'House: passed, 104-32 (April 30, 2025)'
+    statement: 'The House Journal records that "HB 2692 was passed by (Record 1040): 104 Yeas, 32 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY53FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 53rd Day (page 2516)
+    source_kind: document
+    sha256: 6cc699339e48eb95298c3ab0a9bc20893359dfbe347f83c84236aaead0c87430
+    archive_url: null
+    event_date: '2025-04-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-16'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2692#V-02
+    headline: 'Senate: passed, 31-0 (May 16, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-16-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 16, 2025 (page 2185)
+    source_kind: document
+    sha256: 21c3e13c247eb5893a894611b41e9ae467823cb24cf7bc3928204aef89d1524c
+    archive_url: null
+    event_date: '2025-05-16'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

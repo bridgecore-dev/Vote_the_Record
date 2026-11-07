@@ -1,0 +1,4085 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+members:
+- chamber: house
+  district: 2
+  name: Brent Money
+  printed:
+  - Money
+  person: brent-money
+  fact:
+    id: tx/statewide/legislature/89r/members#S-001
+    headline: 'House District 2: Brent Money'
+    statement: Texas Legislature Online's member page lists Brent Money as the member for House District 2.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4670
+    source_title: 'Texas Legislature Online: Brent Money, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 3
+  name: Cecil Bell
+  printed:
+  - Bell, C.
+  - Bell,C
+  person: cecil-bell-jr
+  fact:
+    id: tx/statewide/legislature/89r/members#S-002
+    headline: 'House District 3: Cecil Bell'
+    statement: Texas Legislature Online's member page lists Cecil Bell as the member for House District 3.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2335
+    source_title: 'Texas Legislature Online: Cecil Bell, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 4
+  name: Keith Bell
+  printed:
+  - Bell, K.
+  - Bell,K
+  person: keith-bell
+  fact:
+    id: tx/statewide/legislature/89r/members#S-003
+    headline: 'House District 4: Keith Bell'
+    statement: Texas Legislature Online's member page lists Keith Bell as the member for House District 4.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3695
+    source_title: 'Texas Legislature Online: Keith Bell, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 5
+  name: Cole Hefner
+  printed:
+  - Hefner
+  person: cole-hefner
+  fact:
+    id: tx/statewide/legislature/89r/members#S-004
+    headline: 'House District 5: Cole Hefner'
+    statement: Texas Legislature Online's member page lists Cole Hefner as the member for House District 5.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3505
+    source_title: 'Texas Legislature Online: Cole Hefner, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 6
+  name: Daniel Alders
+  printed:
+  - Alders
+  person: daniel-alders
+  fact:
+    id: tx/statewide/legislature/89r/members#S-005
+    headline: 'House District 6: Daniel Alders'
+    statement: Texas Legislature Online's member page lists Daniel Alders as the member for House District 6.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4395
+    source_title: 'Texas Legislature Online: Daniel Alders, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 7
+  name: Jay Dean
+  printed:
+  - Dean
+  person: jay-dean
+  fact:
+    id: tx/statewide/legislature/89r/members#S-006
+    headline: 'House District 7: Jay Dean'
+    statement: Texas Legislature Online's member page lists Jay Dean as the member for House District 7.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3515
+    source_title: 'Texas Legislature Online: Jay Dean, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 8
+  name: Cody Harris
+  printed:
+  - Harris
+  - Harris(C)
+  person: cody-harris
+  fact:
+    id: tx/statewide/legislature/89r/members#S-007
+    headline: 'House District 8: Cody Harris'
+    statement: Texas Legislature Online's member page lists Cody Harris as the member for House District 8.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3580
+    source_title: 'Texas Legislature Online: Cody Harris, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 9
+  name: Trent Ashby
+  printed:
+  - Ashby
+  person: trent-ashby
+  fact:
+    id: tx/statewide/legislature/89r/members#S-008
+    headline: 'House District 9: Trent Ashby'
+    statement: Texas Legislature Online's member page lists Trent Ashby as the member for House District 9.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2330
+    source_title: 'Texas Legislature Online: Trent Ashby, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 10
+  name: Brian Harrison
+  printed:
+  - Harrison
+  person: brian-harrison
+  fact:
+    id: tx/statewide/legislature/89r/members#S-009
+    headline: 'House District 10: Brian Harrison'
+    statement: Texas Legislature Online's member page lists Brian Harrison as the member for House District 10.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4085
+    source_title: 'Texas Legislature Online: Brian Harrison, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 11
+  name: Joanne Shofner
+  printed:
+  - Shofner
+  person: joanne-shofner
+  fact:
+    id: tx/statewide/legislature/89r/members#S-010
+    headline: 'House District 11: Joanne Shofner'
+    statement: Texas Legislature Online's member page lists Joanne Shofner as the member for House District 11.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4755
+    source_title: 'Texas Legislature Online: Joanne Shofner, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 12
+  name: Trey Wharton
+  printed:
+  - Wharton
+  person: trey-wharton
+  fact:
+    id: tx/statewide/legislature/89r/members#S-011
+    headline: 'House District 12: Trey Wharton'
+    statement: Texas Legislature Online's member page lists Trey Wharton as the member for House District 12.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4795
+    source_title: 'Texas Legislature Online: Trey Wharton, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 13
+  name: Angelia Orr
+  printed:
+  - Orr
+  person: angelia-orr
+  fact:
+    id: tx/statewide/legislature/89r/members#S-012
+    headline: 'House District 13: Angelia Orr'
+    statement: Texas Legislature Online's member page lists Angelia Orr as the member for House District 13.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4340
+    source_title: 'Texas Legislature Online: Angelia Orr, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 14
+  name: Paul Dyson
+  printed:
+  - Dyson
+  person: paul-dyson
+  fact:
+    id: tx/statewide/legislature/89r/members#S-013
+    headline: 'House District 14: Paul Dyson'
+    statement: Texas Legislature Online's member page lists Paul Dyson as the member for House District 14.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4475
+    source_title: 'Texas Legislature Online: Paul Dyson, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 15
+  name: Steve Toth
+  printed:
+  - Toth
+  person: steve-toth
+  fact:
+    id: tx/statewide/legislature/89r/members#S-014
+    headline: 'House District 15: Steve Toth'
+    statement: Texas Legislature Online's member page lists Steve Toth as the member for House District 15.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2825
+    source_title: 'Texas Legislature Online: Steve Toth, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 16
+  name: Will Metcalf
+  printed:
+  - Metcalf
+  - Metcalf(C)
+  person: will-metcalf
+  fact:
+    id: tx/statewide/legislature/89r/members#S-015
+    headline: 'House District 16: Will Metcalf'
+    statement: Texas Legislature Online's member page lists Will Metcalf as the member for House District 16.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2900
+    source_title: 'Texas Legislature Online: Will Metcalf, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 17
+  name: Stan Gerdes
+  printed:
+  - Gerdes
+  person: stan-gerdes
+  fact:
+    id: tx/statewide/legislature/89r/members#S-016
+    headline: 'House District 17: Stan Gerdes'
+    statement: Texas Legislature Online's member page lists Stan Gerdes as the member for House District 17.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4195
+    source_title: 'Texas Legislature Online: Stan Gerdes, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 18
+  name: Janis Holt
+  printed:
+  - Holt
+  person: janis-holt
+  fact:
+    id: tx/statewide/legislature/89r/members#S-017
+    headline: 'House District 18: Janis Holt'
+    statement: Texas Legislature Online's member page lists Janis Holt as the member for House District 18.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4535
+    source_title: 'Texas Legislature Online: Janis Holt, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 19
+  name: Ellen Troxclair
+  printed:
+  - Troxclair
+  person: ellen-troxclair
+  fact:
+    id: tx/statewide/legislature/89r/members#S-018
+    headline: 'House District 19: Ellen Troxclair'
+    statement: Texas Legislature Online's member page lists Ellen Troxclair as the member for House District 19.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4385
+    source_title: 'Texas Legislature Online: Ellen Troxclair, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 20
+  name: Terry M. Wilson
+  printed:
+  - Wilson
+  person: terry-m-wilson
+  fact:
+    id: tx/statewide/legislature/89r/members#S-019
+    headline: 'House District 20: Terry M. Wilson'
+    statement: Texas Legislature Online's member page lists Terry M. Wilson as the member for House District 20.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3525
+    source_title: 'Texas Legislature Online: Terry M. Wilson, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 21
+  name: Dade Phelan
+  printed:
+  - Phelan
+  person: dade-phelan
+  fact:
+    id: tx/statewide/legislature/89r/members#S-020
+    headline: 'House District 21: Dade Phelan'
+    statement: Texas Legislature Online's member page lists Dade Phelan as the member for House District 21.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2905
+    source_title: 'Texas Legislature Online: Dade Phelan, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 22
+  name: Christian Manuel
+  printed:
+  - Manuel
+  person: christian-manuel
+  fact:
+    id: tx/statewide/legislature/89r/members#S-021
+    headline: 'House District 22: Christian Manuel'
+    statement: Texas Legislature Online's member page lists Christian Manuel as the member for House District 22.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4255
+    source_title: 'Texas Legislature Online: Christian Manuel, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 23
+  name: Terri Leo Wilson
+  printed:
+  - Leo Wilson
+  - LeoWilson
+  person: terri-leo-wilson
+  fact:
+    id: tx/statewide/legislature/89r/members#S-022
+    headline: 'House District 23: Terri Leo Wilson'
+    statement: Texas Legislature Online's member page lists Terri Leo Wilson as the member for House District 23.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4290
+    source_title: 'Texas Legislature Online: Terri Leo Wilson, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 24
+  name: Greg Bonnen
+  printed:
+  - Bonnen
+  person: greg-bonnen
+  fact:
+    id: tx/statewide/legislature/89r/members#S-023
+    headline: 'House District 24: Greg Bonnen'
+    statement: Texas Legislature Online's member page lists Greg Bonnen as the member for House District 24.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2875
+    source_title: 'Texas Legislature Online: Greg Bonnen, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 25
+  name: Cody Vasut
+  printed:
+  - Vasut
+  - Vasut(C)
+  person: cody-thane-vasut
+  fact:
+    id: tx/statewide/legislature/89r/members#S-024
+    headline: 'House District 25: Cody Vasut'
+    statement: Texas Legislature Online's member page lists Cody Vasut as the member for House District 25.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4065
+    source_title: 'Texas Legislature Online: Cody Vasut, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 26
+  name: Matt Morgan
+  printed:
+  - Morgan
+  person: matt-morgan
+  fact:
+    id: tx/statewide/legislature/89r/members#S-025
+    headline: 'House District 26: Matt Morgan'
+    statement: Texas Legislature Online's member page lists Matt Morgan as the member for House District 26.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4675
+    source_title: 'Texas Legislature Online: Matt Morgan, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 27
+  name: Ron Reynolds
+  printed:
+  - Reynolds
+  person: ron-reynolds
+  fact:
+    id: tx/statewide/legislature/89r/members#S-026
+    headline: 'House District 27: Ron Reynolds'
+    statement: Texas Legislature Online's member page lists Ron Reynolds as the member for House District 27.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2040
+    source_title: 'Texas Legislature Online: Ron Reynolds, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 28
+  name: Gary Gates
+  printed:
+  - Gates
+  person: gary-gates
+  fact:
+    id: tx/statewide/legislature/89r/members#S-027
+    headline: 'House District 28: Gary Gates'
+    statement: Texas Legislature Online's member page lists Gary Gates as the member for House District 28.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3920
+    source_title: 'Texas Legislature Online: Gary Gates, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 29
+  name: Jeff Barry
+  printed:
+  - Barry
+  person: jeff-barry
+  fact:
+    id: tx/statewide/legislature/89r/members#S-028
+    headline: 'House District 29: Jeff Barry'
+    statement: Texas Legislature Online's member page lists Jeff Barry as the member for House District 29.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4405
+    source_title: 'Texas Legislature Online: Jeff Barry, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 30
+  name: AJ Louderback
+  printed:
+  - Louderback
+  person: aj-louderback
+  fact:
+    id: tx/statewide/legislature/89r/members#S-029
+    headline: 'House District 30: AJ Louderback'
+    statement: Texas Legislature Online's member page lists AJ Louderback as the member for House District 30.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4620
+    source_title: 'Texas Legislature Online: AJ Louderback, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 31
+  name: Ryan Guillen
+  printed:
+  - Guillen
+  person: ryan-guillen
+  fact:
+    id: tx/statewide/legislature/89r/members#S-030
+    headline: 'House District 31: Ryan Guillen'
+    statement: Texas Legislature Online's member page lists Ryan Guillen as the member for House District 31.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3045
+    source_title: 'Texas Legislature Online: Ryan Guillen, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 32
+  name: Todd Hunter
+  printed:
+  - Hunter
+  person: todd-hunter
+  fact:
+    id: tx/statewide/legislature/89r/members#S-031
+    headline: 'House District 32: Todd Hunter'
+    statement: Texas Legislature Online's member page lists Todd Hunter as the member for House District 32.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3365
+    source_title: 'Texas Legislature Online: Todd Hunter, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 33
+  name: Katrina Pierson
+  printed:
+  - Pierson
+  person: katrina-pierson
+  fact:
+    id: tx/statewide/legislature/89r/members#S-032
+    headline: 'House District 33: Katrina Pierson'
+    statement: Texas Legislature Online's member page lists Katrina Pierson as the member for House District 33.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4715
+    source_title: 'Texas Legislature Online: Katrina Pierson, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 34
+  name: Denise Villalobos
+  printed:
+  - Villalobos
+  person: denise-villalobos
+  fact:
+    id: tx/statewide/legislature/89r/members#S-033
+    headline: 'House District 34: Denise Villalobos'
+    statement: Texas Legislature Online's member page lists Denise Villalobos as the member for House District 34.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4770
+    source_title: 'Texas Legislature Online: Denise Villalobos, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 35
+  name: Oscar Longoria
+  printed:
+  - Longoria
+  person: oscar-longoria
+  fact:
+    id: tx/statewide/legislature/89r/members#S-034
+    headline: 'House District 35: Oscar Longoria'
+    statement: Texas Legislature Online's member page lists Oscar Longoria as the member for House District 35.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2485
+    source_title: 'Texas Legislature Online: Oscar Longoria, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 36
+  name: Sergio Muñoz, Jr.
+  printed:
+  - Muñoz
+  person: sergio-munoz-jr
+  fact:
+    id: tx/statewide/legislature/89r/members#S-035
+    headline: 'House District 36: Sergio Muñoz, Jr.'
+    statement: Texas Legislature Online's member page lists Sergio Muñoz, Jr. as the member for House District 36.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2060
+    source_title: 'Texas Legislature Online: Sergio Muñoz, Jr., member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 37
+  name: Janie Lopez
+  printed:
+  - Lopez, J.
+  - Lopez,J
+  person: janie-lopez
+  fact:
+    id: tx/statewide/legislature/89r/members#S-036
+    headline: 'House District 37: Janie Lopez'
+    statement: Texas Legislature Online's member page lists Janie Lopez as the member for House District 37.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4295
+    source_title: 'Texas Legislature Online: Janie Lopez, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 38
+  name: Erin Gámez
+  printed:
+  - Gámez
+  person: erin-elizabeth-gamez
+  fact:
+    id: tx/statewide/legislature/89r/members#S-037
+    headline: 'House District 38: Erin Gámez'
+    statement: Texas Legislature Online's member page lists Erin Gámez as the member for House District 38.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4095
+    source_title: 'Texas Legislature Online: Erin Gámez, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 39
+  name: Armando Martinez
+  printed:
+  - Martinez
+  person: armando-mando-martinez
+  fact:
+    id: tx/statewide/legislature/89r/members#S-038
+    headline: 'House District 39: Armando Martinez'
+    statement: Texas Legislature Online's member page lists Armando Martinez as the member for House District 39.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3780
+    source_title: 'Texas Legislature Online: Armando Martinez, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 40
+  name: Terry Canales
+  printed:
+  - Canales
+  person: terry-canales
+  fact:
+    id: tx/statewide/legislature/89r/members#S-039
+    headline: 'House District 40: Terry Canales'
+    statement: Texas Legislature Online's member page lists Terry Canales as the member for House District 40.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2340
+    source_title: 'Texas Legislature Online: Terry Canales, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 41
+  name: R. D. "Bobby" Guerra
+  printed:
+  - Guerra
+  person: r-d-guerra
+  fact:
+    id: tx/statewide/legislature/89r/members#S-040
+    headline: 'House District 41: R. D. "Bobby" Guerra'
+    statement: Texas Legislature Online's member page lists R. D. "Bobby" Guerra as the member for House District 41.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2325
+    source_title: 'Texas Legislature Online: R. D. "Bobby" Guerra, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 42
+  name: Richard Peña Raymond
+  printed:
+  - Raymond
+  person: richard-pena-raymond
+  fact:
+    id: tx/statewide/legislature/89r/members#S-041
+    headline: 'House District 42: Richard Peña Raymond'
+    statement: Texas Legislature Online's member page lists Richard Peña Raymond as the member for House District 42.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4215
+    source_title: 'Texas Legislature Online: Richard Peña Raymond, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 43
+  name: J. M. Lozano
+  printed:
+  - Lozano
+  person: j-m-lozano
+  fact:
+    id: tx/statewide/legislature/89r/members#S-042
+    headline: 'House District 43: J. M. Lozano'
+    statement: Texas Legislature Online's member page lists J. M. Lozano as the member for House District 43.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2065
+    source_title: 'Texas Legislature Online: J. M. Lozano, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 44
+  name: Alan Schoolcraft
+  printed:
+  - Schoolcraft
+  person: alan-schoolcraft
+  fact:
+    id: tx/statewide/legislature/89r/members#S-043
+    headline: 'House District 44: Alan Schoolcraft'
+    statement: Texas Legislature Online's member page lists Alan Schoolcraft as the member for House District 44.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4745
+    source_title: 'Texas Legislature Online: Alan Schoolcraft, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 45
+  name: Erin Zwiener
+  printed:
+  - Zwiener
+  person: erin-zwiener
+  fact:
+    id: tx/statewide/legislature/89r/members#S-044
+    headline: 'House District 45: Erin Zwiener'
+    statement: Texas Legislature Online's member page lists Erin Zwiener as the member for House District 45.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3710
+    source_title: 'Texas Legislature Online: Erin Zwiener, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 46
+  name: Sheryl Cole
+  printed:
+  - Cole
+  person: sheryl-cole
+  fact:
+    id: tx/statewide/legislature/89r/members#S-045
+    headline: 'House District 46: Sheryl Cole'
+    statement: Texas Legislature Online's member page lists Sheryl Cole as the member for House District 46.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3625
+    source_title: 'Texas Legislature Online: Sheryl Cole, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 47
+  name: Vikki Goodwin
+  printed:
+  - Goodwin
+  person: vikki-goodwin
+  fact:
+    id: tx/statewide/legislature/89r/members#S-046
+    headline: 'House District 47: Vikki Goodwin'
+    statement: Texas Legislature Online's member page lists Vikki Goodwin as the member for House District 47.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3820
+    source_title: 'Texas Legislature Online: Vikki Goodwin, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 48
+  name: Donna Howard
+  printed:
+  - Howard
+  person: donna-howard
+  fact:
+    id: tx/statewide/legislature/89r/members#S-047
+    headline: 'House District 48: Donna Howard'
+    statement: Texas Legislature Online's member page lists Donna Howard as the member for House District 48.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3310
+    source_title: 'Texas Legislature Online: Donna Howard, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 49
+  name: Gina Hinojosa
+  printed:
+  - Hinojosa
+  person: gina-hinojosa
+  fact:
+    id: tx/statewide/legislature/89r/members#S-048
+    headline: 'House District 49: Gina Hinojosa'
+    statement: Texas Legislature Online's member page lists Gina Hinojosa as the member for House District 49.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3210
+    source_title: 'Texas Legislature Online: Gina Hinojosa, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 50
+  name: James Talarico
+  printed:
+  - Talarico
+  person: james-talarico
+  fact:
+    id: tx/statewide/legislature/89r/members#S-049
+    headline: 'House District 50: James Talarico'
+    statement: Texas Legislature Online's member page lists James Talarico as the member for House District 50.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3685
+    source_title: 'Texas Legislature Online: James Talarico, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 51
+  name: Lulu Flores
+  printed:
+  - Flores
+  person: maria-luisa-lulu-flores
+  fact:
+    id: tx/statewide/legislature/89r/members#S-050
+    headline: 'House District 51: Lulu Flores'
+    statement: Texas Legislature Online's member page lists Lulu Flores as the member for House District 51.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4150
+    source_title: 'Texas Legislature Online: Lulu Flores, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 52
+  name: Caroline Harris Davila
+  printed:
+  - Harris Davila
+  - HarrisDavila
+  person: caroline-harris-davila
+  fact:
+    id: tx/statewide/legislature/89r/members#S-051
+    headline: 'House District 52: Caroline Harris Davila'
+    statement: Texas Legislature Online's member page lists Caroline Harris Davila as the member for House District 52.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4205
+    source_title: 'Texas Legislature Online: Caroline Harris Davila, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 53
+  name: Wes Virdell
+  printed:
+  - Virdell
+  person: wes-virdell
+  fact:
+    id: tx/statewide/legislature/89r/members#S-052
+    headline: 'House District 53: Wes Virdell'
+    statement: Texas Legislature Online's member page lists Wes Virdell as the member for House District 53.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4775
+    source_title: 'Texas Legislature Online: Wes Virdell, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 54
+  name: Brad Buckley
+  printed:
+  - Buckley
+  person: brad-buckley
+  fact:
+    id: tx/statewide/legislature/89r/members#S-053
+    headline: 'House District 54: Brad Buckley'
+    statement: Texas Legislature Online's member page lists Brad Buckley as the member for House District 54.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3585
+    source_title: 'Texas Legislature Online: Brad Buckley, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 55
+  name: Hillary Hickland
+  printed:
+  - Hickland
+  person: hillary-hickland
+  fact:
+    id: tx/statewide/legislature/89r/members#S-054
+    headline: 'House District 55: Hillary Hickland'
+    statement: Texas Legislature Online's member page lists Hillary Hickland as the member for House District 55.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4520
+    source_title: 'Texas Legislature Online: Hillary Hickland, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 56
+  name: Pat Curry
+  printed:
+  - Curry
+  person: pat-curry
+  fact:
+    id: tx/statewide/legislature/89r/members#S-055
+    headline: 'House District 56: Pat Curry'
+    statement: Texas Legislature Online's member page lists Pat Curry as the member for House District 56.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4415
+    source_title: 'Texas Legislature Online: Pat Curry, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 57
+  name: Richard Hayes
+  printed:
+  - Hayes
+  person: richard-hayes
+  fact:
+    id: tx/statewide/legislature/89r/members#S-056
+    headline: 'House District 57: Richard Hayes'
+    statement: Texas Legislature Online's member page lists Richard Hayes as the member for House District 57.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4165
+    source_title: 'Texas Legislature Online: Richard Hayes, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 58
+  name: Helen Kerwin
+  printed:
+  - Kerwin
+  person: helen-kerwin
+  fact:
+    id: tx/statewide/legislature/89r/members#S-057
+    headline: 'House District 58: Helen Kerwin'
+    statement: Texas Legislature Online's member page lists Helen Kerwin as the member for House District 58.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4575
+    source_title: 'Texas Legislature Online: Helen Kerwin, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 59
+  name: Shelby Slawson
+  printed:
+  - Slawson
+  person: shelby-slawson
+  fact:
+    id: tx/statewide/legislature/89r/members#S-058
+    headline: 'House District 59: Shelby Slawson'
+    statement: Texas Legislature Online's member page lists Shelby Slawson as the member for House District 59.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4055
+    source_title: 'Texas Legislature Online: Shelby Slawson, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 60
+  name: Mike Olcott
+  printed:
+  - Olcott
+  person: mike-olcott
+  fact:
+    id: tx/statewide/legislature/89r/members#S-059
+    headline: 'House District 60: Mike Olcott'
+    statement: Texas Legislature Online's member page lists Mike Olcott as the member for House District 60.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4705
+    source_title: 'Texas Legislature Online: Mike Olcott, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 61
+  name: Keresa Richardson
+  printed:
+  - Richardson
+  person: keresa-richardson
+  fact:
+    id: tx/statewide/legislature/89r/members#S-060
+    headline: 'House District 61: Keresa Richardson'
+    statement: Texas Legislature Online's member page lists Keresa Richardson as the member for House District 61.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4735
+    source_title: 'Texas Legislature Online: Keresa Richardson, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 62
+  name: Shelley Luther
+  printed:
+  - Luther
+  person: shelley-luther
+  fact:
+    id: tx/statewide/legislature/89r/members#S-061
+    headline: 'House District 62: Shelley Luther'
+    statement: Texas Legislature Online's member page lists Shelley Luther as the member for House District 62.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4645
+    source_title: 'Texas Legislature Online: Shelley Luther, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 63
+  name: Ben Bumgarner
+  printed:
+  - Bumgarner
+  person: ben-bumgarner
+  fact:
+    id: tx/statewide/legislature/89r/members#S-062
+    headline: 'House District 63: Ben Bumgarner'
+    statement: Texas Legislature Online's member page lists Ben Bumgarner as the member for House District 63.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4125
+    source_title: 'Texas Legislature Online: Ben Bumgarner, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 64
+  name: Andy Hopper
+  printed:
+  - Hopper
+  person: andy-hopper
+  fact:
+    id: tx/statewide/legislature/89r/members#S-063
+    headline: 'House District 64: Andy Hopper'
+    statement: Texas Legislature Online's member page lists Andy Hopper as the member for House District 64.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4555
+    source_title: 'Texas Legislature Online: Andy Hopper, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 65
+  name: Mitch Little
+  printed:
+  - Little
+  person: mitch-little
+  fact:
+    id: tx/statewide/legislature/89r/members#S-064
+    headline: 'House District 65: Mitch Little'
+    statement: Texas Legislature Online's member page lists Mitch Little as the member for House District 65.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4615
+    source_title: 'Texas Legislature Online: Mitch Little, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 66
+  name: Matt Shaheen
+  printed:
+  - Shaheen
+  person: matt-shaheen
+  fact:
+    id: tx/statewide/legislature/89r/members#S-065
+    headline: 'House District 66: Matt Shaheen'
+    statement: Texas Legislature Online's member page lists Matt Shaheen as the member for House District 66.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2995
+    source_title: 'Texas Legislature Online: Matt Shaheen, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 67
+  name: Jeff Leach
+  printed:
+  - Leach
+  person: jeff-leach
+  fact:
+    id: tx/statewide/legislature/89r/members#S-066
+    headline: 'House District 67: Jeff Leach'
+    statement: Texas Legislature Online's member page lists Jeff Leach as the member for House District 67.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2475
+    source_title: 'Texas Legislature Online: Jeff Leach, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 68
+  name: David Spiller
+  printed:
+  - Spiller
+  person: david-spiller
+  fact:
+    id: tx/statewide/legislature/89r/members#S-067
+    headline: 'House District 68: David Spiller'
+    statement: Texas Legislature Online's member page lists David Spiller as the member for House District 68.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4075
+    source_title: 'Texas Legislature Online: David Spiller, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 69
+  name: James B. Frank
+  printed:
+  - Frank
+  person: james-frank
+  fact:
+    id: tx/statewide/legislature/89r/members#S-068
+    headline: 'House District 69: James B. Frank'
+    statement: Texas Legislature Online's member page lists James B. Frank as the member for House District 69.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2385
+    source_title: 'Texas Legislature Online: James B. Frank, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 70
+  name: Mihaela Plesa
+  printed:
+  - Plesa
+  person: mihaela-elizabeth-plesa
+  fact:
+    id: tx/statewide/legislature/89r/members#S-069
+    headline: 'House District 70: Mihaela Plesa'
+    statement: Texas Legislature Online's member page lists Mihaela Plesa as the member for House District 70.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4345
+    source_title: 'Texas Legislature Online: Mihaela Plesa, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 71
+  name: Stan Lambert
+  printed:
+  - Lambert
+  person: stan-lambert
+  fact:
+    id: tx/statewide/legislature/89r/members#S-070
+    headline: 'House District 71: Stan Lambert'
+    statement: Texas Legislature Online's member page lists Stan Lambert as the member for House District 71.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3225
+    source_title: 'Texas Legislature Online: Stan Lambert, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 72
+  name: Drew Darby
+  printed:
+  - Darby
+  person: drew-darby
+  fact:
+    id: tx/statewide/legislature/89r/members#S-071
+    headline: 'House District 72: Drew Darby'
+    statement: Texas Legislature Online's member page lists Drew Darby as the member for House District 72.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2645
+    source_title: 'Texas Legislature Online: Drew Darby, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 73
+  name: Carrie Isaac
+  printed:
+  - Isaac
+  person: carrie-isaac
+  fact:
+    id: tx/statewide/legislature/89r/members#S-072
+    headline: 'House District 73: Carrie Isaac'
+    statement: Texas Legislature Online's member page lists Carrie Isaac as the member for House District 73.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4265
+    source_title: 'Texas Legislature Online: Carrie Isaac, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 74
+  name: Eddie Morales
+  printed:
+  - Morales, E.
+  - Morales,E
+  person: eddie-morales-jr
+  fact:
+    id: tx/statewide/legislature/89r/members#S-073
+    headline: 'House District 74: Eddie Morales'
+    statement: Texas Legislature Online's member page lists Eddie Morales as the member for House District 74.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4000
+    source_title: 'Texas Legislature Online: Eddie Morales, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 75
+  name: Mary E. González
+  printed:
+  - González, M.
+  - González,M
+  person: mary-e-gonzalez
+  fact:
+    id: tx/statewide/legislature/89r/members#S-074
+    headline: 'House District 75: Mary E. González'
+    statement: Texas Legislature Online's member page lists Mary E. González as the member for House District 75.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2410
+    source_title: 'Texas Legislature Online: Mary E. González, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 76
+  name: Suleman Lalani
+  printed:
+  - Lalani
+  person: suleman-lalani
+  fact:
+    id: tx/statewide/legislature/89r/members#S-075
+    headline: 'House District 76: Suleman Lalani'
+    statement: Texas Legislature Online's member page lists Suleman Lalani as the member for House District 76.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4285
+    source_title: 'Texas Legislature Online: Suleman Lalani, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 77
+  name: Vincent Perez
+  printed:
+  - Perez, V.
+  person: vincent-vince-perez
+  fact:
+    id: tx/statewide/legislature/89r/members#S-076
+    headline: 'House District 77: Vincent Perez'
+    statement: Texas Legislature Online's member page lists Vincent Perez as the member for House District 77.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4710
+    source_title: 'Texas Legislature Online: Vincent Perez, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 78
+  name: Joe Moody
+  printed:
+  - Moody
+  - Moody(C)
+  person: joe-moody
+  fact:
+    id: tx/statewide/legislature/89r/members#S-077
+    headline: 'House District 78: Joe Moody'
+    statement: Texas Legislature Online's member page lists Joe Moody as the member for House District 78.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3850
+    source_title: 'Texas Legislature Online: Joe Moody, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 79
+  name: Claudia Ordaz
+  printed:
+  - Ordaz
+  person: claudia-ordaz
+  fact:
+    id: tx/statewide/legislature/89r/members#S-078
+    headline: 'House District 79: Claudia Ordaz'
+    statement: Texas Legislature Online's member page lists Claudia Ordaz as the member for House District 79.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4015
+    source_title: 'Texas Legislature Online: Claudia Ordaz, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 80
+  name: Don McLaughlin
+  printed:
+  - McLaughlin
+  person: don-mclaughlin
+  fact:
+    id: tx/statewide/legislature/89r/members#S-079
+    headline: 'House District 80: Don McLaughlin'
+    statement: Texas Legislature Online's member page lists Don McLaughlin as the member for House District 80.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4655
+    source_title: 'Texas Legislature Online: Don McLaughlin, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 81
+  name: Brooks Landgraf
+  printed:
+  - Landgraf
+  - Landgraf(C)
+  person: brooks-landgraf
+  fact:
+    id: tx/statewide/legislature/89r/members#S-080
+    headline: 'House District 81: Brooks Landgraf'
+    statement: Texas Legislature Online's member page lists Brooks Landgraf as the member for House District 81.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3040
+    source_title: 'Texas Legislature Online: Brooks Landgraf, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 82
+  name: Tom Craddick
+  printed:
+  - Craddick
+  person: tom-craddick
+  fact:
+    id: tx/statewide/legislature/89r/members#S-081
+    headline: 'House District 82: Tom Craddick'
+    statement: Texas Legislature Online's member page lists Tom Craddick as the member for House District 82.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2610
+    source_title: 'Texas Legislature Online: Tom Craddick, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 84
+  name: Carl Tepper
+  printed:
+  - Tepper
+  person: carl-tepper
+  fact:
+    id: tx/statewide/legislature/89r/members#S-082
+    headline: 'House District 84: Carl Tepper'
+    statement: Texas Legislature Online's member page lists Carl Tepper as the member for House District 84.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4360
+    source_title: 'Texas Legislature Online: Carl Tepper, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 85
+  name: Stan Kitzman
+  printed:
+  - Kitzman
+  person: stan-kitzman
+  fact:
+    id: tx/statewide/legislature/89r/members#S-083
+    headline: 'House District 85: Stan Kitzman'
+    statement: Texas Legislature Online's member page lists Stan Kitzman as the member for House District 85.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4280
+    source_title: 'Texas Legislature Online: Stan Kitzman, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 86
+  name: John Smithee
+  printed:
+  - Smithee
+  person: john-t-smithee
+  fact:
+    id: tx/statewide/legislature/89r/members#S-084
+    headline: 'House District 86: John Smithee'
+    statement: Texas Legislature Online's member page lists John Smithee as the member for House District 86.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4530
+    source_title: 'Texas Legislature Online: John Smithee, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 87
+  name: Caroline Fairly
+  printed:
+  - Fairly
+  person: caroline-fairly
+  fact:
+    id: tx/statewide/legislature/89r/members#S-085
+    headline: 'House District 87: Caroline Fairly'
+    statement: Texas Legislature Online's member page lists Caroline Fairly as the member for House District 87.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4480
+    source_title: 'Texas Legislature Online: Caroline Fairly, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 88
+  name: Ken King
+  printed:
+  - King
+  person: ken-king
+  fact:
+    id: tx/statewide/legislature/89r/members#S-086
+    headline: 'House District 88: Ken King'
+    statement: Texas Legislature Online's member page lists Ken King as the member for House District 88.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2455
+    source_title: 'Texas Legislature Online: Ken King, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 89
+  name: Candy Noble
+  printed:
+  - Noble
+  person: candy-noble
+  fact:
+    id: tx/statewide/legislature/89r/members#S-087
+    headline: 'House District 89: Candy Noble'
+    statement: Texas Legislature Online's member page lists Candy Noble as the member for House District 89.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3740
+    source_title: 'Texas Legislature Online: Candy Noble, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 90
+  name: Ramon Romero, Jr.
+  printed:
+  - Romero
+  person: ramon-romero-jr
+  fact:
+    id: tx/statewide/legislature/89r/members#S-088
+    headline: 'House District 90: Ramon Romero, Jr.'
+    statement: Texas Legislature Online's member page lists Ramon Romero, Jr. as the member for House District 90.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3060
+    source_title: 'Texas Legislature Online: Ramon Romero, Jr., member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 91
+  name: David Lowe
+  printed:
+  - Lowe
+  person: david-lowe
+  fact:
+    id: tx/statewide/legislature/89r/members#S-089
+    headline: 'House District 91: David Lowe'
+    statement: Texas Legislature Online's member page lists David Lowe as the member for House District 91.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4643
+    source_title: 'Texas Legislature Online: David Lowe, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 92
+  name: Salman Bhojani
+  printed:
+  - Bhojani
+  person: salman-bhojani
+  fact:
+    id: tx/statewide/legislature/89r/members#S-090
+    headline: 'House District 92: Salman Bhojani'
+    statement: Texas Legislature Online's member page lists Salman Bhojani as the member for House District 92.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4115
+    source_title: 'Texas Legislature Online: Salman Bhojani, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 94
+  name: Tony Tinderholt
+  printed:
+  - Tinderholt
+  person: tony-tinderholt
+  fact:
+    id: tx/statewide/legislature/89r/members#S-091
+    headline: 'House District 94: Tony Tinderholt'
+    statement: Texas Legislature Online's member page lists Tony Tinderholt as the member for House District 94.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3065
+    source_title: 'Texas Legislature Online: Tony Tinderholt, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 95
+  name: Nicole Collier
+  printed:
+  - Collier
+  person: nicole-collier
+  fact:
+    id: tx/statewide/legislature/89r/members#S-092
+    headline: 'House District 95: Nicole Collier'
+    statement: Texas Legislature Online's member page lists Nicole Collier as the member for House District 95.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2360
+    source_title: 'Texas Legislature Online: Nicole Collier, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 96
+  name: David Cook
+  printed:
+  - Cook
+  person: david-cook
+  fact:
+    id: tx/statewide/legislature/89r/members#S-093
+    headline: 'House District 96: David Cook'
+    statement: Texas Legislature Online's member page lists David Cook as the member for House District 96.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3960
+    source_title: 'Texas Legislature Online: David Cook, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 97
+  name: John McQueeney
+  printed:
+  - McQueeney
+  person: john-w-mcqueeney
+  fact:
+    id: tx/statewide/legislature/89r/members#S-094
+    headline: 'House District 97: John McQueeney'
+    statement: Texas Legislature Online's member page lists John McQueeney as the member for House District 97.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4665
+    source_title: 'Texas Legislature Online: John McQueeney, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 98
+  name: Giovanni Capriglione
+  printed:
+  - Capriglione
+  person: giovanni-capriglione
+  fact:
+    id: tx/statewide/legislature/89r/members#S-095
+    headline: 'House District 98: Giovanni Capriglione'
+    statement: Texas Legislature Online's member page lists Giovanni Capriglione as the member for House District 98.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2345
+    source_title: 'Texas Legislature Online: Giovanni Capriglione, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 99
+  name: Charlie Geren
+  printed:
+  - Geren
+  - Geren(C)
+  person: charlie-geren
+  fact:
+    id: tx/statewide/legislature/89r/members#S-096
+    headline: 'House District 99: Charlie Geren'
+    statement: Texas Legislature Online's member page lists Charlie Geren as the member for House District 99.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2945
+    source_title: 'Texas Legislature Online: Charlie Geren, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 100
+  name: Venton Jones
+  printed:
+  - Jones, V.
+  - Jones,V
+  person: venton-jones
+  fact:
+    id: tx/statewide/legislature/89r/members#S-097
+    headline: 'House District 100: Venton Jones'
+    statement: Texas Legislature Online's member page lists Venton Jones as the member for House District 100.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4275
+    source_title: 'Texas Legislature Online: Venton Jones, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 101
+  name: Chris Turner
+  printed:
+  - Turner
+  person: chris-turner
+  fact:
+    id: tx/statewide/legislature/89r/members#S-098
+    headline: 'House District 101: Chris Turner'
+    statement: Texas Legislature Online's member page lists Chris Turner as the member for House District 101.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4680
+    source_title: 'Texas Legislature Online: Chris Turner, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 102
+  name: Ana-María Rodríguez Ramos
+  printed:
+  - Rodríguez Ramos
+  - RodríguezRamos
+  person: ana-maria-rodriguez-ramos
+  fact:
+    id: tx/statewide/legislature/89r/members#S-099
+    headline: 'House District 102: Ana-María Rodríguez Ramos'
+    statement: Texas Legislature Online's member page lists Ana-María Rodríguez Ramos as the member for House District 102.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3735
+    source_title: 'Texas Legislature Online: Ana-María Rodríguez Ramos, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 103
+  name: Rafael Anchía
+  printed:
+  - Anchía
+  person: rafael-anchia
+  fact:
+    id: tx/statewide/legislature/89r/members#S-100
+    headline: 'House District 103: Rafael Anchía'
+    statement: Texas Legislature Online's member page lists Rafael Anchía as the member for House District 103.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2150
+    source_title: 'Texas Legislature Online: Rafael Anchía, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 104
+  name: Jessica González
+  printed:
+  - González, J.
+  - González,J
+  person: jessica-gonzalez
+  fact:
+    id: tx/statewide/legislature/89r/members#S-101
+    headline: 'House District 104: Jessica González'
+    statement: Texas Legislature Online's member page lists Jessica González as the member for House District 104.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3335
+    source_title: 'Texas Legislature Online: Jessica González, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 105
+  name: Thresa "Terry" Meza
+  printed:
+  - Meza
+  person: terry-meza
+  fact:
+    id: tx/statewide/legislature/89r/members#S-102
+    headline: 'House District 105: Thresa "Terry" Meza'
+    statement: Texas Legislature Online's member page lists Thresa "Terry" Meza as the member for House District 105.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3455
+    source_title: 'Texas Legislature Online: Thresa "Terry" Meza, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 106
+  name: Jared Patterson
+  printed:
+  - Patterson
+  - Patterson(C)
+  person: jared-patterson
+  fact:
+    id: tx/statewide/legislature/89r/members#S-103
+    headline: 'House District 106: Jared Patterson'
+    statement: Texas Legislature Online's member page lists Jared Patterson as the member for House District 106.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3655
+    source_title: 'Texas Legislature Online: Jared Patterson, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 107
+  name: Linda Garcia
+  printed:
+  - Garcia, L.
+  - Garcia,L
+  person: linda-garcia
+  fact:
+    id: tx/statewide/legislature/89r/members#S-104
+    headline: 'House District 107: Linda Garcia'
+    statement: Texas Legislature Online's member page lists Linda Garcia as the member for House District 107.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4485
+    source_title: 'Texas Legislature Online: Linda Garcia, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 108
+  name: Morgan Meyer
+  printed:
+  - Meyer
+  person: morgan-meyer
+  fact:
+    id: tx/statewide/legislature/89r/members#S-105
+    headline: 'House District 108: Morgan Meyer'
+    statement: Texas Legislature Online's member page lists Morgan Meyer as the member for House District 108.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3075
+    source_title: 'Texas Legislature Online: Morgan Meyer, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 109
+  name: Aicha Davis
+  printed:
+  - Davis, A.
+  - Davis,A
+  person: aicha-davis
+  fact:
+    id: tx/statewide/legislature/89r/members#S-106
+    headline: 'House District 109: Aicha Davis'
+    statement: Texas Legislature Online's member page lists Aicha Davis as the member for House District 109.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4465
+    source_title: 'Texas Legislature Online: Aicha Davis, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 110
+  name: Toni Rose
+  printed:
+  - Rose
+  person: toni-rose
+  fact:
+    id: tx/statewide/legislature/89r/members#S-107
+    headline: 'House District 110: Toni Rose'
+    statement: Texas Legislature Online's member page lists Toni Rose as the member for House District 110.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2555
+    source_title: 'Texas Legislature Online: Toni Rose, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 111
+  name: Yvonne Davis
+  printed:
+  - Davis, Y.
+  - Davis,Y
+  person: yvonne-davis
+  fact:
+    id: tx/statewide/legislature/89r/members#S-108
+    headline: 'House District 111: Yvonne Davis'
+    statement: Texas Legislature Online's member page lists Yvonne Davis as the member for House District 111.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2625
+    source_title: 'Texas Legislature Online: Yvonne Davis, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 112
+  name: Angie Button
+  printed:
+  - Button
+  person: angie-chen-button
+  fact:
+    id: tx/statewide/legislature/89r/members#S-109
+    headline: 'House District 112: Angie Button'
+    statement: Texas Legislature Online's member page lists Angie Button as the member for House District 112.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2510
+    source_title: 'Texas Legislature Online: Angie Button, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 113
+  name: Rhetta Bowers
+  printed:
+  - Bowers
+  person: rhetta-andrews-bowers
+  fact:
+    id: tx/statewide/legislature/89r/members#S-110
+    headline: 'House District 113: Rhetta Bowers'
+    statement: Texas Legislature Online's member page lists Rhetta Bowers as the member for House District 113.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3565
+    source_title: 'Texas Legislature Online: Rhetta Bowers, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 114
+  name: John Bryant
+  printed:
+  - Bryant
+  person: john-bryant
+  fact:
+    id: tx/statewide/legislature/89r/members#S-111
+    headline: 'House District 114: John Bryant'
+    statement: Texas Legislature Online's member page lists John Bryant as the member for House District 114.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4120
+    source_title: 'Texas Legislature Online: John Bryant, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 115
+  name: Cassandra Garcia Hernandez
+  printed:
+  - Garcia Hernandez
+  - GarciaHernandez
+  person: cassandra-hernandez
+  fact:
+    id: tx/statewide/legislature/89r/members#S-112
+    headline: 'House District 115: Cassandra Garcia Hernandez'
+    statement: Texas Legislature Online's member page lists Cassandra Garcia Hernandez as the member for House District 115.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4495
+    source_title: 'Texas Legislature Online: Cassandra Garcia Hernandez, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 116
+  name: Trey Martinez Fischer
+  printed:
+  - Martinez Fischer
+  - MartinezFischer
+  person: trey-martinez-fischer
+  fact:
+    id: tx/statewide/legislature/89r/members#S-113
+    headline: 'House District 116: Trey Martinez Fischer'
+    statement: Texas Legislature Online's member page lists Trey Martinez Fischer as the member for House District 116.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2835
+    source_title: 'Texas Legislature Online: Trey Martinez Fischer, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 117
+  name: Philip Cortez
+  printed:
+  - Cortez
+  person: philip-cortez
+  fact:
+    id: tx/statewide/legislature/89r/members#S-114
+    headline: 'House District 117: Philip Cortez'
+    statement: Texas Legislature Online's member page lists Philip Cortez as the member for House District 117.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2365
+    source_title: 'Texas Legislature Online: Philip Cortez, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 118
+  name: John Lujan
+  printed:
+  - Lujan
+  person: john-lujan
+  fact:
+    id: tx/statewide/legislature/89r/members#S-115
+    headline: 'House District 118: John Lujan'
+    statement: Texas Legislature Online's member page lists John Lujan as the member for House District 118.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3145
+    source_title: 'Texas Legislature Online: John Lujan, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 119
+  name: Liz Campos
+  printed:
+  - Campos
+  person: elizabeth-liz-campos
+  fact:
+    id: tx/statewide/legislature/89r/members#S-116
+    headline: 'House District 119: Liz Campos'
+    statement: Texas Legislature Online's member page lists Liz Campos as the member for House District 119.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3950
+    source_title: 'Texas Legislature Online: Liz Campos, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 120
+  name: Barbara Gervin-Hawkins
+  printed:
+  - Gervin-Hawkins
+  person: barbara-gervin-hawkins
+  fact:
+    id: tx/statewide/legislature/89r/members#S-117
+    headline: 'House District 120: Barbara Gervin-Hawkins'
+    statement: Texas Legislature Online's member page lists Barbara Gervin-Hawkins as the member for House District 120.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3445
+    source_title: 'Texas Legislature Online: Barbara Gervin-Hawkins, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 121
+  name: Marc LaHood
+  printed:
+  - LaHood
+  person: marc-lahood
+  fact:
+    id: tx/statewide/legislature/89r/members#S-118
+    headline: 'House District 121: Marc LaHood'
+    statement: Texas Legislature Online's member page lists Marc LaHood as the member for House District 121.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4595
+    source_title: 'Texas Legislature Online: Marc LaHood, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 122
+  name: Mark Dorazio
+  printed:
+  - Dorazio
+  person: mark-dorazio
+  fact:
+    id: tx/statewide/legislature/89r/members#S-119
+    headline: 'House District 122: Mark Dorazio'
+    statement: Texas Legislature Online's member page lists Mark Dorazio as the member for House District 122.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4145
+    source_title: 'Texas Legislature Online: Mark Dorazio, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 123
+  name: Diego Bernal
+  printed:
+  - Bernal
+  person: diego-bernal
+  fact:
+    id: tx/statewide/legislature/89r/members#S-120
+    headline: 'House District 123: Diego Bernal'
+    statement: Texas Legislature Online's member page lists Diego Bernal as the member for House District 123.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3110
+    source_title: 'Texas Legislature Online: Diego Bernal, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 124
+  name: Josey Garcia
+  printed:
+  - Garcia, J.
+  - Garcia,J
+  person: josey-garcia
+  fact:
+    id: tx/statewide/legislature/89r/members#S-121
+    headline: 'House District 124: Josey Garcia'
+    statement: Texas Legislature Online's member page lists Josey Garcia as the member for House District 124.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4170
+    source_title: 'Texas Legislature Online: Josey Garcia, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 125
+  name: Ray Lopez
+  printed:
+  - Lopez, R.
+  - Lopez,R
+  person: ray-lopez
+  fact:
+    id: tx/statewide/legislature/89r/members#S-122
+    headline: 'House District 125: Ray Lopez'
+    statement: Texas Legislature Online's member page lists Ray Lopez as the member for House District 125.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3915
+    source_title: 'Texas Legislature Online: Ray Lopez, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 126
+  name: Sam Harless
+  printed:
+  - Harless
+  person: sam-harless
+  fact:
+    id: tx/statewide/legislature/89r/members#S-123
+    headline: 'House District 126: Sam Harless'
+    statement: Texas Legislature Online's member page lists Sam Harless as the member for House District 126.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3775
+    source_title: 'Texas Legislature Online: Sam Harless, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 127
+  name: Charles Cunningham
+  printed:
+  - Cunningham
+  person: charles-cunningham
+  fact:
+    id: tx/statewide/legislature/89r/members#S-124
+    headline: 'House District 127: Charles Cunningham'
+    statement: Texas Legislature Online's member page lists Charles Cunningham as the member for House District 127.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4130
+    source_title: 'Texas Legislature Online: Charles Cunningham, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 128
+  name: Briscoe Cain
+  printed:
+  - Cain
+  person: briscoe-cain
+  fact:
+    id: tx/statewide/legislature/89r/members#S-125
+    headline: 'House District 128: Briscoe Cain'
+    statement: Texas Legislature Online's member page lists Briscoe Cain as the member for House District 128.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3265
+    source_title: 'Texas Legislature Online: Briscoe Cain, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 129
+  name: Dennis Paul
+  printed:
+  - Paul
+  person: dennis-paul
+  fact:
+    id: tx/statewide/legislature/89r/members#S-126
+    headline: 'House District 129: Dennis Paul'
+    statement: Texas Legislature Online's member page lists Dennis Paul as the member for House District 129.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3090
+    source_title: 'Texas Legislature Online: Dennis Paul, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 130
+  name: Tom Oliverson
+  printed:
+  - Oliverson
+  person: tom-oliverson
+  fact:
+    id: tx/statewide/legislature/89r/members#S-127
+    headline: 'House District 130: Tom Oliverson'
+    statement: Texas Legislature Online's member page lists Tom Oliverson as the member for House District 130.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3535
+    source_title: 'Texas Legislature Online: Tom Oliverson, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 131
+  name: Alma Allen
+  printed:
+  - Allen
+  person: alma-a-allen
+  fact:
+    id: tx/statewide/legislature/89r/members#S-128
+    headline: 'House District 131: Alma Allen'
+    statement: Texas Legislature Online's member page lists Alma Allen as the member for House District 131.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2100
+    source_title: 'Texas Legislature Online: Alma Allen, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 132
+  name: Mike Schofield
+  printed:
+  - Schofield
+  person: mike-schofield
+  fact:
+    id: tx/statewide/legislature/89r/members#S-129
+    headline: 'House District 132: Mike Schofield'
+    statement: Texas Legislature Online's member page lists Mike Schofield as the member for House District 132.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3095
+    source_title: 'Texas Legislature Online: Mike Schofield, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 133
+  name: Mano DeAyala
+  printed:
+  - DeAyala
+  person: mano-deayala
+  fact:
+    id: tx/statewide/legislature/89r/members#S-130
+    headline: 'House District 133: Mano DeAyala'
+    statement: Texas Legislature Online's member page lists Mano DeAyala as the member for House District 133.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4135
+    source_title: 'Texas Legislature Online: Mano DeAyala, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 134
+  name: Ann Johnson
+  printed:
+  - Johnson
+  person: ann-johnson
+  fact:
+    id: tx/statewide/legislature/89r/members#S-131
+    headline: 'House District 134: Ann Johnson'
+    statement: Texas Legislature Online's member page lists Ann Johnson as the member for House District 134.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3985
+    source_title: 'Texas Legislature Online: Ann Johnson, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 135
+  name: Jon Rosenthal
+  printed:
+  - Rosenthal
+  person: jon-e-rosenthal
+  fact:
+    id: tx/statewide/legislature/89r/members#S-132
+    headline: 'House District 135: Jon Rosenthal'
+    statement: Texas Legislature Online's member page lists Jon Rosenthal as the member for House District 135.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3635
+    source_title: 'Texas Legislature Online: Jon Rosenthal, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 136
+  name: John Bucy III
+  printed:
+  - Bucy
+  person: john-h-bucy-iii
+  fact:
+    id: tx/statewide/legislature/89r/members#S-133
+    headline: 'House District 136: John Bucy III'
+    statement: Texas Legislature Online's member page lists John Bucy III as the member for House District 136.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3595
+    source_title: 'Texas Legislature Online: John Bucy III, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 137
+  name: Gene Wu
+  printed:
+  - Wu
+  person: gene-wu
+  fact:
+    id: tx/statewide/legislature/89r/members#S-134
+    headline: 'House District 137: Gene Wu'
+    statement: Texas Legislature Online's member page lists Gene Wu as the member for House District 137.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2865
+    source_title: 'Texas Legislature Online: Gene Wu, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 138
+  name: Lacey Hull
+  printed:
+  - Hull
+  person: lacey-hull
+  fact:
+    id: tx/statewide/legislature/89r/members#S-135
+    headline: 'House District 138: Lacey Hull'
+    statement: Texas Legislature Online's member page lists Lacey Hull as the member for House District 138.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3975
+    source_title: 'Texas Legislature Online: Lacey Hull, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 139
+  name: Charlene Ward Johnson
+  printed:
+  - Ward Johnson
+  - WardJohnson
+  person: charlene-ward-johnson
+  fact:
+    id: tx/statewide/legislature/89r/members#S-136
+    headline: 'House District 139: Charlene Ward Johnson'
+    statement: Texas Legislature Online's member page lists Charlene Ward Johnson as the member for House District 139.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4785
+    source_title: 'Texas Legislature Online: Charlene Ward Johnson, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 140
+  name: Armando Walle
+  printed:
+  - Walle
+  person: armando-lucio-walle
+  fact:
+    id: tx/statewide/legislature/89r/members#S-137
+    headline: 'House District 140: Armando Walle'
+    statement: Texas Legislature Online's member page lists Armando Walle as the member for House District 140.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4930
+    source_title: 'Texas Legislature Online: Armando Walle, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 141
+  name: Senfronia Thompson
+  printed:
+  - Thompson
+  person: senfronia-thompson
+  fact:
+    id: tx/statewide/legislature/89r/members#S-138
+    headline: 'House District 141: Senfronia Thompson'
+    statement: Texas Legislature Online's member page lists Senfronia Thompson as the member for House District 141.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4630
+    source_title: 'Texas Legislature Online: Senfronia Thompson, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 142
+  name: Harold V. Dutton, Jr.
+  printed:
+  - Dutton
+  person: harold-v-dutton-jr
+  fact:
+    id: tx/statewide/legislature/89r/members#S-139
+    headline: 'House District 142: Harold V. Dutton, Jr.'
+    statement: Texas Legislature Online's member page lists Harold V. Dutton, Jr. as the member for House District 142.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2650
+    source_title: 'Texas Legislature Online: Harold V. Dutton, Jr., member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 143
+  name: Ana Hernandez
+  printed:
+  - Hernandez
+  person: ana-hernandez
+  fact:
+    id: tx/statewide/legislature/89r/members#S-140
+    headline: 'House District 143: Ana Hernandez'
+    statement: Texas Legislature Online's member page lists Ana Hernandez as the member for House District 143.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3155
+    source_title: 'Texas Legislature Online: Ana Hernandez, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 144
+  name: Mary Ann Perez
+  printed:
+  - Perez, M.
+  - Perez,M
+  person: mary-ann-perez
+  fact:
+    id: tx/statewide/legislature/89r/members#S-141
+    headline: 'House District 144: Mary Ann Perez'
+    statement: Texas Legislature Online's member page lists Mary Ann Perez as the member for House District 144.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2535
+    source_title: 'Texas Legislature Online: Mary Ann Perez, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 145
+  name: Christina Morales
+  printed:
+  - Morales, C.
+  - Morales,C
+  person: christina-morales
+  fact:
+    id: tx/statewide/legislature/89r/members#S-142
+    headline: 'House District 145: Christina Morales'
+    statement: Texas Legislature Online's member page lists Christina Morales as the member for House District 145.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3910
+    source_title: 'Texas Legislature Online: Christina Morales, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 146
+  name: Lauren A. Simmons
+  printed:
+  - Simmons
+  person: lauren-ashley-simmons
+  fact:
+    id: tx/statewide/legislature/89r/members#S-143
+    headline: 'House District 146: Lauren A. Simmons'
+    statement: Texas Legislature Online's member page lists Lauren A. Simmons as the member for House District 146.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4765
+    source_title: 'Texas Legislature Online: Lauren A. Simmons, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 147
+  name: Jolanda Jones
+  printed:
+  - Jones, J.
+  - Jones,J
+  person: jolanda-jones
+  fact:
+    id: tx/statewide/legislature/89r/members#S-144
+    headline: 'House District 147: Jolanda Jones'
+    statement: Texas Legislature Online's member page lists Jolanda Jones as the member for House District 147.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4105
+    source_title: 'Texas Legislature Online: Jolanda Jones, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 148
+  name: Penny Morales Shaw
+  printed:
+  - Morales Shaw
+  - MoralesShaw
+  person: penny-morales-shaw
+  fact:
+    id: tx/statewide/legislature/89r/members#S-145
+    headline: 'House District 148: Penny Morales Shaw'
+    statement: Texas Legislature Online's member page lists Penny Morales Shaw as the member for House District 148.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4035
+    source_title: 'Texas Legislature Online: Penny Morales Shaw, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 149
+  name: Hubert Vo
+  printed:
+  - Vo
+  person: hubert-vo
+  fact:
+    id: tx/statewide/legislature/89r/members#S-146
+    headline: 'House District 149: Hubert Vo'
+    statement: Texas Legislature Online's member page lists Hubert Vo as the member for House District 149.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4900
+    source_title: 'Texas Legislature Online: Hubert Vo, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  district: 150
+  name: Valoree Swanson
+  printed:
+  - Swanson
+  person: valoree-swanson
+  fact:
+    id: tx/statewide/legislature/89r/members#S-147
+    headline: 'House District 150: Valoree Swanson'
+    statement: Texas Legislature Online's member page lists Valoree Swanson as the member for House District 150.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3425
+    source_title: 'Texas Legislature Online: Valoree Swanson, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 1
+  name: Bryan Hughes
+  printed:
+  - Hughes
+  person: bryan-hughes
+  fact:
+    id: tx/statewide/legislature/89r/members#S-148
+    headline: 'Senate District 1: Bryan Hughes'
+    statement: Texas Legislature Online's member page lists Bryan Hughes as the member for Senate District 1.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1135
+    source_title: 'Texas Legislature Online: Bryan Hughes, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 2
+  name: Bob Hall
+  printed:
+  - Hall
+  person: bob-hall
+  fact:
+    id: tx/statewide/legislature/89r/members#S-149
+    headline: 'Senate District 2: Bob Hall'
+    statement: Texas Legislature Online's member page lists Bob Hall as the member for Senate District 2.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1050
+    source_title: 'Texas Legislature Online: Bob Hall, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 3
+  name: Robert Nichols
+  printed:
+  - Nichols
+  person: robert-nichols
+  fact:
+    id: tx/statewide/legislature/89r/members#S-150
+    headline: 'Senate District 3: Robert Nichols'
+    statement: Texas Legislature Online's member page lists Robert Nichols as the member for Senate District 3.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1400
+    source_title: 'Texas Legislature Online: Robert Nichols, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 5
+  name: Charles Schwertner
+  printed:
+  - Schwertner
+  person: charles-schwertner
+  fact:
+    id: tx/statewide/legislature/89r/members#S-151
+    headline: 'Senate District 5: Charles Schwertner'
+    statement: Texas Legislature Online's member page lists Charles Schwertner as the member for Senate District 5.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1025
+    source_title: 'Texas Legislature Online: Charles Schwertner, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 6
+  name: Carol Alvarado
+  printed:
+  - Alvarado
+  person: carol-alvarado
+  fact:
+    id: tx/statewide/legislature/89r/members#S-152
+    headline: 'Senate District 6: Carol Alvarado'
+    statement: Texas Legislature Online's member page lists Carol Alvarado as the member for Senate District 6.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1315
+    source_title: 'Texas Legislature Online: Carol Alvarado, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 7
+  name: Paul Bettencourt
+  printed:
+  - Bettencourt
+  person: paul-bettencourt
+  fact:
+    id: tx/statewide/legislature/89r/members#S-153
+    headline: 'Senate District 7: Paul Bettencourt'
+    statement: Texas Legislature Online's member page lists Paul Bettencourt as the member for Senate District 7.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1055
+    source_title: 'Texas Legislature Online: Paul Bettencourt, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 8
+  name: Angela Paxton
+  printed:
+  - Paxton
+  person: angela-paxton
+  fact:
+    id: tx/statewide/legislature/89r/members#S-154
+    headline: 'Senate District 8: Angela Paxton'
+    statement: Texas Legislature Online's member page lists Angela Paxton as the member for Senate District 8.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1285
+    source_title: 'Texas Legislature Online: Angela Paxton, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 10
+  name: Phil King
+  printed:
+  - King
+  person: phil-king
+  fact:
+    id: tx/statewide/legislature/89r/members#S-155
+    headline: 'Senate District 10: Phil King'
+    statement: Texas Legislature Online's member page lists Phil King as the member for Senate District 10.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1345
+    source_title: 'Texas Legislature Online: Phil King, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 11
+  name: Mayes Middleton
+  printed:
+  - Middleton
+  person: mayes-middleton
+  fact:
+    id: tx/statewide/legislature/89r/members#S-156
+    headline: 'Senate District 11: Mayes Middleton'
+    statement: Texas Legislature Online's member page lists Mayes Middleton as the member for Senate District 11.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1350
+    source_title: 'Texas Legislature Online: Mayes Middleton, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 12
+  name: Tan Parker
+  printed:
+  - Parker
+  person: tan-parker
+  fact:
+    id: tx/statewide/legislature/89r/members#S-157
+    headline: 'Senate District 12: Tan Parker'
+    statement: Texas Legislature Online's member page lists Tan Parker as the member for Senate District 12.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1355
+    source_title: 'Texas Legislature Online: Tan Parker, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 13
+  name: Borris Miles
+  printed:
+  - Miles
+  person: borris-l-miles
+  fact:
+    id: tx/statewide/legislature/89r/members#S-158
+    headline: 'Senate District 13: Borris Miles'
+    statement: Texas Legislature Online's member page lists Borris Miles as the member for Senate District 13.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1115
+    source_title: 'Texas Legislature Online: Borris Miles, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 14
+  name: Sarah Eckhardt
+  printed:
+  - Eckhardt
+  person: sarah-eckhardt
+  fact:
+    id: tx/statewide/legislature/89r/members#S-159
+    headline: 'Senate District 14: Sarah Eckhardt'
+    statement: Texas Legislature Online's member page lists Sarah Eckhardt as the member for Senate District 14.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1325
+    source_title: 'Texas Legislature Online: Sarah Eckhardt, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 15
+  name: Molly Cook
+  printed:
+  - Cook
+  person: molly-cook
+  fact:
+    id: tx/statewide/legislature/89r/members#S-160
+    headline: 'Senate District 15: Molly Cook'
+    statement: Texas Legislature Online's member page lists Molly Cook as the member for Senate District 15.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1365
+    source_title: 'Texas Legislature Online: Molly Cook, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 16
+  name: Nathan Johnson
+  printed:
+  - Johnson
+  person: nathan-johnson
+  fact:
+    id: tx/statewide/legislature/89r/members#S-161
+    headline: 'Senate District 16: Nathan Johnson'
+    statement: Texas Legislature Online's member page lists Nathan Johnson as the member for Senate District 16.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1265
+    source_title: 'Texas Legislature Online: Nathan Johnson, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 17
+  name: Joan Huffman
+  printed:
+  - Huffman
+  person: joan-huffman
+  fact:
+    id: tx/statewide/legislature/89r/members#S-162
+    headline: 'Senate District 17: Joan Huffman'
+    statement: Texas Legislature Online's member page lists Joan Huffman as the member for Senate District 17.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1260
+    source_title: 'Texas Legislature Online: Joan Huffman, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 18
+  name: Lois Kolkhorst
+  printed:
+  - Kolkhorst
+  person: lois-w-kolkhorst
+  fact:
+    id: tx/statewide/legislature/89r/members#S-163
+    headline: 'Senate District 18: Lois Kolkhorst'
+    statement: Texas Legislature Online's member page lists Lois Kolkhorst as the member for Senate District 18.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1105
+    source_title: 'Texas Legislature Online: Lois Kolkhorst, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 19
+  name: Roland Gutierrez
+  printed:
+  - Gutierrez
+  person: roland-gutierrez
+  fact:
+    id: tx/statewide/legislature/89r/members#S-164
+    headline: 'Senate District 19: Roland Gutierrez'
+    statement: Texas Legislature Online's member page lists Roland Gutierrez as the member for Senate District 19.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1335
+    source_title: 'Texas Legislature Online: Roland Gutierrez, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 20
+  name: Juan Hinojosa
+  printed:
+  - J. Hinojosa
+  person: juan-hinojosa
+  fact:
+    id: tx/statewide/legislature/89r/members#S-165
+    headline: 'Senate District 20: Juan Hinojosa'
+    statement: Texas Legislature Online's member page lists Juan Hinojosa as the member for Senate District 20.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1250
+    source_title: 'Texas Legislature Online: Juan Hinojosa, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 21
+  name: Judith Zaffirini
+  printed:
+  - Zaffirini
+  person: judith-zaffirini
+  fact:
+    id: tx/statewide/legislature/89r/members#S-166
+    headline: 'Senate District 21: Judith Zaffirini'
+    statement: Texas Legislature Online's member page lists Judith Zaffirini as the member for Senate District 21.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1700
+    source_title: 'Texas Legislature Online: Judith Zaffirini, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 23
+  name: Royce West
+  printed:
+  - West
+  person: royce-west
+  fact:
+    id: tx/statewide/legislature/89r/members#S-167
+    headline: 'Senate District 23: Royce West'
+    statement: Texas Legislature Online's member page lists Royce West as the member for Senate District 23.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1625
+    source_title: 'Texas Legislature Online: Royce West, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 24
+  name: Pete Flores
+  printed:
+  - Flores
+  person: pete-flores
+  fact:
+    id: tx/statewide/legislature/89r/members#S-168
+    headline: 'Senate District 24: Pete Flores'
+    statement: Texas Legislature Online's member page lists Pete Flores as the member for Senate District 24.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1195
+    source_title: 'Texas Legislature Online: Pete Flores, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 26
+  name: José Menéndez
+  printed:
+  - Menéndez
+  person: jose-menendez
+  fact:
+    id: tx/statewide/legislature/89r/members#S-169
+    headline: 'Senate District 26: José Menéndez'
+    statement: Texas Legislature Online's member page lists José Menéndez as the member for Senate District 26.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1110
+    source_title: 'Texas Legislature Online: José Menéndez, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 27
+  name: Adam Hinojosa
+  printed:
+  - A. Hinojosa
+  person: adam-hinojosa
+  fact:
+    id: tx/statewide/legislature/89r/members#S-170
+    headline: 'Senate District 27: Adam Hinojosa'
+    statement: Texas Legislature Online's member page lists Adam Hinojosa as the member for Senate District 27.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1385
+    source_title: 'Texas Legislature Online: Adam Hinojosa, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 28
+  name: Charles Perry
+  printed:
+  - Perry
+  person: charles-perry
+  fact:
+    id: tx/statewide/legislature/89r/members#S-171
+    headline: 'Senate District 28: Charles Perry'
+    statement: Texas Legislature Online's member page lists Charles Perry as the member for Senate District 28.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1045
+    source_title: 'Texas Legislature Online: Charles Perry, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 29
+  name: César Blanco
+  printed:
+  - Blanco
+  person: cesar-blanco
+  fact:
+    id: tx/statewide/legislature/89r/members#S-172
+    headline: 'Senate District 29: César Blanco'
+    statement: Texas Legislature Online's member page lists César Blanco as the member for Senate District 29.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1330
+    source_title: 'Texas Legislature Online: César Blanco, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 30
+  name: Brent Hagenbuch
+  printed:
+  - Hagenbuch
+  person: brent-hagenbuch
+  fact:
+    id: tx/statewide/legislature/89r/members#S-173
+    headline: 'Senate District 30: Brent Hagenbuch'
+    statement: Texas Legislature Online's member page lists Brent Hagenbuch as the member for Senate District 30.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1380
+    source_title: 'Texas Legislature Online: Brent Hagenbuch, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  district: 31
+  name: Kevin Sparks
+  printed:
+  - Sparks
+  person: kevin-sparks
+  fact:
+    id: tx/statewide/legislature/89r/members#S-174
+    headline: 'Senate District 31: Kevin Sparks'
+    statement: Texas Legislature Online's member page lists Kevin Sparks as the member for Senate District 31.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1375
+    source_title: 'Texas Legislature Online: Kevin Sparks, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-06'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+senate_roll:
+  names:
+  - A. Hinojosa
+  - Alvarado
+  - Bettencourt
+  - Birdwell
+  - Blanco
+  - Campbell
+  - Cook
+  - Creighton
+  - Eckhardt
+  - Flores
+  - Gutierrez
+  - Hagenbuch
+  - Hall
+  - Hancock
+  - Huffman
+  - Hughes
+  - J. Hinojosa
+  - Johnson
+  - King
+  - Kolkhorst
+  - Menéndez
+  - Middleton
+  - Miles
+  - Nichols
+  - Parker
+  - Paxton
+  - Perry
+  - Schwertner
+  - Sparks
+  - West
+  - Zaffirini
+  fact:
+    id: tx/statewide/legislature/89r/members#R-01
+    headline: Senate roll call (January 28, 2025)
+    statement: 'The Senate Journal for January 28, 2025 records: "The roll was called and the following Senators were present: Alvarado, Bettencourt, Birdwell, Blanco, Campbell, Cook, Creighton, Eckhardt, Flores, Gutierrez, Hagenbuch, Hall, Hancock, A. Hinojosa, J. Hinojosa, Huffman, Hughes, Johnson, King, Kolkhorst, Menéndez, Middleton, Miles, Nichols, Parker, Paxton, Perry,Schwertner,Sparks,West,Zaffirini."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ01-28-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, January 28, 2025
+    source_kind: document
+    sha256: 7c2074c01c461e84d9ad90a98b91a45eecfecfeca003af5696173673029950b6
+    archive_url: null
+    event_date: '2025-01-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: Each of the 48 roll calls printed in this session's Senate Journals lists these same 31 senators, as present or absent.

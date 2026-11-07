@@ -1,0 +1,265 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2004
+caption: Relating to the eligibility of the INDYCAR Grand Prix of Arlington for funding under the major events reimbursement program.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2004#L-01
+  headline: Signed by the Governor (May 27, 2025)
+  statement: The bill history records "Signed by the Governor" on May 27, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2004
+  source_title: 'Texas Legislature Online: SB 2004, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-27'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-29'
+  record: null
+  tally:
+    yeas: 25
+    nays: 6
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Creighton
+    - Hagenbuch
+    - Hall
+    - Hughes
+    - Kolkhorst
+    - Middleton
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2004#V-01
+    headline: 'Senate: passed, 25-6 (April 29, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 25, Nays 6. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-29-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 29, 2025 (page 1576)
+    source_kind: document
+    sha256: dad4ba0669b598ca478d07a8b919dce3521378637b12977a53600a3d53761e41
+    archive_url: null
+    event_date: '2025-04-29'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-13'
+  record: 2318
+  tally:
+    yeas: 85
+    nays: 58
+    present_not_voting: 2
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - Dutton
+    - Dyson
+    - Flores
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Geren
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Ordaz
+    - Orr
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Barry
+    - Bonnen
+    - Cain
+    - Canales
+    - Capriglione
+    - Cook
+    - Cunningham
+    - DeAyala
+    - Dorazio
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Isaac
+    - Kerwin
+    - LaHood
+    - Landgraf
+    - Leo Wilson
+    - Little
+    - Louderback
+    - Lowe
+    - Lozano
+    - Luther
+    - Metcalf
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Oliverson
+    - Patterson
+    - Paul
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Virdell
+    - Wharton
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    absent_excused:
+    - Gervin-Hawkins
+    - Schofield
+    - Simmons
+    absent_excused_committee:
+    - Leach
+    absent:
+    - Garcia, J.
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2004#V-02
+    headline: 'House: passed, 85-58 (May 13, 2025)'
+    statement: 'The House Journal records that "SB 2004 was passed by (Record 2318): 85 Yeas, 58 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY63FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 63rd Day (page 4322)
+    source_kind: document
+    sha256: b72f08bbe468883777bc3da13d2f80793a95cdc196e9e7f13fb053ee0169bd4c
+    archive_url: null
+    event_date: '2025-05-13'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

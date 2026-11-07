@@ -1,0 +1,323 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2122
+caption: Relating to imposition of application fees for certain permits and permit amendments for the disposal of oil and gas waste.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2122#L-01
+  headline: Signed by the Governor (May 27, 2025)
+  statement: The bill history records "Signed by the Governor" on May 27, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2122
+  source_title: 'Texas Legislature Online: SB 2122, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-27'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-16'
+  record: null
+  tally:
+    yeas: 23
+    nays: 8
+  names:
+    yeas:
+    - Alvarado
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - A. Hinojosa
+    - J. Hinojosa
+    - Johnson
+    - King
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Bettencourt
+    - Creighton
+    - Hancock
+    - Huffman
+    - Hughes
+    - Kolkhorst
+    - Middleton
+    - Perry
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2122#V-01
+    headline: 'Senate: passed, 23-8 (April 16, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 23, Nays 8."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-16-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 16, 2025 (page 1338)
+    source_kind: document
+    sha256: bb2783203cc37f9481c5129b1b57f66a1c1531f2cb7979378a71fa0013485ade
+    archive_url: null
+    event_date: '2025-04-16'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-10'
+  record: 2060
+  tally:
+    yeas: 101
+    nays: 29
+    present_not_voting: 2
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Guerra
+    - Guillen
+    - Harless
+    - Hayes
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - McLaughlin
+    - Metcalf
+    - Meyer
+    - Morales, C.
+    - Morales, E.
+    - Muñoz
+    - Noble
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Shaheen
+    - Simmons
+    - Swanson
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Cain
+    - Cunningham
+    - Harris Davila
+    - Harrison
+    - Hickland
+    - Hopper
+    - Kerwin
+    - Little
+    - Lowe
+    - Luther
+    - McQueeney
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shofner
+    - Slawson
+    - Spiller
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Virdell
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    absent_excused:
+    - Bernal
+    - Bowers
+    - Bryant
+    - Canales
+    - Davis, Y.
+    - Goodwin
+    - Hefner
+    - Holt
+    - Martinez Fischer
+    - Meza
+    - Moody
+    - Morales Shaw
+    - Ordaz
+    - Perez, M.
+    - Smithee
+    - Talarico
+    - Vo
+    absent:
+    - Hull
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2122#V-02
+    headline: 'House: passed, 101-29 (May 10, 2025)'
+    statement: 'The House Journal records that "SB 2122 was passed by (Record 2060): 101 Yeas, 29 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY61FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 61st Day (page 3947)
+    source_kind: document
+    sha256: 17b98063a57fa78ef5ec2609667520c82a562fa0d9207cc4247b037be8e186eb
+    archive_url: null
+    event_date: '2025-05-10'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-14'
+  record: null
+  tally:
+    yeas: 23
+    nays: 8
+  names:
+    yeas:
+    - Alvarado
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - A. Hinojosa
+    - J. Hinojosa
+    - Johnson
+    - King
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Bettencourt
+    - Creighton
+    - Hancock
+    - Huffman
+    - Hughes
+    - Kolkhorst
+    - Middleton
+    - Perry
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2122#V-03
+    headline: 'Senate: concurred in the House''s amendments, 23-8 (May 14, 2025)'
+    statement: 'The Senate Journal records that "Senator Zaffirini moved to concur in the House amendment to SB 2122. The motion prevailed by the following vote: Yeas 23, Nays 8."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-14-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 14, 2025 (page 2110)
+    source_kind: document
+    sha256: bf058f2abc1790d39248aff810597fd7645e304959b3616edf4a47e9afee0809
+    archive_url: null
+    event_date: '2025-05-14'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

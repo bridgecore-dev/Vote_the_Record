@@ -1,0 +1,293 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 5246
+caption: Relating to the administration, powers, and duties of the Texas Space Commission and Texas Aerospace Research and Space Economy Consortium, to other governmental entities regarding aerospace, aviation, and space exploration initiatives and activities, and to the abolishment of the spaceport trust fund.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-5246#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB5246
+  source_title: 'Texas Legislature Online: HB 5246, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-02'
+  record: 1317
+  tally:
+    yeas: 123
+    nays: 8
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Capriglione
+    - Cole
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Longoria
+    - Lopez, J.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Cain
+    - Harrison
+    - Hopper
+    - Lowe
+    - Money
+    - Olcott
+    - Tinderholt
+    - Toth
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Campos
+    - Canales
+    - Collier
+    - Holt
+    - LaHood
+    - Martinez Fischer
+    - McLaughlin
+    - Morales, C.
+    - Muñoz
+    - Schatzline
+    absent_excused_committee:
+    - Orr
+    absent:
+    - Dorazio
+    - González, J.
+    - Little
+    - Lopez, R.
+    - Luther
+    - Meza
+    - Wharton
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-5246#V-01
+    headline: 'House: passed, 123-8 (May 2, 2025)'
+    statement: 'The House Journal records that "HB 5246 was passed by (Record 1317): 123 Yeas, 8 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY55FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 55th Day (page 2909)
+    source_kind: document
+    sha256: 2c5fc76e27aa2e976ce463d1d4af4d12e1c8bdcb2704df1da4e68a32d08950c1
+    archive_url: null
+    event_date: '2025-05-02'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-23'
+  record: null
+  tally:
+    yeas: 30
+    nays: 1
+  names:
+    nays:
+    - Hagenbuch
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-5246#V-02
+    headline: 'Senate: passed, 30-1 (May 23, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 30, Nays 1. (Same as previous roll call)" With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-23-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 23, 2025 (page 2474)
+    source_kind: document
+    sha256: 7f65d0c0392d8ecc9ecc7564d2ef8f92472801aff8f40698b3106aae2701f1a0
+    archive_url: null
+    event_date: '2025-05-23'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: adopted the conference committee report
+  date: '2025-05-31'
+  record: null
+  tally:
+    yeas: 21
+    nays: 10
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    nays:
+    - Alvarado
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - Hagenbuch
+    - Hughes
+    - Johnson
+    - Menéndez
+    - Miles
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-5246#V-03
+    headline: 'Senate: adopted the conference committee report, 21-10 (May 31, 2025)'
+    statement: 'The Senate Journal records that "On motion of Senator Huffman, the Conference Committee Report was adopted by the following vote: Yeas 21, Nays 10."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-31-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 31, 2025 (page 3712)
+    source_kind: document
+    sha256: 0f9700a346d24062f98fba8cc758cb3f6c692819a04b4dfee416737250f38b17
+    archive_url: null
+    event_date: '2025-05-31'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

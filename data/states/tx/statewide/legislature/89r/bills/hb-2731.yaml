@@ -1,0 +1,447 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 2731
+caption: Relating to the regulation of roadside vendors and solicitors in certain counties.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/hb-2731#L-01
+  headline: Filed without the Governor's signature (June 20, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB2731
+  source_title: 'Texas Legislature Online: HB 2731, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-05-16'
+  record: 2877
+  tally:
+    yeas: 82
+    nays: 38
+    present_not_voting: 3
+  names:
+    yeas:
+    - Allen
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Davis, A.
+    - Davis, Y.
+    - DeAyala
+    - Dorazio
+    - Flores
+    - Frank
+    - Garcia, J.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Hayes
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kitzman
+    - Lambert
+    - Leo Wilson
+    - Lopez, J.
+    - Lopez, R.
+    - Lozano
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rosenthal
+    - Simmons
+    - Smithee
+    - Spiller
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Bowers
+    - Bumgarner
+    - Cain
+    - Dyson
+    - Garcia, L.
+    - Harris
+    - Harris Davila
+    - Hefner
+    - Hickland
+    - Hopper
+    - Hull
+    - LaHood
+    - Leach
+    - Little
+    - Louderback
+    - Lowe
+    - Luther
+    - Metcalf
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Patterson
+    - Paul
+    - Pierson
+    - Rose
+    - Schatzline
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Wharton
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    - Virdell
+    absent_excused:
+    - Anchía
+    - Capriglione
+    - Dean
+    - Dutton
+    - Gámez
+    - Gervin-Hawkins
+    - Kerwin
+    - Lalani
+    - Landgraf
+    - Longoria
+    - Plesa
+    - Schofield
+    - Swanson
+    - Talarico
+    - Walle
+    absent_excused_committee:
+    - Darby
+    - Geren
+    - Hernandez
+    - King
+    - McQueeney
+    absent:
+    - Bonnen
+    - Canales
+    - Cook
+    - Fairly
+    - Harrison
+    - Lujan
+    - Orr
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2731#V-01
+    headline: 'House: passed, 82-38 (May 16, 2025)'
+    statement: 'The House Journal records that "HB 2731 was passed by (Record 2877): 82 Yeas, 38 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY66FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 66th Day (page 5105)
+    source_kind: document
+    sha256: a9f4f4e3589754b532e5f6bd4ca3c6fbea604b9cc17ba3ed9d0848e215cafa6c
+    archive_url: null
+    event_date: '2025-05-16'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-29'
+  record: null
+  tally:
+    yeas: 28
+    nays: 3
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hall
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Hagenbuch
+    - Hancock
+    - Hughes
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2731#V-02
+    headline: 'Senate: passed, 28-3 (May 29, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 28, Nays 3. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-29-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 29, 2025 (page 3321)
+    source_kind: document
+    sha256: fcebc2880d75096f2939fb35c0209c21bf71dff6adc6f165fa1e06fbab6355e4
+    archive_url: null
+    event_date: '2025-05-29'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-30'
+  record: 4087
+  tally:
+    yeas: 99
+    nays: 38
+    present_not_voting: 1
+  names:
+    yeas:
+    - Anchía
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - King
+    - Kitzman
+    - Lalani
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Shaheen
+    - Simmons
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Bonnen
+    - Bumgarner
+    - Cain
+    - Craddick
+    - Gerdes
+    - Harris Davila
+    - Harrison
+    - Hickland
+    - Hopper
+    - Hull
+    - Isaac
+    - Kerwin
+    - LaHood
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Lowe
+    - McQueeney
+    - Metcalf
+    - Money
+    - Morgan
+    - Olcott
+    - Pierson
+    - Schofield
+    - Schoolcraft
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Virdell
+    - Wharton
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Allen
+    - Garcia, J.
+    - Harris
+    - Jones, V.
+    - Lambert
+    - Phelan
+    absent:
+    - Campos
+    - Cunningham
+    - Davis, Y.
+    - Manuel
+    - Oliverson
+    - Reynolds
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2731#V-03
+    headline: 'House: concurred in the Senate''s amendments, 99-38 (May 30, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 2731 prevailed by (Record 4087): 99 Yeas, 38 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY78FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 78th Day (page 7568)
+    source_kind: document
+    sha256: f797cbdb3518523cfecbb02edd2dd1a0d59963ceec0ce949dc603db8a0a98807
+    archive_url: null
+    event_date: '2025-05-30'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

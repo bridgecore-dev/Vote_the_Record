@@ -1,0 +1,232 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 1214
+caption: Relating to the operations and administration of the Concho County Hospital District.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-1214#L-01
+  headline: Signed by the Governor (May 29, 2025)
+  statement: The bill history records "Signed by the Governor" on May 29, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1214
+  source_title: 'Texas Legislature Online: SB 1214, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-29'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-16'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1214#V-01
+    headline: 'Senate: passed, 31-0 (April 16, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (vivavocevote)(31-0)(31-0)" With 31 seats in the Senate, every senator not listed as voting no voted yes.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-16-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 16, 2025 (page 1360)
+    source_kind: document
+    sha256: eca8f44d40dda7a5197277f38cb610a396c91e345462ab4d9ea1d03281f0d730
+    archive_url: null
+    event_date: '2025-04-16'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-16'
+  record: 2913
+  tally:
+    yeas: 87
+    nays: 30
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - King
+    - Kitzman
+    - Lambert
+    - Leach
+    - Lopez, R.
+    - Lujan
+    - Manuel
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Patterson
+    - Paul
+    - Perez, V.
+    - Phelan
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Shaheen
+    - Simmons
+    - Spiller
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Vo
+    - Ward Johnson
+    - Wharton
+    - Wu
+    - Zwiener
+    nays:
+    - Bumgarner
+    - Cain
+    - Cook
+    - Cunningham
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hopper
+    - Hull
+    - Isaac
+    - LaHood
+    - Leo Wilson
+    - Little
+    - Louderback
+    - Lozano
+    - Luther
+    - Money
+    - Noble
+    - Olcott
+    - Oliverson
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schoolcraft
+    - Shofner
+    - Slawson
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Vasut
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Anchía
+    - Dean
+    - Dutton
+    - Gámez
+    - Gervin-Hawkins
+    - Jones, V.
+    - Kerwin
+    - Lalani
+    - Landgraf
+    - Longoria
+    - Lopez, J.
+    - Orr
+    - Plesa
+    - Schofield
+    - Smithee
+    - Talarico
+    - Virdell
+    - Walle
+    absent_excused_committee:
+    - Hernandez
+    - Lowe
+    - Wilson
+    absent:
+    - Bonnen
+    - Bowers
+    - Bryant
+    - DeAyala
+    - Hefner
+    - Martinez
+    - Meza
+    - Morgan
+    - Ordaz
+    - Perez, M.
+    - Rosenthal
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1214#V-02
+    headline: 'House: passed, 87-30 (May 16, 2025)'
+    statement: 'The House Journal records that "SB 1214 was passed by (Record 2913): 87 Yeas, 30 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY66FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 66th Day (page 5146)
+    source_kind: document
+    sha256: a9f4f4e3589754b532e5f6bd4ca3c6fbea604b9cc17ba3ed9d0848e215cafa6c
+    archive_url: null
+    event_date: '2025-05-16'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

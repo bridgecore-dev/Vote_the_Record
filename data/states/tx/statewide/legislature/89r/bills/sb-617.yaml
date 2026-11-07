@@ -1,0 +1,264 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 617
+caption: Relating to hearing and public notice requirements regarding the conversion by a municipality of certain properties to house homeless individuals.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-617#L-01
+  headline: Signed by the Governor (May 27, 2025)
+  statement: The bill history records "Signed by the Governor" on May 27, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB617
+  source_title: 'Texas Legislature Online: SB 617, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-27'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-02'
+  record: null
+  tally:
+    yeas: 22
+    nays: 9
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - Johnson
+    - Menéndez
+    - Miles
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-617#V-01
+    headline: 'Senate: passed, 22-9 (April 2, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 22, Nays 9."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-02-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 2, 2025 (page 858)
+    source_kind: document
+    sha256: af229b9e96f7d9df0e2efb9ab14ecf01a324968ffe2c5bb11448ca0e40c887f3
+    archive_url: null
+    event_date: '2025-04-02'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-14'
+  record: 2422
+  tally:
+    yeas: 97
+    nays: 38
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bhojani
+    - Bonnen
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Canales
+    - Capriglione
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Garcia, J.
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - Guillen
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hickland
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Louderback
+    - Lujan
+    - Luther
+    - Martinez
+    - McLaughlin
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, E.
+    - Morgan
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Romero
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Anchía
+    - Bernal
+    - Bowers
+    - Bryant
+    - Bucy
+    - Cole
+    - Collier
+    - Davis, A.
+    - Davis, Y.
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, J.
+    - Lowe
+    - Morales, C.
+    - Morales Shaw
+    - Muñoz
+    - Reynolds
+    - Rodríguez Ramos
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Talarico
+    - Turner
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wu
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Buckley
+    - Holt
+    - Olcott
+    absent:
+    - Harless
+    - Hefner
+    - Jones, V.
+    - King
+    - Lopez, R.
+    - Lozano
+    - Manuel
+    - Martinez Fischer
+    - McQueeney
+    - Zwiener
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-617#V-02
+    headline: 'House: passed, 97-38 (May 14, 2025)'
+    statement: 'The House Journal records that "SB 617 was passed by (Record 2422): 97 Yeas, 38 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY64FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 64th Day (page 4501)
+    source_kind: document
+    sha256: e13efebc557ba81242bab8b5b6d1c5c1faea43cc9379cedc4e0954678ceee919
+    archive_url: null
+    event_date: '2025-05-14'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

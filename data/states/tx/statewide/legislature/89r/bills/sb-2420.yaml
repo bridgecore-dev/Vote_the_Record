@@ -1,0 +1,261 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2420
+caption: Relating to the regulation of platforms for the sale and distribution of software applications for mobile devices.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2420#L-01
+  headline: Signed by the Governor (May 27, 2025)
+  statement: The bill history records "Signed by the Governor" on May 27, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2420
+  source_title: 'Texas Legislature Online: SB 2420, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-27'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-16'
+  record: null
+  tally:
+    yeas: 30
+    nays: 1
+  names:
+    nays:
+    - Eckhardt
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2420#V-01
+    headline: 'Senate: passed, 30-1 (April 16, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 30, Nays 1. (Same as previous roll call)" With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-16-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 16, 2025 (page 1328)
+    source_kind: document
+    sha256: bb2783203cc37f9481c5129b1b57f66a1c1531f2cb7979378a71fa0013485ade
+    archive_url: null
+    event_date: '2025-04-16'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-09'
+  record: 1885
+  tally:
+    yeas: 120
+    nays: 9
+    present_not_voting: 3
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bumgarner
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Garcia, J.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lujan
+    - Luther
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Phelan
+    - Pierson
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    nays:
+    - Bucy
+    - Harrison
+    - Hinojosa
+    - Morales, C.
+    - Romero
+    - Simmons
+    - Thompson
+    - Wilson
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Harris(C)
+    - Virdell
+    absent_excused:
+    - Cain
+    - Lozano
+    - Manuel
+    - Rose
+    absent:
+    - Canales
+    - Davis, A.
+    - Gámez
+    - Garcia, L.
+    - González, J.
+    - Johnson
+    - Jones, J.
+    - Longoria
+    - Lopez, R.
+    - Martinez Fischer
+    - Ordaz
+    - Orr
+    - Perez, V.
+    - Plesa
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2420#V-02
+    headline: 'House: passed, 120-9 (May 9, 2025)'
+    statement: 'The House Journal records that "SB 2420 was passed by (Record 1885): 120 Yeas, 9 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY60FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 60th Day (page 3721)
+    source_kind: document
+    sha256: 9eb72898436f39d49352abe84570bf03d731ccfc52b2b2621c3183fd3fe2460c
+    archive_url: null
+    event_date: '2025-05-09'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-14'
+  record: null
+  tally:
+    yeas: 30
+    nays: 1
+  names:
+    nays:
+    - Eckhardt
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2420#V-03
+    headline: 'Senate: concurred in the House''s amendments, 30-1 (May 14, 2025)'
+    statement: 'The Senate Journal records that "Senator Paxton moved to concur in the House amendments to SB 2420. The motion prevailed by the following vote: Yeas 30, Nays 1." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-14-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 14, 2025 (page 2117)
+    source_kind: document
+    sha256: bf058f2abc1790d39248aff810597fd7645e304959b3616edf4a47e9afee0809
+    archive_url: null
+    event_date: '2025-05-14'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

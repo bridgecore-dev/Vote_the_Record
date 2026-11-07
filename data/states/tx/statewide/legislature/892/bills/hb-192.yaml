@@ -1,0 +1,264 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: '892'
+bill: HB 192
+caption: Relating to the funding of law enforcement agencies in certain counties.
+became_law: signed
+law:
+  id: tx/statewide/legislature/892/bills/hb-192#L-01
+  headline: Signed by the Governor (September 17, 2025)
+  statement: The bill history records "Signed by the Governor" on September 17, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB192
+  source_title: 'Texas Legislature Online: HB 192, 89th Legislature, 2nd Called Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-09-17'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-08-27'
+  record: 105
+  tally:
+    yeas: 89
+    nays: 48
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Canales
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morgan
+    - Muñoz
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Phelan
+    - Pierson
+    - Raymond
+    - Richardson
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Allen
+    - Anchía
+    - Bernal
+    - Bowers
+    - Bryant
+    - Bucy
+    - Cole
+    - Collier
+    - Cortez
+    - Davis, A.
+    - Davis, Y.
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Hinojosa
+    - Howard
+    - Jones, J.
+    - Lalani
+    - Longoria
+    - Lopez, R.
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - Meza
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Reynolds
+    - Romero
+    - Rose
+    - Simmons
+    - Talarico
+    - Thompson
+    - Turner
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Geren
+    - Gervin-Hawkins
+    - Hernandez
+    - Johnson
+    - Jones, V.
+    - Noble
+    - Vo
+    absent:
+    - Bhojani
+    - Campos
+    - Garcia, J.
+    - Morales, C.
+    - Rodríguez Ramos
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/hb-192#V-01
+    headline: 'House: passed, 89-48 (August 27, 2025)'
+    statement: 'The House Journal records that "HB 192 was passed by (Record 105): 89 Yeas, 48 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/892/pdf/89C2DAY09FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, 2nd Called Session, 9th Day (page 280)
+    source_kind: document
+    sha256: 4fc0f668dc6493989ecf61f8ab13458c4028b4471b3c55b21da0f5c4bc3e38a2
+    archive_url: null
+    event_date: '2025-08-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-08-27'
+  record: null
+  tally:
+    yeas: 21
+    nays: 5
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Cook
+    - Gutierrez
+    - Johnson
+    - Zaffirini
+    absent_excused:
+    - Eckhardt
+    - Menéndez
+    - Miles
+    - West
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/hb-192#V-02
+    headline: 'Senate: passed, 21-5 (August 27, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 21, Nays 5. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ08-27-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, August 27, 2025 (page 106)
+    source_kind: document
+    sha256: 324ff3b32d079231e903807db52b8a96c5184c64a851093028010a68eda63368
+    archive_url: null
+    event_date: '2025-08-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -1,0 +1,264 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: '892'
+bill: SB 54
+caption: Relating to election procedures regarding accepting a voter with a residence address that is not current and the immediate effect of a voter's registration after the registrar's receipt of certain change of address notices.
+became_law: signed
+law:
+  id: tx/statewide/legislature/892/bills/sb-54#L-01
+  headline: Signed by the Governor (September 17, 2025)
+  statement: The bill history records "Signed by the Governor" on September 17, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB54
+  source_title: 'Texas Legislature Online: SB 54, 89th Legislature, 2nd Called Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-09-17'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-08-27'
+  record: null
+  tally:
+    yeas: 19
+    nays: 7
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Gutierrez
+    - J. Hinojosa
+    - Johnson
+    - Zaffirini
+    absent_excused:
+    - Eckhardt
+    - Menéndez
+    - Miles
+    - West
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-54#V-01
+    headline: 'Senate: passed, 19-7 (August 27, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 19, Nays 7. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ08-27-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, August 27, 2025 (page 103)
+    source_kind: document
+    sha256: 324ff3b32d079231e903807db52b8a96c5184c64a851093028010a68eda63368
+    archive_url: null
+    event_date: '2025-08-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-09-02'
+  record: 153
+  tally:
+    yeas: 86
+    nays: 46
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - Geren
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Phelan
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Allen
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Canales
+    - Cole
+    - Collier
+    - Cortez
+    - Davis, A.
+    - Davis, Y.
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - González, M.
+    - Goodwin
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Lalani
+    - Longoria
+    - Lopez, R.
+    - Martinez
+    - Martinez Fischer
+    - Meza
+    - Moody
+    - Muñoz
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Raymond
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Talarico
+    - Thompson
+    - Turner
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wu
+    present_not_voting:
+    - Mr. Speaker(C)
+    - Johnson
+    absent_excused:
+    - Anchía
+    - Dean
+    - González, J.
+    - Guerra
+    - Jones, J.
+    - Manuel
+    - Morales, E.
+    - Morales Shaw
+    - Plesa
+    - Reynolds
+    - Zwiener
+    absent:
+    - Campos
+    - Garcia, J.
+    - Jones, V.
+    - Morales, C.
+    - Rodríguez Ramos
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-54#V-02
+    headline: 'House: passed, 86-46 (September 2, 2025)'
+    statement: 'The House Journal records that "SB 54 was passed by (Record 153): 86 Yeas, 46 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/892/pdf/89C2DAY11FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, 2nd Called Session, 11th Day (page 375)
+    source_kind: document
+    sha256: 0c9acd997b365101253b93fcca55f29a09a1f06e1b7eb3de9c1538bed715d70d
+    archive_url: null
+    event_date: '2025-09-02'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

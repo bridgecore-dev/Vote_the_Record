@@ -1,0 +1,49 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2367
+caption: Relating to the authority of certain counties to enact certain park use rules.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2367#L-01
+  headline: Filed without the Governor's signature (June 20, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2367
+  source_title: 'Texas Legislature Online: SB 2367, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-09'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2367#V-01
+    headline: 'Senate: passed, 31-0 (May 9, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (viva voce vote) (31-0) (31-0)" With 31 seats in the Senate, every senator not listed as voting no voted yes.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-09-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 9, 2025 (page 1932)
+    source_kind: document
+    sha256: 61106655d5be6c8c2dcc573c19bc14144d10f406d9e34d2bd25257c0042f5e81
+    archive_url: null
+    event_date: '2025-05-09'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

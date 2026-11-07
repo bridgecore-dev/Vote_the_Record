@@ -1,0 +1,264 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: '892'
+bill: HB 8
+caption: Relating to public school accountability and transparency, including the implementation of an instructionally supportive assessment program and the adoption and administration of assessment instruments in public schools, indicators of achievement, public school performance ratings, and interventions and sanctions under the public school accountability system, a grant program for school district local accountability plans, and actions challenging Texas Education Agency decisions related to public school accountability.
+became_law: signed
+law:
+  id: tx/statewide/legislature/892/bills/hb-8#L-01
+  headline: Signed by the Governor (September 17, 2025)
+  statement: The bill history records "Signed by the Governor" on September 17, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB8
+  source_title: 'Texas Legislature Online: HB 8, 89th Legislature, 2nd Called Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-09-17'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed as amended
+  date: '2025-08-26'
+  record: 86
+  tally:
+    yeas: 82
+    nays: 56
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - González, M.
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Allen
+    - Anchía
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Canales
+    - Cole
+    - Collier
+    - Cortez
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - González, J.
+    - Goodwin
+    - Guerra
+    - Harrison
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Lalani
+    - Little
+    - Longoria
+    - Lopez, R.
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - Meza
+    - Moody
+    - Morales, E.
+    - Muñoz
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Raymond
+    - Romero
+    - Rose
+    - Rosenthal
+    - Talarico
+    - Thompson
+    - Turner
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr.Speaker(C)
+    absent_excused:
+    - Campos
+    - Geren
+    - Morales Shaw
+    - Noble
+    - Phelan
+    - Reynolds
+    - Vo
+    absent:
+    - Garcia,J
+    - Morales,C
+    - RodríguezRamos
+    - Simmons
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/hb-8#V-01
+    headline: 'House: passed as amended, 82-56 (August 26, 2025)'
+    statement: 'The House Journal records that "HB 8, as amended, was passed by (Record 86): 82 Yeas, 56 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/892/pdf/89C2DAY08FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, 2nd Called Session, 8th Day (page 239)
+    source_kind: document
+    sha256: 09602eb7b2758836671a4e9e04a2b83f19b51e8a030b30f02064585a6aa33d83
+    archive_url: null
+    event_date: '2025-08-26'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-08-27'
+  record: null
+  tally:
+    yeas: 21
+    nays: 5
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Cook
+    - Gutierrez
+    - Johnson
+    - Zaffirini
+    absent_excused:
+    - Eckhardt
+    - Menéndez
+    - Miles
+    - West
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/hb-8#V-02
+    headline: 'Senate: passed, 21-5 (August 27, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 21, Nays 5. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ08-27-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, August 27, 2025 (page 109)
+    source_kind: document
+    sha256: 324ff3b32d079231e903807db52b8a96c5184c64a851093028010a68eda63368
+    archive_url: null
+    event_date: '2025-08-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

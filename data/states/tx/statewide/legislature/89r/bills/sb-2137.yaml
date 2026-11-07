@@ -1,0 +1,265 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2137
+caption: Relating to the allocation of low income housing tax credits.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2137#L-01
+  headline: Filed without the Governor's signature (June 20, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2137
+  source_title: 'Texas Legislature Online: SB 2137, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-12'
+  record: null
+  tally:
+    yeas: 24
+    nays: 6
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Hall
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Miles
+    - Nichols
+    - Paxton
+    - Perry
+    - Schwertner
+    - West
+    - Zaffirini
+    nays:
+    - Hagenbuch
+    - Hancock
+    - Hughes
+    - Middleton
+    - Parker
+    - Sparks
+    absent_excused:
+    - Gutierrez
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2137#V-01
+    headline: 'Senate: passed, 24-6 (May 12, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 24, Nays 6. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-12-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 12, 2025 (page 1999)
+    source_kind: document
+    sha256: 15e84917d7f87d30177c8754260618897916ce6dda780e7f58d56e32fc91312d
+    archive_url: null
+    event_date: '2025-05-12'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-24'
+  record: 3456
+  tally:
+    yeas: 91
+    nays: 44
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bernal
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Hernandez
+    - Hinojosa
+    - Howard
+    - Hunter
+    - Isaac
+    - Jones, J.
+    - King
+    - Lalani
+    - Lambert
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - Moody
+    - Morales, E.
+    - Muñoz
+    - Ordaz
+    - Orr
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schoolcraft
+    - Smithee
+    - Swanson
+    - Talarico
+    - Thompson
+    - Turner
+    - Villalobos
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    nays:
+    - Bell, K.
+    - Cain
+    - Canales
+    - Cook
+    - Dorazio
+    - Gates
+    - Gerdes
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Kitzman
+    - LaHood
+    - Landgraf
+    - Lowe
+    - Lozano
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Patterson
+    - Schatzline
+    - Schofield
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Spiller
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Virdell
+    - Wharton
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Geren(C)
+    absent_excused:
+    - Davis, Y.
+    - Johnson
+    - Jones, V.
+    - Kerwin
+    - Meza
+    - Morales, C.
+    - Paul
+    - Reynolds
+    - Vo
+    absent:
+    - Bhojani
+    - Morales Shaw
+    - Oliverson
+    - Simmons
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2137#V-02
+    headline: 'House: passed, 91-44 (May 24, 2025)'
+    statement: 'The House Journal records that "SB 2137 was passed by (Record 3456): 91 Yeas, 44 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY72FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 72nd Day (page 5995)
+    source_kind: document
+    sha256: 6d6b9ee2f20055e3317f682645aa72265abe8b33913fd879a524902fc4ff5282
+    archive_url: null
+    event_date: '2025-05-24'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

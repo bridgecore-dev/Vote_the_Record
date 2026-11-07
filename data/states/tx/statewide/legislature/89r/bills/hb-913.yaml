@@ -1,0 +1,231 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 913
+caption: Relating to certain state hospital names and the management of state hospitals.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-913#L-01
+  headline: Signed by the Governor (May 28, 2025)
+  statement: The bill history records "Signed by the Governor" on May 28, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB913
+  source_title: 'Texas Legislature Online: HB 913, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-28'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-04-25'
+  record: 552
+  tally:
+    yeas: 127
+    nays: 4
+    present_not_voting: 3
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Gervin-Hawkins
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Meyer
+    - Money
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Wharton
+    - Wilson
+    - Wu
+    - Cain
+    - Hayes
+    - Hopper
+    - Little
+    - Olcott
+    - Toth
+    nays:
+    - Hefner
+    - Metcalf
+    - Patterson
+    - Slawson
+    present_not_voting:
+    - Mr. Speaker
+    - Meza
+    - Moody(C)
+    absent_excused:
+    - Cortez
+    - Geren
+    - Jones, J.
+    - LaHood
+    - Martinez Fischer
+    - Morales, C.
+    - Oliverson
+    absent:
+    - Canales
+    - Davis, A.
+    - Flores
+    - González, J.
+    - González, M.
+    - Manuel
+    - Reynolds
+    - Ward Johnson
+    - Zwiener
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-913#V-01
+    headline: 'House: passed, 127-4 (April 25, 2025)'
+    statement: 'The House Journal records a calendar of bills passed by one record vote, "(Record 552): 125 Yeas, 6 Nays, 3 Present, not voting.", and lists this bill with the members whose votes differ from it and its own tally: "HB 913 (Hefner, Metcalf, Patterson, and Slawson — no; Cain, Hayes, Hopper, Little, Olcott, and Toth — yes) (127 - 4 - 3)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY50FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 50th Day (page 1969)
+    source_kind: document
+    sha256: 61bad7809a56e9577332121c0b47028967c423ef12685c0e2795fd199d98f3de
+    archive_url: null
+    event_date: '2025-04-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-14'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-913#V-02
+    headline: 'Senate: passed, 31-0 (May 14, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-14-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 14, 2025 (page 2089)
+    source_kind: document
+    sha256: bf058f2abc1790d39248aff810597fd7645e304959b3616edf4a47e9afee0809
+    archive_url: null
+    event_date: '2025-05-14'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

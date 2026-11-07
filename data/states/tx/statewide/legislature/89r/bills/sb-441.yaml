@@ -1,0 +1,441 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 441
+caption: Relating to criminal and civil liability related to sexually explicit media and artificial intimate visual material; creating a criminal offense; increasing a criminal penalty.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-441#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB441
+  source_title: 'Texas Legislature Online: SB 441, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-03-18'
+  record: null
+  tally:
+    yeas: 30
+    nays: 0
+  names:
+    absent_excused:
+    - Blanco
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-441#V-01
+    headline: 'Senate: passed, 30-0 (March 18, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 30, Nays 0. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ03-18-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, March 18, 2025 (page 582)
+    source_kind: document
+    sha256: a6ae25c1a1db77126674b96965b51a2465fe50ca9abef6945ffc8d327a0c197b
+    archive_url: null
+    event_date: '2025-03-18'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed as amended
+  date: '2025-05-27'
+  record: 3688
+  tally:
+    yeas: 104
+    nays: 36
+    present_not_voting: 1
+  names:
+    yeas:
+    - Allen
+    - Anchía
+    - Ashby
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harrison
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Howard
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Simmons
+    - Smithee
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Barry
+    - Bell, C.
+    - Bonnen
+    - Bumgarner
+    - Cain
+    - Cook
+    - Cunningham
+    - Gerdes
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Holt
+    - Hopper
+    - Hull
+    - Isaac
+    - Kerwin
+    - LaHood
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Luther
+    - Metcalf
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Pierson
+    - Shofner
+    - Slawson
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Virdell
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Bowers
+    - Canales
+    - Vo
+    absent:
+    - Cortez
+    - Manuel
+    - Patterson
+    - Plesa
+    - Schatzline
+    - Shaheen
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-441#V-02
+    headline: 'House: passed as amended, 104-36 (May 27, 2025)'
+    statement: 'The House Journal records that "Patterson SB 441, as amended, was passed by (Record 3688): 104 Yeas, 36 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY75FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 75th Day (page 6451)
+    source_kind: document
+    sha256: 868822869c0eef8f9048b39efdbe35ce0761588a3748ce99994e586513b0309b
+    archive_url: null
+    event_date: '2025-05-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: adopted the conference committee report
+  date: '2025-05-31'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-441#V-03
+    headline: 'Senate: adopted the conference committee report, 31-0 (May 31, 2025)'
+    statement: 'The Senate Journal records that "Hinojosa, the Conference Committee Report was adopted by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-31-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 31, 2025 (page 3703)
+    source_kind: document
+    sha256: 0f9700a346d24062f98fba8cc758cb3f6c692819a04b4dfee416737250f38b17
+    archive_url: null
+    event_date: '2025-05-31'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: adopted the conference committee report
+  date: '2025-05-31'
+  record: 4122
+  tally:
+    yeas: 90
+    nays: 33
+    present_not_voting: 2
+  names:
+    yeas:
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cortez
+    - Darby
+    - Davis, A.
+    - Dean
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia Hernandez
+    - Gates
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Hayes
+    - Hernandez
+    - Howard
+    - Johnson
+    - Jones, J.
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - Metcalf
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rosenthal
+    - Schofield
+    - Shaheen
+    - Simmons
+    - Smithee
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Virdell
+    - Vo
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Bumgarner
+    - Cain
+    - Cook
+    - Craddick
+    - Curry
+    - DeAyala
+    - Harris Davila
+    - Harrison
+    - Hefner
+    - Hickland
+    - Hopper
+    - Hull
+    - Isaac
+    - LaHood
+    - Leo Wilson
+    - Little
+    - Louderback
+    - Lowe
+    - Lozano
+    - McQueeney
+    - Money
+    - Olcott
+    - Pierson
+    - Schoolcraft
+    - Shofner
+    - Slawson
+    - Swanson
+    - Toth
+    - Vasut
+    - Villalobos
+    - Wharton
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Geren(C)
+    absent_excused:
+    - Allen
+    - Cunningham
+    - Garcia, L.
+    - Harless
+    - Harris
+    - Holt
+    - Morales, C.
+    - Morales Shaw
+    - Phelan
+    - Rose
+    - Schatzline
+    - Tinderholt
+    - Walle
+    - Ward Johnson
+    absent:
+    - Campos
+    - Davis, Y.
+    - Garcia, J.
+    - Gerdes
+    - Gervin-Hawkins
+    - Hinojosa
+    - Hunter
+    - Jones, V.
+    - Kerwin
+    - Leach
+    - Reynolds
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-441#V-04
+    headline: 'House: adopted the conference committee report, 90-33 (May 31, 2025)'
+    statement: 'The House Journal records that "The motion to adopt the conference committee report on SB 441 prevailed by (Record 4122): 90 Yeas, 33 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY79FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 79th Day (page 7709)
+    source_kind: document
+    sha256: 00f9c4f013e4c7be6936765c99ca29db9f5aa8dc1e19069d20f1e326a5ed8268
+    archive_url: null
+    event_date: '2025-05-31'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

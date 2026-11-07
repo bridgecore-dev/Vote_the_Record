@@ -1,0 +1,235 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 1008
+caption: Relating to state and local authority to regulate the food service industry.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-1008#L-01
+  headline: Signed by the Governor (May 19, 2025)
+  statement: The bill history records "Signed by the Governor" on May 19, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1008
+  source_title: 'Texas Legislature Online: SB 1008, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-05-19'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-09'
+  record: null
+  tally:
+    yeas: 29
+    nays: 1
+  names:
+    nays:
+    - Eckhardt
+    absent_excused:
+    - King
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1008#V-01
+    headline: 'Senate: passed, 29-1 (April 9, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 29, Nays 1. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-09-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 9, 2025 (page 1025)
+    source_kind: document
+    sha256: 759b6690750ff4c77cac23456b5874efe86a0f98a30f2a598f7e3d35c59f8040
+    archive_url: null
+    event_date: '2025-04-09'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-05'
+  record: 1367
+  tally:
+    yeas: 93
+    nays: 39
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Capriglione
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Garcia, J.
+    - Gates
+    - Gerdes
+    - Geren
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hunter
+    - Isaac
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lujan
+    - Luther
+    - Martinez
+    - McLaughlin
+    - Metcalf
+    - Meyer
+    - Money
+    - Moody
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    nays:
+    - Allen
+    - Anchía
+    - Bowers
+    - Bryant
+    - Bucy
+    - Canales
+    - Cole
+    - Collier
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Hayes
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - Manuel
+    - Meza
+    - Morales, C.
+    - Morales Shaw
+    - Plesa
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Talarico
+    - Thompson
+    - Turner
+    - Vo
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr.Speaker
+    - Harris(C)
+    absent_excused:
+    - Bell,K
+    - Bernal
+    - Virdell
+    absent:
+    - Bhojani
+    - Davis, Y.
+    - Hernandez
+    - Hull
+    - Longoria
+    - Lopez, R.
+    - Lozano
+    - MartinezFischer
+    - McQueeney
+    - Ordaz
+    - Reynolds
+    - Schatzline
+    - Walle
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1008#V-02
+    headline: 'House: passed, 93-39 (May 5, 2025)'
+    statement: 'The House Journal records that "SB 1008 was passed by (Record 1367): 93 Yeas, 39 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY56FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 56th Day (page 3001)
+    source_kind: document
+    sha256: 0ba6f41a9e6cb5d058940c6c6b0f6cf717849f160664a09206692280dec8db84
+    archive_url: null
+    event_date: '2025-05-05'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

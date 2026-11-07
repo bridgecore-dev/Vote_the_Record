@@ -46,6 +46,8 @@ FILE_KINDS = [
     (re.compile(r"^data/states/[a-z]{2}/(statewide|districts/[^/]+|localities/[^/]+)/elections/\d{4}-\d{2}-\d{2}/[^/]+/candidates/[^/]+\.yaml$"), "candidate"),
     (re.compile(r"^data/states/[a-z]{2}/(statewide|districts/[^/]+|localities/[^/]+)/offices/[^/]+\.yaml$"), "office"),
     (re.compile(r"^data/states/[a-z]{2}/people/[^/]+\.yaml$"), "person"),
+    (re.compile(r"^data/states/[a-z]{2}/statewide/legislature/[0-9a-z]+/bills/[^/]+\.yaml$"), "legislature_bill"),
+    (re.compile(r"^data/states/[a-z]{2}/statewide/legislature/[0-9a-z]+/members\.yaml$"), "legislature_members"),
     (re.compile(r"^data/states/[a-z]{2}/decisions/[^/]+\.yaml$"), "decisions"),
     (re.compile(r"^data/states/[a-z]{2}/who-decides\.yaml$"), "who_decides"),
     (re.compile(r"^corrections/log\.yaml$"), "corrections"),
@@ -89,7 +91,8 @@ def load_validators(schemas_dir: Path) -> dict[str, Draft202012Validator]:
             kind: for_ref(f"urn:vtr:schema:other#/$defs/{kind}")
             for kind in ("race", "actions", "powers", "office_override", "survey",
                          "state", "locality", "corrections", "voter_essentials", "ballot", "zips", "precincts", "measure",
-                         "result", "decisions", "who_decides", "office")
+                         "result", "decisions", "who_decides", "office",
+                         "legislature_bill", "legislature_members")
         },
     }
 
@@ -158,6 +161,16 @@ def iter_facts(kind: str, doc: dict):
         for section in ("summary", "records", "statements", "funding"):
             for fact in doc.get(section) or []:
                 yield section, fact
+    elif kind == "legislature_bill":
+        if doc.get("law"):
+            yield "law", doc["law"]
+        for vote in doc.get("votes") or []:
+            yield "votes", vote.get("fact") or {}
+    elif kind == "legislature_members":
+        for member in doc.get("members") or []:
+            yield "members", member.get("fact") or {}
+        if doc.get("senate_roll"):
+            yield "senate_roll", doc["senate_roll"].get("fact") or {}
 
 
 def find_party_keys(node, path: str = ""):
@@ -459,7 +472,61 @@ def validate(root: Path, schemas_dir: Path | None = None) -> Report:
     check_decisions_and_issues(root, docs, powers, all_ids, report)
     check_results(docs, report)
     check_officials(root, docs, powers, all_ids, report)
+    check_legislature(docs, report)
     return report
+
+
+def check_legislature(docs: dict, report: Report) -> None:
+    """Bills and members (docs/METHODOLOGY.md, Votes in the Texas Legislature): names add up to the tally, and no
+    printed name belongs to more than one member of that chamber in that session."""
+    printed: dict[tuple[str, str], dict[str, list[str]]] = {}
+    rolls: dict[str, list[str]] = {}
+    for rel, (kind, doc) in docs.items():
+        if kind != "legislature_members" or not isinstance(doc, dict):
+            continue
+        state, folder = rel.split("/")[2], rel.split("/")[5]
+        if doc.get("session", "").lower() != folder:
+            report.error(rel, f"session must be '{folder.upper()}' to match its folder")
+        roll = (doc.get("senate_roll") or {}).get("names")
+        if roll is not None:
+            rolls[folder] = roll
+            if len(set(roll)) != 31:
+                report.error(rel, f"senate_roll: {len(set(roll))} different names, not one for each of the 31 seats")
+        for i, m in enumerate(doc.get("members") or []):
+            if m.get("person") and docs.get(f"data/states/{state}/people/{m['person']}.yaml", (None,))[0] != "person":
+                report.error(rel, f"members[{i}]: no person file for '{m['person']}'")
+            for name in m.get("printed") or []:
+                printed.setdefault((folder, m.get("chamber")), {}).setdefault(name, []).append(m.get("name"))
+    for (folder, chamber), names in printed.items():
+        for name, who in names.items():
+            if len(who) > 1:
+                report.error(f"data/states/tx/statewide/legislature/{folder}/members.yaml",
+                             f"{chamber} name '{name}' is printed for more than one member: {who}")
+    for rel, (kind, doc) in docs.items():
+        if kind != "legislature_bill" or not isinstance(doc, dict):
+            continue
+        folder = rel.split("/")[5]
+        if doc.get("session", "").lower() != folder:
+            report.error(rel, f"session must be '{folder.upper()}' to match its folder")
+        if Path(rel).stem != doc.get("bill", "").lower().replace(" ", "-"):
+            report.error(rel, f"file name must be '{doc.get('bill', '').lower().replace(' ', '-')}.yaml'")
+        for i, v in enumerate(doc.get("votes") or []):
+            tally, names = v.get("tally") or {}, v.get("names") or {}
+            for key in ("yeas", "nays", "present_not_voting"):
+                if names.get(key) is not None and len(names[key]) != tally.get(key, 0):
+                    report.error(rel, f"votes[{i}]: {len(names[key])} {key} names for a tally of {tally.get(key, 0)}")
+            if v.get("every_member") and (v.get("chamber") != "senate" or tally.get("yeas", 0) + tally.get("nays", 0) != 31
+                                          or len(names.get("nays") or []) != tally.get("nays", 0)):
+                report.error(rel, f"votes[{i}]: every_member needs a Senate tally of all 31 seats with every nay named")
+            elif v.get("every_member"):
+                if folder not in rolls:
+                    report.error(rel, f"votes[{i}]: every_member needs the session's senate_roll in members.yaml")
+                elif set(names.get("nays") or []) - set(rolls[folder]):
+                    report.error(rel, f"votes[{i}]: a nay isn't on the session's senate_roll: "
+                                      f"{sorted(set(names['nays']) - set(rolls[folder]))}")
+            for key, listed in names.items():
+                if len(set(listed)) != len(listed):
+                    report.error(rel, f"votes[{i}]: a name is listed twice under {key}")
 
 
 def check_officials(root: Path, docs: dict, powers: dict, all_ids: dict, report: Report) -> None:

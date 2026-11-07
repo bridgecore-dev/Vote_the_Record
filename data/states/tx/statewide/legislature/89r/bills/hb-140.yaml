@@ -1,0 +1,414 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: HB 140
+caption: Relating to advisory bodies for the Department of Family and Protective Services, including the creation of the child protective investigations advisory committee and the abolition of the Family and Protective Services Council.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/hb-140#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB140
+  source_title: 'Texas Legislature Online: HB 140, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-04-25'
+  record: 552
+  tally:
+    yeas: 129
+    nays: 2
+    present_not_voting: 3
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Gervin-Hawkins
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, V.
+    - Kerwin
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Wharton
+    - Wilson
+    - Wu
+    - Cain
+    - Hayes
+    - Hopper
+    - Little
+    - Olcott
+    - Toth
+    nays:
+    - Harrison
+    - Schatzline
+    present_not_voting:
+    - Mr. Speaker
+    - Meza
+    - Moody(C)
+    absent_excused:
+    - Cortez
+    - Geren
+    - Jones, J.
+    - LaHood
+    - Martinez Fischer
+    - Morales, C.
+    - Oliverson
+    absent:
+    - Canales
+    - Davis, A.
+    - Flores
+    - González, J.
+    - González, M.
+    - Manuel
+    - Reynolds
+    - Ward Johnson
+    - Zwiener
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-140#V-01
+    headline: 'House: passed, 129-2 (April 25, 2025)'
+    statement: 'The House Journal records a calendar of bills passed by one record vote, "(Record 552): 125 Yeas, 6 Nays, 3 Present, not voting.", and lists this bill with the members whose votes differ from it and its own tally: "HB 140 (Harrison and Schatzline — no; Cain, Hayes, Hopper, Little, Olcott, and Toth — yes) (129 - 2 - 3)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY50FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 50th Day (page 1969)
+    source_kind: document
+    sha256: 61bad7809a56e9577332121c0b47028967c423ef12685c0e2795fd199d98f3de
+    archive_url: null
+    event_date: '2025-04-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-09'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-140#V-02
+    headline: 'Senate: passed, 31-0 (May 9, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-09-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 9, 2025 (page 1924)
+    source_kind: document
+    sha256: 61106655d5be6c8c2dcc573c19bc14144d10f406d9e34d2bd25257c0042f5e81
+    archive_url: null
+    event_date: '2025-05-09'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-19'
+  record: 2992
+  tally:
+    yeas: 117
+    nays: 7
+    present_not_voting: 1
+  names:
+    yeas:
+    - Allen
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Geren
+    - Gervin-Hawkins
+    - González, M.
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Isaac
+    - Jones, J.
+    - Jones, V.
+    - Kerwin
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - González, J.
+    - Goodwin
+    - Harrison
+    - Morales, C.
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Anchía
+    - Cortez
+    - Dutton
+    - Lalani
+    absent_excused_committee:
+    - Alders
+    - Davis, Y.
+    - Gates
+    - Gerdes
+    - Harris
+    - Hernandez
+    - Hinojosa
+    - Hunter
+    - Johnson
+    - Leach
+    - Lopez, R.
+    - Morgan
+    - Rose
+    - Virdell
+    absent:
+    - Bryant
+    - King
+    - Longoria
+    - Lozano
+    - Martinez Fischer
+    - Perez, V.
+    - Simmons
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-140#V-03
+    headline: 'House: concurred in the Senate''s amendments, 117-7 (May 19, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 140 prevailed by (Record 2992): 117 Yeas, 7 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY67FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 67th Day (page 5260)
+    source_kind: document
+    sha256: 71e5264e9f90990378d20989bcd0d6920ae9abf19e2dad701abfd0460b01a755
+    archive_url: null
+    event_date: '2025-05-19'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

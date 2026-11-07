@@ -1,0 +1,257 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 6
+caption: Relating to the planning for, interconnection and operation of, and costs related to providing service for certain electrical loads and to the generation of electric power by a water supply or sewer service corporation.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-6#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB6
+  source_title: 'Texas Legislature Online: SB 6, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-03-19'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-6#V-01
+    headline: 'Senate: passed, 31-0 (March 19, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ03-19-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, March 19, 2025 (page 617)
+    source_kind: document
+    sha256: 0e89cdcce31386b465a0ef2b682134f668ab2fd6f46cafc1f5fa7effb6621b34
+    archive_url: null
+    event_date: '2025-03-19'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-27'
+  record: 3643
+  tally:
+    yeas: 103
+    nays: 25
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bryant
+    - Buckley
+    - Bucy
+    - Button
+    - Capriglione
+    - Cole
+    - Cunningham
+    - Curry
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Howard
+    - Hull
+    - Hunter
+    - Johnson
+    - Jones, J.
+    - King
+    - Kitzman
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Swanson
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Bumgarner
+    - Cain
+    - Cook
+    - DeAyala
+    - Harrison
+    - Hayes
+    - Holt
+    - Hopper
+    - Isaac
+    - Kerwin
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Luther
+    - Money
+    - Morgan
+    - Olcott
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Tinderholt
+    - Toth
+    - Vasut
+    - Virdell
+    present_not_voting:
+    - Mr. Speaker
+    - Metcalf(C)
+    absent_excused:
+    - Bowers
+    - Vo
+    absent:
+    - Campos
+    - Canales
+    - Collier
+    - Cortez
+    - Craddick
+    - Darby
+    - Garcia, J.
+    - González, M.
+    - Guerra
+    - Jones, V.
+    - LaHood
+    - Longoria
+    - Ordaz
+    - Pierson
+    - Simmons
+    - Spiller
+    - Talarico
+    - Walle
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-6#V-02
+    headline: 'House: passed, 103-25 (May 27, 2025)'
+    statement: 'The House Journal records that "SB 6 was passed by (Record 3643): 103 Yeas, 25 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY75FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 75th Day (page 6397)
+    source_kind: document
+    sha256: 868822869c0eef8f9048b39efdbe35ce0761588a3748ce99994e586513b0309b
+    archive_url: null
+    event_date: '2025-05-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-05-29'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-6#V-03
+    headline: 'Senate: concurred in the House''s amendments, 31-0 (May 29, 2025)'
+    statement: 'The Senate Journal records that "Senator King moved to concur in the House amendments toSB 6. The motion prevailed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-29-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 29, 2025 (page 3265)
+    source_kind: document
+    sha256: fcebc2880d75096f2939fb35c0209c21bf71dff6adc6f165fa1e06fbab6355e4
+    archive_url: null
+    event_date: '2025-05-29'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -1,0 +1,264 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 1498
+caption: Relating to civil asset forfeiture of digital currency or other similar property.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/sb-1498#L-01
+  headline: Filed without the Governor's signature (June 20, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1498
+  source_title: 'Texas Legislature Online: SB 1498, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-01'
+  record: null
+  tally:
+    yeas: 26
+    nays: 5
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Miles
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - West
+    - Zaffirini
+    nays:
+    - Creighton
+    - Hall
+    - Hughes
+    - Middleton
+    - Sparks
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1498#V-01
+    headline: 'Senate: passed, 26-5 (April 1, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 26, Nays 5. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-01-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 1, 2025 (page 846)
+    source_kind: document
+    sha256: f18509050cebfcd19cec3ca654f5b58955732f12fc225fb70f4e5b35cb3d5025
+    archive_url: null
+    event_date: '2025-04-01'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-23'
+  record: 3338
+  tally:
+    yeas: 74
+    nays: 65
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Buckley
+    - Bucy
+    - Button
+    - Capriglione
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - Dutton
+    - Dyson
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Geren
+    - Gervin-Hawkins
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Hernandez
+    - Howard
+    - Hunter
+    - Isaac
+    - Jones, V.
+    - King
+    - Lalani
+    - Lambert
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Manuel
+    - Martinez
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Noble
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Plesa
+    - Raymond
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Shofner
+    - Simmons
+    - Talarico
+    - Thompson
+    - Turner
+    - Villalobos
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    nays:
+    - Bell, C.
+    - Bowers
+    - Bumgarner
+    - Cain
+    - Canales
+    - Cole
+    - Collier
+    - Cook
+    - Cunningham
+    - DeAyala
+    - Dorazio
+    - Fairly
+    - Gates
+    - Gerdes
+    - González, J.
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Hull
+    - Jones, J.
+    - Kerwin
+    - Kitzman
+    - LaHood
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Lowe
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Morgan
+    - Muñoz
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Phelan
+    - Pierson
+    - Reynolds
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Schatzline
+    - Schoolcraft
+    - Shaheen
+    - Slawson
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Virdell
+    - Wharton
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Bryant
+    - Campos
+    - Garcia, J.
+    - Harris
+    - Johnson
+    - Paul
+    - Smithee
+    absent:
+    - Lopez, R.
+    - Martinez Fischer
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1498#V-02
+    headline: 'House: passed, 74-65 (May 23, 2025)'
+    statement: 'The House Journal records that "SB 1498 was passed by (Record 3338): 74 Yeas, 65 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY71FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 71st Day (page 5782)
+    source_kind: document
+    sha256: 41c65c87ba564c421c36154d6db85e50de3e15f2ca84d68e11200a8b17dcad9c
+    archive_url: null
+    event_date: '2025-05-23'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

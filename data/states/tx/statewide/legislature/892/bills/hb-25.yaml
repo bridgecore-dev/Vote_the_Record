@@ -1,0 +1,264 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: '892'
+bill: HB 25
+caption: Relating to a pharmacist's authority to dispense ivermectin without a prescription.
+became_law: signed
+law:
+  id: tx/statewide/legislature/892/bills/hb-25#L-01
+  headline: Signed by the Governor (September 17, 2025)
+  statement: The bill history records "Signed by the Governor" on September 17, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=HB25
+  source_title: 'Texas Legislature Online: HB 25, 89th Legislature, 2nd Called Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-09-17'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: house
+  action: passed
+  date: '2025-08-27'
+  record: 100
+  tally:
+    yeas: 87
+    nays: 47
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Canales
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Allen
+    - Anchía
+    - Bernal
+    - Bowers
+    - Bryant
+    - Bucy
+    - Cole
+    - Collier
+    - Cortez
+    - Darby
+    - Davis, A.
+    - Davis, Y.
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Hinojosa
+    - Howard
+    - Jones, J.
+    - Lalani
+    - Lambert
+    - Longoria
+    - Lopez, R.
+    - Martinez
+    - Martinez Fischer
+    - Meza
+    - Moody
+    - Morales Shaw
+    - Ordaz
+    - Perez, V.
+    - Reynolds
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Talarico
+    - Thompson
+    - Turner
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Geren
+    - Gervin-Hawkins
+    - Hernandez
+    - Johnson
+    - Jones, V.
+    - Noble
+    - Vo
+    absent:
+    - Barry
+    - Bhojani
+    - Campos
+    - Garcia, J.
+    - Manuel
+    - Morales, C.
+    - Perez, M.
+    - Rodríguez Ramos
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/hb-25#V-01
+    headline: 'House: passed, 87-47 (August 27, 2025)'
+    statement: 'The House Journal records that "HB 25 was passed by (Record 100): 87 Yeas, 47 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/892/pdf/89C2DAY09FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, 2nd Called Session, 9th Day (page 272)
+    source_kind: document
+    sha256: 4fc0f668dc6493989ecf61f8ab13458c4028b4471b3c55b21da0f5c4bc3e38a2
+    archive_url: null
+    event_date: '2025-08-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-08-27'
+  record: null
+  tally:
+    yeas: 20
+    nays: 6
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Cook
+    - Gutierrez
+    - J. Hinojosa
+    - Johnson
+    - Zaffirini
+    absent_excused:
+    - Eckhardt
+    - Menéndez
+    - Miles
+    - West
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/hb-25#V-02
+    headline: 'Senate: passed, 20-6 (August 27, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 20, Nays 6."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ08-27-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, August 27, 2025 (page 103)
+    source_kind: document
+    sha256: 324ff3b32d079231e903807db52b8a96c5184c64a851093028010a68eda63368
+    archive_url: null
+    event_date: '2025-08-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

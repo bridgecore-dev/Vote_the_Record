@@ -303,6 +303,12 @@ def fact_index(docs: dict) -> dict[str, dict]:
                 index.update((f["id"], f) for f in doc.get(section) or [])
         elif kind == "office":
             index.update((f["id"], f) for f in doc.get("sources") or [])
+        elif kind == "legislature_bill":
+            index.update((f["id"], f) for f in [doc["law"]] + [v["fact"] for v in doc["votes"]])
+        elif kind == "legislature_members":
+            index.update((m["fact"]["id"], m["fact"]) for m in doc["members"])
+            if doc.get("senate_roll"):
+                index[doc["senate_roll"]["fact"]["id"]] = doc["senate_roll"]["fact"]
         elif kind == "candidate":
             for section in FACT_SECTIONS:
                 index.update((f["id"], f) for f in doc.get(section) or [])

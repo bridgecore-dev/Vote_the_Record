@@ -1,0 +1,472 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 15
+caption: Relating to size and density requirements for residential lots in certain municipalities; authorizing a fee.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-15#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB15
+  source_title: 'Texas Legislature Online: SB 15, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-03-19'
+  record: null
+  tally:
+    yeas: 29
+    nays: 2
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Cook
+    - Creighton
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - Johnson
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Eckhardt
+    - Miles
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-15#V-01
+    headline: 'Senate: passed, 29-2 (March 19, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 29, Nays 2. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ03-19-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, March 19, 2025 (page 619)
+    source_kind: document
+    sha256: 0e89cdcce31386b465a0ef2b682134f668ab2fd6f46cafc1f5fa7effb6621b34
+    archive_url: null
+    event_date: '2025-03-19'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-28'
+  record: 3837
+  tally:
+    yeas: 86
+    nays: 43
+    present_not_voting: 2
+  names:
+    yeas:
+    - Allen
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bhojani
+    - Bowers
+    - Bucy
+    - Button
+    - Cain
+    - Campos
+    - Canales
+    - Cole
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dorazio
+    - Dyson
+    - Flores
+    - Frank
+    - Garcia, J.
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Howard
+    - Hunter
+    - Johnson
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Lopez, J.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meza
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Rosenthal
+    - Schoolcraft
+    - Shofner
+    - Smithee
+    - Spiller
+    - Tepper
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Walle
+    - Ward Johnson
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Bell, K.
+    - Bonnen
+    - Bryant
+    - Buckley
+    - Capriglione
+    - Collier
+    - Cook
+    - Gámez
+    - Gerdes
+    - Geren
+    - Holt
+    - Hopper
+    - Isaac
+    - Jones, J.
+    - Leo Wilson
+    - Little
+    - Lowe
+    - Luther
+    - Manuel
+    - Martinez
+    - Meyer
+    - Money
+    - Morales, C.
+    - Morgan
+    - Noble
+    - Olcott
+    - Patterson
+    - Perez, M.
+    - Richardson
+    - Romero
+    - Rose
+    - Schatzline
+    - Shaheen
+    - Simmons
+    - Slawson
+    - Swanson
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Virdell
+    - Vo
+    - Wharton
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    absent_excused:
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Longoria
+    - Talarico
+    absent:
+    - Alders
+    - Bernal
+    - Bumgarner
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dutton
+    - Fairly
+    - Gervin-Hawkins
+    - Hull
+    - Jones, V.
+    - Lopez, R.
+    - Schofield
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-15#V-02
+    headline: 'House: passed, 86-43 (May 28, 2025)'
+    statement: 'The House Journal records that "(Vasut in the chair) SB 15 was passed by (Record 3837): 86 Yeas, 43 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 6686)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: adopted the conference committee report
+  date: '2025-05-31'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-15#V-03
+    headline: 'Senate: adopted the conference committee report, 31-0 (May 31, 2025)'
+    statement: 'The Senate Journal records that "On motion of Senator Bettencourt, the Conference Committee Report was adopted by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-31-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 31, 2025 (page 3706)
+    source_kind: document
+    sha256: 0f9700a346d24062f98fba8cc758cb3f6c692819a04b4dfee416737250f38b17
+    archive_url: null
+    event_date: '2025-05-31'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: adopted the conference committee report
+  date: '2025-06-01'
+  record: 4137
+  tally:
+    yeas: 78
+    nays: 57
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bowers
+    - Bucy
+    - Button
+    - Cain
+    - Campos
+    - Cole
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Garcia, J.
+    - Gates
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Howard
+    - Hull
+    - Hunter
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Lopez, R.
+    - Martinez Fischer
+    - McQueeney
+    - Metcalf
+    - Meza
+    - Moody
+    - Morales, E.
+    - Oliverson
+    - Orr
+    - Paul
+    - Perez, M.
+    - Phelan
+    - Pierson
+    - Raymond
+    - Reynolds
+    - Rose
+    - Rosenthal
+    - Schoolcraft
+    - Slawson
+    - Smithee
+    - Spiller
+    - Talarico
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wu
+    - Zwiener
+    nays:
+    - Anchía
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bryant
+    - Buckley
+    - Bumgarner
+    - Capriglione
+    - Collier
+    - Cook
+    - Cortez
+    - Dorazio
+    - Dutton
+    - Gámez
+    - Gerdes
+    - Geren
+    - Guerra
+    - Holt
+    - Hopper
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - McLaughlin
+    - Meyer
+    - Money
+    - Muñoz
+    - Noble
+    - Olcott
+    - Ordaz
+    - Patterson
+    - Perez, V.
+    - Plesa
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Schatzline
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Swanson
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Virdell
+    - Vo
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Allen
+    - Garcia, L.
+    - Harris
+    - Jones, V.
+    - Morales Shaw
+    absent:
+    - Canales
+    - Davis, Y.
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - Longoria
+    - Martinez
+    - Morales, C.
+    - Morgan
+    - Schofield
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-15#V-04
+    headline: 'House: adopted the conference committee report, 78-57 (June 1, 2025)'
+    statement: 'The House Journal records that "The motion to adopt the conference committee report on SB 15 prevailed by (Record 4137): 78 Yeas, 57 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY80FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 80th Day (page 7793)
+    source_kind: document
+    sha256: 82621cd66a3f319682efb8f6cc301cb0c26364d61544f6217d500002b3de444c
+    archive_url: null
+    event_date: '2025-06-01'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

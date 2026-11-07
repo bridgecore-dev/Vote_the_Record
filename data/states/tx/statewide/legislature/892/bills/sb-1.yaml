@@ -1,0 +1,265 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: '892'
+bill: SB 1
+caption: Relating to campground and youth camp safety.
+became_law: signed
+law:
+  id: tx/statewide/legislature/892/bills/sb-1#L-01
+  headline: Signed by the Governor (September 5, 2025)
+  statement: The bill history records "Signed by the Governor" on September 5, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB1
+  source_title: 'Texas Legislature Online: SB 1, 89th Legislature, 2nd Called Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-09-05'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-08-21'
+  record: null
+  tally:
+    yeas: 28
+    nays: 0
+  names:
+    absent_excused:
+    - Menéndez
+    - Paxton
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-1#V-01
+    headline: 'Senate: passed, 28-0 (August 21, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 28, Nays 0. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ08-21-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, August 21, 2025 (page 47)
+    source_kind: document
+    sha256: 94e4051b39878638d988fe467f859bc84ec1cb5fc0f958f1fe147d17125a677f
+    archive_url: null
+    event_date: '2025-08-21'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-09-03'
+  record: 164
+  tally:
+    yeas: 120
+    nays: 4
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - DeAyala
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morgan
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Raymond
+    - Richardson
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Dorazio
+    - Harrison
+    - Lowe
+    - Olcott
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Anchía
+    - Davis, Y.
+    - Dean
+    - Garcia, L.
+    - Guerra
+    - Hernandez
+    - Jones, J.
+    - Jones, V.
+    - Lambert
+    - Martinez Fischer
+    - Morales, E.
+    - Morales Shaw
+    - Reynolds
+    absent:
+    - Ashby
+    - Cain
+    - Campos
+    - Garcia, J.
+    - Hinojosa
+    - Martinez
+    - Morales, C.
+    - Ordaz
+    - Plesa
+    - Rodríguez Ramos
+    - Schofield
+    - Swanson
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-1#V-02
+    headline: 'House: passed, 120-4 (September 3, 2025)'
+    statement: 'The House Journal records that "SB 1 was passed by (Record 164): 120 Yeas, 4 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/892/pdf/89C2DAY12FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, 2nd Called Session, 12th Day (page 468)
+    source_kind: document
+    sha256: 5f657a62acae530396a5a14cfd3fb329190321ce344929dddf48ba9c587d482a
+    archive_url: null
+    event_date: '2025-09-03'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: concurred in the House's amendments
+  date: '2025-09-03'
+  record: null
+  tally:
+    yeas: 26
+    nays: 0
+  names:
+    absent_excused:
+    - Birdwell
+    - Eckhardt
+    - Gutierrez
+    - West
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-1#V-03
+    headline: 'Senate: concurred in the House''s amendments, 26-0 (September 3, 2025)'
+    statement: 'The Senate Journal records that "Senator Perry moved to concur in the House amendment toSB 1. The motion prevailed by the following vote: Yeas 26, Nays 0."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ09-03-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, September 3, 2025 (page 163)
+    source_kind: document
+    sha256: 1eb64bff6c87e3924155d3a693278cea8d31b403b98cbdb265748407a0a02c26
+    archive_url: null
+    event_date: '2025-09-03'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

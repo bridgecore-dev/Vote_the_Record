@@ -1,0 +1,505 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 2972
+caption: Relating to expressive activities at public institutions of higher education.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-2972#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2972
+  source_title: 'Texas Legislature Online: SB 2972, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-14'
+  record: null
+  tally:
+    yeas: 21
+    nays: 10
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - Johnson
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - J. Hinojosa
+    - Menéndez
+    - Miles
+    - West
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2972#V-01
+    headline: 'Senate: passed, 21-10 (May 14, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 21, Nays 10. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-14-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 14, 2025 (page 2097)
+    source_kind: document
+    sha256: bf058f2abc1790d39248aff810597fd7645e304959b3616edf4a47e9afee0809
+    archive_url: null
+    event_date: '2025-05-14'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-28'
+  record: 3879
+  tally:
+    yeas: 97
+    nays: 39
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Canales
+    - Capriglione
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Gates
+    - Gerdes
+    - Geren
+    - González, J.
+    - González, M.
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hefner
+    - Hickland
+    - Holt
+    - Howard
+    - Hull
+    - Hunter
+    - Johnson
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Moody
+    - Morales, E.
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Phelan
+    - Plesa
+    - Raymond
+    - Richardson
+    - Romero
+    - Schatzline
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Thompson
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Walle
+    - Wharton
+    - Wilson
+    - Zwiener
+    nays:
+    - Allen
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Cain
+    - Campos
+    - Cole
+    - Collier
+    - Davis, A.
+    - Dorazio
+    - Garcia, J.
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - Goodwin
+    - Hayes
+    - Hopper
+    - Jones, J.
+    - Jones, V.
+    - Lowe
+    - Meza
+    - Morales, C.
+    - Morales Shaw
+    - Morgan
+    - Olcott
+    - Perez, V.
+    - Pierson
+    - Reynolds
+    - Rodríguez Ramos
+    - Rose
+    - Rosenthal
+    - Schofield
+    - Schoolcraft
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Vasut
+    - Vo
+    - Ward Johnson
+    - Wu
+    present_not_voting:
+    - Mr. Speaker(C)
+    - Virdell
+    absent_excused:
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Kerwin
+    - Longoria
+    - Talarico
+    absent:
+    - Hernandez
+    - Isaac
+    - Lalani
+    - Martinez
+    - Perez, M.
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2972#V-02
+    headline: 'House: passed, 97-39 (May 28, 2025)'
+    statement: 'The House Journal records that "SB 2972 was passed by (Record 3879): 97 Yeas, 39 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 6726)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: adopted the conference committee report
+  date: '2025-06-01'
+  record: 4159
+  tally:
+    yeas: 97
+    nays: 39
+    present_not_voting: 1
+  names:
+    yeas:
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Campos
+    - Capriglione
+    - Cole
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dyson
+    - Fairly
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Gates
+    - Gerdes
+    - Geren
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Landgraf
+    - Leach
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Moody
+    - Morales, E.
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Romero
+    - Schatzline
+    - Schofield
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Villalobos
+    - Walle
+    - Wharton
+    - Wilson
+    nays:
+    - Alders
+    - Anchía
+    - Bhojani
+    - Bowers
+    - Cain
+    - Canales
+    - Collier
+    - Cook
+    - Dorazio
+    - Dutton
+    - Flores
+    - Garcia Hernandez
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Harrison
+    - Hopper
+    - Jones, J.
+    - Lalani
+    - Leo Wilson
+    - Lopez, R.
+    - Lowe
+    - Manuel
+    - Martinez Fischer
+    - McLaughlin
+    - Meza
+    - Money
+    - Morales Shaw
+    - Perez, V.
+    - Rodríguez Ramos
+    - Rose
+    - Rosenthal
+    - Schoolcraft
+    - Simmons
+    - Vasut
+    - Virdell
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Allen
+    - Garcia, L.
+    - Harris
+    - Jones, V.
+    absent:
+    - Bernal
+    - Cortez
+    - Davis, Y.
+    - Gervin-Hawkins
+    - Longoria
+    - Morales, C.
+    - Morgan
+    - Reynolds
+    - Vo
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2972#V-03
+    headline: 'House: adopted the conference committee report, 97-39 (June 1, 2025)'
+    statement: 'The House Journal records that "The motion to adopt the conference committee report on SB 2972 prevailed by (Record 4159): 97 Yeas, 39 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY80FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 80th Day (page 7887)
+    source_kind: document
+    sha256: 82621cd66a3f319682efb8f6cc301cb0c26364d61544f6217d500002b3de444c
+    archive_url: null
+    event_date: '2025-06-01'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: adopted the conference committee report
+  date: '2025-06-01'
+  record: null
+  tally:
+    yeas: 22
+    nays: 9
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - Johnson
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - Menéndez
+    - Miles
+    - West
+    - Zaffirini
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-2972#V-04
+    headline: 'Senate: adopted the conference committee report, 22-9 (June 1, 2025)'
+    statement: 'The Senate Journal records that "On motion of Senator Creighton, the Conference Committee Report was adopted by the following vote: Yeas 22, Nays 9."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ06-01-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, June 1, 2025 (page 3839)
+    source_kind: document
+    sha256: 546007bd863a820e34cfb4f18ececffdfc19399195fe8cfb528967988c976db1
+    archive_url: null
+    event_date: '2025-06-01'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

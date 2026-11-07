@@ -1,0 +1,233 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 1137
+caption: Relating to group home consultant referrals; creating a criminal offense.
+became_law: signed
+law:
+  id: tx/statewide/legislature/89r/bills/sb-1137#L-01
+  headline: Signed by the Governor (June 20, 2025)
+  statement: The bill history records "Signed by the Governor" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1137
+  source_title: 'Texas Legislature Online: SB 1137, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-29'
+  record: null
+  tally:
+    yeas: 30
+    nays: 1
+  names:
+    nays:
+    - Hagenbuch
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1137#V-01
+    headline: 'Senate: passed, 30-1 (April 29, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 30, Nays 1. (Same as previous roll call)" With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-29-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 29, 2025 (page 1580)
+    source_kind: document
+    sha256: dad4ba0669b598ca478d07a8b919dce3521378637b12977a53600a3d53761e41
+    archive_url: null
+    event_date: '2025-04-29'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-05-28'
+  record: 3855
+  tally:
+    yeas: 81
+    nays: 57
+    present_not_voting: 3
+  names:
+    yeas:
+    - Allen
+    - Bell, C.
+    - Bernal
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Button
+    - Campos
+    - Canales
+    - Cole
+    - Collier
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Davis, A.
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Gates
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Holt
+    - Howard
+    - Hull
+    - Johnson
+    - Jones, J.
+    - Jones, V.
+    - King
+    - Lalani
+    - Lambert
+    - Lopez, J.
+    - Lopez, R.
+    - Lujan
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - Meyer
+    - Meza
+    - Moody
+    - Morales, C.
+    - Morales, E.
+    - Morales Shaw
+    - Muñoz
+    - Noble
+    - Ordaz
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Rodríguez Ramos
+    - Romero
+    - Rosenthal
+    - Simmons
+    - Spiller
+    - Tepper
+    - Thompson
+    - Turner
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    nays:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, K.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Cain
+    - Capriglione
+    - Cook
+    - Darby
+    - Dyson
+    - Fairly
+    - Gerdes
+    - Harris Davila
+    - Harrison
+    - Hickland
+    - Hopper
+    - Hunter
+    - Isaac
+    - Kerwin
+    - Kitzman
+    - LaHood
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Louderback
+    - Lowe
+    - Lozano
+    - Luther
+    - McQueeney
+    - Metcalf
+    - Money
+    - Morgan
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Swanson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Villalobos
+    - Wharton
+    - Wilson
+    present_not_voting:
+    - Mr. Speaker
+    - Vasut(C)
+    - Virdell
+    absent_excused:
+    - Anchía
+    - Guerra
+    - Harris
+    - Hinojosa
+    - Longoria
+    - Talarico
+    absent:
+    - Garcia, J.
+    - Garcia Hernandez
+    - Rose
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-1137#V-02
+    headline: 'House: passed, 81-57 (May 28, 2025)'
+    statement: 'The House Journal records that "SB 1137 was passed by (Record 3855): 81 Yeas, 57 Nays, 3 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY76FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 76th Day (page 6703)
+    source_kind: document
+    sha256: 784e90ac76aad1de9dd0881379ae6a7f189e7f92f001bc31fa03b2c618514d65
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

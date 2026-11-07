@@ -1,0 +1,53 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: 89R
+bill: SB 3050
+caption: Relating to the creation of the Fannin County Improvement District No. 1; providing authority to issue bonds; providing authority to impose assessments, fees, and taxes.
+became_law: filed_without_signature
+law:
+  id: tx/statewide/legislature/89r/bills/sb-3050#L-01
+  headline: Filed without the Governor's signature (June 20, 2025)
+  statement: The bill history records "Filed without the Governor's signature" on June 20, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB3050
+  source_title: 'Texas Legislature Online: SB 3050, 89th Legislature, Regular Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-06-20'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-05-14'
+  record: null
+  tally:
+    yeas: 28
+    nays: 3
+  names:
+    nays:
+    - Hall
+    - Middleton
+    - Sparks
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-3050#V-01
+    headline: 'Senate: passed, 28-3 (May 14, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (viva voce vote) (28-3) "Nays" Hall, Middleton, Sparks (28-3) "Nays" Hall, Middleton, Sparks" With 31 seats in the Senate, every senator not listed as voting no voted yes.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-14-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 14, 2025 (page 2132)
+    source_kind: document
+    sha256: bf058f2abc1790d39248aff810597fd7645e304959b3616edf4a47e9afee0809
+    archive_url: null
+    event_date: '2025-05-14'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

@@ -319,6 +319,32 @@ holds it, and each officeholder has a profile.
   their record, the profile says "We haven't researched this official's record yet."
 - **Party is not shown on profiles,** except as it was printed on a ballot in a past race.
 
+### Votes in the Texas Legislature
+
+Legislators take thousands of recorded votes each session. To avoid choosing which ones to show, we use
+one rule for everyone: **every bill that became law, and each chamber's vote to pass it.**
+
+- **Which bills:** every House and Senate bill that became law in the session, from the Legislature's own
+  lists of bills signed by the Governor and bills filed without the Governor's signature. Vetoed bills,
+  resolutions, and bills that never passed are not included. We start with the 89th Legislature (2025),
+  including its special sessions.
+- **Which votes:** in each chamber, the vote that passed the bill (third reading). Where the second chamber
+  changed the bill, also the first chamber's vote to accept those changes (concurring in the amendments)
+  or to adopt a conference committee's version. These are the votes on the text that became law.
+- **Whose names:** exactly as the House or Senate Journal prints them: yes, no, present and not voting, or
+  absent. The House Journal lists every member's vote. When the House passes a whole calendar of local
+  and consent bills with one record vote, the journal lists, after each bill, the members whose votes on
+  that bill differed from it and the bill's own tally; we apply those changes and use the result only if
+  it matches the bill's tally. The Senate Journal usually lists names only when someone votes no. When it
+  prints only a tally, we show a senator's vote only if the tally accounts for all 31 seats and every no
+  is named. The senators counted are the ones the Senate Journal's roll calls list for that session, and
+  only when every roll call in the session lists the same 31. Otherwise the bill shows the tally alone.
+  A bill passed without a recorded vote says so, with no names.
+- **Same words for everyone:** "Voted yes on HB 2 (Relating to ...)" with the bill's official caption, its
+  date, and the journal page. Nothing is added about what the bill does beyond its caption.
+- **For information only.** These votes appear on officeholders' profiles, newest first. They are not
+  linked to quiz questions and don't affect any match.
+
 ## Corrections
 Found an error? [Submit a correction](CORRECTIONS_FORM_URL). Every reviewed correction is
 logged publicly with the date, what changed, why, and who reviewed it.

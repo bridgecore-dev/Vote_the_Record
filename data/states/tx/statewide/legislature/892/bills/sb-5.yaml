@@ -1,0 +1,442 @@
+# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.
+session: '892'
+bill: SB 5
+caption: Relating to making supplemental appropriations for disaster relief and preparedness and giving direction and adjustment authority regarding those appropriations.
+became_law: signed
+law:
+  id: tx/statewide/legislature/892/bills/sb-5#L-01
+  headline: Signed by the Governor (September 18, 2025)
+  statement: The bill history records "Signed by the Governor" on September 18, 2025.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=892&Bill=SB5
+  source_title: 'Texas Legislature Online: SB 5, 89th Legislature, 2nd Called Session, bill history'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2025-09-18'
+  retrieved: '2026-11-06'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+votes:
+- chamber: senate
+  action: passed
+  date: '2025-08-18'
+  record: null
+  tally:
+    yeas: 30
+    nays: 0
+  names: null
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-5#V-01
+    headline: 'Senate: passed, 30-0 (August 18, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 30, Nays 0."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ08-18-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, August 18, 2025 (page 10)
+    source_kind: document
+    sha256: 5ebd3d8241422fb187d9b29a1633b93470a1e6ef2184fe4dad2bd4e23929b1a8
+    archive_url: null
+    event_date: '2025-08-18'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: passed
+  date: '2025-08-21'
+  record: 46
+  tally:
+    yeas: 137
+    nays: 0
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, Y.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Romero
+    - Rose
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Campos
+    - Gervin-Hawkins
+    - Jones, V.
+    - Ordaz
+    - Perez, V.
+    - Vo
+    absent:
+    - Davis, A.
+    - Garcia, J.
+    - Jones, J.
+    - Morales, C.
+    - Rodríguez Ramos
+    - Simmons
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-5#V-02
+    headline: 'House: passed, 137-0 (August 21, 2025)'
+    statement: 'The House Journal records that "SB 5 was passed by (Record 46): 137 Yeas, 0 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/892/pdf/89C2DAY06FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, 2nd Called Session, 6th Day (page 142)
+    source_kind: document
+    sha256: 9bc6cbe507b2231451c609dcfa172356dffa85ce58dc859c7e6975ce00e28afe
+    archive_url: null
+    event_date: '2025-08-21'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: house
+  action: adopted the conference committee report
+  date: '2025-09-03'
+  record: 161
+  tally:
+    yeas: 129
+    nays: 0
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Allen
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bowers
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Raymond
+    - Richardson
+    - Romero
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - WardJohnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr.Speaker(C)
+    - Rose
+    absent_excused:
+    - Anchía
+    - Davis, Y.
+    - Dean
+    - Garcia, L.
+    - Guerra
+    - Hernandez
+    - Jones, J.
+    - Jones, V.
+    - Martinez Fischer
+    - Morales, E.
+    - Morales Shaw
+    - Reynolds
+    absent:
+    - Campos
+    - Cortez
+    - Garcia, J.
+    - Morales, C.
+    - Ordaz
+    - Plesa
+    - Rodríguez Ramos
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-5#V-03
+    headline: 'House: adopted the conference committee report, 129-0 (September 3, 2025)'
+    statement: 'The House Journal records that "The motion to adopt the conference committee report on SB 5 prevailed by (Record 161): 129 Yeas, 0 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/892/pdf/89C2DAY11CFINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, 2nd Called Session, 11th Day (page 433)
+    source_kind: document
+    sha256: 652bcba42f7af25f68a5eee03a774231b805b4ac48b6f06b1a01cf635ef8cee2
+    archive_url: null
+    event_date: '2025-09-03'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+- chamber: senate
+  action: adopted the conference committee report
+  date: '2025-09-03'
+  record: null
+  tally:
+    yeas: 26
+    nays: 0
+  names:
+    absent_excused:
+    - Birdwell
+    - Eckhardt
+    - Gutierrez
+    - West
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/sb-5#V-04
+    headline: 'Senate: adopted the conference committee report, 26-0 (September 3, 2025)'
+    statement: 'The Senate Journal records that "On motion of Senator Huffman, the Conference Committee Report was adopted by the following vote: Yeas 26, Nays 0."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ09-03-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, September 3, 2025 (page 137)
+    source_kind: document
+    sha256: 1eb64bff6c87e3924155d3a693278cea8d31b403b98cbdb265748407a0a02c26
+    archive_url: null
+    event_date: '2025-09-03'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
