@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Simmons, Lauren Ashley (The Honorable), campaign finance report 101072081 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 5de4738d1c0a2c673f96a10410497843767c6985857f2cb8c3d8f158280bad1f
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107213558/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072081.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

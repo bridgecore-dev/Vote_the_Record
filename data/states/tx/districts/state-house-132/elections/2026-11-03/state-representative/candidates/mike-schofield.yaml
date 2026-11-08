@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Schofield, Michael (The Honorable), campaign finance report 101071373 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 110c6e783cd3918725e09fc1f607bc4d454a396c19806864f3e4a3dcee9ae9c3
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107210802/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071373.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

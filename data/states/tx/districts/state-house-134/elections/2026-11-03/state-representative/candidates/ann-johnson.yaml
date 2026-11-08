@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Johnson, Ann (The Honorable), campaign finance report 101072095 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 2b93ff3cb6d79ece88c358e4048444fadbce907bd5e069e58010d33a09b4aceb
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107211210/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072095.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

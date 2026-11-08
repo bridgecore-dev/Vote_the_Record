@@ -16,7 +16,7 @@ funding:
   source_title: 'Texas Ethics Commission: Markowitz, Elizabeth A. (Ms.), campaign finance report 101069393 (filed Oct 4, 2026)'
   source_kind: document
   sha256: 2c93decee6c9b53735b60b509d8f38d1d45f9a74cd08adc42a25579943dcc517
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107220629/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069393.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Markowitz, Elizabeth A. (Ms.), campaign finance report 101072560 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 5015d681f3eaa89b2f936dc31e1b5e07a75331dc46e2a40dd4048cc4eb1d4ba7
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107220651/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072560.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

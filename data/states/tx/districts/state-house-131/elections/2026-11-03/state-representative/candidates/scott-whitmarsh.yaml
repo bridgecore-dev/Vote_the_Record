@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Whitmarsh, Scott, campaign finance report 101072415 (filed Oct 26, 2026)'
   source_kind: document
   sha256: ae1c310fce02b3dac5d09c64ee7301f527e072ff2e8e64f91602a9d344d05517
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107210717/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072415.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

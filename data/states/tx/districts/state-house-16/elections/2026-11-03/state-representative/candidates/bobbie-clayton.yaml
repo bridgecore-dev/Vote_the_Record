@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Clayton, Bobbie L. (Ms.), campaign finance report 101069713 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 79e8e008535c5158326291a620a7cb922354eeaab3817f090cd65369b3740d05
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107214809/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069713.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-19'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Clayton, Bobbie L. (Ms.), campaign finance report 101072078 (filed Oct 25, 2026)'
   source_kind: document
   sha256: fd1fd15568ade105f9f0751b46eeabb3964520c77ed485fefa66c15ef2cefc86
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107214832/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072078.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: Bobbie Clayton for HD 16
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214857/https://www.bobbieclaytonforhd16.com/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified

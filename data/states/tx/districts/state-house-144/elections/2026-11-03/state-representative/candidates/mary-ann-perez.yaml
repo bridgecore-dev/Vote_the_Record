@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Perez, Mary Ann G. (The Honorable), campaign finance report 101071674 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 7f7ce44e4ed8aed3b5283f9aaf7bc70aafb339afb93b1897f4364950a052fefb
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107213421/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071674.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -14,7 +14,7 @@ summary:
   source_title: 'Tom Butler for State Representative: Meet Tom (campaign website)'
   source_kind: page
   sha256: null
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107210305/https://tombutler.org/meet-tom/
   event_date: '2026-10-04'
   retrieved: '2026-10-04'
   verification: unverified
@@ -50,7 +50,7 @@ funding:
   source_title: 'Texas Ethics Commission: Butler, Thomas (Mr.), campaign finance report 101072172 (filed Oct 26, 2026)'
   source_kind: document
   sha256: bf59c0a28f43a2e52f9441304f5cbf3be953de40b1c7dcdda1ce32bd05b3ef3e
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107210342/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072172.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -70,7 +70,7 @@ running_on:
     source_title: Tom Butler for State Representative (campaign website)
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107210405/https://tombutler.org/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -87,7 +87,7 @@ running_on:
     source_title: Tom Butler for State Representative (campaign website)
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107210405/https://tombutler.org/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -104,7 +104,7 @@ running_on:
     source_title: Tom Butler for State Representative (campaign website)
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107210405/https://tombutler.org/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -121,7 +121,7 @@ running_on:
     source_title: Tom Butler for State Representative (campaign website)
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107210405/https://tombutler.org/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -138,7 +138,7 @@ running_on:
     source_title: Tom Butler for State Representative (campaign website)
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107210405/https://tombutler.org/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

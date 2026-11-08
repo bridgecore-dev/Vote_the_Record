@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Morales, Christina (The Honorable), campaign finance report 101072155 (filed Oct 26, 2026)'
   source_kind: document
   sha256: aad399325d49c388e1582ecdc1bf96f9b10595ff1ecf1123e3fe4ddd93f88eb5
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107213443/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072155.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Ward Johnson, Charlene (The Honorable), campaign finance report 101073019 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 61674727f6aa9834f3b531159dbd521e769a715a4575a03b2a8a86918158349b
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107212549/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101073019.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

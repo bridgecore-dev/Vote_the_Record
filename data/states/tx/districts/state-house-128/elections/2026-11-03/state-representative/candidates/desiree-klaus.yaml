@@ -14,7 +14,7 @@ summary:
   source_title: Desiree Klaus for Texas (campaign website)
   source_kind: page
   sha256: null
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261103154214/https://www.desireeklaustx.com/
   event_date: '2026-10-04'
   retrieved: '2026-10-04'
   verification: unverified
@@ -50,7 +50,7 @@ funding:
   source_title: 'Texas Ethics Commission: Klaus, Desiree C. (Ms.), campaign finance report 101072379 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 4016402313fd34a6d222f6cee137ae74e958a86bd9c99db13ab87af2f0b9956c
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107210202/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072379.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -70,7 +70,7 @@ running_on:
     source_title: 'Desiree Klaus for Texas: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107210228/https://www.desireeklaustx.com/issues
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -87,7 +87,7 @@ running_on:
     source_title: 'Desiree Klaus for Texas: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107210228/https://www.desireeklaustx.com/issues
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -104,7 +104,7 @@ running_on:
     source_title: 'Desiree Klaus for Texas: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107210228/https://www.desireeklaustx.com/issues
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

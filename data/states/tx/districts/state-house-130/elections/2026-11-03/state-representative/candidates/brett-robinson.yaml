@@ -14,7 +14,7 @@ summary:
   source_title: Brett4Texas (campaign website)
   source_kind: page
   sha256: null
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107210601/https://www.brett4texas.com/
   event_date: '2026-10-04'
   retrieved: '2026-10-04'
   verification: unverified
@@ -50,7 +50,7 @@ funding:
   source_title: 'Texas Ethics Commission: Robinson, Brett A. (Mr.), campaign finance report 101072933 (filed Oct 26, 2026)'
   source_kind: document
   sha256: bdfca7e6c04254a3755f179868fcd84b910183fa52d0dce34a86a90b51c98226
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107210632/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072933.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

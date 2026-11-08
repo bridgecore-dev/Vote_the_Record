@@ -108,7 +108,7 @@ funding:
   source_title: 'Texas Ethics Commission: Childs, Staci D. (The Honorable), campaign finance report 101073065 (filed Oct 27, 2026)'
   source_kind: document
   sha256: e787197394082f1508414833bccb33e35d5dae0ad49aea6dedf806f991c259d6
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107210740/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101073065.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

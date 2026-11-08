@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hunt, Julie (Ms.), campaign finance report 101071954 (filed Oct 26, 2026)'
   source_kind: document
   sha256: d40b5c31fb5000244d35ade242db3392a2eab290f768c3846d9396b0b8fe2547
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107212946/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071954.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

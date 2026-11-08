@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Cowart, Jessi N. (Mrs.), campaign finance report 101068008 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 0c2e2caeedf07ce5e33a94ab824baa815755f8dbdd7ea347d14b6ecc206eafe8
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009115956/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068008.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-19'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Cowart, Jessi N. (Mrs.), campaign finance report 101072326 (filed Oct 26, 2026)'
   source_kind: document
   sha256: a8509efd9170ab962a67a3ccb331cf7a95ec252288f3c9e54274d89515900271
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107214402/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072326.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: Issues – Cowart For Texas
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214428/https://www.cowartfortexas.com/issues/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified
@@ -69,7 +69,7 @@ running_on:
     source_title: Issues – Cowart For Texas
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214428/https://www.cowartfortexas.com/issues/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified
@@ -86,7 +86,7 @@ running_on:
     source_title: Issues – Cowart For Texas
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214428/https://www.cowartfortexas.com/issues/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified

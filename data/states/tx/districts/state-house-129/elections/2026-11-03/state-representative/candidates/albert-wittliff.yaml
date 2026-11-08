@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Wittliff, Herman A. (Mr.), campaign finance report 101071505 (filed Oct 25, 2026)'
   source_kind: document
   sha256: 9948d5551b4ef952fc28ea1bf0e2ea00a53cf828fd846780e1dfc00691b78e0e
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107210439/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071505.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

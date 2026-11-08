@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Moreno, Inocensia, campaign finance report 101073010 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 8e3676c4f6238ef0cf77199b3db820252da39a38eca03f075f5cee5cd3ff6be6
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107213507/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101073010.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

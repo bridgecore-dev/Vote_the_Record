@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Early, Matthias J., campaign finance report 101069967 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 937a26b82f64fa266279b22d34f66688b457a88dffcacf5aa12a22bfea8194c7
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107215750/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069967.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Early, Matthias J., campaign finance report 101072083 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 007c63f4886c810c5d28785dff01dac0d845646349bd7946960d400f8e59dce2
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107215819/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072083.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

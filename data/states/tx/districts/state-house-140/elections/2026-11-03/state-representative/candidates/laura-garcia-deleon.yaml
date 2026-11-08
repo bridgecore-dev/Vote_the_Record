@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Garcia De Leon, Laura, campaign finance report 101072148 (filed Oct 26, 2026)'
   source_kind: document
   sha256: d54efe9d77d075664929cba2652c790dbbca7db725a6780a1916d4bf0978bb4e
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107212923/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072148.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

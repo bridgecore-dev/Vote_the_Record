@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Meadors, Michael J., campaign finance report 101072043 (filed Oct 25, 2026)'
   source_kind: document
   sha256: fcc939d722f9ef58f9ca013c2add55d4276f0dcffbc789f385d98ac591bd877b
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107220145/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072043.PDF
   event_date: '2026-10-24'
   retrieved: '2026-11-02'
   verification: unverified

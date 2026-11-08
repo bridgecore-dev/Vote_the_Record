@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Bennett, David L. (Mr.), campaign finance report 101071390 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 7c8e4ad8d790ef8ad07fb376418096ccff28555496211e97f3ccb33aa1e103b3
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107214155/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071390.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

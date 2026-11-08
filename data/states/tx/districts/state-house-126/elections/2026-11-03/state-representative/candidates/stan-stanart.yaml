@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Stanart, Stan (Mr.), campaign finance report 101071749 (filed Oct 26, 2026)'
   source_kind: document
   sha256: b9b14f9948b5f486c6334dcf9344c92aae642cf7f41042af78331d3e1f6483d8
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107205319/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071749.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
