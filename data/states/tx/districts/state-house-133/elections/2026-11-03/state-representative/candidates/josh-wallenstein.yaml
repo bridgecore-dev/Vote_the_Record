@@ -14,7 +14,7 @@ summary:
   source_title: 'Josh Wallenstein for HD133: Why Josh (campaign website)'
   source_kind: page
   sha256: null
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107211001/https://josh4texas.com/meet-josh/
   event_date: '2026-10-04'
   retrieved: '2026-10-04'
   verification: unverified
@@ -50,7 +50,7 @@ funding:
   source_title: 'Texas Ethics Commission: Wallenstein, Joshua C. (Mr.), campaign finance report 101072324 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 640845bf8c47fd47041635a6b2a4bd7120c9f74bddea74d4d754dae6626c3531
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107211052/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072324.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -70,7 +70,7 @@ running_on:
     source_title: 'Josh Wallenstein for HD133: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107211116/https://josh4texas.com/issues/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -87,7 +87,7 @@ running_on:
     source_title: 'Josh Wallenstein for HD133: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107211116/https://josh4texas.com/issues/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -104,7 +104,7 @@ running_on:
     source_title: 'Josh Wallenstein for HD133: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107211116/https://josh4texas.com/issues/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -121,7 +121,7 @@ running_on:
     source_title: 'Josh Wallenstein for HD133: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107211116/https://josh4texas.com/issues/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Barton, Valorie (Ms.), campaign finance report 101069975 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 6fe55885f91dc629da0b7210dfb1da62cf263166553d8d68cc6e87b66001b492
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107215455/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069975.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-19'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Barton, Valorie (Ms.), campaign finance report 101072977 (filed Oct 26, 2026)'
   source_kind: document
   sha256: b32b8370edd2fbc372ae75671dd478c89320d9cc1f861a1997df999f23615c15
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107215525/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072977.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: Valorie Barton for Texas HD 18
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107215557/https://www.valoriebarton.com/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified
@@ -69,7 +69,7 @@ running_on:
     source_title: Valorie Barton for Texas HD 18
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107215557/https://www.valoriebarton.com/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified
@@ -86,7 +86,7 @@ running_on:
     source_title: Valorie Barton for Texas HD 18
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107215557/https://www.valoriebarton.com/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified

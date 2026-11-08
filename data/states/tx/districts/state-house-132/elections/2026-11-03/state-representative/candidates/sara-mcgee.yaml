@@ -14,7 +14,7 @@ summary:
   source_title: 'Sara McGee for Texas: About Sara (campaign website)'
   source_kind: page
   sha256: null
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107210830/https://mcgeefortx.com/about-sara/
   event_date: '2026-10-04'
   retrieved: '2026-10-04'
   verification: unverified
@@ -50,7 +50,7 @@ funding:
   source_title: 'Texas Ethics Commission: McGee, Sara A. (Ms.), campaign finance report 101072903 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 959c32bc555745ef52b5d8a595b346af6bbceebeaed6b3f98c4b1b78ac7ad03b
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107210900/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072903.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -70,7 +70,7 @@ running_on:
     source_title: Sara McGee for Texas (campaign website)
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107210924/https://mcgeefortx.com/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -87,7 +87,7 @@ running_on:
     source_title: Sara McGee for Texas (campaign website)
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107210924/https://mcgeefortx.com/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -104,7 +104,7 @@ running_on:
     source_title: Sara McGee for Texas (campaign website)
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107210924/https://mcgeefortx.com/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

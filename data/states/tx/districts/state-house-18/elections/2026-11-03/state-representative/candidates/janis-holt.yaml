@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Holt, Janis A. (The Honorable), campaign finance report 101068953 (filed Oct 2, 2026)'
   source_kind: document
   sha256: af8f19b63fdcbdec1b59b091fb52fba5adab0dec30acc77ff3073f0a4007724a
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009132537/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068953.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-19'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Holt, Janis A. (The Honorable), campaign finance report 101070603 (filed Oct 24, 2026)'
   source_kind: document
   sha256: a1fff7428fd1dad41663ca9a2b851b2840d1374b6fc80d7edce77e8030dc3740
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107215228/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070603.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

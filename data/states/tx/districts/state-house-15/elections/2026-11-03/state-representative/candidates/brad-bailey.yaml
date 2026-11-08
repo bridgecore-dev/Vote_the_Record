@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Bailey, Brad (Mr.), campaign finance report 101069689 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 40aedba5d0d3dbfe17f4f69a3a7316f1f4c70a3eab3ba09138b89233879d6424
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107214218/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069689.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-19'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Bailey, Brad (Mr.), campaign finance report 101070146 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 3f50d8b506e2e1679a68b2d2569bafde178b947ba3c140131bb85962fa7744a9
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107214240/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070146.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: Brad Bailey Campaign (campaign website)
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214310/https://www.bradbaileycampaign.com/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified
@@ -69,7 +69,7 @@ running_on:
     source_title: Brad Bailey Campaign (campaign website)
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214310/https://www.bradbaileycampaign.com/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified
@@ -86,7 +86,7 @@ running_on:
     source_title: Brad Bailey Campaign (campaign website)
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214310/https://www.bradbaileycampaign.com/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified

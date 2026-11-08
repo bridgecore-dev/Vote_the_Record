@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Metcalf, William T. (The Honorable), campaign finance report 101068041 (filed Oct 5, 2026)'
   source_kind: document
   sha256: a5cf23c216070ed0a5da1ac711b2a1a4ff3b26683584b844487b624c83fc0501
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107215004/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068041.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-19'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Metcalf, William T. (The Honorable), campaign finance report 101071573 (filed Oct 26, 2026)'
   source_kind: document
   sha256: c0fe7b744dfadd6acaf545d590e8ae970e0977f958163aad8ebcef641fbb8abc
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107215027/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071573.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -185,7 +185,7 @@ running_on:
     source_title: Issues – Will Metcalf – State Representative
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107215102/https://www.willmetcalf.com/issues/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified
@@ -202,7 +202,7 @@ running_on:
     source_title: Issues – Will Metcalf – State Representative
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107215102/https://www.willmetcalf.com/issues/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified
@@ -219,7 +219,7 @@ running_on:
     source_title: Issues – Will Metcalf – State Representative
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107215102/https://www.willmetcalf.com/issues/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified

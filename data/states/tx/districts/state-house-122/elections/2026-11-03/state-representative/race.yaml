@@ -30,7 +30,7 @@ sources:
   source_title: 'Texas House of Representatives: member page, District 122'
   source_kind: page
   sha256: null
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107204801/https://house.texas.gov/members/member-page/?district=122
   event_date: '2026-10-07'
   retrieved: '2026-10-07'
   verification: unverified

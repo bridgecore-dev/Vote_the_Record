@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Scott, Moniqua'' S. (Ms.), campaign finance report 101070119 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 7c16f5425ecfc2147700623f066d64e11d1052ebbad60e67376dfd6152d37027
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009150253/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070119.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-19'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Scott, Moniqua'' S. (Ms.), campaign finance report 101072995 (filed Oct 26, 2026)'
   source_kind: document
   sha256: e8847407c137b02d26bddacddb55443e86f6ceddf1dbe675422a6277234bd1e9
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107214523/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072995.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: Scott for House District 15
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214548/https://www.scottforhd15.com/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified
@@ -69,7 +69,7 @@ running_on:
     source_title: Scott for House District 15
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214548/https://www.scottforhd15.com/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified
@@ -86,7 +86,7 @@ running_on:
     source_title: Scott for House District 15
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214548/https://www.scottforhd15.com/
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified

@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Reyna, Adrian R., campaign finance report 101068234 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 6c782de9bb8e23caeda42667f7bda9d47d03e2c96e5f5dc31f4d0f238ca37c7e
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107205114/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068234.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Reyna, Adrian R., campaign finance report 101072559 (filed Oct 26, 2026)'
   source_kind: document
   sha256: ac2fde07ee849089391c157e5632991a1521c4975a732db8d51a5432aa1955ee
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107205136/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072559.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

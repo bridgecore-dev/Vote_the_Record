@@ -14,7 +14,7 @@ summary:
   source_title: 'Dr. Darlene Breaux for State Representative: About (campaign website)'
   source_kind: page
   sha256: null
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107213917/https://darlenebreaux.com/about/
   event_date: '2026-10-04'
   retrieved: '2026-10-04'
   verification: unverified
@@ -34,7 +34,7 @@ records:
   source_title: 'Alief ISD Board of Trustees: Minutes, Regular Board Meeting, August 18, 2026 (page 9)'
   source_kind: document
   sha256: aeb07f84debd7a1ffe6af2aa8791ea5599aba81f9a2a0af58bf3b2db4e298c78
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107213953/https://meetings.boardbook.org/Documents/DownloadPDF/14285448?org=770
   event_date: '2026-08-18'
   retrieved: '2026-10-04'
   verification: unverified
@@ -53,7 +53,7 @@ records:
   source_title: 'Alief ISD Board of Trustees: Minutes, Regular Board Meeting, August 18, 2026 (page 8)'
   source_kind: document
   sha256: aeb07f84debd7a1ffe6af2aa8791ea5599aba81f9a2a0af58bf3b2db4e298c78
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107213953/https://meetings.boardbook.org/Documents/DownloadPDF/14285448?org=770
   event_date: '2026-08-18'
   retrieved: '2026-10-04'
   verification: unverified
@@ -72,7 +72,7 @@ records:
   source_title: 'Alief ISD Board of Trustees: Minutes, Regular Board Meeting, August 26, 2025 (page 9)'
   source_kind: document
   sha256: 8962610b36bd786d092e29603fe83fbb053924fe598d6cd05351756b75020c2f
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107214017/https://meetings.boardbook.org/Documents/DownloadPDF/2875363?org=770
   event_date: '2025-08-26'
   retrieved: '2026-10-04'
   verification: unverified
@@ -91,7 +91,7 @@ records:
   source_title: 'Alief ISD Board of Trustees: Minutes, Regular Board Meeting, August 26, 2025 (page 9)'
   source_kind: document
   sha256: 8962610b36bd786d092e29603fe83fbb053924fe598d6cd05351756b75020c2f
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107214017/https://meetings.boardbook.org/Documents/DownloadPDF/2875363?org=770
   event_date: '2025-08-26'
   retrieved: '2026-10-04'
   verification: unverified
@@ -110,7 +110,7 @@ records:
   source_title: 'Alief ISD Board of Trustees: Minutes, Regular Board Meeting, August 26, 2025 (page 10)'
   source_kind: document
   sha256: 8962610b36bd786d092e29603fe83fbb053924fe598d6cd05351756b75020c2f
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107214017/https://meetings.boardbook.org/Documents/DownloadPDF/2875363?org=770
   event_date: '2025-08-26'
   retrieved: '2026-10-04'
   verification: unverified
@@ -145,7 +145,7 @@ funding:
   source_title: 'Texas Ethics Commission: Breaux, Darlene E. (Mrs.), campaign finance report 101069591 (filed Oct 25, 2026)'
   source_kind: document
   sha256: 62769edbb7111aec0eb2969132085dd484da1b89f020c3aff8dfff740b0af04e
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107214058/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069591.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -165,7 +165,7 @@ running_on:
     source_title: 'Dr. Darlene Breaux for State Representative: Priorities (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214124/https://darlenebreaux.com/priorities/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -182,7 +182,7 @@ running_on:
     source_title: 'Dr. Darlene Breaux for State Representative: Priorities (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214124/https://darlenebreaux.com/priorities/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -199,7 +199,7 @@ running_on:
     source_title: 'Dr. Darlene Breaux for State Representative: Priorities (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214124/https://darlenebreaux.com/priorities/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -216,7 +216,7 @@ running_on:
     source_title: 'Dr. Darlene Breaux for State Representative: Priorities (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214124/https://darlenebreaux.com/priorities/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -233,7 +233,7 @@ running_on:
     source_title: 'Dr. Darlene Breaux for State Representative: Priorities (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214124/https://darlenebreaux.com/priorities/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -250,7 +250,7 @@ running_on:
     source_title: 'Dr. Darlene Breaux for State Representative: Priorities (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107214124/https://darlenebreaux.com/priorities/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

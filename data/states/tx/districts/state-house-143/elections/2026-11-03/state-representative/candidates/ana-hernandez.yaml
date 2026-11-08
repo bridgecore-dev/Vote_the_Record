@@ -146,7 +146,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hernandez, Ana E. (The Honorable), campaign finance report 101072690 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 72231cc9d9a8df6e65a1c967709efcfac7f8b016813f406f88e6945bdb4c8a6b
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107213301/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072690.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

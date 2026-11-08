@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Michna, Michael A. (Mr.), campaign finance report 101071298 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 0f184072d9554978dbdf21fd1495181b23c52dc6d50737f3aaa0172615659a85
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107211232/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071298.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Wilson, Terry M. (The Honorable), campaign finance report 101067580 (filed Oct 5, 2026)'
   source_kind: document
   sha256: ec28972f34f5fbdf4f9bcceb37485dc6acc14dbeac547d04dc9936a17415b07c
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009130905/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101067580.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Wilson, Terry M. (The Honorable), campaign finance report 101071564 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 15561a4a670f76b1ee75925b5a8430bda32aef0ac86ca866f4bf6b96bf9df7ef
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107215927/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071564.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -185,7 +185,7 @@ running_on:
     source_title: 'Terry Wilson for Texas: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107215953/https://www.terrywilsonfortexas.com/issues
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -202,7 +202,7 @@ running_on:
     source_title: 'Terry Wilson for Texas: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107215953/https://www.terrywilsonfortexas.com/issues
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

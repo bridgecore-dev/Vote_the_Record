@@ -14,7 +14,7 @@ summary:
   source_title: 'Heidi Hall for State Representative: About (campaign website)'
   source_kind: page
   sha256: null
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107213133/https://www.heididhall.com/about
   event_date: '2026-10-04'
   retrieved: '2026-10-04'
   verification: unverified
@@ -50,7 +50,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hall, Heidi D. (Mrs.), campaign finance report 101071826 (filed Oct 26, 2026)'
   source_kind: document
   sha256: bc9523da7cbda4948e4e80ff6cb84b80457e19ebe97c9ca03a485a73521cdb90
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107213205/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071826.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -70,7 +70,7 @@ running_on:
     source_title: 'Heidi Hall for State Representative: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107213229/https://www.heididhall.com/issues
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -87,7 +87,7 @@ running_on:
     source_title: 'Heidi Hall for State Representative: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107213229/https://www.heididhall.com/issues
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Thompson, Senfronia (The Honorable), campaign finance report 101068783 (filed Oct 26, 2026)'
   source_kind: document
   sha256: fa12d1a22cd6e066e48deaadce4ab64c906e7b896094a942a90946e58d64ebd3
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107213008/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068783.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

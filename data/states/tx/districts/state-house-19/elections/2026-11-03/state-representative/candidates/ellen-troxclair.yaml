@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Troxclair, Ellen (The Honorable), campaign finance report 101072162 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 6c6e97013d538382720a4da01abd6a43eb1ac03674618b8db9a04b60f2659b64
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107215706/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072162.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

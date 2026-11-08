@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hull, Lacey M. (The Honorable), campaign finance report 101072848 (filed Oct 26, 2026)'
   source_kind: document
   sha256: d2bc3979d515a769a8c75527a9d39c1f6dc42db98f640ac98ab7faef00939aec
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107212422/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072848.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

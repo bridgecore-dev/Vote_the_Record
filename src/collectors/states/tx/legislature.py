@@ -8,7 +8,7 @@ are exactly as the journal prints them. A Senate vote printed only as a tally na
 tally accounts for all 31 seats and every "nay" is named.
 
 Usage (preview first; --write to apply):
-  python src/collectors/states/tx/legislature.py --saved <downloads/legislature> --session 89R [--write]
+  python src/collectors/states/tx/legislature.py --saved <downloads/legislature> --session 89R --retrieved YYYY-MM-DD [--write]
 
 Everything written is unverified.
 """
@@ -453,6 +453,11 @@ def sentence_before(text: str, i: int) -> str:
     return " ".join(text[start + 1:i].split())
 
 
+LAW_ACTIONS = {"Signed by the Governor": "Signed by the Governor",
+               "Signed by the Governor/line item veto": "Signed by the Governor, line item veto",  # TLO's wording; it doesn't say how many
+               "Filed without the Governor's signature": "Filed without the Governor's signature"}
+
+
 def bill_doc(saved: Path, session: str, bill_code: str, became: str, retrieved: str, log: list[str]) -> dict | None:
     folder = SESSIONS[session][0]
     label = re.sub(r"(\D+)(\d+)", r"\1 \2", bill_code)
@@ -462,13 +467,12 @@ def bill_doc(saved: Path, session: str, bill_code: str, became: str, retrieved: 
     if not h["caption"]:
         log.append(f"BY HAND {label}: no caption in the bill history")
         return None
-    law_row = next((a for a in reversed(h["actions"]) if a["action"] in ("Signed by the Governor",
-                                                                          "Filed without the Governor's signature")), None)
+    law_row = next((a for a in reversed(h["actions"]) if a["action"] in LAW_ACTIONS), None)
     if not law_row:
         log.append(f"BY HAND {label}: the bill history has no signing or filing action")
         return None
     hist_title = f"Texas Legislature Online: {label}, {SESSIONS[session][1]}, bill history"
-    how = "Signed by the Governor" if became == "signed" else "Filed without the Governor's signature"
+    how = LAW_ACTIONS[law_row["action"]]
     law = base_fact(f"{rel}#L-01", f'The bill history records "{law_row["action"]}" on {longdate(law_row["date"])}.',
                     hist_url, hist_title, "page", None, law_row["date"], retrieved, f"{how} ({longdate(law_row['date'])})")
     votes = []
@@ -643,11 +647,12 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--saved", type=Path, required=True, help="folder with the saved TLO pages and journals")
     parser.add_argument("--session", choices=sorted(SESSIONS), required=True)
-    parser.add_argument("--retrieved", default=dt.date.today().isoformat())
+    parser.add_argument("--retrieved", required=True, type=dt.date.fromisoformat,
+                        help="the date the pages in --saved were downloaded (YYYY-MM-DD), not the date of this run")
     parser.add_argument("--root", type=Path, default=REPO)
     parser.add_argument("--write", action="store_true")
     args = parser.parse_args(argv)
-    docs, log = plan(args.root, args.saved, args.session, args.retrieved)
+    docs, log = plan(args.root, args.saved, args.session, args.retrieved.isoformat())
     header = "# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.\n"
     changed = 0
     for path, doc in docs.items():

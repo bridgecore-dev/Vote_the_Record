@@ -14,7 +14,7 @@ summary:
   source_title: Odus for Texas (campaign website)
   source_kind: page
   sha256: null
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107211432/https://www.odusfortexas.com/
   event_date: '2026-10-04'
   retrieved: '2026-10-04'
   verification: unverified
@@ -50,7 +50,7 @@ funding:
   source_title: 'Texas Ethics Commission: Evbagharu, Odus E. (Mr.), campaign finance report 101072058 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 16c3ad610c41692a779c84253a611ea50bf46dda1a168d0bc813440b2102d2ee
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107211502/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072058.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -70,7 +70,7 @@ running_on:
     source_title: 'Odus for Texas: Healthcare is a Right (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107211530/https://odusfortexas.com/issue/healthcare-is-a-right/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -87,7 +87,7 @@ running_on:
     source_title: 'Odus for Texas: Empower Every Child and Parent, Support Every Educator (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107211605/https://odusfortexas.com/issue/empower-every-child-support-every-educator/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -104,7 +104,7 @@ running_on:
     source_title: 'Odus for Texas: Lowering Costs for Texans (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107211639/https://odusfortexas.com/issue/lowering-costs-for-texans/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Bucy III, John H. (The Honorable), campaign finance report 101069326 (filed Oct 5, 2026)'
   source_kind: document
   sha256: e38e0bf25d8e09ca748ac339e56034768fd4e14269762618fd2cf6d48801c919
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009111741/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069326.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Bucy III, John H. (The Honorable), campaign finance report 101072293 (filed Oct 26, 2026)'
   source_kind: document
   sha256: c51d8e530735e69f0c5bb841cbeb99ead04c253b9a2132f360d6c1511d52ef80
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107211733/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072293.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -185,7 +185,7 @@ running_on:
     source_title: 'Bucy for Texas: Priorities (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107211800/https://bucyfortexas.com/priorities/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -202,7 +202,7 @@ running_on:
     source_title: 'Bucy for Texas: Priorities (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107211800/https://bucyfortexas.com/priorities/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

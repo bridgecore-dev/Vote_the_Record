@@ -16,7 +16,7 @@ funding:
   source_title: 'Texas Ethics Commission: Soto, Sylvia, campaign finance report 101069391 (filed Oct 6, 2026)'
   source_kind: document
   sha256: feb354665586c4d4dae2d52b072df28ffc011fc543b18cc5f2cc20e39e375dce
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009130505/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069391.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified

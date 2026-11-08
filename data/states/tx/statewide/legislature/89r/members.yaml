@@ -297,7 +297,7 @@ members:
     source_title: 'Texas Legislature Online: Paul Dyson, member information'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107212826/https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4475
     event_date: '2026-11-06'
     retrieved: '2026-11-06'
     verification: unverified
@@ -553,7 +553,7 @@ members:
     source_title: 'Texas Legislature Online: Cody Vasut, member information'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261107220555/https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4065
     event_date: '2026-11-06'
     retrieved: '2026-11-06'
     verification: unverified

@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Garcia, Gia Jolene (The Honorable), campaign finance report 101067943 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 740851b9e53ea0da3de7b4cd8dbb3e237a010d4166ce0208762ed2a3ab534255
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107204928/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101067943.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Garcia, Gia Jolene (The Honorable), campaign finance report 101072555 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 182b78f96342ffb229a93d6801c957947acd74ccbaa0744fdd00ae4059b84a71
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261107204950/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072555.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
