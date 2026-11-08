@@ -203,3 +203,64 @@ votes:
     verification: unverified
     verified_on: null
     reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-09-03'
+  record: null
+  tally:
+    yeas: 17
+    nays: 8
+    present_not_voting: 1
+  names:
+    yeas:
+    - Bettencourt
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - J. Hinojosa
+    - Johnson
+    - Menéndez
+    - Miles
+    - Zaffirini
+    present_not_voting:
+    - Nichols
+    absent_excused:
+    - Birdwell
+    - Eckhardt
+    - Gutierrez
+    - West
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/hb-7#V-02
+    headline: 'Senate: passed, 17-8 (September 3, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 17, Nays 8, Present-not voting 1."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ09-03-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, September 3, 2025 (page 133)
+    source_kind: document
+    sha256: 1eb64bff6c87e3924155d3a693278cea8d31b403b98cbdb265748407a0a02c26
+    archive_url: null
+    event_date: '2025-09-03'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

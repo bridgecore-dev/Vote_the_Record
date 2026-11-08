@@ -169,3 +169,43 @@ def test_journal_names_that_lost_spaces_or_carry_marks_still_match():
     assert L.printed_match("J. Hinojosa", pool) == [pool[2]]
     assert L.printed_match("Landgraf(C)", pool) == [pool[3]]  # in the chair
     assert L.senator("A.Hinojosa") == "A. Hinojosa"  # spaced as the Senate roll prints it
+
+
+def test_a_rerun_keeps_archive_links_only_for_the_same_source():
+    fact = {"id": "x#V-01", "source_url": "https://a/j.pdf", "sha256": "aa", "archive_url": None}
+    old = {"votes": [{"fact": dict(fact, archive_url="https://web.archive.org/web/1/https://a/j.pdf")}]}
+    new = {"votes": [{"fact": dict(fact)}]}
+    L.keep_archives(old, new)
+    assert new["votes"][0]["fact"]["archive_url"] == "https://web.archive.org/web/1/https://a/j.pdf"
+    changed = {"votes": [{"fact": dict(fact, sha256="bb")}]}  # the journal file changed: its old copy no longer matches
+    L.keep_archives(old, changed)
+    assert changed["votes"][0]["fact"]["archive_url"] is None
+    L.keep_archives(None, new)  # a new file
+
+
+def test_a_bill_passed_again_after_reconsidering_uses_the_last_vote():
+    text = L.journal_text(
+        "HOUSE BILL 1240 ON THIRD READING\nThe bill was read third time and was passed by the following vote: Yeas 31,\nNays 0.\n"
+        "VOTES RECONSIDERED ON\nHOUSE BILL 1240\nthe vote by which HB 1240 was finally passed was reconsidered:\n"
+        "HOUSEBILL1240ONTHIRDREADING\nThe bill was again read third time and was again finally passed by the following\n"
+        "vote: Yeas 23, Nays 8.\nNays: Alvarado, Blanco, Cook, Eckhardt, Gutierrez, Johnson, Menéndez, Miles.\n")
+    rc = L.senate_roll_call(text, "HB 1240", "passed")
+    assert rc["tally"] == {"yeas": 23, "nays": 8} and len(rc["names"]["nays"]) == 8
+    text = L.journal_text("CSSB 213asagainamendedwasfinallypassedby thefollowingvote: Yeas 30,\nNays 0.\nAbsent-excused: King.\n")
+    assert L.senate_roll_call(text, "SB 213", "passed as amended")["names"] == {"absent_excused": ["King"]}
+
+
+def test_a_senate_vote_can_count_members_present_not_voting():
+    text = L.journal_text(
+        "COMMITTEEiiSUBSTITUTE\nHOUSEBILL1056ONTHIRDREADING\nThe bill was read third time and was passed by the following vote: "
+        "Yeas 18,\nNays 12, Present-not votingi1.\nNays: Alvarado, Blanco, Cook, Eckhardt, Gutierrez, J. Hinojosa, Johnson, Miles, Nichols, West, Zaffirini, Hall.\nPresent-not voting: Patrick.\n")
+    rc = L.senate_roll_call(text, "HB 1056", "passed")
+    assert rc["tally"] == {"yeas": 18, "nays": 12, "present_not_voting": 1} and rc["names"]["present_not_voting"] == ["Patrick"]
+    assert rc["quote"].endswith("Yeas 18, Nays 12, Present-not voting 1.")
+    cal = L.journal_text(
+        'All Members are deemed to\nhave voted "Yea" on viva voce votes unless otherwise indicated.\n'
+        'HB 2518(A.Hinojosa)\nRelating to plans.\n(viva voce vote) (28-2-1) "Nays" Hagenbuch, Hughes "Present-not voting" Miles\n'
+        '(28-2-1)"Nays"Hagenbuch,Hughes"Present-notvoting"Miles\nHB 2563(Kolkhorst)\nRelating to a pool.\n(vivavocevote)(31-0)(31-0)\n')
+    rc = L.senate_calendar_vote(cal, "HB 2518")
+    assert rc["tally"] == {"yeas": 28, "nays": 2, "present_not_voting": 1}
+    assert rc["names"] == {"nays": ["Hagenbuch", "Hughes"], "present_not_voting": ["Miles"]}

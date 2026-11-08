@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Jimenez, Christopher R. (Mr.), campaign finance report 101069624 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 85e2f912243fd7ec3a1c6147d0b99527e89cf8e2899a760532a83b9c4735671f
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108103335/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069624.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Jimenez, Christopher R. (Mr.), campaign finance report 101073163 (filed Oct 27, 2026)'
   source_kind: document
   sha256: 4bc0a3eac6c3c10605d6572dd8b6d035d5d4487f589384b45c771b832a2700dd
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108103358/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101073163.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: 'Chris Jimenez for Texas House District 52: Priorities (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108103423/https://www.chrisjimenezforhd52.com/priorities
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -69,7 +69,7 @@ running_on:
     source_title: 'Chris Jimenez for Texas House District 52: Priorities (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108103423/https://www.chrisjimenezforhd52.com/priorities
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

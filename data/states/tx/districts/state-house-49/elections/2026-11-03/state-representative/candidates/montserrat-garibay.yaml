@@ -50,7 +50,7 @@ funding:
   source_title: 'Texas Ethics Commission: Garibay, Montserrat (Mrs.), campaign finance report 101072340 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 3f27f4bb54701567d35a781350cc4c3773f0e579ebb2cfc7c24c91b74dc538ea
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108102921/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072340.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Bumgarner, Benjamin C (The Honorable), campaign finance report 101068130 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 77636afc99706d4a6ca9eba4bc983d18f37d1cbca7b94444a1004721cb9c69d9
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009115755/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068130.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Bumgarner, Benjamin C (The Honorable), campaign finance report 101070151 (filed Oct 26, 2026)'
   source_kind: document
   sha256: ea58a565b842e44411369fe34efcc6186ae5b100de7aa5ff103b003496dad025
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108105421/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070151.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -185,7 +185,7 @@ running_on:
     source_title: Ben Bumgarner for Texas House District 63 (campaign website)
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261030155319/https://votebumgarner.com/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -202,7 +202,7 @@ running_on:
     source_title: Ben Bumgarner for Texas House District 63 (campaign website)
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261030155319/https://votebumgarner.com/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

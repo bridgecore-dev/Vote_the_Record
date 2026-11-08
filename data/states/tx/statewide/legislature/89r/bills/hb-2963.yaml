@@ -228,6 +228,188 @@ votes:
     verification: unverified
     verified_on: null
     reviewer: null
+- chamber: house
+  action: adopted the conference committee report
+  date: '2025-06-01'
+  record: 4150
+  tally:
+    yeas: 132
+    nays: 6
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Anchía
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Campos
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, J.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Holt
+    - Hopper
+    - Howard
+    - Hunter
+    - Isaac
+    - Johnson
+    - Jones, J.
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Leach
+    - Little
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, E.
+    - Morales Shaw
+    - Morgan
+    - Muñoz
+    - Noble
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rosenthal
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Walle
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Ashby
+    - Hull
+    - Leo Wilson
+    - Lowe
+    - Olcott
+    - Patterson
+    present_not_voting:
+    - Mr. Speaker
+    - Landgraf(C)
+    absent_excused:
+    - Allen
+    - Garcia, L.
+    - Harris
+    - Jones, V.
+    absent:
+    - Bowers
+    - Davis, Y.
+    - Longoria
+    - Morales, C.
+    - Reynolds
+    - Rose
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2963#V-03
+    headline: 'House: adopted the conference committee report, 132-6 (June 1, 2025)'
+    statement: 'The House Journal records that "The motion to adopt the conference committee report on HB 2963 prevailed by (Record 4150): 132 Yeas, 6 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY80FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 80th Day (page 7822)
+    source_kind: document
+    sha256: 82621cd66a3f319682efb8f6cc301cb0c26364d61544f6217d500002b3de444c
+    archive_url: null
+    event_date: '2025-06-01'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
 - chamber: senate
   action: adopted the conference committee report
   date: '2025-06-01'
@@ -238,7 +420,7 @@ votes:
   names: null
   every_member: true
   fact:
-    id: tx/statewide/legislature/89r/bills/hb-2963#V-03
+    id: tx/statewide/legislature/89r/bills/hb-2963#V-04
     headline: 'Senate: adopted the conference committee report, 31-0 (June 1, 2025)'
     statement: 'The Senate Journal records that "On motion of Senator Hall, the Conference Committee Report was adopted by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
     label: official_record

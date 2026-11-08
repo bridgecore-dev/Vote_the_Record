@@ -16,7 +16,7 @@ funding:
   source_title: 'Texas Ethics Commission: Chilmeran, Anissa M., campaign finance report 101070148 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 1777a35e57090d77397ffd8b2e2e210470165fcbce2e119612a3251aeb9509d2
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009122917/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070148.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Chilmeran, Anissa M., campaign finance report 101072975 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 127377fa235df547e05b8e3256b1b4257ba46f78a86583db63fa6e1b1a5f28e3
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108105053/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072975.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

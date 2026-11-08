@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Rosa, Oscar (Mr.), campaign finance report 101068968 (filed Oct 5, 2026)'
   source_kind: document
   sha256: f7f68b8e05fd076de1585c6234c86b7a5d9d4e6953e4e23f10b87d599bd9a711
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009131500/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068968.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-20'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Rosa, Oscar (Mr.), campaign finance report 101069919 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 3124a0c98537bfa99791d195e10de7c8e77f7da023fca9865175471a5e99ae96
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108100402/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069919.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: Oscar Rosa for Texas State Representative District 35
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108100423/https://rosafortexas.com/
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -69,7 +69,7 @@ running_on:
     source_title: Oscar Rosa for Texas State Representative District 35
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108100423/https://rosafortexas.com/
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -86,7 +86,7 @@ running_on:
     source_title: Oscar Rosa for Texas State Representative District 35
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108100423/https://rosafortexas.com/
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified

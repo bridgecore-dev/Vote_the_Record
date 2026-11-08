@@ -263,3 +263,62 @@ votes:
     verification: unverified
     verified_on: null
     reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-28'
+  record: null
+  tally:
+    yeas: 23
+    nays: 8
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    - West
+    - Zaffirini
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - Johnson
+    - Menéndez
+    - Miles
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-1240#V-03
+    headline: 'Senate: passed, 23-8 (May 28, 2025)'
+    statement: 'The Senate Journal records that "The bill was again read third time and was again finally passed by the following vote: Yeas 23, Nays 8."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-28-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 28, 2025 (page 3139)
+    source_kind: document
+    sha256: 8b236c6d093f3f3e325e5c04732391cf5735314d035c8778791c078501cc6cf7
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

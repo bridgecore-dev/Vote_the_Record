@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hopper, Stephen (The Honorable), campaign finance report 101069128 (filed Oct 5, 2026)'
   source_kind: document
   sha256: acca236dea4b4a44a66a60eef43310a7ec12aa20191e95c84d030dcde9a7a834
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009130450/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069128.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hopper, Stephen (The Honorable), campaign finance report 101072124 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 94587fb2d6c6cc6c27e2f19e935d91c1d78b7fe2bc0487935379e8c642459650
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108105707/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072124.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

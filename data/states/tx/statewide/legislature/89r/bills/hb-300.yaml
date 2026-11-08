@@ -254,3 +254,185 @@ votes:
     verification: unverified
     verified_on: null
     reviewer: null
+- chamber: house
+  action: adopted the conference committee report
+  date: '2025-05-31'
+  record: 4099
+  tally:
+    yeas: 121
+    nays: 8
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Anchía
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bernal
+    - Bhojani
+    - Bonnen
+    - Bryant
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Canales
+    - Capriglione
+    - Cole
+    - Collier
+    - Cook
+    - Cortez
+    - Craddick
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dutton
+    - Dyson
+    - Fairly
+    - Flores
+    - Frank
+    - Gámez
+    - Garcia, L.
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Hinojosa
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lozano
+    - Lujan
+    - Luther
+    - Manuel
+    - Martinez
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Meza
+    - Money
+    - Moody
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Raymond
+    - Richardson
+    - Rodríguez Ramos
+    - Romero
+    - Rosenthal
+    - Shofner
+    - Simmons
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Talarico
+    - Tepper
+    - Thompson
+    - Troxclair
+    - Turner
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Vo
+    - Ward Johnson
+    - Wharton
+    - Wilson
+    - Wu
+    - Zwiener
+    nays:
+    - Cain
+    - Harrison
+    - Lowe
+    - Patterson
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Toth
+    present_not_voting:
+    - Mr. Speaker(C)
+    absent_excused:
+    - Allen
+    - Cunningham
+    - Harless
+    - Harris
+    - Holt
+    - Morales Shaw
+    - Rose
+    - Schatzline
+    - Tinderholt
+    - Walle
+    absent:
+    - Bell, K.
+    - Bowers
+    - Campos
+    - Davis, Y.
+    - Garcia, J.
+    - Jones, J.
+    - Jones, V.
+    - Morales, C.
+    - Plesa
+    - Reynolds
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-300#V-04
+    headline: 'House: adopted the conference committee report, 121-8 (May 31, 2025)'
+    statement: 'The House Journal records that "The motion to adopt the conference committee report on HB 300 prevailed by (Record 4099): 121 Yeas, 8 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY79FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 79th Day (page 7670)
+    source_kind: document
+    sha256: 00f9c4f013e4c7be6936765c99ca29db9f5aa8dc1e19069d20f1e326a5ed8268
+    archive_url: null
+    event_date: '2025-05-31'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

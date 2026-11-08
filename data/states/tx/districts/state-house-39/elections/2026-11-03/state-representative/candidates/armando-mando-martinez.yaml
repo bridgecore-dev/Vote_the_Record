@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Martinez, Armando A. (The Honorable), campaign finance report 101055340 (filed Jul 14, 2026)'
   source_kind: document
   sha256: 3ae2cf40e358869317f57f4e0b65575d92522dc7b687eb2e55cf0adad8b46443
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261008230322/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101055340.PDF
   event_date: '2026-06-30'
   retrieved: '2026-11-02'
   verification: unverified

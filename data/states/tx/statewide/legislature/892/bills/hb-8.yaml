@@ -262,3 +262,185 @@ votes:
     verification: unverified
     verified_on: null
     reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-09-03'
+  record: 157
+  tally:
+    yeas: 79
+    nays: 47
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Bell, C.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Button
+    - Cain
+    - Capriglione
+    - Cook
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - Geren
+    - Guillen
+    - Harless
+    - Harris
+    - Harris Davila
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morgan
+    - Noble
+    - Olcott
+    - Oliverson
+    - Orr
+    - Patterson
+    - Paul
+    - Pierson
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Allen
+    - Barry
+    - Bell, K.
+    - Bernal
+    - Bowers
+    - Bryant
+    - Bucy
+    - Canales
+    - Cole
+    - Collier
+    - Davis, A.
+    - Flores
+    - Gámez
+    - Garcia Hernandez
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Harrison
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Little
+    - Longoria
+    - Lopez, R.
+    - Manuel
+    - Martinez
+    - Meza
+    - Moody
+    - Muñoz
+    - Perez, V.
+    - Phelan
+    - Plesa
+    - Raymond
+    - Romero
+    - Rose
+    - Rosenthal
+    - Simmons
+    - Spiller
+    - Talarico
+    - Thompson
+    - Turner
+    - Vo
+    - Walle
+    - WardJohnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr.Speaker(C)
+    absent_excused:
+    - Anchía
+    - Davis, Y.
+    - Dean
+    - Garcia, L.
+    - Guerra
+    - Hernandez
+    - Jones, J.
+    - Jones, V.
+    - Martinez Fischer
+    - Morales, E.
+    - Morales Shaw
+    - Reynolds
+    absent:
+    - Bhojani
+    - Campos
+    - Cortez
+    - Dutton
+    - Garcia, J.
+    - Lalani
+    - Lambert
+    - Morales,C
+    - Ordaz
+    - Perez,M
+    - RodríguezRamos
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/hb-8#V-03
+    headline: 'House: concurred in the Senate''s amendments, 79-47 (September 3, 2025)'
+    statement: 'The House Journal records that "HB 8 - TEXT OF SENATE AMENDMENTS The motion to concur in the senate amendments to HB 8 prevailed by (Record 157): 79 Yeas, 47 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/892/pdf/89C2DAY11CFINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, 2nd Called Session, 11th Day (page 393)
+    source_kind: document
+    sha256: 652bcba42f7af25f68a5eee03a774231b805b4ac48b6f06b1a01cf635ef8cee2
+    archive_url: null
+    event_date: '2025-09-03'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

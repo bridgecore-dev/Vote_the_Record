@@ -50,7 +50,7 @@ funding:
   source_title: 'Texas Ethics Commission: Mushtaler M.D., Jennifer (The Honorable), campaign finance report 101072676 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 43473761227c2abcc830dff714cd45069d7a4d1575563d89ef2a010f09692b5f
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108102743/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072676.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

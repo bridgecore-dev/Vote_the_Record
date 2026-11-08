@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Williams-Richardson, Dawn T. (Mrs.), campaign finance report 101068482 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 67c3202091d5ba9dc7490694b335f69b0a6f8560c4ca860621ef66959eff62e1
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108103652/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068482.PDF
   event_date: '2026-09-30'
   retrieved: '2026-10-20'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Williams-Richardson, Dawn T. (Mrs.), campaign finance report 101071408 (filed Oct 29, 2026)'
   source_kind: document
   sha256: 2551697c61134fd955fe25ed1ff3eb2fd5989bcb683881053f5d5c5292c429bb
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108103714/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071408.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: HOME | Dawn Richardson Camp
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108103741/https://www.dawn4texas.org/
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -69,7 +69,7 @@ running_on:
     source_title: HOME | Dawn Richardson Camp
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108103741/https://www.dawn4texas.org/
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -86,7 +86,7 @@ running_on:
     source_title: HOME | Dawn Richardson Camp
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108103741/https://www.dawn4texas.org/
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -103,7 +103,7 @@ running_on:
     source_title: HOME | Dawn Richardson Camp
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108103741/https://www.dawn4texas.org/
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified

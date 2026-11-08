@@ -261,6 +261,65 @@ votes:
     verification: unverified
     verified_on: null
     reviewer: null
+- chamber: senate
+  action: passed as amended
+  date: '2025-05-28'
+  record: null
+  tally:
+    yeas: 26
+    nays: 5
+  names:
+    yeas:
+    - Alvarado
+    - Bettencourt
+    - Blanco
+    - Campbell
+    - Creighton
+    - Eckhardt
+    - Flores
+    - Gutierrez
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Miles
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - West
+    - Zaffirini
+    nays:
+    - Birdwell
+    - Cook
+    - Johnson
+    - Nichols
+    - Sparks
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-14#V-03
+    headline: 'Senate: passed as amended, 26-5 (May 28, 2025)'
+    statement: 'The Senate Journal records that "HB 14 as amended was again finally passed by the following vote: Yeas 26, Nays 5."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-28-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 28, 2025 (page 3153)
+    source_kind: document
+    sha256: 8b236c6d093f3f3e325e5c04732391cf5735314d035c8778791c078501cc6cf7
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
 - chamber: house
   action: concurred in the Senate's amendments
   date: '2025-05-30'
@@ -427,7 +486,7 @@ votes:
     - Reynolds
   every_member: false
   fact:
-    id: tx/statewide/legislature/89r/bills/hb-14#V-03
+    id: tx/statewide/legislature/89r/bills/hb-14#V-04
     headline: 'House: concurred in the Senate''s amendments, 118-6 (May 30, 2025)'
     statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 14 prevailed by (Record 4096): 118 Yeas, 6 Nays, 2 Present, not voting."'
     label: official_record

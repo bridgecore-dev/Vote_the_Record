@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hefner, Joseph Cole (The Honorable), campaign finance report 101067663 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 3ebb466ae1f935feddb3835b8ded1dc9a3d46ca36446152442bbde2a992722ab
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009123108/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101067663.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-20'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hefner, Joseph Cole (The Honorable), campaign finance report 101069686 (filed Oct 26, 2026)'
   source_kind: document
   sha256: f2fbb0c69f973a13d884b1803b22ca2079e7c4ea467c9a2da711276ee227a700
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108103006/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069686.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

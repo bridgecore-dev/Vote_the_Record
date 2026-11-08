@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hickland, Hillary G. (The Honorable), campaign finance report 101069141 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 180e66c24b3d21a471cc2cd6ad10acbd60e96dca29993a24f0b5a9d16b3dbc8a
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009131549/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069141.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-20'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hickland, Hillary G. (The Honorable), campaign finance report 101072319 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 7c8723a6d60c2722b6e0c9ff55783ec87c8412b5d3302944a0689356e0b0d11d
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108104152/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072319.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

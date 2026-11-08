@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hayes, Richard D. (The Honorable), campaign finance report 101069605 (filed Oct 5, 2026)'
   source_kind: document
   sha256: f028397de1de439f5b3556887d6d0244fa472e91cbfa95ee59a97d78cd10049b
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108104617/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069605.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hayes, Richard D. (The Honorable), campaign finance report 101071583 (filed Oct 26, 2026)'
   source_kind: document
   sha256: a38954c7cb9531261a1a868e72898f59c70248f9a72ef1ccea76600b84e67b4e
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108104642/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071583.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -185,7 +185,7 @@ running_on:
     source_title: 'Hayes for State Representative: Priorities (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108104708/https://hayesforhouse57.com/priorities/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -202,7 +202,7 @@ running_on:
     source_title: 'Hayes for State Representative: Priorities (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108104708/https://hayesforhouse57.com/priorities/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

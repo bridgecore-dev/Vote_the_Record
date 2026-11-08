@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Pierson, Katrina L. (The Honorable), campaign finance report 101068368 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 04ee5afb3e85f36b60c9239e5305d6f1736d120689deac631bf2e4e4d49541c4
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108095846/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068368.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Pierson, Katrina L. (The Honorable), campaign finance report 101071824 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 26119c4c3f162c222ea1b959dccf98c0735142401684401400f3c6a31ee3fc64
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108095908/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071824.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

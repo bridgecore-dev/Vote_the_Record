@@ -645,7 +645,7 @@ members:
     source_title: 'Texas Legislature Online: Jeff Barry, member information'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108094953/https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4405
     event_date: '2026-11-06'
     retrieved: '2026-11-06'
     verification: unverified
@@ -714,7 +714,7 @@ members:
     source_title: 'Texas Legislature Online: Todd Hunter, member information'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108095812/https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3365
     event_date: '2026-11-06'
     retrieved: '2026-11-06'
     verification: unverified
@@ -760,7 +760,7 @@ members:
     source_title: 'Texas Legislature Online: Denise Villalobos, member information'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108100209/https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4770
     event_date: '2026-11-06'
     retrieved: '2026-11-06'
     verification: unverified
@@ -806,7 +806,7 @@ members:
     source_title: 'Texas Legislature Online: Sergio Muñoz, Jr., member information'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108100723/https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2060
     event_date: '2026-11-06'
     retrieved: '2026-11-06'
     verification: unverified
@@ -876,7 +876,7 @@ members:
     source_title: 'Texas Legislature Online: Armando Martinez, member information'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108101627/https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3780
     event_date: '2026-11-06'
     retrieved: '2026-11-06'
     verification: unverified
@@ -899,7 +899,7 @@ members:
     source_title: 'Texas Legislature Online: Terry Canales, member information'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108101912/https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2340
     event_date: '2026-11-06'
     retrieved: '2026-11-06'
     verification: unverified
@@ -945,7 +945,7 @@ members:
     source_title: 'Texas Legislature Online: Richard Peña Raymond, member information'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108102346/https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4215
     event_date: '2026-11-06'
     retrieved: '2026-11-06'
     verification: unverified
@@ -1014,7 +1014,7 @@ members:
     source_title: 'Texas Legislature Online: Erin Zwiener, member information'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108102710/https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3710
     event_date: '2026-11-06'
     retrieved: '2026-11-06'
     verification: unverified
