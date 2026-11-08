@@ -21,6 +21,68 @@ law:
   verified_on: null
   reviewer: null
 votes:
+- chamber: senate
+  action: passed
+  date: '2025-04-10'
+  record: null
+  tally:
+    yeas: 21
+    nays: 8
+    present_not_voting: 1
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - Johnson
+    - Menéndez
+    - Miles
+    - Zaffirini
+    present_not_voting:
+    - West
+    absent_excused:
+    - King
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/sb-38#V-01
+    headline: 'Senate: passed, 21-8 (April 10, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 21, Nays 8, Present-not voting 1. (Same as previous roll call)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-10-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, April 10, 2025 (page 1076)
+    source_kind: document
+    sha256: eed93f4e5c720fcb8649b9bd2adac574b714d60ce51cfdadcdb3928cd9d95630
+    archive_url: null
+    event_date: '2025-04-10'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
 - chamber: house
   action: passed
   date: '2025-05-24'
@@ -187,7 +249,7 @@ votes:
     - Simmons
   every_member: false
   fact:
-    id: tx/statewide/legislature/89r/bills/sb-38#V-01
+    id: tx/statewide/legislature/89r/bills/sb-38#V-02
     headline: 'House: passed, 85-44 (May 24, 2025)'
     statement: 'The House Journal records that "SB 38 was passed by (Record 3464): 85 Yeas, 44 Nays, 3 Present, not voting."'
     label: official_record
@@ -246,7 +308,7 @@ votes:
     - Zaffirini
   every_member: false
   fact:
-    id: tx/statewide/legislature/89r/bills/sb-38#V-02
+    id: tx/statewide/legislature/89r/bills/sb-38#V-03
     headline: 'Senate: concurred in the House''s amendments, 23-8 (May 28, 2025)'
     statement: 'The Senate Journal records that "The motion prevailed by the following vote: Yeas 23, Nays 8."'
     label: official_record

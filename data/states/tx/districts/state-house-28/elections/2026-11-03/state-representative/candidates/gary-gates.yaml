@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Gates Jr., Gary W. (The Honorable), campaign finance report 101068223 (filed Oct 5, 2026)'
   source_kind: document
   sha256: b2e78848d1a79cf79cbe669f6e0cce8ed8567291e7d8f107015d0a8af4d8304b
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108094432/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068223.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Gates Jr., Gary W. (The Honorable), campaign finance report 101071943 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 3d873db0ef45a8fbe58077d8704cfb28257eedd1e73729ebabd823fd452e9325
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108094455/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071943.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

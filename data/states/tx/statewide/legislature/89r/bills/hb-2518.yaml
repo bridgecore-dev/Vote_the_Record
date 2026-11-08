@@ -204,3 +204,35 @@ votes:
     verification: unverified
     verified_on: null
     reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-25'
+  record: null
+  tally:
+    yeas: 28
+    nays: 2
+    present_not_voting: 1
+  names:
+    nays:
+    - Hagenbuch
+    - Hughes
+    present_not_voting:
+    - Miles
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2518#V-02
+    headline: 'Senate: passed, 28-2 (May 25, 2025)'
+    statement: The Senate Journal records that "All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... (viva voce vote) (28-2-1) "Nays" Hagenbuch, Hughes "Present-not voting" Miles (28-2-1)"Nays"Hagenbuch,Hughes"Present-notvoting"Miles"
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-25-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 25, 2025 (page 2515)
+    source_kind: document
+    sha256: bf282f0af10d9ba2bac0a660fae41d182df666f306f7ab97ad96043fae850dff
+    archive_url: null
+    event_date: '2025-05-25'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

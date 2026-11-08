@@ -228,6 +228,32 @@ votes:
     verification: unverified
     verified_on: null
     reviewer: null
+- chamber: senate
+  action: passed as amended
+  date: '2025-05-27'
+  record: null
+  tally:
+    yeas: 31
+    nays: 0
+  names: null
+  every_member: true
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-500#V-03
+    headline: 'Senate: passed as amended, 31-0 (May 27, 2025)'
+    statement: 'The Senate Journal records that "CSHB 500 as amended was again finally passed by the following vote: Yeas 31, Nays 0." With 31 seats in the Senate, every senator not listed as voting no voted yes.'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-27-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 27, 2025 (page 2879)
+    source_kind: document
+    sha256: b4b7b0aafc18d2e44572c3df0329ffc096a78b1b4e41d993eb4cb69fa53b9764
+    archive_url: null
+    event_date: '2025-05-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
 - chamber: house
   action: concurred in the Senate's amendments
   date: '2025-05-30'
@@ -394,7 +420,7 @@ votes:
     - Virdell
   every_member: false
   fact:
-    id: tx/statewide/legislature/89r/bills/hb-500#V-03
+    id: tx/statewide/legislature/89r/bills/hb-500#V-04
     headline: 'House: concurred in the Senate''s amendments, 112-24 (May 30, 2025)'
     statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 500 prevailed by (Record 4097): 112 Yeas, 24 Nays, 2 Present, not voting."'
     label: official_record

@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Reynolds, Ronald E. (The Honorable), campaign finance report 101072713 (filed Oct 26, 2026)'
   source_kind: document
   sha256: de0791a9db570e1fbfaa960947fe32fe5cf3ae2dfb15af7d648d2f11ed166fe6
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108094307/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072713.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -213,7 +213,7 @@ SENATE_CATS = [("Present-not voting", "present_not_voting"), ("Absent-excused", 
                ("Yeas", "yeas"), ("Nays", "nays")]
 
 
-VOTE = loose(r"by the following vote: Yeas (\d+), Nays (\d+)\.")
+VOTE = loose(r"by the following vote: Yeas (\d+), Nays (\d+)") + r"(?:,\s*Present-not\s*voting[\si]*(\d+))?\."  # "votingi1": a lost space
 CHAIR = r"\s*\((?:Senator\s*[^\s()]+|President)\s*in\s*Chair\)"  # "(Senator Hall in Chair)": who presided, not a vote
 
 
@@ -247,7 +247,7 @@ def senate_roll_call(text: str, bill: str, what: str) -> dict | None:
     prefix, num = bill.split()
     words = WORDS[prefix]
     if what.startswith("passed"):
-        heading, verb = rf"{words} {num}(?!\d) ON THIRD READING",r"was (?:read third time and was )?(?:finally )?passed"
+        heading, verb = rf"{words} {num}(?!\d) ON THIRD READING",r"was (?:again )?(?:read third time and was )?(?:again )?(?:finally )?passed"
         inline = rf"\b(?:CS)?{prefix} {num}(?: as amended)? was (?:finally )?passed {VOTE}"
     elif what.startswith("concurred"):
         heading, verb = rf"{words} {num}(?!\d) WITH HOUSE AMENDMENTS?",r"(?:motion prevailed|concurred)"
@@ -260,20 +260,28 @@ def senate_roll_call(text: str, bill: str, what: str) -> dict | None:
                   rf"|Conference Committee Report on (?:CS)?{prefix} {num}(?!\d) was adopted) {VOTE}")
     heading, verb, inline = loose(heading), loose(verb + " "), loose(inline) if inline else None
     hits = []
-    for h in re.finditer(heading, text):
+    if what.startswith("passed"):
+        # after "VOTE RECONSIDERED ON HOUSE BILL 14" the bill is "again finally passed": that vote replaces the first
+        hits = [(text, m) for m in re.finditer(loose(rf"\b(?:CS)?{prefix} {num}(?: as amended was again| as again amended was| was again) finally passed {VOTE}"), text)]
+        if len(hits) > 1:
+            return None
+    for h in re.finditer(heading, text) if not hits else ():
         after = text[h.end():h.end() + 40000]  # printed remarks can run for pages before the vote
         nxt = re.search(loose(r"\n(?:COMMITTEE SUBSTITUTE )?(?:HOUSE|SENATE) (?:JOINT RESOLUTION|BILL|CONCURRENT RESOLUTION) \d+"), after)
         after = after[:nxt.start()] if nxt else after
         m = re.search(verb + VOTE, after)
         if m:
             hits.append((after, m))
+    again = [(a, m) for a, m in hits if re.search(r"\bagain\b", m[0])]
+    if len(hits) > 1 and len(again) == 1:
+        hits = again  # the bill was passed, reconsidered, and "again finally passed": the last vote stands
     if not hits and inline:
         hits = [(text, m) for m in re.finditer(inline, text, re.I)]
     if len(hits) != 1:
         return None
     after, m = hits[0]
     text = after
-    tally = {"yeas": int(m[1]), "nays": int(m[2])}
+    tally = {"yeas": int(m[1]), "nays": int(m[2])} | ({"present_not_voting": int(m[3])} if m[3] else {})
     tail = text[m.end():m.end() + 2500]
     same = re.match(loose(r" \(Same as previous roll call\)"), tail)
     if same:
@@ -288,7 +296,8 @@ def senate_roll_call(text: str, bill: str, what: str) -> dict | None:
         return {"tally": tally, "names": None, "problem": "yea names don't match the tally"}
     if tally["nays"] and len(names.get("nays", [])) != tally["nays"]:
         return {"tally": tally, "names": None, "problem": "nay names don't match the tally"}
-    quote = f"by the following vote: Yeas {tally['yeas']}, Nays {tally['nays']}."
+    present = f", Present-not voting {tally['present_not_voting']}" if "present_not_voting" in tally else ""
+    quote = f"by the following vote: Yeas {tally['yeas']}, Nays {tally['nays']}{present}."
     lead = " ".join((sentence_before(text, m.start()) + " " + text[m.start():m.end()].split("by")[0]).split())
     lead = re.sub(r"\s*by$", "", lead)
     if lead and quotable(lead):
@@ -324,20 +333,22 @@ def senate_calendar_vote(text: str, bill: str) -> dict | None:
         return None
     entry = next(iter(found.values()))
     v = re.search(loose(r"\(viva voce vote\)"), entry)
-    marks = list(re.finditer(r"\((\d+)\s*-\s*(\d+)\)", entry[v.end():]))
+    marks = list(re.finditer(r"\((\d+)\s*-\s*(\d+)(?:\s*-\s*(\d+))?\)", entry[v.end():]))  # (28-2-1): 1 present, not voting
     if len(marks) != 2:
         return {"tally": None, "names": None, "problem": f"{len(marks)} tallies after the caption, not 2"}
     final = marks[-1]
-    tally = {"yeas": int(final[1]), "nays": int(final[2])}
+    tally = {"yeas": int(final[1]), "nays": int(final[2])} | ({"present_not_voting": int(final[3])} if final[3] else {})
     rest = " ".join(re.sub(CHAIR, "", entry[v.end() + final.end():]).split())
     names: dict[str, list[str]] = {}
-    nays = re.fullmatch(r"\"Nays?\"\s*(.+)", rest)
-    if nays:
-        names["nays"] = [senator(x) for x in nays[1].split(",") if x.strip()]
-    elif rest:
+    lists = re.fullmatch(r"(?:\"Nays?\"\s*([^\"]+?))?\s*(?:\"Present-\s*not\s*voting\"\s*([^\"]+))?", rest)
+    if not lists:
         return {"tally": tally, "names": None, "problem": f"unread text after the final tally: {rest[:60]!r}"}
-    if len(names.get("nays", [])) != tally["nays"]:
-        return {"tally": tally, "names": None, "problem": "nay names don't match the tally"}
+    for key, listed in (("nays", lists[1]), ("present_not_voting", lists[2])):
+        if listed:
+            names[key] = [senator(x) for x in listed.split(",") if x.strip()]
+    for key in ("nays", "present_not_voting"):
+        if len(names.get(key, [])) != tally.get(key, 0):
+            return {"tally": tally, "names": None, "problem": f"{key.replace('_', ' ')} names don't match the tally"}
     after = " ".join(entry[v.start():].split())
     quote = f'All Members are deemed to have voted "Yea" on viva voce votes unless otherwise indicated. ... {after}'
     return {"tally": tally, "names": names or None, "problem": None, "quote": quote}
@@ -496,6 +507,12 @@ def bill_doc(saved: Path, session: str, bill_code: str, became: str, retrieved: 
         text = pdf_pages(pdf, v["pdf_page"] - 1, 4 if chamber == "house" else 12)
         if chamber == "house":
             rc = house_roll_call(text, v["record"]) if v["record"] else None
+            if v["record"] and not rc:
+                # a printed conference report can push the vote many pages past the page cited; a record
+                # number appears once in a day's journal
+                whole = pdf_pages(pdf, 1, 10 ** 6)
+                if len(re.findall(loose(rf"\(Record {v['record']}\):"), whole)) == 1:
+                    rc = house_roll_call(whole, v["record"])
             if v["record"] and (not rc or rc.get("block")):
                 # a calendar's single roll call can be printed pages before the bill's own line
                 rc = house_block_vote(pdf_pages(pdf, 1, 10 ** 6), v["record"], label)
@@ -522,6 +539,10 @@ def bill_doc(saved: Path, session: str, bill_code: str, became: str, retrieved: 
                     and not names.get("yeas"):
                 entry["every_member"] = True
                 statement += f" With {SENATE_SEATS} seats in the Senate, every senator not listed as voting no voted yes."
+        if any(o["fact"]["source_url"] == v["journal"] and o["fact"]["statement"] == statement for o in votes if "tally" in o and o["tally"]):
+            # two actions read as the same printed vote (e.g. passed, reconsidered, and passed again that day)
+            log.append(f"BY HAND {label}: {room} {v['what']} {v['date']}: reads as the same vote as an earlier action")
+            continue
         entry["tally"], entry["names"] = rc["tally"], rc["names"] or None
         t = rc["tally"]
         entry["fact"] = base_fact(fid, statement, v["journal"], journal_title(v["journal"], session, v["page"]), "document",
@@ -641,6 +662,27 @@ def has_verified(doc) -> bool:
     return False
 
 
+def facts_in(doc):
+    if isinstance(doc, dict):
+        if "id" in doc and "source_url" in doc:
+            yield doc
+        for v in doc.values():
+            yield from facts_in(v)
+    elif isinstance(doc, list):
+        for v in doc:
+            yield from facts_in(v)
+
+
+def keep_archives(old, new) -> None:
+    """Carry each archive_url (filled in later by src/tools/archive.py) onto the new fact with the same ID,
+    source, and file hash, so a re-run doesn't drop it."""
+    saved = {f["id"]: f for f in facts_in(old) if f.get("archive_url")}
+    for f in facts_in(new):
+        o = saved.get(f["id"])
+        if o and not f["archive_url"] and (o["source_url"], o.get("sha256")) == (f["source_url"], f.get("sha256")):
+            f["archive_url"] = o["archive_url"]
+
+
 def main(argv: list[str] | None = None) -> int:
     sys.path.insert(0, str(REPO / "src" / "collectors"))
     from yamlio import to_yaml
@@ -656,11 +698,13 @@ def main(argv: list[str] | None = None) -> int:
     header = "# Texas Legislature (docs/METHODOLOGY.md, Votes in the Texas Legislature). Unverified; written by a collector.\n"
     changed = 0
     for path, doc in docs.items():
+        old = yaml.safe_load(path.read_text(encoding="utf-8")) if path.exists() else None
+        keep_archives(old, doc)
         text = header + to_yaml(doc)
         if path.exists():
             if path.read_text(encoding="utf-8") == text:
                 continue
-            if has_verified(yaml.safe_load(path.read_text(encoding="utf-8"))):
+            if has_verified(old):
                 log.append(f"KEPT {path.name}: it has verified facts; change it by hand")
                 continue
         changed += 1

@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: King, Nicole S. (Mrs.), campaign finance report 101068669 (filed Oct 5, 2026)'
   source_kind: document
   sha256: b205684fccf2699b7a595a204d421b1dfdc3f91fb2d4b78e7eedffb87a49d075
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108095325/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068669.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-19'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: King, Nicole S. (Mrs.), campaign finance report 101070643 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 63311bdb5abf5ab8b456c89211d7d5e6908f840dd8ad9ba97c42a229beffd593
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108095347/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070643.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: Issues | Nicole King for District 3
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108095412/https://nicolekingforall.com/issues
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified
@@ -69,7 +69,7 @@ running_on:
     source_title: Issues | Nicole King for District 3
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108095412/https://nicolekingforall.com/issues
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified
@@ -86,7 +86,7 @@ running_on:
     source_title: Issues | Nicole King for District 3
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108095412/https://nicolekingforall.com/issues
     event_date: '2026-10-19'
     retrieved: '2026-10-19'
     verification: unverified

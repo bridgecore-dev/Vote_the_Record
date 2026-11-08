@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Buckley, Bradley L. (The Honorable), campaign finance report 101068375 (filed Oct 2, 2026)'
   source_kind: document
   sha256: eee33845b048fd73bfbee3538bb861fee13660f4d849f49cc3f5d39be007dd4a
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108103529/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068375.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-20'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Buckley, Bradley L. (The Honorable), campaign finance report 101073106 (filed Oct 27, 2026)'
   source_kind: document
   sha256: 32e3a695609dcccc9dd1e6a357ee20029c4db517b26e8b3f7f18152ecf6c2499
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108103552/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101073106.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -185,7 +185,7 @@ running_on:
     source_title: Issues — Brad Buckley For Texas
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108103618/https://www.buckleyfortexas.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -202,7 +202,7 @@ running_on:
     source_title: Issues — Brad Buckley For Texas
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108103618/https://www.buckleyfortexas.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -219,7 +219,7 @@ running_on:
     source_title: Issues — Brad Buckley For Texas
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108103618/https://www.buckleyfortexas.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified

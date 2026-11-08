@@ -15,7 +15,7 @@ sources:
   source_title: 'Fort Bend County Elections: sample ballot, precinct 2002, ballot style 12 (page 2)'
   source_kind: document
   sha256: a6841de8bb006c2fbaa5178220425435698a62db95049b6e40ad2a9397f5c2c5
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108094328/https://sampleballots.fortbendcountytx.gov/Congressional-Election/11032002BS12.pdf
   event_date: '2026-11-03'
   retrieved: '2026-10-09'
   verification: unverified

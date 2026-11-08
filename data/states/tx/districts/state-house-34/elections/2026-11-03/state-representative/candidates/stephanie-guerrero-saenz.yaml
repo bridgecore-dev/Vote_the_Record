@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Guerrero Saenz, Stephanie, campaign finance report 101072046 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 1c4b99214b6d33c736dac6a153f66fc9896d1db93c6d2ffe0d62dbd628453411
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108100141/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072046.PDF
   event_date: '2026-10-24'
   retrieved: '2026-11-02'
   verification: unverified

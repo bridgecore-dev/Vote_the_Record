@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Rabroker, Amelia E. (Mrs.), campaign finance report 101067917 (filed Oct 5, 2026)'
   source_kind: document
   sha256: dc155d77b9fb95d75c8896ad88aa8f7cbdd8cefa39aac55d51f8aa22a5f270c0
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108104010/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101067917.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-20'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Rabroker, Amelia E. (Mrs.), campaign finance report 101072941 (filed Oct 26, 2026)'
   source_kind: document
   sha256: d7096ce2125dd17ef7d801e40e38a4ab17b49354751bc5f1168454d23064155b
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108104032/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072941.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: Issues | Amelia Rabroker for TX House 55 — Amelia for Texas
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108104057/https://www.ameliafortexas.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -69,7 +69,7 @@ running_on:
     source_title: Issues | Amelia Rabroker for TX House 55 — Amelia for Texas
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108104057/https://www.ameliafortexas.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -86,7 +86,7 @@ running_on:
     source_title: Issues | Amelia Rabroker for TX House 55 — Amelia for Texas
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108104057/https://www.ameliafortexas.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -103,7 +103,7 @@ running_on:
     source_title: Issues | Amelia Rabroker for TX House 55 — Amelia for Texas
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108104057/https://www.ameliafortexas.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified

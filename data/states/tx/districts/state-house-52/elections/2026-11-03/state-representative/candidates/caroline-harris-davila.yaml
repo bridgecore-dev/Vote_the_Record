@@ -129,7 +129,7 @@ funding:
   source_title: 'Texas Ethics Commission: Harris Davila, Caroline (The Honorable), campaign finance report 101067933 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 734bd743cba7418df629bfdd9d27c79ec064e2ff50dfff4cdf2b916ebfd47609
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009115147/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101067933.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -146,7 +146,7 @@ funding:
   source_title: 'Texas Ethics Commission: Harris Davila, Caroline (The Honorable), campaign finance report 101070037 (filed Oct 26, 2026)'
   source_kind: document
   sha256: aaaa5ab711666be705c8ee89cd72c2cd9039d0f2c7f4035c65485496d8ffbbf9
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108103241/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070037.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -166,7 +166,7 @@ running_on:
     source_title: Caroline Harris Davila for State Representative (campaign website)
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108103304/https://carolinefortexas.com/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

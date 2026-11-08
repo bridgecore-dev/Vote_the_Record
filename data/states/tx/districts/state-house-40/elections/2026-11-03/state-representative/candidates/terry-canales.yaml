@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Canales, Terry (The Honorable), campaign finance report 101072185 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 4a382f75f4d3e9b963947946c25d646aca7c6511d03d34188fa063ca5c882b7e
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108101723/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072185.PDF
   event_date: '2026-10-24'
   retrieved: '2026-11-02'
   verification: unverified

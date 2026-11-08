@@ -16,7 +16,7 @@ funding:
   source_title: 'Texas Ethics Commission: Ibanez, Sandy N. (Ms.), campaign finance report 101069409 (filed Oct 6, 2026)'
   source_kind: document
   sha256: 615c8620525049e7ec4019bfd8a00a133382c70cb14e27b943acaaf4e9b0f687
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108094517/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069409.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Ibanez, Sandy N. (Ms.), campaign finance report 101073008 (filed Oct 26, 2026)'
   source_kind: document
   sha256: d25a5992a79c90f073bdc64fee7e0f867ebcc66ae1bfce551a3af4c131f8b713
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108094539/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101073008.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

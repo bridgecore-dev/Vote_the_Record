@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Lopez, Janie (The Honorable), campaign finance report 101067886 (filed Oct 5, 2026)'
   source_kind: document
   sha256: aa8667a7227f88247b8ff554419117539482a60f7ad620084626aeeda1bdbfd5
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009133354/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101067886.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-20'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Lopez, Janie (The Honorable), campaign finance report 101070167 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 9f646eca1fb0dcf9e5d13d63f74976d77c46feaa8a3f0dcdc6729130f3e4dbe8
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108100820/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070167.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -185,7 +185,7 @@ running_on:
     source_title: ISSUES | Janie Lopez
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108100848/https://www.janielopez.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -202,7 +202,7 @@ running_on:
     source_title: ISSUES | Janie Lopez
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108100848/https://www.janielopez.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -219,7 +219,7 @@ running_on:
     source_title: ISSUES | Janie Lopez
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108100848/https://www.janielopez.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -236,7 +236,7 @@ running_on:
     source_title: ISSUES | Janie Lopez
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108100848/https://www.janielopez.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified

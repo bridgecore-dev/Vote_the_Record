@@ -16,7 +16,7 @@ funding:
   source_title: 'Texas Ethics Commission: Lopez, Orlando (Mr.), campaign finance report 101067954 (filed Oct 3, 2026)'
   source_kind: document
   sha256: 5ffba0c6a1055dd319eab1846666064835ff34de362e52ff30d5002dedeb38e1
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009153148/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101067954.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Lopez, Orlando (Mr.), campaign finance report 101071502 (filed Oct 24, 2026)'
   source_kind: document
   sha256: 923b7b1e4b4582c98bb9391f50da430ed08123f1f1e3fde1ff0b0cae67fe9fa3
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108095957/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071502.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

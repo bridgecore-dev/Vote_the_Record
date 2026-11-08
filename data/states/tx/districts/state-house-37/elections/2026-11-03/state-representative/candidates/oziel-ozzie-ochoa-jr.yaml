@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Ochoa Jr., Oziel (Mr.), campaign finance report 101069016 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 3cf2f6075b87b9140afa1ac420638ffdf4d482b1774c147007c6c8a0799cb3f9
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108100919/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069016.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-20'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Ochoa Jr., Oziel (Mr.), campaign finance report 101071866 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 04bfa896a6a22badd5898e3d7636a41b495239cf93ddfa73abc17002ca9714b7
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108100941/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071866.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: PRIORITIES | Oziel Ochoa Jr.
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108101006/https://www.ochoafortx37.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -69,7 +69,7 @@ running_on:
     source_title: PRIORITIES | Oziel Ochoa Jr.
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108101006/https://www.ochoafortx37.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -86,7 +86,7 @@ running_on:
     source_title: PRIORITIES | Oziel Ochoa Jr.
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108101006/https://www.ochoafortx37.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -103,7 +103,7 @@ running_on:
     source_title: PRIORITIES | Oziel Ochoa Jr.
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108101006/https://www.ochoafortx37.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified

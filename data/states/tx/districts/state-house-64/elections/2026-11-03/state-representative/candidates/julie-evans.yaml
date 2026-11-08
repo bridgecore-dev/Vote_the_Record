@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Evans, Julie (Mrs.), campaign finance report 101069758 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 35cdc1c539d36f11efc8dea3fe3023456b99374a1355771d397dbf9ca70a7129
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108105934/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069758.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Evans, Julie (Mrs.), campaign finance report 101072878 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 268a98503fcc2034944391bb0355ab19f30715bee87c06ea16f774c787f0041e
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108105957/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072878.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: 'Julie Evans for Texas 64: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108110023/https://www.julieevansfortx64.com/issues
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -69,7 +69,7 @@ running_on:
     source_title: 'Julie Evans for Texas 64: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108110023/https://www.julieevansfortx64.com/issues
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified
@@ -86,7 +86,7 @@ running_on:
     source_title: 'Julie Evans for Texas 64: Issues (campaign website)'
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108110023/https://www.julieevansfortx64.com/issues
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

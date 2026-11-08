@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hamilton, Darren J., campaign finance report 101068976 (filed Oct 2, 2026)'
   source_kind: document
   sha256: 04398c910f325630109ae6841bdf63ef3f9a69d191dc78f453c95e2d6788cda6
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009124303/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068976.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Hamilton, Darren J., campaign finance report 101068977 (filed Oct 2, 2026)'
   source_kind: document
   sha256: ca23052c80aa73838ad332d815820a8ebae198f7543ca3d0b1a807c1ace5de97
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108104435/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068977.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -263,6 +263,188 @@ votes:
     verification: unverified
     verified_on: null
     reviewer: null
+- chamber: house
+  action: adopted the conference committee report
+  date: '2025-06-01'
+  record: 4156
+  tally:
+    yeas: 95
+    nays: 39
+    present_not_voting: 2
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Buckley
+    - Bumgarner
+    - Cain
+    - Capriglione
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gates
+    - Gerdes
+    - Geren
+    - Gervin-Hawkins
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hernandez
+    - Hickland
+    - Holt
+    - Hopper
+    - Hull
+    - Hunter
+    - Isaac
+    - Kerwin
+    - King
+    - Kitzman
+    - LaHood
+    - Lambert
+    - Leach
+    - Leo Wilson
+    - Little
+    - Lopez, J.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Phelan
+    - Pierson
+    - Raymond
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Thompson
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Virdell
+    - Wharton
+    - Wilson
+    nays:
+    - Anchía
+    - Bhojani
+    - Bowers
+    - Bryant
+    - Bucy
+    - Campos
+    - Canales
+    - Cole
+    - Collier
+    - Davis, A.
+    - Dutton
+    - Flores
+    - Gámez
+    - Garcia, J.
+    - Garcia Hernandez
+    - González, J.
+    - González, M.
+    - Goodwin
+    - Hinojosa
+    - Howard
+    - Johnson
+    - Jones, J.
+    - Lalani
+    - Lopez, R.
+    - Manuel
+    - Martinez Fischer
+    - Meza
+    - Moody
+    - Morales Shaw
+    - Plesa
+    - Rodríguez Ramos
+    - Romero
+    - Rosenthal
+    - Talarico
+    - Turner
+    - Walle
+    - Ward Johnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr. Speaker
+    - Landgraf(C)
+    absent_excused:
+    - Allen
+    - Garcia, L.
+    - Harris
+    - Jones, V.
+    absent:
+    - Bernal
+    - Button
+    - Davis, Y.
+    - Longoria
+    - Morales, C.
+    - Perez, V.
+    - Reynolds
+    - Rose
+    - Simmons
+    - Vo
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-40#V-03
+    headline: 'House: adopted the conference committee report, 95-39 (June 1, 2025)'
+    statement: 'The House Journal records that "The motion to adopt the conference committee report on HB 40 prevailed by (Record 4156): 95 Yeas, 39 Nays, 2 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY80FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 80th Day (page 7857)
+    source_kind: document
+    sha256: 82621cd66a3f319682efb8f6cc301cb0c26364d61544f6217d500002b3de444c
+    archive_url: null
+    event_date: '2025-06-01'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
 - chamber: senate
   action: adopted the conference committee report
   date: '2025-06-01'
@@ -306,7 +488,7 @@ votes:
     - Zaffirini
   every_member: false
   fact:
-    id: tx/statewide/legislature/89r/bills/hb-40#V-03
+    id: tx/statewide/legislature/89r/bills/hb-40#V-04
     headline: 'Senate: adopted the conference committee report, 24-7 (June 1, 2025)'
     statement: 'The Senate Journal records that "On motion of Senator Hughes, the Conference Committee Report was adopted by the following vote: Yeas 24, Nays 7."'
     label: official_record

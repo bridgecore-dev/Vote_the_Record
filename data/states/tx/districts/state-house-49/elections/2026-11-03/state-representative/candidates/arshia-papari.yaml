@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Papari, Arshia N. (Mr.), campaign finance report 101070106 (filed Oct 5, 2026)'
   source_kind: document
   sha256: ffedb703d094609b5f16a5d60fcfe6dfe1b9bb84f8e41e5e5a508a120b4e6d83
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009113120/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101070106.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-30'
   verification: unverified

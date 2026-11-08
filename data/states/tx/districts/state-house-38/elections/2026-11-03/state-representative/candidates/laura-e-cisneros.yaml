@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Cisneros, Laura E. (Dr.), campaign finance report 101069922 (filed Oct 5, 2026)'
   source_kind: document
   sha256: f96b2e4a00bb4d9f04194e7e2287b4329e7ab06f38dd0e4b399c4571572f494b
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108101241/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069922.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-20'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Cisneros, Laura E. (Dr.), campaign finance report 101072780 (filed Oct 26, 2026)'
   source_kind: document
   sha256: e413cd1d298aa77d86415ae14648c7405c6ae3b6bc9b2a1239e03997e262b33e
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108101304/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072780.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: Dr. Laura Cisneros for Texas District 38 | Dr. Cisneros for Texas
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108101329/https://drcisnerosfortexas.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -69,7 +69,7 @@ running_on:
     source_title: Dr. Laura Cisneros for Texas District 38 | Dr. Cisneros for Texas
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108101329/https://drcisnerosfortexas.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -86,7 +86,7 @@ running_on:
     source_title: Dr. Laura Cisneros for Texas District 38 | Dr. Cisneros for Texas
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108101329/https://drcisnerosfortexas.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified
@@ -103,7 +103,7 @@ running_on:
     source_title: Dr. Laura Cisneros for Texas District 38 | Dr. Cisneros for Texas
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108101329/https://drcisnerosfortexas.com/issues
     event_date: '2026-10-20'
     retrieved: '2026-10-20'
     verification: unverified

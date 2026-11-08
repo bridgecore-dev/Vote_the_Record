@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Wooten, Denise (Dr.), campaign finance report 101069045 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 8bd0bcea9cc7c4d70ad239e99243553f2af72aea3ca144b1b9f1b4c9a24d657d
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108105520/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069045.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Wooten, Denise (Dr.), campaign finance report 101071982 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 943bdd41f08494f060992678a9eef37be08b5fb2d99ceb2794f2c493cf1547b6
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108105543/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071982.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

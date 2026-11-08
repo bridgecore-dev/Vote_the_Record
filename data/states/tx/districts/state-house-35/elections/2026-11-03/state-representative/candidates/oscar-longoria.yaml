@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Longoria Jr., Oscar L. (The Honorable), campaign finance report 101066528 (filed Oct 1, 2026)'
   source_kind: document
   sha256: 08261f28905924762c8684a92399ab3bbc3c9273f57adf445c5f17890824585b
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009120148/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101066528.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-20'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Longoria Jr., Oscar L. (The Honorable), campaign finance report 101068723 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 1a5ea249408d29d5e51953c66f7bef19e7df16f3eef534a66d482e4da6b429e6
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108100313/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068723.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -15,7 +15,7 @@ funding:
   source_title: 'Texas Ethics Commission: Stith III, Raymond L., campaign finance report 101068457 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 4c6416667002424c052c7feafe3c6cc1616bc82dabc43aeb3833d1bcbc310125
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108104457/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101068457.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -32,7 +32,7 @@ funding:
   source_title: 'Texas Ethics Commission: Stith III, Raymond L., campaign finance report 101071691 (filed Oct 25, 2026)'
   source_kind: document
   sha256: b6852d6b9a1bd1d8ead1ff469bd074c3a12ef6b463559d98556dcdd2bcf21232
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108104521/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101071691.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified
@@ -52,7 +52,7 @@ running_on:
     source_title: Ray Stith for Texas, District 57 (campaign website)
     source_kind: page
     sha256: null
-    archive_url: null
+    archive_url: https://web.archive.org/web/20261108104545/https://www.raystithfortx57.com/
     event_date: '2026-10-04'
     retrieved: '2026-10-04'
     verification: unverified

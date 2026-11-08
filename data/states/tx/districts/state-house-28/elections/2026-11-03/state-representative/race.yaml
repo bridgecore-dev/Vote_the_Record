@@ -13,7 +13,7 @@ sources:
   source_title: 'Fort Bend County Elections: sample ballot, precinct 1003, ballot style 2 (page 1)'
   source_kind: document
   sha256: 71ab0805f639ab7d0add4a5e9a63f46036f4b64538424bbd4587e7bfd665f9f9
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108094602/https://sampleballots.fortbendcountytx.gov/Congressional-Election/11031003BS2.pdf
   event_date: '2026-11-03'
   retrieved: '2026-10-09'
   verification: unverified
@@ -30,7 +30,7 @@ sources:
   source_title: 'Texas House of Representatives: member page, District 28'
   source_kind: page
   sha256: null
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108094628/https://house.texas.gov/members/member-page/?district=28
   event_date: '2026-10-09'
   retrieved: '2026-10-09'
   verification: unverified

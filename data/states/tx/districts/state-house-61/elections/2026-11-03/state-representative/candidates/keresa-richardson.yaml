@@ -148,7 +148,7 @@ funding:
   source_title: 'Texas Ethics Commission: Richardson, Keresa (The Honorable), campaign finance report 101069161 (filed Oct 5, 2026)'
   source_kind: document
   sha256: 4b4069473bcccc38b231dddaf52b32bf9550a62bee9fb2f2d7bb75e58889d97a
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261009122044/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069161.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -165,7 +165,7 @@ funding:
   source_title: 'Texas Ethics Commission: Richardson, Keresa (The Honorable), campaign finance report 101072536 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 0bee597feb208a641757c65cd4da9b15be86d0a5760d15fad6845f4e392a42ba
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108105223/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072536.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

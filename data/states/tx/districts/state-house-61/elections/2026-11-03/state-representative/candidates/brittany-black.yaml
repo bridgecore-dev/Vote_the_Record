@@ -16,7 +16,7 @@ funding:
   source_title: 'Texas Ethics Commission: Black, Brittany N. (Mrs.), campaign finance report 101069425 (filed Oct 5, 2026)'
   source_kind: document
   sha256: a9004d122c1c14174450fdd8ab11b9a08ee60e23eb7e73f676744ac4f0b69753
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108105116/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101069425.PDF
   event_date: '2026-09-24'
   retrieved: '2026-10-07'
   verification: unverified
@@ -33,7 +33,7 @@ funding:
   source_title: 'Texas Ethics Commission: Black, Brittany N. (Mrs.), campaign finance report 101072741 (filed Oct 26, 2026)'
   source_kind: document
   sha256: 8240b5dc9c737a8bdd23dc214d749a4d9952cdb6c382650851bebfcb5923e482
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261108105138/https://prd.tecprd.ethicsefile.com/public/cf/2026/pdfs/ScrubbedReport_101072741.PDF
   event_date: '2026-10-24'
   retrieved: '2026-10-30'
   verification: unverified

@@ -204,6 +204,67 @@ votes:
     verification: unverified
     verified_on: null
     reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-05-28'
+  record: null
+  tally:
+    yeas: 18
+    nays: 12
+    present_not_voting: 1
+  names:
+    yeas:
+    - Birdwell
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - Hancock
+    - A. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Menéndez
+    - Middleton
+    - Parker
+    - Paxton
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Blanco
+    - Cook
+    - Eckhardt
+    - Gutierrez
+    - J. Hinojosa
+    - Johnson
+    - Miles
+    - Nichols
+    - Perry
+    - West
+    - Zaffirini
+    present_not_voting:
+    - Bettencourt
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-1056#V-02
+    headline: 'Senate: passed, 18-12 (May 28, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 18, Nays 12, Present-not voting 1."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-28-F1.PDF
+    source_title: Texas Senate Journal, 89th Legislature, Regular Session, May 28, 2025 (page 2908)
+    source_kind: document
+    sha256: a49310f9d251ef79787e2a723f610535d1c72744c19ef770d9faa17a25e7d772
+    archive_url: null
+    event_date: '2025-05-28'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null
 - chamber: house
   action: concurred in the Senate's amendments
   date: '2025-05-30'
@@ -370,7 +431,7 @@ votes:
     - Reynolds
   every_member: false
   fact:
-    id: tx/statewide/legislature/89r/bills/hb-1056#V-02
+    id: tx/statewide/legislature/89r/bills/hb-1056#V-03
     headline: 'House: concurred in the Senate''s amendments, 101-32 (May 30, 2025)'
     statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 1056 prevailed by (Record 4060): 101 Yeas, 32 Nays, 2 Present, not voting."'
     label: official_record
