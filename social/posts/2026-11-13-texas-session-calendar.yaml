@@ -1,0 +1,27 @@
+kind: carousel
+level: state
+place: Texas
+topic: Calendar
+approval: auto
+record_ids: [tx/90R/calendar/convenes, tx/90R/calendar/last-day]
+publish_after: '2026-11-14T07:30:00-06:00'
+sources:
+- title: Texas Legislative Council, Dates of Interest
+  url: https://tlc.texas.gov/docs/legref/Dates-of-Interest.pdf
+  retrieved: '2026-11-13'
+- title: Legislative Reference Library of Texas, State Budget
+  url: https://lrl.texas.gov/legis/budget.cfm?phase=4
+  retrieved: '2026-11-13'
+slides:
+- {kicker: Mark the calendar, big: Jan. 12, head: "The 90th Texas Legislature convenes at noon on Tuesday, Jan. 12, 2027.",
+   quote: {label: Texas Legislative Council, text: "First day of 90th Regular Session; Legislature convenes at noon"}}
+- {kicker: Mark the calendar, big: May 31, head: "May 31, 2027 is the last day of the regular session.",
+   quote: {label: Legislative Reference Library, text: "The last day of the 90th Regular Legislative Session is May 31, 2027."}}
+caption: |-
+  The Texas Legislature's 2027 regular session starts at noon on Tuesday, Jan. 12. Its last day is May 31.
+
+  Lawmakers have been able to file bills for this session since Nov. 9.
+hashtags: [txlege, texaslegislature, texas, civics, votetherecord]
+notes: >-
+  Routine calendar post; both dates quoted from .gov pages opened 2026-11-13. The Nov. 9 filing date in the
+  caption is also from the Dates of Interest PDF ("First day legislators and legislators-elect may file bills").
