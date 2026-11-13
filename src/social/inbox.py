@@ -78,6 +78,11 @@ def links(message: dict, skip: set[str]) -> tuple[list[str], list[str]]:
     return urls, titles
 
 
+def short_id(message_id: str) -> str:
+    """A short, stable idea ID: the message ID's last 24 letters and digits (fits found_via: owner idea <id>)."""
+    return "".join(c if c.isalnum() else "_" for c in message_id[-24:])
+
+
 def shape(value):
     """The field names and types of a message, with every value removed."""
     if isinstance(value, dict):
@@ -104,7 +109,7 @@ def ideas(senders: set[str], since: dt.datetime, raw: bool = False) -> list[dict
                 print(json.dumps(shape(m)))
             files = media(m)
             urls, titles = links(m, {u for u, _ in files})
-            out.append({"id": m["id"], "received": when.isoformat(timespec="seconds"), "from": who,
+            out.append({"id": short_id(m["id"]), "received": when.isoformat(timespec="seconds"), "from": who,
                         "note": m.get("message") or "", "urls": urls, "titles": titles, "_files": files})
     return sorted(out, key=lambda i: i["received"], reverse=True)
 
@@ -116,7 +121,7 @@ def save_media(client, private: str, idea: dict) -> int:
     idea["media"], failed = [], 0
     for n, (url, mime) in enumerate(idea.pop("_files")):
         ext = mimetypes.guess_extension(mime.split(";")[0]) or ".mp4"
-        key = f"media/{''.join(c if c.isalnum() else '_' for c in idea['id'][-24:])}-{n}{ext}"
+        key = f"media/{idea['id']}-{n}{ext}"
         try:
             try:
                 client.head_object(Bucket=private, Key=key)
