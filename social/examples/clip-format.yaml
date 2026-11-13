@@ -1,0 +1,31 @@
+# FORMAT EXAMPLE ONLY: fictional hearing, person, and URLs. It passes --check but never builds or publishes.
+kind: clip
+level: congress
+topic: Hearings
+approval: review                  # clips always wait for the owner
+record_ids: [us/119/hearing/example-committee/2026-11-12/0:41:05]
+sources:
+- title: "Example Committee: Hearing on Example Topic, Nov. 12, 2026"
+  url: https://example.house.gov/hearings/example-topic
+  retrieved: '2026-11-13'
+video:
+  url: https://example.house.gov/video/hearing-2026-11-12.mp4   # the official file or .m3u8 stream
+  page: https://example.house.gov/hearings/example-topic        # the official hearing page; also in sources
+  title: Hearing on Example Topic
+  date: '2026-11-12'
+  start: '0:41:05'                # in the full video
+  end: '0:41:47'
+captions:                          # exact words, seconds from the clip's start; no gaps needed, no overlaps
+- {start: 0.0, end: 3.8, text: "Example question, quoted exactly as spoken."}
+- {start: 4.0, end: 9.5, text: "Example answer, quoted exactly, including the end of the sentence."}
+caption_source: official           # official (committee transcript) or whisper
+speakers:
+- {at: 0.0, name: "Rep. Jane Example (TX)"}
+- {at: 4.0, name: "John Witness, Director, Example Agency"}
+context: >-
+  Just before, the chair asked about the agency's budget; just after, the witness says the figures are in the
+  written testimony. The clip shows the full question and the full answer.
+caption: |-
+  At the Nov. 12 hearing on example topic, a member asked how the agency tracks its spending. Here's the
+  full question and answer.
+hashtags: [congress, hearing, votetherecord]

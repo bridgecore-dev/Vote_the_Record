@@ -1,4 +1,4 @@
-"""Build an Instagram post (feed image, carousel, story, or Reel) from a post file in social/posts/.
+"""Build an Instagram post (feed image, carousel, story, Reel, or hearing clip) from a post file in social/posts/.
 
     python src/social/build.py social/posts/<date>-<slug>.yaml [--check]
 
@@ -26,14 +26,15 @@ ROOT = Path(__file__).resolve().parents[2]
 CHROME = [Path(r"C:/Program Files/Google/Chrome/Application/chrome.exe"), Path("/usr/bin/google-chrome"),
           Path("/usr/bin/chromium")]
 FFMPEG = shutil.which("ffmpeg") or r"C:/ffmpeg/bin/ffmpeg.exe"
-KINDS = {"image", "carousel", "story", "reel"}
+KINDS = {"image", "carousel", "story", "reel", "clip"}
 LEVELS = {"congress", "state", "local"}
 LAYOUTS = ["card", "band", "stat"]
 SIZES = {"feed": (1080, 1350), "tall": (1080, 1920)}
 SECONDS, FADE = 4.0, 0.4  # each Reel slide; the slide transition
 SLIDE_KEYS = {"chip", "kicker", "big", "head", "text", "quote", "by", "seconds"}
 TOP_KEYS = {"kind", "level", "place", "topic", "approval", "layout", "story", "sources", "slides", "caption",
-            "hashtags", "rule", "notes", "publish_after", "found_via", "record_ids"}
+            "hashtags", "rule", "notes", "publish_after", "found_via", "record_ids",
+            "video", "captions", "caption_source", "speakers", "context"}  # the last five: clips (clip.py)
 
 
 def official(url: str) -> bool:
@@ -80,7 +81,10 @@ def check(post: dict) -> list[str]:
         errs.append("record_ids is a list of official IDs as strings, e.g. ['tx/90R/HB 101', 'us/119/house/roll/316']")
     slides = post.get("slides") or []
     n = {"image": (1, 1), "story": (1, 10), "carousel": (2, 10), "reel": (2, 20)}.get(post.get("kind"), (1, 20))
-    if not n[0] <= len(slides) <= n[1]:
+    if post.get("kind") == "clip":
+        import clip
+        errs += clip.check(post)
+    elif not n[0] <= len(slides) <= n[1]:
         errs.append(f"a {post.get('kind')} has {n[0]}-{n[1]} slides, not {len(slides)}")
     for k, s in enumerate(slides, 1):
         errs += [f"slide {k}: unknown field {x}" for x in s if x not in SLIDE_KEYS]
@@ -245,9 +249,12 @@ def build(path: Path) -> Path:
     out.mkdir(parents=True)
     # the layout rotates by post unless the file names one, so the grid doesn't repeat itself
     layout = post.get("layout") or LAYOUTS[int(hashlib.sha1(path.stem.encode()).hexdigest(), 16) % len(LAYOUTS)]
-    kind, slides = post["kind"], post["slides"]
+    kind, slides = post["kind"], post.get("slides") or []
     size = SIZES["tall" if kind in ("story", "reel") else "feed"]
     files, n = [], len(slides)
+    if kind == "clip":
+        import clip
+        files = clip.make(post, out)
     for k, s in enumerate(slides, 1):
         png = out / f"slide-{k:02d}.png"
         render(slide_html(post, s, k, n, layout, size), png, size)
@@ -267,7 +274,8 @@ def build(path: Path) -> Path:
                 "topic": post.get("topic"), "layout": layout, "approval": post["approval"], "files": files,
                 "caption": full_caption(post), "sources": post["sources"],
                 "publish_after": str(post["publish_after"]) if post.get("publish_after") else None,
-                "record_ids": post.get("record_ids") or [], "found_via": post.get("found_via")}
+                "record_ids": post.get("record_ids") or [], "found_via": post.get("found_via"),
+                "context": post.get("context"), "caption_source": post.get("caption_source"), "video": post.get("video")}
     (out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
     return out
 
