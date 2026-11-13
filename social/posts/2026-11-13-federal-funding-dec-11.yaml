@@ -1,0 +1,33 @@
+kind: image
+level: congress
+topic: Calendar
+approval: review
+layout: stat
+story: true
+highlight: Congress
+sources:
+- title: GovInfo, Public Law 119-103, Continuing Appropriations and Extensions Act, 2027
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ103/html/PLAW-119publ103.htm
+  retrieved: '2026-11-13'
+- title: GovInfo, Public and Private Laws RSS feed
+  url: https://www.govinfo.gov/rss/plaw.xml
+  retrieved: '2026-11-13'
+slides:
+- kicker: Mark the calendar
+  big: Dec. 11
+  head: Temporary federal funding under Public Law 119-103 runs through Dec. 11, 2026.
+  text: It ends sooner for any program whose full-year 2027 funding becomes law first. The law was approved Sept. 2, 2026.
+  quote: {label: "Official text, Sec. 106", text: "(3) December 11, 2026."}
+caption: |-
+  Less than a month to go. Public Law 119-103, the Continuing Appropriations and Extensions Act, 2027, provides continuing (temporary) funding for federal programs. Under Sec. 106 of the law, that funding lasts until Dec. 11, 2026, or until full-year 2027 funding for a program becomes law, whichever comes first.
+
+  The law was approved Sept. 2, 2026. The date is quoted from its official text on GovInfo.
+hashtags: [congress, federalbudget, civics, votetherecord]
+record_ids: [us/119/public-law/103/expires]
+publish_after: '2026-11-14T12:00:00-06:00'
+found_via: https://dailymontanan.com/2026/11/06/repub/gop-congress-faces-funding-deadline-farm-bill-lengthy-to-do-list-in-year-end-session/
+notes: >-
+  Upcoming date from an official record: Sec. 106(3) of P.L. 119-103 sets Dec. 11, 2026 as the end of the stopgap.
+  News pointed here, so review. Double-check no later law has changed the date (none in the GovInfo feed at
+  retrieval; P.L. 119-138 was the newest posted). Slides avoid saying what happens after Dec. 11, since the law
+  doesn't say.
