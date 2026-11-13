@@ -12,8 +12,11 @@ Settings: the same environment as src/social/publish.py, plus
 The token needs instagram_manage_messages and pages_manage_metadata, and the account's "Allow access to
 messages" (Settings > Messages and story replies > Message controls > Connected tools) must be on.
 
-    python src/social/inbox.py            # print the ideas
-    python src/social/inbox.py --raw      # print the raw fields of the newest messages, to check the setup
+    python src/social/inbox.py            # print the ideas (local use only)
+    python src/social/inbox.py --raw      # print only the field names of kept messages, to check the setup
+
+The repo's Actions logs are public, so with --write nothing personal is printed: only a count. Field values
+are never printed by --raw. IG_IDEA_SENDERS is a secret (masked in logs); without it the run does nothing.
     python src/social/inbox.py --write    # also save ideas.json to the private bucket
     python src/social/inbox.py --read     # print the saved ideas (the routine, with a read-only key)
 """
@@ -56,6 +59,15 @@ def links(message: dict) -> tuple[list[str], list[str]]:
     return urls, titles
 
 
+def shape(value):
+    """The field names and types of a message, with every value removed."""
+    if isinstance(value, dict):
+        return {k: shape(v) for k, v in value.items()}
+    if isinstance(value, list):
+        return [shape(value[0])] if value else []
+    return type(value).__name__
+
+
 def ideas(senders: set[str], since: dt.datetime, raw: bool = False) -> list[dict]:
     page_id, token = page()
     convs = publish.graph("GET", f"{page_id}/conversations", platform="instagram", access_token=token,
@@ -69,8 +81,8 @@ def ideas(senders: set[str], since: dt.datetime, raw: bool = False) -> list[dict
             when = dt.datetime.fromisoformat(m["created_time"].replace("+0000", "+00:00"))
             if when < since:
                 continue
-            if raw:
-                print(json.dumps(m, ensure_ascii=False, indent=2))
+            if raw:  # shape only, never values: the Actions logs are public
+                print(json.dumps(shape(m)))
             urls, titles = links(m)
             out.append({"received": when.isoformat(timespec="seconds"), "from": who,
                         "note": m.get("message") or "", "urls": urls, "titles": titles})
@@ -81,7 +93,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--write", action="store_true", help="save ideas.json to the private bucket")
     ap.add_argument("--read", action="store_true", help="print the saved ideas.json from the private bucket")
-    ap.add_argument("--raw", action="store_true", help="also print the raw fields of each kept message")
+    ap.add_argument("--raw", action="store_true", help="print the field names of each kept message (no values)")
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
     if args.read:  # the routine's environment has only the private bucket's read-only key
@@ -89,17 +101,22 @@ def main() -> None:
         client, _ = publish.bucket()
         print(client.get_object(Bucket=publish.env("R2_PRIVATE_BUCKET"), Key=KEY)["Body"].read().decode())
         return
+    if not os.environ.get("IG_IDEA_SENDERS"):
+        print("IG_IDEA_SENDERS is not set; nothing to read")
+        return
     senders = {s.strip().lstrip("@").lower() for s in publish.env("IG_IDEA_SENDERS").split(",") if s.strip()}
     now = dt.datetime.now(dt.timezone.utc)
     out = {"generated": now.isoformat(timespec="seconds"), "ideas": ideas(senders, now - dt.timedelta(days=DAYS),
                                                                           args.raw)}
     text = json.dumps(out, ensure_ascii=False, indent=2)
-    print(text)
-    if args.write:
+    if args.write:  # in GitHub Actions: a count only, since the logs are public
+        print(f"{len(out['ideas'])} idea(s)")
         client, _ = publish.bucket()
         private = publish.env("R2_PRIVATE_BUCKET")
         client.put_object(Bucket=private, Key=KEY, Body=text.encode(), ContentType="application/json")
         print(f"saved {KEY} to the private bucket", file=sys.stderr)
+    else:
+        print(text)
 
 
 if __name__ == "__main__":
