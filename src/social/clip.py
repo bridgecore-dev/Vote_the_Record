@@ -144,14 +144,7 @@ def lower_html(name: str) -> str:
 
 
 def render_png(doc: str, png: Path, size: tuple[int, int], transparent: bool = False) -> None:
-    chrome = next((c for c in B.CHROME if c.exists()), None)
-    p = png.with_suffix(".html")
-    p.write_text(doc, encoding="utf-8")
-    args = [str(chrome), "--headless=new", "--disable-gpu", "--hide-scrollbars", f"--user-data-dir={png.parent / '.chrome'}",
-            f"--window-size={size[0]},{size[1]}", f"--screenshot={png}"]
-    if transparent:
-        args.append("--default-background-color=00000000")
-    subprocess.run(args + [p.as_uri()], check=True, capture_output=True)
+    B.render(doc, png, size, transparent)
 
 
 def has_audio(path: Path) -> bool:
