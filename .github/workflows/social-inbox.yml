@@ -4,7 +4,10 @@ name: social inbox
 # by direct message (src/social/inbox.py), keeping only messages from IG_IDEA_SENDERS, and saves them to the
 # PRIVATE bucket (vars.R2_PRIVATE_BUCKET), never the public one. Reads only; never replies.
 #
-# Setup: repo variable IG_IDEA_SENDERS (the owner's own Instagram usernames, comma-separated), and a token
+# The repo is public, so its logs are too: inbox.py prints only a count here, and the sender list is a
+# secret so it is masked.
+#
+# Setup: repo SECRET IG_IDEA_SENDERS (the owner's own Instagram usernames, comma-separated), and a token
 # with instagram_manage_messages and pages_manage_metadata.
 
 on:
@@ -13,7 +16,7 @@ on:
   workflow_dispatch:
     inputs:
       raw:
-        description: "Print the raw message fields (setup check)"
+        description: "Print the message field names, no values (setup check)"
         type: boolean
         default: false
 
@@ -22,7 +25,7 @@ permissions:
 
 jobs:
   inbox:
-    if: vars.IG_IDEA_SENDERS != '' && vars.R2_PRIVATE_BUCKET != ''
+    if: vars.R2_PRIVATE_BUCKET != ''
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -33,7 +36,7 @@ jobs:
       - run: pip install -r requirements-social.txt
       - run: python src/social/inbox.py --write ${{ inputs.raw && '--raw' || '' }}
         env:
-          IG_IDEA_SENDERS: ${{ vars.IG_IDEA_SENDERS }}
+          IG_IDEA_SENDERS: ${{ secrets.IG_IDEA_SENDERS }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
