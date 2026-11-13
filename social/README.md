@@ -45,8 +45,9 @@ caption: |-            # the post text; sources and hashtags are added below it 
 hashtags: [txlege, texas]           # at most 5, without '#'
 record_ids: [tx/90R/calendar/convenes]   # what this post covers; the builder refuses an ID another post has
 publish_after: '2026-11-14T08:00:00-06:00'  # optional; ISO date-time with a time zone
-found_via: https://news.example/story      # optional; the news item that led us here. Reviewer only: never
-                                           # printed, never a source, and it forces approval: review
+found_via: https://news.example/story      # optional; what led us here: a news URL, or `owner idea <id>` for an
+                                           # idea the owner sent (never its note or link: post files are public).
+                                           # Never printed, never a source, and it forces approval: review
 rule: How items were picked, when the post is a selection (also say it on a slide).
 notes: Anything the reviewer should know; not published.
 bills: [...]           # required for every bill the post names; see "Bills" below
@@ -116,6 +117,14 @@ the same event never does. A recap post lists every record it covers.
 
 **Words.** Quote official text exactly in `quote`; our own words go in `head`/`text` and must not go beyond
 the source. Same wording and structure for every person. Never name or imply a party.
+
+## Owner ideas
+
+The owner can send @vote.the.record a note, a shared reel, or a video they recorded; `src/social/inbox.py`
+keeps those in a private bucket and the routine reads them (docs/SOCIAL_ROUTINE.md). They are tips only:
+- A post rests on official records, never on the idea. `found_via: owner idea <id>` names it; the builder
+  refuses anything else there, so the owner's words and links never reach a public post file or pull request.
+- Nothing from an owner's video (frames, audio, transcript) is ever published. Clips take official video only.
 
 ## Story Highlights
 
