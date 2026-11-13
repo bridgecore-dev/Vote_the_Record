@@ -172,7 +172,9 @@ def check_setup() -> int:
     client.put_object(Bucket=name, Key=key, Body=body, ContentType="text/plain")
     url = f"{env('R2_PUBLIC_URL').rstrip('/')}/{key}"
     try:
-        with urllib.request.urlopen(url, timeout=60) as r:
+        # r2.dev refuses Python's default User-Agent; this is our own bucket, so name the check plainly
+        req = urllib.request.Request(url, headers={"User-Agent": "vote-the-record-setup-check"})
+        with urllib.request.urlopen(req, timeout=60) as r:
             same = r.read() == body
         print(f"R2: upload and public read {'work' if same else 'returned different content'} ({url})")
         bad |= not same

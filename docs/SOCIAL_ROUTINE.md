@@ -31,6 +31,17 @@ Then search the news for what Congress and state legislatures are doing today. A
 the way: find the official record behind it (a bill page, roll call, public law, journal, calendar) and build
 the post on that record. If no official record covers it, skip it.
 
+Check what people are paying attention to, as a signal for topics, timing and formats (never as a source):
+- Instagram, through the official API as @vote.the.record:
+  https://pub-3587eff321bc4a4d8b4ff4fe8d9a9d0e.r2.dev/state/trends.json (updated daily by
+  `.github/workflows/social-trends.yml`: top posts for a few civic hashtags, and recent posts of public
+  official accounts)
+- Google Trends, United States: https://trends.google.com/trending?geo=US
+- TikTok Creative Center, trending hashtags: https://ads.tiktok.com/business/creativecenter/inspiration/popular/hashtag/pc/en
+
+A trend only tells you what people are asking about. The post still answers it from an official record, and
+never copies or reposts another account's content. Don't log in to, or scrape, Instagram, TikTok or X.
+
 congress.gov may refuse automated requests. Don't retry or work around a block; use another official
 source or skip.
 

@@ -1,0 +1,35 @@
+name: social trends
+
+# Daily at 4:30 a.m. Central standard time, before the scout routine's first run: looks at a few civic
+# hashtags and public professional accounts through the official Instagram API (src/social/trends.py) and
+# uploads the summary to the bucket as state/trends.json. Reads Instagram only; never posts.
+
+on:
+  schedule:
+    - cron: "30 10 * * *"   # UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  trends:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-social.txt
+      - run: python src/social/trends.py --write
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
+          IG_GRAPH_VERSION: ${{ vars.IG_GRAPH_VERSION }}
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ vars.R2_BUCKET }}
+          R2_PUBLIC_URL: ${{ vars.R2_PUBLIC_URL }}
