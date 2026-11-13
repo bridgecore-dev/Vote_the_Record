@@ -77,7 +77,7 @@ def expanded(post: dict) -> list[dict]:
     return slides
 
 
-def check_bills(post: dict) -> list[str]:
+def check_bills(post: dict, editorial: bool = True) -> list[str]:
     errs, bills = [], post.get("bills") or []
     given = {}
     for b in bills:
@@ -97,6 +97,8 @@ def check_bills(post: dict) -> list[str]:
         elif len(s["text"]) > 300:
             errs.append(f"bill {b.get('id')}: summary text is {len(s['text'])} characters; quote the key 300")
         given[bill_key(str(b.get("id", "")))] = b
+    if not editorial:
+        return errs
     named = mentioned_bills(post)
     missing = sorted(k for k in named if k not in given)
     if missing:
@@ -115,7 +117,9 @@ def official(url: str) -> bool:
     return host.endswith(".gov") or host.endswith(".us") or host.endswith(".mil")
 
 
-def check(post: dict) -> list[str]:
+def check(post: dict, editorial: bool = True) -> list[str]:
+    """Problems with a post file. editorial=False keeps only what rendering needs: building a post that was
+    already approved (merged) must not fail because an editorial rule was added after the owner approved it."""
     errs = [f"unknown field: {k}" for k in post if k not in TOP_KEYS]
     if post.get("kind") not in KINDS:
         errs.append(f"kind must be one of {sorted(KINDS)}")
@@ -133,11 +137,11 @@ def check(post: dict) -> list[str]:
     for s in sources:
         if not (s.get("title") and s.get("url") and s.get("retrieved")):
             errs.append(f"each source needs title, url, retrieved: {s}")
-    if post.get("approval") == "auto" and not all(official(s.get("url", "")) for s in sources):
+    if editorial and post.get("approval") == "auto" and not all(official(s.get("url", "")) for s in sources):
         errs.append("approval auto needs every source on a .gov/.us/.mil domain; use review")
     # found_via: the news item that pointed us to the story; for the reviewer only, never a source
     if post.get("found_via"):
-        if post.get("approval") == "auto":
+        if editorial and post.get("approval") == "auto":
             errs.append("a post found via news uses approval review")
         if post["found_via"] in {s.get("url") for s in sources}:
             errs.append("found_via is not a source; cite the official record instead")
@@ -151,7 +155,7 @@ def check(post: dict) -> list[str]:
     ids = post.get("record_ids")
     if ids is not None and not (isinstance(ids, list) and all(isinstance(i, str) and i.strip() for i in ids)):
         errs.append("record_ids is a list of official IDs as strings, e.g. ['tx/90R/HB 101', 'us/119/house/roll/316']")
-    errs += check_bills(post)
+    errs += check_bills(post, editorial)
     slides = expanded(post) if post.get("kind") != "clip" else []
     n = {"image": (1, 1), "story": (1, 10), "carousel": (2, 10), "reel": (2, 20)}.get(post.get("kind"), (1, 20))
     if post.get("kind") == "clip":
@@ -345,8 +349,10 @@ def full_caption(post: dict) -> str:
 
 
 def build(path: Path) -> Path:
+    """Render a post. The full check (editorial rules, duplicates) runs on the pull request with --check; here
+    only what rendering needs, so a post the owner already approved still builds after the rules change."""
     post = yaml.safe_load(path.read_text(encoding="utf-8"))
-    errs = check(post) + duplicates(path, post)
+    errs = check(post, editorial=False)
     if errs:
         sys.exit(f"{path}:\n  " + "\n  ".join(errs))
     out = ROOT / "social/out" / path.stem
