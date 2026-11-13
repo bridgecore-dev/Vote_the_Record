@@ -122,7 +122,7 @@ def publish_one(manifest: dict, base: str) -> list[str]:
     elif kind == "carousel":
         children = [make(image_url=url(f["file"]), is_carousel_item="true") for f in feed]
         containers.append(make(media_type="CAROUSEL", children=",".join(children), caption=caption))
-    elif kind == "reel":
+    elif kind in ("reel", "clip"):  # a hearing clip is published as a Reel
         f = feed[0]
         containers.append(make(media_type="REELS", video_url=url(f["file"]), cover_url=url(f["cover"]),
                                caption=caption, share_to_feed="true"))
@@ -145,6 +145,10 @@ def comment(manifest: dict, base: str | None) -> str:
              + (f" · scheduled {m['publish_after']}" if m.get("publish_after") else ""), ""]
     if m.get("found_via"):
         lines += [f"Found via (not a source, never published): {m['found_via']}", ""]
+    if m.get("context"):  # clips: what came just before and after the cut, so the owner can judge it
+        lines += [f"Context around the cut (never published): {m['context']}", ""]
+    if m.get("caption_source"):
+        lines += [f"On-screen captions from: {m['caption_source']}", ""]
     for f in m["files"]:
         shown = f.get("cover", f["file"])
         lines.append(f"![{f['alt_text'][:120]}]({base}/{shown})" if base else f"- `{f['file']}`: {f['alt_text']}")
