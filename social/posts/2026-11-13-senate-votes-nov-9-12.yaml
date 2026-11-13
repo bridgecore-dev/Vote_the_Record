@@ -1,0 +1,43 @@
+kind: carousel
+level: congress
+topic: Roll-call votes
+approval: review
+rule: Every Senate roll-call vote from Nov. 9 to Nov. 12, 2026, in the order the Senate lists them, with the same wording for each.
+record_ids: [us/119/senate/roll/257, us/119/senate/roll/258, us/119/senate/roll/259, us/119/senate/roll/260,
+             us/119/senate/roll/261, us/119/senate/roll/262, us/119/house/schedule/2026-11-17]
+publish_after: '2026-11-13T12:00:00-06:00'
+sources:
+- title: "U.S. Senate: Roll Call Votes, 119th Congress, 2nd Session"
+  url: https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.htm
+  retrieved: '2026-11-13'
+- title: "U.S. Senate: Roll Call Vote 119th Congress, 2nd Session, Vote Number 260"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00260.htm
+  retrieved: '2026-11-13'
+- title: Office of the Clerk, U.S. House of Representatives, Votes
+  url: https://clerk.house.gov/Votes
+  retrieved: '2026-11-13'
+slides:
+- {kicker: "U.S. Senate · Nov. 9-12, 2026", big: '6', head: roll-call votes in the Senate from Nov. 9 to Nov. 12.,
+   text: "Two were on a House bill. Four were on judicial nominations. Here is every one, with the official tally."}
+- {chip: H.R. 2347, big: 73-25, head: "Nov. 9: Cloture on the motion to proceed to H.R. 2347 was agreed to.",
+   quote: {label: Senate description, text: "A bill to amend the Internal Revenue Code of 1986 to exclude from gross income any damages, other than punitive damages, received on account of any sexual acts or sexual contact."}}
+- {chip: H.R. 2347, big: 62-21, head: "Nov. 10: The motion to proceed to H.R. 2347 was agreed to."}
+- {chip: Judicial nomination, big: 50-27, head: "Nov. 12: Cloture on the nomination of Gregory Carl Cook was agreed to.",
+   quote: {label: Senate description, text: Gregory Carl Cook to be U.S. District Judge for the Northern District of Alabama}}
+- {chip: Judicial nomination, big: 49-27, head: "Nov. 12: Gregory Carl Cook was confirmed.",
+   quote: {label: Senate description, text: "Gregory Carl Cook, of Alabama, to be U.S. District Judge for the Northern District of Alabama"}}
+- {chip: Judicial nomination, big: 51-27, head: "Nov. 12: Cloture on the nomination of Daniel Desmond Domenico was agreed to.",
+   quote: {label: Senate description, text: Daniel Desmond Domenico to be U.S. Circuit Judge for the Tenth Circuit}}
+- {chip: Judicial nomination, big: 49-26, head: "Nov. 12: Cloture on the nomination of Anna St. John was agreed to.",
+   quote: {label: Senate description, text: Anna St. John to be U.S. Circuit Judge for the Fifth Circuit}}
+- {kicker: Next up, big: Nov. 17, head: The House is next in session on Nov. 17 at noon.,
+   text: "Source: Office of the Clerk, U.S. House. Tallies are yeas-nays as the Senate lists them."}
+caption: |-
+  The Senate held 6 roll-call votes from Nov. 9 to Nov. 12. Two were on H.R. 2347, a House bill on the tax treatment of certain damages. Four were on judicial nominations, including the confirmation of Gregory Carl Cook to a federal district court in Alabama, 49-27.
+
+  Swipe for every vote and its official tally. The House is next in session Nov. 17 at noon.
+hashtags: [senate, congress, rollcall, civics, votetherecord]
+notes: >-
+  Review because slide heads and the caption restate the Senate's descriptions in our words. First scout run; every Senate roll call listed on senate.gov for Nov. 9-12 (votes 257-262), none skipped.
+  Vote 260 page checked: YEAs 49, NAYs 27, Not Voting 24 (not-voting counts not shown on slides). If the Senate
+  votes again on Nov. 13 before this posts, the "6" and the Nov. 9-12 range still hold.
