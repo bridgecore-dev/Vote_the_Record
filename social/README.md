@@ -49,7 +49,36 @@ found_via: https://news.example/story      # optional; the news item that led us
                                            # printed, never a source, and it forces approval: review
 rule: How items were picked, when the post is a selection (also say it on a slide).
 notes: Anything the reviewer should know; not published.
+bills: [...]           # required for every bill the post names; see "Bills" below
 ```
+
+## Bills: always say what it does
+
+A post that names a bill (H.R. 2347, S. 12, HB 101, SJR 3 …) must say, in plain words, what the bill would do,
+who it would affect, and where it stands. A number and a tally alone don't tell anyone anything.
+
+```yaml
+bills:
+- id: H.R. 2347
+  does: Would ... (under 140 characters; what changes, in everyday words)
+  affects: Who it would apply to (under 120)
+  where: Where it stands now, e.g. "Passed the House Jan. 5; the Senate voted Nov. 10 to take it up." (under 110)
+  summary:            # the official summary, quoted exactly (up to 300 characters)
+    text: "..."
+    title: Congressional Research Service summary of H.R. 2347
+    url: https://www.congress.gov/bill/119th-congress/house-bill/2347   # or the legislature's bill analysis
+    retrieved: 'YYYY-MM-DD'
+```
+
+- The builder puts an explainer slide right after the first slide that names the bill (carousel, story, Reel),
+  adds "What it does / Who it affects / Where it stands" to the caption, and adds the summary to the sources.
+- `does`, `affects`, and `where` are our words, so they never go past the official summary or bill text. Where
+  the summary doesn't say who is affected, say what it does say ("Applies to taxpayers who ...").
+- Federal summaries: the Congressional Research Service summary on congress.gov. Texas: the bill analysis on
+  Texas Legislature Online, or the bill text itself for a newly filed bill.
+- A single image can't hold this, so a post naming a bill is a carousel, story, or Reel. Explaining a bill in
+  our words is a judgment call, so these posts use `approval: review`.
+- Example: `examples/bill-format.yaml` (fictional bill).
 
 ## Clips (`kind: clip`)
 

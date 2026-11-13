@@ -1,0 +1,26 @@
+# FORMAT EXAMPLE ONLY: a fictional bill (H.R. 9999) and fictional URLs. It passes --check; never publish it.
+kind: carousel
+level: congress
+topic: Roll-call votes
+approval: review                  # any post that explains a bill waits for the owner
+record_ids: [us/119/house/roll/9999]
+sources:
+- title: Office of the Clerk, U.S. House, Roll Call 9999
+  url: https://clerk.house.gov/Votes/2026-example
+  retrieved: '2026-11-13'
+bills:                            # every bill the post names; the builder adds an explainer slide after its first mention
+- id: H.R. 9999
+  does: Would let people deduct up to $500 a year they spend on public transit from their federal income tax.
+  affects: People who pay federal income tax and ride public transit to work.
+  where: Passed the House Nov. 12, 2026. The Senate hasn't voted on it.
+  summary:                        # exact words from the official summary (CRS on congress.gov, or the legislature's analysis)
+    text: This bill allows a deduction from gross income, up to $500 per year, for amounts paid for public transit commuting.
+    title: "Congressional Research Service summary of H.R. 9999 (example)"
+    url: https://www.congress.gov/bill/119th-congress/house-bill/9999
+    retrieved: '2026-11-13'
+slides:
+- {kicker: "U.S. House · Nov. 12, 2026", big: 251-180, head: The House passed H.R. 9999.}
+- {kicker: How it passed, head: It needed a simple majority of members voting., text: 251 voted yes and 180 voted no.}
+caption: |-
+  The House passed H.R. 9999 on Nov. 12, 251-180. Swipe for what it would do and who it would affect.
+hashtags: [congress, votetherecord]
