@@ -27,8 +27,10 @@ Official feeds first. These need no key:
 - State legislatures' official sites (`.gov` or `.us`), e.g. Texas Legislature Online reports at
   https://capitol.texas.gov/Reports/ (bills filed by date, bills passed, calendars)
 
-Then read the owner's ideas: https://pub-3587eff321bc4a4d8b4ff4fe8d9a9d0e.r2.dev/state/ideas.json (reels and
-posts the owner shared to @vote.the.record, with any note, from `.github/workflows/social-inbox.yml`). Each
+Then read the owner's ideas with `pip install boto3 && python src/social/inbox.py --read` (reels and posts the
+owner shared to @vote.the.record, with any note; the environment has a read-only key for the private bucket).
+They are private: never quote the owner's notes or list the shared links in a post, a pull request or the
+run summary beyond the one `found_via` line. Each
 idea is a tip, like a news story: find the official record behind it, set `found_via` to the shared URL, and
 use `approval: review`. An idea you skip goes in the run summary with the reason. Never copy, describe or
 repost the shared reel itself.

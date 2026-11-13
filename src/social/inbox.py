@@ -2,28 +2,32 @@
 
 The owner shares a reel or post (with a note, if they like) from their own account to @vote.the.record. This
 reads the account's Instagram conversations through the linked Facebook Page, keeps only messages from the
-usernames in IG_IDEA_SENDERS, and uploads them to the bucket as state/ideas.json for the scout routine
-(docs/SOCIAL_ROUTINE.md). Read-only: it never replies, reacts or marks anything seen, and never keeps
+usernames in IG_IDEA_SENDERS, and saves them as ideas.json in a PRIVATE bucket (R2_PRIVATE_BUCKET, never
+served on r2.dev or any public URL), where the scout routine reads them with --read (docs/SOCIAL_ROUTINE.md). Read-only: it never replies, reacts or marks anything seen, and never keeps
 messages from anyone else. A shared reel is a topic tip only; posts still rest on official records.
 
 Settings: the same environment as src/social/publish.py, plus
-  IG_IDEA_SENDERS  comma-separated Instagram usernames whose shares count as ideas (the owner's own accounts)
+  IG_IDEA_SENDERS    comma-separated Instagram usernames whose shares count as ideas (the owner's own accounts)
+  R2_PRIVATE_BUCKET  a bucket with public access off; the owner's messages never go in the public one
 The token needs instagram_manage_messages and pages_manage_metadata, and the account's "Allow access to
 messages" (Settings > Messages and story replies > Message controls > Connected tools) must be on.
 
     python src/social/inbox.py            # print the ideas
     python src/social/inbox.py --raw      # print the raw fields of the newest messages, to check the setup
-    python src/social/inbox.py --write    # also upload state/ideas.json
+    python src/social/inbox.py --write    # also save ideas.json to the private bucket
+    python src/social/inbox.py --read     # print the saved ideas (the routine, with a read-only key)
 """
 import argparse
 import datetime as dt
 import json
+import os
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import publish  # noqa: E402  (graph(), env(), bucket())
 
+KEY = "ideas.json"
 DAYS = 21  # ideas older than this drop off
 MESSAGE_FIELDS = "id,created_time,from,message,attachments,shares"
 
@@ -75,10 +79,16 @@ def ideas(senders: set[str], since: dt.datetime, raw: bool = False) -> list[dict
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
-    ap.add_argument("--write", action="store_true", help="upload state/ideas.json to the bucket")
+    ap.add_argument("--write", action="store_true", help="save ideas.json to the private bucket")
+    ap.add_argument("--read", action="store_true", help="print the saved ideas.json from the private bucket")
     ap.add_argument("--raw", action="store_true", help="also print the raw fields of each kept message")
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8")
+    if args.read:  # the routine's environment has only the private bucket's read-only key
+        os.environ.setdefault("R2_BUCKET", publish.env("R2_PRIVATE_BUCKET"))
+        client, _ = publish.bucket()
+        print(client.get_object(Bucket=publish.env("R2_PRIVATE_BUCKET"), Key=KEY)["Body"].read().decode())
+        return
     senders = {s.strip().lstrip("@").lower() for s in publish.env("IG_IDEA_SENDERS").split(",") if s.strip()}
     now = dt.datetime.now(dt.timezone.utc)
     out = {"generated": now.isoformat(timespec="seconds"), "ideas": ideas(senders, now - dt.timedelta(days=DAYS),
@@ -86,9 +96,10 @@ def main() -> None:
     text = json.dumps(out, ensure_ascii=False, indent=2)
     print(text)
     if args.write:
-        client, name = publish.bucket()
-        client.put_object(Bucket=name, Key="state/ideas.json", Body=text.encode(), ContentType="application/json")
-        print(f"uploaded {publish.env('R2_PUBLIC_URL').rstrip('/')}/state/ideas.json", file=sys.stderr)
+        client, _ = publish.bucket()
+        private = publish.env("R2_PRIVATE_BUCKET")
+        client.put_object(Bucket=private, Key=KEY, Body=text.encode(), ContentType="application/json")
+        print(f"saved {KEY} to the private bucket", file=sys.stderr)
 
 
 if __name__ == "__main__":

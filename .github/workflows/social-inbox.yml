@@ -1,8 +1,8 @@
 name: social inbox
 
 # Fifteen minutes before each scout routine run: reads reels and posts the owner shared to @vote.the.record
-# by direct message (src/social/inbox.py), keeping only messages from IG_IDEA_SENDERS, and uploads them to the
-# bucket as state/ideas.json. Reads only; never replies.
+# by direct message (src/social/inbox.py), keeping only messages from IG_IDEA_SENDERS, and saves them to the
+# PRIVATE bucket (vars.R2_PRIVATE_BUCKET), never the public one. Reads only; never replies.
 #
 # Setup: repo variable IG_IDEA_SENDERS (the owner's own Instagram usernames, comma-separated), and a token
 # with instagram_manage_messages and pages_manage_metadata.
@@ -22,7 +22,7 @@ permissions:
 
 jobs:
   inbox:
-    if: vars.IG_IDEA_SENDERS != ''
+    if: vars.IG_IDEA_SENDERS != '' && vars.R2_PRIVATE_BUCKET != ''
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
@@ -42,4 +42,4 @@ jobs:
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           R2_BUCKET: ${{ vars.R2_BUCKET }}
-          R2_PUBLIC_URL: ${{ vars.R2_PUBLIC_URL }}
+          R2_PRIVATE_BUCKET: ${{ vars.R2_PRIVATE_BUCKET }}
