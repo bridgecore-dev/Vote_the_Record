@@ -1,0 +1,31 @@
+kind: carousel
+level: congress
+topic: New laws
+approval: auto
+record_ids: [us/119/public-law/137, us/119/public-law/138]
+publish_after: '2026-11-13T20:00:00-06:00'
+sources:
+- title: GovInfo, Public Law 119-137
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ137/html/PLAW-119publ137.htm
+  retrieved: '2026-11-13'
+- title: GovInfo, Public Law 119-138
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ138/html/PLAW-119publ138.htm
+  retrieved: '2026-11-13'
+- title: GovInfo, Public and Private Laws RSS feed
+  url: https://www.govinfo.gov/rss/plaw.xml
+  retrieved: '2026-11-13'
+slides:
+- {kicker: New federal laws, big: '2', head: "new public laws, both approved Nov. 3, 2026.",
+   text: Public Laws 119-137 and 119-138 are the newest the Government Publishing Office has posted.}
+- {chip: Public Law 119-137, big: H.R. 1744, head: United States Commission on International Religious Freedom Reauthorization Act of 2026,
+   quote: {label: Official text, text: "To extend and authorize annual appropriations for the United States Commission on International Religious Freedom through December 31, 2028."}}
+- {chip: Public Law 119-138, big: H.R. 8205, head: Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026,
+   quote: {label: Official text, text: "To amend the Accelerating Access to Critical Therapies for ALS Act to reauthorize the provisions of such Act through fiscal year 2031, and for other purposes."}}
+caption: |-
+  Two new federal laws, both approved Nov. 3. Public Law 119-137 extends the authorization of the U.S. Commission on International Religious Freedom through Dec. 31, 2028. Public Law 119-138 reauthorizes the Accelerating Access to Critical Therapies for ALS Act through fiscal year 2031.
+
+  Each law's purpose is quoted from its official text on GovInfo.
+hashtags: [congress, newlaw, civics, votetherecord]
+notes: >-
+  GovInfo posted both on Nov. 9 (RSS pubDate); highest numbers in the feed at retrieval. "Approved November 3,
+  2026" appears in each law's text. GovInfo can post laws days after signing, so a higher number may exist.
