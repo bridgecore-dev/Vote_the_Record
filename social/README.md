@@ -21,7 +21,7 @@ Needs Chrome (renders slides) and, for Reels, ffmpeg.
 ## Post file
 
 ```yaml
-kind: image            # image | carousel (2-10 slides) | story (1-10, 1080x1920) | reel (2-20, 1080x1920 MP4)
+kind: image            # image | carousel (2-10 slides) | story (1-10, 1080x1920) | reel (2-20, 1080x1920 MP4) | clip (below)
 level: state           # congress | state | local
 place: Texas           # state, or "Harris County, Texas" / "Houston, Texas"; omit for congress
 topic: Calendar        # free text; drives highlights later
@@ -49,6 +49,31 @@ found_via: https://news.example/story      # optional; the news item that led us
 rule: How items were picked, when the post is a selection (also say it on a slide).
 notes: Anything the reviewer should know; not published.
 ```
+
+## Clips (`kind: clip`)
+
+A span of official hearing or floor video, built as a 1080x1920 MP4 (published as a Reel): a title card, the
+span inside our frame with the exact words as captions and a lower-third for each speaker, then a source card.
+Full example: `examples/clip-format.yaml` (fictional; checks but never builds).
+
+```yaml
+kind: clip
+approval: review                   # always; the builder refuses auto
+video: {url: <official .mp4 or .m3u8>, page: <official hearing page on .gov, also listed in sources>,
+        title: Hearing on ..., date: 'YYYY-MM-DD', start: '0:41:05', end: '0:41:47'}   # 5-180 seconds
+captions: [{start: 0.0, end: 3.8, text: exact words}]      # seconds from the clip's start; in order, no overlaps
+caption_source: official           # official (committee or chamber transcript) or whisper
+speakers: [{at: 0.0, name: "Rep. Jane Doe (TX)"}]           # "Sen./Rep. Name (ST)"; witnesses "Name, Title"
+context: What was said just before and after; for the reviewer only.
+```
+
+- **Sources:** the committee's or chamber's own video. `video.url` must be on `.gov` or a host listed in
+  `CLIP_HOSTS` in src/social/clip.py (added only once confirmed as the official feed). YouTube and C-SPAN are
+  refused: YouTube's terms forbid downloading, and C-SPAN's footage is its own.
+- **Cuts:** never mid-sentence. If a question is shown, its answer is too. `context` lets the reviewer check that.
+- **No party:** the builder refuses a speaker line with a party marker (rule 5). Captions are verbatim speech and
+  are not edited.
+- **Same treatment:** the same layout, lower-third style, and caption rules for every member.
 
 **Approval.** `auto` is only for routine items: calendar dates and official tallies from official feeds. The
 builder refuses `auto` unless every source URL is on a `.gov`, `.us`, or `.mil` domain. Anything resting on
