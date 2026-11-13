@@ -1,0 +1,45 @@
+name: social inbox
+
+# Fifteen minutes before each scout routine run: reads reels and posts the owner shared to @vote.the.record
+# by direct message (src/social/inbox.py), keeping only messages from IG_IDEA_SENDERS, and uploads them to the
+# bucket as state/ideas.json. Reads only; never replies.
+#
+# Setup: repo variable IG_IDEA_SENDERS (the owner's own Instagram usernames, comma-separated), and a token
+# with instagram_manage_messages and pages_manage_metadata.
+
+on:
+  schedule:
+    - cron: "45 1,3,10,13,16,19,22 * * *"   # UTC
+  workflow_dispatch:
+    inputs:
+      raw:
+        description: "Print the raw message fields (setup check)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+jobs:
+  inbox:
+    if: vars.IG_IDEA_SENDERS != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-social.txt
+      - run: python src/social/inbox.py --write ${{ inputs.raw && '--raw' || '' }}
+        env:
+          IG_IDEA_SENDERS: ${{ vars.IG_IDEA_SENDERS }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
+          IG_GRAPH_VERSION: ${{ vars.IG_GRAPH_VERSION }}
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ vars.R2_BUCKET }}
+          R2_PUBLIC_URL: ${{ vars.R2_PUBLIC_URL }}

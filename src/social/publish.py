@@ -80,7 +80,8 @@ def upload(client, name: str, out: Path, prefix: str) -> str:
 
 def graph(method: str, path: str, **params) -> dict:
     host, version = env("IG_GRAPH_HOST", "graph.facebook.com"), env("IG_GRAPH_VERSION", "v23.0")
-    data = urllib.parse.urlencode({**params, "access_token": env("IG_ACCESS_TOKEN")})
+    # a caller may pass its own access_token (inbox.py uses the Page's token)
+    data = urllib.parse.urlencode({"access_token": env("IG_ACCESS_TOKEN"), **params})
     url = f"https://{host}/{version}/{path}"
     req = (urllib.request.Request(url, data=data.encode(), method="POST") if method == "POST"
            else urllib.request.Request(f"{url}?{data}"))
@@ -147,6 +148,8 @@ def comment(manifest: dict, base: str | None) -> str:
         lines += [f"Found via (not a source, never published): {m['found_via']}", ""]
     if m.get("context"):  # clips: what came just before and after the cut, so the owner can judge it
         lines += [f"Context around the cut (never published): {m['context']}", ""]
+    if m.get("highlight"):  # the Graph API can't add stories to a Highlight; the owner files them in the app
+        lines += [f"File in Highlight: **{m['highlight']}**", ""]
     if m.get("caption_source"):
         lines += [f"On-screen captions from: {m['caption_source']}", ""]
     for f in m["files"]:
@@ -215,12 +218,12 @@ def main() -> None:
         print(f"  {p.stem}")
         if not args.write:
             continue
-        out = build.build(p)
-        manifest = json.loads((out / "manifest.json").read_text(encoding="utf-8"))
-        base = upload(client, name, out, "posts")
-        try:
+        try:  # one broken post never stops the others
+            out = build.build(p)
+            manifest = json.loads((out / "manifest.json").read_text(encoding="utf-8"))
+            base = upload(client, name, out, "posts")
             ids = publish_one(manifest, base)
-        except RuntimeError as e:
+        except (SystemExit, Exception) as e:
             print(f"  FAILED {p.stem}: {e}")
             continue
         # record at once, so a later failure never publishes the same post twice
