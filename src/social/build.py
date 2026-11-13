@@ -145,6 +145,13 @@ def check(post: dict, editorial: bool = True) -> list[str]:
             errs.append("a post found via news uses approval review")
         if post["found_via"] in {s.get("url") for s in sources}:
             errs.append("found_via is not a source; cite the official record instead")
+        # post files and pull requests are public: an owner's idea is named by its ID only, never its words or link
+        if not (re.fullmatch(r"https://\S+", str(post["found_via"]))
+                or re.fullmatch(r"owner idea [A-Za-z0-9_:.-]{1,80}", str(post["found_via"]))):
+            errs.append("found_via is a news URL or 'owner idea <id>'; never the owner's note or shared link")
+        elif re.search(r"//([\w-]+\.)*(instagram\.com|facebook\.com|fb\.watch|tiktok\.com|threads\.net|x\.com|twitter\.com)\b",
+                       str(post["found_via"])):
+            errs.append("found_via: a social media link is the owner's shared idea; write 'owner idea <id>' instead")
     if post.get("publish_after"):
         try:
             when = dt.datetime.fromisoformat(str(post["publish_after"]))

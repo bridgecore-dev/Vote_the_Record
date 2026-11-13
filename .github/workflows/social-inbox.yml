@@ -1,6 +1,6 @@
 name: social inbox
 
-# Fifteen minutes before each scout routine run: reads reels and posts the owner shared to @vote.the.record
+# Every 30 minutes through the day: reads reels and posts the owner shared to @vote.the.record
 # by direct message (src/social/inbox.py), keeping only messages from IG_IDEA_SENDERS, and saves them to the
 # PRIVATE bucket (vars.R2_PRIVATE_BUCKET), never the public one. Reads only; never replies.
 #
@@ -12,7 +12,7 @@ name: social inbox
 
 on:
   schedule:
-    - cron: "45 1,3,10,13,16,19,22 * * *"   # UTC
+    - cron: "*/30 11-23,0-4 * * *"   # UTC; every 30 minutes, 5:00 a.m.-10:30 p.m. CST
   workflow_dispatch:
     inputs:
       raw:

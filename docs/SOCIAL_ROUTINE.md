@@ -1,7 +1,7 @@
 # Social scout routine
 
-Instructions for the scheduled cloud routine that looks for Instagram post ideas. It runs at 5, 8 and 11 a.m.
-and 2, 5, 8 and 10 p.m. Central and opens one pull request per post. It never publishes anything itself: a
+Instructions for the scheduled cloud routine that looks for Instagram post ideas. It runs every hour from
+5 a.m. to 10 p.m. Central and opens one pull request per post. It never publishes anything itself: a
 merged post is published by `src/social/publish.py` (`.github/workflows/social-publish.yml`). Read CLAUDE.md
 (especially rules 1-5 and 9) and `social/README.md` before writing anything.
 
@@ -27,13 +27,23 @@ Official feeds first. These need no key:
 - State legislatures' official sites (`.gov` or `.us`), e.g. Texas Legislature Online reports at
   https://capitol.texas.gov/Reports/ (bills filed by date, bills passed, calendars)
 
-Then read the owner's ideas with `pip install boto3 && python src/social/inbox.py --read` (reels and posts the
-owner shared to @vote.the.record, with any note; the environment has a read-only key for the private bucket).
-They are private: never quote the owner's notes or list the shared links in a post, a pull request or the
-run summary beyond the one `found_via` line. Each
-idea is a tip, like a news story: find the official record behind it, set `found_via` to the shared URL, and
-use `approval: review`. An idea you skip goes in the run summary with the reason. Never copy, describe or
-repost the shared reel itself.
+Then the owner's ideas: notes, shared reels and videos (often screen recordings) the owner sent to
+@vote.the.record by DM. The environment has a read-only key for the private bucket they are kept in:
+
+    pip install boto3 -r requirements-listen.txt
+    python src/social/inbox.py --fetch /tmp/ideas
+    python src/social/listen.py /tmp/ideas/media/<file>     # for each video: transcript.txt + frames
+
+Work on ideas received in the last two hours, and on older ones only if no pull request names their `id`
+(`gh pr list --state all --search "<id>"`). Read the note, the transcript and the frames (Read the .jpg files)
+to learn the topic. Each idea is a tip, like a news story: find the official record behind it and build the
+post on that record only. A machine transcript gets names and numbers wrong; never take a fact from it.
+
+Ideas are private, and this repo and its pull requests are public. Set `found_via: owner idea <id>` (never
+the URL), put `Idea: <id>` in the pull request body so later runs skip it, and use `approval: review`. Never
+quote the note, the transcript or the video, never describe or reuse the shared reel or recording, and never
+upload the files anywhere. Keep everything from an idea under /tmp/ideas: never under
+`social/out/` (uploaded as a public run artifact) or anywhere in the repo. In the run summary, list a skipped idea by its `id` and the reason only.
 
 Then search the news for what Congress and state legislatures are doing today. A news story only points
 the way: find the official record behind it (a bill page, roll call, public law, journal, calendar) and build
@@ -65,6 +75,8 @@ Write a post only when all of these hold:
   for the pick, and it uses `approval: review`.
 
 Zero posts is a fine result. At most three pull requests per run; pick the strongest.
+The routine runs hourly, so most runs should open nothing. If six or more post pull requests are already
+open, open only ones built from the owner's ideas.
 
 Not yet: photos of people. Hearing clips only once `social/README.md` documents `kind: clip`; then follow it
 exactly (official video only, never YouTube or C-SPAN; a `context` line; captions from the official transcript
