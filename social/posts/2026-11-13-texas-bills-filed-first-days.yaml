@@ -1,0 +1,40 @@
+kind: carousel
+level: state
+place: Texas
+topic: Bills filed
+approval: review
+rule: Every filing date from Nov. 9 to Nov. 12, 2026, with the count Texas Legislature Online reports for that day.
+record_ids: [tx/90R/filing-report/2026-11-09, tx/90R/filing-report/2026-11-10, tx/90R/filing-report/2026-11-11,
+             tx/90R/filing-report/2026-11-12]
+publish_after: '2026-11-13T17:30:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 9, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-09
+  retrieved: '2026-11-13'
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 10, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-10
+  retrieved: '2026-11-13'
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 11, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-11
+  retrieved: '2026-11-13'
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 12, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-12
+  retrieved: '2026-11-13'
+slides:
+- {kicker: 2027 Texas session · Filing, big: '1,457', head: bills and resolutions filed in the first four days.,
+   text: "Nov. 9 to Nov. 12, 2026, for the 90th Texas Legislature. Here is each day's count."}
+- {chip: Nov. 9, big: '1,262', head: filed on the first day lawmakers could file.}
+- {chip: Nov. 10, big: '116', head: filed on the second day.}
+- {chip: Nov. 11, big: '0', head: None filed this day.,
+   quote: {label: Texas Legislature Online, text: No bills have been filed for this date for this legislative session.}}
+- {chip: Nov. 12, big: '79', head: filed on Nov. 12.,
+   text: "Counts include bills and resolutions, as Texas Legislature Online reports them. 1,457 is our sum of the four days."}
+caption: |-
+  Texas lawmakers filed 1,457 bills and resolutions for the 2027 session from Nov. 9 to Nov. 12. Most came on day one: 1,262. Then 116 on Nov. 10, none on Nov. 11, and 79 on Nov. 12.
+
+  Every count is from Texas Legislature Online's Bills By Filing Date report.
+hashtags: [txlege, texaslegislature, texas, civics, votetherecord]
+notes: >-
+  Review because 1,457 is our sum (1,262 + 116 + 0 + 79), not a figure TLO prints. All four reports opened
+  2026-11-13 (report date 11/13/2026). TLO labels every item "Bills"; the lists include HJR, HCR, HR, SJR, SCR.
+  Nov. 13 is left out because filing that day was still under way (24 so far at retrieval).
