@@ -1,0 +1,36 @@
+kind: carousel
+level: state
+place: North Carolina
+topic: Calendar
+approval: review
+record_ids: [nc/2025/calendar/reconvenes-2026-11-16, nc/2025/calendar/adjourns-2026-11-19]
+publish_after: '2026-11-14T20:00:00-06:00'
+found_via: https://www.wunc.org/politics/2026-11-11/nc-legislature-has-a-lame-duck-session-next-week-the-agenda-is-a-mystery
+sources:
+- title: "North Carolina General Assembly, Senate Joint Resolution 1091 (Resolution 2026-6), Adjournment Resolution, ratified text"
+  url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S1091v2.pdf
+  retrieved: '2026-11-13'
+- title: North Carolina General Assembly, Legislative Calendar
+  url: https://www.ncleg.gov/LegislativeCalendar
+  retrieved: '2026-11-13'
+slides:
+- {kicker: Mark the calendar, big: Nov. 16, head: "North Carolina's General Assembly reconvenes at noon on Monday, Nov. 16, 2026.",
+   quote: {label: "Adjournment resolution, Section 4", text: "they stand adjourned to reconvene on Monday, November 16, 2026, at 12:00 noon."}}
+- {kicker: What can come up, head: "Only the matters the resolution lists may be considered.",
+   text: "The list includes votes on overriding the governor's vetoes, appointments and confirmations, election laws and districts, and proposed amendments to the state constitution.",
+   quote: {label: "Adjournment resolution, Section 4", text: "only the following matters may be considered"}}
+- {kicker: Then, big: Nov. 19, head: "The House and Senate are set to adjourn Thursday, Nov. 19, and return at noon on Monday, Nov. 30.",
+   quote: {label: "Adjournment resolution, Section 5", text: "When the House of Representatives and the Senate adjourn on Thursday, November 19, 2026, they stand adjourned to reconvene on Monday, November 30, 2026, at 12:00 noon."}}
+caption: |-
+  North Carolina lawmakers return to Raleigh on Monday, Nov. 16, at noon.
+
+  The resolution that set this date also limits what they can take up. The list includes veto override votes, appointments, election laws and districts, and proposed constitutional amendments.
+
+  The House and Senate are set to adjourn Nov. 19 and come back Nov. 30.
+hashtags: [ncga, ncpol, northcarolina, civics, votetherecord]
+notes: >-
+  Upcoming date from the ratified adjournment resolution (Resolution 2026-6) on ncleg.gov, confirmed by the
+  ncleg.gov Legislative Calendar ("Monday, November 16, 2026 / Session Convenes"). A news story pointed here, so
+  approval is review. Slide 2 paraphrases part of a longer list (it also covers litigation, impeachment, conference
+  reports and concurrence); "The list includes" says it isn't the full list. Worth a check that no later
+  resolution changed these dates.
