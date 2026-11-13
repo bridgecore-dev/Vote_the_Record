@@ -123,6 +123,9 @@ def test_a_senate_vote_same_as_the_previous_roll_call_takes_its_names():
     rc = L.senate_roll_call(text, "HB 1105", "passed")
     assert rc["names"]["nays"] == ["Campbell", "Hughes"]
     assert rc["quote"].endswith("Yeas 3, Nays 2. (Same as previous roll call)")
+    rc = L.senate_roll_call(text.replace("rollcall)", "roll)"), "HB 1105", "passed")
+    assert rc["names"]["nays"] == ["Campbell", "Hughes"]
+    assert rc["quote"].endswith("Yeas 3, Nays 2. (Same as previous roll)")
 
 
 def test_a_senate_local_calendar_vote_is_the_last_tally_after_the_caption():

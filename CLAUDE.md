@@ -94,6 +94,20 @@ by the Worker in `src/worker/`; reports are never committed or published). The p
 them and adds entries to `corrections/log.yaml` by hand. Collectors and AI assistants
 never write to the corrections log. Entries are never deleted.
 
+## 9. Social posts (Instagram first)
+Posts follow every rule above: official sources, the neutral-language and party rules, nothing past what the
+source says. Each post is one `social/posts/<YYYY-MM-DD>-<slug>.yaml` (format: `social/README.md`), added only
+through its own pull request from a `social/...` branch. Merging that pull request is the owner's approval.
+- `approval: auto` is for routine items only: scheduled dates, and vote tallies or laws taken directly from
+  official feeds, with every source on a `.gov`, `.us`, or `.mil` site. These merge and publish without a tap.
+- Anything that starts from a news report (`found_via`), or any judgment call (picking "notable" items, a
+  summary in our words), uses `approval: review` and waits for the owner. News may point to a story; the post
+  must rest on an official record.
+- No AI-generated images. Candidates and officials get the same photo treatment, in the same order as the
+  site. Memes are about process only, never about a person or a party.
+- `src/social/publish.py` publishes merged posts through Instagram's official API. Never automate Instagram
+  through a browser.
+
 ## Neutral language
 Use the same wording and structure for every candidate. Avoid loaded adjectives. Report
 votes and filings as they are recorded.

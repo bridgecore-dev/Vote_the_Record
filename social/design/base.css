@@ -1,0 +1,16 @@
+/* Shared by the Instagram templates: the site's fonts and colors (site/static/css/site.css). */
+@font-face { font-family: "Public Sans"; src: url("../../site/static/fonts/public-sans-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+@font-face { font-family: "Public Sans"; src: url("../../site/static/fonts/public-sans-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+@font-face { font-family: "Source Serif 4"; src: url("../../site/static/fonts/source-serif-4-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+@font-face { font-family: "Source Serif 4"; src: url("../../site/static/fonts/source-serif-4-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+
+:root {
+  --bg: #f2f5f4; --surface: #ffffff; --ink: #1b2a2f; --muted: #4d5e63; --line: #c7d1cf;
+  --accent: #0f5c63; --accent-soft: #dcebec; --on-accent: #ffffff;
+  --serif: "Source Serif 4", Georgia, serif; --sans: "Public Sans", system-ui, sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1350px; overflow: hidden; }
+body { font-family: var(--sans); color: var(--ink); background: var(--bg); }
+.mark { display: inline-flex; align-items: center; gap: 18px; font-family: var(--serif); font-weight: 700; font-size: 38px; }
+.mark svg { width: 56px; height: 56px; flex: none; }
