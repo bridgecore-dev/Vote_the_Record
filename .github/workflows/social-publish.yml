@@ -1,0 +1,44 @@
+name: social publish
+
+# Every 30 minutes from 5:00 a.m. to 10:30 p.m. Central standard time: publish merged posts that are due
+# (src/social/publish.py). Nothing runs on the schedule until the repo variable SOCIAL_PUBLISH is "true".
+#
+# Setup (one time), in the repo's Settings → Secrets and variables → Actions:
+#   secrets IG_USER_ID, IG_ACCESS_TOKEN, R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY;
+#   variables R2_BUCKET, R2_PUBLIC_URL, SOCIAL_PUBLISH=true, and optionally IG_GRAPH_HOST, IG_GRAPH_VERSION.
+
+on:
+  schedule:
+    - cron: "*/30 11-23,0-4 * * *"   # UTC; 5:00 a.m.-10:30 p.m. CST (an hour later in daylight time)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: social-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.event_name == 'workflow_dispatch' || vars.SOCIAL_PUBLISH == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+      - run: pip install -r requirements-social.txt
+      - run: python src/social/publish.py --write
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
+          IG_GRAPH_VERSION: ${{ vars.IG_GRAPH_VERSION }}
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ vars.R2_BUCKET }}
+          R2_PUBLIC_URL: ${{ vars.R2_PUBLIC_URL }}

@@ -1,0 +1,20 @@
+kind: image
+level: state
+place: Texas
+topic: Calendar
+approval: auto
+story: true
+record_ids: [tx/90R/calendar/convenes]
+publish_after: '2026-11-14T08:00:00-06:00'
+sources:
+- title: Texas Legislative Council, Dates of Interest
+  url: https://tlc.texas.gov/docs/legref/Dates-of-Interest.pdf
+  retrieved: '2026-11-10'
+slides:
+- {kicker: Mark the calendar, big: Jan. 12, head: "The 90th Texas Legislature convenes at noon on Jan. 12, 2027.",
+   text: "Bill filing opened Nov. 9, 2026, so lawmakers can file bills before the session starts."}
+caption: |-
+  About two months to go. The Texas Legislature's 2027 regular session starts at noon on Tuesday, Jan. 12.
+
+  Bills have been coming in since Nov. 9. We'll track what moves.
+hashtags: [txlege, texaslegislature, texas, votetherecord]

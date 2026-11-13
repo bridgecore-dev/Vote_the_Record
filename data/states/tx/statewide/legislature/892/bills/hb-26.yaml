@@ -203,3 +203,62 @@ votes:
     verification: unverified
     verified_on: null
     reviewer: null
+- chamber: senate
+  action: passed
+  date: '2025-08-27'
+  record: null
+  tally:
+    yeas: 21
+    nays: 5
+  names:
+    yeas:
+    - Bettencourt
+    - Birdwell
+    - Blanco
+    - Campbell
+    - Creighton
+    - Flores
+    - Hagenbuch
+    - Hall
+    - A. Hinojosa
+    - J. Hinojosa
+    - Huffman
+    - Hughes
+    - King
+    - Kolkhorst
+    - Middleton
+    - Nichols
+    - Parker
+    - Paxton
+    - Perry
+    - Schwertner
+    - Sparks
+    nays:
+    - Alvarado
+    - Cook
+    - Gutierrez
+    - Johnson
+    - Zaffirini
+    absent_excused:
+    - Eckhardt
+    - Menéndez
+    - Miles
+    - West
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/892/bills/hb-26#V-02
+    headline: 'Senate: passed, 21-5 (August 27, 2025)'
+    statement: 'The Senate Journal records that "The bill was read third time and was passed by the following vote: Yeas 21, Nays 5. (Same as previous roll)"'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.senate.texas.gov/sjrnl/892/pdf/89S2SJ08-27-F.PDF
+    source_title: Texas Senate Journal, 89th Legislature, 2nd Called Session, August 27, 2025 (page 105)
+    source_kind: document
+    sha256: 324ff3b32d079231e903807db52b8a96c5184c64a851093028010a68eda63368
+    archive_url: null
+    event_date: '2025-08-27'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

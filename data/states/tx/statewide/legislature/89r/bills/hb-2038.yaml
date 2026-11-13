@@ -229,3 +229,185 @@ votes:
     verification: unverified
     verified_on: null
     reviewer: null
+- chamber: house
+  action: concurred in the Senate's amendments
+  date: '2025-05-29'
+  record: 4025
+  tally:
+    yeas: 108
+    nays: 31
+    present_not_voting: 1
+  names:
+    yeas:
+    - Alders
+    - Ashby
+    - Barry
+    - Bell, C.
+    - Bell, K.
+    - Bonnen
+    - Bowers
+    - Buckley
+    - Bucy
+    - Bumgarner
+    - Button
+    - Cain
+    - Canales
+    - Capriglione
+    - Cole
+    - Cook
+    - Cortez
+    - Craddick
+    - Cunningham
+    - Curry
+    - Darby
+    - Davis, A.
+    - Dean
+    - DeAyala
+    - Dorazio
+    - Dyson
+    - Fairly
+    - Frank
+    - Gámez
+    - Garcia Hernandez
+    - Gates
+    - Gerdes
+    - Geren
+    - Goodwin
+    - Guerra
+    - Guillen
+    - Harless
+    - Harris Davila
+    - Harrison
+    - Hayes
+    - Hefner
+    - Hickland
+    - Holt
+    - Hopper
+    - Howard
+    - Hull
+    - Hunter
+    - Isaac
+    - Johnson
+    - King
+    - Kitzman
+    - LaHood
+    - Lalani
+    - Lambert
+    - Landgraf
+    - Leach
+    - Leo Wilson
+    - Little
+    - Longoria
+    - Lopez, J.
+    - Lopez, R.
+    - Louderback
+    - Lowe
+    - Lozano
+    - Lujan
+    - Luther
+    - Martinez Fischer
+    - McLaughlin
+    - McQueeney
+    - Metcalf
+    - Meyer
+    - Money
+    - Morales, E.
+    - Morgan
+    - Muñoz
+    - Noble
+    - Olcott
+    - Oliverson
+    - Ordaz
+    - Orr
+    - Patterson
+    - Paul
+    - Perez, M.
+    - Perez, V.
+    - Phelan
+    - Pierson
+    - Plesa
+    - Raymond
+    - Reynolds
+    - Richardson
+    - Schatzline
+    - Schofield
+    - Schoolcraft
+    - Shaheen
+    - Shofner
+    - Slawson
+    - Smithee
+    - Spiller
+    - Swanson
+    - Tepper
+    - Tinderholt
+    - Toth
+    - Troxclair
+    - VanDeaver
+    - Vasut
+    - Villalobos
+    - Wharton
+    - Wilson
+    nays:
+    - Anchía
+    - Bernal
+    - Bhojani
+    - Bryant
+    - Campos
+    - Collier
+    - Davis, Y.
+    - Flores
+    - Garcia, J.
+    - Garcia, L.
+    - Gervin-Hawkins
+    - González, J.
+    - González, M.
+    - Hinojosa
+    - Jones, J.
+    - Manuel
+    - Martinez
+    - Moody
+    - Morales, C.
+    - Morales Shaw
+    - Rodríguez Ramos
+    - Romero
+    - Rose
+    - Rosenthal
+    - Talarico
+    - Thompson
+    - Vo
+    - Walle
+    - WardJohnson
+    - Wu
+    - Zwiener
+    present_not_voting:
+    - Mr.Speaker(C)
+    absent_excused:
+    - Dutton
+    - Harris
+    - Kerwin
+    - Meza
+    - Virdell
+    absent:
+    - Allen
+    - Hernandez
+    - Jones, V.
+    - Simmons
+    - Turner
+  every_member: false
+  fact:
+    id: tx/statewide/legislature/89r/bills/hb-2038#V-03
+    headline: 'House: concurred in the Senate''s amendments, 108-31 (May 29, 2025)'
+    statement: 'The House Journal records that "The motion to concur in the senate amendments to HB 2038 prevailed by (Record 4025): 108 Yeas, 31 Nays, 1 Present, not voting."'
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://journals.house.texas.gov/hjrnl/89r/pdf/89RDAY77FINAL.PDF
+    source_title: Texas House Journal, 89th Legislature, Regular Session, 77th Day (page 7294)
+    source_kind: document
+    sha256: dd7d75cbc783539a6b794ec34d85f5c47a8b6db83821cbe16210db2a3072b783
+    archive_url: null
+    event_date: '2025-05-29'
+    retrieved: '2026-11-06'
+    verification: unverified
+    verified_on: null
+    reviewer: null

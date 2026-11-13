@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Style A: Record card</title>
+<link rel="stylesheet" href="base.css">
+<style>
+  body { padding: 72px; display: flex; flex-direction: column; }
+  .card { flex: 1; background: var(--surface); border: 2px solid var(--line); border-radius: 36px; overflow: hidden; display: flex; flex-direction: column; }
+  .top { background: var(--accent); color: var(--on-accent); padding: 40px 56px; display: flex; justify-content: space-between; align-items: center; }
+  .kicker { font-weight: 600; font-size: 28px; letter-spacing: 3px; text-transform: uppercase; opacity: .9; }
+  .main { flex: 1; padding: 64px 56px 40px; display: flex; flex-direction: column; justify-content: center; }
+  .big { font-family: var(--serif); font-weight: 700; font-size: 230px; line-height: .95; color: var(--accent); }
+  .head { font-family: var(--serif); font-weight: 700; font-size: 62px; line-height: 1.12; margin-top: 24px; }
+  .body { font-size: 36px; line-height: 1.45; color: var(--muted); margin-top: 32px; }
+  .src { border-top: 2px solid var(--line); padding: 30px 56px; font-size: 24px; line-height: 1.4; color: var(--muted); }
+  .src b { color: var(--ink); font-weight: 600; }
+  .foot { display: flex; justify-content: space-between; align-items: center; padding-top: 36px; font-size: 26px; color: var(--muted); }
+</style></head>
+<body>
+  <div class="card">
+    <div class="top">
+      <span class="mark"><svg viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#fff"/><path d="M9 16.5l4.5 4.5L23 11.5" fill="none" stroke="#0f5c63" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Vote the Record</span>
+      <span class="kicker">Daily fact</span>
+    </div>
+    <div class="main">
+      <div class="big">1,187</div>
+      <div class="head">new Texas laws came out of the Legislature's 2025 regular session.</div>
+      <div class="body">607 started as House bills and 580 as Senate bills. 140 became law without the Governor's signature.</div>
+    </div>
+    <div class="src"><b>Source:</b> Texas Legislature Online, bill histories, 89th Legislature, Regular Session</div>
+  </div>
+  <div class="foot"><span>Texas Legislature</span><span>Official records · link in bio</span></div>
+</body></html>

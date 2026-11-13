@@ -1,0 +1,3 @@
+# Only the Instagram publishing workflows need these (src/social/publish.py).
+-r requirements.txt
+boto3>=1.34

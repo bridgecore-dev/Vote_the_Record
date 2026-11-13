@@ -1,0 +1,102 @@
+name: social post review
+
+# On each pull request that adds or changes social/posts/*.yaml: check and build the posts, and comment with
+# previews. Merging the pull request is the owner's approval. A pull request from the scheduled routine
+# (branch social/...) that touches only post files, all with approval: auto, is merged here once the checks
+# pass; build.py already refuses auto unless every source is on a .gov, .us or .mil site. See social/README.md.
+#
+# Setup (one time), in the repo's Settings → Secrets and variables → Actions:
+#   secrets R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY; variables R2_BUCKET, R2_PUBLIC_URL.
+#   Without them the posts are still checked and built, and the images are kept as the run's artifacts.
+
+on:
+  pull_request:
+    paths: ["social/posts/**"]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: social-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+      - run: pip install -r requirements-social.txt
+
+      - name: Which posts changed
+        id: posts
+        env:
+          BASE: origin/${{ github.base_ref }}
+          HEAD_REF: ${{ github.head_ref }}
+        run: |
+          files=$(git diff --name-only --diff-filter=AM "$BASE"...HEAD -- 'social/posts/*.yaml' | tr '\n' ' ')
+          for f in $files; do
+            # file names come from the pull request: only the documented pattern gets anywhere near a shell
+            echo "$f" | grep -Eq '^social/posts/[0-9]{4}-[0-9]{2}-[0-9]{2}-[a-z0-9-]+\.yaml$' \
+              || { echo "::error::Post file names must look like social/posts/YYYY-MM-DD-slug.yaml: $f"; exit 1; }
+          done
+          if [ -n "$files" ] && [ "${HEAD_REF#social/}" = "$HEAD_REF" ]; then
+            # anything in social/posts/ on main gets published, so posts arrive only through their own pull request
+            echo "::error::Post files must come in a pull request from a social/... branch, not $HEAD_REF"; exit 1
+          fi
+          others=$(git diff --name-only "$BASE"...HEAD | grep -v '^social/posts/' || true)
+          echo "files=$files" >> "$GITHUB_OUTPUT"
+          echo "only_posts=$([ -z "$others" ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+
+      - name: Check
+        if: steps.posts.outputs.files != ''
+        env:
+          FILES: ${{ steps.posts.outputs.files }}
+        run: python src/social/build.py --check $FILES
+
+      - name: Build and preview
+        if: steps.posts.outputs.files != ''
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ vars.R2_BUCKET }}
+          R2_PUBLIC_URL: ${{ vars.R2_PUBLIC_URL }}
+          FILES: ${{ steps.posts.outputs.files }}
+        run: python src/social/publish.py --preview $FILES > comment.md
+
+      - uses: actions/upload-artifact@v4
+        if: steps.posts.outputs.files != ''
+        with:
+          name: social-previews
+          path: social/out/
+
+      - name: Comment
+        if: steps.posts.outputs.files != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+        run: gh pr comment "$PR" --body-file comment.md
+
+      - name: Merge routine posts
+        if: >-
+          steps.posts.outputs.files != '' && steps.posts.outputs.only_posts == 'true' &&
+          startsWith(github.head_ref, 'social/')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+          FILES: ${{ steps.posts.outputs.files }}
+        run: |
+          if python -c "import sys, yaml; sys.exit(0 if all(yaml.safe_load(open(f, encoding='utf-8')).get('approval') == 'auto' for f in sys.argv[1:]) else 1)" $FILES; then
+            gh pr merge "$PR" --squash --delete-branch
+          else
+            echo "At least one post needs review; leaving it for the owner."
+          fi

@@ -283,7 +283,7 @@ def senate_roll_call(text: str, bill: str, what: str) -> dict | None:
     text = after
     tally = {"yeas": int(m[1]), "nays": int(m[2])} | ({"present_not_voting": int(m[3])} if m[3] else {})
     tail = text[m.end():m.end() + 2500]
-    same = re.match(loose(r" \(Same as previous roll call\)"), tail)
+    same = re.match(loose(r" \(Same as previous roll(?: call)?\)"), tail)  # "roll" alone once, 89(2) HB 26
     if same:
         # the journal points to the roll call just before, on the same bill: its names, if its tally is the same
         prev = list(re.finditer(VOTE, text[:m.start()]))
@@ -303,7 +303,7 @@ def senate_roll_call(text: str, bill: str, what: str) -> dict | None:
     if lead and quotable(lead):
         quote = f"{lead} {quote}"
     if same:
-        quote += " (Same as previous roll call)"
+        quote += " (Same as previous roll call)" if same[0].rstrip(")").endswith("call") else " (Same as previous roll)"
     return {"tally": tally, "names": names or None, "problem": None, "quote": quote}
 
 
@@ -507,9 +507,9 @@ def bill_doc(saved: Path, session: str, bill_code: str, became: str, retrieved: 
         text = pdf_pages(pdf, v["pdf_page"] - 1, 4 if chamber == "house" else 12)
         if chamber == "house":
             rc = house_roll_call(text, v["record"]) if v["record"] else None
-            if v["record"] and not rc:
-                # a printed conference report can push the vote many pages past the page cited; a record
-                # number appears once in a day's journal
+            if v["record"] and (not rc or rc.get("problem")):
+                # a printed conference report can push the vote many pages past the page cited, or its names
+                # past the window's last page; a record number appears once in a day's journal
                 whole = pdf_pages(pdf, 1, 10 ** 6)
                 if len(re.findall(loose(rf"\(Record {v['record']}\):"), whole)) == 1:
                     rc = house_roll_call(whole, v["record"])

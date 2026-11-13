@@ -1,0 +1,23 @@
+kind: carousel
+level: congress
+topic: How Congress works
+approval: auto
+record_ids: [us/explainer/lame-duck-session]
+sources:
+- title: "U.S. Senate: Glossary"
+  url: https://www.senate.gov/about/research-tools/glossary.htm
+  retrieved: '2026-11-10'
+- title: "U.S. Senate: Lame Duck Sessions (1940-Present)"
+  url: https://www.senate.gov/legislative/LameDuckSessions.htm
+  retrieved: '2026-11-10'
+slides:
+- {kicker: Right now in Congress, head: "It's a lame-duck session. What does that mean?"}
+- {chip: The definition, head: "The weeks after a November election, before the new Congress starts.",
+   quote: {label: Senate glossary, text: So called because some of the lawmakers who take part will not be returning for the next Congress.}}
+- {chip: The history, big: '1933', head: The year an amendment cut the lame-duck period to about two months.,
+   quote: {label: U.S. Senate, text: "The 1933 Amendment changed the convening date for a new Congress to January 3 of odd-numbered years, shortening the time between an election and the beginning of the next Congress to just two months."}}
+caption: |-
+  Congress is back after Election Day, and some of the members voting now won't be there in January. That's a lame-duck session.
+
+  In 1933, an amendment cut that gap to about two months. Swipe for how it works.
+hashtags: [congress, civics, lameduck, votetherecord]

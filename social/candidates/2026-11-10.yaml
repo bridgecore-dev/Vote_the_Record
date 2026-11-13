@@ -1,0 +1,124 @@
+# Candidate facts for Instagram, gathered 2026-11-10. Unverified until the owner checks and picks them.
+# Every quote was copied from the source page on 2026-11-10 (C1-C12) or comes from the repo's
+# Texas Legislature data (T1-T3, itself unverified; see data/states/tx/statewide/legislature/89r/).
+facts:
+- id: C1
+  topic: congress
+  headline: "Newest federal law: Public Law 119-138, signed Nov. 3"
+  body: Every new federal law gets a number. The newest one GovInfo has published is Public Law 119-138, a law on access to ALS treatments, approved November 3, 2026.
+  source_url: https://www.govinfo.gov/content/pkg/PLAW-119publ138/html/PLAW-119publ138.htm
+  source_title: Public Law 119-138, Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026 (GovInfo)
+  quote: "Public Law 119-138 / 119th Congress … Approved November 3, 2026."
+  caveats: GovInfo can post laws days after signing; a higher number may exist.
+- id: C2
+  topic: congress
+  headline: 12,360 bills and resolutions introduced in Congress's first year
+  body: From January 3, 2025 to January 3, 2026, members introduced 12,360 measures, 8,101 in the House and 4,259 in the Senate.
+  source_url: https://www.govinfo.gov/content/pkg/CREC-2026-01-08/html/CREC-2026-01-08-pt1-PgD49.htm
+  source_title: "Congressional Record, January 8, 2026, Daily Digest: Interim Resume of Congressional Activity"
+  quote: "Measures introduced, total.... 4,259 8,101 12,360"
+  caveats: First session only; includes resolutions that never become law.
+- id: C3
+  topic: congress
+  headline: 45 House bills and 24 Senate bills became law in 2025
+  body: Of the 12,360 measures introduced in the 119th Congress's first year, 45 House bills and 24 Senate bills were enacted as public laws.
+  source_url: https://www.govinfo.gov/content/pkg/CREC-2026-01-08/html/CREC-2026-01-08-pt1-PgD49.htm
+  source_title: "Congressional Record, January 8, 2026, Daily Digest: Interim Resume of Congressional Activity"
+  quote: "Public bills enacted into law. 24 45 . ."
+  caveats: The source gives no total; 69 would be our own sum.
+- id: C4
+  topic: congress
+  headline: The House has taken 678 roll-call votes this Congress
+  body: The House Clerk lists 362 roll calls in 2025 and 316 so far in 2026, the latest on November 9.
+  source_url: https://clerk.house.gov/Votes/MemberVotes?CongressNum=119&Session=2nd
+  source_title: Office of the Clerk, U.S. House of Representatives, Roll Call Votes, 119th Congress
+  quote: "Roll Call 362 … Dec 18, 2025" (1st session); "Roll Call 316 … Nov 09, 2026" (2nd session)
+  caveats: 678 is our sum; includes procedural votes; keeps growing.
+- id: C5
+  topic: congress
+  headline: The Senate has taken 916 roll-call votes this Congress
+  body: The Senate lists 659 roll-call votes in 2025 and 257 so far in 2026, the latest on November 9.
+  source_url: https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.htm
+  source_title: "U.S. Senate: Roll Call Votes, 119th Congress"
+  quote: "(00659) 659 … Dec 18" (1st session); "(00257) 257 (73-25) … Nov 09" (2nd session)
+  caveats: 916 is our sum; many votes are on nominations or procedure.
+- id: C6
+  topic: congress
+  headline: Congress was back to voting six days after Election Day
+  body: Both the House and Senate held recorded votes on November 9, 2026. The Senate's previous roll call was on September 30.
+  source_url: https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.htm
+  source_title: "U.S. Senate: Roll Call Votes, 119th Congress, 2nd Session; House Clerk Roll Call 316"
+  quote: "257 (73-25) … Nov 09" and "256 (47-41) | Confirmed | … | Sep 30"
+  caveats: A gap in roll calls doesn't mean the Senate never met.
+- id: C7
+  topic: congress
+  headline: Why it's called a "lame-duck" session
+  body: The weeks after a November election, before the new Congress starts, are a lame-duck session, because some members still voting won't be back next term.
+  source_url: https://www.senate.gov/about/research-tools/glossary.htm
+  source_title: "U.S. Senate: Glossary"
+  quote: "So called because some of the lawmakers who take part will not be returning for the next Congress."
+  caveats: null
+- id: C8
+  topic: congress
+  headline: A 1933 amendment cut the lame-duck period to two months
+  body: The 20th Amendment moved the start of a new Congress to January 3, shortening the gap between an election and the next Congress to about two months.
+  source_url: https://www.senate.gov/legislative/LameDuckSessions.htm
+  source_title: "U.S. Senate: Lame Duck Sessions (1940-Present)"
+  quote: "The 1933 Amendment changed the convening date for a new Congress to January 3 of odd-numbered years, shortening the time between an election and the beginning of the next Congress to just two months."
+  caveats: null
+- id: C9
+  topic: congress
+  headline: The next Congress starts at noon on January 3
+  body: The Constitution has Congress convene at noon on January 3 of odd-numbered years, so the 120th Congress is set to begin January 3, 2027, unless a law sets another day.
+  source_url: https://www.senate.gov/general/common/generic/NewCongress_faq.htm
+  source_title: "U.S. Senate: New Congress FAQ"
+  quote: "The U.S. Constitution mandates that Congress convene at noon on January 3 in each odd numbered year"
+  caveats: The 2027 date is the rule applied; not checked whether a law moved it.
+- id: C10
+  topic: texas
+  headline: Texas lawmakers could start filing 2027 bills on Nov. 9
+  body: Monday, November 9, 2026 was the first day legislators and legislators-elect could file bills for the 90th Texas Legislature.
+  source_url: https://tlc.texas.gov/docs/legref/Dates-of-Interest.pdf
+  source_title: Dates of Interest, Texas Legislative Council
+  quote: "Monday, November 9, 2026 First day legislators and legislators-elect may file bills for the 90th Legislature"
+  caveats: null
+- id: C11
+  topic: texas
+  headline: 1,262 Texas bills and resolutions were filed on day one
+  body: On November 9, 2026, the first day of filing, 1,262 bills and resolutions were filed for the 2027 Texas legislative session: 1,179 bills (900 House, 279 Senate) and 83 resolutions.
+  source_url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-09
+  source_title: Bills By Filing Date, Texas Legislature Online
+  quote: "Filing Date: 2026-11-09 / 90th Legislature Regular Session / Report Date: 11/10/2026 / Number of Bills: 1,262"
+  caveats: November 9 only, not a running total. The report labels all 1,262 "Bills"; the list includes HJR, SJR, HCR, SCR, HR.
+- id: C12
+  topic: texas
+  headline: The 90th Texas Legislature convenes at noon Jan. 12, 2027
+  body: The regular session starts at noon on Tuesday, January 12, 2027, and its last day is May 31, 2027.
+  source_url: https://tlc.texas.gov/docs/legref/Dates-of-Interest.pdf
+  source_title: Dates of Interest, Texas Legislative Council; State Budget, Legislative Reference Library
+  quote: "Tuesday, January 12, 2027 First day of 90th Regular Session; Legislature convenes at noon"; "The last day of the 90th Regular Legislative Session is May 31, 2027."
+  caveats: End date from https://lrl.texas.gov/legis/budget.cfm?phase=4
+- id: T1
+  topic: texas
+  headline: 1,187 new Texas laws came out of the 2025 regular session
+  body: 607 started as House bills and 580 as Senate bills. 140 became law without the Governor's signature.
+  source_url: https://capitol.texas.gov/
+  source_title: Texas Legislature Online, bill histories, 89th Legislature, Regular Session
+  quote: '"Signed by the Governor" (1,047 bills); "Filed without the Governor''s signature" (140 bills)'
+  caveats: Our count of TLO bill histories in data/states/tx/statewide/legislature/89r/bills/.
+- id: T2
+  topic: texas
+  headline: 313 Texas laws passed with no "no" votes at all
+  body: Of the 1,156 laws from 2025 with recorded vote counts in both chambers, 313 got zero "no" votes in every recorded vote.
+  source_url: https://capitol.texas.gov/
+  source_title: House and Senate Journals, 89th Legislature, Regular Session
+  quote: null
+  caveats: Our count from the journals; 37 votes are held back for review, so a few laws could change.
+- id: T3
+  topic: texas
+  headline: "Closest final vote of 2025: 18 to 12 in the Texas Senate"
+  body: HB 1056, on recognizing gold and silver as legal tender, passed the Texas Senate 18-12, the narrowest final-passage margin among the 2025 laws we've read.
+  source_url: https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-28-F1.PDF
+  source_title: Senate Journal, 89th Legislature, Regular Session, May 28, 2025
+  quote: "The bill was read third time and was passed by the following vote: Yeas 18, Nays 12, Present-not voting 1."
+  caveats: Among recorded tallies we've read; 37 votes held back for review.
