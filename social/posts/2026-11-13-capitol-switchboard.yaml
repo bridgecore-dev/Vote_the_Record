@@ -1,0 +1,40 @@
+kind: carousel
+level: congress
+topic: How it works
+approval: review
+layout: stat
+highlight: How it works
+sources:
+- title: "U.S. Senate: Contacting U.S. Senators"
+  url: https://www.senate.gov/senators/senators-contact.htm
+  retrieved: '2026-11-13'
+- title: "U.S. House of Representatives: Find Your Representative"
+  url: https://www.house.gov/representatives/find-your-representative
+  retrieved: '2026-11-13'
+- title: "U.S. House of Representatives: Communicating with Congress (CWC)"
+  url: https://www.house.gov/doing-business-with-the-house/communicating-with-congress-cwc
+  retrieved: '2026-11-13'
+slides:
+- kicker: How to reach Congress
+  big: (202) 224-3121
+  head: This is the U.S. Capitol Switchboard.
+  text: An operator can connect you to your senator's office. The same number is listed on house.gov for the House.
+  quote: {label: senate.gov, text: "A U.S. Capitol Switchboard operator can also connect you directly with the Senate office at (202) 224-3121."}
+- kicker: Not sure who represents you?
+  head: Your ZIP code finds your House member.
+  text: The Find Your Representative page on house.gov matches your ZIP code to your congressional district, with links to your member's website and contact page.
+- kicker: Your senators
+  head: Pick your state on senate.gov to see your senators.
+  text: The Contacting U.S. Senators page lists each senator, with phone numbers on each state's page or the senator's own website.
+caption: |-
+  One phone number reaches Congress: (202) 224-3121, the U.S. Capitol Switchboard. Senate.gov says an operator can connect you directly with a senator's office. House.gov lists the same number for the House.
+
+  Not sure who represents you? House.gov can match your ZIP code to your congressional district. Senate.gov lists the senators for each state and how to reach them.
+hashtags: [congress, civics, contactcongress, votetherecord]
+record_ids: [us/119/contact/capitol-switchboard]
+publish_after: '2026-11-14T17:30:00-06:00'
+found_via: owner idea MwODU3Njc1MDg2MjMzNgZDZD
+notes: >-
+  Built from an owner idea; only the neutral process part is used (how to reach Congress), from senate.gov and
+  house.gov. Not new, but timely: people are calling Congress this week. found_via uses the idea ID's last 24
+  characters (the builder caps IDs at 80); the full ID is in the pull request body.
