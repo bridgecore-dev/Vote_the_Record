@@ -34,7 +34,8 @@ SECONDS, FADE = 4.0, 0.4  # each Reel slide; the slide transition
 SLIDE_KEYS = {"chip", "kicker", "big", "head", "text", "quote", "by", "seconds"}
 TOP_KEYS = {"kind", "level", "place", "topic", "approval", "layout", "story", "sources", "slides", "caption",
             "hashtags", "rule", "notes", "publish_after", "found_via", "record_ids",
-            "video", "captions", "caption_source", "speakers", "context"}  # the last five: clips (clip.py)
+            "video", "captions", "caption_source", "speakers", "context",  # these five: clips (clip.py)
+            "highlight"}
 
 
 def official(url: str) -> bool:
@@ -94,9 +95,16 @@ def check(post: dict) -> list[str]:
         errs.append("no caption")
     elif not errs and len(full_caption(post)) > 2200:  # Instagram's limit, counting the sources and hashtags we add
         errs.append(f"caption with sources and hashtags is {len(full_caption(post))} characters; Instagram allows 2,200")
+    if post.get("highlight") and post["highlight"] not in highlights():
+        errs.append(f"highlight {post['highlight']!r} isn't in social/highlights.yaml: {sorted(highlights())}")
     if len(post.get("hashtags") or []) > 5:
         errs.append("at most 5 hashtags")
     return errs
+
+
+def highlights() -> set[str]:
+    spec = yaml.safe_load((ROOT / "social/highlights.yaml").read_text(encoding="utf-8")) or {}
+    return {h["name"] for group in spec.values() for h in group or []}
 
 
 def duplicates(path: Path, post: dict) -> list[str]:
@@ -158,7 +166,7 @@ body.layout-band .top {{ padding: {"230px" if tall else "56px"} 72px 40px; }}
 body.layout-band .lead {{ background: #0f5c63; color: #fff; padding: 0 72px 56px; display: flex; flex-direction: column; }}
 body.layout-band .lead .big, body.layout-band .lead .kicker, body.layout-band .lead .chip {{ color: #fff; }}
 body.layout-band .lead .chip {{ background: rgba(255,255,255,.18); }}
-body.layout-band .main {{ padding: 56px 72px 28px; justify-content: flex-start; }}
+body.layout-band .main {{ padding: 40px 72px; justify-content: center; }}
 body.layout-band .src {{ padding: 26px 72px {"420px" if tall else "56px"}; }}
 /* stat: everything centered around the number */
 body.layout-stat .main {{ align-items: center; text-align: center; }}
@@ -275,7 +283,8 @@ def build(path: Path) -> Path:
                 "caption": full_caption(post), "sources": post["sources"],
                 "publish_after": str(post["publish_after"]) if post.get("publish_after") else None,
                 "record_ids": post.get("record_ids") or [], "found_via": post.get("found_via"),
-                "context": post.get("context"), "caption_source": post.get("caption_source"), "video": post.get("video")}
+                "context": post.get("context"), "caption_source": post.get("caption_source"), "video": post.get("video"),
+                "highlight": post.get("highlight")}
     (out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
     return out
 

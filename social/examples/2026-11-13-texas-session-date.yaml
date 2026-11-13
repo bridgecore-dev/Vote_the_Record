@@ -2,6 +2,7 @@ kind: image
 level: state
 place: Texas
 topic: Calendar
+highlight: State
 approval: auto
 story: true
 record_ids: [tx/90R/calendar/convenes]

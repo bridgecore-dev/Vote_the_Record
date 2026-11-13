@@ -1,0 +1,24 @@
+# Story Highlights: one cover per highlight. Instagram shows the cover in a circle and the name under it.
+# icon: one of the drawings in src/social/covers.py. Build: python src/social/covers.py
+topics:
+- {name: Congress, icon: dome}
+- {name: State, icon: columns}
+- {name: Local, icon: pin}
+- {name: Elections, icon: ballot}
+- {name: Education, icon: book}
+- {name: Immigration, icon: globe}
+- {name: Economy, icon: chart}
+- {name: Taxes, icon: percent}
+- {name: Health, icon: heart}
+- {name: Safety, icon: shield}
+- {name: Energy, icon: bolt}
+- {name: Water, icon: drop}
+- {name: Housing, icon: house}
+- {name: How it works, icon: question}
+- {name: Clips, icon: play}
+# One highlight per county, named as Instagram shows it (short: about 15 characters fit under the circle).
+places:
+- {name: Harris Co., icon: pin}
+- {name: Dallas Co., icon: pin}
+- {name: Travis Co., icon: pin}
+- {name: Bexar Co., icon: pin}

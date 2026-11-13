@@ -28,6 +28,7 @@ topic: Calendar        # free text; drives highlights later
 approval: auto         # auto: publishes without the owner's tap; review: waits for it
 layout: card           # optional: card | band | stat; rotates by post name when omitted
 story: true            # image only: also render story.png from the first slide
+highlight: State       # optional; a name from highlights.yaml: the Story Highlight this story belongs in
 sources:               # at least one; each needs title, url, retrieved
 - {title: Texas Legislative Council, Dates of Interest, url: https://tlc.texas.gov/..., retrieved: '2026-11-10'}
 slides:                # each needs head or big; the rest is optional
@@ -86,6 +87,14 @@ the same event never does. A recap post lists every record it covers.
 
 **Words.** Quote official text exactly in `quote`; our own words go in `head`/`text` and must not go beyond
 the source. Same wording and structure for every person. Never name or imply a party.
+
+## Story Highlights
+
+`highlights.yaml` lists the Highlights (topics, then counties) and each one's icon. `python src/social/covers.py`
+draws a cover per Highlight into `out/covers/`: a simple line drawing in the circle Instagram crops to, on the
+site's teal; county covers also carry the county's name. Instagram's API can't file a story into a Highlight,
+so the owner does that in the app, using the post's `highlight` field (shown in the review comment). To add a
+Highlight, add a line to `highlights.yaml`, using one of the icons in `src/social/covers.py`.
 
 ## manifest.json
 
