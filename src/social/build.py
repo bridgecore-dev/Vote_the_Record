@@ -13,6 +13,7 @@ import datetime as dt
 import hashlib
 import html
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -307,16 +308,32 @@ def alt_text(post: dict, s: dict) -> str:
     return " ".join(str(p) if re.search(r'[.?!"”]$', str(p)) else f"{p}." for p in parts if p)
 
 
-def render(doc: str, png: Path, size: tuple[int, int]) -> None:
-    chrome = next((c for c in CHROME if c.exists()), None)
-    if not chrome:
-        sys.exit("Chrome not found")
+def chrome() -> str:
+    """CHROME_PATH, a known install, or the first Chrome/Chromium on PATH."""
+    found = os.environ.get("CHROME_PATH") or next((str(c) for c in CHROME if c.exists()), None) \
+        or next(filter(None, map(shutil.which, ("google-chrome", "google-chrome-stable", "chromium", "chromium-browser"))), None)
+    if not found:
+        sys.exit("Chrome not found: install Chrome or Chromium, or set CHROME_PATH")
+    return found
+
+
+def render(doc: str, png: Path, size: tuple[int, int], transparent: bool = False) -> None:
     page = png.with_suffix(".html")
     page.write_text(doc, encoding="utf-8")
     profile = png.parent / ".chrome"  # a throwaway profile, so a running Chrome isn't disturbed
-    subprocess.run([str(chrome), "--headless=new", "--disable-gpu", "--hide-scrollbars", f"--user-data-dir={profile}",
-                    f"--window-size={size[0]},{size[1]}", f"--screenshot={png}", page.as_uri()],
-                   check=True, capture_output=True)
+    args = [chrome(), "--headless=new", "--disable-gpu", "--hide-scrollbars", "--no-first-run",
+            "--disable-dev-shm-usage",  # containers have a tiny /dev/shm; Chrome hangs or crashes without this
+            f"--user-data-dir={profile}", f"--window-size={size[0]},{size[1]}", f"--screenshot={png}"]
+    if hasattr(os, "geteuid") and os.geteuid() == 0:
+        args.append("--no-sandbox")  # Chrome won't start its sandbox as root, as in most cloud containers
+    if transparent:
+        args.append("--default-background-color=00000000")
+    try:
+        subprocess.run(args + [page.as_uri()], check=True, capture_output=True, timeout=60)
+    except subprocess.TimeoutExpired:
+        sys.exit(f"Chrome took over 60 seconds to render {png.name}; check that it runs headless here")
+    if not png.exists():
+        sys.exit(f"Chrome ran but wrote no {png.name}")
 
 
 def reel(pngs: list[Path], seconds: list[float], mp4: Path) -> None:
