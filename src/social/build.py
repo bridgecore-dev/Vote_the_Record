@@ -31,10 +31,84 @@ LEVELS = {"congress", "state", "local"}
 LAYOUTS = ["card", "band", "stat"]
 SIZES = {"feed": (1080, 1350), "tall": (1080, 1920)}
 SECONDS, FADE = 4.0, 0.4  # each Reel slide; the slide transition
-SLIDE_KEYS = {"chip", "kicker", "big", "head", "text", "quote", "by", "seconds"}
+SLIDE_KEYS = {"chip", "kicker", "big", "head", "text", "rows", "quote", "by", "seconds"}  # rows: [[label, text], ...]
 TOP_KEYS = {"kind", "level", "place", "topic", "approval", "layout", "story", "sources", "slides", "caption",
             "hashtags", "rule", "notes", "publish_after", "found_via", "record_ids",
-            "video", "captions", "caption_source", "speakers", "context"}  # the last five: clips (clip.py)
+            "video", "captions", "caption_source", "speakers", "context",  # these five: clips (clip.py)
+            "highlight", "bills"}
+# A bill number as written federally or in a state: H.R. 2347, S. 12, H.J.Res. 5, HB 101, SJR 3. Not "U.S. 2026".
+BILL = re.compile(r"(?<![A-Za-z.])((?:H\.\s?R|S|H\.\s?J\.\s?Res|S\.\s?J\.\s?Res|H\.\s?Con\.\s?Res|S\.\s?Con\.\s?Res|"
+                  r"H\.\s?Res|S\.\s?Res)\.|HB|SB|HJR|SJR|HCR|SCR)\s?(\d+)\b")
+BILL_KEYS = {"id", "does", "affects", "where", "summary"}
+BILL_LIMITS = {"does": 140, "affects": 120, "where": 110}
+
+
+def bill_key(text: str) -> str:
+    return re.sub(r"[\s.]", "", text).upper()
+
+
+def mentioned_bills(post: dict) -> dict[str, int]:
+    """Each bill the post's own words name, and the first slide (0-based) that names it; -1 for the caption only."""
+    found: dict[str, int] = {}
+    for k, s in enumerate(post.get("slides") or []):
+        q = s.get("quote") or {}
+        text = " ".join(str(s.get(f) or "") for f in ("chip", "kicker", "big", "head", "text", "by")) + " " + str(q.get("text") or "")
+        for m in BILL.finditer(text):
+            found.setdefault(bill_key(m[0]), k)
+    for m in BILL.finditer(post.get("caption") or ""):
+        found.setdefault(bill_key(m[0]), -1)
+    return found
+
+
+def explainer(b: dict) -> dict:
+    """The slide that says what a bill would do, for whom, and where it stands, with the official summary."""
+    return {"chip": b["id"], "kicker": "What the bill would do", "head": b["does"],
+            "rows": [["Who it affects", b["affects"]], ["Where it stands", b["where"]]],
+            "quote": {"label": "Official summary", "text": b["summary"]["text"]}, "seconds": 8}
+
+
+def expanded(post: dict) -> list[dict]:
+    """The slides as published: each bill's explainer right after the first slide that names it."""
+    slides = list(post.get("slides") or [])
+    first = mentioned_bills(post)
+    for b in reversed(post.get("bills") or []):
+        at = first.get(bill_key(b.get("id", "")), -1)
+        slides.insert(at + 1 if at >= 0 else min(1, len(slides)), explainer(b))
+    return slides
+
+
+def check_bills(post: dict, editorial: bool = True) -> list[str]:
+    errs, bills = [], post.get("bills") or []
+    given = {}
+    for b in bills:
+        errs += [f"bill {b.get('id')}: unknown field {k}" for k in b if k not in BILL_KEYS]
+        if not BILL.fullmatch(str(b.get("id", ""))):
+            errs.append(f"bill id {b.get('id')!r} isn't a bill number like H.R. 2347 or HB 101")
+        for f, n in BILL_LIMITS.items():
+            if not str(b.get(f) or "").strip():
+                errs.append(f"bill {b.get('id')}: needs {f} (plain words; nothing the official summary doesn't say)")
+            elif len(b[f]) > n:
+                errs.append(f"bill {b.get('id')}: {f} is {len(b[f])} characters; keep it under {n}")
+        s = b.get("summary") or {}
+        if not (s.get("text") and s.get("title") and s.get("url")):
+            errs.append(f"bill {b.get('id')}: summary needs text (exact official words), title, url")
+        elif not official(s["url"]):
+            errs.append(f"bill {b.get('id')}: the summary comes from an official site (CRS on congress.gov, the legislature's bill analysis)")
+        elif len(s["text"]) > 300:
+            errs.append(f"bill {b.get('id')}: summary text is {len(s['text'])} characters; quote the key 300")
+        given[bill_key(str(b.get("id", "")))] = b
+    if not editorial:
+        return errs
+    named = mentioned_bills(post)
+    missing = sorted(k for k in named if k not in given)
+    if missing:
+        errs.append(f"the post names {', '.join(missing)} without saying what it does: add each to bills "
+                    "(does, affects, where, official summary)")
+    if (named or bills) and post.get("approval") == "auto":
+        errs.append("explaining a bill in our words is a judgment call: use approval review")
+    if (named or bills) and post.get("kind") == "image":
+        errs.append("a single image can't explain a bill; use a carousel")
+    return errs
 
 
 def official(url: str) -> bool:
@@ -43,7 +117,9 @@ def official(url: str) -> bool:
     return host.endswith(".gov") or host.endswith(".us") or host.endswith(".mil")
 
 
-def check(post: dict) -> list[str]:
+def check(post: dict, editorial: bool = True) -> list[str]:
+    """Problems with a post file. editorial=False keeps only what rendering needs: building a post that was
+    already approved (merged) must not fail because an editorial rule was added after the owner approved it."""
     errs = [f"unknown field: {k}" for k in post if k not in TOP_KEYS]
     if post.get("kind") not in KINDS:
         errs.append(f"kind must be one of {sorted(KINDS)}")
@@ -61,11 +137,11 @@ def check(post: dict) -> list[str]:
     for s in sources:
         if not (s.get("title") and s.get("url") and s.get("retrieved")):
             errs.append(f"each source needs title, url, retrieved: {s}")
-    if post.get("approval") == "auto" and not all(official(s.get("url", "")) for s in sources):
+    if editorial and post.get("approval") == "auto" and not all(official(s.get("url", "")) for s in sources):
         errs.append("approval auto needs every source on a .gov/.us/.mil domain; use review")
     # found_via: the news item that pointed us to the story; for the reviewer only, never a source
     if post.get("found_via"):
-        if post.get("approval") == "auto":
+        if editorial and post.get("approval") == "auto":
             errs.append("a post found via news uses approval review")
         if post["found_via"] in {s.get("url") for s in sources}:
             errs.append("found_via is not a source; cite the official record instead")
@@ -79,7 +155,8 @@ def check(post: dict) -> list[str]:
     ids = post.get("record_ids")
     if ids is not None and not (isinstance(ids, list) and all(isinstance(i, str) and i.strip() for i in ids)):
         errs.append("record_ids is a list of official IDs as strings, e.g. ['tx/90R/HB 101', 'us/119/house/roll/316']")
-    slides = post.get("slides") or []
+    errs += check_bills(post, editorial)
+    slides = expanded(post) if post.get("kind") != "clip" else []
     n = {"image": (1, 1), "story": (1, 10), "carousel": (2, 10), "reel": (2, 20)}.get(post.get("kind"), (1, 20))
     if post.get("kind") == "clip":
         import clip
@@ -94,9 +171,16 @@ def check(post: dict) -> list[str]:
         errs.append("no caption")
     elif not errs and len(full_caption(post)) > 2200:  # Instagram's limit, counting the sources and hashtags we add
         errs.append(f"caption with sources and hashtags is {len(full_caption(post))} characters; Instagram allows 2,200")
+    if post.get("highlight") and post["highlight"] not in highlights():
+        errs.append(f"highlight {post['highlight']!r} isn't in social/highlights.yaml: {sorted(highlights())}")
     if len(post.get("hashtags") or []) > 5:
         errs.append("at most 5 hashtags")
     return errs
+
+
+def highlights() -> set[str]:
+    spec = yaml.safe_load((ROOT / "social/highlights.yaml").read_text(encoding="utf-8")) or {}
+    return {h["name"] for group in spec.values() for h in group or []}
 
 
 def duplicates(path: Path, post: dict) -> list[str]:
@@ -117,7 +201,7 @@ def level_tag(post: dict) -> str:
 
 
 def source_line(post: dict) -> str:
-    titles = [s["title"] for s in post["sources"]]
+    titles = [s["title"] for s in all_sources(post)]
     return ("Source: " if len(titles) == 1 else "Sources: ") + "; ".join(titles)
 
 
@@ -158,12 +242,17 @@ body.layout-band .top {{ padding: {"230px" if tall else "56px"} 72px 40px; }}
 body.layout-band .lead {{ background: #0f5c63; color: #fff; padding: 0 72px 56px; display: flex; flex-direction: column; }}
 body.layout-band .lead .big, body.layout-band .lead .kicker, body.layout-band .lead .chip {{ color: #fff; }}
 body.layout-band .lead .chip {{ background: rgba(255,255,255,.18); }}
-body.layout-band .main {{ padding: 56px 72px 28px; justify-content: flex-start; }}
+body.layout-band .main {{ padding: 40px 72px; justify-content: center; }}
 body.layout-band .src {{ padding: 26px 72px {"420px" if tall else "56px"}; }}
 /* stat: everything centered around the number */
 body.layout-stat .main {{ align-items: center; text-align: center; }}
 body.layout-stat .chip {{ align-self: center; }}
 body.layout-stat .dots {{ justify-content: center; }}
+/* dense: a slide with a lot to say (a bill explainer) steps its type down so the source line still fits */
+.dense .head {{ font-size: 50px; }}
+.dense .text {{ font-size: 31px; margin-top: 20px; }}
+.dense .main {{ padding-top: 36px; padding-bottom: 20px; }}
+.dense .kicker, .dense .chip {{ margin-bottom: 12px; }}
 """
 
 
@@ -174,12 +263,17 @@ LOGO = ('<svg viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#fff
 def slide_html(post: dict, s: dict, k: int, n: int, layout: str, size: tuple[int, int]) -> str:
     e = html.escape
     big = s.get("big")
+    # characters of running text; past ~300 the type steps down (.dense)
+    words = len(" ".join(str(s.get(f) or "") for f in ("head", "text", "by"))) + len(str((s.get("quote") or {}).get("text") or "")) \
+        + sum(len(v) for _, v in s.get("rows") or [])
     lead = ((f'<div class="chip">{e(s["chip"])}</div>' if s.get("chip") else "")
             + (f'<div class="kicker">{e(s["kicker"])}</div>' if s.get("kicker") else "")
             + (f'<div class="big{" id" if big and re.search(r"[A-Za-z]", str(big)) else ""}">{e(str(big))}</div>' if big else ""))
     body = (f'<div class="head">{e(s["head"])}</div>' if s.get("head") else "")
     if s.get("text"):
         body += f'<div class="text">{e(s["text"])}</div>'
+    for label, value in s.get("rows") or []:
+        body += f'<div class="text"><span class="label">{e(label)}:</span> {e(value)}</div>'
     if s.get("quote"):
         q = s["quote"]
         body += f'<div class="text"><span class="label">{e(q.get("label", "Official text"))}:</span> “{e(q["text"])}”</div>'
@@ -194,13 +288,14 @@ def slide_html(post: dict, s: dict, k: int, n: int, layout: str, size: tuple[int
     else:
         main = f'<div class="main">{lead}{body}</div>'
     return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><style>{css(*size)}</style></head>'
-            f'<body class="layout-{layout}"><div class="card">{top}{main}<div class="src">{e(source_line(post))}</div></div></body></html>')
+            f'<body class="layout-{layout}"><div class="card{" dense" if words > 300 else ""}">{top}{main}<div class="src">{e(source_line(post))}</div></div></body></html>')
 
 
 def alt_text(post: dict, s: dict) -> str:
     """What the image says, in reading order, for screen readers."""
     q = s.get("quote") or {}
     parts = [level_tag(post), s.get("chip"), s.get("kicker"), s.get("big"), s.get("head"), s.get("text"),
+             *(f"{label}: {value}" for label, value in s.get("rows") or []),
              f'{q.get("label", "Official text")}: "{q["text"]}"' if q else None, s.get("by"), source_line(post)]
     return " ".join(str(p) if re.search(r'[.?!"”]$', str(p)) else f"{p}." for p in parts if p)
 
@@ -233,15 +328,31 @@ def reel(pngs: list[Path], seconds: list[float], mp4: Path) -> None:
     subprocess.run(args, check=True, capture_output=True)
 
 
+def all_sources(post: dict) -> list[dict]:
+    """The post's sources plus each bill's official summary, once each."""
+    out = list(post.get("sources") or [])
+    for b in post.get("bills") or []:
+        s = b.get("summary") or {}
+        if s.get("url") and s["url"] not in {x.get("url") for x in out}:
+            out.append({"title": s.get("title"), "url": s["url"], "retrieved": s.get("retrieved")})
+    return out
+
+
 def full_caption(post: dict) -> str:
-    sources = "\n".join(f"{s['title']}: {s['url']}" for s in post["sources"])
+    srcs = all_sources(post)
+    sources = "\n".join(f"{s['title']}: {s['url']}" for s in srcs)
+    # what each bill does goes in the caption too: most people read the caption, not every slide
+    about = "\n\n".join(f"{b['id']}: {b['does']}\nWho it affects: {b['affects']}\nWhere it stands: {b['where']}"
+                        for b in post.get("bills") or [])
     tags = " ".join("#" + t.lstrip("#") for t in post.get("hashtags") or [])
-    return "\n\n".join(p for p in (post["caption"].strip(), ("Sources:\n" if len(post["sources"]) > 1 else "Source:\n") + sources, tags) if p)
+    return "\n\n".join(p for p in (post["caption"].strip(), about, ("Sources:\n" if len(srcs) > 1 else "Source:\n") + sources, tags) if p)
 
 
 def build(path: Path) -> Path:
+    """Render a post. The full check (editorial rules, duplicates) runs on the pull request with --check; here
+    only what rendering needs, so a post the owner already approved still builds after the rules change."""
     post = yaml.safe_load(path.read_text(encoding="utf-8"))
-    errs = check(post) + duplicates(path, post)
+    errs = check(post, editorial=False)
     if errs:
         sys.exit(f"{path}:\n  " + "\n  ".join(errs))
     out = ROOT / "social/out" / path.stem
@@ -249,7 +360,7 @@ def build(path: Path) -> Path:
     out.mkdir(parents=True)
     # the layout rotates by post unless the file names one, so the grid doesn't repeat itself
     layout = post.get("layout") or LAYOUTS[int(hashlib.sha1(path.stem.encode()).hexdigest(), 16) % len(LAYOUTS)]
-    kind, slides = post["kind"], post.get("slides") or []
+    kind, slides = post["kind"], (expanded(post) if post["kind"] != "clip" else [])
     size = SIZES["tall" if kind in ("story", "reel") else "feed"]
     files, n = [], len(slides)
     if kind == "clip":
@@ -272,10 +383,11 @@ def build(path: Path) -> Path:
         page.unlink()
     manifest = {"post": path.stem, "kind": kind, "level": post["level"], "place": post.get("place"),
                 "topic": post.get("topic"), "layout": layout, "approval": post["approval"], "files": files,
-                "caption": full_caption(post), "sources": post["sources"],
+                "caption": full_caption(post), "sources": all_sources(post),
                 "publish_after": str(post["publish_after"]) if post.get("publish_after") else None,
                 "record_ids": post.get("record_ids") or [], "found_via": post.get("found_via"),
-                "context": post.get("context"), "caption_source": post.get("caption_source"), "video": post.get("video")}
+                "context": post.get("context"), "caption_source": post.get("caption_source"), "video": post.get("video"),
+                "highlight": post.get("highlight")}
     (out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
     return out
 

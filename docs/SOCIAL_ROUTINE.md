@@ -27,6 +27,14 @@ Official feeds first. These need no key:
 - State legislatures' official sites (`.gov` or `.us`), e.g. Texas Legislature Online reports at
   https://capitol.texas.gov/Reports/ (bills filed by date, bills passed, calendars)
 
+Then read the owner's ideas with `pip install boto3 && python src/social/inbox.py --read` (reels and posts the
+owner shared to @vote.the.record, with any note; the environment has a read-only key for the private bucket).
+They are private: never quote the owner's notes or list the shared links in a post, a pull request or the
+run summary beyond the one `found_via` line. Each
+idea is a tip, like a news story: find the official record behind it, set `found_via` to the shared URL, and
+use `approval: review`. An idea you skip goes in the run summary with the reason. Never copy, describe or
+repost the shared reel itself.
+
 Then search the news for what Congress and state legislatures are doing today. A news story only points
 the way: find the official record behind it (a bill page, roll call, public law, journal, calendar) and build
 the post on that record. If no official record covers it, skip it.
@@ -74,6 +82,14 @@ One file, `social/posts/<YYYY-MM-DD>-<slug>.yaml`, in the format in `social/READ
   time).
 - `sources`: title, URL and `retrieved` (today) for each page the post rests on.
 - `notes`: one or two lines for the owner: why it's post-worthy and anything to double-check.
+- `bills`: an entry for every bill the slides or caption name (format in `social/README.md`). Federal: the
+  CRS summary from congress.gov (api.congress.gov `/v3/bill/{congress}/{type}/{number}/summaries` with the
+  api.data.gov key, if it is set up). Texas: the TLO bill analysis, or the bill text for a newly filed bill.
+  `does`, `affects` and `where` never go past the summary; if it doesn't say who is affected, write what it
+  does say. A post that names a bill is always `approval: review`, roll-call recaps included.
+- `highlight`: on every `story` post and every post with a `story: true` slide, one name from
+  `social/highlights.yaml`: the place for state and local posts (e.g. `Harris Co.`), otherwise the topic. If
+  the place has no Highlight yet, use `State` or `Local` and say in the pull request that one could be added.
 - Captions in plain, human words: short sentences, no stock phrases, at most five specific hashtags.
 
 Then run `python src/social/build.py --check social/posts/<file>.yaml` and fix the file until it passes.
