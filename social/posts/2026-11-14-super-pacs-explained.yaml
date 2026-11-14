@@ -1,0 +1,92 @@
+kind: reel
+level: congress
+topic: Elections
+approval: review
+layout: stat
+sources:
+- title: "Supreme Court of the United States: Citizens United v. FEC, 558 U.S. 310 (2010), U.S. Reports vol. 558"
+  url: https://www.supremecourt.gov/opinions/boundvolumes/558bv.pdf
+  retrieved: '2026-11-14'
+- title: "Federal Election Commission: Citizens United v. FEC"
+  url: https://www.fec.gov/legal-resources/court-cases/citizens-united-v-fec/
+  retrieved: '2026-11-14'
+- title: "Federal Election Commission: SpeechNow.org v. FEC"
+  url: https://www.fec.gov/legal-resources/court-cases/speechnoworg-v-fec/
+  retrieved: '2026-11-14'
+- title: "Federal Election Commission: Political Action Committees (PACs)"
+  url: https://www.fec.gov/press/resources-journalists/political-action-committees-pacs/
+  retrieved: '2026-11-14'
+- title: "FEC Independent Expenditure Table 1, 2012 and 2010"
+  url: https://www.fec.gov/resources/campaign-finance-statistics/2012/tables/ie/IE1_2012_24m.xlsx
+  retrieved: '2026-11-14'
+- title: "FEC Independent Expenditure Table 1, 2015-2016"
+  url: https://www.fec.gov/resources/campaign-finance-statistics/2016/tables/ie/IE1_2016_24m.xlsx
+  retrieved: '2026-11-14'
+- title: "FEC Independent Expenditure Table 1, 2019-2020"
+  url: https://www.fec.gov/resources/campaign-finance-statistics/2020/tables/ie/IE1_2020_24m.xlsx
+  retrieved: '2026-11-14'
+- title: "FEC Independent Expenditure Table 1, 2023-2024"
+  url: https://www.fec.gov/resources/campaign-finance-statistics/2024/tables/ie/IE1_2024_24m.xlsx
+  retrieved: '2026-11-14'
+slides:
+- kicker: Money in politics, before 2010
+  head: Federal law barred corporations and unions from paying for ads for or against federal candidates out of their own treasuries.
+  quote: {label: "Citizens United v. FEC, 558 U.S. 310, syllabus", text: "federal law prohibits corporations and unions from using their general treasury funds to make independent expenditures for speech that is an “electioneering communication” or for speech that expressly advocates the election or defeat of a candidate."}
+  text: They could still set up a PAC, a separate committee that raised its own money from people, within contribution limits.
+  seconds: 7
+- kicker: What changed
+  big: '2010'
+  head: Two court rulings that year changed the rules for spending that isn't made with a candidate.
+  rows:
+  - [Jan. 21, "Citizens United v. FEC (Supreme Court): corporations and unions may spend on their own"]
+  - [Mar. 26, "SpeechNow.org v. FEC (appeals court): no limit on what people give groups that only do that"]
+  quote: {label: fec.gov, text: "Super PACs (independent expenditure only political committees) are committees that may receive unlimited contributions from individuals, corporations, labor unions and other PACs"}
+  seconds: 7
+- kicker: What the numbers show
+  big: $4.43 billion
+  head: Independent expenditures reported to the FEC in 2023-2024, up from $388.6 million in 2009-2010.
+  rows:
+  - ['2009-2010', '$388.6 million']
+  - ['2011-2012', '$1.25 billion']
+  - ['2015-2016', '$1.63 billion']
+  - ['2019-2020', '$3.14 billion']
+  - ['2023-2024', '$4.43 billion, $2.72 billion of it by super PACs']
+  text: FEC totals for each two-year cycle, not adjusted for inflation. The tables don't say why spending rose.
+  seconds: 7
+- kicker: "The case for: 5 justices"
+  head: The majority said the First Amendment bars limits on political speech because the speaker is a corporation.
+  quote: {label: "Majority opinion, 558 U.S. at 349", text: "If the First Amendment has any force, it prohibits Congress from fining or jailing citizens, or associations of citizens, for simply engaging in political speech."}
+  text: "“independent expenditures, including those made by corporations, do not give rise to corruption or the appearance of corruption.” (at 357)"
+  seconds: 8
+- kicker: "The case against: 4 justices"
+  head: The dissent said Congress may limit corporate election spending to keep people's trust in government.
+  quote: {label: "Dissent, 558 U.S. at 453", text: "A democracy cannot function effectively when its constituent members believe laws are being bought and sold."}
+  text: "“corporations have no consciences, no beliefs, no feelings, no thoughts, no desires. … they are not themselves members of ‘We the People’ by whom and for whom our Constitution was established.” (at 466)"
+  seconds: 8
+- kicker: You decide
+  head: More speech, or more influence? The Court split 5-4. Both sides kept one thing.
+  quote: {label: "FEC summary of the ruling", text: "The Court upheld the reporting and disclaimer requirements for independent expenditures and electioneering communications."}
+  text: That's why you can look up who funds these groups at fec.gov/data.
+  seconds: 6
+caption: |-
+  Until 2010, federal law barred corporations and unions from paying for ads for or against federal candidates out of their own treasuries. They could set up a PAC, which raised money from people within limits.
+
+  Two rulings changed that. In Citizens United v. FEC (Jan. 21, 2010), the Supreme Court said corporations and unions may spend their own money on independent expenditures: ads for or against a candidate that aren't made with the candidate. In SpeechNow.org v. FEC (March 26, 2010), a federal appeals court said groups that only make those ads can take contributions of any size. Those groups are called super PACs.
+
+  FEC tables show $388.6 million in independent expenditures in 2009-2010 and $4.43 billion in 2023-2024, not adjusted for inflation.
+
+  Five justices said limits on this spending violate the First Amendment. Four disagreed, warning that it could cost the public's trust. We quote both sides in their own words. Which side convinces you?
+hashtags: [campaignfinance, citizensunited, superpac, civics, votetherecord]
+record_ids: [us/scotus/558-us-310/citizens-united-v-fec, us/cadc/2010/speechnow-v-fec, us/fec/independent-expenditures/2010-2024]
+publish_after: '2026-11-16T20:00:00-06:00'
+found_via: owner idea local-video
+notes: >-
+  Owner idea (local video). Opinion text read from the official U.S. Reports bound volume 558 (Citizens United begins
+  at p. 310); quotes checked at 349, 357, 453, 466 and the syllabus. "5 justices / 4 justices": Kennedy's opinion was
+  joined in full by Roberts, Scalia, Alito and by Thomas except Part IV; Stevens' dissent in part was joined by
+  Ginsburg, Breyer, Sotomayor (syllabus). Part IV (disclosure) was 8-1, with Thomas dissenting; slide 6 says only that
+  both sides kept the reporting rules. Numbers: FEC IE Table 1 (24-month) totals, "Total Independent Expenditures"
+  (2010 and 2012 from the 2012 table's two columns). No pre-2010 total is used: the 2008 table on fec.gov is itemized
+  rows only, not a summary, so the series starts in 2009-2010 (the first cycle after the ruling, which came Jan. 2010).
+  The 2009-2010 row includes spending from before the ruling. Check that the 2023-2024 total includes hybrid PACs
+  ($1.37 billion), as the table does.
