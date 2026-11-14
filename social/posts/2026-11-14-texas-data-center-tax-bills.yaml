@@ -1,0 +1,100 @@
+kind: reel
+level: state
+place: Texas
+topic: Taxes
+approval: review
+rule: >-
+  Every bill filed Nov. 9 to Nov. 13, 2026 whose Texas Legislature Online caption is "Relating to the repeal
+  of the exemptions from sales and use taxes for property used in certain data centers and large data center
+  projects." (said on the last slide).
+record_ids: [tx/90R/HB 167/filed, tx/90R/HB 408/filed, tx/90R/HB 681/filed, tx/90R/HB 1139/filed,
+             tx/90R/SB 293/filed]
+publish_after: '2026-11-14T07:30:00-06:00'
+sources:
+- title: TLO, bills filed Nov. 9, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-09
+  retrieved: '2026-11-14'
+- title: TLO, bills filed Nov. 13, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-13
+  retrieved: '2026-11-14'
+- title: Texas Comptroller, Data Center Sales Tax Exemption
+  url: https://comptroller.texas.gov/taxes/data-centers/
+  retrieved: '2026-11-14'
+bills:
+- id: HB 167
+  does: Would repeal data center sales tax breaks; ones already certified keep theirs until it ends.
+  affects: Data centers certified for these breaks, or applying.
+  where: Filed Nov. 9, 2026; no other action yet.
+  summary:
+    text: "The following provisions of the Tax Code are repealed: (1) Section 151.359; (2) Section 151.3595; and (3) Section 313.009."
+    title: "HB 167 as filed, Sec. 4"
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00167I.htm
+    retrieved: '2026-11-14'
+- id: HB 408
+  does: Would repeal data center sales tax breaks; ones already certified keep theirs until it ends.
+  affects: Data centers certified for these breaks, or applying.
+  where: Filed Nov. 9, 2026; no other action yet.
+  summary:
+    text: "The following provisions of the Tax Code are repealed: (1) Section 151.359; (2) Section 151.3595; and (3) Section 313.009."
+    title: "HB 408 as filed, Sec. 4"
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00408I.htm
+    retrieved: '2026-11-14'
+- id: HB 681
+  does: Would repeal data center sales tax breaks; ones already certified keep theirs until it ends.
+  affects: Data centers certified for these breaks, or applying.
+  where: Filed Nov. 9, 2026; no other action yet.
+  summary:
+    text: "The following provisions of the Tax Code are repealed: (1) Section 151.359; (2) Section 151.3595; and (3) Section 313.009."
+    title: "HB 681 as filed, Sec. 4"
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00681I.htm
+    retrieved: '2026-11-14'
+- id: HB 1139
+  does: Would repeal data center sales tax breaks, ending ones already granted the day it takes effect.
+  affects: Data centers certified for these breaks, or applying.
+  where: Filed Nov. 13, 2026; no other action yet.
+  summary:
+    text: >-
+      An exemption from sales and use taxes under Section 151.359 or 151.3595, Tax Code, to which a qualifying
+      data center or qualifying large data center project is entitled on the effective date of this Act expires
+      on that date.
+    title: "HB 1139 as filed, Sec. 5(a)"
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/HB01139I.pdf
+    retrieved: '2026-11-14'
+- id: SB 293
+  does: Would repeal data center sales tax breaks, ending ones already granted the day it takes effect.
+  affects: Data centers certified for these breaks, or applying.
+  where: Filed Nov. 9, 2026; no other action yet.
+  summary:
+    text: >-
+      An exemption from sales and use taxes under Section 151.359 or 151.3595, Tax Code, to which a qualifying
+      data center or qualifying large data center project is entitled on the effective date of this Act expires
+      on that date.
+    title: "SB 293 as filed, Sec. 5(a)"
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00293I.htm
+    retrieved: '2026-11-14'
+slides:
+- {kicker: "2027 Texas session · Filed Nov. 9-13, 2026", big: 5 bills,
+   head: "Five Texas bills would repeal the sales tax breaks for certified data centers."}
+- {chip: The break today, big: 6.25%,
+   head: "A certified data center doesn't pay the 6.25% state sales tax on items like electricity, servers, cooling and software.",
+   text: "To be certified, it commits to at least 20 jobs and $200 million in investment, says the Texas Comptroller. The break lasts 10 or 15 years."}
+- {chip: Who filed them, head: Four bills in the House and one in the Senate.,
+   rows: [[HB 167, Rep. Martinez Fischer], [HB 408, Rep. Isaac], [HB 681, Rep. Vasut], [HB 1139, Rep. Jessica González],
+          [SB 293, Sen. Huffman and 22 more senators listed as authors]]}
+- {chip: Two versions, head: "HB 167, HB 408 and HB 681 let data centers already certified keep their break until it runs out.",
+   text: "SB 293 and HB 1139 would end every existing break the day the law takes effect. All five would deny applications still waiting for approval."}
+- {chip: If one passes, big: "Sept. 1, 2027",
+   head: "Each bill says it takes effect on this date, or right away if two-thirds of each chamber vote for that."}
+- {chip: How we picked, head: "Every bill filed Nov. 9 to Nov. 13 with this official caption.",
+   quote: {label: Texas Legislature Online caption, text: "Relating to the repeal of the exemptions from sales and use taxes for property used in certain data centers and large data center projects."}}
+caption: |-
+  Five bills filed for the 2027 Texas session would repeal the sales tax breaks Texas gives certified data centers. They differ on what happens to breaks already granted.
+hashtags: [txlege, texaslegislature, datacenters, texas, votetherecord]
+notes: >-
+  All records opened 2026-11-14: both filing reports, five bill histories, five introduced texts, the
+  Comptroller's data-center page. HB 167/408/681 are the same council draft (90R 1509, TLO lists them as
+  duplicates); SB 293 and HB 1139 share the other wording (HB 1139's PDF carries "S.B. No. 293" marks).
+  "20 jobs / $200 million / 10 or 15 years / 6.25% state tax" are the Comptroller's terms for a qualifying data
+  center; a large data center project (Sec. 151.3595) has its own terms (40 jobs, state and local tax). HB 750
+  and HB 851 also touch the data-center sales tax break but have different captions, so the rule leaves them
+  out. "Rep. Jessica González" distinguishes her from Rep. Mary González (TLO: "González, Jessica").
