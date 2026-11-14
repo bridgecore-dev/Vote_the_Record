@@ -84,11 +84,40 @@ Write a post only when all of these hold:
 - It teaches something, not just announces it. Besides the what and when, the slides say what it means for
   the people who live there, from an official source: what the law or vote changes and for whom, what a
   session or body can and can't do, or what a reader can do (watch, testify, contact, vote). A date or a
-  tally alone is not enough; if no official source explains why it matters, skip it.
+  tally alone is not enough; if no official source explains why it matters, skip it. Session calendars and
+  schedules only when the break is unusual or long, or a deadline readers can act on is coming.
+- Any change is told as before → after (CLAUDE.md "Fair, not silent"): what current law does, what the bill
+  or vote changes, who gains, who loses, what it costs and how it's paid for (a CBO estimate, a fiscal note).
+  Never a line that only sounds good or bad: "no longer cut" says nothing until the slide says what they get
+  now and what they'd get after.
 - Every claim on the slides rests on a source you opened in this run, quoted or stated without going past it.
-- It can be told neutrally: no party names, no loaded words, the same wording for everyone involved.
+- It's fair: the same wording and layout for every person, party and group, no loaded words, party only as
+  the official record lists it. Name the person, party or group whose recorded action it's about, including
+  unflattering ones. A judgment ("unconstitutional", "illegal") only when a court or official body said it,
+  or in a named speaker's quoted words. When it's unclear whether something helped or hurt, give the
+  strongest case for and against, each from a source, and let readers decide.
 - If it singles out some items (a "notable" bill, one member's vote), there is a stated, even-handed rule
   for the pick, and it uses `approval: review`.
+
+Vote posts (a roll call, or a bill's passage):
+- First slide: the tally with what it means ("392 Yea (for), 18 Nay (against), 23 didn't vote"), the bill's
+  short title, and who it affects. On a carousel that names bills, end the first slide with "Swipe to see the
+  bills".
+- Next slide: the totals by party, exactly as the record gives them (the House Clerk's `totals-by-party` in
+  the roll's XML; for the Senate, count each senator's party in the vote's XML).
+- Then the names on the smaller side, with party and state as the record lists them ("Roy (R-TX)"):
+  if fewer voted Yea than Nay, list every Yea, and the other way around. Up to about 40 names; past that,
+  give the totals and link the official list.
+
+Made to be seen (never at the cost of a rule above):
+- The first slide is the hook: the number, the question or the claim people are already talking about, in
+  as few words as possible. One idea per slide.
+- When a claim about a bill or vote is trending (news, Google Trends, the trends file), make an "Is it true?"
+  post: state the claim, then what the official record says (the bill text, the roll call, the CBO estimate),
+  quoted. If the record shows the claim is right, say so; if it's wrong or about another bill, say that.
+- End with what a reader can do, or a question that asks for their view ("Which side convinces you?").
+- Reels for anything that fits in 3-8 short slides; carousels for lists and explainers; stories for
+  reminders, deadlines and results.
 
 Every day should have at least one Reel (`kind: reel`), one feed post (`carousel` or `image`) and one story
 (`kind: story`, or a post with a `story: true` slide). Count the `kind`s already scheduled for each of the
@@ -110,7 +139,8 @@ when there is one; always `approval: review`).
 One file, `social/posts/<YYYY-MM-DD>-<slug>.yaml`, in the format in `social/README.md`:
 - `approval: auto` only for routine items (a scheduled date, or a tally or law straight from an official feed,
   every source on `.gov`, `.us` or `.mil`). If a news story led you there, set `found_via` to its URL and
-  use `approval: review`.
+  use `approval: review`. Either way the pull request merges itself once its checks pass, so a `review`
+  post must be one you'd stand behind if the owner never sees it before it goes out.
 - `record_ids`: every record the post covers, in the README's format.
 - `publish_after`: the next free slot of 7:30 a.m., 12:00 p.m., 5:30 p.m. and 8:00 p.m. Central not already
   used by a pending post, written with its offset (e.g. `'2026-11-14T12:00:00-06:00'`; `-05:00` in daylight
@@ -136,11 +166,13 @@ previews; check those before calling anything ready.
 - Branch `social/<YYYY-MM-DD>-<slug>` from `main`, with only the one post file changed.
 - Title: `Post: <the slide's main line>`. Body: the sources, the approval type, and the notes.
 - Push and open the pull request against `main`. The review workflow builds it, comments with previews,
-  and merges `auto` posts itself.
+  and merges it once its checks pass (any `approval`). The owner stops a post by deleting its file on
+  `main` before its slot.
 
 ## Never
 
-Edit any other file, merge or approve a pull request, run `publish.py`, touch `data/`, add secrets, name or
-imply a party, use AI-generated images, or retry a site that blocked you.
+Edit any other file, merge or approve a pull request, run `publish.py`, touch `data/`, add secrets, say a
+party or person did something the record doesn't show, use AI-generated images, or retry a site that blocked
+you.
 
 End the run with a short summary: posts opened, ideas skipped and why.

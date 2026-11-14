@@ -64,7 +64,6 @@ HOUSE_FINAL = ("On Passage", "On Motion to Suspend the Rules and Pass", "On Agre
                "On Motion to Suspend the Rules and Concur", "On Overriding the Veto")
 SENATE_FINAL = ("On Passage of the Bill", "On the Joint Resolution", "On the Conference Report", "On Overriding the Veto",
                 "On the Motion to Concur")
-PARTY = re.compile(r"\b(Republicans?|Democrats?|Democratic Party|Republican Party|GOP)\b")
 MONTHS = ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
 ROWS_PER_SLIDE = 8
 RULE = ("Counts: every roll-call vote in the House Clerk's and the Senate's official lists, and every public law "
@@ -475,7 +474,7 @@ def assemble(start, end, kind, counts, items, shown, sources, summaries, reel, t
     notes = [f"Draft from recap.py on {today.isoformat()}. Selection rule in `rule`.",
              "GovInfo posts a law days after it is signed: a law approved late in the period may not be counted yet.",
              "Senate tallies are yeas-nays from the Senate's vote menu; House tallies are the whole-chamber totals in "
-             "each roll's XML. Party totals in the feeds are never used."]
+             "each roll's XML."]
     if already:
         notes.append("Already in other posts, so listed here but left out of record_ids: " + ", ".join(already) + ".")
     if any(not b["does"] or not b["affects"] for b in bills):
@@ -543,9 +542,6 @@ def draft(fetch, start: dt.date, end: dt.date, kind: str, reel: bool = False, ke
     while shown and not fits(make(shown, summaries)):  # a filled-in summary can take more room than the estimate
         shown -= 1
     post = make(shown, summaries)
-    dumped = yaml.safe_dump(post, sort_keys=False, allow_unicode=True)
-    if PARTY.search(dumped):  # rule 5: a feed's text named a party; a person must look before this posts
-        raise SystemExit(f"the draft contains a party name ({PARTY.search(dumped)[0]}); not writing it")
     return post
 
 

@@ -1,9 +1,10 @@
 name: social post review
 
 # On each pull request that adds or changes social/posts/*.yaml: check and build the posts, and comment with
-# previews. Merging the pull request is the owner's approval. A pull request from the scheduled routine
-# (branch social/...) that touches only post files, all with approval: auto, is merged here once the checks
-# pass; build.py already refuses auto unless every source is on a .gov, .us or .mil site. See social/README.md.
+# previews. A pull request from a social/... branch that touches only post files is merged here once the checks
+# pass, approval: review included (owner's decision, 2026-11-14: no post missed while the owner is away). The
+# owner reads the preview comment and stops a post before its slot by deleting its file on main. build.py still
+# refuses approval: auto unless every source is on a .gov, .us or .mil site. See social/README.md.
 #
 # Setup (one time), in the repo's Settings → Secrets and variables → Actions:
 #   secrets R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY; variables R2_BUCKET, R2_PUBLIC_URL.
@@ -86,7 +87,7 @@ jobs:
           PR: ${{ github.event.pull_request.number }}
         run: gh pr comment "$PR" --body-file comment.md
 
-      - name: Merge routine posts
+      - name: Merge posts
         if: >-
           steps.posts.outputs.files != '' && steps.posts.outputs.only_posts == 'true' &&
           startsWith(github.head_ref, 'social/')
@@ -94,9 +95,4 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           PR: ${{ github.event.pull_request.number }}
           FILES: ${{ steps.posts.outputs.files }}
-        run: |
-          if python -c "import sys, yaml; sys.exit(0 if all(yaml.safe_load(open(f, encoding='utf-8')).get('approval') == 'auto' for f in sys.argv[1:]) else 1)" $FILES; then
-            gh pr merge "$PR" --squash --delete-branch
-          else
-            echo "At least one post needs review; leaving it for the owner."
-          fi
+        run: gh pr merge "$PR" --squash --delete-branch

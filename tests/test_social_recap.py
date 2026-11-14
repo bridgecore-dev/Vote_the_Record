@@ -201,19 +201,6 @@ def test_reel_version():
     assert post["kind"] == "reel" and all("seconds" in s for s in post["slides"])
 
 
-def test_party_name_in_a_feed_stops_the_draft(monkeypatch):
-    real = recap.assemble
-
-    def with_party(*a, **k):
-        post = real(*a, **k)
-        post["caption"] += " Republican"
-        return post
-
-    monkeypatch.setattr(recap, "assemble", with_party)
-    with pytest.raises(SystemExit, match="party name"):
-        draft("2026-11-09")
-
-
 def test_filename():
     assert recap.filename(dt.date(2026, 11, 9), "week", False, TODAY) == "2026-11-13-congress-week-2026-11-09.yaml"
     assert recap.filename(dt.date(2026, 11, 1), "month", True, TODAY) == "2026-11-13-congress-month-2026-11-reel.yaml"
