@@ -1,0 +1,50 @@
+kind: carousel
+level: congress
+topic: Elections
+approval: review
+layout: stat
+sources:
+- title: "Federal Election Commission: Contribution limits"
+  url: https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/
+  retrieved: '2026-11-14'
+- title: "Federal Election Commission: Making independent expenditures"
+  url: https://www.fec.gov/help-candidates-and-committees/making-independent-expenditures/
+  retrieved: '2026-11-14'
+- title: "Federal Election Commission: Campaign finance data"
+  url: https://www.fec.gov/data/
+  retrieved: '2026-11-14'
+slides:
+- kicker: Campaign money, explained
+  big: $3,500
+  head: The most one person can give a federal candidate's campaign, per election, in 2025-2026.
+  text: "A primary, a general election and a runoff each get their own limit."
+  quote: {label: "FEC limits chart, 2025-2026", text: "Individual $3,500* per election"}
+- kicker: Groups that give to candidates
+  big: $5,000
+  head: The most a multicandidate PAC can give a candidate's campaign, per election.
+  quote: {label: "FEC limits chart, 2025-2026", text: "PAC: multicandidate $5,000 per election"}
+- kicker: Super PACs
+  head: Committees that only make independent expenditures have no limit on what they can take in.
+  quote: {label: fec.gov, text: "Independent-expenditure-only political committees (sometimes called “Super PACs”) may accept unlimited contributions, including from corporations and labor organizations."}
+- kicker: What an independent expenditure is
+  head: An ad for or against a candidate that isn't made with the candidate or a party.
+  quote: {label: fec.gov, text: "Expressly advocates the election or defeat of a clearly identified candidate; and Is not made in consultation or cooperation with, or at the request or suggestion of any candidate, or his or her authorized committees or agents, or a political party committee or its agents."}
+- kicker: Look it up yourself
+  head: fec.gov/data shows who gives to federal candidates and committees, and how they spend it.
+  quote: {label: fec.gov, text: "See how candidates and committees raise and spend money in federal elections."}
+caption: |-
+  Who can give how much to someone running for Congress? The Federal Election Commission sets it out.
+
+  One person can give a candidate's campaign up to $3,500 per election in 2025-2026. A multicandidate PAC can give up to $5,000 per election.
+
+  Super PACs are different. These committees only make independent expenditures, and they can take in unlimited money. An independent expenditure is an ad for or against a candidate that isn't made with the candidate or a party.
+
+  You can search any federal candidate or committee at fec.gov/data.
+hashtags: [campaignfinance, fec, congress, civics, votetherecord]
+record_ids: [us/fec/2025-2026/contribution-limits]
+publish_after: '2026-11-15T20:00:00-06:00'
+found_via: owner idea I1NjExOTU4NjA2MjMzNgZDZD
+notes: >-
+  From owner ideas about outside money in elections. Only the neutral rules are used, from fec.gov; no group,
+  person or party is named. Slide 1's text rests on fec.gov: "A primary, general, runoff and special election
+  are each considered a separate election with a separate limit." 
