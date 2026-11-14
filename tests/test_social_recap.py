@@ -217,3 +217,12 @@ def test_party_name_in_a_feed_stops_the_draft(monkeypatch):
 def test_filename():
     assert recap.filename(dt.date(2026, 11, 9), "week", False, TODAY) == "2026-11-13-congress-week-2026-11-09.yaml"
     assert recap.filename(dt.date(2026, 11, 1), "month", True, TODAY) == "2026-11-13-congress-month-2026-11-reel.yaml"
+
+
+def test_bills_carry_the_official_short_title_only():
+    laws = {b["id"]: b for b in draft("2026-11-02", key="k")["bills"]}
+    assert laws["H.R. 8205"]["title"] == "Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026"
+    votes = {b["id"]: b.get("title") for b in draft("2026-11-09", key="k")["bills"]}
+    assert votes.get("H.R. 9612") == "American Enrichment Deployment Act"  # the Clerk's vote description
+    assert not recap.SHORT_TITLE.fullmatch("A bill to amend the Internal Revenue Code of 1986 Act")
+    assert not recap.SHORT_TITLE.fullmatch("To amend title 38, United States Code, and for other purposes")

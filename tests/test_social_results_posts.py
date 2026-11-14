@@ -49,19 +49,19 @@ def test_candidates_alphabetical_exact_counts_no_party():
     assert "Party" not in rp.dump(post)
 
 
-def test_measure_choices_alphabetical_too():
-    post = posts_by_name()["2026-11-13-results-fixture-county-cities-districts.yaml"]
-    assert [c["name"] for c in post["slides"][0]["results"]["candidates"]] == ["AGAINST", "FOR"]
+def test_measure_keeps_ballot_order():
+    res = posts_by_name()["2026-11-13-results-fixture-county-cities-districts.yaml"]["slides"][0]["results"]
+    assert [c["name"] for c in res["candidates"]] == ["FOR", "AGAINST"] and res["measure"] is True
 
 
 def test_outcome_as_recorded_same_words_and_notes():
     p = posts_by_name()
     judge = p["2026-11-13-results-fixture-county.yaml"]["slides"][0]
     prop = p["2026-11-13-results-fixture-county-cities-districts.yaml"]["slides"][0]
-    assert prop["text"].startswith("Canvass outcome: Passed.")
-    assert "Votes counted in Fixture County only." in prop["text"]
-    assert judge["text"].startswith("Canvass outcome: Elected: Zoe Adams.")
-    assert "Other write-in votes: 5" in judge["text"]
+    assert prop["results"]["outcome"] == "Passed" and judge["results"]["outcome"] == "Elected: Zoe Adams"
+    assert prop["results"]["note"] == "Votes counted in Fixture County only." and "note" not in judge["results"]
+    assert judge["results"]["other_votes"] == 5 and "other_votes" not in prop["results"]
+    assert "text" not in judge and "text" not in prop
     assert judge["by"] == prop["by"] == rp.PERCENT_NOTE  # the percentages are computed, and every slide says so
 
 
@@ -72,7 +72,8 @@ def test_no_outcome_says_not_recorded(tmp_path):
     del doc["outcome"]
     (root / JUDGE).write_text(yaml.safe_dump(doc), encoding="utf-8")
     post = posts_by_name(root=root)["2026-11-13-results-fixture-county.yaml"]
-    assert post["slides"][0]["text"].startswith("Canvass outcome: not recorded yet.")
+    assert post["slides"][0]["text"] == "Canvass outcome: not recorded yet."
+    assert "outcome" not in post["slides"][0]["results"]
 
 
 def test_sources_approval_and_highlight_fallback():
@@ -97,19 +98,19 @@ def test_county_highlight_and_review_for_non_gov(tmp_path):
     assert posts[1][1]["highlight"] == "Local" and any("No 'Results' Highlight" in n for n in notes)
 
 
-def make_county(tmp_path, n):
-    """A county with n official two-candidate contests of its own."""
+def make_county(tmp_path, n, names=(("a", "Ann Able"), ("b", "Ben Baker"))):
+    """A county with n official contests of its own, each with these candidates."""
     base = tmp_path / f"data/states/tx/localities/big-county/elections/{E}"
     paths = []
     for i in range(1, n + 1):
         d = base / f"seat-{i}"
         (d / "candidates").mkdir(parents=True)
         (d / "race.yaml").write_text(f"name: Seat {i}\nelection_date: '{E}'\n", encoding="utf-8")
-        for cid, name in (("a", "Ann Able"), ("b", "Ben Baker")):
+        for cid, name in names:
             (d / f"candidates/{cid}.yaml").write_text(f"id: {cid}\nname: {name}\n", encoding="utf-8")
         (d / "result.yaml").write_text(yaml.safe_dump({
             "election_date": E, "status": "official", "as_of": "2026-11-12", "covers": "whole",
-            "counts": {"b": 10 + i, "a": 20}, "outcome": {"result": "elected", "candidates": ["a"]},
+            "counts": {cid: 10 + i + k for k, (cid, _) in enumerate(names)}, "outcome": {"result": "elected", "candidates": ["a"]},
             "sources": [{"source_url": "https://x.tx.us/c.pdf", "source_title": "Canvass", "retrieved": "2026-11-12"}]}),
             encoding="utf-8")
         paths.append(f"tx/localities/big-county/elections/{E}/seat-{i}")
@@ -130,8 +131,11 @@ def test_splits_at_ten_slides(tmp_path):
 def test_drafts_pass_build_check(tmp_path, use_results):
     if use_results and "results" not in build.SLIDE_KEYS:
         pytest.skip("build.py here has no `results` slide field yet")
-    root = make_county(tmp_path, 12)
-    for _, post in draft(use_results=use_results)[0] + draft(root, "big-county", use_results=use_results)[0]:
+    posts = draft(use_results=use_results)[0] + draft(make_county(tmp_path / "a", 12), "big-county", use_results=use_results)[0]
+    for n in (1, 12, 13):
+        names = [(f"c{k:02d}", f"Name {k:02d}") for k in range(n)]
+        posts += draft(make_county(tmp_path / f"n{n}", 1, names), "big-county", use_results=use_results)[0]
+    for _, post in posts:
         post = yaml.safe_load(rp.dump(post))  # as the file reads back
         if not use_results:
             assert all("rows" in s and "results" not in s for s in post["slides"])
@@ -142,8 +146,21 @@ def test_rows_fallback_percent():
     p = posts_by_name(use_results=False)
     judge = p["2026-11-13-results-fixture-county.yaml"]["slides"][0]
     prop = p["2026-11-13-results-fixture-county-cities-districts.yaml"]["slides"][0]
-    assert judge["rows"][2] == ["Zoe Adams", "600 votes · 60.0%"]  # of the 1,000 votes for the names listed
-    assert prop["rows"] == [["AGAINST", "100 votes · 25.0%"], ["FOR", "300 votes · 75.0%"]]
+    assert judge["rows"][2:] == [["Zoe Adams", "600 votes · 59.7%"],  # of all 1,005 votes, write-ins included
+                                 ["Other write-ins", "5 votes · 0.5%"]]
+    assert judge["text"] == "Canvass outcome: Elected: Zoe Adams."
+    assert prop["rows"] == [["FOR", "300 votes · 75.0%"], ["AGAINST", "100 votes · 25.0%"]]
+
+
+@pytest.mark.parametrize("n,kind", [(1, "results"), (12, "results"), (13, "rows")])
+def test_one_to_twelve_names_use_results(tmp_path, n, kind):
+    names = [(f"c{k:02d}", f"Name {k:02d}") for k in range(n)]
+    slides = draft(make_county(tmp_path, 1, names), "big-county")[0][0][1]["slides"]
+    assert all(kind in s for s in slides)
+    if kind == "results":
+        assert len(slides) == 1 and len(slides[0]["results"]["candidates"]) == n
+    else:
+        assert [len(s["rows"]) for s in slides] == [8, 5] and slides[0]["head"].endswith("(1 of 2)")
 
 
 def test_write_and_list(tmp_path, capsys):

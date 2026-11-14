@@ -7,9 +7,11 @@
 Only result.yaml files with `status: official` are used; unofficial ones are skipped and counted. Contests are the
 county ballot's local contests (tx/localities/...), in the ballot's order; statewide and district contests are left
 out (one result shared by many counties would post the same record in every county's Highlight). On each slide the
-candidates are alphabetical, never by votes, with each one's count exactly as the file has it; result.yaml holds
-counts only, so the percentages are worked out from those counts, and every slide says so. The outcome is shown
-only as the file records it from the canvass, in the same words for every contest. No party appears anywhere.
+candidates are alphabetical, never by votes (a measure keeps the ballot's order of choices), with each one's count
+exactly as the file has it, and other write-in votes on their own line; result.yaml holds counts only, so the
+percentages (of all votes shown, write-ins included) are worked out from those counts, and every slide says so. The
+outcome is shown only as the file records it from the canvass, in the same words for every contest. No party
+appears anywhere. A contest with more than 12 names is listed as rows, 8 to a slide.
 
 The county's own contests (tx/localities/<county>/...) go in posts for its Highlight ("Harris Co."); the city,
 school and utility district contests on its ballot go in <date>-results-<county>-cities-districts posts for the
@@ -30,11 +32,12 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
 MAX_SLIDES = 10
-RESULT_ROWS = (2, 8)  # how many candidates build.py's `results` field takes
+RESULT_ROWS = (1, 12)  # how many candidates build.py's `results` field takes
+ROWS_PER_SLIDE = 8  # build.py's `rows` field
 STATES = {"tx": "Texas", "wa": "Washington"}
 AP_MONTHS = ["Jan.", "Feb.", "March", "April", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."]
 OUTCOME_WORDS = {"elected": "Elected", "runoff": "Runoff", "passed": "Passed", "failed": "Failed"}  # as on the site
-PERCENT_NOTE = ("Percent of the votes for the names listed, worked out from the official counts "
+PERCENT_NOTE = ("Percent of all votes shown, write-ins included, worked out from the official counts "
                 "(the report gives counts only).")
 
 
@@ -152,7 +155,8 @@ def gather(root: Path, ballot: Path, ballot_doc: dict) -> tuple[list[dict], dict
 
 
 def choices(c: dict) -> list[dict]:
-    """[{name, votes, key}] alphabetical by name (never by votes); a declared write-in says so after the name."""
+    """[{name, votes, key}]: candidates alphabetical by name (never by votes), a declared write-in marked after the
+    name; a measure's choices in the ballot's order (FOR, AGAINST)."""
     counts = c["result"]["counts"]
     if c["kind"] == "measure":
         rows = [{"key": k, "name": str(k), "votes": counts[k]} for k in c["doc"].get("choices") or counts if k in counts]
@@ -163,47 +167,58 @@ def choices(c: dict) -> list[dict]:
     for r in rows:
         if r.get("write_in"):
             r["name"] += " (write-in)"
-    rows.sort(key=lambda r: (r["name"].casefold(), r["name"]))
+    if c["kind"] != "measure":
+        rows.sort(key=lambda r: (r["name"].casefold(), r["name"]))
     return rows
 
 
-def outcome_line(c: dict, rows: list[dict]) -> str:
-    """The canvass outcome exactly as result.yaml records it, in the same words for every contest."""
+def outcome(c: dict, rows: list[dict]) -> str | None:
+    """The canvass outcome exactly as result.yaml records it, in the same words for every contest
+    ("Elected: Zoe Adams", "Passed"), or None if it isn't recorded."""
     o = c["result"].get("outcome") or {}
     if not o.get("result"):
-        return "Canvass outcome: not recorded yet."
+        return None
     word = OUTCOME_WORDS.get(o["result"], str(o["result"]))
     if c["kind"] == "measure":
-        return f"Canvass outcome: {word}."
+        return word
     names = {r["key"]: r["name"] for r in rows}
     who = sorted((names.get(k, k) for k in o.get("candidates") or []), key=str.casefold)
-    return f"Canvass outcome: {word}: {'; '.join(who)}."
+    return f"{word}: {'; '.join(who)}" if who else word
 
 
 def slides_for(c: dict, election: str, use_results: bool) -> list[dict]:
-    """One slide per contest (more only when a contest lists more names than a slide holds)."""
+    """One slide per contest (more only when a contest lists more names than the results field takes)."""
     rows = choices(c)
     res = c["result"]
-    text = [outcome_line(c, rows)]
-    if res.get("covers_note"):
-        text.append(str(res["covers_note"]))
-    if res.get("other_votes"):
-        text.append(f"Other write-in votes: {res['other_votes']:,} (not in the percentages).")
+    won = outcome(c, rows)
+    other = res.get("other_votes") or 0
     as_of = short_date(res["as_of"])
     base = {"chip": "Official results", "kicker": f"{short_date(election)} election", "head": c["doc"]["name"]}
     if use_results and RESULT_ROWS[0] <= len(rows) <= RESULT_ROWS[1]:
-        label = "Votes by choice" if c["kind"] == "measure" else "Votes by candidate"
-        return [{**base, "results": {"contest": label, "status": "official", "as_of": as_of,
-                                     "candidates": [{"name": r["name"], "votes": r["votes"]} for r in rows]},
-                 "text": " ".join(text), "by": PERCENT_NOTE}]
-    # rows: [name, "votes · percent"], same denominator as the results field (the names listed)
-    total = sum(r["votes"] for r in rows)
-    lines = [[r["name"], f"{r['votes']:,} votes · {100 * r['votes'] / total if total else 0:.1f}%"] for r in rows]
-    out, size = [], RESULT_ROWS[1]
+        r = {"contest": "Votes by choice" if c["kind"] == "measure" else "Votes by candidate", "status": "official",
+             "as_of": as_of, "candidates": [{"name": x["name"], "votes": x["votes"]} for x in rows]}
+        if c["kind"] == "measure":
+            r["measure"] = True
+        if other:
+            r["other_votes"] = other
+        r["outcome"] = won  # dropped below when not recorded
+        if res.get("covers_note"):
+            r["note"] = str(res["covers_note"])
+        slide = {**base, "results": {k: v for k, v in r.items() if v is not None}, "by": PERCENT_NOTE}
+        if not won:
+            slide["text"] = "Canvass outcome: not recorded yet."
+        return [slide]
+    # rows: [name, "votes · percent"], the same denominator as the results field (all votes shown)
+    lines = [[x["name"], x["votes"]] for x in rows] + ([["Other write-ins", other]] if other else [])
+    total = sum(v for _, v in lines)
+    lines = [[n, f"{v:,} votes · {100 * v / total if total else 0:.1f}%"] for n, v in lines]
+    text = " ".join(filter(None, [f"Canvass outcome: {won}." if won else "Canvass outcome: not recorded yet.",
+                                  res.get("covers_note") and str(res["covers_note"])]))
+    out, size = [], ROWS_PER_SLIDE
     for i in range(0, max(len(lines), 1), size):
         part = len(lines) > size and f" ({i // size + 1} of {-(-len(lines) // size)})" or ""
         out.append({**base, "head": base["head"] + part, "rows": lines[i:i + size],
-                    "text": " ".join(text), "by": f"Official results as of {as_of}. {PERCENT_NOTE}"})
+                    "text": text, "by": f"Official results as of {as_of}. {PERCENT_NOTE}"})
     return out
 
 
@@ -228,8 +243,8 @@ def post_for(cs, slides, highlight, whose, place, county, election, ballot, root
         "approval": "auto" if sources and all(official(s["url"]) for s in sources) else "review",
         "layout": "card", "highlight": highlight, "sources": sources, "slides": slides,
         "caption": (f"Official results for {whose} contests on the {short_date(election)} ballot in {place}{part}, "
-                    "from the canvass. Contests are in ballot order and names are in alphabetical order. Percentages "
-                    "are worked out from the official vote counts."),
+                    "from the canvass. Contests are in ballot order, candidates in alphabetical order. Percentages "
+                    "are of all votes shown, write-ins included, worked out from the official vote counts."),
         "hashtags": [county.replace("-", ""), "electionresults", STATES.get(state, "elections").lower()],
         "record_ids": [record_id(c) for c in cs],
         "notes": " ".join(filter(None, [
