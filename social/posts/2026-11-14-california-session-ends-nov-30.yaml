@@ -1,0 +1,28 @@
+kind: carousel
+level: state
+place: California
+topic: Calendar
+approval: review
+record_ids: [ca/2025-26/calendar/adjourns-sine-die, ca/2027-28/calendar/convenes]
+publish_after: '2026-11-16T07:30:00-06:00'
+found_via: https://californiaglobe.com/?p=95211
+sources:
+- title: California State Senate, Legislative Deadlines
+  url: https://www.senate.ca.gov/legislative-deadlines
+  retrieved: '2026-11-14'
+slides:
+- {kicker: Mark the calendar, big: Nov. 30, head: "California's 2025-26 legislative session ends at midnight on Monday, Nov. 30, 2026.",
+   quote: {label: "California State Senate, Legislative Deadlines", text: "Adjournment sine die at midnight (Art. IV, Sec. 3(a))."}}
+- {kicker: Then, big: Dec. 7, head: "The 2027-28 session convenes at noon on Monday, Dec. 7, 2026.",
+   quote: {label: "California State Senate, Legislative Deadlines", text: "12 Noon convening of the 2027-28 Regular Session (Art. IV, Sec. 3(a))."}}
+caption: |-
+  California's two-year legislative session ends at midnight on Monday, Nov. 30.
+
+  One week later, at noon on Monday, Dec. 7, the 2027-28 session begins.
+
+  Both dates come from the state constitution, Article IV, Section 3(a), as listed on the California Senate's calendar.
+hashtags: [calegislature, california, capol, civics, votetherecord]
+notes: >-
+  Upcoming dates from the California Senate's official Legislative Deadlines page (Nov. 30 sine die, Dec. 7
+  convening, both citing Art. IV, Sec. 3(a)). A search result pointed here, so review. leginfo.legislature.ca.gov
+  returned 403, so the constitution text itself was not opened; the article and section are as the Senate page cites them.
