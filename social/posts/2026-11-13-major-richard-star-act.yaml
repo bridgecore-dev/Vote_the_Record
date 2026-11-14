@@ -1,0 +1,55 @@
+kind: reel
+level: congress
+topic: Veterans
+approval: review
+record_ids: [us/119/2/house/roll/323, us/119/2/house/roll/320, us/119/2/house/roll/322]
+publish_after: '2026-11-15T12:00:00-06:00'
+sources:
+- title: "Office of the Clerk, U.S. House, Roll Call 323 (2026): H.R. 2102, On Passage"
+  url: https://clerk.house.gov/evs/2026/roll323.xml
+  retrieved: '2026-11-13'
+- title: "Office of the Clerk, U.S. House, Roll Call 320 (2026): Motion to Discharge"
+  url: https://clerk.house.gov/evs/2026/roll320.xml
+  retrieved: '2026-11-13'
+- title: "Office of the Clerk, U.S. House, Roll Call 322 (2026): On Agreeing to the Resolution"
+  url: https://clerk.house.gov/evs/2026/roll322.xml
+  retrieved: '2026-11-13'
+- title: "H.R. 2102, Major Richard Star Act, Engrossed in House (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr2102eh/html/BILLS-119hr2102eh.htm
+  retrieved: '2026-11-13'
+bills:
+- id: H.R. 2102
+  does: Would end the cut to military retired pay for some combat-disabled veterans who also get VA disability pay.
+  affects: Veterans medically retired with fewer than 20 years of service who have combat-related disabilities.
+  where: Passed the House 392-18 on Nov. 12, 2026. Next it goes to the Senate.
+  summary:
+    text: >-
+      To amend title 10, United States Code, to provide for concurrent receipt of veterans' disability
+      compensation and retired pay for disability retirees with combat-related disabilities, and for other
+      purposes.
+    title: "Official title of H.R. 2102 as passed by the House (GPO)"
+    url: https://www.govinfo.gov/content/pkg/BILLS-119hr2102eh/html/BILLS-119hr2102eh.htm
+    retrieved: '2026-11-13'
+slides:
+- {kicker: "U.S. House · Nov. 12, 2026", big: 392-18, head: "The House passed H.R. 2102, the Major Richard Star Act."}
+- {chip: Who it's for, head: "Veterans who were medically retired before 20 years of service, with combat-related disabilities.",
+   quote: {label: "H.R. 2102, Sec. 2", text: "retired under chapter 61 of this title with fewer than 20 years of creditable service"}}
+- {chip: What changes, head: "Their military retired pay would no longer be cut because they also get VA disability pay.",
+   quote: {label: "H.R. 2102, Sec. 2", text: "is not subject to reduction under sections 5304 and 5305 of title 38."}}
+- {chip: The word to know, big: Concurrent receipt, head: "Getting both payments at once: military retired pay and VA disability compensation.",
+   text: "That is the term the bill's official title uses."}
+- {chip: How it reached a vote, head: "Three House votes in two days.",
+   text: "Nov. 11: a motion to discharge passed 245-175. Nov. 12: the House agreed 271-135 to the resolution setting up the vote, then passed the bill 392-18."}
+- {chip: What's next, big: Senate, head: "The Senate has to pass it too.",
+   text: "If it becomes law, the change starts the first month after enactment, for payments from then on."}
+caption: |-
+  The House passed the Major Richard Star Act, 392-18, on Nov. 12.
+
+  It's about veterans who were medically retired with fewer than 20 years of service and have combat-related disabilities. Under the bill, their military retired pay would no longer be reduced because they also get VA disability pay. The Senate has to pass it next.
+hashtags: [veterans, congress, militaryretirees, votetherecord]
+notes: >-
+  Requested by the owner (veteran disability bill). Slides quote the bill text as engrossed in the House (govinfo).
+  congress.gov refused the request, so there is no CRS summary yet; the bills summary is the bill's official title.
+  Please check the CRS summary on congress.gov before merging. Tallies are whole-House yeas-nays from the Clerk's
+  XML (not-voting: 23, 13, 26). "No longer be cut/reduced" restates the bill's "is not subject to reduction under
+  sections 5304 and 5305 of title 38" (the bill's title calls it concurrent receipt).
