@@ -100,9 +100,10 @@ Write a post only when all of these hold:
   for the pick, and it uses `approval: review`.
 
 Vote posts (a roll call, or a bill's passage):
-- First slide: the tally with what it means ("392 Yea (for), 18 Nay (against), 23 didn't vote"), the bill's
-  short title, and who it affects. On a carousel that names bills, end the first slide with "Swipe to see the
-  bills".
+- First slide: the tally in the slide's `vote` field (`vote: {yea: 392, nay: 18, not_voting: 23}`, plus
+  `present` if any, exactly as the record gives them; the builder labels them "Yea (for)", "Nay (against)"),
+  the bill's short title, and who it affects. Don't write "Swipe to see the bills": the builder adds it to
+  carousels that name bills.
 - Next slide: the totals by party, exactly as the record gives them (the House Clerk's `totals-by-party` in
   the roll's XML; for the Senate, count each senator's party in the vote's XML).
 - Then the names on the smaller side, with party and state as the record lists them ("Roy (R-TX)"):
