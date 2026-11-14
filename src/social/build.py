@@ -32,7 +32,7 @@ LEVELS = {"congress", "state", "local"}
 LAYOUTS = ["card", "band", "stat"]
 SIZES = {"feed": (1080, 1350), "tall": (1080, 1920)}
 SECONDS, FADE = 4.0, 0.4  # each Reel slide; the slide transition
-SLIDE_KEYS = {"chip", "kicker", "big", "head", "text", "rows", "results", "quote", "by", "seconds"}  # see social/README.md
+SLIDE_KEYS = {"chip", "kicker", "big", "head", "text", "rows", "results", "vote", "quote", "by", "seconds", "swipe"}  # see social/README.md
 TOP_KEYS = {"kind", "level", "place", "topic", "approval", "layout", "story", "sources", "slides", "caption",
             "hashtags", "rule", "notes", "publish_after", "found_via", "record_ids",
             "video", "captions", "caption_source", "speakers", "context",  # these five: clips (clip.py)
@@ -75,6 +75,10 @@ def expanded(post: dict) -> list[dict]:
     for b in reversed(post.get("bills") or []):
         at = first.get(bill_key(b.get("id", "")), -1)
         slides.insert(at + 1 if at >= 0 else min(1, len(slides)), explainer(b))
+    # the owner's ask: a carousel that names bills tells people on its first slide to swipe (a Reel plays itself)
+    first_text = " ".join(str(slides[0].get(f) or "") for f in ("head", "text", "by")).lower() if slides else ""
+    if post.get("bills") and post.get("kind") == "carousel" and len(slides) > 1 and "swipe" not in first_text:
+        slides[0] = {**slides[0], "swipe": True}
     return slides
 
 
@@ -274,6 +278,13 @@ body.layout-stat .dots {{ justify-content: center; }}
 .res-bar i {{ display: block; height: 100%; background: #0f5c63; }}
 .res-note {{ font-size: 24px; color: #4d5e63; margin-top: 14px; }}
 .res-outcome {{ font-weight: 600; font-size: 30px; margin-top: 16px; }}
+.res-party {{ font-weight: 400; color: #4d5e63; }}
+/* vote: each count with what it means under it, one style for every side */
+.vote {{ display: flex; gap: 18px; margin-top: 28px; }}
+.vote-cell {{ flex: 1; background: #f2f5f4; border-radius: 18px; padding: 22px 12px; text-align: center; }}
+.vote-n {{ font-family: "Source Serif 4", serif; font-weight: 700; font-size: 64px; color: #0f5c63; line-height: 1; }}
+.vote-l {{ font-size: 26px; color: #4d5e63; margin-top: 10px; }}
+.swipe {{ font-weight: 600; font-size: 30px; color: #0f5c63; margin-top: 28px; }}
 .res.compact .res-row {{ padding: 6px 0; }}
 .res.compact .res-line {{ font-size: 26px; }}
 .res.compact .res-bar {{ height: 10px; margin-top: 4px; }}
@@ -306,8 +317,11 @@ def check_slide(k: int, s: dict) -> list[str]:
         if not 1 <= len(cands) <= 12:
             errs.append(f"slide {k}: results lists 1-12 candidates or choices, not {len(cands)}")
         if not all(isinstance(c, dict) and c.get("name") and isinstance(c.get("votes"), int) and c["votes"] >= 0
-                   and set(c) <= {"name", "votes"} for c in cands):
-            errs.append(f"slide {k}: each result is {{name, votes}} (a whole number); never a party (rule 5)")
+                   and set(c) <= {"name", "votes", "party"} for c in cands):
+            errs.append(f"slide {k}: each result is {{name, votes}} (a whole number), plus party only as the ballot lists it")
+        elif any("party" in c for c in cands) and not all("party" in c for c in cands):
+            # rule 5: party as the ballot lists it, shown the same way for everyone (null where the ballot lists none)
+            errs.append(f"slide {k}: give every candidate a party as the ballot lists it (null if it lists none), or none")
         elif not res.get("measure") and [c["name"].casefold() for c in cands] != sorted(c["name"].casefold() for c in cands):
             errs.append(f"slide {k}: results list candidates alphabetically, never by votes (a measure: measure: true)")
         if res.get("measure") not in (None, True, False):
@@ -319,7 +333,23 @@ def check_slide(k: int, s: dict) -> list[str]:
             errs.append(f"slide {k}: an outcome comes only from the official canvass (status official)")
         if set(res) - RESULT_KEYS:
             errs.append(f"slide {k}: results fields are {', '.join(sorted(RESULT_KEYS))}")
+    v = s.get("vote")
+    if v is not None:
+        if not (isinstance(v, dict) and set(v) <= set(VOTE_LABELS) and {"yea", "nay"} <= set(v)
+                and all(isinstance(n, int) and n >= 0 for n in v.values())):
+            errs.append(f"slide {k}: vote is {{yea, nay, not_voting, present}} as whole numbers, exactly as the record "
+                        "gives them; yea and nay required")
     return errs
+
+
+# what each count means, under the number: the record's word first, then plain English
+VOTE_LABELS = {"yea": "Yea (for)", "nay": "Nay (against)", "present": "Present", "not_voting": "Didn't vote"}
+
+
+def vote_html(v: dict) -> str:
+    cells = "".join(f'<div class="vote-cell"><div class="vote-n">{v[key]:,}</div><div class="vote-l">{label}</div></div>'
+                    for key, label in VOTE_LABELS.items() if key in v)
+    return f'<div class="vote">{cells}</div>'
 
 
 RESULT_KEYS = {"contest", "status", "as_of", "reporting", "candidates", "measure", "other_votes", "outcome", "note"}
@@ -328,15 +358,16 @@ RESULT_KEYS = {"contest", "status", "as_of", "reporting", "candidates", "measure
 def results_html(res: dict) -> str:
     """A contest's vote counts: alphabetical, one color for everyone, no winner marked; the status says how final."""
     e = html.escape
-    lines = [(c["name"], c["votes"]) for c in res["candidates"]]
+    lines = [(c["name"], c["votes"], c.get("party")) for c in res["candidates"]]
     if res.get("other_votes"):
-        lines.append(("Other write-ins", res["other_votes"]))
-    total = sum(v for _, v in lines) or 1
+        lines.append(("Other write-ins", res["other_votes"], None))
+    total = sum(v for _, v, _ in lines) or 1
     out = (f'<div class="res{" compact" if len(lines) > 6 else ""}">'
            f'<div class="res-contest">{e(res["contest"])}</div>')
-    for name, votes in lines:
+    for name, votes, party in lines:
         pct = 100 * votes / total
-        out += (f'<div class="res-row"><div class="res-line"><span class="res-name">{e(name)}</span>'
+        tag = f' <span class="res-party">{e(party)}</span>' if party else ""  # as the ballot lists it; same style for all
+        out += (f'<div class="res-row"><div class="res-line"><span class="res-name">{e(name)}{tag}</span>'
                 f'<span class="res-n">{votes:,} · {pct:.1f}%</span></div>'
                 f'<div class="res-bar"><i style="width:{pct:.1f}%"></i></div></div>')
     if res.get("outcome"):
@@ -368,6 +399,10 @@ def slide_html(post: dict, s: dict, k: int, n: int, layout: str, size: tuple[int
             body += f'<div class="text">{f"<span class=label>{e(label)}:</span> " if label else ""}{e(value)}</div>'
     if s.get("results"):
         body += results_html(s["results"])
+    if s.get("vote"):
+        body += vote_html(s["vote"])
+    if s.get("swipe"):
+        body += '<div class="swipe">Swipe to see the bills →</div>'
     if s.get("quote"):
         q = s["quote"]
         body += f'<div class="text"><span class="label">{e(q.get("label", "Official text"))}:</span> “{e(q["text"])}”</div>'
@@ -390,13 +425,15 @@ def alt_text(post: dict, s: dict) -> str:
     q = s.get("quote") or {}
     parts = [level_tag(post), s.get("chip"), s.get("kicker"), s.get("big"), s.get("head"), s.get("text"),
              *(f"{label}: {value}" if label else value for label, value in rows(s)),
-             *([s["results"]["contest"]] + [f'{c["name"]}: {c["votes"]:,} votes' for c in s["results"]["candidates"]]
+             *([s["results"]["contest"]] + [f'{c["name"]}{" (" + c["party"] + ")" if c.get("party") else ""}: {c["votes"]:,} votes' for c in s["results"]["candidates"]]
                + ([f'Other write-ins: {s["results"]["other_votes"]:,} votes'] if s["results"].get("other_votes") else [])
                + ([s["results"]["outcome"]] if s["results"].get("outcome") else [])
                + [f'{s["results"]["status"].capitalize()} results as of {s["results"]["as_of"]}']
                + ([s["results"]["note"]] if s["results"].get("note") else [])
                if s.get("results") else []),
-             f'{q.get("label", "Official text")}: "{q["text"]}"' if q else None, s.get("by"), source_line(post)]
+             *(f"{VOTE_LABELS[key]}: {n:,}" for key, n in (s.get("vote") or {}).items()),
+             f'{q.get("label", "Official text")}: "{q["text"]}"' if q else None, s.get("by"),
+             "Swipe to see the bills." if s.get("swipe") else None, source_line(post)]
     return " ".join(str(p) if re.search(r'[.?!"”]$', str(p)) else f"{p}." for p in parts if p)
 
 
