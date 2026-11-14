@@ -69,6 +69,9 @@ changes, even if the person's name does (the file's `name` changes instead).
   first, then other actions, newest first), then what they said, promises, campaign finance,
   the offices they hold or held, and their past races. A profile with `research: pending` says
   "We haven't researched this official's record yet."
+  A member of the Texas Legislature whose session `members.yaml` gives a `party` gets one muted chip
+  under their name, "Party (Texas Legislative Reference Library): R", with its source and badge. It
+  is the same for every member and never changes order, color, or scoring (rule 5).
 
 ## Order of work
 

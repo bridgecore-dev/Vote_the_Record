@@ -342,6 +342,18 @@ one rule for everyone: **every bill that became law, and each chamber's vote to 
   A bill passed without a recorded vote says so, with no names.
 - **Same words for everyone:** "Voted yes on HB 2 (Relating to ...)" with the bill's official caption, its
   date, and the journal page. Nothing is added about what the bill does beyond its caption.
+- **Totals by party.** A vote's result can add each party's yes-no count, such as "Passed the House
+  120-25 (D 35-25, R 85-0)", parties in alphabetical order of their codes, the same style on every
+  vote. The party is the code the Texas Legislative Reference Library (a state agency) prints in its
+  "Texas Legislators: Past & Present" member list for that Legislature and chamber
+  (`lrl.texas.gov/legeLeaders/members/membersearch.cfm?leg=89&chamber=H`, and `chamber=S`). Each
+  member is matched by chamber and district, never by name; the name is only a check, and a member
+  whose name doesn't agree, or whose district has no single matching member, gets no party. We count
+  only the members the journal names as voting yes or no (for a Senate vote counted from the roll
+  call, as above, the roll less the nays). The totals appear only when every one of those members has
+  a party and the counts add up to the printed tally; otherwise the vote shows its tally alone. Each
+  profile also shows the member's listed party as a plain label. Party is never used to sort, score,
+  rank, or color anything (rule 5).
 - **For information only.** These votes appear on officeholders' profiles, newest first. They are not
   linked to quiz questions and don't affect any match.
 
