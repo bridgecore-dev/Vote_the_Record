@@ -1,0 +1,6 @@
+# Fixture: a Highlights file with no Fixture County entry.
+topics:
+- {name: Local, icon: pin}
+- {name: Results, icon: tally}
+places:
+- {name: Other Co., icon: pin}

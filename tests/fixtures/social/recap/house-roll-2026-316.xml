@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rollcall-vote>
+  <vote-metadata>
+    <majority>R</majority>
+    <congress>119</congress>
+    <session>2nd</session>
+    <chamber>U.S. House of Representatives</chamber>
+    <rollcall-num>316</rollcall-num>
+    <legis-num>H R 9612</legis-num>
+    <vote-question>On Motion to Suspend the Rules and Pass, as Amended</vote-question>
+    <vote-type>2/3 YEA-AND-NAY</vote-type>
+    <vote-result>Passed</vote-result>
+    <action-date>9-Nov-2026</action-date>
+    <action-time time-etz="19:07">7:07 PM</action-time>
+    <vote-desc>American Enrichment Deployment Act</vote-desc>
+    <vote-totals>
+      <totals-by-party-header>
+        <party-header>Party</party-header>
+        <yea-header>Yeas</yea-header>
+        <nay-header>Nays</nay-header>
+        <present-header>Answered “Present”</present-header>
+        <not-voting-header>Not Voting</not-voting-header>
+      </totals-by-party-header>
+      <totals-by-party>
+        <party>Republican</party>
+        <yea-total>196</yea-total>
+        <nay-total>0</nay-total>
+        <present-total>0</present-total>
+        <not-voting-total>22</not-voting-total>
+      </totals-by-party>
+      <totals-by-party>
+        <party>Democratic</party>
+        <yea-total>197</yea-total>
+        <nay-total>3</nay-total>
+        <present-total>0</present-total>
+        <not-voting-total>14</not-voting-total>
+      </totals-by-party>
+      <totals-by-party>
+        <party>Independent</party>
+        <yea-total>1</yea-total>
+        <nay-total>0</nay-total>
+        <present-total>0</present-total>
+        <not-voting-total>0</not-voting-total>
+      </totals-by-party>
+      <totals-by-vote>
+        <total-stub>Totals</total-stub>
+        <yea-total>394</yea-total>
+        <nay-total>3</nay-total>
+        <present-total>0</present-total>
+        <not-voting-total>36</not-voting-total>
+      </totals-by-vote>
+    </vote-totals>
+  </vote-metadata>
+  <vote-data></vote-data>
+</rollcall-vote>

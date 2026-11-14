@@ -1,0 +1,10 @@
+# Fictional ballot for tests.
+name: Fixture County ballot
+election_date: '2026-11-03'
+contests:
+- tx/statewide/elections/2026-11-03/governor
+- tx/localities/city-of-sample/elections/2026-11-03/proposition-a
+- tx/localities/city-of-sample/elections/2026-11-03/council-1
+- tx/localities/fixture-county/elections/2026-11-03/county-judge
+- tx/localities/fixture-county/elections/2026-11-03/county-clerk
+- tx/localities/fixture-county/elections/2026-11-03/constable-1

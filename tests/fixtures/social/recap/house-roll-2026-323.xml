@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rollcall-vote>
+  <vote-metadata>
+    <majority>R</majority>
+    <congress>119</congress>
+    <session>2nd</session>
+    <chamber>U.S. House of Representatives</chamber>
+    <rollcall-num>323</rollcall-num>
+    <legis-num>H R 2102</legis-num>
+    <vote-question>On Passage</vote-question>
+    <vote-type>YEA-AND-NAY</vote-type>
+    <vote-result>Passed</vote-result>
+    <action-date>12-Nov-2026</action-date>
+    <action-time time-etz="10:59">10:59 AM</action-time>
+    <vote-desc>Major Richard Star Act</vote-desc>
+    <vote-totals>
+      <totals-by-party-header>
+        <party-header>Party</party-header>
+        <yea-header>Yeas</yea-header>
+        <nay-header>Nays</nay-header>
+        <present-header>Answered “Present”</present-header>
+        <not-voting-header>Not Voting</not-voting-header>
+      </totals-by-party-header>
+      <totals-by-party>
+        <party>Republican</party>
+        <yea-total>181</yea-total>
+        <nay-total>18</nay-total>
+        <present-total>0</present-total>
+        <not-voting-total>19</not-voting-total>
+      </totals-by-party>
+      <totals-by-party>
+        <party>Democratic</party>
+        <yea-total>210</yea-total>
+        <nay-total>0</nay-total>
+        <present-total>0</present-total>
+        <not-voting-total>4</not-voting-total>
+      </totals-by-party>
+      <totals-by-party>
+        <party>Independent</party>
+        <yea-total>1</yea-total>
+        <nay-total>0</nay-total>
+        <present-total>0</present-total>
+        <not-voting-total>0</not-voting-total>
+      </totals-by-party>
+      <totals-by-vote>
+        <total-stub>Totals</total-stub>
+        <yea-total>392</yea-total>
+        <nay-total>18</nay-total>
+        <present-total>0</present-total>
+        <not-voting-total>23</not-voting-total>
+      </totals-by-vote>
+    </vote-totals>
+  </vote-metadata>
+  <vote-data></vote-data>
+</rollcall-vote>

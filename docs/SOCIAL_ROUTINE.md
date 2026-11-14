@@ -7,7 +7,7 @@ merged post is published by `src/social/publish.py` (`.github/workflows/social-p
 
 ## 1. Set up
 
-    pip install -r requirements.txt
+    python -m pip install -r requirements.txt   # python -m: the sandbox has more than one Python
     git fetch origin 'refs/heads/social/*:refs/remotes/origin/social/*'
 
 ## 2. Know what is already taken
@@ -27,10 +27,17 @@ Official feeds first. These need no key:
 - State legislatures' official sites (`.gov` or `.us`), e.g. Texas Legislature Online reports at
   https://capitol.texas.gov/Reports/ (bills filed by date, bills passed, calendars)
 
+Recaps: in the first run on a Saturday, draft the week's Congress recap; in the first run on the 1st of a
+month, draft the past month's. `python src/social/recap.py --week <any date in Mon-Sun week> --write` (or
+`--month YYYY-MM`; add `--reel` for a Reel version when the day has no Reel). It needs `CONGRESS_API_KEY` for
+the CRS summaries; without it the draft fails `--check`, so skip the recap and say so in the summary. Fill each
+bill's `affects` only from the CRS summary (or write what the summary does say), then continue at step 5's
+check. Skip a recap if a pull request for that week or month already exists.
+
 Then the owner's ideas: notes, shared reels and videos (often screen recordings) the owner sent to
 @vote.the.record by DM. The environment has a read-only key for the private bucket they are kept in:
 
-    pip install boto3 -r requirements-listen.txt
+    python -m pip install boto3 -r requirements-listen.txt
     python src/social/inbox.py --fetch /tmp/ideas
     python src/social/listen.py /tmp/ideas/media/<file>     # for each video: transcript.txt + frames
 
@@ -38,6 +45,11 @@ Work on ideas received in the last two hours, and on older ones only if no pull 
 (`gh pr list --state all --search "<id>"`). Read the note, the transcript and the frames (Read the .jpg files)
 to learn the topic. Each idea is a tip, like a news story: find the official record behind it and build the
 post on that record only. A machine transcript gets names and numbers wrong; never take a fact from it.
+A video often covers several topics: list every topic it raises, not just the first, and cover each one.
+When covering a topic fairly takes more bills than fit one post (every bill named needs its explainer slide
+and caption lines), make a numbered series (`Part 1 of 3`...), one pull request per part, each with the same
+selection rule, and say in every part's pull request body that the parts are meant to be merged together.
+The three-pull-requests-per-run limit doesn't apply to the parts of one owner idea.
 
 Ideas are private, and this repo and its pull requests are public. Set `found_via: owner idea <id>` (never
 the URL), put `Idea: <id>` in the pull request body so later runs skip it, and use `approval: review`. Never
@@ -69,10 +81,21 @@ Write a post only when all of these hold:
 - It is new since the last run, or a date coming up that people should know.
 - It has something concrete: a number, a date, an outcome, a vote tally.
 - A 16-year-old would understand it from one sentence.
+- It teaches something, not just announces it. Besides the what and when, the slides say what it means for
+  the people who live there, from an official source: what the law or vote changes and for whom, what a
+  session or body can and can't do, or what a reader can do (watch, testify, contact, vote). A date or a
+  tally alone is not enough; if no official source explains why it matters, skip it.
 - Every claim on the slides rests on a source you opened in this run, quoted or stated without going past it.
 - It can be told neutrally: no party names, no loaded words, the same wording for everyone involved.
 - If it singles out some items (a "notable" bill, one member's vote), there is a stated, even-handed rule
   for the pick, and it uses `approval: review`.
+
+Every day should have at least one Reel (`kind: reel`), one feed post (`carousel` or `image`) and one story
+(`kind: story`, or a post with a `story: true` slide). Count the `kind`s already scheduled for each of the
+next two days (on `main` and in open `social/*` pull requests) and give a missing format priority. Choose
+the format that fits: a Reel for one quick point that takes 3-6 slides, a carousel for something to read
+(bill explainers, vote tallies), a story for a reminder or a date. Never weaken the rules above to fill a
+format; an empty slot is better than a weak post.
 
 Zero posts is a fine result. At most three pull requests per run; pick the strongest.
 The routine runs hourly, so most runs should open nothing. If six or more post pull requests are already
@@ -104,7 +127,9 @@ One file, `social/posts/<YYYY-MM-DD>-<slug>.yaml`, in the format in `social/READ
   the place has no Highlight yet, use `State` or `Local` and say in the pull request that one could be added.
 - Captions in plain, human words: short sentences, no stock phrases, at most five specific hashtags.
 
-Then run `python src/social/build.py --check social/posts/<file>.yaml` and fix the file until it passes.
+Then run `python src/social/build.py --check social/posts/<file>.yaml` and fix the file until it passes. Run
+only `--check`: don't render slides in this sandbox. The pull request's review workflow builds them and posts
+previews; check those before calling anything ready.
 
 ## 6. Open the pull request
 

@@ -1,0 +1,26 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd" ID="P0b002ee1e99802ce">
+<titleInfo>
+         <title>An act to amend the Accelerating Access to Critical Therapies for ALS Act to reauthorize the provisions of such Act through fiscal year 2031, and for other purposes.</title>
+    </titleInfo>
+<originInfo>
+         <publisher>U.S. Government Publishing Office</publisher>
+         <dateIssued encoding="w3cdtf">2026-11-03</dateIssued>
+         <issuance>monographic</issuance>
+    </originInfo>
+<extension>
+         <docClass>PUBLIC</docClass>
+         <accessId>PLAW-119publ138</accessId>
+         <congress>119</congress>
+         <number>138</number>
+         <bill congress="119" context="side note" number="8205" priority="primary" type="HR"></bill>
+         <bill congress="119" context="legislative history" number="8205" priority="primary" type="HR"></bill>
+         <bill congress="119" context="legislative history" number="4472" priority="secondary" type="S"></bill>
+         <shortTitle>Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026</shortTitle>
+         <isAppropriation>false</isAppropriation>
+         
+         
+         <congReport congress="119" number="733" type="H"></congReport>
+         
+         
+    </extension>
+</mods>
