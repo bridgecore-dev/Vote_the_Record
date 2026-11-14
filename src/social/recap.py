@@ -180,7 +180,8 @@ def law(fetch, c: int, n: int) -> dict | None:
         if el.get("priority") == "primary":
             b = bill(el.get("type", "") + el.get("number", ""), int(el.get("congress") or c))
             break
-    return {"congress": c, "number": n, "title": short, "bill": b, "url": MODS.format(c=c, n=n),
+    return {"congress": c, "number": n, "title": short, "short": text(m, "m:extension/m:shortTitle", MODS_NS),
+            "bill": b, "url": MODS.format(c=c, n=n),
             "approved": dt.date.fromisoformat(text(m, "m:originInfo/m:dateIssued", MODS_NS))}
 
 
@@ -372,6 +373,20 @@ def gather_items(law_list: list[dict], votes: list[dict]) -> list[dict]:
     return items
 
 
+SHORT_TITLE = re.compile(r"(?!(A|An) (bill|act|joint resolution)\b|To |Providing )[A-Z].{0,118}\b(Act|Resolution)( of \d{4})?")
+
+
+def short_title(item: dict) -> str | None:
+    """The bill's official short title, for bills[].title: the law's (GovInfo MODS shortTitle), else the first
+    vote description that is one (the Clerk's or Senate's, e.g. 'Major Richard Star Act'), never a long title."""
+    if item.get("law") and item["law"].get("short"):
+        return item["law"]["short"]
+    for v in item["votes"]:
+        if SHORT_TITLE.fullmatch(v.get("title") or ""):
+            return v["title"]
+    return None
+
+
 def tally(v: dict) -> str:
     return f"{v['chamber']}, {day(v['date'])}: {v['result']}, {v['yeas']}-{v['nays']}"
 
@@ -446,7 +461,8 @@ def assemble(start, end, kind, counts, items, shown, sources, summaries, reel, t
         if not i["bill"]:
             continue
         b, (summ, why) = i["bill"], summaries.get(i["bill"]["id"], (None, "not looked up"))
-        entry = {"id": b["id"], "does": "", "affects": "", "where": where(i)}
+        entry = {"id": b["id"], **({"title": t} if (t := short_title(i)) else {}), "does": "", "affects": "",
+                 "where": where(i)}
         if summ:
             first = summ["_first"]
             if len(first) <= build.BILL_LIMITS["does"]:
