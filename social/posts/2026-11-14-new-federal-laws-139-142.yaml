@@ -1,0 +1,125 @@
+kind: carousel
+level: congress
+topic: New laws
+approval: review
+record_ids: [us/119/public-law/139, us/119/public-law/140, us/119/public-law/141, us/119/public-law/142]
+publish_after: '2026-11-17T12:00:00-06:00'
+sources:
+- title: Congress.gov, public laws
+  url: https://api.congress.gov/v3/law/119
+  retrieved: '2026-11-14'
+- title: H.R. 7730 text
+  url: https://www.congress.gov/119/bills/hr7730/BILLS-119hr7730enr.htm
+  retrieved: '2026-11-14'
+- title: H.R. 1703 text
+  url: https://www.congress.gov/119/bills/hr1703/BILLS-119hr1703enr.htm
+  retrieved: '2026-11-14'
+- title: H.R. 997 text
+  url: https://www.congress.gov/119/bills/hr997/BILLS-119hr997enr.htm
+  retrieved: '2026-11-14'
+- title: H.R. 1945 text
+  url: https://www.congress.gov/119/bills/hr1945/BILLS-119hr1945enr.htm
+  retrieved: '2026-11-14'
+- title: House roll call 85 (2025)
+  url: https://clerk.house.gov/evs/2025/roll085.xml
+  retrieved: '2026-11-14'
+bills:
+- id: H.R. 7730
+  title: Bankruptcy Threshold Adjustment Act
+  does: Raises the debt limits to file small-business (Subchapter V) and Chapter 13 bankruptcy, restoring limits that expired in 2024.
+  affects: Small businesses and people with regular income whose debts fall between the old and new limits.
+  where: Signed into law Nov. 10, 2026, as Public Law 119-142. Applies to cases filed on or after that date.
+  summary:
+    text: "This bill restores changes that expired in 2024 applicable to debt limits for Subchapter V (small business reorganization) and Chapter 13 (the wage earner's plan) bankruptcies."
+    title: CRS summary, H.R. 7730
+    url: https://api.congress.gov/v3/bill/119/hr/7730/summaries
+    retrieved: '2026-11-14'
+- id: H.R. 1703
+  title: Choices for Increased Mobility Act of 2026
+  does: Medicare gets separate billing codes for titanium or carbon-fiber ultralight wheelchair bases, starting Jan. 1, 2028.
+  affects: People on Medicare who buy or rent ultralightweight manual wheelchairs, and the suppliers who sell them.
+  where: Signed into law Nov. 10, 2026, as Public Law 119-140. The changes start Jan. 1, 2028.
+  summary:
+    text: "This bill requires the Centers for Medicare & Medicaid Services (CMS) to establish specific billing codes under Medicare for certain materials used in ultralightweight manual wheelchairs."
+    title: CRS summary, H.R. 1703
+    url: https://api.congress.gov/v3/bill/119/hr/1703/summaries
+    retrieved: '2026-11-14'
+- id: H.R. 997
+  title: National Taxpayer Advocate Enhancement Act of 2025
+  does: Lets the National Taxpayer Advocate appoint lawyers who report directly to the Advocate, not to Treasury's General Counsel.
+  affects: The Taxpayer Advocate Service, the part of the IRS that helps taxpayers with IRS problems.
+  where: Signed into law Nov. 10, 2026, as Public Law 119-139.
+  summary:
+    text: "This bill authorizes the National Taxpayer Advocate to appoint legal counsel within the Taxpayer Advocate Service (TAS) to report directly to the National Taxpayer Advocate."
+    title: CRS summary, H.R. 997
+    url: https://api.congress.gov/v3/bill/119/hr/997/summaries
+    retrieved: '2026-11-14'
+- id: H.R. 1945
+  title: America's National Churchill Museum National Historic Landmark Act
+  does: Makes the Churchill museum at Westminster College in Fulton, Mo., a National Historic Landmark and orders a park study.
+  affects: The museum, Westminster College, the city of Fulton, and the Interior Department.
+  where: Signed into law Nov. 10, 2026, as Public Law 119-141.
+  summary:
+    text: "This bill designates the America’s National Churchill Museum, including the Winston Churchill Memorial, located at Westminster College in Fulton, Missouri, as the America’s National Churchill Museum National Historic Landmark."
+    title: CRS summary, H.R. 1945
+    url: https://api.congress.gov/v3/bill/119/hr/1945/summaries
+    retrieved: '2026-11-14'
+slides:
+- kicker: New federal laws
+  big: '4'
+  head: new federal laws, all signed Nov. 10, 2026.
+  text: Bankruptcy limits, Medicare wheelchairs, the IRS Taxpayer Advocate, and a historic landmark. Swipe to see the bills.
+- chip: Public Law 119-142
+  big: H.R. 7730
+  head: Higher debt limits to file bankruptcy
+  rows:
+  - [Before, "Small business: debts up to about $3.4 million"]
+  - [After, "Up to $7.5 million"]
+  - [Before, "Chapter 13: about $2.1 million, separate caps"]
+  - [After, "Under $2.75 million, all debts counted together"]
+  text: These limits had been higher until they expired in 2024. Congress.gov lists no CBO cost estimate.
+- chip: Public Law 119-140
+  big: H.R. 1703
+  head: Medicare and lighter wheelchairs, from Jan. 1, 2028
+  rows:
+  - [Change, "New billing codes for titanium or carbon-fiber bases"]
+  - [Medicare pays, "The same as it otherwise would"]
+  - [You may pay, "The gap between the supplier's price and that"]
+  text: Medicare may require the supplier to tell you about that cost before you buy or rent. Congress.gov lists no CBO cost estimate.
+- chip: Public Law 119-139
+  big: H.R. 997
+  head: The IRS Taxpayer Advocate can hire its own lawyers
+  rows:
+  - [Before, "Its lawyers are under Treasury's General Counsel"]
+  - [After, "Lawyers can report directly to the Advocate"]
+  - [Also, "Personnel power covers all Advocate Service staff"]
+  text: "Before, that personnel power covered local offices. CBO's estimate: cbo.gov/publication/61283."
+- chip: Public Law 119-141
+  big: H.R. 1945
+  head: A National Historic Landmark in Fulton, Mo.
+  rows:
+  - [Designates, "America's National Churchill Museum"]
+  - [Allows, "Interior partnerships, with technical and financial help"]
+  - [Orders, "A study of adding it to the National Park System"]
+  text: "Property owners, including the college, keep the actions they could take before. CBO's estimate: cbo.gov/publication/62167."
+- kicker: How they passed
+  head: None of the four drew a recorded “no” vote.
+  rows:
+  - [H.R. 7730, "House voice vote · Senate unanimous consent"]
+  - [H.R. 1703, "House voice vote · Senate voice vote"]
+  - [H.R. 997, "House 385-0 (2025) · Senate unanimous consent"]
+  - [H.R. 1945, "House voice vote · Senate unanimous consent"]
+  text: Which of these four would you want explained in more detail?
+caption: |-
+  Four new federal laws, all signed Nov. 10: higher debt limits to file bankruptcy, a Medicare wheelchair billing change that starts in 2028, the IRS Taxpayer Advocate's own lawyers, and a National Historic Landmark in Missouri.
+
+  Which one would you want explained next?
+hashtags: [congress, newlaw, bankruptcy, medicare, votetherecord]
+notes: >-
+  New since the last new-laws post (119-137/138). Congress.gov lists 119-139 to 119-142, all signed Nov. 10; the
+  GovInfo feed returned 522 this run, and the merged weekly recap (Nov. 16 slot) says "New public laws: 0" because
+  GovInfo hadn't posted them, so check that recap. CRS summaries are of the introduced bills; H.R. 7730 and 1703
+  passed "as amended", and I checked each claim against the enrolled text (7730 and 1703 numbers and the 2028 start
+  date match the enrolled text). cbo.gov returned 403, so the CBO estimates for H.R. 997 and 1945 are linked, not
+  quoted; congress.gov lists none for 7730 or 1703. The sources don't say who loses under either change, so the
+  slides don't claim one. Tallies come from Congress.gov's actions; the only roll call was House roll 85 (2025), 385-0.
