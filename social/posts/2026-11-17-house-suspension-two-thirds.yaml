@@ -1,0 +1,60 @@
+kind: story
+level: congress
+topic: How Congress works
+approval: review
+highlight: How it works
+record_ids: [us/119/2/house/floor-week/2026-11-16]
+publish_after: '2026-11-17T20:00:00-06:00'
+sources:
+- title: "U.S. House, Floor Schedule: Week of Nov. 16, 2026 (docs.house.gov, last updated Nov. 13, 2026)"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-16
+  retrieved: '2026-11-14'
+- title: "House Practice: A Guide to the Rules, Precedents and Procedures of the House, Chapter 53. Suspension of Rules (GPO)"
+  url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-54.htm
+  retrieved: '2026-11-14'
+- title: "live.house.gov, U.S. House of Representatives (House FloorCast)"
+  url: https://live.house.gov/
+  retrieved: '2026-11-14'
+- title: "Office of the Clerk, U.S. House of Representatives, Votes"
+  url: https://clerk.house.gov/Votes
+  retrieved: '2026-11-14'
+slides:
+- kicker: U.S. House · Week of Nov. 16
+  big: 2/3
+  head: Most bills on the House schedule this week need a two-thirds vote to pass.
+  text: "The floor schedule lists 13 bills that may come up under \"suspension of the rules\" and 2 under a rule."
+- kicker: Suspension of the rules
+  head: A fast track for bills with wide support.
+  rows:
+  - [40 minutes, "of debate, split between a supporter and an opponent"]
+  - [No amendments, from the floor]
+  - [Two-thirds, of members present and voting must vote yes]
+  quote: {label: House Practice (GPO), text: "Under the modern practice, the motion to suspend the rules is used frequently to pass legislative measures that are perceived to have a broad degree of support and little need for prolonged debate."}
+- kicker: If it falls short
+  head: A bill that misses two-thirds isn't dead.
+  text: The Speaker can schedule it again under suspension, or the Rules Committee can report a resolution to bring it up.
+  quote: {label: House Practice (GPO), text: "Rejection of a motion that the House suspend the rules and pass a bill does not constitute a rejection of the bill."}
+- kicker: Under a rule
+  head: The other 2 bills come up under a rule from the Rules Committee.
+  text: A rule is a "special order of business." The House votes on the rule first.
+  quote: {label: House Practice (GPO), text: "Today, special orders of business usually are adopted by a simple majority vote of the House on a report from the Committee on Rules."}
+- kicker: Watch it yourself
+  head: Watch the House floor live at live.house.gov.
+  text: "Recorded votes are posted at clerk.house.gov/Votes. Should more bills get full debate, or does the fast track work?"
+caption: |-
+  This week's House floor schedule lists 15 bills. 13 may come up under "suspension of the rules," and 2 under a rule from the Rules Committee.
+
+  Under suspension, a bill gets 40 minutes of debate, split between a supporter and an opponent. No amendments can be offered from the floor. It passes only if two-thirds of the members present and voting say yes. A bill that falls short isn't dead: it can be scheduled again, or brought up under a rule.
+
+  Bills under a rule start with a vote on the rule itself, which usually passes by a simple majority.
+
+  Watch the floor at live.house.gov. Recorded votes are at clerk.house.gov/Votes. Should more bills get full debate, or does the fast track work?
+hashtags: [house, congress, civics, howcongressworks, votetherecord]
+notes: >-
+  Fills the missing story on Nov. 17 (none scheduled for Nov. 15 or 17; Nov. 15 slots are full). Process explainer
+  tied to the House floor schedule for the week of Nov. 16 as of Nov. 13, 5:02 p.m.: 13 suspension bills, 2 under a
+  rule (counted from docs.house.gov). No bill is named, so no bills entries. The schedule says items "may be
+  considered" and the Majority Leader's site has the full schedule; check the counts haven't changed before the
+  slot. House Practice is the 2017 (115th Congress) GPO edition; the 40-minute, no-amendment and two-thirds rules
+  are Rule XV, clause 1, but please confirm against the 119th Congress rules. Review, not auto, because slides
+  restate House Practice in our words.
