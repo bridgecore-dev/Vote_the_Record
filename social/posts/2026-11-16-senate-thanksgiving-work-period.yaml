@@ -1,0 +1,41 @@
+kind: story
+level: congress
+topic: Calendar
+approval: review
+highlight: Congress
+record_ids: [us/119/2/senate/schedule/2026-11-16, us/119/2/senate/calendar/state-work-period-2026-11-23]
+publish_after: '2026-11-16T17:30:00-06:00'
+sources:
+- title: "U.S. Senate: Tentative 2026 Legislative Schedule"
+  url: https://www.senate.gov/legislative/2026_schedule.htm
+  retrieved: '2026-11-14'
+- title: "U.S. Senate: Floor Proceedings"
+  url: https://www.senate.gov/legislative/floor_activity_pail.htm
+  retrieved: '2026-11-14'
+- title: "U.S. Senate: About Nominations"
+  url: https://www.senate.gov/about/powers-procedures/nominations.htm
+  retrieved: '2026-11-14'
+slides:
+- kicker: U.S. Senate · Calendar
+  big: Nov. 23-27
+  head: The Senate's tentative schedule lists Nov. 23-27 as days it expects not to be in session.
+  text: Thanksgiving week. Its floor schedule set the next meeting before that for Monday, Nov. 16, at 3:00 p.m.
+  quote: {label: Senate tentative schedule, text: "Nov 23 - Nov 27 State Work Period Thanksgiving - Nov 26"}
+- kicker: What the Senate does
+  head: The president nominates all federal judges. The Senate gives its "advice and consent."
+  quote: {label: Senate page About Nominations, text: "The United States Constitution provides that the president \"shall nominate, and by and with the Advice and Consent of the Senate, shall appoint Ambassadors, other public Ministers and Consuls, Judges of the Supreme Court, and all other Officers of the United States, whose Appointments are not herein otherwise provided for.\""}
+- kicker: Watch it yourself
+  head: You can watch the Senate floor yourself on senate.gov.
+  text: "Go to Floor Proceedings, then Floor Webcast. You can search and watch past sessions too."
+  quote: {label: senate.gov, text: "Search and watch previous proceedings from present to the 112th Congress, 2nd session."}
+caption: |-
+  The Senate is back Nov. 16. Its tentative schedule then lists Nov. 23-27, Thanksgiving week, as a state work period: days it expects not to be in session.
+
+  The president nominates all federal judges, and under the Constitution the Senate gives its "advice and consent." You can watch Senate floor proceedings on senate.gov, under Floor Proceedings, then Floor Webcast.
+hashtags: [senate, congress, civics, votetherecord]
+notes: >-
+  Fills the missing story for Nov. 16 (no story was scheduled for Nov. 15 or 16). All sources senate.gov, opened
+  2026-11-14; review rather than auto because slide 2 restates the nominations page in our words. The tentative
+  schedule is "Updated on Nov 21, 2025"; check it hasn't changed before merging. The floor page says only
+  "Convene at 3:00 p.m." (no time zone), so the slide gives none. Nov. 16-20 is not listed as a non-legislative
+  period, but the post doesn't claim the Senate will sit every day that week.
