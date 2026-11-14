@@ -1,0 +1,79 @@
+kind: carousel
+level: congress
+topic: Bills
+approval: review
+record_ids: [us/119/H.R. 8352/presented-to-president]
+publish_after: '2026-11-18T07:30:00-06:00'
+sources:
+- title: Congress.gov, H.R. 8352 actions
+  url: https://api.congress.gov/v3/bill/119/hr/8352/actions
+  retrieved: '2026-11-14'
+- title: H.R. 8352 enrolled bill text (GovInfo)
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr8352enr/html/BILLS-119hr8352enr.htm
+  retrieved: '2026-11-14'
+- title: House Judiciary Committee report, H. Rept. 119-636 (GovInfo)
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt636/html/CRPT-119hrpt636.htm
+  retrieved: '2026-11-14'
+- title: U.S. Constitution, Article I, Section 7 (National Archives transcript)
+  url: https://www.archives.gov/founding-docs/constitution-transcript
+  retrieved: '2026-11-14'
+bills:
+- id: H.R. 8352
+  title: Criminal History Access Act of 2026
+  does: Lets state agencies that license and certify police officers get criminal history records kept by the FBI.
+  affects: State, D.C. and territory agencies that set hiring and training standards for police officers.
+  where: Passed the House May 12 and the Senate Sept. 30, 2026; presented to the President Nov. 12.
+  summary:
+    text: "This bill authorizes a new type of entity—peace officer standards and training agencies—to access criminal history record information maintained by the Federal Bureau of Investigation."
+    title: CRS summary, H.R. 8352
+    url: https://api.congress.gov/v3/bill/119/hr/8352/summaries
+    retrieved: '2026-11-14'
+slides:
+- kicker: On the President's desk
+  big: H.R. 8352
+  head: Congress sent the Criminal History Access Act to the President on Nov. 12.
+  text: It would let the state agencies that license police officers get FBI criminal history records. Swipe to see the bill.
+- chip: Before → after
+  head: What changes in federal law
+  rows:
+  - [Before, "State officer-licensing agencies aren't on the list"]
+  - [After, "They're added to the FBI records list (28 U.S.C. 534)"]
+  - [Purpose, "Background checks on officer candidates"]
+  - [Then, "Attorney General updates the rules within 180 days"]
+  text: The House Judiciary Committee report says these agencies aren't included now because they license officers instead of making arrests or prosecuting.
+- chip: Who it touches
+  head: Who gains access, and what it costs
+  rows:
+  - [Gains access, "Officer-licensing agencies in every state, D.C. and territories"]
+  - [In Texas, "The Texas Commission on Law Enforcement (TCOLE)"]
+  - [Loses access, "No one: the bill only adds to the list"]
+  - [Cost, "CBO's estimate wasn't ready when the House report was filed"]
+- kicker: How it passed
+  head: Neither chamber took a recorded roll call.
+  rows:
+  - [House, "Voice vote, May 12, 2026"]
+  - [Senate, "Unanimous consent, Sept. 30, 2026"]
+  - [To the President, "Nov. 12, 2026"]
+  text: With no roll call, there is no official list of how each member voted. Introduced by Rep. Derek Schmidt of Kansas.
+- kicker: What happens next
+  head: The President can sign it or veto it.
+  quote:
+    label: U.S. Constitution, Article I, Section 7
+    text: "If any Bill shall not be returned by the President within ten Days (Sundays excepted) after it shall have been presented to him, the Same shall be a Law, in like Manner as if he had signed it, unless the Congress by their Adjournment prevent its Return, in which Case it shall not be a Law."
+  text: Status as of Nov. 14. Should licensing agencies see FBI records on officer candidates? Tell us what you think.
+caption: |-
+  A bill on the President's desk: the Criminal History Access Act (H.R. 8352).
+
+  Right now, the state agencies that license police officers aren't on the list of agencies that can get FBI criminal history records. This bill adds them, for background checks on people applying to be officers. In Texas, that's TCOLE.
+
+  It passed the House by voice vote and the Senate by unanimous consent, so there is no roll call. It was presented to the President on Nov. 12 (status as of Nov. 14).
+
+  Should licensing agencies see these records? Tell us below.
+hashtags: [congress, policing, backgroundchecks, fbi, votetherecord]
+notes: >-
+  New: no post covers H.R. 8352, presented to the President Nov. 12 (congress.gov actions). Before/after and purpose
+  come from H. Rept. 119-636 and the enrolled text (GovInfo); the CRS summary is the reported version, and the enrolled
+  text matches it. CBO's site and constitution.congress.gov refused this run (403), so the cost line uses only the
+  report's statement that CBO's estimate wasn't ready; check cbo.gov for a later estimate. If the President signs or
+  vetoes before Nov. 18, delete this file (or let it go out with the "as of Nov. 14" line). Sponsor named without
+  party: there is no roll call.
