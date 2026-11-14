@@ -70,14 +70,19 @@ the House 251-180 on Nov. 12"]`) or for what an office decides. Keep each item t
     status: official                 # unofficial | official, exactly as the report says
     as_of: Nov. 13, 2026             # the report's own date
     reporting: All precincts         # optional, as the report says
-    candidates:                      # 2-8; alphabetical by name, never by votes
+    candidates:                      # 1-12; alphabetical by name, never by votes (7+ render compact)
     - {name: Jane Doe, votes: 41250}
     - {name: John Roe, votes: 38710}
+    other_votes: 312                 # optional: other write-in votes, counted in the total
+    outcome: "Elected: Jane Doe"     # optional; only with status official (the canvass)
+    note: Harris County's share of a multi-county contest   # optional small line
+    measure: true                    # a ballot measure: keeps the ballot's order (FOR, AGAINST)
 ```
 
 The builder refuses candidates out of alphabetical order and any field but `name` and `votes`, so there is
-never a party (rule 5). Every bar is the same color and no winner is marked; an outcome belongs in the text
-only once the canvass is official. Percentages are of the votes listed. Example:
+never a party (rule 5). Every bar is the same color and no winner is highlighted; `outcome` is one plain line,
+the same for every contest, and only once the canvass is official. Percentages are of all votes shown, write-ins
+included. Example:
 `examples/list-results-format.yaml` (fictional).
 
 ## Bills: always say what it does
@@ -90,6 +95,7 @@ bills:
 - id: H.R. 2347
   does: Would ... (under 140 characters; what changes, in everyday words)
   affects: Who it would apply to (under 120)
+  title: Major Richard Star Act    # optional: the official short title, shown on the explainer
   where: Where it stands now, e.g. "Passed the House Jan. 5; the Senate voted Nov. 10 to take it up." (under 110)
   summary:            # the official summary, quoted exactly (up to 300 characters)
     text: "..."
@@ -99,7 +105,8 @@ bills:
 ```
 
 - The builder puts an explainer slide right after the first slide that names the bill (carousel, story, Reel),
-  adds "What it does / Who it affects / Where it stands" to the caption, and adds the summary to the sources.
+  adds "What it does / Who it affects / Where it stands" to the caption (with 3 or more bills, one line per
+  bill, so a recap still fits Instagram's 2,200 characters), and adds the summary to the sources.
 - `does`, `affects`, and `where` are our words, so they never go past the official summary or bill text. Where
   the summary doesn't say who is affected, say what it does say ("Applies to taxpayers who ...").
 - Federal summaries: the Congressional Research Service summary on congress.gov. Texas: the bill analysis on
@@ -138,7 +145,8 @@ builder refuses `auto` unless every source URL is on a `.gov`, `.us`, or `.mil` 
 news, or any judgment call (picking "notable" bills, a summary in our words), uses `review`.
 
 **Record IDs.** `<jurisdiction>/<session or year>/<record>/<event>`, lower-case jurisdiction, the record as
-officially written: `tx/90R/HB 101/filed`, `tx/90R/HB 101/house-passed`, `us/119/house/roll/316`,
+officially written: `tx/90R/HB 101/filed`, `tx/90R/HB 101/house-passed`, `us/119/2/house/roll/316` (roll calls carry the session:
+House and Senate numbers restart each session), `us/119/2/senate/roll/257`,
 `us/119/public-law/138`, `tx/90R/calendar/convenes`. The event part lets a bill's later actions post again;
 the same event never does. A recap post lists every record it covers.
 

@@ -40,7 +40,7 @@ TOP_KEYS = {"kind", "level", "place", "topic", "approval", "layout", "story", "s
 # A bill number as written federally or in a state: H.R. 2347, S. 12, H.J.Res. 5, HB 101, SJR 3. Not "U.S. 2026".
 BILL = re.compile(r"(?<![A-Za-z.])((?:H\.\s?R|S|H\.\s?J\.\s?Res|S\.\s?J\.\s?Res|H\.\s?Con\.\s?Res|S\.\s?Con\.\s?Res|"
                   r"H\.\s?Res|S\.\s?Res)\.|HB|SB|HJR|SJR|HCR|SCR)\s?(\d+)\b")
-BILL_KEYS = {"id", "does", "affects", "where", "summary"}
+BILL_KEYS = {"id", "title", "does", "affects", "where", "summary"}  # title: the official short title, optional
 BILL_LIMITS = {"does": 140, "affects": 120, "where": 110}
 
 
@@ -63,7 +63,7 @@ def mentioned_bills(post: dict) -> dict[str, int]:
 
 def explainer(b: dict) -> dict:
     """The slide that says what a bill would do, for whom, and where it stands, with the official summary."""
-    return {"chip": b["id"], "kicker": "What the bill would do", "head": b["does"],
+    return {"chip": b["id"], "kicker": b.get("title") or "What the bill would do", "head": b["does"],
             "rows": [["Who it affects", b["affects"]], ["Where it stands", b["where"]]],
             "quote": {"label": "Official summary", "text": b["summary"]["text"]}, "seconds": 8}
 
@@ -273,6 +273,10 @@ body.layout-stat .dots {{ justify-content: center; }}
 .res-bar {{ height: 16px; background: #eef2f1; border-radius: 8px; margin-top: 8px; overflow: hidden; }}
 .res-bar i {{ display: block; height: 100%; background: #0f5c63; }}
 .res-note {{ font-size: 24px; color: #4d5e63; margin-top: 14px; }}
+.res-outcome {{ font-weight: 600; font-size: 30px; margin-top: 16px; }}
+.res.compact .res-row {{ padding: 6px 0; }}
+.res.compact .res-line {{ font-size: 26px; }}
+.res.compact .res-bar {{ height: 10px; margin-top: 4px; }}
 """
 
 
@@ -299,30 +303,47 @@ def check_slide(k: int, s: dict) -> list[str]:
         errs += [f"slide {k}: results needs {f}" for f in ("contest", "status", "as_of") if not res.get(f)]
         if res.get("status") not in ("unofficial", "official"):
             errs.append(f"slide {k}: results status is unofficial or official, as the report says")
-        if not 2 <= len(cands) <= 8:
-            errs.append(f"slide {k}: results lists 2-8 candidates or choices, not {len(cands)}")
+        if not 1 <= len(cands) <= 12:
+            errs.append(f"slide {k}: results lists 1-12 candidates or choices, not {len(cands)}")
         if not all(isinstance(c, dict) and c.get("name") and isinstance(c.get("votes"), int) and c["votes"] >= 0
                    and set(c) <= {"name", "votes"} for c in cands):
             errs.append(f"slide {k}: each result is {{name, votes}} (a whole number); never a party (rule 5)")
-        elif [c["name"].casefold() for c in cands] != sorted(c["name"].casefold() for c in cands):
-            errs.append(f"slide {k}: results list candidates alphabetically, never by votes")
-        if set(res) - {"contest", "status", "as_of", "reporting", "candidates"}:
-            errs.append(f"slide {k}: results fields are contest, status, as_of, reporting, candidates")
+        elif not res.get("measure") and [c["name"].casefold() for c in cands] != sorted(c["name"].casefold() for c in cands):
+            errs.append(f"slide {k}: results list candidates alphabetically, never by votes (a measure: measure: true)")
+        if res.get("measure") not in (None, True, False):
+            errs.append(f"slide {k}: measure is true or omitted")
+        ov = res.get("other_votes")
+        if ov is not None and not (isinstance(ov, int) and ov >= 0):
+            errs.append(f"slide {k}: other_votes is a whole number")
+        if res.get("outcome") and res.get("status") != "official":
+            errs.append(f"slide {k}: an outcome comes only from the official canvass (status official)")
+        if set(res) - RESULT_KEYS:
+            errs.append(f"slide {k}: results fields are {', '.join(sorted(RESULT_KEYS))}")
     return errs
+
+
+RESULT_KEYS = {"contest", "status", "as_of", "reporting", "candidates", "measure", "other_votes", "outcome", "note"}
 
 
 def results_html(res: dict) -> str:
     """A contest's vote counts: alphabetical, one color for everyone, no winner marked; the status says how final."""
     e = html.escape
-    total = sum(c["votes"] for c in res["candidates"]) or 1
-    out = f'<div class="res"><div class="res-contest">{e(res["contest"])}</div>'
-    for c in res["candidates"]:
-        pct = 100 * c["votes"] / total
-        out += (f'<div class="res-row"><div class="res-line"><span class="res-name">{e(c["name"])}</span>'
-                f'<span class="res-n">{c["votes"]:,} · {pct:.1f}%</span></div>'
+    lines = [(c["name"], c["votes"]) for c in res["candidates"]]
+    if res.get("other_votes"):
+        lines.append(("Other write-ins", res["other_votes"]))
+    total = sum(v for _, v in lines) or 1
+    out = (f'<div class="res{" compact" if len(lines) > 6 else ""}">'
+           f'<div class="res-contest">{e(res["contest"])}</div>')
+    for name, votes in lines:
+        pct = 100 * votes / total
+        out += (f'<div class="res-row"><div class="res-line"><span class="res-name">{e(name)}</span>'
+                f'<span class="res-n">{votes:,} · {pct:.1f}%</span></div>'
                 f'<div class="res-bar"><i style="width:{pct:.1f}%"></i></div></div>')
+    if res.get("outcome"):
+        out += f'<div class="res-outcome">{e(res["outcome"])}</div>'
     when = f'{res["status"].capitalize()} results as of {res["as_of"]}' + (f' · {res["reporting"]}' if res.get("reporting") else "")
-    return out + f'<div class="res-note">{e(when)}</div></div>'
+    note = f'<div class="res-note">{e(res["note"])}</div>' if res.get("note") else ""
+    return out + f'<div class="res-note">{e(when)}</div>{note}</div>'
 
 
 def slide_html(post: dict, s: dict, k: int, n: int, layout: str, size: tuple[int, int]) -> str:
@@ -370,7 +391,10 @@ def alt_text(post: dict, s: dict) -> str:
     parts = [level_tag(post), s.get("chip"), s.get("kicker"), s.get("big"), s.get("head"), s.get("text"),
              *(f"{label}: {value}" if label else value for label, value in rows(s)),
              *([s["results"]["contest"]] + [f'{c["name"]}: {c["votes"]:,} votes' for c in s["results"]["candidates"]]
+               + ([f'Other write-ins: {s["results"]["other_votes"]:,} votes'] if s["results"].get("other_votes") else [])
+               + ([s["results"]["outcome"]] if s["results"].get("outcome") else [])
                + [f'{s["results"]["status"].capitalize()} results as of {s["results"]["as_of"]}']
+               + ([s["results"]["note"]] if s["results"].get("note") else [])
                if s.get("results") else []),
              f'{q.get("label", "Official text")}: "{q["text"]}"' if q else None, s.get("by"), source_line(post)]
     return " ".join(str(p) if re.search(r'[.?!"”]$', str(p)) else f"{p}." for p in parts if p)
@@ -434,8 +458,13 @@ def full_caption(post: dict) -> str:
     srcs = all_sources(post)
     sources = "\n".join(f"{s['title']}: {s['url']}" for s in srcs)
     # what each bill does goes in the caption too: most people read the caption, not every slide
-    about = "\n\n".join(f"{b['id']}: {b['does']}\nWho it affects: {b['affects']}\nWhere it stands: {b['where']}"
-                        for b in post.get("bills") or [])
+    bills = post.get("bills") or []
+    name = lambda b: f"{b['id']} ({b['title']})" if b.get("title") else b["id"]
+    if len(bills) > 2:  # a recap: one line per bill, so the caption fits; the slides carry the rest
+        about = "\n".join(f"{name(b)}: {b['does']}" for b in bills) + "\n\nWho each affects and where it stands: on the slides."
+    else:
+        about = "\n\n".join(f"{name(b)}: {b['does']}\nWho it affects: {b['affects']}\nWhere it stands: {b['where']}"
+                            for b in bills)
     tags = " ".join("#" + t.lstrip("#") for t in post.get("hashtags") or [])
     return "\n\n".join(p for p in (post["caption"].strip(), about, ("Sources:\n" if len(srcs) > 1 else "Source:\n") + sources, tags) if p)
 
