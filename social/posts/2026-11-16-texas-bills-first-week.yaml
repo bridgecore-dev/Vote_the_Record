@@ -1,0 +1,53 @@
+kind: story
+level: state
+place: Texas
+topic: Bills filed
+approval: review
+highlight: State
+rule: Every filing date from Nov. 9 to Nov. 13, 2026, with the count Texas Legislature Online reports for that day.
+record_ids: [tx/90R/filing-report/2026-11-13]
+publish_after: '2026-11-16T20:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 13, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-13
+  retrieved: '2026-11-14'
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 9, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-09
+  retrieved: '2026-11-13'
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 10, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-10
+  retrieved: '2026-11-13'
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 11, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-11
+  retrieved: '2026-11-13'
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 12, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-12
+  retrieved: '2026-11-13'
+- title: Texas Legislative Council, Dates of Interest
+  url: https://tlc.texas.gov/docs/legref/Dates-of-Interest.pdf
+  retrieved: '2026-11-14'
+- title: Texas Legislature Online, My TLO
+  url: https://capitol.texas.gov/MnuMyTLO.aspx
+  retrieved: '2026-11-14'
+slides:
+- kicker: 2027 Texas session · Filing
+  big: '1,521'
+  head: bills and resolutions filed in the first five days, Nov. 9 to Nov. 13, 2026.
+  text: "64 of them were filed on Nov. 13. Counts are from Texas Legislature Online's Bills By Filing Date report."
+- kicker: What comes next
+  big: Jan. 12
+  head: The 90th Texas Legislature convenes at noon on Tuesday, Jan. 12, 2027.
+  quote: {label: Texas Legislative Council, text: "First day of 90th Regular Session; Legislature convenes at noon"}
+- kicker: Follow a bill yourself
+  head: Texas Legislature Online lets you set alerts for the bills you care about.
+  quote: {label: My TLO, text: "Enter bills on the alert list, be notified of committee and calendar postings, be notified when bills are assigned subjects of interest, be notified when the house or senate adjourn."}
+caption: |-
+  Texas lawmakers filed 1,521 bills and resolutions for the 2027 session in the first five days of filing, Nov. 9 to Nov. 13. Sixty-four of them came on Nov. 13.
+
+  The Legislature convenes at noon on Jan. 12, 2027. To follow a bill, set an alert on Texas Legislature Online under My TLO: it can tell you when a committee or calendar posting includes it.
+hashtags: [txlege, texaslegislature, texas, civics, votetherecord]
+notes: >-
+  Follow-up to the Nov. 13 filing post (Nov. 9-12, 1,457), which left out Nov. 13 because filing was still under way.
+  The Nov. 13 report (report date 11/14/2026) now lists 64 (41 SB, 22 HB, 1 HJR); Nov. 14 shows none. Review
+  because 1,521 is our sum (1,262 + 116 + 0 + 79 + 64), not a figure TLO prints. Fills a story slot (Nov. 15 has
+  none, but every Nov. 15 slot is taken, so this takes the next free one).
