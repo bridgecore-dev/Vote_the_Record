@@ -5,51 +5,95 @@ approval: review
 record_ids: [us/119/2/house/roll/323, us/119/2/house/roll/320, us/119/2/house/roll/322]
 publish_after: '2026-11-15T12:00:00-06:00'
 sources:
-- title: "Office of the Clerk, U.S. House, Roll Call 323 (2026): H.R. 2102, On Passage"
+- title: "House Clerk, Roll Call 323 (2026)"
   url: https://clerk.house.gov/evs/2026/roll323.xml
-  retrieved: '2026-11-13'
-- title: "Office of the Clerk, U.S. House, Roll Call 320 (2026): Motion to Discharge"
+  retrieved: '2026-11-14'
+- title: "House Clerk, Roll Call 320 (2026)"
   url: https://clerk.house.gov/evs/2026/roll320.xml
-  retrieved: '2026-11-13'
-- title: "Office of the Clerk, U.S. House, Roll Call 322 (2026): On Agreeing to the Resolution"
+  retrieved: '2026-11-14'
+- title: "House Clerk, Roll Call 322 (2026)"
   url: https://clerk.house.gov/evs/2026/roll322.xml
-  retrieved: '2026-11-13'
-- title: "H.R. 2102, Major Richard Star Act, Engrossed in House (GPO)"
+  retrieved: '2026-11-14'
+- title: "H.R. 2102 as passed by the House (GPO)"
   url: https://www.govinfo.gov/content/pkg/BILLS-119hr2102eh/html/BILLS-119hr2102eh.htm
-  retrieved: '2026-11-13'
+  retrieved: '2026-11-14'
+- title: "Congressional Record, Nov. 12, 2026, with CBO's cost estimate"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-11-12/html/CREC-2026-11-12-pt1-PgH6194-4.htm
+  retrieved: '2026-11-14'
+- title: "H.R. 2102 bill status (GPO)"
+  url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr2102.xml
+  retrieved: '2026-11-14'
 bills:
 - id: H.R. 2102
-  does: Would end the cut to military retired pay for some combat-disabled veterans who also get VA disability pay.
-  affects: Veterans medically retired with fewer than 20 years of service who have combat-related disabilities.
-  where: Passed the House 392-18 on Nov. 12, 2026. Next it goes to the Senate.
+  title: Major Richard Star Act
+  does: "Before: retired pay is cut by the VA disability amount, partly paid back by CRSC. After: no cut, so full retired pay plus VA pay."
+  affects: "Veterans medically retired before 20 years with combat-related disabilities: about 58,000 in Sept. 2025 (CBO)."
+  where: Passed the House 392-18 on Nov. 12, 2026. Sent to the Senate Armed Services Committee.
   summary:
     text: >-
-      To amend title 10, United States Code, to provide for concurrent receipt of veterans' disability
-      compensation and retired pay for disability retirees with combat-related disabilities, and for other
-      purposes.
-    title: "Official title of H.R. 2102 as passed by the House (GPO)"
-    url: https://www.govinfo.gov/content/pkg/BILLS-119hr2102eh/html/BILLS-119hr2102eh.htm
-    retrieved: '2026-11-13'
+      H.R. 2102 would permit Chapter 61 retirees--service members who have retired from the armed forces because
+      of a disability--with qualifying combat-related disabilities to receive the full amount of both their
+      military retired pay and their veterans' disability compensation.
+    title: "CBO bill summary, in the Congressional Record, Nov. 12, 2026, p. H6197"
+    url: https://www.govinfo.gov/content/pkg/CREC-2026-11-12/html/CREC-2026-11-12-pt1-PgH6194-4.htm
+    retrieved: '2026-11-14'
+- id: H.R. 9237
+  title: Take Care of America's Veterans Act
+  does: Would change many VA programs, including letting some combat-disabled retirees get both payments and revising two VA ratings.
+  affects: "Veterans and families, including some combat-disabled retirees and veterans rated for sleep apnea or tinnitus."
+  where: Passed the House by voice vote (no recorded tally) on Nov. 11, 2026. Next it goes to the Senate.
+  summary:
+    text: >-
+      The bill modifies various compensation programs for veterans, including by (1) allowing concurrent receipt
+      of disability compensation and military retired pay for certain retirees with a combat-related disability
+    title: "CRS summary of H.R. 9237 as introduced (bill status, GPO)"
+    url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9237.xml
+    retrieved: '2026-11-14'
 slides:
-- {kicker: "U.S. House · Nov. 12, 2026", big: 392-18, head: "The House passed H.R. 2102, the Major Richard Star Act."}
-- {chip: Who it's for, head: "Veterans who were medically retired before 20 years of service, with combat-related disabilities.",
-   quote: {label: "H.R. 2102, Sec. 2", text: "retired under chapter 61 of this title with fewer than 20 years of creditable service"}}
-- {chip: What changes, head: "Their military retired pay would no longer be cut because they also get VA disability pay.",
-   quote: {label: "H.R. 2102, Sec. 2", text: "is not subject to reduction under sections 5304 and 5305 of title 38."}}
-- {chip: The word to know, big: Concurrent receipt, head: "Getting both payments at once: military retired pay and VA disability compensation.",
-   text: "That is the term the bill's official title uses."}
-- {chip: How it reached a vote, head: "Three House votes in two days.",
-   text: "Nov. 11: a motion to discharge passed 245-175. Nov. 12: the House agreed 271-135 to the resolution setting up the vote, then passed the bill 392-18."}
-- {chip: What's next, big: Senate, head: "The Senate has to pass it too.",
-   text: "If it becomes law, the change starts the first month after enactment, for payments from then on."}
+- {kicker: "U.S. House · Nov. 12, 2026", big: 392-18, head: "The House passed H.R. 2102, the Major Richard Star Act.",
+   text: "Who it affects: veterans medically retired before 20 years of service with combat-related disabilities. About 58,000 got CRSC payments in Sept. 2025, CBO says. Yea = for, Nay = against: 392 Yea, 18 Nay, 23 didn't vote."}
+- {chip: "How they voted", head: "By party, as the House Clerk records it",
+   rows: [[Republican, "181 Yea · 18 Nay · 19 didn't vote"], [Democratic, "210 Yea · 0 Nay · 4 didn't vote"], [Independent, "1 Yea · 0 Nay"]]}
+- {chip: "The 18 Nay votes", head: "Who voted against it",
+   text: "Biggs (R-AZ), Burchett (R-TN), Burlison (R-MO), Clyde (R-GA), Crane (R-AZ), Crawford (R-AR), Harris (R-MD), Harris (R-NC), Higgins (R-LA), McClintock (R-CA), Moore (R-UT), Norman (R-SC), Rose (R-TN), Roy (R-TX), Schweikert (R-AZ), Self (R-TX), Smucker (R-PA), Stutzman (R-IN)",
+   by: "Names as the House Clerk lists them, roll call 323."}
+- {chip: "Before: current law", head: "Their military retired pay is cut by the amount of their VA disability pay. A separate payment, CRSC, gives some back.",
+   rows: [[Average cut, "about $2,275 a month"], [Average CRSC paid back, "about $825 a month"]],
+   quote: {label: "CBO cost estimate", text: "the CRSC payment plus any residual retirement payment (after applying the disability offset) cannot exceed the amount of retired pay they would have received based on their years of service."}}
+- {chip: "After: under the bill", head: "No offset: full military retired pay plus full VA disability pay. That's about $1,450 more a month on average, CBO estimates.",
+   quote: {label: "H.R. 2102, Sec. 2", text: "is not subject to reduction under sections 5304 and 5305 of title 38."},
+   text: "It would start the first month after the bill becomes law."}
+- {chip: What it costs, big: "$12.75 billion", head: "Added federal spending from 2027 to 2036, CBO estimates.",
+   rows: [["Cuts or new revenue to pay for it", "None in the bill (CBO lists $0 in revenue)"]],
+   text: "CBO also counts $7.45 billion in Defense Department and Coast Guard payments into the military retirement fund, which it says have \"no net effect on federal spending.\""}
+- {chip: Who is not covered, head: "The bill changes the rules for one group only.",
+   rows: [["Under 20 years, not combat-related", "Still can't get both payments in full"], ["Medically retired with 20+ years", "Rules stay as they are now"],
+          ["Dropped from the bill as introduced", "Both payments (CRDP) for under-20-year medical retirees, and removing the CRDP cap at 20+ years"]],
+   quote: {label: "CBO, comparing the first draft", text: "Two changes account for almost all of the $65 billion difference in the cost of the two bills"}}
+- {chip: "Is it true?", head: "Does this bill cut veterans' benefits? Its text changes only the retired-pay rule above. It doesn't change VA ratings.",
+   text: "The \"cuts\" debate is about a different bill, H.R. 9237, which the House passed by voice vote on Nov. 11. It also has its own version of the Star Act.",
+   quote: {label: "CRS summary of H.R. 9237", text: "Among other elements, the bill revises VA disability ratings for sleep apnea and tinnitus"}}
 caption: |-
-  The House passed the Major Richard Star Act, 392-18, on Nov. 12.
+  The House passed the Major Richard Star Act, 392-18, on Nov. 12, after a motion to discharge (245-175, Nov. 11) and the vote on its rule (271-135).
 
-  It's about veterans who were medically retired with fewer than 20 years of service and have combat-related disabilities. Under the bill, their military retired pay would no longer be reduced because they also get VA disability pay. The Senate has to pass it next.
+  After: about 58,000 veterans would get about $1,450 more a month on average, CBO estimates. Cost: $12.75 billion over 2027-2036, with no cuts or new revenue in the bill to pay for it. Not covered: medically retired veterans whose disabilities aren't combat-related, or who served 20+ years.
+
+  All 18 Nay votes were Republicans, per the House Clerk. The "cuts" debate is about a different bill, H.R. 9237.
 hashtags: [veterans, congress, militaryretirees, votetherecord]
 notes: >-
-  Requested by the owner (veteran disability bill). Slides quote the bill text as engrossed in the House (govinfo).
-  congress.gov refused the request, so there is no CRS summary yet; the bills summary is the bill's official title.
-  Please check the CRS summary on congress.gov before merging. Tallies are whole-House yeas-nays from the Clerk's
-  XML (not-voting: 23, 13, 26). "No longer be cut/reduced" restates the bill's "is not subject to reduction under
-  sections 5304 and 5305 of title 38" (the bill's title calls it concurrent receipt).
+  Reworked 2026-11-14 into before/after/cost/not covered, per the owner, with the party totals and the smaller side's names from roll 323's XML (totals-by-party, recorded-vote). Please double-check:
+  (1) CBO numbers come from CBO's estimate as Rep. Bost put it in the Congressional Record (Nov. 12, H6197-H6198);
+  cbo.gov showed a bot check and wasn't retried, so compare with the CBO PDF
+  (https://www.cbo.gov/system/files/2026-10/hr2102_as_amended_by_hres1247.pdf). Its 10-year direct-spending
+  total is $12,750 million; its text rounds this to "$13 billion". The 58,000 is DoD actuary data CBO cites for Sept. 2025.
+  (2) Current law (10 U.S.C. 1413a(b)(3), 1414(b); 38 U.S.C. 5305) was checked in the 2024 U.S. Code on govinfo
+  (uscode.house.gov returned Page Not Found) and matches CBO's description; the slides quote CBO, so those pages
+  aren't listed as sources (the caption was over 2,200 characters). Check that no later law changed 1413a(b)(3) or 1414(b).
+  (3) "Not covered" rows: row 1 rests on 10 U.S.C. 1414(b)(2) ("Subsection (a) does not apply to a member retired
+  under chapter 61 ... with less than 20 years"), which the bill leaves in place. Rows 2-3 rest on CBO's
+  "Previous CBO estimate" paragraph, which lists what the introduced bill did and the passed version doesn't.
+  (4) The "Is it true?" slide names H.R. 9237, which passed by voice vote Nov. 11 (bill status: "On passage Passed by voice vote").
+  In the H.R. 2102 debate, members' "cut" statements referred to H.R. 9237. The CRS summary quoted is for H.R. 9237
+  as introduced, and the engrossed text isn't on govinfo yet. The slide gives no dollar figure for H.R. 9237 because
+  its CBO estimate couldn't be opened. H.R. 9237's voice vote isn't in record_ids (kept unchanged as asked); add it if you want
+  this post to claim that record. No CRS summary of H.R. 2102 yet; its bills summary quotes CBO's bill summary.
