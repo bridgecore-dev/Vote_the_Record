@@ -65,10 +65,13 @@ imply a party. Each mapping links one record to one question and lists the `opti
 supports (one or more), with a written `rationale`. Mappings carry their own
 `verification`, `verified_on`, and `reviewer`.
 
-## 5. Party is ballot information only
-Show party only as it appears on the ballot ("Listed on ballot as: ___"), stored in the
-nullable `ballot_party` field. Never use it to sort, score, rank, color-code, or describe
-candidates, and never mention it in scenarios.
+## 5. Party as the official record lists it, the same for everyone
+Show party only as an official record lists it: on the ballot ("Listed on ballot as: ___", stored
+in the nullable `ballot_party` field), or in a roll call (each member's party and the totals by
+party, as the House Clerk, the Senate, or a state journal records them). Show it the same way for
+every party and every member (owner's decision, 2026-11-14). Never use it to sort, score, rank, or
+color-code candidates, never mention it in survey scenarios, and never say a party did something
+the record doesn't show.
 
 ## 6. Never commit secrets
 Never commit API keys, tokens, or credentials. Keep them in a local `.env` (gitignored)
@@ -95,22 +98,33 @@ them and adds entries to `corrections/log.yaml` by hand. Collectors and AI assis
 never write to the corrections log. Entries are never deleted.
 
 ## 9. Social posts (Instagram first)
-Posts follow every rule above: official sources, the neutral-language and party rules, nothing past what the
+Posts follow every rule above: official sources, the fair-language and party rules, nothing past what the
 source says. Each post is one `social/posts/<YYYY-MM-DD>-<slug>.yaml` (format: `social/README.md`), added only
-through its own pull request from a `social/...` branch. Merging that pull request is the owner's approval.
-- `approval: auto` is for routine items only: scheduled dates, and vote tallies or laws taken directly from
-  official feeds, with every source on a `.gov`, `.us`, or `.mil` site. These merge and publish without a tap.
+through its own pull request from a `social/...` branch. A post pull request merges itself once its checks pass,
+so no post is missed while the owner is away (owner's decision, 2026-11-14); the owner reads the preview comment
+and stops a post before its slot by deleting its file on `main`. Code and data changes still wait for the owner.
+- `approval: auto` marks routine items: scheduled dates, and vote tallies or laws taken directly from official
+  feeds, with every source on a `.gov`, `.us`, or `.mil` site.
 - Anything that starts from a news report (`found_via`), or any judgment call (picking "notable" items, a
-  summary in our words), uses `approval: review` and waits for the owner. News may point to a story; the post
-  must rest on an official record.
+  summary in our words), uses `approval: review`, which tells the owner to check its preview first. News may
+  point to a story; the post must rest on an official record.
 - No AI-generated images. Candidates and officials get the same photo treatment, in the same order as the
   site. Memes are about process only, never about a person or a party.
 - `src/social/publish.py` publishes merged posts through Instagram's official API. Never automate Instagram
   through a browser.
 
-## Neutral language
-Use the same wording and structure for every candidate. Avoid loaded adjectives. Report
-votes and filings as they are recorded.
+## Fair, not silent
+Use the same wording and structure for every candidate, official, party, and group. Avoid loaded
+adjectives. Report votes and filings as they are recorded. Fair doesn't mean quiet (owner's decision,
+2026-11-14):
+- Name the person, party, or group whose recorded action a post is about, including unflattering ones.
+- A judgment such as "unconstitutional" or "illegal" appears only when a court or official body has said
+  it (cite it), or as a named speaker's words in quotes.
+- Report every change as before → after: what current law does, what changes, who gains, who loses, what
+  it costs and how it's paid for. Never only the side that sounds good or bad.
+- When the evidence on whether something helped or hurt is mixed, give the strongest case for and
+  against, each from a source, and let readers decide.
+- Never lie or go past what the source says.
 
 ## Repository layout
 - `src/` — code only (collectors, validator, build). Python.
