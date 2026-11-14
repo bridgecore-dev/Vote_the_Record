@@ -39,6 +39,8 @@ slides:                # each needs head or big; the rest is optional
   text: One or two plain sentences.
   quote: {label: Official caption, text: exact words from the source}
   by: "Author: Walle · Filed Nov. 9, 2026"
+  rows: [[Budget, Sets the tax rate.], Plain item]   # 1-8 items, text or [label, text]; 4+ become a compact list
+  results: {...}                    # a contest's vote counts; see "Lists and results" below
   seconds: 4                        # reel only; default 4
 caption: |-            # the post text; sources and hashtags are added below it automatically
   Two months to go. ...
@@ -52,6 +54,31 @@ rule: How items were picked, when the post is a selection (also say it on a slid
 notes: Anything the reviewer should know; not published.
 bills: [...]           # required for every bill the post names; see "Bills" below
 ```
+
+## Lists and results
+
+**`rows`** holds up to 8 items, each plain text or `[label, text]`. Three or fewer print as paragraphs; four or
+more become a compact list, one line each. Use it for a recap (one item per vote or law: `[H.R. 2347, "Passed
+the House 251-180 on Nov. 12"]`) or for what an office decides. Keep each item to one line, about 60 characters.
+
+**`results`** shows one contest's vote counts from an official results report:
+
+```yaml
+- head: Harris County Judge
+  results:
+    contest: County Judge            # as the report names it
+    status: official                 # unofficial | official, exactly as the report says
+    as_of: Nov. 13, 2026             # the report's own date
+    reporting: All precincts         # optional, as the report says
+    candidates:                      # 2-8; alphabetical by name, never by votes
+    - {name: Jane Doe, votes: 41250}
+    - {name: John Roe, votes: 38710}
+```
+
+The builder refuses candidates out of alphabetical order and any field but `name` and `votes`, so there is
+never a party (rule 5). Every bar is the same color and no winner is marked; an outcome belongs in the text
+only once the canvass is official. Percentages are of the votes listed. Example:
+`examples/list-results-format.yaml` (fictional).
 
 ## Bills: always say what it does
 

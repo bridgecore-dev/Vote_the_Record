@@ -32,7 +32,7 @@ LEVELS = {"congress", "state", "local"}
 LAYOUTS = ["card", "band", "stat"]
 SIZES = {"feed": (1080, 1350), "tall": (1080, 1920)}
 SECONDS, FADE = 4.0, 0.4  # each Reel slide; the slide transition
-SLIDE_KEYS = {"chip", "kicker", "big", "head", "text", "rows", "quote", "by", "seconds"}  # rows: [[label, text], ...]
+SLIDE_KEYS = {"chip", "kicker", "big", "head", "text", "rows", "results", "quote", "by", "seconds"}  # see social/README.md
 TOP_KEYS = {"kind", "level", "place", "topic", "approval", "layout", "story", "sources", "slides", "caption",
             "hashtags", "rule", "notes", "publish_after", "found_via", "record_ids",
             "video", "captions", "caption_source", "speakers", "context",  # these five: clips (clip.py)
@@ -172,9 +172,7 @@ def check(post: dict, editorial: bool = True) -> list[str]:
     elif not n[0] <= len(slides) <= n[1]:
         errs.append(f"a {post.get('kind')} has {n[0]}-{n[1]} slides, not {len(slides)}")
     for k, s in enumerate(slides, 1):
-        errs += [f"slide {k}: unknown field {x}" for x in s if x not in SLIDE_KEYS]
-        if not (s.get("head") or s.get("big")):
-            errs.append(f"slide {k}: needs head or big")
+        errs += check_slide(k, s)
     if not (post.get("caption") or "").strip():
         errs.append("no caption")
     elif not errs and len(full_caption(post)) > 2200:  # Instagram's limit, counting the sources and hashtags we add
@@ -261,6 +259,20 @@ body.layout-stat .dots {{ justify-content: center; }}
 .dense .text {{ font-size: 31px; margin-top: 20px; }}
 .dense .main {{ padding-top: 36px; padding-bottom: 20px; }}
 .dense .kicker, .dense .chip {{ margin-bottom: 12px; }}
+/* list: 4-8 rows, one per line */
+.list {{ margin-top: 24px; border-top: 2px solid #dcebec; }}
+.list .item {{ font-size: 30px; line-height: 1.35; color: #1b2a2f; padding: 14px 0; border-bottom: 2px solid #dcebec; }}
+.list .label {{ color: #0f5c63; margin-right: 6px; }}
+/* results: alphabetical, one color for every candidate, no winner marked */
+.res {{ margin-top: 20px; }}
+.res-contest {{ font-weight: 600; font-size: 30px; color: #4d5e63; margin-bottom: 10px; }}
+.res-row {{ padding: 12px 0; }}
+.res-line {{ display: flex; justify-content: space-between; gap: 20px; font-size: 32px; }}
+.res-name {{ font-weight: 600; }}
+.res-n {{ color: #4d5e63; white-space: nowrap; }}
+.res-bar {{ height: 16px; background: #eef2f1; border-radius: 8px; margin-top: 8px; overflow: hidden; }}
+.res-bar i {{ display: block; height: 100%; background: #0f5c63; }}
+.res-note {{ font-size: 24px; color: #4d5e63; margin-top: 14px; }}
 """
 
 
@@ -268,20 +280,73 @@ LOGO = ('<svg viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#fff
         'fill="none" stroke="#0f5c63" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>')
 
 
+def rows(s: dict) -> list[tuple[str, str]]:
+    """A slide's rows as (label, text); a plain string is a row with no label."""
+    return [("", str(r)) if isinstance(r, str) else (str(r[0]), str(r[1])) for r in s.get("rows") or []]
+
+
+def check_slide(k: int, s: dict) -> list[str]:
+    errs = [f"slide {k}: unknown field {x}" for x in s if x not in SLIDE_KEYS]
+    if not (s.get("head") or s.get("big") or s.get("results")):
+        errs.append(f"slide {k}: needs head, big, or results")
+    r = s.get("rows")
+    if r is not None and not (isinstance(r, list) and len(r) <= 8 and all(
+            isinstance(x, str) or (isinstance(x, list) and len(x) == 2) for x in r)):
+        errs.append(f"slide {k}: rows is a list of up to 8 items, each text or [label, text]")
+    res = s.get("results")
+    if res is not None:
+        cands = res.get("candidates") or []
+        errs += [f"slide {k}: results needs {f}" for f in ("contest", "status", "as_of") if not res.get(f)]
+        if res.get("status") not in ("unofficial", "official"):
+            errs.append(f"slide {k}: results status is unofficial or official, as the report says")
+        if not 2 <= len(cands) <= 8:
+            errs.append(f"slide {k}: results lists 2-8 candidates or choices, not {len(cands)}")
+        if not all(isinstance(c, dict) and c.get("name") and isinstance(c.get("votes"), int) and c["votes"] >= 0
+                   and set(c) <= {"name", "votes"} for c in cands):
+            errs.append(f"slide {k}: each result is {{name, votes}} (a whole number); never a party (rule 5)")
+        elif [c["name"].casefold() for c in cands] != sorted(c["name"].casefold() for c in cands):
+            errs.append(f"slide {k}: results list candidates alphabetically, never by votes")
+        if set(res) - {"contest", "status", "as_of", "reporting", "candidates"}:
+            errs.append(f"slide {k}: results fields are contest, status, as_of, reporting, candidates")
+    return errs
+
+
+def results_html(res: dict) -> str:
+    """A contest's vote counts: alphabetical, one color for everyone, no winner marked; the status says how final."""
+    e = html.escape
+    total = sum(c["votes"] for c in res["candidates"]) or 1
+    out = f'<div class="res"><div class="res-contest">{e(res["contest"])}</div>'
+    for c in res["candidates"]:
+        pct = 100 * c["votes"] / total
+        out += (f'<div class="res-row"><div class="res-line"><span class="res-name">{e(c["name"])}</span>'
+                f'<span class="res-n">{c["votes"]:,} · {pct:.1f}%</span></div>'
+                f'<div class="res-bar"><i style="width:{pct:.1f}%"></i></div></div>')
+    when = f'{res["status"].capitalize()} results as of {res["as_of"]}' + (f' · {res["reporting"]}' if res.get("reporting") else "")
+    return out + f'<div class="res-note">{e(when)}</div></div>'
+
+
 def slide_html(post: dict, s: dict, k: int, n: int, layout: str, size: tuple[int, int]) -> str:
     e = html.escape
     big = s.get("big")
     # characters of running text; past ~300 the type steps down (.dense)
     words = len(" ".join(str(s.get(f) or "") for f in ("head", "text", "by"))) + len(str((s.get("quote") or {}).get("text") or "")) \
-        + sum(len(v) for _, v in s.get("rows") or [])
+        + sum(len(v) for _, v in rows(s)) + 60 * len((s.get("results") or {}).get("candidates") or [])
     lead = ((f'<div class="chip">{e(s["chip"])}</div>' if s.get("chip") else "")
             + (f'<div class="kicker">{e(s["kicker"])}</div>' if s.get("kicker") else "")
             + (f'<div class="big{" id" if big and re.search(r"[A-Za-z]", str(big)) else ""}">{e(str(big))}</div>' if big else ""))
     body = (f'<div class="head">{e(s["head"])}</div>' if s.get("head") else "")
     if s.get("text"):
         body += f'<div class="text">{e(s["text"])}</div>'
-    for label, value in s.get("rows") or []:
-        body += f'<div class="text"><span class="label">{e(label)}:</span> {e(value)}</div>'
+    items = rows(s)
+    if len(items) > 3:  # a list: compact, one line each, divided
+        body += '<div class="list">' + "".join(
+            f'<div class="item">{f"<span class=label>{e(label)}</span> " if label else ""}{e(value)}</div>'
+            for label, value in items) + "</div>"
+    else:
+        for label, value in items:
+            body += f'<div class="text">{f"<span class=label>{e(label)}:</span> " if label else ""}{e(value)}</div>'
+    if s.get("results"):
+        body += results_html(s["results"])
     if s.get("quote"):
         q = s["quote"]
         body += f'<div class="text"><span class="label">{e(q.get("label", "Official text"))}:</span> “{e(q["text"])}”</div>'
@@ -303,7 +368,10 @@ def alt_text(post: dict, s: dict) -> str:
     """What the image says, in reading order, for screen readers."""
     q = s.get("quote") or {}
     parts = [level_tag(post), s.get("chip"), s.get("kicker"), s.get("big"), s.get("head"), s.get("text"),
-             *(f"{label}: {value}" for label, value in s.get("rows") or []),
+             *(f"{label}: {value}" if label else value for label, value in rows(s)),
+             *([s["results"]["contest"]] + [f'{c["name"]}: {c["votes"]:,} votes' for c in s["results"]["candidates"]]
+               + [f'{s["results"]["status"].capitalize()} results as of {s["results"]["as_of"]}']
+               if s.get("results") else []),
              f'{q.get("label", "Official text")}: "{q["text"]}"' if q else None, s.get("by"), source_line(post)]
     return " ".join(str(p) if re.search(r'[.?!"”]$', str(p)) else f"{p}." for p in parts if p)
 

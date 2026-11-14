@@ -13,6 +13,9 @@ sources:
 - title: North Carolina General Assembly, Legislative Calendar
   url: https://www.ncleg.gov/LegislativeCalendar
   retrieved: '2026-11-13'
+- title: North Carolina General Assembly, Find Your Legislators
+  url: https://www.ncleg.gov/FindYourLegislators
+  retrieved: '2026-11-13'
 slides:
 - {kicker: Mark the calendar, big: Nov. 16, head: "North Carolina's General Assembly reconvenes at noon on Monday, Nov. 16, 2026.",
    quote: {label: "Adjournment resolution, Section 4", text: "they stand adjourned to reconvene on Monday, November 16, 2026, at 12:00 noon."}}
@@ -21,12 +24,17 @@ slides:
    quote: {label: "Adjournment resolution, Section 4", text: "only the following matters may be considered"}}
 - {kicker: Then, big: Nov. 19, head: "The House and Senate are set to adjourn Thursday, Nov. 19, and return at noon on Monday, Nov. 30.",
    quote: {label: "Adjournment resolution, Section 5", text: "When the House of Representatives and the Senate adjourn on Thursday, November 19, 2026, they stand adjourned to reconvene on Monday, November 30, 2026, at 12:00 noon."}}
+- {kicker: What you can do, head: "Find the state House member and senator who represent you.",
+   text: "Enter your address at Find Your Legislators on ncleg.gov.",
+   quote: {label: NC General Assembly, text: "Each resident of the state has one representative in each of those legislative bodies, determined by the district in which their residence falls."}}
 caption: |-
   North Carolina lawmakers return to Raleigh on Monday, Nov. 16, at noon.
 
   The resolution that set this date also limits what they can take up. The list includes veto override votes, appointments, election laws and districts, and proposed constitutional amendments.
 
   The House and Senate are set to adjourn Nov. 19 and come back Nov. 30.
+
+  To see who represents you, enter your address at Find Your Legislators on ncleg.gov.
 hashtags: [ncga, ncpol, northcarolina, civics, votetherecord]
 notes: >-
   Upcoming date from the ratified adjournment resolution (Resolution 2026-6) on ncleg.gov, confirmed by the

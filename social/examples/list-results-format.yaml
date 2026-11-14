@@ -1,0 +1,31 @@
+# FORMAT EXAMPLE ONLY: fictional county, contest, people, and URLs. It passes --check; never publish it.
+kind: story
+level: local
+place: Example County, Texas
+topic: Election results
+highlight: Local
+approval: review
+sources:
+- title: Example County Elections, Official Canvass, Nov. 3, 2026 General Election
+  url: https://www.example-county.tx.gov/elections/results
+  retrieved: '2026-11-13'
+slides:
+- kicker: "Example County · Nov. 3, 2026"
+  head: Here's what this county's commissioners court decides.
+  rows:                                  # 4-8 rows become a compact list; text, or [label, text]
+  - [Budget, Sets the county budget and tax rate each year.]
+  - [Roads, Builds and maintains county roads outside cities.]
+  - [Elections, Runs elections and early-voting sites.]
+  - [Courts and jail, Pays for the county courthouse and jail.]
+- head: Example County Commissioner, Precinct 9
+  results:                               # alphabetical, never by votes; no party; no winner marked
+    contest: Commissioner, Precinct 9
+    status: official                     # unofficial | official, as the report says
+    as_of: Nov. 13, 2026
+    reporting: All precincts             # optional
+    candidates:
+    - {name: Alex Example, votes: 41250}
+    - {name: Jordan Sample, votes: 38710}
+caption: |-
+  Example County's results for commissioner, Precinct 9, from the official canvass.
+hashtags: [votetherecord]
