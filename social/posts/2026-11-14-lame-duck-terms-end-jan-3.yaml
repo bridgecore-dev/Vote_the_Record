@@ -1,0 +1,48 @@
+kind: carousel
+level: congress
+topic: How it works
+approval: review
+layout: stat
+sources:
+- title: "U.S. Senate: Constitution of the United States, Amendment XX"
+  url: https://www.senate.gov/about/origins-foundations/senate-and-constitution/constitution.htm
+  retrieved: '2026-11-14'
+- title: "U.S. Senate: Glossary"
+  url: https://www.senate.gov/about/research-tools/glossary.htm
+  retrieved: '2026-11-14'
+- title: "U.S. Senate: Lame Duck Sessions (1940-Present)"
+  url: https://www.senate.gov/legislative/LameDuckSessions.htm
+  retrieved: '2026-11-14'
+slides:
+- kicker: After Election Day
+  big: Jan. 3
+  head: Terms in Congress end at noon on Jan. 3. That's when the newly elected members start.
+  quote: {label: "U.S. Constitution, Amendment XX, Sec. 1", text: "the terms of Senators and Representatives at noon on the 3d day of January, of the years in which such terms would have ended if this article had not been ratified; and the terms of their successors shall then begin."}
+- kicker: Until then
+  head: The Congress in office now can keep meeting and voting. That's called a lame-duck session.
+  quote: {label: Senate glossary, text: "So called because some of the lawmakers who take part will not be returning for the next Congress."}
+- kicker: Why Jan. 3
+  big: '1933'
+  head: The year the 20th Amendment moved the start of a new Congress to Jan. 3.
+  quote: {label: U.S. Senate, text: "The 1933 Amendment changed the convening date for a new Congress to January 3 of odd-numbered years, shortening the time between an election and the beginning of the next Congress to just two months."}
+- kicker: What lame-duck sessions take up
+  head: In each of the last three listed by the Senate, the topics included nominations, defense authorization and appropriations.
+  rows:
+  - ['2024', "Nov. 12, 2024 to Jan. 3, 2025"]
+  - ['2022', "Nov. 14, 2022 to Jan. 3, 2023"]
+  - ['2020', "Nov. 9, 2020 to Jan. 3, 2021"]
+caption: |-
+  Some of the people voting in Congress right now won't be there in January. The Constitution ends terms in Congress at noon on Jan. 3, and the new members start then.
+
+  Until that day, the current Congress can keep meeting and voting. That stretch is called a lame-duck session.
+
+  The Senate keeps a list of past lame-duck sessions and what they took up. In each of the last three on that list, the topics included nominations, defense authorization and appropriations.
+hashtags: [congress, civics, lameduck, constitution, votetherecord]
+rule: The last three lame-duck sessions in the Senate's list (2024, 2022, 2020), with only the topics all three share.
+record_ids: [us/119/calendar/lame-duck-terms-end]
+publish_after: '2026-11-15T17:30:00-06:00'
+found_via: owner idea E4ODQ1ODgwOTY4ODA2NAZDZD
+notes: >-
+  From an owner idea; only the neutral process part is used (when terms end, what a lame-duck session is), from
+  senate.gov. Jan. 3 of odd-numbered years is quoted from the Senate's page; check the slide 1 head reads fine
+  given that 2027's Jan. 3 is a Sunday (terms still end at noon that day under Sec. 1).
