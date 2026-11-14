@@ -1,0 +1,69 @@
+kind: carousel
+level: state
+place: Texas
+topic: Health
+approval: review
+found_via: owner idea I5MjUyODI3ODQwNTEyMAZDZD
+rule: >-
+  Every bill filed Nov. 9 to Nov. 13, 2026 whose Texas Legislature Online caption is "Relating to the
+  continuation of Medicaid eligibility of a woman following a pregnancy." (said on the last slide).
+record_ids: [tx/90R/HB 473/filed, tx/90R/HB 866/filed]
+publish_after: '2026-11-15T07:30:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 9, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-09
+  retrieved: '2026-11-14'
+- title: Texas Legislature Online, HB 473 (90th Legislature), Bill History
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB473
+  retrieved: '2026-11-14'
+- title: Texas Legislature Online, HB 866 (90th Legislature), Bill History
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB866
+  retrieved: '2026-11-14'
+bills:
+- id: HB 473
+  does: Would keep Medicaid going for at least 24 months after a pregnancy ends, instead of the 12 months in current law.
+  affects: Women in Texas who are eligible for Medicaid for pregnant women.
+  where: Filed in the Texas House on Nov. 9, 2026. That is its only action so far.
+  summary:
+    text: >-
+      The commission shall continue to provide medical assistance to a woman who is eligible for medical
+      assistance for pregnant women for a period of not less than 24 months following the last month of the
+      woman's pregnancy.
+    title: "HB 473 (90R), introduced bill text, Sec. 1, as amended (Texas Legislature Online)"
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00473I.htm
+    retrieved: '2026-11-14'
+- id: HB 866
+  does: Would keep Medicaid going for at least 24 months after a pregnancy ends, instead of the 12 months in current law.
+  affects: Women in Texas who are eligible for Medicaid for pregnant women.
+  where: Filed in the Texas House on Nov. 9, 2026. That is its only action so far.
+  summary:
+    text: >-
+      The commission shall continue to provide medical assistance to a woman who is eligible for medical
+      assistance for pregnant women for a period of not less than 24 months that begins on the last day of the
+      woman's pregnancy and ends on the last day of the month in which the 24-month period ends.
+    title: "HB 866 (90R), introduced bill text, Sec. 1, as amended (Texas Legislature Online)"
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00866I.htm
+    retrieved: '2026-11-14'
+slides:
+- {kicker: "2027 Texas session · Filed Nov. 9, 2026", big: 24 months,
+   head: "Two Texas House bills, HB 473 and HB 866, would keep Medicaid going for at least 24 months after a pregnancy."}
+- {chip: What changes, head: "Both bills strike the 12-month period now in the law and set at least 24 months.",
+   text: "Both change the same law: Section 32.024(l-1) of the Texas Human Resources Code."}
+- {chip: Who filed them, head: "HB 473 was filed by Rep. Walle. HB 866 was filed by Rep. Lalani.",
+   text: "Both were filed on Nov. 9, 2026, for the 90th Legislature's regular session."}
+- {chip: If one passes, big: "Sept. 1, 2027", head: "Each bill says it would take effect on this date.",
+   text: "If the state needs federal approval first, each bill says the agency shall ask for it and may wait until it is granted."}
+- {chip: How we picked, head: "Every bill filed Nov. 9 to Nov. 13 with this official caption.",
+   quote: {label: Texas Legislature Online caption, text: Relating to the continuation of Medicaid eligibility of a woman following a pregnancy.}}
+caption: |-
+  Two bills filed in the Texas House on Nov. 9 would keep Medicaid going for at least 24 months after a pregnancy. Current law says 12 months.
+
+  HB 473 and HB 866 have the same official caption and change the same section of the Texas Human Resources Code. Each would take effect Sept. 1, 2027, if passed.
+hashtags: [txlege, texaslegislature, medicaid, texas, votetherecord]
+notes: >-
+  From an owner idea; built only on TLO records opened 2026-11-14 (filing report dated 11/13/2026, both bill
+  histories, both introduced texts). "12 months in current law" reads the struck text: both bills strike
+  "(2) 12 months that begins on the last day of the woman's pregnancy" (current 32.024(l-1) also lists six
+  months after delivery). The summary quotes are Sec. 1 as it would read, with struck text removed and
+  underlined text kept. "Keep Medicaid going" is our plain words for "continue to provide medical
+  assistance"; please check.
