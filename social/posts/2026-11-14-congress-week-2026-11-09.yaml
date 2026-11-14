@@ -1,0 +1,117 @@
+kind: carousel
+level: congress
+topic: Congress recap
+approval: review
+rule: 'Counts: every roll-call vote in the House Clerk''s and the Senate''s official lists, and every public law GovInfo shows
+  approved Nov. 9-15, 2026. Listed: every bill that became law, then every final-passage vote on a bill or joint resolution
+  (passage, suspend and pass, conference report, agreeing to the other chamber''s amendment, veto override), in date order.
+  If the post runs out of room, the list stops in that order and the rest are counted on the last slide.'
+record_ids:
+- us/119/recap/week-2026-11-09
+- us/119/2/house/roll/315
+- us/119/2/house/roll/316
+- us/119/2/house/roll/321
+sources:
+- title: GovInfo, Public and Private Laws RSS feed
+  url: https://www.govinfo.gov/rss/plaw.xml
+  retrieved: '2026-11-14'
+- title: Office of the Clerk, U.S. House, Roll Call Votes 2026 (ROLL_300)
+  url: https://clerk.house.gov/evslegacy/2026/ROLL_300.asp
+  retrieved: '2026-11-14'
+- title: House Clerk, Roll Call 315 (2026)
+  url: https://clerk.house.gov/evs/2026/roll315.xml
+  retrieved: '2026-11-14'
+- title: House Clerk, Roll Call 316 (2026)
+  url: https://clerk.house.gov/evs/2026/roll316.xml
+  retrieved: '2026-11-14'
+- title: House Clerk, Roll Call 321 (2026)
+  url: https://clerk.house.gov/evs/2026/roll321.xml
+  retrieved: '2026-11-14'
+- title: U.S. Senate, Roll Call Votes, 119th Congress, Session 2
+  url: https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml
+  retrieved: '2026-11-14'
+slides:
+- kicker: Weekly recap · Congress
+  head: What Congress did, Nov. 9-15, 2026
+  rows:
+  - - New public laws
+    - '0'
+  - - House roll-call votes
+    - '9'
+  - - Senate roll-call votes
+    - '6'
+  text: 'Listed: every new law, then every vote to pass a bill or joint resolution, in date order.'
+- kicker: Final-passage votes
+  head: Votes to pass bills and joint resolutions
+  rows:
+  - - H.R. 3978
+    - 'House, Nov. 9: Passed, 397-2'
+  - - H.R. 9612
+    - 'House, Nov. 9: Passed, 394-3'
+  - - H.R. 1013
+    - 'House, Nov. 11: Passed, 295-128'
+  by: 'Tallies: yeas-nays, as each chamber recorded them.'
+- kicker: Not shown
+  head: 1 more final-passage vote Nov. 9-15, 2026.
+  text: Each one is in the official lists cited in the caption. We list items in date order and stop when the post is full.
+caption: 'What Congress did, Nov. 9-15, 2026.
+
+
+  New public laws: 0. House roll-call votes: 9. Senate roll-call votes: 6.
+
+
+  GovInfo lists no public laws approved in this period yet.
+
+
+  Final-passage votes: 3, on H.R. 3978, H.R. 9612, H.R. 1013. Each bill''s tally and what it does are below.
+
+
+  Not shown for space: 1 more final-passage vote Nov. 9-15, 2026.
+
+
+  Swipe for what each bill does, from the Congressional Research Service summary.'
+publish_after: '2026-11-16T12:00:00-06:00'
+hashtags:
+- congress
+- rollcall
+- newlaws
+- civics
+- votetherecord
+notes: 'Draft from recap.py on 2026-11-14, does/affects filled from the CRS summaries only. Weekly recap: every House and Senate
+  roll call Nov. 9-15 counted, final-passage votes listed by the stated rule; 1 left off for space and counted on the last slide.
+  Double-check: the CRS summaries describe the bills as introduced, and H.R. 3978 and H.R. 9612 passed as amended (roll 315,
+  316). GovInfo lists no public laws approved this week yet. Tallies match the roll XMLs opened this run (397-2, 394-3, 295-128).'
+bills:
+- id: H.R. 3978
+  does: 'Would have the NRC license future spent-fuel recycling plants under rules with fewer steps'
+  affects: 'Future U.S. plants that recycle spent nuclear fuel without isolating plutonium'
+  where: 'House vote Nov. 9, 2026: Passed, 397-2.'
+  summary:
+    text: This bill directs the Nuclear Regulatory Commission (NRC) to license future recycling facilities that reprocess
+      certain spent nuclear fuel (i.e., radioactive waste) under regulations for special nuclear material rather than regulations
+      for production and utilization facilities.
+    title: CRS summary of H.R. 3978
+    url: https://www.congress.gov/bill/119th-congress/house-bill/3978
+    retrieved: '2026-11-14'
+- id: H.R. 9612
+  does: 'Would allow building a uranium enrichment plant before the NRC issues its license'
+  affects: 'Companies building uranium enrichment plants; the NRC must write rules within 180 days'
+  where: 'House vote Nov. 9, 2026: Passed, 394-3.'
+  summary:
+    text: This bill allows for the construction of a uranium enrichment facility before a license is issued by the Nuclear
+      Regulatory Commission (NRC). Under current law, a license is required from the NRC prior to the construction of a uranium
+      enrichment facility.
+    title: CRS summary of H.R. 9612
+    url: https://www.congress.gov/bill/119th-congress/house-bill/9612
+    retrieved: '2026-11-14'
+- id: H.R. 1013
+  does: 'Would let 403(b) retirement plans invest in collective investment trusts and insurance separate accounts'
+  affects: 'Workers in 403(b) plans: certain public school, charity and church employees'
+  where: 'House vote Nov. 11, 2026: Passed, 295-128.'
+  summary:
+    text: Retirement Fairness for Charities and Educational Institutions Act of 2025 This bill allows 403(b) retirement plans
+      (i.e., retirement plans designed for certain employees of public schools, charities, and churches) to invest in collective
+      investment trusts, which are a group of pooled investment…
+    title: CRS summary of H.R. 1013
+    url: https://www.congress.gov/bill/119th-congress/house-bill/1013
+    retrieved: '2026-11-14'
