@@ -1,0 +1,95 @@
+kind: carousel
+level: congress
+topic: Elections
+approval: review
+layout: stat
+sources:
+- title: "FEC: American Israel Public Affairs Committee Political Action Committee (C00797670)"
+  url: https://www.fec.gov/data/committee/C00797670/?cycle=2024
+  retrieved: '2026-11-14'
+- title: "FEC: United Democracy Project ('UDP') (C00799031)"
+  url: https://www.fec.gov/data/committee/C00799031/?cycle=2024
+  retrieved: '2026-11-14'
+- title: "FEC: Committee type code descriptions"
+  url: https://www.fec.gov/campaign-finance-data/committee-type-code-descriptions/
+  retrieved: '2026-11-14'
+- title: "FEC: Contribution limits"
+  url: https://www.fec.gov/help-candidates-and-committees/candidate-taking-receipts/contribution-limits/
+  retrieved: '2026-11-14'
+- title: "FEC: Earmarked contributions forwarded by an SSF"
+  url: https://www.fec.gov/help-candidates-and-committees/making-disbursements-ssf-or-connected-organization/earmarked-contributions-forwarded-ssf/
+  retrieved: '2026-11-14'
+- title: "FEC: Political Action Committees (PACs)"
+  url: https://www.fec.gov/press/resources-journalists/political-action-committees-pacs/
+  retrieved: '2026-11-14'
+- title: "AIPAC: Politics"
+  url: https://www.aipac.org/politics
+  retrieved: '2026-11-14'
+slides:
+- kicker: Campaign money, explained
+  head: AIPAC takes part in federal elections through a PAC, and its website names a super PAC it backs. Here's how each works, from FEC records.
+  rows:
+  - [AIPAC PAC, FEC ID C00797670]
+  - [United Democracy Project, FEC ID C00799031]
+  quote: {label: aipac.org, text: "United Democracy Project, the AIPAC-backed super PAC"}
+- kicker: "Committee 1: the PAC"
+  head: The FEC lists AIPAC PAC as a qualified PAC whose connected organization is the American Israel Public Affairs Committee.
+  rows:
+  - [Committee type, Membership Organization PAC - Qualified]
+  - [Designation, Lobbyist/Registrant PAC]
+  quote: {label: "FEC, what “PAC - qualified” means", text: "PACs that have been in existence for six months and received contributions from 50 people and made contributions to five federal candidates"}
+- kicker: What a PAC can give
+  big: $5,000
+  head: The most a multicandidate PAC can give a candidate's campaign, per election, in 2025-2026.
+  quote: {label: "FEC limits chart, 2025-2026", text: "PAC: multicandidate $5,000 per election"}
+- kicker: How members' giving can be routed
+  head: A donor can give through a PAC and mark the money for a named candidate. The PAC passes it on and reports it to the FEC.
+  quote: {label: fec.gov, text: "An earmarked contribution counts against the original contributor’s contribution limits. It does not count against the limits on the SSF's own contributions to the candidate unless the SSF exercises direction or control over the contributor’s choice of the recipient candidate"}
+  text: AIPAC PAC's itemized receipts on fec.gov include contributions listed as "Earmarked for" a named committee.
+- kicker: AIPAC PAC, FEC totals
+  head: Most of what it took in went out as contributions to other committees.
+  rows:
+  - ['2023-24: Total receipts', '$57.87 million']
+  - ['2023-24: Total disbursements', '$57.42 million']
+  - ['2023-24: Contributions to other committees', '$53.70 million']
+  - ['2025-26*: Total receipts', '$57.77 million']
+  - ['2025-26*: Total disbursements', '$56.25 million']
+  - ['2025-26*: Contributions to other committees', '$53.29 million']
+  text: "*Jan. 1, 2025 to Oct. 14, 2026, the latest report the FEC lists."
+- kicker: "Committee 2: the super PAC"
+  head: The FEC lists United Democracy Project as a super PAC. Its FEC record names no connected organization.
+  rows:
+  - [Committee type, Super PAC (Independent Expenditure-Only)]
+  - [Designation, Unauthorized]
+  quote: {label: fec.gov, text: "Super PACs (independent expenditure only political committees) are committees that may receive unlimited contributions from individuals, corporations, labor unions and other PACs"}
+- kicker: United Democracy Project, FEC totals
+  head: Independent expenditures are ads for or against a candidate that aren't made with the candidate.
+  rows:
+  - ['2023-24: Total receipts', '$87.18 million']
+  - ['2023-24: Total disbursements', '$61.37 million']
+  - ['2023-24: Independent expenditures', '$37.86 million']
+  - ['2025-26*: Total receipts', '$112.82 million']
+  - ['2025-26*: Total disbursements', '$85.06 million']
+  - ['2025-26*: Independent expenditures', '$53.60 million']
+  text: "*Jan. 1, 2025 to Oct. 14, 2026. The FEC's totals leave out 24- and 48-hour reports of independent expenditures."
+caption: |-
+  How does a group like AIPAC take part in federal elections? Its public FEC records show two different kinds of committees.
+
+  AIPAC PAC (FEC ID C00797670) is a PAC connected to the American Israel Public Affairs Committee. A PAC like this can give a candidate up to $5,000 per election. It can also pass along "earmarked" contributions: a donor gives through the PAC and names the candidate, and the gift counts against the donor's own limit. In 2023-2024 the FEC shows $57.87 million in total receipts and $53.70 million in contributions to other committees.
+
+  United Democracy Project (FEC ID C00799031) is a super PAC. AIPAC's website calls it "the AIPAC-backed super PAC." Super PACs can take unlimited contributions and spend on their own ads. In 2023-2024 the FEC shows $87.18 million in total receipts and $37.86 million in independent expenditures.
+
+  Look up any committee at fec.gov/data.
+hashtags: [campaignfinance, fec, superpac, civics, votetherecord]
+record_ids: [us/fec/C00797670/2024-2026-totals, us/fec/C00799031/2024-2026-totals]
+publish_after: '2026-11-17T07:30:00-06:00'
+found_via: owner idea local-video
+notes: >-
+  Owner idea (local video); the owner asked us to name the group. All numbers are from the fec.gov committee pages
+  (financial summary, labels as shown: "Total receipts", "Total disbursements", "Contributions to other committees",
+  "Independent expenditures"), 2023-2024 and 2025-2026 (coverage through Oct. 14, 2026, pre-general report).
+  The FEC's UDP record (and its Form 1, FEC-1755377) lists no connected organization, so the link between AIPAC and
+  UDP rests only on AIPAC's own site ("the AIPAC-backed super PAC"), quoted as AIPAC's words; drop slide 1's quote
+  and the caption line if you want FEC-only. Left out: an Oct. 21, 2026 op-ed on aipac.org (by David-Seth Kirshner, marked republished) says AIPAC's PAC will stop endorsing, giving directly and being listed as an earmark; it isn't an AIPAC statement or a filing, so it's not on a slide. If AIPAC or the FEC confirms it, a follow-up post should cover it. The "Earmarked for" receipt type was seen in the FEC's itemized receipts
+  for C00797670 (2023-2024); the count or total of earmarked receipts wasn't checked (API rate limit).
+  UDP's "Contributions to other committees" ($3.55M / $13.13M) is left off: the page doesn't say to whom.
