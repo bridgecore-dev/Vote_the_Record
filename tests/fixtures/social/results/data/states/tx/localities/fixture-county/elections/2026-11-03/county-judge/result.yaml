@@ -1,0 +1,17 @@
+election_date: '2026-11-03'
+status: official
+as_of: '2026-11-12'
+covers: whole
+counts:
+  zoe-adams: 600
+  bo-young: 390
+  cy-moss: 10
+other_votes: 5
+outcome:
+  result: elected
+  candidates: [zoe-adams]
+sources:
+- id: tx/localities/fixture-county/elections/2026-11-03/county-judge/result#S-01
+  source_url: https://www.fixturecounty.tx.gov/canvass.pdf
+  source_title: Fixture County Official Canvass
+  retrieved: '2026-11-12'

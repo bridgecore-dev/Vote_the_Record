@@ -1,0 +1,24 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd" ID="P0b002ee1e999d260">
+<titleInfo>
+         <title>An act to extend and authorize annual appropriations for the United States Commission on International Religious Freedom through December 31, 2028.</title>
+    </titleInfo>
+<originInfo>
+         <publisher>U.S. Government Publishing Office</publisher>
+         <dateIssued encoding="w3cdtf">2026-10-14</dateIssued>
+         <issuance>monographic</issuance>
+    </originInfo>
+<extension>
+         <docClass>PUBLIC</docClass>
+         <accessId>PLAW-119publ136</accessId>
+         <congress>119</congress>
+         <number>137</number>
+         <bill congress="119" context="side note" number="9999" priority="primary" type="HR"></bill>
+         <bill congress="119" context="legislative history" number="9999" priority="primary" type="HR"></bill>
+         <bill congress="119" context="legislative history" number="3984" priority="secondary" type="S"></bill>
+         <shortTitle>Fixture Act of 2026 (made up for tests)</shortTitle>
+         <isAppropriation>false</isAppropriation>
+         
+         
+         
+    </extension>
+</mods>

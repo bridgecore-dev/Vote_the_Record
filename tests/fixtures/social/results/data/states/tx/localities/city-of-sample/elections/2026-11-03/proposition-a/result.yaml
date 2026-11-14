@@ -1,0 +1,15 @@
+election_date: '2026-11-03'
+status: official
+as_of: '2026-11-12'
+covers: partial
+covers_note: Votes counted in Fixture County only.
+counts:
+  FOR: 300
+  AGAINST: 100
+outcome:
+  result: passed
+sources:
+- id: tx/localities/city-of-sample/elections/2026-11-03/proposition-a/result#S-01
+  source_url: https://www.fixturecounty.tx.gov/canvass.pdf
+  source_title: Fixture County Official Canvass
+  retrieved: '2026-11-12'

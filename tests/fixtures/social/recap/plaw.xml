@@ -1,0 +1,49 @@
+
+<rss version="2.0" xml:base="https://www.govinfo.gov" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Public and Private Laws - New items on GovInfo</title>
+        <link>https://www.govinfo.gov/app/collection/plaw</link>
+        <description>Provides access to newly published GovInfo content from the  Public and Private Laws. Public and private laws are also known as slip laws. A slip law is an official publication of the law and is competent evidence admissible in all state and Federal courts and tribunals of the United States. Public laws affect society as a whole, while private laws affect an individual, family, or small group.</description>
+        <language>en</language>
+        <image>
+            <url>https://www.govinfo.gov/sites/default/files/media/govinfo_eagle_homepage.png</url>
+            <title>Public and Private Laws - New items on GovInfo</title>
+            <link>https://www.govinfo.gov/app/collection/plaw</link>
+        </image>
+        <lastBuildDate>Mon, 09 Nov 2026 15:11:00 +0000</lastBuildDate>
+        <ttl>15</ttl>
+        <copyright>Title 17, Section 105, United States Code, provides that: Copyright protection under this title is not available for any work of the United States Government, but the United States Government is not precluded from receiving and holding copyrights transferred to it by assignment, bequest, or otherwise. For more information, see https://www.govinfo.gov/about/policies#copyright </copyright>
+        <item>
+            <guid isPermaLink="false">PLAW-119publ137</guid>
+            <title>Public Law 119 - 137 - United States Commission on International Religious Freedom Reauthorization Act of 2026</title>
+            <pubDate>Mon, 09 Nov 2026 15:11:00 +0000</pubDate>
+            <category>Bills and Statutes</category>
+            <link>https://www.govinfo.gov/app/details/PLAW-119publ137</link>
+            <description></description>
+        </item>
+        <item>
+            <guid isPermaLink="false">PLAW-119publ138</guid>
+            <title>Public Law 119 - 138 - Accelerating Access to Critical Therapies for ALS Reauthorization Act of 2026</title>
+            <pubDate>Mon, 09 Nov 2026 15:11:00 +0000</pubDate>
+            <category>Bills and Statutes</category>
+            <link>https://www.govinfo.gov/app/details/PLAW-119publ138</link>
+            <description></description>
+        </item>
+        <item>
+            <guid isPermaLink="false">PLAW-119publ58</guid>
+            <title>Public Law 119 - 58 - Secure Rural Schools Reauthorization Act of 2025</title>
+            <pubDate>Wed, 10 Jun 2026 20:57:14 +0000</pubDate>
+            <category>Bills and Statutes</category>
+            <link>https://www.govinfo.gov/app/details/PLAW-119publ58</link>
+            <description></description>
+        </item>
+        <item>
+            <guid isPermaLink="false">PLAW-115publ411</guid>
+            <title>Public Law 115 - 411 - Global Health Innovation Act of 2017</title>
+            <pubDate>Tue, 21 Jul 2026 23:13:05 +0000</pubDate>
+            <category>Bills and Statutes</category>
+            <link>https://www.govinfo.gov/app/details/PLAW-115publ411</link>
+            <description></description>
+        </item>
+    </channel>
+</rss>

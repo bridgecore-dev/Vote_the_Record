@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><vote_summary>
+  <congress>119</congress>
+  <session>2</session>
+  <congress_year>2026</congress_year>
+  <votes>
+    <vote>
+      <vote_number>00262</vote_number>
+      <vote_date>12-Nov</vote_date>
+      <issue>PN1181-7</issue>
+      <question>On the Cloture Motion
+         </question>
+      <result>Agreed to</result>
+      <vote_tally>
+        <yeas>49</yeas>
+        <nays>26</nays>
+      </vote_tally>
+      <title>Motion to Invoke Cloture: Anna St. John to be U.S. Circuit Judge for the Fifth Circuit</title>
+    </vote>
+    <vote>
+      <vote_number>00261</vote_number>
+      <vote_date>12-Nov</vote_date>
+      <issue>PN999-2</issue>
+      <question>On the Cloture Motion
+         </question>
+      <result>Agreed to</result>
+      <vote_tally>
+        <yeas>51</yeas>
+        <nays>27</nays>
+      </vote_tally>
+      <title>Motion to Invoke Cloture: Daniel Desmond Domenico to be U.S. Circuit Judge for the Tenth Circuit</title>
+    </vote>
+    <vote>
+      <vote_number>00260</vote_number>
+      <vote_date>12-Nov</vote_date>
+      <issue>PN1181-1</issue>
+      <question>On the Nomination
+         </question>
+      <result>Confirmed</result>
+      <vote_tally>
+        <yeas>49</yeas>
+        <nays>27</nays>
+      </vote_tally>
+      <title>Confirmation: Gregory Carl Cook, of Alabama, to be U.S. District Judge for the Northern District of Alabama</title>
+    </vote>
+    <vote>
+      <vote_number>00259</vote_number>
+      <vote_date>12-Nov</vote_date>
+      <issue>PN1181-1</issue>
+      <question>On the Cloture Motion
+         </question>
+      <result>Agreed to</result>
+      <vote_tally>
+        <yeas>50</yeas>
+        <nays>27</nays>
+      </vote_tally>
+      <title>Motion to Invoke Cloture: Gregory Carl Cook to be U.S. District Judge for the Northern District of Alabama</title>
+    </vote>
+    <vote>
+      <vote_number>00258</vote_number>
+      <vote_date>10-Nov</vote_date>
+      <issue>H.R. 2347</issue>
+      <question>On the Motion to Proceed
+         </question>
+      <result>Agreed to</result>
+      <vote_tally>
+        <yeas>62</yeas>
+        <nays>21</nays>
+      </vote_tally>
+      <title>Motion to Proceed to H.R. 2347; A bill to amend the Internal Revenue Code of 1986 to exclude from gross income any damages, other than punitive damages, received on account of any sexual acts or sexual contact.</title>
+    </vote>
+    <vote>
+      <vote_number>00257</vote_number>
+      <vote_date>09-Nov</vote_date>
+      <issue>H.R. 2347</issue>
+      <question>On Cloture on the Motion to Proceed
+         </question>
+      <result>Agreed to</result>
+      <vote_tally>
+        <yeas>73</yeas>
+        <nays>25</nays>
+      </vote_tally>
+      <title>Motion to Invoke Cloture: Motion to Proceed to H.R. 2347; A bill to amend the Internal Revenue Code of 1986 to exclude from gross income any damages, other than punitive damages, received on account of any sexual acts or sexual contact.</title>
+    </vote>
+    <vote>
+      <vote_number>00250</vote_number>
+      <vote_date>28-Sep</vote_date>
+      <issue>S. 4668</issue>
+      <question>On Passage of the Bill
+         </question>
+      <result>Passed</result>
+      <vote_tally>
+        <yeas>77</yeas>
+        <nays>22</nays>
+      </vote_tally>
+      <title>S. 4668, as amended; A bill to protect the name, image, and likeness rights of, and provide protections for, student athletes and to promote fair competition among intercollegiate athletics, and for other purposes.</title>
+    </vote>
+  </votes>
+</vote_summary>
