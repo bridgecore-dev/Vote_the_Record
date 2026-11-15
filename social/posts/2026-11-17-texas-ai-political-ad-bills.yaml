@@ -1,0 +1,115 @@
+kind: carousel
+level: state
+place: Texas
+topic: Elections
+approval: review
+rule: >-
+  Every bill filed Nov. 9 to Nov. 13, 2026 whose Texas Legislature Online caption is about artificially
+  generated or altered media in political advertising or elections (said on the last slide).
+record_ids: [tx/90R/HB 427/filed, tx/90R/HB 639/filed, tx/90R/HB 671/filed, tx/90R/HB 929/filed,
+             tx/90R/SB 46/filed]
+publish_after: '2026-11-17T15:30:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 9, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-09
+  retrieved: '2026-11-15'
+- title: Texas Election Code, Sec. 255.004
+  url: https://statutes.capitol.texas.gov/Docs/EL/htm/EL.255.htm
+  retrieved: '2026-11-15'
+- title: Texas Penal Code, Sec. 12.21
+  url: https://statutes.capitol.texas.gov/Docs/PE/htm/PE.12.htm
+  retrieved: '2026-11-15'
+bills:
+- id: HB 427
+  does: Would widen today's 30-day deep fake video crime to AI-made or altered images, audio, video and text.
+  affects: Anyone who makes such media to injure a candidate or sway an election. Satire and parody are exempt.
+  where: Filed Nov. 9, 2026 by Rep. Mary González; no other action yet.
+  summary:
+    text: >-
+      "artificially generated media" means an image, an audio recording, including a recording of an
+      individual's speech, a video recording, a radio broadcast, or written text created or modified using
+      generative artificial intelligence technology or other computer software with the intent to deceive
+    title: HB 427 as filed, Sec. 1 (Election Code 255.004(e))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00427I.htm
+    retrieved: '2026-11-15'
+- id: HB 639
+  does: Would make it a crime to run a political ad with a fake image, audio or video of a candidate unless it says so.
+  affects: Candidates, officeholders, political committees, and people who spend over $100 on, or are paid to run, political ads.
+  where: Filed Nov. 9, 2026 by Rep. Bhojani; no other action yet.
+  summary:
+    text: >-
+      the political advertising includes a disclosure from the person or another person on whose behalf the
+      political advertising is published, distributed, or broadcast indicating that the image, audio
+      recording, or video recording did not occur in reality.
+    title: HB 639 as filed, Sec. 1 (new Election Code 255.0015(b)(2))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00639I.htm
+    retrieved: '2026-11-15'
+- id: HB 671
+  does: Same text as HB 639; a Class A misdemeanor for an unlabeled fake image, audio or video of a candidate in an ad.
+  affects: Candidates, officeholders, political committees, and people who spend over $100 on, or are paid to run, political ads.
+  where: Filed Nov. 9, 2026 by Rep. Gámez; no other action yet.
+  summary:
+    text: "A person commits an offense if the person violates this section. An offense under this section is a Class A misdemeanor."
+    title: HB 671 as filed, Sec. 1 (new Election Code 255.0015(d))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00671I.htm
+    retrieved: '2026-11-15'
+- id: SB 46
+  does: Same rule as HB 639, but a first offense is a fine of up to $3,000; a third or later is a Class A misdemeanor.
+  affects: Candidates, officeholders, political committees, and people who spend over $100 on, or are paid to run, political ads.
+  where: Filed Nov. 9, 2026 by Sen. Zaffirini; no other action yet.
+  summary:
+    text: >-
+      An offense under this section is punishable by a fine of not more than $3,000, except that the offense is
+      a Class A misdemeanor if it is shown on the trial of the offense that the defendant has been previously
+      convicted under this section two or more times.
+    title: SB 46 as filed, Sec. 1 (new Election Code 255.0015(d))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00046I.htm
+    retrieved: '2026-11-15'
+- id: HB 929
+  does: Would require paid or candidate-approved political ads with major AI content to carry a set label.
+  affects: People who pay for or authorize ads in Texas state and local races and ballot measures and control their content.
+  where: Filed Nov. 9, 2026 by Rep. Mizani; no other action yet.
+  summary:
+    text: >-
+      The disclosure must convey the statement "This ad contains AI-generated or AI-altered content." in the
+      principal language of the advertising.
+    title: HB 929 as filed, Sec. 1 (new Election Code 255.009(d))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00929I.htm
+    retrieved: '2026-11-15'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 9, 2026
+  big: 5 bills
+  head: Five Texas bills would set new rules for fake or AI-made media in political ads.
+- chip: The law today
+  big: 30 days
+  head: "Texas makes it a crime to create a deep fake video and publish it within 30 days of an election, to hurt a candidate or sway the result."
+  quote: {label: Texas Election Code 255.004(e), text: "\"deep fake video\" means a video, created with the intent to deceive, that appears to depict a real person performing an action that did not occur in reality."}
+  text: "It's a Class A misdemeanor: up to $4,000 in fines, up to one year in jail, or both (Penal Code 12.21). It covers video only."
+- chip: Three different approaches
+  head: The bills don't agree on whether to ban it or label it.
+  rows: [[HB 427, "Widen today's 30-day crime to AI images, audio and text"],
+         ["HB 639 · HB 671 · SB 46", "Allowed any time with a label; a crime without one"],
+         [HB 929, "Label required; Ethics Commission fine up to $4,000 per ad"]]
+- chip: Who's left out
+  head: "Each bill carves out people who only carry someone else's ad, in its own words."
+  text: "HB 639, HB 671 and SB 46: online services, internet providers, broadcasters, billboard owners. HB 929: publishers and other go-betweens. HB 427: some paid broadcasts and news coverage. HB 427 and HB 929 also exempt satire and parody. No fiscal note (cost estimate) is posted yet for any of the five."
+- chip: How we picked
+  head: "Every bill filed Nov. 9 to Nov. 13 whose official caption is about AI-made or altered media in political ads or elections."
+  text: "The Legislature convenes Jan. 12, 2027. Ban it close to an election, or label it any time: which makes more sense to you?"
+caption: |-
+  Texas already bans one kind of election deep fake: a fake video, published within 30 days of an election to hurt a candidate or sway the result. Five bills filed for the 2027 session would change that rule.
+
+  They split three ways: widen the ban, allow it with a label, or require a label and fine ads without one.
+
+  Which approach makes more sense to you?
+hashtags: [txlege, texaslegislature, deepfakes, elections, votetherecord]
+notes: >-
+  All records opened 2026-11-15: the Nov. 9 filing report, five bill histories (filed, no other action;
+  no fiscal notes on the Text pages), five introduced texts, Election Code 255.004 and Penal Code 12.21 on
+  statutes.capitol.texas.gov. HB 639 and HB 671 are the same council draft (90R 4960); SB 46 differs only in
+  the penalty (subsec. (d)). "Rep. Mary González" distinguishes her from Rep. Jessica González (TLO filing
+  report: "González, Mary"; bill text: "González of El Paso"). HB 929's penalty is civil (Ethics Commission, up
+  to $4,000 per ad); the others are criminal. Please double-check whether any court ruling affects Election
+  Code 255.004 before this runs; none was opened in this run and the post states only the statute's text.
+  Uses the extra 3:30 p.m. slot on Nov. 17: Nov. 16 and 17 have no evening feed post, but every evening slot
+  on both days is taken.
