@@ -35,7 +35,18 @@ jobs:
         with:
           python-version: "3.12"
       - run: sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
-      - run: pip install -r requirements-social.txt
+      - run: pip install -r requirements-social.txt -r requirements-reel.txt
+      # Motion Reels (src/social/reel.py): headless Chromium for frame capture, Kokoro voice model (hash-checked)
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ hashFiles('requirements-reel.txt') }}
+      - run: python -m playwright install --with-deps chromium
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/vtr-kokoro
+          key: kokoro-v1.0-7d5df8ec
+      - run: python src/social/reel.py --download-model
 
       - name: Which posts changed
         id: posts
