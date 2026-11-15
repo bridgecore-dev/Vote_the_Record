@@ -189,8 +189,18 @@ context: What was said just before and after; for the reviewer only.
 
 - **Sources:** the committee's or chamber's own video. `video.url` must be on `.gov` or a host listed in
   `CLIP_HOSTS` in src/social/clip.py (added only once confirmed as the official feed). YouTube and C-SPAN are
-  refused: YouTube's terms forbid downloading, and C-SPAN's footage is its own.
+  refused: YouTube's terms forbid downloading, and C-SPAN's footage is its own. Allowed so far: the House floor
+  archive behind live.house.gov and the Senate's floor and committee player (senate.gov/isvp). Not yet: Texas
+  House video (its terms require written permission), Texas Senate video (no terms stated), and committees that
+  post only on YouTube.
+- **Rights:** congressional video is public domain (17 U.S.C. 105). House Rule V cl. 2(c) and Rule XI cl. 4(b),
+  and S. Res. 28 §6(a), bar using it for partisan political campaign purposes or commercial advertising; our
+  posts are neither, and a clip is never cut to make a member look good or bad.
 - **Cuts:** never mid-sentence. If a question is shown, its answer is too. `context` lets the reviewer check that.
+- **Captions from the official file:** where the chamber publishes captions (the House floor archive's
+  `captions.vtt`), `python src/social/clip.py --vtt <url> --start 0:41:05 --end 0:41:47` prints `captions` timed
+  from the clip's start, with `caption_source: official`. Check them against the video: live captions can
+  repeat words, and are corrected only by removing repeats, never by rewording.
 - **Party, as recorded:** a member's lower-third may carry party and state as the Clerk or Senate lists them
   ("Rep. Jane Doe (R-TX)"), and then every member in the clip carries one; the builder refuses a mix, or any other
   form ("Republican", "(R)"). Witnesses have none. Captions are verbatim speech and are not edited.
