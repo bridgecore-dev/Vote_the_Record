@@ -1,0 +1,71 @@
+kind: reel
+level: congress
+topic: Wildlife
+approval: review
+record_ids: ["us/119/H.R. 7954/house-floor-schedule-2026-11-16"]
+publish_after: '2026-11-16T19:00:00-06:00'
+rule: >-
+  From the House suspension list for the week of Nov. 16, 2026, the one bill that sets up a new federal program
+  with tribes. Earlier posts covered the study, reauthorization and other bills on the same list with the same
+  structure.
+sources:
+- title: "U.S. House, Bills to be Considered on the House Floor, Week of Nov. 16, 2026 (docs.house.gov, last updated Nov. 13, 2026)"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-16
+  retrieved: '2026-11-15'
+- title: "H.R. 7954, Don Young Doug LaMalfa Indian Buffalo Management Act, text as reported (docs.house.gov)"
+  url: https://docs.house.gov/billsthisweek/20261116/h7954_rh_xml.pdf
+  retrieved: '2026-11-15'
+- title: "House Report 119-856, Don Young Doug LaMalfa Indian Buffalo Management Act (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt856/html/CRPT-119hrpt856.htm
+  retrieved: '2026-11-15'
+- title: Congress.gov, H.R. 7954 cosponsors
+  url: https://api.congress.gov/v3/bill/119/hr/7954/cosponsors
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 7954
+  title: Don Young Doug LaMalfa Indian Buffalo Management Act
+  does: "Would have the Interior Dept. give tribes grants, contracts and help to restore and manage buffalo, for 7 years."
+  affects: "Indian tribes and tribal groups with buffalo experience, and surplus buffalo on Interior land."
+  where: "Approved by the House Natural Resources Committee by unanimous consent. On the House schedule week of Nov. 16."
+  summary:
+    text: >-
+      This bill directs the Department of the Interior to work with Indian Tribes and tribal organizations to
+      develop and promote tribal ownership and management of buffalo and buffalo habitat on Indian lands.
+    title: Congressional Research Service summary of H.R. 7954
+    url: https://api.congress.gov/v3/bill/119/hr/7954/summaries
+    retrieved: '2026-11-15'
+slides:
+- kicker: "U.S. House · Week of Nov. 16"
+  big: "1,000 → 200,000+"
+  head: "U.S. buffalo fell to about 1,000 in the late 1800s. Some estimates now count over 200,000."
+- chip: Who brought them back
+  head: "The committee report credits conservation and tribes, including the Intertribal Buffalo Council."
+  text: "Founded in 1991, the council now has 90 tribes in 23 states, the report says."
+- chip: "What the bill would do"
+  head: "It directs the Interior Department to back tribal buffalo herds."
+  rows:
+  - [Grants, "Contracts, grants and technical help for tribes"]
+  - [Consult, "On Interior plans that affect buffalo, incl. sick herds"]
+  - [Surplus, "Extra buffalo on Interior land can go to tribes"]
+  - [Ends, "7 years after it becomes law"]
+- chip: "Cost and who gains"
+  head: "Tribes and tribal groups gain the help. The bill sets no dollar amount."
+  text: "Interior may waive its charges for surplus buffalo. The committee asked CBO for a cost estimate and had not received it."
+- chip: Where it stands
+  head: "Sponsor: Rep. Jeff Hurd (R-CO), with 8 Republican and 7 Democratic cosponsors."
+  text: "The committee approved it by unanimous consent. It needs two-thirds of those voting. Should Interior do this? Tell us."
+caption: |-
+  In the late 1800s, U.S. buffalo fell from tens of millions to about 1,000, the House committee report says. Some estimates now count more than 200,000, many brought back by tribes.
+
+  H.R. 7954, on the House schedule this week, directs the Interior Department to back tribal buffalo herds for seven years: contracts, grants and technical help, consultation on Interior plans that affect buffalo (including sick herds), and agreements to move surplus buffalo from Interior land to tribal land, with charges that can be waived.
+
+  The bill names no dollar amount. The committee asked CBO for a cost estimate and had not received it.
+
+  Should Interior take this on? Tell us below.
+hashtags: [congress, buffalo, bison, tribalnations, votetherecord]
+notes: >-
+  Picked by the stated rule; H.R. 2400, 8483 and 10136 share a carousel and H.R. 9600 gets a story. The 1,000 and
+  200,000 figures, the Intertribal Buffalo Council details and unanimous consent are from H. Rept. 119-856 (it cites
+  NPS and the 2022 USDA Census of Agriculture). The bill text has no authorization of appropriations. Cosponsor
+  counts by party from congress.gov (8 R, 7 D); Hurd's party and state as the report lists them. If the House votes
+  before 7 p.m. Nov. 16, the last slide needs the tally.
