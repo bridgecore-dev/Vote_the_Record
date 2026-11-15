@@ -122,16 +122,18 @@ Made to be seen (never at the cost of a rule above):
   several bills belong together, make a Reel for the one or two that matter most and a carousel for the rest,
   or one Reel per bill on different days.
 
-Every day should have at least one Reel (`kind: reel`), one feed post (`carousel` or `image`) and one story
-(`kind: story`, or a post with a `story: true` slide). Count the `kind`s already scheduled for each of the
-next two days (on `main` and in open `social/*` pull requests) and give a missing format priority. Choose
+Every day should have at least three feed posts (`carousel` or `image`) and three Reels (`kind: reel`), one of
+each in the morning, afternoon and evening, plus one story (`kind: story`, or a post with a `story: true` slide);
+more on days or weeks with more news (owner's decision, 2026-11-15). Count the `kind`s already scheduled for each
+of the next two days (on `main` and in open `social/*` pull requests) and fill the empty slots first, earliest
+day first. Choose
 the format that fits: a Reel for one quick point that takes 3-6 slides, a carousel for something to read
 (bill explainers, vote tallies), a story for a reminder or a date. Never weaken the rules above to fill a
 format; an empty slot is better than a weak post.
 
-Zero posts is a fine result. At most three pull requests per run; pick the strongest.
-The routine runs hourly, so most runs should open nothing. If six or more post pull requests are already
-open, open only ones built from the owner's ideas.
+At most three pull requests per run; pick the strongest. A run with no empty slot in the next two days and
+nothing new may open nothing. If twelve or more post pull requests are already open, open only ones built from
+the owner's ideas.
 
 Not yet: photos of people. Hearing clips only once `social/README.md` documents `kind: clip`; then follow it
 exactly (official video only, never YouTube or C-SPAN; a `context` line; captions from the official transcript
@@ -145,8 +147,12 @@ One file, `social/posts/<YYYY-MM-DD>-<slug>.yaml`, in the format in `social/READ
   use `approval: review`. Either way the pull request merges itself once its checks pass, so a `review`
   post must be one you'd stand behind if the owner never sees it before it goes out.
 - `record_ids`: every record the post covers, in the README's format.
-- `publish_after`: the next free slot of 7:30 a.m., 12:00 p.m., 5:30 p.m. and 8:00 p.m. Central not already
-  used by a pending post, written with its offset (e.g. `'2026-11-14T12:00:00-06:00'`; `-05:00` in daylight
+- `publish_after`: the next free slot for the post's format, Central time, not already used by a pending post:
+  - feed posts (`carousel`, `image`): 7:30 a.m., 12:00 p.m., 5:30 p.m.
+  - Reels: 9:00 a.m., 1:30 p.m., 7:00 p.m.
+  - stories: 8:30 p.m.
+  - extra slots on busy news days, any format: 10:30 a.m., 3:30 p.m., 8:00 p.m.
+  Never two posts at the same time; written with its offset (e.g. `'2026-11-14T12:00:00-06:00'`; `-05:00` in daylight
   time).
 - `sources`: title, URL and `retrieved` (today) for each page the post rests on.
 - `notes`: one or two lines for the owner: why it's post-worthy and anything to double-check.
