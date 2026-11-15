@@ -125,6 +125,8 @@ bills:
   say: Read over this bill's explainer slide.
 ```
 
+- **One or two bills per Reel** (owner's choice, 2026-11-15; reel.py refuses more): a Reel has to be followed
+  in one sitting. Split more into another Reel, or use a carousel.
 - **`say`** only restates what the slide and its sources already say: every number in it must be on that slide,
   any bill it names needs a `bills` entry, and the party rule applies. Read by Kokoro (run locally, no audio sent
   anywhere) and shown as captions. A post that uses it must end its caption with
