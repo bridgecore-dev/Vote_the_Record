@@ -26,10 +26,10 @@ bills:
   where: Filed Nov. 9, 2026 by Rep. Mary González; no other action yet.
   summary:
     text: >-
-      "artificially generated media" means an image, an audio recording, including a recording of an
+      an image, an audio recording, including a recording of an
       individual's speech, a video recording, a radio broadcast, or written text created or modified using
       generative artificial intelligence technology or other computer software with the intent to deceive
-    title: HB 427 as filed, Sec. 1 (Election Code 255.004(e))
+    title: HB 427 as filed, Sec. 1, defining artificially generated media (Election Code 255.004(e))
     url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00427I.htm
     retrieved: '2026-11-15'
 - id: HB 639
@@ -83,8 +83,8 @@ slides:
 - chip: The law today
   big: 30 days
   head: "Texas makes it a crime to create a deep fake video and publish it within 30 days of an election, to hurt a candidate or sway the result."
-  quote: {label: Texas Election Code 255.004(e), text: "\"deep fake video\" means a video, created with the intent to deceive, that appears to depict a real person performing an action that did not occur in reality."}
-  text: "It's a Class A misdemeanor: up to $4,000 in fines, up to one year in jail, or both (Penal Code 12.21). It covers video only."
+  quote: {label: "Election Code 255.004(e): a deep fake video", text: "means a video, created with the intent to deceive, that appears to depict a real person performing an action that did not occur in reality."}
+  text: "Video only. A Class A misdemeanor: up to $4,000, a year in jail, or both (Penal Code 12.21)."
 - chip: Three different approaches
   head: The bills don't agree on whether to ban it or label it.
   rows: [[HB 427, "Widen today's 30-day crime to AI images, audio and text"],
