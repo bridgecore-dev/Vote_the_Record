@@ -1,0 +1,83 @@
+kind: carousel
+level: congress
+topic: Water
+approval: review
+record_ids: ["us/119/H.R. 9785/house-floor-schedule-2026-11-16"]
+publish_after: '2026-11-16T15:30:00-06:00'
+rule: >-
+  From the House suspension list for the week of Nov. 16, 2026, we pick the bills that order a federal agency
+  to study or plan something (feasibility studies, management frameworks) rather than move land or place a
+  monument. Each gets its own post with the same structure. This week that is H.R. 9785, H.R. 8195 and H.R. 7254.
+sources:
+- title: "U.S. House, Bills to be Considered on the House Floor, Week of Nov. 16, 2026 (docs.house.gov, last updated Nov. 13, 2026)"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-16
+  retrieved: '2026-11-15'
+- title: "H.R. 9785, South Dakota Water Feasibility Studies Act, text as reported (docs.house.gov)"
+  url: https://docs.house.gov/billsthisweek/20261116/h9785_rh_xml.pdf
+  retrieved: '2026-11-15'
+- title: "House Report 119-863, South Dakota Water Feasibility Studies Act, with CBO cost estimate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt863/html/CRPT-119hrpt863.htm
+  retrieved: '2026-11-15'
+- title: Congress.gov, H.R. 9785 actions and cosponsors
+  url: https://api.congress.gov/v3/bill/119/hr/9785/actions
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 9785
+  title: South Dakota Water Feasibility Studies Act
+  does: "Would have the Interior Dept. study three projects to pipe Missouri River water to towns, farms and industry."
+  affects: "Three regional water systems serving parts of South Dakota, Iowa, Minnesota and Nebraska."
+  where: "Approved by the House Natural Resources Committee by unanimous consent. On the House schedule week of Nov. 16."
+  summary:
+    text: >-
+      This bill directs the Department of the Interior to study the feasibility of constructing projects to
+      supply municipal, rural, and industrial water from the Missouri River in Iowa, Minnesota, Nebraska, and
+      South Dakota.
+    title: Congressional Research Service summary of H.R. 9785
+    url: https://api.congress.gov/v3/bill/119/hr/9785/summaries
+    retrieved: '2026-11-15'
+slides:
+- kicker: "U.S. House · Week of Nov. 16"
+  big: $30M
+  head: "What CBO says it would cost to study three new water projects on the Missouri River, 2027-2031."
+- chip: What a feasibility study is
+  head: "A feasibility study weighs a project's benefits and costs. Here the Bureau of Reclamation would do it."
+  text: "Each study ends in a public report to Congress recommending whether the project should be authorized for construction."
+- chip: The three projects
+  head: "Each study looks at moving Missouri River water to a different area."
+  rows:
+  - [Western Dakota, "Extra water for western South Dakota"]
+  - [Lewis & Clark, "A bigger system; serves 350,000+ in SD, IA, MN now"]
+  - [Dakota Mainstem, "A new system for SD, MN, IA and Nebraska's Santee Reservation"]
+- chip: "Before → after"
+  head: "Today no law directs these three studies. The bill would."
+  rows:
+  - [Before, "No federal study of these three projects"]
+  - [After, "Interior studies each one with the local water system"]
+  - [Federal share, "Up to half of each study, $10 million at most"]
+  - [Local share, "The water systems pay the rest"]
+  - [Time limit, "Authority ends 7 years after it becomes law"]
+- chip: "Who pays, who gains"
+  head: "Each report must say whether to build, and set the local share of building costs at 25% or more."
+  rows:
+  - [Gains, "The three water systems and the areas they serve"]
+  - [Pays, "Federal taxpayers, up to $10M per study; the systems pay the rest"]
+  - [Cost, "CBO: $30 million over 2027-2031, if Congress funds it"]
+  - [Public, "Each report must be made public"]
+- chip: Where it stands
+  head: "Sponsor: Rep. Dusty Johnson (R-SD). The committee approved it by unanimous consent."
+  text: "Suspension bills need two-thirds of those voting to pass. Watch at live.house.gov. Should Congress pay half of studies like these?"
+caption: |-
+  Should three new water projects on the Missouri River be built? H.R. 9785, on the House schedule this week, would order studies to find out.
+
+  Before: no law directs these studies. After: the Interior Department studies three projects to bring Missouri River water to towns, farms and businesses in South Dakota, Iowa, Minnesota and Nebraska, working with the local water systems.
+
+  The federal government would pay up to half of each study, and no more than $10 million each. The water systems pay the rest. Each report must say whether the project should be built, and the local share of building it would be at least 25%. CBO estimates the bill would cost $30 million over 2027-2031, if Congress funds it.
+
+  Should Congress pay half of studies like these? Tell us below.
+hashtags: [congress, water, southdakota, missouririver, votetherecord]
+notes: >-
+  Picked by the stated rule; H.R. 8195 and H.R. 7254 get matching posts. Floor text is the reported (RH)
+  version, which matches the report's amendment. The $30M CBO estimate, the 350,000 figure and the project
+  descriptions are from H. Rept. 119-863 (the report cites the water systems' own sites for the descriptions).
+  Johnson's party and state as the report lists them; congress.gov lists no cosponsors. If the House votes
+  before 3:30 p.m. Nov. 16 (votes usually start 6:30 p.m. Monday), the last slide needs the tally.
