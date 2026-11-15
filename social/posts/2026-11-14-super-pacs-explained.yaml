@@ -30,11 +30,13 @@ sources:
   retrieved: '2026-11-14'
 slides:
 - kicker: Money in politics, before 2010
+  say: "Before 2010, federal law barred corporations and unions from paying for ads for or against federal candidates out of their own treasuries. They could still set up a PAC, a separate committee that raised its own money from people, within contribution limits."
   head: Federal law barred corporations and unions from paying for ads for or against federal candidates out of their own treasuries.
   quote: {label: "Citizens United v. FEC, 558 U.S. 310, syllabus", text: "federal law prohibits corporations and unions from using their general treasury funds to make independent expenditures for speech that is an “electioneering communication” or for speech that expressly advocates the election or defeat of a candidate."}
   text: They could still set up a PAC, a separate committee that raised its own money from people, within contribution limits.
   seconds: 7
 - kicker: What changed
+  say: "In 2010, two rulings changed the rules. On January 21, in Citizens United versus FEC, the Supreme Court said corporations and unions may spend on their own. On March 26, an appeals court ruled: no limit on what people give groups that only do that."
   big: '2010'
   head: Two court rulings that year changed the rules for spending that isn't made with a candidate.
   rows:
@@ -43,6 +45,7 @@ slides:
   quote: {label: fec.gov, text: "Super PACs (independent expenditure only political committees) are committees that may receive unlimited contributions from individuals, corporations, labor unions and other PACs"}
   seconds: 7
 - kicker: What the numbers show
+  say: "Independent expenditures reported to the FEC: $388.6 million in 2009-2010, $1.25 billion in 2011-2012, $1.63 billion in 2015-2016, $3.14 billion in 2019-2020, and $4.43 billion in 2023-2024, $2.72 billion of it by super PACs. Not adjusted for inflation."
   big: $4.43 billion
   head: Independent expenditures reported to the FEC in 2023-2024, up from $388.6 million in 2009-2010.
   rows:
@@ -54,16 +57,19 @@ slides:
   text: FEC totals for each two-year cycle, not adjusted for inflation. The tables don't say why spending rose.
   seconds: 7
 - kicker: "The case for: 5 justices"
+  say: "The case for, from 5 justices: the First Amendment bars limits on political speech because the speaker is a corporation. If the First Amendment has any force, it prohibits Congress from fining or jailing citizens for simply engaging in political speech."
   head: The majority said the First Amendment bars limits on political speech because the speaker is a corporation.
   quote: {label: "Majority opinion, 558 U.S. at 349", text: "If the First Amendment has any force, it prohibits Congress from fining or jailing citizens, or associations of citizens, for simply engaging in political speech."}
   text: "“independent expenditures, including those made by corporations, do not give rise to corruption or the appearance of corruption.” (at 357)"
   seconds: 8
 - kicker: "The case against: 4 justices"
+  say: "The case against, from 4 justices: Congress may limit corporate election spending to keep people's trust. A democracy cannot function effectively when its constituent members believe laws are being bought and sold."
   head: The dissent said Congress may limit corporate election spending to keep people's trust in government.
   quote: {label: "Dissent, 558 U.S. at 453", text: "A democracy cannot function effectively when its constituent members believe laws are being bought and sold."}
   text: "“corporations have no consciences, no beliefs, no feelings, no thoughts, no desires. … they are not themselves members of ‘We the People’ by whom and for whom our Constitution was established.” (at 466)"
   seconds: 8
 - kicker: You decide
+  say: "More speech, or more influence? The Court split 5 to 4. Both sides kept the reporting and disclaimer requirements. That's why you can look up who funds these groups at fec.gov/data."
   head: More speech, or more influence? The Court split 5-4. Both sides kept one thing.
   quote: {label: "FEC summary of the ruling", text: "The Court upheld the reporting and disclaimer requirements for independent expenditures and electioneering communications."}
   text: That's why you can look up who funds these groups at fec.gov/data.
@@ -75,10 +81,12 @@ caption: |-
 
   FEC tables show $388.6 million in independent expenditures in 2009-2010 and $4.43 billion in 2023-2024, not adjusted for inflation.
 
-  Five justices said limits on this spending violate the First Amendment. Four disagreed, warning that it could cost the public's trust. We quote both sides in their own words. Which side convinces you?
+  Five justices said limits on this spending violate the First Amendment. Four disagreed, warning that it could cost the public's trust. Which side convinces you?
+
+  Voice: computer-generated (Kokoro text-to-speech).
 hashtags: [campaignfinance, citizensunited, superpac, civics, votetherecord]
 record_ids: [us/scotus/558-us-310/citizens-united-v-fec, us/cadc/2010/speechnow-v-fec, us/fec/independent-expenditures/2010-2024]
-publish_after: '2026-11-16T20:00:00-06:00'
+publish_after: '2026-11-16T19:30:00-06:00'
 found_via: owner idea local-video
 notes: >-
   Owner idea (local video). Opinion text read from the official U.S. Reports bound volume 558 (Citizens United begins

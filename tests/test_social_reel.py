@@ -295,3 +295,12 @@ def test_reel_covers_at_most_two_bills():
 ])
 def test_spoken_numbers(said, heard):
     assert reel.spoken(said) == heard
+
+
+def test_every_reel_has_a_voice():
+    post = {"kind": "reel", "publish_after": "2026-11-16T07:30:00-06:00",
+            "slides": [{"head": "a", "say": "a"}, {"head": "b"}], "bills": [{"id": "HB 1", "does": "x"}],
+            "caption": "Hi.\n\nVoice: computer-generated (Kokoro text-to-speech)."}
+    assert any("add say to slide 2, bill HB 1" in e for e in reel.check(post))
+    old = dict(post, publish_after="2026-11-14T07:30:00-06:00")
+    assert not any("every Reel has a voice" in e for e in reel.check(old))  # published before the rule

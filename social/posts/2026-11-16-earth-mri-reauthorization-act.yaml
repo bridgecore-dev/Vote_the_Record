@@ -3,7 +3,7 @@ level: congress
 topic: Energy and minerals
 approval: review
 record_ids: ["us/119/H.R. 9640/house-floor-schedule-2026-11-16"]
-publish_after: '2026-11-16T09:00:00-06:00'
+publish_after: '2026-11-16T07:30:00-06:00'
 rule: >-
   From the House suspension list for the week of Nov. 16, 2026, we pick the bills that renew (reauthorize) an
   existing nationwide program. Each gets its own post with the same structure. This week that is H.R. 9640 and
@@ -23,6 +23,7 @@ sources:
   retrieved: '2026-11-15'
 bills:
 - id: H.R. 9640
+  say: "H.R. 9640, the Earth MRI Reauthorization Act of 2026, renews a federal program that maps U.S. minerals, like lithium, through 2031, and favors U.S.-owned contractors. A House committee approved it by unanimous consent. It's on the House schedule the week of November 16."
   title: Earth MRI Reauthorization Act of 2026
   does: "Renews a USGS program that maps U.S. minerals, like lithium, through 2031, and favors U.S.-owned contractors."
   affects: "The U.S. Geological Survey and the companies it hires to map rock, minerals and water."
@@ -37,12 +38,15 @@ bills:
     retrieved: '2026-11-15'
 slides:
 - kicker: "U.S. House · Week of Nov. 16"
+  say: "On the House schedule the week of November 16: a bill that renews the federal program that maps U.S. minerals, for less money. From $320 million to $84 million."
   big: $320M → $84M
   head: A bill on the House schedule renews the federal program that maps U.S. minerals, for less money.
 - chip: What it is
+  say: "Earth MRI is a United States Geological Survey program that maps rock, minerals and water under the ground. Congress created it in 2021. The committee report says the data also helps find water, gravel for roads, geothermal heat and natural hazards."
   head: "Earth MRI is a U.S. Geological Survey program that maps rock, minerals and water under the ground."
   text: "Congress created it in 2021. The committee report says the data also helps find water, gravel for roads, geothermal heat and natural hazards."
 - chip: "Before → after"
+  say: "The bill sets the most Congress can spend on it for the next five years. Now: up to $320 million for 2022 to 2026. After: up to $84 million for 2027 to 2031. Contracts favor U.S.-owned companies, and every bidder must disclose who owns it."
   head: "The bill sets the most Congress can spend on it for the next five years."
   rows:
   - [Now, "Up to $320 million for 2022-2026"]
@@ -50,9 +54,11 @@ slides:
   - [Contracts, "Preference for U.S.-owned companies"]
   - [Every bidder, "Must disclose who owns it"]
 - chip: For and against
+  say: "The committee says renewing it matters for minerals supply. Its top Democrat backs the bill but wants more money. Representative Jared Huffman writes that it would reauthorize substantially less funding than the original $320 million."
   head: "The committee says renewing it matters for minerals supply. Its top Democrat backs the bill but wants more money."
   quote: {label: "Rep. Jared Huffman, Ranking Member, H. Rept. 119-862", text: "H.R. 9640 would reauthorize substantially less funding than the original $320 million provided through IIJA."}
 - chip: Where it stands
+  say: "Sponsor: Representative Rob Wittman, Republican of Virginia, with 4 Republican and 4 Democratic cosponsors. The committee approved it with no objection. It needs two-thirds of those voting to pass. How much should mapping get? Tell us."
   head: "Sponsor: Rep. Rob Wittman (R-VA), with 4 Republican and 4 Democratic cosponsors."
   text: "The committee approved it with no objection. It needs two-thirds of those voting to pass. How much should mapping get? Tell us."
 caption: |-
@@ -63,6 +69,8 @@ caption: |-
   The committee report says renewing the program matters for the country's supply of critical minerals. Rep. Jared Huffman, the committee's ranking member, backs the bill but writes that it renews "substantially less funding" than before, and points to a Senate bill that would keep $320 million.
 
   How much should this mapping get? Tell us below.
+
+  Voice: computer-generated (Kokoro text-to-speech).
 hashtags: [congress, criticalminerals, usgs, votetherecord]
 notes: >-
   Picked by the stated rule; H.R. 9269 gets a matching post. Other suspension bills this week are about one

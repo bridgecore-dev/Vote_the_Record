@@ -3,7 +3,7 @@ level: congress
 topic: Public lands
 approval: review
 record_ids: ["us/119/H.R. 2400/house-floor-schedule-2026-11-16", "us/119/H.R. 8483/house-floor-schedule-2026-11-16", "us/119/H.R. 10136/house-floor-schedule-2026-11-16"]
-publish_after: '2026-11-16T07:30:00-06:00'
+publish_after: '2026-11-16T12:00:00-06:00'
 rule: >-
   From the House suspension list for the week of Nov. 16, 2026, every bill that moves federal land to a new owner
   or trustee. This week that is H.R. 2400, H.R. 8483 and H.R. 10136, shown together with the same structure.
