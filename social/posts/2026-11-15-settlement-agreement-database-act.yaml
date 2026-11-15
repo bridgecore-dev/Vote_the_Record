@@ -1,0 +1,89 @@
+kind: carousel
+level: congress
+topic: Government transparency
+approval: review
+record_ids: ["us/119/H.R. 7934/house-floor-schedule-2026-11-16"]
+publish_after: '2026-11-15T17:30:00-06:00'
+rule: >-
+  From the House suspension list for the week of Nov. 16, 2026, we pick the bills that apply across the whole
+  federal government (every agency, or Congress's budget office) rather than one place, trail, tribe or land
+  transfer. Each gets its own post with the same structure. This week that is H.R. 7934 and H.R. 4464.
+sources:
+- title: "U.S. House, Bills to be Considered on the House Floor, Week of Nov. 16, 2026 (docs.house.gov, last updated Nov. 13, 2026)"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-16
+  retrieved: '2026-11-15'
+- title: "H.R. 7934, Settlement Agreement Information Database Act of 2026, introduced text (GovInfo)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr7934ih/html/BILLS-119hr7934ih.htm
+  retrieved: '2026-11-15'
+- title: Congress.gov, H.R. 7934 actions and cosponsors
+  url: https://api.congress.gov/v3/bill/119/hr/7934/actions
+  retrieved: '2026-11-15'
+- title: "House Practice: A Guide to the Rules, Precedents and Procedures of the House, Chapter 53. Suspension of Rules (GPO)"
+  url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-54.htm
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 7934
+  title: Settlement Agreement Information Database Act of 2026
+  does: Would require federal agencies to post a searchable online database of certain settlement agreements they sign.
+  affects: "Federal agencies, and parties to deals of $10 million or more, with a monitor, or with a state or local government."
+  where: "Approved by committee 40-0 (March 18, 2026). The House floor schedule lists it for the week of Nov. 16."
+  summary:
+    text: >-
+      This bill requires federal agencies to publish a searchable, online database of information about certain
+      settlement agreements entered into by the agency.
+    title: Congressional Research Service summary of H.R. 7934
+    url: https://api.congress.gov/v3/bill/119/hr/7934/summaries
+    retrieved: '2026-11-15'
+slides:
+- kicker: "U.S. House · Week of Nov. 16"
+  big: H.R. 7934
+  head: A bill on the House schedule would make federal agencies post their big settlement deals online.
+- chip: "Before → after"
+  head: The bill adds a new section to federal law (5 U.S.C. 307) that each agency signing these deals must follow.
+  rows:
+  - [Before, "No such section; the bill creates it"]
+  - [After, "Each agency keeps a public, searchable database"]
+  - [Deadline, "Within 2 years of the bill becoming law"]
+  - [Goes back to, "Deals from Jan. 1, 2015 still in effect, where practicable"]
+- chip: Which deals count
+  head: "A settlement or deferred prosecution agreement counts if it meets at least one test:"
+  rows:
+  - [Money, "$10 million or more in required payments"]
+  - [Oversight, "A special master or monitor is appointed"]
+  - [Government party, "A state, city, county or tribe is a party"]
+  - [Other, "Deals the White House budget office (OMB) adds"]
+  - [Left out, "Plea bargains, federal personnel cases, tax code matters"]
+- chip: What gets posted
+  head: For each deal, the database lists the facts and a copy of the agreement.
+  rows:
+  - [Claim, "Civil, criminal, or both, and the laws allegedly broken"]
+  - [Money, "Payments, fines and attorneys' fees, to or from the U.S."]
+  - [Time, "Date signed and projected length"]
+  - [Places, "Any state or local government named in the terms"]
+  text: "Not posted: anything under a confidentiality order or court order, or that FOIA lets an agency withhold. Agencies must report each year how many deals they kept out."
+- chip: "Who it touches, what it costs"
+  head: The public could search these deals; agencies would have to build and update the databases.
+  rows:
+  - [Gains, "Anyone looking up a federal settlement"]
+  - [New work, "Each agency with a covered deal; OMB writes the rules"]
+  - [Settling parties, "Their deal terms go online unless an exemption applies"]
+  - [Cost, "CBO published an estimate May 19, 2026; we couldn't open it"]
+- chip: Where it stands
+  head: "Sponsor: Rep. Gary Palmer (R-AL). Cosponsor: Rep. Kweisi Mfume (D-MD). The committee approved it 40-0."
+  text: "Suspension bills need two-thirds of those voting to pass. Watch at live.house.gov. Should every agency post these deals?"
+caption: |-
+  When a federal agency settles a big case, can you look it up? H.R. 7934 is on the House schedule this week.
+
+  Before: the bill writes a new section into federal law (5 U.S.C. 307); there is no such section today.
+  After: every agency that signs a covered deal keeps a public, searchable database: settlements of $10 million or more, deals with a court-appointed monitor, and deals with a state or local government. Each entry lists the claims, the money, the dates and a copy of the agreement. Confidential terms and anything FOIA lets agencies withhold stay out, and agencies report how many they left out.
+
+  It would apply, where practicable, to deals from 2015 on that are still in effect. CBO has published a cost estimate; we couldn't open it this time.
+
+  Should every agency post these deals? Tell us below.
+hashtags: [congress, transparency, federalgovernment, votetherecord]
+notes: >-
+  Picked by the stated rule (suspension bills that apply government-wide); H.R. 4464 gets a matching post. The
+  floor list links the introduced text (no "as amended"), though the committee ordered it reported amended; slide
+  facts are from the introduced text. cbo.gov returned a bot check (403) and wasn't retried, so the cost line only
+  says an estimate exists (publication 62441, per congress.gov). Party and state as congress.gov lists them. If
+  the House votes before 5:30 p.m. Nov. 15 (unlikely; it returns Nov. 16), the last slide needs the tally.
