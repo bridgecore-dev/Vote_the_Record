@@ -135,9 +135,28 @@ At most three pull requests per run; pick the strongest. A run with no empty slo
 nothing new may open nothing. If twelve or more post pull requests are already open, open only ones built from
 the owner's ideas.
 
-Not yet: photos of people. Hearing clips only once `social/README.md` documents `kind: clip`; then follow it
-exactly (official video only, never YouTube or C-SPAN; a `context` line; captions from the official transcript
-when there is one; always `approval: review`).
+Not yet: photos of people.
+
+Hearing and floor clips (`kind: clip`, published as a Reel and filling a Reel slot; owner's request,
+2026-11-15). Follow `social/README.md` "Clips" exactly: official video only, a `context` line, cuts never
+mid-sentence, a question always with its answer, always `approval: review`. Look for a moment that shows the
+record: a member asking about a bill and the answer, a witness stating a fact the post can source, a floor
+speech explaining a vote. Choose it for what it shows, never to make someone look good or bad, and give every
+member the same treatment. Where the video is:
+- Senate committee hearings and the Senate floor: the hearing page embeds
+  `https://www.senate.gov/isvp/?comm=<committee>&filename=<file>`; the player loads
+  `https://www-senate-gov-media-srs.akamaized.net/hls/live/<stream id>/<committee>/<file>/master.m3u8`
+  (floor: `comm=stv`, the file named in senate.gov's floor schedule).
+- House floor: live.house.gov; each day's data lists a `manifest.m3u8` and the official `captions.vtt`.
+  `python src/social/clip.py --vtt <captions.vtt URL> --start 0:41:05 --end 0:41:47` prints the clip's
+  `captions:` and `caption_source: official`, ready to paste. Live House captions are uppercase roll-up text and
+  can repeat fragments: watch the frames against them, and fix only by removing repeats, never by rewording.
+  If the builder says a House floor host isn't allowed, the host name has probably changed: skip the clip and
+  say so in the run summary.
+- Not yet: House committee hearings (their video is on YouTube only) and Texas House or Senate video (their
+  terms need permission first). Never YouTube or C-SPAN.
+If the builder refuses the video's host, skip the clip; never look for a copy elsewhere. At most one clip a day
+unless the day's news is a hearing.
 
 ## 5. Write the post
 
