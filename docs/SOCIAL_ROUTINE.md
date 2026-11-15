@@ -145,8 +145,12 @@ member the same treatment. Where the video is:
   `https://www.senate.gov/isvp/?comm=<committee>&filename=<file>`; the player loads
   `https://www-senate-gov-media-srs.akamaized.net/hls/live/<stream id>/<committee>/<file>/master.m3u8`
   (floor: `comm=stv`, the file named in senate.gov's floor schedule).
-- House floor: live.house.gov; each day's data lists a `manifest.m3u8` and the official `captions.vtt`
-  (use those captions, `caption_source: official`).
+- House floor: live.house.gov; each day's data lists a `manifest.m3u8` and the official `captions.vtt`.
+  `python src/social/clip.py --vtt <captions.vtt URL> --start 0:41:05 --end 0:41:47` prints the clip's
+  `captions:` and `caption_source: official`, ready to paste. Live House captions are uppercase roll-up text and
+  can repeat fragments: watch the frames against them, and fix only by removing repeats, never by rewording.
+  If the builder says a House floor host isn't allowed, the host name has probably changed: skip the clip and
+  say so in the run summary.
 - Not yet: House committee hearings (their video is on YouTube only) and Texas House or Senate video (their
   terms need permission first). Never YouTube or C-SPAN.
 If the builder refuses the video's host, skip the clip; never look for a copy elsewhere. At most one clip a day
