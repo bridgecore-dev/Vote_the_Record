@@ -1,0 +1,70 @@
+kind: carousel
+level: congress
+topic: Impeachment
+approval: review
+found_via: owner idea c2MDY2MjYyODEwNjI0MAZDZD
+record_ids: [us/constitution/impeachment/how-it-works]
+publish_after: '2026-11-16T18:00:00-06:00'
+sources:
+- title: "The Constitution of the United States, Article I, Sections 2 and 3 (National Archives transcript)"
+  url: https://www.archives.gov/founding-docs/constitution-transcript
+  retrieved: '2026-11-15'
+- title: "House Practice, Chapter 27. Impeachment (GPO)"
+  url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-28.htm
+  retrieved: '2026-11-15'
+- title: "History, Art & Archives, U.S. House of Representatives: List of Individuals Impeached by the House"
+  url: https://history.house.gov/Institution/Impeachment/Impeachment-List/
+  retrieved: '2026-11-15'
+- title: "U.S. Senate: About Impeachment"
+  url: https://www.senate.gov/about/powers-procedures/impeachment.htm
+  retrieved: '2026-11-15'
+slides:
+- kicker: Impeachment, step by step
+  big: 2/3
+  head: "Impeaching a president takes a majority of the House. Removing one takes two-thirds of the senators present."
+  text: "Part 2 of 2. Rep. Al Green (D-TX) says he will force a House impeachment vote as early as this week. Here's what each chamber does."
+- chip: Step 1 · The House
+  head: The House decides whether to impeach, by simple majority.
+  quote: {label: "U.S. Constitution, Art. I, Sec. 2", text: "The House of Representatives shall chuse their Speaker and other Officers; and shall have the sole Power of Impeachment."}
+  text: "Impeaching means the House adopts articles of impeachment: formal charges. It is not a conviction."
+- chip: Step 2 · The Senate
+  head: The Senate holds the trial. Conviction needs two-thirds of the senators present.
+  quote: {label: "U.S. Constitution, Art. I, Sec. 3", text: "The Senate shall have the sole Power to try all Impeachments. When sitting for that Purpose, they shall be on Oath or Affirmation. When the President of the United States is tried, the Chief Justice shall preside: And no Person shall be convicted without the Concurrence of two thirds of the Members present."}
+- chip: Step 3 · The judgment
+  head: "Conviction means removal from office. Barring someone from future office takes a separate majority vote."
+  quote: {label: "House Practice (GPO)", text: "No vote is required on removal following conviction, since removal follows automatically from conviction under this constitutional provision."}
+  text: The Constitution allows nothing more than removal and disqualification. A convicted official can still be charged and tried under the law.
+- chip: On the record
+  head: The House has impeached presidents 4 times. The Senate acquitted each time.
+  rows:
+  - [1868, Andrew Johnson · Acquitted]
+  - [1998, William J. Clinton · Acquitted]
+  - [2019, Donald J. Trump · Acquitted]
+  - [2021, Donald J. Trump · Acquitted]
+  by: "Year the House impeached. Source: House History, Art & Archives."
+- chip: Other officials
+  head: Presidents aren't the only ones. The Senate has convicted other impeached officials.
+  quote: {label: "U.S. Senate", text: "Since 1789 about half of Senate impeachment trials have resulted in conviction and removal from office."}
+- chip: Your turn
+  head: Should the House vote to impeach when the Senate is unlikely to convict?
+  text: "Tell us what you think, and tell your representative. Votes post at clerk.house.gov/Votes."
+caption: |-
+  Impeachment has two steps, in two chambers.
+
+  The House impeaches by adopting articles of impeachment, by simple majority. The Constitution gives it "the sole Power of Impeachment." Impeachment is a set of charges, not a conviction.
+
+  The Senate holds the trial. No one is convicted "without the Concurrence of two thirds of the Members present." When the president is tried, the Chief Justice presides. Conviction removes the official from office; barring them from future office takes a separate majority vote.
+
+  The House has impeached presidents four times: Andrew Johnson (1868), William J. Clinton (1998), and Donald J. Trump (2019 and 2021). The Senate acquitted each time. Per the Senate, about half of all its impeachment trials since 1789 ended in conviction and removal.
+
+  Part 2 of 2. Part 1: Rep. Al Green's plan to force a House vote, and how the last one went.
+
+  Should the House vote to impeach when the Senate is unlikely to convict?
+hashtags: [impeachment, constitution, congress, civics, votetherecord]
+notes: >-
+  Part 2 of 2 from an owner idea (part 1 is the 4:30 p.m. Reel on Rep. Green's announcement and roll call 298);
+  meant to be merged together, filling the Nov. 16 4:30/6:00 p.m. pair. Process explainer only: the Constitution
+  (National Archives transcript; constitution.congress.gov refused automated requests), House Practice ch. 27,
+  the House's impeachment list, and senate.gov. The first slide's "this week" rests on Rep. Green's Nov. 12
+  release ("as early as next week"); if he changes plans, the slide still reads as an explainer but please check
+  that line. House Practice is the 2017 GPO edition.
