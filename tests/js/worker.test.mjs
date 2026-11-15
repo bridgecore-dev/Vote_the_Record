@@ -138,3 +138,20 @@ test("the Worker module exports only functions and objects (strings break the Wo
     assert.ok(typeof value === "function" || (typeof value === "object" && value !== null), `${name} is a ${typeof value}`);
   }
 });
+
+test("the timer starts the publish workflow on main, and does nothing without a token", async () => {
+  const { dispatchPublish, DISPATCH } = await import("../../src/worker/index.js");
+  const calls = [];
+  const fake = async (url, init) => { calls.push([url, init]); return new Response(null, { status: 204 }); };
+  assert.equal(await dispatchPublish({}, fake), "no token");
+  assert.equal(calls.length, 0);
+  assert.equal(await dispatchPublish({ GITHUB_DISPATCH_TOKEN: "t" }, fake), "dispatched");
+  const [[url, init]] = calls;
+  assert.equal(url, DISPATCH.url);
+  assert.match(url, /\/actions\/workflows\/social-publish\.yml\/dispatches$/);
+  assert.equal(init.method, "POST");
+  assert.equal(init.headers.Authorization, "Bearer t");
+  assert.deepEqual(JSON.parse(init.body), { ref: "main" });
+  const failing = async () => new Response("nope", { status: 401 });
+  await assert.rejects(dispatchPublish({ GITHUB_DISPATCH_TOKEN: "t" }, failing), /HTTP 401/);
+});
