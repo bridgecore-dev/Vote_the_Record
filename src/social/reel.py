@@ -53,6 +53,10 @@ W, H, FPS = 1080, 1920, 30
 VOICE_AT, TAIL = 0.1, 0.6  # the voice starts this long into its scene; the scene holds this long after it ends
 GAP = 0.22  # pause between two sentences of one slide's voice
 SAY_WORDS = 45
+# Reels cover one or two bills, so they stay short (owner's decision, 2026-11-15). Posts scheduled before then keep
+# what they had: the data center Reel published Nov. 14 explains five.
+REEL_BILLS = 2
+REEL_BILLS_FROM = "2026-11-15"
 DISCLOSURE = "Voice: computer-generated (Kokoro text-to-speech)."
 VOICE = {"name": "af_heart", "speed": 1.0}  # af_heart: Kokoro's clearest American English voice
 VOICE_NAME = re.compile(r"[a-z]{2}_[a-z]+")
@@ -230,6 +234,10 @@ def check(post: dict) -> list[str]:
     used = bool(post.get("voice")) or any(s.get(f) for s in slides for f in SLIDE_FIELDS) or any("say" in b for b in post.get("bills") or [])
     if used and post.get("kind") != "reel":
         errs.append("voice, say, doc, broll and image are for kind: reel")
+    bills = post.get("bills") or []
+    if post.get("kind") == "reel" and len(bills) > REEL_BILLS and str(post.get("publish_after") or "")[:10] >= REEL_BILLS_FROM:
+        errs.append(f"a Reel covers at most {REEL_BILLS} bills (this one has {len(bills)}); split the rest into another "
+                    "Reel or a carousel")
     v = post.get("voice")
     if v not in (None, True):
         if not isinstance(v, dict):
@@ -700,7 +708,8 @@ body { padding: 0; display: block; background: #000; }
 .head { font-family: "Source Serif 4", serif; font-weight: 700; font-size: calc(var(--k) * 60px); line-height: 1.13; margin-top: 30px; }
 .head:first-child, .chip + .head, .kicker + .head { margin-top: 0; }
 .text { font-size: calc(var(--k) * 36px); line-height: 1.42; color: var(--mu); margin-top: 26px; }
-.ln { display: block; }
+.ln { display: block; white-space: nowrap; }
+.nw { white-space: nowrap; }
 .label { font-weight: 600; color: var(--fg); }
 .by { font-size: calc(var(--k) * 29px); color: var(--mu); margin-top: 26px; }
 .row { background: var(--card); border-radius: 18px; padding: calc(var(--k) * 18px) 26px; margin-top: 14px; font-size: calc(var(--k) * 33px); line-height: 1.3; }
@@ -759,7 +768,7 @@ function fit(sc) {
 }
 function splitLines(el) {
   const words = el.textContent.trim().split(/\s+/); el.textContent = '';
-  const spans = words.map(w => { const s = document.createElement('span'); s.textContent = w; el.appendChild(s);
+  const spans = words.map(w => { const s = document.createElement('span'); s.textContent = w; s.style.whiteSpace = 'nowrap'; el.appendChild(s);
     el.appendChild(document.createTextNode(' ')); return s; });
   const lines = []; let top = null;
   for (const s of spans) { if (s.offsetTop !== top) { lines.push([]); top = s.offsetTop; } lines[lines.length - 1].push(s.textContent); }
@@ -788,7 +797,7 @@ function apply(it, p) {
     case 'pop': e.style.opacity = Math.min(1, q * 1.6); e.style.transform = `scale(${.86 + .14 * q})`; break;
     case 'slide': e.style.opacity = q; e.style.transform = `translateX(${(q - 1) * 80}px)`; break;
     case 'count': { const d = e.dataset; e.textContent = d.pre + fmt(+d.num * q, +d.dec, d.comma === '1') + d.suf;
-      e.style.opacity = Math.min(1, p * 5); e.style.transform = `scale(${.9 + .1 * q})`; break; }
+      e.style.transform = `scale(${.9 + .1 * q})`; break; }
     case 'bar': { e.querySelector('.fill').style.width = (+e.dataset.pct * q) + '%'; e.style.opacity = Math.min(1, p * 4);
       for (const n of e.querySelectorAll('[data-num]')) n.textContent = fmt(+n.dataset.num * q, +n.dataset.dec, true) + (n.dataset.suf || '');
       break; }
@@ -851,7 +860,12 @@ def big_html(big) -> str:
     if c:
         return (f'<div class="big"{style} data-in="count"{_attrs(pre=c["pre"], num=c["num"], dec=c["dec"], comma=int(c["comma"]), suf=c["suf"])}>'
                 f'{e(text)}</div>')
-    return f'<div class="big"{style} data-in="pop">{e(text)}</div>'
+    return f'<div class="big"{style}>{e(text)}</div>'
+
+
+def nb(text: str) -> str:
+    """Escaped text with each hyphenated word kept on one line ("minimum-wage" never splits at the hyphen)."""
+    return re.sub(r"\S*\w-\w\S*", lambda m: f'<span class="nw">{m[0]}</span>', html.escape(text))
 
 
 def typed(text: str, key: str | None) -> str:
@@ -878,14 +892,14 @@ def bars_html(lines: list[tuple[str, int, str | None]], total: int) -> str:
 def content_html(s: dict, lay: str, media: dict | None) -> str:
     e = html.escape
     lines_mode = lay in ("plain",)
-    out = f'<div class="chip" data-in="pop">{e(s["chip"])}</div>' if s.get("chip") else ""
-    out += f'<div class="kicker" data-in="rise">{e(s["kicker"])}</div>' if s.get("kicker") else ""
+    out = f'<div class="chip">{e(s["chip"])}</div>' if s.get("chip") else ""
+    out += f'<div class="kicker">{e(s["kicker"])}</div>' if s.get("kicker") else ""
     if lay == "explainer":
         rows = B.rows(s)
         q = s.get("quote") or {}
-        return (f'<div class="exp"><div class="exp-id" data-in="pop">{e(s["chip"])}</div>'
-                f'<div class="exp-kick" data-in="rise">{e(s.get("kicker") or "")}</div>'
-                f'<div class="head" data-in="lines">{e(s["head"])}</div>'
+        return (f'<div class="exp"><div class="exp-id">{e(s["chip"])}</div>'
+                f'<div class="exp-kick">{e(s.get("kicker") or "")}</div>'
+                f'<div class="head">{nb(s["head"])}</div>'
                 '<div class="exp-cards">' + "".join(f'<div class="exp-card" data-in="slide"><div class="cl">{e(a)}</div><div class="cv">{e(b)}</div></div>'
                                                     for a, b in rows) + "</div>"
                 + (f'<div class="quote small" data-in="rise"><div class="ql">{e(q.get("label", "Official summary"))}</div>'
@@ -893,7 +907,7 @@ def content_html(s: dict, lay: str, media: dict | None) -> str:
     if lay == "doc":
         d = s["doc"]
         title = d["title"] + (f' · page {media["page"]}' if media and media.get("page") else "")
-        head = f'<div class="head" data-in="rise">{e(s["head"])}</div>' if s.get("head") else ""
+        head = f'<div class="head">{nb(s["head"])}</div>' if s.get("head") else ""
         img = (f'<img src="{media["img"]}" alt=""{_attrs(iw=media["iw"], ih=media["ih"], hx=round(media["hx"], 1), hy=round(media["hy"], 1), hw=round(media["hw"], 1), hh=round(media["hh"], 1))}'
                f' style="width:{media["iw"]}px;height:{media["ih"]}px">') if media else ""
         return (f'<div class="doc">{out}{head}<div class="docwin" data-in="pop">{img}</div>'
@@ -901,7 +915,7 @@ def content_html(s: dict, lay: str, media: dict | None) -> str:
     if s.get("big"):
         out += big_html(s["big"])
     if s.get("head"):
-        out += f'<div class="head" data-in="{"lines" if lines_mode else "rise"}">{e(s["head"])}</div>'
+        out += f'<div class="head">{nb(s["head"])}</div>'
     if s.get("text"):
         out += f'<div class="text" data-in="{"lines" if lines_mode else "rise"}">{e(s["text"])}</div>'
     for a, b in B.rows(s):
@@ -924,7 +938,7 @@ def content_html(s: dict, lay: str, media: dict | None) -> str:
         q = s["quote"]
         if lay == "quote":
             out += (f'<div class="quote"><div class="ql" data-in="rise">{e(q.get("label", "Official text"))}</div>'
-                    f'<div class="qt" data-in="type">“{typed(q["text"], q.get("key"))}”</div></div>')
+                    f'<div class="qt" data-in="type"><span class="ch">“</span>{typed(q["text"], q.get("key"))}<span class="ch">”</span></div></div>')
         else:
             out += (f'<div class="quote small" data-in="rise"><div class="ql">{e(q.get("label", "Official text"))}</div>'
                     f'<div class="qt">“{e(q["text"])}”</div></div>')

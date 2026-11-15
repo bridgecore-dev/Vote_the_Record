@@ -265,3 +265,16 @@ def test_tiny_render(monkeypatch, tmp_path):
     assert (tmp_path / "cover.png").exists() and (tmp_path / "still-02.png").exists()
     assert (tmp_path / "voice.txt").read_text(encoding="utf-8").strip() == "Slide 1: Five bills were filed."
     assert not list(tmp_path.glob("*.html")) and not (tmp_path / "doc-02.png").exists()  # working files are cleaned up
+
+
+def test_reel_covers_at_most_two_bills():
+    bill = {"id": "HB 1", "does": "x", "affects": "y", "status": "z"}
+    post = {"kind": "reel", "publish_after": "2026-11-16T07:30:00-06:00", "slides": [{"head": "a"}],
+            "bills": [dict(bill, id=f"HB {n}") for n in (1, 2, 3)]}
+    assert any("at most 2 bills" in e for e in reel.check(post))
+    post["bills"] = post["bills"][:2]
+    assert not any("at most 2 bills" in e for e in reel.check(post))
+    old = dict(post, publish_after="2026-11-14T07:30:00-06:00", bills=[dict(bill, id=f"HB {n}") for n in range(1, 6)])
+    assert not any("at most 2 bills" in e for e in reel.check(old))  # posts scheduled before the rule keep their bills
+    carousel = dict(post, kind="carousel", bills=old["bills"])
+    assert not any("at most 2 bills" in e for e in reel.check(carousel))
