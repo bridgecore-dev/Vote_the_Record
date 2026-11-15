@@ -1,0 +1,120 @@
+kind: reel
+level: congress
+topic: Veterans
+approval: review
+record_ids: ["us/119/H.R. 9237/house-passage-2026-11-11", us/119/2/house/roll/249]
+publish_after: '2026-11-18T19:30:00-06:00'
+sources:
+- title: "Bill status of H.R. 9237: actions, sponsor, cosponsors and CRS summary (GPO)"
+  url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9237.xml
+  retrieved: '2026-11-15'
+- title: "Congressional Record, July 16, 2026, H4548-H4613: H.R. 9237 as amended, and the House debate"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-07-16/html/CREC-2026-07-16-pt1-PgH4548-3.htm
+  retrieved: '2026-11-15'
+- title: "House Clerk, Roll Call 249 (2026): motion to recommit H.R. 9237"
+  url: https://clerk.house.gov/evs/2026/roll249.xml
+  retrieved: '2026-11-15'
+- title: "38 CFR 4.97, diagnostic code 6847 (sleep apnea), eCFR as of Nov. 12, 2026"
+  url: https://www.ecfr.gov/current/title-38/chapter-I/part-4/subpart-B/section-4.97
+  retrieved: '2026-11-15'
+- title: "38 CFR 4.87, diagnostic code 6260 (tinnitus), eCFR as of Nov. 12, 2026"
+  url: https://www.ecfr.gov/current/title-38/chapter-I/part-4/subpart-B/section-4.87
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 9237
+  title: Take Care of America's Veterans Act
+  does: "A large veterans bill: changes VA benefits, health care, hiring and buildings, and revises the VA ratings for sleep apnea and tinnitus."
+  affects: "Veterans and families, including those filing sleep apnea or tinnitus claims and some combat-disabled retirees."
+  where: "Passed the U.S. House of Representatives by voice vote on Nov. 11, 2026. Next: the U.S. Senate."
+  summary:
+    text: >-
+      This bill addresses veterans' benefits, health care, counseling, Department of Veterans Affairs (VA)
+      personnel, VA infrastructure, and the Veterans Community Care Program (VCCP).
+    title: "CRS summary of H.R. 9237 as introduced (bill status, GPO)"
+    url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9237.xml
+    retrieved: '2026-11-15'
+  say: "H.R. 9237, the Take Care of America's Veterans Act. A large veterans bill: it changes VA benefits, health care, hiring and buildings, and it revises the VA ratings for sleep apnea and tinnitus."
+slides:
+- kicker: "U.S. House of Representatives · Nov. 11, 2026"
+  big: Voice vote
+  head: "The U.S. House passed H.R. 9237, the Take Care of America's Veterans Act. A voice vote leaves no record of how each member voted."
+  say: "On November 11, the United States House of Representatives passed H.R. 9237, the Take Care of America's Veterans Act, by voice vote. A voice vote leaves no record of how each member voted."
+- chip: "What else is in it"
+  head: "Besides the ratings changes, the bill expands several benefits."
+  rows:
+  - [Both payments, "Full retired pay plus VA pay for some combat-disabled retirees"]
+  - [Surviving spouses, "Some benefits continue after a spouse remarries"]
+  - [Aid and attendance, "An extra $833.33 a month, from Dec. 1, 2026"]
+  by: "H.R. 9237 as passed, secs. 101, 102 and 104 (Congressional Record, July 16, 2026)"
+  say: "Besides the ratings changes, the bill expands several benefits. Some combat-disabled retirees get full retired pay plus VA pay. Some benefits continue after a surviving spouse remarries. And veterans on aid and attendance get an extra $833.33 a month, from December 1, 2026."
+- chip: "Before: sleep apnea today"
+  head: "VA rates sleep apnea by how severe it is and what treatment it needs."
+  rows:
+  - ["100%", "Chronic respiratory failure, or a tracheostomy"]
+  - ["50%", "Needs a breathing device such as a CPAP machine"]
+  - ["30%", "Persistent daytime sleepiness"]
+  - ["0%", "No symptoms, with a documented sleep breathing disorder"]
+  by: "38 CFR 4.97, diagnostic code 6847"
+  say: "Before, under today's VA rules: sleep apnea is rated 100 percent for chronic respiratory failure or a tracheostomy, 50 percent if it needs a breathing device such as a CPAP machine, 30 percent for persistent daytime sleepiness, and 0 percent with no symptoms."
+- chip: "After: sleep apnea under the bill"
+  head: "Needing a CPAP would no longer mean 50%. What counts is whether treatment works."
+  rows:
+  - ["100%", "Only with end-organ damage"]
+  - ["50%", "Treatment doesn't work or can't be used, and no end-organ damage"]
+  - ["10%", "Treatment gives incomplete relief"]
+  - ["0%", "No symptoms, with or without treatment"]
+  by: "H.R. 9237 as passed, sec. 108(a)"
+  say: "After, under the bill: needing a CPAP would no longer mean 50 percent. 0 percent with no symptoms, with or without treatment. 10 percent if treatment gives incomplete relief. 50 percent if treatment doesn't work or can't be used. 100 percent only with end-organ damage."
+- chip: "Tinnitus: before → after"
+  rows:
+  - [Before, "Recurrent tinnitus: 10%, as its own rating"]
+  - [After, "No separate rating, except 10% when tied to service-connected hearing loss that isn't otherwise compensated"]
+  head: "Ringing in the ears would mostly stop being rated on its own."
+  by: "38 CFR 4.87, code 6260; H.R. 9237 as passed, sec. 108(b)"
+  say: "Tinnitus, or ringing in the ears. Before: recurrent tinnitus gets 10 percent, as its own rating. After: no separate rating, except 10 percent when it's tied to service-connected hearing loss that isn't otherwise compensated."
+- chip: "Who the new ratings apply to"
+  head: "Claims filed on or after Oct. 1, 2026. The bill says existing ratings can't be cut because of these changes."
+  quote: {label: "H.R. 9237 as passed, sec. 108(c)(2)", text: "may not serve as the basis for reducing, discontinuing, or otherwise adversely affecting compensation that was in effect on the day before the date of the enactment of this Act."}
+  say: "Who the new ratings apply to: claims filed on or after October 1, 2026. The bill says the changes can't be the basis for cutting compensation a veteran already had the day before it becomes law."
+- chip: "The case for"
+  head: "The sponsor says current ratings are protected, and the savings pay for the new benefits."
+  quote: {label: "Rep. Mike Bost (R-IL), sponsor, Congressional Record, July 16, 2026", text: "This bill would not eliminate disability ratings for sleep apnea or tinnitus. It would not automatically reduce any veteran's current disability rating."}
+  text: "He said the change means \"using those savings to fund the expansion of benefits and other VA programs.\""
+  say: "The case for: the sponsor, Representative Mike Bost, Republican of Illinois, said the bill would not eliminate these ratings or automatically reduce any veteran's current rating, and that the savings fund the expanded benefits."
+- chip: "The case against"
+  head: "The top Democrat on the committee says current veterans could still be cut when VA reviews their ratings."
+  quote: {label: "Rep. Mark Takano (D-CA), Congressional Record, July 16, 2026", text: "The bill can and will lead to cuts for those who already have service-connected disability ratings for sleep apnea and tinnitus."}
+  text: "His reason: when a veteran applies for an increase or a new rating, \"VA can and does review previous ratings.\""
+  say: "The case against: Representative Mark Takano, Democrat of California, the top Democrat on the committee, said the bill can and will lead to cuts for veterans who already have these ratings, because VA reviews old ratings when veterans file new claims."
+- chip: "Where it stands"
+  head: "Sponsor: Rep. Mike Bost (R-IL), with 30 cosponsors. Next: the U.S. Senate."
+  rows:
+  - ["July 16", "Motion to send it back to committee failed 210-211 (roll call 249)"]
+  - [Republican, "3 Yea · 210 Nay · 5 didn't vote"]
+  - [Democratic, "207 Yea · 0 Nay · 5 didn't vote"]
+  - [Independent, "0 Yea · 1 Nay"]
+  - ["Nov. 11", "Passed by voice vote"]
+  text: "No CBO cost estimate is listed in the bill status yet."
+  say: "Where it stands: on July 16, a motion to send it back to committee failed, 210 to 211. Republicans: 3 for, 210 against. Democrats: 207 for, 0 against. One Independent against. It passed November 11 by voice vote. Next: the United States Senate."
+caption: |-
+  The U.S. House of Representatives passed H.R. 9237, the Take Care of America's Veterans Act, by voice vote on Nov. 11. It's a different bill from the Major Richard Star Act, though it includes its own version of that act.
+
+  Before: VA rates sleep apnea 50% if it needs a CPAP, and recurrent tinnitus 10% on its own.
+  After: sleep apnea is rated by whether treatment works (0% if it removes symptoms), and tinnitus gets no separate rating unless it's tied to otherwise uncompensated hearing loss. This applies to claims filed on or after Oct. 1, 2026; the bill says existing ratings can't be cut because of it.
+
+  For: the sponsor, Rep. Mike Bost (R-IL), says current ratings are protected and the savings fund new benefits. Against: Rep. Mark Takano (D-CA) says VA rating reviews can still cut current veterans.
+
+  Next: the U.S. Senate.
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [veterans, VA, congress, votetherecord]
+notes: >-
+  Owner asked for a separate Reel on H.R. 9237 (2026-11-15), so it isn't confused with H.R. 2102. The text as
+  passed is the bill "as amended" by part B of H. Rept. 119-749, printed in the Congressional Record of July 16
+  (H4548-H4613); on Nov. 11 the House resumed it as unfinished business and passed it by voice vote with no
+  further amendment in the actions, but govinfo has no engrossed text yet, so check it when it appears. Note the
+  passed text applies the ratings to claims filed on or after Oct. 1, 2026 (the introduced text said "after the
+  date of the enactment"). Current ratings are from eCFR as of Nov. 12, 2026. Party and state for Bost, Takano
+  and Deluzio come from roll call 249's member list. Takano is called "the top Democrat on the committee" because
+  Bost calls him "Ranking Member Takano" in the Record. The motion to recommit was offered by Rep. Deluzio
+  (D-PA), who said he would have changed the bill's offsets. No CBO estimate is listed in the bill status.
