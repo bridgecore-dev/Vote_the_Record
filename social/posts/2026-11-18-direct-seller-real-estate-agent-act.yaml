@@ -1,0 +1,84 @@
+kind: reel
+level: congress
+topic: Jobs and wages
+approval: review
+record_ids: ["us/119/H.R. 3495/house-floor-schedule-2026-11-16"]
+publish_after: '2026-11-18T12:00:00-06:00'
+rule: >-
+  The House floor schedule for the week of Nov. 16, 2026 lists two bills under a rule (full debate), H.R. 3495 and
+  H.R. 5267. Each gets its own post with the same structure: before, after, who gains and loses, cost, the case for
+  and against from the committee report, and where it stands.
+sources:
+- title: "U.S. House, Bills to be Considered on the House Floor, Week of Nov. 16, 2026 (docs.house.gov, last updated Nov. 13, 2026)"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-16
+  retrieved: '2026-11-15'
+- title: "House Report 119-494, Direct Seller and Real Estate Agent Harmonization Act, with minority views and CBO's cost estimate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt494/html/CRPT-119hrpt494.htm
+  retrieved: '2026-11-15'
+- title: "26 U.S.C. 3508, Treatment of real estate agents and direct sellers (U.S. Code, 2023 edition, GPO)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title26/html/USCODE-2023-title26-subtitleC-chap25-sec3508.htm
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 3495
+  title: Direct Seller and Real Estate Agent Harmonization Act
+  does: "Would exclude real estate agents and direct sellers from the definition of employee under federal minimum-wage and overtime law."
+  affects: "Licensed real estate agents and direct sellers paid by sales, not hours, under a written contract."
+  where: "Reported by committee 19-16 (Sept. 17, 2025). The House floor schedule lists it for the week of Nov. 16."
+  summary:
+    text: >-
+      This bill excludes a real estate agent or a direct seller of consumer products from the definition of an
+      employee for the purpose of applying the Fair Labor Standards Act of 1938 (FLSA).
+    title: Congressional Research Service summary of H.R. 3495 (bill status, GPO)
+    url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr3495.xml
+    retrieved: '2026-11-15'
+slides:
+- kicker: "U.S. House · Week of Nov. 16"
+  big: H.R. 3495
+  head: A bill on the House schedule would take real estate agents and direct sellers out of federal minimum-wage and overtime law.
+- chip: "Before: current law"
+  head: "If one of these workers counts as an employee under the FLSA, they must get at least the minimum wage, and generally overtime past 40 hours."
+  quote: {label: CRS summary, text: "Workers who are considered employees under the FLSA must be paid the minimum wage and are generally eligible to receive overtime compensation for hours worked in excess of a 40-hour workweek."}
+- chip: "After: under the bill"
+  head: "They would not count as employees under the FLSA. The bill uses the tax code's definitions, in place since 1982."
+  rows:
+  - [Real estate agents, "licensed, paid by sales, not hours, under a written contract"]
+  - [Direct sellers, "sell consumer products outside a store, paid by sales, under a written contract"]
+  - [Also in that definition, "delivering or distributing newspapers"]
+- chip: "Who gains, who loses, what it costs"
+  head: "Workers it covers would lose the right to sue for FLSA violations, CBO says."
+  rows:
+  - [Lost by workers, "Settlements they'd have gotten: below a $206 million legal threshold (CBO)"]
+  - [Federal budget, "Fewer penalties: under $500,000 added to deficits, 2026-2035"]
+  quote: {label: CBO, text: "workers who would no longer be covered by the FLSA and therefore would not have legal grounds to seek financial compensation for violations of that act."}
+- chip: The case for
+  head: "The committee's report says these workers already work as independent contractors."
+  quote: {label: "Committee views, H. Rept. 119-494", text: "Both direct sellers and qualified real estate agents have been defined as independent contractors, and distinguished from employees, by the Internal Revenue Code (IRC) for federal tax purposes since 1982."}
+  text: "It says the National Association of REALTORS and the Direct Selling Association support the bill."
+- chip: The case against
+  head: "The minority views say the law already works for commission pay."
+  quote: {label: "Minority views, H. Rept. 119-494", text: "already accommodates the industries' customary commission-based pay practices."}
+  text: "They say the Communication Workers of America and the National Employment Lawyers Association oppose it."
+- chip: Where it stands
+  head: "Sponsor: Rep. Kevin Kiley (R-CA), with 31 cosponsors. The committee approved it 19-16."
+  text: "Watch the House floor at live.house.gov. Which side convinces you?"
+caption: |-
+  A bill on the House floor schedule this week, H.R. 3495, would change who counts as an "employee" under the Fair Labor Standards Act, the federal minimum-wage and overtime law.
+
+  Before: a real estate agent or direct seller who counts as an employee must get at least the minimum wage, and generally overtime.
+  After: they would not count as employees under that law. The bill borrows the tax code's definitions, which since 1982 have treated them as non-employees for taxes. The definitions also cover newspaper delivery.
+
+  CBO says workers it covers would lose the right to sue for FLSA violations. It puts the value of those lost settlements below $206 million, the threshold in federal mandate law. The budget would lose under $500,000 in penalties over 10 years.
+
+  For: the committee report says these workers already work as independent contractors. Against: the minority views say the law already handles commission pay.
+
+  Which side convinces you?
+hashtags: [congress, minimumwage, realestate, workers, votetherecord]
+notes: >-
+  Picked by rule: the two bills the House floor schedule (week of Nov. 16, as of Nov. 13 5:02 p.m.) lists under a
+  rule; H.R. 5267 gets a matching post. The schedule says items "may be considered"; if the House votes before
+  Nov. 18 noon, the first and last slides need the tally instead. CBO figures are CBO's estimate as printed in the
+  committee report (cbo.gov returned a bot check and wasn't retried); "below a $206 million threshold" is CBO saying the
+  mandate's cost is below UMRA's private-sector threshold ($206 million in 2025); check the wording on slide 4. The 1982 date is
+  the report's and matches 26 U.S.C. 3508 (Pub. L. 97-248, 1982). Sponsor's party and state as the bill status
+  lists them; cosponsor count (31) counted from the GovInfo bill status. Supporters and opponents are as the
+  report names them. No CRS summary on the CRS site itself; the summary is from the GovInfo bill status file.
