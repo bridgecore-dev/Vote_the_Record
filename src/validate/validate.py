@@ -171,19 +171,28 @@ def iter_facts(kind: str, doc: dict):
             yield "members", member.get("fact") or {}
         if doc.get("senate_roll"):
             yield "senate_roll", doc["senate_roll"].get("fact") or {}
+        for fact in doc.get("party_source") or []:
+            yield "party_source", fact
 
 
-def find_party_keys(node, path: str = ""):
-    """Yield paths of any key mentioning 'party' other than ballot_party."""
+# Party as an official record lists it (rule 5): a legislator's party code from the Legislative Reference
+# Library's member list, and that list's source facts. Nowhere else but ballot_party.
+OFFICIAL_PARTY_KEYS = {"legislature_members": re.compile(r"^(members\[\d+\]\.party|party_source)$")}
+
+
+def find_party_keys(node, path: str = "", allowed: re.Pattern | None = None):
+    """Yield paths of any key mentioning 'party' other than ballot_party (and, for some kinds, the official ones)."""
     if isinstance(node, dict):
         for key, value in node.items():
             here = f"{path}.{key}" if path else str(key)
+            if allowed is not None and allowed.match(here):
+                continue  # its value is checked by the schema; facts under it carry no party keys
             if "party" in str(key).lower() and key != "ballot_party":
                 yield here
-            yield from find_party_keys(value, here)
+            yield from find_party_keys(value, here, allowed)
     elif isinstance(node, list):
         for i, item in enumerate(node):
-            yield from find_party_keys(item, f"{path}[{i}]")
+            yield from find_party_keys(item, f"{path}[{i}]", allowed)
 
 
 def validate(root: Path, schemas_dir: Path | None = None) -> Report:
@@ -212,7 +221,7 @@ def validate(root: Path, schemas_dir: Path | None = None) -> Report:
             docs[rel] = (kind, doc)
 
     for rel, (kind, doc) in docs.items():
-        for key_path in find_party_keys(doc):
+        for key_path in find_party_keys(doc, allowed=OFFICIAL_PARTY_KEYS.get(kind)):
             report.error(rel, f"{key_path}: party may only appear in ballot_party (rule 5)")
 
     # Offices: powers and surveys.
@@ -492,6 +501,8 @@ def check_legislature(docs: dict, report: Report) -> None:
             rolls[folder] = roll
             if len(set(roll)) != 31:
                 report.error(rel, f"senate_roll: {len(set(roll))} different names, not one for each of the 31 seats")
+        if any(isinstance(m, dict) and m.get("party") is not None for m in doc.get("members") or [])                 and not doc.get("party_source"):
+            report.error(rel, "party_source: a member has a party, so the file must cite where it comes from (rule 5)")
         for i, m in enumerate(doc.get("members") or []):
             if m.get("person") and docs.get(f"data/states/{state}/people/{m['person']}.yaml", (None,))[0] != "person":
                 report.error(rel, f"members[{i}]: no person file for '{m['person']}'")

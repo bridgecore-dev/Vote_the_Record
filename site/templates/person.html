@@ -11,6 +11,10 @@
   {% if person.seats %}
   <p class="lead">{% for s in person.seats %}{{ s.name }}, {{ s.place.name }}{% if not loop.last %}; {% endif %}{% endfor %}</p>
   {% endif %}
+  {% if person.leg_party %}
+  {% set one = person.leg_party | map(attribute="code") | unique | list | length == 1 %}
+  <p class="item-meta">{% for p in (person.leg_party[:1] if one else person.leg_party) %}<span class="chip chip-muted">Party (Texas Legislative Reference Library{% if not one %}, {{ p.leg }}th Legislature{% endif %}): {{ p.code }}</span> {% if p.fact %}{{ verification_badge(p.fact) }} <a href="{{ p.fact.source_url }}" rel="noopener noreferrer">source</a>{% endif %}{% if not loop.last %} · {% endif %}{% endfor %}</p>
+  {% endif %}
   <p class="muted">{{ person.record_summary }}.</p>
 </header>
 
@@ -22,6 +26,7 @@
   <h3>Votes in the Texas Legislature</h3>
   <p>On {{ "{:,}".format(ls.bills) }} bill{{ "" if ls.bills == 1 else "s" }} that became law ({{ "{:,}".format(ls.total) }} final vote{{ "" if ls.total == 1 else "s" }}):
     {% for label, n in ls.counts.items() %}{{ label | lower }} {{ "{:,}".format(n) }}{% if not loop.last %} · {% endif %}{% endfor %}.</p>
+  {% if person.leg_votes[:5] | selectattr("party_totals") | list %}<p class="muted">{{ PARTY_TOTALS_NOTE }}</p>{% endif %}
   <ul class="item-list">{% for v in person.leg_votes[:5] %}{{ leg_vote(v) }}{% endfor %}</ul>
   <p><a href="{{ person.url }}votes/">All {{ "{:,}".format(ls.total) }} votes</a> · <a href="/methodology/#votes-in-the-texas-legislature">Which votes we show</a></p>
   {% endif %}

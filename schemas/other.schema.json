@@ -577,10 +577,21 @@
               "name": { "description": "As the member's Texas Legislature Online page prints it.", "type": "string" },
               "printed": { "description": "Every way the journals print this member's name in a roll call.", "$ref": "#/$defs/name_list" },
               "person": { "description": "data/states/<st>/people/<slug>.yaml, or null when we have no profile.", "anyOf": [{ "$ref": "urn:vtr:schema:fact#/$defs/slug" }, { "type": "null" }] },
+              "party": { "description": "Party code as the Texas Legislative Reference Library's member list prints it for this chamber, district, and Legislature (rule 5); null when it lists none or we couldn't match one. Matched by chamber and district. Never used to sort, score, rank, or color-code.", "anyOf": [{ "enum": ["D", "R"] }, { "type": "null" }] },
               "fact": { "$ref": "urn:vtr:schema:fact" }
             }
           }
         },
+        "party_source": {
+          "description": "The Legislative Reference Library pages the members' party codes come from (src/collectors/states/tx/lrl_party.py). Required when any member has a party.",
+          "type": "array",
+          "minItems": 1,
+          "items": { "allOf": [
+            { "$ref": "urn:vtr:schema:fact" },
+            { "properties": { "label": { "const": "official_record" }, "source_kind": { "const": "page" }, "sha256": { "type": "null" } } }
+          ] }
+        },
+        "notes": { "type": "string" },
         "senate_roll": {
           "description": "The senators the session's Senate Journal roll calls list, as printed. A vote marked every_member counts these senators, less the nays, as voting yes. Null when the roll calls don't list all 31 seats.",
           "anyOf": [

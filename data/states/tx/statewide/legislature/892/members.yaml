@@ -2,11 +2,37 @@
 session: '892'
 members:
 - chamber: house
+  district: 1
+  name: Gary VanDeaver
+  printed:
+  - VanDeaver
+  person: null
+  party: R
+  fact:
+    id: tx/statewide/legislature/892/members#S-175
+    headline: 'House District 1: Gary VanDeaver'
+    statement: Texas Legislature Online's 89th Legislature member page for Rep. Gary VanDeaver lists their committees and bills in the 89th Legislature.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A2540
+    source_title: 'Texas Legislature Online: Gary VanDeaver, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-14'
+    retrieved: '2026-11-14'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: 'The page prints no district now. The district is from the Texas Legislative Reference Library''s member page (https://lrl.texas.gov/legeLeaders/members/memberDisplay.cfm?memberID=5767), which lists House District 1, Jan 14, 2025 - Sep 21, 2026. The member has left office, so the page prints no district, and the earlier collector run (legislature.py keeps only pages that print one) left the member out. The Library''s page notes: "Gary VanDeaver resignation letter dated 9/17/2026, effective 9/21/2026"'
+- chamber: house
   district: 2
   name: Brent Money
   printed:
   - Money
   person: brent-money
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-001
     headline: 'House District 2: Brent Money'
@@ -30,6 +56,7 @@ members:
   printed:
   - Bell, C.
   person: cecil-bell-jr
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-002
     headline: 'House District 3: Cecil Bell'
@@ -53,6 +80,7 @@ members:
   printed:
   - Bell, K.
   person: keith-bell
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-003
     headline: 'House District 4: Keith Bell'
@@ -76,6 +104,7 @@ members:
   printed:
   - Hefner
   person: cole-hefner
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-004
     headline: 'House District 5: Cole Hefner'
@@ -99,6 +128,7 @@ members:
   printed:
   - Alders
   person: daniel-alders
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-005
     headline: 'House District 6: Daniel Alders'
@@ -122,6 +152,7 @@ members:
   printed:
   - Dean
   person: jay-dean
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-006
     headline: 'House District 7: Jay Dean'
@@ -145,6 +176,7 @@ members:
   printed:
   - Harris
   person: cody-harris
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-007
     headline: 'House District 8: Cody Harris'
@@ -168,6 +200,7 @@ members:
   printed:
   - Ashby
   person: trent-ashby
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-008
     headline: 'House District 9: Trent Ashby'
@@ -191,6 +224,7 @@ members:
   printed:
   - Harrison
   person: brian-harrison
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-009
     headline: 'House District 10: Brian Harrison'
@@ -214,6 +248,7 @@ members:
   printed:
   - Shofner
   person: joanne-shofner
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-010
     headline: 'House District 11: Joanne Shofner'
@@ -237,6 +272,7 @@ members:
   printed:
   - Wharton
   person: trey-wharton
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-011
     headline: 'House District 12: Trey Wharton'
@@ -260,6 +296,7 @@ members:
   printed:
   - Orr
   person: angelia-orr
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-012
     headline: 'House District 13: Angelia Orr'
@@ -283,6 +320,7 @@ members:
   printed:
   - Dyson
   person: paul-dyson
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-013
     headline: 'House District 14: Paul Dyson'
@@ -306,6 +344,7 @@ members:
   printed:
   - Toth
   person: steve-toth
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-014
     headline: 'House District 15: Steve Toth'
@@ -329,6 +368,7 @@ members:
   printed:
   - Metcalf
   person: will-metcalf
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-015
     headline: 'House District 16: Will Metcalf'
@@ -352,6 +392,7 @@ members:
   printed:
   - Gerdes
   person: stan-gerdes
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-016
     headline: 'House District 17: Stan Gerdes'
@@ -375,6 +416,7 @@ members:
   printed:
   - Holt
   person: janis-holt
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-017
     headline: 'House District 18: Janis Holt'
@@ -398,6 +440,7 @@ members:
   printed:
   - Troxclair
   person: ellen-troxclair
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-018
     headline: 'House District 19: Ellen Troxclair'
@@ -421,6 +464,7 @@ members:
   printed:
   - Wilson
   person: terry-m-wilson
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-019
     headline: 'House District 20: Terry M. Wilson'
@@ -444,6 +488,7 @@ members:
   printed:
   - Phelan
   person: dade-phelan
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-020
     headline: 'House District 21: Dade Phelan'
@@ -467,6 +512,7 @@ members:
   printed:
   - Manuel
   person: christian-manuel
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-021
     headline: 'House District 22: Christian Manuel'
@@ -490,6 +536,7 @@ members:
   printed:
   - Leo Wilson
   person: terri-leo-wilson
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-022
     headline: 'House District 23: Terri Leo Wilson'
@@ -513,6 +560,7 @@ members:
   printed:
   - Bonnen
   person: greg-bonnen
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-023
     headline: 'House District 24: Greg Bonnen'
@@ -536,6 +584,7 @@ members:
   printed:
   - Vasut
   person: cody-thane-vasut
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-024
     headline: 'House District 25: Cody Vasut'
@@ -559,6 +608,7 @@ members:
   printed:
   - Morgan
   person: matt-morgan
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-025
     headline: 'House District 26: Matt Morgan'
@@ -582,6 +632,7 @@ members:
   printed:
   - Reynolds
   person: ron-reynolds
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-026
     headline: 'House District 27: Ron Reynolds'
@@ -605,6 +656,7 @@ members:
   printed:
   - Gates
   person: gary-gates
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-027
     headline: 'House District 28: Gary Gates'
@@ -628,6 +680,7 @@ members:
   printed:
   - Barry
   person: jeff-barry
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-028
     headline: 'House District 29: Jeff Barry'
@@ -651,6 +704,7 @@ members:
   printed:
   - Louderback
   person: aj-louderback
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-029
     headline: 'House District 30: AJ Louderback'
@@ -674,6 +728,7 @@ members:
   printed:
   - Guillen
   person: ryan-guillen
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-030
     headline: 'House District 31: Ryan Guillen'
@@ -697,6 +752,7 @@ members:
   printed:
   - Hunter
   person: todd-hunter
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-031
     headline: 'House District 32: Todd Hunter'
@@ -720,6 +776,7 @@ members:
   printed:
   - Pierson
   person: katrina-pierson
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-032
     headline: 'House District 33: Katrina Pierson'
@@ -743,6 +800,7 @@ members:
   printed:
   - Villalobos
   person: denise-villalobos
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-033
     headline: 'House District 34: Denise Villalobos'
@@ -766,6 +824,7 @@ members:
   printed:
   - Longoria
   person: oscar-longoria
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-034
     headline: 'House District 35: Oscar Longoria'
@@ -789,6 +848,7 @@ members:
   printed:
   - Muñoz
   person: sergio-munoz-jr
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-035
     headline: 'House District 36: Sergio Muñoz, Jr.'
@@ -812,6 +872,7 @@ members:
   printed:
   - Lopez, J.
   person: janie-lopez
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-036
     headline: 'House District 37: Janie Lopez'
@@ -835,6 +896,7 @@ members:
   printed:
   - Gámez
   person: erin-elizabeth-gamez
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-037
     headline: 'House District 38: Erin Gámez'
@@ -858,6 +920,7 @@ members:
   printed:
   - Martinez
   person: armando-mando-martinez
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-038
     headline: 'House District 39: Armando Martinez'
@@ -881,6 +944,7 @@ members:
   printed:
   - Canales
   person: terry-canales
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-039
     headline: 'House District 40: Terry Canales'
@@ -904,6 +968,7 @@ members:
   printed:
   - Guerra
   person: r-d-guerra
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-040
     headline: 'House District 41: R. D. "Bobby" Guerra'
@@ -927,6 +992,7 @@ members:
   printed:
   - Raymond
   person: richard-pena-raymond
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-041
     headline: 'House District 42: Richard Peña Raymond'
@@ -950,6 +1016,7 @@ members:
   printed:
   - Lozano
   person: j-m-lozano
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-042
     headline: 'House District 43: J. M. Lozano'
@@ -973,6 +1040,7 @@ members:
   printed:
   - Schoolcraft
   person: alan-schoolcraft
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-043
     headline: 'House District 44: Alan Schoolcraft'
@@ -996,6 +1064,7 @@ members:
   printed:
   - Zwiener
   person: erin-zwiener
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-044
     headline: 'House District 45: Erin Zwiener'
@@ -1019,6 +1088,7 @@ members:
   printed:
   - Cole
   person: sheryl-cole
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-045
     headline: 'House District 46: Sheryl Cole'
@@ -1042,6 +1112,7 @@ members:
   printed:
   - Goodwin
   person: vikki-goodwin
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-046
     headline: 'House District 47: Vikki Goodwin'
@@ -1065,6 +1136,7 @@ members:
   printed:
   - Howard
   person: donna-howard
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-047
     headline: 'House District 48: Donna Howard'
@@ -1088,6 +1160,7 @@ members:
   printed:
   - Hinojosa
   person: gina-hinojosa
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-048
     headline: 'House District 49: Gina Hinojosa'
@@ -1111,6 +1184,7 @@ members:
   printed:
   - Talarico
   person: james-talarico
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-049
     headline: 'House District 50: James Talarico'
@@ -1134,6 +1208,7 @@ members:
   printed:
   - Flores
   person: maria-luisa-lulu-flores
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-050
     headline: 'House District 51: Lulu Flores'
@@ -1157,6 +1232,7 @@ members:
   printed:
   - Harris Davila
   person: caroline-harris-davila
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-051
     headline: 'House District 52: Caroline Harris Davila'
@@ -1180,6 +1256,7 @@ members:
   printed:
   - Virdell
   person: wes-virdell
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-052
     headline: 'House District 53: Wes Virdell'
@@ -1203,6 +1280,7 @@ members:
   printed:
   - Buckley
   person: brad-buckley
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-053
     headline: 'House District 54: Brad Buckley'
@@ -1226,6 +1304,7 @@ members:
   printed:
   - Hickland
   person: hillary-hickland
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-054
     headline: 'House District 55: Hillary Hickland'
@@ -1249,6 +1328,7 @@ members:
   printed:
   - Curry
   person: pat-curry
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-055
     headline: 'House District 56: Pat Curry'
@@ -1272,6 +1352,7 @@ members:
   printed:
   - Hayes
   person: richard-hayes
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-056
     headline: 'House District 57: Richard Hayes'
@@ -1295,6 +1376,7 @@ members:
   printed:
   - Kerwin
   person: helen-kerwin
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-057
     headline: 'House District 58: Helen Kerwin'
@@ -1318,6 +1400,7 @@ members:
   printed:
   - Slawson
   person: shelby-slawson
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-058
     headline: 'House District 59: Shelby Slawson'
@@ -1341,6 +1424,7 @@ members:
   printed:
   - Olcott
   person: mike-olcott
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-059
     headline: 'House District 60: Mike Olcott'
@@ -1364,6 +1448,7 @@ members:
   printed:
   - Richardson
   person: keresa-richardson
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-060
     headline: 'House District 61: Keresa Richardson'
@@ -1387,6 +1472,7 @@ members:
   printed:
   - Luther
   person: shelley-luther
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-061
     headline: 'House District 62: Shelley Luther'
@@ -1410,6 +1496,7 @@ members:
   printed:
   - Bumgarner
   person: ben-bumgarner
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-062
     headline: 'House District 63: Ben Bumgarner'
@@ -1433,6 +1520,7 @@ members:
   printed:
   - Hopper
   person: andy-hopper
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-063
     headline: 'House District 64: Andy Hopper'
@@ -1456,6 +1544,7 @@ members:
   printed:
   - Little
   person: mitch-little
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-064
     headline: 'House District 65: Mitch Little'
@@ -1479,6 +1568,7 @@ members:
   printed:
   - Shaheen
   person: matt-shaheen
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-065
     headline: 'House District 66: Matt Shaheen'
@@ -1502,6 +1592,7 @@ members:
   printed:
   - Leach
   person: jeff-leach
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-066
     headline: 'House District 67: Jeff Leach'
@@ -1525,6 +1616,7 @@ members:
   printed:
   - Spiller
   person: david-spiller
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-067
     headline: 'House District 68: David Spiller'
@@ -1548,6 +1640,7 @@ members:
   printed:
   - Frank
   person: james-frank
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-068
     headline: 'House District 69: James B. Frank'
@@ -1571,6 +1664,7 @@ members:
   printed:
   - Plesa
   person: mihaela-elizabeth-plesa
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-069
     headline: 'House District 70: Mihaela Plesa'
@@ -1594,6 +1688,7 @@ members:
   printed:
   - Lambert
   person: stan-lambert
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-070
     headline: 'House District 71: Stan Lambert'
@@ -1617,6 +1712,7 @@ members:
   printed:
   - Darby
   person: drew-darby
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-071
     headline: 'House District 72: Drew Darby'
@@ -1640,6 +1736,7 @@ members:
   printed:
   - Isaac
   person: carrie-isaac
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-072
     headline: 'House District 73: Carrie Isaac'
@@ -1663,6 +1760,7 @@ members:
   printed:
   - Morales, E.
   person: eddie-morales-jr
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-073
     headline: 'House District 74: Eddie Morales'
@@ -1687,6 +1785,7 @@ members:
   - González, M.
   - González,M
   person: mary-e-gonzalez
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-074
     headline: 'House District 75: Mary E. González'
@@ -1710,6 +1809,7 @@ members:
   printed:
   - Lalani
   person: suleman-lalani
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-075
     headline: 'House District 76: Suleman Lalani'
@@ -1734,6 +1834,7 @@ members:
   - Perez, V.
   - Perez,V
   person: vincent-vince-perez
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-076
     headline: 'House District 77: Vincent Perez'
@@ -1757,6 +1858,7 @@ members:
   printed:
   - Moody
   person: joe-moody
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-077
     headline: 'House District 78: Joe Moody'
@@ -1780,6 +1882,7 @@ members:
   printed:
   - Ordaz
   person: claudia-ordaz
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-078
     headline: 'House District 79: Claudia Ordaz'
@@ -1803,6 +1906,7 @@ members:
   printed:
   - McLaughlin
   person: don-mclaughlin
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-079
     headline: 'House District 80: Don McLaughlin'
@@ -1827,6 +1931,7 @@ members:
   - Landgraf
   - Landgraf(C)
   person: brooks-landgraf
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-080
     headline: 'House District 81: Brooks Landgraf'
@@ -1850,6 +1955,7 @@ members:
   printed:
   - Craddick
   person: tom-craddick
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-081
     headline: 'House District 82: Tom Craddick'
@@ -1868,11 +1974,39 @@ members:
     verified_on: null
     reviewer: null
 - chamber: house
+  district: 83
+  name: Dustin Burrows
+  printed:
+  - Mr. Speaker
+  - Mr. Speaker(C)
+  - Mr.Speaker(C)
+  person: dustin-burrows
+  party: R
+  fact:
+    id: tx/statewide/legislature/892/members#S-176
+    headline: 'House District 83: Dustin Burrows'
+    statement: Texas Legislature Online's member page lists Dustin Burrows as the member for House District 83.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A3055
+    source_title: 'Texas Legislature Online: Dustin Burrows, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-14'
+    retrieved: '2026-11-14'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: 'The journals print the Speaker''s votes as "Mr. Speaker" ("(C)": in the chair), not by name. The House Journal for August 15, 2025 (first day, 89th Legislature, 2nd Called Session) records: "the house was called to order by the Honorable Dustin Burrows, speaker." (https://journals.house.texas.gov/hjrnl/892/pdf/89C2DAY01FINAL.PDF#page=1)'
+- chamber: house
   district: 84
   name: Carl Tepper
   printed:
   - Tepper
   person: carl-tepper
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-082
     headline: 'House District 84: Carl Tepper'
@@ -1896,6 +2030,7 @@ members:
   printed:
   - Kitzman
   person: stan-kitzman
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-083
     headline: 'House District 85: Stan Kitzman'
@@ -1919,6 +2054,7 @@ members:
   printed:
   - Smithee
   person: john-t-smithee
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-084
     headline: 'House District 86: John Smithee'
@@ -1942,6 +2078,7 @@ members:
   printed:
   - Fairly
   person: caroline-fairly
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-085
     headline: 'House District 87: Caroline Fairly'
@@ -1965,6 +2102,7 @@ members:
   printed:
   - King
   person: ken-king
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-086
     headline: 'House District 88: Ken King'
@@ -1988,6 +2126,7 @@ members:
   printed:
   - Noble
   person: candy-noble
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-087
     headline: 'House District 89: Candy Noble'
@@ -2011,6 +2150,7 @@ members:
   printed:
   - Romero
   person: ramon-romero-jr
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-088
     headline: 'House District 90: Ramon Romero, Jr.'
@@ -2034,6 +2174,7 @@ members:
   printed:
   - Lowe
   person: david-lowe
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-089
     headline: 'House District 91: David Lowe'
@@ -2057,6 +2198,7 @@ members:
   printed:
   - Bhojani
   person: salman-bhojani
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-090
     headline: 'House District 92: Salman Bhojani'
@@ -2075,11 +2217,37 @@ members:
     verified_on: null
     reviewer: null
 - chamber: house
+  district: 93
+  name: Nate Schatzline
+  printed:
+  - Schatzline
+  person: null
+  party: R
+  fact:
+    id: tx/statewide/legislature/892/members#S-177
+    headline: 'House District 93: Nate Schatzline'
+    statement: Texas Legislature Online's 89th Legislature member page for Rep. Nate Schatzline lists their committees and bills in the 89th Legislature.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=H&Code=A4355
+    source_title: 'Texas Legislature Online: Nate Schatzline, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-14'
+    retrieved: '2026-11-14'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: 'The page prints no district now. The district is from the Texas Legislative Reference Library''s member page (https://lrl.texas.gov/legeLeaders/members/memberDisplay.cfm?memberID=5895), which lists House District 93, Jan 14, 2025 - Jul 3, 2026. The member has left office, so the page prints no district, and the earlier collector run (legislature.py keeps only pages that print one) left the member out. The Library''s page notes: "Nate Schatzline, letter to Governor Greg Abbott, resigning the position of Texas State Representative, District 93, effective July 3, 2026"'
+- chamber: house
   district: 94
   name: Tony Tinderholt
   printed:
   - Tinderholt
   person: tony-tinderholt
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-091
     headline: 'House District 94: Tony Tinderholt'
@@ -2103,6 +2271,7 @@ members:
   printed:
   - Collier
   person: nicole-collier
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-092
     headline: 'House District 95: Nicole Collier'
@@ -2126,6 +2295,7 @@ members:
   printed:
   - Cook
   person: david-cook
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-093
     headline: 'House District 96: David Cook'
@@ -2149,6 +2319,7 @@ members:
   printed:
   - McQueeney
   person: john-w-mcqueeney
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-094
     headline: 'House District 97: John McQueeney'
@@ -2172,6 +2343,7 @@ members:
   printed:
   - Capriglione
   person: giovanni-capriglione
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-095
     headline: 'House District 98: Giovanni Capriglione'
@@ -2195,6 +2367,7 @@ members:
   printed:
   - Geren
   person: charlie-geren
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-096
     headline: 'House District 99: Charlie Geren'
@@ -2218,6 +2391,7 @@ members:
   printed:
   - Jones, V.
   person: venton-jones
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-097
     headline: 'House District 100: Venton Jones'
@@ -2241,6 +2415,7 @@ members:
   printed:
   - Turner
   person: chris-turner
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-098
     headline: 'House District 101: Chris Turner'
@@ -2265,6 +2440,7 @@ members:
   - Rodríguez Ramos
   - RodríguezRamos
   person: ana-maria-rodriguez-ramos
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-099
     headline: 'House District 102: Ana-María Rodríguez Ramos'
@@ -2288,6 +2464,7 @@ members:
   printed:
   - Anchía
   person: rafael-anchia
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-100
     headline: 'House District 103: Rafael Anchía'
@@ -2312,6 +2489,7 @@ members:
   - González, J.
   - González,J
   person: jessica-gonzalez
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-101
     headline: 'House District 104: Jessica González'
@@ -2335,6 +2513,7 @@ members:
   printed:
   - Meza
   person: terry-meza
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-102
     headline: 'House District 105: Thresa "Terry" Meza'
@@ -2358,6 +2537,7 @@ members:
   printed:
   - Patterson
   person: jared-patterson
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-103
     headline: 'House District 106: Jared Patterson'
@@ -2381,6 +2561,7 @@ members:
   printed:
   - Garcia, L.
   person: linda-garcia
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-104
     headline: 'House District 107: Linda Garcia'
@@ -2404,6 +2585,7 @@ members:
   printed:
   - Meyer
   person: morgan-meyer
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-105
     headline: 'House District 108: Morgan Meyer'
@@ -2427,6 +2609,7 @@ members:
   printed:
   - Davis, A.
   person: aicha-davis
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-106
     headline: 'House District 109: Aicha Davis'
@@ -2450,6 +2633,7 @@ members:
   printed:
   - Rose
   person: toni-rose
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-107
     headline: 'House District 110: Toni Rose'
@@ -2473,6 +2657,7 @@ members:
   printed:
   - Davis, Y.
   person: yvonne-davis
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-108
     headline: 'House District 111: Yvonne Davis'
@@ -2496,6 +2681,7 @@ members:
   printed:
   - Button
   person: angie-chen-button
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-109
     headline: 'House District 112: Angie Button'
@@ -2519,6 +2705,7 @@ members:
   printed:
   - Bowers
   person: rhetta-andrews-bowers
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-110
     headline: 'House District 113: Rhetta Bowers'
@@ -2542,6 +2729,7 @@ members:
   printed:
   - Bryant
   person: john-bryant
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-111
     headline: 'House District 114: John Bryant'
@@ -2566,6 +2754,7 @@ members:
   - Garcia Hernandez
   - GarciaHernandez
   person: cassandra-hernandez
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-112
     headline: 'House District 115: Cassandra Garcia Hernandez'
@@ -2589,6 +2778,7 @@ members:
   printed:
   - Martinez Fischer
   person: trey-martinez-fischer
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-113
     headline: 'House District 116: Trey Martinez Fischer'
@@ -2612,6 +2802,7 @@ members:
   printed:
   - Cortez
   person: philip-cortez
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-114
     headline: 'House District 117: Philip Cortez'
@@ -2635,6 +2826,7 @@ members:
   printed:
   - Lujan
   person: john-lujan
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-115
     headline: 'House District 118: John Lujan'
@@ -2658,6 +2850,7 @@ members:
   printed:
   - Campos
   person: elizabeth-liz-campos
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-116
     headline: 'House District 119: Liz Campos'
@@ -2681,6 +2874,7 @@ members:
   printed:
   - Gervin-Hawkins
   person: barbara-gervin-hawkins
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-117
     headline: 'House District 120: Barbara Gervin-Hawkins'
@@ -2704,6 +2898,7 @@ members:
   printed:
   - LaHood
   person: marc-lahood
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-118
     headline: 'House District 121: Marc LaHood'
@@ -2727,6 +2922,7 @@ members:
   printed:
   - Dorazio
   person: mark-dorazio
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-119
     headline: 'House District 122: Mark Dorazio'
@@ -2750,6 +2946,7 @@ members:
   printed:
   - Bernal
   person: diego-bernal
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-120
     headline: 'House District 123: Diego Bernal'
@@ -2774,6 +2971,7 @@ members:
   - Garcia, J.
   - Garcia,J
   person: josey-garcia
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-121
     headline: 'House District 124: Josey Garcia'
@@ -2797,6 +2995,7 @@ members:
   printed:
   - Lopez, R.
   person: ray-lopez
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-122
     headline: 'House District 125: Ray Lopez'
@@ -2820,6 +3019,7 @@ members:
   printed:
   - Harless
   person: sam-harless
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-123
     headline: 'House District 126: Sam Harless'
@@ -2843,6 +3043,7 @@ members:
   printed:
   - Cunningham
   person: charles-cunningham
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-124
     headline: 'House District 127: Charles Cunningham'
@@ -2866,6 +3067,7 @@ members:
   printed:
   - Cain
   person: briscoe-cain
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-125
     headline: 'House District 128: Briscoe Cain'
@@ -2889,6 +3091,7 @@ members:
   printed:
   - Paul
   person: dennis-paul
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-126
     headline: 'House District 129: Dennis Paul'
@@ -2912,6 +3115,7 @@ members:
   printed:
   - Oliverson
   person: tom-oliverson
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-127
     headline: 'House District 130: Tom Oliverson'
@@ -2935,6 +3139,7 @@ members:
   printed:
   - Allen
   person: alma-a-allen
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-128
     headline: 'House District 131: Alma Allen'
@@ -2958,6 +3163,7 @@ members:
   printed:
   - Schofield
   person: mike-schofield
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-129
     headline: 'House District 132: Mike Schofield'
@@ -2981,6 +3187,7 @@ members:
   printed:
   - DeAyala
   person: mano-deayala
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-130
     headline: 'House District 133: Mano DeAyala'
@@ -3004,6 +3211,7 @@ members:
   printed:
   - Johnson
   person: ann-johnson
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-131
     headline: 'House District 134: Ann Johnson'
@@ -3027,6 +3235,7 @@ members:
   printed:
   - Rosenthal
   person: jon-e-rosenthal
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-132
     headline: 'House District 135: Jon Rosenthal'
@@ -3050,6 +3259,7 @@ members:
   printed:
   - Bucy
   person: john-h-bucy-iii
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-133
     headline: 'House District 136: John Bucy III'
@@ -3073,6 +3283,7 @@ members:
   printed:
   - Wu
   person: gene-wu
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-134
     headline: 'House District 137: Gene Wu'
@@ -3096,6 +3307,7 @@ members:
   printed:
   - Hull
   person: lacey-hull
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-135
     headline: 'House District 138: Lacey Hull'
@@ -3120,6 +3332,7 @@ members:
   - Ward Johnson
   - WardJohnson
   person: charlene-ward-johnson
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-136
     headline: 'House District 139: Charlene Ward Johnson'
@@ -3143,6 +3356,7 @@ members:
   printed:
   - Walle
   person: armando-lucio-walle
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-137
     headline: 'House District 140: Armando Walle'
@@ -3166,6 +3380,7 @@ members:
   printed:
   - Thompson
   person: senfronia-thompson
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-138
     headline: 'House District 141: Senfronia Thompson'
@@ -3189,6 +3404,7 @@ members:
   printed:
   - Dutton
   person: harold-v-dutton-jr
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-139
     headline: 'House District 142: Harold V. Dutton, Jr.'
@@ -3212,6 +3428,7 @@ members:
   printed:
   - Hernandez
   person: ana-hernandez
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-140
     headline: 'House District 143: Ana Hernandez'
@@ -3236,6 +3453,7 @@ members:
   - Perez, M.
   - Perez,M
   person: mary-ann-perez
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-141
     headline: 'House District 144: Mary Ann Perez'
@@ -3260,6 +3478,7 @@ members:
   - Morales, C.
   - Morales,C
   person: christina-morales
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-142
     headline: 'House District 145: Christina Morales'
@@ -3283,6 +3502,7 @@ members:
   printed:
   - Simmons
   person: lauren-ashley-simmons
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-143
     headline: 'House District 146: Lauren A. Simmons'
@@ -3306,6 +3526,7 @@ members:
   printed:
   - Jones, J.
   person: jolanda-jones
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-144
     headline: 'House District 147: Jolanda Jones'
@@ -3330,6 +3551,7 @@ members:
   - Morales Shaw
   - MoralesShaw
   person: penny-morales-shaw
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-145
     headline: 'House District 148: Penny Morales Shaw'
@@ -3353,6 +3575,7 @@ members:
   printed:
   - Vo
   person: hubert-vo
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-146
     headline: 'House District 149: Hubert Vo'
@@ -3376,6 +3599,7 @@ members:
   printed:
   - Swanson
   person: valoree-swanson
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-147
     headline: 'House District 150: Valoree Swanson'
@@ -3399,6 +3623,7 @@ members:
   printed:
   - Hughes
   person: bryan-hughes
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-148
     headline: 'Senate District 1: Bryan Hughes'
@@ -3422,6 +3647,7 @@ members:
   printed:
   - Hall
   person: bob-hall
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-149
     headline: 'Senate District 2: Bob Hall'
@@ -3445,6 +3671,7 @@ members:
   printed:
   - Nichols
   person: robert-nichols
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-150
     headline: 'Senate District 3: Robert Nichols'
@@ -3463,11 +3690,37 @@ members:
     verified_on: null
     reviewer: null
 - chamber: senate
+  district: 4
+  name: Brandon Creighton
+  printed:
+  - Creighton
+  person: null
+  party: R
+  fact:
+    id: tx/statewide/legislature/892/members#S-178
+    headline: 'Senate District 4: Brandon Creighton'
+    statement: Texas Legislature Online's 89th Legislature member page for Sen. Brandon Creighton lists their committees and bills in the 89th Legislature.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1040
+    source_title: 'Texas Legislature Online: Brandon Creighton, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-14'
+    retrieved: '2026-11-14'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: 'The page prints no district now. The district is from the Texas Legislative Reference Library''s member page (https://lrl.texas.gov/legeLeaders/members/memberDisplay.cfm?memberID=5625), which lists Senate District 4, Jan 10, 2023 - Oct 2, 2025. The member has left office, so the page prints no district, and the earlier collector run (legislature.py keeps only pages that print one) left the member out. The Library''s page notes: "Brandon Creighton resignation letter dated 10/2/2025, effective at midnight on 10/2/2025"'
+- chamber: senate
   district: 5
   name: Charles Schwertner
   printed:
   - Schwertner
   person: charles-schwertner
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-151
     headline: 'Senate District 5: Charles Schwertner'
@@ -3491,6 +3744,7 @@ members:
   printed:
   - Alvarado
   person: carol-alvarado
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-152
     headline: 'Senate District 6: Carol Alvarado'
@@ -3514,6 +3768,7 @@ members:
   printed:
   - Bettencourt
   person: paul-bettencourt
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-153
     headline: 'Senate District 7: Paul Bettencourt'
@@ -3537,6 +3792,7 @@ members:
   printed:
   - Paxton
   person: angela-paxton
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-154
     headline: 'Senate District 8: Angela Paxton'
@@ -3560,6 +3816,7 @@ members:
   printed:
   - King
   person: phil-king
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-155
     headline: 'Senate District 10: Phil King'
@@ -3583,6 +3840,7 @@ members:
   printed:
   - Middleton
   person: mayes-middleton
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-156
     headline: 'Senate District 11: Mayes Middleton'
@@ -3606,6 +3864,7 @@ members:
   printed:
   - Parker
   person: tan-parker
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-157
     headline: 'Senate District 12: Tan Parker'
@@ -3629,6 +3888,7 @@ members:
   printed:
   - Miles
   person: borris-l-miles
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-158
     headline: 'Senate District 13: Borris Miles'
@@ -3652,6 +3912,7 @@ members:
   printed:
   - Eckhardt
   person: sarah-eckhardt
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-159
     headline: 'Senate District 14: Sarah Eckhardt'
@@ -3675,6 +3936,7 @@ members:
   printed:
   - Cook
   person: molly-cook
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-160
     headline: 'Senate District 15: Molly Cook'
@@ -3698,6 +3960,7 @@ members:
   printed:
   - Johnson
   person: nathan-johnson
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-161
     headline: 'Senate District 16: Nathan Johnson'
@@ -3721,6 +3984,7 @@ members:
   printed:
   - Huffman
   person: joan-huffman
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-162
     headline: 'Senate District 17: Joan Huffman'
@@ -3744,6 +4008,7 @@ members:
   printed:
   - Kolkhorst
   person: lois-w-kolkhorst
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-163
     headline: 'Senate District 18: Lois Kolkhorst'
@@ -3767,6 +4032,7 @@ members:
   printed:
   - Gutierrez
   person: roland-gutierrez
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-164
     headline: 'Senate District 19: Roland Gutierrez'
@@ -3790,6 +4056,7 @@ members:
   printed:
   - J. Hinojosa
   person: juan-hinojosa
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-165
     headline: 'Senate District 20: Juan Hinojosa'
@@ -3813,6 +4080,7 @@ members:
   printed:
   - Zaffirini
   person: judith-zaffirini
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-166
     headline: 'Senate District 21: Judith Zaffirini'
@@ -3831,11 +4099,37 @@ members:
     verified_on: null
     reviewer: null
 - chamber: senate
+  district: 22
+  name: Brian Birdwell
+  printed:
+  - Birdwell
+  person: null
+  party: R
+  fact:
+    id: tx/statewide/legislature/892/members#S-179
+    headline: 'Senate District 22: Brian Birdwell'
+    statement: Texas Legislature Online's 89th Legislature member page for Sen. Brian Birdwell lists their committees and bills in the 89th Legislature.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1080
+    source_title: 'Texas Legislature Online: Brian Birdwell, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-14'
+    retrieved: '2026-11-14'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: 'The page prints no district now. The district is from the Texas Legislative Reference Library''s member page (https://lrl.texas.gov/legeLeaders/members/memberDisplay.cfm?memberID=5678), which lists Senate District 22, Jan 10, 2023 - May 26, 2026. The member has left office, so the page prints no district, and the earlier collector run (legislature.py keeps only pages that print one) left the member out. The Library''s page notes: "Brian Birdwell, letter to Governor Greg Abbott, 5/26/2026, vacating the position of State Senator, District 22, upon executing the oath of office for the duties of Assistant Secretary of War for Sustainment."'
+- chamber: senate
   district: 23
   name: Royce West
   printed:
   - West
   person: royce-west
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-167
     headline: 'Senate District 23: Royce West'
@@ -3859,6 +4153,7 @@ members:
   printed:
   - Flores
   person: pete-flores
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-168
     headline: 'Senate District 24: Pete Flores'
@@ -3877,11 +4172,37 @@ members:
     verified_on: null
     reviewer: null
 - chamber: senate
+  district: 25
+  name: Donna Campbell
+  printed:
+  - Campbell
+  person: donna-campbell
+  party: R
+  fact:
+    id: tx/statewide/legislature/892/members#S-180
+    headline: 'Senate District 25: Donna Campbell'
+    statement: Texas Legislature Online's member page lists Donna Campbell as the member for Senate District 25.
+    label: official_record
+    claim_status: documented
+    contradicted_by: []
+    source_url: https://capitol.texas.gov/Members/MemberInfo.aspx?Leg=89&Chamber=S&Code=A1010
+    source_title: 'Texas Legislature Online: Donna Campbell, member information'
+    source_kind: page
+    sha256: null
+    archive_url: null
+    event_date: '2026-11-14'
+    retrieved: '2026-11-14'
+    verification: unverified
+    verified_on: null
+    reviewer: null
+    notes: Still in office (https://lrl.texas.gov/legeLeaders/members/memberDisplay.cfm?memberID=5720 lists Jan 14, 2025 - Jan 9, 2029); the 2026-11-06 collector run didn't match this journal name to a saved member page, so the member was added from pages fetched 2026-11-14.
+- chamber: senate
   district: 26
   name: José Menéndez
   printed:
   - Menéndez
   person: jose-menendez
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-169
     headline: 'Senate District 26: José Menéndez'
@@ -3905,6 +4226,7 @@ members:
   printed:
   - A. Hinojosa
   person: adam-hinojosa
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-170
     headline: 'Senate District 27: Adam Hinojosa'
@@ -3928,6 +4250,7 @@ members:
   printed:
   - Perry
   person: charles-perry
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-171
     headline: 'Senate District 28: Charles Perry'
@@ -3951,6 +4274,7 @@ members:
   printed:
   - Blanco
   person: cesar-blanco
+  party: D
   fact:
     id: tx/statewide/legislature/892/members#S-172
     headline: 'Senate District 29: César Blanco'
@@ -3974,6 +4298,7 @@ members:
   printed:
   - Hagenbuch
   person: brent-hagenbuch
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-173
     headline: 'Senate District 30: Brent Hagenbuch'
@@ -3997,6 +4322,7 @@ members:
   printed:
   - Sparks
   person: kevin-sparks
+  party: R
   fact:
     id: tx/statewide/legislature/892/members#S-174
     headline: 'Senate District 31: Kevin Sparks'
@@ -4015,3 +4341,93 @@ members:
     verified_on: null
     reviewer: null
 senate_roll: null
+party_source:
+- id: tx/statewide/legislature/892/members#P-H
+  headline: House members of the 89th Legislature, with party
+  statement: The Texas Legislative Reference Library's member list for the 89th Legislature, House, prints each member's district and, for each term, the years, Legislatures, and party code.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://lrl.texas.gov/legeLeaders/members/membersearch.cfm?leg=89&chamber=H
+  source_title: 'Texas Legislative Reference Library: Texas Legislators: Past & Present, 89th Legislature, House'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-14'
+  retrieved: '2026-11-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The same results as the search form at https://lrl.texas.gov/legeLeaders/members/lrlhome.cfm with Legislature 89 and chamber House. 150 rows. archive_url is left for src/tools/archive.py.
+- id: tx/statewide/legislature/892/members#P-H-009
+  headline: 'House District 9: Trent Ashby'
+  statement: The Texas Legislative Reference Library's page for Trent Ashby lists House District 9 for the 89th Legislature, party Republican.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://lrl.texas.gov/legeLeaders/members/memberDisplay.cfm?memberID=5737
+  source_title: 'Texas Legislative Reference Library: Trent Ashby, member profile'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-14'
+  retrieved: '2026-11-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Read because the member list prints this member's district for a different term line. archive_url is left for src/tools/archive.py.
+- id: tx/statewide/legislature/892/members#P-H-096
+  headline: 'House District 96: David Cook'
+  statement: The Texas Legislative Reference Library's page for David Cook lists House District 96 for the 89th Legislature, party Republican.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://lrl.texas.gov/legeLeaders/members/memberDisplay.cfm?memberID=5865
+  source_title: 'Texas Legislative Reference Library: David Cook, member profile'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-14'
+  retrieved: '2026-11-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Read because the member list prints this member's district for a different term line. archive_url is left for src/tools/archive.py.
+- id: tx/statewide/legislature/892/members#P-H-129
+  headline: 'House District 129: Dennis Paul'
+  statement: The Texas Legislative Reference Library's page for Dennis Paul lists House District 129 for the 89th Legislature, party Republican.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://lrl.texas.gov/legeLeaders/members/memberDisplay.cfm?memberID=5785
+  source_title: 'Texas Legislative Reference Library: Dennis Paul, member profile'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-14'
+  retrieved: '2026-11-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: Read because the member list prints this member's district for a different term line. archive_url is left for src/tools/archive.py.
+- id: tx/statewide/legislature/892/members#P-S
+  headline: Senate members of the 89th Legislature, with party
+  statement: The Texas Legislative Reference Library's member list for the 89th Legislature, Senate, prints each member's district and, for each term, the years, Legislatures, and party code.
+  label: official_record
+  claim_status: documented
+  contradicted_by: []
+  source_url: https://lrl.texas.gov/legeLeaders/members/membersearch.cfm?leg=89&chamber=S
+  source_title: 'Texas Legislative Reference Library: Texas Legislators: Past & Present, 89th Legislature, Senate'
+  source_kind: page
+  sha256: null
+  archive_url: null
+  event_date: '2026-11-14'
+  retrieved: '2026-11-14'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+  notes: The same results as the search form at https://lrl.texas.gov/legeLeaders/members/lrlhome.cfm with Legislature 89 and chamber Senate. 33 rows. archive_url is left for src/tools/archive.py.
+notes: 'Senate District 9 (Kelly Hancock) has no entry: this session''s journals don''t print the name. The Texas Legislative Reference Library''s member page (https://lrl.texas.gov/legeLeaders/members/memberDisplay.cfm?memberID=5645) lists the term as Jan 10, 2023 - Jun 18, 2025 and notes: "Kelly Hancock resignation letter dated 6/18/2025, effective at midnight on 6/18/2025"; this session met from August 15, 2025 (House Journal, first day: https://journals.house.texas.gov/hjrnl/892/pdf/89C2DAY01FINAL.PDF).
+
+
+  Party codes (Texas Legislative Reference Library): the Library also lists these members, who have no entry in this file, so a vote that names them shows no party totals: Senate District 9 (Kelly Hancock).'

@@ -10,6 +10,7 @@
   <p class="lead">{{ person.name }}: {{ "{:,}".format(ls.total) }} final vote{{ "" if ls.total == 1 else "s" }} on {{ "{:,}".format(ls.bills) }} bill{{ "" if ls.bills == 1 else "s" }} that became law.
     {% for label, n in ls.counts.items() %}{{ label }} {{ "{:,}".format(n) }}{% if not loop.last %} · {% endif %}{% endfor %}.</p>
   <p class="muted">Every bill that became law, and each chamber's vote to pass it or to accept its final text, with names as the journal prints them. Newest first. <a href="/methodology/#votes-in-the-texas-legislature">Which votes we show</a></p>
+  {% if ls.party_totals %}<p class="muted">{{ PARTY_TOTALS_NOTE }}</p>{% endif %}
 </header>
 <section aria-label="Votes">
   <ul class="item-list">{% for v in person.leg_votes %}{{ leg_vote(v) }}{% endfor %}</ul>

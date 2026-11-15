@@ -70,11 +70,14 @@ def legislature_votes(docs: dict) -> dict[tuple[str, str], list[dict]]:
     on the session's printed roll (senate_roll) who isn't named as a nay.
     """
     members: dict[tuple[str, str, str], dict[str, str]] = {}  # (state, session, chamber) -> printed -> person
+    parties: dict[tuple[str, str, str], dict[str, str | None]] = {}  # (state, session, chamber) -> printed -> party
     roster: dict[tuple[str, str, str], list[str]] = {}
     for rel, (kind, doc) in docs.items():
         if kind == "legislature_members":
             state, folder = rel.split("/")[2], rel.split("/")[5]
             for m in doc["members"]:
+                for name in m["printed"]:
+                    parties.setdefault((state, folder, m["chamber"]), {})[name] = m.get("party")
                 if m["person"]:
                     for name in m["printed"]:
                         members.setdefault((state, folder, m["chamber"]), {})[name] = m["person"]
@@ -99,14 +102,40 @@ def legislature_votes(docs: dict) -> dict[tuple[str, str], list[dict]]:
             tally = v["tally"]
             result = (f"{'Passed' if v['action'].startswith('passed') else 'Approved in'} the {CHAMBER[v['chamber']]} "
                       f"{tally['yeas']}-{tally['nays']}") if tally else f"No record vote in the {CHAMBER[v['chamber']]}"
+            by_party = party_totals(v, parties.get(key, {}), roster.get(key, []))
+            if by_party:
+                result += f" ({by_party})"
             for person, cat in how.items():
                 out.setdefault((state, person), []).append({
                     "bill": doc["bill"], "caption": doc["caption"], "session": doc["session"], "how": HOW[cat],
                     "cat": cat, "action": v["action"], "date": v["date"], "result": result, "fact": v["fact"],
-                    "chamber": CHAMBER[v["chamber"]]})
+                    "chamber": CHAMBER[v["chamber"]], "party_totals": bool(by_party)})
     for votes in out.values():
         votes.sort(key=lambda r: (r["date"], r["bill"]), reverse=True)
     return out
+
+
+def party_totals(v: dict, party: dict[str, str | None], roll: list[str]) -> str | None:
+    """Yeas and nays by party among the members the vote names (rule 5; docs/METHODOLOGY.md), e.g.
+    "D 35-25, R 85-0", parties in code order. For an every_member Senate vote, the yeas are the session's
+    roll less the nays. None unless the tally has names for every yea and nay, every one of them is a member
+    with a party, and the counts add up to the tally."""
+    tally, names = v["tally"], v["names"] or {}
+    if not tally:
+        return None
+    nays = list(names.get("nays") or [])
+    yeas = list(names.get("yeas") or [])
+    if v["every_member"]:
+        yeas += [n for n in roll if n not in nays and n not in yeas]
+    if len(yeas) != tally["yeas"] or len(nays) != tally["nays"] or not yeas + nays:
+        return None
+    if any(party.get(n) is None for n in yeas + nays):
+        return None
+    counts: dict[str, list[int]] = {}
+    for col, listed in ((0, yeas), (1, nays)):
+        for n in listed:
+            counts.setdefault(party[n], [0, 0])[col] += 1
+    return ", ".join(f"{code} {y}-{n}" for code, (y, n) in sorted(counts.items()))
 
 
 def leg_summary(votes: list[dict]) -> dict | None:
@@ -114,7 +143,24 @@ def leg_summary(votes: list[dict]) -> dict | None:
         return None
     counts = {label: sum(v["how"] == label for v in votes) for label in dict.fromkeys(HOW.values())}
     return {"total": len(votes), "bills": len({(v["session"], v["bill"]) for v in votes}),
-            "counts": {k: n for k, n in counts.items() if n}}
+            "counts": {k: n for k, n in counts.items() if n}, "party_totals": any(v["party_totals"] for v in votes)}
+
+
+def legislature_parties(docs: dict) -> dict[tuple[str, str], list[dict]]:
+    """(state, person) -> the party each Legislature's member list gives them, with its source fact (rule 5).
+    One entry per Legislature, oldest first; the same for every member."""
+    out: dict[tuple[str, str], dict[int, dict]] = {}
+    for rel, (kind, doc) in sorted(docs.items()):
+        if kind != "legislature_members":
+            continue
+        state, leg = rel.split("/")[2], int(doc["session"][:2])
+        for m in doc["members"]:
+            if not (m["person"] and m.get("party")):
+                continue
+            code = "H" if m["chamber"] == "house" else "S"
+            src = next((f for f in doc.get("party_source") or [] if f["id"].endswith(f"#P-{code}")), None)
+            out.setdefault((state, m["person"]), {}).setdefault(leg, {"leg": leg, "code": m["party"], "fact": src})
+    return {k: [v[leg] for leg in sorted(v)] for k, v in out.items()}
 
 
 def assemble_officials(docs: dict, races: list[dict], facts: dict, today: str) -> dict:
@@ -178,6 +224,9 @@ def assemble_officials(docs: dict, races: list[dict], facts: dict, today: str) -
     for (state, slug), votes in legislature_votes(docs).items():
         if (state, slug) in people:
             people[(state, slug)]["leg_votes"] = votes
+    for (state, slug), rows in legislature_parties(docs).items():
+        if (state, slug) in people:
+            people[(state, slug)]["leg_party"] = rows
 
     for person in people.values():
         cands = []
@@ -208,6 +257,7 @@ def assemble_officials(docs: dict, races: list[dict], facts: dict, today: str) -
             "money": money, "summary_facts": summary,
             "leg_votes": person.get("leg_votes") or [],
             "leg_summary": leg_summary(person.get("leg_votes") or []),
+            "leg_party": person.get("leg_party") or [],
             "researched": person.get("research") != "pending" or bool(records or said or campaign or money
                                                                       or person.get("leg_votes")),
             "initials": "".join(w[0] for w in person["name"].split()[:2]).upper(),

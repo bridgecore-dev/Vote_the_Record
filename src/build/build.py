@@ -93,8 +93,13 @@ def make_env(config: dict, demo: bool) -> Environment:
     env.filters["anchor"] = anchor
     env.filters["json_script"] = json_script
     env.globals.update(LABELS=LABELS, STATUSES=STATUSES, RECORD_TYPES=RECORD_TYPES,
-                       PROMISE_STATUSES=PROMISE_STATUSES)
+                       PROMISE_STATUSES=PROMISE_STATUSES, PARTY_TOTALS_NOTE=PARTY_TOTALS_NOTE)
     return env
+
+
+# Shown wherever a vote's totals by party appear (CLAUDE.md rule 5; docs/METHODOLOGY.md).
+PARTY_TOTALS_NOTE = ("Totals by party (yes-no, by the party code each member is listed with) are worked out from "
+                     "the names the journal prints and the Texas Legislative Reference Library's member list.")
 
 
 LABELS = {"official_record": "Official record", "news_report": "News report",

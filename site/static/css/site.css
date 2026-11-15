@@ -275,6 +275,7 @@ details.more[open] > summary { margin-bottom: 8px; }
 .kind { display: inline-block; font-size: 0.75rem; font-weight: 700; text-transform: uppercase;
         letter-spacing: 0.04em; color: var(--muted); margin-right: 4px; }
 .chip-status { border-color: var(--warn-ink); color: var(--warn-ink); }
+.chip-muted { color: var(--muted); }
 
 .cand-grid { display: grid; gap: 14px; }
 @media (min-width: 720px) { .cand-grid { grid-template-columns: 1fr 1fr; } }

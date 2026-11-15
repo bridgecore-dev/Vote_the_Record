@@ -683,6 +683,38 @@ def keep_archives(old, new) -> None:
             f["archive_url"] = o["archive_url"]
 
 
+def keep_added(old, new) -> None:
+    """Keep members added to members.yaml by hand (a member who left office, whose TLO page no longer prints a
+    district; the Speaker, printed as "Mr. Speaker") when a re-run doesn't find them, with their IDs and notes."""
+    if not isinstance(old, dict) or "members" not in new:
+        return
+    seats = {(m["chamber"], m["district"]) for m in new["members"]}
+    ids = {m["fact"]["id"] for m in new["members"]}
+    names = {(m["chamber"], n) for m in new["members"] for n in m["printed"]}
+    for m in old.get("members") or []:
+        if (m["chamber"], m["district"]) not in seats and m["fact"]["id"] not in ids                 and not any((m["chamber"], n) in names for n in m["printed"]):
+            new["members"].append({k: v for k, v in m.items() if k != "party"})
+    new["members"].sort(key=lambda m: (m["chamber"], m["district"]))
+
+
+def keep_party(old, new) -> None:
+    """Carry each member's party and the file's party_source and notes (written by lrl_party.py) onto a re-run of
+    members.yaml, by chamber and district; re-run lrl_party.py if the members changed."""
+    if not isinstance(old, dict) or "members" not in new or not old.get("party_source"):
+        return
+    party = {(m["chamber"], m["district"]): m.get("party") for m in old.get("members") or []}
+    for i, m in enumerate(new["members"]):
+        row = {}
+        for key, value in m.items():
+            row[key] = value
+            if key == "person":
+                row["party"] = party.get((m["chamber"], m["district"]))
+        new["members"][i] = row
+    new["party_source"] = old["party_source"]
+    if old.get("notes"):
+        new["notes"] = old["notes"]
+
+
 def main(argv: list[str] | None = None) -> int:
     sys.path.insert(0, str(REPO / "src" / "collectors"))
     from yamlio import to_yaml
@@ -700,6 +732,8 @@ def main(argv: list[str] | None = None) -> int:
     for path, doc in docs.items():
         old = yaml.safe_load(path.read_text(encoding="utf-8")) if path.exists() else None
         keep_archives(old, doc)
+        keep_added(old, doc)
+        keep_party(old, doc)
         text = header + to_yaml(doc)
         if path.exists():
             if path.read_text(encoding="utf-8") == text:
