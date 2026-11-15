@@ -118,7 +118,9 @@ Made to be seen (never at the cost of a rule above):
   quoted. If the record shows the claim is right, say so; if it's wrong or about another bill, say that.
 - End with what a reader can do, or a question that asks for their view ("Which side convinces you?").
 - Reels for anything that fits in 3-8 short slides; carousels for lists and explainers; stories for
-  reminders, deadlines and results.
+  reminders, deadlines and results. A Reel covers one or two bills at most (the builder refuses more): when
+  several bills belong together, make a Reel for the one or two that matter most and a carousel for the rest,
+  or one Reel per bill on different days.
 
 Every day should have at least one Reel (`kind: reel`), one feed post (`carousel` or `image`) and one story
 (`kind: story`, or a post with a `story: true` slide). Count the `kind`s already scheduled for each of the
