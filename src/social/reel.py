@@ -57,6 +57,7 @@ SAY_WORDS = 45
 # what they had: the data center Reel published Nov. 14 explains five.
 REEL_BILLS = 2
 REEL_BILLS_FROM = "2026-11-15"
+VOICED_FROM = "2026-11-15"  # every Reel has a voice from here on (owner's request, 2026-11-15)
 DISCLOSURE = "Voice: computer-generated (Kokoro text-to-speech)."
 VOICE = {"name": "af_heart", "speed": 1.0}  # af_heart: Kokoro's clearest American English voice
 VOICE_NAME = re.compile(r"[a-z]{2}_[a-z]+")
@@ -311,6 +312,11 @@ def check(post: dict) -> list[str]:
     if post.get("kind") == "reel" and len(bills) > REEL_BILLS and str(post.get("publish_after") or "")[:10] >= REEL_BILLS_FROM:
         errs.append(f"a Reel covers at most {REEL_BILLS} bills (this one has {len(bills)}); split the rest into another "
                     "Reel or a carousel")
+    if post.get("kind") == "reel" and str(post.get("publish_after") or "")[:10] >= VOICED_FROM:
+        silent = [f"slide {k}" for k, s in enumerate(slides, 1) if "say" not in s]
+        silent += [f"bill {b.get('id')}" for b in bills if "say" not in b]
+        if silent:
+            errs.append("every Reel has a voice: add say to " + ", ".join(silent))
     v = post.get("voice")
     if v not in (None, True):
         if not isinstance(v, dict):

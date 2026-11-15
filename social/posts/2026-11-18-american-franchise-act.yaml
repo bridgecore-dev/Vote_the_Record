@@ -3,7 +3,7 @@ level: congress
 topic: Jobs and wages
 approval: review
 record_ids: ["us/119/H.R. 5267/house-floor-schedule-2026-11-16"]
-publish_after: '2026-11-18T17:30:00-06:00'
+publish_after: '2026-11-18T15:00:00-06:00'
 rule: >-
   The House floor schedule for the week of Nov. 16, 2026 lists two bills under a rule (full debate), H.R. 3495 and
   H.R. 5267. Each gets its own post with the same structure: before, after, who gains and loses, cost, the case for

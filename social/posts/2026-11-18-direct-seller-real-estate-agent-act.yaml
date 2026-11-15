@@ -3,7 +3,7 @@ level: congress
 topic: Jobs and wages
 approval: review
 record_ids: ["us/119/H.R. 3495/house-floor-schedule-2026-11-16"]
-publish_after: '2026-11-18T12:00:00-06:00'
+publish_after: '2026-11-18T13:30:00-06:00'
 rule: >-
   The House floor schedule for the week of Nov. 16, 2026 lists two bills under a rule (full debate), H.R. 3495 and
   H.R. 5267. Each gets its own post with the same structure: before, after, who gains and loses, cost, the case for
@@ -31,47 +31,55 @@ bills:
     title: Congressional Research Service summary of H.R. 3495 (bill status, GPO)
     url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr3495.xml
     retrieved: '2026-11-15'
+  say: "H.R. 3495, the Direct Seller and Real Estate Agent Harmonization Act, would exclude real estate agents and direct sellers from the definition of employee under federal minimum-wage and overtime law. It was reported by committee 19 to 16 on September 17, 2025."
 slides:
 - kicker: "U.S. House · Week of Nov. 16"
   big: H.R. 3495
   head: A bill on the House schedule would take real estate agents and direct sellers out of federal minimum-wage and overtime law.
+  say: "H.R. 3495. A bill on the U.S. House schedule for the week of November 16 would take real estate agents and direct sellers out of federal minimum-wage and overtime law."
 - chip: "Before: current law"
   head: "If one of these workers counts as an employee under the FLSA, they must get at least the minimum wage, and generally overtime past 40 hours."
   quote: {label: CRS summary, text: "Workers who are considered employees under the FLSA must be paid the minimum wage and are generally eligible to receive overtime compensation for hours worked in excess of a 40-hour workweek."}
+  say: "Under current law, if one of these workers counts as an employee under the Fair Labor Standards Act, they must get at least the minimum wage, and generally overtime past 40 hours."
 - chip: "After: under the bill"
   head: "They would not count as employees under the FLSA. The bill uses the tax code's definitions, in place since 1982."
   rows:
   - [Real estate agents, "licensed, paid by sales, not hours, under a written contract"]
   - [Direct sellers, "sell consumer products outside a store, paid by sales, under a written contract"]
   - [Also in that definition, "delivering or distributing newspapers"]
+  say: "Under the bill, they would not count as employees under that law. It uses the tax code's definitions, in place since 1982: licensed real estate agents and direct sellers, paid by sales under a written contract. That definition also covers delivering or distributing newspapers."
 - chip: "Who gains, who loses, what it costs"
   head: "Workers it covers would lose the right to sue for FLSA violations, CBO says."
   rows:
   - [Lost by workers, "Settlements they'd have gotten: below a $206 million legal threshold (CBO)"]
   - [Federal budget, "Fewer penalties: under $500,000 added to deficits, 2026-2035"]
   quote: {label: CBO, text: "workers who would no longer be covered by the FLSA and therefore would not have legal grounds to seek financial compensation for violations of that act."}
+  say: "CBO says workers it covers would lose the right to sue for these violations. The settlements they'd have gotten fall below a legal threshold of $206 million. The federal budget would collect fewer penalties: under $500,000 added to deficits over 2026 to 2035."
 - chip: The case for
   head: "The committee's report says these workers already work as independent contractors."
   quote: {label: "Committee views, H. Rept. 119-494", text: "Both direct sellers and qualified real estate agents have been defined as independent contractors, and distinguished from employees, by the Internal Revenue Code (IRC) for federal tax purposes since 1982."}
   text: "It says the National Association of REALTORS and the Direct Selling Association support the bill."
+  say: "The case for: the committee's report says direct sellers and qualified real estate agents have been defined as independent contractors by the tax code since 1982. It says the National Association of Realtors and the Direct Selling Association support the bill."
 - chip: The case against
   head: "The minority views say the law already works for commission pay."
   quote: {label: "Minority views, H. Rept. 119-494", text: "already accommodates the industries' customary commission-based pay practices."}
   text: "They say the Communication Workers of America and the National Employment Lawyers Association oppose it."
+  say: "The case against: the minority views say the law already accommodates the industries' customary commission-based pay practices. They say the Communication Workers of America and the National Employment Lawyers Association oppose it."
 - chip: Where it stands
   head: "Sponsor: Rep. Kevin Kiley (R-CA), with 31 cosponsors. The committee approved it 19-16."
   text: "Watch the House floor at live.house.gov. Which side convinces you?"
+  say: "Sponsor: Representative Kevin Kiley, Republican of California, with 31 cosponsors. The committee approved it 19 to 16. Watch the House floor at live.house.gov. Which side convinces you?"
 caption: |-
-  A bill on the House floor schedule this week, H.R. 3495, would change who counts as an "employee" under the Fair Labor Standards Act, the federal minimum-wage and overtime law.
+  H.R. 3495, on the House floor schedule this week, would change who counts as an "employee" under the Fair Labor Standards Act, the federal minimum-wage and overtime law.
 
-  Before: a real estate agent or direct seller who counts as an employee must get at least the minimum wage, and generally overtime.
-  After: they would not count as employees under that law. The bill borrows the tax code's definitions, which since 1982 have treated them as non-employees for taxes. The definitions also cover newspaper delivery.
+  Before: a real estate agent or direct seller counted as an employee must get at least the minimum wage, and generally overtime.
+  After: they would not count as employees under that law. It borrows the tax code's definitions, which since 1982 have treated them as non-employees for taxes. The definitions also cover newspaper delivery.
 
-  CBO says workers it covers would lose the right to sue for FLSA violations. It puts the value of those lost settlements below $206 million, the threshold in federal mandate law. The budget would lose under $500,000 in penalties over 10 years.
+  CBO says workers it covers would lose the right to sue for FLSA violations. It puts those lost settlements below $206 million, the threshold in federal mandate law. The budget would lose under $500,000 in penalties over 10 years.
 
   For: the committee report says these workers already work as independent contractors. Against: the minority views say the law already handles commission pay.
 
-  Which side convinces you?
+  Voice: computer-generated (Kokoro text-to-speech).
 hashtags: [congress, minimumwage, realestate, workers, votetherecord]
 notes: >-
   Picked by rule: the two bills the House floor schedule (week of Nov. 16, as of Nov. 13 5:02 p.m.) lists under a

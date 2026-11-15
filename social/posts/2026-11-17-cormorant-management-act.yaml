@@ -3,7 +3,7 @@ level: congress
 topic: Wildlife
 approval: review
 record_ids: ["us/119/H.R. 8195/house-floor-schedule-2026-11-16"]
-publish_after: '2026-11-17T09:00:00-06:00'
+publish_after: '2026-11-17T07:30:00-06:00'
 rule: >-
   From the House suspension list for the week of Nov. 16, 2026, we pick the bills that order a federal agency
   to study or plan something (feasibility studies, management frameworks) rather than move land or place a
@@ -34,15 +34,18 @@ bills:
     title: Congressional Research Service summary of H.R. 8195
     url: https://api.congress.gov/v3/bill/119/hr/8195/summaries
     retrieved: '2026-11-15'
+  say: "H.R. 8195, the Responsible Cormorant Management and Control Act of 2026, would have the Fish and Wildlife Service set regional rules for when and how cormorants may be killed or removed. The House Natural Resources Committee approved it by unanimous consent."
 slides:
 - kicker: "U.S. House · Week of Nov. 16"
   big: "1 lb a day"
   head: "That's how much fish a cormorant eats, the committee report says. A bill would change how the U.S. manages them."
+  say: "1 pound a day. That's how much fish a cormorant eats, the committee report says. A bill on the U.S. House schedule for the week of November 16 would change how the U.S. manages them."
 - chip: "Before"
   head: "Cormorants are protected under the Migratory Bird Treaty Act. Since 2021, people who want to remove them apply each year for a federal permit."
   rows:
   - [Population, "871,001 to 1,031,757 in the U.S. and Canada (2020)"]
   - [Annual limit, "Up to 121,504 may be taken per year"]
+  say: "Before: cormorants are protected under the Migratory Bird Treaty Act. Since 2021, people who want to remove them apply each year for a federal permit. In 2020 there were 871,001 to 1,031,757 in the U.S. and Canada. Up to 121,504 may be taken per year."
 - chip: "After"
   head: "The Fish and Wildlife Service would write regional rules with the four flyway councils."
   rows:
@@ -51,12 +54,15 @@ slides:
   - [Limit, "Total taken stays at a sustainable level"]
   - [Reporting, "Total birds taken, made public each year"]
   - [Ends, "Jan. 1, 2034"]
+  say: "The Fish and Wildlife Service would write regional rules with the four flyway councils: allowed methods and times of year, for state and tribal agencies and licensed lake and pond managers. Total taken stays sustainable, made public each year. The rules end January 1, 2034."
 - chip: For and against
   head: "The committee cites fish farm losses. Its top Democrat says markup changes improved it, but raised doubts."
   quote: {label: "Rep. Jared Huffman, Ranking Member, H. Rept. 119-857", text: "It remains unclear whether double-crested cormorants pose a significant ecological threat across all regions"}
+  say: "The committee cites fish farm losses. Its top Democrat, Representative Jared Huffman, says markup changes improved it, but raised doubts: It remains unclear whether double-crested cormorants pose a significant ecological threat across all regions."
 - chip: Where it stands
   head: "Sponsor: Rep. Tim Walberg (R-MI), with 6 Republican cosponsors. The committee approved it by unanimous consent."
   text: "No CBO cost estimate yet. It needs two-thirds of those voting to pass. Should states get more say over cormorants?"
+  say: "Sponsor: Representative Tim Walberg, Republican of Michigan, with 6 Republican cosponsors. The committee approved it by unanimous consent. There's no CBO cost estimate yet. It needs two-thirds of those voting to pass. Should states get more say over cormorants?"
 caption: |-
   A cormorant eats about a pound of fish a day, a House committee report says. H.R. 8195, on the House schedule this week, would change how they are managed.
 
@@ -66,7 +72,7 @@ caption: |-
 
   The report cites a 2021 study estimating $64.7 million a year in fish farm losses. Rep. Jared Huffman, the ranking member, wrote it "remains unclear" whether the birds are a significant threat in every region, and that the bill does not authorize hunting them.
 
-  Federal or state officials: who should decide? Tell us.
+  Voice: computer-generated (Kokoro text-to-speech).
 hashtags: [congress, wildlife, birds, fishing, votetherecord]
 notes: >-
   Picked by the stated rule; H.R. 9785 and H.R. 7254 get matching posts. The suspension text (dated Nov. 13)

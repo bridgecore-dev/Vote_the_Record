@@ -3,7 +3,7 @@ level: congress
 topic: Impeachment
 approval: review
 record_ids: [us/119/2/house/roll/317]
-publish_after: '2026-11-17T17:30:00-06:00'
+publish_after: '2026-11-17T19:30:00-06:00'
 sources:
 - title: "House Clerk, Roll Call 317 (2026)"
   url: https://clerk.house.gov/evs/2026/roll317.xml
@@ -27,24 +27,31 @@ bills:
     title: "Text of H. Res. 1655 as read in the House, Congressional Record, Nov. 10, 2026, p. H6126"
     url: https://www.congress.gov/119/crec/2026/11/10/172/169/modified/CREC-2026-11-10-pt1-PgH6126-3.htm
     retrieved: '2026-11-14'
+  say: "H.Res. 1655 would impeach Defense Secretary Peter Brian Hegseth on 8 articles and send the articles to the Senate. It was sent to the House Judiciary Committee by a 211 to 204 House vote on November 10, 2026."
 slides:
 - {kicker: "U.S. House · Nov. 10, 2026", big: 211-204,
    head: "The House voted to send H.Res. 1655, a resolution to impeach Defense Secretary Peter Brian Hegseth, to a committee.",
-   text: "Yea = for sending it to the Judiciary Committee, Nay = against: 211 Yea, 204 Nay, 18 didn't vote. The House did not vote on impeaching him."}
+   text: "Yea = for sending it to the Judiciary Committee, Nay = against: 211 Yea, 204 Nay, 18 didn't vote. The House did not vote on impeaching him.",
+   say: "On November 10, 2026, the U.S. House voted to send H.Res. 1655, a resolution to impeach Defense Secretary Peter Brian Hegseth, to the Judiciary Committee: 211 Yea, 204 Nay, 18 didn't vote. The House did not vote on impeaching him."}
 - {chip: "How they voted", head: "By party, as the House Clerk records it",
    rows: [[Republican, "210 Yea · 1 Nay · 7 didn't vote"], [Democratic, "0 Yea · 203 Nay · 11 didn't vote"], [Independent, "1 Yea · 0 Nay"]],
-   text: "The smaller side, 204 Nay votes, is too long to list here. Every name is in roll call 317 on clerk.house.gov."}
+   text: "The smaller side, 204 Nay votes, is too long to list here. Every name is in roll call 317 on clerk.house.gov.",
+   say: "How they voted, by party, as the House Clerk records it. Republican: 210 Yea, 1 Nay, 7 didn't vote. Democratic: 0 Yea, 203 Nay, 11 didn't vote. Independent: 1 Yea, 0 Nay. Every name is in roll call 317 on clerk.house.gov."}
 - {chip: "Before the vote", head: "Rep. Massie (R-KY) offered the resolution as a question of the privileges of the House. The chair ruled that it qualified, and the House took it up that day.",
-   quote: {label: "Congressional Record, Nov. 10, 2026", text: "Mr. Issa of California moves to refer the resolution to the Committee on the Judiciary."}}
+   quote: {label: "Congressional Record, Nov. 10, 2026", text: "Mr. Issa of California moves to refer the resolution to the Committee on the Judiciary."},
+   say: "Representative Massie, Republican of Kentucky, offered the resolution as a question of the privileges of the House. The chair ruled that it qualified. The Congressional Record says: Mr. Issa of California moves to refer the resolution to the Committee on the Judiciary."}
 - {chip: "After the vote", head: "The resolution now sits with the House Judiciary Committee.",
    quote: {label: "House History, Art & Archives", text: "The committee then chooses whether to pursue articles of impeachment against the accused official and report them to the full House."},
-   text: "If the full House adopts articles (by simple majority), the Senate holds the trial."}
+   text: "If the full House adopts articles (by simple majority), the Senate holds the trial.",
+   say: "The resolution now sits with the House Judiciary Committee. The committee then chooses whether to pursue articles of impeachment against the accused official and report them to the full House. If the House adopts articles, by simple majority, the Senate holds the trial."}
 - {chip: "The charges", head: "The resolution's 8 articles, in its own words. They are charges; the House has not voted on them.",
    rows: [["I-III", "Waging war in contravention of the War Powers Resolution of 1973"], [IV, "Ignoring laws that minimize civilian casualties"],
           [V, "Extrajudicial killings"], [VI, "Suppressing free speech"], [VII, "Kidnapping of a sovereign foreign leader"], [VIII, "Unlawful war in Yemen"]],
-   by: "Article titles as printed in the Congressional Record, Nov. 10, 2026, H6126-H6133.", seconds: 7}
+   by: "Article titles as printed in the Congressional Record, Nov. 10, 2026, H6126-H6133.", seconds: 7,
+   say: "The 8 articles are charges the House hasn't voted on: one to three, waging war in contravention of the War Powers Resolution of 1973; ignoring laws that minimize civilian casualties; extrajudicial killings; suppressing free speech; kidnapping of a sovereign foreign leader; unlawful war in Yemen."}
 - {chip: "Your turn", head: "How did your representative vote?",
-   text: "Find their name in House roll call 317 at clerk.house.gov. Then tell them what you think."}
+   text: "Find their name in House roll call 317 at clerk.house.gov. Then tell them what you think.",
+   say: "Your turn. How did your representative vote? Find their name in House roll call 317 at clerk.house.gov. Then tell them what you think."}
 caption: |-
   On Nov. 10, the House voted 211-204 to send H.Res. 1655, a resolution to impeach Defense Secretary Peter Brian Hegseth, to the Judiciary Committee. The House did not vote on impeaching him.
 
@@ -53,6 +60,8 @@ caption: |-
   What's next: the committee chooses whether to pursue articles of impeachment and report them to the full House. The resolution's 8 articles are charges, not findings.
 
   How did your representative vote? Roll call 317 is on clerk.house.gov.
+
+  Voice: computer-generated (Kokoro text-to-speech).
 hashtags: [congress, impeachment, housevote, votetherecord]
 notes: >-
   Not covered by any earlier post (the Nov. 9 week recap lists final-passage votes only), so it is four days old by

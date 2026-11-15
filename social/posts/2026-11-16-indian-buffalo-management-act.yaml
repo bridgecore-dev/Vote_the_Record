@@ -3,7 +3,7 @@ level: congress
 topic: Wildlife
 approval: review
 record_ids: ["us/119/H.R. 7954/house-floor-schedule-2026-11-16"]
-publish_after: '2026-11-16T19:00:00-06:00'
+publish_after: '2026-11-16T13:30:00-06:00'
 rule: >-
   From the House suspension list for the week of Nov. 16, 2026, the one bill that sets up a new federal program
   with tribes. Earlier posts covered the study, reauthorization and other bills on the same list with the same
@@ -23,6 +23,7 @@ sources:
   retrieved: '2026-11-15'
 bills:
 - id: H.R. 7954
+  say: "H.R. 7954, the Don Young Doug LaMalfa Indian Buffalo Management Act, would have the Interior Department give tribes grants, contracts and help to restore and manage buffalo, for 7 years. A House committee approved it by unanimous consent. It's scheduled the week of November 16."
   title: Don Young Doug LaMalfa Indian Buffalo Management Act
   does: "Would have the Interior Dept. give tribes grants, contracts and help to restore and manage buffalo, for 7 years."
   affects: "Indian tribes and tribal groups with buffalo experience, and surplus buffalo on Interior land."
@@ -36,12 +37,15 @@ bills:
     retrieved: '2026-11-15'
 slides:
 - kicker: "U.S. House · Week of Nov. 16"
+  say: "On the House schedule the week of November 16. U.S. buffalo fell to about 1,000 in the late 1800s. Some estimates now count over 200,000."
   big: "1,000 → 200,000+"
   head: "U.S. buffalo fell to about 1,000 in the late 1800s. Some estimates now count over 200,000."
 - chip: Who brought them back
+  say: "The committee report credits conservation and tribes, including the Intertribal Buffalo Council. Founded in 1991, the council now has 90 tribes in 23 states, the report says."
   head: "The committee report credits conservation and tribes, including the Intertribal Buffalo Council."
   text: "Founded in 1991, the council now has 90 tribes in 23 states, the report says."
 - chip: "What the bill would do"
+  say: "The bill directs the Interior Department to back tribal buffalo herds: contracts, grants and technical help; consultation on Interior plans that affect buffalo, including sick herds; and surplus buffalo on Interior land can go to tribes. It ends 7 years after it becomes law."
   head: "It directs the Interior Department to back tribal buffalo herds."
   rows:
   - [Grants, "Contracts, grants and technical help for tribes"]
@@ -49,9 +53,11 @@ slides:
   - [Surplus, "Extra buffalo on Interior land can go to tribes"]
   - [Ends, "7 years after it becomes law"]
 - chip: "Cost and who gains"
+  say: "Tribes and tribal groups gain the help. The bill sets no dollar amount. Interior may waive its charges for surplus buffalo. The committee asked the Congressional Budget Office for a cost estimate and had not received it."
   head: "Tribes and tribal groups gain the help. The bill sets no dollar amount."
   text: "Interior may waive its charges for surplus buffalo. The committee asked CBO for a cost estimate and had not received it."
 - chip: Where it stands
+  say: "Sponsor: Representative Jeff Hurd, Republican of Colorado, with 8 Republican and 7 Democratic cosponsors. The committee approved it by unanimous consent. It needs two-thirds of those voting. Should Interior do this? Tell us."
   head: "Sponsor: Rep. Jeff Hurd (R-CO), with 8 Republican and 7 Democratic cosponsors."
   text: "The committee approved it by unanimous consent. It needs two-thirds of those voting. Should Interior do this? Tell us."
 caption: |-
@@ -62,6 +68,8 @@ caption: |-
   The bill names no dollar amount. The committee asked CBO for a cost estimate and had not received it.
 
   Should Interior take this on? Tell us below.
+
+  Voice: computer-generated (Kokoro text-to-speech).
 hashtags: [congress, buffalo, bison, tribalnations, votetherecord]
 notes: >-
   Picked by the stated rule; H.R. 2400, 8483 and 10136 share a carousel and H.R. 9600 gets a story. The 1,000 and

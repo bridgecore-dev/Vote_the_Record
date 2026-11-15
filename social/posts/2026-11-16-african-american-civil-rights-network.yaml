@@ -3,7 +3,7 @@ level: congress
 topic: History and parks
 approval: review
 record_ids: ["us/119/H.R. 9269/house-floor-schedule-2026-11-16"]
-publish_after: '2026-11-16T13:30:00-06:00'
+publish_after: '2026-11-16T10:30:00-06:00'
 rule: >-
   From the House suspension list for the week of Nov. 16, 2026, we pick the bills that renew (reauthorize) an
   existing nationwide program. Each gets its own post with the same structure. This week that is H.R. 9640 and
@@ -23,6 +23,7 @@ sources:
   retrieved: '2026-11-15'
 bills:
 - id: H.R. 9269
+  say: "H.R. 9269, Renewing the African American Civil Rights Network Act, restarts a National Park Service program for civil rights history sites, which expired January 8, 2025, for 7 years. A House committee approved it by unanimous consent. It's scheduled the week of November 16."
   title: Renewing the African American Civil Rights Network Act
   does: "Restarts a National Park Service program for civil rights history sites, which expired Jan. 8, 2025, for 7 years."
   affects: "Sites in the network, which can use its logo and get technical support from the Park Service."
@@ -37,24 +38,29 @@ bills:
     retrieved: '2026-11-15'
 slides:
 - kicker: "U.S. House · Week of Nov. 16"
+  say: "213 sites. A national network of civil rights history sites ran out on January 8, 2025. A bill on the House schedule the week of November 16 restarts it."
   big: "213 sites"
   head: A national network of civil rights history sites ran out on Jan. 8, 2025. A bill on the House schedule restarts it.
 - chip: What it is
+  say: "A National Park Service program, created by a 2018 law, links sites tied to the Civil Rights Movement of 1939 to 1968. Among them: Little Rock Central High School, the Martin Luther King Memorial, and the Brown v. Board of Education park in Topeka."
   head: "A National Park Service program, created by a 2018 law, that links sites tied to the Civil Rights Movement of 1939-1968."
   rows:
   - Little Rock Central High School, Arkansas
   - Martin Luther King, Jr. Memorial, Washington, D.C.
   - Brown v. Board of Education park, Topeka, Kansas
 - chip: "Before → after"
+  say: "The 2018 law ended the program after 7 years. The bill restarts the clock. Now: expired January 8, 2025. After: runs 7 years from the day it becomes law. Sites get the network logo and Park Service help."
   head: "The 2018 law ended the program after 7 years. The bill restarts the clock."
   rows:
   - [Now, "Expired Jan. 8, 2025"]
   - [After, "Runs 7 years from the day it becomes law"]
   - [Sites get, "The network logo and Park Service help"]
 - chip: Cost
+  say: "Cost: the committee had asked for, but not received, a cost estimate from Congress's budget office. The report includes no dissenting views. The committee approved the bill with no objection."
   head: "The committee had asked for, but not received, a cost estimate from Congress's budget office."
   text: "The report includes no dissenting views. The committee approved the bill with no objection."
 - chip: Where it stands
+  say: "Led by Representatives James Clyburn, Democrat of South Carolina, and Mike Carey, Republican of Ohio, with 5 Democratic and 5 Republican cosponsors. Senator Tim Scott, Republican of South Carolina, leads the Senate version. It needs two-thirds of House members voting. Have you visited one?"
   head: "Led by Reps. James Clyburn (D-SC) and Mike Carey (R-OH), with 5 Democratic and 5 Republican cosponsors."
   text: "Sen. Tim Scott (R-SC) leads the Senate version. It needs two-thirds of House members voting to pass. Have you visited one of these sites? Tell us."
 caption: |-
@@ -65,6 +71,8 @@ caption: |-
   The committee approved it with no objection. It hadn't received a cost estimate from the Congressional Budget Office when it filed its report.
 
   Have you visited one of these sites? Tell us below.
+
+  Voice: computer-generated (Kokoro text-to-speech).
 hashtags: [congress, civilrights, nationalparks, votetherecord]
 notes: >-
   Picked by the stated rule; H.R. 9640 gets a matching post. "213 sites", the three examples, the 1939-1968

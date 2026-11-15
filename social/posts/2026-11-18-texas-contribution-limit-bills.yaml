@@ -3,11 +3,12 @@ level: state
 place: Texas
 topic: Campaign finance
 approval: review
-rule: >-
-  Every bill filed Nov. 9 to Nov. 13, 2026 whose Texas Legislature Online caption is "Relating to campaign
-  contribution limits for certain offices." (said on the last slide).
-record_ids: [tx/90R/HB 774/filed, tx/90R/SB 373/filed]
-publish_after: '2026-11-18T09:00:00-06:00'
+rule: Every bill filed Nov. 9 to Nov. 13, 2026 whose Texas Legislature Online caption is "Relating to campaign contribution
+  limits for certain offices." (said on the last slide).
+record_ids:
+- tx/90R/HB 774/filed
+- tx/90R/SB 373/filed
+publish_after: '2026-11-18T07:30:00-06:00'
 sources:
 - title: Texas Legislature Online, Bills By Filing Date, Nov. 9, 2026
   url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-09
@@ -27,50 +28,78 @@ bills:
   affects: Donors and political committees giving to these candidates; statewide judicial candidates' PAC limit drops to $10,000.
   where: Filed Nov. 9, 2026 by Rep. Zwiener; no other action yet.
   summary:
-    text: "A person, other than a political committee, may not knowingly make or authorize the making of a campaign contribution to a candidate for statewide office or the legislature [...] in an amount that exceeds $5,000 for the election in which the candidate is involved."
+    text: A person, other than a political committee, may not knowingly make or authorize the making of a campaign contribution
+      to a candidate for statewide office or the legislature [...] in an amount that exceeds $5,000 for the election in which
+      the candidate is involved.
     title: HB 774 as filed, Sec. 1 (new Election Code 253.008(a))
     url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00774I.htm
     retrieved: '2026-11-15'
+  say: HB 774 would cap contributions to statewide and legislative candidates at $5,000 a person and $10,000 a committee per
+    election. It was filed November 9 by Representative Zwiener, with no other action yet.
 - id: SB 373
   does: Same text as HB 774; $5,000 a person and $10,000 a committee per election to statewide and legislative candidates.
   affects: Donors and political committees giving to these candidates; statewide judicial candidates' PAC limit drops to $10,000.
   where: Filed Nov. 13, 2026 by Sen. Molly Cook; no other action yet.
   summary:
-    text: "(1) for a statewide judicial office, $10,000 [$25,000]; or (2) for any other judicial office, $5,000."
+    text: (1) for a statewide judicial office, $10,000 [$25,000]; or (2) for any other judicial office, $5,000.
     title: SB 373 as filed, Sec. 2 (Election Code 253.157(a-1); brackets show the amount struck)
     url: https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00373I.htm
     retrieved: '2026-11-15'
+  say: 'SB 373, filed November 13 by Senator Molly Cook, has the same text as HB 774: $5,000 a person and $10,000 a committee
+    per election. No other action yet.'
 slides:
 - kicker: 2027 Texas session · Filed Nov. 9 and 13, 2026
   big: $5,000
   head: Two Texas bills would cap what one donor can give a candidate for statewide office or the Legislature.
+  say: Two Texas bills, filed November 9 and 13, would cap what one donor can give a candidate for statewide office or the
+    Legislature at $5,000.
 - chip: The law today
-  head: "Texas Election Code sets dollar limits on contributions only for judicial candidates."
-  text: "A statewide judicial candidate may take up to $5,000 from one person per election, and up to $25,000 from one general-purpose committee (Sec. 253.155 and 253.157)."
+  head: Texas Election Code sets dollar limits on contributions only for judicial candidates.
+  text: A statewide judicial candidate may take up to $5,000 from one person per election, and up to $25,000 from one general-purpose
+    committee (Sec. 253.155 and 253.157).
+  say: 'The law today: the Texas Election Code sets dollar limits on contributions only for judicial candidates. A statewide
+    judicial candidate may take up to $5,000 from one person per election, and up to $25,000 from one general-purpose committee.'
 - chip: What would change
   head: HB 774 and SB 373 have the same text.
-  rows: [[One person or group (not a committee), "$5,000 per election"],
-         [One political committee, "$10,000 per election"],
-         ["Statewide judicial, from one general-purpose committee", "$25,000 → $10,000"]]
+  rows:
+  - - One person or group (not a committee)
+    - $5,000 per election
+  - - One political committee
+    - $10,000 per election
+  - - Statewide judicial, from one general-purpose committee
+    - $25,000 → $10,000
+  say: 'HB 774 and SB 373 have the same text. One person or group, not a committee: $5,000 per election. One political committee:
+    $10,000. For statewide judicial candidates, the limit from one general-purpose committee drops from $25,000 to $10,000.'
 - chip: If one passes
-  big: "Sept. 1, 2027"
+  big: Sept. 1, 2027
   head: Each bill would take effect on this date and apply only to contributions made from then on.
   text: No fiscal note (cost estimate) is posted yet for either bill.
+  say: If one passes, each bill would take effect on September 1, 2027, and apply only to contributions made from then on.
+    No cost estimate is posted yet for either bill.
 - chip: How we picked
-  head: "Every bill filed Nov. 9 to Nov. 13 with this official caption."
-  quote: {label: Texas Legislature Online caption, text: "Relating to campaign contribution limits for certain offices."}
-  text: "Should Texas cap donations to these candidates? Tell us what you think."
+  head: Every bill filed Nov. 9 to Nov. 13 with this official caption.
+  quote:
+    label: Texas Legislature Online caption
+    text: Relating to campaign contribution limits for certain offices.
+  text: Should Texas cap donations to these candidates? Tell us what you think.
+  say: 'How we picked: every bill filed November 9 to November 13 with the official caption, Relating to campaign contribution
+    limits for certain offices. Should Texas cap donations to these candidates? Tell us what you think.'
 caption: |-
   Texas caps campaign contributions to judicial candidates, but its Election Code sets no dollar limit for candidates for statewide office or the Legislature. Two bills filed for the 2027 session, HB 774 and SB 373, would add one: $5,000 per election from one person, $10,000 from one political committee. They would also lower the cap a statewide judicial candidate may take from one general-purpose committee from $25,000 to $10,000.
 
   Should Texas cap donations to these candidates?
-hashtags: [txlege, texaslegislature, campaignfinance, texas, votetherecord]
-notes: >-
-  All records opened 2026-11-15: the Nov. 9 and Nov. 13 filing reports, both bill histories (filed, no
-  other action; no fiscal notes listed), both introduced texts (same council draft, 90R 2798), Election Code
-  ch. 253, and the TEC's 2026 state candidate guide (its list of ch. 253 restrictions has no dollar cap for
-  non-judicial candidates). Please double-check the "only for judicial candidates" line: it is my reading of
-  ch. 253, where the dollar limits are in Subchapter F (judicial); 253.032 limits out-of-state committee
-  contributions by documentation, not amount. Not said on the slides: as a Subchapter A rule, a knowing excess
-  contribution would fall under 253.003 (Class A misdemeanor); the bills don't say so themselves.
-  "Sen. Molly Cook" follows TLO ("Cook, Molly"). Fills a Nov. 18 Reel slot (Nov. 16-17 Reel slots are full).
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags:
+- txlege
+- texaslegislature
+- campaignfinance
+- texas
+- votetherecord
+notes: 'All records opened 2026-11-15: the Nov. 9 and Nov. 13 filing reports, both bill histories (filed, no other action;
+  no fiscal notes listed), both introduced texts (same council draft, 90R 2798), Election Code ch. 253, and the TEC''s 2026
+  state candidate guide (its list of ch. 253 restrictions has no dollar cap for non-judicial candidates). Please double-check
+  the "only for judicial candidates" line: it is my reading of ch. 253, where the dollar limits are in Subchapter F (judicial);
+  253.032 limits out-of-state committee contributions by documentation, not amount. Not said on the slides: as a Subchapter
+  A rule, a knowing excess contribution would fall under 253.003 (Class A misdemeanor); the bills don''t say so themselves.
+  "Sen. Molly Cook" follows TLO ("Cook, Molly"). Fills a Nov. 18 Reel slot (Nov. 16-17 Reel slots are full).'

@@ -3,7 +3,7 @@ level: congress
 topic: New laws
 approval: review
 record_ids: [us/119/public-law/139, us/119/public-law/140, us/119/public-law/141, us/119/public-law/142]
-publish_after: '2026-11-17T12:00:00-06:00'
+publish_after: '2026-11-17T15:00:00-06:00'
 sources:
 - title: Congress.gov, public laws
   url: https://api.congress.gov/v3/law/119
