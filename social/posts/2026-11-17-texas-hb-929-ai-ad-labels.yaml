@@ -1,0 +1,70 @@
+kind: carousel
+level: state
+place: Texas
+topic: Elections
+approval: review
+record_ids: [tx/90R/HB 929/filed]
+publish_after: '2026-11-17T21:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 9, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-09
+  retrieved: '2026-11-15'
+- title: Texas Election Code, Sec. 255.004
+  url: https://statutes.capitol.texas.gov/Docs/EL/htm/EL.255.htm
+  retrieved: '2026-11-15'
+- title: Texas Penal Code, Sec. 12.21
+  url: https://statutes.capitol.texas.gov/Docs/PE/htm/PE.12.htm
+  retrieved: '2026-11-15'
+bills:
+- id: HB 929
+  does: Would require paid or candidate-approved political ads with major AI content to carry a set label.
+  affects: People who pay for or authorize ads in Texas state and local races and ballot measures and control their content.
+  where: Filed Nov. 9, 2026 by Rep. Mizani; no other action yet.
+  summary:
+    text: >-
+      The disclosure must convey the statement "This ad contains AI-generated or AI-altered content." in the
+      principal language of the advertising.
+    title: HB 929 as filed, Sec. 1 (new Election Code 255.009(d))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00929I.htm
+    retrieved: '2026-11-15'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 9, 2026
+  big: HB 929
+  head: A Texas House of Representatives bill would require political ads with major AI content to say so.
+- chip: The law today
+  big: 30 days
+  head: "Texas makes it a crime to create a deep fake video and publish it within 30 days of an election, to hurt a candidate or sway the result."
+  quote: {label: "Election Code 255.004(e): a deep fake video", text: "means a video, created with the intent to deceive, that appears to depict a real person performing an action that did not occur in reality."}
+  text: "Video only. A Class A misdemeanor: up to $4,000, a year in jail, or both (Penal Code 12.21)."
+- chip: The label
+  head: "Ads in Texas state and local races and ballot measures with major AI content would have to carry a set line."
+  rows: [[Print or static, "On the face of the ad, in clear, contrasting text"],
+         [Video, "Starts within the first 5 seconds, stays at least 3"],
+         [Audio, "Spoken clearly at or near the start"]]
+  text: "It applies when someone pays to place the ad, or a candidate, a candidate's agent, or a reporting political committee authorizes it."
+- chip: What counts
+  head: "\"Material AI content\": AI-made or AI-altered content that is a substantial part of the ad's message or a depiction in it."
+  text: "Not counted: routine work like spelling fixes, formatting, cropping, color and sound cleanup, and accurate captions or translations, if they don't change the message or fake a real person's voice or likeness."
+- chip: Before → after
+  head: "A civil fine, not a crime: the Texas Ethics Commission could fine up to $4,000 per ad."
+  text: "Copies of the same ad by the same person in the same election count as one. The commission must weigh a prompt, good-faith fix. Exempt: satire and parody, unpaid news and commentary, and publishers and other go-betweens. No fiscal note (cost estimate) is posted yet."
+- chip: What's next
+  head: The Legislature convenes Jan. 12, 2027.
+  text: "Should political ads have to label AI content? Is a fine the right way to enforce it?"
+caption: |-
+  Today, Texas law makes one kind of election deep fake a crime: a fake video, published within 30 days of an election to hurt a candidate or sway the result.
+
+  HB 929, filed in the Texas House of Representatives for the 2027 session, takes a different route: a label. Paid or candidate-approved ads in Texas state and local races and ballot measures with major AI content would have to say "This ad contains AI-generated or AI-altered content."
+
+  An ad without it could draw a civil fine from the Texas Ethics Commission of up to $4,000 per ad. Satire, parody and unpaid news are exempt.
+
+  Should AI in political ads need a label?
+hashtags: [txlege, texaslegislature, elections, ai, votetherecord]
+notes: >-
+  Split from the five-bill post (2026-11-17-texas-ai-political-ad-bills) at the owner's request: one post per
+  bill. HB 929's penalty is civil (new 255.009(f): the commission enforces under Gov. Code ch. 571, read as the
+  Texas Ethics Commission), not criminal; the bill doesn't amend 255.004, so today's 30-day video crime is
+  untouched. Records opened 2026-11-15: the Nov. 9 filing report, the bill history (filed, no other action; no
+  fiscal note on the Text page), the introduced text, Election Code 255.004 and Penal Code 12.21. Please
+  double-check whether any court ruling affects Election Code 255.004 before this runs; none was opened and the
+  post states only the statute's text.

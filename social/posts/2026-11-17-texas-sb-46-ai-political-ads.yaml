@@ -1,0 +1,72 @@
+kind: carousel
+level: state
+place: Texas
+topic: Elections
+approval: review
+record_ids: [tx/90R/SB 46/filed]
+publish_after: '2026-11-17T18:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 9, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-09
+  retrieved: '2026-11-15'
+- title: Texas Election Code, Sec. 255.004
+  url: https://statutes.capitol.texas.gov/Docs/EL/htm/EL.255.htm
+  retrieved: '2026-11-15'
+- title: Texas Penal Code, Sec. 12.21
+  url: https://statutes.capitol.texas.gov/Docs/PE/htm/PE.12.htm
+  retrieved: '2026-11-15'
+bills:
+- id: SB 46
+  does: Would make it an offense to run a political ad with a fake image, audio or video of a candidate unless the ad says so.
+  affects: Candidates, officeholders, political committees, and people who spend over $100 on, or are paid to run, political ads.
+  where: Filed Nov. 9, 2026 by Sen. Zaffirini; no other action yet.
+  summary:
+    text: >-
+      the political advertising includes a disclosure from the person or another person on whose behalf the
+      political advertising is published, distributed, or broadcast indicating that the image, audio
+      recording, or video recording did not occur in reality.
+    title: SB 46 as filed, Sec. 1 (new Election Code 255.0015(b)(2))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00046I.htm
+    retrieved: '2026-11-15'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 9, 2026
+  big: SB 46
+  head: A Texas Senate bill would make it an offense to run a political ad with a fake image, audio or video of a candidate unless the ad says so.
+- chip: The law today
+  big: 30 days
+  head: "Texas makes it a crime to create a deep fake video and publish it within 30 days of an election, to hurt a candidate or sway the result."
+  quote: {label: "Election Code 255.004(e): a deep fake video", text: "means a video, created with the intent to deceive, that appears to depict a real person performing an action that did not occur in reality."}
+  text: "Video only. A Class A misdemeanor: up to $4,000, a year in jail, or both (Penal Code 12.21)."
+- chip: Before → after
+  head: "Today's 30-day video crime stays. SB 46 adds a new rule for political ads."
+  rows: [[Covers, "A fake image, audio or video of a candidate's or officeholder's looks, speech or conduct, AI-made or not"],
+         [When, "Any ad meant to influence an election; the bill text sets no 30-day window"],
+         [Allowed if, "The ad says it did not happen, or the only edits are color, brightness and the like"]]
+  text: "The Texas Ethics Commission would set the label's font, size and color."
+- chip: The penalty
+  head: "First and second offense: a fine of up to $3,000. Third or later: a Class A misdemeanor."
+  quote: {label: "SB 46 as filed, new Election Code 255.0015(d)", text: "An offense under this section is punishable by a fine of not more than $3,000, except that the offense is a Class A misdemeanor if it is shown on the trial of the offense that the defendant has been previously convicted under this section two or more times."}
+  text: "A Class A misdemeanor: up to $4,000, a year in jail, or both (Penal Code 12.21)."
+- chip: Who it covers
+  head: "Candidates, officeholders, political committees, people who spend over $100 in a reporting period on political ads, and people paid to run them."
+  text: "Not liable for someone else's ad: online services, internet providers, broadcasters, billboard owners. No fiscal note (cost estimate) is posted yet."
+- chip: What's next
+  head: The Legislature convenes Jan. 12, 2027.
+  text: "Should a fake image, audio or video of a candidate be allowed in an ad as long as the ad says it's fake? And should a first offense mean a fine, or jail time?"
+caption: |-
+  Today, Texas law makes one kind of election deep fake a crime: a fake video, published within 30 days of an election to hurt a candidate or sway the result.
+
+  SB 46, filed in the Texas Senate for the 2027 session, would keep that rule and add another: a political ad with a fake image, audio or video of a candidate, unless the ad says it didn't happen.
+
+  The penalty: a fine of up to $3,000 for a first or second offense. A third would be a Class A misdemeanor, with up to a year in jail.
+
+  Should a label be enough?
+hashtags: [txlege, texaslegislature, deepfakes, elections, votetherecord]
+notes: >-
+  Split from the five-bill post (2026-11-17-texas-ai-political-ad-bills) at the owner's request: one post per
+  bill. SB 46 (90R1114 MZM-F) is checked against its own introduced text; the "before → after" and "who it
+  covers" slides restate its Sec. 1 (new 255.0015(a), (b), (c), (e)). "The commission" in (c) is read as the
+  Texas Ethics Commission. Records opened 2026-11-15: the Nov. 9 filing report, the bill history (filed, no
+  other action; no fiscal note on the Text page), the introduced text, Election Code 255.004 and Penal Code
+  12.21. Please double-check whether any court ruling affects Election Code 255.004 before this runs; none was
+  opened and the post states only the statute's text.
