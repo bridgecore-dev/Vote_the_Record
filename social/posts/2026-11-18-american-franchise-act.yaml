@@ -1,0 +1,85 @@
+kind: carousel
+level: congress
+topic: Jobs and wages
+approval: review
+record_ids: ["us/119/H.R. 5267/house-floor-schedule-2026-11-16"]
+publish_after: '2026-11-18T17:30:00-06:00'
+rule: >-
+  The House floor schedule for the week of Nov. 16, 2026 lists two bills under a rule (full debate), H.R. 3495 and
+  H.R. 5267. Each gets its own post with the same structure: before, after, who gains and loses, cost, the case for
+  and against from the committee report, and where it stands.
+sources:
+- title: "U.S. House, Bills to be Considered on the House Floor, Week of Nov. 16, 2026 (docs.house.gov, last updated Nov. 13, 2026)"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-16
+  retrieved: '2026-11-15'
+- title: "House Report 119-802, American Franchise Act, with minority views (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt802/html/CRPT-119hrpt802.htm
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 5267
+  title: American Franchise Act
+  does: "Would write into labor and wage law when a franchisor counts as a joint employer of a franchise's workers: only with direct control."
+  affects: "Franchisors, franchisees and franchise workers, under the NLRA (unions) and the FLSA (minimum wage, overtime)."
+  where: "Reported by committee 18-15 (July 21, 2026). The House floor schedule lists it for the week of Nov. 16."
+  summary:
+    text: >-
+      franchisors are only considered to be joint employers with their franchisees if they regularly exercise
+      direct and immediate control over the terms and conditions of employment for a franchisee's employees
+      (e.g., directly hiring or firing employees on a regular basis).
+    title: Congressional Research Service summary of H.R. 5267 (bill status, GPO)
+    url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5267.xml
+    retrieved: '2026-11-15'
+slides:
+- kicker: "U.S. House · Week of Nov. 16"
+  big: H.R. 5267
+  head: "A bill on the House schedule sets when a brand company counts as an employer of a franchise's workers."
+  text: "A \"joint employer\" can be held liable for labor-law violations and may have to bargain with a union, the committee report says."
+- chip: "Before: current law"
+  head: "Today the labor board's rule and court decisions set the test."
+  rows:
+  - [Labor law (NLRA), "The labor board's 2020 rule, reinstated Feb. 27, 2026, after a 2023 rule was struck down"]
+  - [Wage law (FLSA), "Courts use different tests, the committee report says"]
+  quote: {label: CRS summary, text: "an entity is considered a joint employer of a separate employer's employees under the NLRA only if the entity exercises substantial, direct, and immediate control over one or more essential terms or conditions of employment."}
+- chip: "After: under the bill"
+  head: "One test, written into both laws, for franchisors: only direct and immediate control counts."
+  rows:
+  - [Counts, "Regularly hiring or firing a franchise's workers directly"]
+  - [Doesn't count, "Setting the store's operating hours"]
+  quote: {label: CRS summary, text: "a franchisor setting a franchisee's operating hours does not sufficiently indicate direct and immediate control over the hours of work of a franchisee's employees"}
+- chip: "Who gains, who loses, what it costs"
+  head: "The report's two sides disagree on who gains and who loses."
+  rows:
+  - [Committee views, "Franchisors and franchisees get a stable rule"]
+  - [Minority views, "Franchise owners left solely liable; workers lose full access to justice"]
+  - [Cost, "The committee report has no CBO estimate. CBO posted one Oct. 7, 2026."]
+- chip: The case for
+  head: "The committee's report says the rule has kept changing."
+  quote: {label: "Committee views, H. Rept. 119-802", text: "The test for determining when two or more entities are to be considered joint employers has fluctuated with presidential administrations for the last decade"}
+- chip: The case against
+  head: "The minority views say it shields large franchisors."
+  quote: {label: "Minority views, H. Rept. 119-802", text: "leaving franchisees solely liable and workers without full access to justice."}
+  text: "An amendment to let franchise owners sue franchisors for damages if found liable for franchisor-required policies failed 15-18 in committee."
+- chip: Where it stands
+  head: "Sponsor: Rep. Kevin Hern (R-OK), with 158 cosponsors. The committee approved it 18-15."
+  text: "Watch the House floor at live.house.gov. Which side convinces you?"
+caption: |-
+  A bill on the House floor schedule this week, H.R. 5267, the American Franchise Act, decides when a brand company (the franchisor) counts as a "joint employer" of the workers at a franchise it doesn't own.
+
+  Before: the labor board's rule, reinstated in February, requires direct control. Under wage law, courts use different tests.
+  After: one test, written into both laws, for franchisors only: they count as joint employers only if they regularly exercise direct and immediate control, such as hiring or firing workers directly. Setting a store's hours doesn't count.
+
+  For: the committee report says the rule has changed with each administration. Against: the minority views say franchise owners would be left solely liable and workers without full access to justice. The committee report has no CBO cost estimate; CBO posted one Oct. 7.
+
+  Which side convinces you?
+hashtags: [congress, franchise, workers, smallbusiness, votetherecord]
+notes: >-
+  Picked by rule: the two bills the House floor schedule (week of Nov. 16, as of Nov. 13 5:02 p.m.) lists under a
+  rule; H.R. 3495 gets a matching post (PR #88). The schedule says items "may be considered"; if the House votes
+  before Nov. 18 5:30 p.m., the first and last slides need the tally instead. CBO's estimate (Oct. 7, 2026,
+  https://www.cbo.gov/publication/62842, listed in the GovInfo bill status) couldn't be opened (cbo.gov bot check,
+  not retried), so the post gives no figure; add it if you can open it. The NLRA history (2020 rule, 2023 rule
+  vacated by E.D. Tex. in 2024, 2020 rule reinstated Feb. 27, 2026) is from the committee report and the CRS
+  summary. "Courts use different tests" restates the report ("Federal courts across the country have developed
+  various tests"). Sponsor's party and state as the bill status lists them; 158 cosponsors counted from it. The
+  15-18 amendment was offered by Ranking Member Scott; the post doesn't name him or give the committee's votes by
+  party, which the report doesn't list.
