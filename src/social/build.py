@@ -32,15 +32,17 @@ LEVELS = {"congress", "state", "local"}
 LAYOUTS = ["card", "band", "stat"]
 SIZES = {"feed": (1080, 1350), "tall": (1080, 1920)}
 SECONDS, FADE = 4.0, 0.4  # each Reel slide; the slide transition
-SLIDE_KEYS = {"chip", "kicker", "big", "head", "text", "rows", "results", "vote", "quote", "by", "seconds", "swipe"}  # see social/README.md
+SLIDE_KEYS = {"chip", "kicker", "big", "head", "text", "rows", "results", "vote", "quote", "by", "seconds", "swipe",
+              "say", "doc", "broll", "image"}  # see social/README.md; the last four: Reels (reel.py)
 TOP_KEYS = {"kind", "level", "place", "topic", "approval", "layout", "story", "sources", "slides", "caption",
             "hashtags", "rule", "notes", "publish_after", "found_via", "record_ids",
             "video", "captions", "caption_source", "speakers", "context",  # these five: clips (clip.py)
-            "highlight", "bills"}
+            "highlight", "bills", "voice"}
+REEL_FIELDS = ("say", "doc", "broll", "image")  # need reel.py's renderer; the still-slide Reel can't show them
 # A bill number as written federally or in a state: H.R. 2347, S. 12, H.J.Res. 5, HB 101, SJR 3. Not "U.S. 2026".
 BILL = re.compile(r"(?<![A-Za-z.])((?:H\.\s?R|S|H\.\s?J\.\s?Res|S\.\s?J\.\s?Res|H\.\s?Con\.\s?Res|S\.\s?Con\.\s?Res|"
                   r"H\.\s?Res|S\.\s?Res)\.|HB|SB|HJR|SJR|HCR|SCR)\s?(\d+)\b")
-BILL_KEYS = {"id", "title", "does", "affects", "where", "summary"}  # title: the official short title, optional
+BILL_KEYS = {"id", "title", "does", "affects", "where", "summary", "say"}  # title: official short title; say: Reel voice
 BILL_LIMITS = {"does": 140, "affects": 120, "where": 110}
 
 
@@ -63,9 +65,21 @@ def mentioned_bills(post: dict) -> dict[str, int]:
 
 def explainer(b: dict) -> dict:
     """The slide that says what a bill would do, for whom, and where it stands, with the official summary."""
-    return {"chip": b["id"], "kicker": b.get("title") or "What the bill would do", "head": b["does"],
-            "rows": [["Who it affects", b["affects"]], ["Where it stands", b["where"]]],
-            "quote": {"label": "Official summary", "text": b["summary"]["text"]}, "seconds": 8}
+    slide = {"chip": b["id"], "kicker": b.get("title") or "What the bill would do", "head": b["does"],
+             "rows": [["Who it affects", b["affects"]], ["Where it stands", b["where"]]],
+             "quote": {"label": "Official summary", "text": b["summary"]["text"]}, "seconds": 8}
+    return {**slide, "say": b["say"]} if b.get("say") else slide
+
+
+def reel_module():
+    """src/social/reel.py, loaded by path ("build" is also the site builder's name, as in recap.py)."""
+    if "social_reel" not in sys.modules:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("social_reel", Path(__file__).resolve().parent / "reel.py")
+        module = importlib.util.module_from_spec(spec)
+        sys.modules["social_reel"] = module
+        spec.loader.exec_module(module)
+    return sys.modules["social_reel"]
 
 
 def expanded(post: dict) -> list[dict]:
@@ -173,7 +187,11 @@ def check(post: dict, editorial: bool = True) -> list[str]:
     if post.get("kind") == "clip":
         import clip
         errs += clip.check(post)
-    elif not n[0] <= len(slides) <= n[1]:
+    elif post.get("kind") == "reel":
+        errs += reel_module().check(post)
+    elif any(s.get(f) for s in slides for f in REEL_FIELDS) or post.get("voice"):
+        errs.append(f"say, doc, broll, image and voice are for Reels; this post is a {post.get('kind')}")
+    if post.get("kind") != "clip" and not n[0] <= len(slides) <= n[1]:
         errs.append(f"a {post.get('kind')} has {n[0]}-{n[1]} slides, not {len(slides)}")
     for k, s in enumerate(slides, 1):
         errs += check_slide(k, s)
@@ -488,6 +506,10 @@ def all_sources(post: dict) -> list[dict]:
         s = b.get("summary") or {}
         if s.get("url") and s["url"] not in {x.get("url") for x in out}:
             out.append({"title": s.get("title"), "url": s["url"], "retrieved": s.get("retrieved")})
+    if post.get("kind") == "reel":  # the official pages behind a Reel's documents, photos and video
+        for s in reel_module().extra_sources(post):
+            if s.get("url") not in {x.get("url") for x in out}:
+                out.append(s)
     return out
 
 
@@ -524,6 +546,16 @@ def build(path: Path) -> Path:
     if kind == "clip":
         import clip
         files = clip.make(post, out)
+    if kind == "reel":
+        try:
+            import playwright  # noqa: F401  (reel.py's renderer; requirements-reel.txt)
+            files, slides = reel_module().render(post, slides, out), []
+        except ImportError:
+            # until a machine has the Reel tools, a post with no voice, document, photo or video still goes out,
+            # as still slides; one that has them can't be shown without them
+            if post.get("voice") or any(s.get(f) for s in slides for f in REEL_FIELDS):
+                sys.exit(f"{path}: needs the Reel renderer (pip install -r requirements-reel.txt; playwright install chromium)")
+            print(f"{path.name}: Reel renderer not installed; building still slides instead", file=sys.stderr)
     for k, s in enumerate(slides, 1):
         png = out / f"slide-{k:02d}.png"
         render(slide_html(post, s, k, n, layout, size), png, size)
@@ -532,7 +564,7 @@ def build(path: Path) -> Path:
         png = out / "story.png"
         render(slide_html(post, slides[0], 1, 1, layout, SIZES["tall"]), png, SIZES["tall"])
         files.append({"file": png.name, "alt_text": alt_text(post, slides[0]), "story": True})
-    if kind == "reel":
+    if kind == "reel" and slides:  # the still-slide fallback
         reel([out / f["file"] for f in files], [float(s.get("seconds", SECONDS)) for s in slides], out / "reel.mp4")
         shutil.copy(out / files[0]["file"], out / "cover.png")
         files = [{"file": "reel.mp4", "cover": "cover.png", "alt_text": " ".join(f["alt_text"] for f in files)}]

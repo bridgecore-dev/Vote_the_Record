@@ -102,6 +102,42 @@ gives them, every party in the same form: `[Republican, "181 Yea · 18 Nay · 19
 On a carousel that names bills, the builder ends the first slide with "Swipe to see the bills →",
 unless that slide already says "swipe".
 
+## Reels (`kind: reel`)
+
+A Reel is drawn with motion by `src/social/reel.py`: each slide is a scene (a number counts up, rows build in,
+a quote types in, bars grow), scenes cut with a short punch-in, and a progress bar runs across the top. Its
+fields, all optional and for Reels only:
+
+```yaml
+voice: true                         # or {name: af_heart, speed: 1.0}; speed 0.8-1.25
+slides:
+- head: ...
+  say: The words read aloud over this slide.     # up to 45 words
+  quote: {label: ..., text: ..., key: exact words in text to highlight}
+- head: What the bill says
+  doc: {url: <official page or PDF>, highlight: exact words on it, page: 3, title: ..., retrieved: 'YYYY-MM-DD'}
+- head: ...
+  broll: {url: <official video>, start: '0:01:05', end: '0:01:15', title: ..., page: <its official page>, retrieved: ...}
+- head: ...
+  image: {url: <official photo>, title: ..., license: Public domain ..., subject: building, retrieved: ...}
+bills:
+- id: H.R. 2102
+  say: Read over this bill's explainer slide.
+```
+
+- **`say`** only restates what the slide and its sources already say: every number in it must be on that slide,
+  any bill it names needs a `bills` entry, and the party rule applies. Read by Kokoro (run locally, no audio sent
+  anywhere) and shown as captions. A post that uses it must end its caption with
+  "Voice: computer-generated (Kokoro text-to-speech)."
+- **`doc`** is a screenshot of an official page or PDF with the exact words highlighted; the build stops if the
+  words aren't on the page. Never edited.
+- **`broll`** is official video only (the clip rules: `.gov` or an allowed host, never YouTube or C-SPAN),
+  2-20 seconds, muted.
+- **`image`** is an official public-domain photo of a place, building, or document. Not people, for now.
+- Each document, photo, and video page is added to the sources automatically.
+- Building needs `pip install -r requirements-reel.txt` and `playwright install chromium`. Without them, a Reel
+  that uses none of these fields is built the old way (still slides); one that does stops with a clear message.
+
 ## Bills: always say what it does
 
 A post that names a bill (H.R. 2347, S. 12, HB 101, SJR 3 …) must say, in plain words, what the bill would do,
