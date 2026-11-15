@@ -1,0 +1,92 @@
+kind: reel
+level: congress
+topic: Impeachment
+approval: review
+found_via: owner idea c2MDY2MjYyODEwNjI0MAZDZD
+record_ids: [us/119/2/house/roll/298]
+publish_after: '2026-11-16T16:30:00-06:00'
+sources:
+- title: "Office of Rep. Al Green, \"Rep. Al Green Demands Trump Resign or Face Impeachment, Will Force House Vote as Early as Next Week\" (Nov. 12, 2026)"
+  url: https://algreen.house.gov/media/press-releases/rep-al-green-demands-trump-resign-or-face-impeachment-will-force-house-vote
+  retrieved: '2026-11-15'
+- title: "House Clerk, Roll Call 298 (2026): On Motion to Table H RES 1486"
+  url: https://clerk.house.gov/evs/2026/roll298.xml
+  retrieved: '2026-11-15'
+- title: "Congress.gov, H.Res. 1486 (119th Congress): Actions"
+  url: https://www.congress.gov/bill/119th-congress/house-resolution/1486/all-actions
+  retrieved: '2026-11-15'
+- title: "House Practice, Chapter 42. Questions of Privilege (GPO)"
+  url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-43.htm
+  retrieved: '2026-11-15'
+- title: "House Practice, Chapter 29. Lay on the Table (GPO)"
+  url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-30.htm
+  retrieved: '2026-11-15'
+bills:
+- id: H.Res. 1486
+  does: "Would impeach President Trump on one article: abuse of power by letting ICE and CBP act in violation of the 1st, 4th and 5th Amendments."
+  affects: President Donald J. Trump.
+  where: "Tabled (set aside for good) by the House, 232-147 with 47 Present, on Sept. 15, 2026."
+  summary:
+    text: >-
+      the resolution sets forth one article of impeachment concerning abuse of presidential powers by allowing U.S.
+      Immigration and Customs Enforcement (ICE) and U.S. Customs and Border Protection (CBP) to operate in violation
+      of the First, Fourth, and Fifth Amendments to the U.S. Constitution
+    title: Congressional Research Service summary of H.Res. 1486
+    url: https://www.congress.gov/bill/119th-congress/house-resolution/1486
+    retrieved: '2026-11-15'
+  say: "H.Res. 1486 would have impeached President Trump on one article: abuse of power by letting ICE and CBP act in violation of the First, Fourth and Fifth Amendments. The House tabled it, 232 to 147, with 47 Present, on September 15, 2026."
+slides:
+- kicker: "U.S. House · Announced Nov. 12, 2026"
+  big: Next week?
+  head: Rep. Al Green (D-TX) says he will force a House vote on impeaching President Trump as early as next week.
+  quote: {label: "Rep. Green's office, Nov. 12, 2026", text: "his intention to force a House vote on articles of impeachment as early as next week"}
+  say: "On November 12, 2026, Representative Al Green, Democrat of Texas, announced his intention to force a House vote on articles of impeachment against President Trump as early as next week."
+- chip: How one member can force it
+  head: Any member can offer an impeachment resolution on the floor as a "question of privilege." After notice, it has to come up within two legislative days.
+  quote: {label: "House Practice (GPO)", text: "The Speaker designates the time for consideration within two legislative days after the announcement, which may include immediate consideration."}
+  say: "Any member can offer an impeachment resolution on the floor as a question of privilege. After the member gives notice, the Speaker has to schedule it within two legislative days. It can even come up right away."
+- chip: "Last time · Sept. 15, 2026"
+  head: "The House tabled Rep. Green's last impeachment resolution, H.Res. 1486. Yea = table it, Nay = keep it alive."
+  vote: {yea: 232, nay: 147, present: 47, not_voting: 7}
+  text: Rep. Fry (R-SC) moved to table it. Tabling ends a resolution without a vote on impeachment itself.
+  say: "Last time, on September 15, 2026, Representative Fry, Republican of South Carolina, moved to table H.Res. 1486. The House agreed: 232 Yea, 147 Nay, 47 Present, 7 didn't vote. That ended it without a vote on impeachment itself."
+- chip: How they voted
+  head: By party, as the House Clerk records it
+  rows:
+  - [Republican, "213 Yea · 0 Nay · 1 Present · 4 didn't vote"]
+  - [Democratic, "18 Yea · 147 Nay · 46 Present · 3 didn't vote"]
+  - [Independent, "1 Yea · 0 Nay · 0 Present · 0 didn't vote"]
+  text: The smaller side, 147 Nay votes, is too long to list here. Every name is in roll call 298 on clerk.house.gov.
+  say: "By party, as the House Clerk records it. Republican: 213 Yea, 0 Nay, 1 Present, 4 didn't vote. Democratic: 18 Yea, 147 Nay, 46 Present, 3 didn't vote. Independent: 1 Yea. Every name is in roll call 298 on clerk.house.gov."
+- chip: What tabling means
+  head: A tabled resolution doesn't wait on a shelf. It's done.
+  quote: {label: "House Practice (GPO)", text: "The action of the House in adopting the motion to table a proposition is equivalent to a final adverse disposition thereof"}
+  text: "A member can still offer a new resolution later, as Rep. Green says he will."
+  say: "A tabled resolution doesn't wait on a shelf. House Practice says tabling is equivalent to a final adverse disposition. A member can still offer a new resolution later, as Representative Green says he will."
+- chip: Your turn
+  head: If it comes up, how will your representative vote?
+  text: "Watch the floor at live.house.gov. Every recorded vote is posted at clerk.house.gov/Votes. Then tell them what you think."
+  say: "Your turn. If it comes up, how will your representative vote? Watch the floor at live.house.gov, and find every recorded vote at clerk.house.gov. Then tell them what you think."
+caption: |-
+  Rep. Al Green (D-TX) announced on Nov. 12 that he intends to force a House vote on articles of impeachment against President Trump "as early as next week."
+
+  How one member can do that: an impeachment resolution offered on the floor is a "question of privilege." After notice, the Speaker has to schedule it within two legislative days.
+
+  Last time, on Sept. 15, Rep. Fry (R-SC) moved to table Green's H.Res. 1486. The House agreed 232-147, with 47 Present and 7 not voting. By party, per the House Clerk: Republicans 213 Yea, 0 Nay, 1 Present; Democrats 18 Yea, 147 Nay, 46 Present; the one Independent, Yea. Tabling ended it without a vote on impeachment itself.
+
+  If a new resolution comes up, roll calls post at clerk.house.gov/Votes. How will your representative vote?
+
+  Part 1 of 2. Part 2: what the House and the Senate each do in an impeachment.
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, impeachment, housevote, votetherecord]
+notes: >-
+  Part 1 of 2 from an owner idea (part 2 is the impeachment-process carousel at 6:00 p.m.); they fill the
+  Nov. 16 4:30/6:00 p.m. pair, since the House is in session that week and the vote could come any day. Rests on Rep.
+  Green's Nov. 12 release (it gives no grounds, and no new resolution is filed under his name on congress.gov as of
+  Nov. 15, so the slides name none), roll call 298, congress.gov actions (Green gave notice Sept. 14, offered it
+  Sept. 15; Mr. Fry moved to table), and House Practice. The congress.gov actions and CRS summary were read through
+  api.congress.gov (the web pages refuse automated requests); the summary quote ends before its last clause, "while
+  undermining judicial oversight," to fit 300 characters. No arguments for or against are quoted: the release
+  gives no reasons in text, and the motion to table is not debatable. If the vote happens before 4:30 p.m. on
+  Nov. 16, the first slide is out of date: delete the file or hold it.
