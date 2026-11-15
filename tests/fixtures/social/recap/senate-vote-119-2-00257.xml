@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<roll_call_vote>
+  <congress>119</congress>
+  <session>2</session>
+  <congress_year>2026</congress_year>
+  <vote_number>257</vote_number>
+  <vote_date>November 9, 2026,  05:31 PM</vote_date>
+  <modify_date>November 9, 2026,  07:03 PM</modify_date>
+  <vote_question_text>On Cloture on the Motion to Proceed H.R. 2347</vote_question_text>
+  <vote_document_text>A bill to amend the Internal Revenue Code of 1986 to exclude from gross income any damages, other than punitive damages, received on account of any sexual acts or sexual contact.</vote_document_text>
+  <vote_result_text>Cloture on the Motion to Proceed Agreed to (73-25, 3/5 majority required)</vote_result_text>
+  <question>On Cloture on the Motion to Proceed</question>
+  <vote_title>Motion to Invoke Cloture: Motion to Proceed to H.R. 2347</vote_title>
+  <majority_requirement>3/5</majority_requirement>
+  <vote_result>Cloture on the Motion to Proceed Agreed to</vote_result>
+  <document>
+    <document_congress>119</document_congress>
+    <document_type>H.R.</document_type>
+    <document_number>2347</document_number>
+    <document_name>H.R. 2347</document_name>
+    <document_title>A bill to amend the Internal Revenue Code of 1986 to exclude from gross income any damages, other than punitive damages, received on account of any sexual acts or sexual contact.</document_title>
+    <document_short_title>A bill to amend the Internal Revenue Code of 1986 to exclude from gross income any damages, other than punitive damages, received on account of any sexual acts or sexual contact.</document_short_title>
+  </document>
+  <amendment>
+    <amendment_number />
+    <amendment_to_amendment_number />
+    <amendment_to_amendment_to_amendment_number />
+    <amendment_to_document_number />
+    <amendment_to_document_short_title />
+    <amendment_purpose>No Statement of Purpose on File.</amendment_purpose>
+  </amendment>
+  <count>
+    <yeas>73</yeas>
+    <nays>25</nays>
+    <present />
+    <absent>2</absent>
+  </count>
+  <tie_breaker>
+    <by_whom />
+    <tie_breaker_vote />
+  </tie_breaker>
+  <members>
+    <member>
+      <member_full>Alsobrooks (D-MD)</member_full>
+      <last_name>Alsobrooks</last_name>
+      <first_name>Angela</first_name>
+      <party>D</party>
+      <state>MD</state>
+      <vote_cast>Nay</vote_cast>
+      <lis_member_id>S428</lis_member_id>
+    </member>
+    <member>
+      <member_full>Armstrong (R-OK)</member_full>
+      <last_name>Armstrong</last_name>
+      <first_name>Alan</first_name>
+      <party>R</party>
+      <state>OK</state>
+      <vote_cast>Yea</vote_cast>
+      <lis_member_id>S440</lis_member_id>
+    </member>
+    <member>
+      <member_full>Blumenthal (D-CT)</member_full>
+      <last_name>Blumenthal</last_name>
+      <first_name>Richard</first_name>
+      <party>D</party>
+      <state>CT</state>
+      <vote_cast>Yea</vote_cast>
+      <lis_member_id>S341</lis_member_id>
+    </member>
+    <member>
+      <member_full>King (I-ME)</member_full>
+      <last_name>King</last_name>
+      <first_name>Angus</first_name>
+      <party>I</party>
+      <state>ME</state>
+      <vote_cast>Yea</vote_cast>
+      <lis_member_id>S363</lis_member_id>
+    </member>
+    <member>
+      <member_full>Murphy (D-CT)</member_full>
+      <last_name>Murphy</last_name>
+      <first_name>Christopher</first_name>
+      <party>D</party>
+      <state>CT</state>
+      <vote_cast>Not Voting</vote_cast>
+      <lis_member_id>S364</lis_member_id>
+    </member>
+    </members>
+</roll_call_vote>

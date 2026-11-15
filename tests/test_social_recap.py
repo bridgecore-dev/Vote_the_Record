@@ -2,7 +2,8 @@
 
 Fixtures in tests/fixtures/social/recap/ are trimmed copies of the official feeds retrieved 2026-11-13 (GovInfo
 plaw RSS and MODS, the House Clerk's 2026 roll-call list and roll XML with member lists removed but party
-totals kept, the Senate's 119th Congress 2nd session vote menu, api.congress.gov CRS summaries). Made up for
+totals kept, the Senate's 119th Congress 2nd session vote menu, api.congress.gov CRS summaries, and Senate vote 119-2-257 with
+five senators kept). Made up for
 tests: mods-119-136.xml (an earlier law that stops the walk) and the 137/138 items in plaw.xml.
 """
 import datetime as dt
@@ -107,14 +108,34 @@ def test_week_counts_and_final_passage_votes_without_a_key():
     assert errs and all(e.startswith("bill ") or "needs head" in e for e in errs), errs
 
 
-def test_tallies_exactly_as_recorded_and_never_by_party():
+def test_tallies_exactly_as_recorded_with_party_totals():
     post = draft("2026-11-09")
     rows = dict(r for s in post["slides"] for r in s.get("rows") or [])
-    assert rows["H.R. 9612"] == "House, Nov. 9: Passed, 394-3"  # roll 316 whole-chamber totals
-    assert rows["H.R. 1013"] == "House, Nov. 11: Passed, 295-128"
-    text = json.dumps(post)
-    for word in ("Republican", "Democrat", "Independent", "party"):
-        assert word not in text
+    # roll 316: whole-chamber totals, then each party's yeas-nays from the Clerk's totals-by-party, D, I, R order
+    assert rows["H.R. 9612"].startswith("House, Nov. 9: Passed, 394-3 (D ")
+    for row in (rows["H.R. 9612"], rows["H.R. 1013"]):
+        parts = row[row.index("(") + 1:-1].split(", ")
+        assert [p.split()[0] for p in parts] == sorted(p.split()[0] for p in parts)  # same order every vote
+        total = row.split(", ")[2].split(" ")[0]
+        assert [sum(int(p.split()[1].split("-")[i]) for p in parts) for i in (0, 1)] == [int(x) for x in total.split("-")]
+    votes = next(s for s in post["slides"] if s.get("kicker", "").startswith("Final"))
+    assert recap.PARTY_KEY in votes["by"]
+
+
+def test_senate_party_totals_counted_from_each_senators_vote():
+    url = recap.SENATE_VOTE.format(c=119, s=2, n=257)
+    assert url.endswith("/vote1192/vote_119_2_00257.xml")
+
+    class Senate(Fake):
+        def get(self, u, headers=None):
+            return (FIX / "senate-vote-119-2-00257.xml").read_bytes() if u == url else super().get(u, headers)
+
+    party, src = recap.senate_party(Senate(), 119, 2, 257)
+    # the trimmed fixture keeps 5 senators: R Yea, D Nay, D Yea, I Yea, D Not Voting (not counted)
+    assert party == {"R": (1, 0), "D": (1, 1), "I": (1, 0)} and src["url"] == url
+    assert recap.senate_party(Fake(), 119, 2, 999) == (None, None)  # not posted yet: the menu's tally alone
+    v = {"chamber": "Senate", "date": dt.date(2026, 11, 9), "result": "Agreed to", "yeas": 3, "nays": 1, "party": party}
+    assert recap.tally(v) == "Senate, Nov. 9: Agreed to, 3-1 (D 1-1, I 1-0, R 1-0)"
 
 
 def test_with_a_key_the_crs_summary_is_quoted_word_for_word():

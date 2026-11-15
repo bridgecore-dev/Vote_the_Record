@@ -50,6 +50,11 @@ HOUSE_INDEX = "https://clerk.house.gov/evslegacy/{y}/index.asp"
 HOUSE_PAGE = "https://clerk.house.gov/evslegacy/{y}/{page}"
 HOUSE_ROLL = "https://clerk.house.gov/evs/{y}/roll{n:03d}.xml"
 SENATE_MENU = "https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_{c}_{s}.xml"
+SENATE_VOTE = "https://www.senate.gov/legislative/LIS/roll_call_votes/vote{c}{s}/vote_{c}_{s}_{n:05d}.xml"
+# Party totals, as each chamber records them, always in this order (alphabetical), the same for every vote.
+PARTY_CODES = {"Democratic": "D", "Independent": "I", "Republican": "R"}
+PARTY_ORDER = ("D", "I", "R")
+PARTY_KEY = "In parentheses, by party (yeas-nays): D Democratic, I Independent, R Republican."
 SUMMARIES = "https://api.congress.gov/v3/bill/{c}/{t}/{n}/summaries?format=json"
 BILL_PAGE = "https://www.congress.gov/bill/{c}th-congress/{slug}/{n}"
 MODS_NS = {"m": "http://www.loc.gov/mods/v3"}
@@ -273,8 +278,10 @@ def house(fetch, start: dt.date, end: dt.date) -> tuple[int, list[dict], list[di
         url = HOUSE_ROLL.format(y=f["year"], n=f["roll"])
         meta = ET.fromstring(fetch.get(url)).find("vote-metadata")
         congress = int(text(meta, "congress"))
-        tot = meta.find("vote-totals/totals-by-vote")  # whole-chamber totals only; never the per-party rows
-        votes.append({"chamber": "House", "congress": congress, "number": f["roll"],
+        tot = meta.find("vote-totals/totals-by-vote")  # whole-chamber totals (the first rows are per party)
+        party = {PARTY_CODES.get(text(p, "party"), text(p, "party")): (int(text(p, "yea-total")), int(text(p, "nay-total")))
+                 for p in meta.iterfind("vote-totals/totals-by-party")}
+        votes.append({"party": party or None, "chamber": "House", "congress": congress, "number": f["roll"],
                       "date": dt.datetime.strptime(text(meta, "action-date"), "%d-%b-%Y").date(),
                       "bill": bill(text(meta, "legis-num"), congress), "question": text(meta, "vote-question"),
                       "result": text(meta, "vote-result"), "title": text(meta, "vote-desc"),
@@ -305,13 +312,35 @@ def senate(fetch, start: dt.date, end: dt.date) -> tuple[int, list[dict], list[d
             final = q.startswith(SENATE_FINAL) or (q == "On the Motion" and title.startswith("Motion to Concur"))
             if final and b:
                 n = int(text(v, "vote_number"))
-                votes.append({"chamber": "Senate", "congress": c, "number": n, "date": when, "bill": b,
+                party, src = senate_party(fetch, c, s, n)
+                votes.append({"party": party, "chamber": "Senate", "congress": c, "number": n, "date": when, "bill": b,
                               "question": q, "result": text(v, "result"), "title": title.split("; ", 1)[-1],
                               "yeas": int(text(v, "vote_tally/yeas")), "nays": int(text(v, "vote_tally/nays")),
-                              "record": f"us/{c}/{s}/senate/roll/{n}", "source": None})
+                              "record": f"us/{c}/{s}/senate/roll/{n}", "source": src})
         if used:
             sources.append({"title": f"U.S. Senate, Roll Call Votes, {c}th Congress, Session {s}", "url": url})
     return count, votes, sources
+
+
+def senate_party(fetch, c: int, s: int, n: int) -> tuple[dict | None, dict | None]:
+    """({party code: (yeas, nays)}, source) counted from each senator's party and vote in the vote's own XML, or
+    (None, None) when the Senate hasn't posted it: the tally still comes from the vote menu."""
+    url = SENATE_VOTE.format(c=c, s=s, n=n)
+    try:
+        root = ET.fromstring(fetch.get(url))
+    except Blocked as e:
+        if e.why == 404:
+            return None, None
+        raise
+    party: dict[str, list[int]] = {}
+    for m in root.iter("member"):
+        cast = text(m, "vote_cast")
+        if cast in ("Yea", "Nay"):
+            party.setdefault(text(m, "party"), [0, 0])[cast == "Nay"] += 1
+    if not party:
+        return None, None
+    return ({k: tuple(v) for k, v in party.items()},
+            {"title": f"U.S. Senate, Roll Call Vote {c}th Congress, Session {s}, Vote {n}", "url": url})
 
 
 def clean(summary_html: str) -> str:
@@ -387,7 +416,13 @@ def short_title(item: dict) -> str | None:
 
 
 def tally(v: dict) -> str:
-    return f"{v['chamber']}, {day(v['date'])}: {v['result']}, {v['yeas']}-{v['nays']}"
+    """'House, Nov. 12: Passed, 392-18 (D 210-0, I 1-0, R 181-18)': party totals as recorded, same order every time."""
+    out = f"{v['chamber']}, {day(v['date'])}: {v['result']}, {v['yeas']}-{v['nays']}"
+    p = v.get("party")
+    if p:
+        order = sorted(p, key=lambda k: (PARTY_ORDER.index(k) if k in PARTY_ORDER else len(PARTY_ORDER), k))
+        out += " (" + ", ".join(f"{k} {p[k][0]}-{p[k][1]}" for k in order) + ")"
+    return out
 
 
 def where(item: dict) -> str:
@@ -425,7 +460,8 @@ def assemble(start, end, kind, counts, items, shown, sources, summaries, reel, t
         slides.append({"kicker": "Final-passage votes" + (" (cont.)" if k else ""),
                        "head": "Votes to pass bills and joint resolutions",
                        "rows": [[v["bill"]["id"], tally(v)] for v in part],
-                       "by": "Tallies: yeas-nays, as each chamber recorded them."})
+                       "by": "Tallies: yeas-nays, as each chamber recorded them. "
+                             + PARTY_KEY})
     if rest:
         bits = [f"{n} more {w}{'s' if n != 1 else ''}" for n, w in ((hidden_laws, "new law"), (hidden_votes, "final-passage vote")) if n]
         slides.append({"kicker": "Not shown", "head": f"{' and '.join(bits).capitalize()} {s}.",

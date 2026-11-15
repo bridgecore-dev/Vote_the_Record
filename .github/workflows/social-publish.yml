@@ -9,7 +9,9 @@ name: social publish
 
 on:
   schedule:
-    - cron: "*/30 11-23,0-4 * * *"   # UTC; 5:00 a.m.-10:30 p.m. CST (an hour later in daylight time)
+    # every 10 minutes at off-peak minutes: GitHub often drops scheduled runs set for :00 and :30, and a run with
+    # nothing due finishes quickly. UTC; 5:00 a.m.-10:50 p.m. CST (an hour later in daylight time).
+    - cron: "4,14,24,34,44,54 11-23,0-4 * * *"
   workflow_dispatch:
 
 permissions:
