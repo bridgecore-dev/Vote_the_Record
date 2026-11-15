@@ -118,9 +118,14 @@ Made to be seen (never at the cost of a rule above):
   quoted. If the record shows the claim is right, say so; if it's wrong or about another bill, say that.
 - End with what a reader can do, or a question that asks for their view ("Which side convinces you?").
 - Reels for anything that fits in 3-8 short slides; carousels for lists and explainers; stories for
-  reminders, deadlines and results. A Reel covers one or two bills at most (the builder refuses more): when
-  several bills belong together, make a Reel for the one or two that matter most and a carousel for the rest,
-  or one Reel per bill on different days.
+  reminders, deadlines and results.
+- One bill per post (owner's decision, 2026-11-15), so similar bills are never mistaken for each other: when
+  several bills are on one subject, each gets its own post, on different slots. The one exception is twins,
+  bills with the same text (often a House bill and its Senate companion): they share a post, a slide says
+  they are word for word the same, and one bill's `does` starts "Same text as <the other's id>" (the builder
+  allows two bills in a Reel only then). Don't name another bill in a post; if a claim is about a different
+  bill, say so without its number and give that bill its own post. Weekly recaps and new-law roundups may list
+  several bills, one slide each.
 
 Every day should have at least three feed posts (`carousel` or `image`) and three Reels (`kind: reel`), one of
 each in the morning, afternoon and evening, plus one story (`kind: story`, or a post with a `story: true` slide);
@@ -176,6 +181,9 @@ One file, `social/posts/<YYYY-MM-DD>-<slug>.yaml`, in the format in `social/READ
   Ordered by time, a day's Reels and posts must never run two of the same kind in a row (a test checks this);
   if the slot that would keep the turn isn't free, take the next day's. Never two posts at the same time.
   Written with its offset (e.g. `'2026-11-16T09:00:00-06:00'`; `-05:00` in daylight time).
+- Name every chamber in full (owner's request, 2026-11-15): "U.S. House of Representatives", "U.S. Senate",
+  "Texas House of Representatives", "California Senate", never just "the House" or "the Senate". In a `say`,
+  write "United States House" (the builder checks that each `say` names its first chamber).
 - Every Reel has a voice (owner's request, 2026-11-15): a `say` on every slide and every bill, read by the
   computer voice, and the caption line `Voice: computer-generated (Kokoro text-to-speech).` A `say` restates
   only what its slide shows, in at most 45 words; every number in it must be on the slide (`--check` enforces
