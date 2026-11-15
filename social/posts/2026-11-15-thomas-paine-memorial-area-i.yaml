@@ -1,0 +1,68 @@
+kind: story
+level: congress
+topic: Monuments
+approval: review
+highlight: Congress
+record_ids: ["us/119/H.R. 9600/house-floor-schedule-2026-11-16"]
+publish_after: '2026-11-15T20:30:00-06:00'
+rule: >-
+  From the House suspension list for the week of Nov. 16, 2026, the one bill about where a memorial goes. Earlier
+  posts covered the study, reauthorization and other bills on the same list with the same structure.
+sources:
+- title: "U.S. House, Bills to be Considered on the House Floor, Week of Nov. 16, 2026 (docs.house.gov, last updated Nov. 13, 2026)"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-16
+  retrieved: '2026-11-15'
+- title: "H.R. 9600, Common Sense 250 Act of 2026, text as reported (docs.house.gov)"
+  url: https://docs.house.gov/billsthisweek/20261116/h9600_rh_xml.pdf
+  retrieved: '2026-11-15'
+- title: "House Report 119-860, Common Sense 250 Act of 2026 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt860/html/CRPT-119hrpt860.htm
+  retrieved: '2026-11-15'
+- title: Congress.gov, H.R. 9600 cosponsors
+  url: https://api.congress.gov/v3/bill/119/hr/9600/cosponsors
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 9600
+  title: Common Sense 250 Act of 2026
+  does: "Would require the Thomas Paine memorial Congress approved in 2022 to be built in Area I, near the National Mall."
+  affects: "The Thomas Paine Memorial Association, which is to build the privately funded memorial."
+  where: "Approved by the House Natural Resources Committee by unanimous consent. On the House schedule week of Nov. 16."
+  summary:
+    text: >-
+      This bill requires the authorized monument honoring Thomas Paine to be located in Area 1 of the National
+      Mall, which is reserved for commemorative works of preeminent historical and lasting significance to the
+      United States.
+    title: Congressional Research Service summary of H.R. 9600
+    url: https://api.congress.gov/v3/bill/119/hr/9600/summaries
+    retrieved: '2026-11-15'
+slides:
+- kicker: "U.S. House · Week of Nov. 16"
+  big: Area I
+  head: "A House bill would put a Thomas Paine memorial in Area I, the part of D.C. kept for the most significant memorials."
+- chip: Who was Paine?
+  head: "His 1776 pamphlet, Common Sense, argued that the colonies should break from the Crown."
+  text: "The committee report says the Declaration of Independence was signed about six months later."
+- chip: "Before → after"
+  head: "Congress approved a Paine memorial in 2022. Putting it in Area I takes another vote of Congress."
+  rows:
+  - [Since 2022, "A privately funded Paine memorial is allowed in D.C."]
+  - [Area I, "Needs Congress's own approval"]
+  - [After, "The memorial must be built in Area I"]
+  - [Cost, "Privately funded; no CBO estimate yet"]
+- chip: Where it stands
+  head: "Sponsor: Rep. Jamie Raskin (D-MD), with Rep. Victoria Spartz (R-IN)."
+  text: "The committee approved it by unanimous consent. It needs two-thirds of those voting. Who belongs in Area I? Tell us."
+caption: |-
+  In 2022, Congress allowed a privately funded memorial to Thomas Paine in Washington, D.C. Paine wrote Common Sense, the 1776 pamphlet that argued for breaking from Britain.
+
+  D.C. is split into areas for memorials. Area I is kept for subjects of "preeminent historical and lasting significance to the United States," and a memorial there needs Congress's own approval. H.R. 9600, on the House schedule this week, gives that approval and says the Paine memorial must be built in Area I.
+
+  The committee approved it by unanimous consent. It had asked for, but not received, a cost estimate from CBO.
+
+  Who belongs in Area I? Tell us below.
+hashtags: [congress, thomaspaine, nationalmall, america250, votetherecord]
+notes: >-
+  Fills the empty 8:30 p.m. story slot on Nov. 15. Area I wording, the 2022 authorization (P.L. 117-328), private
+  funding, the six-months line and unanimous consent are from H. Rept. 119-860; the "Area I" requirement is in the
+  bill text (40 U.S.C. 8908(b)(1)). Raskin's party and state as the report lists them; Spartz's as congress.gov lists
+  her. CBO: the report says requested but not received. The House won't vote before this slot (votes start Monday).
