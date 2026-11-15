@@ -1,0 +1,74 @@
+kind: reel
+level: congress
+topic: History and parks
+approval: review
+record_ids: ["us/119/H.R. 9269/house-floor-schedule-2026-11-16"]
+publish_after: '2026-11-16T13:30:00-06:00'
+rule: >-
+  From the House suspension list for the week of Nov. 16, 2026, we pick the bills that renew (reauthorize) an
+  existing nationwide program. Each gets its own post with the same structure. This week that is H.R. 9640 and
+  H.R. 9269.
+sources:
+- title: "U.S. House, Bills to be Considered on the House Floor, Week of Nov. 16, 2026 (docs.house.gov)"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-16
+  retrieved: '2026-11-15'
+- title: "H.R. 9269, Renewing the African American Civil Rights Network Act, text as reported (docs.house.gov)"
+  url: https://docs.house.gov/billsthisweek/20261116/h9269_rh_xml.pdf
+  retrieved: '2026-11-15'
+- title: "House Report 119-859, Renewing the African American Civil Rights Network Act (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt859/html/CRPT-119hrpt859.htm
+  retrieved: '2026-11-15'
+- title: Congress.gov, H.R. 9269 actions and cosponsors
+  url: https://api.congress.gov/v3/bill/119/hr/9269/actions
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 9269
+  title: Renewing the African American Civil Rights Network Act
+  does: "Restarts a National Park Service program for civil rights history sites, which expired Jan. 8, 2025, for 7 years."
+  affects: "Sites in the network, which can use its logo and get technical support from the Park Service."
+  where: "Approved by the House Natural Resources Committee by unanimous consent. On the House schedule week of Nov. 16."
+  summary:
+    text: >-
+      This bill reauthorizes for seven years the African American Civil Rights Network. The network is a
+      National Park Service (NPS) program that designates historical sites and educational resources that are
+      connected to the African American civil rights movement. The program expired on January 8, 2025.
+    title: Congressional Research Service summary of H.R. 9269
+    url: https://api.congress.gov/v3/bill/119/hr/9269/summaries
+    retrieved: '2026-11-15'
+slides:
+- kicker: "U.S. House · Week of Nov. 16"
+  big: "213 sites"
+  head: A national network of civil rights history sites ran out on Jan. 8, 2025. A bill on the House schedule restarts it.
+- chip: What it is
+  head: "A National Park Service program, created by a 2018 law, that links sites tied to the Civil Rights Movement of 1939-1968."
+  rows:
+  - Little Rock Central High School, Arkansas
+  - Martin Luther King, Jr. Memorial, Washington, D.C.
+  - Brown v. Board of Education park, Topeka, Kansas
+- chip: "Before → after"
+  head: "The 2018 law ended the program after 7 years. The bill restarts the clock."
+  rows:
+  - [Now, "Expired Jan. 8, 2025"]
+  - [After, "Runs 7 years from the day it becomes law"]
+  - [Sites get, "The network logo and Park Service help"]
+- chip: Cost
+  head: "The committee had asked for, but not received, a cost estimate from Congress's budget office."
+  text: "The report includes no dissenting views. The committee approved the bill with no objection."
+- chip: Where it stands
+  head: "Led by Reps. James Clyburn (D-SC) and Mike Carey (R-OH), with 5 Democratic and 5 Republican cosponsors."
+  text: "Sen. Tim Scott (R-SC) leads the Senate version. It needs two-thirds of House members voting to pass. Have you visited one of these sites? Tell us."
+caption: |-
+  In 2018, Congress created the African American Civil Rights Network: a National Park Service program that links places tied to the Civil Rights Movement, like Little Rock Central High School and the Brown v. Board of Education park in Topeka. The House committee report counts 213 sites.
+
+  The 2018 law ended the program after seven years, and it expired on Jan. 8, 2025. H.R. 9269, on the House schedule this week, restarts it for seven years from the day it becomes law. Sites in the network can use its logo and get technical help from the Park Service.
+
+  The committee approved it with no objection. It hadn't received a cost estimate from the Congressional Budget Office when it filed its report.
+
+  Have you visited one of these sites? Tell us below.
+hashtags: [congress, civilrights, nationalparks, votetherecord]
+notes: >-
+  Picked by the stated rule; H.R. 9640 gets a matching post. "213 sites", the three examples, the 1939-1968
+  span and the 2018 law (P.L. 115-104) are from H. Rept. 119-859; the expiry date and logo/technical support
+  from the CRS summary. The report has no minority or additional views, so there is no official case against to
+  quote, and the post gives none. Congress.gov lists no CBO estimate. Clyburn and Carey as "led by" and their
+  party and state are as the report lists them; cosponsor party counts are from congress.gov.
