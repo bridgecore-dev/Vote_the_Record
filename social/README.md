@@ -105,14 +105,15 @@ unless that slide already says "swipe".
 ## Reels (`kind: reel`)
 
 A Reel is drawn with motion by `src/social/reel.py`: each slide is a scene (a number counts up, rows build in,
-a quote types in, bars grow), scenes cut with a short punch-in, and a progress bar runs across the top. Its
-fields, all optional and for Reels only:
+a quote types in, bars grow), scenes cut with a short punch-in, and a progress bar runs across the top. Every
+Reel is voiced (owner's choice, 2026-11-15; reel.py requires it from that date): each slide and each bill has a
+`say`. The other fields are optional, and all of them are for Reels only:
 
 ```yaml
-voice: true                         # or {name: af_heart, speed: 1.0}; speed 0.8-1.25
+voice: true                         # optional: or {name: af_heart, speed: 1.0}; speed 0.8-1.25
 slides:
 - head: ...
-  say: The words read aloud over this slide.     # up to 45 words
+  say: The words read aloud over this slide.     # required on every slide; up to 45 words
   quote: {label: ..., text: ..., key: exact words in text to highlight}
 - head: What the bill says
   doc: {url: <official page or PDF>, highlight: exact words on it, page: 3, title: ..., retrieved: 'YYYY-MM-DD'}
@@ -122,14 +123,16 @@ slides:
   image: {url: <official photo>, title: ..., license: Public domain ..., subject: building, retrieved: ...}
 bills:
 - id: H.R. 2102
-  say: Read over this bill's explainer slide.
+  say: Read over this bill's explainer slide.   # required on every bill
 ```
 
+- **The feed alternates** Reel, post, Reel, post each day (owner's choice, 2026-11-15); the time slots are in
+  docs/SOCIAL_ROUTINE.md.
 - **One or two bills per Reel** (owner's choice, 2026-11-15; reel.py refuses more): a Reel has to be followed
   in one sitting. Split more into another Reel, or use a carousel.
 - **`say`** only restates what the slide and its sources already say: every number in it must be on that slide,
   any bill it names needs a `bills` entry, and the party rule applies. Read by Kokoro (run locally, no audio sent
-  anywhere) and shown as captions. A post that uses it must end its caption with
+  anywhere) and shown as captions. Every Reel's caption ends with
   "Voice: computer-generated (Kokoro text-to-speech)."
 - **`doc`** is a screenshot of an official page or PDF with the exact words highlighted; the build stops if the
   words aren't on the page. Never edited.
@@ -137,8 +140,9 @@ bills:
   2-20 seconds, muted.
 - **`image`** is an official public-domain photo of a place, building, or document. Not people, for now.
 - Each document, photo, and video page is added to the sources automatically.
-- Building needs `pip install -r requirements-reel.txt` and `playwright install chromium`. Without them, a Reel
-  that uses none of these fields is built the old way (still slides); one that does stops with a clear message.
+- Building needs `pip install -r requirements-reel.txt` and `playwright install chromium` (the GitHub
+  workflows install both). Without them, a voiced Reel stops with a clear message; only an older, unvoiced Reel
+  can still be built the old way, as still slides.
 
 ## Bills: always say what it does
 
