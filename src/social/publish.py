@@ -14,11 +14,13 @@ Settings come from the environment (GitHub secrets or a local .env; never commit
     python src/social/publish.py                 # what would publish now
     python src/social/publish.py --write         # publish up to --limit posts
     python src/social/publish.py --preview <post.yaml>...   # upload built files under previews/, print URLs
+    python src/social/publish.py --take-down <post>          # delete a published post from Instagram (file name, no .yaml)
 """
 import argparse
 import datetime as dt
 import json
 import os
+import re
 import sys
 import time
 import urllib.error
@@ -84,7 +86,7 @@ def graph(method: str, path: str, **params) -> dict:
     data = urllib.parse.urlencode({"access_token": env("IG_ACCESS_TOKEN"), **params})
     url = f"https://{host}/{version}/{path}"
     req = (urllib.request.Request(url, data=data.encode(), method="POST") if method == "POST"
-           else urllib.request.Request(f"{url}?{data}"))
+           else urllib.request.Request(f"{url}?{data}", method=method))
     try:
         with urllib.request.urlopen(req, timeout=120) as r:
             return json.loads(r.read())
@@ -161,6 +163,25 @@ def comment(manifest: dict, base: str | None) -> str:
     return "\n".join(lines)
 
 
+def take_down(stem: str) -> None:
+    """Delete a published post from Instagram. Its state entry stays, marked removed, so it never posts again."""
+    if not re.fullmatch(r"[a-z0-9][a-z0-9-]*", stem):
+        sys.exit(f"{stem!r} isn't a post name (its file name in social/posts/, without .yaml)")
+    client, name = bucket()
+    state = load_state(client, name)
+    entry = state.get(stem)
+    if not entry:
+        sys.exit(f"{stem} isn't published")
+    if entry.get("removed"):
+        print(f"{stem} was already taken down on {entry['removed']}")
+        return
+    for media in entry["media"]:  # the feed post, then any story frames
+        graph("DELETE", media)
+    entry["removed"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+    client.put_object(Bucket=name, Key=STATE_KEY, Body=json.dumps(state, indent=2).encode(), ContentType="application/json")
+    print(f"took down {stem} ({entry.get('permalink') or entry['media']})")
+
+
 def check_setup() -> int:
     """Read-only checks that publishing can work: the account the token reaches, and a public bucket file."""
     bad = 0
@@ -193,7 +214,10 @@ def main() -> None:
     ap.add_argument("--limit", type=int, default=3, help="most posts to publish in one run, to space them out")
     ap.add_argument("--preview", type=Path, nargs="+", help="build these posts and upload them under previews/")
     ap.add_argument("--check-setup", action="store_true", help="test the token and the bucket; posts nothing")
+    ap.add_argument("--take-down", metavar="POST", help="delete this published post from Instagram (file name, no .yaml)")
     args = ap.parse_args()
+    if args.take_down:
+        return take_down(args.take_down)
     if args.check_setup:
         sys.exit(check_setup())
     sys.stdout.reconfigure(encoding="utf-8")  # the comment goes to a file; Windows consoles default to cp1252

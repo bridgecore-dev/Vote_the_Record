@@ -166,13 +166,20 @@ One file, `social/posts/<YYYY-MM-DD>-<slug>.yaml`, in the format in `social/READ
   use `approval: review`. Either way the pull request merges itself once its checks pass, so a `review`
   post must be one you'd stand behind if the owner never sees it before it goes out.
 - `record_ids`: every record the post covers, in the README's format.
-- `publish_after`: the next free slot for the post's format, Central time, not already used by a pending post:
-  - feed posts (`carousel`, `image`): 7:30 a.m., 12:00 p.m., 5:30 p.m.
-  - Reels: 9:00 a.m., 1:30 p.m., 7:00 p.m.
-  - stories: 8:30 p.m.
-  - extra slots on busy news days, any format: 10:30 a.m., 3:30 p.m., 8:00 p.m.
-  Never two posts at the same time; written with its offset (e.g. `'2026-11-14T12:00:00-06:00'`; `-05:00` in daylight
-  time).
+- `publish_after`: the next free slot for the post's format, Central time, not already used by a pending post.
+  Each day's feed alternates Reel, post, Reel, post (owner's request, 2026-11-15); a `clip` counts as a Reel,
+  `carousel` and `image` as posts, and stories sit outside the alternation:
+  - every day: Reel 7:30 a.m., post 9:00 a.m.; Reel 1:30 p.m., post 3:00 p.m.; Reel 7:30 p.m., post 9:00 p.m.
+  - busy news days add a pair: Reel 10:30 a.m. and post 12:00 p.m., or Reel 4:30 p.m. and post 6:00 p.m.
+    Fill both halves of a pair or neither.
+  - stories: 8:15 p.m.
+  Ordered by time, a day's Reels and posts must never run two of the same kind in a row (a test checks this);
+  if the slot that would keep the turn isn't free, take the next day's. Never two posts at the same time.
+  Written with its offset (e.g. `'2026-11-16T09:00:00-06:00'`; `-05:00` in daylight time).
+- Every Reel has a voice (owner's request, 2026-11-15): a `say` on every slide and every bill, read by the
+  computer voice, and the caption line `Voice: computer-generated (Kokoro text-to-speech).` A `say` restates
+  only what its slide shows, in at most 45 words; every number in it must be on the slide (`--check` enforces
+  all of this).
 - `sources`: title, URL and `retrieved` (today) for each page the post rests on.
 - `notes`: one or two lines for the owner: why it's post-worthy and anything to double-check.
 - `bills`: an entry for every bill the slides or caption name (format in `social/README.md`). Federal: the
