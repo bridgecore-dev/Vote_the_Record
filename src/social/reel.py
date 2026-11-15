@@ -190,6 +190,79 @@ def sentences(text: str) -> list[str]:
     return [x for x in re.split(r"(?<=[.!?])\s+(?=[A-Z0-9\"“])", text.strip()) if x.strip()]
 
 
+# ---------------------------------------------------------------- how numbers are read aloud
+# Only the voice hears these words; captions keep the digits as written (owner's decision, 2026-11-15).
+ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
+TENS = "_ _ twenty thirty forty fifty sixty seventy eighty ninety".split()
+SCALES = [(10**12, "trillion"), (10**9, "billion"), (10**6, "million"), (1000, "thousand")]
+SCALE_WORD = {"thousand": 1000, "million": 10**6, "billion": 10**9, "trillion": 10**12}
+
+
+def words(n: int) -> str:
+    """A whole number in words: 206 -> 'two hundred six', 500000 -> 'five hundred thousand'."""
+    if n < 20:
+        return ONES[n]
+    if n < 100:
+        return TENS[n // 10] + ("-" + ONES[n % 10] if n % 10 else "")
+    if n < 1000:
+        return ONES[n // 100] + " hundred" + (" " + words(n % 100) if n % 100 else "")
+    for size, name in SCALES:
+        if n >= size:
+            return words(n // size) + " " + name + (" " + words(n % size) if n % size else "")
+    return str(n)
+
+
+def year_words(y: int) -> str:
+    """1982 -> 'nineteen eighty-two', 1900 -> 'nineteen hundred', 1905 -> 'nineteen oh five',
+    2005 -> 'two thousand five', 2026 -> 'twenty twenty-six'."""
+    if 2000 <= y <= 2009:
+        return words(y)
+    hi, lo = divmod(y, 100)
+    if lo == 0:
+        return words(hi) + " hundred"
+    return words(hi) + " " + (("oh " + ONES[lo]) if lo < 10 else words(lo))
+
+
+def _number(text: str) -> float:
+    return float(text.replace(",", ""))
+
+
+def _dollars(m: re.Match) -> str:
+    amount, scale = _number(m[1]), (m[2] or "").lower()
+    if scale:
+        whole = words(int(amount))
+        if "." in m[1]:
+            whole += " point " + " ".join(ONES[int(d)] for d in m[1].split(".")[1])
+        return f"{whole} {scale} dollars"
+    dollars, cents = int(amount), round((amount - int(amount)) * 100)
+    out = f"{words(dollars)} dollar{'' if dollars == 1 else 's'}"
+    if cents:
+        out += f" and {words(cents)} cent{'' if cents == 1 else 's'}"
+    return out
+
+
+DOLLARS = re.compile(r"\$(\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?)(?:\s+(thousand|million|billion|trillion)\b)?", re.I)
+YEAR = re.compile(r"(?<![\d$,.])(1[1-9]\d\d|20\d\d)(?!\d|[,.]\d)")
+YEAR_RANGE = re.compile(r"(?<![\d$,.])(1[1-9]\d\d|20\d\d)[-–](1[1-9]\d\d|20\d\d)(?!\d|[,.]\d)")
+
+
+def spoken(text: str) -> str:
+    """What the voice reads: dollar amounts as words with 'dollars' at the end, years the way people say them.
+    Bill numbers (H.R. 1982) are left as written."""
+    keep = {}
+
+    def hold(m):
+        keep[f"\x00{len(keep)}\x00"] = m[0]
+        return f"\x00{len(keep) - 1}\x00"
+    text = B.BILL.sub(hold, text)
+    text = DOLLARS.sub(_dollars, text)
+    text = YEAR_RANGE.sub(lambda m: f"{year_words(int(m[1]))} to {year_words(int(m[2]))}", text)
+    text = YEAR.sub(lambda m: year_words(int(m[1])), text)
+    for k, v in keep.items():
+        text = text.replace(k, v)
+    return text
+
+
 # ---------------------------------------------------------------- checks
 
 def says(post: dict) -> list[tuple[str, str, str]]:
@@ -641,7 +714,7 @@ def voice_track(scripts: list[str | None], voice: dict):
             continue
         parts, timed, at = [], [], 0.0
         for sent in sentences(say):
-            a, sr = speak(sent, voice["name"], float(voice["speed"]))
+            a, sr = speak(spoken(sent), voice["name"], float(voice["speed"]))
             a = trim(a, sr)
             dur = len(a) / sr
             ph = phrases(sent)
