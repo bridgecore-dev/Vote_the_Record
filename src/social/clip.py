@@ -15,7 +15,17 @@ import build as B
 
 # Hosts that serve official House and Senate video files outside .gov; add one only after confirming it
 # serves the chamber's or committee's own feed.
-CLIP_HOSTS: set[str] = set()
+CLIP_HOSTS: set[str] = {
+    # U.S. House floor archive behind live.house.gov (its broadcastevents JSON lists .../manifest.m3u8 and
+    # captions.vtt, rights: "Pursuant to Title 17 Section 105 ... in the public domain"). The name looks
+    # generated, so it may change; confirm against live.house.gov before adding a successor.
+    "houseliveprod-f9h4cpb9dyb8gegg.a01.azurefd.net",
+    # U.S. Senate isvp player (www.senate.gov/isvp/?comm=..&filename=..), committee and floor (comm=stv) streams
+    "www-senate-gov-media-srs.akamaized.net",
+}
+# Held, not added: Texas House video (house.texas.gov/help/video-services forbids use "for another purpose not
+# authorized by federal law" without written permission), Texas Senate (no terms stated), and House committees
+# that publish only on YouTube.
 BLOCKED = ("youtube.com", "youtu.be", "c-span.org")  # YouTube's terms forbid downloads; C-SPAN footage is theirs
 PARTY = re.compile(r"\((?:R|D|I)\b|\b(?:R|D|I)-[A-Z]{2}\b|republican|democrat|independent|\bGOP\b", re.I)
 MEMBER = re.compile(r"(Rep|Sen|Del)\.\s|Resident Commissioner\s")  # a member of Congress, as the lower-third names them
@@ -225,3 +235,52 @@ def make(post: dict, out: Path) -> list[dict]:
     alt = (f"Video clip from {v['title']}, {v['date']}, at {stamp(start)} in the full video."
            + (f" Speaking: {who}." if who else "") + f" Transcript: {words} {B.source_line(post)}.")
     return [{"file": "clip.mp4", "cover": "cover.png", "alt_text": alt}]
+
+
+def vtt_captions(vtt: str, start: float, end: float) -> list[dict]:
+    """An official WebVTT caption file's cues inside [start, end], as `captions` timed from the clip's start.
+
+    Cue text is kept as the official captions give it (tags and repeats removed); cues are trimmed to the clip
+    and never overlap, as check() requires."""
+    cues, out = [], []
+    for block in re.split(r"\n\s*\n", vtt.replace("\r\n", "\n")):
+        m = re.search(r"(\d+:)?(\d+):(\d+(?:\.\d+)?)\s*-->\s*(\d+:)?(\d+):(\d+(?:\.\d+)?)", block)
+        if not m:
+            continue
+        a = seconds(f"{m[1] or '0:'}{m[2]}:{m[3]}")
+        b = seconds(f"{m[4] or '0:'}{m[5]}:{m[6]}")
+        text = " ".join(re.sub(r"<[^>]+>", "", line).strip() for line in block[m.end():].strip().splitlines())
+        if text and b > start and a < end:
+            cues.append((max(a, start) - start, min(b, end) - start, html.unescape(" ".join(text.split()))))
+    for a, b, text in sorted(cues):
+        if out and text == out[-1]["text"]:  # roll-up captions repeat a line; keep it once, for its whole time
+            out[-1]["end"] = round(b, 2)
+            continue
+        a = max(a, out[-1]["end"]) if out else a
+        if b - a >= 0.2:
+            out.append({"start": round(a, 2), "end": round(b, 2), "text": text})
+    return out
+
+
+if __name__ == "__main__":
+    import argparse
+    import sys
+    import urllib.request
+
+    import yaml
+
+    ap = argparse.ArgumentParser(description="Print a clip's `captions` from an official WebVTT file")
+    ap.add_argument("--vtt", required=True, help="the official captions file: a path, or an https URL on an allowed host")
+    ap.add_argument("--start", required=True, help="in the full video, e.g. 0:41:05")
+    ap.add_argument("--end", required=True)
+    args = ap.parse_args()
+    if args.vtt.startswith("http"):
+        if not (urlparse(args.vtt).scheme == "https" and host_ok(args.vtt)):
+            sys.exit("captions come from the chamber's own feed: an https URL on .gov or a CLIP_HOSTS host")
+        with urllib.request.urlopen(args.vtt, timeout=60) as r:
+            text = r.read().decode("utf-8", errors="replace")
+    else:
+        text = Path(args.vtt).read_text(encoding="utf-8")
+    caps = vtt_captions(text, seconds(args.start), seconds(args.end))
+    print(yaml.safe_dump({"captions": caps, "caption_source": "official"}, allow_unicode=True, sort_keys=False,
+                         width=110), end="")
