@@ -50,7 +50,15 @@ Never change these fields on an existing entry. The site shows an "Unverified" b
 every unverified item.
 
 Claude may write under `data/` without asking first (owner's decision, 2026-10-18). Every report
-lists what changed under `data/` so the owner can review it before saying "commit".
+lists what changed under `data/` so the owner can review it. Unverified items stay marked "Unverified"
+on the site until the owner verifies them.
+
+## 3b. Pull requests merge once their checks pass
+Claude commits, pushes, and opens pull requests without waiting to be asked, and merges any pull
+request (code, data, docs, rules, workflows) once all of its checks pass: the validator, the tests,
+and the site build (owner's decision, 2026-11-14, so nothing stalls while the owner is away). Never
+merge with a failing or missing check, never force-push, and never bypass branch protection. Every
+report says what was merged. The owner can revert any merge.
 
 ## 4. Survey questions are hypotheticals tied to the office's powers
 Survey questions are hypothetical scenarios that the office could actually face. Each one
@@ -102,7 +110,7 @@ Posts follow every rule above: official sources, the fair-language and party rul
 source says. Each post is one `social/posts/<YYYY-MM-DD>-<slug>.yaml` (format: `social/README.md`), added only
 through its own pull request from a `social/...` branch. A post pull request merges itself once its checks pass,
 so no post is missed while the owner is away (owner's decision, 2026-11-14); the owner reads the preview comment
-and stops a post before its slot by deleting its file on `main`. Code and data changes still wait for the owner.
+and stops a post before its slot by deleting its file on `main`. Other pull requests follow rule 3b.
 - `approval: auto` marks routine items: scheduled dates, and vote tallies or laws taken directly from official
   feeds, with every source on a `.gov`, `.us`, or `.mil` site.
 - Anything that starts from a news report (`found_via`), or any judgment call (picking "notable" items, a
