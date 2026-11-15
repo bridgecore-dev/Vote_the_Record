@@ -430,6 +430,8 @@ def slide_html(post: dict, s: dict, k: int, n: int, layout: str, size: tuple[int
         body += '<div class="dots">' + "".join(f'<i class="{"on" if j == k else ""}"></i>' for j in range(1, n + 1)) + "</div>"
     tag = level_tag(post) + (f" · {k}/{n}" if n > 1 else "")
     top = f'<div class="top"><span class="mark">{LOGO}Vote the Record</span><span class="tag">{e(tag)}</span></div>'
+    if layout == "band" and not lead:
+        layout = "card"  # nothing to put in the band (no chip, kicker or number): an empty teal bar looks broken
     if layout == "band":
         main = f'<div class="lead">{lead}</div><div class="main">{body}</div>'
     else:

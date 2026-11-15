@@ -136,3 +136,10 @@ def test_record_ids_never_repeat(tmp_path):
     for f in (first, second):
         f.write_text(yaml.safe_dump(post(record_ids=["us/119/2/house/roll/316"])), encoding="utf-8")
     assert any("already in 2026-11-14-a.yaml" in e for e in B.duplicates(second, yaml.safe_load(second.read_text())))
+
+
+def test_a_band_slide_with_nothing_for_the_band_uses_the_card():
+    page = B.slide_html(post(), {"head": "Five Texas bills would repeal a tax break."}, 1, 3, "band", (1080, 1350))
+    assert 'class="layout-card"' in page and 'class="lead"' not in page
+    page = B.slide_html(post(), {"kicker": "Filing", "big": "1,457", "head": "Bills filed."}, 1, 3, "band", (1080, 1350))
+    assert 'class="layout-band"' in page
