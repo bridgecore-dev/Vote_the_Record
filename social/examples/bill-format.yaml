@@ -19,7 +19,7 @@ bills:                            # every bill the post names; the builder adds 
     url: https://www.congress.gov/bill/119th-congress/house-bill/9999
     retrieved: '2026-11-13'
 slides:
-- {kicker: "U.S. House · Nov. 12, 2026", big: 251-180, head: The House passed H.R. 9999.}
+- {kicker: "U.S. House · Nov. 12, 2026", head: The House passed H.R. 9999., vote: {yea: 251, nay: 180, not_voting: 4}}
 - {kicker: How it passed, head: It needed a simple majority of members voting., text: 251 voted yes and 180 voted no.}
 caption: |-
   The House passed H.R. 9999 on Nov. 12, 251-180. Swipe for what it would do and who it would affect.

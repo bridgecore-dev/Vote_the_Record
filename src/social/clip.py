@@ -18,6 +18,8 @@ import build as B
 CLIP_HOSTS: set[str] = set()
 BLOCKED = ("youtube.com", "youtu.be", "c-span.org")  # YouTube's terms forbid downloads; C-SPAN footage is theirs
 PARTY = re.compile(r"\((?:R|D|I)\b|\b(?:R|D|I)-[A-Z]{2}\b|republican|democrat|independent|\bGOP\b", re.I)
+MEMBER = re.compile(r"(Rep|Sen|Del)\.\s|Resident Commissioner\s")  # a member of Congress, as the lower-third names them
+MEMBER_TAG = re.compile(r"\((?:R|D|I)-[A-Z]{2}\)$")  # party and state as the Clerk and Senate list them: (R-TX)
 VIDEO_KEYS = {"url", "page", "title", "date", "start", "end"}
 TITLE_SECONDS, END_SECONDS, LOWER_SECONDS = 2.5, 3.0, 4.0
 W, H = 1080, 1920
@@ -96,13 +98,19 @@ def check(post: dict) -> list[str]:
         last = b
     if post.get("caption_source") not in ("official", "whisper"):
         errs.append("caption_source is official (the committee's transcript) or whisper")
+    speakers = [s for s in post.get("speakers") or [] if isinstance(s, dict)]
     for s in post.get("speakers") or []:
         if not (isinstance(s, dict) and s.get("name") and isinstance(s.get("at"), (int, float))):
             errs.append(f"speaker needs at (seconds) and name: {s}")
-        elif PARTY.search(s["name"]):
-            errs.append(f"speaker {s['name']!r}: no party, ever (CLAUDE.md rule 5); write 'Rep. Name (ST)'")
+        elif PARTY.search(s["name"]) and not MEMBER_TAG.search(s["name"]):
+            errs.append(f"speaker {s['name']!r}: party only in the record's form, e.g. 'Rep. Jane Doe (R-TX)'")
         elif not 0 <= s["at"] < length:
             errs.append(f"speaker {s['name']!r}: at falls outside the clip")
+    # rule 5: party as the record lists it, the same for everyone: every member tagged (R-TX), or none
+    members = [s["name"] for s in speakers if MEMBER.match(str(s.get("name") or ""))]
+    tagged = [n for n in members if MEMBER_TAG.search(n)]
+    if tagged and len(tagged) != len(members):
+        errs.append("speakers: give every member a party tag like (R-TX), or none (same for everyone)")
     if not str(post.get("context") or "").strip():
         errs.append("context: what was said just before and after, so the reviewer can see the cut keeps its meaning")
     return errs

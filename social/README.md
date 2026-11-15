@@ -1,7 +1,8 @@
 # Social posts
 
 Instagram posts for Vote the Record. Same rules as the site (CLAUDE.md): official sources first, every post
-cites its sources, neutral wording, party only as printed on a ballot, never infer past what a source says.
+cites its sources, fair wording ("Fair, not silent"), party only as an official record lists it and the same
+for everyone (rule 5), never infer past what a source says.
 
 - `posts/<YYYY-MM-DD>-<slug>.yaml` — one file per post (format below). The file name is the post's ID.
   **Every file here on `main` is published** (src/social/publish.py) once its `publish_after` passes, so a
@@ -25,7 +26,7 @@ kind: image            # image | carousel (2-10 slides) | story (1-10, 1080x1920
 level: state           # congress | state | local
 place: Texas           # state, or "Harris County, Texas" / "Houston, Texas"; omit for congress
 topic: Calendar        # free text; drives highlights later
-approval: auto         # auto: publishes without the owner's tap; review: waits for it
+approval: auto         # auto: routine, from official feeds; review: the owner should check the preview first
 layout: card           # optional: card | band | stat; rotates by post name when omitted
 story: true            # image only: also render story.png from the first slide
 highlight: State       # optional; a name from highlights.yaml: the Story Highlight this story belongs in
@@ -79,11 +80,27 @@ the House 251-180 on Nov. 12"]`) or for what an office decides. Keep each item t
     measure: true                    # a ballot measure: keeps the ballot's order (FOR, AGAINST)
 ```
 
-The builder refuses candidates out of alphabetical order and any field but `name` and `votes`, so there is
-never a party (rule 5). Every bar is the same color and no winner is highlighted; `outcome` is one plain line,
+The builder refuses candidates out of alphabetical order and any field but `name`, `votes` and `party`. A
+`party` is only the ballot's listing, and every candidate gets one or none does (`party: null` where the ballot
+lists none), so it reads the same for everyone (rule 5). Every bar is the same color and no winner is highlighted; `outcome` is one plain line,
 the same for every contest, and only once the canvass is official. Percentages are of all votes shown, write-ins
 included. Example:
 `examples/list-results-format.yaml` (fictional).
+
+## Votes
+
+**`vote`** shows a roll call's counts with what each means under it, the same style for every side:
+
+```yaml
+- head: The House passed H.R. 2102, the Major Richard Star Act.
+  vote: {yea: 392, nay: 18, not_voting: 23}    # also present; exactly as the record gives them
+```
+
+Labels: Yea (for), Nay (against), Present, Didn't vote. Totals by party go in `rows`, exactly as the record
+gives them, every party in the same form: `[Republican, "181 Yea · 18 Nay · 19 didn't vote"]`.
+
+On a carousel that names bills, the builder ends the first slide with "Swipe to see the bills →",
+unless that slide already says "swipe".
 
 ## Bills: always say what it does
 
@@ -136,13 +153,16 @@ context: What was said just before and after; for the reviewer only.
   `CLIP_HOSTS` in src/social/clip.py (added only once confirmed as the official feed). YouTube and C-SPAN are
   refused: YouTube's terms forbid downloading, and C-SPAN's footage is its own.
 - **Cuts:** never mid-sentence. If a question is shown, its answer is too. `context` lets the reviewer check that.
-- **No party:** the builder refuses a speaker line with a party marker (rule 5). Captions are verbatim speech and
-  are not edited.
+- **Party, as recorded:** a member's lower-third may carry party and state as the Clerk or Senate lists them
+  ("Rep. Jane Doe (R-TX)"), and then every member in the clip carries one; the builder refuses a mix, or any other
+  form ("Republican", "(R)"). Witnesses have none. Captions are verbatim speech and are not edited.
 - **Same treatment:** the same layout, lower-third style, and caption rules for every member.
 
-**Approval.** `auto` is only for routine items: calendar dates and official tallies from official feeds. The
-builder refuses `auto` unless every source URL is on a `.gov`, `.us`, or `.mil` domain. Anything resting on
-news, or any judgment call (picking "notable" bills, a summary in our words), uses `review`.
+**Approval.** Every post pull request merges itself once its checks pass (owner's decision, 2026-11-14); the
+owner stops a post by deleting its file on `main` before its time. `approval` tells the owner where to look:
+`auto` is for routine items (calendar dates, tallies and laws from official feeds), and the builder refuses it
+unless every source URL is on a `.gov`, `.us`, or `.mil` domain; anything resting on news, or any judgment call
+(picking "notable" bills, a summary in our words), uses `review`, meaning "check this preview first".
 
 **Record IDs.** `<jurisdiction>/<session or year>/<record>/<event>`, lower-case jurisdiction, the record as
 officially written: `tx/90R/HB 101/filed`, `tx/90R/HB 101/house-passed`, `us/119/2/house/roll/316` (roll calls carry the session:
@@ -151,7 +171,9 @@ House and Senate numbers restart each session), `us/119/2/senate/roll/257`,
 the same event never does. A recap post lists every record it covers.
 
 **Words.** Quote official text exactly in `quote`; our own words go in `head`/`text` and must not go beyond
-the source. Same wording and structure for every person. Never name or imply a party.
+the source. Same wording and structure for every person and party. Name who did what on the record, and tell a
+change as before → after. Party only as the record lists it (rule 5); never say a party did what the record
+doesn't show.
 
 ## Owner ideas
 
