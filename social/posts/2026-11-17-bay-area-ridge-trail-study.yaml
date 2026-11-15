@@ -1,0 +1,72 @@
+kind: reel
+level: congress
+topic: Public lands
+approval: review
+record_ids: ["us/119/H.R. 7254/house-floor-schedule-2026-11-16"]
+publish_after: '2026-11-17T13:30:00-06:00'
+rule: >-
+  From the House suspension list for the week of Nov. 16, 2026, we pick the bills that order a federal agency
+  to study or plan something (feasibility studies, management frameworks) rather than move land or place a
+  monument. Each gets its own post with the same structure. This week that is H.R. 9785, H.R. 8195 and H.R. 7254.
+sources:
+- title: "U.S. House, Bills to be Considered on the House Floor, Week of Nov. 16, 2026 (docs.house.gov, last updated Nov. 13, 2026)"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-16
+  retrieved: '2026-11-15'
+- title: "H.R. 7254, Bay Area Ridge National Scenic Trail feasibility study, text as reported (docs.house.gov)"
+  url: https://docs.house.gov/billsthisweek/20261116/h7254_rh_xml.pdf
+  retrieved: '2026-11-15'
+- title: "House Report 119-855, Bay Area Ridge National Scenic Trail feasibility study, with CBO cost estimate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt855/html/CRPT-119hrpt855.htm
+  retrieved: '2026-11-15'
+- title: Congress.gov, H.R. 7254 actions and cosponsors
+  url: https://api.congress.gov/v3/bill/119/hr/7254/actions
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 7254
+  does: "Would have the Interior Dept. study, within 3 years, whether to make the Bay Area Ridge Trail a national scenic trail."
+  affects: "The 550-mile trail around the San Francisco Bay Area, its council, and the agencies whose land it crosses."
+  where: "Approved by the House Natural Resources Committee by unanimous consent. On the House schedule week of Nov. 16."
+  summary:
+    text: >-
+      This bill requires the Department of the Interior to study the feasibility of designating the Bay Area
+      Ridge Trail as a national scenic trail. The trail extends approximately 550 miles in the San Francisco Bay
+      Area of California.
+    title: Congressional Research Service summary of H.R. 7254
+    url: https://api.congress.gov/v3/bill/119/hr/7254/summaries
+    retrieved: '2026-11-15'
+slides:
+- kicker: "U.S. House · Week of Nov. 16"
+  big: 550 miles
+  head: "A bill on the House schedule would study making a trail around the San Francisco Bay Area a national scenic trail."
+- chip: "Before"
+  head: "Local public and private groups built the Bay Area Ridge Trail over more than 30 years. It links 75+ parks."
+  text: "Congress has designated 11 national scenic trails, the committee report says. They generally run 100+ miles and are mostly non-motorized."
+- chip: "After"
+  head: "The Interior Department would have 3 years to study whether the trail should join them."
+  rows:
+  - [Consults, "The Bay Area Ridge Trail Council and agencies along the route"]
+  - [Shortcut, "Interior may certify a study done by others"]
+  - [Not included, "It doesn't designate the trail or add federal land"]
+  - [Next step, "A designation would take another act of Congress"]
+- chip: What it costs
+  big: "< $500K"
+  head: "CBO estimates the study would cost less than $500,000 over 2027-2031, if Congress funds it."
+- chip: Where it stands
+  head: "Sponsor: Rep. Jared Huffman (D-CA), with 11 Democratic cosponsors. The committee approved it by unanimous consent."
+  text: "It needs two-thirds of those voting to pass. Should Congress study more trails like this?"
+caption: |-
+  The Bay Area Ridge Trail runs about 550 miles along the hills around the San Francisco Bay Area and links more than 75 parks. H.R. 7254, on the House schedule this week, would start the process of making it a national scenic trail.
+
+  Before: it's a trail local public and private groups built over three decades. Congress has designated 11 national scenic trails, according to the committee report.
+
+  After: the Interior Department has three years to study whether it should be the next one, working with the trail's council and the agencies whose land it crosses. Interior can certify a study someone else did. The bill doesn't designate the trail or add federal land; that would take another act of Congress.
+
+  CBO estimates the study would cost less than $500,000 over 2027-2031, if Congress funds it.
+
+  Should Congress study more trails like this? Tell us below.
+hashtags: [congress, trails, publiclands, bayarea, votetherecord]
+notes: >-
+  Picked by the stated rule; H.R. 9785 and H.R. 8195 get matching posts. Floor text is the reported (RH) version,
+  matching the report's amendment. "11 national scenic trails", "100+ miles", "30+ years", "75+ parks" and "doesn't
+  designate ... separate Act of Congress" are from H. Rept. 119-855's background (it cites NPS and the trail
+  council). CBO's estimate is printed in the report. Cosponsor parties from congress.gov. If the House passes it Nov. 16, the last slide needs the tally.
