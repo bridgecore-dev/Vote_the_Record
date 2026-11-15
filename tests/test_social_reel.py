@@ -278,3 +278,20 @@ def test_reel_covers_at_most_two_bills():
     assert not any("at most 2 bills" in e for e in reel.check(old))  # posts scheduled before the rule keep their bills
     carousel = dict(post, kind="carousel", bills=old["bills"])
     assert not any("at most 2 bills" in e for e in reel.check(carousel))
+
+
+@pytest.mark.parametrize("said, heard", [
+    ("in place since 1982.", "in place since nineteen eighty-two."),
+    ("the FLSA of 1938", "the FLSA of nineteen thirty-eight"),
+    ("in 1900 and 1905", "in nineteen hundred and nineteen oh five"),
+    ("Filed in 2005, again in 2026.", "Filed in two thousand five, again in twenty twenty-six."),
+    ("deficits, 2026-2035", "deficits, twenty twenty-six to twenty thirty-five"),
+    ("It costs $1.", "It costs one dollar."),
+    ("under $500,000 in penalties", "under five hundred thousand dollars in penalties"),
+    ("below $206 million.", "below two hundred six million dollars."),
+    ("$1.50 each", "one dollar and fifty cents each"),
+    ("$2.5 billion", "two point five billion dollars"),
+    ("H.R. 1982 passed 19 to 16 after 40 hours", "H.R. 1982 passed 19 to 16 after 40 hours"),
+])
+def test_spoken_numbers(said, heard):
+    assert reel.spoken(said) == heard
