@@ -214,6 +214,7 @@ def main() -> None:
     state = load_state(client, name)
     todo = due(list(POSTS.glob("*.yaml")), state, now)
     print(f"{len(todo)} post(s) due" + (f"; publishing up to {args.limit}" if args.write else ""))
+    failed = []
     for p in todo[:args.limit] if args.write else todo:
         print(f"  {p.stem}")
         if not args.write:
@@ -225,6 +226,7 @@ def main() -> None:
             ids = publish_one(manifest, base)
         except (SystemExit, Exception) as e:
             print(f"  FAILED {p.stem}: {e}")
+            failed.append(p.stem)
             continue
         # record at once, so a later failure never publishes the same post twice
         state[p.stem] = {"media": ids, "permalink": None, "published": now.isoformat(timespec="seconds")}
@@ -237,6 +239,9 @@ def main() -> None:
         except RuntimeError:
             pass  # published; only the link is missing
         print(f"  published {state[p.stem]['permalink'] or ids}")
+    if failed:
+        # the run shows as failed, so GitHub emails the owner instead of the posts silently waiting
+        sys.exit(f"{len(failed)} post(s) failed to publish: {', '.join(failed)}")
 
 
 if __name__ == "__main__":
