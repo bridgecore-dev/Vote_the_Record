@@ -1,0 +1,91 @@
+kind: reel
+level: congress
+topic: Public lands
+approval: review
+record_ids: ["us/119/H.R. 10136/house-floor-schedule-2026-11-16"]
+publish_after: '2026-11-17T16:30:00-06:00'
+rule: >-
+  From the U.S. House of Representatives suspension list for the week of Nov. 16, 2026, we pick every bill that
+  moves federal land to a new owner or trustee. Each gets its own post with the same structure. This week that is
+  H.R. 2400, H.R. 8483 and H.R. 10136.
+sources:
+- title: "U.S. House of Representatives floor schedule, week of Nov. 16, 2026"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-16
+  retrieved: '2026-11-15'
+- title: "H.R. 10136, text as reported"
+  url: https://docs.house.gov/billsthisweek/20261116/h10136_rh_xml.pdf
+  retrieved: '2026-11-15'
+- title: "H. Rept. 119-864"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt864/html/CRPT-119hrpt864.htm
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 10136
+  title: Crossett Experimental Forest Act of 2026
+  does: "Would give the Crossett Experimental Forest to Arkansas at no charge, if it asks, to be kept for forest research."
+  affects: "The State of Arkansas, the University of Arkansas at Monticello and the Forest Service."
+  where: "Approved by the Natural Resources Committee of the U.S. House of Representatives by unanimous consent."
+  summary:
+    text: >-
+      This bill directs the Forest Service, upon the request of the State of Arkansas, to convey the Crossett
+      Experimental Forest, the R.R. Reynolds Research Natural Area, and associated facilities to the state.
+    title: Congressional Research Service summary of H.R. 10136
+    url: https://api.congress.gov/v3/bill/119/hr/10136/summaries
+    retrieved: '2026-11-15'
+  say: "H.R. 10136, the Crossett Experimental Forest Act of 2026, would give the Crossett Experimental Forest to Arkansas at no charge, if the state asks, to be kept for forest research. It affects Arkansas, the University of Arkansas at Monticello and the Forest Service."
+slides:
+- kicker: "U.S. House of Representatives · Week of Nov. 16"
+  big: 1,685 acres
+  head: "A bill on the U.S. House of Representatives schedule would give the Crossett Experimental Forest, in Ashley County, to Arkansas at no charge."
+  say: "1,685 acres. A bill on the United States House of Representatives schedule for the week of November 16 would give the Crossett Experimental Forest, in Ashley County, to the State of Arkansas at no charge."
+- chip: "Before → after"
+  head: "Today the Forest Service runs it. It has been a forest research site since 1934."
+  rows:
+  - [After, "Arkansas runs it as the Crossett Experimental State Forest"]
+  - [Use, "Forest research, education and demonstration"]
+  - [Partners, "University of Arkansas at Monticello and UA Division of Agriculture"]
+  say: "Before: the Forest Service runs it, and it has been a forest research site since 1934. After: Arkansas would run it as the Crossett Experimental State Forest, for research, education and demonstration, working with the University of Arkansas."
+- chip: Why this place
+  head: "The committee report says Forest Service research there has dropped."
+  rows:
+  - [15 years, "One Forest Service scientist was the only one there"]
+  - [Since 2023, "After his death, the role has not been filled"]
+  - [The plan, "University, state and local Forest Service officials backed a transfer"]
+  say: "The committee report says Forest Service research there has dropped. For 15 years, one Forest Service scientist was the only one there. Since his death in 2023, the role hasn't been filled. University, state and local Forest Service officials backed a transfer."
+- chip: The conditions
+  head: "The bill sets terms on the transfer."
+  rows:
+  - [Deadline, "Arkansas must ask within 180 days"]
+  - [Payment, "None for the land; Arkansas pays transfer costs"]
+  - [Records, "The Forest Service hands over its research data"]
+  - [If not kept, "After notice and 180 days to fix it, it can go back to the U.S."]
+  say: "The conditions: Arkansas must ask within 180 days. It pays nothing for the land, but pays the transfer costs. The Forest Service hands over its research data. If the forest isn't kept for research, it can go back to the United States."
+- chip: "Who gains, who gives up"
+  head: "Arkansas gains the forest. The Forest Service gives it up."
+  rows:
+  - [Gains, "State of Arkansas"]
+  - [Gives up, "Forest Service"]
+  - [Payment, "None to the U.S."]
+  - [Cost, "Report: CBO estimate requested, not received"]
+  say: "Arkansas gains the forest. The Forest Service gives it up, and the United States gets no payment. The committee report says a Congressional Budget Office cost estimate was requested but not received."
+- chip: Where it stands
+  head: "Sponsor: Rep. Bruce Westerman (R-AR), the committee's chairman. The Natural Resources Committee of the U.S. House of Representatives approved it by unanimous consent."
+  text: "It needs two-thirds of those voting to pass. Should Congress move federal land this way? Tell us."
+  say: "Sponsor: Representative Bruce Westerman, Republican of Arkansas, the committee's chairman. The Natural Resources Committee of the United States House of Representatives approved it by unanimous consent. It needs two-thirds of those voting to pass. Should Congress move federal land this way?"
+caption: |-
+  A bill on the U.S. House of Representatives schedule this week would give Arkansas the 1,685-acre Crossett Experimental Forest, in Ashley County, at no charge.
+
+  Before: the Forest Service runs it; it has been a forest research site since 1934. After: Arkansas runs it as the Crossett Experimental State Forest, for research, education and demonstration, with the University of Arkansas. Arkansas pays the transfer costs, and the land can go back to the U.S. if it isn't kept for research.
+
+  The committee report says Forest Service research there has dropped. The only Forest Service scientist there died in 2023, and the role hasn't been filled. The CBO estimate wasn't in yet.
+
+  Should Congress move federal land this way?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, publiclands, forests, arkansas]
+notes: >-
+  Split from the three-bill post (2026-11-16-federal-land-transfers-three-bills) at the owner's request: one
+  bill per post, so similar bills aren't mistaken for each other. H.R. 2400 gets a carousel, H.R. 8483 a Reel.
+  1,685 acres, 1934, Ashley County, the staffing history, the 180-day request window, transfer costs, research
+  records and the reversion clause are from H. Rept. 119-864 (reported text). CBO: the report says the estimate
+  was requested but not received. Sponsor's party, state and "Chairman" as the report lists them. Check for a
+  House vote before 4:30 p.m. Nov. 17; if it passed, the last slide needs the tally.

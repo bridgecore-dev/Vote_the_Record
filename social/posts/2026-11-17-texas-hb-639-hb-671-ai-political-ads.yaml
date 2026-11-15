@@ -1,0 +1,79 @@
+kind: carousel
+level: state
+place: Texas
+topic: Elections
+approval: review
+record_ids: [tx/90R/HB 639/filed, tx/90R/HB 671/filed]
+publish_after: '2026-11-17T12:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 9, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-09
+  retrieved: '2026-11-15'
+- title: Texas Election Code, Sec. 255.004
+  url: https://statutes.capitol.texas.gov/Docs/EL/htm/EL.255.htm
+  retrieved: '2026-11-15'
+- title: Texas Penal Code, Sec. 12.21
+  url: https://statutes.capitol.texas.gov/Docs/PE/htm/PE.12.htm
+  retrieved: '2026-11-15'
+bills:
+- id: HB 639
+  does: Would make it a crime to run a political ad with a fake image, audio or video of a candidate unless it says so.
+  affects: Candidates, officeholders, political committees, and people who spend over $100 on, or are paid to run, political ads.
+  where: Filed Nov. 9, 2026 by Rep. Bhojani; no other action yet.
+  summary:
+    text: >-
+      the political advertising includes a disclosure from the person or another person on whose behalf the
+      political advertising is published, distributed, or broadcast indicating that the image, audio
+      recording, or video recording did not occur in reality.
+    title: HB 639 as filed, Sec. 1 (new Election Code 255.0015(b)(2))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00639I.htm
+    retrieved: '2026-11-15'
+- id: HB 671
+  does: Same text as HB 639; a Class A misdemeanor for an unlabeled fake image, audio or video of a candidate in an ad.
+  affects: Candidates, officeholders, political committees, and people who spend over $100 on, or are paid to run, political ads.
+  where: Filed Nov. 9, 2026 by Rep. Gámez; no other action yet.
+  summary:
+    text: "A person commits an offense if the person violates this section. An offense under this section is a Class A misdemeanor."
+    title: HB 671 as filed, Sec. 1 (new Election Code 255.0015(d))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00671I.htm
+    retrieved: '2026-11-15'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 9, 2026
+  big: HB 639 · HB 671
+  head: Two Texas House of Representatives bills would make an unlabeled fake image, audio or video of a candidate in a political ad a crime.
+- chip: Word for word
+  head: HB 639 and HB 671 have the same text.
+  text: "Both are the same Texas Legislative Council draft (90R 4960). Only the bill number and the author differ: Rep. Bhojani filed HB 639, Rep. Gámez filed HB 671."
+- chip: The law today
+  big: 30 days
+  head: "Texas makes it a crime to create a deep fake video and publish it within 30 days of an election, to hurt a candidate or sway the result."
+  quote: {label: "Election Code 255.004(e): a deep fake video", text: "means a video, created with the intent to deceive, that appears to depict a real person performing an action that did not occur in reality."}
+  text: "Video only. A Class A misdemeanor: up to $4,000, a year in jail, or both (Penal Code 12.21)."
+- chip: Before → after
+  head: "Today's 30-day video crime stays. The bills add a new rule for political ads."
+  rows: [[Covers, "A fake image, audio or video of a candidate's or officeholder's looks, speech or conduct, AI-made or not"],
+         [When, "Any ad meant to influence an election; the bill text sets no 30-day window"],
+         [Allowed if, "The ad says it did not happen, or the only edits are color, brightness and the like"],
+         [Penalty, "A Class A misdemeanor"]]
+  text: "The Texas Ethics Commission would set the label's font, size and color."
+- chip: Who it covers
+  head: "Candidates, officeholders, political committees, people who spend over $100 in a reporting period on political ads, and people paid to run them."
+  text: "Not liable for someone else's ad: online services, internet providers, broadcasters, billboard owners. No fiscal note (cost estimate) is posted yet."
+- chip: What's next
+  head: The Legislature convenes Jan. 12, 2027.
+  text: "Should a fake image, audio or video of a candidate be allowed in an ad as long as the ad says it's fake?"
+caption: |-
+  Today, Texas law makes one kind of election deep fake a crime: a fake video, published within 30 days of an election to hurt a candidate or sway the result.
+
+  HB 639 and HB 671, filed in the Texas House of Representatives for the 2027 session, have the same text word for word. They would keep that rule and add another: a political ad with a fake image, audio or video of a candidate would be a Class A misdemeanor unless the ad says it didn't happen.
+
+  Should a label be enough?
+hashtags: [txlege, texaslegislature, deepfakes, elections, votetherecord]
+notes: >-
+  Split from the five-bill post (2026-11-17-texas-ai-political-ad-bills) at the owner's request: one post per
+  bill, twins together. Twin check 2026-11-15: the introduced texts of HB 639 and HB 671 match word for word
+  except the bill number and author (both 90R4960 MZM-D). "The commission" in new 255.0015(c) is read as the
+  Texas Ethics Commission (Election Code's defined term). Records opened 2026-11-15: the Nov. 9 filing report,
+  both bill histories (filed, no other action; no fiscal notes on the Text pages), both introduced texts,
+  Election Code 255.004 and Penal Code 12.21. Please double-check whether any court ruling affects Election
+  Code 255.004 before this runs; none was opened and the post states only the statute's text.

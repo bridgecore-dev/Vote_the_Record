@@ -1,0 +1,70 @@
+kind: carousel
+level: state
+place: Texas
+topic: Elections
+approval: review
+record_ids: [tx/90R/HB 427/filed]
+publish_after: '2026-11-18T21:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 9, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-09
+  retrieved: '2026-11-15'
+- title: Texas Election Code, Sec. 255.004
+  url: https://statutes.capitol.texas.gov/Docs/EL/htm/EL.255.htm
+  retrieved: '2026-11-15'
+- title: Texas Penal Code, Sec. 12.21
+  url: https://statutes.capitol.texas.gov/Docs/PE/htm/PE.12.htm
+  retrieved: '2026-11-15'
+bills:
+- id: HB 427
+  does: Would widen today's 30-day deep fake video crime to AI-made or altered images, audio, video and text.
+  affects: Anyone who makes such media to injure a candidate or sway an election. Satire and parody are exempt.
+  where: Filed Nov. 9, 2026 by Rep. Mary González; no other action yet.
+  summary:
+    text: >-
+      an image, an audio recording, including a recording of an
+      individual's speech, a video recording, a radio broadcast, or written text created or modified using
+      generative artificial intelligence technology or other computer software with the intent to deceive
+    title: HB 427 as filed, Sec. 1, defining artificially generated media (Election Code 255.004(e))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00427I.htm
+    retrieved: '2026-11-15'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 9, 2026
+  big: HB 427
+  head: A Texas House of Representatives bill would widen Texas's election deep fake crime from video to AI-made images, audio and text.
+- chip: The law today
+  big: 30 days
+  head: "Texas makes it a crime to create a deep fake video and publish it within 30 days of an election, to hurt a candidate or sway the result."
+  quote: {label: "Election Code 255.004(e): a deep fake video", text: "means a video, created with the intent to deceive, that appears to depict a real person performing an action that did not occur in reality."}
+  text: "Video only. A Class A misdemeanor: up to $4,000, a year in jail, or both (Penal Code 12.21)."
+- chip: Before → after
+  head: "The same crime, for more kinds of media."
+  rows: [[Before, "A video that appears to show a real person doing something that didn't happen"],
+         [After, "An image, audio (including speech), video, radio broadcast or written text made or changed with AI or other software to deceive"],
+         [Unchanged, "Only with intent to hurt a candidate or sway the result, and only if published within 30 days of an election"]]
+  text: "The bill doesn't change the penalty."
+- chip: Who's exempt
+  head: "Satire and parody, and some ads that others only carry."
+  text: "Exempt: political ads a broadcaster, website, streaming service, app or online platform is paid to run, and ads shown in real news coverage with a clear notice that their authenticity is in question."
+- chip: What's next
+  head: The Legislature convenes Jan. 12, 2027.
+  text: "Should today's deep fake crime cover fake images, audio and text, not just video? No fiscal note (cost estimate) is posted yet."
+caption: |-
+  Today, Texas law makes one kind of election deep fake a crime: a fake video, published within 30 days of an election to hurt a candidate or sway the result.
+
+  HB 427, filed in the Texas House of Representatives for the 2027 session by Rep. Mary González, would keep the 30-day window and the intent to hurt a candidate or sway the result, but widen what counts: images, audio, video, radio broadcasts or written text made or changed with AI or other software to deceive.
+
+  Satire, parody, paid ads others only carry, and real news coverage with a clear notice are exempt.
+
+  Should the crime cover more than video?
+hashtags: [txlege, texaslegislature, deepfakes, elections, votetherecord]
+notes: >-
+  Split from the five-bill post (2026-11-17-texas-ai-political-ad-bills) at the owner's request: one post per
+  bill. "Rep. Mary González" distinguishes her from Rep. Jessica González (TLO filing report: "González, Mary";
+  bill text: "González of El Paso"). HB 427 amends 255.004(d) and (e) and adds (f); it strikes the words "that
+  appears to depict a real person performing an action that did not occur in reality", and the slide's "before"
+  quote matches the bracketed (struck) text in the bill. It doesn't amend the penalty. Records opened
+  2026-11-15: the Nov. 9 filing report, the bill history (filed, no other action; no fiscal note on the Text
+  page), the introduced text, Election Code 255.004 and Penal Code 12.21. Please double-check whether any court
+  ruling affects Election Code 255.004 before this runs; none was opened and the post states only the
+  statute's text.
