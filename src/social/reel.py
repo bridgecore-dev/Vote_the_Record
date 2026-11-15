@@ -57,6 +57,15 @@ SAY_WORDS = 45
 # what they had: the data center Reel published Nov. 14 explains five.
 REEL_BILLS = 2
 REEL_BILLS_FROM = "2026-11-15"
+ONE_BILL_FROM = "2026-11-16"  # one bill per Reel, except twins (owner's decision, 2026-11-15)
+CHAMBERS_FROM = "2026-11-19"  # the voice names the chamber in full (owner's request, 2026-11-15)
+STATES = ("Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Florida|Georgia|Hawaii|Idaho|"
+          "Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maine|Maryland|Massachusetts|Michigan|Minnesota|"
+          "Mississippi|Missouri|Montana|Nebraska|Nevada|New Hampshire|New Jersey|New Mexico|New York|North Carolina|"
+          "North Dakota|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode Island|South Carolina|South Dakota|Tennessee|Texas|"
+          "Utah|Vermont|Virginia|Washington|West Virginia|Wisconsin|Wyoming")
+CHAMBER = re.compile(r"\b(House|Senate)\b")
+NAMED_CHAMBER = re.compile(rf"(?:\bUnited States|\bU\.S\.|\b(?:{STATES})(?:'s)?|\bWhite) $")
 VOICED_FROM = "2026-11-15"  # every Reel has a voice from here on (owner's request, 2026-11-15)
 DISCLOSURE = "Voice: computer-generated (Kokoro text-to-speech)."
 VOICE = {"name": "af_heart", "speed": 1.0}  # af_heart: Kokoro's clearest American English voice
@@ -187,8 +196,13 @@ def phrases(text: str, most: int = 6) -> list[str]:
     return out
 
 
+# a period after these is an abbreviation, not the end of a sentence ("U.S. House", "Rep. Bost", "Nov. 11")
+ABBREV = "".join(rf"(?<!\b{a}\.)" for a in (r"U\.S", "Rep", "Sen", "Gov", "Mr", "Ms", "Dr", "St", r"H\.R", "No", "Jan", "Feb",
+                                                "Mar", "Apr", "Aug", "Sept", "Oct", "Nov", "Dec"))
+
+
 def sentences(text: str) -> list[str]:
-    return [x for x in re.split(r"(?<=[.!?])\s+(?=[A-Z0-9\"“])", text.strip()) if x.strip()]
+    return [x for x in re.split(ABBREV + r"(?<=[.!?])\s+(?=[A-Z0-9\"“])", text.strip()) if x.strip()]
 
 
 # ---------------------------------------------------------------- how numbers are read aloud
@@ -279,6 +293,13 @@ def says(post: dict) -> list[tuple[str, str, str]]:
     return out
 
 
+def twins(bills: list[dict]) -> bool:
+    """Two bills with the same text (a House bill and its Senate companion), as the post's `does` says."""
+    a, b = bills
+    same = lambda x, y: str(x.get("does") or "").lower().startswith(f"same text as {str(y.get('id') or '').lower()}")
+    return same(a, b) or same(b, a)
+
+
 def visible(s: dict) -> str:
     """Every word a slide shows."""
     q = s.get("quote") or {}
@@ -317,6 +338,15 @@ def check(post: dict) -> list[str]:
         silent += [f"bill {b.get('id')}" for b in bills if "say" not in b]
         if silent:
             errs.append("every Reel has a voice: add say to " + ", ".join(silent))
+    when = str(post.get("publish_after") or "")[:10]
+    if post.get("kind") == "reel" and len(bills) == 2 and when >= ONE_BILL_FROM and not twins(bills):
+        errs.append("a Reel covers one bill; two only when they are twins with the same text (one bill's `does` "
+                    "starts \"Same text as <the other's id>\"); give the other bill its own post")
+    if post.get("kind") == "reel" and when >= CHAMBERS_FROM:
+        for where, say, _ in says(post):
+            m = CHAMBER.search(str(say))
+            if m and not NAMED_CHAMBER.search(str(say)[:m.start()]):
+                errs.append(f"{where}: say \"{m[0]}\" with its name, e.g. \"United States {m[0]}\" or \"Texas {m[0]}\"")
     v = post.get("voice")
     if v not in (None, True):
         if not isinstance(v, dict):

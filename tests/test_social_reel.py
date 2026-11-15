@@ -304,3 +304,29 @@ def test_every_reel_has_a_voice():
     assert any("add say to slide 2, bill HB 1" in e for e in reel.check(post))
     old = dict(post, publish_after="2026-11-14T07:30:00-06:00")
     assert not any("every Reel has a voice" in e for e in reel.check(old))  # published before the rule
+
+
+def test_one_bill_per_reel_except_twins():
+    hb = {"id": "HB 774", "does": "Caps gifts."}
+    sb = {"id": "SB 373", "does": "Same text as HB 774; caps gifts."}
+    post = {"kind": "reel", "publish_after": "2026-11-18T07:30:00-06:00", "slides": [{"head": "a"}],
+            "bills": [hb, {"id": "SB 9", "does": "Other."}]}
+    assert any("a Reel covers one bill" in e for e in reel.check(post))
+    assert not any("a Reel covers one bill" in e for e in reel.check(dict(post, bills=[hb, sb])))
+    assert not any("a Reel covers one bill" in e for e in reel.check(dict(post, publish_after="2026-11-15T19:00:00-06:00")))
+
+
+@pytest.mark.parametrize("say, ok", [
+    ("The United States House passed it.", True), ("The U.S. Senate votes next.", True),
+    ("The Texas House and the Texas Senate", True), ("A White House statement.", True),
+    ("The House passed it.", False), ("Next: the Senate.", False), ("No chamber here.", True),
+])
+def test_reels_name_the_chamber(say, ok):
+    post = {"kind": "reel", "publish_after": "2026-11-19T07:30:00-06:00", "slides": [{"head": say, "say": say}],
+            "caption": "x\n\nVoice: computer-generated (Kokoro text-to-speech)."}
+    assert (not any("with its name" in e for e in reel.check(post))) == ok
+
+
+def test_abbreviations_do_not_end_a_sentence():
+    assert reel.sentences("The U.S. House passed it on Nov. 11. Rep. Bost spoke. Next: the Senate.") == [
+        "The U.S. House passed it on Nov. 11.", "Rep. Bost spoke.", "Next: the Senate."]
