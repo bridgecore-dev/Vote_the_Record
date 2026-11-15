@@ -2,55 +2,71 @@ kind: reel
 level: congress
 topic: Health care
 approval: review
-record_ids: ["us/119/H.R. 4464/house-floor-schedule-2026-11-16"]
-publish_after: '2026-11-15T19:00:00-06:00'
-rule: >-
-  From the House suspension list for the week of Nov. 16, 2026, we pick the bills that apply across the whole
-  federal government (every agency, or Congress's budget office) rather than one place, trail, tribe or land
-  transfer. Each gets its own post with the same structure. This week that is H.R. 7934 and H.R. 4464.
+record_ids:
+- us/119/H.R. 4464/house-floor-schedule-2026-11-16
+publish_after: '2026-11-15T20:30:00-06:00'
+rule: From the House suspension list for the week of Nov. 16, 2026, we pick the bills that apply across the whole federal
+  government (every agency, or Congress's budget office) rather than one place, trail, tribe or land transfer. Each gets its
+  own post with the same structure. This week that is H.R. 7934 and H.R. 4464.
 sources:
-- title: "U.S. House, Bills to be Considered on the House Floor, Week of Nov. 16, 2026 (docs.house.gov, last updated Nov. 13, 2026)"
+- title: U.S. House, Bills to be Considered on the House Floor, Week of Nov. 16, 2026 (docs.house.gov, last updated Nov. 13,
+    2026)
   url: https://docs.house.gov/floor/Default.aspx?date=2026-11-16
   retrieved: '2026-11-15'
-- title: "H.R. 4464, Preventive Health Savings Act, text as reported (docs.house.gov)"
+- title: H.R. 4464, Preventive Health Savings Act, text as reported (docs.house.gov)
   url: https://docs.house.gov/billsthisweek/20261116/h4464_rh_xml.pdf
   retrieved: '2026-11-15'
 - title: Congress.gov, H.R. 4464 actions and cosponsors
   url: https://api.congress.gov/v3/bill/119/hr/4464/actions
   retrieved: '2026-11-15'
-- title: "House Practice: A Guide to the Rules, Precedents and Procedures of the House, Chapter 53. Suspension of Rules (GPO)"
+- title: 'House Practice: A Guide to the Rules, Precedents and Procedures of the House, Chapter 53. Suspension of Rules (GPO)'
   url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-54.htm
   retrieved: '2026-11-15'
 bills:
 - id: H.R. 4464
   title: Preventive Health Savings Act
-  does: "On request, CBO would estimate savings from preventive health care up to 30 years out, not just the usual 10."
-  affects: "Congress's budget office (CBO) and the committees that request its estimates on health bills."
-  where: "Approved by the House Budget Committee 29-0 (Sept. 16, 2026). On the House schedule the week of Nov. 16."
+  does: On request, CBO would estimate savings from preventive health care up to 30 years out, not just the usual 10.
+  affects: Congress's budget office (CBO) and the committees that request its estimates on health bills.
+  where: Approved by the House Budget Committee 29-0 (Sept. 16, 2026). On the House schedule the week of Nov. 16.
   summary:
-    text: >-
-      This bill requires the Congressional Budget Office (CBO), upon receiving a request from Congress, to
-      determine if proposed legislation would reduce spending outside of the 10-year budget window through the
-      use of preventive health care.
+    text: This bill requires the Congressional Budget Office (CBO), upon receiving a request from Congress, to determine if
+      proposed legislation would reduce spending outside of the 10-year budget window through the use of preventive health
+      care.
     title: Congressional Research Service summary of H.R. 4464
     url: https://api.congress.gov/v3/bill/119/hr/4464/summaries
     retrieved: '2026-11-15'
+  say: H.R. 4464, the Preventive Health Savings Act. On request, CBO would estimate savings from preventive health care up
+    to 30 years out, not just the usual 10.
 slides:
-- kicker: "U.S. House · Week of Nov. 16"
+- kicker: U.S. House · Week of Nov. 16
   big: 10 → 30 years
   head: A bill on the House schedule would let Congress's budget office count health savings decades out.
-- chip: "Before → after"
-  head: "Now, CBO's cost estimates cover a 10-year window. The bill lets it also look at years 11 through 30."
+  say: 'A bill on the House schedule this week would let Congress''s budget office count health savings decades out: 30 years
+    instead of 10.'
+- chip: Before → after
+  head: Now, CBO's cost estimates cover a 10-year window. The bill lets it also look at years 11 through 30.
   rows:
-  - [Before, "Savings past year 10 aren't in the estimate"]
-  - [After, "CBO estimates preventive-care savings in years 11-30"]
-  - [Only if, "Both parties' leaders on two committees ask"]
+  - - Before
+    - Savings past year 10 aren't in the estimate
+  - - After
+    - CBO estimates preventive-care savings in years 11-30
+  - - Only if
+    - Both parties' leaders on two committees ask
+  say: Before and after. Now, CBO's cost estimates cover a 10-year window. The bill lets it also estimate preventive-care
+    savings in years 11 through 30, but only if both parties' leaders on two committees ask.
 - chip: The limit
   head: The longer-range number is extra information. It can't be used to meet budget rules.
-  quote: {label: "H.R. 4464, as reported", text: "shall be used as a supplementary estimate and may not be used to determine compliance with the Congressional Budget Act of 1974 or any other budgetary enforcement controls."}
+  quote:
+    label: H.R. 4464, as reported
+    text: shall be used as a supplementary estimate and may not be used to determine compliance with the Congressional Budget
+      Act of 1974 or any other budgetary enforcement controls.
+  say: 'The limit: the longer-range number is extra information. It can''t be used to meet budget rules.'
 - chip: Where it stands
-  head: "Sponsor: Rep. Jay Obernolte (R-CA), with 17 Republican and 8 Democratic cosponsors. Committee vote: 29-0."
-  text: "It needs two-thirds of those voting to pass. Should long-term health savings count? Tell us."
+  head: 'Sponsor: Rep. Jay Obernolte (R-CA), with 17 Republican and 8 Democratic cosponsors. Committee vote: 29-0.'
+  text: It needs two-thirds of those voting to pass. Should long-term health savings count? Tell us.
+  say: The sponsor is Representative Jay Obernolte, Republican of California, with 17 Republican and 8 Democratic cosponsors.
+    The committee vote was 29 to 0. It needs two thirds of those voting to pass. Should long-term health savings count? Tell
+    us.
 caption: |-
   When Congress weighs a health bill, its budget office estimates the cost over 10 years. Savings that show up later aren't counted.
 
@@ -59,11 +75,16 @@ caption: |-
   That longer estimate is extra information only: it can't be used to meet budget rules.
 
   The House Budget Committee approved it 29-0. Should long-term health savings count? Tell us below.
-hashtags: [congress, healthcare, federalbudget, votetherecord]
-notes: >-
-  Picked by the stated rule; H.R. 7934 gets a matching post. "Years 11 through 30" is the bill's definition of
-  budgetary outyears ("2 consecutive 10-year periods beginning with the first fiscal year that is 10 years after
-  the current fiscal year"); check that reading. "Both parties' leaders" = the chair and ranking minority member
-  of the Budget Committee and of the committee of primary jurisdiction, in either chamber, per the text. No
-  committee report is filed, so there is no case for/against from an official source; cbo.gov (CBO's estimate of
-  this bill, publication 62871) returned a bot check and wasn't retried. Cosponsor party counts from congress.gov.
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags:
+- congress
+- healthcare
+- federalbudget
+- votetherecord
+notes: Picked by the stated rule; H.R. 7934 gets a matching post. "Years 11 through 30" is the bill's definition of budgetary
+  outyears ("2 consecutive 10-year periods beginning with the first fiscal year that is 10 years after the current fiscal
+  year"); check that reading. "Both parties' leaders" = the chair and ranking minority member of the Budget Committee and
+  of the committee of primary jurisdiction, in either chamber, per the text. No committee report is filed, so there is no
+  case for/against from an official source; cbo.gov (CBO's estimate of this bill, publication 62871) returned a bot check
+  and wasn't retried. Cosponsor party counts from congress.gov.

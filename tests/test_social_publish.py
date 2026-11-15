@@ -31,3 +31,33 @@ def test_comment_marks_review_and_shows_where_it_was_found():
     assert "Found via (not a source, never published): https://news.example/story" in text
     assert "![A card.](https://media.example/previews/x/slide-01.png)" in text
     assert "> Hi." in text
+
+
+class FakeBucket:
+    def __init__(self, state):
+        self.state, self.saved = state, None
+
+    def put_object(self, Bucket, Key, Body, ContentType):
+        self.saved = Body
+
+
+def test_take_down_deletes_every_media_and_keeps_the_post_marked(monkeypatch):
+    import json
+    state = {"2026-11-15-x": {"media": ["111"], "permalink": "https://www.instagram.com/reel/x/", "published": "t"}}
+    fake, calls = FakeBucket(state), []
+    monkeypatch.setattr(publish, "bucket", lambda: (fake, "b"))
+    monkeypatch.setattr(publish, "load_state", lambda c, n: state)
+    monkeypatch.setattr(publish, "graph", lambda method, path, **k: calls.append((method, path)) or {"success": True})
+    publish.take_down("2026-11-15-x")
+    assert calls == [("DELETE", "111")]
+    saved = json.loads(fake.saved)["2026-11-15-x"]
+    assert saved["removed"] and saved["media"] == ["111"]  # still in state, so it never posts again
+    publish.take_down("2026-11-15-x")  # a second take-down deletes nothing
+    assert calls == [("DELETE", "111")]
+
+
+def test_take_down_refuses_names_that_are_not_posts(monkeypatch):
+    import pytest
+    monkeypatch.setattr(publish, "bucket", lambda: (_ for _ in ()).throw(AssertionError("no bucket")))
+    with pytest.raises(SystemExit):
+        publish.take_down("../state")
