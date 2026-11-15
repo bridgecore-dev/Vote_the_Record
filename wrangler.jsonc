@@ -26,6 +26,11 @@
 			"remote": true
 		}
 	],
+	// Every 10 minutes, 5:00 a.m.-10:50 p.m. Central standard time (UTC here): start the social-publish
+	// workflow (src/worker/index.js dispatchPublish), since GitHub drops most scheduled runs.
+	"triggers": {
+		"crons": ["*/10 11-23,0-4 * * *"]
+	},
 	"workers_dev": true,
 	"preview_urls": true,
 	// Required by `npx wrangler preview`, which Cloudflare runs for non-main branches.

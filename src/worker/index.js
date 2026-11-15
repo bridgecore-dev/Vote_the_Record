@@ -7,6 +7,8 @@
 // - POST /api/locate: finds an address on the map for the ballot lookup. The address is
 //   passed to the U.S. Census Bureau geocoder and only the location and county come back.
 //   Nothing is stored or logged, and the visitor's IP address is not passed on.
+// On a timer (wrangler.jsonc "triggers"), it also asks GitHub to run the social-publish workflow, because GitHub
+// drops most of that workflow's own scheduled runs. It does nothing until the GITHUB_DISPATCH_TOKEN secret is set.
 
 export const LIMITS = { item: 200, problem: 3000, source: 500, contact: 200 };
 const MIN_PROBLEM = 10;
@@ -98,7 +100,36 @@ export async function handleLocate(request, fetchFn = fetch) {
   });
 }
 
+// The publish workflow to start on each timer tick (docs/SOCIAL_ROUTINE.md, src/social/publish.py).
+export const DISPATCH = {
+  url: "https://api.github.com/repos/bridgecore-dev/Vote_the_Record/actions/workflows/social-publish.yml/dispatches",
+  ref: "main",
+};
+
+// Starts one publish run. The token is a fine-grained GitHub token for this repository only, with
+// Actions read and write; it is a Worker secret, never in the repo, and never logged.
+export async function dispatchPublish(env, fetcher = fetch) {
+  if (!env.GITHUB_DISPATCH_TOKEN) return "no token";
+  const res = await fetcher(DISPATCH.url, {
+    method: "POST",
+    headers: {
+      Authorization: `Bearer ${env.GITHUB_DISPATCH_TOKEN}`,
+      Accept: "application/vnd.github+json",
+      "X-GitHub-Api-Version": "2022-11-28",
+      "User-Agent": "vote-the-record-worker",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ ref: DISPATCH.ref }),
+  });
+  if (res.status !== 204) throw new Error(`GitHub dispatch failed: HTTP ${res.status}`);
+  return "dispatched";
+}
+
 export default {
+  async scheduled(controller, env, ctx) {
+    ctx.waitUntil(dispatchPublish(env));
+  },
+
   async fetch(request, env) {
     const url = new URL(request.url);
     if (url.pathname === "/api/report") {
