@@ -1,0 +1,101 @@
+kind: reel
+level: state
+place: Texas
+topic: Taxes
+approval: review
+rule: Every bill filed Nov. 16, 2026 that would put a new tax to a local vote (said on the last slide).
+record_ids: [tx/90R/HB 1177/filed]
+publish_after: '2026-11-20T19:30:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 16, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-16
+  retrieved: '2026-11-16'
+- title: Texas Legislature Online, HB 1177 bill history (90th Legislature)
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1177
+  retrieved: '2026-11-16'
+- title: Texas Tax Code, Sec. 151.051 (state sales tax rate)
+  url: https://statutes.capitol.texas.gov/Docs/TX/htm/TX.151.htm
+  retrieved: '2026-11-16'
+- title: Texas Tax Code, Sec. 321.101 (municipal sales tax)
+  url: https://statutes.capitol.texas.gov/Docs/TX/htm/TX.321.htm
+  retrieved: '2026-11-16'
+- title: Texas Tax Code, Sec. 323.101 (county sales tax)
+  url: https://statutes.capitol.texas.gov/Docs/TX/htm/TX.323.htm
+  retrieved: '2026-11-16'
+- title: Texas Tax Code, Sec. 26.041 (tax rate of a unit imposing an additional sales tax)
+  url: https://statutes.capitol.texas.gov/Docs/TX/htm/TX.26.htm
+  retrieved: '2026-11-16'
+bills:
+- id: HB 1177
+  does: Would let a city or county, with voter approval, add a sales tax of up to 1% that doesn't count toward the 2% local limit.
+  affects: Shoppers and property taxpayers in any Texas city or county whose voters approve the tax.
+  where: Filed Nov. 16, 2026 by Rep. Barry; no other action yet.
+  summary:
+    text: >-
+      A municipality or county may adopt or abolish a supplemental local sales and use tax at an election held in the
+      municipality or county.
+    title: HB 1177 as filed, Sec. 1 (new Tax Code 328.0051)
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01177I.htm
+    retrieved: '2026-11-16'
+  say: HB 1177 would let a city or county, with voter approval, add a sales tax of up to 1% that doesn't count toward the 2%
+    local limit. It was filed November 16 by Representative Barry, with no other action yet.
+slides:
+- kicker: 2027 Texas session · Filed Nov. 16, 2026
+  big: Up to 1%
+  head: A Texas House of Representatives bill would let city or county voters add a sales tax of up to 1%, outside today's local limit.
+  say: A Texas House of Representatives bill filed November 16 would let city or county voters add a sales tax of up to 1%,
+    outside today's local limit.
+- chip: The law today
+  big: 6.25% + 2%
+  head: Texas charges a 6.25% state sales tax. Cities, counties and other local bodies together may add no more than 2% at any spot.
+  quote: {label: Tax Code 321.101(f), text: "would exceed two percent at any location in the municipality."}
+  text: Local sales taxes already need voter approval (Tax Code 321.101 and 323.101).
+  say: 'The law today: Texas charges a 6.25% state sales tax. Cities, counties and other local bodies together may add no
+    more than 2% at any spot, and local sales taxes need voter approval.'
+- chip: What would change
+  head: A city or county council could call an election on a new "supplemental" sales tax of up to 1%.
+  quote: {label: HB 1177, new Tax Code 328.0003, text: "The rate of a supplemental local sales and use tax may not be considered for purposes of determining the combined local tax rate in any area."}
+  text: So it wouldn't count toward the 2% local limit. The vote would be on the next uniform election date, and voters could later abolish the tax the same way.
+  say: 'What would change: a city or county council could call an election on a new supplemental sales tax of up to 1%. Its
+    rate would not count toward the 2% local limit. Voters could later abolish it.'
+- chip: Where the money goes
+  head: The bill splits the money in two.
+  rows:
+  - [Half, "Lowers the property tax rate it may set without an election"]
+  - [The other half, "Anything its general fund may pay for"]
+  text: The half works like today's voter-approved property tax relief sales tax (Tax Code 26.041). Property tax bills would show how much more property tax there would have been without it.
+  say: 'Where the money goes: half lowers the property tax rate a city or county may set without another election. The other
+    half can pay for anything the general fund covers. Tax bills would show how much more property tax there would have been without it.'
+- chip: Who pays, who gains
+  head: Shoppers would pay up to 1% more on taxable purchases there. Property taxpayers would see half of it used to lower the rate limit.
+  quote: {label: Ballot wording in HB 1177, text: "The adoption of a local sales and use tax in (name of municipality or county) at (rate of tax) to reduce the property tax rate and provide additional revenue for general governmental purposes."}
+  text: No fiscal note (cost estimate) is posted yet.
+  say: 'Who pays and who gains: shoppers would pay up to 1% more on taxable purchases there, and half the money would be used
+    to lower the property tax rate limit. No cost estimate is posted yet.'
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, the bill takes effect on this date. A tax voters approve starts the next Jan. 1 at least six months after the state is told the result.
+  text: "How we picked: every bill filed Nov. 16, 2026 that would put a new tax to a local vote. Would you trade a higher sales tax for a lower property tax rate?"
+  say: If passed as filed, the bill takes effect September 1, 2027. How we picked, every bill filed November 16 that would put
+    a new tax to a local vote. Would you trade a higher sales tax for a lower property tax rate?
+caption: |-
+  Today, Texas adds a 6.25% state sales tax to taxable purchases, and cities, counties and other local bodies together can add no more than 2% at any spot.
+
+  HB 1177, filed in the Texas House of Representatives for the 2027 session, would let a city or county ask its voters for a new sales tax of up to 1% that doesn't count toward that 2% limit. Half the money would lower the property tax rate the city or county may set without another election; the other half could pay for anything its general fund pays for.
+
+  Shoppers would pay more at the register. Property taxpayers would see half of it go to a lower rate limit. No cost estimate is posted yet.
+
+  Would you vote for that trade?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [txlege, texaslegislature, salestax, propertytax, votetherecord]
+notes: >-
+  New today: filed Nov. 16, 2026 (Nov. 16 filing report, 26 bills). Rule: the one bill on that report that would put a
+  new tax to a local vote; HB 1179 (hotel tax cap in certain cities) raises a rate cap without an election, so it doesn't
+  fit. Records opened 2026-11-16: the filing report, the bill history (filed, no other action; the Text page lists no fiscal
+  note), the introduced text (90R5587 RDS-D), and Tax Code 151.051, 321.101, 323.101 and 26.041 (rendered from
+  statutes.capitol.texas.gov). Please double-check slide 4's "Half" row: the bill treats 50% as "additional sales and use
+  tax revenue ... for purposes of Section 26.041", and 26.041 subtracts that revenue (as a rate) in the no-new-revenue and
+  voter-approval rate formulas; the post says only that it lowers the rate a unit may set without an election, not that
+  bills go down. The post doesn't add 6.25 + 2 + 1, since a city and its county could each hold an election under the bill.
+  Rep. Barry as TLO lists the author; no party is shown, the same as other Texas filing posts.
