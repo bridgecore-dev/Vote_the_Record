@@ -1,0 +1,114 @@
+kind: reel
+level: congress
+topic: Student loans
+approval: review
+record_ids: ["us/119/H.R. 1/sec-82002", "us/119/H.R. 1/sec-82003"]
+publish_after: '2026-11-20T07:30:00-06:00'
+sources:
+- title: "Public Law 119-21, enacted text (GPO)"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  retrieved: '2026-11-15'
+- title: "CRS report R48727 (Jan. 8, 2026)"
+  url: https://www.congress.gov/crs_external_products/R/HTML/R48727.html
+  retrieved: '2026-11-15'
+- title: "Education Department final rule, 91 FR 23768"
+  url: https://www.federalregister.gov/documents/2026/05/01/2026-08556/reimagining-and-improving-student-education-federal-student-loan-program-final-regulations
+  retrieved: '2026-11-15'
+- title: "H. Rept. 119-106, Book 1 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt106/html/CRPT-119hrpt106-pt1.htm
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 1
+  title: One Big Beautiful Bill Act
+  does: "A 2025 budget law. For federal Direct Loans made on or after July 1, 2027, it ends two deferments and caps forbearance."
+  affects: "People who take out federal Direct Loans on or after July 1, 2027, and borrowers with loans in default."
+  where: "Signed into law July 4, 2025, as Public Law 119-21."
+  summary:
+    text: >-
+      For Direct Loans made on or after July 1, 2027, P.L. 119-21 eliminates economic hardship deferment and
+      unemployment deferment and limits the receipt of discretionary forbearance on such loans to no more than 9
+      months during a 24-month period.
+    title: "Congressional Research Service, R48727 (updated Jan. 8, 2026)"
+    url: https://www.congress.gov/crs_external_products/R/HTML/R48727.html
+    retrieved: '2026-11-15'
+  say: "H.R. 1, the One Big Beautiful Bill Act, was signed into law July 4, 2025, as Public Law 119-21. For federal Direct Loans made on or after July 1, 2027, it ends two deferments and caps forbearance."
+slides:
+- kicker: "One Big Beautiful Bill Act · What changes in 2027"
+  big: "July 1, 2027"
+  head: "New federal student loans made on or after this date come without two ways to pause payments."
+  text: "H.R. 1, now Public Law 119-21, secs. 82002-82003. Loans made before that date keep the current rules."
+  say: "One Big Beautiful Bill Act: what changes in 2027. Federal student loans made on or after July 1, 2027, come without two ways to pause payments. Loans made before that date keep the current rules."
+- chip: "Before: current law"
+  head: "Today, borrowers who lose a job or face economic hardship can pause payments for years."
+  rows:
+  - [Unemployment deferment, "Up to 3 years in total"]
+  - [Economic hardship deferment, "Up to 3 years in total"]
+  - [Discretionary forbearance, "Up to 12 months at a time; 3-year maximum set by the Education Department"]
+  - [Getting out of default, "Rehabilitate a loan once; payments as low as $5"]
+  by: "Congressional Research Service, R48727 (updated Jan. 8, 2026)"
+  say: "Before, under current law: unemployment and economic hardship deferments each last up to 3 years in total. Forbearance runs up to 12 months at a time, with a 3-year maximum. A defaulted loan can be rehabilitated once, with payments as low as $5."
+- chip: "After: loans made on or after July 1, 2027"
+  head: "No unemployment or economic hardship deferment, and a tighter limit on forbearance."
+  rows:
+  - [Unemployment deferment, "None"]
+  - [Economic hardship deferment, "None"]
+  - [Forbearance, "No more than 9 months in any 24-month period"]
+  - [Rehabilitation payment, "At least $10 a month"]
+  by: "Public Law 119-21, secs. 82002 and 82003(b); federal Direct Loans"
+  say: "After, for loans made on or after July 1, 2027: no unemployment or economic hardship deferment. Forbearance is capped at 9 months in any 24-month period. And rehabilitation payments must be at least $10 a month."
+- chip: "Who gains, who loses"
+  head: "New borrowers get fewer ways to pause. Borrowers in default get a second chance."
+  rows:
+  - [Fewer options, "Anyone who takes out a federal Direct Loan on or after July 1, 2027"]
+  - [Second chance, "From July 1, 2027, any federal student loan can be rehabilitated twice, not once"]
+  quote: {label: "Education Department final rule, 91 FR 23768 (May 1, 2026)", text: "borrowers with loans made before July 1, 2027, will retain the economic hardship and unemployment deferment benefit for loans made before July 1, 2027."}
+  text: "Questions about your own loans: studentaid.gov"
+  say: "Who gains, who loses. Anyone taking out a federal Direct Loan on or after July 1, 2027, gets fewer ways to pause. From that date, any federal student loan can be rehabilitated twice, not once. Older loans keep both deferments, the Education Department says."
+- chip: "What it costs"
+  big: "$280 million"
+  head: "More federal spending from the deferment and forbearance changes, 2025-2034, CBO estimates."
+  rows:
+  - [Second rehabilitation and $10 minimum, "$115 million more"]
+  - ["Same law, repayment-plan changes", "About $271 billion less"]
+  by: "Congressional Budget Office estimates, as the Congressional Research Service reports them (R48727)"
+  say: "What it costs: the deferment and forbearance changes add $280 million in federal spending from 2025 to 2034, CBO estimates. The rehabilitation changes add $115 million. The same law's repayment-plan changes cut about $271 billion."
+- chip: "The case for"
+  head: "The committee majority said its plan would cut complexity and protect borrowers and taxpayers."
+  quote: {label: "Committee on Education and the Workforce, U.S. House of Representatives · H. Rept. 119-106, committee views (House version, May 2025)", text: "To reduce complexity and protect borrowers and taxpayers from unaffordable debt, House Republicans are proposing to pare back the maze of options and curb excess loan forgiveness windfalls provided to those who don't need them."}
+  say: "The case for: the majority of the United States House Committee on Education and the Workforce said its plan would reduce complexity and protect borrowers and taxpayers from unaffordable debt."
+- chip: "The case against"
+  head: "Committee Democrats said the new repayment options are less generous. They praised the second rehabilitation."
+  quote: {label: "Minority views signed by Ranking Member Robert C. \"Bobby\" Scott (D-VA) and other committee Democrats, H. Rept. 119-106 (House version)", text: "It creates new repayment options that are less generous then current law, at a time that we know borrowers are struggling to repay their loans."}
+  text: "On rehabilitation, the same views say: \"The Committee Print admirably left in place a provision to allow borrowers to rehabilitate their defaulated loans twice, rather than the current limit of just once.\" (Spelling as in the report.)"
+  say: "The case against: committee Democrats, led by Ranking Member Bobby Scott, Democrat of Virginia, said the new repayment options are less generous than current law while borrowers struggle. They praised one change: rehabilitating defaulted loans twice, rather than once."
+caption: |-
+  One Big Beautiful Bill Act: what changes in 2027. On July 1, 2027, three student loan rules change for new federal Direct Loans made on or after that date. The second rehabilitation covers any federal student loan.
+
+  Before: unemployment and economic hardship deferments, up to 3 years each; forbearance up to 12 months at a time; one rehabilitation, with payments as low as $5.
+  After, for new loans: no unemployment or hardship deferment, forbearance capped at 9 months in any 24, and a $10 minimum rehabilitation payment.
+
+  Cost (CBO, as CRS reports it): $280 million for deferment and forbearance, $115 million for rehabilitation, 2025-2034.
+
+  For: the committee majority in the U.S. House of Representatives said it cuts complexity and protects borrowers and taxpayers. Against: committee Democrats, led by Rep. Robert C. "Bobby" Scott (D-VA), said the new repayment options are less generous, while praising the second rehabilitation.
+
+  Older loans keep both deferments. Questions: studentaid.gov
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [studentloans, financialaid, congress, votetherecord]
+notes: >-
+  Part of the "what changes in 2027" series on the One Big Beautiful Bill Act, the owner's request (2026-11-15).
+  Please double-check: (1) The committee quotes (H. Rept. 119-106, Book 1) are about the House version (May 2025),
+  which ended the deferments for loans disbursed on or after July 1, 2025; the law moved that to July 1, 2027. Both
+  labels say "House version". (2) The minority's "less generous" quote is about the bill's new repayment options in
+  general (sec. 82001 area), not the deferment section; it is the minority's strongest on-point line in the sheet.
+  The "duplicative and unnecessary" words are from the same report's account of an amendment by Rep. Ilhan Omar
+  (D-MN-05) to keep the deferments, defeated 14 ayes, 21 nays; the amendment is not on a slide. (3) CBO figures
+  come from CRS R48727 (cbo.gov showed a captcha and was not used). CRS text gives FY2025-FY2034, but its Table 1
+  header says FY2025-FY2035; check. CRS gives no reason the deferment cut raises outlays, so the slide gives none.
+  (4) 82002 applies to loans "made under this part" (Direct Loans); the second rehabilitation (82003(a)) applies to
+  "any loan made, insured, or guaranteed under title IV" from July 1, 2027, so slide 4 and the caption say "any
+  federal student loan". The $10 minimum is for Direct Loans made on or after July 1, 2027. (5) No official count of
+  affected borrowers was found. studentaid.gov is offered as where to ask about your loans; no studentaid.gov page
+  on the 2027 changes was found, and it is not listed as a source. (6) The Education Department now calls the law the
+  "Working Families Tax Cuts Act" (91 FR 23768); the post uses the enacted short title. Scott's party and state are
+  as the report lists them ("D- VA-03").

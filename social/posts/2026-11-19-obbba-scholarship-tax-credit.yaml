@@ -1,0 +1,111 @@
+kind: reel
+level: congress
+topic: Education
+approval: review
+voice: true
+record_ids:
+- us/119/H.R. 1/sec-70411
+- us/119/1/senate/roll/358
+publish_after: '2026-11-19T13:30:00-06:00'
+sources:
+- title: "Public Law 119-21, text (GPO): sec. 70411"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  retrieved: '2026-11-15'
+- title: "IRS, Federal Scholarship Tax Credit: participating states"
+  url: https://www.irs.gov/government-entities/federal-state-local-governments/federal-scholarship-tax-credit-fstc-participating-states
+  retrieved: '2026-11-15'
+- title: "CRS report R48724"
+  url: https://www.congress.gov/crs_external_products/R/PDF/R48724/R48724.2.pdf
+  retrieved: '2026-11-15'
+- title: "Congressional Record, Senate, June 30, 2025 legislative day"
+  url: https://www.govinfo.gov/content/pkg/CREC-2025-06-30/html/CREC-2025-06-30-pt1-PgS4037-6.htm
+  retrieved: '2026-11-15'
+- title: "U.S. Senate, Roll Call Vote 358 (2025)"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00358.xml
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 1
+  title: One Big Beautiful Bill Act
+  does: "Cuts taxes, raises or lowers spending on many federal programs, and raises the federal debt limit."
+  affects: "Federal taxpayers, and agencies and programs throughout the federal government."
+  where: "Signed into law July 4, 2025, as Public Law 119-21."
+  summary:
+    text: >-
+      This act reduces taxes, reduces or increases spending for various federal programs, increases the statutory
+      debt limit, and otherwise addresses agencies and programs throughout the federal government.
+    title: "CRS summary of H.R. 1 as enacted (bill status, GPO)"
+    url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr1.xml
+    retrieved: '2026-11-15'
+  say: "H.R. 1, the One Big Beautiful Bill Act, cuts taxes, raises or lowers spending on many federal programs, and raises the federal debt limit. It was signed into law July 4, 2025, as Public Law 119-21."
+slides:
+- kicker: "One Big Beautiful Bill Act · What changes in 2027"
+  chip: Starts Jan. 1, 2027
+  big: "$1,700"
+  head: "A new federal tax credit for gifts to K-12 scholarship groups starts Jan. 1, 2027. It's section 70411 of H.R. 1."
+  say: "Starting January 1, 2027, a new federal tax credit of up to $1,700 covers gifts to groups that give K-12 scholarships. It's section 70411 of H.R. 1, the One Big Beautiful Bill Act."
+- chip: "Before → after"
+  head: "Before: no federal credit for these gifts. After: up to $1,700 per taxpayer."
+  rows:
+  - [Before, "No federal tax credit for these gifts"]
+  - [After, "Up to $1,700 per taxpayer, nonrefundable"]
+  - ["Married, filing jointly", "Each spouse may claim $1,700: $3,400 in all"]
+  - [State credits, "The federal credit is cut by any state credit for the same gift"]
+  by: "Public Law 119-21, sec. 70411; IRS FSTC page"
+  say: "Before: no federal tax credit for these gifts. After: up to $1,700 per taxpayer, or $3,400 for a married couple filing jointly. The federal credit is cut by any state credit for the same gift."
+- chip: Who it reaches
+  head: "Only cash gifts to scholarship groups in states that choose to take part. Students must be eligible for public school."
+  quote: {label: "Public Law 119-21, sec. 70411: a student's household income", text: "is not greater than 300 percent of the area median gross income"}
+  text: "Who gains: donors who claim the credit, and students who get the scholarships."
+  say: "Only cash gifts to scholarship groups in states that choose to take part count. Students must be eligible for public school, with household income no more than 300 percent of the area median. Who gains: donors who claim it, and students who get scholarships."
+- chip: Which states are in
+  big: 31 states
+  head: "The IRS lists 31 states taking part in 2027, as of Nov. 13, 2026, including Texas. Donors may live in any state."
+  text: "Alabama, Alaska, Arkansas, Colorado, Florida, Georgia, Idaho, Indiana, Iowa, Kansas, Kentucky, Louisiana, Mississippi, Missouri, Montana, Nebraska, Nevada, New Hampshire, New Mexico, North Carolina, North Dakota, Ohio, Oklahoma, South Carolina, South Dakota, Tennessee, Texas, Utah, Virginia, West Virginia, Wyoming"
+  by: "IRS, FSTC participating states. Check your state's approved groups at irs.gov."
+  say: "The IRS lists 31 states taking part in 2027, as of November 13, 2026, and Texas is one of them. Donors may live in any state. Check your state's approved groups at irs.gov."
+- chip: What it costs
+  big: "$26 billion"
+  head: "Less federal revenue in fiscal years 2025 to 2034, mostly from 2028 on, the Joint Committee on Taxation estimated."
+  quote: {label: "Congressional Research Service, R48724", text: "JCT did not identify how it estimated the number of states that would participate"}
+  by: "CRS R48724, citing the Joint Committee on Taxation"
+  say: "What it costs: about $26 billion less federal revenue in fiscal years 2025 to 2034, mostly from 2028 on, the Joint Committee on Taxation estimated, as the Congressional Research Service reports."
+- chip: The case for
+  head: "Sen. Cruz (R-TX) said the credit will pay for school-choice scholarships."
+  quote: {label: "Sen. Cruz (R-TX), U.S. Senate, June 30, 2025 legislative day (Congressional Record, S4063)", text: "This tax credit provision will unleash billions of dollars every single year for scholarships for kids to attend the K through 12 school of their choice."}
+  say: "The case for: Senator Cruz, Republican of Texas, said this tax credit will unleash billions of dollars every single year for scholarships for kids to attend the K through 12 school of their choice."
+- chip: The case against
+  head: "Sen. Hirono (D-HI) moved to strike the section. Her amendment failed 50-50 (roll call 358)."
+  quote: {label: "Sen. Hirono (D-HI), U.S. Senate, June 30, 2025 legislative day (Congressional Record, S4063)", text: "We should be investing in public education for all Americans, not diverting tax dollars to private schools."}
+  rows:
+  - [Republican, "3 Yea · 50 Nay"]
+  - [Democratic, "45 Yea · 0 Nay"]
+  - [Independent, "2 Yea · 0 Nay"]
+  say: "The case against: Senator Hirono, Democrat of Hawaii, said we should be investing in public education for all Americans, not diverting tax dollars to private schools. Her amendment to strike the credit failed in the United States Senate, 50 to 50."
+caption: |-
+  New in 2027: a federal tax credit of up to $1,700 for cash gifts to groups that give K-12 scholarships. It's section 70411 of the One Big Beautiful Bill Act.
+
+  Before: no federal credit for these gifts. After: up to $1,700 per taxpayer ($3,400 for a married couple filing jointly), cut by any state credit for the same gift. Students must be eligible for public school, with household income at or under 300% of area median, in states that opt in.
+
+  The IRS lists 31 states for 2027, as of Nov. 13, 2026. Texas is one. Donors may live in any state.
+
+  Cost: about $26 billion less federal revenue over fiscal 2025-2034, the Joint Committee on Taxation estimated (per CRS).
+
+  For: Sen. Cruz (R-TX). Against: Sen. Hirono (D-HI), whose amendment to strike it failed 50-50 in the U.S. Senate (roll call 358).
+
+  Check your state's approved groups on the IRS page below.
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [schoolchoice, taxes, congress, votetherecord]
+notes: >-
+  Part of the "One Big Beautiful Bill Act: what changes in 2027" series, the owner's request (2026-11-15). Check:
+  (1) The IRS states list is "as of November 13, 2026" and may grow; recheck it before the slot. The IRS page now
+  calls the law the "Working Families Tax Cuts"; it is the same law. (2) The $26 billion is JCT's estimate
+  (JCX-35-25, July 1, 2025) as CRS R48724 quotes it; jct.gov blocked access, so the JCT table itself wasn't opened.
+  No official source in the sheet says how this section is paid for, so the slides don't say. (3) Roll call 358
+  was confirmed on senate.gov ("Amendment Rejected (50-50)", majority 1/2); the party rows are my count from its
+  member list. The three Republicans who voted Yea were Collins (R-ME), Fischer (R-NE) and Murkowski (R-AK); they
+  are not named on the slide for space, but could replace the party rows if you prefer names. (4) Quotes are from
+  Cong. Rec. S4063 (vote-a-rama, legislative day June 30; the vote itself was July 1 at 2:19 AM). Cruz and
+  Hirono's party/state come from the Senate's member lists. (5) Treasury's proposed rules (FR Doc. 2026-20277,
+  Oct. 2, 2026) weren't fully downloaded and aren't used. (6) The 300% test is household income compared with
+  "area median gross income," quoted from the law.

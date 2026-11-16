@@ -1,0 +1,114 @@
+kind: carousel
+level: congress
+topic: Energy
+approval: review
+record_ids: ["us/119/H.R. 1/sec-70511", "us/119/H.R. 1/sec-70512", "us/119/H.R. 1/sec-70513", "us/119/H.R. 1/sec-70514"]
+publish_after: '2026-11-19T21:00:00-06:00'
+sources:
+- title: "Public Law 119-21, enacted text (GPO)"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  retrieved: '2026-11-15'
+- title: "CRS Insight IN12719 (July 27, 2026)"
+  url: https://www.congress.gov/crs_external_products/IN/HTML/IN12719.html
+  retrieved: '2026-11-15'
+- title: "IRS Notice 2025-42"
+  url: https://www.irs.gov/pub/irs-drop/n-25-42.pdf
+  retrieved: '2026-11-15'
+- title: "Congressional Record, Senate, June 30, 2025 legislative day (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CREC-2025-06-30/html/CREC-2025-06-30-pt1-PgS4037-6.htm
+  retrieved: '2026-11-15'
+- title: "H. Rept. 119-106, Book 2 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt106/html/CRPT-119hrpt106-pt2.htm
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 1
+  title: One Big Beautiful Bill Act
+  does: "A 2025 budget law. Ends wind and solar electricity credits for projects placed in service after 2027, unless begun before July 5, 2026."
+  affects: "Wind and solar projects and their owners, and makers of wind energy components."
+  where: "Signed into law July 4, 2025, as Public Law 119-21."
+  summary:
+    text: >-
+      Specifically, to receive the CEITC or CEPTC, wind and solar facilities must either (1) have begun construction
+      before July 5, 2026, or (2) be placed in service (i.e., begin producing electricity) before January 1, 2028.
+    title: "CRS Insight IN12719 (July 27, 2026)"
+    url: https://www.congress.gov/crs_external_products/IN/HTML/IN12719.html
+    retrieved: '2026-11-15'
+slides:
+- kicker: "One Big Beautiful Bill Act · What changes in 2027"
+  big: "Dec. 31, 2027"
+  head: "Wind and solar projects placed in service after this date get no clean electricity tax credit, unless construction began before July 5, 2026."
+  text: "H.R. 1, now Public Law 119-21, secs. 70512 and 70513."
+- chip: "Before: the 2022 credits"
+  head: "Two tax credits paid for electricity from any source with zero or negative greenhouse gas emissions, wind and solar included."
+  rows:
+  - [Production credit (45Y), "3.0 cents per kilowatt-hour, indexed for inflation, for 10 years"]
+  - [Investment credit (48E), "30% of capital investment costs, once"]
+  - [Who could claim, "Facilities placed in service in 2025 or later"]
+  by: "Congressional Research Service, Insight IN12719, Table 1"
+- chip: "After: wind and solar"
+  head: "To get either credit, a wind or solar project must meet one of two dates."
+  rows:
+  - [Construction began, "Before July 5, 2026"]
+  - [Or placed in service, "Before Jan. 1, 2028 (producing electricity)"]
+  - [Other zero-emission sources, "Full credits if construction begins before 2034"]
+  quote: {label: "Public Law 119-21, sec. 70512 (new 26 U.S.C. 45Y(d)(4)(A))", text: "This section shall not apply with respect to any applicable facility placed in service after December 31, 2027."}
+  by: "Dates as CRS Insight IN12719 summarizes them"
+- chip: "Also changing in 2027"
+  head: "The same part of the law sets other end dates and rules tied to 2027."
+  rows:
+  - [Wind parts credit (45X), "None for wind energy components produced and sold after Dec. 31, 2027"]
+  - [Clean hydrogen credit (45V), "Construction must begin before Jan. 1, 2028, instead of Jan. 1, 2033"]
+  - [Foreign-entity limit, "Facilities starting construction in 2027: 45% threshold, up from 40% in 2026 (energy storage: 60%, up from 55%)"]
+  by: "Public Law 119-21, secs. 70511 and 70514, and new 26 U.S.C. 7701(a)(52)"
+- chip: "Proving construction began"
+  head: "The IRS says a wind or solar project shows it began on time through physical work."
+  quote: {label: "IRS Notice 2025-42", text: "Construction of an applicable wind or solar facility begins when physical work of a significant nature begins."}
+  text: "Small solar facilities have a separate safe harbor. A project that began in time can keep the credit if placed in service no more than four calendar years after the year construction began."
+- chip: "Who is affected"
+  head: "Projects that miss both dates lose these credits. Other technologies keep full credits longer."
+  rows:
+  - [Lose the credits, "Wind and solar projects begun after July 4, 2026 and not in service by the end of 2027"]
+  - [Lose the parts credit, "Makers of wind energy components produced and sold after 2027"]
+  - [Keep full credits longer, "Other zero-emission sources that begin construction before 2034"]
+  by: "Public Law 119-21; CRS Insight IN12719"
+- chip: "The case for"
+  head: "Supporters said the tax code shouldn't favor some energy projects over others."
+  quote: {label: "Committee on Ways and Means majority, U.S. House of Representatives · H. Rept. 119-106, Book 2 (House version, May 2025)", text: "The Committee believes that the Internal Revenue Code should not provide tax benefits to certain types of energy projects over others. The Committee believes that phasing out the credit earlier will promote horizontal equity in the tax treatment of energy projects."}
+  text: "In the U.S. Senate, Sen. Mike Lee (R-UT) said the bill's energy and natural resources title \"eliminates wasteful spending at both the Interior and Energy Departments that have prioritized intermittent, nonreliable, nonbaseload sources of power, ultimately driving up the cost of living and the cost of power.\""
+  by: "Lee: Congressional Record, p. S4063"
+- chip: "The case against"
+  head: "Opponents said the cutoff would end wind and solar projects and jobs."
+  quote: {label: "Sen. Ron Wyden (D-OR), U.S. Senate floor · Congressional Record, p. S4063", text: "If this passes, it is a death sentence for the wind and solar industries and hundreds of thousands of American jobs."}
+  text: "Ways and Means Democrats, in views signed by Ranking Member Richard E. Neal (D-MA): \"The bill places crushing restrictions on clean electricity credits that will make them unworkable and repeal them in practice.\" (House version)"
+- chip: "What you can do"
+  head: "Building or buying into a wind or solar project? Check the dates before you count on the credit."
+  rows:
+  - [Rules for proving construction began, "IRS Notice 2025-42, on irs.gov"]
+  - [Claiming the credits, "Instructions for IRS Forms 3468 and 7211"]
+  - [Where it stands, "Signed into law July 4, 2025, as Public Law 119-21"]
+caption: |-
+  One Big Beautiful Bill Act: what changes in 2027. Wind and solar projects placed in service after Dec. 31, 2027 get no clean electricity tax credit, unless construction began before July 5, 2026.
+
+  Before: the production and investment credits covered any source with zero or negative greenhouse gas emissions, wind and solar included.
+  After: wind and solar must start construction before July 5, 2026 or be producing power before Jan. 1, 2028. Other zero-emission sources keep full credits if construction begins before 2034. The wind parts credit ends for parts sold after 2027.
+
+  For: the U.S. House of Representatives Ways and Means Committee majority said the tax code shouldn't favor some energy projects over others; Sen. Mike Lee (R-UT) said the energy title cuts wasteful spending. Against: Sen. Ron Wyden (D-OR) called it "a death sentence for the wind and solar industries"; Ways and Means Democrats said it makes the credits "unworkable."
+
+  Which side convinces you?
+hashtags: [energy, solar, windenergy, congress, votetherecord]
+notes: >-
+  Part of the "what changes in 2027" series on the One Big Beautiful Bill Act, the owner's request (2026-11-15).
+  Cost: no official estimate for secs. 70511-70514 could be opened (the JCT score is on jct.gov, which blocked
+  access; cbo.gov showed a captcha), so no cost is on the slides. No official count of affected projects or jobs was
+  found either. Please double-check: (1) The Ways and Means quotes (majority and Neal's dissent) are about the House
+  version (May 2025); the Senate changed the dates before enactment. Lee's and Wyden's words are from the Senate
+  floor on the Senate version (Cong. Rec., June 30, 2025 legislative day, p. S4063; Lee was answering Wyden's motion
+  to commit the bill to strike the clean energy cuts). Lee's line is about the energy and natural resources title in
+  general. Party and state for Lee and Wyden are from Senate roll call 372's member list; Neal's from House roll call
+  190. (2) The "Before" rates (3.0 cents, 30%) are CRS Table 1's figures; CRS notes elsewhere that rates depend on
+  prevailing wage and apprenticeship rules. (3) The foreign-entity row is my plain reading of new 26 U.S.C.
+  7701(a)(52): the "material assistance cost ratio" (product costs minus those from prohibited foreign entities,
+  as a share of the total) must be at least the threshold; check the wording. (4) Forms 3468 and 7211 come from the
+  fact sheet; their instructions were not opened. (5) Not on the slides: the U.S. Senate rejected Lee amendment No.
+  2745 (an earlier cutoff, 60 days after enactment), 21-79, roll call 360 (Cong. Rec. S4064). (6) Since 2026, IRS
+  and Treasury call the law the "Working Families Tax Cuts"; the post uses the enacted short title.
