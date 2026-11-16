@@ -1,0 +1,85 @@
+kind: reel
+level: congress
+topic: War powers
+approval: review
+record_ids: ["us/119/H.Con.Res. 93/senate-vote-set-by-2026-11-20"]
+publish_after: '2026-11-19T10:30:00-06:00'
+sources:
+- title: "U.S. Senate Press Gallery, Monday, November 16, 2026 (floor schedule)"
+  url: https://www.dailypress.senate.gov/monday-november-16-2026/
+  retrieved: '2026-11-16'
+- title: "H.Con.Res. 93 (119th Congress), engrossed in the House (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hconres93eh/html/BILLS-119hconres93eh.htm
+  retrieved: '2026-11-16'
+- title: "House Clerk, Roll Call 307 (2026): On agreeing to H CON RES 93"
+  url: https://clerk.house.gov/evs/2026/roll307.xml
+  retrieved: '2026-11-16'
+- title: "U.S. Senate, Types of Legislation: Concurrent Resolutions"
+  url: https://www.senate.gov/legislative/common/briefing/leg_laws_acts.htm
+  retrieved: '2026-11-16'
+- title: "Congressional Research Service, Understanding the War Powers Resolution (IF13134, Dec. 17, 2025)"
+  url: https://www.congress.gov/crs_external_products/IF/HTML/IF13134.html
+  retrieved: '2026-11-16'
+bills:
+- id: H.Con.Res. 93
+  does: "Directs the President to remove U.S. forces from hostilities against Iran unless Congress declares war or authorizes force."
+  affects: "U.S. Armed Forces in hostilities against Iran. Forces needed to defend against imminent attack aren't covered."
+  where: "Passed the U.S. House of Representatives 220-204 on Sept. 15, 2026. U.S. Senate vote set by Nov. 20."
+  summary:
+    text: >-
+      This concurrent resolution directs the President to remove U.S. Armed Forces from hostilities against Iran
+      unless explicitly authorized by a declaration of war or a congressional authorization for use of military
+      force against Iran.
+    title: Congressional Research Service summary of H.Con.Res. 93
+    url: https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/93
+    retrieved: '2026-11-16'
+  say: "H.Con.Res. 93 directs the President to remove U.S. forces from hostilities against Iran, unless Congress declares war or authorizes force. Forces needed to defend against imminent attack aren't covered. It passed the United States House 220 to 204 on September 15, 2026."
+slides:
+- kicker: "U.S. Senate · Vote set by Fri., Nov. 20"
+  big: Iran
+  head: "The U.S. Senate is set to vote this week on H.Con.Res. 93, a war powers resolution on Iran."
+  quote: {label: "U.S. Senate Press Gallery, Nov. 16, 2026", text: "At a time to be determined no later than Friday, November 20th, H.Con.Res.93 will be discharged from the Committee on Foreign Relations and the Senate will proceed to its consideration."}
+  say: "The United States Senate is set to vote this week, no later than Friday, November 20, on H.Con.Res. 93, a war powers resolution on Iran."
+- chip: What it says
+  head: "It directs the President to remove U.S. forces from hostilities against Iran, unless Congress declares war or authorizes force."
+  quote: {label: "H.Con.Res. 93, as passed by the U.S. House of Representatives", text: "Congress directs the President to remove United States Armed Forces from hostilities against the Islamic Republic of Iran"}
+  text: "Not covered: forces needed to defend the United States or an ally or partner from imminent attack."
+  say: "The United States Senate would vote on this text. It directs the President to remove U.S. forces from hostilities against Iran, unless Congress declares war or authorizes force. Forces needed to defend against imminent attack aren't covered."
+- chip: "U.S. House of Representatives · Sept. 15, 2026"
+  big: 220-204
+  head: "The U.S. House of Representatives already passed it, 220-204, with 9 not voting (roll call 307)."
+  text: "If the U.S. Senate agrees, both chambers will have passed it."
+  say: "The United States House already passed it on September 15, 2026: 220 Yea, 204 Nay, 9 not voting. That's roll call 307. If the Senate agrees, both chambers will have passed it."
+- chip: The catch
+  head: "It's a concurrent resolution. It doesn't go to the President to sign."
+  quote: {label: "U.S. Senate, Types of Legislation", text: "they do not require the signature of the president and do not have the force of law", key: do not have the force of law}
+  say: "Here's the catch. In the United States Senate's words, concurrent resolutions do not require the signature of the president and do not have the force of law."
+- chip: Why use one, then?
+  head: "The War Powers Resolution of 1973 says Congress can do this by concurrent resolution. A later court decision put that in question."
+  quote: {label: "Congressional Research Service, Dec. 17, 2025", text: "After a Supreme Court decision that called into question whether Section 5(c) of the WPR constituted an unconstitutional legislative veto"}
+  say: "Why use one, then? The War Powers Resolution of 1973 says Congress can order troops out by concurrent resolution. The Congressional Research Service notes a later Supreme Court decision called into question whether that part is constitutional."
+- chip: Your turn
+  head: "Do you think Congress or the President should decide when U.S. forces fight?"
+  text: "Watch the U.S. Senate vote, and find the roll call at senate.gov. Then tell your senators what you think."
+  say: "Your turn. Do you think Congress or the President should decide when U.S. forces fight? Watch the United States Senate vote, find the roll call at senate.gov, and tell your senators what you think."
+caption: |-
+  The U.S. Senate is set to vote by Friday, Nov. 20, on H.Con.Res. 93. It directs the President to remove U.S. Armed Forces from hostilities against Iran, unless Congress declares war or authorizes force. Forces needed to defend the U.S. or an ally from imminent attack aren't covered.
+
+  The U.S. House of Representatives passed it 220-204 on Sept. 15 (roll call 307).
+
+  The catch: it's a concurrent resolution. The U.S. Senate's own guide says those "do not require the signature of the president and do not have the force of law." The War Powers Resolution of 1973 lets Congress use one here, but the Congressional Research Service notes a Supreme Court decision "called into question" whether that part is constitutional.
+
+  Should Congress or the President decide? Tell your senators.
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, warpowers, ussenate, votetherecord]
+notes: >-
+  Pair with the 12:00 p.m. carousel (2026-11-19-iran-war-powers-house-vote), filling the Nov. 19 10:30/12:00 pair;
+  meant to be merged together. The Senate Press Gallery (dailypress.senate.gov, Nov. 16) says H.Con.Res. 93 will be
+  discharged and voted on "no later than Friday, November 20th" after up to 6 hours of debate. CHECK BEFORE IT
+  POSTS: if the U.S. Senate votes before 10:30 a.m. Nov. 19, slides 1 and 3 are out of date (add the tally from
+  senate.gov or hold the post). Congress.gov actions and the CRS summary were read through api.congress.gov.
+  "Concurrent resolutions ... do not have the force of law" is the Senate's general guide, quoted; the CRS quote is
+  about Section 5(c) generally (the CRS piece does not name the decision, so neither does the post).
+  The House debate (CR H5609-5615) mentions earlier Iran resolutions; they aren't named here (one bill per post).
+  Congress.gov lists no CBO estimate.
