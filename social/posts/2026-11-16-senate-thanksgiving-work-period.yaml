@@ -19,15 +19,14 @@ slides:
 - kicker: U.S. Senate · Calendar
   big: Nov. 23-27
   head: The Senate's tentative schedule lists Nov. 23-27 as days it expects not to be in session.
-  text: Thanksgiving week. Its floor schedule set the next meeting before that for Monday, Nov. 16, at 3:00 p.m.
+  text: Thanksgiving week. Its floor schedule had it convening Monday, Nov. 16, at 3:00 p.m.
   quote: {label: Senate tentative schedule, text: "Nov 23 - Nov 27 State Work Period Thanksgiving - Nov 26"}
 - kicker: What the Senate does
   head: The president nominates all federal judges. The Senate gives its "advice and consent."
   quote: {label: Senate page About Nominations, text: "The United States Constitution provides that the president \"shall nominate, and by and with the Advice and Consent of the Senate, shall appoint Ambassadors, other public Ministers and Consuls, Judges of the Supreme Court, and all other Officers of the United States, whose Appointments are not herein otherwise provided for.\""}
 - kicker: Watch it yourself
   head: You can watch the Senate floor yourself on senate.gov.
-  text: "Go to Floor Proceedings, then Floor Webcast. You can search and watch past sessions too."
-  quote: {label: senate.gov, text: "Search and watch previous proceedings from present to the 112th Congress, 2nd session."}
+  text: "Go to Floor Proceedings, then Floor Webcast."
 caption: |-
   The Senate is back Nov. 16. Its tentative schedule then lists Nov. 23-27, Thanksgiving week, as a state work period: days it expects not to be in session.
 
@@ -38,4 +37,6 @@ notes: >-
   2026-11-14; review rather than auto because slide 2 restates the nominations page in our words. The tentative
   schedule is "Updated on Nov 21, 2025"; check it hasn't changed before merging. The floor page says only
   "Convene at 3:00 p.m." (no time zone), so the slide gives none. Nov. 16-20 is not listed as a non-legislative
-  period, but the post doesn't claim the Senate will sit every day that week.
+  period, but the post doesn't claim the Senate will sit every day that week. Audit 2026-11-16: removed slide 3's quote
+  ("Search and watch previous proceedings...") because on floor_activity_pail.htm it sits inside an HTML comment
+  and isn't shown on the page; slide 1 now reads "had it convening", since the post runs after 3:00 p.m. that day.

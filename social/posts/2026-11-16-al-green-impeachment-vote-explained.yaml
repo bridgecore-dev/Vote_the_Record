@@ -37,10 +37,10 @@ bills:
   say: "H.Res. 1486 would have impeached President Trump on one article: abuse of power by letting ICE and CBP act in violation of the First, Fourth and Fifth Amendments. The House tabled it, 232 to 147, with 47 Present, on September 15, 2026."
 slides:
 - kicker: "U.S. House · Announced Nov. 12, 2026"
-  big: Next week?
-  head: Rep. Al Green (D-TX) says he will force a House vote on impeaching President Trump as early as next week.
+  big: This week?
+  head: Rep. Al Green (D-TX) said Nov. 12 he will force a House vote on impeaching President Trump as early as the week of Nov. 16.
   quote: {label: "Rep. Green's office, Nov. 12, 2026", text: "his intention to force a House vote on articles of impeachment as early as next week"}
-  say: "On November 12, 2026, Representative Al Green, Democrat of Texas, announced his intention to force a House vote on articles of impeachment against President Trump as early as next week."
+  say: "On November 12, 2026, Representative Al Green, Democrat of Texas, announced his intention to force a House vote on articles of impeachment against President Trump as early as next week, meaning the week of November 16."
 - chip: How one member can force it
   head: Any member can offer an impeachment resolution on the floor as a "question of privilege." After notice, it has to come up within two legislative days.
   quote: {label: "House Practice (GPO)", text: "The Speaker designates the time for consideration within two legislative days after the announcement, which may include immediate consideration."}
@@ -48,8 +48,8 @@ slides:
 - chip: "Last time · Sept. 15, 2026"
   head: "The House tabled Rep. Green's last impeachment resolution, H.Res. 1486. Yea = table it, Nay = keep it alive."
   vote: {yea: 232, nay: 147, present: 47, not_voting: 7}
-  text: Rep. Fry (R-SC) moved to table it. Tabling ends a resolution without a vote on impeachment itself.
-  say: "Last time, on September 15, 2026, Representative Fry, Republican of South Carolina, moved to table H.Res. 1486. The House agreed: 232 Yea, 147 Nay, 47 Present, 7 didn't vote. That ended it without a vote on impeachment itself."
+  text: Rep. Russell Fry (R-SC) moved to table it. Tabling ends a resolution without a vote on impeachment itself.
+  say: "Last time, on September 15, 2026, Representative Russell Fry, Republican of South Carolina, moved to table H.Res. 1486. The House agreed: 232 Yea, 147 Nay, 47 Present, 7 didn't vote. That ended it without a vote on impeachment itself."
 - chip: How they voted
   head: By party, as the House Clerk records it
   rows:
@@ -68,11 +68,11 @@ slides:
   text: "Watch the floor at live.house.gov. Every recorded vote is posted at clerk.house.gov/Votes. Then tell them what you think."
   say: "Your turn. If it comes up, how will your representative vote? Watch the floor at live.house.gov, and find every recorded vote at clerk.house.gov. Then tell them what you think."
 caption: |-
-  Rep. Al Green (D-TX) announced on Nov. 12 that he intends to force a House vote on articles of impeachment against President Trump "as early as next week."
+  Rep. Al Green (D-TX) announced on Nov. 12 that he intends to force a House vote on articles of impeachment against President Trump "as early as next week" (the week of Nov. 16).
 
   How one member can do that: an impeachment resolution offered on the floor is a "question of privilege." After notice, the Speaker has to schedule it within two legislative days.
 
-  Last time, on Sept. 15, Rep. Fry (R-SC) moved to table Green's H.Res. 1486. The House agreed 232-147, with 47 Present and 7 not voting. By party, per the House Clerk: Republicans 213 Yea, 0 Nay, 1 Present; Democrats 18 Yea, 147 Nay, 46 Present; the one Independent, Yea. Tabling ended it without a vote on impeachment itself.
+  Last time, on Sept. 15, Rep. Russell Fry (R-SC) moved to table Green's H.Res. 1486. The House agreed 232-147, with 47 Present and 7 not voting. By party, per the House Clerk: Republicans 213 Yea, 0 Nay, 1 Present; Democrats 18 Yea, 147 Nay, 46 Present; the one Independent, Yea. Tabling ended it without a vote on impeachment itself.
 
   If a new resolution comes up, roll calls post at clerk.house.gov/Votes. How will your representative vote?
 
