@@ -42,21 +42,21 @@ slides:
   big: $320M → $84M
   head: A bill on the House schedule renews the federal program that maps U.S. minerals, for less money.
 - chip: What it is
-  say: "Earth MRI is a United States Geological Survey program that maps rock, minerals and water under the ground. Congress created it in 2021. The committee report says the data also helps find water, gravel for roads, geothermal heat and natural hazards."
+  say: "Earth MRI is a United States Geological Survey program that maps rock, minerals and water under the ground. Congress authorized it in 2021. The committee report says the data also helps find water, gravel for roads, geothermal heat and natural hazards."
   head: "Earth MRI is a U.S. Geological Survey program that maps rock, minerals and water under the ground."
-  text: "Congress created it in 2021. The committee report says the data also helps find water, gravel for roads, geothermal heat and natural hazards."
+  text: "Congress authorized it in 2021. The committee report says the data also helps find water, gravel for roads, geothermal heat and natural hazards."
 - chip: "Before → after"
-  say: "The bill sets the most Congress can spend on it for the next five years. Now: up to $320 million for 2022 to 2026. After: up to $84 million for 2027 to 2031. Contracts favor U.S.-owned companies, and every bidder must disclose who owns it."
-  head: "The bill sets the most Congress can spend on it for the next five years."
+  say: "The bill sets how much it allows for the next five years. Now: up to $320 million for 2022 to 2026. After: up to $84 million for 2027 to 2031. Contracts favor U.S.-owned companies, and every bidder must disclose who owns it."
+  head: "The bill sets how much it allows Congress to spend on it for the next five years."
   rows:
   - [Now, "Up to $320 million for 2022-2026"]
   - [After, "Up to $84 million for 2027-2031"]
   - [Contracts, "Preference for U.S.-owned companies"]
   - [Every bidder, "Must disclose who owns it"]
 - chip: For and against
-  say: "The committee says renewing it matters for minerals supply. Its top Democrat backs the bill but wants more money. Representative Jared Huffman writes that it would reauthorize substantially less funding than the original $320 million."
-  head: "The committee says renewing it matters for minerals supply. Its top Democrat backs the bill but wants more money."
-  quote: {label: "Rep. Jared Huffman, Ranking Member, H. Rept. 119-862", text: "H.R. 9640 would reauthorize substantially less funding than the original $320 million provided through IIJA."}
+  say: "The committee says renewing it matters for minerals supply. Ranking member Jared Huffman, Democrat of California, says the bill builds on the program but wants more money. Huffman writes that it would reauthorize substantially less funding than the original $320 million."
+  head: "The committee says renewing it matters for minerals supply. Rep. Jared Huffman (D-CA), the ranking member, says the bill builds on the program but wants more money."
+  quote: {label: "Rep. Jared Huffman (D-CA), ranking member, H. Rept. 119-862", text: "H.R. 9640 would reauthorize substantially less funding than the original $320 million provided through IIJA."}
 - chip: Where it stands
   say: "Sponsor: Representative Rob Wittman, Republican of Virginia, with 4 Republican and 4 Democratic cosponsors. The committee approved it with no objection. It needs two-thirds of those voting to pass. How much should mapping get? Tell us."
   head: "Sponsor: Rep. Rob Wittman (R-VA), with 4 Republican and 4 Democratic cosponsors."
@@ -64,9 +64,9 @@ slides:
 caption: |-
   The U.S. Geological Survey runs a program called Earth MRI. It maps what's under the ground: rock, minerals like lithium, and water.
 
-  Congress set it up in 2021 with up to $320 million for 2022 through 2026. H.R. 9640, on the House schedule this week, renews it through 2031 with up to $84 million. It also tells USGS to favor U.S.-owned contractors where it can, and makes every bidder disclose who owns it.
+  Congress authorized it in 2021, with up to $320 million for 2022 through 2026. H.R. 9640, on the House schedule this week, renews it through 2031 with up to $84 million. It also tells USGS to favor U.S.-owned contractors where it can, and makes every bidder disclose who owns it.
 
-  The committee report says renewing the program matters for the country's supply of critical minerals. Rep. Jared Huffman, the committee's ranking member, backs the bill but writes that it renews "substantially less funding" than before, and points to a Senate bill that would keep $320 million.
+  The committee report says renewing the program matters for the country's supply of critical minerals. Rep. Jared Huffman (D-CA), the committee's ranking member, writes that the bill builds on the program, but that it renews "substantially less funding" than before, and points to a Senate bill that would keep $320 million.
 
   How much should this mapping get? Tell us below.
 

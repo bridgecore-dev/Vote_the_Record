@@ -37,9 +37,10 @@ bills:
     retrieved: '2026-11-15'
 slides:
 - kicker: "U.S. House · Week of Nov. 16"
-  say: "On the House schedule the week of November 16. U.S. buffalo fell to about 1,000 in the late 1800s. Some estimates now count over 200,000."
+  say: "On the House schedule the week of November 16. North America's buffalo fell to about 1,000 in the late 1800s. Some estimates now count over 200,000."
   big: "1,000 → 200,000+"
-  head: "U.S. buffalo fell to about 1,000 in the late 1800s. Some estimates now count over 200,000."
+  head: "North America's buffalo fell to about 1,000 in the late 1800s. Some estimates now count over 200,000."
+  text: "A bill on the House schedule would have the Interior Department help tribes manage their herds."
 - chip: Who brought them back
   say: "The committee report credits conservation and tribes, including the Intertribal Buffalo Council. Founded in 1991, the council now has 90 tribes in 23 states, the report says."
   head: "The committee report credits conservation and tribes, including the Intertribal Buffalo Council."
@@ -61,7 +62,7 @@ slides:
   head: "Sponsor: Rep. Jeff Hurd (R-CO), with 8 Republican and 7 Democratic cosponsors."
   text: "The committee approved it by unanimous consent. It needs two-thirds of those voting. Should Interior do this? Tell us."
 caption: |-
-  In the late 1800s, U.S. buffalo fell from tens of millions to about 1,000, the House committee report says. Some estimates now count more than 200,000, many brought back by tribes.
+  In the late 1800s, North America's buffalo fell from tens of millions to about 1,000, the House committee report says. Some estimates now count more than 200,000, with tribes playing a key role in their return, the report says.
 
   H.R. 7954, on the House schedule this week, directs the Interior Department to back tribal buffalo herds for seven years: contracts, grants and technical help, consultation on Interior plans that affect buffalo (including sick herds), and agreements to move surplus buffalo from Interior land to tribal land, with charges that can be waived.
 

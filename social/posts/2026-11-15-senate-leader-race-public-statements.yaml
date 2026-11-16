@@ -57,11 +57,11 @@ slides:
 - chip: Candidate
   head: Sen. Chuck Schumer (D-NY), the current Senate Democratic Leader
   quote: {label: "Sen. Schumer, Nov. 12, 2026", text: "I have the votes to continue serving as Democratic Leader."}
-  text: His statement doesn't name the senators backing him.
+  text: The statement doesn't name the senators who back Sen. Schumer.
 - chip: Candidate
   head: Sen. Chris Van Hollen (D-MD)
   quote: {label: "Sen. Van Hollen, Nov. 12, 2026", text: "It’s now on us to meet this moment, and to do that we need new leadership."}
-  text: He announced his run for leader the same day.
+  text: Sen. Van Hollen announced a run for leader the same day.
 - chip: Backing Schumer
   head: In their own official statements
   rows:
@@ -74,7 +74,7 @@ slides:
   head: In their own official statements
   rows:
   - [Sen. Jeff Merkley (D-OR), "“He has my full support for Majority Leader.” (Nov. 13)"]
-  text: Sen. Merkley's office posted these words from his social media post.
+  text: Sen. Merkley's office posted these words from the senator's social media post.
 - chip: "Reported by news, not on the senator's own site"
   head: "These names come from news reports. We couldn't find a statement on each senator's .senate.gov site by Nov. 15."
   rows:
@@ -84,12 +84,12 @@ slides:
 - chip: How the vote works
   head: Senate Democrats choose their leader themselves. The full U.S. Senate doesn't vote on it.
   rows:
-  - [Who votes, Democratic senators in the conference]
+  - [Who votes, "Members of the Senate Democratic Conference, including the independents in it"]
   - [How, "Secret ballot, in person; proxies allowed"]
   - [To win, A majority of those present and voting]
   - [When, "No earlier than December, under the rules; no official date posted as of Nov. 15"]
 - chip: The other party
-  head: "Senate Republicans voted Nov. 10. Sen. John Thune (R-SD) says his colleagues reelected him as their leader."
+  head: "Senate Republicans voted Nov. 10. Sen. John Thune (R-SD) says the Republican conference reelected Thune as its leader."
   quote: {label: "Sen. Thune, Nov. 10, 2026", text: "I am honored to have their continued trust and support to lead the Senate Republican Conference in the 120th Congress"}
   text: We found no official statement from another candidate. Their rules call for a secret written ballot when a race is contested.
 - chip: Your turn

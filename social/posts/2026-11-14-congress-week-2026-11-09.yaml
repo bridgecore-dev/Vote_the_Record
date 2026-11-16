@@ -2,8 +2,8 @@ kind: carousel
 level: congress
 topic: Congress recap
 approval: review
-rule: 'Counts: every roll-call vote in the House Clerk''s and the Senate''s official lists, and every public law GovInfo shows
-  approved Nov. 9-15, 2026. Listed: every bill that became law, then every final-passage vote on a bill or joint resolution
+rule: 'Counts: every roll-call vote in the House Clerk''s and the Senate''s official lists, and every public law Congress.gov
+  shows signed Nov. 9-15, 2026. Listed: every bill that became law, then every final-passage vote on a bill or joint resolution
   (passage, suspend and pass, conference report, agreeing to the other chamber''s amendment, veto override), in date order.
   If the post runs out of room, the list stops in that order and the rest are counted on the last slide.'
 record_ids:
@@ -14,6 +14,9 @@ record_ids:
 sources:
 - title: GovInfo, Public and Private Laws RSS feed
   url: https://www.govinfo.gov/rss/plaw.xml
+  retrieved: '2026-11-14'
+- title: Congress.gov, public laws
+  url: https://api.congress.gov/v3/law/119
   retrieved: '2026-11-14'
 - title: Office of the Clerk, U.S. House, Roll Call Votes 2026 (ROLL_300)
   url: https://clerk.house.gov/evslegacy/2026/ROLL_300.asp
@@ -35,12 +38,12 @@ slides:
   head: What Congress did, Nov. 9-15, 2026
   rows:
   - - New public laws
-    - '0'
+    - '4'
   - - House roll-call votes
     - '9'
   - - Senate roll-call votes
     - '6'
-  text: 'Listed: every new law, then every vote to pass a bill or joint resolution, in date order.'
+  text: 'Listed: every vote to pass a bill or joint resolution, in date order. The 4 new laws, all signed Nov. 10, get their own post Nov. 17.'
 - kicker: Final-passage votes
   head: Votes to pass bills and joint resolutions
   rows:
@@ -53,20 +56,20 @@ slides:
   by: 'Tallies: yeas-nays, as each chamber recorded them.'
 - kicker: Not shown
   head: 1 more final-passage vote Nov. 9-15, 2026.
-  text: Each one is in the official lists cited in the caption. We list items in date order and stop when the post is full.
+  text: 'The House passed the Major Richard Star Act on Nov. 12, 392-18. It had its own post on Nov. 15.'
 caption: 'What Congress did, Nov. 9-15, 2026.
 
 
-  New public laws: 0. House roll-call votes: 9. Senate roll-call votes: 6.
+  New public laws: 4. House roll-call votes: 9. Senate roll-call votes: 6.
 
 
-  GovInfo lists no public laws approved in this period yet.
+  Four new laws were signed Nov. 10 (Public Laws 119-139 to 119-142); our post on them runs Nov. 17.
 
 
   Final-passage votes: 3, on H.R. 3978, H.R. 9612, H.R. 1013. Each bill''s tally and what it does are below.
 
 
-  Not shown for space: 1 more final-passage vote Nov. 9-15, 2026.
+  Also passed: the Major Richard Star Act, in the House on Nov. 12, 392-18 (its own post ran Nov. 15).
 
 
   Swipe for what each bill does, from the Congressional Research Service summary.'
@@ -80,10 +83,11 @@ hashtags:
 notes: 'Draft from recap.py on 2026-11-14, does/affects filled from the CRS summaries only. Weekly recap: every House and Senate
   roll call Nov. 9-15 counted, final-passage votes listed by the stated rule; 1 left off for space and counted on the last slide.
   Double-check: the CRS summaries describe the bills as introduced, and H.R. 3978 and H.R. 9612 passed as amended (roll 315,
-  316). GovInfo lists no public laws approved this week yet. Tallies match the roll XMLs opened this run (397-2, 394-3, 295-128).'
+  316). Audit 2026-11-16: GovInfo''s feed hadn''t posted Public Laws 119-139 to 119-142 (signed Nov. 10, per Congress.gov),
+  so the count is now 4; H.R. 2102 (roll 323, 392-18) is named on slide 3 as covered in its Nov. 15 post. Tallies match the roll XMLs opened this run (397-2, 394-3, 295-128).'
 bills:
 - id: H.R. 3978
-  does: 'Would have the NRC license future spent-fuel recycling plants under rules with fewer steps'
+  does: 'Would have the NRC license future fuel-recycling plants under nuclear-material rules, not reactor-facility rules'
   affects: 'Future U.S. plants that recycle spent nuclear fuel without isolating plutonium'
   where: 'House vote Nov. 9, 2026: Passed, 397-2.'
   summary:

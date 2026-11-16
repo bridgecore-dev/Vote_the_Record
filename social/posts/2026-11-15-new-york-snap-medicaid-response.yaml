@@ -55,14 +55,14 @@ slides:
   head: "New York City says its outreach helped more than 220,000 people keep SNAP food benefits under new federal work rules."
   say: "New York City says its outreach helped more than 220,000 people keep their SNAP food benefits under new federal work rules. Here's what changed, what the city and state did, and whether other states can do it."
 - chip: "Before → after: SNAP"
-  head: "H.R. 1 widened SNAP's work rule: 80 hours a month of work, training or volunteering, or SNAP stops after 3 months in 36."
+  head: "H.R. 1 widened SNAP's work rule: 80 hours a month of work, training or volunteering, or SNAP stops after 3 months in any 3 years."
   rows:
   - [Ages, "Before: 18 to 54. After: 18 to 64"]
   - [Parents, "Before: a child under 18 exempts you. After: only a child under 14"]
   - [Removed, "Exceptions for veterans, homeless people and former foster youth"]
   - [Nationwide, "2.4 million fewer people on SNAP in an average month (CBO, via CRS)"]
   by: "Public Law 119-21, sec. 10102; CRS R48552 (Aug. 15, 2025)"
-  say: "H.R. 1 widened SNAP's work rule: 80 hours a month of work, training or volunteering, or SNAP stops after 3 months in 36. It now covers ages 18 to 64, not 18 to 54. CBO estimates 2.4 million fewer people on SNAP nationwide."
+  say: "H.R. 1 widened SNAP's work rule: 80 hours a month of work, training or volunteering, or SNAP stops after 3 months in any 3 years. It now covers ages 18 to 64, not 18 to 54. CBO estimates 2.4 million fewer people on SNAP nationwide."
 - chip: "Before → after: Medicaid"
   big: "Jan. 1, 2027"
   head: "Before: no Medicaid work requirement. After: many adults 19 to 64 show 80 hours a month, or $580 in monthly income."
@@ -77,7 +77,7 @@ slides:
   - [Door to door, "10,000 doors knocked, 40,000 phone calls"]
   - [Exemptions, "Helped people document medical and caregiver exemptions"]
   - [Hours, "100+ community groups offer volunteer and training hours"]
-  - [Still lost, "About 26,500 people, 1.6% of SNAP households"]
+  - [Still lost, "About 26,500 people lost SNAP (1.6% of SNAP households)"]
   by: "NYC Mayor's Office, Oct. 1, 2026"
   say: "What New York City did for SNAP, as the city reports it: 10,000 doors knocked and 40,000 phone calls, help documenting medical and caregiver exemptions, and 100 plus community groups offering volunteer and training hours. About 26,500 people still lost SNAP."
 - chip: "Lost SNAP? You can reapply"
@@ -118,9 +118,9 @@ slides:
   say: "What no state can do: opt out of the Medicaid work requirement. The law says it may not be waived. A state making a good-faith effort can get more time, but not past December 31, 2028. In SNAP, only Alaska and Hawaii get those exemptions."
 - chip: "The case for the federal rules"
   head: "Supporters say people who can work should."
-  quote: {label: "Sen. John Barrasso (R-WY), Congressional Record, July 30, 2025", text: "Work requirements are common sense."}
+  quote: {label: "Sen. John Barrasso of Wyoming, Congressional Record, July 30, 2025", text: "Work requirements are common sense."}
   text: "He also said: \"Medicaid is for the vulnerable. It was never meant to cover able-bodied, working-aged adults who refuse to work\""
-  say: "The case for: Senator John Barrasso, Republican of Wyoming, said work requirements are common sense. He said Medicaid is for the vulnerable, and was never meant to cover able-bodied, working-aged adults who refuse to work."
+  say: "The case for: Senator John Barrasso of Wyoming said work requirements are common sense. The senator said Medicaid is for the vulnerable, and was never meant to cover able-bodied, working-aged adults who refuse to work."
 - chip: "The case against"
   head: "New York City's officials say the federal changes make it harder to get food."
   quote: {label: "Erin Dalton, NYC Social Services Commissioner, Oct. 1, 2026", text: "federal changes that only make it harder for low-income Americans to put food on the table", key: "harder"}
@@ -144,7 +144,7 @@ caption: |-
 
   Other states can do outreach and excuse high-unemployment counties. None can waive the Medicaid rule.
 
-  For: Sen. John Barrasso (R-WY). Against: NYC officials. Which side convinces you?
+  For: Sen. John Barrasso of Wyoming. Against: NYC officials. Which side convinces you?
 
   Voice: computer-generated (Kokoro text-to-speech).
 hashtags: [snap, medicaid, newyorkcity, votetherecord]
