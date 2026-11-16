@@ -1,0 +1,89 @@
+kind: carousel
+level: state
+place: Texas
+topic: Fees
+approval: review
+rule: Every bill filed Nov. 16, 2026 that would waive a state fee for a group of people. Each gets its own post with the
+  same structure (said on the last slide).
+record_ids: [tx/90R/HB 1175/filed]
+publish_after: '2026-11-21T09:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 16, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-16
+  retrieved: '2026-11-16'
+- title: Texas Legislature Online, HB 1175 bill history (90th Legislature)
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1175
+  retrieved: '2026-11-16'
+- title: Texas Parks and Wildlife Code, Sec. 13.015 (park user fees)
+  url: https://statutes.capitol.texas.gov/Docs/PW/htm/PW.13.htm
+  retrieved: '2026-11-16'
+- title: Texas Parks and Wildlife Code, Sec. 42.012 (resident hunting license fee)
+  url: https://statutes.capitol.texas.gov/Docs/PW/htm/PW.42.htm
+  retrieved: '2026-11-16'
+- title: Texas Parks and Wildlife Code, Sec. 46.004 (fishing license fees)
+  url: https://statutes.capitol.texas.gov/Docs/PW/htm/PW.46.htm
+  retrieved: '2026-11-16'
+- title: Texas Parks and Wildlife Code, Sec. 50.002 (combination license fees)
+  url: https://statutes.capitol.texas.gov/Docs/PW/htm/PW.50.htm
+  retrieved: '2026-11-16'
+bills:
+- id: HB 1175
+  does: Would waive state park entrance and hunting and fishing license fees for some long-serving or disabled first responders.
+  affects: Texas resident firefighters, EMS, city police, sheriffs and constables with 20+ years' service or a duty disability.
+  where: Filed Nov. 16, 2026 by Rep. Cortez; no other action yet.
+  summary:
+    text: >-
+      The department shall waive the park entrance fee for a resident who is a first responder who: (1) has completed at
+      least 20 years of continuous service as a first responder; or (2) has a disability connected to service as a first
+      responder
+    title: HB 1175 as filed, Sec. 1 (Parks and Wildlife Code 13.015(a-2))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01175I.htm
+    retrieved: '2026-11-16'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 16, 2026
+  big: HB 1175
+  head: A Texas House of Representatives bill would waive state park entrance and hunting and fishing license fees for some first responders.
+- chip: The law today
+  head: Texas must waive hunting and fishing license fees for two groups. First responders aren't one of them.
+  rows:
+  - [Must waive, "Veterans with a qualifying service-connected disability, and residents on active military or Guard duty"]
+  - [May waive (park entrance), "People 70 or older, fifth graders, and 11-year-olds"]
+  text: Parks and Wildlife Code 42.012, 46.004 and 13.015.
+- chip: What would change
+  head: The state would have to waive four fees for a resident first responder who qualifies.
+  rows:
+  - State park entrance fee
+  - Resident hunting license fee
+  - Resident fishing license fee
+  - Annual resident combination hunting and fishing license fee
+- chip: Who qualifies
+  big: 20 years
+  head: "A first responder with at least 20 years of continuous service, or a disability from that service: loss of use of a leg or foot, or a disability rating of 50% or more."
+  text: "First responder, as the bill defines it: a certified firefighter, certified EMS personnel, a city police officer, a sheriff or deputy (including reserve), or a constable or deputy (including reserve)."
+- chip: Who pays
+  head: The state would collect these fees from fewer people. The bill doesn't say how much less.
+  text: "Park entrance fees go to the state parks account (Parks and Wildlife Code 13.015(c)). No fiscal note (cost estimate) is posted yet. Licenses bought before the bill takes effect wouldn't be refunded."
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, the bill takes effect on this date.
+  text: "How we picked: every bill filed Nov. 16, 2026 that would waive a state fee for a group of people (each gets its own post). Should first responders get the same waivers as disabled veterans?"
+caption: |-
+  Today, Texas must waive hunting and fishing license fees for veterans with a qualifying service-connected disability and for residents on active military or Guard duty. First responders aren't on that list.
+
+  HB 1175, filed in the Texas House of Representatives for the 2027 session, would add resident firefighters, EMS personnel, city police officers, sheriffs and constables (and their deputies) who have served at least 20 years in a row, or have a qualifying disability from that service. The state would have to waive their state park entrance fee and their hunting, fishing and combination license fees.
+
+  The state would collect less in fees; no cost estimate is posted yet. If passed, it takes effect Sept. 1, 2027.
+
+  Should first responders get the same waivers as disabled veterans?
+hashtags: [txlege, texaslegislature, firstresponders, texasparks, votetherecord]
+notes: >-
+  New: filed Nov. 16, 2026. Rule: bills on the Nov. 16 filing report that would waive a state fee for a group of people;
+  the bill on free birth records for homeless individuals (filed the same day) also fits and is left for its own post. Records opened 2026-11-16:
+  the filing report, the bill history (filed, no other action; the Text page lists no fiscal note), the introduced text
+  (90R4737 BEE-D), and Parks and Wildlife Code 13.015, 42.012, 46.004 and 50.002 (rendered from
+  statutes.capitol.texas.gov). The current 42.012(b) and 46.004(c) waivers for veterans and active duty are "shall"; 13.015(a-1)
+  for 70+, fifth graders and 11-year-olds is "may". The bill text replaces current 13.015(a-2) (promote visits and
+  revenue) and re-adds it as (a-3)/(a-4) unchanged; the post doesn't mention that. "City police officer" is our plain word
+  for the bill's "municipal police officer"; "leg or foot" for "lower extremity". No fee amounts are given: the statute
+  sets minimums and the commission sets the actual fees. Rep. Cortez as TLO lists the author, no party shown. Takes the
+  Nov. 21 9:00 a.m. post slot: Nov. 20's 9:00 p.m. slot would fail the alternation test until the HB 1177 Reel (#134) merges.
