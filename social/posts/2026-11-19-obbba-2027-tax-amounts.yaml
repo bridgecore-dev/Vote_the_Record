@@ -1,0 +1,111 @@
+kind: carousel
+level: congress
+topic: Taxes and budget
+approval: review
+record_ids:
+- us/119/H.R. 1/tax-year-2027-amounts
+publish_after: '2026-11-19T15:00:00-06:00'
+sources:
+- title: "IRS, IR-2026-133 (Nov. 5, 2026): tax inflation adjustments for tax year 2027"
+  url: https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2027-taxpayers-continue-to-benefit-from-the-working-families-tax-cuts
+  retrieved: '2026-11-15'
+- title: "Public Law 119-21, text (GPO): secs. 70102, 70103, 70104, 70201-70203"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  retrieved: '2026-11-15'
+- title: "Congressional Record, House, July 2, 2025, H3039-H3059"
+  url: https://www.govinfo.gov/content/pkg/CREC-2025-07-02/html/CREC-2025-07-02-pt1-PgH3039-8.htm
+  retrieved: '2026-11-15'
+- title: "IRS, Working Families Tax Cuts: individuals and workers"
+  url: https://www.irs.gov/newsroom/working-families-tax-cuts-individuals-and-workers
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 1
+  title: One Big Beautiful Bill Act
+  does: "Cuts taxes, raises or lowers spending on many federal programs, and raises the federal debt limit."
+  affects: "Federal taxpayers, and agencies and programs throughout the federal government."
+  where: "Signed into law July 4, 2025, as Public Law 119-21."
+  summary:
+    text: >-
+      This act reduces taxes, reduces or increases spending for various federal programs, increases the statutory
+      debt limit, and otherwise addresses agencies and programs throughout the federal government.
+    title: "CRS summary of H.R. 1 as enacted (bill status, GPO)"
+    url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr1.xml
+    retrieved: '2026-11-15'
+slides:
+- kicker: "One Big Beautiful Bill Act · What changes in 2027"
+  chip: Taxes
+  big: "$33,200"
+  head: "The 2027 standard deduction for married couples filing jointly, up $1,000 from 2026, the IRS says."
+  text: "H.R. 1 made the 2017 law's higher amounts permanent, and the IRS adjusts them for inflation each year. The 2027 amounts generally apply to returns filed in 2028."
+- chip: "Before → after"
+  head: "Before H.R. 1, the 2017 law's higher standard deduction and $2,000 child tax credit were set to end after 2025."
+  rows:
+  - [Before, "Both set to end after 2025"]
+  - [After, "Made permanent; the child tax credit rose to $2,200, then is adjusted for inflation"]
+  by: "Public Law 119-21, secs. 70102 and 70104"
+- chip: Standard deduction, tax year 2027
+  head: "For tax year 2027, as the IRS lists it."
+  rows:
+  - [Married filing jointly, "$33,200 (up $1,000 from 2026)"]
+  - ["Single, or married filing separately", "$16,600"]
+  - [Head of household, "$24,925"]
+  by: "IRS, IR-2026-133"
+- chip: Child tax credit, tax year 2027
+  big: "$2,300"
+  head: "The most per child, up $100 from 2026."
+  rows:
+  - [Refundable part, "Up to $1,800, also up $100 from 2026"]
+  by: "IRS, IR-2026-133"
+- chip: Estates and the top rate, 2027
+  head: "Estate tax: the first $15,480,000 is excluded, up from $15,000,000 in 2026."
+  rows:
+  - [Annual gift exclusion, "$20,000 per person"]
+  - [Top income tax rate, "Stays 37%: over $661,375 single, $793,650 married filing jointly"]
+  - [Personal exemptions, "Stay at 0, as in 2026"]
+  by: "IRS, IR-2026-133"
+- chip: Still in place in 2027
+  head: "These four deductions don't change in 2027. The law ends each after tax year 2028."
+  rows:
+  - [Tips, "Deduction for qualified tips"]
+  - [Overtime, "Deduction for qualified overtime pay"]
+  - [Car loans, "Deduction for interest on qualified passenger vehicle loans"]
+  - [Seniors, "$6,000 extra deduction for people 65 and older"]
+  by: "Public Law 119-21, secs. 70103, 70201, 70202, 70203; IRS"
+- chip: Who gains, and the cost
+  head: "The 2027 amounts apply to every individual income-tax filer. We found no official count of who gains how much, and no 2027 cost figure."
+  text: "The Joint Committee on Taxation's tables and CBO's estimate are on sites that blocked our access, so this post gives no cost figure. The members' quotes on the next slides include their own figures."
+- chip: The case for
+  head: "Supporters said letting the 2017 cuts expire would raise taxes."
+  quote: {label: "Rep. Langworthy (R-NY), U.S. House of Representatives, July 2, 2025 (Congressional Record, H3043)", text: "If we do nothing, the Trump tax cuts, the most progrowth tax reforms in generations, will expire. That means higher taxes on nearly every American. That means a gutted child tax credit."}
+- chip: The case against
+  head: "Opponents said lower-income families get little, and the debt grows."
+  quote: {label: "Rep. McGovern (D-MA), U.S. House of Representatives, July 2, 2025 (Congressional Record, H3043)", text: "families making under $50,000 a year get less than a buck a day in tax cuts."}
+  text: "He also said: \"The cost? Over $3 trillion added to the debt\". Which side convinces you? Check the 2027 amounts on the IRS release in the sources."
+caption: |-
+  The IRS has published the 2027 amounts for the tax cuts the One Big Beautiful Bill Act made permanent. They apply to tax year 2027, on returns filed in 2028.
+
+  Before: the 2017 law's higher standard deduction and $2,000 child tax credit were set to end after 2025. After: permanent, adjusted for inflation each year.
+
+  2027, per the IRS:
+  Standard deduction: $33,200 married filing jointly (up $1,000 from 2026), $16,600 single, $24,925 head of household.
+  Child tax credit: up to $2,300 per child (up $100), with up to $1,800 refundable.
+  Estate exclusion: $15,480,000, up from $15,000,000.
+
+  The tips, overtime, car-loan interest and $6,000 senior deductions stay the same in 2027 and end after 2028.
+
+  For: Rep. Langworthy (R-NY). Against: Rep. McGovern (D-MA). Their words are on the slides.
+hashtags: [taxes, irs, congress, votetherecord]
+notes: >-
+  Part of the "One Big Beautiful Bill Act: what changes in 2027" series, the owner's request (2026-11-15). Check:
+  (1) All 2027 figures are from IR-2026-133 (Nov. 5, 2026), re-opened 2026-11-15; Rev. Proc. 2026-35 has the same
+  numbers. IRS calls the law the "Working Families Tax Cuts" now; same law. (2) "Before" values: only what the
+  sheet gives from IRS ("up $1,000 from 2026", "up $100 from 2026", estate "$15,000,000" for 2026). The IRS
+  individuals page (re-opened; it redirected to working-families-tax-cuts-individuals-and-workers) shows 2026
+  amounts ($32,200 joint, $16,100 single) and IR-2026-133 gives the 2026 gift exclusion ($19,000); I left those
+  out per the brief, but they could be added. (3) SALT 2027 cap/threshold ($40,804 / $510,050) left out: my
+  arithmetic from the statute, not published by IRS. (4) No official cost or distribution figure: CBO (captcha)
+  and JCT (blocked) weren't used, and the slide says so plainly; McGovern's "$3 trillion" and Langworthy's claims
+  are their own words. (5) Quotes are from the July 2, 2025 House debate on the rule for the final vote, Cong.
+  Rec. H3043; party/state from House roll 190's member list. (6) The senior deduction's
+  "65 and older" comes from the IRS individuals page ("individuals age 65 and older may claim an additional $6,000
+  deduction", "Effective 2025 through 2028").

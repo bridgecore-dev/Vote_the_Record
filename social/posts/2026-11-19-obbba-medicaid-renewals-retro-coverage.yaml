@@ -1,0 +1,101 @@
+kind: carousel
+level: congress
+topic: Health
+approval: review
+record_ids: ["us/119/H.R. 1/sec-71107", "us/119/H.R. 1/sec-71112"]
+publish_after: '2026-11-20T09:00:00-06:00'
+sources:
+- title: "Public Law 119-21, secs. 71107 and 71112"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  retrieved: '2026-11-15'
+- title: "CRS Report R48633"
+  url: https://www.congress.gov/crs_external_products/R/PDF/R48633/R48633.3.pdf
+  retrieved: '2026-11-15'
+- title: "HealthCare.gov, Getting Medicaid and CHIP"
+  url: https://www.healthcare.gov/medicaid-chip/getting-medicaid-chip/
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 1
+  title: One Big Beautiful Bill Act
+  does: "Among many changes, it moves Medicaid renewals for expansion adults to every 6 months and shortens coverage for care before applying."
+  affects: "Adults in Medicaid's expansion group, and other Medicaid and CHIP applicants who got care before they applied."
+  where: "Signed into law July 4, 2025, as Public Law 119-21. Both changes start Jan. 1, 2027."
+  summary:
+    text: >-
+      Beginning January 1, 2027, Section 71107 requires the 50 states and DC to increase the frequency of eligibility
+      redeterminations from once every 12 months to once every 6 months for individuals enrolled in Medicaid through
+      the ACA Medicaid expansion pathway
+    title: "CRS Report R48633, Health Provisions in P.L. 119-21, the FY2025 Reconciliation Law (Aug. 18, 2025)"
+    url: https://www.congress.gov/crs_external_products/R/PDF/R48633/R48633.3.pdf
+    retrieved: '2026-11-15'
+slides:
+- kicker: "One Big Beautiful Bill Act · What changes in 2027"
+  big: "Jan. 1, 2027"
+  head: "Two Medicaid eligibility changes start under H.R. 1, now Public Law 119-21."
+  text: "Expansion adults renew twice as often, and Medicaid covers fewer months of care from before you apply."
+- chip: "Renewals: before → after"
+  head: "States check whether expansion adults still qualify twice as often."
+  rows:
+  - [Before, "Eligibility renewed once every 12 months"]
+  - [After, "Once every 6 months, for adults in the expansion group"]
+  - [Exempt, "American Indians and Alaska Natives"]
+  text: "Starts with renewals scheduled on or after Jan. 1, 2027. The 6-month rule is only for expansion adults."
+  by: "Public Law 119-21, sec. 71107; CRS R48633"
+- chip: "Back coverage: before → after"
+  head: "Medicaid can pay for care from before you applied, if you would have qualified then. That window gets shorter."
+  rows:
+  - [Before, "Up to 3 months before the month you apply"]
+  - [After: expansion adults, "1 month before"]
+  - [After: everyone else, "2 months before"]
+  - [CHIP, "No more than 2 months before"]
+  quote: {label: "Public Law 119-21, sec. 71112 (expansion adults)", text: "furnished in or after the month before the month in which the individual made application"}
+  text: "For applications made on or after Jan. 1, 2027."
+  by: "Public Law 119-21, sec. 71112; CRS R48633"
+- chip: "Who gains, who loses"
+  head: "Expansion adults get checked more often, and applicants get fewer months of past care covered. Federal and state Medicaid spending goes down."
+  rows:
+  - [States, "The law names sec. 71112 \"Reducing State Medicaid costs\""]
+  - [Setup money, "$75 million (renewals) and $10 million (back coverage) for CMS, fiscal year 2026"]
+  - [All the law's Medicaid changes, "7.5 million more people uninsured in 2034 (CBO, via CRS)"]
+  text: "We couldn't confirm CBO's figure for the back-coverage change, so it isn't shown."
+  by: "CRS R48633, Table A-1 and summary, citing CBO"
+- chip: "What you can do"
+  head: "If you're on Medicaid or might need it:"
+  rows:
+  - [Answer renewals, "From 2027, expansion adults get a renewal every 6 months"]
+  - [Keep your address current, "With your state Medicaid agency, so notices reach you"]
+  - [Apply early, "Back coverage reaches only 1 or 2 months before you apply"]
+  - [Check if you qualify, "HealthCare.gov, Getting Medicaid and CHIP"]
+  by: "Public Law 119-21, secs. 71107 and 71112; HealthCare.gov"
+caption: |-
+  One Big Beautiful Bill Act: what changes in 2027.
+
+  Renewals. Before: Medicaid eligibility is renewed once every 12 months. After, for renewals from Jan. 1, 2027: every 6 months for adults in the expansion group. American Indians and Alaska Natives are exempt.
+
+  Back coverage. Before: Medicaid can pay for care up to 3 months before the month you apply, if you'd have qualified then. After, for applications from Jan. 1, 2027: 1 month for expansion adults, 2 months for everyone else, and no more than 2 for CHIP.
+
+  The law's name for the back-coverage section: "Reducing State Medicaid costs."
+
+  On Medicaid? Keep your address current with your state agency, and apply as soon as you need care.
+
+  Check if you qualify: healthcare.gov/medicaid-chip/getting-medicaid-chip
+hashtags: [medicaid, congress, healthcare, votetherecord]
+notes: >-
+  The CBO sec. 71107 figure (-$62.53 billion) was taken off the slides and caption: CRS's table text is scrambled, so confirm it against the PDF before adding it back.
+  Part of the "One Big Beautiful Bill Act: what changes in 2027" series, the owner's request (2026-11-15). No case
+  for/against slide: the fact sheet found no named official speaker on 6-month renewals or retroactive coverage, and
+  the Medicaid quotes it has (Sen. Barrasso, Sen. Hirono, July 30, 2025) are about work requirements and work
+  reporting, not eligibility renewals or back coverage, so they don't fit here; add a pair if one turns up in the
+  Record. Please double-check: (1) CBO's figure for sec. 71112 is left out: in CRS R48633 Table A-1 the text layout is
+  scrambled and the sheet's -$4,206 million may belong to sec. 71111 (the outlays printed nearby are -$4,206, $53 and
+  -$13,629 million). The sec. 71107 figure (-$62,530 million outlays) sits in reading order between 71106 (-$7,550)
+  and 71108 (-$195), so it's used, but confirm against the PDF (pp. 38-44) or CBO's table (cbo.gov returned 403, not
+  retried). (2) CRS R48633's text bullet for sec. 71112 says "all other" applicants are "also limited to the month
+  before"; the law text (sec. 71112(a)-(b)) and CRS's own Table A-1 say two months, so the slides follow the law.
+  (3) Whether these apply in Texas turns on Medicaid expansion and wasn't confirmed, so Texas isn't named; the
+  6-month rule applies only to the expansion group (law: new 1902(e)(14)(L)), while the shorter back coverage
+  applies to all Medicaid and CHIP applicants. (4) CMS's SMD letter (03/06/2026) and slide deck on renewals weren't
+  read (medicaid.gov blocked). (5) The HealthCare.gov page is linked, not quoted: its wording came through a fetch
+  tool and wasn't confirmed. (6) "7.5 million more uninsured in 2034" is for all of the law's Medicaid provisions
+  together (CRS R48633 summary), labeled that way. The "what you can do" rows are plain advice drawn from the two
+  sections' dates and windows. Not a Reel, so no voice.

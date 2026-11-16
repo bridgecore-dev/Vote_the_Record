@@ -1,0 +1,130 @@
+kind: carousel
+level: congress
+topic: Taxes and budget
+approval: review
+record_ids:
+- us/119/1/house/roll/145
+- us/119/1/senate/roll/372
+- us/119/1/house/roll/190
+publish_after: '2026-11-19T09:00:00-06:00'
+sources:
+- title: "Bill status of H.R. 1 (119th Congress): sponsor, actions and CRS summary (GPO)"
+  url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr1.xml
+  retrieved: '2026-11-15'
+- title: "House Clerk, Roll Call 145 (2025): passage of H.R. 1"
+  url: https://clerk.house.gov/evs/2025/roll145.xml
+  retrieved: '2026-11-15'
+- title: "U.S. Senate, Roll Call Vote 372 (119th Congress, 1st session): passage of H.R. 1"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.htm
+  retrieved: '2026-11-15'
+- title: "House Clerk, Roll Call 190 (2025): motion to concur in the Senate amendment to H.R. 1"
+  url: https://clerk.house.gov/evs/2025/roll190.xml
+  retrieved: '2026-11-15'
+- title: "Congressional Record, House, July 2, 2025, H3039-H3059: debate on the rule for the final vote"
+  url: https://www.govinfo.gov/content/pkg/CREC-2025-07-02/html/CREC-2025-07-02-pt1-PgH3039-8.htm
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 1
+  title: One Big Beautiful Bill Act
+  does: "Cuts taxes, raises or lowers spending on many federal programs, and raises the federal debt limit."
+  affects: "Federal taxpayers, and agencies and programs throughout the federal government."
+  where: "Signed into law July 4, 2025, as Public Law 119-21."
+  summary:
+    text: >-
+      This act reduces taxes, reduces or increases spending for various federal programs, increases the statutory
+      debt limit, and otherwise addresses agencies and programs throughout the federal government.
+    title: "CRS summary of H.R. 1 as enacted (bill status, GPO)"
+    url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr1.xml
+    retrieved: '2026-11-15'
+slides:
+- kicker: "One Big Beautiful Bill Act · What changes in 2027"
+  chip: Who is responsible
+  big: 3 votes
+  head: "How H.R. 1 became law: its sponsor, and the three final votes in the U.S. House of Representatives and the U.S. Senate, by party."
+  text: "First in the series: who passed it, as the record shows."
+- chip: Sponsor and dates
+  head: "Sponsor: Rep. Jodey C. Arrington (R-TX-19)."
+  rows:
+  - ["May 20, 2025", "Introduced in the U.S. House of Representatives"]
+  - ["May 22, 2025", "Passed the U.S. House of Representatives"]
+  - ["July 1, 2025", "Passed the U.S. Senate, with changes"]
+  - ["July 3, 2025", "U.S. House of Representatives agreed to the changes"]
+  - ["July 4, 2025", "Signed by the President: Public Law 119-21"]
+  by: "Bill status lists him as \"Rep. Arrington, Jodey C. [R-TX-19].\" Dates as the bill status gives them."
+- chip: "U.S. House of Representatives · Roll call 145"
+  kicker: "May 22, 2025 · On passage"
+  head: "Passed 215-214, with 1 Present."
+  vote: {yea: 215, nay: 214, present: 1, not_voting: 2}
+  rows:
+  - [Republican, "215 Yea · 2 Nay · 1 Present · 2 didn't vote"]
+  - [Democratic, "0 Yea · 212 Nay"]
+  - [Independent, "0 Yea · 0 Nay"]
+  text: "Republicans who didn't vote Yea: Davidson (R-OH) and Massie (R-KY) Nay; Harris (R-MD) Present; Garbarino (R-NY) and Schweikert (R-AZ) didn't vote. No Democrat voted Yea."
+  by: "Totals by party as the House Clerk lists them."
+- chip: "U.S. Senate · Roll call 372"
+  kicker: "July 1, 2025 · On passage, with changes"
+  head: "A 50-50 tie. The Vice President voted Yea, and the bill passed."
+  vote: {yea: 50, nay: 50}
+  quote: {label: "U.S. Senate vote record, result", text: "Bill Passed (50-50, Vice President of the United States, voted Yea)"}
+  rows:
+  - [Republican, "50 Yea · 3 Nay"]
+  - [Democratic, "0 Yea · 45 Nay"]
+  - [Independent, "0 Yea · 2 Nay"]
+  text: "Voted Nay: Collins (R-ME), Paul (R-KY), Tillis (R-NC), and the two independents, King (I-ME) and Sanders (I-VT). No Democrat voted Yea. Congress.gov counts it as 51-50, with the Vice President."
+  by: "Party totals counted from the U.S. Senate's list of each senator's vote."
+- chip: "U.S. House of Representatives · Roll call 190"
+  kicker: "July 3, 2025 · Agreeing to the U.S. Senate's changes"
+  head: "Agreed 218-214. This was the final vote in Congress."
+  vote: {yea: 218, nay: 214}
+  rows:
+  - [Republican, "218 Aye · 2 No"]
+  - [Democratic, "0 Aye · 212 No"]
+  - [Independent, "0 Aye · 0 No"]
+  text: "Republicans who voted No: Fitzpatrick (R-PA) and Massie (R-KY). No Democrat voted Aye. The motion was made by the sponsor, Mr. Arrington."
+  by: "Recorded as Aye and No. Totals by party as the House Clerk lists them."
+- chip: The case for
+  head: "Supporters said it keeps the 2017 tax cuts from expiring."
+  quote: {label: "Rep. Barr (R-KY), U.S. House of Representatives, July 2, 2025 (Congressional Record, H3056)", text: "stopping a $4.5 trillion tax increase stops a recession. You cannot balance the budget without growth."}
+  text: "He also said: \"He promised he would make the Tax Cuts and Jobs Act permanent.\""
+- chip: The case against
+  head: "Opponents said it adds to the debt and gives little to lower-income families."
+  quote: {label: "Rep. McGovern (D-MA), U.S. House of Representatives, July 2, 2025 (Congressional Record, H3043)", text: "The cost? Over $3 trillion added to the debt and a $5 trillion debt ceiling raise"}
+  text: "He also said: \"families making under $50,000 a year get less than a buck a day in tax cuts.\" Both members' figures are their own words."
+- chip: Check it yourself
+  head: "Look up how your member voted on each roll call."
+  rows:
+  - ["U.S. House of Representatives", "clerk.house.gov: Roll Calls 145 and 190 (2025)"]
+  - ["U.S. Senate", "senate.gov: Roll Call Vote 372 (119th Congress, 1st session)"]
+  text: "Next in this series: what the law changes in 2027. Which side convinces you?"
+caption: |-
+  Who is responsible for the One Big Beautiful Bill Act, as the official record shows it.
+
+  Sponsor: Rep. Jodey C. Arrington (R-TX-19).
+  U.S. House of Representatives, May 22, 2025: passed 215-214, 1 Present (roll call 145).
+  U.S. Senate, July 1, 2025: 50-50, and the Vice President voted Yea, so it passed (roll call 372).
+  U.S. House of Representatives, July 3, 2025: agreed to the U.S. Senate's changes, 218-214 (roll call 190).
+  Signed July 4, 2025, as Public Law 119-21.
+
+  Every member's Yea came from a Republican. No Democrat or independent voted Yea on any of the three. Some Republicans voted Nay or Present, or didn't vote; the slides name them as the Clerk and the Senate list them.
+
+  For: Rep. Barr (R-KY). Against: Rep. McGovern (D-MA). Their words are on the slides.
+
+  Next: what changes in 2027.
+hashtags: [congress, taxes, votetherecord, rollcall]
+notes: >-
+  Part of the "One Big Beautiful Bill Act: what changes in 2027" series, the owner's request (2026-11-15). Check:
+  (1) Dates. The slides use the calendar dates from the bill status and the Clerk/Senate (House passage May 22,
+  Senate July 1, House concurrence July 3, signed July 4, 2025). The law's own legislative history uses
+  Congressional Record legislative days instead ("May 21, considered and passed House. June 28, 30, considered and
+  passed Senate, amended. July 2, House concurred in Senate amendment."), so someone checking the public law may
+  see May 21 and July 2. Senate roll 372 was taken July 1 at 11:56 AM, inside the June 30 legislative day. (2)
+  Senate party totals are my count from the member list in vote_119_1_00372.xml (the Senate gives no party totals):
+  R 50 Yea, 3 Nay; D 45 Nay; I 2 Nay. The Senate's result line is quoted exactly; Congress.gov and the bill status
+  record it as "51 - 50", counting the Vice President, which slide 5 says. (3) House party rows, including the
+  Independent row of zeros, are the Clerk's totals-by-party. The Clerk lists one member as "Harris (MD)"; shown as
+  Harris (R-MD), the same form as everyone else. Roll 190 was a recorded vote, so the Clerk records Aye/No; the
+  builder's vote labels say Yea/Nay. (4) For/against quotes come from the July 2 House debate on the rule for the
+  concurrence vote (the rule's resolution number is left off so no other measure is named). McGovern's "$3
+  trillion" and Barr's "$4.5 trillion" are their own claims; CBO's estimate wasn't used because cbo.gov showed a
+  bot check, so the slides give no official cost figure. (5) "Fair, not silent": Republicans who broke with their
+  party's majority are named; no Democrat broke with theirs on any of the three votes.

@@ -1,0 +1,123 @@
+kind: reel
+level: congress
+topic: Food assistance
+approval: review
+record_ids: ["us/119/H.R. 1/sec-10105", "us/119/H.R. 1/sec-10106"]
+publish_after: '2026-11-19T19:30:00-06:00'
+sources:
+- title: "Public Law 119-21, secs. 10105-10106"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  retrieved: '2026-11-15'
+- title: "CRS Insight IN12723 (Aug. 4, 2026)"
+  url: https://www.congress.gov/crs_external_products/IN/PDF/IN12723/IN12723.1.pdf
+  retrieved: '2026-11-15'
+- title: "CRS Report R48552"
+  url: https://www.congress.gov/crs_external_products/R/PDF/R48552/R48552.9.pdf
+  retrieved: '2026-11-15'
+- title: "USDA proposed rule, June 24, 2026"
+  url: https://www.federalregister.gov/documents/2026/06/24/2026-12696/supplemental-nutrition-assistance-program-changes-in-federal-state-administrative-cost-sharing
+  retrieved: '2026-11-15'
+- title: "H. Rept. 119-106, part 1"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt106/html/CRPT-119hrpt106-pt1.htm
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 1
+  title: One Big Beautiful Bill Act
+  does: "Among many changes, it makes states with SNAP payment error rates of 6% or more pay 5% to 15% of benefit costs."
+  affects: "States that run SNAP, and the people who get SNAP food benefits."
+  where: "Signed into law July 4, 2025, as Public Law 119-21. The benefit share starts Oct. 1, 2027."
+  summary:
+    text: >-
+      The FY2025 budget reconciliation law (P.L. 119-21) newly requires a state that has a payment error rate of 6%
+      or more to pay a share of SNAP benefits in the state.
+    title: "CRS Insight IN12723, Senate Committee Chairman's New Farm Bill Draft Would Change the Upcoming State Sharing of SNAP Benefit Costs (Aug. 4, 2026)"
+    url: https://www.congress.gov/crs_external_products/IN/PDF/IN12723/IN12723.1.pdf
+    retrieved: '2026-11-15'
+  say: "H.R. 1, the One Big Beautiful Bill Act, was signed into law July 4, 2025, as Public Law 119-21. Among many changes, it makes states with SNAP payment error rates of 6% or more pay 5% to 15% of benefit costs."
+slides:
+- kicker: "One Big Beautiful Bill Act · What changes in 2027"
+  big: "Oct. 1, 2027"
+  head: "States start paying part of SNAP food benefits, under H.R. 1, now Public Law 119-21. Today the federal government pays all of them."
+  say: "One Big Beautiful Bill Act: what changes in 2027. Starting October 1, 2027, under H.R. 1, now Public Law 119-21, states start paying part of SNAP food benefits. Today the federal government pays all of them."
+- chip: "Already started: Oct. 1, 2026"
+  head: "States now pay 75% of the cost of running SNAP, up from 50%."
+  rows:
+  - [Before, "Federal 50% · State 50%"]
+  - [After, "Federal 25% · State 75%, from fiscal year 2027 on"]
+  text: "USDA: about $16.9 billion in costs moves from federal to state budgets over fiscal years 2027-2031, about $3.4 billion a year."
+  by: "Public Law 119-21, sec. 10106; USDA proposed rule, June 24, 2026"
+  say: "Already started, on October 1, 2026: states now pay 75% of the cost of running SNAP, up from 50%. USDA says about $16.9 billion in costs moves from federal to state budgets over fiscal years 2027 to 2031."
+- chip: "Next: Oct. 1, 2027"
+  head: "Before: the federal government paid 100% of SNAP benefits. After: a state's share depends on its payment error rate."
+  rows:
+  - [Error rate under 6%, "State pays 0%"]
+  - [6% to under 8%, "State pays 5%"]
+  - [8% to under 10%, "State pays 10%"]
+  - [10% or more, "State pays 15%"]
+  text: "The error rate estimates over- and underpayments, as a share of all benefits. For the first year, a state may use its 2025 or 2026 rate. States with rates of 13.33% or more start later."
+  by: "Public Law 119-21, sec. 10105; CRS IN12723"
+  say: "Next, on October 1, 2027: a state's share of benefits depends on its payment error rate. Under 6%, it pays nothing. 6 to under 8%, it pays 5%. 8 to under 10%, 10%. 10% or more, 15%."
+- chip: "Who pays, who saves"
+  big: "$41 billion"
+  head: "Less federal SNAP spending over 10 years, CBO estimates, as CRS reports it. About $35 billion of it comes from states paying part of benefits."
+  rows:
+  - [People, "May end benefits for 300,000 people in an average month"]
+  - [Child nutrition, "$170 million less over 2028-2034; 96,000 children affected in an average month"]
+  - [States, "CBO expects some to keep benefits as they are, some to change them, and some to leave SNAP"]
+  by: "CRS R48552, summarizing CBO (Aug. 11, 2025)"
+  say: "CBO estimates about $41 billion less federal SNAP spending over 10 years; about $35 billion comes from states paying part of benefits. CBO says it may end benefits for 300,000 people in an average month."
+- chip: "This could change"
+  head: "A U.S. Senate farm bill draft would push the benefit share back one year, to Oct. 1, 2028."
+  rows:
+  - [Who, "Sen. John Boozman (R-AR), chairman of the U.S. Senate Agriculture Committee, released it July 31, 2026"]
+  - [Also in it, "From fiscal year 2031, the top state share rises from 15% to 20%"]
+  - [Not changed, "The 75% state share of running costs"]
+  text: "As far as the records we checked show, it has not passed. Current law still starts Oct. 1, 2027."
+  by: "CRS IN12723 (Aug. 4, 2026)"
+  say: "This could change. A United States Senate farm bill draft, released July 31, 2026, would push the benefit share back one year, to October 1, 2028. As far as we found, it has not passed. Current law still starts October 1, 2027."
+- chip: "The case for"
+  head: "The committee's report says full federal funding gives states little reason to hold down costs."
+  quote: {label: "U.S. House of Representatives Agriculture Committee, Chairman Glenn \"GT\" Thompson (R-PA), H. Rept. 119-106", text: "Because the SNAP benefit is 100 percent funded by the Federal government, there is minimal incentive for States to control costs, enhance efficiencies, and improve outcomes for recipients."}
+  text: "Written about the U.S. House of Representatives' version, where the state share went up to 25%."
+  say: "The case for: the United States House Agriculture Committee report, sent by Chairman Glenn Thompson, Republican of Pennsylvania, said that because SNAP benefits are 100 percent federally funded, states have minimal incentive to control costs."
+- chip: "The case against"
+  head: "Committee members who dissented say states can't carry the new costs."
+  quote: {label: "Dissenting views, Ranking Member Angie Craig (D-MN) and other members, U.S. House of Representatives Agriculture Committee, May 16, 2025", text: "Increasing the current administrative cost-shift for states to 75 percent and creating an unfunded mandate that attempts to force states to pay for SNAP benefits will create a death spiral for federal food assistance in America."}
+  text: "Written about the U.S. House of Representatives' version, where the state share went up to 25%."
+  say: "The case against: dissenting views from Ranking Member Angie Craig, Democrat of Minnesota, and other committee members said shifting 75 percent of running costs to states, and making them pay for benefits, will create a death spiral for federal food assistance."
+caption: |-
+  One Big Beautiful Bill Act: what changes in 2027.
+
+  Already started, Oct. 1, 2026: states pay 75% of the cost of running SNAP, up from 50%.
+
+  Next, Oct. 1, 2027. Before: the federal government pays 100% of SNAP food benefits. After: states with payment error rates of 6% or more pay 5% to 15%, depending on the rate.
+
+  CBO estimates about $41 billion less federal SNAP spending over 10 years, and that it may end benefits for 300,000 people in an average month.
+
+  A U.S. Senate farm bill draft would delay the benefit share a year, to Oct. 1, 2028. As far as the records we checked show, it hasn't passed.
+
+  For and against: the U.S. House of Representatives Agriculture Committee's report and its dissenting views. Which side convinces you?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [SNAP, foodassistance, congress, votetherecord]
+notes: >-
+  Party and state for Thompson (R-PA) and Craig (D-MN) are from House roll call 145's member list, and for Boozman (R-AR) from Senate roll call 372's, since the report and draft print none.
+  Part of the "One Big Beautiful Bill Act: what changes in 2027" series, the owner's request (2026-11-15). Please
+  double-check: (1) The farm bill draft: CRS IN12723 (Aug. 4, 2026) says Chairman Boozman's July 31, 2026 draft would
+  delay the benefit share to Oct. 1, 2028, was scheduled for committee consideration Aug. 6, 2026, and would not change
+  the admin share. Whether it was marked up, passed either chamber, or became law is unconfirmed; the slide says only
+  that the records we checked show no passage. Re-check before the slot. The House-passed farm bill's number is in the
+  CRS Insight but is not named here (one bill per post); CRS says it has no such provision. Boozman is named without
+  party because the CRS source lists none. (2) The $41 billion and $35 billion are from CRS R48552's text ("about $35
+  billion of the $41 billion"), which summarizes CBO's Aug. 11, 2025 estimate; the sheet's -$40.8 billion and the
+  admin -$24.7 billion come from a CRS table whose text layout is scrambled, so neither is used. The admin dollar figure
+  used is USDA's own ($16.9 billion over FY2027-2031) from the June 24, 2026 proposed rule; USDA also assumes "a
+  negligible impact on SNAP benefit spending or SNAP participation." Final rule status: unconfirmed. The admin change
+  itself is in the law (FY2027 on), so it applies regardless of the rule. (3) No state's error rate or expected share
+  (including Texas's) is on a slide: CRS's figure didn't extract, so it's unconfirmed. (4) Both for/against quotes are
+  from H. Rept. 119-106 pt. 1 and discuss the House-passed version (state benefit share 5-25%); each slide says so.
+  The dissent is signed by Ranking Member Craig and 23 other members (the fact sheet said 12; the report lists 24
+  names in all), so the slide says "and other members". The report prints no party for Thompson or Craig, so neither
+  gets one. The dissent's "$155 billion" and "3 million" figures are for the House version and are left out. (5) No
+  official SNAP "what you can do" page was reachable (the FNA state directory blocked access), so the post ends with
+  a question instead. Quotes were checked word for word against the downloaded govinfo and CRS text.

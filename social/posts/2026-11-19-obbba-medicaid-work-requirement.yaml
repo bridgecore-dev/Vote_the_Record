@@ -1,0 +1,127 @@
+kind: reel
+level: congress
+topic: Health
+approval: review
+record_ids: ["us/119/H.R. 1/sec-71119"]
+publish_after: '2026-11-19T07:30:00-06:00'
+sources:
+- title: "Public Law 119-21, sec. 71119"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  retrieved: '2026-11-15'
+- title: "CRS Report R48633"
+  url: https://www.congress.gov/crs_external_products/R/PDF/R48633/R48633.3.pdf
+  retrieved: '2026-11-15'
+- title: "CMS interim final rule"
+  url: https://www.federalregister.gov/documents/2026/06/03/2026-11094/medicaid-program-community-engagement-requirement-for-certain-individuals
+  retrieved: '2026-11-15'
+- title: "CMS fact sheet"
+  url: https://www.cms.gov/newsroom/fact-sheets/medicaid-community-engagement-requirement-certain-individuals-interim-final-rule-comment-period-cms
+  retrieved: '2026-11-15'
+- title: "CMS, Nov. 13, 2026"
+  url: https://www.cms.gov/newsroom/press-releases/cms-announces-hold-harmless-period-strengthen-medicaid-work-requirement-systems-improve-beneficiary
+  retrieved: '2026-11-15'
+- title: "Congressional Record, July 30, 2025"
+  url: https://www.govinfo.gov/content/pkg/CREC-2025-07-30/pdf/CREC-2025-07-30-senate.pdf
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 1
+  title: One Big Beautiful Bill Act
+  does: "Among many changes, it sets a Medicaid work requirement for some adults: 80 hours a month of work, school, service or a work program."
+  affects: "Medicaid expansion adults ages 19 to 64, with exclusions such as pregnant people and parents of a child 13 or under."
+  where: "Signed into law July 4, 2025, as Public Law 119-21. The work requirement starts Jan. 1, 2027."
+  summary:
+    text: >-
+      the provision establishing the Medicaid community engagement
+      requirements (i.e., work, participation in a work program or community service, or enrollment in an
+      education program) for certain individuals--accounts for a significant portion of the reduction in federal
+      outlays.
+    title: "CRS Report R48633, Health Provisions in P.L. 119-21, the FY2025 Reconciliation Law (Aug. 18, 2025)"
+    url: https://www.congress.gov/crs_external_products/R/PDF/R48633/R48633.3.pdf
+    retrieved: '2026-11-15'
+  say: "H.R. 1, the One Big Beautiful Bill Act, was signed into law July 4, 2025, as Public Law 119-21. Among many changes, it sets a Medicaid work requirement for some adults, starting January 1, 2027."
+slides:
+- kicker: "One Big Beautiful Bill Act · What changes in 2027"
+  big: "Jan. 1, 2027"
+  head: "A federal Medicaid work requirement starts. Under H.R. 1, now Public Law 119-21, many adults ages 19 to 64 must show 80 hours a month."
+  say: "One Big Beautiful Bill Act: what changes in 2027. On January 1, 2027, a federal Medicaid work requirement starts. Under H.R. 1, now Public Law 119-21, many adults ages 19 to 64 must show 80 hours a month."
+- chip: "Before → after"
+  head: "Before: Medicaid law had no work requirement. After: each month, an adult it covers shows one of these."
+  rows:
+  - [Work, "80 hours"]
+  - [Community service, "80 hours"]
+  - [A work program, "80 hours"]
+  - [School, "At least half-time"]
+  - [A mix, "80 hours in all"]
+  - [Income, "$580 a month in 2026 (federal minimum wage × 80 hours)"]
+  text: "Georgia had a work requirement under a federal waiver, CRS notes."
+  by: "Public Law 119-21, sec. 71119; CRS R48633; CMS interim final rule"
+  say: "Before, Medicaid law had no work requirement. After, each month, an adult it covers shows 80 hours of work, community service, a work program, or a mix; or school at least half-time; or income of $580 a month in 2026."
+- chip: "Who it covers"
+  head: "Adults 19 to 64 in Medicaid's expansion group. 43 states and D.C. cover that group and must start it, CMS says."
+  rows:
+  - [Excluded, "Among others: pregnant or postpartum people, parents of a child 13 or under, the medically frail, American Indians and Alaska Natives"]
+  - [If it isn't met, "A notice, then 30 days to show it; then the application is denied or coverage ends"]
+  - [If you're covered, "Keep your address current with your state Medicaid agency: the notice comes by regular mail"]
+  by: "Public Law 119-21, sec. 71119; CMS fact sheet"
+  say: "It covers adults 19 to 64 in Medicaid's expansion group. 43 states and D.C. must start it, CMS says. Some are excluded, like pregnant people. If it isn't met: a notice, then 30 days to show it. Keep your address current."
+- chip: "New: CMS, Nov. 13, 2026"
+  big: "June 30, 2027"
+  head: "States may choose a hold harmless period until then: they check who meets the rule, but don't deny or remove anyone solely for missing it."
+  quote: {label: "CMS press release, Nov. 13, 2026", text: "they will not deny applications or disenroll otherwise eligible individuals solely for failure to meet the requirement."}
+  text: "The Jan. 1, 2027 start date stays."
+  say: "New on November 13, 2026: CMS said states may choose a hold harmless period through June 30, 2027. They check who meets the rule, but don't deny or remove anyone solely for missing it. The January 1, 2027 start stays."
+- chip: "What CMS projects"
+  big: "2.3 million"
+  head: "Fewer people on Medicaid in fiscal year 2027, CMS projects."
+  rows:
+  - [Later years, "3.1 to 3.3 million fewer"]
+  - [Don't meet it, "12% of those it applies to lose coverage"]
+  - [Paperwork, "7% who may qualify lose it for administrative or procedural reasons"]
+  - [Federal Medicaid, "$350.3 billion less over 10 years (CMS); $325.6 billion (CBO, via CRS)"]
+  - [State Medicaid, "$41.6 billion less over 10 years (CMS)"]
+  text: "CMS did not estimate how many find other coverage."
+  by: "CMS interim final rule, regulatory impact analysis; CRS R48633"
+  say: "CMS projects 2.3 million fewer people on Medicaid in fiscal year 2027, and 3.1 to 3.3 million fewer in later years. Federal Medicaid spending: $350.3 billion less over 10 years. State spending: $41.6 billion less."
+- chip: "The case for"
+  head: "A supporter says Medicaid is meant for the vulnerable, and that work is part of a person's dignity."
+  quote: {label: "Sen. John Barrasso (R-WY), Congressional Record, July 30, 2025", text: "Medicaid is for the vulnerable. It was never meant to cover able-bodied, working-aged adults who refuse to work"}
+  text: "He also said: \"We believe in work as part of somebody's identity, their dignity, their selfworth\""
+  say: "The case for: Senator John Barrasso, Republican of Wyoming, said Medicaid is for the vulnerable and was never meant to cover able-bodied, working-aged adults who refuse to work. He called work part of a person's dignity."
+- chip: "The case against"
+  head: "An opponent says the reporting rules push people off coverage even when they qualify."
+  quote: {label: "Sen. Mazie Hirono (D-HI), Congressional Record, July 30, 2025", text: "These reporting requirements are so burdensome that it results in people being kicked off this care, their Medicaid care, even if they meet the new requirements."}
+  text: "She pointed to Arkansas's 2018 work requirements."
+  say: "The case against: Senator Mazie Hirono, Democrat of Hawaii, said the reporting requirements are so burdensome that people get kicked off Medicaid even if they meet them. She pointed to Arkansas's 2018 work requirements."
+caption: |-
+  One Big Beautiful Bill Act: what changes in 2027.
+
+  Before: Medicaid law had no work requirement. After, from Jan. 1, 2027: many expansion adults 19 to 64 must show 80 hours a month of work, service, a work program, or school half-time, or $580 a month in income (the 2026 figure). Pregnant people and parents of a child 13 or under are among those excluded.
+
+  New on Nov. 13: states may choose not to deny or remove anyone solely for missing it, through June 30, 2027.
+
+  CMS projects 2.3 million fewer people on Medicaid in fiscal year 2027, and $350.3 billion less federal spending over 10 years.
+
+  For: Sen. John Barrasso (R-WY). Against: Sen. Mazie Hirono (D-HI). Which side convinces you?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [medicaid, congress, healthcare, votetherecord]
+notes: >-
+  Part of the "One Big Beautiful Bill Act: what changes in 2027" series, the owner's request (2026-11-15). Please
+  double-check: (1) Texas is not named: whether the requirement applies in Texas turns on expansion status and wasn't
+  confirmed in an official source. The "43 states and the District of Columbia" line is from the CMS fact sheet
+  (re-opened 2026-11-15: "To date, 43 states and the District of Columbia provide coverage to these populations and
+  will be required to implement the new requirement"); it names no states. (2) Which states adopt CMS's optional
+  hold harmless period, and which got good-faith exemptions (they expire by Dec. 31, 2028), is unconfirmed, so
+  neither is on a slide; CMS's guidance letter SMD 26-006 was blocked (medicaid.gov) and wasn't read. (3) CMS
+  figures (2.3 million; 3.1 to 3.3 million; 12% and 7%; $350.3 billion federal and $41.6 billion state) are quoted
+  from the IFC's regulatory impact analysis in the Federal Register, checked against the downloaded text; CMS also
+  says it did not estimate alternative coverage. The $325.6 billion is CBO's, as CRS R48633 reports it (cbo.gov
+  returned 403, not retried). (4) "Georgia had a work requirement under a federal waiver" rests on CRS R48633's
+  background for sec. 71119 (the IFC also says Nebraska began May 1, 2026; not on a slide). (5) Quotes were checked
+  word for word against the govinfo PDF of the Record: Barrasso's quote is cut after "refuse to work" (it goes on
+  "nor was it meant to cover illegal immigrants ..."); his numeric claims are left out. Hirono's Arkansas figure is
+  her citation of KFF and isn't on a slide. Party and state are written in the "(R-WY)" form; the Record itself
+  prints only "Mr. BARRASSO" / "Ms. HIRONO", so confirm against the Senate roster. (6) "$580 a month in 2026" is the
+  IFC's "$7.25 per hour ... multiplied by 80 equals $580". The rule that people removed are treated as Medicaid-eligible
+  for marketplace tax credits (sec. 71119, new 1902(xx)(7)(B)) is left out for space. (7) The law also funds
+  implementation ($200 million to CMS, $200 million in state grants); not on a slide. No roll call is in this post.
