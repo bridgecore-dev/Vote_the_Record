@@ -136,6 +136,16 @@ the format that fits: a Reel for one quick point that takes 3-6 slides, a carous
 (bill explainers, vote tallies), a story for a reminder or a date. Never weaken the rules above to fill a
 format; an empty slot is better than a weak post.
 
+For the daily story, use a template (examples: `social/examples/story-templates.yaml`):
+- Countdown: `countdown: {date, event}` on a slide, with no `big`, for a dated official event (a legislature
+  convening, a filing deadline, Election Day), the date and event taken from the official calendar and cited.
+  The builder counts the days from `publish_after`, which it requires.
+- Quiz: the question in the slide's `head`, then `quiz: {choices, answer, explain, quote}`; the builder adds the
+  answer slide. The answer and `explain` come from a cited official record, and a quote is quoted exactly. Quiz
+  posts always use `approval: review`. Ask about process and dates, never about a person or a party.
+- "Today in Congress": a `kicker` and `rows`, each row one scheduled item from the official House and Senate
+  floor schedules or committee calendars.
+
 At most three pull requests per run; pick the strongest. A run with no empty slot in the next two days and
 nothing new may open nothing. If twelve or more post pull requests are already open, open only ones built from
 the owner's ideas.
