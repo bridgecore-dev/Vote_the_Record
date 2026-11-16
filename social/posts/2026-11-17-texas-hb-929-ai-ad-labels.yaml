@@ -45,12 +45,12 @@ slides:
 - chip: What counts
   head: "\"Material AI content\": AI-made or AI-altered content that is a substantial part of the ad's message or a depiction in it."
   text: "Not counted: routine work like spelling fixes, formatting, cropping, color and sound cleanup, and accurate captions or translations, if they don't change the message or fake a real person's voice or likeness."
-- chip: Before → after
+- chip: The penalty
   head: "A civil fine, not a crime: the Texas Ethics Commission could fine up to $4,000 per ad."
   text: "Copies of the same ad by the same person in the same election count as one. The commission must weigh a prompt, good-faith fix. Exempt: satire and parody, unpaid news and commentary, and publishers and other go-betweens. No fiscal note (cost estimate) is posted yet."
 - chip: What's next
   head: The Legislature convenes Jan. 12, 2027.
-  text: "Should political ads have to label AI content? Is a fine the right way to enforce it?"
+  text: "If passed as filed, it takes effect Sept. 1, 2027. Should political ads have to label AI content? Is a fine the right way to enforce it?"
 caption: |-
   Today, Texas law makes one kind of election deep fake a crime: a fake video, published within 30 days of an election to hurt a candidate or sway the result.
 
@@ -58,7 +58,7 @@ caption: |-
 
   An ad without it could draw a civil fine from the Texas Ethics Commission of up to $4,000 per ad. Satire, parody and unpaid news are exempt.
 
-  Should AI in political ads need a label?
+  If passed, it takes effect Sept. 1, 2027. Should AI in political ads need a label?
 hashtags: [txlege, texaslegislature, elections, ai, votetherecord]
 notes: >-
   Split from the five-bill post (2026-11-17-texas-ai-political-ad-bills) at the owner's request: one post per

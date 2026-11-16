@@ -73,11 +73,10 @@ slides:
   big: H.R. 7730
   head: Higher debt limits to file bankruptcy
   rows:
-  - [Before, "Small business: debts up to about $3.4 million"]
-  - [After, "Up to $7.5 million"]
-  - [Before, "Chapter 13: about $2.1 million, separate caps"]
-  - [After, "Under $2.75 million, all debts counted together"]
-  text: These limits had been higher until they expired in 2024. Congress.gov lists no CBO cost estimate.
+  - [Before, "Lower limits, after higher ones expired in 2024"]
+  - [After: small business, "Debts up to $7.5 million"]
+  - [After: Chapter 13, "Under $2.75 million, all debts counted together"]
+  text: The law restores the higher limits that expired in 2024. Congress.gov lists no CBO cost estimate.
 - chip: Public Law 119-140
   big: H.R. 1703
   head: Medicare and lighter wheelchairs, from Jan. 1, 2028
@@ -122,4 +121,4 @@ notes: >-
   passed "as amended", and I checked each claim against the enrolled text (7730 and 1703 numbers and the 2028 start
   date match the enrolled text). cbo.gov returned 403, so the CBO estimates for H.R. 997 and 1945 are linked, not
   quoted; congress.gov lists none for 7730 or 1703. The sources don't say who loses under either change, so the
-  slides don't claim one. Tallies come from Congress.gov's actions; the only roll call was House roll 85 (2025), 385-0.
+  slides don't claim one. Tallies come from Congress.gov's actions; the only roll call was House roll 85 (2025), 385-0. The earlier \"Before\" dollar figures (~$3.4M / ~$2.1M) were dropped after the Nov 16 audit: no listed source states them, and uscode.house.gov is already current through PL 119-142.

@@ -14,6 +14,9 @@ sources:
 - title: "History, Art & Archives, U.S. House of Representatives: Impeachment"
   url: https://history.house.gov/Institution/Origins-Development/Impeachment/
   retrieved: '2026-11-14'
+- title: "Congressional Record, Nov. 10, 2026, H6126-H6133 (PDF, GPO)"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-11-10/pdf/CREC-2026-11-10-pt1-PgH6126-3.pdf
+  retrieved: '2026-11-16'
 bills:
 - id: H.Res. 1655
   does: Would impeach Defense Secretary Peter Brian Hegseth on 8 articles and send the articles to the Senate.
@@ -34,9 +37,9 @@ slides:
    text: "Yea = for sending it to the Judiciary Committee, Nay = against: 211 Yea, 204 Nay, 18 didn't vote. The House did not vote on impeaching him.",
    say: "On November 10, 2026, the U.S. House voted to send H.Res. 1655, a resolution to impeach Defense Secretary Peter Brian Hegseth, to the Judiciary Committee: 211 Yea, 204 Nay, 18 didn't vote. The House did not vote on impeaching him."}
 - {chip: "How they voted", head: "By party, as the House Clerk records it",
-   rows: [[Republican, "210 Yea · 1 Nay · 7 didn't vote"], [Democratic, "0 Yea · 203 Nay · 11 didn't vote"], [Independent, "1 Yea · 0 Nay"]],
+   rows: [[Republican, "210 Yea · 1 Nay · 7 didn't vote"], [Democratic, "0 Yea · 203 Nay · 11 didn't vote"], [Independent, "1 Yea · 0 Nay · 0 didn't vote"]],
    text: "The smaller side, 204 Nay votes, is too long to list here. Every name is in roll call 317 on clerk.house.gov.",
-   say: "How they voted, by party, as the House Clerk records it. Republican: 210 Yea, 1 Nay, 7 didn't vote. Democratic: 0 Yea, 203 Nay, 11 didn't vote. Independent: 1 Yea, 0 Nay. Every name is in roll call 317 on clerk.house.gov."}
+   say: "How they voted, by party, as the House Clerk records it. Republican: 210 Yea, 1 Nay, 7 didn't vote. Democratic: 0 Yea, 203 Nay, 11 didn't vote. Independent: 1 Yea, 0 Nay, 0 didn't vote. Every name is in roll call 317 on clerk.house.gov."}
 - {chip: "Before the vote", head: "Rep. Massie (R-KY) offered the resolution as a question of the privileges of the House. The chair ruled that it qualified, and the House took it up that day.",
    quote: {label: "Congressional Record, Nov. 10, 2026", text: "Mr. Issa of California moves to refer the resolution to the Committee on the Judiciary."},
    say: "Representative Massie, Republican of Kentucky, offered the resolution as a question of the privileges of the House. The chair ruled that it qualified. The Congressional Record says: Mr. Issa of California moves to refer the resolution to the Committee on the Judiciary."}
@@ -70,4 +73,4 @@ notes: >-
   (2) The slides give no argument for or against the motion: in the Record, Mr. Issa yielded back his hour
   without debate, and the only floor statements I found (Houlahan, Jacobs, McCollum) support impeachment, so
   quoting them alone would be one-sided. I didn't find an official response from Secretary Hegseth to cite.
-  (3) The 8 article titles are quoted from the Record (Articles I-III differ only by WPR section: 2(c), 5(c), 5(b)).
+  (3) The 8 article titles are quoted from the Record (Articles I-III differ only by WPR section: 2(c), 5(c), 5(b)). (4) Nov 16 audit: the Issa motion text and all 8 article titles were checked against the Record PDF (govinfo CREC-2026-11-10-pt1-PgH6126-3.pdf; the HTML is truncated at H6131), and congress.gov lists no H.Res. 1655 action after the Nov. 10 referral.

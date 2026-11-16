@@ -22,12 +22,15 @@ sources:
 - title: "FEC: Political Action Committees (PACs)"
   url: https://www.fec.gov/press/resources-journalists/political-action-committees-pacs/
   retrieved: '2026-11-14'
+- title: "eCFR: 11 CFR 100.5, Political committee (definitions)"
+  url: https://www.ecfr.gov/current/title-11/chapter-I/subchapter-A/part-100/subpart-A/section-100.5
+  retrieved: '2026-11-16'
 - title: "AIPAC: Politics"
   url: https://www.aipac.org/politics
   retrieved: '2026-11-14'
 slides:
 - kicker: Campaign money, explained
-  head: AIPAC takes part in federal elections through a PAC, and its website names a super PAC it backs. Here's how each works, from FEC records.
+  head: The American Israel Public Affairs Committee (AIPAC) takes part in federal elections through a PAC, and its website names a super PAC it backs. Here's how each works, from FEC records.
   rows:
   - [AIPAC PAC, FEC ID C00797670]
   - [United Democracy Project, FEC ID C00799031]
@@ -38,6 +41,7 @@ slides:
   - [Committee type, Membership Organization PAC - Qualified]
   - [Designation, Lobbyist/Registrant PAC]
   quote: {label: "FEC, what “PAC - qualified” means", text: "PACs that have been in existence for six months and received contributions from 50 people and made contributions to five federal candidates"}
+  text: "Those are the same tests federal rules set for a multicandidate committee (11 CFR 100.5(e)(3)), the type with the limit on the next slide."
 - kicker: What a PAC can give
   big: $5,000
   head: The most a multicandidate PAC can give a candidate's campaign, per election, in 2025-2026.
@@ -62,6 +66,7 @@ slides:
   - [Committee type, Super PAC (Independent Expenditure-Only)]
   - [Designation, Unauthorized]
   quote: {label: fec.gov, text: "Super PACs (independent expenditure only political committees) are committees that may receive unlimited contributions from individuals, corporations, labor unions and other PACs"}
+  text: "Unauthorized means no candidate has authorized it in writing to raise or spend money for them (11 CFR 100.5(f)(2))."
 - kicker: United Democracy Project, FEC totals
   head: Independent expenditures are ads for or against a candidate that aren't made with the candidate.
   rows:

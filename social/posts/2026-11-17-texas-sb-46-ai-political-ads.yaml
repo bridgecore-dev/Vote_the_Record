@@ -41,7 +41,7 @@ slides:
   head: "Today's 30-day video crime stays. SB 46 adds a new rule for political ads."
   rows: [[Covers, "A fake image, audio or video of a candidate's or officeholder's looks, speech or conduct, AI-made or not"],
          [When, "Any ad meant to influence an election; the bill text sets no 30-day window"],
-         [Allowed if, "The ad says it did not happen, or the only edits are color, brightness and the like"]]
+         [Allowed if, "The ad says it did not happen, or an image or video was only edited for color, brightness and the like"]]
   text: "The Texas Ethics Commission would set the label's font, size and color."
 - chip: The penalty
   head: "First and second offense: a fine of up to $3,000. Third or later: a Class A misdemeanor."
@@ -52,13 +52,13 @@ slides:
   text: "Not liable for someone else's ad: online services, internet providers, broadcasters, billboard owners. No fiscal note (cost estimate) is posted yet."
 - chip: What's next
   head: The Legislature convenes Jan. 12, 2027.
-  text: "Should a fake image, audio or video of a candidate be allowed in an ad as long as the ad says it's fake? And should a first offense mean a fine, or jail time?"
+  text: "If passed as filed, it takes effect Sept. 1, 2027. Should a fake image, audio or video of a candidate be allowed in an ad as long as the ad says it's fake? And should a first offense mean a fine, or jail time?"
 caption: |-
   Today, Texas law makes one kind of election deep fake a crime: a fake video, published within 30 days of an election to hurt a candidate or sway the result.
 
   SB 46, filed in the Texas Senate for the 2027 session, would keep that rule and add another: a political ad with a fake image, audio or video of a candidate, unless the ad says it didn't happen.
 
-  The penalty: a fine of up to $3,000 for a first or second offense. A third would be a Class A misdemeanor, with up to a year in jail.
+  The penalty: a fine of up to $3,000 for a first or second offense. A third would be a Class A misdemeanor: up to $4,000, a year in jail, or both. If passed, it takes effect Sept. 1, 2027.
 
   Should a label be enough?
 hashtags: [txlege, texaslegislature, deepfakes, elections, votetherecord]

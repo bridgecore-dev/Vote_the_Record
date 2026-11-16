@@ -53,7 +53,7 @@ slides:
   head: "Today's 30-day video crime stays. The bills add a new rule for political ads."
   rows: [[Covers, "A fake image, audio or video of a candidate's or officeholder's looks, speech or conduct, AI-made or not"],
          [When, "Any ad meant to influence an election; the bill text sets no 30-day window"],
-         [Allowed if, "The ad says it did not happen, or the only edits are color, brightness and the like"],
+         [Allowed if, "The ad says it did not happen, or an image or video was only edited for color, brightness and the like"],
          [Penalty, "A Class A misdemeanor"]]
   text: "The Texas Ethics Commission would set the label's font, size and color."
 - chip: Who it covers
@@ -61,13 +61,13 @@ slides:
   text: "Not liable for someone else's ad: online services, internet providers, broadcasters, billboard owners. No fiscal note (cost estimate) is posted yet."
 - chip: What's next
   head: The Legislature convenes Jan. 12, 2027.
-  text: "Should a fake image, audio or video of a candidate be allowed in an ad as long as the ad says it's fake?"
+  text: "If passed as filed, they take effect Sept. 1, 2027. Should a fake image, audio or video of a candidate be allowed in an ad as long as the ad says it's fake?"
 caption: |-
   Today, Texas law makes one kind of election deep fake a crime: a fake video, published within 30 days of an election to hurt a candidate or sway the result.
 
   HB 639 and HB 671, filed in the Texas House of Representatives for the 2027 session, have the same text word for word. They would keep that rule and add another: a political ad with a fake image, audio or video of a candidate would be a Class A misdemeanor unless the ad says it didn't happen.
 
-  Should a label be enough?
+  If passed, they take effect Sept. 1, 2027. Should a label be enough?
 hashtags: [txlege, texaslegislature, deepfakes, elections, votetherecord]
 notes: >-
   Split from the five-bill post (2026-11-17-texas-ai-political-ad-bills) at the owner's request: one post per
