@@ -1,0 +1,31 @@
+# FORMAT EXAMPLE ONLY: the story templates. The countdown and schedule use real dates from the Texas
+# Legislative Council; the quiz is a format sample. It passes --check; never publish it.
+kind: story
+level: state
+place: Texas
+topic: How it works
+highlight: How it works
+approval: review                     # a quiz answer is explained in our words
+publish_after: '2026-11-16T08:00:00-06:00'
+sources:
+- title: Texas Legislative Council, Dates of Interest
+  url: https://tlc.texas.gov/docs/legref/Dates-of-Interest.pdf
+  retrieved: '2026-11-13'
+slides:
+- kicker: Countdown
+  countdown: {date: '2027-01-12', event: the 90th Texas Legislature convenes}   # the number is counted from publish_after
+- kicker: Today in the Legislature
+  head: Bill filing is open for the 2027 session.
+  rows:                                       # a "today" schedule: one row per item
+  - ["Since Nov. 9", "Legislators and legislators-elect may file bills."]
+  - ["Jan. 12, 2027", "The 90th Legislature convenes at noon."]
+  - ["May 31, 2027", "Last day of the regular session."]
+- head: When does the 90th Texas Legislature convene?
+  quiz:
+    choices: ["Nov. 9, 2026", "Jan. 12, 2027", "May 31, 2027"]
+    answer: 1                                 # 0 is the first choice
+    explain: Lawmakers could start filing bills Nov. 9, but the session itself starts at noon on Jan. 12, 2027.
+    quote: {label: Texas Legislative Council, text: "First day of 90th Regular Session; Legislature convenes at noon"}
+caption: |-
+  How many days until the Texas Legislature is back? Tap through for the countdown and a quick quiz.
+hashtags: [txlege, votetherecord]

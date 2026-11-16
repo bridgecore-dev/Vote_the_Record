@@ -143,3 +143,40 @@ def test_a_band_slide_with_nothing_for_the_band_uses_the_card():
     assert 'class="layout-card"' in page and 'class="lead"' not in page
     page = B.slide_html(post(), {"kicker": "Filing", "big": "1,457", "head": "Bills filed."}, 1, 3, "band", (1080, 1350))
     assert 'class="layout-band"' in page
+
+
+def story(**kw):
+    p = post(kind="story", approval="review", publish_after="2026-11-16T08:00:00-06:00",
+             slides=[{"kicker": "Countdown", "countdown": {"date": "2027-01-12", "event": "the Legislature convenes"}}])
+    p.update(kw)
+    return p
+
+
+def test_a_countdown_counts_from_the_day_the_post_goes_out():
+    s = B.expanded(story())[0]
+    assert s["big"] == "57" and s["head"] == "days until the Legislature convenes"
+    assert errs(story()) == []
+
+
+def test_a_countdown_needs_a_publish_date_and_a_future_event():
+    assert any("publish_after" in e for e in errs(story(publish_after=None)))
+    past = [{"countdown": {"date": "2026-11-01", "event": "x"}}]
+    assert any("on or after" in e for e in errs(story(slides=past)))
+
+
+QUIZ = {"head": "When does the session start?",
+        "quiz": {"choices": ["Nov. 9", "Jan. 12"], "answer": 1, "explain": "It starts Jan. 12."}}
+
+
+def test_a_quiz_becomes_a_question_and_its_answer():
+    q, a = B.expanded(story(slides=[QUIZ]))
+    assert q["rows"] == [["A", "Nov. 9"], ["B", "Jan. 12"]] and q["hint"] == "Tap for the answer →"
+    assert a["head"] == "B. Jan. 12" and a["text"] == "It starts Jan. 12."
+    assert B.expanded(story(kind="carousel", slides=[QUIZ]))[0]["hint"] == "Swipe for the answer →"
+
+
+def test_a_quiz_needs_review_a_valid_answer_and_room_for_it():
+    assert any("approval review" in e for e in errs(story(slides=[QUIZ], approval="auto")))
+    bad = {**QUIZ, "quiz": {**QUIZ["quiz"], "answer": 5}}
+    assert any("quiz is" in e for e in errs(story(slides=[bad])))
+    assert any("story or carousel" in e for e in errs(story(kind="image", slides=[QUIZ])))

@@ -87,6 +87,20 @@ the same for every contest, and only once the canvass is official. Percentages a
 included. Example:
 `examples/list-results-format.yaml` (fictional).
 
+## Story templates
+
+Stories publish through Instagram's API, which can't add interactive stickers (polls, quizzes, links). These
+templates work without them; example: `examples/story-templates.yaml`.
+
+- **Countdown:** `countdown: {date: 2027-01-12, event: the 90th Texas Legislature convenes}` draws "57 / days
+  until ...". The number is counted from the post's `publish_after` (required), so it's right on the day people
+  see it; the date must be that day or later.
+- **Quiz:** a slide's `head` is the question and `quiz: {choices: [2-4], answer: 1, explain: ..., quote: ...}`
+  (answer counts from 0). The builder shows the choices as A, B, C with "Tap for the answer →" (or "Swipe" on a
+  carousel) and adds the answer slide after it, with `explain` and the optional official `quote`. Quizzes are
+  about facts and process from the sources, and use `approval: review`.
+- **Today:** a `kicker` like "Today in Congress" and a `rows` list, one item per scheduled event.
+
 ## Votes
 
 **`vote`** shows a roll call's counts with what each means under it, the same style for every side:
