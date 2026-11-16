@@ -1,0 +1,80 @@
+kind: carousel
+level: state
+place: Texas
+topic: Elections
+approval: review
+record_ids: [tx/90R/HB 1178/filed]
+publish_after: '2026-11-20T15:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 16, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-16
+  retrieved: '2026-11-16'
+- title: Texas Legislature Online, HB 1178 bill history (90th Legislature)
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1178
+  retrieved: '2026-11-16'
+- title: Texas Election Code, Chapter 101 (Voting by Resident Federal Postcard Applicant)
+  url: https://statutes.capitol.texas.gov/Docs/EL/htm/EL.101.htm
+  retrieved: '2026-11-16'
+- title: Texas Legislative Council, Dates of Interest, 90th Legislature
+  url: https://tlc.texas.gov/docs/legref/Dates-of-Interest.pdf
+  retrieved: '2026-11-16'
+bills:
+- id: HB 1178
+  does: Would mail military and overseas voters a ranked runoff ballot with their first ballot, to count if a runoff happens.
+  affects: Texans who vote by mail with a federal postcard application, such as service members and Texans living abroad.
+  where: Filed Nov. 16, 2026 by Rep. Cortez; no other action yet.
+  summary:
+    text: >-
+      The voter's vote in the election is assigned to the runoff candidate whom the voter assigned the highest
+      favorable ranking on the runoff election ballot under Subsection (b).
+    title: HB 1178 as filed, Sec. 3 (new Election Code 101.151(c))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01178I.htm
+    retrieved: '2026-11-16'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 16, 2026
+  big: HB 1178
+  head: A Texas House of Representatives bill would let military and overseas voters rank runoff candidates ahead of time.
+- chip: Who it's for
+  head: "Texans who vote by mail with a federal postcard application."
+  rows: [[Military, "Armed forces and merchant marine members, and their spouses or dependents"],
+         [Guard and reserve, "Members on active duty or state orders, and their spouses or dependents"],
+         [Abroad, "Texans living outside the U.S. for now"]]
+  text: "Election Code 101.001 lists who qualifies."
+- chip: The law today
+  head: "Today, the application also counts as a request for a ballot in any runoff that follows."
+  quote: {label: "Election Code 101.054(c)", text: "An application shall be treated as if it requests a ballot for a runoff election that results from an election for which a ballot is requested, including a runoff election that occurs in the next calendar year."}
+- chip: The change
+  head: "The bill: mail a ranked runoff ballot along with the first ballot."
+  rows: [[In the mail, "A runoff ballot and a second return envelope"],
+         [How to mark it, "Rank each candidate, most favored to least"],
+         [Sending it back, "Same time and same way as the first ballot, or it isn't counted"]]
+- chip: If a runoff happens
+  head: "The second envelope is opened, and the vote goes to the runoff candidate the voter ranked highest."
+  quote: {label: "HB 1178, new Election Code 101.151(c)", text: "The voter's vote in the election is assigned to the runoff candidate whom the voter assigned the highest favorable ranking on the runoff election ballot"}
+- chip: Who does the work
+  head: "The Texas Secretary of State would set the rules and write instructions; county clerks would post them online and mail them with each runoff ballot."
+  text: "The bill doesn't say what this would cost. No fiscal note (cost estimate) is posted yet."
+- chip: What's next
+  head: The 90th Texas Legislature convenes at noon on Jan. 12, 2027.
+  text: "If passed as filed, HB 1178 takes effect Jan. 1, 2028. Should voters far from home be able to rank runoff candidates in advance? Tell us why or why not."
+caption: |-
+  Texans serving in the military, their families and Texans living abroad can vote by mail with a federal postcard application. Today, that application also counts as a request for a ballot in any runoff that follows.
+
+  HB 1178, filed Nov. 16 in the Texas House of Representatives for the 2027 session, would mail these voters a second, ranked runoff ballot along with their first one. They would rank each candidate, most favored to least, and send it back at the same time. If a runoff happens, their vote goes to the runoff candidate they ranked highest.
+
+  The Texas Secretary of State would set the rules; county clerks would post and mail the instructions. No cost estimate is posted yet.
+
+  If passed as filed, it takes effect Jan. 1, 2028. Should voters far from home be able to rank runoff candidates in advance?
+hashtags: [txlege, texaslegislature, elections, militaryvoters, votetherecord]
+notes: >-
+  New today: filed Nov. 16, 2026 (the day's filing was still under way, 20 bills listed at 11 a.m. CT). Picked
+  under the same rule as the other Texas filing posts: bills that change how Texas elections are run. Records
+  opened 2026-11-16: the Nov. 16 filing report, the bill history (filed, no other action; the Text page lists
+  only the bill text, no fiscal note), the introduced text (90R3824 JDK-D), Election Code ch. 101
+  (statutes.capitol.texas.gov renders by script; the text was read from its tcss.legis.texas.gov copy) and
+  TLC's Dates of Interest. Please check: (1) the bill leaves 101.054(c) in place, so it doesn't say what happens
+  to the regular runoff ballot that the application also requests; the slides don't claim it replaces it.
+  (2) The bill ties the ranked ballot to the voter's "general election ballot"; Election Code 1.005 defines
+  "general election" apart from primaries, so whether it reaches primary runoffs isn't clear from the text. The
+  slides say "the first ballot" and don't claim either way. (3) No source opened says who gains or loses, or
+  gives arguments for or against, so the post states only what the text does and asks readers.
