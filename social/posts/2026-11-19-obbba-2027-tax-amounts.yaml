@@ -69,7 +69,7 @@ slides:
   - [Tips, "Deduction for qualified tips"]
   - [Overtime, "Deduction for qualified overtime pay"]
   - [Car loans, "Deduction for interest on qualified passenger vehicle loans"]
-  - [Seniors, "$6,000 extra deduction for people 65 and older"]
+  - [Seniors, "$6,000 extra deduction at 65+, shrinking by 6% of income over $75,000 ($150,000 joint)"]
   by: "Public Law 119-21, secs. 70103, 70201, 70202, 70203; IRS"
 - chip: Who gains, and the cost
   head: "The 2027 amounts apply to every individual income-tax filer. We found no official count of who gains how much, and no 2027 cost figure."
@@ -109,5 +109,6 @@ notes: >-
   Rec. H3043; party/state from House roll 190's member list. (6) The senior deduction's
   "65 and older" comes from the IRS individuals page ("individuals age 65 and older may claim an additional $6,000
   deduction", "Effective 2025 through 2028").
-  Audit 2026-11-16: check whether the $6,000 senior deduction phases out above an income level (P.L. 119-21 sec.
-  70103); if it does, add that to the Seniors row before this posts. Not added: govinfo served a cut-off copy of the law.
+  Audit 2026-11-16: Seniors row now includes the phase-out, from P.L. 119-21 sec. 70103 (new IRC 151(d)(5)(C)(iii)):
+  "reduced (but not below zero) by 6 percent of so much of the taxpayer's modified adjusted gross income as exceeds
+  $75,000 ($150,000 in the case of a joint return)", confirmed by the workflows session against the full law text.
