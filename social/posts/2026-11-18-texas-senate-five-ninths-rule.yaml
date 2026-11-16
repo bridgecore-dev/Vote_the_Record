@@ -1,0 +1,95 @@
+kind: reel
+level: state
+place: Texas
+topic: How the Legislature works
+approval: review
+found_via: owner idea YxNTk1OTY4NzAwNDE2MAZDZD
+record_ids: [tx/89R/senate-rule-5.13/in-effect]
+publish_after: '2026-11-18T16:30:00-06:00'
+sources:
+- title: Texas Senate, Senate Rules adopted by the 89th Legislature, Jan. 15, 2025 (Rules 5.13 and 22.01)
+  url: https://senate.texas.gov/_assets/pdf/SenateRules89.pdf
+  retrieved: '2026-11-16'
+- title: Texas Senate, Senate Agenda, Vote Requirements
+  url: https://senate.texas.gov/agenda-votereq.php?lang=en
+  retrieved: '2026-11-16'
+- title: Legislative Reference Library of Texas, "Deadlines, Exceptional Votes and Blocker Bills" (May 10, 2011)
+  url: https://lrl.texas.gov/whatsNew/client/index.cfm/2011/5/10/Deadlines-Exceptional-Votes-and-Blocker-Bills
+  retrieved: '2026-11-16'
+- title: Senate Journal, 84th Legislature, Regular Session, Jan. 21, 2015 (Senate rules resolution, Section 5, and reasons for vote)
+  url: https://journals.senate.texas.gov/sjrnl/84r/pdf/84RSJ01-21-F.PDF
+  retrieved: '2026-11-16'
+- title: Senate Journal, 87th Legislature, Regular Session, Jan. 13, 2021 (Senate rules resolution, Section 4)
+  url: https://journals.senate.texas.gov/sjrnl/87r/pdf/87RSJ01-13-F.PDF
+  retrieved: '2026-11-16'
+- title: Texas Legislative Council, Dates of Interest
+  url: https://tlc.texas.gov/docs/legref/Dates-of-Interest.pdf
+  retrieved: '2026-11-16'
+slides:
+- kicker: Texas Senate · Rule 5.13
+  big: 18 of 31
+  head: In the Texas Senate, a bill can't be taken up out of its calendar order unless five-ninths of senators present agree.
+  text: With all 31 senators present, that's 18 votes (the Senate's own vote chart).
+  say: In the Texas Senate, a bill can't be taken up out of its calendar order unless five-ninths of the senators present
+    agree. With all 31 present, that's 18 votes.
+- chip: Why it matters
+  head: By tradition, the Texas Senate keeps a "blocker bill" first on its calendar. To debate anything else, it has to vote to skip it.
+  quote: {label: "Legislative Reference Library of Texas", text: "Bills that do not enjoy substantial support cannot make it past the blocker bill."}
+  say: Why it matters. By tradition, the Texas Senate keeps a blocker bill first on its calendar. To debate anything else, it
+    has to vote to skip it. As the Legislative Reference Library puts it, bills without substantial support can't get past.
+- chip: How it changed
+  head: The Texas Senate lowered the bar twice, each time by a recorded vote on its own rules.
+  rows:
+  - [Before 2015, Two-thirds of senators present]
+  - ['2015', Lowered to three-fifths]
+  - ['2021', 'Lowered to five-ninths, the rule today']
+  say: How it changed. Before 2015, it took two-thirds of the senators present. In 2015, the Texas Senate lowered that to
+    three-fifths. In 2021, it lowered it again, to five-ninths, the rule today.
+- chip: The rule today
+  head: Senate Rule 5.13, in the rules adopted Jan. 15, 2025
+  doc: {url: 'https://senate.texas.gov/_assets/pdf/SenateRules89.pdf', highlight: suspended by a vote of five-ninths of the members present., page: 39, title: 'Texas Senate Rules, 89th Legislature', retrieved: '2026-11-16'}
+  say: Here is the rule today, Senate Rule 5.13, in the rules the Texas Senate adopted on January 15, 2025. The regular order
+    can be suspended by a vote of five-ninths of the members present.
+- chip: The case for lowering it
+  head: Sen. Eltife wrote the 2015 change. He said the Texas Senate needed rules that let it finish its work.
+  quote: {label: "Sen. Eltife, Senate Journal, Jan. 21, 2015", text: "We must work on the rules that allow the Senate to govern in Regular Session and complete our work in a timely manner."}
+  say: The case for lowering it. Senator Eltife wrote the 2015 change. In the Texas Senate, he said, we must work on the rules
+    that allow the Senate to govern in regular session and complete our work in a timely manner.
+- chip: The case against
+  head: Sen. Rodríguez voted against the 2015 change. He said the old rule made senators work together.
+  quote: {label: "Sen. Rodríguez, Senate Journal, Jan. 21, 2015", text: "it is generally acknowledged that the rule fosters civility, a willingness to compromise, and a spirit of bipartisanship."}
+  say: The case against. Senator Rodriguez voted against the 2015 change in the Texas Senate. He wrote that the rule fosters
+    civility, a willingness to compromise, and a spirit of bipartisanship.
+- chip: What's next
+  big: Jan. 12, 2027
+  head: The 90th Texas Legislature convenes at noon.
+  text: Under Senate Rule 22.01, a majority of all senators, 16 of 31, can amend the Senate's rules, this one included.
+  say: What's next. The 90th Texas Legislature convenes at noon on January 12, 2027. Under Rule 22.01, a majority of all
+    senators in the Texas Senate, 16 of 31, can amend its rules, this one included.
+- chip: Your turn
+  head: Should it take 18 senators to bring up a bill, or a different number?
+  text: Find your senator under "Who Represents Me?" at senate.texas.gov, and tell them. Floor sessions stream live there too.
+  say: Your turn. Should it take 18 senators in the Texas Senate to bring up a bill, or a different number? Find your senator
+    at senate.texas.gov, and tell them. Floor sessions stream live there too.
+caption: |-
+  Before the Texas Senate can take up a bill out of its calendar order, five-ninths of the senators present have to agree. With all 31 there, that's 18 (Senate Rule 5.13 and the Senate's vote chart).
+
+  Why it matters: by tradition the Senate keeps a "blocker bill" at the top of its calendar, so other bills come up only by that vote.
+
+  The bar has dropped twice, each time by a recorded Senate vote on its rules: two-thirds to three-fifths in 2015, and three-fifths to five-ninths in 2021. In the 2015 debate, Sen. Eltife, who wrote the change, said the Senate needed rules to "complete our work in a timely manner." Sen. Rodríguez, voting no, wrote that the old rule "fosters civility, a willingness to compromise, and a spirit of bipartisanship."
+
+  The 90th Legislature convenes Jan. 12, 2027. A majority of all senators, 16 of 31, can amend the Senate's rules. Should it take 18 to bring up a bill?
+
+  Part 1 of 2. Part 2: who voted for each change, from the Senate Journal.
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [txlege, texassenate, texaspolitics, votetherecord]
+notes: >-
+  Part 1 of 2 from an owner idea (part 2 is the Senate Journal vote carousel at 6:00 p.m.); they fill the Nov. 18
+  4:30/6:00 p.m. pair and are meant to be merged together. "18 of 31" is the Senate's own vote chart (5/9ths, 31
+  present = 18); 16 is the chart's "Majority of Membership (16)" for amending rules (Rule 22.01). The history rests on
+  the bracketed text in each rules resolution as printed in the Senate Journal (2015: three-fifths [two-thirds];
+  2021: five-ninths [three-fifths]). Both quotes are from the 2015 debate on the same rule; the 2021 journal prints
+  no remarks. The "say" drops the accent in "Rodriguez" for the voice only. Check the doc slide's highlight renders
+  on page 39 of the rules PDF. Not covered, for lack of an official record opened in this run: the Senate's
+  makeup after the Nov. 3, 2026 election (not yet canvassed) and calls for a special session on the rules.
