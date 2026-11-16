@@ -52,12 +52,12 @@ slides:
   - [A work program, "80 hours"]
   - [School, "At least half-time"]
   - [A mix, "80 hours in all"]
-  - [Income, "$580 a month in 2026 (federal minimum wage × 80 hours)"]
+  - [Income, "$580 a month (80 hours at the $7.25 federal minimum wage)"]
   text: "Georgia had a work requirement under a federal waiver, CRS notes."
   by: "Public Law 119-21, sec. 71119; CRS R48633; CMS interim final rule"
-  say: "Before, Medicaid law had no work requirement. After, each month, an adult it covers shows 80 hours of work, community service, a work program, or a mix; or school at least half-time; or income of $580 a month in 2026."
+  say: "Before, Medicaid law had no work requirement. After, each month, an adult it covers shows 80 hours of work, community service, a work program, or a mix; or school at least half-time; or income of $580 a month."
 - chip: "Who it covers"
-  head: "Adults 19 to 64 in Medicaid's expansion group. 43 states and D.C. cover that group and must start it, CMS says."
+  head: "Adults 19 to 64 who get Medicaid through the Affordable Care Act's expansion. 43 states and D.C. cover that group and must start it, CMS says."
   rows:
   - [Excluded, "Among others: pregnant or postpartum people, parents of a child 13 or under, the medically frail, American Indians and Alaska Natives"]
   - [If it isn't met, "A notice, then 30 days to show it; then the application is denied or coverage ends"]

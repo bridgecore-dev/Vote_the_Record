@@ -73,7 +73,7 @@ slides:
   by: "Public Law 119-21, secs. 70103, 70201, 70202, 70203; IRS"
 - chip: Who gains, and the cost
   head: "The 2027 amounts apply to every individual income-tax filer. We found no official count of who gains how much, and no 2027 cost figure."
-  text: "The Joint Committee on Taxation's tables and CBO's estimate are on sites that blocked our access, so this post gives no cost figure. The members' quotes on the next slides include their own figures."
+  text: "This post gives no official cost figure. The members' quotes on the next slides include their own figures."
 - chip: The case for
   head: "Supporters said letting the 2017 cuts expire would raise taxes."
   quote: {label: "Rep. Langworthy (R-NY), U.S. House of Representatives, July 2, 2025 (Congressional Record, H3043)", text: "If we do nothing, the Trump tax cuts, the most progrowth tax reforms in generations, will expire. That means higher taxes on nearly every American. That means a gutted child tax credit."}
@@ -109,3 +109,5 @@ notes: >-
   Rec. H3043; party/state from House roll 190's member list. (6) The senior deduction's
   "65 and older" comes from the IRS individuals page ("individuals age 65 and older may claim an additional $6,000
   deduction", "Effective 2025 through 2028").
+  Audit 2026-11-16: check whether the $6,000 senior deduction phases out above an income level (P.L. 119-21 sec.
+  70103); if it does, add that to the Seniors row before this posts. Not added: govinfo served a cut-off copy of the law.

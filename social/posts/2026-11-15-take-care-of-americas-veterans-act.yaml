@@ -44,9 +44,9 @@ slides:
   rows:
   - [Both payments, "Full retired pay plus VA pay for some combat-disabled retirees"]
   - [Surviving spouses, "Some benefits continue after a spouse remarries"]
-  - [Aid and attendance, "An extra $833.33 a month, from Dec. 1, 2026"]
+  - [Aid and attendance, "An extra $833.33 a month; the House text starts it Dec. 1, 2026"]
   by: "H.R. 9237 as passed, secs. 101, 102 and 104 (Congressional Record, July 16, 2026)"
-  say: "Besides the ratings changes, the bill expands several benefits. Some combat-disabled retirees get full retired pay plus VA pay. Some benefits continue after a surviving spouse remarries. And veterans on aid and attendance get an extra $833.33 a month, from December 1, 2026."
+  say: "The bill also expands several benefits. Some combat-disabled retirees get full retired pay plus VA pay. Some benefits continue after a surviving spouse remarries. And veterans on aid and attendance would get an extra $833.33 a month; the House text starts it December 1, 2026."
 - chip: "Before: sleep apnea today"
   head: "VA rates sleep apnea by how severe it is and what treatment it needs."
   rows:
@@ -60,7 +60,7 @@ slides:
   head: "Needing a CPAP would no longer mean 50%. What counts is whether treatment works."
   rows:
   - ["100%", "Only with end-organ damage"]
-  - ["50%", "Treatment doesn't work or can't be used, and no end-organ damage"]
+  - ["50%", "Treatment doesn't work, or other health conditions keep you from using it, and no end-organ damage"]
   - ["10%", "Treatment gives incomplete relief"]
   - ["0%", "No symptoms, with or without treatment"]
   by: "H.R. 9237 as passed, sec. 108(a)"

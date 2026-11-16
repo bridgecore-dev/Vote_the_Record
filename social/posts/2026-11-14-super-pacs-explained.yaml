@@ -57,8 +57,8 @@ slides:
   text: FEC totals for each two-year cycle, not adjusted for inflation. The tables don't say why spending rose.
   seconds: 7
 - kicker: "The case for: 5 justices"
-  say: "The case for, from 5 justices: the First Amendment bars limits on political speech because the speaker is a corporation. If the First Amendment has any force, it prohibits Congress from fining or jailing citizens for simply engaging in political speech."
-  head: The majority said the First Amendment bars limits on political speech because the speaker is a corporation.
+  say: "The case for, from 5 justices: the First Amendment bars limiting political speech just because the speaker is a corporation. If the First Amendment has any force, it prohibits Congress from fining or jailing citizens for simply engaging in political speech."
+  head: The majority said the First Amendment bars limiting political speech just because the speaker is a corporation.
   quote: {label: "Majority opinion, 558 U.S. at 349", text: "If the First Amendment has any force, it prohibits Congress from fining or jailing citizens, or associations of citizens, for simply engaging in political speech."}
   text: "“independent expenditures, including those made by corporations, do not give rise to corruption or the appearance of corruption.” (at 357)"
   seconds: 8
@@ -69,8 +69,8 @@ slides:
   text: "“corporations have no consciences, no beliefs, no feelings, no thoughts, no desires. … they are not themselves members of ‘We the People’ by whom and for whom our Constitution was established.” (at 466)"
   seconds: 8
 - kicker: You decide
-  say: "More speech, or more influence? The Court split 5 to 4. Both sides kept the reporting and disclaimer requirements. That's why you can look up who funds these groups at fec.gov/data."
-  head: More speech, or more influence? The Court split 5-4. Both sides kept one thing.
+  say: "More speech, or more influence? The Court split 5 to 4 on the spending limits, but upheld the reporting and disclaimer requirements. That's why you can look up who funds these groups at fec.gov/data."
+  head: More speech, or more influence? The Court split 5-4 on the spending limits, but upheld the disclosure rules.
   quote: {label: "FEC summary of the ruling", text: "The Court upheld the reporting and disclaimer requirements for independent expenditures and electioneering communications."}
   text: That's why you can look up who funds these groups at fec.gov/data.
   seconds: 6

@@ -23,7 +23,7 @@ bills:
   title: Direct Seller and Real Estate Agent Harmonization Act
   does: "Would exclude real estate agents and direct sellers from the definition of employee under federal minimum-wage and overtime law."
   affects: "Licensed real estate agents and direct sellers paid by sales, not hours, under a written contract."
-  where: "Reported by committee 19-16 (Sept. 17, 2025). The House floor schedule lists it for the week of Nov. 16."
+  where: "Approved in committee 19-16 (Sept. 17, 2025). The House floor schedule lists it for the week of Nov. 16."
   summary:
     text: >-
       This bill excludes a real estate agent or a direct seller of consumer products from the definition of an
@@ -51,12 +51,12 @@ slides:
 - chip: "Who gains, who loses, what it costs"
   head: "Workers it covers would lose the right to sue for FLSA violations, CBO says."
   rows:
-  - [Lost by workers, "Settlements they'd have gotten: below a $206 million legal threshold (CBO)"]
+  - [Lost by workers, "CBO: under $206 million a year, the federal cutoff for a large private-sector mandate"]
   - [Federal budget, "Fewer penalties: under $500,000 added to deficits, 2026-2035"]
   quote: {label: CBO, text: "workers who would no longer be covered by the FLSA and therefore would not have legal grounds to seek financial compensation for violations of that act."}
-  say: "CBO says workers it covers would lose the right to sue for these violations. The settlements they'd have gotten fall below a legal threshold of $206 million. The federal budget would collect fewer penalties: under $500,000 added to deficits over 2026 to 2035."
+  say: "CBO says workers it covers would lose the right to sue for these violations. CBO puts that cost under the $206 million federal cutoff for a large mandate. The federal budget would collect fewer penalties: under $500,000 added to deficits over 2026 to 2035."
 - chip: The case for
-  head: "The committee's report says these workers already work as independent contractors."
+  head: "The committee's report says the tax code has treated these workers as independent contractors since 1982."
   quote: {label: "Committee views, H. Rept. 119-494", text: "Both direct sellers and qualified real estate agents have been defined as independent contractors, and distinguished from employees, by the Internal Revenue Code (IRC) for federal tax purposes since 1982."}
   text: "It says the National Association of REALTORS and the Direct Selling Association support the bill."
   say: "The case for: the committee's report says direct sellers and qualified real estate agents have been defined as independent contractors by the tax code since 1982. It says the National Association of Realtors and the Direct Selling Association support the bill."
@@ -66,9 +66,9 @@ slides:
   text: "They say the Communication Workers of America and the National Employment Lawyers Association oppose it."
   say: "The case against: the minority views say the law already accommodates the industries' customary commission-based pay practices. They say the Communication Workers of America and the National Employment Lawyers Association oppose it."
 - chip: Where it stands
-  head: "Sponsor: Rep. Kevin Kiley (R-CA), with 31 cosponsors. The committee approved it 19-16."
+  head: "Sponsor: Rep. Kevin Kiley (R-CA); first cosponsor Rep. Henry Cuellar (D-TX); 31 cosponsors. The committee approved it 19-16."
   text: "Watch the House floor at live.house.gov. Which side convinces you?"
-  say: "Sponsor: Representative Kevin Kiley, Republican of California, with 31 cosponsors. The committee approved it 19 to 16. Watch the House floor at live.house.gov. Which side convinces you?"
+  say: "Sponsor: Representative Kevin Kiley, Republican of California. First cosponsor: Representative Henry Cuellar, Democrat of Texas. 31 cosponsors in all. The committee approved it 19 to 16. Watch the House floor at live.house.gov. Which side convinces you?"
 caption: |-
   H.R. 3495, on the House floor schedule this week, would change who counts as an "employee" under the Fair Labor Standards Act, the federal minimum-wage and overtime law.
 
@@ -77,7 +77,7 @@ caption: |-
 
   CBO says workers it covers would lose the right to sue for FLSA violations. It puts those lost settlements below $206 million, the threshold in federal mandate law. The budget would lose under $500,000 in penalties over 10 years.
 
-  For: the committee report says these workers already work as independent contractors. Against: the minority views say the law already handles commission pay.
+  For: the report says the tax code has treated them as independent contractors since 1982. Against: the minority views say the law already handles commission pay.
 
   Voice: computer-generated (Kokoro text-to-speech).
 hashtags: [congress, minimumwage, realestate, workers, votetherecord]
