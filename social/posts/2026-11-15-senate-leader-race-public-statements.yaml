@@ -7,40 +7,46 @@ record_ids: [us/120/senate-democrats/leader-election/public-statements]
 publish_after: '2026-11-16T09:00:00-06:00'
 rule: Every senator who said whom they back in a statement on their own .senate.gov site that we could open by Nov. 15, listed alphabetically.
 sources:
-- title: "Sen. Schumer statement, Nov. 12"
+- title: "Sen. Schumer, Nov. 12"
   url: https://www.democrats.senate.gov/newsroom/press-releases/leader-schumer-statement-on-senate-democratic-leadership
   retrieved: '2026-11-15'
-- title: "Sen. Van Hollen statement, Nov. 12"
+- title: "Sen. Van Hollen, Nov. 12"
   url: https://www.vanhollen.senate.gov/news/press-releases/van-hollen-statement-on-running-for-majority-leader
   retrieved: '2026-11-15'
-- title: "Sen. Baldwin statement, Nov. 12"
+- title: "Sen. Baldwin, Nov. 12"
   url: https://www.baldwin.senate.gov/news/press-releases/-senator-baldwin-statement-on-election-for-senate-leadership
   retrieved: '2026-11-15'
-- title: "Sen. Blumenthal statement, Nov. 12"
+- title: "Sen. Blumenthal, Nov. 12"
   url: https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-statement-on-senate-democratic-leadership
   retrieved: '2026-11-15'
-- title: "Sen. King statement, Nov. 12"
+- title: "Sen. King, Nov. 12"
   url: https://www.king.senate.gov/newsroom/press-releases/king-backs-senator-charles-schumer-for-majority-leader
   retrieved: '2026-11-15'
-- title: "Sen. Merkley statement, Nov. 13"
+- title: "Sen. Merkley, Nov. 13"
   url: https://www.merkley.senate.gov/merkley-puts-his-support-behind-van-hollen-for-senate-majority-leader/
   retrieved: '2026-11-15'
-- title: "Sen. Reed statement, Nov. 12"
+- title: "Sen. Reed, Nov. 12"
   url: https://www.reed.senate.gov/news/releases/reed-backs-schumer-for-majority-leader
   retrieved: '2026-11-15'
-- title: "Sen. Schatz statement, Nov. 12"
+- title: "Sen. Schatz, Nov. 12"
   url: https://www.schatz.senate.gov/news/press-releases/schatz-statement-on-senate-democratic-leadership-election
   retrieved: '2026-11-15'
-- title: "Senate Democratic Conference rules"
+- title: "ABC News (news report), Nov. 13"
+  url: https://abcnews.com/Politics/schumer-van-hollen-facing-off-senate-majority-leader/story?id=138111386
+  retrieved: '2026-11-15'
+- title: "The New Republic (news report), Nov. 13"
+  url: https://newrepublic.com/post/217991/full-list-senators-back-chris-van-hollen-leader
+  retrieved: '2026-11-15'
+- title: "Democratic Conference rules"
   url: https://www.democrats.senate.gov/rules-for-the-democratic-conference
   retrieved: '2026-11-15'
-- title: "Sen. Thune statement, Nov. 10"
+- title: "Sen. Thune, Nov. 10"
   url: https://www.thune.senate.gov/news/press-releases/thune-reelected-republican-leader/
   retrieved: '2026-11-15'
-- title: "Senate Republican Conference rules"
+- title: "Republican Conference rules"
   url: https://www.republican.senate.gov/wp-content/uploads/2025/05/119NewRulesTemp.pdf
   retrieved: '2026-11-15'
-- title: "U.S. Senate, Contacting Senators"
+- title: "Contacting Senators, senate.gov"
   url: https://www.senate.gov/senators/senators-contact.htm
   retrieved: '2026-11-15'
 slides:
@@ -69,9 +75,12 @@ slides:
   rows:
   - [Sen. Jeff Merkley (D-OR), "“He has my full support for Majority Leader.” (Nov. 13)"]
   text: Sen. Merkley's office posted these words from his social media post.
-- chip: Why so few names?
-  head: News counts list more senators on each side, and the counts don't agree.
-  text: "We list only what a senator put on their own .senate.gov site, and only pages we could open by Nov. 15. Others may have said it elsewhere, or since."
+- chip: "Reported by news, not on the senator's own site"
+  head: "These names come from news reports. We couldn't find a statement on each senator's .senate.gov site by Nov. 15."
+  rows:
+  - [Backing Schumer, "Alsobrooks (D-MD), Cortez Masto (D-NV)*, Fetterman (D-PA), Gallego (D-AZ), Gillibrand (D-NY), Kaine (D-VA), Kelly (D-AZ), Rosen (D-NV)*, Whitehouse (D-RI); Sen.-elect Sherrod Brown (Ohio)"]
+  - [Backing Van Hollen, "Sanders (I-VT)*; Sens.-elect Abdul El-Sayed (Michigan)* and Peggy Flanagan (Minnesota)*"]
+  by: "The New Republic, Nov. 13; * ABC News, Nov. 13, quoting the senator's own social media post. Counts differ between outlets."
 - chip: How the vote works
   head: Senate Democrats choose their leader themselves. The full U.S. Senate doesn't vote on it.
   rows:
@@ -89,21 +98,16 @@ slides:
   - [Find your senators, senate.gov/senators/senators-contact.htm]
   - [By phone, "Capitol switchboard: (202) 224-3121"]
 caption: |-
-  Senate Democrats pick their 120th Congress leader by secret ballot: Chuck Schumer (D-NY) or Chris Van Hollen (D-MD).
+  Senate Democrats pick their leader by secret ballot: Chuck Schumer (D-NY) or Chris Van Hollen (D-MD).
 
-  Backing, per their own .senate.gov sites:
-  Schumer: Baldwin (D-WI), Blumenthal (D-CT), King (I-ME), Reed (D-RI), Schatz (D-HI).
-  Van Hollen: Merkley (D-OR).
+  On their own .senate.gov sites: Baldwin, Blumenthal, King, Reed and Schatz back Schumer; Merkley backs Van Hollen. More names from news reports: slide 6.
 
-  News counts list more names and don't agree; we list official statements only.
-
-  A majority of those present and voting wins. Rules say December at the earliest; no date is posted.
-
-  Senate Republicans reelected John Thune (R-SD) Nov. 10, his office says.
+  A majority of those present and voting wins. No date is posted. Senate Republicans reelected John Thune (R-SD) Nov. 10.
 
   Your senators: senate.gov/senators/senators-contact.htm
 hashtags: [congress, senate, senatedemocrats, votetherecord]
 notes: >-
+  Owner chose (2026-11-15): official statements first, then a labeled news slide for senators whose official sites showed no statement. One request per senator site (homepage and press list) found none for the ten news-listed senators; several sites load their press lists by script, so statements may exist. Party/state for sitting senators from Senate roll call 372's member list; senators-elect shown by state only (no official record of them yet). Some earlier reports said Gallego and Kelly declined to say; not shown, because that report (Washington Times) blocked us.
   Reed and Schatz added 2026-11-15 from the owner's screenshots of their official pages (both pages returned 403 to our fetch); quotes copied word for word from those pages.
   From an owner idea. Only statements opened on the senators' own sites (Baldwin, Blumenthal, King, Merkley) plus
   each candidate's own statement. Two more official pages exist but answered 403 to us and were not retried:
