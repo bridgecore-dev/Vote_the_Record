@@ -1,0 +1,167 @@
+kind: reel
+level: local
+place: New York City, New York
+topic: Health
+approval: review
+found_via: owner idea I4MTk0MjM1Mjg4NzgwOAZDZD
+record_ids:
+- ny/new-york-city/2026/snap-work-rules-outreach/mayor-release-2026-10-01
+- ny/new-york-city/2026/medicaid-hart-outreach/mayor-release-2026-10-19
+- ny/2027/medicaid-work-requirement/bronx-temporary-exception
+publish_after: '2026-11-16T10:30:00-06:00'
+voice: true
+sources:
+- title: "NYC Mayor, Oct. 1, 2026"
+  url: https://www.nyc.gov/mayors-office/news/2026/10/mayor-mamdani-launches-citywide-push-to-get-snap-benefits-back-t.html
+  retrieved: '2026-11-15'
+- title: "NYC Mayor, Oct. 19, 2026"
+  url: https://www.nyc.gov/mayors-office/news/2026/10/mayor-mamdani-launches-outreach-team-to-help-new-yorkers-keep-me.html
+  retrieved: '2026-11-15'
+- title: "nyc.gov/workrules"
+  url: https://www.nyc.gov/content/snapmedicaid/pages/
+  retrieved: '2026-11-15'
+- title: "NY State of Health"
+  url: https://info.nystateofhealth.ny.gov/stay-covered
+  retrieved: '2026-11-15'
+- title: "Public Law 119-21"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  retrieved: '2026-11-15'
+- title: "CMS, Nov. 13, 2026"
+  url: https://www.cms.gov/newsroom/press-releases/cms-announces-hold-harmless-period-strengthen-medicaid-work-requirement-systems-improve-beneficiary
+  retrieved: '2026-11-15'
+- title: "Maryland, Sept. 18, 2026"
+  url: https://health.maryland.gov/newsroom/Pages/Governor%20Moore%20reinforces%20commitment%20to%20keep%20Marylanders%20connected%20to%20SNAP%20and%20Medicaid%20amid%20new%20Trump%20Administration%20restrictions.aspx
+  retrieved: '2026-11-15'
+- title: "Congressional Record, July 30, 2025"
+  url: https://www.govinfo.gov/content/pkg/CREC-2025-07-30/pdf/CREC-2025-07-30-senate.pdf
+  retrieved: '2026-11-15'
+bills:
+- id: H.R. 1
+  title: One Big Beautiful Bill Act
+  does: "Among many changes, it widens SNAP's work rule and adds a Medicaid work requirement: 80 hours a month."
+  affects: "Many SNAP adults 18 to 64 and Medicaid expansion adults 19 to 64."
+  where: "Law since July 4, 2025 (Public Law 119-21). Medicaid's rule starts Jan. 1, 2027."
+  summary:
+    text: >-
+      the majority of the enacted SNAP provisions (Thrifty Food Plan, work requirements, and waivers, treatment of
+      energy assistance and internet costs, noncitizen eligibility for SNAP) are effective immediately.
+    title: "CRS Report R48552"
+    url: https://www.congress.gov/crs_external_products/R/PDF/R48552/R48552.9.pdf
+    retrieved: '2026-11-15'
+  say: "H.R. 1, the One Big Beautiful Bill Act, was signed into law July 4, 2025, as Public Law 119-21. It widens SNAP's work rule, and it sets a Medicaid work requirement for some adults starting January 1, 2027."
+slides:
+- kicker: "New York City · SNAP and Medicaid"
+  big: "220,000"
+  head: "New York City says its outreach helped more than 220,000 people keep SNAP food benefits under new federal work rules."
+  say: "New York City says its outreach helped more than 220,000 people keep their SNAP food benefits under new federal work rules. Here's what changed, what the city and state did, and whether other states can do it."
+- chip: "Before → after: SNAP"
+  head: "H.R. 1 widened SNAP's work rule: 80 hours a month of work, training or volunteering, or SNAP stops after 3 months in 36."
+  rows:
+  - [Ages, "Before: 18 to 54. After: 18 to 64"]
+  - [Parents, "Before: a child under 18 exempts you. After: only a child under 14"]
+  - [Removed, "Exceptions for veterans, homeless people and former foster youth"]
+  - [Nationwide, "2.4 million fewer people on SNAP in an average month (CBO, via CRS)"]
+  by: "Public Law 119-21, sec. 10102; CRS R48552 (Aug. 15, 2025)"
+  say: "H.R. 1 widened SNAP's work rule: 80 hours a month of work, training or volunteering, or SNAP stops after 3 months in 36. It now covers ages 18 to 64, not 18 to 54. CBO estimates 2.4 million fewer people on SNAP nationwide."
+- chip: "Before → after: Medicaid"
+  big: "Jan. 1, 2027"
+  head: "Before: no Medicaid work requirement. After: many adults 19 to 64 show 80 hours a month, or $580 in monthly income."
+  rows:
+  - [Renewals, "Every 6 months instead of once a year"]
+  - [If it isn't met, "A notice, then a deadline to respond, then coverage can end"]
+  by: "Public Law 119-21, secs. 71107 and 71119; NY State of Health"
+  say: "Medicaid, starting January 1, 2027. Before, no work requirement. After, many adults 19 to 64 show 80 hours a month, or $580 in monthly income, and renew every 6 months. If it isn't met: a notice, a deadline, then coverage can end."
+- chip: "What New York City did: SNAP"
+  head: "The city says these steps cut the number projected to lose SNAP by 65%."
+  rows:
+  - [Door to door, "10,000 doors knocked, 40,000 phone calls"]
+  - [Exemptions, "Helped people document medical and caregiver exemptions"]
+  - [Hours, "100+ community groups offer volunteer and training hours"]
+  - [Still lost, "About 26,500 people, 1.6% of SNAP households"]
+  by: "NYC Mayor's Office, Oct. 1, 2026"
+  say: "What New York City did for SNAP, as the city reports it: 10,000 doors knocked and 40,000 phone calls, help documenting medical and caregiver exemptions, and 100 plus community groups offering volunteer and training hours. About 26,500 people still lost SNAP."
+- chip: "Lost SNAP? You can reapply"
+  big: "Oct. 1, 2026"
+  head: "The city says the SNAP time limit reset Oct. 1, 2026, so people cut off by the work rule may be able to get SNAP again."
+  quote: {label: "nyc.gov/workrules", text: "The SNAP time limit reset on October 1, 2026, so you may be able to re-enroll.", key: "re-enroll"}
+  text: "Help: 718-SNAP-NOW (718-762-7669)."
+  say: "Lost SNAP? The city says the time limit reset October 1, 2026, so people cut off by the work rule may be able to get SNAP again. For help, call 718-SNAP-NOW."
+- chip: "What New York City did: Medicaid"
+  big: "900,000"
+  head: "Up to 900,000 New Yorkers could be at risk of losing Medicaid, the city estimates. It funded a $3 million outreach team."
+  rows:
+  - [The team, "Community health workers who speak 13 languages"]
+  - [Focus, "People most likely affected, including those who already lost SNAP"]
+  - [Also, "Reached 35,000 health care providers with guidance"]
+  by: "NYC Mayor's Office, Oct. 19, 2026"
+  say: "For Medicaid, the city estimates up to 900,000 New Yorkers could be at risk. It funded a $3 million outreach team of community health workers who speak 13 languages, focused on those most likely affected, including people who lost SNAP. It also reached 35,000 providers."
+- chip: "What New York State did"
+  head: "New York State told the federal government it plans a Bronx exception, because of high unemployment."
+  quote: {label: "NY State of Health", text: "If your current address is in the Bronx, you will not have to meet work requirements for Medicaid coverage.", key: "you will not have to meet work requirements"}
+  text: "The state says this may change if Bronx unemployment goes down. It tries tax records first and asks for documents only if needed."
+  say: "New York State told the federal government it plans an exception for the Bronx, because of high unemployment. Bronx residents would not have to meet the Medicaid work requirement. The state says this may change if unemployment there goes down."
+- chip: "Can other states do this?"
+  head: "Yes, for these. The federal law and agencies let every state:"
+  rows:
+  - [Outreach, "Go past the required mailed notices. Maryland mailed 340,000 SNAP households"]
+  - [Medicaid, "Excuse counties with unemployment at 8% or more, or 1.5 times the national rate"]
+  - [Medicaid, "Pause denials for missing the rule through June 30, 2027 (CMS's new option)"]
+  - [SNAP, "Ask USDA to waive the time limit in areas with unemployment over 10%"]
+  by: "Public Law 119-21; CRS R48552; CMS, Nov. 13, 2026; Maryland Dept. of Health, Sept. 18, 2026"
+  say: "Can other states do this? Yes. Any state can go past the required notices; Maryland mailed 340,000 SNAP households. States can excuse counties with 8% unemployment or 1.5 times the national rate, pause Medicaid denials through June 30, 2027, and seek SNAP waivers above 10%."
+- chip: "What no state can do"
+  head: "No state can opt out of the Medicaid work requirement."
+  quote: {label: "Public Law 119-21, sec. 71119", text: "Notwithstanding section 1115(a), the provisions of this subsection may not be waived."}
+  rows:
+  - [Delay, "A state making a good-faith effort can get more time, but no later than Dec. 31, 2028"]
+  - [SNAP, "Waivers just for a lack of jobs are gone; only Alaska and Hawaii get good-faith exemptions"]
+  say: "What no state can do: opt out of the Medicaid work requirement. The law says it may not be waived. A state making a good-faith effort can get more time, but not past December 31, 2028. In SNAP, only Alaska and Hawaii get those exemptions."
+- chip: "The case for the federal rules"
+  head: "Supporters say people who can work should."
+  quote: {label: "Sen. John Barrasso (R-WY), Congressional Record, July 30, 2025", text: "Work requirements are common sense."}
+  text: "He also said: \"Medicaid is for the vulnerable. It was never meant to cover able-bodied, working-aged adults who refuse to work\""
+  say: "The case for: Senator John Barrasso, Republican of Wyoming, said work requirements are common sense. He said Medicaid is for the vulnerable, and was never meant to cover able-bodied, working-aged adults who refuse to work."
+- chip: "The case against"
+  head: "New York City's officials say the federal changes make it harder to get food."
+  quote: {label: "Erin Dalton, NYC Social Services Commissioner, Oct. 1, 2026", text: "federal changes that only make it harder for low-income Americans to put food on the table", key: "harder"}
+  text: "Mayor Zohran Mamdani said the city would help New Yorkers \"who were left behind by these federal cuts get their benefits back.\""
+  say: "The case against: Erin Dalton, New York City's Social Services Commissioner, called them federal changes that only make it harder for low-income Americans to put food on the table. Mayor Zohran Mamdani said the city would help people left behind get their benefits back."
+- chip: "What you can do"
+  head: "In New York City: check whether the rules apply to you."
+  rows:
+  - [Check, "nyc.gov/workrules (a guide, not an official decision)"]
+  - [SNAP, "718-SNAP-NOW (718-762-7669)"]
+  - [Medicaid, "nyc.gov/medicaidhelp, or 347-665-0214"]
+  - [Everyone, "Keep your address current: notices come by mail"]
+  text: "Elsewhere: your state's SNAP and Medicaid agencies. Which side convinces you?"
+  say: "What you can do in New York City: check nyc.gov/workrules. It's a guide, not an official decision. For SNAP, call 718-SNAP-NOW. For Medicaid, go to nyc.gov/medicaidhelp. Keep your address current. Which side convinces you?"
+caption: |-
+  New York City says it helped more than 220,000 people keep SNAP under H.R. 1's work rules.
+
+  Before: SNAP's work rule covered ages 18 to 54; Medicaid had none. After: SNAP covers 18 to 64, and from Jan. 1, 2027, many Medicaid adults need 80 hours a month.
+
+  The city knocked on 10,000 doors for SNAP, helps those cut off reapply, and funded a $3 million Medicaid team; it says up to 900,000 New Yorkers are at risk. The state plans a Bronx exception.
+
+  Other states can do outreach and excuse high-unemployment counties. None can waive the Medicaid rule.
+
+  For: Sen. John Barrasso (R-WY). Against: NYC officials. Which side convinces you?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [snap, medicaid, newyorkcity, votetherecord]
+notes: >-
+  Owner idea (priority). Every number from the idea was checked against official pages; one didn't match as
+  described: the 10,000 doors knocked were the city's SNAP campaign "Since January" (Oct. 1 release), not Medicaid,
+  so the post says SNAP. "More than 220,000" is from the Oct. 1 release (the June 1 release said 223,000).
+  "Up to 900,000" is the city's own estimate (Oct. 19 release); it doesn't say how it was figured. The March 1, 2026
+  SNAP start in NYC and the Oct. 1, 2026 time-limit reset are the city's statements (otda.ny.gov reset the connection
+  once and wasn't retried). The Bronx exception is a plan New York "told the federal government" about, not a
+  confirmed approval; the law's basis is sec. 71119's short-term hardship option (county unemployment at or above the
+  lesser of 8% or 1.5 times the national rate). Whether New York adopts CMS's hold harmless option isn't stated on
+  any page read, so it isn't claimed. The nyc.gov/workrules text was read from the page's script bundle (the page
+  renders with JavaScript); quotes on slides match it exactly. Barrasso's quote is a separate sentence in the same
+  speech (Record, July 30, 2025); his party/state form follows the queued Medicaid Reel. Prior SNAP age range (18-54),
+  child age (under 18), the 10% waiver rule and the Alaska/Hawaii-only exemptions are from CRS R48552's prior-law vs.
+  enacted table (USDA's Nov. 10, 2026 proposed rule says the same; dropped from sources to fit the 2,200-character
+  caption, as were the CMS interim final rule, the NYC Health Department page and H. Rept. 119-106). "35,000 health care providers" is from the
+  Oct. 19 release ("Reached more than 35,000 health care providers"). Maryland's 340,000 is from its Sept. 18, 2026
+  release. Erin Dalton's title on the slide is shortened from "DSS Commissioner" (Department of Social Services).
