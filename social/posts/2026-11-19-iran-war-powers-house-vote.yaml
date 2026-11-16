@@ -1,0 +1,98 @@
+kind: carousel
+level: congress
+topic: War powers
+approval: review
+record_ids: [us/119/2/house/roll/307]
+publish_after: '2026-11-19T12:00:00-06:00'
+sources:
+- title: "House Clerk, Roll Call 307 (2026): On agreeing to H CON RES 93"
+  url: https://clerk.house.gov/evs/2026/roll307.xml
+  retrieved: '2026-11-16'
+- title: "H.Con.Res. 93 (119th Congress), engrossed in the House (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hconres93eh/html/BILLS-119hconres93eh.htm
+  retrieved: '2026-11-16'
+- title: "Congressional Record, House, Sept. 14, 2026, H5609-H5615: debate on H. Con. Res. 93"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-09-14/html/CREC-2026-09-14-pt1-PgH5609-3.htm
+  retrieved: '2026-11-16'
+- title: "Congressional Research Service, Understanding the War Powers Resolution (IF13134, Dec. 17, 2025)"
+  url: https://www.congress.gov/crs_external_products/IF/HTML/IF13134.html
+  retrieved: '2026-11-16'
+- title: "U.S. Senate, Types of Legislation: Concurrent Resolutions"
+  url: https://www.senate.gov/legislative/common/briefing/leg_laws_acts.htm
+  retrieved: '2026-11-16'
+- title: "U.S. Senate Press Gallery, Monday, November 16, 2026 (floor schedule)"
+  url: https://www.dailypress.senate.gov/monday-november-16-2026/
+  retrieved: '2026-11-16'
+bills:
+- id: H.Con.Res. 93
+  does: "Directs the President to remove U.S. forces from hostilities against Iran unless Congress declares war or authorizes force."
+  affects: "U.S. Armed Forces in hostilities against Iran. Forces needed to defend against imminent attack aren't covered."
+  where: "Passed the U.S. House of Representatives 220-204 on Sept. 15, 2026. U.S. Senate vote set by Nov. 20."
+  summary:
+    text: >-
+      This concurrent resolution directs the President to remove U.S. Armed Forces from hostilities against Iran
+      unless explicitly authorized by a declaration of war or a congressional authorization for use of military
+      force against Iran.
+    title: Congressional Research Service summary of H.Con.Res. 93
+    url: https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/93
+    retrieved: '2026-11-16'
+slides:
+- chip: "U.S. House of Representatives · Roll call 307"
+  kicker: "Sept. 15, 2026 · On agreeing to the resolution"
+  head: "The U.S. House of Representatives passed H.Con.Res. 93, directing the President to remove U.S. forces from hostilities against Iran."
+  vote: {yea: 220, nay: 204, not_voting: 9}
+  text: "It applies to U.S. Armed Forces in hostilities against Iran. The U.S. Senate is set to vote on it by Nov. 20."
+- chip: How they voted
+  head: By party, as the House Clerk records it
+  rows:
+  - [Republican, "7 Yea · 203 Nay · 8 didn't vote"]
+  - [Democratic, "213 Yea · 0 Nay · 1 didn't vote"]
+  - [Independent, "0 Yea · 1 Nay · 0 didn't vote"]
+  text: "The smaller side, 204 Nay votes, is too long to list here. Every name is in roll call 307 on clerk.house.gov."
+- chip: Before → after
+  head: What would change if the U.S. Senate agrees
+  rows:
+  - [Now, "The President must end unauthorized hostilities after 60 days unless Congress authorizes them."]
+  - [After, "Congress would direct the President to remove U.S. forces from hostilities against Iran."]
+  - [Still allowed, "Forces needed to defend the U.S. or an ally or partner from imminent attack."]
+  - [Cost, "Congress.gov lists no cost estimate for it."]
+  by: "\"Now\" is the Congressional Research Service's reading of Section 5(b); the rest is the resolution's text."
+- chip: The case for
+  head: "The sponsor said the forces are going toward a war that has failed."
+  quote: {label: "Rep. Moulton (D-MA), sponsor, Sept. 14, 2026 (Congressional Record, H5610)", text: "We should remove the troops and materiel that are going towards a war that has not only failed but backfired."}
+- chip: The case against
+  head: "Rep. Mast, who led the time against it, said Iran is an ongoing threat."
+  quote: {label: "Rep. Mast (R-FL), Sept. 14, 2026 (Congressional Record, H5611)", text: "This is the continual threat, the imminent threat that Iran is and has been."}
+- chip: Does it bind the President?
+  head: "It's a concurrent resolution, so it isn't sent to the President to sign."
+  quote: {label: "U.S. Senate, Types of Legislation", text: "they do not require the signature of the president and do not have the force of law"}
+  text: "The Congressional Research Service notes a Supreme Court decision \"called into question\" whether the War Powers Resolution's concurrent-resolution section is constitutional."
+- chip: Check it yourself
+  head: "Look up how your representative voted, then watch the U.S. Senate."
+  rows:
+  - ["U.S. House of Representatives", "clerk.house.gov: Roll Call 307 (2026)"]
+  - ["U.S. Senate", "senate.gov: roll call votes, 119th Congress, 2nd session"]
+  text: "Which side convinces you?"
+caption: |-
+  How the U.S. House of Representatives voted on H.Con.Res. 93, the Iran war powers resolution, as the House Clerk records it.
+
+  Sept. 15, 2026, roll call 307: passed 220-204, 9 not voting.
+  Republican: 7 Yea, 203 Nay, 8 didn't vote.
+  Democratic: 213 Yea, 0 Nay, 1 didn't vote.
+  Independent: 0 Yea, 1 Nay.
+
+  For: the sponsor, Rep. Moulton (D-MA). Against: Rep. Mast (R-FL). Their words are on the slides.
+
+  It's a concurrent resolution, which the U.S. Senate's guide says doesn't need the President's signature and doesn't have the force of law. The U.S. Senate is set to vote on it by Nov. 20.
+
+  Which side convinces you?
+hashtags: [congress, warpowers, rollcall, votetherecord]
+notes: >-
+  Pair with the 10:30 a.m. Reel (2026-11-19-iran-war-powers-senate-vote), filling the Nov. 19 10:30/12:00 pair;
+  meant to be merged together. Totals by party are the Clerk's totals-by-party in roll307.xml (no Present votes);
+  the one Independent Nay is Kiley (CA), as the Clerk lists him. The smaller side (204 Nay) is over 40, so totals and
+  a link only. For/against: the two members who controlled debate time (CR H5609); Mast's and Moulton's party and
+  state as the Clerk lists them. Mast's quote is about Iran as a threat, not the resolution's wording; the slide head
+  says only that. "Now" paraphrases CRS IF13134 on Section 5(b) (60 days, plus a possible 30-day extension, not on
+  the slide). CHECK BEFORE IT POSTS: if the U.S. Senate votes before noon Nov. 19, the first slide and the caption's
+  last paragraph need the Senate tally from senate.gov.
