@@ -52,10 +52,10 @@ slides:
   rows:
   - [Unemployment deferment, "None"]
   - [Economic hardship deferment, "None"]
-  - [Forbearance, "No more than 9 months in any 24-month period"]
+  - [Discretionary forbearance, "No more than 9 months in any 24-month period"]
   - [Rehabilitation payment, "At least $10 a month"]
   by: "Public Law 119-21, secs. 82002 and 82003(b); federal Direct Loans"
-  say: "After, for loans made on or after July 1, 2027: no unemployment or economic hardship deferment. Forbearance is capped at 9 months in any 24-month period. And rehabilitation payments must be at least $10 a month."
+  say: "After, for loans made on or after July 1, 2027: no unemployment or economic hardship deferment. Discretionary forbearance is capped at 9 months in any 24-month period. And rehabilitation payments must be at least $10 a month."
 - chip: "Who gains, who loses"
   head: "New borrowers get fewer ways to pause. Borrowers in default get a second chance."
   rows:
@@ -77,10 +77,10 @@ slides:
   quote: {label: "Committee on Education and the Workforce, U.S. House of Representatives · H. Rept. 119-106, committee views (House version, May 2025)", text: "To reduce complexity and protect borrowers and taxpayers from unaffordable debt, House Republicans are proposing to pare back the maze of options and curb excess loan forgiveness windfalls provided to those who don't need them."}
   say: "The case for: the majority of the United States House Committee on Education and the Workforce said its plan would reduce complexity and protect borrowers and taxpayers from unaffordable debt."
 - chip: "The case against"
-  head: "Committee Democrats said the new repayment options are less generous. They praised the second rehabilitation."
+  head: "Rep. Ilhan Omar (D-MN) moved to keep both deferments; the committee voted it down 14-21. Committee Democrats also called the new repayment options less generous."
   quote: {label: "Minority views signed by Ranking Member Robert C. \"Bobby\" Scott (D-VA) and other committee Democrats, H. Rept. 119-106 (House version)", text: "It creates new repayment options that are less generous then current law, at a time that we know borrowers are struggling to repay their loans."}
   text: "On rehabilitation, the same views say: \"The Committee Print admirably left in place a provision to allow borrowers to rehabilitate their defaulated loans twice, rather than the current limit of just once.\" (Spelling as in the report.)"
-  say: "The case against: committee Democrats, led by Ranking Member Bobby Scott, Democrat of Virginia, said the new repayment options are less generous than current law while borrowers struggle. They praised one change: rehabilitating defaulted loans twice, rather than once."
+  say: "The case against: Representative Ilhan Omar, Democrat of Minnesota, moved to keep both deferments. The committee voted it down, 14 to 21. Committee Democrats also said the new repayment options are less generous, and praised rehabilitating defaulted loans twice."
 caption: |-
   One Big Beautiful Bill Act: what changes in 2027. On July 1, 2027, three student loan rules change for new federal Direct Loans made on or after that date. The second rehabilitation covers any federal student loan.
 
@@ -89,7 +89,7 @@ caption: |-
 
   Cost (CBO, as CRS reports it): $280 million for deferment and forbearance, $115 million for rehabilitation, 2025-2034.
 
-  For: the committee majority in the U.S. House of Representatives said it cuts complexity and protects borrowers and taxpayers. Against: committee Democrats, led by Rep. Robert C. "Bobby" Scott (D-VA), said the new repayment options are less generous, while praising the second rehabilitation.
+  For: the committee majority in the U.S. House of Representatives said it cuts complexity and protects borrowers and taxpayers. Against: Rep. Ilhan Omar (D-MN) moved to keep both deferments, and the committee voted it down 14-21; committee Democrats, led by Rep. Robert C. "Bobby" Scott (D-VA), also called the new repayment options less generous.
 
   Older loans keep both deferments. Questions: studentaid.gov
 

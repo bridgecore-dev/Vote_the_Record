@@ -54,21 +54,21 @@ slides:
   say: Two Texas bills, filed November 9 and 13, would cap what one donor can give a candidate for statewide office or the
     Legislature at $5,000.
 - chip: The law today
-  head: Texas Election Code sets dollar limits on contributions only for judicial candidates.
+  head: Texas Election Code sets no dollar cap on what one donor gives a statewide or legislative candidate. Its per-donor caps are for judicial candidates.
   text: A statewide judicial candidate may take up to $5,000 from one person per election, and up to $25,000 from one general-purpose
     committee (Sec. 253.155 and 253.157).
-  say: 'The law today: the Texas Election Code sets dollar limits on contributions only for judicial candidates. A statewide
+  say: 'The law today: Texas sets no per-donor dollar cap for statewide or legislative candidates, only for judges. A statewide
     judicial candidate may take up to $5,000 from one person per election, and up to $25,000 from one general-purpose committee.'
 - chip: What would change
   head: HB 774 and SB 373 have the same text.
   rows:
-  - - One person or group (not a committee)
+  - - One donor (not a political committee)
     - $5,000 per election
   - - One political committee
     - $10,000 per election
   - - Statewide judicial, from one general-purpose committee
     - $25,000 → $10,000
-  say: 'HB 774 and SB 373 have the same text. One person or group, not a committee: $5,000 per election. One political committee:
+  say: 'HB 774 and SB 373 have the same text. One donor, not a political committee: $5,000 per election. One political committee:
     $10,000. For statewide judicial candidates, the limit from one general-purpose committee drops from $25,000 to $10,000.'
 - chip: If one passes
   big: Sept. 1, 2027

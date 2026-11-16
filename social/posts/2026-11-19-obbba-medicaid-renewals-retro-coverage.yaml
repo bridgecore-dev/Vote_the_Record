@@ -11,6 +11,9 @@ sources:
 - title: "CRS Report R48633"
   url: https://www.congress.gov/crs_external_products/R/PDF/R48633/R48633.3.pdf
   retrieved: '2026-11-15'
+- title: "H. Rept. 119-106, Committee on Energy and Commerce, U.S. House of Representatives (House version), views and minority views"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt106/html/CRPT-119hrpt106-pt1.htm
+  retrieved: '2026-11-16'
 - title: "HealthCare.gov, Getting Medicaid and CHIP"
   url: https://www.healthcare.gov/medicaid-chip/getting-medicaid-chip/
   retrieved: '2026-11-15'
@@ -32,7 +35,7 @@ slides:
 - kicker: "One Big Beautiful Bill Act · What changes in 2027"
   big: "Jan. 1, 2027"
   head: "Two Medicaid eligibility changes start under H.R. 1, now Public Law 119-21."
-  text: "Expansion adults renew twice as often, and Medicaid covers fewer months of care from before you apply."
+  text: "Expansion adults (adults who get Medicaid through the Affordable Care Act's expansion) renew twice as often, and Medicaid covers fewer months of care from before you apply."
 - chip: "Renewals: before → after"
   head: "States check whether expansion adults still qualify twice as often."
   rows:
@@ -57,8 +60,16 @@ slides:
   - [States, "The law names sec. 71112 \"Reducing State Medicaid costs\""]
   - [Setup money, "$75 million (renewals) and $10 million (back coverage) for CMS, fiscal year 2026"]
   - [All the law's Medicaid changes, "7.5 million more people uninsured in 2034 (CBO, via CRS)"]
-  text: "We couldn't confirm CBO's figure for the back-coverage change, so it isn't shown."
+  text: "No official cost figure is shown for the back-coverage change."
   by: "CRS R48633, Table A-1 and summary, citing CBO"
+- chip: "The case for"
+  head: "The House Energy and Commerce Committee's majority said Congress must reduce spending on people who aren't eligible."
+  quote: {label: "Committee on Energy and Commerce majority, H. Rept. 119-106 (House version)", text: "modernizing retroactive coverage standards to prevent adverse selection and reduce unexpected costs for the federal government and state programs"}
+  by: "On the House-passed version (secs. 44108 and 44122), which differed from the final law."
+- chip: "The case against"
+  head: "The committee's minority, led by Ranking Member Frank Pallone, Jr., said the changes would cost eligible people coverage."
+  quote: {label: "Minority views signed by Frank Pallone, Jr., Ranking Member, H. Rept. 119-106 (House version)", text: "Increasing the frequency of eligibility verifications would decimate health coverage gains and increase enrollment churn and undermine recent initiatives to provide longer enrollment periods for eligible Americans"}
+  by: "On the House-passed version (secs. 44108 and 44122), which differed from the final law."
 - chip: "What you can do"
   head: "If you're on Medicaid or might need it:"
   rows:
@@ -75,6 +86,8 @@ caption: |-
   Back coverage. Before: Medicaid can pay for care up to 3 months before the month you apply, if you'd have qualified then. After, for applications from Jan. 1, 2027: 1 month for expansion adults, 2 months for everyone else, and no more than 2 for CHIP.
 
   The law's name for the back-coverage section: "Reducing State Medicaid costs."
+
+  For, from the House Energy and Commerce majority: the back-coverage change would "reduce unexpected costs for the federal government and state programs." Against, from the committee's minority: more frequent checks "would decimate health coverage gains." Both were written about the House version, which differed from the final law.
 
   On Medicaid? Keep your address current with your state agency, and apply as soon as you need care.
 
@@ -99,3 +112,7 @@ notes: >-
   tool and wasn't confirmed. (6) "7.5 million more uninsured in 2034" is for all of the law's Medicaid provisions
   together (CRS R48633 summary), labeled that way. The "what you can do" rows are plain advice drawn from the two
   sections' dates and windows. Not a Reel, so no voice.
+  Audit 2026-11-16: added a case for and against from H. Rept. 119-106 (Energy and Commerce majority and minority
+  views on House secs. 44108/44122), quotes as supplied word for word by the workflows session from the govinfo pt1
+  HTML; both confirmed word for word against the full report (3.18 MB copy), and "Frank Pallone, Jr., Ranking
+  Member" signs the Minority Views.
