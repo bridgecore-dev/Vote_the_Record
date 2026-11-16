@@ -16,6 +16,20 @@ Collect every `record_ids` entry from `social/posts/*.yaml` on `main` and from t
 `origin/social/*` branch (pull requests not merged yet). Never write a post whose record IDs overlap them.
 `build.py --check` also refuses a record ID already in `social/posts/`.
 
+## 2a. Recheck what posts soon
+
+Before looking for new ideas, read every post on `main` whose `publish_after` falls in the next 24 hours. Redo
+any check its `notes` asks for before it posts, against the official source:
+- a bill "on the House schedule" or "needs two-thirds": look on clerk.house.gov (floor summary, roll calls) and
+  congress.gov actions for a vote since the post was written;
+- a bill waiting on the President: check congress.gov for signing or veto;
+- any list or status "as of" a date (an IRS list, a court docket): reopen it.
+
+If the record has changed, open a `social/...` pull request that updates that post (the tally, the status, the
+"as of" date), cites the new record, and says in `notes` what changed. That fix comes before any new post and
+counts toward the run's three pull requests. If nothing changed, leave the post alone. If the check can't be
+done (the site is down or blocked), say so in the run's summary; don't guess.
+
 ## 3. Look
 
 Official feeds first. These need no key:
