@@ -1,0 +1,81 @@
+kind: carousel
+level: state
+place: Texas
+topic: How the Legislature works
+approval: review
+found_via: owner idea YxNTk1OTY4NzAwNDE2MAZDZD
+record_ids:
+- tx/87R/senate-rules-resolution/section-4-adopted
+- tx/84R/senate-rules-resolution/section-5-adopted
+publish_after: '2026-11-18T18:00:00-06:00'
+sources:
+- title: Senate Journal, 87th Legislature, Regular Session, Jan. 13, 2021 (Senate rules resolution, Section 4, record vote)
+  url: https://journals.senate.texas.gov/sjrnl/87r/pdf/87RSJ01-13-F.PDF
+  retrieved: '2026-11-16'
+- title: Senate Journal, 84th Legislature, Regular Session, Jan. 21, 2015 (Senate rules resolution, Section 5, record vote)
+  url: https://journals.senate.texas.gov/sjrnl/84r/pdf/84RSJ01-21-F.PDF
+  retrieved: '2026-11-16'
+- title: Texas Senate, Senate Rules adopted by the 89th Legislature, Jan. 15, 2025 (Rule 5.13)
+  url: https://senate.texas.gov/_assets/pdf/SenateRules89.pdf
+  retrieved: '2026-11-16'
+- title: Texas Senate, Senate Agenda, Vote Requirements
+  url: https://senate.texas.gov/agenda-votereq.php?lang=en
+  retrieved: '2026-11-16'
+slides:
+- kicker: Texas Senate · Jan. 13, 2021
+  head: The Texas Senate voted to lower the vote needed to take up a bill out of order from three-fifths to five-ninths of senators present.
+  vote: {yea: 18, nay: 13}
+- chip: By party?
+  head: The Senate Journal records each senator's name and vote, not party.
+  text: So we list names only, exactly as the journal prints them.
+- chip: Jan. 13, 2021 · Yea (18)
+  head: Voted to lower it to five-ninths
+  text: Bettencourt, Birdwell, Buckingham, Campbell, Creighton, Hall, Hancock, Huffman, Hughes, Kolkhorst, Nelson, Nichols,
+    Paxton, Perry, Schwertner, Seliger, Springer, Taylor.
+- chip: Jan. 13, 2021 · Nay (13)
+  head: Voted against
+  text: Alvarado, Blanco, Eckhardt, Gutierrez, Hinojosa, Johnson, Lucio, Menéndez, Miles, Powell, West, Whitmire, Zaffirini.
+- kicker: Texas Senate · Jan. 21, 2015
+  head: Six years earlier, the Texas Senate voted to lower it from two-thirds to three-fifths.
+  vote: {yea: 20, nay: 10, present: 1}
+- chip: Jan. 21, 2015 · Yea (20)
+  head: Voted to lower it to three-fifths
+  text: Bettencourt, Birdwell, Burton, Campbell, Creighton, Eltife, Fraser, Hall, Hancock, Huffines, Huffman, Kolkhorst,
+    Lucio, Nelson, Nichols, Perry, Schwertner, Seliger, L. Taylor, V. Taylor.
+- chip: Jan. 21, 2015 · Nay (10) and Present (1)
+  head: Voted against
+  text: "Ellis, Garcia, Hinojosa, Rodríguez, Uresti, Van de Putte, Watson, West, Whitmire, Zaffirini. Present, not voting: Estes."
+- chip: Before → after
+  head: Votes needed to take up a bill out of order, with all 31 senators present
+  rows:
+  - [Before 2015, 'Two-thirds: 21']
+  - [2015 to 2020, 'Three-fifths: 19']
+  - [Since 2021, 'Five-ninths: 18']
+  text: Fewer senators are now needed to bring a bill up, so it takes more of them to keep one from coming up.
+- chip: Your turn
+  head: Did your senator vote on these changes?
+  text: Find your senator under "Who Represents Me?" at senate.texas.gov. The 90th Legislature convenes Jan. 12, 2027.
+caption: |-
+  The Texas Senate has lowered the vote needed to take up a bill out of its calendar order twice, each time by a recorded vote on its own rules. The Senate Journal lists every senator by name (not party).
+
+  Jan. 13, 2021, three-fifths to five-ninths: 18 Yea, 13 Nay.
+  Yea: Bettencourt, Birdwell, Buckingham, Campbell, Creighton, Hall, Hancock, Huffman, Hughes, Kolkhorst, Nelson, Nichols, Paxton, Perry, Schwertner, Seliger, Springer, Taylor.
+  Nay: Alvarado, Blanco, Eckhardt, Gutierrez, Hinojosa, Johnson, Lucio, Menéndez, Miles, Powell, West, Whitmire, Zaffirini.
+
+  Jan. 21, 2015, two-thirds to three-fifths: 20 Yea, 10 Nay, 1 Present.
+  Yea: Bettencourt, Birdwell, Burton, Campbell, Creighton, Eltife, Fraser, Hall, Hancock, Huffines, Huffman, Kolkhorst, Lucio, Nelson, Nichols, Perry, Schwertner, Seliger, L. Taylor, V. Taylor.
+  Nay: Ellis, Garcia, Hinojosa, Rodríguez, Uresti, Van de Putte, Watson, West, Whitmire, Zaffirini. Present, not voting: Estes.
+
+  With all 31 senators present, that's 21 votes before 2015, 19 from 2015, and 18 since 2021. Did your senator vote on it?
+
+  Part 2 of 2. Part 1: how the rule works, and the case for and against.
+hashtags: [txlege, texassenate, texaspolitics, votetherecord]
+notes: >-
+  Part 2 of 2 from an owner idea (part 1 is the Reel at 4:30 p.m.); merge them together. Tallies and names are
+  exactly as the Senate Journal prints them: 2021, p. 35 of the journal (PDF p. 21), Section 4 divided out and
+  adopted 18-13; 2015, p. 54 (PDF p. 10), Section 5 divided out and adopted 20-10, 1 present-not-voting. Those
+  sections hold the threshold changes (Rule 5.13 among them). The journal lists no party, so no party slide.
+  21 (two-thirds) and 18 (five-ninths) at 31 present are the Senate's vote chart; 19 (three-fifths) is the number
+  Sen. Eltife gave in the 2015 debate ("requiring 19 Members ... versus 21"). Both votes are in one post because
+  they are two steps of the same rule; the resolutions are not named on the slides. "Van de Putte" is printed
+  "VanideiPutte" by pdftotext (the journal's spacing glyphs). Lucio voted Yea in 2015 and Nay in 2021, as recorded.
