@@ -1,0 +1,43 @@
+kind: story
+level: congress
+topic: Campaign finance
+approval: review
+highlight: Elections
+record_ids: [us/fec/2026/post-general-report/due-2026-12-03]
+publish_after: '2026-11-18T20:15:00-06:00'
+sources:
+- title: "Federal Election Commission, Pre- and Post-General Reports (2026)"
+  url: https://www.fec.gov/help-candidates-and-committees/dates-and-deadlines/2026-reporting-dates/pre-and-post-general-reports-2026/
+  retrieved: '2026-11-16'
+- title: "Federal Election Commission, Browse Filings"
+  url: https://www.fec.gov/data/filings/
+  retrieved: '2026-11-16'
+slides:
+- kicker: Countdown
+  countdown: {date: '2026-12-03', event: post-election campaign finance reports are due at the FEC}
+- kicker: Post-General Report
+  head: Who raised and spent what, through 20 days after the election.
+  rows:
+  - [Covers, "Oct. 15 to Nov. 23, 2026"]
+  - [Who files, "Campaigns of candidates in the general election, and all PACs and party committees"]
+  - [Due, "Dec. 3, 2026; online filings by 11:59 p.m. Eastern"]
+  quote: {label: Federal Election Commission, text: "All PACs and party committees must file a Post-General Report 30 days after the general election, regardless of activity."}
+- kicker: See it yourself
+  head: Reports are public at fec.gov/data/filings.
+  text: Look up who gave to a campaign or PAC, and how it spent the money. What would you check first?
+caption: |-
+  Campaigns for U.S. House and U.S. Senate, and every PAC and party committee, file one more report on the 2026 general election: the Post-General Report.
+
+  It covers Oct. 15 to Nov. 23, 2026, through 20 days after the election. It's due at the Federal Election Commission on Dec. 3. Reports filed online must be in by 11:59 p.m. Eastern.
+
+  The reports are public. Browse them at fec.gov/data/filings. What would you check first?
+hashtags: [campaignfinance, fec, elections, votetherecord]
+notes: >-
+  Fills the empty story slot on Nov. 18 (every other Nov. 16-18 slot is taken). Dates, periods and filers are from
+  the FEC's 2026 Pre- and Post-General page, opened this run: "Post-General: Congressional; All PACs and parties;
+  10/15/2026 - 11/23/2026; 12/03/2026", and electronic reports "must be received and validated by the Commission by
+  11:59 p.m. Eastern Time on the filing deadline". "Campaigns of candidates in the general election" restates "Campaign
+  committees file a Pre- and Post-General Report for every general election their candidate runs in"; presidential
+  committees aren't mentioned because there is no presidential race in 2026. The Browse Filings page renders by
+  script; only its title was read. Review, not auto, because slide 2 restates the FEC page in our words. No person,
+  party or bill is named.
