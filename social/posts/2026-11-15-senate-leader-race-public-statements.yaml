@@ -1,0 +1,125 @@
+kind: carousel
+level: congress
+topic: Congress leadership
+approval: review
+found_via: owner idea Y2Mjg3MDcwMDI5NDE0NAZDZD
+record_ids: [us/120/senate-democrats/leader-election/public-statements]
+publish_after: '2026-11-16T09:00:00-06:00'
+rule: Every senator who said whom they back in a statement on their own .senate.gov site that we could open by Nov. 15, listed alphabetically.
+sources:
+- title: "Sen. Schumer, Nov. 12"
+  url: https://www.democrats.senate.gov/newsroom/press-releases/leader-schumer-statement-on-senate-democratic-leadership
+  retrieved: '2026-11-15'
+- title: "Sen. Van Hollen, Nov. 12"
+  url: https://www.vanhollen.senate.gov/news/press-releases/van-hollen-statement-on-running-for-majority-leader
+  retrieved: '2026-11-15'
+- title: "Sen. Baldwin, Nov. 12"
+  url: https://www.baldwin.senate.gov/news/press-releases/-senator-baldwin-statement-on-election-for-senate-leadership
+  retrieved: '2026-11-15'
+- title: "Sen. Blumenthal, Nov. 12"
+  url: https://www.blumenthal.senate.gov/newsroom/press/release/blumenthal-statement-on-senate-democratic-leadership
+  retrieved: '2026-11-15'
+- title: "Sen. King, Nov. 12"
+  url: https://www.king.senate.gov/newsroom/press-releases/king-backs-senator-charles-schumer-for-majority-leader
+  retrieved: '2026-11-15'
+- title: "Sen. Merkley, Nov. 13"
+  url: https://www.merkley.senate.gov/merkley-puts-his-support-behind-van-hollen-for-senate-majority-leader/
+  retrieved: '2026-11-15'
+- title: "Sen. Reed, Nov. 12"
+  url: https://www.reed.senate.gov/news/releases/reed-backs-schumer-for-majority-leader
+  retrieved: '2026-11-15'
+- title: "Sen. Schatz, Nov. 12"
+  url: https://www.schatz.senate.gov/news/press-releases/schatz-statement-on-senate-democratic-leadership-election
+  retrieved: '2026-11-15'
+- title: "ABC News (news report), Nov. 13"
+  url: https://abcnews.com/Politics/schumer-van-hollen-facing-off-senate-majority-leader/story?id=138111386
+  retrieved: '2026-11-15'
+- title: "The New Republic (news report), Nov. 13"
+  url: https://newrepublic.com/post/217991/full-list-senators-back-chris-van-hollen-leader
+  retrieved: '2026-11-15'
+- title: "Democratic Conference rules"
+  url: https://www.democrats.senate.gov/rules-for-the-democratic-conference
+  retrieved: '2026-11-15'
+- title: "Sen. Thune, Nov. 10"
+  url: https://www.thune.senate.gov/news/press-releases/thune-reelected-republican-leader/
+  retrieved: '2026-11-15'
+- title: "Republican Conference rules"
+  url: https://www.republican.senate.gov/wp-content/uploads/2025/05/119NewRulesTemp.pdf
+  retrieved: '2026-11-15'
+- title: "Contacting Senators, senate.gov"
+  url: https://www.senate.gov/senators/senators-contact.htm
+  retrieved: '2026-11-15'
+slides:
+- kicker: "U.S. Senate · Democratic leader race"
+  big: "2"
+  head: Two senators are running to lead Senate Democrats in the 120th Congress.
+  text: What each candidate said, and every senator who said whom they back on their own official site. Alphabetical. Swipe.
+- chip: Candidate
+  head: Sen. Chuck Schumer (D-NY), the current Senate Democratic Leader
+  quote: {label: "Sen. Schumer, Nov. 12, 2026", text: "I have the votes to continue serving as Democratic Leader."}
+  text: His statement doesn't name the senators backing him.
+- chip: Candidate
+  head: Sen. Chris Van Hollen (D-MD)
+  quote: {label: "Sen. Van Hollen, Nov. 12, 2026", text: "It’s now on us to meet this moment, and to do that we need new leadership."}
+  text: He announced his run for leader the same day.
+- chip: Backing Schumer
+  head: In their own official statements
+  rows:
+  - [Sen. Tammy Baldwin (D-WI), "“He earned his position as Majority Leader next Congress” (Nov. 12)"]
+  - [Sen. Richard Blumenthal (D-CT), "“I continue to support Senator Schumer for Majority Leader.” (Nov. 12)"]
+  - [Sen. Angus King (I-ME), "“I see no reason to change the leadership that helped make that success possible.” (Nov. 12)"]
+  - [Sen. Jack Reed (D-RI), "“I will support Senator Schumer as leader for the simple reason that Chuck is incredibly effective at the job.” (Nov. 12)"]
+  - [Sen. Brian Schatz (D-HI), "“I endorse Senator Schumer for leader and will be voting for him in the caucus election.” (Nov. 12)"]
+- chip: Backing Van Hollen
+  head: In their own official statements
+  rows:
+  - [Sen. Jeff Merkley (D-OR), "“He has my full support for Majority Leader.” (Nov. 13)"]
+  text: Sen. Merkley's office posted these words from his social media post.
+- chip: "Reported by news, not on the senator's own site"
+  head: "These names come from news reports. We couldn't find a statement on each senator's .senate.gov site by Nov. 15."
+  rows:
+  - [Backing Schumer, "Alsobrooks (D-MD), Cortez Masto (D-NV)*, Fetterman (D-PA), Gallego (D-AZ), Gillibrand (D-NY), Kaine (D-VA), Kelly (D-AZ), Rosen (D-NV)*, Whitehouse (D-RI); Sen.-elect Sherrod Brown (Ohio)"]
+  - [Backing Van Hollen, "Sanders (I-VT)*; Sens.-elect Abdul El-Sayed (Michigan)* and Peggy Flanagan (Minnesota)*"]
+  by: "The New Republic, Nov. 13; * ABC News, Nov. 13, quoting the senator's own social media post. Counts differ between outlets."
+- chip: How the vote works
+  head: Senate Democrats choose their leader themselves. The full U.S. Senate doesn't vote on it.
+  rows:
+  - [Who votes, Democratic senators in the conference]
+  - [How, "Secret ballot, in person; proxies allowed"]
+  - [To win, A majority of those present and voting]
+  - [When, "No earlier than December, under the rules; no official date posted as of Nov. 15"]
+- chip: The other party
+  head: "Senate Republicans voted Nov. 10. Sen. John Thune (R-SD) says his colleagues reelected him as their leader."
+  quote: {label: "Sen. Thune, Nov. 10, 2026", text: "I am honored to have their continued trust and support to lead the Senate Republican Conference in the 120th Congress"}
+  text: We found no official statement from another candidate. Their rules call for a secret written ballot when a race is contested.
+- chip: Your turn
+  head: The ballot is secret, so you won't see how each senator votes. You can still ask yours.
+  rows:
+  - [Find your senators, senate.gov/senators/senators-contact.htm]
+  - [By phone, "Capitol switchboard: (202) 224-3121"]
+caption: |-
+  Senate Democrats pick their leader by secret ballot: Chuck Schumer (D-NY) or Chris Van Hollen (D-MD).
+
+  On their own .senate.gov sites: Baldwin, Blumenthal, King, Reed and Schatz back Schumer; Merkley backs Van Hollen. More names from news reports: slide 6.
+
+  A majority of those present and voting wins. No date is posted. Senate Republicans reelected John Thune (R-SD) Nov. 10.
+
+  Your senators: senate.gov/senators/senators-contact.htm
+hashtags: [congress, senate, senatedemocrats, votetherecord]
+notes: >-
+  Owner chose (2026-11-15): official statements first, then a labeled news slide for senators whose official sites showed no statement. One request per senator site (homepage and press list) found none for the ten news-listed senators; several sites load their press lists by script, so statements may exist. Party/state for sitting senators from Senate roll call 372's member list; senators-elect shown by state only (no official record of them yet). Some earlier reports said Gallego and Kelly declined to say; not shown, because that report (Washington Times) blocked us.
+  Reed and Schatz added 2026-11-15 from the owner's screenshots of their official pages (both pages returned 403 to our fetch); quotes copied word for word from those pages.
+  From an owner idea. Only statements opened on the senators' own sites (Baldwin, Blumenthal, King, Merkley) plus
+  each candidate's own statement. Two more official pages exist but answered 403 to us and were not retried:
+  Reed (D-RI) "Reed Backs Schumer for Majority Leader"
+  (https://www.reed.senate.gov/news/releases/reed-backs-schumer-for-majority-leader) and Schatz (D-HI) "Schatz
+  Statement On Senate Democratic Leadership Election"
+  (https://www.schatz.senate.gov/news/press-releases/schatz-statement-on-senate-democratic-leadership-election).
+  Owner: open them in a browser and, if they say so, add them to the Backing Schumer slide (alphabetical: Baldwin,
+  Blumenthal, King, Reed, Schatz). News-only names (Cortez Masto, Rosen, Kaine, Alsobrooks, Whitehouse, Gallego,
+  Kelly, Gillibrand, Fetterman, Sen.-elect Brown for Schumer; Sanders, Sens.-elect Flanagan and El-Sayed for Van
+  Hollen) are left out on purpose. Party and state as the senate.gov roster lists them (King: I). The date:
+  news says Dec. 1; the rules say no earlier than December (waivable by a simple majority); no official notice
+  found. Merkley's release reprints his social media post, so slide 5 says so. If the vote happens before this
+  posts, hold it. Senate Republicans' race is on slide 8: Thune's own release; news says he ran unopposed, so
+  the slide says only that we found no official statement from another candidate.

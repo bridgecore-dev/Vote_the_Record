@@ -1,0 +1,124 @@
+kind: reel
+level: congress
+topic: Congress leadership
+approval: review
+found_via: owner idea g3MjE3NjMxMjU4MjE0NAZDZD
+record_ids: [us/120/leadership-elections/how-they-work]
+publish_after: '2026-11-16T07:30:00-06:00'
+voice: true
+sources:
+- title: "20th Amendment, Sec. 2 (National Archives)"
+  url: https://www.archives.gov/founding-docs/amendments-11-27
+  retrieved: '2026-11-15'
+- title: "Senate Democratic Conference rules"
+  url: https://www.democrats.senate.gov/rules-for-the-democratic-conference
+  retrieved: '2026-11-15'
+- title: "Senate Republican Conference rules, 119th Congress"
+  url: https://www.republican.senate.gov/wp-content/uploads/2025/05/119NewRulesTemp.pdf
+  retrieved: '2026-11-15'
+- title: "House Republican Conference rules, 119th Congress"
+  url: https://gop.gov/wp-content/uploads/2026/02/conference_rules_of_the_119th_congress-1.pdf
+  retrieved: '2026-11-15'
+- title: "House Democratic Caucus rules, 119th Congress"
+  url: https://democrats.house.gov/imo/media/doc/democratic_caucus_rules_119th.pdf
+  retrieved: '2026-11-15'
+- title: "House Practice, ch. 34 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-35.htm
+  retrieved: '2026-11-15'
+- title: "Sen. Van Hollen statement, Nov. 12, 2026"
+  url: https://www.vanhollen.senate.gov/news/press-releases/van-hollen-statement-on-running-for-majority-leader
+  retrieved: '2026-11-15'
+- title: "Sen. Schumer statement, Nov. 12, 2026"
+  url: https://www.democrats.senate.gov/newsroom/press-releases/leader-schumer-statement-on-senate-democratic-leadership
+  retrieved: '2026-11-15'
+- title: "Sen. Thune statement, Nov. 10, 2026"
+  url: https://www.thune.senate.gov/news/press-releases/thune-reelected-republican-leader/
+  retrieved: '2026-11-15'
+- title: "Rep. Jordan letter, Nov. 4, 2026"
+  url: https://jordan.house.gov/sites/evo-subsites/jordan.house.gov/files/evo-media-document/2026-11-04-jordan-letter-to-members.pdf
+  retrieved: '2026-11-15'
+- title: "House Republican Conference, gop.gov"
+  url: https://www.gop.gov/
+  retrieved: '2026-11-15'
+- title: "U.S. Senate, Contacting Senators"
+  url: https://www.senate.gov/senators/senators-contact.htm
+  retrieved: '2026-11-15'
+- title: "U.S. House, Find Your Representative"
+  url: https://www.house.gov/representatives/find-your-representative
+  retrieved: '2026-11-15'
+slides:
+- kicker: "120th Congress · Jan. 3, 2027"
+  big: 4 + 1
+  head: Four party elections pick the leaders of Congress. Then one public vote picks the Speaker.
+  text: "The 20th Amendment starts each new Congress on Jan. 3, unless a law sets another day."
+  say: "Who leads Congress in 2027? Each party in the United States Senate and the United States House of Representatives picks its own leaders: four party elections. Then one public vote elects the Speaker. The new Congress starts January 3, unless a law sets another day."
+- chip: U.S. Senate
+  head: The full U.S. Senate doesn't vote on party leaders. Each party's senators choose their own.
+  quote: {label: "Senate Democratic Conference rules", text: "Officers of the Conference are selected and confirmed solely by the Conference; no Senate action is required."}
+  text: Senate Republicans' rules likewise have their conference elect its Floor Leader.
+  say: "In the United States Senate, there is no floor vote on party leaders. Each party's senators choose their own. The Senate Democratic rules say their officers are chosen solely by the conference, with no Senate action required. Senate Republicans' rules work the same way."
+- chip: "U.S. Senate · Democrats"
+  head: "A contested race: Chuck Schumer (D-NY) and Chris Van Hollen (D-MD), each in his own statement on Nov. 12."
+  rows:
+  - [Who votes, Democratic senators in the conference]
+  - [How, "Secret ballot; a majority of those present and voting wins"]
+  - [Proxies, Allowed under the rules]
+  - [When, "No earlier than December, under the rules; no official date posted as of Nov. 15"]
+  say: "Senate Democrats have a contested race: Chuck Schumer of New York and Chris Van Hollen of Maryland, each announced November 12. Senators vote by secret ballot; a majority of those present and voting wins. Proxies are allowed. The rules say no earlier than December."
+- chip: "U.S. Senate · Republicans"
+  head: "Already done: John Thune (R-SD) says his colleagues reelected him as Senate Republican leader on Nov. 10."
+  rows:
+  - [Who votes, Republican senators in the conference]
+  - [How, "Secret written ballot, if contested"]
+  - [When, "Held Nov. 10, per Sen. Thune's office"]
+  say: "Senate Republicans already voted. On November 10, John Thune of South Dakota said his colleagues reelected him as Senate Republican leader. Their rules call for a secret written ballot when a race is contested."
+- chip: "U.S. House · Republicans"
+  head: "Already done: the House Republican Conference's site lists Jim Jordan (R-OH) as Republican Leader in its new team."
+  rows:
+  - [Who votes, Republican members of the U.S. House of Representatives]
+  - [How, "Secret ballot if contested, no proxies; a majority wins"]
+  - [Candidate letter, "Jordan announced his run in a Nov. 4 letter"]
+  say: "Republicans in the United States House have also chosen. Their conference's website lists Jim Jordan of Ohio as Republican Leader. Jordan announced his run in a November 4 letter. Their rules require a secret ballot when contested, no proxies, and a majority to win."
+- chip: "U.S. House · Democrats"
+  head: The House Democratic Caucus elects its leader and nominates its candidate for Speaker.
+  rows:
+  - [Who votes, Democratic members of the U.S. House of Representatives]
+  - [How, "Secret ballot unless waived; a majority of those present and voting wins"]
+  - [When, No official date posted as of Nov. 15]
+  - [Candidates, No announced race found in official statements]
+  say: "Democrats in the United States House elect their leader and nominate a candidate for Speaker. They vote by secret ballot unless they waive it, and a majority of those present and voting wins. As of November 15, no official date or announced race."
+- chip: Speaker of the U.S. House
+  head: The Speaker is elected by the whole U.S. House of Representatives, out loud, on the first day of the new Congress.
+  quote: {label: "House Practice (GPO)", text: "Under the modern practice, the Speaker is elected by a majority of Members-elect voting by surname, a quorum being present.", key: "majority of Members-elect voting by surname"}
+  text: Each party nominates someone. If no one gets a majority, the roll call is taken again.
+  say: "The Speaker is different. The whole United States House votes on the floor, out loud. Each member says a last name. A majority of those voting for a person by name wins. If no one gets a majority, they vote again."
+- chip: Your turn
+  head: Party ballots are secret. The Speaker vote is public. Either way, you can tell your members what you think.
+  rows:
+  - [Senators, senate.gov/senators/senators-contact.htm]
+  - [Representative, house.gov/representatives/find-your-representative]
+  - [By phone, "Capitol switchboard: (202) 224-3121"]
+  say: "Party ballots are secret, but the Speaker vote is public. Either way, you can tell your members what you think. Find your senators at senate.gov, your representative at house.gov, or call the Capitol switchboard at 202-224-3121."
+caption: |-
+  Before the 120th Congress starts, each party in each chamber picks its leaders. Then the whole U.S. House of Representatives elects a Speaker out loud.
+
+  U.S. Senate: Democrats have a contested race between Chuck Schumer (D-NY) and Chris Van Hollen (D-MD). Republicans reelected John Thune (R-SD) on Nov. 10, his office says.
+
+  U.S. House: the Republican Conference lists Jim Jordan (R-OH) as Republican Leader. House Democrats haven't posted an official date.
+
+  Find your senators at senate.gov and your representative at house.gov.
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, senate, speakerofthehouse, votetherecord]
+notes: >-
+  From an owner idea. Every rule quoted is the party's own published rules (Senate Dems' Rules V-VI; Senate GOP
+  Rule I and the secret-written-ballot line; House GOP Rules 1, 3, 4; House Dem Rules 1-3) and House Practice
+  ch. 34. Dates on purpose left out: news reports Dec. 1 for Senate Democrats and Nov. 18-19 for House
+  Democrats, but neither is posted officially, so the slides say "no official date posted as of Nov. 15"; update
+  if the caucuses post one. Senate Democrats' rules allow elections "no earlier than in December" but can be
+  waived by a simple majority. Jordan's result rests on gop.gov's home page, which embeds the House GOP's own
+  "NEW TEAM ASSEMBLED" post listing "Republican Leader Jim Jordan" (undated there; news says Nov. 10, and that
+  Steve Scalise also ran: no official statement found, so not named). No majority is stated: no official result
+  yet. Jan. 3, 2027 is a Sunday; no law moving it was found, so slide 1 says "unless a law sets another day".
+  Who votes for senators-elect in the Senate Democratic election isn't stated in the rules; the slide says
+  "Democratic senators in the conference". If the Senate Democratic vote is held before this posts, update slide 3.
