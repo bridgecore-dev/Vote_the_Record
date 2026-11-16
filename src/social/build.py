@@ -33,6 +33,7 @@ LAYOUTS = ["card", "band", "stat"]
 SIZES = {"feed": (1080, 1350), "tall": (1080, 1920)}
 SECONDS, FADE = 4.0, 0.4  # each Reel slide; the slide transition
 SLIDE_KEYS = {"chip", "kicker", "big", "head", "text", "rows", "results", "vote", "quote", "by", "seconds", "swipe",
+              "hint", "countdown", "quiz",
               "say", "doc", "broll", "image"}  # see social/README.md; the last four: Reels (reel.py)
 TOP_KEYS = {"kind", "level", "place", "topic", "approval", "layout", "story", "sources", "slides", "caption",
             "hashtags", "rule", "notes", "publish_after", "found_via", "record_ids",
@@ -93,7 +94,83 @@ def expanded(post: dict) -> list[dict]:
     first_text = " ".join(str(slides[0].get(f) or "") for f in ("head", "text", "by")).lower() if slides else ""
     if post.get("bills") and post.get("kind") == "carousel" and len(slides) > 1 and "swipe" not in first_text:
         slides[0] = {**slides[0], "swipe": True}
-    return slides
+    out = []
+    for s in slides:
+        if isinstance(s.get("countdown"), dict) and countdown_days(post, s["countdown"]) is not None:
+            s = countdown_slide(post, s)
+        if quiz_ok(s.get("quiz")):
+            question, answer = quiz_slides(post, s)
+            out += [question, answer]
+            continue
+        out.append(s)
+    return out
+
+
+def publish_date(post: dict) -> dt.date | None:
+    try:
+        return dt.datetime.fromisoformat(str(post.get("publish_after"))).date()
+    except ValueError:
+        return None
+
+
+def countdown_days(post: dict, c: dict) -> int | None:
+    """Days from the day the post goes out to the event: right on the day people see it."""
+    try:
+        return (dt.date.fromisoformat(str(c.get("date"))) - publish_date(post)).days
+    except (TypeError, ValueError):
+        return None
+
+
+def countdown_slide(post: dict, s: dict) -> dict:
+    c, days = s["countdown"], countdown_days(post, s["countdown"])
+    when = dt.date.fromisoformat(str(c["date"]))
+    head = f"{'day' if days == 1 else 'days'} until {c['event']}" if days else f"Today: {c['event']}"
+    return {**{k: v for k, v in s.items() if k != "countdown"}, "big": str(days) if days else "Today",
+            "head": head, "text": s.get("text") or f"{when:%A, %B} {when.day}, {when.year}"}
+
+
+def quiz_ok(q) -> bool:
+    return (isinstance(q, dict) and isinstance(q.get("choices"), list) and 2 <= len(q["choices"]) <= 4
+            and isinstance(q.get("answer"), int) and 0 <= q["answer"] < len(q["choices"]) and bool(q.get("explain")))
+
+
+def quiz_slides(post: dict, s: dict) -> tuple[dict, dict]:
+    """The question with lettered choices, then its answer: no sticker needed (the API can't add one)."""
+    q = s["quiz"]
+    letters = "ABCD"
+    move = "Tap" if post.get("kind") == "story" else "Swipe"
+    question = {**{k: v for k, v in s.items() if k != "quiz"},
+                "rows": [[letters[i], str(c)] for i, c in enumerate(q["choices"])], "hint": f"{move} for the answer →"}
+    answer = {"chip": "The answer", "head": f"{letters[q['answer']]}. {q['choices'][q['answer']]}", "text": q["explain"]}
+    if q.get("quote"):
+        answer["quote"] = q["quote"]
+    return question, answer
+
+
+def check_story_templates(post: dict) -> list[str]:
+    errs = []
+    for k, s in enumerate(post.get("slides") or [], 1):
+        c = s.get("countdown")
+        if c is not None:
+            if not (isinstance(c, dict) and c.get("date") and c.get("event")):
+                errs.append(f"slide {k}: countdown is {{date: YYYY-MM-DD, event}}")
+            elif publish_date(post) is None:
+                errs.append(f"slide {k}: a countdown needs publish_after, so its day count is right when it posts")
+            elif countdown_days(post, c) is None or countdown_days(post, c) < 0:
+                errs.append(f"slide {k}: the countdown date has to be on or after the day the post goes out")
+            if s.get("big"):
+                errs.append(f"slide {k}: a countdown makes its own big number; drop big")
+        q = s.get("quiz")
+        if q is not None:
+            if not quiz_ok(q):
+                errs.append(f"slide {k}: quiz is {{choices: 2-4, answer: index from 0, explain, quote (optional)}}")
+            elif post.get("kind") not in ("story", "carousel"):
+                errs.append(f"slide {k}: a quiz needs a second slide for its answer: a story or carousel")
+            if not s.get("head"):
+                errs.append(f"slide {k}: the quiz question goes in head")
+            if post.get("approval") == "auto":
+                errs.append(f"slide {k}: a quiz's answer is explained in our words: use approval review")
+    return errs
 
 
 def check_bills(post: dict, editorial: bool = True) -> list[str]:
@@ -181,7 +258,7 @@ def check(post: dict, editorial: bool = True) -> list[str]:
     ids = post.get("record_ids")
     if ids is not None and not (isinstance(ids, list) and all(isinstance(i, str) and i.strip() for i in ids)):
         errs.append("record_ids is a list of official IDs as strings, e.g. ['tx/90R/HB 101', 'us/119/house/roll/316']")
-    errs += check_bills(post, editorial)
+    errs += check_bills(post, editorial) + check_story_templates(post)
     slides = expanded(post) if post.get("kind") != "clip" else []
     n = {"image": (1, 1), "story": (1, 10), "carousel": (2, 10), "reel": (2, 20)}.get(post.get("kind"), (1, 20))
     if post.get("kind") == "clip":
@@ -421,6 +498,8 @@ def slide_html(post: dict, s: dict, k: int, n: int, layout: str, size: tuple[int
         body += vote_html(s["vote"])
     if s.get("swipe"):
         body += '<div class="swipe">Swipe to see the bills →</div>'
+    if s.get("hint"):
+        body += f'<div class="swipe">{e(s["hint"])}</div>'
     if s.get("quote"):
         q = s["quote"]
         body += f'<div class="text"><span class="label">{e(q.get("label", "Official text"))}:</span> “{e(q["text"])}”</div>'
@@ -453,7 +532,7 @@ def alt_text(post: dict, s: dict) -> str:
                if s.get("results") else []),
              *(f"{VOTE_LABELS[key]}: {n:,}" for key, n in (s.get("vote") or {}).items()),
              f'{q.get("label", "Official text")}: "{q["text"]}"' if q else None, s.get("by"),
-             "Swipe to see the bills." if s.get("swipe") else None, source_line(post)]
+             "Swipe to see the bills." if s.get("swipe") else None, s.get("hint"), source_line(post)]
     return " ".join(str(p) if re.search(r'[.?!"”]$', str(p)) else f"{p}." for p in parts if p)
 
 
