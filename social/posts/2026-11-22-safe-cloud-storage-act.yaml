@@ -1,0 +1,95 @@
+kind: carousel
+level: congress
+topic: Bills
+approval: review
+record_ids: [us/119/H.R. 7834/senate-passed]
+publish_after: '2026-11-22T15:00:00-06:00'
+sources:
+- title: H.R. 7834 bill status (GovInfo, Library of Congress data)
+  url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7834.xml
+  retrieved: '2026-11-17'
+- title: H.R. 7834 as passed by the House (engrossed text, GovInfo)
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr7834eh/xml/BILLS-119hr7834eh.xml
+  retrieved: '2026-11-17'
+- title: House Judiciary Committee report, H. Rept. 119-804 (GovInfo)
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt804/html/CRPT-119hrpt804.htm
+  retrieved: '2026-11-17'
+- title: U.S. House Clerk, House floor proceedings, Nov. 17, 2026
+  url: https://clerk.house.gov/floor/20261117.xml
+  retrieved: '2026-11-17'
+- title: U.S. Constitution, Article I, Section 7 (National Archives transcript)
+  url: https://www.archives.gov/founding-docs/constitution-transcript
+  retrieved: '2026-11-17'
+bills:
+- id: H.R. 7834
+  title: Safe Cloud Storage Act
+  does: Shields cloud companies that store child abuse evidence for police from lawsuits and charges, unless negligent or worse.
+  affects: Cloud storage companies under contract with federal, state, tribal or local police and prosecutors.
+  where: Passed the House Sept. 16 and the Senate Nov. 16, 2026, both without a roll call. Next, the President.
+  summary:
+    text: "Currently, federal law limits the liability of vendors that contract directly with the NCMEC to store and transfer CSAM. However, federal law does not limit the liability of vendors that contract with law enforcement agencies to assist in investigations."
+    title: Congressional Research Service summary of H.R. 7834 (reported version)
+    url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7834.xml
+    retrieved: '2026-11-17'
+slides:
+- kicker: Passed both chambers
+  big: H.R. 7834
+  head: The U.S. Senate passed the Safe Cloud Storage Act on Nov. 16. The U.S. House of Representatives passed it in September.
+  text: It's about where police store evidence of child sexual abuse, and who can be sued over it.
+- chip: Before → after
+  head: What changes in federal law
+  rows:
+  - [Now, "Liability limits cover vendors working for NCMEC, not for police"]
+  - [After, "Cloud vendors hired by police and prosecutors are covered too"]
+  - [Covered, "No civil suit or criminal charge over the contracted work"]
+  - [Not covered, "Intentional misconduct, negligence, malice or reckless disregard"]
+  text: NCMEC is the National Center for Missing & Exploited Children, which runs the CyberTipline.
+- chip: The rules vendors must follow
+  head: The shield comes with security rules.
+  rows:
+  - [Encryption, "End-to-end, for storage and transfer"]
+  - [Access, "Only with the agency's consent; a list of employees who had access"]
+  - [Audit, "An independent cybersecurity audit every year"]
+  - [Location, "Data stays in the U.S. unless the agency OKs a move for an investigation"]
+  - [Notice, "Vendors notify the Justice Department within 30 days of a contract"]
+- chip: Who it touches
+  head: Who gains, who gives something up, and the cost
+  rows:
+  - [Gains, "Cloud vendors: legal protection for this work"]
+  - [Gains, "Police and prosecutors: more vendors to choose from, the report says"]
+  - [Gives up, "Anyone who'd sue or charge a vendor, unless it was negligent or worse"]
+  - [Cost, "The House report says a CBO estimate was requested but not received"]
+  text: The report says investigators still use thumb drives and external hard drives, and few vendors will take the legal risk now.
+- kicker: How it passed
+  head: Neither chamber took a recorded roll call.
+  rows:
+  - [House committee, "Judiciary Committee, 24-0, July 15, 2026"]
+  - [House, "Voice vote, Sept. 16, 2026"]
+  - [Senate, "Unanimous consent, Nov. 16, 2026"]
+  text: With no roll call, there is no official list of how each member voted. Introduced by Rep. Laurel Lee of Florida. The House report includes no dissenting views.
+- kicker: What happens next
+  head: It goes to the President to sign or veto.
+  quote:
+    label: U.S. Constitution, Article I, Section 7
+    text: "Every Bill which shall have passed the House of Representatives and the Senate, shall, before it become a Law, be presented to the President of the United States"
+  text: Status as of Nov. 17. Should cloud companies get this protection for storing evidence? Tell us what you think.
+caption: |-
+  Both chambers of Congress have now passed the Safe Cloud Storage Act (H.R. 7834).
+
+  Police and prosecutors store evidence of child sexual abuse in child exploitation cases. Today, federal law limits lawsuits and charges against vendors that store this material for the National Center for Missing & Exploited Children, but not against vendors hired by police. This bill extends that protection to cloud companies hired by police and prosecutors, unless they act negligently or worse. In return, vendors must encrypt the data, keep it in the U.S., limit who can see it and pass a yearly security audit.
+
+  The House passed it by voice vote on Sept. 16 and the Senate by unanimous consent on Nov. 16, so there is no roll call. Next it goes to the President (status as of Nov. 17).
+
+  Should cloud companies get this protection? Tell us below.
+hashtags: [congress, childsafety, cloudstorage, lawenforcement, votetherecord]
+notes: >-
+  New: the Senate passed H.R. 7834 without amendment by unanimous consent on Nov. 16 (GovInfo bill status, CR S5701;
+  the Clerk's Nov. 17 floor log records the Senate's message), so it has cleared Congress; no post covers it. Not yet
+  presented to the President as of the Nov. 17 bill status; if it is signed or vetoed before Nov. 22, update the last
+  slide or delete this file. The only CRS summary is the reported version; the House passed an amended text, so the
+  slides follow the engrossed text (it adds "cloud service provider", Tribal agencies, intimate images of minors
+  including digital forgeries, the U.S.-location rule and the 30-day Justice Department notice). The "few vendors" and
+  "thumb drives" lines restate H. Rept. 119-804; the report has no minority or dissenting views, so there is no
+  official case against to quote. CBO: requested but not received, per the report; congress.gov refused this run
+  (403) and cbo.gov wasn't tried. Sponsor named without party: there is no roll call. Fills the Nov. 22 3 p.m. post
+  slot (Nov. 18-21 feed slots are full).
