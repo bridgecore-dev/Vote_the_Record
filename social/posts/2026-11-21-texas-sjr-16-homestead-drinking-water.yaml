@@ -1,0 +1,93 @@
+kind: reel
+level: state
+place: Texas
+topic: Property tax
+approval: review
+rule: Every proposed constitutional amendment (joint resolution) filed Nov. 16, 2026, per Texas Legislature Online's
+  filing report (said on the last slide).
+record_ids: [tx/90R/SJR 16/filed]
+publish_after: '2026-11-21T19:30:00-06:00'
+sources:
+- title: TLO, bills filed Nov. 16, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-16
+  retrieved: '2026-11-17'
+- title: TLO, SJR 16 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SJR16
+  retrieved: '2026-11-17'
+- title: Texas Constitution, Article 8 (Sec. 1-b, residence homestead exemptions)
+  url: https://statutes.capitol.texas.gov/Docs/CN/htm/CN.8.htm
+  retrieved: '2026-11-17'
+- title: Texas Constitution, Article 17 (Sec. 1, proposed amendments)
+  url: https://statutes.capitol.texas.gov/Docs/CN/htm/CN.17.htm
+  retrieved: '2026-11-17'
+bills:
+- id: SJR 16
+  does: Would let Texas allow cities and counties to fully exempt homes without drinking water from their property tax.
+  affects: Owners of homesteads without access to drinkable water, and the cities and counties that tax them.
+  where: Filed Nov. 16, 2026 by Sen. West; no other action yet.
+  summary:
+    text: >-
+      The legislature by general law may provide that the owner of a residence homestead that does not have access to
+      potable drinking water is entitled to an exemption from ad valorem taxation by a municipality or county of the
+      total appraised value of the residence homestead
+    title: SJR 16 as filed (Sec. 1, new Texas Constitution Art. VIII, Sec. 1-b(v))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/SJ00016I.htm
+    retrieved: '2026-11-17'
+  say: SJR 16 would let Texas allow cities and counties to fully exempt homes without drinking water from their property
+    tax. It was filed November 16 by Senator West, with no other action yet.
+slides:
+- kicker: 2027 Texas session · Filed Nov. 16, 2026
+  big: SJR 16
+  head: A Texas Senate proposal would let cities and counties drop property tax on homes with no drinking water.
+  say: A Texas Senate proposal filed November 16 would let cities and counties drop their property tax on homes with no
+    drinking water.
+- chip: The law today
+  head: A city or county can exempt up to 20% of a home's value from its property tax.
+  text: Texas Constitution, Art. VIII, Sec. 1-b(e). No homestead exemption in that article is tied to drinking water.
+  say: 'The law today: a city or county can exempt up to 20 percent of a home''s value from its property tax. No homestead
+    exemption in the Texas Constitution is tied to drinking water.'
+- chip: What would change
+  head: For a home with no access to drinkable water, the exemption could cover the home's total value.
+  rows:
+  - [Who decides, "The Legislature passes a law, then each city or county chooses whether to adopt it"]
+  - [Limits, "The law could limit it to certain areas and add other requirements"]
+  - [Taxes covered, "City and county property taxes only"]
+  say: 'What would change: for a home with no drinkable water, the exemption could cover its total value. The Legislature
+    would pass a law, then each city or county would choose. It covers city and county taxes only.'
+- chip: Who gains, who pays
+  head: Owners of those homes would pay no city or county property tax on them where it's adopted.
+  text: That city or county would collect no property tax on those homes. No fiscal note (cost estimate) is posted yet.
+  say: Owners of those homes would pay no city or county property tax on them, where it's adopted. That city or county
+    would collect no property tax on those homes. No cost estimate is posted yet.
+- chip: How it becomes law
+  head: Two-thirds of each chamber, then the voters.
+  quote: {label: Texas Constitution, Art. XVII, Sec. 1(a), text: "The proposal for submission must be approved by a vote of two-thirds of all the members elected to each House"}
+  say: To reach the ballot, two-thirds of all members of the Texas Senate and the Texas House of Representatives would
+    have to approve it. Then the voters decide.
+- chip: What's next
+  big: Nov. 2, 2027
+  head: If both chambers pass it, Texas voters would decide on this date.
+  text: "How we picked: every proposed constitutional amendment filed Nov. 16, 2026. Should a home without drinking water pay property tax?"
+  say: If both chambers pass it, Texas voters would decide on November 2, 2027. How we picked, every proposed constitutional
+    amendment filed November 16. Should a home without drinking water pay property tax?
+caption: |-
+  Today, a Texas city or county can exempt up to 20% of a home's value from its property tax. No homestead exemption in the Texas Constitution is tied to drinking water.
+
+  SJR 16, filed in the Texas Senate for the 2027 session, proposes a constitutional amendment. It would let the Legislature allow a city or county to exempt a homestead with no access to drinkable water from that city's or county's property tax, on the home's total value. Each city or county would choose whether to adopt it, and the law could limit it to certain areas. That city or county would then collect no property tax on those homes. No cost estimate is posted yet.
+
+  It needs two-thirds of all members of the Texas Senate and the Texas House of Representatives. Then voters would decide on Nov. 2, 2027.
+
+  Should a home without drinking water pay property tax?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [txlege, texaslegislature, propertytax, water, votetherecord]
+notes: >-
+  New: filed Nov. 16, 2026; no earlier post covers it. Rule: SJR 16 is the only joint resolution in the Nov. 16 filing
+  report. Records opened 2026-11-17: the Nov. 16 filing report, the SJR 16 history (filed, no other action; the Text page
+  lists only the introduced version, no fiscal note), the introduced text, and Texas Constitution Art. VIII and XVII
+  (rendered from statutes.capitol.texas.gov). "No homestead exemption tied to drinking water" was checked by searching
+  Art. VIII for "potable" and "drinking water" (no match); please confirm. "City and county property taxes only"
+  restates "ad valorem taxation by a municipality or county". "Would collect no property tax on those homes" follows
+  from an exemption of the total appraised value; no source says how much revenue that is or who would make it up, so
+  the slides don't say. A bill filed the same day on the same subject isn't named (one bill per post); it could get
+  its own post. Takes Nov. 21 7:30 p.m. (Reel after the merged 3:00 p.m. post).
