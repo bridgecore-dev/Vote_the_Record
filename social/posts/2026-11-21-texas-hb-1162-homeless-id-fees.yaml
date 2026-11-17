@@ -1,0 +1,93 @@
+kind: reel
+level: state
+place: Texas
+topic: Fees
+approval: review
+rule: Every bill filed Nov. 16, 2026 that would waive a state fee for a group of people. Each gets its own post with the
+  same structure (said on the last slide).
+record_ids: [tx/90R/HB 1162/filed]
+publish_after: '2026-11-21T07:30:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 16, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-16
+  retrieved: '2026-11-17'
+- title: Texas Legislature Online, HB 1162 bill history (90th Legislature)
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1162
+  retrieved: '2026-11-17'
+- title: Texas Health and Safety Code, Sec. 191.0049 (birth record for a foster or homeless child or youth)
+  url: https://statutes.capitol.texas.gov/Docs/HS/htm/HS.191.htm
+  retrieved: '2026-11-17'
+- title: Texas Transportation Code, Secs. 521.1015, 521.1811, 521.422 and 521.4265 (ID fees and fee waivers)
+  url: https://statutes.capitol.texas.gov/Docs/TN/htm/TN.521.htm
+  retrieved: '2026-11-17'
+bills:
+- id: HB 1162
+  does: Would make birth certificates, driver's licenses and state ID cards free for people who are homeless, without requiring a home address.
+  affects: Texans who are homeless as the bill defines it, of any age; not people in jail unless homeless when arrested.
+  where: Filed Nov. 16, 2026 by Rep. Bhojani; no other action yet.
+  summary:
+    text: >-
+      On request of a homeless individual, the state registrar, a local registrar, or a county clerk shall issue, without
+      fee, a certified copy of the individual's birth record to the individual.
+    title: HB 1162 as filed, Sec. 1 (new Health and Safety Code 191.00495(b))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01162I.htm
+    retrieved: '2026-11-17'
+  say: HB 1162 would make birth certificates, driver's licenses and state ID cards free for people who are homeless, without
+    requiring a home address. It was filed November 16 by Representative Bhojani, with no other action yet.
+slides:
+- kicker: 2027 Texas session · Filed Nov. 16, 2026
+  big: HB 1162
+  head: A Texas House of Representatives bill would make birth certificates and state IDs free for people who are homeless.
+  say: A Texas House of Representatives bill filed November 16 would make birth certificates and state IDs free for people
+    who are homeless.
+- chip: The law today
+  head: Free birth certificates and IDs already exist for a few groups, including a homeless "child or youth" and foster youth.
+  quote: {label: Health and Safety Code 191.0049, text: "shall issue, without fee or parental consent, a certified copy of the child's or youth's birth record"}
+  text: "Most people pay. A state ID card costs $15 under age 60 and $5 at 60 or older (Transportation Code 521.422)."
+  say: 'The law today: free birth certificates and IDs already exist for a few groups, including a homeless child or youth
+    and foster youth. Most people pay. A state ID card costs $15 under age 60, and $5 at 60 or older.'
+- chip: What would change
+  head: Any homeless person could get a free birth certificate, driver's license or state ID card.
+  rows:
+  - [Who counts, "No fixed nighttime home, or sleeping in a shelter or a place not meant for sleeping"]
+  - [Proof, "A letter from a shelter, a transitional living program or a local police agency"]
+  - [Address, "None required (for licenses and IDs, as far as federal law allows)"]
+  text: The bill's definition has no age limit. People in jail don't count unless they were homeless when arrested.
+  say: 'What would change: any homeless person could get a free birth certificate, driver''s license or state ID card. Proof
+    could be a letter from a shelter, a transitional living program or a local police agency, with no home address required.'
+- chip: Who pays
+  head: Free driver's licenses and IDs would be paid for from a state account of grants and donations, like today's waivers.
+  quote: {label: Transportation Code 521.4265(c), text: "if money is not available in the identification fee exemption account"}
+  text: If that account runs out, the waiver stops. Birth certificate offices would collect fewer fees; the bill doesn't replace them. No fiscal note (cost estimate) is posted yet.
+  say: 'Who pays: free licenses and IDs would come from a state account of grants and donations. If it runs out, the waiver
+    stops. Birth certificate offices would collect fewer fees, and the bill does not replace them. No cost estimate is posted yet.'
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, the bill takes effect on this date.
+  text: "How we picked: every bill filed Nov. 16, 2026 that would waive a state fee for a group of people (each gets its own post). Should adults get the same free IDs as homeless youth?"
+  say: If passed as filed, the bill takes effect September 1, 2027. How we picked, every bill filed November 16 that would
+    waive a state fee for a group of people. Should adults get the same free IDs as homeless youth?
+caption: |-
+  Today, Texas gives free birth certificates and state IDs to a few groups, including a homeless child or youth and foster youth. Most people pay: a state ID card is $15 under age 60.
+
+  HB 1162, filed in the Texas House of Representatives for the 2027 session, would make a birth certificate, driver's license or state ID free for any person who is homeless, as the bill defines it, with no age limit. A letter from a shelter, a transitional living program or a local police agency could prove it, and no home address would be required (for licenses and IDs, as far as federal law allows).
+
+  The free licenses and IDs would be paid from a state account of grants and donations, as today's waivers are; if the account runs dry, the waiver stops. Birth certificate offices would collect fewer fees. No cost estimate is posted yet. If passed, it takes effect Sept. 1, 2027.
+
+  Should adults get the same free IDs as homeless youth?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [txlege, texaslegislature, homelessness, texasid, votetherecord]
+notes: >-
+  New: filed Nov. 16, 2026. Same rule as the HB 1175 post (2026-11-21-texas-hb-1175-first-responder-fee-waivers), whose
+  notes flagged this bill as fitting and left for its own post. Records opened 2026-11-17: the Nov. 16 filing report, the
+  bill history (filed, no other action; the Text page lists no fiscal note file), the introduced text, Health and Safety
+  Code 191.0049 and Transportation Code 521.1015, 521.1811, 521.422, 521.4265 and 521.008 (rendered from
+  statutes.capitol.texas.gov). Today's waivers use "homeless child or youth" as defined in 42 U.S.C. 11434a, which wasn't
+  opened, so the post gives no ages for it. "Who counts" paraphrases the bill's new 191.00495(a); "local police agency" is
+  our plain word for "a law enforcement agency of a political subdivision"; the proof list also includes HUD-funded
+  emergency shelters and transitional housing. The account (521.4265) is funded by grants and donations, including $1
+  donations on license applications (521.008); the bill adds 521.184 to the waivers paid from it and to the "no money, no
+  exemption" rule in (c)(2). The bill's birth-record waiver has no funding source, so "doesn't replace them" restates that
+  it adds none. Today's ID waivers also cover victims of dating or family violence (521.1016, 521.1811), hence "a few groups, including". The no-address rule for licenses and IDs (new 521.184(d)) applies "to the extent permitted under federal law". The driver's-license fee is left off because it varies by license type. Rep. Bhojani as TLO lists the
+  author, no party shown, the same as other Texas filing posts. Takes Nov. 21 7:30 a.m. (Reel, before the 9:00 a.m. HB 1175 post).
