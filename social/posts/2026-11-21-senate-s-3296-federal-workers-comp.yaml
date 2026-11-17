@@ -8,19 +8,19 @@ rule: >-
 record_ids: ["us/119/S. 3296/senate-passed"]
 publish_after: '2026-11-21T13:30:00-06:00'
 sources:
-- title: "U.S. Senate Press Gallery, Monday, November 16, 2026"
+- title: "Senate Press Gallery, Nov. 16, 2026"
   url: https://www.dailypress.senate.gov/monday-november-16-2026/
   retrieved: '2026-11-17'
-- title: "S. 3296, text as passed by the U.S. Senate (GPO)"
+- title: "S. 3296 as passed"
   url: https://www.govinfo.gov/content/pkg/BILLS-119s3296es/html/BILLS-119s3296es.htm
   retrieved: '2026-11-17'
-- title: "5 U.S.C. 8101, 8103, 8121, 8123 (U.S. Code, 2024 edition, GPO)"
+- title: "5 U.S.C. 8101-8123 (2024 ed.)"
   url: https://www.govinfo.gov/content/pkg/USCODE-2024-title5/html/USCODE-2024-title5-partIII-subpartG-chap81-subchapI-sec8101.htm
   retrieved: '2026-11-17'
-- title: "Congressional Record, Dec. 2, 2025, Introductory Statement on S. 3296 (S8450-S8451)"
+- title: "Cong. Record, Dec. 2, 2025, S8450"
   url: https://www.govinfo.gov/content/pkg/CREC-2025-12-02/html/CREC-2025-12-02-pt1-PgS8450-2.htm
   retrieved: '2026-11-17'
-- title: "Congress.gov API, S. 3296 bill record, actions and cosponsors"
+- title: "Congress.gov, S. 3296"
   url: https://api.congress.gov/v3/bill/119/s/3296
   retrieved: '2026-11-17'
 bills:
@@ -34,7 +34,7 @@ bills:
       AN ACT To amend chapter 81 of title 5, United States Code, to cover, for purposes of workers' compensation under
       such chapter, services by physician assistants and nurse practitioners provided to injured Federal workers, and for
       other purposes.
-    title: S. 3296 as passed by the U.S. Senate (no CRS summary posted yet)
+    title: S. 3296 as passed (long title)
     url: https://www.govinfo.gov/content/pkg/BILLS-119s3296es/html/BILLS-119s3296es.htm
     retrieved: '2026-11-17'
   say: S. 3296 would let nurse practitioners and physician assistants order care and sign injury certificates for federal
@@ -94,4 +94,5 @@ notes: >-
   403 (CBO estimate: cbo.gov/publication/62726, as ordered reported Aug. 6, 2026), so its numbers aren't on a slide.
   Who loses isn't stated in any source opened; the slide says we found no statement against it (unanimous consent).
   Sponsor and cosponsor parties as congress.gov lists them (10 cosponsors: 8 D, 2 R; not on a slide). Takes the free
-  Nov. 21 1:30 p.m. Reel slot (after the 9:00 a.m. post).
+  Nov. 21 1:30 p.m. Reel slot (after the 9:00 a.m. post). Nov 17 fix: shortened source titles so the cover's
+  source footer fits (the first preview clipped it).
