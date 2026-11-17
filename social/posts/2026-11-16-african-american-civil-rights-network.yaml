@@ -2,7 +2,7 @@ kind: reel
 level: congress
 topic: History and parks
 approval: review
-record_ids: ["us/119/H.R. 9269/house-floor-schedule-2026-11-16"]
+record_ids: ["us/119/H.R. 9269/house-floor-schedule-2026-11-16", "us/119/H.R. 9269/house-passed"]
 publish_after: '2026-11-18T10:30:00-06:00'
 rule: >-
   From the House suspension list for the week of Nov. 16, 2026, we pick the bills that renew (reauthorize) an
@@ -18,16 +18,19 @@ sources:
 - title: "House Report 119-859, Renewing the African American Civil Rights Network Act (GPO)"
   url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt859/html/CRPT-119hrpt859.htm
   retrieved: '2026-11-15'
+- title: "Office of the Clerk, U.S. House of Representatives, House Floor Activities, Nov. 17, 2026"
+  url: https://clerk.house.gov/floor/20261117.xml
+  retrieved: '2026-11-17'
 - title: Congress.gov, H.R. 9269 actions and cosponsors
   url: https://api.congress.gov/v3/bill/119/hr/9269/actions
   retrieved: '2026-11-15'
 bills:
 - id: H.R. 9269
-  say: "H.R. 9269, Renewing the African American Civil Rights Network Act, restarts a National Park Service program for civil rights history sites, which expired January 8, 2025, for 7 years. A House committee approved it by unanimous consent. It's scheduled the week of November 16."
+  say: "H.R. 9269, Renewing the African American Civil Rights Network Act, restarts a National Park Service program for civil rights history sites, which expired January 8, 2025, for 7 years. The United States House passed it by voice vote on November 17, 2026."
   title: Renewing the African American Civil Rights Network Act
   does: "Restarts a National Park Service program for civil rights history sites, which expired Jan. 8, 2025, for 7 years."
   affects: "Sites in the network, which can use its logo and get technical support from the Park Service."
-  where: "Approved by the House Natural Resources Committee by unanimous consent. On the House schedule week of Nov. 16."
+  where: "Passed the U.S. House of Representatives by voice vote Nov. 17, 2026. Next: the U.S. Senate."
   summary:
     text: >-
       This bill reauthorizes for seven years the African American Civil Rights Network. The network is a
@@ -37,10 +40,10 @@ bills:
     url: https://api.congress.gov/v3/bill/119/hr/9269/summaries
     retrieved: '2026-11-15'
 slides:
-- kicker: "U.S. House · Week of Nov. 16"
-  say: "213 sites. A national network of civil rights history sites ran out on January 8, 2025. A bill on the House schedule the week of November 16 restarts it."
+- kicker: "U.S. House of Representatives · Nov. 17"
+  say: "213 sites. A national network of civil rights history sites ran out on January 8, 2025. The United States House passed a bill on November 17 to restart it."
   big: "213 sites"
-  head: A national network of civil rights history sites ran out on Jan. 8, 2025. A bill on the House schedule restarts it.
+  head: A national network of civil rights history sites ran out on Jan. 8, 2025. The U.S. House of Representatives passed a bill Nov. 17 to restart it.
 - chip: What it is
   say: "A National Park Service program, created by a 2018 law, links sites tied to the Civil Rights Movement of 1939 to 1968. Among them: Little Rock Central High School, the Martin Luther King Memorial, and the Brown v. Board of Education park in Topeka."
   head: "A National Park Service program, created by a 2018 law, that links sites tied to the Civil Rights Movement of 1939-1968."
@@ -60,15 +63,15 @@ slides:
   head: "The committee had asked for, but not received, a cost estimate from Congress's budget office."
   text: "The report includes no dissenting views. The committee approved the bill with no objection."
 - chip: Where it stands
-  say: "Led by Representatives James Clyburn, Democrat of South Carolina, and Mike Carey, Republican of Ohio, with 5 Democratic and 5 Republican cosponsors. Senator Tim Scott, Republican of South Carolina, leads the Senate version. It needs two-thirds of House members voting. Have you visited one?"
+  say: "Led by Representatives James Clyburn, Democrat of South Carolina, and Mike Carey, Republican of Ohio, with 5 Democratic and 5 Republican cosponsors. The United States House passed it by voice vote on November 17, with no member-by-member tally. Next: the United States Senate."
   head: "Led by Reps. James Clyburn (D-SC) and Mike Carey (R-OH), with 5 Democratic and 5 Republican cosponsors."
-  text: "Sen. Tim Scott (R-SC) leads the Senate version. It needs two-thirds of House members voting to pass. Have you visited one of these sites? Tell us."
+  text: "The U.S. House of Representatives passed it by voice vote Nov. 17, so no member-by-member tally was recorded. Next: the U.S. Senate, where Sen. Tim Scott (R-SC) leads the Senate version. Have you visited one of these sites? Tell us."
 caption: |-
   In 2018, Congress created the African American Civil Rights Network: a National Park Service program that links places tied to the Civil Rights Movement, like Little Rock Central High School and the Brown v. Board of Education park in Topeka. The House committee report counts 213 sites.
 
-  The 2018 law ended the program after seven years, and it expired on Jan. 8, 2025. H.R. 9269, on the House schedule this week, restarts it for seven years from the day it becomes law. Sites in the network can use its logo and get technical help from the Park Service.
+  The 2018 law ended the program after seven years, and it expired on Jan. 8, 2025. H.R. 9269, which the U.S. House of Representatives passed by voice vote on Nov. 17, restarts it for seven years from the day it becomes law. Sites in the network can use its logo and get technical help from the Park Service.
 
-  The committee approved it with no objection. It hadn't received a cost estimate from the Congressional Budget Office when it filed its report.
+  The committee approved it with no objection. It hadn't received a cost estimate from the Congressional Budget Office when it filed its report. Next: the U.S. Senate.
 
   Have you visited one of these sites? Tell us below.
 
@@ -79,4 +82,8 @@ notes: >-
   span and the 2018 law (P.L. 115-104) are from H. Rept. 119-859; the expiry date and logo/technical support
   from the CRS summary. The report has no minority or additional views, so there is no official case against to
   quote, and the post gives none. Congress.gov lists no CBO estimate. Clyburn and Carey as "led by" and their
-  party and state are as the report lists them; cosponsor party counts are from congress.gov.
+  party and state are as the report lists them; cosponsor party counts are from congress.gov. Nov 17 recheck:
+  the Clerk's floor summary for Nov. 17 shows "On motion to suspend the rules and pass the bill, as amended Agreed
+  to by voice vote" (5:19 p.m. ET), so the first slide, last slide, `where` and caption now say it passed by voice
+  vote. Congress.gov's actions hadn't caught up yet when checked. The passed text is the reported version listed on
+  docs.house.gov ("as amended").
