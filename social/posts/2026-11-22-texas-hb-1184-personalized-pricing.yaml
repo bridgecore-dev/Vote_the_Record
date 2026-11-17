@@ -1,0 +1,95 @@
+kind: reel
+level: state
+place: Texas
+topic: Consumers
+approval: review
+rule: Every bill filed Nov. 16, 2026 whose Texas Legislature Online caption is about how retailers set prices (said on
+  the last slide).
+record_ids: [tx/90R/HB 1184/filed]
+publish_after: '2026-11-22T07:30:00-06:00'
+sources:
+- title: TLO, bills filed Nov. 16, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-16
+  retrieved: '2026-11-17'
+- title: TLO, HB 1184 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1184
+  retrieved: '2026-11-17'
+- title: Business & Commerce Code ch. 17
+  url: https://statutes.capitol.texas.gov/Docs/BC/htm/BC.17.htm
+  retrieved: '2026-11-17'
+bills:
+- id: HB 1184
+  does: Would bar stores and online sellers from using personal information to set a price unique to one shopper.
+  affects: Retailers with stores in Texas and online retailers doing business in Texas, and their customers.
+  where: Filed Nov. 16, 2026 by Rep. Salinas; no other action yet.
+  summary:
+    text: >-
+      A person may not use a dynamic pricing model to determine the price of a good or service if the model: (1) uses
+      personal identifying information or other unique qualities of the consumer as an input; and (2) determines a price
+      that is unique to the consumer.
+    title: HB 1184 as filed (Sec. 1, new Business & Commerce Code 125.003(a))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/HB01184I.pdf
+    retrieved: '2026-11-17'
+  say: HB 1184 would bar stores and online sellers from using personal information to set a price unique to one shopper.
+    It was filed November 16 by Representative Salinas, with no other action yet.
+slides:
+- kicker: 2027 Texas session · Filed Nov. 16, 2026
+  big: HB 1184
+  head: A Texas House of Representatives bill would ban prices set just for you from your personal information.
+  say: A Texas House of Representatives bill filed November 16 would ban prices set just for you, from your personal
+    information.
+- chip: The law today
+  head: Texas's consumer protection law lists the trade practices it calls deceptive. Personalized pricing isn't on that list.
+  text: "Deceptive Trade Practices Act, Business & Commerce Code 17.46(b). The bill would add a new chapter, 125, on \"personalized dynamic pricing.\""
+  say: 'The law today: Texas''s consumer protection law lists the trade practices it calls deceptive. Personalized pricing
+    is not on that list. The bill would add a new chapter on it.'
+- chip: What would change
+  head: A seller couldn't use a pricing model that does both of these.
+  rows:
+  - [Input, "Uses personal identifying information or other unique qualities of the shopper"]
+  - [Result, "Sets a price that is unique to that shopper"]
+  text: It covers stores in Texas and online retailers doing business in Texas.
+  say: 'What would change: a seller could not use a pricing model that both uses a shopper''s personal information, and sets
+    a price unique to that shopper. It covers stores in Texas and online retailers doing business here.'
+- chip: Still allowed
+  head: The bill says these stay legal.
+  rows:
+  - [Deals, "Sales, loyalty benefits and discounts offered to many shoppers on the same terms"]
+  - [Costs, "Price differences tied to identifiable costs of providing the service"]
+  - [Store-wide, "Price changes that apply to every customer at a location"]
+  say: 'Still allowed: sales, loyalty benefits and discounts offered to many shoppers on the same terms, price differences
+    tied to identifiable costs, and price changes that apply to every customer at a store.'
+- chip: Enforcement and cost
+  head: A violation would be a deceptive trade practice under Texas law.
+  quote: {label: HB 1184 as filed (new 125.004), text: "A violation of this chapter is a deceptive trade practice under Subchapter E, Chapter 17, and is actionable under that subchapter."}
+  text: No fiscal note (cost estimate) is posted yet.
+  say: A violation would be a deceptive trade practice under Texas law, and could be taken to court under that law. No cost
+    estimate is posted yet.
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, the bill takes effect on this date.
+  text: "How we picked: every bill filed Nov. 16, 2026 whose caption is about how retailers set prices. Should a store be able to price by who you are?"
+  say: If passed as filed, the bill takes effect September 1, 2027. How we picked, every bill filed November 16 about how
+    retailers set prices. Should a store be able to price by who you are?
+caption: |-
+  Today, Texas's consumer protection law lists the trade practices it calls deceptive, and personalized pricing isn't on that list.
+
+  HB 1184, filed in the Texas House of Representatives for the 2027 session, would bar stores and online sellers doing business in Texas from using a pricing model that takes in a shopper's personal identifying information or other unique qualities and sets a price unique to that shopper.
+
+  Sales, loyalty benefits and discounts offered to many shoppers on the same terms would still be allowed, as would price differences tied to identifiable costs and price changes for every customer at a store. A violation would be a deceptive trade practice under Texas law. No cost estimate is posted yet. If passed, it takes effect Sept. 1, 2027.
+
+  Should a store be able to price by who you are?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [txlege, texaslegislature, consumerprotection, prices, votetherecord]
+notes: >-
+  New: filed Nov. 16, 2026; no earlier post covers it. Rule: the Nov. 16 filing report's captions; HB 1184 is the only one
+  about how retailers set prices. Records opened 2026-11-17: the Nov. 16 filing report, the bill history (filed, no other
+  action), the introduced PDF, and Business & Commerce Code ch. 17 (17.46, 17.47, 17.50; rendered from
+  statutes.capitol.texas.gov). "Not on that list" was checked by reading 17.46(b)'s list (the only price item is (11),
+  false statements about price reductions); please confirm. Other Texas laws (e.g. the data privacy act, Business &
+  Commerce Code ch. 541) were not opened, so the post doesn't say personalized pricing is unregulated, only that the
+  DTPA list doesn't name it. "Could be taken to court" restates the bill's "actionable under that subchapter"; who may
+  sue (the consumer protection division under 17.47, or consumers under 17.50) isn't spelled out, so the post doesn't
+  say. No source states who gains or loses money, so the slides give only who is covered and what stays allowed. Takes Nov. 22 7:30 a.m. (Reel; Nov. 21 7:30 p.m. would
+  put two Reels in a row until the Nov. 21 3:00 p.m. post merges).
