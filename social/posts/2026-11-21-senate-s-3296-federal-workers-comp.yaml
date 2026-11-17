@@ -1,0 +1,97 @@
+kind: reel
+level: congress
+topic: Federal workers
+approval: review
+rule: >-
+  Every bill the U.S. Senate passed on Nov. 16, 2026, as listed in the U.S. Senate Press Gallery's wrap-up for that day.
+  Each gets its own post with the same structure (said on the last slide).
+record_ids: ["us/119/S. 3296/senate-passed"]
+publish_after: '2026-11-21T13:30:00-06:00'
+sources:
+- title: "U.S. Senate Press Gallery, Monday, November 16, 2026"
+  url: https://www.dailypress.senate.gov/monday-november-16-2026/
+  retrieved: '2026-11-17'
+- title: "S. 3296, text as passed by the U.S. Senate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119s3296es/html/BILLS-119s3296es.htm
+  retrieved: '2026-11-17'
+- title: "5 U.S.C. 8101, 8103, 8121, 8123 (U.S. Code, 2024 edition, GPO)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title5/html/USCODE-2024-title5-partIII-subpartG-chap81-subchapI-sec8101.htm
+  retrieved: '2026-11-17'
+- title: "Congressional Record, Dec. 2, 2025, Introductory Statement on S. 3296 (S8450-S8451)"
+  url: https://www.govinfo.gov/content/pkg/CREC-2025-12-02/html/CREC-2025-12-02-pt1-PgS8450-2.htm
+  retrieved: '2026-11-17'
+- title: "Congress.gov API, S. 3296 bill record, actions and cosponsors"
+  url: https://api.congress.gov/v3/bill/119/s/3296
+  retrieved: '2026-11-17'
+bills:
+- id: S. 3296
+  title: Improving Access to Workers' Compensation for Injured Federal Workers Act of 2025
+  does: "Would let nurse practitioners and physician assistants order care and sign injury certificates in federal workers' comp."
+  affects: "Federal employees hurt on the job, and the nurse practitioners and physician assistants who treat them."
+  where: "Passed the U.S. Senate by unanimous consent Nov. 16, 2026. Goes to the U.S. House of Representatives next."
+  summary:
+    text: >-
+      AN ACT To amend chapter 81 of title 5, United States Code, to cover, for purposes of workers' compensation under
+      such chapter, services by physician assistants and nurse practitioners provided to injured Federal workers, and for
+      other purposes.
+    title: S. 3296 as passed by the U.S. Senate (no CRS summary posted yet)
+    url: https://www.govinfo.gov/content/pkg/BILLS-119s3296es/html/BILLS-119s3296es.htm
+    retrieved: '2026-11-17'
+  say: S. 3296 would let nurse practitioners and physician assistants order care and sign injury certificates for federal
+    workers hurt on the job. It passed the United States Senate by unanimous consent and goes to the House next.
+slides:
+- kicker: "U.S. Senate · Nov. 16, 2026"
+  big: S. 3296
+  head: "The U.S. Senate passed a bill so federal workers hurt on the job could use a nurse practitioner or physician assistant for workers' comp."
+  say: The United States Senate passed a bill so federal workers hurt on the job could use a nurse practitioner or physician
+    assistant for workers' comp.
+- chip: The law today
+  head: "Federal workers' comp care must be ordered by a \"physician,\" and the claim needs a physician's certificate."
+  text: "The law's list of who counts: surgeons, podiatrists, dentists, clinical psychologists, optometrists, chiropractors and osteopathic practitioners. Nurse practitioners and physician assistants aren't on it."
+  quote: {label: "5 U.S.C. 8121", text: "accompanied by a certificate of the physician of the employee"}
+  say: "The law today: federal workers' comp care must be ordered by a physician, and the claim needs a physician's
+    certificate. Nurse practitioners and physician assistants are not on the law's list of who counts."
+- chip: What would change
+  head: "Nurse practitioners and physician assistants could do what the law now leaves to physicians."
+  rows:
+  - [Care, "Could prescribe or recommend it"]
+  - [Choice, "A worker could pick one as their first provider"]
+  - [Claim, "Could sign the injury certificate"]
+  - [Exams, "A worker could bring one to a required exam"]
+  - [Limit, "Only within what state law lets them do"]
+  text: "The Labor Department would have 6 months to finalize rules."
+  say: "What would change: nurse practitioners and physician assistants could prescribe care, sign the injury certificate,
+    and be a worker's first pick, within what state law allows. The Labor Department would have 6 months to write the rules."
+- chip: Why, and the cost
+  head: "The sponsor, Sen. Susan Collins (R-ME), said injured workers wait to see a physician first, who may be miles away in rural areas."
+  quote: {label: "Sen. Collins, Congressional Record, Dec. 2, 2025", text: "this bill would not increase Federal spending"}
+  text: "She said the Congressional Budget Office found \"an insignificant net effect on direct spending.\" We couldn't open CBO's estimate to check. We found no statement against the bill."
+  say: "Why: the sponsor, Senator Susan Collins, said injured workers must wait to see a physician first, who may be miles away
+    in rural areas. She said the bill would not increase federal spending."
+- chip: What's next
+  head: "Passed the U.S. Senate by unanimous consent. The U.S. House of Representatives would have to pass it too."
+  text: "Sponsor: Sen. Collins (R-ME). Lead cosponsor: Sen. Richard Blumenthal (D-CT). How we picked: every bill the U.S. Senate passed Nov. 16, 2026; each gets its own post. Should workers' comp follow state scope-of-practice rules?"
+  say: "It passed the United States Senate by unanimous consent. The House would have to pass it too. How we picked: every
+    bill the Senate passed November 16, each in its own post. Should workers' comp follow state rules on who can treat you?"
+caption: |-
+  Today, a federal worker hurt on the job gets workers' comp care that a "physician" orders, and the claim comes with a physician's certificate. The law's list of who counts as a physician doesn't include nurse practitioners or physician assistants.
+
+  S. 3296, which passed the U.S. Senate by unanimous consent on Nov. 16, 2026, would change that. Nurse practitioners and physician assistants could prescribe care and sign the injury certificate, within what state law lets them do.
+
+  The sponsor, Sen. Susan Collins (R-ME), said injured workers in rural areas wait to see a physician first, and that the Congressional Budget Office found "an insignificant net effect on direct spending." The U.S. House of Representatives would have to pass it too.
+
+  Should workers' comp follow state rules on who can treat you?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, ussenate, federalemployees, workerscomp, votetherecord]
+notes: >-
+  New: the Senate Press Gallery's Nov. 16 wrap-up lists S. 3296 "passed by unanimous consent"; GovInfo has the
+  engrossed text ("Passed the Senate November 16, 2026"); congress.gov's actions don't show the passage yet. Same rule
+  as the Nov. 19 H.R. 2302 story (that post's notes leave H.R. 7834 for the owner's call on wording). No CRS summary
+  exists, so the bill's summary quotes the engrossed long title. "Today" is the 2024 U.S. Code edition (8101(2) list,
+  8103(a) "prescribed or recommended by a qualified physician", 8121(6) certificate, 8123(a) exams), and the bill amends
+  each of those places. "Why" and the CBO line are Sen. Collins's words in her introductory statement; cbo.gov returned
+  403 (CBO estimate: cbo.gov/publication/62726, as ordered reported Aug. 6, 2026), so its numbers aren't on a slide.
+  Who loses isn't stated in any source opened; the slide says we found no statement against it (unanimous consent).
+  Sponsor and cosponsor parties as congress.gov lists them (10 cosponsors: 8 D, 2 R; not on a slide). Takes the free
+  Nov. 21 1:30 p.m. Reel slot (after the 9:00 a.m. post).
