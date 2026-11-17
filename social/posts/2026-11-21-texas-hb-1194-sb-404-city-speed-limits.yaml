@@ -1,0 +1,93 @@
+kind: carousel
+level: state
+place: Texas
+topic: Safety
+approval: review
+rule: Every bill filed Nov. 17, 2026 whose Texas Legislature Online caption is about speed limits (said on the last slide).
+record_ids: [tx/90R/HB 1194/filed, tx/90R/SB 404/filed]
+publish_after: '2026-11-21T21:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 17, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-17
+  retrieved: '2026-11-17'
+- title: Texas Legislature Online, HB 1194 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1194
+  retrieved: '2026-11-17'
+- title: Texas Legislature Online, SB 404 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB404
+  retrieved: '2026-11-17'
+- title: Texas Transportation Code, Sec. 545.352 and 545.356
+  url: https://statutes.capitol.texas.gov/Docs/TN/htm/TN.545.htm
+  retrieved: '2026-11-17'
+- title: Texas Transportation Code, Sec. 541.102
+  url: https://statutes.capitol.texas.gov/Docs/TN/htm/TN.541.htm
+  retrieved: '2026-11-17'
+bills:
+- id: HB 1194
+  does: Would let Texas cities lower speed limits on some neighborhood streets to 20 mph, down from today's 25 mph floor.
+  affects: Cities, and people who drive, walk or bike on two-lane, undivided city streets off the state highway system.
+  where: Filed Nov. 17, 2026 by Rep. Anchía; no other action yet.
+  summary:
+    text: >-
+      may declare a lower speed limit of not less than 20 miles per hour, if the governing body determines that the
+      prima facie speed limit on the highway is unreasonable or unsafe. A municipality is not required to perform an
+      engineering or traffic investigation to declare a lower speed limit
+    title: HB 1194 as filed, Sec. 1 (Transportation Code 545.356(b-1) as amended)
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01194I.htm
+    retrieved: '2026-11-17'
+- id: SB 404
+  does: Same text as HB 1194, per Texas Legislature Online; a 20 mph floor for city-set limits on some neighborhood streets.
+  affects: Cities, and people who drive, walk or bike on two-lane, undivided city streets off the state highway system.
+  where: Filed Nov. 17, 2026 by Sen. Molly Cook; no other action yet.
+  summary:
+    text: "Companion: HB 1194 by Anchía, Identical"
+    title: Texas Legislature Online, SB 404 history (bill text not posted yet)
+    url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB404
+    retrieved: '2026-11-17'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 17, 2026
+  big: 25 → 20 mph
+  head: Two bills would let Texas cities set speed limits as low as 20 mph on some neighborhood streets.
+  text: HB 1194 in the Texas House of Representatives and SB 404 in the Texas Senate.
+- chip: Word for word
+  head: HB 1194 and SB 404 are listed as identical.
+  text: "Texas Legislature Online lists each as the other's \"Identical\" companion, and both are the same Texas Legislative Council draft (90R 3284). Rep. Anchía filed HB 1194; Sen. Molly Cook filed SB 404."
+- chip: The law today
+  big: 25 mph
+  head: A city council can lower the limit on a two-lane, undivided city street, but not below 25 mph.
+  quote: {label: "Transportation Code 545.356(b-1), today", text: "may declare a lower speed limit of not less than 25 miles per hour, if the governing body determines that the prima facie speed limit on the highway is unreasonable or unsafe."}
+  text: "Streets on the state highway system aren't covered. The usual city-street limit is 30 mph (545.352)."
+- chip: Before → after
+  head: What the bills would change
+  rows:
+  - [Lowest limit, "25 mph today → 20 mph"]
+  - [Study, "None required on a street in a residence district (mostly homes along the road)"]
+  - [Signs, "At least one at an entrance to the district, not at each end of each block"]
+  - [Yearly report, "Cities now post ticket and crash counts for these streets each year; the bills drop that"]
+  text: The one-lane-road rule for towns of 2,000 or fewer, and its report, stay as they are.
+- chip: Who it affects
+  head: Cities would get the choice; none would have to lower a limit.
+  text: "Where a city lowers one, drivers there would have a lower limit, and the public would no longer get the yearly ticket and crash report for that street. No fiscal note (cost estimate) is posted yet."
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, the bills take effect on this date.
+  text: "How we picked: every bill filed Nov. 17, 2026 whose caption is about speed limits. Should your city be able to set 20 mph on your street?"
+caption: |-
+  Today, a Texas city council can lower the speed limit on a two-lane, undivided city street if it finds the limit unsafe, but not below 25 mph. Cities that do it post a yearly count of tickets and speed-related crashes on those streets.
+
+  HB 1194 (Texas House of Representatives) and SB 404 (Texas Senate), filed Nov. 17 for the 2027 session and listed as identical, would lower that floor to 20 mph. No engineering or traffic study would be needed on a street in a residence district, signs would be needed at an entrance to the district rather than at each end of each block, and the yearly report for these streets would end.
+
+  No cost estimate is posted yet. If passed, they take effect Sept. 1, 2027. Should cities be able to set 20 mph?
+hashtags: [txlege, texaslegislature, speedlimits, traffic, votetherecord]
+notes: >-
+  New: filed Nov. 17, 2026; no earlier post covers either bill. Rule: the Nov. 17 filing report's captions; HB 1194 and
+  SB 404 are the only two about speed limits. Twins: SB 404's text isn't on TLO yet, so "identical" rests on both TLO
+  histories ("Companion: ... Identical") and the shared council document 90R 3284 JAM-F; SB 404's summary quotes its
+  history page. Please compare SB 404's text once posted. Records opened 2026-11-17: the Nov. 17 filing report, both
+  histories (filed, no other action; no fiscal note), HB 1194's introduced HTML (underlines and brackets read as
+  added and struck text), and Transportation Code 541.102 and ch. 545 (rendered from statutes.capitol.texas.gov).
+  (b-1) applies only to two-lane, undivided streets ((b-2), not amended). Current (b-1) already needs only the
+  council's finding, not a study; the bill adds the explicit no-study line for residence districts, so the slide says
+  "none required" without claiming one is required today. The report change: the bill strikes "(b-1) or" from (d).
+  No source says who gains or loses money, so the slides say only who gets the choice and what ends. Takes Nov. 21
+  9:00 p.m. (post after the 7:30 p.m. Reel), the first free feed-post slot.
