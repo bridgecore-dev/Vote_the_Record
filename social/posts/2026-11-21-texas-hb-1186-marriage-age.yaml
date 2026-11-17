@@ -1,0 +1,85 @@
+kind: carousel
+level: state
+place: Texas
+topic: Family law
+approval: review
+rule: Every bill filed Nov. 16, 2026 whose Texas Legislature Online caption is about the age at which a person may marry
+  (said on the last slide).
+record_ids: [tx/90R/HB 1186/filed]
+publish_after: '2026-11-21T15:00:00-06:00'
+sources:
+- title: TLO, bills filed Nov. 16, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-16
+  retrieved: '2026-11-17'
+- title: TLO, HB 1186 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1186
+  retrieved: '2026-11-17'
+- title: Family Code ch. 2 (2.003, 2.101)
+  url: https://statutes.capitol.texas.gov/Docs/FA/htm/FA.2.htm
+  retrieved: '2026-11-17'
+- title: Family Code ch. 6 (6.205)
+  url: https://statutes.capitol.texas.gov/Docs/FA/htm/FA.6.htm
+  retrieved: '2026-11-17'
+- title: Family Code ch. 31 (31.001)
+  url: https://statutes.capitol.texas.gov/Docs/FA/htm/FA.31.htm
+  retrieved: '2026-11-17'
+bills:
+- id: HB 1186
+  does: Would end the court-order exception, so no one under 18 could get a Texas marriage license or be validly married.
+  affects: People under 18, including minors a court has declared adults (emancipated), and minors in void marriages.
+  where: Filed Nov. 16, 2026 by Rep. Wooten; no other action yet.
+  summary:
+    text: >-
+      A county clerk may not issue a marriage license if either applicant is under 18 years of age, regardless of whether
+      the underage applicant has been granted by this state or another state a court order removing the disabilities of
+      minority of the applicant for general purposes.
+    title: HB 1186 as filed (Sec. 2, Family Code 2.101)
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/HB01186I.pdf
+    retrieved: '2026-11-17'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 16, 2026
+  big: HB 1186
+  head: A Texas House of Representatives bill would make 18 the minimum age to marry in Texas, with no exceptions.
+- chip: The law today
+  big: '18'
+  head: Today, Texas sets 18 as the marriage age, with one exception.
+  quote: {label: Family Code 2.101, text: "unless each underage applicant shows that the applicant has been granted by this state or another state a court order removing the disabilities of minority of the applicant for general purposes"}
+  text: That court order (emancipation) treats a minor as an adult. A Texas minor can ask for one at 17, or at 16 if living apart from their parents, and must be self-supporting (Family Code 31.001).
+- chip: What would change
+  head: The court-order exception would end for marriage.
+  rows:
+  - [License, "A county clerk could not issue one to anyone under 18, even with a court order"]
+  - [Marriage, "A marriage with a party under 18 would be void, even with a court order"]
+  - [Other states, "Orders from other states wouldn't count either"]
+  text: The bill also repeals Family Code 2.003, the section on license applications by minors.
+- chip: Who gains, who loses
+  head: Minors a court has declared adults would lose the option to marry. A minor in a void marriage would gain a way to ask for property and support.
+  quote: {label: HB 1186 as filed (Sec. 3, new 6.205(b)), text: "may seek division of property under Chapter 7 and spousal maintenance under Chapter 8 in the same manner as a party to a suit for dissolution of a marriage"}
+- chip: Who pays
+  head: The bill sets no new fee or spending.
+  text: No fiscal note (cost estimate) is posted yet. The changes apply only to license applications filed and marriages entered into on or after the date it takes effect.
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, the bill takes effect on this date.
+  text: "How we picked: every bill filed Nov. 16, 2026 whose caption is about the age at which a person may marry. Should a court order still be enough for someone under 18 to marry?"
+caption: |-
+  Today, Texas sets 18 as the age to marry, with one exception: a minor a court has declared an adult (an emancipation order) can get a license, and that marriage is valid.
+
+  HB 1186, filed in the Texas House of Representatives for the 2027 session, would end that exception. No one under 18 could get a marriage license, and a marriage with a party under 18 would be void, with or without a court order from Texas or another state. A minor in a void marriage could ask a court to divide property and order spousal maintenance, as in a divorce.
+
+  The bill sets no new fee or spending; no cost estimate is posted yet. It would apply only to marriages after it takes effect, Sept. 1, 2027, if passed.
+
+  Should a court order still be enough for someone under 18 to marry?
+hashtags: [txlege, texaslegislature, familylaw, marriage, votetherecord]
+notes: >-
+  New: filed Nov. 16, 2026; no earlier post covers it. Rule: the Nov. 16 filing report's captions; HB 1186 is the only
+  one about marriage age. Records opened 2026-11-17: the Nov. 16 filing report, the bill history (filed, no other action;
+  the Text page links no fiscal note), the introduced PDF (the HTML says "not currently available"), and Family Code
+  2.003, 2.101, 6.205, 31.001 and 31.006 (rendered from statutes.capitol.texas.gov). Please check: the TLO PDF shows
+  "By: Wooten H.B. No. 1186" but also an older header, "By: Rosenthal, Johnson, Hayes, Orr, et al. H.B. No. 168" and
+  "As Received" on page 2 (it looks like a refiled earlier bill); the slides rest only on the bill's text, and the
+  author is Wooten as the history lists it. "Who loses" restates the bill's effect on minors with general emancipation
+  orders (31.001's ages and self-support test); the sources don't give how many such marriages happen, so no number is
+  given. "Sets no new fee or spending" restates the text, which has none. Today's Family Code doesn't say whether a minor
+  in a void marriage can seek property division; the slide only says the bill adds that right. Takes Nov. 21 3:00 p.m.
+  (post, after the 1:30 p.m. Reel), which leaves 7:30 p.m. (Reel) and 9:00 p.m. (post) open.
