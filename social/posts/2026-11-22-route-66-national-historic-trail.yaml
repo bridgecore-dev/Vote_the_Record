@@ -1,0 +1,105 @@
+kind: reel
+level: congress
+topic: History and parks
+approval: review
+rule: >-
+  Every Senate-passed bill in the Senate message the Clerk of the U.S. House of Representatives announced on
+  Nov. 17, 2026 (S. 432, S. 1353, S. 2887, S. 3493 and H.R. 2400) that no earlier post covers. Each gets its own
+  post with the same structure (said on the last slide).
+record_ids: ["us/119/S. 2887/senate-passed"]
+publish_after: '2026-11-22T19:30:00-06:00'
+sources:
+- title: "S. 2887 as passed"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119s2887es/html/BILLS-119s2887es.htm
+  retrieved: '2026-11-17'
+- title: "16 U.S.C. 1242 (2024 ed.)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title16/html/USCODE-2024-title16-chap27-sec1242.htm
+  retrieved: '2026-11-17'
+- title: "16 U.S.C. 1244 (2024 ed.)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title16/html/USCODE-2024-title16-chap27-sec1244.htm
+  retrieved: '2026-11-17'
+- title: "National Park Service testimony, July 21, 2026"
+  url: https://www.energy.senate.gov/wp-content/uploads/meetings/EFA9ADA9-2EEA-4A16-930D-C5BF00A74463/Cuvelier%20Testimony%207-21-26%20SENR%20Cmte%20NP%20Subcmte%20Hrg.pdf
+  retrieved: '2026-11-17'
+- title: "House Floor Activities, Nov. 17, 2026"
+  url: https://clerk.house.gov/floor/20261117.xml
+  retrieved: '2026-11-17'
+- title: "Congress.gov, S. 2887"
+  url: https://api.congress.gov/v3/bill/119/s/2887/actions
+  retrieved: '2026-11-17'
+bills:
+- id: S. 2887
+  title: Route 66 National Historic Trail Designation Act
+  does: "Would make every 1926-1985 route of U.S. Highway 66, Chicago to Santa Monica, a national historic trail."
+  affects: "Towns and landowners along the route. No eminent domain, buffer zone or new permits."
+  where: "Passed the U.S. Senate by unanimous consent Nov. 12, 2026. Goes to the U.S. House of Representatives next."
+  summary:
+    text: >-
+      The Route 66 National Historic Trail, a trail that includes all the alignments of U.S. Highway 66 in existence
+      between 1926 and 1985, extending along a route of approximately 2,400 miles from Chicago, Illinois, to Santa
+      Monica, California
+    title: S. 2887 as passed, Sec. 2 (no CRS summary yet)
+    url: https://www.govinfo.gov/content/pkg/BILLS-119s2887es/html/BILLS-119s2887es.htm
+    retrieved: '2026-11-17'
+  say: "S. 2887 would make every route of U.S. Highway 66 from 1926 to 1985, Chicago to Santa Monica, a national
+    historic trail. It passed the United States Senate by unanimous consent and goes to the House next."
+slides:
+- kicker: "U.S. Senate · Nov. 12, 2026"
+  big: "2,400 miles"
+  head: "The U.S. Senate passed a bill to make Route 66, about 2,400 miles from Chicago to Santa Monica, a national historic trail."
+  say: "2,400 miles. The United States Senate passed a bill to make Route 66, from Chicago to Santa Monica, a national
+    historic trail."
+- chip: The law today
+  head: "Only Congress can name a national historic trail. The Oregon, Santa Fe and Selma to Montgomery trails are on the list. Route 66 isn't."
+  quote: {label: "16 U.S.C. 1244(a)", text: "shall be authorized and designated only by Act of Congress"}
+  text: "The law says these trails exist for \"the identification and protection of the historic route\" for the public."
+  say: "The law today: only Congress can name a national historic trail. The Oregon, Santa Fe, and Selma to Montgomery
+    trails are on the list. Route 66 is not. The trails exist to identify and protect the historic route for the public."
+- chip: What would change
+  head: "Every route U.S. Highway 66 took from 1926 to 1985 would become a trail run by the Interior Department."
+  rows:
+  - [Land, "Outside federal areas, bought only with the owner's consent"]
+  - [Width, "Land bought: within an average of 1/4 mile each side"]
+  - [Eminent domain, "Not allowed"]
+  - [Buffer zone, "None: nearby uses aren't limited by the trail"]
+  - [Permits, "No new federal permits because of the trail"]
+  - [Energy, "Can't hinder energy production or transmission"]
+  - [Tribes, "Interior must consult affected Tribes first"]
+  say: "What would change: every route U.S. Highway 66 took from 1926 to 1985 would become a trail run by the Interior
+    Department. Land is bought only from willing owners outside federal areas. No eminent domain, no buffer zone, no new
+    permits."
+- chip: Why, and the cost
+  head: "The National Park Service supported the bill and told senators it would cost nothing extra."
+  quote: {label: "National Park Service, July 21, 2026", text: "would not require additional federal funding or resources"}
+  text: "The Park Service already runs a Route 66 Corridor Preservation Program, which it says Congress set up in 1999. The committee filed no written report, and we found no statement against the bill."
+  say: "Why, and the cost: the National Park Service supported the bill and told senators it would not require additional
+    federal funding. It already runs a Route 66 program it says Congress set up in 1999. We found no statement against it."
+- chip: What's next
+  head: "Passed the U.S. Senate by unanimous consent. The U.S. House of Representatives would have to pass it too."
+  text: "Sponsor: Sen. Ted Cruz (R-TX). Cosponsors: Sens. Duckworth (D-IL), Padilla (D-CA), Schmitt (R-MO), Kelly (D-AZ), Luján (D-NM). How we picked: every Senate-passed bill announced in the U.S. House on Nov. 17, 2026, not yet covered, each in its own post. Have you driven any of Route 66?"
+  say: "It passed the United States Senate by unanimous consent. The House would have to pass it too. How we picked: every
+    Senate-passed bill announced in the House on November 17, each in its own post. Have you driven any of Route 66?"
+caption: |-
+  Route 66 ran about 2,400 miles from Chicago to Santa Monica. Federal law names national historic trails one by one, like the Oregon and Santa Fe trails, and only Congress can add one. Route 66 isn't on the list today.
+
+  S. 2887, which passed the U.S. Senate by unanimous consent on Nov. 12, 2026, would add every route U.S. Highway 66 took from 1926 to 1985, run by the Interior Department. Outside federal areas, land could be bought only with the owner's consent. No eminent domain, no buffer zone, no new permits, and the trail can't hinder energy production or transmission.
+
+  The National Park Service supported it and said trail status "would not require additional federal funding or resources." The U.S. House of Representatives would have to pass it too.
+
+  Have you driven any of Route 66?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, ussenate, route66, nationalparks, votetherecord]
+notes: >-
+  New: no post covers S. 2887. Congress.gov actions: passed the Senate without amendment by unanimous consent Nov. 12
+  (CR S5668), message to the House Nov. 16; the Clerk's Nov. 17 floor summary announces it. No CRS summary exists, so the
+  bill's summary quotes Sec. 2 of the engrossed text. "The law today" is the 2024 U.S. Code: 1244(a) "only by Act of
+  Congress" and its list (Oregon, Santa Fe, Selma to Montgomery; no Route 66), and 1242(a)(3) for the purpose. Every row
+  on "What would change" restates the bill's new paragraph (33)(C)-(I); "within an average of 1/4 mile each side"
+  restates the limit in (D)(ii). The 1999 program and "would not require additional federal funding or resources" are
+  from the NPS testimony (Cuvelier, July 21, 2026; PDF sha256 bf3efe64f08cd1d42ddd9dcb22dd57e551fbc113a0b30de2b2d91da2b2ae22de);
+  the 1999 date is NPS's statement, not checked against the 1999 law. cbo.gov returned 403 (not retried), so no CBO
+  figure; the committee reported it "without written report". Who loses isn't stated in any source opened; the slide
+  says we found no statement against it. Sponsor and cosponsor parties as congress.gov lists them. Takes the free
+  Nov. 22 7:30 p.m. Reel slot (after the 3:00 p.m. post). S. 432, S. 1353 and S. 3493 are left for later runs under
+  the same rule (H.R. 2400 was covered Nov. 16).
