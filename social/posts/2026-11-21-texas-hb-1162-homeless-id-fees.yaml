@@ -8,16 +8,16 @@ rule: Every bill filed Nov. 16, 2026 that would waive a state fee for a group of
 record_ids: [tx/90R/HB 1162/filed]
 publish_after: '2026-11-21T07:30:00-06:00'
 sources:
-- title: Texas Legislature Online, Bills By Filing Date, Nov. 16, 2026
+- title: TLO, bills filed Nov. 16, 2026
   url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-16
   retrieved: '2026-11-17'
-- title: Texas Legislature Online, HB 1162 bill history (90th Legislature)
+- title: TLO, HB 1162 history
   url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1162
   retrieved: '2026-11-17'
-- title: Texas Health and Safety Code, Sec. 191.0049 (birth record for a foster or homeless child or youth)
+- title: Health and Safety Code 191.0049
   url: https://statutes.capitol.texas.gov/Docs/HS/htm/HS.191.htm
   retrieved: '2026-11-17'
-- title: Texas Transportation Code, Secs. 521.1015, 521.1811, 521.422 and 521.4265 (ID fees and fee waivers)
+- title: Transportation Code ch. 521
   url: https://statutes.capitol.texas.gov/Docs/TN/htm/TN.521.htm
   retrieved: '2026-11-17'
 bills:
@@ -29,7 +29,7 @@ bills:
     text: >-
       On request of a homeless individual, the state registrar, a local registrar, or a county clerk shall issue, without
       fee, a certified copy of the individual's birth record to the individual.
-    title: HB 1162 as filed, Sec. 1 (new Health and Safety Code 191.00495(b))
+    title: HB 1162 as filed (Sec. 1)
     url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01162I.htm
     retrieved: '2026-11-17'
   say: HB 1162 would make birth certificates, driver's licenses and state ID cards free for people who are homeless, without
@@ -90,4 +90,4 @@ notes: >-
   donations on license applications (521.008); the bill adds 521.184 to the waivers paid from it and to the "no money, no
   exemption" rule in (c)(2). The bill's birth-record waiver has no funding source, so "doesn't replace them" restates that
   it adds none. Today's ID waivers also cover victims of dating or family violence (521.1016, 521.1811), hence "a few groups, including". The no-address rule for licenses and IDs (new 521.184(d)) applies "to the extent permitted under federal law". The driver's-license fee is left off because it varies by license type. Rep. Bhojani as TLO lists the
-  author, no party shown, the same as other Texas filing posts. Takes Nov. 21 7:30 a.m. (Reel, before the 9:00 a.m. HB 1175 post).
+  author, no party shown, the same as other Texas filing posts. Takes Nov. 21 7:30 a.m. (Reel, before the 9:00 a.m. HB 1175 post). Nov 17 fix: shortened source titles so the cover's source footer fits (the first preview clipped it).
