@@ -1,0 +1,64 @@
+kind: story
+level: congress
+topic: Air travel
+approval: review
+highlight: Safety
+found_via: owner idea A4MjA5ODg5OTU4Mjk3NgZDZD
+record_ids: [us/faa/2026/nationwide-ground-stop/2026-11-13]
+publish_after: '2026-11-20T20:15:00-06:00'
+sources:
+- title: "Federal Aviation Administration, Nationwide Ground Stop: Questions and Answers (Nov. 15, 2026)"
+  url: https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers
+  retrieved: '2026-11-17'
+- title: "Electronic Code of Federal Regulations, 14 CFR 260.6, Refunding fare for flights cancelled or significantly delayed or changed by carriers"
+  url: https://www.ecfr.gov/api/versioner/v1/full/2026-11-13/title-14.xml?part=260&section=260.6
+  retrieved: '2026-11-17'
+- title: "Electronic Code of Federal Regulations, 14 CFR 260.2, Definitions"
+  url: https://www.ecfr.gov/api/versioner/v1/full/2026-11-13/title-14.xml?part=260&section=260.2
+  retrieved: '2026-11-17'
+slides:
+- kicker: "FAA · Friday, Nov. 13, 2026"
+  big: "12,462"
+  head: "Flights canceled across the U.S. the day the FAA stopped departures nationwide, the FAA says."
+  text: "The FAA says not all of those cancellations were directly caused by the ground stop."
+- kicker: What the FAA says happened
+  head: "Departing flights were held on the ground until evening."
+  rows:
+  - [Stopped, "About 3:30 p.m. Eastern"]
+  - [Resumed, "8:15 p.m. Eastern"]
+  - [Affected, "17 of 22 en-route air traffic control centers"]
+  - [In the air, "About 3,500 planes, all landed safely"]
+  - ["Cyberattack?", "FAA: no indication of one"]
+- kicker: Why, so far
+  head: "A flood of data made old network equipment unstable."
+  text: "The FAA's first look points to two sites: a radar site in Amarillo, Texas, and a radio site in El Dorado, Arkansas, where L3Harris, its network service provider, had been doing work that included a new router. The FAA and L3Harris are still looking for the root cause."
+  quote: {label: Federal Aviation Administration, text: "based on what happened Friday, we will reevaluate when we do replacement/maintenance work."}
+- kicker: Your flight was canceled?
+  head: "If you didn't take a new flight or a voucher, the airline owes you a full refund."
+  text: "That's a federal rule for flights to, from or within the U.S., even on nonrefundable tickets. It's due within 7 business days on a credit card, 20 calendar days otherwise."
+  quote: {label: "14 CFR 260.6", text: "a full and prompt refund of the airfare, including any taxes and ancillary fees"}
+- kicker: What the FAA says it changed
+  head: "It turned off the same router function on about 60 similar routers, as a precaution."
+  text: "What would you ask the FAA about Nov. 13?"
+caption: |-
+  On Friday, Nov. 13, the FAA stopped departing flights nationwide at about 3:30 p.m. Eastern. Flights resumed at 8:15 p.m. The FAA says operators canceled about 12,462 flights that day, though not all were directly caused by the stop.
+
+  The FAA says data flooded its telecom network and made old equipment unstable at 17 of its 22 en-route control centers. Its first look points to a radar site in Amarillo, Texas, and a radio site in El Dorado, Arkansas, where L3Harris, the FAA's network service provider, had been doing work that included a new router. The FAA says it found no sign of a cyberattack, and it and L3Harris are still looking for the root cause.
+
+  If your flight was canceled and you didn't take a new flight or a voucher, federal rules say the airline owes you a full refund of the fare, taxes and fees: within 7 business days on a credit card, 20 calendar days otherwise.
+
+  As a precaution, the FAA says it turned off the same router function on about 60 similar routers. What would you ask the FAA about Nov. 13?
+hashtags: [faa, airtravel, flightcancellations, votetherecord]
+notes: >-
+  Owner idea (note only). Fills the empty Nov. 20 story slot (every Nov. 17-19 slot is taken). All ground-stop facts
+  are from the FAA's Nov. 15 Q&A, opened this run: "approximately 3:30 p.m. ET", "resumed as of 8:15 p.m.", "17 of
+  our 22 Air Route Traffic Control Centers" ("en-route control centers" is our plain wording), "Approximately 3,500
+  aircraft safely landed", "approximately 12,462 flights ... While not all cancellations were directly caused by the
+  nationwide ground stop", "no indication that this was a cyberattack", the Amarillo and El Dorado sites as the
+  "initial investigation indicates", and "The FAA and L3Harris continue to investigate the root cause". The FAA page
+  also says its modernization work didn't cause this and credits a "Working Families Tax Cuts" down payment; that
+  part is left out (a name for a law, and a claim about a cause we can't check). News reports quote Secretary Duffy
+  asking Congress for more money; no official statement or hearing notice was found, so nothing about Congress's
+  response is on a slide. Refund facts are from 14 CFR 260.6(a) and the "prompt refund" definition in 260.2,
+  opened through the eCFR API (the eCFR web page and transportation.gov returned blocks). Slide 5's "about 60 similar
+  routers" is the FAA's "approximately 60".
