@@ -5,25 +5,25 @@ approval: review
 record_ids: ["us/119/H.R. 2347/sa-6883-proposed"]
 publish_after: '2026-11-19T16:30:00-06:00'
 sources:
-- title: "Congressional Record, Nov. 10, 2026: text of SA 6883"
+- title: "Cong. Record, Nov. 10 (SA 6883)"
   url: https://www.govinfo.gov/content/pkg/CREC-2026-11-10/html/CREC-2026-11-10-pt1-PgS5417.htm
   retrieved: '2026-11-17'
-- title: "33 U.S.C. 1342 (GPO, 2023 ed.)"
+- title: "33 U.S.C. 1342 (2023 ed.)"
   url: https://www.govinfo.gov/content/pkg/USCODE-2023-title33/html/USCODE-2023-title33-chap26-subchapIV-sec1342.htm
   retrieved: '2026-11-17'
-- title: "16 U.S.C. 1536 (GPO, 2023 ed.)"
+- title: "16 U.S.C. 1536 (2023 ed.)"
   url: https://www.govinfo.gov/content/pkg/USCODE-2023-title16/html/USCODE-2023-title16-chap35-sec1536.htm
   retrieved: '2026-11-17'
-- title: "Bill status of H.R. 2347 (GPO)"
+- title: "H.R. 2347 bill status (GPO)"
   url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr2347.xml
   retrieved: '2026-11-17'
-- title: "U.S. Senate, Roll Call Vote 264 (2026)"
+- title: "U.S. Senate, Vote 264 (2026)"
   url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00264.xml
   retrieved: '2026-11-17'
-- title: "Senate EPW Committee, Capito floor remarks, Nov. 9, 2026"
+- title: "Capito floor remarks, Nov. 9"
   url: https://www.epw.senate.gov/public/index.cfm/2026/11/senate-advances-capito-s-bipartisan-american-affordability-and-jobs-act
   retrieved: '2026-11-17'
-- title: "Sen. Blunt Rochester, statement, Nov. 9, 2026"
+- title: "Blunt Rochester statement, Nov. 9"
   url: https://www.bluntrochester.senate.gov/news/press-releases/statement-senator-blunt-rochester-opposes-senate-permitting-reform-bill/
   retrieved: '2026-11-17'
 bills:
@@ -109,4 +109,5 @@ notes: >-
   period occurs after enactment. Who gains/loses isn't stated beyond the text (sec. 2107's finding names residential
   customers). cbo.gov returned 403: CBO letter linked, not quoted. Capito and Blunt Rochester spoke Nov. 9 about the
   same bill; Blunt Rochester voted Nay on vote 264. CHECK BEFORE IT POSTS: if the Senate has adopted the substitute
-  or passed the bill, update "where" and the last slide from senate.gov.
+  or passed the bill, update "where" and the last slide from senate.gov. Nov 17 fix: shortened source titles so the
+  cover's source footer fits (the first preview clipped it).
