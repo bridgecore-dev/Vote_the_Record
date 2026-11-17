@@ -1,0 +1,92 @@
+kind: carousel
+level: state
+place: Texas
+topic: Schools
+approval: review
+rule: Every bill filed Nov. 17, 2026 whose Texas Legislature Online caption is about the basic allotment, the
+  per-student base amount in Texas school funding, with its word-for-word duplicate (said on the last slide).
+record_ids: [tx/90R/HB 1195/filed, tx/90R/HB 178/filed]
+publish_after: '2026-11-22T09:00:00-06:00'
+sources:
+- title: TLO, bills filed Nov. 17, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-17
+  retrieved: '2026-11-17'
+- title: TLO, HB 1195 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1195
+  retrieved: '2026-11-17'
+- title: TLO, HB 178 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB178
+  retrieved: '2026-11-17'
+- title: Education Code ch. 48
+  url: https://statutes.capitol.texas.gov/Docs/ED/htm/ED.48.htm
+  retrieved: '2026-11-17'
+bills:
+- id: HB 1195
+  title: Basic allotment and guaranteed yield
+  does: Would raise the per-student base amount in the state's school funding formula from $6,160 to $7,500, then add inflation yearly.
+  affects: Texas public school districts, which are funded per student in average daily attendance.
+  where: Filed Nov. 17, 2026 by Rep. Garcia Hernandez; no other action yet.
+  summary:
+    text: >-
+      Beginning with the 2028-2029 school year, the basic allotment provided to a district under Subsection (a) or (b)
+      is adjusted annually to increase the allotment by the amount that results from applying the inflation rate, as
+      determined by the comptroller
+    title: HB 1195 as filed, Sec. 1 (new Education Code 48.051(a-1))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01195I.htm
+    retrieved: '2026-11-17'
+- id: HB 178
+  title: Basic allotment and guaranteed yield
+  does: Same text as HB 1195. Would raise the school funding base amount from $6,160 to $7,500 per student, plus yearly inflation.
+  affects: Texas public school districts, which are funded per student in average daily attendance.
+  where: Filed Nov. 9, 2026 by Rep. Howard; no other action yet.
+  summary:
+    text: >-
+      Beginning with the 2028-2029 school year, the basic allotment provided to a district under Subsection (a) or (b)
+      is adjusted annually to increase the allotment by the amount that results from applying the inflation rate, as
+      determined by the comptroller
+    title: HB 178 as filed, Sec. 1 (new Education Code 48.051(a-1))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB00178I.htm
+    retrieved: '2026-11-17'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 9 and Nov. 17, 2026
+  big: $7,500
+  head: Two Texas House of Representatives bills would raise the base amount the state's formula gives schools per student, from $6,160 to $7,500.
+- chip: Two bills, one text
+  head: HB 1195 and HB 178 are word for word the same.
+  text: Both come from the same Texas Legislative Council draft (90R 2662). Texas Legislature Online lists each as the other's duplicate.
+- chip: The law today
+  big: $6,160
+  head: The basic allotment is $6,160 per student in average daily attendance, plus a small adjustment.
+  text: "Education Code 48.051. The adjustment (the \"guaranteed yield increment adjustment\") is set at $55 a year through Sept. 1, 2027 (48.2561). A district taxing below its maximum compressed rate gets a proportionally smaller amount. The law sets no automatic raise for inflation; the Legislature can provide more through the budget."
+- chip: What would change
+  head: The base amount would rise, and then grow with prices every year.
+  rows:
+  - [Base, "$6,160 becomes $7,500 in both versions of the formula"]
+  - [Inflation, "From the 2028-29 school year, the amount rises each year by the inflation rate (the CPI for all urban consumers), as the state comptroller determines it"]
+  - [Unchanged, "The adjustment and the tax-rate rule stay the same"]
+- chip: Who gains, who pays
+  head: School districts would get more per student. The state's school funding formula would cost more.
+  text: "The bills don't say how the increase would be paid for, and no fiscal note (cost estimate) is posted yet. The basic allotment is the starting point for most other per-student funding in the formula."
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, the change takes effect on this date.
+  text: "How we picked: every bill filed Nov. 17, 2026 whose caption is about the basic allotment, with its duplicate. Should school funding rise with inflation automatically, or be set by each Legislature?"
+caption: |-
+  Texas pays school districts a base amount per student: $6,160 today, plus a $55 adjustment through Sept. 1, 2027. There's no automatic raise for inflation.
+
+  HB 1195 and HB 178, word-for-word twins in the Texas House of Representatives, would make it $7,500, then raise it each year by inflation starting in 2028-29.
+
+  Districts would get more per student; the state formula would cost more. No cost estimate is posted yet. If passed, it takes effect Sept. 1, 2027.
+
+  Should school funding rise with inflation automatically, or be set by each Legislature?
+hashtags: [txlege, texaslegislature, texasschools, schoolfunding, votetherecord]
+notes: >-
+  New: HB 1195 filed Nov. 17, 2026; TLO lists HB 178 (filed Nov. 9) as its duplicate, both council document 90R 2662
+  AMF-D, and the two introduced texts read the same (checked line by line), so they share a post as twins. Neither is
+  in an earlier post. Records opened 2026-11-17: the Nov. 17 filing report, both bill histories (filed, no other action;
+  no fiscal note listed), both introduced texts, and Education Code 48.051 and 48.2561 (rendered from
+  statutes.capitol.texas.gov). The caption says "and guaranteed yield", but the text only amends 48.051, so the post
+  doesn't claim a guaranteed-yield change; please check. "Starting point for most other per-student funding" is our
+  plain reading of ch. 48 (many allotments are figured from the basic allotment); drop it if you'd rather not.
+  48.051(b) lets the Legislature give a greater amount by appropriation, which the "law today" slide says as "through
+  the budget". Authors named as TLO lists them, no party. Takes the Nov. 22 9:00 a.m. post slot (after the 7:30 a.m. Reel).
