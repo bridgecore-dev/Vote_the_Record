@@ -1,0 +1,84 @@
+kind: story
+level: congress
+topic: Public lands
+approval: review
+highlight: Congress
+record_ids: ["us/119/H.R. 2302/senate-passed"]
+publish_after: '2026-11-19T20:15:00-06:00'
+rule: >-
+  From the U.S. Senate's Nov. 16, 2026 wrap-up, every bill it passed that the U.S. House of Representatives had
+  already passed: H.R. 2302 and H.R. 7834. Each gets its own post with the same structure.
+sources:
+- title: "U.S. Senate Press Gallery, Monday, November 16, 2026"
+  url: https://www.dailypress.senate.gov/monday-november-16-2026/
+  retrieved: '2026-11-17'
+- title: "H.R. 2302, text as passed by the U.S. House of Representatives (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr2302eh/html/BILLS-119hr2302eh.htm
+  retrieved: '2026-11-17'
+- title: "Senate Report 119-150, Shingle Springs Band of Miwok Indians Land Transfer Act of 2025 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119srpt150/html/CRPT-119srpt150.htm
+  retrieved: '2026-11-17'
+- title: "Congress.gov, H.R. 2302 actions"
+  url: https://api.congress.gov/v3/bill/119/hr/2302/actions
+  retrieved: '2026-11-17'
+- title: "National Archives, U.S. Constitution"
+  url: https://www.archives.gov/founding-docs/constitution-transcript
+  retrieved: '2026-11-17'
+bills:
+- id: H.R. 2302
+  title: Shingle Springs Band of Miwok Indians Land Transfer Act of 2025
+  does: "Would have the U.S. hold about 265 acres in trust for the tribe, as part of its reservation. No gaming on the land."
+  affects: "The Shingle Springs Band of Miwok Indians and land in El Dorado County, California."
+  where: "Passed the U.S. House Dec. 9, 2025 (voice vote) and the U.S. Senate Nov. 16, 2026 (unanimous consent)."
+  summary:
+    text: >-
+      H.R. 2302 would place two parcels of land in El Dorado County, California, totaling approximately 265 acres,
+      into trust for the Shingle Springs Band of Miwok Indians.
+    title: Senate Report 119-150, summary of H.R. 2302
+    url: https://www.govinfo.gov/content/pkg/CRPT-119srpt150/html/CRPT-119srpt150.htm
+    retrieved: '2026-11-17'
+slides:
+- kicker: "U.S. Senate · Nov. 16, 2026"
+  big: 265 acres
+  head: "The U.S. Senate passed a bill to put about this much land in El Dorado County, California, in trust for the Shingle Springs Band of Miwok Indians."
+- chip: "Before → after"
+  head: "Today one part is federal land and one part the tribe owns. After, the U.S. would hold all of it in trust, as part of the reservation."
+  rows:
+  - [Today, "About 80 acres run by the Bureau of Land Management"]
+  - [Today, "About 185 acres the tribe owns, Indian Creek Ranch"]
+  - [After, "All held in trust for the tribe"]
+  - [No gaming, "No class II or class III gaming"]
+- chip: Why this land
+  head: "The Senate committee report says the tribe is short of land for housing."
+  text: "It lists about 582 members and a reservation of about 160 acres. Citing the tribe's chairwoman, it says the tribe plans housing on Indian Creek Ranch and open space on the federal parcels."
+- chip: "Who gains, who gives up"
+  head: "The tribe gains the land. Federal agencies and local tax rolls give it up."
+  rows:
+  - [Gains, "Shingle Springs Band of Miwok Indians"]
+  - [Gives up, "Bureau of Land Management; 40 acres set aside for the Forest Service in 1964"]
+  - [Local taxes, "CBO: state and local governments couldn't tax it; under $100,000 a year"]
+  - [Cost, "CBO: under $500,000 to carry out, 2026-2031"]
+- chip: Where it stands
+  head: "Sponsor: Rep. Tom McClintock (R-CA). Passed the U.S. House of Representatives by voice vote, Dec. 9, 2025."
+  text: "The U.S. Senate passed it by unanimous consent on Nov. 16, 2026. A bill goes to the President once both chambers pass it. Should Congress put land in trust this way? Tell us."
+caption: |-
+  The U.S. Senate passed H.R. 2302 by unanimous consent on Nov. 16, 2026. The U.S. House of Representatives passed it by voice vote on Dec. 9, 2025.
+
+  Before: about 80 acres in El Dorado County, California, are federal land run by the Bureau of Land Management, and about 185 acres, Indian Creek Ranch, belong to the Shingle Springs Band of Miwok Indians. After: the U.S. would hold all of it in trust for the tribe, as part of its reservation. Gaming would not be allowed there.
+
+  The Senate committee report says the tribe is short of land for housing. CBO estimates it would cost under $500,000 to carry out over 2026-2031, and that state and local governments would lose under $100,000 a year in taxes they could no longer collect on the land.
+
+  Should Congress put land in trust this way?
+hashtags: [congress, publiclands, tribalnations, california]
+notes: >-
+  New this run: the Senate Press Gallery's Nov. 16 wrap-up lists H.R. 2302 "passed by unanimous consent";
+  congress.gov's actions don't show it yet (latest: Sept. 22 calendar). The Senate report recommends passing it
+  without amendment, but the Nov. 16 Record wasn't on GovInfo yet, so the post doesn't claim it went to the
+  President: please check the Nov. 16 Record or congress.gov for "without amendment" before the slot; if so, the
+  last slide can say it goes to the President. The CRS summary on congress.gov is of the introduced bill (204.14
+  acres); the House passed it amended (80 + 185 = about 265 acres in the engrossed text), so the summary quoted is
+  the Senate report's, which matches the passed text. CBO's "approximately 200 acres" in the report is left off.
+  Cost, lost taxes, 582 members, 160 acres and the housing plan are as S. Rept. 119-150 states them (the last three
+  from the chairwoman's testimony it cites). Sponsor's party and state as the report lists them. H.R. 7834 (same
+  rule) isn't written yet: its subject (cloud storage of child sexual abuse material for law enforcement) needs
+  the owner's call on wording for Instagram.
