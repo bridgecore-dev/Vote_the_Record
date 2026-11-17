@@ -1,0 +1,90 @@
+kind: reel
+level: state
+place: Texas
+topic: Property tax
+approval: review
+rule: Every bill filed Nov. 17, 2026 whose Texas Legislature Online caption is about property tax relief for homes
+  damaged by a disaster (said on the last slide).
+record_ids: [tx/90R/HB 1198/filed]
+publish_after: '2026-11-22T13:30:00-06:00'
+sources:
+- title: TLO, bills filed Nov. 17, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-17
+  retrieved: '2026-11-17'
+- title: TLO, HB 1198 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1198
+  retrieved: '2026-11-17'
+- title: Tax Code ch. 11 (11.351)
+  url: https://statutes.capitol.texas.gov/Docs/TX/htm/TX.11.htm
+  retrieved: '2026-11-17'
+bills:
+- id: HB 1198
+  does: Would extend a homestead property tax break for homes destroyed by fire to homes destroyed by a flood or windstorm.
+  affects: Texas homeowners whose home is completely destroyed and stays unlivable for at least 30 days; local taxing units.
+  where: Filed Nov. 17, 2026 by Rep. Leo Wilson; no other action yet.
+  summary:
+    text: >-
+      A person is entitled to an exemption from taxation by a taxing unit in an amount determined under Subsection (d)
+      of the appraised value of an improvement to the person's residence homestead that: (1) is completely destroyed by
+      a fire, flood, or windstorm
+    title: HB 1198 as filed, Sec. 2 (Tax Code 11.351(b))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01198I.htm
+    retrieved: '2026-11-17'
+  say: HB 1198 would extend a homestead tax break for homes destroyed by fire to homes destroyed by a flood or windstorm.
+    It was filed November 17 by Representative Leo Wilson, with no other action yet.
+slides:
+- kicker: 2027 Texas session · Filed Nov. 17, 2026
+  big: HB 1198
+  head: A Texas House of Representatives bill would give flood and windstorm victims the property tax break Texas gives after a fire.
+  say: A Texas House of Representatives bill filed November 17 would give flood and windstorm victims the property tax
+    break Texas gives after a fire.
+- chip: The law today
+  head: If a fire completely destroys your homestead, you owe no tax on the house for the rest of that year.
+  text: "Tax Code 11.351, in effect since Jan. 1, 2026. The home must have been livable before the fire and stay unlivable for at least 30 days. Apply within 180 days. The exemption covers the share of the year left after the fire."
+  say: 'The law today: if a fire completely destroys your homestead, you owe no tax on the house for the rest of that year.
+    It must stay unlivable for at least 30 days, and you apply within 180 days.'
+- chip: What would change
+  head: The same break would cover a home completely destroyed by a flood or windstorm.
+  rows:
+  - [Before, "Fire only"]
+  - [After, "Fire, flood, or windstorm"]
+  - [Same rules, "30 days unlivable, apply within 180 days, only for the year it happens"]
+  say: 'What would change: the same break would cover a home destroyed by a flood or windstorm, not just a fire. The rules
+    stay the same: 30 days unlivable, apply within 180 days, only for that year.'
+- chip: Voters decide too
+  head: It works only if Texas voters also approve a constitutional amendment allowing it.
+  quote: {label: HB 1198 as filed (Sec. 4), text: "If that amendment is not approved by the voters, this Act has no effect.", key: approved by the voters}
+  say: It works only if Texas voters also approve a constitutional amendment allowing it. If they don't, the bill has no
+    effect.
+- chip: Who gains, who pays
+  head: Owners of destroyed homes would owe less. Cities, counties and school districts would collect less tax.
+  text: No fiscal note (cost estimate) is posted yet.
+  say: Owners of destroyed homes would owe less tax. Cities, counties, and school districts would collect less. No cost
+    estimate is posted yet.
+- chip: What's next
+  big: Jan. 1, 2028
+  head: If passed and approved by voters, it takes effect on this date.
+  text: "How we picked: every bill filed Nov. 17, 2026 about property tax relief for homes destroyed by a disaster. Should a flood count the same as a fire?"
+  say: If passed and approved by voters, it takes effect January 1, 2028. How we picked, every bill filed November 17 about
+    tax relief for homes destroyed by a disaster. Should a flood count the same as a fire?
+caption: |-
+  Today, if a fire completely destroys your Texas homestead, you owe no property tax on the house for the rest of that year. The home has to stay unlivable for at least 30 days, and you apply within 180 days.
+
+  HB 1198, filed in the Texas House of Representatives for the 2027 session, would give the same break when a flood or windstorm destroys the home. It works only if voters also approve a constitutional amendment allowing it.
+
+  Owners of destroyed homes would owe less; cities, counties and school districts would collect less. No cost estimate is posted yet. If passed and approved, it takes effect Jan. 1, 2028.
+
+  Should a flood count the same as a fire?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [txlege, texaslegislature, propertytax, homeowners, votetherecord]
+notes: >-
+  New: filed Nov. 17, 2026; no earlier post covers it. Rule: the Nov. 17 filing report's captions; HB 1198 is the only one
+  about tax relief for disaster-destroyed homes. Records opened 2026-11-17: the Nov. 17 filing report, the bill history
+  (filed, no other action; no fiscal note listed), the introduced text (90R 2852 LHC-D), and Tax Code 11.351 (rendered
+  from statutes.capitol.texas.gov; added in 2025, eff. Jan. 1, 2026). The bill depends on a constitutional amendment
+  "proposed by the 90th Legislature"; no joint resolution was on the Nov. 17 filing report, so the post doesn't name
+  one. "No tax on the house for the rest of that year" restates 11.351(d)'s day-fraction of the improvement's value (the
+  land stays taxable; "the house" is our plain word for "improvement"). Who gains and who loses is our plain reading of an
+  exemption (no source states amounts). Author as TLO lists him, no party. Takes Nov. 22 1:30 p.m. (Reel, after the
+  9:00 a.m. post).
