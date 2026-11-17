@@ -1,0 +1,72 @@
+kind: story
+level: congress
+topic: Federal courts
+approval: review
+highlight: Results
+record_ids: [us/119/2/senate/roll/265]
+publish_after: '2026-11-21T20:15:00-06:00'
+sources:
+- title: "U.S. Senate, Roll Call Vote 265 (2026)"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00265.htm
+  retrieved: '2026-11-17'
+- title: "U.S. Senate Press Gallery, Nov. 17, 2026"
+  url: https://www.dailypress.senate.gov/tuesday-november-17-2026/
+  retrieved: '2026-11-17'
+- title: "28 U.S.C. 41 (GPO, 2023 ed.)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title28/html/USCODE-2023-title28-partI-chap3-sec41.htm
+  retrieved: '2026-11-17'
+- title: "28 U.S.C. 44 (GPO, 2023 ed.)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title28/html/USCODE-2023-title28-partI-chap3-sec44.htm
+  retrieved: '2026-11-17'
+- title: "U.S. Courts, About the Courts of Appeals"
+  url: https://www.uscourts.gov/about-federal-courts/court-role-and-structure/about-us-courts-appeals
+  retrieved: '2026-11-17'
+- title: "National Archives, U.S. Constitution"
+  url: https://www.archives.gov/founding-docs/constitution-transcript
+  retrieved: '2026-11-17'
+slides:
+- chip: "Roll call 265 · Nov. 17, 2026"
+  head: "The U.S. Senate confirmed Anna St. John to the federal appeals court that covers Texas: the Fifth Circuit."
+  vote: {yea: 52, nay: 46, not_voting: 2}
+  text: "Federal law puts Louisiana, Mississippi and Texas in the Fifth Circuit."
+- chip: How they voted
+  head: By party, as the U.S. Senate records it
+  rows:
+  - [Republican, "52 Yea · 0 Nay · 1 didn't vote"]
+  - [Democratic, "0 Yea · 44 Nay · 1 didn't vote"]
+  - [Independent, "0 Yea · 2 Nay · 0 didn't vote"]
+  text: "The 46 Nay votes are too many to list here; every name is in vote 265 on senate.gov."
+- chip: What the court does
+  head: "Most of its rulings are the final word."
+  quote: {label: "United States Courts, About the U.S. Courts of Appeals", text: "most courts of appeals decisions are final, and they are binding on lower courts within the same circuit."}
+  text: "Its rulings bind the federal trial courts in Texas, Louisiana and Mississippi."
+- chip: How long
+  head: "There is no set term."
+  quote: {label: "28 U.S.C. 44(b)", text: "Circuit judges shall hold office during good behavior."}
+  text: "Federal law sets 17 judgeships on the Fifth Circuit. The President nominates; the U.S. Senate confirms by a simple majority."
+- chip: Check it yourself
+  head: "Look up how your senators voted."
+  rows:
+  - ["U.S. Senate", "senate.gov: roll call votes, 119th Congress, 2nd session, vote 265"]
+  text: "Should judges serve for life, or for a set term?"
+caption: |-
+  The U.S. Senate confirmed Anna St. John, of Louisiana, to the U.S. Court of Appeals for the Fifth Circuit on Nov. 17, 2026 (vote 265).
+
+  Result: 52 Yea, 46 Nay, 2 didn't vote.
+  Republican: 52 Yea, 0 Nay, 1 didn't vote.
+  Democratic: 0 Yea, 44 Nay, 1 didn't vote.
+  Independent: 0 Yea, 2 Nay.
+
+  The Fifth Circuit hears federal appeals from Louisiana, Mississippi and Texas. Most courts of appeals decisions are final. Circuit judges have no set term: federal law says they "hold office during good behavior."
+
+  Should judges serve for life, or for a set term?
+hashtags: [ussenate, federalcourts, fifthcircuit, txlege, votetherecord]
+notes: >-
+  New this run: Senate vote 265 (Nov. 17, 2:15 p.m. ET), not in any post; same layout and wording as the
+  Domenico post (vote 263). Tally, party counts and the two not-voting names (Murphy, D-CT; Risch, R-ID) were
+  counted from the vote's XML (vote_119_2_00265.xml); party as the Senate lists it (D, R, I). The 46 Nays are over
+  the ~40-name limit, so the slide gives totals and points to senate.gov. "Of Louisiana" and PN1181-7 are from the
+  vote record. 28 U.S.C. 41 also still lists the "District of the Canal Zone" in the Fifth Circuit (that court
+  ended in 1982), so the post names only the three states; 17 judgeships are from 28 U.S.C. 44(a), GPO 2023 ed.,
+  please confirm no later law changed the count. No case for or against is quoted: the Nov. 17 Congressional
+  Record wasn't checked for floor debate. Fills the empty Nov. 21 story slot (Nov. 18-19 slots are all full).
