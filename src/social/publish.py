@@ -16,6 +16,7 @@ Settings come from the environment (GitHub secrets or a local .env; never commit
     python src/social/publish.py --preview <post.yaml>...   # upload built files under previews/, print URLs
     python src/social/publish.py --take-down <post>          # delete a published post from Instagram (file name, no .yaml)
     python src/social/publish.py --list-media    # what is on the account, matched to post files; posts nothing
+    python src/social/publish.py --remove-duplicates [--write]   # keep each post's oldest copy, delete the rest
 
 Never twice (2026-11-18: retries after errors posted the same post many times):
 - Before posting, recent media on the account is checked for the same caption; a match is recorded, not reposted.
@@ -278,25 +279,64 @@ def check_setup() -> int:
     return bad
 
 
-def list_media() -> None:
-    """Print what is on the account, matched to post files by caption, and any post that appears more than once."""
+def grouped(media: list[dict]) -> dict[str, list[dict]]:
+    """The account's media by post file (matched by caption), oldest first; "?" for media no post file matches."""
     keys = {}  # each post's whole written caption; the published one adds sources and hashtags after it
     for p in sorted(POSTS.glob("*.yaml")):
         cap = (yaml.safe_load(p.read_text(encoding="utf-8")) or {}).get("caption") or ""
         if cap.strip():
             keys[key(cap)] = p.stem
-    media, seen = media_list(200), {}
-    for m in reversed(media):  # oldest first
+    seen = {}
+    for m in sorted(media, key=lambda m: m.get("timestamp", "")):
         got = key(m.get("caption", ""))
         hits = [k for k in keys if got == k or got.startswith(k + " ")]
-        stem = keys[max(hits, key=len)] if hits else "?"  # the longest match, if one caption begins another
-        seen.setdefault(stem, []).append(m)
+        seen.setdefault(keys[max(hits, key=len)] if hits else "?", []).append(m)  # longest match wins
+    return seen
+
+
+def list_media() -> None:
+    """Print what is on the account, matched to post files by caption, and any post that appears more than once."""
+    media = media_list(200)
+    groups = grouped(media)
+    for stem, m in sorted(((s, m) for s, ms in groups.items() for m in ms), key=lambda x: x[1].get("timestamp", "")):
         print(f"{m.get('timestamp', '')[:16]}  {m.get('media_product_type', ''):6}  {stem}  {m.get('permalink', '')}")
     print(f"\n{len(media)} media")
-    for stem, ms in seen.items():
+    for stem, ms in groups.items():
         if stem != "?" and len(ms) > 1:
             print(f"DUPLICATE x{len(ms)} {stem}: keep {ms[0].get('permalink')}; extra "
                   + " ".join(x.get("permalink", x["id"]) for x in ms[1:]))
+
+
+def remove_duplicates(write: bool) -> None:
+    """For each post on the account more than once, keep the oldest copy (recorded as the published one) and,
+    with write, delete the others. Stops at the first refusal (the token needs permission to delete)."""
+    client, name = bucket()
+    state = load_state(client, name)
+    extra = []
+    for stem, ms in grouped(media_list(200)).items():
+        if stem == "?" or len(ms) < 2:
+            continue
+        keep = ms[0]
+        if stem not in state:  # so the publisher never posts it again
+            state[stem] = {"media": [keep["id"]], "permalink": keep.get("permalink"), "adopted": True,
+                           "published": keep.get("timestamp")}
+        state[stem]["duplicates"] = [m["id"] for m in ms[1:]]
+        extra += [(stem, m) for m in ms[1:]]
+        print(f"{stem}: keep {keep.get('permalink')}, {len(ms) - 1} extra")
+    client.put_object(Bucket=name, Key=STATE_KEY, Body=json.dumps(state, indent=2).encode(), ContentType="application/json")
+    print(f"{len(extra)} extra copies" + ("" if write else " (preview: nothing deleted; --write deletes them)"))
+    if not write:
+        return
+    gone = 0
+    for stem, m in extra:
+        try:
+            graph("DELETE", m["id"])
+        except RuntimeError as e:
+            sys.exit(f"stopped after {gone} deleted: {e}")
+        gone += 1
+        print(f"  deleted {m.get('permalink') or m['id']} ({stem})")
+        time.sleep(2)  # gently; a limit error stops the run above
+    print(f"{gone} deleted")
 
 
 def main() -> None:
@@ -307,10 +347,15 @@ def main() -> None:
     ap.add_argument("--check-setup", action="store_true", help="test the token and the bucket; posts nothing")
     ap.add_argument("--take-down", metavar="POST", help="delete this published post from Instagram (file name, no .yaml)")
     ap.add_argument("--list-media", action="store_true", help="list what is on the account; posts nothing")
+    ap.add_argument("--remove-duplicates", action="store_true",
+                    help="keep the oldest copy of each post on the account; with --write, delete the extra copies")
     args = ap.parse_args()
     if args.list_media:
         sys.stdout.reconfigure(encoding="utf-8")
         return list_media()
+    if args.remove_duplicates:
+        sys.stdout.reconfigure(encoding="utf-8")
+        return remove_duplicates(args.write)
     if args.take_down:
         return take_down(args.take_down)
     if args.check_setup:

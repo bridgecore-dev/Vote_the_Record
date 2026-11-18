@@ -1,18 +1,40 @@
 name: social media list
 
-# Run by hand: list what is on the Instagram account, matched to post files by caption, and flag any post that
-# appears more than once (src/social/publish.py --list-media). Reads Instagram only; never posts or deletes.
+# Run by hand. Default: list what is on the Instagram account, matched to post files by caption, and flag any post
+# that appears more than once (src/social/publish.py --list-media); reads only.
+# duplicates = preview: also record each duplicated post's oldest copy as published, and say what would be deleted.
+# duplicates = delete: delete every copy but the oldest (the token needs Instagram's delete permission).
 
 on:
   workflow_dispatch:
+    inputs:
+      duplicates:
+        description: "Duplicated posts: list only, preview the cleanup, or delete the extra copies"
+        type: choice
+        options: [list, preview, delete]
+        default: list
 
 permissions:
   contents: read
 
+concurrency:
+  group: social-publish  # never at the same time as a publish run
+  cancel-in-progress: false
+
 jobs:
   list:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
+    env:
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
+      IG_GRAPH_VERSION: ${{ vars.IG_GRAPH_VERSION }}
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_BUCKET: ${{ vars.R2_BUCKET }}
+      R2_PUBLIC_URL: ${{ vars.R2_PUBLIC_URL }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -20,8 +42,8 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements-social.txt
       - run: python src/social/publish.py --list-media
-        env:
-          IG_USER_ID: ${{ secrets.IG_USER_ID }}
-          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-          IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
-          IG_GRAPH_VERSION: ${{ vars.IG_GRAPH_VERSION }}
+        if: inputs.duplicates == 'list'
+      - run: python src/social/publish.py --remove-duplicates
+        if: inputs.duplicates == 'preview'
+      - run: python src/social/publish.py --remove-duplicates --write
+        if: inputs.duplicates == 'delete'

@@ -131,3 +131,24 @@ def test_a_story_is_recorded_before_it_publishes_so_a_failure_is_never_retried(m
     with pytest.raises(RuntimeError):
         publish.publish_one({"kind": "story", "caption": "", "files": [{"file": "s.png"}]}, "https://b", seen.append)
     assert seen == [["pending:c1"]]
+
+
+def test_remove_duplicates_keeps_the_oldest_copy_and_records_it(monkeypatch, tmp_path):
+    import json
+    (tmp_path / "2026-11-14-x.yaml").write_text("kind: image\ncaption: Four laws.\n", encoding="utf-8")
+    monkeypatch.setattr(publish, "POSTS", tmp_path)
+    media = [{"id": "3", "caption": "Four laws.\n\nSource: a", "timestamp": "2026-11-17T03:00:00+0000"},
+             {"id": "1", "caption": "Four laws.\n\nSource: a", "timestamp": "2026-11-17T01:00:00+0000"},
+             {"id": "2", "caption": "Four laws.\n\nSource: a", "timestamp": "2026-11-17T02:00:00+0000"},
+             {"id": "9", "caption": "Other", "timestamp": "2026-11-17T04:00:00+0000"}]
+    fake, deleted = FakeBucket({}), []
+    monkeypatch.setattr(publish, "bucket", lambda: (fake, "b"))
+    monkeypatch.setattr(publish, "load_state", lambda c, n: {})
+    monkeypatch.setattr(publish, "media_list", lambda most=50: media)
+    monkeypatch.setattr(publish, "graph", lambda method, path, **k: deleted.append((method, path)) or {})
+    monkeypatch.setattr(publish.time, "sleep", lambda s: None)
+    publish.remove_duplicates(write=False)
+    assert deleted == []
+    assert json.loads(fake.saved)["2026-11-14-x"]["media"] == ["1"]
+    publish.remove_duplicates(write=True)
+    assert deleted == [("DELETE", "2"), ("DELETE", "3")]

@@ -123,6 +123,11 @@ Vote posts (a roll call, or a bill's passage):
 - Then the names on the smaller side, with party and state as the record lists them ("Roy (R-TX)"):
   if fewer voted Yea than Nay, list every Yea, and the other way around. Up to about 40 names; past that,
   give the totals and link the official list.
+- Say in plain words what Yea and Nay meant when the question isn't passing the bill itself (owner's
+  request, 2026-11-18). A motion to refer, table or recommit often decides the outcome without a vote on the
+  bill, and news may call it "blocked". Name the question from the record ("a motion to send it to the
+  Judiciary Committee") and give each side: "Yea = send it to committee, so no impeachment vote that day;
+  Nay = keep it on the floor, so the House votes on it." Then say what happened as a result.
 
 Made to be seen (never at the cost of a rule above):
 - The first slide is the hook: the number, the question or the claim people are already talking about, in
