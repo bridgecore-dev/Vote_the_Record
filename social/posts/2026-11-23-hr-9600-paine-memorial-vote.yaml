@@ -1,0 +1,82 @@
+kind: carousel
+level: congress
+topic: Monuments
+approval: review
+record_ids: ["us/119/2/house/roll/325"]
+publish_after: '2026-11-23T09:00:00-06:00'
+rule: >-
+  Vote posts list every member on the smaller side of the roll call, with party and state as the House Clerk
+  records them. Here that is the 36 Nay votes.
+sources:
+- title: "U.S. House of Representatives, Office of the Clerk, Roll Call 325 (119th Congress, 2nd Session), H.R. 9600, Nov. 17, 2026"
+  url: https://clerk.house.gov/evs/2026/roll325.xml
+  retrieved: '2026-11-17'
+- title: "House Report 119-860, Common Sense 250 Act of 2026 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt860/html/CRPT-119hrpt860.htm
+  retrieved: '2026-11-17'
+- title: Congress.gov, H.R. 9600 bill record (sponsor, cosponsors, actions)
+  url: https://api.congress.gov/v3/bill/119/hr/9600
+  retrieved: '2026-11-17'
+bills:
+- id: H.R. 9600
+  title: Common Sense 250 Act of 2026
+  does: "Would let the Thomas Paine memorial Congress allowed in 2022 be built in Area I, D.C.'s most significant memorial area."
+  affects: "The Thomas Paine Memorial Association, which is to build the privately funded memorial."
+  where: "Passed the U.S. House of Representatives 365-36 on Nov. 17, 2026. Next: the U.S. Senate."
+  summary:
+    text: >-
+      This bill requires the authorized monument honoring Thomas Paine to be located in Area 1 of the National
+      Mall, which is reserved for commemorative works of preeminent historical and lasting significance to the
+      United States.
+    title: Congressional Research Service summary of H.R. 9600
+    url: https://api.congress.gov/v3/bill/119/hr/9600/summaries
+    retrieved: '2026-11-17'
+slides:
+- kicker: "U.S. House of Representatives · Nov. 17, 2026"
+  head: "The U.S. House of Representatives voted to put a Thomas Paine memorial in Area I, the part of D.C. kept for the most significant memorials."
+  vote: {yea: 365, nay: 36, not_voting: 32}
+  text: "H.R. 9600, the Common Sense 250 Act. It affects the group building the privately funded memorial."
+- chip: "Before → after"
+  head: "Congress allowed a Paine memorial in 2022. A spot in Area I takes another vote of Congress."
+  rows:
+  - [Since 2022, "A privately funded Paine memorial is allowed in D.C."]
+  - [Area I, "Needs Congress's own approval"]
+  - [After, "The memorial could be built in Area I"]
+  - [Cost, "Privately funded; no CBO estimate in the report"]
+- chip: How they voted
+  head: By party, as the House Clerk records it
+  rows:
+  - [Republican, "163 Yea · 36 Nay · 19 didn't vote"]
+  - [Democratic, "202 Yea · 0 Nay · 12 didn't vote"]
+  - [Independent, "0 Yea · 0 Nay · 1 didn't vote"]
+  text: "It came up under \"suspension of the rules,\" so it needed two-thirds of those voting."
+- chip: "Voted Nay (1 of 2)"
+  head: "The 36 Nay votes, as the Clerk lists them"
+  text: "Bean (R-FL), Biggs (R-AZ), Biggs (R-SC), Cammack (R-FL), Cloud (R-TX), Clyde (R-GA), Collins (R-GA), Edwards (R-NC), Emmer (R-MN), Estes (R-KS), Fedorchak (R-ND), Foxx (R-NC), Scott Franklin (R-FL), Fry (R-SC), Gill (R-TX), Griffith (R-VA), Grothman (R-WI), Harrigan (R-NC)"
+- chip: "Voted Nay (2 of 2)"
+  head: "The 36 Nay votes, continued"
+  text: "Harris (R-MD), Harshbarger (R-TN), Higgins (R-LA), Jackson (R-TX), Malliotakis (R-NY), Mann (R-KS), McCormick (R-GA), Miller (R-IL), Miller (R-WV), Moore (R-WV), Murphy (R-NC), Norman (R-SC), Palmer (R-AL), Perry (R-PA), Reschenthaler (R-PA), Self (R-TX), Steube (R-FL), Van Duyne (R-TX)"
+- chip: Why?
+  head: "A roll call records each vote, not the reasons for it."
+  text: "The committee report lists no views against the bill. The Natural Resources Committee approved it by unanimous consent on Sept. 15, 2026."
+- chip: Your turn
+  head: "Next, the U.S. Senate. How did your representative vote?"
+  text: "Every name is in roll call 325 at clerk.house.gov/Votes. Who belongs in Area I? Tell us."
+caption: |-
+  On Nov. 17, the U.S. House of Representatives passed H.R. 9600, the Common Sense 250 Act, 365-36, with 32 members not voting.
+
+  In 2022, Congress allowed a privately funded memorial to Thomas Paine in Washington, D.C. Paine wrote Common Sense, the 1776 pamphlet that argued for breaking from Britain. D.C. is split into areas for memorials. Area I is kept for subjects of "preeminent historical and lasting significance to the United States," and a memorial there needs Congress's own approval. This bill gives it.
+
+  By party, per the House Clerk: Republicans 163 Yea, 36 Nay; Democrats 202 Yea, 0 Nay; the one Independent didn't vote. All 36 Nay names are in the slides. The roll call doesn't record reasons, and the committee report lists no views against the bill.
+
+  Next it goes to the U.S. Senate. Who belongs in Area I? Tell us below.
+hashtags: [congress, housevote, thomaspaine, nationalmall, votetherecord]
+notes: >-
+  New: roll call 325 (Nov. 17, 7:05 p.m. ET) was not covered; the Nov. 15 story covered H.R. 9600 only as a scheduled
+  bill. Tally, party totals and all 36 Nay names (with party and state) are from the Clerk's roll XML; names drop the
+  Clerk's "(FL)"-style tags since the state is shown, and "Franklin, Scott" is written "Scott Franklin". The 2022 law,
+  Area I wording, private funding, unanimous consent and "requested but not received" CBO estimate are from H. Rept.
+  119-860, which has no minority or dissenting views. No floor statements were opened (the Nov. 17 Congressional
+  Record wasn't checked), so no case for or against is quoted; if the Record shows an opponent's statement in the
+  suspension debate, consider adding it. Nov. 20's optional busy pair needs both halves, so this takes Nov. 23 9:00 a.m.,
+  the first free post slot.
