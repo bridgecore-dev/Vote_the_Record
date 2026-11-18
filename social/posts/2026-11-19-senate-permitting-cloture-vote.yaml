@@ -8,9 +8,12 @@ sources:
 - title: "U.S. Senate, Vote 264 (2026)"
   url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00264.xml
   retrieved: '2026-11-17'
-- title: "Senate Press Gallery, Nov. 16"
-  url: https://www.dailypress.senate.gov/monday-november-16-2026/
-  retrieved: '2026-11-17'
+- title: "U.S. Senate, Vote 267 (2026)"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00267.xml
+  retrieved: '2026-11-18'
+- title: "U.S. Senate, Votes (vote 268)"
+  url: https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.htm
+  retrieved: '2026-11-18'
 - title: "Cong. Record, Nov. 10 (SA 6883)"
   url: https://www.govinfo.gov/content/pkg/CREC-2026-11-10/html/CREC-2026-11-10-pt1-PgS5417.htm
   retrieved: '2026-11-17'
@@ -34,7 +37,7 @@ bills:
   title: Bipartisan American Affordability and Jobs Act of 2026 (U.S. Senate substitute)
   does: "Rewrites federal environmental reviews and permits, power line planning and energy leasing; keeps the House bill's tax change."
   affects: "Builders of energy and other projects, agencies that review them, people who sue over them, and data centers."
-  where: "U.S. Senate voted 70-27 on Nov. 16 to end debate on the substitute. More U.S. Senate votes are next."
+  where: "Nov. 18: U.S. Senate adopted the substitute 69-27 and voted 65-31 to end debate. No passage vote yet."
   summary:
     text: "This Act may be cited as the \"Bipartisan American Affordability and Jobs Act of 2026\"."
     title: "SA 6883, sec. 1(a), Congressional Record, Nov. 10, 2026"
@@ -105,4 +108,9 @@ notes: >-
   4:30/6:00 pair; meant to be merged together. CHECK BEFORE IT POSTS: the Senate's next vote was set for
   Nov. 17 at 2:15 p.m. ET; if it has adopted the substitute or passed the bill, update the explainer's "where"
   and the caption with that vote from senate.gov. Nov 17 fix: shortened slide 1 and the source titles so the
-  source footer fits (the preview clipped it).
+  source footer fits (the preview clipped it). Nov 18 update: the U.S. Senate adopted SA 6883 69-27 (vote 267,
+  from its XML) and invoked cloture on H.R. 2347 as amended 65-31 (vote 268, from senate.gov's vote menu; its XML
+  page wasn't posted yet). The explainer's "where" (also printed in the caption) now says so; the slides still cover vote 264. The Nov. 16
+  Press Gallery source is dropped: it backed only the old "more votes are next" line, and the caption was over
+  Instagram's limit with the new sources.
+  CHECK BEFORE IT POSTS: if the Senate has passed the bill, update "where" with that vote.
