@@ -1,0 +1,78 @@
+name: social insights
+
+# Weekly "what's working" report on our own published posts (src/social/insights.py); reads only, posts nothing.
+# Mondays 8 a.m. Central. Writes the report to the run summary and to the "Weekly what's working" issue.
+# Scheduled runs start Nov. 30, 2026, so the first report isn't skewed by the Nov. 16-18 Instagram outage;
+# run it by hand any time. The token needs instagram_manage_insights; without it the issue says so.
+
+on:
+  schedule:
+    - cron: "0 14 * * 1"  # UTC; Mondays 8 a.m. CST
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "How many days back"
+        default: "7"
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: social-insights
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
+      IG_GRAPH_VERSION: ${{ vars.IG_GRAPH_VERSION }}
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      R2_BUCKET: ${{ vars.R2_BUCKET }}
+      R2_PUBLIC_URL: ${{ vars.R2_PUBLIC_URL }}
+    steps:
+      - name: Wait for a clean week
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(date -u +%F)" \< "2026-11-30" ]; then
+            echo "Scheduled reports start 2026-11-30."; echo "go=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "go=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/checkout@v4
+        if: steps.gate.outputs.go == 'true'
+      - uses: actions/setup-python@v5
+        if: steps.gate.outputs.go == 'true'
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-social.txt
+        if: steps.gate.outputs.go == 'true'
+      - name: Report
+        if: steps.gate.outputs.go == 'true'
+        env:
+          DAYS: ${{ inputs.days || '7' }}
+        run: |
+          if ! python src/social/insights.py --days "$DAYS" --out report.md 2> err.txt; then
+            { echo "# What's working: no report this week"; echo; echo '```'; cat err.txt; echo '```'; } > report.md
+            cat err.txt
+          fi
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Post to the issue
+        if: steps.gate.outputs.go == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: "Weekly what's working"
+        run: |
+          n=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "in:title \"$TITLE\"" --json number,title \
+                --jq "map(select(.title == env.TITLE))[0].number // empty")
+          if [ -n "$n" ]; then
+            gh issue comment "$n" --repo "$GITHUB_REPOSITORY" --body-file report.md
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" --body-file report.md
+          fi
