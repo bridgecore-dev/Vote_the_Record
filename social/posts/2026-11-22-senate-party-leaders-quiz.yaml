@@ -1,0 +1,53 @@
+kind: story
+level: congress
+topic: How Congress works
+approval: review
+highlight: How it works
+found_via: owner idea g3ODkxODc1MjAxMDI0MAZDZD
+record_ids: [us/senate/parties-and-leadership/party-conferences-elect-leaders]
+publish_after: '2026-11-22T20:15:00-06:00'
+sources:
+- title: "U.S. Senate: Parties and Leadership (senate.gov)"
+  url: https://www.senate.gov/about/parties-leadership.htm
+  retrieved: '2026-11-18'
+- title: "U.S. Senate: Complete List of Majority and Minority Leaders (senate.gov)"
+  url: https://www.senate.gov/senators/majority-minority-leaders.htm
+  retrieved: '2026-11-18'
+- title: "U.S. Senate: Contacting U.S. Senators (senate.gov)"
+  url: https://www.senate.gov/senators/senators-contact.htm
+  retrieved: '2026-11-18'
+slides:
+- kicker: Quiz · U.S. Senate
+  head: Who picks each party's leader in the U.S. Senate, like the Majority Leader?
+  quiz:
+    choices: ["Voters, in a national election", "All 100 senators, in a floor vote", "The senators in that party's conference"]
+    answer: 2
+    explain: Senators in each of the two major parties are organized into a party conference, and each conference elects its own leaders.
+    quote: {label: U.S. Senate, text: "both party conferences in the Senate elected leaders to speak for their members, coordinate action on the Senate floor"}
+- kicker: What the leaders do
+  head: Party conferences and their leaders help run the U.S. Senate day to day.
+  rows:
+  - [Agenda, Setting legislative agendas]
+  - [Committees, Organizing committees]
+  - [The floor, How action proceeds on the Senate floor]
+  quote: {label: U.S. Senate, text: "The conferences (also referred to as caucuses) and their leaders play an important role in the daily functions of the Senate, including setting legislative agendas, organizing committees, and determining how action proceeds on the Senate floor."}
+- kicker: Independents too
+  head: Senators outside the two major parties usually work within one of the two conferences.
+  quote: {label: U.S. Senate, text: "they typically work within the two established party conferences to gain committee assignments or manage legislation."}
+- kicker: Your turn
+  head: Want to know who your senators will back for leader? Ask their offices.
+  text: Every senator's contact details are at senate.gov/senators. Should senators tell voters how they'll vote for their party's leader?
+caption: |-
+  Who picks the U.S. Senate's party leaders, like the Majority Leader? Tap through for the answer.
+
+  Senators in each of the two major parties are organized into a party conference, and each conference elects its own leaders. Those leaders help set the Senate's agenda, organize committees and run the floor. Senators outside the two major parties usually work within one of the conferences.
+
+  Want to know who your senators will back? Their contact details are at senate.gov/senators. Should senators tell voters how they'll vote for their party's leader?
+hashtags: [senate, congress, civics, howcongressworks, votetherecord]
+notes: >-
+  Fills the empty story slot on Nov. 22 (Nov. 18-21 stories are taken). Process quiz from an owner idea about
+  Senate party leadership elections; it names no person, party or race, and says nothing about the timing or the
+  ballot method of any conference's vote, since no official record of that was opened. Every claim is from
+  senate.gov's Parties and Leadership page, quoted. The quiz's answer slide restates that page; the list of
+  leaders page shows leaders "elected as Democratic leader" / "Republican leader" by date. Review: quiz answers are
+  in our words.
