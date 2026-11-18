@@ -7,6 +7,13 @@ import yaml
 
 POSTS = Path(__file__).resolve().parents[1] / "social/posts"
 FROM = "2026-11-16"  # the first full day on the alternating schedule
+CENTRAL = dt.timezone(dt.timedelta(hours=-6))
+
+
+def first_day() -> str:
+    """Days already over can't be rearranged (a post that missed its slot moves to a later day), so only
+    today and later are checked."""
+    return max(FROM, dt.datetime.now(CENTRAL).date().isoformat())
 REEL, POST = {"reel", "clip"}, {"carousel", "image"}
 
 
@@ -17,7 +24,7 @@ def schedule() -> dict[str, list[tuple[str, str, str]]]:
         when = d.get("publish_after")
         if when and d.get("kind") in REEL | POST:
             t = dt.datetime.fromisoformat(str(when))
-            if t.date().isoformat() >= FROM:
+            if t.date().isoformat() >= first_day():
                 days[t.date().isoformat()].append((t.isoformat(), "reel" if d["kind"] in REEL else "post", p.stem))
     return days
 
