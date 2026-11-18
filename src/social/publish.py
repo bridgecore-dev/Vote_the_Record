@@ -81,8 +81,9 @@ def limited(err: str) -> bool:
 
 
 def key(caption: str) -> str:
-    """How captions are compared: the first 150 characters, spacing and case ignored."""
-    return " ".join((caption or "").split()).lower()[:150]
+    """How captions are compared: the whole caption, spacing and case ignored. Posts in a series open the same
+    way; the full caption (with its sources and hashtags) is what tells them apart."""
+    return " ".join((caption or "").split()).lower()
 
 
 def media_list(most: int = 50) -> list[dict]:
@@ -196,7 +197,12 @@ def publish_one(manifest: dict, base: str, record=lambda ids: None) -> list[str]
         stories = feed
     for f in stories:
         containers.append(make(media_type="STORIES", image_url=url(f["file"])))
-    for c in containers:
+    feeds = 0 if kind == "story" else 1
+    for i, c in enumerate(containers):
+        if i >= feeds:
+            # stories have no caption and aren't in /media, so a story that went out despite an error can't be
+            # found later: record it before publishing, and a failed attempt is never retried (a miss, not a twin)
+            record(ids + [f"pending:{c}"])
         ids.append(graph("POST", f"{ig}/media_publish", creation_id=c)["id"])
         record(list(ids))
     return ids
@@ -274,14 +280,16 @@ def check_setup() -> int:
 
 def list_media() -> None:
     """Print what is on the account, matched to post files by caption, and any post that appears more than once."""
-    keys = {}
+    keys = {}  # each post's whole written caption; the published one adds sources and hashtags after it
     for p in sorted(POSTS.glob("*.yaml")):
         cap = (yaml.safe_load(p.read_text(encoding="utf-8")) or {}).get("caption") or ""
         if cap.strip():
-            keys.setdefault(key(cap)[:120], p.stem)
+            keys[key(cap)] = p.stem
     media, seen = media_list(200), {}
     for m in reversed(media):  # oldest first
-        stem = next((s for k, s in keys.items() if key(m.get("caption", "")).startswith(k)), "?")
+        got = key(m.get("caption", ""))
+        hits = [k for k in keys if got == k or got.startswith(k + " ")]
+        stem = keys[max(hits, key=len)] if hits else "?"  # the longest match, if one caption begins another
         seen.setdefault(stem, []).append(m)
         print(f"{m.get('timestamp', '')[:16]}  {m.get('media_product_type', ''):6}  {stem}  {m.get('permalink', '')}")
     print(f"\n{len(media)} media")

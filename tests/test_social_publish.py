@@ -106,3 +106,27 @@ def test_each_part_is_recorded_as_soon_as_it_publishes(monkeypatch):
     with pytest.raises(RuntimeError):
         publish.publish_one(m, "https://b", seen.append)
     assert seen == [["m1"]]  # the feed post was recorded before the story frame failed
+
+
+def test_posts_that_open_the_same_way_are_not_mistaken_for_each_other():
+    opening = "One Big Beautiful Bill Act: what changes in 2027. " * 4
+    media = [{"id": "1", "caption": opening + "Medicaid renewals.\n\nSources: a", "timestamp": "t"}]
+    assert publish.already_up(opening + "SNAP cost share.\n\nSources: b", media) is None
+    assert publish.already_up(opening + "Medicaid renewals.\n\nSources: a", media)["id"] == "1"
+
+
+def test_a_story_is_recorded_before_it_publishes_so_a_failure_is_never_retried(monkeypatch):
+    import pytest
+
+    def graph(method, path, **k):
+        if path.endswith("/media"):
+            return {"id": "c1"}
+        if path.endswith("media_publish"):
+            raise RuntimeError('HTTP 403 {"error":{"code":4}}')  # it may have gone out anyway
+        return {"status_code": "FINISHED"}
+    monkeypatch.setattr(publish, "graph", graph)
+    monkeypatch.setenv("IG_USER_ID", "u")
+    seen = []
+    with pytest.raises(RuntimeError):
+        publish.publish_one({"kind": "story", "caption": "", "files": [{"file": "s.png"}]}, "https://b", seen.append)
+    assert seen == [["pending:c1"]]
