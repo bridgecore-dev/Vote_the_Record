@@ -3,7 +3,7 @@ level: congress
 topic: Bills
 approval: review
 record_ids: [us/119/H.R. 8352/presented-to-president]
-publish_after: '2026-11-18T09:00:00-06:00'
+publish_after: '2026-11-21T18:00:00-06:00'
 sources:
 - title: Congress.gov, H.R. 8352 actions
   url: https://api.congress.gov/v3/bill/119/hr/8352/actions
