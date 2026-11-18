@@ -61,3 +61,73 @@ def test_take_down_refuses_names_that_are_not_posts(monkeypatch):
     monkeypatch.setattr(publish, "bucket", lambda: (_ for _ in ()).throw(AssertionError("no bucket")))
     with pytest.raises(SystemExit):
         publish.take_down("../state")
+
+
+def test_due_orders_by_slot_and_leaves_out_late_posts(tmp_path):
+    posts = [post(tmp_path, "2026-11-10-old", "2026-11-14T08:00:00-06:00"),    # 14:00 UTC, 1 hour ago
+             post(tmp_path, "2026-11-14-early", "2026-11-14T07:30:00-06:00"),  # 13:30 UTC
+             post(tmp_path, "2026-11-12-stale", "2026-11-14T05:00:00-06:00")]  # 11:00 UTC, 4 hours ago
+    late = dt.timedelta(hours=3)
+    assert [p.stem for p in publish.due(posts, {}, NOW, late)] == ["2026-11-14-early", "2026-11-10-old"]
+    assert [p.stem for p in publish.missed(posts, {}, NOW, late)] == ["2026-11-12-stale"]
+
+
+def test_limit_errors_are_recognized():
+    assert publish.limited('POST x/media_publish: HTTP 403 {"error":{"message":"Application request limit reached","code":4}}')
+    assert publish.limited('HTTP 400 {"error":{"message":"User is performing too many actions","code":9}}')
+    assert not publish.limited('HTTP 400 {"error":{"message":"Media ID is not available","code":100}}')
+
+
+def test_a_post_already_on_instagram_is_found_by_caption():
+    media = [{"id": "2", "caption": "Four new  federal laws.\n\nMore", "timestamp": "2026-11-17T21:00:00+0000"},
+             {"id": "1", "caption": "four new federal laws. more", "timestamp": "2026-11-17T20:00:00+0000"},
+             {"id": "3", "caption": "Something else", "timestamp": "2026-11-17T19:00:00+0000"}]
+    assert publish.already_up("Four new federal laws.\nMore", media)["id"] == "1"  # the oldest copy
+    assert publish.already_up("A different post", media) is None
+
+
+def test_each_part_is_recorded_as_soon_as_it_publishes(monkeypatch):
+    import pytest
+    calls = {"n": 0}
+
+    def graph(method, path, **k):
+        if path.endswith("/media"):
+            return {"id": f"c{len(k)}"}
+        if path.endswith("media_publish"):
+            calls["n"] += 1
+            if calls["n"] == 2:
+                raise RuntimeError('HTTP 403 {"error":{"code":4}}')
+            return {"id": "m1"}
+        return {"status_code": "FINISHED"}
+    monkeypatch.setattr(publish, "graph", graph)
+    monkeypatch.setenv("IG_USER_ID", "u")
+    seen = []
+    m = {"kind": "image", "caption": "c", "files": [{"file": "a.png"}, {"file": "s.png", "story": True}]}
+    with pytest.raises(RuntimeError):
+        publish.publish_one(m, "https://b", seen.append)
+    assert seen[0] == ["m1"]  # the feed post was recorded before the story frame failed
+    assert seen[-1][0] == "m1" and seen[-1][1].startswith("pending:")  # and the story frame is never retried
+
+
+def test_posts_that_open_the_same_way_are_not_mistaken_for_each_other():
+    opening = "One Big Beautiful Bill Act: what changes in 2027. " * 4
+    media = [{"id": "1", "caption": opening + "Medicaid renewals.\n\nSources: a", "timestamp": "t"}]
+    assert publish.already_up(opening + "SNAP cost share.\n\nSources: b", media) is None
+    assert publish.already_up(opening + "Medicaid renewals.\n\nSources: a", media)["id"] == "1"
+
+
+def test_a_story_is_recorded_before_it_publishes_so_a_failure_is_never_retried(monkeypatch):
+    import pytest
+
+    def graph(method, path, **k):
+        if path.endswith("/media"):
+            return {"id": "c1"}
+        if path.endswith("media_publish"):
+            raise RuntimeError('HTTP 403 {"error":{"code":4}}')  # it may have gone out anyway
+        return {"status_code": "FINISHED"}
+    monkeypatch.setattr(publish, "graph", graph)
+    monkeypatch.setenv("IG_USER_ID", "u")
+    seen = []
+    with pytest.raises(RuntimeError):
+        publish.publish_one({"kind": "story", "caption": "", "files": [{"file": "s.png"}]}, "https://b", seen.append)
+    assert seen == [["pending:c1"]]

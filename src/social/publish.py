@@ -15,6 +15,13 @@ Settings come from the environment (GitHub secrets or a local .env; never commit
     python src/social/publish.py --write         # publish up to --limit posts
     python src/social/publish.py --preview <post.yaml>...   # upload built files under previews/, print URLs
     python src/social/publish.py --take-down <post>          # delete a published post from Instagram (file name, no .yaml)
+    python src/social/publish.py --list-media    # what is on the account, matched to post files; posts nothing
+
+Never twice (2026-11-18: retries after errors posted the same post many times):
+- Before posting, recent media on the account is checked for the same caption; a match is recorded, not reposted.
+- A post is recorded the moment its feed post publishes; story frames that fail afterward are reported, not retried.
+- When Instagram says a limit was reached, the run stops and publishing pauses for PAUSE (state/publish-pause.json).
+- One post per run, and a post more than LATE past its slot is not posted: it is listed as missed, to reschedule.
 """
 import argparse
 import datetime as dt
@@ -33,20 +40,69 @@ import yaml
 ROOT = Path(__file__).resolve().parents[2]
 POSTS = ROOT / "social/posts"
 STATE_KEY = "state/published.json"
+PAUSE_KEY = "state/publish-pause.json"
+PAUSE = dt.timedelta(hours=2)
+LATE = dt.timedelta(hours=3)
+LIMIT_CODES = {4, 9, 17, 32, 613}  # Graph API rate and publishing limits
 TYPES = {".png": "image/png", ".jpg": "image/jpeg", ".mp4": "video/mp4", ".json": "application/json"}
 
 
-def due(posts: list[Path], published: dict, now: dt.datetime) -> list[Path]:
-    """Posts not yet published whose publish_after has passed (or that have none), oldest name first."""
+def slot(p: Path) -> dt.datetime | None:
+    when = (yaml.safe_load(p.read_text(encoding="utf-8")) or {}).get("publish_after")
+    return dt.datetime.fromisoformat(str(when)) if when else None
+
+
+EARLIEST = dt.datetime.min.replace(tzinfo=dt.timezone.utc)
+
+
+def due(posts: list[Path], published: dict, now: dt.datetime, late: dt.timedelta | None = None) -> list[Path]:
+    """Posts not yet published whose publish_after has passed (or that have none), earliest slot first.
+    With `late`, a post whose slot passed more than that long ago is left out (see missed())."""
     out = []
-    for p in sorted(posts):
+    for p in posts:
         if p.stem in published:
             continue
-        when = (yaml.safe_load(p.read_text(encoding="utf-8")) or {}).get("publish_after")
-        if when and dt.datetime.fromisoformat(str(when)) > now:
+        when = slot(p)
+        if when and (when > now or (late and now - when > late)):
             continue
         out.append(p)
+    return sorted(out, key=lambda p: (slot(p) or EARLIEST, p.stem))
+
+
+def missed(posts: list[Path], published: dict, now: dt.datetime, late: dt.timedelta) -> list[Path]:
+    """Unpublished posts whose slot passed more than `late` ago: they need a new publish_after."""
+    return sorted(p for p in posts if p.stem not in published and (w := slot(p)) and now - w > late)
+
+
+def limited(err: str) -> bool:
+    """Whether a Graph API error says a rate or publishing limit was reached."""
+    m = re.search(r'"code":\s*(\d+)', err)
+    return bool(m and int(m.group(1)) in LIMIT_CODES)
+
+
+def key(caption: str) -> str:
+    """How captions are compared: the whole caption, spacing and case ignored. Posts in a series open the same
+    way; the full caption (with its sources and hashtags) is what tells them apart."""
+    return " ".join((caption or "").split()).lower()
+
+
+def media_list(most: int = 50) -> list[dict]:
+    """The account's newest media, newest first."""
+    out, after = [], None
+    while len(out) < most:
+        page = graph("GET", f"{env('IG_USER_ID')}/media", limit=min(50, most - len(out)),
+                     fields="id,caption,timestamp,permalink,media_product_type", **({"after": after} if after else {}))
+        out += page.get("data", [])
+        after = ((page.get("paging") or {}).get("cursors") or {}).get("after")
+        if not page.get("data") or not (page.get("paging") or {}).get("next"):
+            break
     return out
+
+
+def already_up(caption: str, media: list[dict]) -> dict | None:
+    """The oldest media already on the account with this caption, if any."""
+    same = [m for m in media if key(m.get("caption", "")) == key(caption)]
+    return min(same, key=lambda m: m.get("timestamp", "")) if same else None
 
 
 def env(name: str, default: str | None = None) -> str:
@@ -62,6 +118,13 @@ def bucket():
                           aws_access_key_id=env("R2_ACCESS_KEY_ID"), aws_secret_access_key=env("R2_SECRET_ACCESS_KEY"),
                           region_name="auto")
     return client, env("R2_BUCKET")
+
+
+def load_json(client, name: str, key_: str) -> dict:
+    try:
+        return json.loads(client.get_object(Bucket=name, Key=key_)["Body"].read())
+    except client.exceptions.NoSuchKey:
+        return {}
 
 
 def load_state(client, name: str) -> dict:
@@ -113,8 +176,9 @@ def make(**params) -> str:
     return container
 
 
-def publish_one(manifest: dict, base: str) -> list[str]:
-    """Publish one built post; the Instagram media IDs, feed post first."""
+def publish_one(manifest: dict, base: str, record=lambda ids: None) -> list[str]:
+    """Publish one built post; the Instagram media IDs, feed post first. `record` gets the IDs after each one
+    publishes, so a failure later in the post never makes a retry publish the earlier parts again."""
     ig, kind, caption = env("IG_USER_ID"), manifest["kind"], manifest["caption"]
     feed = [f for f in manifest["files"] if not f.get("story")]
     stories = [f for f in manifest["files"] if f.get("story")]
@@ -133,8 +197,14 @@ def publish_one(manifest: dict, base: str) -> list[str]:
         stories = feed
     for f in stories:
         containers.append(make(media_type="STORIES", image_url=url(f["file"])))
-    for c in containers:
+    feeds = 0 if kind == "story" else 1
+    for i, c in enumerate(containers):
+        if i >= feeds:
+            # stories have no caption and aren't in /media, so a story that went out despite an error can't be
+            # found later: record it before publishing, and a failed attempt is never retried (a miss, not a twin)
+            record(ids + [f"pending:{c}"])
         ids.append(graph("POST", f"{ig}/media_publish", creation_id=c)["id"])
+        record(list(ids))
     return ids
 
 
@@ -208,14 +278,39 @@ def check_setup() -> int:
     return bad
 
 
+def list_media() -> None:
+    """Print what is on the account, matched to post files by caption, and any post that appears more than once."""
+    keys = {}  # each post's whole written caption; the published one adds sources and hashtags after it
+    for p in sorted(POSTS.glob("*.yaml")):
+        cap = (yaml.safe_load(p.read_text(encoding="utf-8")) or {}).get("caption") or ""
+        if cap.strip():
+            keys[key(cap)] = p.stem
+    media, seen = media_list(200), {}
+    for m in reversed(media):  # oldest first
+        got = key(m.get("caption", ""))
+        hits = [k for k in keys if got == k or got.startswith(k + " ")]
+        stem = keys[max(hits, key=len)] if hits else "?"  # the longest match, if one caption begins another
+        seen.setdefault(stem, []).append(m)
+        print(f"{m.get('timestamp', '')[:16]}  {m.get('media_product_type', ''):6}  {stem}  {m.get('permalink', '')}")
+    print(f"\n{len(media)} media")
+    for stem, ms in seen.items():
+        if stem != "?" and len(ms) > 1:
+            print(f"DUPLICATE x{len(ms)} {stem}: keep {ms[0].get('permalink')}; extra "
+                  + " ".join(x.get("permalink", x["id"]) for x in ms[1:]))
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--write", action="store_true", help="publish (default: list what is due)")
-    ap.add_argument("--limit", type=int, default=3, help="most posts to publish in one run, to space them out")
+    ap.add_argument("--limit", type=int, default=1, help="most posts to publish in one run, to space them out")
     ap.add_argument("--preview", type=Path, nargs="+", help="build these posts and upload them under previews/")
     ap.add_argument("--check-setup", action="store_true", help="test the token and the bucket; posts nothing")
     ap.add_argument("--take-down", metavar="POST", help="delete this published post from Instagram (file name, no .yaml)")
+    ap.add_argument("--list-media", action="store_true", help="list what is on the account; posts nothing")
     args = ap.parse_args()
+    if args.list_media:
+        sys.stdout.reconfigure(encoding="utf-8")
+        return list_media()
     if args.take_down:
         return take_down(args.take_down)
     if args.check_setup:
@@ -236,27 +331,66 @@ def main() -> None:
     now = dt.datetime.now(dt.timezone.utc)
     client, name = bucket()
     state = load_state(client, name)
-    todo = due(list(POSTS.glob("*.yaml")), state, now)
+    save = lambda: client.put_object(Bucket=name, Key=STATE_KEY, Body=json.dumps(state, indent=2).encode(),
+                                     ContentType="application/json")
+    posts = list(POSTS.glob("*.yaml"))
+    for p in missed(posts, state, now, LATE):
+        print(f"MISSED {p.stem}: its slot passed more than {LATE} ago; give it a new publish_after")
+    todo = due(posts, state, now, LATE)
     print(f"{len(todo)} post(s) due" + (f"; publishing up to {args.limit}" if args.write else ""))
+    if not args.write:
+        for p in todo:
+            print(f"  {p.stem}")
+        return
+    if not todo:
+        return
+    pause = load_json(client, name, PAUSE_KEY)
+    if pause.get("until") and dt.datetime.fromisoformat(pause["until"]) > now:
+        print(f"Paused until {pause['until']}: {pause.get('why', '')[:200]}")
+        return
+    try:
+        quota = graph("GET", f"{env('IG_USER_ID')}/content_publishing_limit", fields="quota_usage,config")["data"][0]
+        used, total = quota.get("quota_usage", 0), (quota.get("config") or {}).get("quota_total", 0)
+        print(f"Instagram publishing quota: {used} of {total} used in the last 24 hours")
+        if total and used >= total:
+            return
+    except (RuntimeError, KeyError, IndexError) as e:
+        print(f"(couldn't read the publishing quota: {str(e)[:200]})")
+    try:
+        recent = media_list(50)
+    except RuntimeError as e:
+        # without the list we can't tell whether an earlier attempt went out, so post nothing this run
+        sys.exit(f"couldn't list recent media, so nothing was posted: {e}")
     failed = []
-    for p in todo[:args.limit] if args.write else todo:
+    for p in todo[:args.limit]:
         print(f"  {p.stem}")
-        if not args.write:
-            continue
+
+        def record(ids, stem=p.stem):  # the moment anything publishes, so it is never posted twice
+            state[stem] = {"media": ids, "permalink": (state.get(stem) or {}).get("permalink"),
+                           "published": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")}
+            save()
         try:  # one broken post never stops the others
             out = build.build(p)
             manifest = json.loads((out / "manifest.json").read_text(encoding="utf-8"))
+            up = already_up(manifest["caption"], recent)
+            if up:  # an earlier attempt went out even though Instagram reported an error
+                record([up["id"]])
+                state[p.stem].update(permalink=up.get("permalink"), adopted=True)
+                save()
+                print(f"  already on Instagram, recorded: {up.get('permalink') or up['id']}")
+                continue
             base = upload(client, name, out, "posts")
-            ids = publish_one(manifest, base)
+            ids = publish_one(manifest, base, record)
         except (SystemExit, Exception) as e:
             print(f"  FAILED {p.stem}: {e}")
             failed.append(p.stem)
+            if limited(str(e)):
+                until = (now + PAUSE).isoformat(timespec="seconds")
+                client.put_object(Bucket=name, Key=PAUSE_KEY, ContentType="application/json",
+                                  Body=json.dumps({"until": until, "why": str(e)[:300]}).encode())
+                print(f"  Instagram limit reached: publishing paused until {until}")
+                break
             continue
-        # record at once, so a later failure never publishes the same post twice
-        state[p.stem] = {"media": ids, "permalink": None, "published": now.isoformat(timespec="seconds")}
-        save = lambda: client.put_object(Bucket=name, Key=STATE_KEY, Body=json.dumps(state, indent=2).encode(),
-                                         ContentType="application/json")
-        save()
         try:
             state[p.stem]["permalink"] = graph("GET", ids[0], fields="permalink").get("permalink")
             save()
