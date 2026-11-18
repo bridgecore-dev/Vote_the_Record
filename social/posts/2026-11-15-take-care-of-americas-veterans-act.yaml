@@ -3,7 +3,7 @@ level: congress
 topic: Veterans
 approval: review
 record_ids: ["us/119/H.R. 9237/house-passage-2026-11-11", us/119/2/house/roll/249]
-publish_after: '2026-11-18T19:30:00-06:00'
+publish_after: '2026-11-23T10:30:00-06:00'
 sources:
 - title: "Bill status of H.R. 9237: actions, sponsor, cosponsors and CRS summary (GPO)"
   url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9237.xml
@@ -46,7 +46,7 @@ slides:
   - [Surviving spouses, "Some benefits continue after a spouse remarries"]
   - [Aid and attendance, "An extra $833.33 a month; the House text starts it Dec. 1, 2026"]
   by: "H.R. 9237 as passed, secs. 101, 102 and 104 (Congressional Record, July 16, 2026)"
-  say: "The bill also expands several benefits. Some combat-disabled retirees get full retired pay plus VA pay. Some benefits continue after a surviving spouse remarries. And veterans on aid and attendance would get an extra $833.33 a month; the House text starts it December 1, 2026."
+  say: "It also expands several benefits. Some combat-disabled retirees get full retired pay plus VA pay. Some benefits continue after a surviving spouse remarries. And veterans on aid and attendance would get an extra $833.33 a month; the U.S. House text starts it December 1, 2026."
 - chip: "Before: sleep apnea today"
   head: "VA rates sleep apnea by how severe it is and what treatment it needs."
   rows:
