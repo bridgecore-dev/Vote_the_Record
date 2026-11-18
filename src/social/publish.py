@@ -8,6 +8,11 @@ Settings come from the environment (GitHub secrets or a local .env; never commit
   IG_USER_ID, IG_ACCESS_TOKEN                      the Instagram professional account and its token
   IG_GRAPH_HOST    graph.facebook.com (default; Facebook Login) or graph.instagram.com (Instagram Login)
   IG_GRAPH_VERSION API version, e.g. v23.0 (default)
+  IG_DELETE_TOKEN  optional; used only to delete posts (--take-down, --remove-duplicates --write). The publishing
+                   token is a system-user token, whose configuration can't include instagram_manage_contents. This
+                   one is a Facebook Login user token from the Graph API Explorer (Permissions tab: instagram_basic,
+                   instagram_manage_contents, pages_show_list, pages_read_engagement), extended to 60 days in the
+                   Access Token Debugger. Without it, deletes use IG_ACCESS_TOKEN and Instagram refuses them.
   R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET
   R2_PUBLIC_URL    the bucket's public base URL; Instagram fetches the files from here
 
@@ -147,7 +152,8 @@ def upload(client, name: str, out: Path, prefix: str) -> str:
 def graph(method: str, path: str, **params) -> dict:
     host, version = env("IG_GRAPH_HOST", "graph.facebook.com"), env("IG_GRAPH_VERSION", "v23.0")
     # a caller may pass its own access_token (inbox.py uses the Page's token)
-    data = urllib.parse.urlencode({"access_token": env("IG_ACCESS_TOKEN"), **params})
+    token = (method == "DELETE" and os.environ.get("IG_DELETE_TOKEN")) or env("IG_ACCESS_TOKEN")
+    data = urllib.parse.urlencode({"access_token": token, **params})
     url = f"https://{host}/{version}/{path}"
     req = (urllib.request.Request(url, data=data.encode(), method="POST") if method == "POST"
            else urllib.request.Request(f"{url}?{data}", method=method))

@@ -152,3 +152,30 @@ def test_remove_duplicates_keeps_the_oldest_copy_and_records_it(monkeypatch, tmp
     assert json.loads(fake.saved)["2026-11-14-x"]["media"] == ["1"]
     publish.remove_duplicates(write=True)
     assert deleted == [("DELETE", "2"), ("DELETE", "3")]
+
+
+def test_only_deletes_use_the_delete_token(monkeypatch):
+    import urllib.request as ur
+    pub = publish
+    seen = []
+
+    class Resp:
+        def __enter__(self): return self
+        def __exit__(self, *a): return False
+        def read(self): return b"{}"
+
+    def fake(req, timeout=0):
+        seen.append((req.get_method(), req.full_url + "|" + (req.data or b"").decode()))
+        return Resp()
+
+    monkeypatch.setattr(ur, "urlopen", fake)
+    monkeypatch.setenv("IG_ACCESS_TOKEN", "publishtok")
+    monkeypatch.setenv("IG_DELETE_TOKEN", "deletetok")
+    pub.graph("DELETE", "123")
+    pub.graph("GET", "123", fields="id")
+    pub.graph("POST", "123/media", caption="x")
+    assert "deletetok" in seen[0][1] and "publishtok" not in seen[0][1]
+    assert all("publishtok" in s and "deletetok" not in s for _, s in seen[1:])
+    monkeypatch.delenv("IG_DELETE_TOKEN")
+    pub.graph("DELETE", "123")
+    assert "publishtok" in seen[-1][1]
