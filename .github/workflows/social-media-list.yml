@@ -1,0 +1,27 @@
+name: social media list
+
+# Run by hand: list what is on the Instagram account, matched to post files by caption, and flag any post that
+# appears more than once (src/social/publish.py --list-media). Reads Instagram only; never posts or deletes.
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements-social.txt
+      - run: python src/social/publish.py --list-media
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
+          IG_GRAPH_VERSION: ${{ vars.IG_GRAPH_VERSION }}
