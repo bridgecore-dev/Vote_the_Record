@@ -2,7 +2,7 @@ kind: carousel
 level: congress
 topic: Water
 approval: review
-record_ids: ["us/119/H.R. 9785/house-floor-schedule-2026-11-16"]
+record_ids: ["us/119/H.R. 9785/house-floor-schedule-2026-11-16", "us/119/H.R. 9785/house-passed"]
 publish_after: '2026-11-20T12:00:00-06:00'
 rule: >-
   From the House suspension list for the week of Nov. 16, 2026, we pick the bills that order a federal agency
@@ -18,6 +18,9 @@ sources:
 - title: "House Report 119-863, South Dakota Water Feasibility Studies Act, with CBO cost estimate (GPO)"
   url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt863/html/CRPT-119hrpt863.htm
   retrieved: '2026-11-15'
+- title: "House Clerk, Floor Activities, Nov. 17, 2026"
+  url: https://clerk.house.gov/floor/20261117.xml
+  retrieved: '2026-11-18'
 - title: Congress.gov, H.R. 9785 actions and cosponsors
   url: https://api.congress.gov/v3/bill/119/hr/9785/actions
   retrieved: '2026-11-15'
@@ -26,7 +29,7 @@ bills:
   title: South Dakota Water Feasibility Studies Act
   does: "Would have the Interior Dept. study three projects to pipe Missouri River water to towns, farms and industry."
   affects: "Three regional water systems serving parts of South Dakota, Iowa, Minnesota and Nebraska."
-  where: "Approved by the House Natural Resources Committee by unanimous consent. On the House schedule week of Nov. 16."
+  where: "Passed the U.S. House of Representatives by voice vote Nov. 17, 2026. Next: the U.S. Senate."
   summary:
     text: >-
       This bill directs the Department of the Interior to study the feasibility of constructing projects to
@@ -36,9 +39,10 @@ bills:
     url: https://api.congress.gov/v3/bill/119/hr/9785/summaries
     retrieved: '2026-11-15'
 slides:
-- kicker: "U.S. House · Week of Nov. 16"
+- kicker: "U.S. House of Representatives · Nov. 17"
   big: $30M
   head: "What CBO says it would cost to study three new water projects on the Missouri River, 2027-2031."
+  text: "The U.S. House of Representatives passed the bill by voice vote Nov. 17."
 - chip: What a feasibility study is
   head: "A feasibility study weighs a project's benefits and costs. Here the Bureau of Reclamation would do it."
   text: "For two of the three, the bill requires a public report to Congress recommending whether the project should be authorized for construction."
@@ -65,9 +69,9 @@ slides:
   - [Public, "Two of the three reports must be made public; the third study is optional"]
 - chip: Where it stands
   head: "Sponsor: Rep. Dusty Johnson (R-SD). The committee approved it by unanimous consent."
-  text: "Suspension bills need two-thirds of those voting to pass. Watch at live.house.gov. Should Congress pay half of studies like these?"
+  text: "The U.S. House of Representatives passed it by voice vote Nov. 17, so no member-by-member tally was recorded. Next: the U.S. Senate. Should Congress pay half of studies like these?"
 caption: |-
-  Should three new water projects on the Missouri River be built? H.R. 9785, on the House schedule this week, would order studies to find out.
+  Should three new water projects on the Missouri River be built? H.R. 9785, which the U.S. House of Representatives passed by voice vote Nov. 17, would order studies to find out.
 
   Before: no law directs these studies. After: the Interior Department studies three projects to bring Missouri River water to towns, farms and businesses in South Dakota, Iowa, Minnesota and Nebraska, working with the local water systems.
 
@@ -80,4 +84,8 @@ notes: >-
   version, which matches the report's amendment. The $30M CBO estimate, the 350,000 figure and the project
   descriptions are from H. Rept. 119-863 (the report cites the water systems' own sites for the descriptions).
   Johnson's party and state as the report lists them; congress.gov lists no cosponsors. If the House votes
-  before 3:30 p.m. Nov. 16 (votes usually start 6:30 p.m. Monday), the last slide needs the tally.
+  before 3:30 p.m. Nov. 16 (votes usually start 6:30 p.m. Monday), the last slide needs the tally. Nov 18
+  recheck: the Clerk's floor summary for Nov. 17 shows "On motion to suspend the rules and pass the bill, as
+  amended Agreed to by voice vote" (5:28 p.m. ET), confirmed by congress.gov's actions, so the first slide, last
+  slide, `where` and caption now say it passed by voice vote. The passed text is the reported version listed on
+  docs.house.gov ("as amended").
