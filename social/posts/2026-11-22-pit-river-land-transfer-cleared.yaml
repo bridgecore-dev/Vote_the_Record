@@ -1,0 +1,87 @@
+kind: carousel
+level: congress
+topic: Public lands
+approval: review
+record_ids: ["us/119/H.R. 2400/house-agreed-senate-amendment"]
+publish_after: '2026-11-22T21:00:00-06:00'
+sources:
+- title: U.S. House Clerk, House floor proceedings, Nov. 17, 2026
+  url: https://clerk.house.gov/floor/20261117.xml
+  retrieved: '2026-11-17'
+- title: H.R. 2400 actions (Congress.gov API)
+  url: https://api.congress.gov/v3/bill/119/hr/2400/actions
+  retrieved: '2026-11-17'
+- title: "H.R. 2400, U.S. Senate amendment"
+  url: https://docs.house.gov/billsthisweek/20261116/BILLS-119hr2400eas.pdf
+  retrieved: '2026-11-17'
+- title: "S. Rept. 119-147"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119srpt147/html/CRPT-119srpt147.htm
+  retrieved: '2026-11-17'
+- title: U.S. Constitution, Article I, Section 7 (National Archives transcript)
+  url: https://www.archives.gov/founding-docs/constitution-transcript
+  retrieved: '2026-11-17'
+bills:
+- id: H.R. 2400
+  title: Pit River Land Transfer Act of 2026
+  does: "Has the U.S. hold about 557 acres of Forest Service land in trust for the Pit River Tribe. No gaming allowed."
+  affects: "The Pit River Tribe and the Forest Service land known as Four Corners, in Shasta County, California."
+  where: "Cleared Congress Nov. 17, 2026, when the U.S. House of Representatives agreed to the Senate's changes."
+  summary:
+    text: >-
+      This bill takes approximately 557 acres of specified federal land in Shasta County, California, into trust
+      for the benefit of the Pit River Tribe. The land, known as the Four Corners Property, is currently
+      administered and managed by the Forest Service.
+    title: Congressional Research Service summary of H.R. 2400 (as passed by the U.S. Senate)
+    url: https://api.congress.gov/v3/bill/119/hr/2400/summaries
+    retrieved: '2026-11-17'
+slides:
+- kicker: Cleared Congress · Nov. 17
+  big: 557 acres
+  head: "Congress has passed a bill to put this much Forest Service land in California in trust for the Pit River Tribe."
+  text: "The U.S. House of Representatives agreed to the U.S. Senate's version by voice vote on Nov. 17."
+- chip: "Before → after"
+  head: "The land, known as Four Corners, is in Shasta County, California."
+  rows:
+  - [Before, "Forest Service land"]
+  - [After, "Held in trust for the Pit River Tribe, part of its reservation"]
+  - [Left out, "About 87 acres of roads, highways and rights-of-way"]
+  - [No gaming, "No class II or class III gaming on the land"]
+- chip: "Who gains, who gives up"
+  head: "The Pit River Tribe gains the land. The Forest Service gives it up."
+  rows:
+  - [Gains, "Pit River Tribe"]
+  - [Gives up, "Forest Service"]
+  - [Rights, "Valid existing rights stay"]
+  - [Cost, "Senate report: CBO estimate requested, not received"]
+  text: "The Senate committee report says the tribe has sought this land from the Forest Service since 2012."
+- kicker: How it passed
+  head: "None of the three steps had a recorded roll call."
+  rows:
+  - [U.S. House of Representatives, "Passed by voice vote, Dec. 15, 2025"]
+  - [U.S. Senate, "Passed with changes by unanimous consent, Sept. 30, 2026"]
+  - [U.S. House of Representatives, "Agreed to the Senate's changes by voice vote, Nov. 17, 2026"]
+  text: "With a voice vote or unanimous consent, there is no official list of how each member voted. Sponsor: the late Rep. Doug LaMalfa (R-CA)."
+- kicker: What happens next
+  head: It goes to the President to sign or veto.
+  quote:
+    label: U.S. Constitution, Article I, Section 7
+    text: "If any Bill shall not be returned by the President within ten Days (Sundays excepted) after it shall have been presented to him, the Same shall be a Law, in like Manner as if he had signed it"
+  text: "Status as of Nov. 17. Should Congress move federal land this way? Tell us."
+caption: |-
+  Congress has passed the Pit River Land Transfer Act. On Nov. 17 the U.S. House of Representatives agreed, by voice vote, to the version the U.S. Senate passed in September.
+
+  Before: the Forest Service runs about 557 acres in Shasta County, California, known as Four Corners. After: the U.S. would hold the land in trust for the Pit River Tribe, as part of its reservation, with no gaming. About 87 acres of roads, highways and rights-of-way are left out. The Senate report says the CBO estimate wasn't in yet.
+
+  Next it goes to the President (status as of Nov. 17).
+
+  Should Congress move federal land this way?
+hashtags: [congress, publiclands, tribalnations, california]
+notes: >-
+  New event: the Clerk's Nov. 17 floor log records "On motion that the House suspend the rules and agree to the
+  Senate amendment Agreed to by voice vote" (5:23:55 p.m.), so H.R. 2400 has cleared Congress. Congress.gov's
+  actions hadn't caught up when checked (latest: Nov. 16, message on Senate action). Follows the Nov. 16 schedule
+  post (2026-11-16-pit-river-land-transfer-act), reusing its sourced facts: 557 and 87 acres, gaming ban and valid
+  existing rights from the Senate amendment text; "since 2012" and the CBO line from S. Rept. 119-147. House
+  passage by voice vote Dec. 15, 2025 and Senate passage Sept. 30, 2026 are from the congress.gov actions.
+  If it is presented, signed or vetoed before Nov. 22, update the last slide or delete this file. Sponsor's party
+  and state as congress.gov lists them.
