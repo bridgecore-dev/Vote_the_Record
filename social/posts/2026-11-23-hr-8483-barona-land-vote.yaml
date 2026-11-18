@@ -1,0 +1,90 @@
+kind: reel
+level: congress
+topic: Public lands
+approval: review
+record_ids: ["us/119/2/house/roll/324"]
+publish_after: '2026-11-23T07:30:00-06:00'
+rule: >-
+  Vote posts list every member on the smaller side of the roll call, with party and state as the House Clerk
+  records them. Here no member voted Nay, so there are no names to list.
+sources:
+- title: "U.S. House of Representatives, Office of the Clerk, Roll Call 324 (119th Congress, 2nd Session), H.R. 8483, Nov. 17, 2026"
+  url: https://clerk.house.gov/evs/2026/roll324.xml
+  retrieved: '2026-11-17'
+- title: "U.S. House of Representatives floor schedule, week of Nov. 16, 2026"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-16
+  retrieved: '2026-11-17'
+- title: "House Report 119-858 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt858/html/CRPT-119hrpt858.htm
+  retrieved: '2026-11-17'
+- title: Congress.gov, H.R. 8483 bill record (sponsor, actions)
+  url: https://api.congress.gov/v3/bill/119/hr/8483
+  retrieved: '2026-11-17'
+bills:
+- id: H.R. 8483
+  title: Barona Group of Capitan Grande Band of Mission Indians Land Transfer Act of 2026
+  does: "Would have the U.S. hold about 847 acres of federal land in trust for the Barona Band. Public access stays. No gaming."
+  affects: "The Barona Band of Mission Indians and three parcels in San Diego County, California."
+  where: "Passed the U.S. House of Representatives 398-0 on Nov. 17, 2026. Next: the U.S. Senate."
+  summary:
+    text: >-
+      This bill takes three parcels of specified federal land (approximately 847 acres) in San Diego County,
+      California, into trust for the benefit of the Barona Group of Capitan Grande Band of Mission Indians of the
+      Barona Reservation, California.
+    title: Congressional Research Service summary of H.R. 8483
+    url: https://api.congress.gov/v3/bill/119/hr/8483/summaries
+    retrieved: '2026-11-17'
+  say: "H.R. 8483, the Barona Group of Capitan Grande Band of Mission Indians Land Transfer Act of 2026, would have the United States hold about 847 acres of federal land in trust for the Barona Band. Public access stays, and gaming is not allowed."
+slides:
+- kicker: "U.S. House of Representatives · Nov. 17, 2026"
+  head: "The U.S. House of Representatives voted, with no one against, to put about 847 acres of federal land in trust for the Barona Band."
+  vote: {yea: 398, nay: 0, not_voting: 35}
+  text: "H.R. 8483. It affects the Barona Band and three parcels in San Diego County, California."
+  say: "The United States House of Representatives voted on November 17 to put about 847 acres of federal land in San Diego County in trust for the Barona Band. 398 Yea, 0 Nay, 35 didn't vote."
+- chip: "Before → after"
+  head: "Today two federal agencies run this land. The bill would put all of it in trust, as part of the band's reservation."
+  rows:
+  - [Bureau of Land Management, "164 acres"]
+  - [Forest Service, "683 acres"]
+  - [After, "Held in trust for the Barona Band"]
+  - [Terms, "No gaming; public access to recreation, roads and trails stays"]
+  say: "Before: the Bureau of Land Management runs 164 acres and the Forest Service runs 683. After: the United States would hold all of it in trust for the Barona Band. No gaming, and the public keeps access to recreation, roads and trails."
+- chip: How they voted
+  head: By party, as the House Clerk records it
+  rows:
+  - [Republican, "199 Yea · 0 Nay · 19 didn't vote"]
+  - [Democratic, "199 Yea · 0 Nay · 15 didn't vote"]
+  - [Independent, "0 Yea · 0 Nay · 1 didn't vote"]
+  text: "It came up under \"suspension of the rules,\" so it needed two-thirds of those voting."
+  say: "By party, as the Clerk of the United States House records it. Republican: 199 Yea, 0 Nay, 19 didn't vote. Democratic: 199 Yea, 0 Nay, 15 didn't vote. The one Independent didn't vote. It needed two-thirds of those voting."
+- chip: "Who gains, who gives up"
+  head: "The Barona Band gains the land. Two federal agencies give it up."
+  rows:
+  - [Gains, "Barona Band"]
+  - [Gives up, "Bureau of Land Management and Forest Service"]
+  - [Cost, "Report: CBO estimate requested, not received"]
+  say: "The Barona Band gains the land. The Bureau of Land Management and the Forest Service give it up. The committee report says a Congressional Budget Office cost estimate was requested but not received."
+- chip: Your turn
+  head: "Sponsor: Rep. Darrell Issa (R-CA). Next, the U.S. Senate."
+  text: "Every name is in roll call 324 at clerk.house.gov/Votes. Should Congress move federal land this way? Tell us."
+  say: "The sponsor is Representative Darrell Issa, Republican of California. Next, the United States Senate. Every name is in roll call 324 at clerk.house.gov. Should Congress move federal land this way? Tell us."
+caption: |-
+  On Nov. 17, the U.S. House of Representatives passed H.R. 8483, 398-0, with 35 members not voting.
+
+  Before: the Bureau of Land Management runs 164 acres and the Forest Service runs 683 acres in San Diego County, California. After: the U.S. would hold all of it in trust for the Barona Band, as part of the band's reservation. No gaming; the public keeps access to recreation, roads and trails; the band maintains the fuel break.
+
+  By party, per the House Clerk: Republicans 199 Yea, 0 Nay; Democrats 199 Yea, 0 Nay; the one Independent didn't vote. The committee report says the CBO cost estimate was requested but not received.
+
+  Next it goes to the U.S. Senate. Should Congress move federal land this way?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, housevote, publiclands, tribalnations, california]
+notes: >-
+  New: roll call 324 (Nov. 17, 6:56 p.m. ET, "On Motion to Suspend the Rules and Pass, as Amended") was not covered;
+  the Nov. 17 Reel (2026-11-16-barona-land-transfer-act) covered H.R. 8483 only as a scheduled bill. Tally and party
+  totals are from the Clerk's roll XML. Acreage, terms (no class II/III gaming, public access, fuel break) and the
+  "requested but not received" CBO line are from H. Rept. 119-858, reopened this run; it lists no dissenting views.
+  The passed text is the reported version ("as amended" on docs.house.gov). Congress.gov's actions hadn't shown the
+  vote yet when checked. Sponsor's party and state as the bill record lists them. No Nay votes, so no names slide.
+  cbo.gov was not tried (it has refused earlier runs); check it for a later estimate. Nov. 18-22 regular slots are
+  full, so this takes Nov. 23 7:30 a.m., the first free Reel slot (before the 9:00 a.m. post on H.R. 9600).
