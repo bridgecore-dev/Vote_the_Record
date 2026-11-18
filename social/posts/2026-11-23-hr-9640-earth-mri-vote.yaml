@@ -1,0 +1,94 @@
+kind: carousel
+level: congress
+topic: Energy and minerals
+approval: review
+record_ids: ["us/119/2/house/roll/326"]
+publish_after: '2026-11-23T15:00:00-06:00'
+rule: >-
+  Vote posts list every member on the smaller side of the roll call, with party and state as the House Clerk
+  records them. Here that is the 14 Nay votes.
+sources:
+- title: "U.S. House of Representatives, Office of the Clerk, Roll Call 326 (119th Congress, 2nd Session), H.R. 9640, Nov. 18, 2026"
+  url: https://clerk.house.gov/evs/2026/roll326.xml
+  retrieved: '2026-11-18'
+- title: "Congressional Record, Nov. 17, 2026, House, pages H6244-H6246: Earth MRI Reauthorization Act of 2026 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-11-17/html/CREC-2026-11-17-pt1-PgH6244.htm
+  retrieved: '2026-11-18'
+- title: "House Report 119-862, Earth MRI Reauthorization Act of 2026 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt862/html/CRPT-119hrpt862.htm
+  retrieved: '2026-11-18'
+- title: Congress.gov, H.R. 9640 bill record (sponsor, cosponsors, actions)
+  url: https://api.congress.gov/v3/bill/119/hr/9640
+  retrieved: '2026-11-18'
+bills:
+- id: H.R. 9640
+  title: Earth MRI Reauthorization Act of 2026
+  does: "Renews a USGS program that maps U.S. minerals, like lithium, through 2031, and favors U.S.-owned contractors."
+  affects: "The U.S. Geological Survey and the companies it hires to map rock, minerals and water."
+  where: "Passed the U.S. House of Representatives 396-14 on Nov. 18, 2026. Next: the U.S. Senate."
+  summary:
+    text: >-
+      This bill reauthorizes through FY2031 the Earth Mapping Resources Initiative, a U.S. Geological Survey
+      (USGS) program charged with integrating and modernizing the mapping of U.S. natural resources, with a
+      focus on critical mineral resources such as lithium and titanium.
+    title: Congressional Research Service summary of H.R. 9640
+    url: https://api.congress.gov/v3/bill/119/hr/9640/summaries
+    retrieved: '2026-11-18'
+slides:
+- kicker: "U.S. House of Representatives · Nov. 18, 2026"
+  head: "The U.S. House of Representatives voted to renew the federal program that maps U.S. minerals, through 2031."
+  vote: {yea: 396, nay: 14, not_voting: 23}
+  text: "H.R. 9640, the Earth MRI Reauthorization Act. It affects the U.S. Geological Survey and the companies it hires."
+- chip: "Before → after"
+  head: "Earth MRI maps rock, minerals and water under the ground. The bill sets its next five years."
+  rows:
+  - [Now, "Up to $320 million for 2022-2026"]
+  - [After, "Adds up to $84 million for 2027-2031"]
+  - [Contracts, "Preference for U.S.-owned companies"]
+  - [Every bidder, "Must disclose who owns it"]
+  text: "These are the most Congress allows, not money spent. Companies that aren't U.S.-owned get no preference."
+- chip: Cost
+  head: "The committee report didn't have CBO's cost estimate when it was filed."
+  text: "Congress still has to set aside the money each year. The 2021 money was \"in addition to annual appropriations,\" the report says."
+- chip: For and against
+  head: "Every member who spoke in the debate backed it. One said it gives less money than before."
+  quote: {label: "Rep. Melanie Stansbury (D-NM), Congressional Record, Nov. 17, 2026", text: "I will say the bill would reauthorize substantially less than the original $320 million provided in the infrastructure bill."}
+  text: "No member spoke against it in the debate."
+- chip: How they voted
+  head: By party, as the House Clerk records it
+  rows:
+  - [Republican, "190 Yea · 14 Nay · 14 didn't vote"]
+  - [Democratic, "206 Yea · 0 Nay · 8 didn't vote"]
+  - [Independent, "0 Yea · 0 Nay · 1 didn't vote"]
+  text: "It came up under \"suspension of the rules,\" so it needed two-thirds of those voting."
+- chip: Voted Nay
+  head: "The 14 Nay votes, as the Clerk lists them"
+  text: "Biggs (R-AZ), Burchett (R-TN), Burlison (R-MO), Cloud (R-TX), Clyde (R-GA), Crane (R-AZ), Fine (R-FL), Harris (R-MD), Massie (R-KY), Miller (R-IL), Norman (R-SC), Perry (R-PA), Roy (R-TX), Self (R-TX)"
+- chip: Why?
+  head: "A roll call records each vote, not the reasons for it."
+  text: "None of the 14 spoke in the debate, and the committee report has no views against the bill."
+- chip: Your turn
+  head: "Next, the U.S. Senate. How did your representative vote?"
+  text: "Every name is in roll call 326 at clerk.house.gov/Votes. How much should this mapping get? Tell us."
+caption: |-
+  On Nov. 18, the U.S. House of Representatives passed H.R. 9640, the Earth MRI Reauthorization Act, 396-14, with 23 members not voting.
+
+  Earth MRI is a U.S. Geological Survey program that maps what's under the ground: rock, minerals like lithium, and water. Congress authorized up to $320 million for it for 2022 through 2026. This bill adds up to $84 million for 2027 through 2031. USGS would have to favor U.S.-owned contractors where it can, and every bidder would have to say who owns it.
+
+  Every member who spoke in the debate backed the bill. Rep. Melanie Stansbury (D-NM) said it "would reauthorize substantially less than the original $320 million."
+
+  By party, per the House Clerk: Republicans 190 Yea, 14 Nay; Democrats 206 Yea, 0 Nay; the one Independent didn't vote. All 14 Nay names are in the slides. The roll call doesn't record reasons.
+
+  Next it goes to the U.S. Senate. How much should this mapping get? Tell us below.
+hashtags: [congress, housevote, criticalminerals, usgs, votetherecord]
+notes: >-
+  New: roll call 326 (Nov. 18, 12:54 p.m. ET) was not covered; the Nov. 16 Reel covered H.R. 9640 only as a scheduled
+  bill. Tally, party totals and all 14 Nay names (party and state) are from the Clerk's roll XML; "Harris (MD)" and
+  "Biggs (AZ)" drop the Clerk's state tag since the state is shown. The text passed (CR H6244-6245, "as amended") matches
+  the reported text: "$84,000,000 for the period of fiscal years 2027 through 2031", the contractor preference and the
+  ownership disclosure. The $84 million is added to the 2022-2026 $320 million line, not a replacement for it, so slide 2
+  says "Adds". "No member spoke against it": the CR shows Westerman, Stansbury, Wittman, Stauber and Crank, all in
+  support; the report has Huffman's additional views (also supportive, wanting more money) and no dissenting views.
+  Cost: the report says CBO's estimate wasn't received in time; congress.gov lists one (cbo.gov/publication/62857), not
+  opened because cbo.gov has blocked earlier runs. Takes Nov. 23 3:00 p.m., the first free post slot (Nov. 19-22 regular
+  slots are full; optional pairs need both halves).
