@@ -105,7 +105,8 @@ def test_each_part_is_recorded_as_soon_as_it_publishes(monkeypatch):
     m = {"kind": "image", "caption": "c", "files": [{"file": "a.png"}, {"file": "s.png", "story": True}]}
     with pytest.raises(RuntimeError):
         publish.publish_one(m, "https://b", seen.append)
-    assert seen == [["m1"]]  # the feed post was recorded before the story frame failed
+    assert seen[0] == ["m1"]  # the feed post was recorded before the story frame failed
+    assert seen[-1][0] == "m1" and seen[-1][1].startswith("pending:")  # and the story frame is never retried
 
 
 def test_posts_that_open_the_same_way_are_not_mistaken_for_each_other():
