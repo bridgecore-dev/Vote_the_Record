@@ -64,9 +64,11 @@ STATES = ("Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaw
           "Mississippi|Missouri|Montana|Nebraska|Nevada|New Hampshire|New Jersey|New Mexico|New York|North Carolina|"
           "North Dakota|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode Island|South Carolina|South Dakota|Tennessee|Texas|"
           "Utah|Vermont|Virginia|Washington|West Virginia|Wisconsin|Wyoming")
-CHAMBER = re.compile(r"\b(House|Senate)\b")
+CHAMBER = re.compile(r"\b(House|Senate)\b(?! (?:Concurrent |Joint )?Resolution)")  # "House Resolution 1655" is a name
 NAMED_CHAMBER = re.compile(rf"(?:\bUnited States|\bU\.S\.|\b(?:{STATES})(?:'s)?|\bWhite) $")
 VOICED_FROM = "2026-11-15"  # every Reel has a voice from here on (owner's request, 2026-11-15)
+# the voice reads "H.Res." as letters: say "House Resolution", "Senate Joint Resolution" (owner's request, 2026-11-18)
+SPOKEN_RES = re.compile(r"\b(?:[HS]\.? ?(?:J\.? ?|Con\.? ?)?Res\b\.?|\bRes\.)")
 DISCLOSURE = "Voice: computer-generated (Kokoro text-to-speech)."
 VOICE = {"name": "af_heart", "speed": 1.0}  # af_heart: Kokoro's clearest American English voice
 VOICE_NAME = re.compile(r"[a-z]{2}_[a-z]+")
@@ -347,6 +349,11 @@ def check(post: dict) -> list[str]:
             m = CHAMBER.search(str(say))
             if m and not NAMED_CHAMBER.search(str(say)[:m.start()]):
                 errs.append(f"{where}: say \"{m[0]}\" with its name, e.g. \"United States {m[0]}\" or \"Texas {m[0]}\"")
+    if post.get("kind") == "reel":
+        for where, say, _ in says(post):
+            m = SPOKEN_RES.search(str(say))
+            if m:
+                errs.append(f"{where}: say \"{m[0]}\" in full, e.g. \"House Resolution\" or \"Senate Joint Resolution\"")
     v = post.get("voice")
     if v not in (None, True):
         if not isinstance(v, dict):

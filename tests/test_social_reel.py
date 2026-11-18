@@ -330,3 +330,21 @@ def test_reels_name_the_chamber(say, ok):
 def test_abbreviations_do_not_end_a_sentence():
     assert reel.sentences("The U.S. House passed it on Nov. 11. Rep. Bost spoke. Next: the Senate.") == [
         "The U.S. House passed it on Nov. 11.", "Rep. Bost spoke.", "Next: the Senate."]
+
+
+@pytest.mark.parametrize("say, ok", [
+    ("House Resolution 1655 would impeach him.", True), ("H.Res. 1655 would impeach him.", False),
+    ("H. Res. 1486 was tabled.", False), ("S.J.Res. 12 is next.", False), ("H.Con.Res. 3", False),
+    ("Senate Joint Resolution 12 is next.", True), ("The resolution passed.", True), ("Restaurants reopen.", True),
+])
+def test_the_voice_says_resolution_in_full(say, ok):
+    post = {"kind": "reel", "publish_after": "2026-11-19T07:30:00-06:00", "slides": [{"head": say, "say": say}],
+            "caption": "x\n\nVoice: computer-generated (Kokoro text-to-speech)."}
+    assert (not any("in full" in e for e in reel.check(post))) == ok
+
+
+def test_a_resolution_name_is_not_a_chamber():
+    post = {"kind": "reel", "publish_after": "2026-11-19T07:30:00-06:00",
+            "slides": [{"head": "H.Con.Res. 93", "say": "House Concurrent Resolution 93 passed the United States House."}],
+            "caption": "x\n\nVoice: computer-generated (Kokoro text-to-speech)."}
+    assert reel.check(post) == []
