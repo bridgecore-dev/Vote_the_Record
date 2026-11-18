@@ -1,0 +1,88 @@
+kind: reel
+level: congress
+topic: Wildlife
+approval: review
+record_ids: ["us/119/H.R. 7954/house-passed"]
+publish_after: '2026-11-23T13:30:00-06:00'
+sources:
+- title: U.S. House Clerk, House floor proceedings, Nov. 17, 2026
+  url: https://clerk.house.gov/floor/20261117.xml
+  retrieved: '2026-11-18'
+- title: H.R. 7954 actions (Congress.gov API)
+  url: https://api.congress.gov/v3/bill/119/hr/7954/actions
+  retrieved: '2026-11-18'
+- title: "H.R. 7954, Don Young Doug LaMalfa Indian Buffalo Management Act, text as reported (docs.house.gov)"
+  url: https://docs.house.gov/billsthisweek/20261116/h7954_rh_xml.pdf
+  retrieved: '2026-11-18'
+- title: "House Report 119-856, Don Young Doug LaMalfa Indian Buffalo Management Act (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt856/html/CRPT-119hrpt856.htm
+  retrieved: '2026-11-18'
+- title: Congress.gov, H.R. 7954 bill record and cosponsors (API)
+  url: https://api.congress.gov/v3/bill/119/hr/7954/cosponsors
+  retrieved: '2026-11-18'
+bills:
+- id: H.R. 7954
+  title: Don Young Doug LaMalfa Indian Buffalo Management Act
+  does: "Would have the Interior Dept. give tribes contracts, grants and help to restore and manage buffalo, for 7 years."
+  affects: "Indian tribes and tribal groups with buffalo experience, and surplus buffalo on Interior land."
+  where: "Passed the U.S. House of Representatives by voice vote on Nov. 17, 2026. Next: the U.S. Senate."
+  summary:
+    text: >-
+      This bill directs the Department of the Interior to work with Indian Tribes and tribal organizations to
+      develop and promote tribal ownership and management of buffalo and buffalo habitat on Indian lands.
+    title: Congressional Research Service summary of H.R. 7954
+    url: https://api.congress.gov/v3/bill/119/hr/7954/summaries
+    retrieved: '2026-11-18'
+  say: "H.R. 7954, the Don Young Doug LaMalfa Indian Buffalo Management Act, would have the Interior Department give tribes contracts, grants and help to restore and manage buffalo, for 7 years. It passed the United States House by voice vote. Next is the United States Senate."
+slides:
+- kicker: "U.S. House of Representatives · Nov. 17, 2026"
+  big: Voice vote
+  head: "The U.S. House of Representatives passed a bill to help tribes restore and manage buffalo herds."
+  text: "H.R. 7954. It affects Indian tribes and tribal groups with buffalo experience."
+  say: "On November 17, the United States House of Representatives passed a bill, by voice vote, to help tribes restore and manage buffalo herds. It affects Indian tribes and tribal groups with buffalo experience."
+- chip: "Before → after"
+  head: "Today tribes rebuild herds on their own and through the Intertribal Buffalo Council, the committee report says."
+  rows:
+  - [Before, "Council of 90 tribes in 23 states, founded 1991"]
+  - [After, "Interior must offer contracts, grants and technical help"]
+  - [Consult, "On Interior plans that affect buffalo, incl. sick herds"]
+  - [Surplus, "Interior may send extra buffalo on its land to tribes"]
+  say: "Before: tribes rebuild herds on their own and through the Intertribal Buffalo Council, founded in 1991, with 90 tribes in 23 states, the report says. After: Interior must offer contracts, grants and technical help, consult tribes, and may send surplus buffalo to tribes."
+- chip: "Who gains, what it costs"
+  head: "Tribes and tribal groups gain the help. The bill sets no dollar amount."
+  rows:
+  - [Gains, "Tribes and tribal groups with buffalo experience"]
+  - [Gives up, "Interior may waive its charges for surplus buffalo"]
+  - [Stays, "Federal and state rules on sick or escaped buffalo"]
+  - [Cost, "Report: CBO estimate requested, not received"]
+  - [Ends, "7 years after it becomes law"]
+  say: "Tribes and tribal groups gain the help. The bill sets no dollar amount. Interior may waive its charges for surplus buffalo. Rules on sick or escaped buffalo stay. A cost estimate was requested but not received. It ends 7 years after it becomes law."
+- kicker: How it passed
+  head: "A voice vote records the result, not each member's vote, so there is no list of how each one voted."
+  text: "It came up under \"suspension of the rules,\" the House Clerk's floor log shows."
+  say: "It passed by voice vote. A voice vote records the result, not each member's vote, so there is no official list of how each one voted. It came up under suspension of the rules, the Clerk's floor log shows."
+- chip: Your turn
+  head: "Sponsor: Rep. Jeff Hurd (R-CO), with 8 Republican and 7 Democratic cosponsors. Next, the U.S. Senate."
+  text: "Should the Interior Department take this on? Tell us."
+  say: "The sponsor is Representative Jeff Hurd, Republican of Colorado, with 8 Republican and 7 Democratic cosponsors. Next, the United States Senate. Should the Interior Department take this on? Tell us."
+caption: |-
+  On Nov. 17 the U.S. House of Representatives passed H.R. 7954 by voice vote, so there is no list of how each member voted.
+
+  Before: tribes rebuild buffalo herds themselves and through the Intertribal Buffalo Council, which the House committee report says has 90 tribes in 23 states. After: for seven years, the Interior Department must offer tribes and tribal groups contracts, grants and technical help, consult them on plans that affect buffalo (including sick herds), and may send surplus buffalo from its land to tribes, waiving its charges.
+
+  The bill names no dollar amount. The committee asked CBO for a cost estimate and had not received it. Federal and state rules on sick or escaped buffalo stay in place.
+
+  Next it goes to the U.S. Senate. Should Interior take this on?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, buffalo, bison, tribalnations, votetherecord]
+notes: >-
+  New event: the Clerk's Nov. 17 floor log and congress.gov actions both record "On motion to suspend the rules and
+  pass the bill Agreed to by voice vote" (4:16:43 p.m.). Follows the Nov. 16 schedule Reel
+  (2026-11-16-indian-buffalo-management-act). The bill passed without "as amended", so the reported text is the
+  passed text. Before/after: the Intertribal Buffalo Council facts are from H. Rept. 119-856; "on their own" restates
+  the report's "Tribes have been instrumental in facilitating buffalo's successful return". Waiver (sec. 7(c)),
+  no-diminishment of laws on diseased or escaped buffalo (sec. 4(b)(2)) and the 7-year sunset (sec. 9) are from the
+  bill text, which has no authorization of appropriations. Cosponsors (8 R, 7 D, none withdrawn) and Hurd's party and
+  state from congress.gov. The report has no minority views, so there is no official case against to quote. If the
+  U.S. Senate acts before Nov. 23, update `where` and the last slide.
