@@ -1,0 +1,104 @@
+kind: reel
+level: state
+place: Texas
+topic: Wages
+approval: review
+rule: Every bill filed Nov. 18, 2026 whose Texas Legislature Online caption is about the minimum wage (said on the last
+  slide).
+record_ids: [tx/90R/HB 1241/filed]
+publish_after: '2026-11-24T19:30:00-06:00'
+sources:
+- title: TLO, bills filed Nov. 18, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-18
+  retrieved: '2026-11-19'
+- title: TLO, HB 1241 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1241
+  retrieved: '2026-11-19'
+- title: Texas Labor Code, Chapter 62 (minimum wage)
+  url: https://statutes.capitol.texas.gov/Docs/LA/htm/LA.62.htm
+  retrieved: '2026-11-19'
+- title: 29 U.S.C. 206, federal minimum wage (GPO)
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title29/html/USCODE-2023-title29-chap8-sec206.htm
+  retrieved: '2026-11-19'
+bills:
+- id: HB 1241
+  does: Would set Texas's minimum wage at $15 an hour, or the federal minimum if that is ever higher, from Sept. 1, 2027.
+  affects: Texas employers and the employees the state minimum wage law covers; its exemptions are not changed.
+  where: Filed Nov. 18, 2026 by Rep. Ezeonu; no other action yet.
+  summary:
+    text: >-
+      an employer shall pay to each employee not less than the greater of: (1) $15 an hour; or (2) the federal minimum
+      wage under Section 6, Fair Labor Standards Act of 1938 (29 U.S.C. Section 206).
+    title: HB 1241 as filed (Sec. 1, Labor Code 62.051)
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/HB01241I.pdf
+    retrieved: '2026-11-19'
+  say: HB 1241 would set Texas's minimum wage at 15 dollars an hour, or the federal minimum if that is ever higher. It was
+    filed November 18 by Representative Ezeonu, with no other action yet.
+slides:
+- kicker: 2027 Texas session · Filed Nov. 18, 2026
+  big: $15
+  head: A Texas House of Representatives bill would raise the state's minimum wage to $15 an hour.
+  say: A Texas House of Representatives bill filed November 18 would raise the state's minimum wage to 15 dollars an
+    hour.
+- chip: The law today
+  big: $7.25
+  head: Texas law sets its minimum wage at the federal one, $7.25 an hour.
+  quote: {label: Texas Labor Code 62.051, text: "an employer shall pay to each employee the federal minimum wage", key: "the federal minimum wage"}
+  text: "Federal law: $7.25 an hour (29 U.S.C. 206). The state law also doesn't apply to workers the federal law covers (62.151)."
+  say: 'The law today: Texas sets its minimum wage at the federal one, 7.25 dollars an hour. And the state law does not
+    apply to workers the federal law already covers.'
+- chip: What would change
+  head: HB 1241 rewrites one section and repeals another.
+  rows:
+  - [Before, "Federal minimum: $7.25 an hour"]
+  - [After, "$15 an hour, or the federal minimum if higher"]
+  - [Repealed, "The rule that the state law skips workers the federal law covers (62.151)"]
+  say: 'What would change: before, 7.25 dollars an hour. After, 15 dollars, or the federal minimum if higher. And the rule
+    that the state law skips workers covered by federal law would be repealed.'
+- chip: Not changed
+  head: The state law's exemptions stay, so the $15 wouldn't apply to these workers, among others.
+  rows:
+  - Most workers under 18 who haven't finished high school
+  - Students under 20 enrolled in high school, college or job training
+  text: "Labor Code 62.155. The bill doesn't change the rules for tipped workers (62.052) or cities (62.0515), either."
+  say: The state law's exemptions stay. So the 15 dollars would not apply to most workers under 18 who have not finished
+    high school, or to students under 20, among others.
+- chip: Who pays
+  head: Employers would pay the higher wage. No cost estimate is posted yet.
+  text: No fiscal note is listed on the bill's page, and no official count of affected workers was found.
+  say: Employers would pay the higher wage. No cost estimate is posted yet, and no official count of affected workers was
+    found.
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, the bill takes effect on this date.
+  text: "How we picked: every bill filed Nov. 18, 2026 whose caption is about the minimum wage. Should Texas set its own minimum wage?"
+  say: If passed as filed, the bill takes effect September 1, 2027. How we picked, every bill filed November 18 about the
+    minimum wage. Should Texas set its own minimum wage?
+caption: |-
+  Today, Texas law sets the state's minimum wage at the federal one: $7.25 an hour. The state law also doesn't apply to workers the federal law already covers.
+
+  HB 1241, filed in the Texas House of Representatives for the 2027 session, would change that. Employers would have to pay at least $15 an hour, or the federal minimum if it is ever higher. The rule that the state law skips workers covered by federal law would be repealed.
+
+  What stays: the state law's exemptions. Most workers under 18 who haven't finished high school, and students under 20, are exempt from the state law, and the bill doesn't change that.
+
+  Employers would pay the higher wage. No cost estimate is posted yet. If passed as filed, it takes effect Sept. 1, 2027.
+
+  Should Texas set its own minimum wage?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [txlege, texaslegislature, minimumwage, votetherecord]
+notes: >-
+  New: filed Nov. 18, 2026; no earlier post covers it. Rule: the Nov. 18 filing report's captions; HB 1241 ("Relating to
+  the minimum wage") is the only one about the minimum wage (HB 1221, 1222 and 1232 are about unemployment pay and
+  unpaid-wage claims). Records opened 2026-11-19: the filing report, the bill history (filed, no other action; author
+  listed only as "Ezeonu"), the introduced PDF (HTML not posted yet; sha256
+  0a803b11e148302d3903e35ccc2b154f6432734a0a0932d69a387d9904fce910; 3 sections: amends 62.051, repeals 62.151, effective
+  Sept. 1, 2027, no two-thirds clause), Labor Code Chapter 62 (rendered from statutes.capitol.texas.gov: 62.051, 62.052,
+  62.0515, 62.151, 62.155), and 29 U.S.C. 206 from GPO's 2023 U.S. Code ($7.25). dol.gov returned 403 and wasn't retried;
+  please confirm no federal law since 2023 changed $7.25. "Most workers under 18 who haven't finished high school" is our
+  short form of 62.155(1) (it also excludes piece-rate farm workers and vocational graduates). The bill doesn't amend
+  62.052 (tipped workers follow the federal 3(m) formula) or 62.0515 (the state minimum supersedes city ordinances for
+  private jobs); how 3(m) would interact with a $15 state minimum isn't stated in the bill, so the slide says only that
+  those sections aren't changed. "Employers would pay the higher wage" restates the bill's "an employer shall pay";
+  no source states who gains or loses beyond that, and no official statement for or against was found, so the post
+  asks. Takes Nov. 24 7:30 p.m. (Reel after the 3:00 p.m. carousel; Nov. 19-23 base slots are full).
