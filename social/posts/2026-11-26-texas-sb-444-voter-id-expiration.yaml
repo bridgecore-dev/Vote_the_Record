@@ -1,0 +1,88 @@
+kind: carousel
+level: state
+place: Texas
+topic: Elections
+approval: review
+rule: Every bill on the Texas Legislature's Nov. 19, 2026 filing report about what a voter must show to vote. SB 444 is
+  the only one (said on the last slide).
+record_ids: [tx/90R/SB 444/filed]
+publish_after: '2026-11-26T09:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 19, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-19
+  retrieved: '2026-11-19'
+- title: Texas Legislature Online, SB 444 bill history (90th Legislature)
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB444
+  retrieved: '2026-11-19'
+- title: Texas Election Code, Chapter 63 (Sec. 63.0101, proof of identification)
+  url: https://statutes.capitol.texas.gov/Docs/EL/htm/EL.63.htm
+  retrieved: '2026-11-19'
+bills:
+- id: SB 444
+  does: Would let a Texas ID, military ID or handgun license count for voting up to 1 year after it expires, not 4.
+  affects: Voters under 70 whose ID expired 1 to 4 years ago, and holders of some IDs issued to noncitizens.
+  where: Filed Nov. 19, 2026 by Sen. Hall; no other action yet.
+  summary:
+    text: >-
+      one of the following forms of identification issued to the person by the Department of Public Safety that has
+      not expired or that expired no earlier than one year before the date of presentation
+    title: SB 444 as filed, Sec. 1 (Election Code 63.0101(a)(1))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/SB00444I.pdf
+    retrieved: '2026-11-19'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 19, 2026
+  big: 4 years → 1
+  head: A Texas Senate bill would shorten how long an expired photo ID still counts when you vote.
+- chip: The law today
+  head: Texas voters show one of seven photo IDs. Most can be expired up to 4 years and still count.
+  quote:
+    label: Texas Election Code 63.0101(a)(1)
+    text: issued to the person by the Department of Public Safety that has not expired or that expired no earlier than four years before the date of presentation
+  text: Voters 70 or older can use an expired ID on the list if it's otherwise valid (63.0101(c)).
+- chip: What would change
+  head: How long after it expires each ID would still count.
+  rows:
+  - [Texas driver's license, "Today 4 years · SB 444: 1 year"]
+  - [Election ID certificate, "Today 4 years · SB 444: 1 year"]
+  - [Texas personal ID card, "Today 4 years · SB 444: 1 year"]
+  - [U.S. military ID, "Today 4 years · SB 444: 1 year"]
+  - [Handgun license, "Today 4 years · SB 444: 1 year"]
+  - [U.S. passport book or card, "No change: 4 years"]
+  - [Citizenship certificate, "No change (it has no expiration rule)"]
+- chip: Also new
+  head: Some IDs issued to noncitizens would no longer count.
+  text: A Texas driver's license, personal ID card or handgun license would not count if, when it was issued, the person wasn't a U.S. citizen, national, permanent resident, refugee or asylee.
+  quote:
+    label: SB 444 as filed
+    text: not a citizen, national, or legal permanent resident of the United States or a refugee or asylee lawfully admitted into the United States at the time of issuance
+- chip: Not changed
+  head: The rule for voters 70 and older stays.
+  text: The bill rewrites only the photo ID list, 63.0101(a). Voters 70 or older could still use an expired ID on the list if it's otherwise valid.
+- chip: Who pays
+  head: No cost estimate is posted yet.
+  text: No fiscal note is listed on the bill's page. The bill doesn't say how many voters it would affect.
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, it takes effect on this date, or right away with a two-thirds vote in each chamber.
+  text: "It would apply to elections ordered after it takes effect. How we picked: every bill on the Nov. 19 filing report about what a voter must show. SB 444 was the only one. How long should an expired ID still count?"
+caption: |-
+  Today, Texas voters show one of seven kinds of photo ID. A Texas driver's license, election ID certificate, personal ID card, U.S. military ID, handgun license or U.S. passport still counts up to 4 years after it expires. Voters 70 and older can use an expired one if it's otherwise valid.
+
+  SB 444, filed in the Texas Senate for the 2027 session, would cut that to 1 year for everything except the passport, which stays at 4. A Texas driver's license, ID card or handgun license also wouldn't count if, when it was issued, the person wasn't a U.S. citizen, national, permanent resident, refugee or asylee.
+
+  The rule for voters 70 and older doesn't change. No cost estimate is posted yet. If passed as filed, it takes effect Sept. 1, 2027, or right away with a two-thirds vote in each chamber.
+
+  How long should an expired ID still count?
+hashtags: [txlege, texaslegislature, texaselections, voterid, votetherecord]
+notes: >-
+  New: filed Nov. 19, 2026; no earlier post covers it. Rule: the Nov. 19 filing report has three election bills (SB 443,
+  election clerks; SB 444; SB 445, county election officers' training); SB 444 is the only one about what a voter must
+  show, and the other two could get their own posts. Records opened 2026-11-19: the filing report, the bill history
+  (filed, no other action; author "Hall"; subjects include Elections--Registration & Suffrage), the introduced PDF
+  (HTML not posted; 90R1388 JDK-D; sha256 f9311444c3d94643288ff91fc05fef3fb5ba16866b10dc78d9ea00e21468fbe9), and
+  Election Code 63.0101 (rendered from statutes.capitol.texas.gov). The PDF text extraction loses underlining, so
+  please check the "before/after" against the PDF: current (a)(1)-(5) all say "four years"; the bill's (a)(1), (2) and
+  (5) say "one year" with "[four years]" bracketed as struck, and (4) (passport) keeps "four years". The noncitizen
+  exclusion is written into (1)(A) driver's license, (1)(C) personal ID card and (5) handgun license, not the election
+  ID certificate or military ID. "Seven photo IDs" counts the IDs named in current 63.0101(a). The bill doesn't amend
+  (b)-(d). Takes Nov. 26's 9:00 a.m. post slot (Nov. 19-25 post slots are full).
