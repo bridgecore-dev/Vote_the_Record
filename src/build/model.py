@@ -237,7 +237,8 @@ def load_site(root: Path, today: str) -> dict:
         for cand in race["candidates"]:
             cand["profile_url"] = profiles.get(cand["file_path"])
 
-    return {"officials": officials, "facts": facts,
+    from congress import assemble_congress  # noqa: E402
+    return {"officials": officials, "facts": facts, "congress": assemble_congress(docs),
             "races": races, "measures": measures, "essentials": essentials, "corrections": corrections,
             "ballots": ballots, "results": results, "other_races": [r for r in races if r["path"] not in on_ballot],
             "zip_index": zip_index, "county_index": county_index, "who_decides": load_who_decides(docs)}
@@ -305,6 +306,8 @@ def fact_index(docs: dict) -> dict[str, dict]:
             index.update((f["id"], f) for f in doc.get("sources") or [])
         elif kind == "legislature_bill":
             index.update((f["id"], f) for f in [doc["law"]] + [v["fact"] for v in doc["votes"]])
+        elif kind == "congress_roll":
+            index[doc["fact"]["id"]] = doc["fact"]
         elif kind == "legislature_members":
             index.update((m["fact"]["id"], m["fact"]) for m in doc["members"])
             index.update((f["id"], f) for f in doc.get("party_source") or [])

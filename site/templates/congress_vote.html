@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import verification_badge, report_link, source_line %}
+{% block title %}{{ vote.chamber_name }} roll call {{ vote.roll }}{% if vote.measure %}: {{ vote.measure }}{% endif %}{% endblock %}
+{% block description %}How every member of the {{ vote.chamber_name }} voted on roll call {{ vote.roll }} ({{ vote.date }}): {{ vote.question }}{% if vote.measure %}, {{ vote.measure }}{% endif %}. {{ vote.result }}.{% endblock %}
+{% block content %}
+<header class="masthead">
+  <p class="eyebrow"><a href="/congress/">Congress</a> · {{ vote.chamber_name }} · Roll call {{ vote.roll }} · {{ vote.congress }}th Congress, {{ vote.session_word }} session</p>
+  <h1 class="display display-long">{{ vote.heading }}</h1>
+  <p class="lead">{{ vote.question }}{% if vote.measure %} · <strong>{{ vote.measure }}</strong>{% endif %} · {{ vote.date | longdate }}</p>
+  <p class="result-line"><span class="chip chip-outcome">{{ vote.result }}</span>{% if vote.required %} <span class="muted">{{ vote.required }}</span>{% endif %}</p>
+  <p class="item-meta">{{ verification_badge(vote.fact) }} · {{ source_line(vote.fact) }} · {{ report_link(vote.fact.id) }}</p>
+</header>
+
+<ul class="tiles" aria-label="Totals">
+  {% for g in vote.groups %}
+  <li><a class="tile" href="#g-{{ g.key }}"><span class="tile-n">{{ g.count }}</span><span class="tile-l">{{ g.label }}</span></a></li>
+  {% endfor %}
+</ul>
+{% if vote.tie_breaker %}<p class="note">Tie broken by the {{ vote.tie_breaker.by }}, who voted {{ vote.tie_breaker.vote }}, as the record prints it.</p>{% endif %}
+
+{% if vote.party_totals %}
+<details class="more">
+  <summary>Totals by party, as the House Clerk prints them</summary>
+  <div class="grid-wrap">
+  <table class="result-table">
+    <thead><tr><th scope="col">Party</th>{% for g in vote.groups %}<th scope="col" class="num">{{ g.label }}</th>{% endfor %}</tr></thead>
+    <tbody>
+      {% for p in vote.party_totals %}<tr><th scope="row">{{ p.party }}</th>{% for g in vote.groups %}<td class="num">{{ p[g.key] }}</td>{% endfor %}</tr>{% endfor %}
+    </tbody>
+  </table>
+  </div>
+</details>
+{% endif %}
+
+<div class="filter-bar" id="member-filter" hidden>
+  <label class="visually-hidden" for="state-filter">State</label>
+  <select id="state-filter">
+    <option value="">Every state</option>
+    {% for st in vote.states %}<option value="{{ st }}">{{ st }}</option>{% endfor %}
+  </select>
+  <label class="visually-hidden" for="member-search">Find a member</label>
+  <input id="member-search" type="search" placeholder="Find a member" autocomplete="off">
+  <span id="filter-count" class="filter-count" role="status" aria-live="polite">{{ vote.members | length }} of {{ vote.members | length }}</span>
+</div>
+
+{% for g in vote.groups %}
+<section class="vote-group" id="g-{{ g.key }}" aria-labelledby="g-{{ g.key }}-h">
+  <h2 id="g-{{ g.key }}-h" class="group-h">{{ g.label }} <span class="group-n">{{ g.count }}</span></h2>
+  {% if g.members %}
+  <ul class="member-grid">
+    {% for m in g.members %}
+    <li class="member" data-state="{{ m.state }}" data-name="{{ (m.display ~ ' ' ~ m.name) | lower }}">
+      {% if m.portrait_src %}<img class="portrait" src="{{ m.portrait_src }}" alt="{{ m.display }}" width="60" height="74" loading="lazy">{% else %}<span class="portrait portrait-initials" aria-hidden="true">{{ m.initials }}</span>{% endif %}
+      <span class="member-text">
+        <span class="member-name">{{ m.display }}</span>
+        <span class="member-meta">{{ m.party }} · {{ m.state }}{% if m.vote != g.label %} · {{ m.vote }}{% endif %}</span>
+      </span>
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="empty">No one.</p>
+  {% endif %}
+</section>
+{% endfor %}
+
+<p class="actions-row"><a class="button button-secondary" href="{{ vote.url }}{{ vote.csv_name }}" download>Download this roll call (CSV)</a> <a class="button button-secondary" href="/congress/#compare">Compare two members</a></p>
+
+{% include "partials/call_box.html" %}
+
+<section aria-labelledby="about-h">
+  <h2 id="about-h">About this record</h2>
+  <p>{{ vote.fact.statement }}</p>
+  <p class="note">Names, party, and state are exactly as the roll call prints them (party letters are the House Clerk's and the Senate's own codes). Full names and portraits: {{ vote.directory.title }}, retrieved {{ vote.directory.retrieved | longdate }}. Members appear in alphabetical order by the name the record prints, in every group. A roll call records each vote, not the reasons for it.</p>
+</section>
+<script src="/static/js/congress.js" defer></script>
+{% endblock %}

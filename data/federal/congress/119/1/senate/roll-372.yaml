@@ -1,0 +1,740 @@
+congress: 119
+session: 1
+chamber: senate
+roll: 372
+date: '2025-07-01'
+question: On Passage of the Bill H.R. 1
+measure: H.R. 1
+title: A bill to provide for reconciliation pursuant to title II of H. Con. Res. 14.
+result: Bill Passed (50-50, Vice President of the United States, voted Yea)
+required: 1/2
+totals:
+  yea: 50
+  nay: 50
+  present: 0
+  not_voting: 0
+party_totals: null
+tie_breaker:
+  by: Vice President of the United States
+  vote: Yea
+fact:
+  id: us/congress/119/1/senate/roll-372#R-001
+  record_type: vote
+  statement: 'U.S. Senate roll call 372 (119th Congress, session 1), 2025-07-01: On Passage of the Bill H.R. 1, H.R. 1, Bill Passed (50-50, Vice President of the United States, voted Yea). 50 Yea, 50 Nay, 0 Present, 0 Not Voting.'
+  label: official_record
+  claim_status: documented
+  source_url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.xml
+  source_title: 'U.S. Senate: Roll Call Vote 119th Congress - 1 Session, Vote Number 372'
+  source_kind: document
+  sha256: b7c0944df3ffefd23575b12c92d405bac12e594b5b002417ff9ee1354ebacc13
+  archive_url: null
+  event_date: '2025-07-01'
+  retrieved: '2026-11-19'
+  verification: unverified
+  verified_on: null
+  reviewer: null
+directory:
+  url: https://unitedstates.github.io/congress-legislators/legislators-current.json
+  title: 'unitedstates/congress-legislators (public domain): full names and ID matches; portraits from unitedstates/images'
+  retrieved: '2026-11-19'
+members:
+- name: Alsobrooks (D-MD)
+  full_name: Angela D. Alsobrooks
+  bioguide: A000382
+  party: D
+  state: MD
+  vote: Nay
+  portrait: A000382.jpg
+- name: Baldwin (D-WI)
+  full_name: Tammy Baldwin
+  bioguide: B001230
+  party: D
+  state: WI
+  vote: Nay
+  portrait: B001230.jpg
+- name: Banks (R-IN)
+  full_name: Jim Banks
+  bioguide: B001299
+  party: R
+  state: IN
+  vote: Yea
+  portrait: B001299.jpg
+- name: Barrasso (R-WY)
+  full_name: John Barrasso
+  bioguide: B001261
+  party: R
+  state: WY
+  vote: Yea
+  portrait: B001261.jpg
+- name: Bennet (D-CO)
+  full_name: Michael F. Bennet
+  bioguide: B001267
+  party: D
+  state: CO
+  vote: Nay
+  portrait: B001267.jpg
+- name: Blackburn (R-TN)
+  full_name: Marsha Blackburn
+  bioguide: B001243
+  party: R
+  state: TN
+  vote: Yea
+  portrait: B001243.jpg
+- name: Blumenthal (D-CT)
+  full_name: Richard Blumenthal
+  bioguide: B001277
+  party: D
+  state: CT
+  vote: Nay
+  portrait: B001277.jpg
+- name: Booker (D-NJ)
+  full_name: Cory A. Booker
+  bioguide: B001288
+  party: D
+  state: NJ
+  vote: Nay
+  portrait: B001288.jpg
+- name: Boozman (R-AR)
+  full_name: John Boozman
+  bioguide: B001236
+  party: R
+  state: AR
+  vote: Yea
+  portrait: B001236.jpg
+- name: Britt (R-AL)
+  full_name: Katie Boyd Britt
+  bioguide: B001319
+  party: R
+  state: AL
+  vote: Yea
+  portrait: B001319.jpg
+- name: Budd (R-NC)
+  full_name: Ted Budd
+  bioguide: B001305
+  party: R
+  state: NC
+  vote: Yea
+  portrait: B001305.jpg
+- name: Cantwell (D-WA)
+  full_name: Maria Cantwell
+  bioguide: C000127
+  party: D
+  state: WA
+  vote: Nay
+  portrait: C000127.jpg
+- name: Capito (R-WV)
+  full_name: Shelley Moore Capito
+  bioguide: C001047
+  party: R
+  state: WV
+  vote: Yea
+  portrait: C001047.jpg
+- name: Cassidy (R-LA)
+  full_name: Bill Cassidy
+  bioguide: C001075
+  party: R
+  state: LA
+  vote: Yea
+  portrait: C001075.jpg
+- name: Collins (R-ME)
+  full_name: Susan M. Collins
+  bioguide: C001035
+  party: R
+  state: ME
+  vote: Nay
+  portrait: C001035.jpg
+- name: Coons (D-DE)
+  full_name: Christopher A. Coons
+  bioguide: C001088
+  party: D
+  state: DE
+  vote: Nay
+  portrait: C001088.jpg
+- name: Cornyn (R-TX)
+  full_name: John Cornyn
+  bioguide: C001056
+  party: R
+  state: TX
+  vote: Yea
+  portrait: C001056.jpg
+- name: Cotton (R-AR)
+  full_name: Tom Cotton
+  bioguide: C001095
+  party: R
+  state: AR
+  vote: Yea
+  portrait: C001095.jpg
+- name: Cramer (R-ND)
+  full_name: Kevin Cramer
+  bioguide: C001096
+  party: R
+  state: ND
+  vote: Yea
+  portrait: C001096.jpg
+- name: Crapo (R-ID)
+  full_name: Mike Crapo
+  bioguide: C000880
+  party: R
+  state: ID
+  vote: Yea
+  portrait: C000880.jpg
+- name: Cruz (R-TX)
+  full_name: Ted Cruz
+  bioguide: C001098
+  party: R
+  state: TX
+  vote: Yea
+  portrait: C001098.jpg
+- name: Curtis (R-UT)
+  full_name: John R. Curtis
+  bioguide: C001114
+  party: R
+  state: UT
+  vote: Yea
+  portrait: C001114.jpg
+- name: Daines (R-MT)
+  full_name: Steve Daines
+  bioguide: D000618
+  party: R
+  state: MT
+  vote: Yea
+  portrait: D000618.jpg
+- name: Duckworth (D-IL)
+  full_name: Tammy Duckworth
+  bioguide: D000622
+  party: D
+  state: IL
+  vote: Nay
+  portrait: D000622.jpg
+- name: Durbin (D-IL)
+  full_name: Richard J. Durbin
+  bioguide: D000563
+  party: D
+  state: IL
+  vote: Nay
+  portrait: D000563.jpg
+- name: Ernst (R-IA)
+  full_name: Joni Ernst
+  bioguide: E000295
+  party: R
+  state: IA
+  vote: Yea
+  portrait: E000295.jpg
+- name: Fetterman (D-PA)
+  full_name: John Fetterman
+  bioguide: F000479
+  party: D
+  state: PA
+  vote: Nay
+  portrait: null
+- name: Fischer (R-NE)
+  full_name: Deb Fischer
+  bioguide: F000463
+  party: R
+  state: NE
+  vote: Yea
+  portrait: F000463.jpg
+- name: Gallego (D-AZ)
+  full_name: Ruben Gallego
+  bioguide: G000574
+  party: D
+  state: AZ
+  vote: Nay
+  portrait: G000574.jpg
+- name: Gillibrand (D-NY)
+  full_name: Kirsten E. Gillibrand
+  bioguide: G000555
+  party: D
+  state: NY
+  vote: Nay
+  portrait: G000555.jpg
+- name: Graham (R-SC)
+  full_name: Lindsey Graham
+  bioguide: G000359
+  party: R
+  state: SC
+  vote: Yea
+  portrait: G000359.jpg
+- name: Grassley (R-IA)
+  full_name: Chuck Grassley
+  bioguide: G000386
+  party: R
+  state: IA
+  vote: Yea
+  portrait: G000386.jpg
+- name: Hagerty (R-TN)
+  full_name: Bill Hagerty
+  bioguide: H000601
+  party: R
+  state: TN
+  vote: Yea
+  portrait: H000601.jpg
+- name: Hassan (D-NH)
+  full_name: Margaret Wood Hassan
+  bioguide: H001076
+  party: D
+  state: NH
+  vote: Nay
+  portrait: H001076.jpg
+- name: Hawley (R-MO)
+  full_name: Josh Hawley
+  bioguide: H001089
+  party: R
+  state: MO
+  vote: Yea
+  portrait: H001089.jpg
+- name: Heinrich (D-NM)
+  full_name: Martin Heinrich
+  bioguide: H001046
+  party: D
+  state: NM
+  vote: Nay
+  portrait: H001046.jpg
+- name: Hickenlooper (D-CO)
+  full_name: John W. Hickenlooper
+  bioguide: H000273
+  party: D
+  state: CO
+  vote: Nay
+  portrait: H000273.jpg
+- name: Hirono (D-HI)
+  full_name: Mazie K. Hirono
+  bioguide: H001042
+  party: D
+  state: HI
+  vote: Nay
+  portrait: H001042.jpg
+- name: Hoeven (R-ND)
+  full_name: John Hoeven
+  bioguide: H001061
+  party: R
+  state: ND
+  vote: Yea
+  portrait: H001061.jpg
+- name: Van Hollen (D-MD)
+  full_name: Chris Van Hollen
+  bioguide: V000128
+  party: D
+  state: MD
+  vote: Nay
+  portrait: V000128.jpg
+- name: Husted (R-OH)
+  full_name: Jon Husted
+  bioguide: H001104
+  party: R
+  state: OH
+  vote: Yea
+  portrait: null
+- name: Hyde-Smith (R-MS)
+  full_name: Cindy Hyde-Smith
+  bioguide: H001079
+  party: R
+  state: MS
+  vote: Yea
+  portrait: H001079.jpg
+- name: Johnson (R-WI)
+  full_name: Ron Johnson
+  bioguide: J000293
+  party: R
+  state: WI
+  vote: Yea
+  portrait: J000293.jpg
+- name: King (I-ME)
+  full_name: Angus S. King, Jr.
+  bioguide: K000383
+  party: I
+  state: ME
+  vote: Nay
+  portrait: K000383.jpg
+- name: Justice (R-WV)
+  full_name: James C. Justice
+  bioguide: J000312
+  party: R
+  state: WV
+  vote: Yea
+  portrait: J000312.jpg
+- name: Kaine (D-VA)
+  full_name: Tim Kaine
+  bioguide: K000384
+  party: D
+  state: VA
+  vote: Nay
+  portrait: K000384.jpg
+- name: Kelly (D-AZ)
+  full_name: Mark Kelly
+  bioguide: K000377
+  party: D
+  state: AZ
+  vote: Nay
+  portrait: K000377.jpg
+- name: Kennedy (R-LA)
+  full_name: John Kennedy
+  bioguide: K000393
+  party: R
+  state: LA
+  vote: Yea
+  portrait: K000393.jpg
+- name: Kim (D-NJ)
+  full_name: Andy Kim
+  bioguide: K000394
+  party: D
+  state: NJ
+  vote: Nay
+  portrait: K000394.jpg
+- name: Klobuchar (D-MN)
+  full_name: Amy Klobuchar
+  bioguide: K000367
+  party: D
+  state: MN
+  vote: Nay
+  portrait: K000367.jpg
+- name: Lankford (R-OK)
+  full_name: James Lankford
+  bioguide: L000575
+  party: R
+  state: OK
+  vote: Yea
+  portrait: L000575.jpg
+- name: Lee (R-UT)
+  full_name: Mike Lee
+  bioguide: L000577
+  party: R
+  state: UT
+  vote: Yea
+  portrait: L000577.jpg
+- name: Lujan (D-NM)
+  full_name: Ben Ray Luján
+  bioguide: L000570
+  party: D
+  state: NM
+  vote: Nay
+  portrait: L000570.jpg
+- name: Lummis (R-WY)
+  full_name: Cynthia M. Lummis
+  bioguide: L000571
+  party: R
+  state: WY
+  vote: Yea
+  portrait: L000571.jpg
+- name: Markey (D-MA)
+  full_name: Edward J. Markey
+  bioguide: M000133
+  party: D
+  state: MA
+  vote: Nay
+  portrait: M000133.jpg
+- name: Marshall (R-KS)
+  full_name: Roger Marshall
+  bioguide: M001198
+  party: R
+  state: KS
+  vote: Yea
+  portrait: M001198.jpg
+- name: Cortez Masto (D-NV)
+  full_name: Catherine Cortez Masto
+  bioguide: C001113
+  party: D
+  state: NV
+  vote: Nay
+  portrait: C001113.jpg
+- name: McConnell (R-KY)
+  full_name: Mitch McConnell
+  bioguide: M000355
+  party: R
+  state: KY
+  vote: Yea
+  portrait: M000355.jpg
+- name: McCormick (R-PA)
+  full_name: David McCormick
+  bioguide: M001243
+  party: R
+  state: PA
+  vote: Yea
+  portrait: M001243.jpg
+- name: Merkley (D-OR)
+  full_name: Jeff Merkley
+  bioguide: M001176
+  party: D
+  state: OR
+  vote: Nay
+  portrait: M001176.jpg
+- name: Moody (R-FL)
+  full_name: Ashley Moody
+  bioguide: M001244
+  party: R
+  state: FL
+  vote: Yea
+  portrait: M001244.jpg
+- name: Moran (R-KS)
+  full_name: Jerry Moran
+  bioguide: M000934
+  party: R
+  state: KS
+  vote: Yea
+  portrait: M000934.jpg
+- name: Moreno (R-OH)
+  full_name: Bernie Moreno
+  bioguide: M001242
+  party: R
+  state: OH
+  vote: Yea
+  portrait: M001242.jpg
+- name: Mullin (R-OK)
+  full_name: Markwayne Mullin
+  bioguide: M001190
+  party: R
+  state: OK
+  vote: Yea
+  portrait: M001190.jpg
+- name: Murkowski (R-AK)
+  full_name: Lisa Murkowski
+  bioguide: M001153
+  party: R
+  state: AK
+  vote: Yea
+  portrait: M001153.jpg
+- name: Murphy (D-CT)
+  full_name: Christopher Murphy
+  bioguide: M001169
+  party: D
+  state: CT
+  vote: Nay
+  portrait: M001169.jpg
+- name: Murray (D-WA)
+  full_name: Patty Murray
+  bioguide: M001111
+  party: D
+  state: WA
+  vote: Nay
+  portrait: M001111.jpg
+- name: Ossoff (D-GA)
+  full_name: Jon Ossoff
+  bioguide: O000174
+  party: D
+  state: GA
+  vote: Nay
+  portrait: O000174.jpg
+- name: Padilla (D-CA)
+  full_name: Alex Padilla
+  bioguide: P000145
+  party: D
+  state: CA
+  vote: Nay
+  portrait: P000145.jpg
+- name: Paul (R-KY)
+  full_name: Rand Paul
+  bioguide: P000603
+  party: R
+  state: KY
+  vote: Nay
+  portrait: P000603.jpg
+- name: Peters (D-MI)
+  full_name: Gary C. Peters
+  bioguide: P000595
+  party: D
+  state: MI
+  vote: Nay
+  portrait: P000595.jpg
+- name: Reed (D-RI)
+  full_name: Jack Reed
+  bioguide: R000122
+  party: D
+  state: RI
+  vote: Nay
+  portrait: R000122.jpg
+- name: Ricketts (R-NE)
+  full_name: Pete Ricketts
+  bioguide: R000618
+  party: R
+  state: NE
+  vote: Yea
+  portrait: R000618.jpg
+- name: Risch (R-ID)
+  full_name: James E. Risch
+  bioguide: R000584
+  party: R
+  state: ID
+  vote: Yea
+  portrait: R000584.jpg
+- name: Blunt Rochester (D-DE)
+  full_name: Lisa Blunt Rochester
+  bioguide: B001303
+  party: D
+  state: DE
+  vote: Nay
+  portrait: B001303.jpg
+- name: Rosen (D-NV)
+  full_name: Jacky Rosen
+  bioguide: R000608
+  party: D
+  state: NV
+  vote: Nay
+  portrait: R000608.jpg
+- name: Rounds (R-SD)
+  full_name: Mike Rounds
+  bioguide: R000605
+  party: R
+  state: SD
+  vote: Yea
+  portrait: R000605.jpg
+- name: Sanders (I-VT)
+  full_name: Bernard Sanders
+  bioguide: S000033
+  party: I
+  state: VT
+  vote: Nay
+  portrait: S000033.jpg
+- name: Schatz (D-HI)
+  full_name: Brian Schatz
+  bioguide: S001194
+  party: D
+  state: HI
+  vote: Nay
+  portrait: S001194.jpg
+- name: Schiff (D-CA)
+  full_name: Adam B. Schiff
+  bioguide: S001150
+  party: D
+  state: CA
+  vote: Nay
+  portrait: S001150.jpg
+- name: Schmitt (R-MO)
+  full_name: Eric Schmitt
+  bioguide: S001227
+  party: R
+  state: MO
+  vote: Yea
+  portrait: S001227.jpg
+- name: Schumer (D-NY)
+  full_name: Charles E. Schumer
+  bioguide: S000148
+  party: D
+  state: NY
+  vote: Nay
+  portrait: S000148.jpg
+- name: Scott (R-FL)
+  full_name: Rick Scott
+  bioguide: S001217
+  party: R
+  state: FL
+  vote: Yea
+  portrait: S001217.jpg
+- name: Scott (R-SC)
+  full_name: Tim Scott
+  bioguide: S001184
+  party: R
+  state: SC
+  vote: Yea
+  portrait: S001184.jpg
+- name: Shaheen (D-NH)
+  full_name: Jeanne Shaheen
+  bioguide: S001181
+  party: D
+  state: NH
+  vote: Nay
+  portrait: S001181.jpg
+- name: Sheehy (R-MT)
+  full_name: Tim Sheehy
+  bioguide: S001232
+  party: R
+  state: MT
+  vote: Yea
+  portrait: S001232.jpg
+- name: Slotkin (D-MI)
+  full_name: Elissa Slotkin
+  bioguide: S001208
+  party: D
+  state: MI
+  vote: Nay
+  portrait: S001208.jpg
+- name: Smith (D-MN)
+  full_name: Tina Smith
+  bioguide: S001203
+  party: D
+  state: MN
+  vote: Nay
+  portrait: S001203.jpg
+- name: Sullivan (R-AK)
+  full_name: Dan Sullivan
+  bioguide: S001198
+  party: R
+  state: AK
+  vote: Yea
+  portrait: S001198.jpg
+- name: Thune (R-SD)
+  full_name: John Thune
+  bioguide: T000250
+  party: R
+  state: SD
+  vote: Yea
+  portrait: T000250.jpg
+- name: Tillis (R-NC)
+  full_name: Thom Tillis
+  bioguide: T000476
+  party: R
+  state: NC
+  vote: Nay
+  portrait: T000476.jpg
+- name: Tuberville (R-AL)
+  full_name: Tommy Tuberville
+  bioguide: T000278
+  party: R
+  state: AL
+  vote: Yea
+  portrait: T000278.jpg
+- name: Warner (D-VA)
+  full_name: Mark R. Warner
+  bioguide: W000805
+  party: D
+  state: VA
+  vote: Nay
+  portrait: W000805.jpg
+- name: Warnock (D-GA)
+  full_name: Raphael G. Warnock
+  bioguide: W000790
+  party: D
+  state: GA
+  vote: Nay
+  portrait: W000790.jpg
+- name: Warren (D-MA)
+  full_name: Elizabeth Warren
+  bioguide: W000817
+  party: D
+  state: MA
+  vote: Nay
+  portrait: W000817.jpg
+- name: Welch (D-VT)
+  full_name: Peter Welch
+  bioguide: W000800
+  party: D
+  state: VT
+  vote: Nay
+  portrait: W000800.jpg
+- name: Whitehouse (D-RI)
+  full_name: Sheldon Whitehouse
+  bioguide: W000802
+  party: D
+  state: RI
+  vote: Nay
+  portrait: W000802.jpg
+- name: Wicker (R-MS)
+  full_name: Roger F. Wicker
+  bioguide: W000437
+  party: R
+  state: MS
+  vote: Yea
+  portrait: W000437.jpg
+- name: Wyden (D-OR)
+  full_name: Ron Wyden
+  bioguide: W000779
+  party: D
+  state: OR
+  vote: Nay
+  portrait: W000779.jpg
+- name: Young (R-IN)
+  full_name: Todd Young
+  bioguide: Y000064
+  party: R
+  state: IN
+  vote: Yea
+  portrait: Y000064.jpg

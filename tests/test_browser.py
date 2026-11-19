@@ -73,8 +73,8 @@ def test_results_alphabetical_and_focus_moves_to_results(report):
 
 
 def test_dark_mode_reduced_motion_and_phone_width(report):
-    assert report["dark"] == "rgb(18, 26, 28)"
-    assert report["light"] == "rgb(242, 245, 244)"
+    assert report["dark"] == "rgb(25, 24, 22)"  # --bg in dark mode (site.css)
+    assert report["light"] == "rgb(237, 234, 227)"  # --bg in light mode
     assert report["scrollBehaviorReduced"] == "auto"
     assert report["phoneOverflow"] == 0
 

@@ -33,6 +33,19 @@
   {% if site.races %}<a class="button{% if site.zip_index %} button-secondary{% endif %}" href="#races">{{ icon("quiz") }} Browse all races</a>{% endif %}
 </header>
 
+{% if site.congress.votes %}
+{% set v = site.congress.votes[0] %}
+<aside class="feature" aria-labelledby="congress-feature-h">
+  <p class="eyebrow">Latest roll call · {{ v.chamber_name }} · {{ v.date | longdate }}</p>
+  <h2 id="congress-feature-h"><a href="{{ v.url }}">{{ v.heading }}</a></h2>
+  <p class="muted">{{ v.question }}{% if v.measure %} · {{ v.measure }}{% endif %} · <strong>{{ v.result }}</strong> · {{ verification_badge(v.fact) }}</p>
+  <ul class="tiles tiles-small" aria-label="Totals">
+    {% for g in v.groups %}<li><span class="tile"><span class="tile-n">{{ g.count }}</span><span class="tile-l">{{ g.label }}</span></span></li>{% endfor %}
+  </ul>
+  <p><a href="{{ v.url }}">See how every member voted</a> · <a href="/congress/">All roll calls in Congress</a></p>
+</aside>
+{% endif %}
+
 {% if site.ballots and site.officials.places %}
 <aside class="notice" aria-labelledby="officials-note-h">
   <h2 id="officials-note-h" class="notice-h">Your officials</h2>

@@ -26,8 +26,13 @@ def tokens(block: str) -> dict[str, str]:
 
 def themes() -> dict[str, dict[str, str]]:
     light = re.search(r"^:root\s*\{(.*?)\}", CSS, re.S | re.M).group(1)
-    dark = re.search(r"prefers-color-scheme:\s*dark\)\s*\{\s*:root\s*\{(.*?)\}", CSS, re.S).group(1)
+    dark = re.search(r"prefers-color-scheme:\s*dark\)\s*\{\s*:root[^{]*\{(.*?)\}", CSS, re.S).group(1)
     return {"light": tokens(light), "dark": tokens(dark)}
+
+
+def pressed_dark() -> dict[str, str]:
+    """The tokens the Night button applies (:root[data-theme="dark"])."""
+    return tokens(re.search(r'^:root\[data-theme="dark"\]\s*\{(.*?)\}', CSS, re.S | re.M).group(1))
 
 
 def luminance(hex_color: str) -> float:
@@ -54,3 +59,7 @@ def test_contrast(theme, fg, bg, minimum):
 def test_both_themes_define_the_same_tokens():
     t = themes()
     assert set(t["light"]) == set(t["dark"])
+
+
+def test_night_button_uses_the_same_dark_tokens():
+    assert pressed_dark() == themes()["dark"]

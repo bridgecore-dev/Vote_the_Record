@@ -1,2 +1,3 @@
 -r requirements.txt
 pytest>=8.0
+Pillow>=10.0  # src/collectors/federal/rollcall.py shrinks portraits
