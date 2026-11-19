@@ -1,0 +1,102 @@
+kind: carousel
+level: congress
+topic: Government transparency
+approval: review
+record_ids: ["us/119/H.R. 7934/house-passed"]
+publish_after: '2026-11-22T12:00:00-06:00'
+rule: >-
+  Same pick as the Nov. 15 posts: bills from the House schedule for the week of Nov. 16 that apply across the whole
+  federal government. This is H.R. 7934; H.R. 4464 gets the matching post.
+sources:
+- title: Congress.gov, H.R. 7934 actions (Nov. 18, 2026, passed by voice vote)
+  url: https://api.congress.gov/v3/bill/119/hr/7934/actions
+  retrieved: '2026-11-19'
+- title: "U.S. House floor schedule, week of Nov. 16, 2026 (docs.house.gov): H.R. 7934 text considered"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-16
+  retrieved: '2026-11-19'
+- title: "H.R. 7934, Settlement Agreement Information Database Act of 2026, introduced text (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr7934ih/html/BILLS-119hr7934ih.htm
+  retrieved: '2026-11-19'
+- title: "House Practice, Chapter 58, Voting, Sec. 9: Voice Votes (GPO)"
+  url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-59.htm
+  retrieved: '2026-11-19'
+- title: "House Practice, Chapter 53, Suspension of Rules, Sec. 10 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-54.htm
+  retrieved: '2026-11-19'
+bills:
+- id: H.R. 7934
+  title: Settlement Agreement Information Database Act of 2026
+  does: Would require federal agencies to post a searchable online database of certain settlement agreements they sign.
+  affects: "Federal agencies, and parties to deals of $10 million or more, with a monitor, or with a state or local government."
+  where: "Passed the U.S. House of Representatives by voice vote on Nov. 18, 2026. Next: the U.S. Senate."
+  summary:
+    text: >-
+      This bill requires federal agencies to publish a searchable, online database of information about certain
+      settlement agreements entered into by the agency.
+    title: Congressional Research Service summary of H.R. 7934
+    url: https://api.congress.gov/v3/bill/119/hr/7934/summaries
+    retrieved: '2026-11-19'
+slides:
+- kicker: "U.S. House of Representatives · Nov. 18, 2026"
+  big: Passed
+  head: "The U.S. House of Representatives passed a bill making federal agencies post their big settlement deals online."
+  text: "H.R. 7934. It passed by voice vote, so no names were recorded."
+- chip: "Voice vote"
+  head: "A voice vote: members call out \"aye\" or \"no,\" and the chair judges which side is louder."
+  quote: {label: "House Practice, Ch. 58 (GPO)", text: "Votes not of record are those for which no official public record is required of the names or votes of the participating Members."}
+  text: "Under \"suspension of the rules,\" a fast track for bills, passing takes two-thirds of those voting. No recorded vote was taken."
+- chip: "Before → after"
+  head: "The bill adds a new section to federal law (5 U.S.C. 307)."
+  rows:
+  - [Before, "No such section; the bill creates it"]
+  - [After, "Each agency with a covered deal keeps a public, searchable database"]
+  - [Deadline, "Within 2 years of the bill becoming law"]
+  - [Goes back to, "Deals from Jan. 1, 2015 still in effect, where practicable"]
+- chip: Which deals count
+  head: "A settlement or deferred prosecution agreement counts if it meets at least one test:"
+  rows:
+  - [Money, "$10 million or more in required payments"]
+  - [Oversight, "A special master or monitor is appointed"]
+  - [Government party, "A state, city, county or tribe is a party"]
+  - [Other, "Deals the White House budget office (OMB) adds"]
+  - [Left out, "Plea bargains, federal personnel cases, tax code matters"]
+- chip: What gets posted
+  head: For each deal, the database lists the facts and a copy of the agreement.
+  rows:
+  - [Claim, "Civil, criminal, or both, and the laws allegedly broken"]
+  - [Money, "Payments, fines and attorneys' fees, to or from the U.S."]
+  - [Time, "Date signed and projected length"]
+  - [Places, "Any state or local government named in the terms"]
+  text: "Not posted: anything under a confidentiality provision or court order, or that FOIA lets an agency withhold. Agencies report each year how many deals they kept out."
+- chip: "Who it touches, what it costs"
+  head: The public could search these deals; agencies would have to build and update the databases.
+  rows:
+  - [Gains, "Anyone looking up a federal settlement"]
+  - [New work, "Each agency with a covered deal; OMB writes the rules"]
+  - [Settling parties, "Their deal terms go online unless an exemption applies"]
+  - [Cost, "CBO published an estimate May 19, 2026; we couldn't open it"]
+- chip: Your turn
+  head: "Sponsor: Rep. Gary Palmer (R-AL). Cosponsor: Rep. Kweisi Mfume (D-MD). Next, the U.S. Senate."
+  text: "Should every agency post these deals? Tell us."
+caption: |-
+  On Nov. 18, the U.S. House of Representatives passed H.R. 7934 by voice vote: members call out "aye" or "no" and the chair judges the sound, so no names are recorded. As a "suspension" bill, it needed two-thirds of those voting.
+
+  Before: federal law has no such section; the bill creates one (5 U.S.C. 307).
+  After: within two years, each agency that signs a covered deal keeps a public, searchable database: settlements of $10 million or more, deals with a court-appointed monitor, and deals with a state or local government. Each entry lists the claims, the money, the dates and a copy of the deal. Confidential terms and what FOIA lets agencies withhold stay out. Where practicable, it reaches back to 2015 deals still in effect.
+
+  CBO published a cost estimate; we couldn't open it.
+
+  Next: the U.S. Senate. Should every agency post these deals?
+hashtags: [congress, housevote, transparency, federalgovernment]
+notes: >-
+  New: congress.gov actions (read this run) show H.R. 7934 "Passed/agreed to in House: On motion to suspend the rules
+  and pass the bill Agreed to by voice vote" on Nov. 18 at 3:12 p.m. ET. The Nov. 15 carousel
+  (2026-11-15-settlement-agreement-database-act) covered it only as a scheduled bill; the slides on what it does are
+  kept from that post and rechecked word by word against the introduced text this run. The text passed is the
+  introduced one: the action says "pass the bill" (not "as amended") and docs.house.gov's week list links the IH text,
+  even though the committee had ordered it reported amended (40-0, March 18); no committee report or reported text is
+  on GovInfo. "No recorded vote was taken": the actions list no yeas-and-nays demand and no roll call. "Chair judges which side is louder" paraphrases House Practice ch. 58 sec. 9 ("based on the volume
+  of sound produced by Members"). No official case for or against was found (no report; the Nov. 18 debate in the
+  Record wasn't opened). Cost: CBO publication 62441 (May 19) is listed on congress.gov; cbo.gov returned 403 this
+  run, not retried. Sponsor's and cosponsor's party and state as the bill record lists them. Takes the Nov. 22 12:00
+  p.m. post slot; pair with the 10:30 a.m. Reel on H.R. 4464 (meant to be merged together).
