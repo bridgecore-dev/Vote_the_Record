@@ -1,0 +1,103 @@
+kind: reel
+level: congress
+topic: Health care
+approval: review
+record_ids: ["us/119/2/house/roll/327"]
+publish_after: '2026-11-22T10:30:00-06:00'
+rule: >-
+  Vote posts list every member on the smaller side of the roll call, with party and state as the House Clerk
+  records them. Here no member voted Nay, so there are no names to list. Same pick as the Nov. 15 posts: bills from
+  the week of Nov. 16 that apply across the whole federal government; this is H.R. 4464, and H.R. 7934 gets the
+  matching post.
+sources:
+- title: "U.S. House of Representatives, Office of the Clerk, Roll Call 327 (119th Congress, 2nd Session), H.R. 4464, Nov. 19, 2026"
+  url: https://clerk.house.gov/evs/2026/roll327.xml
+  retrieved: '2026-11-19'
+- title: "House Report 119-882, Preventive Health Savings Act, with CBO's cost estimate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt882/html/CRPT-119hrpt882.htm
+  retrieved: '2026-11-19'
+- title: "H.R. 4464, reported in House (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr4464rh/html/BILLS-119hr4464rh.htm
+  retrieved: '2026-11-19'
+- title: Congress.gov, H.R. 4464 bill record (sponsor, cosponsors, actions)
+  url: https://api.congress.gov/v3/bill/119/hr/4464
+  retrieved: '2026-11-19'
+bills:
+- id: H.R. 4464
+  title: Preventive Health Savings Act
+  does: "On a request from both parties' committee leaders, CBO must say if a preventive health bill saves money in years 11-30."
+  affects: "Congress's budget office (CBO) and the committees that write and request estimates on health bills."
+  where: "Passed the U.S. House of Representatives 401-0 on Nov. 19, 2026. Next: the U.S. Senate."
+  summary:
+    text: >-
+      This bill requires the Congressional Budget Office (CBO), upon receiving a request from Congress, to determine if
+      proposed legislation would reduce spending outside of the 10-year budget window through the use of preventive health
+      care.
+    title: Congressional Research Service summary of H.R. 4464
+    url: https://api.congress.gov/v3/bill/119/hr/4464/summaries
+    retrieved: '2026-11-19'
+  say: "H.R. 4464, the Preventive Health Savings Act. When both parties' committee leaders ask, the Congressional Budget Office must say whether a preventive health bill saves money in years 11 through 30."
+slides:
+- kicker: "U.S. House of Representatives · Nov. 19, 2026"
+  head: "The U.S. House of Representatives voted, with no one against, to let Congress's budget office count health savings 30 years out."
+  vote: {yea: 401, nay: 0, not_voting: 32}
+  text: "H.R. 4464, the Preventive Health Savings Act. It affects how the Congressional Budget Office scores health bills."
+  say: "On November 19, the United States House of Representatives voted to let Congress's budget office count health savings 30 years out. 401 Yea, 0 Nay, 32 didn't vote."
+- chip: "Before → after"
+  head: "CBO's estimates usually cover 10 years. The bill adds a way to see years 11 through 30 for prevention."
+  rows:
+  - [Now, "Usually a 10-year estimate; more only if a committee asks and calls it a priority"]
+  - [After, "Both parties' leaders on two committees ask; CBO must check years 11-30"]
+  - [If savings, "The estimate shows them and explains why"]
+  say: "Now, CBO's estimates usually cover 10 years, and it looks further only if a committee asks and calls it a priority. After: when both parties' leaders on two committees ask, CBO must check years 11 through 30 and show any savings."
+- chip: The limit
+  head: "The longer number is extra information. It can't be used to meet budget rules."
+  quote: {label: "H.R. 4464, as reported", text: "shall be used as a supplementary estimate and may not be used to determine compliance with the Congressional Budget Act of 1974 or any other budgetary enforcement controls.", key: "supplementary estimate"}
+  say: "The limit: the longer-range number is a supplementary estimate, extra information only. It can't be used to meet budget rules."
+- chip: "Who gains, what it costs"
+  head: "Lawmakers get a longer view of prevention bills. CBO does the work."
+  rows:
+  - [Gains, "Committees weighing prevention bills"]
+  - [New work, "CBO, when asked"]
+  - [Cost, "CBO: under $500,000 over 2027-2031"]
+  text: "Paid from CBO's yearly funding, if Congress provides it. The committee report lists no views against the bill."
+  say: "Committees weighing prevention bills get a longer view. CBO does the work when asked. CBO says it would cost under $500,000 over 2027 through 2031, from its yearly funding. The committee report lists no views against the bill."
+- chip: How they voted
+  head: By party, as the House Clerk records it
+  rows:
+  - [Republican, "197 Yea · 0 Nay · 21 didn't vote"]
+  - [Democratic, "204 Yea · 0 Nay · 10 didn't vote"]
+  - [Independent, "0 Yea · 0 Nay · 1 didn't vote"]
+  text: "It came up under \"suspension of the rules,\" a fast track for bills, so it needed two-thirds of those voting."
+  say: "By party, as the Clerk of the United States House records it. Republican: 197 Yea, 0 Nay, 21 didn't vote. Democratic: 204 Yea, 0 Nay, 10 didn't vote. The one Independent didn't vote. It needed two-thirds of those voting."
+- chip: Your turn
+  head: "Sponsor: Rep. Jay Obernolte (R-CA), with 17 Republican and 8 Democratic cosponsors. Next, the U.S. Senate."
+  text: "Every name is in roll call 327 at clerk.house.gov/Votes. Should long-term health savings count? Tell us."
+  say: "The sponsor is Representative Jay Obernolte, Republican of California, with 17 Republican and 8 Democratic cosponsors. Next, the United States Senate. Every name is in roll call 327 at clerk.house.gov. Should long-term health savings count? Tell us."
+caption: |-
+  On Nov. 19, the U.S. House of Representatives passed H.R. 4464, the Preventive Health Savings Act, 401-0, with 32 members not voting.
+
+  Before: CBO, Congress's budget office, usually estimates a bill's cost over 10 years. It looks further out only when a committee asks and calls it a priority.
+  After: when the chair and ranking member of the Budget Committee and of the committee in charge of a bill ask, CBO must check whether a preventive health bill cuts spending in years 11 through 30, and show any savings with its reasons. That longer number is extra information only: it can't be used to meet budget rules.
+
+  CBO says the bill would cost under $500,000 over 2027-2031, paid from its yearly funding if Congress provides it. The committee report lists no views against it.
+
+  By party, per the House Clerk: Republicans 197 Yea, 0 Nay; Democrats 204 Yea, 0 Nay; the one Independent didn't vote.
+
+  Next it goes to the U.S. Senate. Should long-term health savings count? Tell us below.
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, housevote, healthcare, federalbudget]
+notes: >-
+  New: roll call 327 (Nov. 19, 9:43 a.m. ET, "On Motion to Suspend the Rules and Pass", 2/3 yea-and-nay) wasn't
+  covered. The Nov. 15 Reel (2026-11-15-preventive-health-savings-act) covered H.R. 4464 only as a scheduled bill.
+  Tally and party totals are from the Clerk's roll XML. The text passed is the reported version (docs.house.gov's
+  week-of-Nov.-16 list links h4464_rh; the report says "without amendment"). New since Nov. 15: H. Rept. 119-882
+  (filed Nov. 17) prints CBO's estimate: "less than $500,000 over the 2027-2031 period; any related spending would be
+  subject to the availability of appropriated funds", and says CBO already gives information past 10 years "when
+  committees request it and identify it as a priority" and checks deficit increases over 40 more years. So "Now" isn't
+  "never past 10 years" (the Nov. 15 post said savings past year 10 "aren't in the estimate"; this one is more exact).
+  The report has no minority or dissenting views, and the vote had no Nays, so there's no case-against slide; the
+  floor debate (Nov. 18) wasn't opened. Cosponsor party counts (17 R, 8 D) from congress.gov; sponsor's party and state
+  as the bill record lists them. Congress.gov actions (read this run) end at the Nov. 18 postponed vote. Takes the
+  Nov. 22 10:30 a.m. Reel slot; pair with the 12:00 p.m. carousel on H.R. 7934 (meant to be merged together).
