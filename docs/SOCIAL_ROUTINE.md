@@ -244,7 +244,7 @@ previews; check those before calling anything ready.
 ## Never
 
 Edit any other file, merge or approve a pull request, run `publish.py`, touch `data/`, add secrets, say a
-party or person did something the record doesn't show, use AI-generated images, or retry a site that blocked
+party or person did something the record doesn't show, use an AI-generated image beyond what CLAUDE.md rule 9 allows (decoration only, labeled, `approval: review`), or retry a site that blocked
 you.
 
 End the run with a short summary: posts opened, ideas skipped and why.

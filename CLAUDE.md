@@ -116,8 +116,12 @@ and stops a post before its slot by deleting its file on `main`. Other pull requ
 - Anything that starts from a news report (`found_via`), or any judgment call (picking "notable" items, a
   summary in our words), uses `approval: review`, which tells the owner to check its preview first. News may
   point to a story; the post must rest on an official record.
-- No AI-generated images. Candidates and officials get the same photo treatment, in the same order as the
-  site. Memes are about process only, never about a person or a party.
+- AI-generated images only as decoration (owner's decision, 2026-11-18): a background or illustration that never
+  shows or imitates a real person, place, building, document, seal, logo, or event, and never stands in for
+  evidence. Every post that uses one says "AI-generated illustration" in its caption and uses `approval: review`.
+  Facts, numbers, and quotes are never inside an AI image; they're drawn by our own code from the record.
+  Candidates and officials get the same photo treatment, in the same order as the site. Memes are about process
+  only, never about a person or a party.
 - `src/social/publish.py` publishes merged posts through Instagram's official API. Never automate Instagram
   through a browser.
 
