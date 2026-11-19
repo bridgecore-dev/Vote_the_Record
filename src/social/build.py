@@ -337,13 +337,15 @@ PALETTES = {
                  "dark": dict(bg="#121212", surface="#1c1c1c", ink="#f2f2f2", muted="#b3b3b3", line="#333333",
                               accent="#f0d264", accent_soft="#2e2a1a", on_accent="#121212")},
 }
-# Fonts already in site/static/fonts (OFL). "tracking" tightens big type; "accent" is the one-word style
-# (italic serif; the browser slants Source Serif 4 until an italic face is added).
+# Fonts in site/static/fonts (all OFL: Source Serif 4 incl. its italic, Public Sans, Nunito). "tracking" tightens
+# big type; "accent" is the one-word style (Source Serif 4 italic). "round" is Nunito, softer than the others.
 FONTS = {
     "serif": dict(head='"Source Serif 4", Georgia, serif', body='"Public Sans", system-ui, sans-serif',
                   tracking="0", accent_family='"Source Serif 4", Georgia, serif', accent_style="italic"),
     "sans": dict(head='"Public Sans", system-ui, sans-serif', body='"Public Sans", system-ui, sans-serif',
                  tracking="-0.02em", accent_family='"Source Serif 4", Georgia, serif', accent_style="italic"),
+    "round": dict(head='"Nunito", system-ui, sans-serif', body='"Nunito", system-ui, sans-serif',
+                  tracking="-0.01em", accent_family='"Source Serif 4", Georgia, serif', accent_style="italic"),
 }
 POSITIONS = {"top": "flex-start", "center": "center", "bottom": "flex-end"}
 MODES = ("light", "dark")
@@ -426,6 +428,11 @@ def css(width: int, height: int, design: dict | None = None) -> str:
 @font-face {{ font-family: "Public Sans"; src: url("{fonts}/public-sans-latin-400-normal.woff2"); font-weight: 400; }}
 @font-face {{ font-family: "Public Sans"; src: url("{fonts}/public-sans-latin-600-normal.woff2"); font-weight: 600; }}
 @font-face {{ font-family: "Source Serif 4"; src: url("{fonts}/source-serif-4-latin-700-normal.woff2"); font-weight: 700; }}
+@font-face {{ font-family: "Source Serif 4"; src: url("{fonts}/source-serif-4-latin-600-italic.woff2"); font-weight: 600; font-style: italic; }}
+@font-face {{ font-family: "Source Serif 4"; src: url("{fonts}/source-serif-4-latin-700-italic.woff2"); font-weight: 700; font-style: italic; }}
+@font-face {{ font-family: "Nunito"; src: url("{fonts}/nunito-latin-400-normal.woff2"); font-weight: 400; }}
+@font-face {{ font-family: "Nunito"; src: url("{fonts}/nunito-latin-700-normal.woff2"); font-weight: 700; }}
+@font-face {{ font-family: "Nunito"; src: url("{fonts}/nunito-latin-800-normal.woff2"); font-weight: 800; }}
 * {{ box-sizing: border-box; margin: 0; padding: 0; }}
 html, body {{ width: {width}px; height: {height}px; overflow: hidden; }}
 body {{ background: var(--bg); color: var(--ink); font-family: var(--body-font); padding: {pad}; display: flex; }}

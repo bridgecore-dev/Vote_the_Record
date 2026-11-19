@@ -166,7 +166,7 @@ bills:
 design:
   palette: plum        # teal (default) | plum | amber | forest | charcoal; no red or blue (party colors)
   mode: dark           # light (default) | dark: dark background, light ink, one bright accent
-  font: sans           # serif (default, Source Serif 4 heads) | sans (Public Sans, tighter tracking)
+  font: round          # serif (default, Source Serif 4) | sans (Public Sans, tighter) | round (Nunito, softer)
   position: bottom     # where text sits: top | center (default) | bottom
   motion: captions     # Reels: one of reel.py's MOTIONS
   sfx: true            # Reels: generated typing, swoosh and pop sounds under the voice
