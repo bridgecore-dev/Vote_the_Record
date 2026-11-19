@@ -228,3 +228,18 @@ def test_an_ai_image_is_disclosed_and_reviewed():
     assert errs(ok) == []
     marked = post(kind="reel", approval="review", slides=[{"head": "A", "image": {"ai": True}}, {"head": "B"}])
     assert B.uses_ai_image(marked)
+
+
+def portrait(name, bioguide, **kw):
+    return {"head": name, "image": {"subject": "member", "name": name, "bioguide": bioguide, "license": "Public domain",
+                                    "url": "https://media.example.org/k.jpg", "title": "Official portrait", "retrieved": "2026-11-19", **kw}}
+
+
+def test_member_portraits_name_the_member_and_go_in_alphabetical_order():
+    ok = post(slides=[portrait("Jane Adams", "A000001"), portrait("Sam Baker", "B000002")])
+    assert B.check_portraits(ok) == []
+    out_of_order = post(slides=[portrait("Sam Baker", "B000002"), portrait("Jane Adams", "A000001")])
+    assert any("alphabetical" in e for e in B.check_portraits(out_of_order))
+    bad = post(slides=[portrait("Jane Adams", "12", license="CC BY", ai=True), {"head": "x"}])
+    e = " ".join(B.check_portraits(bad))
+    assert "bioguide" in e and "public domain" in e and "never AI" in e

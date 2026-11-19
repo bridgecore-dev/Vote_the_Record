@@ -152,7 +152,11 @@ bills:
   words aren't on the page. Never edited.
 - **`broll`** is official video only (the clip rules: `.gov` or an allowed host, never YouTube or C-SPAN),
   2-20 seconds, muted.
-- **`image`** is an official public-domain photo of a place, building, or document. Not people, for now.
+- **`image`** is an official public-domain photo of a place, building, or document, or (owner, 2026-11-19) an
+  official portrait of a member of Congress: `{subject: member, name: Ro Khanna, bioguide: K000389, url: <our
+  storage>, title, license: Public domain, retrieved}`, from the unitedstates/images set by bioguide ID. Every
+  member in a post gets the same size and treatment, in alphabetical order by surname (the builder checks the
+  order, the ID, and the public-domain license); never AI-generated, never edited.
 - Each document, photo, and video page is added to the sources automatically.
 - Building needs `pip install -r requirements-reel.txt` and `playwright install chromium` (the GitHub
   workflows install both). Without them, a voiced Reel stops with a clear message; only an older, unvoiced Reel
