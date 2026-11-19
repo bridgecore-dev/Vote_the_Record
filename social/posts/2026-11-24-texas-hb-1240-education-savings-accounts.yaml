@@ -1,0 +1,102 @@
+kind: reel
+level: state
+place: Texas
+topic: Education
+approval: review
+rule: Every bill filed Nov. 18, 2026 whose Texas Legislature Online caption is about the education savings account
+  program (said on the last slide).
+record_ids: [tx/90R/HB 1240/filed]
+publish_after: '2026-11-24T07:30:00-06:00'
+sources:
+- title: TLO, bills filed Nov. 18, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-18
+  retrieved: '2026-11-19'
+- title: TLO, HB 1240 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1240
+  retrieved: '2026-11-19'
+- title: Texas Comptroller, Texas Education Freedom Accounts
+  url: https://educationfreedom.texas.gov/
+  retrieved: '2026-11-19'
+- title: Texas Comptroller, news release, Aug. 13, 2026
+  url: https://comptroller.texas.gov/about/media-center/news/20260813-comptroller-don-huffines-announces-100000-students-receiving-texas-education-freedom-accounts-1786645098165
+  retrieved: '2026-11-19'
+bills:
+- id: HB 1240
+  does: Would repeal Texas's education savings account program and move its unspent fund balance to general revenue.
+  affects: Families using or seeking Texas Education Freedom Accounts, and the schools and vendors paid through them.
+  where: Filed Nov. 18, 2026 by Rep. Ezeonu; no other action yet.
+  summary:
+    text: >-
+      On the effective date of this Act, the program fund established under Subchapter J, Chapter 29, Education Code,
+      as repealed by this Act, is abolished and the unencumbered balance of the program fund is transferred to the
+      general revenue fund.
+    title: HB 1240 as filed (Sec. 9(a))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/HB01240I.pdf
+    retrieved: '2026-11-19'
+  say: HB 1240 would repeal Texas's education savings account program and move its unspent money to the state's general
+    revenue fund. It was filed November 18 by Representative Ezeonu, with no other action yet.
+slides:
+- kicker: 2027 Texas session · Filed Nov. 18, 2026
+  big: HB 1240
+  head: A Texas House of Representatives bill would end the state's education savings accounts.
+  say: A Texas House of Representatives bill filed November 18 would end the state's education savings accounts.
+- chip: The program today
+  head: Texas Education Freedom Accounts pay for private school or other education costs outside public school.
+  rows:
+  - [Private school, "$10,474 per child for 2026-27"]
+  - [With a disability, "Up to $30,000"]
+  - [Homeschool, "$2,000 a year"]
+  text: "The state comptroller runs it. Program funding: $1 billion."
+  say: 'The program today: Texas Education Freedom Accounts pay for private school or other costs outside public school.
+    $10,474 per child in private school for 2026-27, up to $30,000 with a disability, and $2,000 a year for homeschool.
+    Funding is $1 billion.'
+- chip: Who uses it
+  big: 100,000+
+  head: Students the comptroller says got account funding by Aug. 13, 2026.
+  text: The comptroller also said more than 100,000 students remained on the 2026-27 waitlist.
+  say: The comptroller said more than 100,000 students had account funding by August 13, 2026, and more than 100,000
+    were on the waitlist.
+- chip: What would change
+  head: HB 1240 repeals the program and closes its fund.
+  rows:
+  - [Before, "The comptroller funds accounts each school year"]
+  - [After, "No new accounts; the fund's unspent money goes to the state's general revenue fund"]
+  - [This school year, "Money already in 2026-27 accounts stays under today's rules"]
+  quote: {label: HB 1240 as filed (Sec. 10), text: "Money transferred to an education savings account ... for the 2026-2027 school year is subject to the requirements of that subchapter"}
+  say: 'What would change: the program and its fund would end, and unspent money would go to the state''s general revenue
+    fund. Money already in accounts for 2026-27 stays under today''s rules.'
+- chip: Cost
+  head: No fiscal note (cost estimate) is posted yet.
+  text: The bill doesn't say what the general revenue money would be used for.
+  say: No cost estimate is posted yet, and the bill does not say what the returned money would be used for.
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, the bill takes effect on this date, or right away with a two-thirds vote in each chamber.
+  text: "How we picked: every bill filed Nov. 18, 2026 whose caption is about the education savings account program. Keep the accounts, or end them?"
+  say: If passed as filed, the bill takes effect September 1, 2027, or right away with a two-thirds vote in each chamber.
+    How we picked, every bill filed November 18 about the program. Keep the accounts, or end them?
+caption: |-
+  Today, Texas Education Freedom Accounts, run by the state comptroller, pay for private school or other education costs outside public school: $10,474 per child in private school for 2026-27, up to $30,000 for a child with a disability, and $2,000 a year for homeschool. The program's funding is $1 billion. The comptroller says more than 100,000 students got funding by Aug. 13, 2026, and more than 100,000 more were on the waitlist.
+
+  HB 1240, filed in the Texas House of Representatives for the 2027 session, would repeal the program. Its fund would close and the unspent money would go to the state's general revenue fund. Money already in accounts for the 2026-27 school year would stay under today's rules.
+
+  No cost estimate is posted yet. If passed as filed, it takes effect Sept. 1, 2027, or right away with a two-thirds vote in each chamber.
+
+  Keep the accounts, or end them?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [txlege, texaslegislature, txed, schoolchoice, votetherecord]
+notes: >-
+  New: filed Nov. 18, 2026; no earlier post covers it. Rule: the Nov. 18 filing report's captions; HB 1240 ("Relating to
+  repealing the education savings account program") is the only one about the program. Records opened 2026-11-19: the
+  Nov. 18 filing report, the bill history (filed, no other action; author listed only as "Ezeonu"), the introduced PDF
+  (the HTML version wasn't posted yet; sha256 e4b086321c167a82265ea3b36496fcccd9e5b8416a422ef1a901bec6d4c225da), the
+  Comptroller's program page (comptroller.texas.gov/programs/education/esa/faq.php redirects to
+  educationfreedom.texas.gov; source of $10,474, $30,000, $2,000 and "$1 billion in funding"), and the Comptroller's
+  Aug. 13, 2026 release (100,000+ funded, 100,000+ waitlisted). The $1 billion is the 2025-27 biennium cap (the
+  enrolled 2025 law, Education Code 29.3521(c-1), expires Sept. 1, 2027); the slide says only "Program funding: $1
+  billion" as the Comptroller's page does. The 2025 law isn't named (one bill per post). "No new accounts" is our
+  reading of the repeal of Subchapter J plus Sec. 10 (only 2026-27 money is continued); please confirm. The bill also
+  removes the program's misconduct-reporting and criminal-history provisions for providers (Secs. 2-8); left out for
+  space. No source states who gains or loses money beyond who is covered, and no official statement for or against the
+  bill was found, so the post gives the record and asks. Takes Nov. 24 7:30 a.m. (Reel before the 9:00 a.m. carousel).
