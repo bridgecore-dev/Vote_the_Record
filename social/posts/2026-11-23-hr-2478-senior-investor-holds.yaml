@@ -1,0 +1,105 @@
+kind: carousel
+level: congress
+topic: Seniors
+approval: review
+record_ids: ["us/119/H.R. 2478/senate-passed", "us/119/2/house/roll/227"]
+publish_after: '2026-11-23T21:00:00-06:00'
+rule: >-
+  Vote posts list every member on the smaller side of the roll call, with party and state as the House Clerk
+  records them. Here that is the 2 Nay votes. Quotes are from the two members who controlled the House debate
+  time, one per party; both supported the bill.
+sources:
+- title: "U.S. Senate Press Gallery, floor log, Nov. 18, 2026"
+  url: https://www.dailypress.senate.gov/
+  retrieved: '2026-11-18'
+- title: "House Clerk, Roll Call 227 (2026), H.R. 2478"
+  url: https://clerk.house.gov/evs/2026/roll227.xml
+  retrieved: '2026-11-18'
+- title: "H.R. 2478 as passed by the House (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr2478eh/html/BILLS-119hr2478eh.htm
+  retrieved: '2026-11-18'
+- title: "15 U.S.C. 80a-22 (GPO, U.S. Code 2023)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title15/html/USCODE-2023-title15-chap2D-subchapI-sec80a-22.htm
+  retrieved: '2026-11-18'
+- title: "Congressional Record, June 24, 2026, H4222-H4226"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-06-24/html/CREC-2026-06-24-pt1-PgH4222-2.htm
+  retrieved: '2026-11-18'
+- title: "House Report 119-361 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt361/html/CRPT-119hrpt361.htm
+  retrieved: '2026-11-18'
+bills:
+- id: H.R. 2478
+  title: Financial Exploitation Prevention Act of 2025
+  does: "Would let mutual funds that opt in hold a sale for up to 15 business days (25 with an extension) if they suspect a scam."
+  affects: "People 65 and older, and adults with an impairment, who hold mutual fund shares directly with the fund."
+  where: "Passed the U.S. House of Representatives 414-2 (June 25), U.S. Senate by unanimous consent (Nov. 18)."
+  summary:
+    text: >-
+      This bill establishes procedures for delaying the redemption of certain securities if an investment
+      company or agent believes that an older individual or an individual with certain impairments has been
+      financially exploited.
+    title: Congressional Research Service summary of H.R. 2478
+    url: https://api.congress.gov/v3/bill/119/hr/2478/summaries
+    retrieved: '2026-11-18'
+slides:
+- kicker: "U.S. Senate · Nov. 18, 2026"
+  head: "The U.S. Senate passed a bill letting mutual funds pause a senior's cash-out when they suspect a scam."
+  vote: {yea: 414, nay: 2, not_voting: 14}
+  text: "H.R. 2478. The U.S. House of Representatives vote is above; the U.S. Senate passed it by unanimous consent, with no roll call. It affects people 65 and older and adults with an impairment."
+- chip: "Before → after"
+  head: "Today, a fund generally has to pay within seven days of a sale request."
+  rows:
+  - [Now, "Funds can't wait more than 7 days to pay, with a few exceptions"]
+  - [After, "A fund that opts in can hold it up to 15 business days"]
+  - [Extension, "10 more business days if it still suspects a scam"]
+  - [Longer, "A state regulator or a court can extend it"]
+  - [The money, "Kept in a bank deposit account while on hold"]
+  text: "Since 2018, the SEC has said it wouldn't take action against funds that delay these payments, CBO notes. The bill writes a rule into law."
+- chip: "Who it affects"
+  head: "Investors 65 and older, and adults 18 and older with an impairment that keeps them from protecting their own interests."
+  rows:
+  - [Gains, "A pause to check before savings go to a scammer"]
+  - [Waits, "The account owner, whose own sale is on hold"]
+  - [Contacts, "Funds that opt in ask you to name a trusted person"]
+  - [Cost, "CBO: about $2 million to the SEC for a report, paid from SEC fees"]
+- chip: How they voted
+  head: "By party, as the House Clerk records it"
+  rows:
+  - [Republican, "206 Yea · 2 Nay · 9 didn't vote"]
+  - [Democratic, "207 Yea · 0 Nay · 5 didn't vote"]
+  - [Independent, "1 Yea · 0 Nay · 0 didn't vote"]
+  text: "Voted Nay: Biggs (R-AZ), Brecheen (R-OK). It came up under \"suspension of the rules,\" so it needed two-thirds of those voting."
+- chip: In their words
+  head: "Both members who led the House debate supported it."
+  quote:
+    label: "Wagner (R-MO), the sponsor, Cong. Rec. H4224"
+    text: "the bill creates a crucial window of up to 15 days with the possibility of a 10-day extension that will provide the time necessary to investigate the situation and notify the appropriate authorities."
+  text: "Waters (D-CA) also backed it: \"This is a good bill. This is a bill to try and protect our seniors.\" No one spoke against it, and the roll call records no reasons."
+- chip: What's next
+  head: "The Senate's official record of the vote isn't posted yet."
+  text: "If the U.S. Senate made no changes, the bill goes to the President. Earlier versions passed the House in 2021 and 2023 and stalled in the Senate. Would you name a trusted contact on your accounts?"
+caption: |-
+  A mutual fund generally has to pay you within seven days of a request to sell. H.R. 2478, the Financial Exploitation Prevention Act, would let funds that opt in hold that payment for up to 15 business days, plus 10 more, when they reasonably believe someone 65 or older, or an adult with an impairment, is being exploited.
+
+  The U.S. House of Representatives passed it 414-2 on June 25. The U.S. Senate passed it by unanimous consent on Nov. 18.
+
+  By party, per the House Clerk: Republicans 206 Yea, 2 Nay; Democrats 207 Yea, 0 Nay; the one Independent voted Yea. The 2 Nay votes: Biggs (R-AZ) and Brecheen (R-OK).
+
+  The trade-off: a pause gives time to stop a scam, and the owner's own sale waits. CBO: about $2 million in SEC costs, offset by SEC fees.
+
+  Would you name a trusted contact on your accounts? Tell us below.
+hashtags: [congress, seniors, fraudprevention, investing, votetherecord]
+notes: >-
+  New: the Senate Press Gallery's Nov. 18 log says "By unanimous consent, the Senate passed H.R. 2478 - Financial
+  Exploitation Prevention Act of 2025." Congress.gov actions (via api.congress.gov) still end July 13 (referred to
+  Senate Banking), and the Nov. 18 Record isn't on GovInfo yet, so the post doesn't say whether the Senate amended it
+  or that it goes to the President. CHECK BEFORE IT POSTS: congress.gov actions for "without amendment" (then the
+  last slide can say it goes to the President) or "with an amendment" (then it goes back to the House), and for
+  presentment or signing. Numbers (7 days, 15 and 10 business days, demand deposit account, 65+/18+ impairment, opt-in
+  by notifying the SEC, trusted contact request) are from the House-passed text and 15 U.S.C. 80a-22(e); the CRS
+  summary is of the introduced bill and says "15 days", so only its first sentence is quoted. The 2018 SEC no-action
+  position and the $2 million SEC cost (offset by fees; net effect "negligible") are from CBO's estimate as printed in
+  the Record at H4222-H4223 (cbo.gov returned 403, not retried). Party totals and the 2 Nay names are the Clerk's
+  roll 227 XML. Quotes are word for word from the Record (H4224-H4225); party/state from roll 227. The earlier House
+  passages (H.R. 2265 by voice vote in 2021, H.R. 500 419-0 in 2023) are from H. Rept. 119-361; their numbers are
+  left off (one bill per post). Nov. 23 9:00 p.m. is the first free post slot that keeps the Reel/post turn.
