@@ -3,7 +3,7 @@ level: congress
 topic: War powers
 approval: review
 record_ids: [us/119/2/senate/roll/269]
-publish_after: '2026-11-20T12:00:00-06:00'
+publish_after: '2026-11-26T00:00:00-06:00'
 rule: >-
   Vote posts list every member on the smaller side of the roll call, with party and state as the Senate records
   them, up to about 40 names. Here the smaller side is 48 Yea votes, so the post gives the totals by party and
@@ -103,3 +103,4 @@ notes: >-
   law" paraphrases CRS on Section 5(b) (the 30-day extension isn't on the slide). Not checked: whether a joint
   resolution on Iran is pending (one bill per post, so none is named).
   Nov 19 fix: shortened the source titles so the cover's source footer fits (the first preview clipped it).
+  Nov 19 re-slot: moved to 2026-11-26T00:00:00-06:00, the next free slot for its kind (the first slot clashed with a queued post).
