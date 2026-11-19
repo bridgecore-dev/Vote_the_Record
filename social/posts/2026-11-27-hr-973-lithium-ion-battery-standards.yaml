@@ -1,0 +1,117 @@
+kind: reel
+level: congress
+topic: Product safety
+approval: review
+record_ids: [us/119/H.R. 973/senate-passed, us/119/1/house/roll/103]
+publish_after: '2026-11-27T06:00:00-06:00'
+rule: >-
+  Bills the U.S. Senate Press Gallery lists as passed by the U.S. Senate on Nov. 19, 2026 that no post covers yet.
+  H.R. 1520 and S. 3321 already have their own posts; this is H.R. 973.
+sources:
+- title: "U.S. Senate Press Gallery, Thursday, November 19, 2026 (floor log)"
+  url: https://www.dailypress.senate.gov/thursday-november-19-2026/
+  retrieved: '2026-11-19'
+- title: "H.R. 973 (119th Congress), engrossed in the House (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr973eh/html/BILLS-119hr973eh.htm
+  retrieved: '2026-11-19'
+- title: "H. Rept. 119-77, Setting Consumer Standards for Lithium-Ion Batteries Act (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt77/html/CRPT-119hrpt77.htm
+  retrieved: '2026-11-19'
+- title: "Office of the Clerk, U.S. House, Roll Call 103 (2025)"
+  url: https://clerk.house.gov/evs/2025/roll103.xml
+  retrieved: '2026-11-19'
+- title: "Congressional Record, House, Apr. 28, 2025, H1637 (debate on H.R. 973)"
+  url: https://www.govinfo.gov/content/pkg/CREC-2025-04-28/html/CREC-2025-04-28-pt1-PgH1637.htm
+  retrieved: '2026-11-19'
+- title: Congress.gov, H.R. 973 record
+  url: https://api.congress.gov/v3/bill/119/hr/973
+  retrieved: '2026-11-19'
+bills:
+- id: H.R. 973
+  title: Setting Consumer Standards for Lithium-Ion Batteries Act
+  does: "Makes the CPSC turn three UL safety standards for e-bike and e-scooter batteries into mandatory federal rules within 180 days."
+  affects: "Makers and sellers of e-bikes, e-scooters and their rechargeable lithium-ion batteries, and the people who use them."
+  where: "Passed the U.S. House 365-42 Apr. 28, 2025, and the U.S. Senate by unanimous consent Nov. 19, 2026."
+  summary:
+    text: "This bill requires the Consumer Product Safety Commission to issue a final consumer product safety rule for rechargeable lithium-ion batteries used in micromobility devices, such as electric bikes and electric scooters."
+    title: Congressional Research Service summary of H.R. 973
+    url: https://www.congress.gov/bill/119th-congress/house-bill/973
+    retrieved: '2026-11-19'
+  say: "H.R. 973 makes the Consumer Product Safety Commission turn three safety standards for e-bike and e-scooter batteries into mandatory federal rules within 180 days. It applies to makers and sellers of those batteries and devices."
+slides:
+- kicker: "U.S. Senate · Nov. 19, 2026"
+  big: "365-42"
+  head: "E-bike batteries could get a federal safety rule. The U.S. Senate passed H.R. 973 by unanimous consent."
+  vote: {yea: 365, nay: 42, not_voting: 25}
+  text: "The tally is the U.S. House of Representatives vote, Apr. 28, 2025. The U.S. Senate had no roll call."
+  say: "Could e-bike batteries get a federal safety rule? On November 19, the United States Senate passed H.R. 973 by unanimous consent. The House passed it 365 to 42 in April 2025."
+- chip: The law today
+  head: "There's no federal safety standard for these batteries, the House committee said."
+  quote: {label: "H. Rept. 119-77 (April 2025)", text: "Currently, there is no federal safety standard for lithium-ion batteries and many uncertified and untested batteries are available for purchase.", key: no federal safety standard}
+  say: "The law today. The United States House committee report said there is no federal safety standard for lithium-ion batteries, and many uncertified and untested ones are for sale."
+- chip: "Before → after"
+  head: What the bill changes
+  rows:
+  - [Before, "No federal standard for e-bike and e-scooter batteries"]
+  - [After, "The CPSC must adopt UL 2271, 2849 and 2272 as rules within 180 days"]
+  - [Updates, "A revised UL standard becomes the rule unless the CPSC objects within 90 days"]
+  - [Report, "The CPSC reports to Congress on battery fires within 5 years"]
+  say: "Before, no federal standard. After, the Consumer Product Safety Commission must adopt three UL standards, 2271, 2849 and 2272, as rules within 180 days. Later revisions become the rule unless it objects within 90 days. It reports on fires within 5 years."
+- chip: "Who gains, who gives"
+  head: "Riders get a mandatory standard. Makers and sellers have to meet it."
+  rows:
+  - [Gains, "People who buy and ride e-bikes and e-scooters"]
+  - [Gives, "Manufacturers and distributors, who must comply"]
+  - [Why, "In New York City, 2019-2023: 400+ fires, 300 injuries, 12 deaths (FDNY, in the report)"]
+  - [Cost, "Congress.gov lists no CBO estimate for it"]
+  say: "Riders get a mandatory standard, and manufacturers and distributors must meet it. The report cites New York City fire data, 2019 to 2023: more than 400 fires, 300 injuries and 12 deaths. Congress.gov lists no cost estimate."
+- chip: The House vote
+  head: "Roll Call 103, Apr. 28, 2025"
+  rows:
+  - [Republican, "163 Yea · 42 Nay · 14 didn't vote"]
+  - [Democratic, "202 Yea · 0 Nay · 11 didn't vote"]
+  - [Nay side, "All 42 names are on the Clerk's roll call page"]
+  - [Debate, "No member spoke against it on the House floor"]
+  say: "The United States House vote, Roll Call 103. Republicans, 163 Yea, 42 Nay, 14 didn't vote. Democrats, 202 Yea, none Nay, 11 didn't vote. All 42 Nay names are on the Clerk's page. No member spoke against it on the floor."
+- chip: How it passed
+  head: "Sponsor: Rep. Ritchie Torres (D-NY). The U.S. Senate passed it without a roll call."
+  rows:
+  - [In the Senate, "Sen. Gillibrand asked for unanimous consent; no senator objected"]
+  - [Next, "Congress.gov will show if the Senate changed the text"]
+  say: "The sponsor is Representative Ritchie Torres, Democrat of New York. In the United States Senate, Senator Gillibrand asked for unanimous consent, and no senator objected. Congress.gov will show if the Senate changed the text."
+- chip: Your turn
+  head: "Should e-bike batteries have to meet a federal safety standard?"
+  text: "Tell us what you think, and tell your members of Congress."
+  say: "Your turn. Should e-bike and e-scooter batteries have to meet a federal safety standard? Tell us, and tell your members of Congress."
+caption: |-
+  On Nov. 19, the U.S. Senate passed H.R. 973, the Setting Consumer Standards for Lithium-Ion Batteries Act, by unanimous consent. The U.S. House of Representatives passed it 365-42 on Apr. 28, 2025.
+
+  Before: the House committee report said there is no federal safety standard for lithium-ion batteries.
+
+  After: the Consumer Product Safety Commission must adopt three UL standards for e-bike and e-scooter batteries (UL 2271, 2849, 2272) as mandatory rules within 180 days.
+
+  Who gains: riders. Who gives: makers and distributors, who must comply. Congress.gov lists no CBO estimate.
+
+  House vote by party (Roll Call 103): Republican 163 Yea, 42 Nay; Democratic 202 Yea, 0 Nay.
+
+  Should these batteries have to meet a federal standard?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, ebikes, productsafety, ussenate, votetherecord]
+notes: >-
+  New this run: the Senate Press Gallery's Nov. 19 floor log says "Senator Gillibrand achieved unanimous consent to pass
+  the following: ... H.R.973 - Setting Consumer Standards for Lithium-Ion Batteries Act" (3:34 p.m.). It names a
+  substitute for the other bill in that entry (H.R. 4624) but not for H.R. 973; it doesn't say "without amendment", and
+  api.congress.gov actions (read 2026-11-19) still end Apr. 29, 2025 ("Received in the Senate"). So the post doesn't say
+  it goes to the President. PLEASE CHECK before the slot: if congress.gov shows "Passed Senate without amendment", the
+  "How it passed" slide, `where` and the caption can say it goes to the President next; if amended, it goes back to the
+  House and the before/after (from the engrossed text) may need changing. "No objection" is what unanimous consent
+  means; the log doesn't name objectors. "No federal safety standard" is the committee report's April 2025 wording;
+  please confirm the CPSC hasn't issued a mandatory standard since. Party totals and 365-42-25 are from roll103.xml; the
+  42 Nays (all Republican) are linked, not listed (over about 40). The only House speakers in the debate granule are
+  Bilirakis, Pallone and Torres, all in support; no member stated a reason for voting Nay, so there is no case-against
+  quote. The FDNY numbers are the report's ("more than 400 fires, 300 injuries, and twelve deaths ... in New York City
+  alone"). No CBO estimate is listed on the bill record; the report says CBO's estimate wasn't available when filed.
+  "Gains/gives" rests on the CRS summary (manufacturers and distributors must comply) and the report's purpose
+  ("protect consumers"). Sponsor's party and state from congress.gov.
+  Slot: Nov. 27, 6:00 a.m. Reel, so the day still alternates whether or not the Nov. 26 9:00 a.m. post in PR 225 merges.
