@@ -1,0 +1,100 @@
+kind: reel
+level: congress
+topic: Public lands
+approval: review
+record_ids: ["us/119/H.R. 5254/senate-passed"]
+publish_after: '2026-11-24T10:30:00-06:00'
+rule: >-
+  Every House bill the U.S. Senate passed on Nov. 17, 2026, as the House Clerk's Nov. 18 floor log lists them
+  (H.R. 5254 and H.R. 8454), gets its own post with the same structure.
+sources:
+- title: "U.S. House Clerk, House floor proceedings, Nov. 18, 2026"
+  url: https://clerk.house.gov/floor/20261118.xml
+  retrieved: '2026-11-19'
+- title: H.R. 5254 actions (Congress.gov API)
+  url: https://api.congress.gov/v3/bill/119/hr/5254/actions
+  retrieved: '2026-11-19'
+- title: "H.R. 5254, Engrossed in House (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr5254eh/html/BILLS-119hr5254eh.htm
+  retrieved: '2026-11-19'
+- title: "H. Rept. 119-536, Gateway Partnership Act (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt536/html/CRPT-119hrpt536.htm
+  retrieved: '2026-11-19'
+bills:
+- id: H.R. 5254
+  title: Gateway Partnership Act
+  does: "Lets the Park Service sign one deal, up to 5 years, for the Gateway Arch's nonprofit partner to host private events."
+  affects: "Gateway Arch National Park in St. Louis, Missouri, its visitors, and the Gateway Arch Park Foundation."
+  where: "Passed the U.S. House of Representatives March 16; the U.S. Senate, unchanged, Nov. 17. Next: the President."
+  summary:
+    text: >-
+      This bill authorizes the National Park Service (NPS) to enter into a one-time agreement with the Gateway
+      Arch Park Foundation to host private events at the Gateway Arch National Park and its buildings for a
+      period of up to five years.
+    title: Congressional Research Service summary of H.R. 5254
+    url: https://api.congress.gov/v3/bill/119/hr/5254/summaries
+    retrieved: '2026-11-19'
+  say: "H.R. 5254, the Gateway Partnership Act, lets the Park Service sign one deal, for up to 5 years, for the Gateway Arch's nonprofit partner to host private events. Both chambers have now passed it. Next: the President."
+slides:
+- kicker: "Cleared Congress · Nov. 17"
+  big: "5 years"
+  head: "Congress passed a bill letting the Gateway Arch's nonprofit partner host private events in the park for up to 5 years."
+  say: "5 years. Congress passed a bill letting the Gateway Arch's nonprofit partner host private events in the park for up to 5 years. The United States Senate passed it, unchanged, on November 17."
+- chip: "Before"
+  head: "The Park Service can issue permits for special events at the Arch. The House committee report says it lacks clear authority for a formal deal with the foundation."
+  rows:
+  - [Visitors, "Over 2.4 million a year, the report says"]
+  - [Private events, "Nearly 30 since the park's renovation, the report says"]
+  say: "Before: the Park Service can issue permits for special events at the Arch. But the United States House committee report says it lacks clear authority for a formal deal with the foundation. The park draws over 2.4 million visitors a year."
+- chip: "After"
+  head: "One agreement with the Gateway Arch Park Foundation, the park's official philanthropic partner."
+  rows:
+  - [Where, "Arch Visitor Center, Old Courthouse, other park buildings"]
+  - [Length, "One deal, up to 5 years"]
+  - [Limits, "No events that disrupt public use or access"]
+  - [Others, "The Park Service can still host and permit other events"]
+  - [Ends, "The authority ends 7 years after it becomes law"]
+  say: "After: one agreement with the Gateway Arch Park Foundation, for up to 5 years, in the Arch Visitor Center, the Old Courthouse and other buildings. No events that disrupt public use or access. The authority ends 7 years after it becomes law."
+- chip: "Who pays, who gains"
+  head: "The foundation pays for wear and tear. The park can recover its costs and may gain new revenue."
+  rows:
+  - [Fees, "The park must charge a fee for wear and tear"]
+  - [Costs, "It may recover all costs: staff, security, utilities"]
+  - [Revenue, "Up to $780,000 a year, the report projects"]
+  - [Cost estimate, "CBO estimate requested, not received"]
+  - [Check-up, "Report to Congress within 4 years"]
+  say: "The park must charge the foundation a fee for wear and tear, and may recover all its costs. The report projects up to $780,000 a year in new revenue. A CBO cost estimate was requested, not received. Interior reports to Congress within 4 years."
+- kicker: "How it passed · What's next"
+  head: "No recorded roll call in either chamber."
+  rows:
+  - [U.S. House of Representatives, "Voice vote, March 16, 2026"]
+  - [U.S. Senate, "Unanimous consent, no changes, Nov. 17, 2026"]
+  text: "Sponsor: Rep. Wesley Bell (D-MO). Cosponsors: Rep. Ann Wagner (R-MO), Rep. Nikki Budzinski (D-IL). Next: the President. Should national parks host private events?"
+  say: "The United States House passed it by voice vote on March 16, 2026, and the Senate by unanimous consent on November 17, so there's no member-by-member tally. Next: the President. Should national parks host private events?"
+caption: |-
+  Congress has passed the Gateway Partnership Act. The U.S. Senate passed the House's bill without changes, by unanimous consent, on Nov. 17. The U.S. House of Representatives passed it by voice vote March 16.
+
+  Before: the National Park Service can issue permits for special events at the Gateway Arch in St. Louis, but the House committee report says it lacks clear authority for a formal deal with the Gateway Arch Park Foundation.
+
+  After: one agreement, up to 5 years, for the foundation to host private events in park buildings such as the Arch Visitor Center and the Old Courthouse. Events can't disrupt public use or access. The park must charge a fee for wear and tear and may recover all its costs. The report projects up to $780,000 a year in new revenue; no CBO estimate yet. The authority ends 7 years after it becomes law.
+
+  Sponsor: Rep. Wesley Bell (D-MO). Next it goes to the President (status as of Nov. 19).
+
+  Should national parks host private events?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, nationalparks, gatewayarch, stlouis, missouri]
+notes: >-
+  New this run: the Clerk's Nov. 18 floor log (4:27 p.m.) says "The Senate passed H.R. 5254 and H.R. 8454";
+  congress.gov actions (API, read 2026-11-19): "Passed Senate without amendment by Unanimous Consent.
+  (consideration: CR S5709)" on Nov. 17, and "Message on Senate action sent to the House" Nov. 18. No
+  presentment to the President is listed yet; if it is signed or vetoed before the slot, update the last slide,
+  `where` and the caption, or delete this file. The Senate committee had ordered a substitute (July 29) but
+  reported the bill without amendment (Sept. 17); the reported-in-Senate text matches the House engrossed text
+  word for word (checked), and the Senate passed it without amendment. 2.4 million visitors, nearly 30 events,
+  the permit/authority gap and the $780,000 projection are as H. Rept. 119-536 states them (the report cites
+  NPS, the foundation and Sen. Schmitt's press release for them). CRS summary is of the reported (substitute)
+  text, which is the passed text. Party and state for Bell, Wagner and Budzinski as congress.gov lists them.
+  No opposing view was found in the record: the House committee approved it by unanimous consent and neither
+  chamber recorded a vote, so the post doesn't invent a case against. Pairs with the 12:00 p.m. carousel
+  (2026-11-24-hr-8454-ackerson-meadow-swap-cleared), filling the Nov. 24 10:30/12:00 pair.

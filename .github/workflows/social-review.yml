@@ -69,7 +69,16 @@ jobs:
             echo "::error::Post files must come in a pull request from a social/... branch, not $HEAD_REF"; exit 1
           fi
           others=$(git diff --name-only "$BASE"...HEAD | grep -v '^social/posts/' || true)
+          # a post whose only change is its publish_after was previewed in its own pull request: check it, but
+          # don't render it again (a catch-up reorder can move dozens of posts at once)
+          render=""
+          for f in $files; do
+            if git diff -U0 "$BASE"...HEAD -- "$f" | grep -E '^[+-]' | grep -vE '^(\+\+\+|---) ' | grep -qvE '^[+-]publish_after: '; then
+              render="$render $f"
+            fi
+          done
           echo "files=$files" >> "$GITHUB_OUTPUT"
+          echo "render=$render" >> "$GITHUB_OUTPUT"
           echo "only_posts=$([ -z "$others" ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
 
       - name: Check
@@ -86,8 +95,16 @@ jobs:
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           R2_BUCKET: ${{ vars.R2_BUCKET }}
           R2_PUBLIC_URL: ${{ vars.R2_PUBLIC_URL }}
-          FILES: ${{ steps.posts.outputs.files }}
-        run: python src/social/publish.py --preview $FILES > comment.md
+          FILES: ${{ steps.posts.outputs.render }}
+          MOVED: ${{ steps.posts.outputs.files }}
+        run: |
+          if [ -n "$(echo $FILES)" ]; then
+            python src/social/publish.py --preview $FILES > comment.md
+          else
+            mkdir -p social/out
+            { echo "Schedule changes only (publish_after); the posts' previews are unchanged from their own pull requests:"
+              for f in $MOVED; do echo "- \`$f\`"; done; } > comment.md
+          fi
 
       - uses: actions/upload-artifact@v4
         if: steps.posts.outputs.files != ''
