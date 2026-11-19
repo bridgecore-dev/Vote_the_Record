@@ -141,9 +141,14 @@ Made to be seen (never at the cost of a rule above):
 - Design trials (owner's decision, 2026-11-18): up to one trial Reel a day, `trial: auto` (Instagram shows it
   to non-followers first and adds it to the grid if it does well), with a `design` that changes one thing at
   a time from the last trial (`palette`, `mode`, `font`, `position`, `motion`, `sfx`; see social/README.md).
-  The facts and sources follow every rule above; only the look changes. A trial Reel doesn't count in the
-  Reel/post turn-taking. Use `approval: review` for the first trial of each new design. The weekly "What's
+  The facts and sources follow every rule above; only the look changes. A trial is one of the day's queued
+  Reels turned into a trial (owner's choice, 2026-11-19: no extra posts), so it keeps its Reel slot. Use `approval: review` for the first trial of each new design. The weekly "What's
   working" issue compares designs.
+- AI illustrations (owner's decision, 2026-11-19): a captions Reel slide may carry `ai_image: {prompt, seed}`, a plain
+  description of a decorative scene (landscape, texture, abstract shapes). Cloudflare Workers AI draws it in the post's
+  palette with a fixed house style; reel.py refuses prompts that name people, real places, symbols, documents, text,
+  numbers or proper names, and shows "AI-generated illustration" on screen. Never on a slide with a vote, quote, doc or
+  photo. The caption says "AI-generated illustration" and the post uses `approval: review`.
 - When a claim about a bill or vote is trending (news, Google Trends, the trends file), make an "Is it true?"
   post: state the claim, then what the official record says (the bill text, the roll call, the CBO estimate),
   quoted. If the record shows the claim is right, say so; if it's wrong or about another bill, say that.
@@ -215,10 +220,14 @@ One file, `social/posts/<YYYY-MM-DD>-<slug>.yaml`, in the format in `social/READ
 - `publish_after`: the next free slot for the post's format, Central time, not already used by a pending post.
   Each day's feed alternates Reel, post, Reel, post (owner's request, 2026-11-15); a `clip` counts as a Reel,
   `carousel` and `image` as posts, and stories sit outside the alternation:
-  - every day: Reel 7:30 a.m., post 9:00 a.m.; Reel 1:30 p.m., post 3:00 p.m.; Reel 7:30 p.m., post 9:00 p.m.
-  - busy news days add a pair: Reel 10:30 a.m. and post 12:00 p.m., or Reel 4:30 p.m. and post 6:00 p.m.
-    Fill both halves of a pair or neither.
+  - around the clock, every 3 hours (owner's decision, 2026-11-19: post as much as Instagram allows without
+    slipping, across all 24 hours): Reel 12:00 a.m., post 3:00 a.m., Reel 6:00 a.m., post 9:00 a.m.,
+    Reel 12:00 p.m., post 3:00 p.m., Reel 6:00 p.m., post 9:00 p.m.
   - stories: 8:15 p.m.
+  - Finding the limit: the publisher logs Meta's rate-limit usage after each post ("Meta rate-limit usage: N%").
+    After two days with no limit error, the gap shrinks a step (3 h, then 2.5 h, then 2 h); after a limit error
+    that wasn't a post going out anyway, it widens a step. Each change is a pull request that updates these
+    slots and re-slots the queue.
   Ordered by time, a day's Reels and posts must never run two of the same kind in a row (a test checks this);
   if the slot that would keep the turn isn't free, take the next day's. Never two posts at the same time.
   Written with its offset (e.g. `'2026-11-16T09:00:00-06:00'`; `-05:00` in daylight time).

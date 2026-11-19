@@ -1,6 +1,6 @@
 name: social publish
 
-# Every 30 minutes from 5:00 a.m. to 10:30 p.m. Central standard time: publish merged posts that are due
+# Every 10 minutes, around the clock: publish merged posts that are due
 # (src/social/publish.py). Nothing runs on the schedule until the repo variable SOCIAL_PUBLISH is "true".
 #
 # Setup (one time), in the repo's Settings → Secrets and variables → Actions:
@@ -10,8 +10,8 @@ name: social publish
 on:
   schedule:
     # every 10 minutes at off-peak minutes: GitHub often drops scheduled runs set for :00 and :30, and a run with
-    # nothing due finishes quickly. UTC; 5:00 a.m.-10:50 p.m. CST (an hour later in daylight time).
-    - cron: "4,14,24,34,44,54 11-23,0-4 * * *"
+    # nothing due finishes quickly. all 24 hours (posts are spread around the clock since 2026-11-19).
+    - cron: "4,14,24,34,44,54 * * * *"
   workflow_dispatch:
     inputs:
       take_down:
@@ -63,6 +63,7 @@ jobs:
           IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
           IG_GRAPH_VERSION: ${{ vars.IG_GRAPH_VERSION }}
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          CF_AI_TOKEN: ${{ secrets.CF_AI_TOKEN }}  # Workers AI, for ai_image (src/social/reel.py)
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           R2_BUCKET: ${{ vars.R2_BUCKET }}
@@ -75,6 +76,7 @@ jobs:
           IG_GRAPH_HOST: ${{ vars.IG_GRAPH_HOST }}
           IG_GRAPH_VERSION: ${{ vars.IG_GRAPH_VERSION }}
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          CF_AI_TOKEN: ${{ secrets.CF_AI_TOKEN }}  # Workers AI, for ai_image (src/social/reel.py)
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           R2_BUCKET: ${{ vars.R2_BUCKET }}
