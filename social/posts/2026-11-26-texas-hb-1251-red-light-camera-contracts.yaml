@@ -1,0 +1,94 @@
+kind: reel
+level: state
+place: Texas
+topic: Transportation
+approval: review
+rule: Every bill filed Nov. 19, 2026 whose Texas Legislature Online subjects include photographic traffic signals (said
+  on the last slide).
+record_ids: [tx/90R/HB 1251/filed]
+publish_after: '2026-11-27T00:00:00-06:00'
+sources:
+- title: TLO, bills filed Nov. 19, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-19
+  retrieved: '2026-11-19'
+- title: TLO, HB 1251 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1251
+  retrieved: '2026-11-19'
+- title: Texas Transportation Code, Chapter 707
+  url: https://statutes.capitol.texas.gov/Docs/TN/htm/TN.707.htm
+  retrieved: '2026-11-19'
+- title: Texas red-light camera law, 2019 (86th Legislature, Chapter 372), enrolled text
+  url: https://capitol.texas.gov/tlodocs/86R/billtext/html/HB01631F.htm
+  retrieved: '2026-11-19'
+bills:
+- id: HB 1251
+  does: Would end the 2019 exception that let some red-light camera contracts keep running, and void contracts that break the ban.
+  affects: Cities and counties with red-light camera contracts signed before May 7, 2019, and the other parties to them.
+  where: Filed Nov. 19, 2026 by Rep. Cortez; no other action yet.
+  summary:
+    text: >-
+      Sec. 707.022. CONTRACTS VOID. A contract that violates this chapter is void.
+    title: HB 1251 as filed, Sec. 1 (Transportation Code 707.022)
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/HB01251I.pdf
+    retrieved: '2026-11-19'
+  say: HB 1251 would end the 2019 exception for some red-light camera contracts, and make any contract that breaks the
+    ban void. It was filed November 19 by Representative Cortez, with no other action yet.
+slides:
+- kicker: 2027 Texas session · Filed Nov. 19, 2026
+  big: '2019'
+  head: Texas banned red-light cameras in 2019, with an exception. A Texas House of Representatives bill would end it.
+  say: Texas banned red-light cameras in 2019, with an exception. A Texas House of Representatives bill filed November 19
+    would end that exception.
+- chip: The law today
+  head: Cities and counties can't run red-light cameras or ticket drivers from their photos.
+  quote: {label: Texas Transportation Code 707.020(a), text: "a local authority may not implement or operate a photographic traffic signal enforcement system", key: "may not implement or operate"}
+  say: 'The law today: a city or county may not run a red-light camera system, and may not ticket drivers based on its
+    photos.'
+- chip: The exception
+  big: May 7, 2019
+  head: Places that had a camera ordinance and contract before this date could keep running cameras until the contract ran out.
+  text: "Unless the contract let them end it if state law changed. The 2019 law, Section 7(a)-(b)."
+  say: 'The exception: places that had a camera ordinance and contract before May 7, 2019 could keep their cameras until
+    the contract ran out, unless the contract let them end it if state law changed.'
+- chip: What would change
+  head: HB 1251 does two things.
+  rows:
+  - [Repeals, "The 2019 exception, Section 7(a)-(b) of the 2019 law"]
+  - [Adds, "Sec. 707.022: \"A contract that violates this chapter is void.\""]
+  say: 'What would change: the bill repeals the 2019 exception. And it adds a new line to the law: a contract that violates
+    the red-light camera chapter is void.'
+- chip: Who it affects
+  head: Places still running cameras under those older contracts, and the other parties to them.
+  text: No official count of how many such contracts remain was found. No fiscal note is listed on the bill's page.
+  say: It would affect places still running cameras under those older contracts, and the other parties to them. No
+    official count of those contracts was found, and no cost estimate is posted yet.
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, it takes effect on this date, or right away with a two-thirds vote in each chamber.
+  text: "How we picked: every bill filed Nov. 19, 2026 on photographic traffic signals. HB 1251 was the only one. Should old camera contracts run out on their own, or end now?"
+  say: If passed as filed, it takes effect September 1, 2027, or right away with a two-thirds vote. How we picked, every
+    bill filed November 19 on red-light cameras. Should old contracts run out, or end now?
+caption: |-
+  Since 2019, Texas law has said a city or county may not run red-light cameras or ticket drivers from their photos.
+
+  The 2019 law had an exception: a place that already had a camera ordinance and contract before May 7, 2019 could keep its cameras until that contract ran out, unless the contract let it end early if state law changed.
+
+  HB 1251, filed in the Texas House of Representatives for the 2027 session, would repeal that exception and add one line to the law: "A contract that violates this chapter is void."
+
+  No official count of how many of those contracts remain was found, and no cost estimate is posted yet. If passed as filed, it takes effect Sept. 1, 2027, or right away with a two-thirds vote in each chamber.
+
+  Should old camera contracts run out on their own, or end now?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [txlege, texaslegislature, redlightcameras, votetherecord]
+notes: >-
+  New: filed Nov. 19, 2026; no earlier post covers it. Rule: the Nov. 19 filing report; HB 1251 is the only bill whose
+  TLO subjects include "PHOTOGRAPHIC TRAFFIC SIGNALS". Records opened 2026-11-19: the filing report, the bill history
+  (filed, no other action; author "Cortez"), the introduced PDF (HTML not posted; 90R4754 AJZ-F; sha256
+  d5f03906034d4f183fde6ddd66fa13d924aae7e8d06ecabbb06b38119f8feafa; 3 sections), Transportation Code 707.020 and
+  707.021 (rendered from statutes.capitol.texas.gov), and the 2019 law's enrolled text (86R, Acts 2019 ch. 372), Section 7(a)-(c). The bill
+  repeals 7(a) and (b), not 7(c) (vehicle registration can't be refused over unpaid camera penalties). "Places" is our
+  plain word for "local authority" (Transportation Code 541.002). The 2019 exception also keeps the former law in effect
+  for proceedings and penalties under those contracts; the slide doesn't go into that. No source states who gains or
+  loses beyond the contracts' parties, and no official statement for or against was found, so the post asks. Takes
+  Nov. 27's 12:00 a.m. Reel slot, before the 3:00 a.m. carousel (Nov. 26's noon slot would follow the 6:00 a.m. Reel on main).
