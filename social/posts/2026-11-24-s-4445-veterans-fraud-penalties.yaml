@@ -1,0 +1,99 @@
+kind: carousel
+level: congress
+topic: Veterans
+approval: review
+record_ids: ["us/119/S. 4445/senate-passed"]
+publish_after: '2026-11-24T15:00:00-06:00'
+sources:
+- title: "S. 4445 as passed by the Senate (engrossed text, GovInfo)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119s4445es/html/BILLS-119s4445es.htm
+  retrieved: '2026-11-19'
+- title: "U.S. Senate Press Gallery, floor log, Nov. 18, 2026"
+  url: https://www.dailypress.senate.gov/
+  retrieved: '2026-11-19'
+- title: "S. 4445 bill status (GovInfo, Library of Congress data)"
+  url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4445.xml
+  retrieved: '2026-11-19'
+- title: "18 U.S.C. 2326, Enhanced penalties (GPO, U.S. Code 2023)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title18/html/USCODE-2023-title18-partI-chap113A-sec2326.htm
+  retrieved: '2026-11-19'
+- title: "18 U.S.C. 2325, Definition (GPO, U.S. Code 2023)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title18/html/USCODE-2023-title18-partI-chap113A-sec2325.htm
+  retrieved: '2026-11-19'
+- title: "38 U.S.C. 101, Definitions (GPO, U.S. Code 2023)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title38/html/USCODE-2023-title38-partI-chap1-sec101.htm
+  retrieved: '2026-11-19'
+- title: "U.S. Constitution, Article I, Section 7 (National Archives transcript)"
+  url: https://www.archives.gov/founding-docs/constitution-transcript
+  retrieved: '2026-11-19'
+bills:
+- id: S. 4445
+  title: Veterans Protection from Fraud Act of 2026
+  does: "Adds scams that target veterans, of any age, to those that can bring up to 10 extra years in prison."
+  affects: "People convicted of fraud by phone, email or text that targeted veterans; veterans of any age."
+  where: "Passed the U.S. Senate by voice vote Nov. 18, 2026. Next: the U.S. House of Representatives."
+  summary:
+    text: "To amend title 18, United States Code, to enhance penalties for certain crimes committed against veterans, and for other purposes."
+    title: "S. 4445 as passed by the Senate, official title (no CRS summary posted yet)"
+    url: https://www.govinfo.gov/content/pkg/BILLS-119s4445es/html/BILLS-119s4445es.htm
+    retrieved: '2026-11-19'
+slides:
+- kicker: "U.S. Senate · Nov. 18, 2026"
+  big: S. 4445
+  head: "The U.S. Senate passed a bill adding prison time for phone, email and text scams that target veterans."
+  text: "It passed by voice vote, so there is no official list of how each senator voted."
+- chip: "Before → after"
+  head: "Today, the longest extra sentence for these scams is for targeting people over 55."
+  rows:
+  - [Now, "Up to 5 extra years for listed frauds run by phone, email or text"]
+  - [Now, "Up to 10 extra years if it targeted people over 55, or hit 10 or more of them"]
+  - [After, "Up to 10 extra years also if it targeted veterans, of any age"]
+  - [Veteran, "Served in the active military and wasn't dishonorably discharged"]
+  text: "The extra time is on top of the sentence for the fraud itself, such as identity theft or mail, wire, bank or health care fraud."
+  by: "18 U.S.C. 2325-2326; 38 U.S.C. 101; S. 4445, sec. 2"
+- chip: "Who it touches"
+  head: "Who gains, who faces more, and the cost"
+  rows:
+  - [Covered, "Veterans of any age, including those under 55"]
+  - [Faces more, "People convicted of these scams that targeted veterans"]
+  - [Not changed, "What counts as a crime; only the extra sentence grows"]
+  - [Cost, "No CBO cost estimate is listed for the bill as of Nov. 19"]
+- kicker: How it passed
+  head: "Introduced April 30, 2026, and passed without a roll call."
+  rows:
+  - [Sponsor, "Sen. Catherine Cortez Masto (D-NV)"]
+  - [Cosponsor, "Sen. Ted Budd (R-NC)"]
+  - [U.S. Senate, "Voice vote, Nov. 18, 2026"]
+  text: "Party and state as the bill's official record lists them. Congress's records list an identical bill filed in the U.S. House of Representatives the same day."
+- kicker: What happens next
+  head: "Next: the U.S. House of Representatives."
+  quote:
+    label: U.S. Constitution, Article I, Section 7
+    text: "Every Bill which shall have passed the House of Representatives and the Senate, shall, before it become a Law, be presented to the President of the United States"
+  text: "Status as of Nov. 19. Should scams aimed at veterans carry the same extra time as scams aimed at older people? Tell us below."
+caption: |-
+  The U.S. Senate passed the Veterans Protection from Fraud Act (S. 4445) by voice vote on Nov. 18.
+
+  Today, federal law adds up to 5 years in prison for certain frauds run by phone, email or text, and up to 10 years if the scam targeted people over 55 or hit 10 or more of them. This bill adds a third case: scams that targeted veterans, of any age. The extra time comes on top of the sentence for the fraud itself.
+
+  It passed without a roll call, so there is no list of how each senator voted. No CBO cost estimate is listed yet. Next it goes to the U.S. House of Representatives (status as of Nov. 19).
+
+  Should scams aimed at veterans carry the same extra time? Tell us below.
+hashtags: [congress, veterans, scams, fraud, votetherecord]
+notes: >-
+  New: the Senate Press Gallery's Nov. 18 log says "By voice vote, the Senate passed S.4445 - Veterans Protection from
+  Fraud Act of 2026", and the engrossed text on GovInfo ends "Passed the Senate November 18, 2026." The bill status
+  (GovInfo and api.congress.gov, read Nov. 19) doesn't show the passage yet; its latest action is the Apr. 30 referral
+  to Senate Judiciary, so how it left committee isn't stated. No CRS summary exists yet, so the explainer quotes the
+  official title of the engrossed text, and the before/after comes from the bill (sec. 2 adds 18 U.S.C. 2326(2)(C),
+  "targeted veterans (as such term is defined in section 101 of title 38) of any age") and the 2023 U.S. Code text of
+  2325 and 2326 (GPO). The 2023 edition is the latest GPO has; the House's uscode.house.gov page returned 404, so
+  please confirm no law since 2023 changed 2326. "Phone, email or text" is the 2325 definition ("interstate telephone
+  calls, emails, text messages, or electronic instant messages"). The veteran line paraphrases 38 U.S.C. 101(2):
+  "served in the active military, naval, air, or space service, and who was discharged or released therefrom under
+  conditions other than dishonorable." Sponsor and cosponsor with party/state as the bill status lists them. The
+  identical House bill (bill status relatedBills: "Identical bill", referred to House Judiciary Apr. 30) isn't
+  numbered here (one bill per post). No floor debate or for/against statement was found (voice vote; the Nov. 18
+  Record isn't on GovInfo yet), so the post asks the reader instead. If the House acts before Nov. 24, update the
+  last slide. Nov. 24 3:00 p.m. is the first free post slot that keeps the Reel/post turn (it sits between the 1:30
+  p.m. Reel and the next day's slots). Engrossed text sha256 (HTML): d23494793a2a8a05cdcfa41e0e02d79784b16f985f540ecf5fc9e004f2620f3e.
