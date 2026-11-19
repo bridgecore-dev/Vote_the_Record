@@ -1,0 +1,98 @@
+kind: reel
+level: congress
+topic: Family leave
+approval: review
+record_ids: [us/119/S. 3321/senate-passed]
+publish_after: '2026-11-20T18:00:00-06:00'
+rule: >-
+  Bills the U.S. Senate Press Gallery lists as passed by the U.S. Senate on Nov. 19, 2026 that no post covers yet.
+  The other one, H.R. 1520, already has its own post; this is S. 3321.
+sources:
+- title: "U.S. Senate Press Gallery, Thursday, November 19, 2026 (floor log)"
+  url: https://www.dailypress.senate.gov/thursday-november-19-2026/
+  retrieved: '2026-11-19'
+- title: "S. 3321 (119th Congress), introduced in the Senate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119s3321is/html/BILLS-119s3321is.htm
+  retrieved: '2026-11-19'
+- title: "29 U.S.C. 2612, Family and Medical Leave Act sec. 102 (GPO, U.S. Code 2023)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title29/html/USCODE-2023-title29-chap28-subchapI-sec2612.htm
+  retrieved: '2026-11-19'
+- title: Congress.gov, S. 3321 bill record (sponsor, cosponsors, actions)
+  url: https://api.congress.gov/v3/bill/119/s/3321
+  retrieved: '2026-11-19'
+bills:
+- id: S. 3321
+  title: FAIR Leave Act
+  does: "Repeals the rule letting an employer cap married coworkers at 12 weeks of family leave combined, so each keeps their own."
+  affects: "Married couples who work for the same employer and are eligible for Family and Medical Leave Act leave."
+  where: "Passed the U.S. Senate by voice vote on Nov. 19, 2026. Next: the U.S. House of Representatives."
+  summary:
+    text: "Section 102(f) of the Family and Medical Leave Act of 1993 (29 U.S.C. 2612(f)) is repealed."
+    title: S. 3321 as introduced, sec. 2 (no CRS summary is posted yet)
+    url: https://www.govinfo.gov/content/pkg/BILLS-119s3321is/html/BILLS-119s3321is.htm
+    retrieved: '2026-11-19'
+  say: "S. 3321, the FAIR Leave Act, repeals the rule that lets an employer cap married coworkers at 12 weeks of family leave combined, so each spouse keeps their own. It passed the United States Senate by voice vote on November 19, 2026."
+slides:
+- kicker: "U.S. Senate · Nov. 19, 2026"
+  big: 12 + 12
+  head: "The U.S. Senate passed a bill so married coworkers each get their own 12 weeks of family leave."
+  text: "S. 3321, the FAIR Leave Act. Passed by voice vote."
+  say: "On November 19, the United States Senate passed a bill so married coworkers each get their own 12 weeks of family leave, not 12 weeks between them. S. 3321, the FAIR Leave Act, passed by voice vote."
+- chip: The law today
+  head: "If a married couple works for the same employer, the employer can cap them at 12 weeks combined."
+  quote: {label: "Family and Medical Leave Act, 29 U.S.C. 2612(f)(1)", text: "the aggregate number of workweeks of leave to which both may be entitled may be limited to 12 workweeks during any 12-month period", key: limited to 12 workweeks}
+  text: "That cap covers leave for a new child, an adoption or foster placement, or a sick parent."
+  say: "The law today. If a married couple works for the same employer, the employer can cap them at 12 weeks of leave combined in a year. That covers a new child, an adoption or foster placement, or caring for a sick parent."
+- chip: "Before → after"
+  head: What the bill changes
+  rows:
+  - [Before, "Employer may cap a married couple at 12 weeks combined"]
+  - [After, "Each spouse keeps their own 12 weeks"]
+  - [Military care, "A 26-week combined cap for caring for a servicemember is in the same section, so it goes too"]
+  - [Still true, "FMLA leave may be unpaid (29 U.S.C. 2612(c))"]
+  say: "Before, an employer could cap a married couple at 12 weeks combined. After, each spouse keeps their own 12 weeks. A 26 week combined cap for caring for a servicemember is in the same section, so it goes too. The leave may still be unpaid."
+- chip: "Who gains, who gives"
+  head: "Married coworkers could take up to twice as much leave between them. Their employer would have to allow it."
+  rows:
+  - [Gains, "Spouses who work for the same employer"]
+  - [Gives, "That employer, which must allow each spouse's full leave"]
+  - [Cost, "Congress.gov lists no CBO estimate for it"]
+  say: "Married coworkers could take up to twice as much leave between them, and their employer would have to allow it. Congress.gov lists no Congressional Budget Office estimate for it."
+- chip: How it passed
+  head: "By voice vote, so there's no list of who voted which way."
+  rows:
+  - [Sponsor, "Sen. Joni Ernst (R-IA)"]
+  - [Cosponsor, "Sen. Margaret Wood Hassan (D-NH)"]
+  - [Next, "The U.S. House of Representatives"]
+  say: "It passed the United States Senate by voice vote, so there's no list of who voted which way. The sponsor is Senator Joni Ernst, Republican of Iowa. The cosponsor is Senator Margaret Wood Hassan, Democrat of New Hampshire. Next, the House."
+- chip: Your turn
+  head: "Should married coworkers share one 12-week limit, or each get their own?"
+  text: "The bill goes to the U.S. House of Representatives next. Tell your representative what you think."
+  say: "Your turn. Should married coworkers share one 12 week limit, or each get their own? The bill goes to the United States House next. Tell your representative what you think."
+caption: |-
+  On Nov. 19, the U.S. Senate passed S. 3321, the FAIR Leave Act, by voice vote.
+
+  Before: under the Family and Medical Leave Act, if a married couple works for the same employer, the employer can limit them to 12 weeks of leave combined in a year for a new child, an adoption or foster placement, or a sick parent (26 weeks combined for caring for a servicemember).
+
+  After: the bill repeals that section, so each spouse keeps their own 12 weeks. FMLA leave can still be unpaid.
+
+  Who gains: spouses who work for the same employer. Who gives: that employer. Congress.gov lists no CBO estimate.
+
+  Sponsor: Sen. Joni Ernst (R-IA). Cosponsor: Sen. Margaret Wood Hassan (D-NH). Next: the U.S. House of Representatives.
+
+  Should married coworkers share one limit, or each get their own?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, ussenate, familyleave, fmla, votetherecord]
+notes: >-
+  New this run: the Senate Press Gallery's Nov. 19 floor log says "By voice vote, the Senate passed S.3321 - The
+  Fair Leave Act" (12:00 p.m.). Congress.gov actions (api.congress.gov, read 2026-11-19) still end at the Dec. 3, 2025
+  referral, and no CRS summary or CBO estimate is posted. The Press Gallery doesn't say whether it passed with an
+  amendment, and the Nov. 19 Record isn't out, so the explainer quotes the introduced text (one section: repeal of 29
+  U.S.C. 2612(f)). PLEASE CHECK before the slot: congress.gov actions or the Nov. 19 Record for "without amendment";
+  if it was amended, the before/after may need changing. Current law quoted from GPO's 2023 U.S. Code; confirm no law
+  since then changed 2612(f). "Up to twice as much leave between them" = 24 weeks vs. a 12-week cap, from (a)(1) and
+  (f)(1). The "26-week" row reads (f)(2), part of the repealed subsection (f). No recorded vote, no committee report,
+  and no official statement for or against was found, so no case for/against slide; the post asks instead. Sponsor's
+  and cosponsor's party and state as congress.gov lists them. Employer coverage and eligibility rules (sec. 101) not
+  on the slides.
