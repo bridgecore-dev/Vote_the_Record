@@ -20,7 +20,7 @@ sources:
   retrieved: '2026-11-17'
 - title: "Congress.gov, H.R. 2302 actions"
   url: https://api.congress.gov/v3/bill/119/hr/2302/actions
-  retrieved: '2026-11-17'
+  retrieved: '2026-11-18'
 - title: "National Archives, U.S. Constitution"
   url: https://www.archives.gov/founding-docs/constitution-transcript
   retrieved: '2026-11-17'
@@ -29,7 +29,7 @@ bills:
   title: Shingle Springs Band of Miwok Indians Land Transfer Act of 2025
   does: "Would have the U.S. hold about 265 acres in trust for the tribe, as part of its reservation. No gaming on the land."
   affects: "The Shingle Springs Band of Miwok Indians and land in El Dorado County, California."
-  where: "Passed the U.S. House Dec. 9, 2025 (voice vote) and the U.S. Senate Nov. 16, 2026 (unanimous consent)."
+  where: "Passed the U.S. House Dec. 9, 2025, and the U.S. Senate, without changes, Nov. 16, 2026. Next: the President."
   summary:
     text: >-
       H.R. 2302 would place two parcels of land in El Dorado County, California, totaling approximately 265 acres,
@@ -60,9 +60,9 @@ slides:
   - [Cost, "CBO: under $500,000 to carry out, 2026-2031"]
 - chip: Where it stands
   head: "Sponsor: Rep. Tom McClintock (R-CA). Passed the U.S. House of Representatives by voice vote, Dec. 9, 2025."
-  text: "The U.S. Senate passed it by unanimous consent on Nov. 16, 2026. A bill goes to the President once both chambers pass it. Should Congress put land in trust this way? Tell us."
+  text: "The U.S. Senate passed it without amendment, by unanimous consent, on Nov. 16, 2026. Both chambers have now passed the same text, so it goes to the President next. Should Congress put land in trust this way? Tell us."
 caption: |-
-  The U.S. Senate passed H.R. 2302 by unanimous consent on Nov. 16, 2026. The U.S. House of Representatives passed it by voice vote on Dec. 9, 2025.
+  The U.S. Senate passed H.R. 2302 without amendment, by unanimous consent, on Nov. 16, 2026. The U.S. House of Representatives passed it by voice vote on Dec. 9, 2025. With both chambers on the same text, it goes to the President next.
 
   Before: about 80 acres in El Dorado County, California, are federal land run by the Bureau of Land Management, and about 185 acres, Indian Creek Ranch, belong to the Shingle Springs Band of Miwok Indians. After: the U.S. would hold all of it in trust for the tribe, as part of its reservation. Gaming would not be allowed there.
 
@@ -81,4 +81,7 @@ notes: >-
   Cost, lost taxes, 582 members, 160 acres and the housing plan are as S. Rept. 119-150 states them (the last three
   from the chairwoman's testimony it cites). Sponsor's party and state as the report lists them. H.R. 7834 (same
   rule) isn't written yet: its subject (cloud storage of child sexual abuse material for law enforcement) needs
-  the owner's call on wording for Instagram.
+  the owner's call on wording for Instagram. Nov 18 update: congress.gov actions now show "Passed Senate without
+  amendment by Unanimous Consent. (consideration: CR S5701)" (Nov. 16) and "Message on Senate action sent to the
+  House" (Nov. 17), so the last slide, "where" and the caption now say both chambers passed the same text and it
+  goes to the President next. No presentment to the President is listed yet, so the post doesn't say it was sent.

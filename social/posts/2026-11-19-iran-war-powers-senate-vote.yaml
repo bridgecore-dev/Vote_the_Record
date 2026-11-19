@@ -33,13 +33,13 @@ bills:
     title: Congressional Research Service summary of H.Con.Res. 93
     url: https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/93
     retrieved: '2026-11-16'
-  say: "H.Con.Res. 93 directs the President to remove U.S. forces from hostilities against Iran, unless Congress declares war or authorizes force. Forces needed to defend against imminent attack aren't covered. It passed the United States House 220 to 204 on September 15, 2026."
+  say: "House Concurrent Resolution 93 directs the President to remove U.S. forces from hostilities against Iran, unless Congress declares war or authorizes force. Forces needed to defend against imminent attack aren't covered. It passed the United States House 220 to 204 on September 15, 2026."
 slides:
 - kicker: "U.S. Senate · Vote set by Fri., Nov. 20"
   big: Iran
   head: "The U.S. Senate is set to vote this week on H.Con.Res. 93, a war powers resolution on Iran."
   quote: {label: "U.S. Senate Press Gallery, Nov. 16, 2026", text: "At a time to be determined no later than Friday, November 20th, H.Con.Res.93 will be discharged from the Committee on Foreign Relations and the Senate will proceed to its consideration."}
-  say: "The United States Senate is set to vote this week, no later than Friday, November 20, on H.Con.Res. 93, a war powers resolution on Iran."
+  say: "The United States Senate is set to vote this week, no later than Friday, November 20, on House Concurrent Resolution 93, a war powers resolution on Iran."
 - chip: What it says
   head: "It directs the President to remove U.S. forces from hostilities against Iran, unless Congress declares war or authorizes force."
   quote: {label: "H.Con.Res. 93, as passed by the U.S. House of Representatives", text: "Congress directs the President to remove United States Armed Forces from hostilities against the Islamic Republic of Iran"}

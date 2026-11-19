@@ -1,0 +1,101 @@
+kind: carousel
+level: state
+place: Texas
+topic: Elections
+approval: review
+rule: Every bill on the Texas Legislature's Nov. 18, 2026 filing report about elections or candidates. HB 1218 is the only
+  one (said on the last slide).
+record_ids: [tx/90R/HB 1218/filed]
+publish_after: '2026-11-24T09:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 18, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-18
+  retrieved: '2026-11-18'
+- title: Texas Legislature Online, HB 1218 bill history (90th Legislature)
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1218
+  retrieved: '2026-11-18'
+- title: Texas Election Code, Chapter 1 (Sec. 1.015, residence)
+  url: https://statutes.capitol.texas.gov/Docs/EL/htm/EL.1.htm
+  retrieved: '2026-11-18'
+- title: Texas Election Code, Chapter 145 (Sec. 145.003, ineligibility)
+  url: https://statutes.capitol.texas.gov/Docs/EL/htm/EL.145.htm
+  retrieved: '2026-11-18'
+- title: Texas Election Code, Chapter 172 (primary filing and withdrawal)
+  url: https://statutes.capitol.texas.gov/Docs/EL/htm/EL.172.htm
+  retrieved: '2026-11-18'
+bills:
+- id: HB 1218
+  does: Would define living somewhere, for voting, as sleeping, eating and keeping belongings there, and set rules for candidate challenges.
+  affects: People registering to vote at an address, candidates for Texas elective office, and voters who challenge a candidate.
+  where: Filed Nov. 18, 2026 by Rep. Vasut; no other action yet. Would take effect Dec. 1, 2028.
+  summary:
+    text: >-
+      A person has not inhabited a place under Subsection (f) unless the person has slept overnight, eaten, and kept
+      personal belongings at the place.
+    title: HB 1218 as filed, Sec. 1 (Election Code 1.015(g))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01218I.htm
+    retrieved: '2026-11-18'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 18, 2026
+  big: HB 1218
+  head: A Texas House of Representatives bill would spell out what it takes to live where you vote, and how a voter can challenge a candidate in court.
+- chip: The law today
+  head: Your voting residence is your home. You can't claim a place you haven't lived in, but the Election Code doesn't say what "lived in" means.
+  quote:
+    label: Texas Election Code 1.015(f)
+    text: A person may not establish a residence at any place the person has not inhabited.
+- chip: What would change
+  head: '"Inhabited" would mean three things, all at the same place.'
+  rows:
+  - Slept there overnight
+  - Eaten there
+  - Kept personal belongings there, such as clothing, medicine, toiletries or furniture
+  text: "And no new residence while you claim an active homestead tax exemption on another property, until you sell it or file for a homestead exemption at the new address."
+- chip: Candidates
+  head: A candidate's application for the ballot would add two lines.
+  rows:
+  - [New line 1, A statement that the candidate has lived at the residence listed]
+  - [New line 2, The address of any home where the candidate claims a homestead exemption]
+- chip: Leaving a primary
+  head: The last day a candidate could drop out of a primary would move.
+  rows:
+  - [Today, "No withdrawal after the first day after the regular filing deadline"]
+  - [Under HB 1218, "No withdrawal after the 50th day before the primary"]
+  text: Election Code 172.052. The same dates decide when a name is taken off the primary ballot.
+- chip: Challenging a candidate
+  head: A new court process for any claim that a candidate isn't eligible.
+  rows:
+  - [Who can sue, Any registered voter where the candidate is running]
+  - [Deadline, The 30th day before the election]
+  - [Primary years, "A voter who didn't challenge before the primary gives up a general-election challenge, unless the evidence is new"]
+  - [Court, "Must rule by set dates; may allow the candidate to be deposed"]
+- chip: Who pays
+  head: No cost estimate is posted yet.
+  text: No fiscal note is listed on the bill's page. The bill doesn't say who gains or who loses.
+- chip: What's next
+  big: Dec. 1, 2028
+  head: If passed as filed, the bill takes effect on this date, after the 2028 elections.
+  text: "How we picked: every bill on the Nov. 18 filing report about elections or candidates. HB 1218 was the only one. Should the law spell out what living somewhere means?"
+caption: |-
+  Today, Texas law says your voting residence is your home, and that you can't claim a place you haven't lived in. It doesn't say what "lived in" means.
+
+  HB 1218, filed in the Texas House of Representatives for the 2027 session, would define it: you slept there overnight, ate there and kept your belongings there. You also couldn't set up a new residence while claiming a homestead tax exemption on another property.
+
+  Candidates would add two lines to their ballot application. The last day to drop out of a primary would become the 50th day before the primary. And any registered voter where a candidate is running could ask a court to rule on whether the candidate is eligible, by set deadlines.
+
+  No cost estimate is posted yet. If passed, it takes effect Dec. 1, 2028.
+
+  Should the law spell out what living somewhere means?
+hashtags: [txlege, texaslegislature, texaselections, votetherecord]
+notes: >-
+  New: filed Nov. 18, 2026; the only elections or candidate bill on that day's filing report (49 bills). Records opened
+  2026-11-18: the filing report, the bill history (filed, no other action; subjects Elections--Candidates, Homestead,
+  Residency Requirements), the introduced text (90R3533 TSS-F), and Election Code 1.015, 145.003, 172.023, 172.052,
+  172.057 and 172.058 (rendered from statutes.capitol.texas.gov). "Doesn't say what lived in means": Chapter 1 uses
+  "inhabited" only in 1.015(f) and doesn't define it; no other chapter was searched, please confirm. The bill also
+  changes 145.003(a) so judicial eligibility actions go under the new Subchapter G (the slide says "a new court process");
+  its 273.151(c) calls the subchapter the "exclusive remedy". Today's filing deadline is 6 p.m. on the second Monday in
+  December of an odd-numbered year (172.023); the post doesn't compute how much later the 50th day before the primary is.
+  The slide's "where the candidate is running" is our plain words for "the territory from which a candidate seeks to be
+  elected". Rep. Vasut as TLO lists the author, no party shown. Takes Nov. 24's 9:00 a.m. post slot (Nov. 19-23 base
+  slots are full).

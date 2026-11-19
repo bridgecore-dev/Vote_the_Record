@@ -1,0 +1,87 @@
+kind: reel
+level: congress
+topic: Impeachment
+approval: review
+record_ids: ["us/119/2/house/roll/317/explainer"]
+publish_after: '2026-11-18T19:30:00-06:00'
+sources:
+- title: "House Clerk, Roll Call 317 (2026)"
+  url: https://clerk.house.gov/evs/2026/roll317.xml
+  retrieved: '2026-11-18'
+- title: "Congressional Record, Nov. 10, 2026, H6126-H6133 (PDF, GPO)"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-11-10/pdf/CREC-2026-11-10-pt1-PgH6126-3.pdf
+  retrieved: '2026-11-16'
+- title: "Congress.gov, H.Res. 1655 (119th Congress): Actions"
+  url: https://api.congress.gov/v3/bill/119/hres/1655/actions
+  retrieved: '2026-11-18'
+- title: "History, Art & Archives, U.S. House of Representatives: Impeachment"
+  url: https://history.house.gov/Institution/Origins-Development/Impeachment/
+  retrieved: '2026-11-14'
+bills:
+- id: H.Res. 1655
+  does: Would impeach Defense Secretary Peter Brian Hegseth on 8 articles and send the articles to the Senate.
+  affects: "Peter Brian Hegseth, Secretary of Defense."
+  where: Sent to the House Judiciary Committee by a 211-204 House vote on Nov. 10, 2026. No action since.
+  summary:
+    text: >-
+      Resolved, That Peter Brian Hegseth, Secretary of Defense, also referred to as Secretary of War by the
+      Administration, is impeached for high crimes and misdemeanors and that the following articles of
+      impeachment be exhibited to the United States Senate
+    title: "Text of H. Res. 1655 as read in the House, Congressional Record, Nov. 10, 2026, p. H6126"
+    url: https://www.govinfo.gov/content/pkg/CREC-2026-11-10/pdf/CREC-2026-11-10-pt1-PgH6126-3.pdf
+    retrieved: '2026-11-16'
+  say: "House Resolution 1655 would impeach Defense Secretary Peter Brian Hegseth. On November 10, the United States House of Representatives voted 211 to 204 to send it to the Judiciary Committee instead."
+slides:
+- kicker: "U.S. House of Representatives · House Resolution 1655"
+  big: 211-204
+  head: "News said the House \"blocked\" or \"defeated\" the resolution to impeach Defense Secretary Hegseth. Here's what that vote was, in plain words."
+  say: "211 to 204. News reports said the United States House of Representatives blocked, or defeated, House Resolution 1655, to impeach Defense Secretary Hegseth. Here's what that vote was, in plain words."
+- chip: "The question"
+  head: "The House didn't vote on impeaching him. It voted on a motion to send the resolution to a committee."
+  quote: {label: "Congressional Record, Nov. 10, 2026", text: "Mr. Issa of California moves to refer the resolution to the Committee on the Judiciary."}
+  say: "The U.S. House didn't vote on impeaching him. It voted on a motion by Representative Issa, Republican of California, to send the resolution to the Judiciary Committee."
+- chip: "What Yea and Nay meant"
+  rows:
+  - [Yea · 211, "Send it to committee. No impeachment vote that day."]
+  - [Nay · 204, "Keep it on the floor, so the House votes on it."]
+  head: "More members voted Yea, so the motion passed. A simple majority was enough."
+  say: "Yea meant: send it to committee, with no impeachment vote that day. 211 members voted Yea. Nay meant: keep it on the floor. 204 voted Nay. More voted Yea, so it passed."
+- chip: "Why news says \"blocked\""
+  head: "The motion passed, so the impeachment push failed that day: the House never voted on impeaching him. Now the Judiciary Committee decides what happens next."
+  quote: {label: "House History, Art & Archives", text: "The committee then chooses whether to pursue articles of impeachment against the accused official and report them to the full House."}
+  text: "Congress.gov lists no action on it since Nov. 10."
+  say: "So the motion passed, and the impeachment push failed: the U.S. House never voted on impeaching him. That's what blocked or defeated means here. Now the Judiciary Committee decides what happens next. Congress.gov lists no action on it since November 10."
+- chip: "How they voted"
+  head: "By party, as the House Clerk records it"
+  rows:
+  - [Republican, "210 Yea · 1 Nay · 7 didn't vote"]
+  - [Democratic, "0 Yea · 203 Nay · 11 didn't vote"]
+  - [Independent, "1 Yea · 0 Nay · 0 didn't vote"]
+  say: "By party, as the Clerk of the U.S. House records it. Republicans: 210 Yea, 1 Nay, 7 didn't vote. Democrats: 0 Yea, 203 Nay, 11 didn't vote. The one Independent: 1 Yea."
+- chip: "Your turn"
+  head: "How did your representative vote: send it to committee, or keep it on the floor?"
+  text: "Find their name in House roll call 317 at clerk.house.gov."
+  say: "Your turn. Did your representative vote to send it to committee, or to keep it on the floor? Find their name in U.S. House roll call 317 at clerk.house.gov."
+caption: |-
+  "Blocked" or "defeated," explained. On Nov. 10, the U.S. House of Representatives didn't vote on impeaching Defense Secretary Peter Brian Hegseth. It voted on a motion by Rep. Issa (R-CA) to send H.Res. 1655 to the Judiciary Committee.
+
+  Yea (211) meant: send it to committee, with no impeachment vote that day. Nay (204) meant: keep it on the floor, so the House votes on it. A simple majority decides, so the motion passed.
+
+  The motion passed, so the impeachment push failed that day. That's what news reports mean by "blocked" or "defeated." Now the Judiciary Committee decides what happens next; Congress.gov lists no action since Nov. 10.
+
+  By party, per the House Clerk: Republicans 210 Yea, 1 Nay; Democrats 0 Yea, 203 Nay; the one Independent, Yea.
+
+  How did your representative vote? Roll call 317 is on clerk.house.gov.
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, impeachment, housevote, civics, votetherecord]
+notes: >-
+  Owner request 2026-11-18: explain in plain words what the Nov. 10 vote on H.Res. 1655 meant, because news
+  called it "blocked" (Time: "defeat a resolution") and the first Reel (2026-11-14-hegseth-impeachment-referred, posted Nov. 17) said only
+  "Yea = for sending it to the Judiciary Committee". The question voted on was Mr. Issa's motion to refer
+  (Congressional Record H6132; congress.gov actions "On motion to refer Agreed to by the Yeas and Nays: 211 - 204
+  (Roll no. 317)"); Yea = refer. "Blocked" is how news reports describe it and appears only in quotes as their word;
+  no outlet is cited because the post rests on the record. Tallies and party totals from roll 317's XML.
+  "Simple majority": a motion to refer passes with more Yeas than Nays (the Clerk's record shows it passed 211-204).
+  The record ID ends in /explainer so it doesn't collide with the first Reel's roll-call ID. Recheck congress.gov
+  actions before it posts.

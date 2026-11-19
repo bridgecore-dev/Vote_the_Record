@@ -3,7 +3,7 @@ level: congress
 topic: Public lands
 approval: review
 record_ids: ["us/119/H.R. 7254/house-floor-schedule-2026-11-16"]
-publish_after: '2026-11-17T13:30:00-06:00'
+publish_after: '2026-11-20T13:30:00-06:00'
 rule: >-
   From the House suspension list for the week of Nov. 16, 2026, we pick the bills that order a federal agency
   to study or plan something (feasibility studies, management frameworks) rather than move land or place a
@@ -34,7 +34,7 @@ bills:
     title: Congressional Research Service summary of H.R. 7254
     url: https://api.congress.gov/v3/bill/119/hr/7254/summaries
     retrieved: '2026-11-15'
-  say: "H.R. 7254 would have the Interior Department study, within 3 years, whether to make the Bay Area Ridge Trail a national scenic trail. The trail runs about 550 miles in the San Francisco Bay Area. The House Natural Resources Committee approved it by unanimous consent."
+  say: "H.R. 7254 would have the Interior Department study, within 3 years, whether to make the Bay Area Ridge Trail a national scenic trail. The Natural Resources Committee of the U.S. House approved it by unanimous consent."
 slides:
 - kicker: "U.S. House · Week of Nov. 16"
   big: 550 miles

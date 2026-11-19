@@ -1,0 +1,102 @@
+kind: reel
+level: state
+place: Michigan
+topic: Gambling law
+approval: review
+found_via: owner idea U1NDgyMTkzNTM2NjE0NAZDZD
+record_ids: [mi/2026/MGCB Polymarket US agreement/announced, us/2026/6th Cir. 26-3196/decided]
+publish_after: '2026-11-23T19:30:00-06:00'
+sources:
+- title: Michigan Gaming Control Board, "Polymarket backs down as Michigan's relentless crackdown on unlicensed sports betting continues" (Oct. 28, 2026)
+  url: https://www.michigan.gov/mgcb/news/2026/10/28/polymarket-backs-down-in-michigan
+  retrieved: '2026-11-18'
+- title: Michigan Legislature, Lawful Sports Betting Act, MCL 432.402 (findings)
+  url: https://legislature.mi.gov/Laws/MCL?objectName=mcl-432-402
+  retrieved: '2026-11-18'
+- title: Michigan Legislature, Lawful Sports Betting Act, MCL 432.411 (age verification)
+  url: https://legislature.mi.gov/Laws/MCL?objectName=mcl-432-411
+  retrieved: '2026-11-18'
+- title: U.S. Court of Appeals for the Sixth Circuit, KalshiEX LLC v. Schuler, Nos. 26-3196/5235 (Sept. 25, 2026)
+  url: https://www.opn.ca6.uscourts.gov/opinions.pdf/26a0272p-06.pdf
+  retrieved: '2026-11-18'
+- title: Supreme Court of the United States, Docket No. 26-299, Flaherty v. KalshiEX, LLC
+  url: https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/26-299.html
+  retrieved: '2026-11-18'
+slides:
+- kicker: Is it true?
+  big: Not quite
+  head: Michigan didn't ban sports betting apps. It went after sports "event contracts" sold without a Michigan license.
+  text: Licensed sports betting apps are still legal in Michigan, for people 21 and older.
+  say: Did Michigan ban sports betting apps? Not quite. It went after sports event contracts sold without a Michigan license.
+    Licensed sports betting apps are still legal there, for people 21 and older.
+- chip: Before and after
+  head: What Michigan allows, and what it stopped
+  rows:
+  - [Licensed apps, 'Allowed by the Lawful Sports Betting Act (2019), 21 and older']
+  - [Event contracts, 'Sports trades on "prediction markets"; Michigan says they need its license']
+  - [Now, 'A court order against Kalshi; Robinhood, Coinbase and Polymarket US agreed to stop']
+  say: Before and after. Licensed apps are allowed by Michigan's 2019 Lawful Sports Betting Act, for people 21 and older.
+    Michigan says sports event contracts on prediction markets need its license. Now a court order covers Kalshi, and
+    Robinhood, Coinbase and Polymarket US agreed to stop.
+- chip: The deadline
+  big: Nov. 25
+  head: Polymarket US agreed to close Michigan customers' open sports contracts by the end of the day Nov. 25.
+  text: A federal court in western Michigan approved the agreement. In exchange, the state won't take enforcement action while the company complies.
+  say: The deadline is November 25. Polymarket US agreed to close Michigan customers' open sports contracts by the end of
+    that day. A federal court approved the agreement, and the state won't take enforcement action while the company complies.
+- chip: Michigan's side
+  head: The state says anyone taking sports bets from Michigan residents needs a state license.
+  quote: {label: "Henry Williams, Michigan Gaming Control Board executive director", text: "If you want to offer sports wagering to Michigan residents, you need a Michigan license."}
+  say: Michigan's side. Henry Williams, who runs the Michigan Gaming Control Board, said if you want to offer sports wagering
+    to Michigan residents, you need a Michigan license.
+- chip: The companies' side
+  head: Kalshi argues a federal law gives a federal agency, the CFTC, "exclusive jurisdiction" over these contracts, so state gambling laws don't apply.
+  quote: {label: "Sixth Circuit opinion, describing Kalshi's argument", text: "Kalshi argues that the States’ gaming laws “subvert[]” Congress’s objective to bring futures markets “under a uniform set of regulations.”"}
+  say: The companies' side. Kalshi argues a federal law gives a federal agency, the Commodity Futures Trading Commission,
+    exclusive jurisdiction over these contracts, so state gambling laws don't apply. It says state laws undercut one uniform
+    set of rules.
+- chip: Can other states do it?
+  head: Federal appeals courts have split, in early rulings on whether to pause state enforcement.
+  rows:
+  - [3rd Circuit, 'New Jersey: sided with Kalshi']
+  - [6th Circuit, 'Ohio and Tennessee: sided with the states, Sept. 25, 2026']
+  - [9th Circuit, 'Nevada: sided with the state']
+  text: As the Sixth Circuit listed them. Michigan is in the Sixth Circuit, where Polymarket US has an appeal pending.
+  say: Can other states do it? Federal appeals courts have split. The 3rd Circuit sided with Kalshi in New Jersey. The 6th
+    Circuit sided with Ohio and Tennessee on September 25, 2026, and the 9th Circuit with Nevada.
+- chip: What's next
+  big: Dec. 7
+  head: New Jersey asked the U.S. Supreme Court to review the Third Circuit's ruling. Kalshi's response is due Dec. 7.
+  text: The petition is No. 26-299 on the Court's docket.
+  say: What's next. New Jersey asked the U.S. Supreme Court to review the Third Circuit's ruling. Kalshi's response is due
+    December 7.
+- chip: Your turn
+  head: Should sports contracts on federal exchanges follow each state's gambling law, or one federal rule?
+  text: Which side convinces you? Gambling problem? Call 1-800-GAMBLER, free and confidential, 24/7.
+  say: Your turn. Should sports contracts on federal exchanges follow each state's gambling law, or one federal rule? Which
+    side convinces you?
+caption: |-
+  Did Michigan ban sports betting apps? No. Licensed sports betting apps are still legal there for people 21 and older, under the Lawful Sports Betting Act of 2019.
+
+  What Michigan stopped: sports "event contracts" on prediction markets, which the state says are sports wagering without a Michigan license. A state court ordered Kalshi to stop; Robinhood, Coinbase and Polymarket US agreed to. Polymarket US will close Michigan customers' open sports contracts by the end of Nov. 25 (Michigan Gaming Control Board).
+
+  Michigan's side: "If you want to offer sports wagering to Michigan residents, you need a Michigan license." (Henry Williams, MGCB)
+  The companies' side: a federal law gives the Commodity Futures Trading Commission "exclusive jurisdiction" over these contracts, so state gambling laws don't apply (Kalshi's argument, as the Sixth Circuit describes it).
+
+  Can other states do it? Appeals courts have split in early rulings: the Third Circuit sided with Kalshi in New Jersey; the Sixth (Ohio, Tennessee) and Ninth (Nevada) sided with the states. New Jersey has asked the U.S. Supreme Court to step in; Kalshi's response is due Dec. 7.
+
+  Which side convinces you?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [michigan, sportsbetting, predictionmarkets, votetherecord]
+notes: >-
+  From an owner idea (Michigan "ban" on sports betting apps, and whether other states can do the same). Not a
+  legislature item: it rests on the MGCB release (Oct. 28), the Lawful Sports Betting Act (MCL 432.402, 432.411:
+  21 and older), the Sixth Circuit's opinion (26a0272p.06; the official PDF's sha256 is 70d44317...4a28) and the
+  Supreme Court docket 26-299 (response due Dec. 7, 2026, after a second extension granted Oct. 30). The circuit split
+  is footnote 3 of the Sixth Circuit opinion, as of Sept. 25: Third Circuit (Flaherty) affirmed Kalshi's preliminary
+  injunction; Ninth Circuit (Assad) affirmed dissolving it; Fourth Circuit (Maryland) was pending and is left off the
+  slide because it may have changed. All are preliminary-injunction rulings, which slide 6 says. Kalshi's side is
+  given as the court describes it (p. 3 and p. 47 quote). The Kalshi state-court order is named only as the MGCB
+  release does ("a state-court preliminary injunction"); the $500,000-a-day fine and the 18-vs-21 age point appear in
+  news only and are left out. Recheck the docket and the MGCB news page before Nov. 23.

@@ -330,3 +330,102 @@ def test_reels_name_the_chamber(say, ok):
 def test_abbreviations_do_not_end_a_sentence():
     assert reel.sentences("The U.S. House passed it on Nov. 11. Rep. Bost spoke. Next: the Senate.") == [
         "The U.S. House passed it on Nov. 11.", "Rep. Bost spoke.", "Next: the Senate."]
+
+
+@pytest.mark.parametrize("say, ok", [
+    ("House Resolution 1655 would impeach him.", True), ("H.Res. 1655 would impeach him.", False),
+    ("H. Res. 1486 was tabled.", False), ("S.J.Res. 12 is next.", False), ("H.Con.Res. 3", False),
+    ("Senate Joint Resolution 12 is next.", True), ("The resolution passed.", True), ("Restaurants reopen.", True),
+])
+def test_the_voice_says_resolution_in_full(say, ok):
+    post = {"kind": "reel", "publish_after": "2026-11-19T07:30:00-06:00", "slides": [{"head": say, "say": say}],
+            "caption": "x\n\nVoice: computer-generated (Kokoro text-to-speech)."}
+    assert (not any("in full" in e for e in reel.check(post))) == ok
+
+
+def test_a_resolution_name_is_not_a_chamber():
+    post = {"kind": "reel", "publish_after": "2026-11-19T07:30:00-06:00",
+            "slides": [{"head": "H.Con.Res. 93", "say": "House Concurrent Resolution 93 passed the United States House."}],
+            "caption": "x\n\nVoice: computer-generated (Kokoro text-to-speech)."}
+    assert reel.check(post) == []
+
+
+# ---------------------------------------------------------------- captions motion (design trials, 2026-11-18)
+
+def no_whisper(words, samples, sr, guess):
+    return guess
+
+
+def test_motions_are_named_for_build_and_unbuilt_ones_are_refused():
+    assert reel.MOTIONS[0] == "captions" and "classic" in reel.MOTIONS and set(reel.BUILT) <= set(reel.MOTIONS)
+    ok = post([{"head": "x", "say": "Five bills."}], design={"motion": "captions", "sfx": True})
+    assert not [e for e in reel.check(ok) if "motion" in e]
+    assert any("isn't built yet" in e for e in reel.check(post([{"head": "x"}], design={"motion": "diagram"})))
+
+
+def test_reels_refuse_ai_images_until_a_generator_is_set_up():
+    p = post([{"head": "x", "image": {"url": "https://example.gov/a.png", "ai": True}}])
+    assert any("AI image" in e for e in reel.check(p))
+    assert any("AI image" in e for e in reel.check(post([{"head": "x", "ai_image": {"file": "a.png"}}])))
+
+
+def test_word_times_share_the_reading_by_syllables_and_pin_commas_to_pauses(monkeypatch):
+    np = pytest.importorskip("numpy")
+    monkeypatch.setattr(reel, "heard", no_whisper)
+    sr = 24000
+    tone = lambda s: (0.2 * np.sin(2 * np.pi * 220 * np.arange(int(sr * s)) / sr)).astype("float32")
+    a = np.concatenate([tone(1.0), np.zeros(int(0.3 * sr), dtype="float32"), tone(1.0)])  # a breath after the comma
+    ws = reel.word_times("Yea meant send, the other no.", a, sr)
+    assert [w["w"] for w in ws] == ["Yea", "meant", "send,", "the", "other", "no."]
+    assert ws[0]["a"] == 0 and abs(ws[3]["a"] - 1.3) < 0.03  # "the" starts when the voice comes back
+    assert all(x["a"] <= y["a"] for x, y in zip(ws, ws[1:])) and abs(ws[-1]["b"] - 2.3) < 0.01
+
+
+def test_heard_keeps_our_words_and_order(monkeypatch):
+    guess = [{"w": w, "a": t, "b": t + .3} for w, t in (("211", 0.0), ("to", 0.3), ("204.", 0.6))]
+
+    class Word:
+        def __init__(self, word, start):
+            self.word, self.start = word, start
+
+    class Model:
+        def transcribe(self, *a, **k):
+            return [type("S", (), {"words": [Word(" 211", 0.1), Word(" too", 0.5), Word(" 204.", 0.9)]})], None
+    pytest.importorskip("faster_whisper")
+    monkeypatch.setattr(reel, "_WHISPER", Model())
+    out = reel.heard(["211", "to", "204."], [0.0] * 24000, 24000, guess)
+    assert [w["w"] for w in out] == ["211", "to", "204."]  # the words shown are always ours
+    assert out[0]["a"] == 0.1 and out[2]["a"] == 0.9 and out[0]["a"] <= out[1]["a"] <= out[2]["a"]
+
+
+def test_caption_groups_are_short_and_break_at_pauses():
+    ws = [{"w": w, "a": i, "b": i + 1} for i, w in enumerate("The United States House voted, 211 to 204, to send it.".split())]
+    groups = [" ".join(w["w"] for w in g) for g in reel.chunks(ws)]
+    assert groups == ["The United States", "House voted,", "211 to 204,", "to send it."]
+    assert [reel.shown_word(w) for w in ("voted,", "it.", "U.S.", "Rep.", "204;")] == ["voted", "it", "U.S.", "Rep.", "204"]
+
+
+def test_sound_effects_are_cuts_and_word_groups():
+    cues = reel.sfx_cues([0.0, 4.0], [[[{"w": "a", "a": 0.5}]], [[{"w": "b", "a": 0.2}], [{"w": "c", "a": 1.0}]]])
+    assert cues == [(0.6, "pop"), (4.0, "swoosh"), (4.3, "pop"), (5.1, "pop")]
+
+
+def test_tiny_captions_render(monkeypatch, tmp_path):
+    pytest.importorskip("playwright")
+    pytest.importorskip("numpy")
+    pytest.importorskip("soundfile")
+    if not (shutil.which("ffmpeg") or Path(B.FFMPEG).exists()):
+        pytest.skip("ffmpeg not installed")
+    monkeypatch.setattr(reel, "speak", sine)
+    monkeypatch.setattr(reel, "heard", no_whisper)
+    p = post([{"big": "5 bills", "head": "Five bills.", "say": "Five bills were filed, all on taxes."},
+              {"chip": "Next", "head": "Then.", "say": "The committee meets next."}], bills=[],
+             design={"palette": "plum", "mode": "dark", "font": "sans", "motion": "captions", "sfx": True})
+    try:
+        files = reel.render(p, p["slides"], tmp_path, fps=5, preset="ultrafast", stills=[1, 2])
+    except Exception as e:
+        if "Executable doesn't exist" in str(e) or "chrome" in str(e).lower() and "not found" in str(e).lower():
+            pytest.skip(f"no browser: {e}")
+        raise
+    assert files[0]["file"] == "reel.mp4" and "Narration: Five bills were filed" in files[0]["alt_text"]
+    assert (tmp_path / "still-02.png").exists()

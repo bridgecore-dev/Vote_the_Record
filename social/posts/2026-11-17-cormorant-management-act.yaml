@@ -2,8 +2,8 @@ kind: reel
 level: congress
 topic: Wildlife
 approval: review
-record_ids: ["us/119/H.R. 8195/house-floor-schedule-2026-11-16"]
-publish_after: '2026-11-17T07:30:00-06:00'
+record_ids: ["us/119/H.R. 8195/house-floor-schedule-2026-11-16", "us/119/H.R. 8195/house-passed"]
+publish_after: '2026-11-20T10:30:00-06:00'
 rule: >-
   From the House suspension list for the week of Nov. 16, 2026, we pick the bills that order a federal agency
   to study or plan something (feasibility studies, management frameworks) rather than move land or place a
@@ -18,6 +18,9 @@ sources:
 - title: "House Report 119-857, Responsible Cormorant Management and Control Act of 2026, with additional views (GPO)"
   url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt857/html/CRPT-119hrpt857.htm
   retrieved: '2026-11-15'
+- title: "House Clerk, Floor Activities, Nov. 17, 2026"
+  url: https://clerk.house.gov/floor/20261117.xml
+  retrieved: '2026-11-18'
 - title: Congress.gov, H.R. 8195 actions and cosponsors
   url: https://api.congress.gov/v3/bill/119/hr/8195/actions
   retrieved: '2026-11-15'
@@ -26,7 +29,7 @@ bills:
   title: Responsible Cormorant Management and Control Act of 2026
   does: "Would have the Fish and Wildlife Service set regional rules for when and how cormorants may be killed or removed."
   affects: "Fish farms, lake and pond managers, state and tribal wildlife agencies, and the birds."
-  where: "Approved by the House Natural Resources Committee by unanimous consent. On the House schedule week of Nov. 16."
+  where: "Passed the U.S. House of Representatives by voice vote Nov. 17, 2026. Next: the U.S. Senate."
   summary:
     text: >-
       This bill requires the U.S. Fish and Wildlife Service (FWS) to develop frameworks to manage regional
@@ -34,12 +37,12 @@ bills:
     title: Congressional Research Service summary of H.R. 8195
     url: https://api.congress.gov/v3/bill/119/hr/8195/summaries
     retrieved: '2026-11-15'
-  say: "H.R. 8195, the Responsible Cormorant Management and Control Act of 2026, would have the Fish and Wildlife Service set regional rules for when and how cormorants may be killed or removed. The House Natural Resources Committee approved it by unanimous consent."
+  say: "H.R. 8195, the Responsible Cormorant Management and Control Act of 2026, would have the Fish and Wildlife Service set regional rules for when and how cormorants may be killed or removed. The United States House passed it by voice vote on November 17, 2026."
 slides:
-- kicker: "U.S. House · Week of Nov. 16"
+- kicker: "U.S. House of Representatives · Nov. 17"
   big: "1 lb a day"
-  head: "That's how much fish a cormorant eats, the committee report says. A bill would change how the U.S. manages them."
-  say: "1 pound a day. That's how much fish a cormorant eats, the committee report says. A bill on the U.S. House schedule for the week of November 16 would change how the U.S. manages them."
+  head: "That's how much fish a cormorant eats, the committee report says. The U.S. House of Representatives passed a bill Nov. 17 to change how the U.S. manages them."
+  say: "1 pound a day. That's how much fish a cormorant eats, the committee report says. The United States House passed a bill on November 17 to change how the U.S. manages them."
 - chip: "Before"
   head: "Cormorants are protected under the Migratory Bird Treaty Act. Since 2021, people who want to remove them apply each year for a federal permit."
   rows:
@@ -61,16 +64,16 @@ slides:
   say: "The committee cites fish farm losses. Representative Jared Huffman, Democrat of California, the ranking member, says markup changes improved it, but raised doubts: It remains unclear whether double-crested cormorants pose a significant ecological threat across all regions."
 - chip: Where it stands
   head: "Sponsor: Rep. Tim Walberg (R-MI), with 6 Republican cosponsors. The committee approved it by unanimous consent."
-  text: "No CBO cost estimate yet. It needs two-thirds of those voting to pass. Should states get more say over cormorants?"
-  say: "Sponsor: Representative Tim Walberg, Republican of Michigan, with 6 Republican cosponsors. The committee approved it by unanimous consent. There's no CBO cost estimate yet. It needs two-thirds of those voting to pass. Should states get more say over cormorants?"
+  text: "No CBO cost estimate yet. The U.S. House of Representatives passed it by voice vote Nov. 17, so no member-by-member tally was recorded. Next: the U.S. Senate. Should states get more say over cormorants?"
+  say: "Sponsor: Representative Tim Walberg, Republican of Michigan, with 6 Republican cosponsors. There's no CBO cost estimate yet. The United States House passed it by voice vote on November 17, with no member-by-member tally. Next: the United States Senate. Should states get more say over cormorants?"
 caption: |-
-  A cormorant eats about a pound of fish a day, a committee report says. H.R. 8195, on the House schedule this week, would change how they're managed.
+  A cormorant eats about a pound of fish a day, a committee report says. H.R. 8195, which the U.S. House of Representatives passed by voice vote Nov. 17, would change how they're managed.
 
   Before: they're protected under the Migratory Bird Treaty Act. People apply yearly for a federal permit to remove them; up to 121,504 may be taken a year.
 
-  After: the Fish and Wildlife Service writes regional rules with the four flyway councils: methods, seasons, who may act (state and tribal agencies, licensed lake and pond managers), non-lethal steps, and a public yearly count of birds taken. It must report on whether hunting licenses could work. The rules end Jan. 1, 2034.
+  After: the Fish and Wildlife Service writes regional rules with the four flyway councils: methods, seasons, who may act (state and tribal agencies, licensed lake and pond managers), non-lethal steps, and a public yearly count of birds taken. The rules end Jan. 1, 2034.
 
-  The report cites a 2021 study estimating $64.7 million in yearly fish farm losses. Rep. Jared Huffman (D-CA), the ranking member, wrote it "remains unclear" whether the birds are a significant threat in every region, and that the bill does not authorize hunting them.
+  The report cites a 2021 study estimating $64.7 million in yearly fish farm losses. Rep. Jared Huffman (D-CA), the ranking member, wrote it "remains unclear" whether the birds are a significant threat in every region.
 
   Voice: computer-generated (Kokoro text-to-speech).
 hashtags: [congress, wildlife, birds, fishing, votetherecord]
@@ -80,4 +83,8 @@ notes: >-
   Population, the 121,504 limit, the 2021 permit system, 1 lb/day and the $64.7M study are as H. Rept. 119-857
   states them (it cites FWS and a 2021 journal study). "Ends Jan. 1, 2034" is the bill's sunset subsection; the
   additional views call it a seven-year sunset. The report says the committee requested but did not receive a
-  CBO estimate. Sponsor, cosponsor and Huffman parties from congress.gov member records. If the House passes it Nov. 16, the last slide needs the tally.
+  CBO estimate. Sponsor, cosponsor and Huffman parties from congress.gov member records. Nov 18 recheck:
+  the Clerk's floor summary for Nov. 17 shows "On motion to suspend the rules and pass the bill, as amended Agreed
+  to by voice vote" (4:26 p.m. ET), confirmed by congress.gov's actions, so the first slide, last slide, `where`,
+  the bill's `say` and the caption now say it passed by voice vote. The passed text is the suspension text listed
+  on docs.house.gov ("as amended").

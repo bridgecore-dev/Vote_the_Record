@@ -123,10 +123,27 @@ Vote posts (a roll call, or a bill's passage):
 - Then the names on the smaller side, with party and state as the record lists them ("Roy (R-TX)"):
   if fewer voted Yea than Nay, list every Yea, and the other way around. Up to about 40 names; past that,
   give the totals and link the official list.
+- Say in plain words what Yea and Nay meant when the question isn't passing the bill itself (owner's
+  request, 2026-11-18). A motion to refer, table or recommit often decides the outcome without a vote on the
+  bill, and news may call it "blocked". Name the question from the record ("a motion to send it to the
+  Judiciary Committee") and give each side: "Yea = send it to committee, so no impeachment vote that day;
+  Nay = keep it on the floor, so the House votes on it." Then say what happened as a result.
 
 Made to be seen (never at the cost of a rule above):
 - The first slide is the hook: the number, the question or the claim people are already talking about, in
-  as few words as possible. One idea per slide.
+  as few words as possible. One idea per slide. In a Reel, the voice opens a question in the first two
+  seconds ("News said the House blocked it. Did it?") that the Reel then answers from the record.
+- Double tap (2026-11-18): use the official term, then the same idea in plain words right after it: "a motion
+  to refer, a vote to send it to a committee"; "engrossed, the version the House passed". Never the plain words
+  alone when the record uses a term people will see in the news.
+- Every line of `say` teaches something; cut lines that only set up or repeat a slide. Short sentences, one
+  fact each, so the big captions (`motion: captions`) change every second or two.
+- Design trials (owner's decision, 2026-11-18): up to one trial Reel a day, `trial: auto` (Instagram shows it
+  to non-followers first and adds it to the grid if it does well), with a `design` that changes one thing at
+  a time from the last trial (`palette`, `mode`, `font`, `position`, `motion`, `sfx`; see social/README.md).
+  The facts and sources follow every rule above; only the look changes. A trial Reel doesn't count in the
+  Reel/post turn-taking. Use `approval: review` for the first trial of each new design. The weekly "What's
+  working" issue compares designs.
 - When a claim about a bill or vote is trending (news, Google Trends, the trends file), make an "Is it true?"
   post: state the claim, then what the official record says (the bill text, the roll call, the CBO estimate),
   quoted. If the record shows the claim is right, say so; if it's wrong or about another bill, say that.
@@ -239,7 +256,7 @@ previews; check those before calling anything ready.
 ## Never
 
 Edit any other file, merge or approve a pull request, run `publish.py`, touch `data/`, add secrets, say a
-party or person did something the record doesn't show, use AI-generated images, or retry a site that blocked
+party or person did something the record doesn't show, use an AI-generated image beyond what CLAUDE.md rule 9 allows (decoration only, labeled, `approval: review`), or retry a site that blocked
 you.
 
 End the run with a short summary: posts opened, ideas skipped and why.

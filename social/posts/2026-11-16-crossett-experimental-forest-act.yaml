@@ -2,8 +2,8 @@ kind: reel
 level: congress
 topic: Public lands
 approval: review
-record_ids: ["us/119/H.R. 10136/house-floor-schedule-2026-11-16"]
-publish_after: '2026-11-17T16:30:00-06:00'
+record_ids: ["us/119/H.R. 10136/house-floor-schedule-2026-11-16", "us/119/H.R. 10136/house-passed"]
+publish_after: '2026-11-20T16:30:00-06:00'
 rule: >-
   From the U.S. House of Representatives suspension list for the week of Nov. 16, 2026, we pick every bill that
   moves federal land to a new owner or trustee. Each gets its own post with the same structure. This week that is
@@ -18,12 +18,15 @@ sources:
 - title: "H. Rept. 119-864"
   url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt864/html/CRPT-119hrpt864.htm
   retrieved: '2026-11-15'
+- title: "House Clerk, Floor Activities, Nov. 17, 2026"
+  url: https://clerk.house.gov/floor/20261117.xml
+  retrieved: '2026-11-18'
 bills:
 - id: H.R. 10136
   title: Crossett Experimental Forest Act of 2026
   does: "Would give the Crossett Experimental Forest to Arkansas at no charge, if it asks, to be kept for forest research."
   affects: "The State of Arkansas, the University of Arkansas at Monticello and the Forest Service."
-  where: "Approved by the Natural Resources Committee of the U.S. House of Representatives by unanimous consent."
+  where: "Passed the U.S. House of Representatives by voice vote Nov. 17, 2026. Next: the U.S. Senate."
   summary:
     text: >-
       This bill directs the Forest Service, upon the request of the State of Arkansas, to convey the Crossett
@@ -31,12 +34,12 @@ bills:
     title: Congressional Research Service summary of H.R. 10136
     url: https://api.congress.gov/v3/bill/119/hr/10136/summaries
     retrieved: '2026-11-15'
-  say: "H.R. 10136, the Crossett Experimental Forest Act of 2026, would give the Crossett Experimental Forest to Arkansas at no charge, if the state asks, to be kept for forest research. It affects Arkansas, the University of Arkansas at Monticello and the Forest Service."
+  say: "H.R. 10136, the Crossett Experimental Forest Act of 2026, would give the Crossett Experimental Forest to Arkansas at no charge, if the state asks, to be kept for forest research. The United States House passed it by voice vote on November 17, 2026."
 slides:
-- kicker: "U.S. House of Representatives · Week of Nov. 16"
+- kicker: "U.S. House of Representatives · Nov. 17"
   big: 1,685 acres
-  head: "A bill on the U.S. House of Representatives schedule would give the Crossett Experimental Forest, in Ashley County, to Arkansas at no charge."
-  say: "1,685 acres. A bill on the United States House of Representatives schedule for the week of November 16 would give the Crossett Experimental Forest, in Ashley County, to the State of Arkansas at no charge."
+  head: "The U.S. House of Representatives passed a bill Nov. 17 to give the Crossett Experimental Forest, in Ashley County, to Arkansas at no charge."
+  say: "1,685 acres. The United States House passed a bill on November 17 to give the Crossett Experimental Forest, in Ashley County, to the State of Arkansas at no charge."
 - chip: "Before → after"
   head: "Today the Forest Service runs it. It has been a forest research site since 1934."
   rows:
@@ -69,10 +72,10 @@ slides:
   say: "Arkansas gains the forest. The Forest Service gives it up, and the United States gets no payment. The committee report says a Congressional Budget Office cost estimate was requested but not received."
 - chip: Where it stands
   head: "Sponsor: Rep. Bruce Westerman (R-AR), the committee's chairman. The Natural Resources Committee of the U.S. House of Representatives approved it by unanimous consent."
-  text: "It's listed for a vote this week under rules that require two-thirds of those voting; check congress.gov for the latest. Should Congress move federal land this way? Tell us."
-  say: "Sponsor: Representative Bruce Westerman, Republican of Arkansas, the committee's chairman. The committee approved it by unanimous consent. It's listed for a vote this week under rules that require two-thirds of those voting. Should Congress move federal land this way?"
+  text: "The U.S. House of Representatives passed it by voice vote Nov. 17, so no member-by-member tally was recorded. Next: the U.S. Senate. Should Congress move federal land this way? Tell us."
+  say: "Sponsor: Representative Bruce Westerman, Republican of Arkansas, the committee's chairman. The committee approved it by unanimous consent. The United States House passed it by voice vote on November 17, with no member-by-member tally. Next: the United States Senate. Should Congress move federal land this way?"
 caption: |-
-  A bill on the U.S. House of Representatives schedule this week would give Arkansas the 1,685-acre Crossett Experimental Forest, in Ashley County, at no charge.
+  The U.S. House of Representatives passed a bill by voice vote Nov. 17 to give Arkansas the 1,685-acre Crossett Experimental Forest, in Ashley County, at no charge.
 
   Before: the Forest Service runs it; it has been a forest research site since 1934. After: Arkansas runs it as the Crossett Experimental State Forest, for research, education and demonstration, with the University of Arkansas. Arkansas pays the transfer costs, and the land can go back to the U.S. if it isn't kept for research.
 
@@ -89,3 +92,7 @@ notes: >-
   records and the reversion clause are from H. Rept. 119-864 (reported text). CBO: the report says the estimate
   was requested but not received. Sponsor's party, state and "Chairman" as the report lists them. Check for a
   House vote before 4:30 p.m. Nov. 17; if it passed, the last slide needs the tally. Nov 16 audit: the House meets Nov. 17 (legislative business 2 p.m. ET), before this posts, and the weekly schedule gives no day for this bill, so the last slide now says it's listed under two-thirds rules (true before or after a vote) and points to congress.gov. Check the Clerk's floor summary before it posts and add the result if it was voted on.
+  Nov 18 recheck: the Clerk's floor summary for Nov. 17 shows "On motion to suspend the rules and pass the bill,
+  as amended Agreed to by voice vote" (4:54 p.m. ET), confirmed by congress.gov's actions, so the first slide,
+  last slide, `where`, the bill's `say` and the caption now say it passed by voice vote. The passed text is the
+  reported version listed on docs.house.gov ("as amended").

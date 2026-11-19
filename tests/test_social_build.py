@@ -180,3 +180,51 @@ def test_a_quiz_needs_review_a_valid_answer_and_room_for_it():
     bad = {**QUIZ, "quiz": {**QUIZ["quiz"], "answer": 5}}
     assert any("quiz is" in e for e in errs(story(slides=[bad])))
     assert any("story or carousel" in e for e in errs(story(kind="image", slides=[QUIZ])))
+
+
+def contrast(a: str, b: str) -> float:
+    def lum(h):
+        r, g, b_ = (int(h[i:i + 2], 16) / 255 for i in (1, 3, 5))
+        f = lambda c: c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4
+        return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b_)
+    hi, lo = sorted((lum(a), lum(b)), reverse=True)
+    return (hi + 0.05) / (lo + 0.05)
+
+
+def test_every_palette_is_readable_in_both_modes():
+    for name, modes in B.PALETTES.items():
+        for mode, c in modes.items():
+            where = f"{name}/{mode}"
+            assert contrast(c["ink"], c["bg"]) >= 7, where          # body text
+            assert contrast(c["muted"], c["surface"]) >= 4.5, where  # small grey text
+            assert contrast(c["on_accent"], c["accent"]) >= 4.5, where  # text on the accent band
+            assert contrast(c["accent"], c["surface"]) >= 3, where   # big accent numbers and words
+
+
+def test_no_party_colored_palette():
+    assert not {"red", "blue"} & set(B.PALETTES)
+
+
+def test_design_choices_are_checked():
+    good = post(kind="reel", approval="review", design={"palette": "plum", "mode": "dark", "font": "sans",
+                                                       "position": "bottom", "motion": "captions", "sfx": True})
+    assert B.check_design(good, ("captions", "classic")) == []
+    bad = post(design={"palette": "red", "mode": "neon", "sfx": "yes", "motion": "captions"}, trial="auto")
+    e = " ".join(B.check_design(bad, ("captions",)))
+    assert "palette" in e and "mode" in e and "sfx" in e and "for Reels" in e and "trial is for Reels" in e
+
+
+def test_a_design_sets_its_colors_and_position():
+    css = B.design_css({"palette": "amber", "mode": "dark", "position": "bottom"})
+    assert B.PALETTES["amber"]["dark"]["accent"] in css and "--text-align: flex-end" in css
+    assert B.design_of({}) == B.DEFAULT_DESIGN
+
+
+def test_an_ai_image_is_disclosed_and_reviewed():
+    p = post(slides=[{"head": "A", "ai_image": True}, {"head": "B"}])
+    e = " ".join(errs(p))
+    assert "AI-generated illustration" in e and "approval review" in e
+    ok = dict(p, approval="review", caption="Our explainer.\n\nAI-generated illustration.")
+    assert errs(ok) == []
+    marked = post(kind="reel", approval="review", slides=[{"head": "A", "image": {"ai": True}}, {"head": "B"}])
+    assert B.uses_ai_image(marked)

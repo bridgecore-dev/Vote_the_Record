@@ -14,6 +14,10 @@ ffmpeg. Nothing depends on wall-clock time, so the same post always renders the 
   drawn complete from the first frame.
 - Voice (optional): a slide's `say` is read by Kokoro-82M (kokoro-onnx, run locally) and burned in as
   captions, phrase by phrase. A slide without `say` is silent; nothing is ever written for the voice.
+- Design (build.design_of): `motion: captions` shows the voice's own words a few at a time, big, each popping in
+  as it is said (numbers in the accent color), under the slide's chip and big number; timing comes from the voice's
+  pauses and syllables, corrected by faster-whisper when it is installed (timing only; the words are always ours).
+  `classic` is the layouts above. `sfx: true` adds a swoosh at each cut and a soft pop per word group, made here.
 - `doc` (official document with the exact words highlighted), `broll` (official video, muted, darkened) and
   `image` (an official public-domain photo of a place, building or document) come from official hosts only,
   one request each, and stop with a clear error if a site refuses or shows a bot check.
@@ -64,9 +68,11 @@ STATES = ("Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaw
           "Mississippi|Missouri|Montana|Nebraska|Nevada|New Hampshire|New Jersey|New Mexico|New York|North Carolina|"
           "North Dakota|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode Island|South Carolina|South Dakota|Tennessee|Texas|"
           "Utah|Vermont|Virginia|Washington|West Virginia|Wisconsin|Wyoming")
-CHAMBER = re.compile(r"\b(House|Senate)\b")
+CHAMBER = re.compile(r"\b(House|Senate)\b(?! (?:Concurrent |Joint )?Resolution)")  # "House Resolution 1655" is a name
 NAMED_CHAMBER = re.compile(rf"(?:\bUnited States|\bU\.S\.|\b(?:{STATES})(?:'s)?|\bWhite) $")
 VOICED_FROM = "2026-11-15"  # every Reel has a voice from here on (owner's request, 2026-11-15)
+# the voice reads "H.Res." as letters: say "House Resolution", "Senate Joint Resolution" (owner's request, 2026-11-18)
+SPOKEN_RES = re.compile(r"\b(?:[HS]\.? ?(?:J\.? ?|Con\.? ?)?Res\b\.?|\bRes\.)")
 DISCLOSURE = "Voice: computer-generated (Kokoro text-to-speech)."
 VOICE = {"name": "af_heart", "speed": 1.0}  # af_heart: Kokoro's clearest American English voice
 VOICE_NAME = re.compile(r"[a-z]{2}_[a-z]+")
@@ -77,6 +83,11 @@ IMAGE_SUBJECTS = {"place", "building", "document"}  # no photos of individual pe
 SLIDE_FIELDS, TOP_FIELDS, BILL_FIELDS, QUOTE_FIELDS = {"say", "doc", "broll", "image"}, {"voice"}, {"say"}, {"key"}
 DOC_KEYS, BROLL_KEYS = {"url", "highlight", "page", "title", "retrieved"}, {"url", "file", "page", "start", "end", "title", "retrieved"}
 IMAGE_KEYS = {"url", "title", "license", "subject", "retrieved"}
+# design motion (build.check_design reads MOTIONS). captions: a few big words at a time, in step with the voice
+# (2026-11-18: viewers found the long static paragraphs hard to read); classic: the original slide layouts.
+MOTIONS = ("captions", "stack", "diagram", "document", "classic")
+BUILT = ("captions", "classic")  # the others are named so trials can be planned; check() refuses them until built
+SFX_LEVEL = 0.12  # sound effects peak this loud; the voice peaks near 0.5 before the loudness pass
 
 MODEL_DIR = Path(os.environ.get("VTR_KOKORO_DIR") or Path.home() / ".cache/vtr-kokoro")
 RELEASE = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/"
@@ -347,6 +358,11 @@ def check(post: dict) -> list[str]:
             m = CHAMBER.search(str(say))
             if m and not NAMED_CHAMBER.search(str(say)[:m.start()]):
                 errs.append(f"{where}: say \"{m[0]}\" with its name, e.g. \"United States {m[0]}\" or \"Texas {m[0]}\"")
+    if post.get("kind") == "reel":
+        for where, say, _ in says(post):
+            m = SPOKEN_RES.search(str(say))
+            if m:
+                errs.append(f"{where}: say \"{m[0]}\" in full, e.g. \"House Resolution\" or \"Senate Joint Resolution\"")
     v = post.get("voice")
     if v not in (None, True):
         if not isinstance(v, dict):
@@ -375,7 +391,13 @@ def check(post: dict) -> list[str]:
                 errs.append(f"{where}: say has the number {x}, which the slide doesn't show")
     if spoken and DISCLOSURE not in [line.strip() for line in str(post.get("caption") or "").splitlines()]:
         errs.append(f'a post with a voice has the caption line "{DISCLOSURE}"')
+    d = post.get("design") if isinstance(post.get("design"), dict) else {}
+    if d.get("motion") in MOTIONS and d["motion"] not in BUILT:
+        errs.append(f"design motion {d['motion']} isn't built yet; use {' or '.join(BUILT)}")
     for k, s in enumerate(slides, 1):
+        if s.get("ai_image") or any(isinstance(s.get(f), dict) and s[f].get("ai") for f in ("image", "broll")):
+            errs.append(f"slide {k}: Reels can't show an AI image yet (no image generator is set up)")
+            continue
         q = s.get("quote") or {}
         if q.get("key") is not None and str(q["key"]) not in str(q.get("text") or ""):
             errs.append(f"slide {k}: quote key must be an exact part of the quote text")
@@ -740,19 +762,143 @@ def trim(samples, sr: int, floor: float = 0.006, keep: float = 0.04):
     return samples[max(0, loud[0] - pad): loud[-1] + pad]
 
 
-def voice_track(scripts: list[str | None], voice: dict):
-    """Each slide's reading (or None), its length, and its caption phrases timed from the reading's start."""
+PAUSE_AFTER = re.compile(r"[,;:—.?!]$")
+WHISPER_MODEL = os.environ.get("VTR_WHISPER_MODEL", "base.en")  # word timing only, never the words
+KEEP_DOT = re.compile(r"^(?:[A-Z]\.)+$|^(?:Rep|Sen|Gov|Mr|Ms|Dr|St|No|Jan|Feb|Mar|Apr|Aug|Sept|Oct|Nov|Dec)\.$")
+
+
+def syllables(word: str) -> int:
+    """About how long a word takes to say, in syllables of its spoken form ("211" is "two hundred eleven")."""
+    return max(1, len(re.findall(r"[aeiouy]+", spoken(word).lower())))
+
+
+def pauses(samples, sr: int, floor: float = 0.008, shortest: float = 0.09) -> list[tuple[float, float]]:
+    """Quiet stretches inside a reading (start, end) in seconds: where the voice breathes at a comma."""
     import numpy as np
-    clips, lengths, caps, sr = [], [], [], 24000
+    hop = max(1, int(sr * 0.01))
+    n = len(samples) // hop
+    if n < 3:
+        return []
+    quiet = np.sqrt((np.asarray(samples[: n * hop], dtype="float64").reshape(n, hop) ** 2).mean(1)) < floor
+    runs, i = [], 0
+    while i < n:
+        if not quiet[i]:
+            i += 1
+            continue
+        j = i
+        while j < n and quiet[j]:
+            j += 1
+        if i > 0 and j < n and (j - i) * 0.01 >= shortest:
+            runs.append((i * 0.01, j * 0.01))
+        i = j
+    return runs
+
+
+def word_times(sent: str, samples, sr: int) -> list[dict]:
+    """When each written word of a sentence is heard: {w, a, b} in seconds from the reading's start. The voice's
+    pauses pin the words at commas; between them, time is shared by syllables."""
+    words = sent.split()
+    if not words:
+        return []
+    dur = len(samples) / sr
+    cuts = [i + 1 for i, w in enumerate(words[:-1]) if PAUSE_AFTER.search(w)]
+    runs = sorted(sorted(pauses(samples, sr), key=lambda r: r[0] - r[1])[: len(cuts)])
+    if len(runs) != len(cuts):
+        cuts, runs = [], []
+    edges = [0] + cuts + [len(words)]
+    starts = [0.0] + [b for _, b in runs]
+    ends = [a for a, _ in runs] + [dur]
+    out = []
+    for (i, j), a, b in zip(zip(edges, edges[1:]), starts, ends):
+        weights = [syllables(w) for w in words[i:j]]
+        t, per = a, (b - a) / (sum(weights) or 1)
+        for w, n in zip(words[i:j], weights):
+            out.append({"w": w, "a": round(t, 3), "b": round(t + n * per, 3)})
+            t += n * per
+    return heard(words, samples, sr, out)
+
+
+_WHISPER = None
+
+
+def heard(words: list[str], samples, sr: int, guess: list[dict]) -> list[dict]:
+    """The estimate, corrected by where speech recognition (faster-whisper, if installed) hears each word. Only
+    timing comes from it; the words shown are always ours. Words it hears differently keep the estimate, moved
+    with their neighbors."""
+    global _WHISPER
+    try:
+        import numpy as np
+        from faster_whisper import WhisperModel
+    except ImportError:
+        return guess
+    if _WHISPER is None:
+        _WHISPER = WhisperModel(WHISPER_MODEL, device="cpu", compute_type="int8")
+    x = np.asarray(samples, dtype="float32")
+    if sr != 16000:  # whisper listens at 16 kHz
+        x = np.interp(np.arange(0, len(x), sr / 16000), np.arange(len(x)), x).astype("float32")
+    segs, _ = _WHISPER.transcribe(x, word_timestamps=True, beam_size=1, temperature=0, vad_filter=False,
+                                  language="en", initial_prompt=" ".join(words))
+    got = [(re.sub(r"\W", "", w.word.lower()), w.start) for sg in segs for w in sg.words]
+    pin, j = {}, 0
+    for i, w in enumerate(words):
+        key = re.sub(r"\W", "", w.lower())
+        for k in range(j, min(j + 4, len(got))):
+            if key and got[k][0] == key:
+                pin[i], j = got[k][1], k + 1
+                break
+    if not pin:
+        return guess
+    out = [dict(g) for g in guess]
+    known = sorted(pin)
+    for i in range(len(out)):  # pinned words take whisper's time; the rest shift by their nearest pin's correction
+        if i in pin:
+            out[i]["a"] = round(pin[i], 3)
+        else:
+            near = min(known, key=lambda k: abs(k - i))
+            out[i]["a"] = round(max(0.0, guess[i]["a"] + pin[near] - guess[near]["a"]), 3)
+    for i in range(1, len(out)):  # never out of order
+        out[i]["a"] = max(out[i]["a"], out[i - 1]["a"])
+    for i in range(len(out)):
+        out[i]["b"] = out[i + 1]["a"] if i + 1 < len(out) else guess[-1]["b"]
+    return out
+
+
+def chunks(words: list[dict], most: int = 3, chars: int = 18) -> list[list[dict]]:
+    """Words shown together: up to `most` words or `chars` letters, never across a pause."""
+    out, cur = [], []
+    for w in words:
+        if cur and (len(cur) >= most or len(" ".join(x["w"] for x in cur + [w])) > chars):
+            out.append(cur)
+            cur = []
+        cur.append(w)
+        if PAUSE_AFTER.search(w["w"]):
+            out.append(cur)
+            cur = []
+    return out + ([cur] if cur else [])
+
+
+def shown_word(w: str) -> str:
+    """A word as the big captions show it: no trailing comma or period (abbreviations keep theirs)."""
+    w = re.sub(r"[,;:]+$", "", w)
+    return w if KEEP_DOT.match(w) or not w.endswith(".") else w.rstrip(".")
+
+
+def voice_track(scripts: list[str | None], voice: dict, timed_words: bool = False):
+    """Each slide's reading (or None), its length, its caption phrases and its words, timed from the reading's
+    start."""
+    import numpy as np
+    clips, lengths, caps, allwords, sr = [], [], [], [], 24000
     for say in scripts:
         if not say:
-            clips.append(None), lengths.append(None), caps.append([])
+            clips.append(None), lengths.append(None), caps.append([]), allwords.append([])
             continue
-        parts, timed, at = [], [], 0.0
+        parts, timed, said, at = [], [], [], 0.0
         for sent in sentences(say):
             a, sr = speak(spoken(sent), voice["name"], float(voice["speed"]))
             a = trim(a, sr)
             dur = len(a) / sr
+            if timed_words:
+                said += [{**w, "a": round(w["a"] + at, 3), "b": round(w["b"] + at, 3)} for w in word_times(sent, a, sr)]
             ph = phrases(sent)
             total = sum(len(p) for p in ph) or 1
             t = at
@@ -763,18 +909,49 @@ def voice_track(scripts: list[str | None], voice: dict):
             parts += [a, np.zeros(int(GAP * sr), dtype="float32")]
             at += dur + GAP
         a = np.concatenate(parts[:-1]) if parts else np.zeros(0, dtype="float32")
-        clips.append(a), lengths.append(len(a) / sr), caps.append(timed)
-    return clips, lengths, caps, sr
+        clips.append(a), lengths.append(len(a) / sr), caps.append(timed), allwords.append(said)
+    return clips, lengths, caps, sr, allwords
 
 
-def mix(clips, starts: list[float], total: float, sr: int, out: Path) -> Path:
-    """One track: each reading at its scene's start, the rest silence, normalized to -16 LUFS (two-pass loudnorm)."""
+def sound(kind: str, sr: int):
+    """A sound effect made here from noise and tones (nothing licensed): swoosh at a cut, pop as words land."""
+    import numpy as np
+    rng = np.random.default_rng(7)  # the same sound every render
+    if kind == "swoosh":
+        n = int(0.34 * sr)
+        x, y, out = rng.standard_normal(n), 0.0, np.zeros(n)
+        for i in range(n):  # a low-pass filter that opens and closes: air rushing past
+            k = 0.02 + 0.28 * np.sin(np.pi * i / n) ** 2
+            y += k * (x[i] - y)
+            out[i] = y
+        out *= np.sin(np.linspace(0, np.pi, n)) ** 2
+    elif kind == "pop":
+        t = np.arange(int(0.07 * sr)) / sr
+        out = np.sin(2 * np.pi * (520 * t + 2400 * t * t)) * np.exp(-t / 0.018)
+    else:
+        raise ValueError(kind)
+    return (SFX_LEVEL * out / (np.abs(out).max() or 1)).astype("float32")
+
+
+def sfx_cues(starts: list[float], kin: list[list[list[dict]]]) -> list[tuple[float, str]]:
+    """Where sound effects go: a swoosh at each cut, a quiet pop as each group of big words appears."""
+    cues = [(t, "swoosh") for t in starts[1:]]
+    cues += [(starts[k] + VOICE_AT + c[0]["a"], "pop") for k, cs in enumerate(kin) for c in cs]
+    return sorted(cues)
+
+
+def mix(clips, starts: list[float], total: float, sr: int, out: Path, cues=()) -> Path:
+    """One track: each reading at its scene's start, any sound effects under it, the rest silence, normalized to
+    -16 LUFS (two-pass loudnorm)."""
     import numpy as np
     import soundfile as sf
     track = np.zeros(int(total * sr) + sr, dtype="float32")
-    for a, t in zip(clips, starts):
+    made = {}
+    layers = [(t + VOICE_AT, a) for a, t in zip(clips, starts)]
+    layers += [(t, made.setdefault(kind, sound(kind, sr)) * (0.5 if kind == "pop" else 1.0)) for t, kind in cues]
+    for t, a in layers:
         if a is not None and len(a):
-            i = int((t + VOICE_AT) * sr)
+            i = int(t * sr)
             seg = a[: max(0, len(track) - i)]
             track[i:i + len(seg)] += seg
     raw, done = out / "voice-raw.wav", out / "voice.wav"
@@ -857,6 +1034,16 @@ mark.key { color: #1b2a2f; background: linear-gradient(#ffd166, #ffd166) no-repe
 .bg.photo img { filter: brightness(.5); }
 .bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(rgba(10,18,20,.35), rgba(10,18,20,.15) 40%, rgba(10,18,20,.6)); }
 .has-bg { background: #0b1214; }
+.motion-captions { background: var(--bg); color: var(--ink); --fg: var(--ink); --mu: var(--muted); --hi: var(--accent); --ac: var(--accent);
+  --chip: var(--accent-soft); --chipfg: var(--accent); --card: var(--surface); --track: var(--line); }
+.motion-captions.tone-b { background: var(--surface); }
+.motion-captions .fit { height: 100%; display: flex; flex-direction: column; }
+.motion-captions .big { --bs: 170px; letter-spacing: var(--head-tracking); }
+.kin { flex: 1; display: grid; align-content: var(--text-align); padding-top: 40px; }
+.kc { grid-area: 1 / 1; font-family: var(--head-font); font-weight: 600; font-size: 118px; line-height: 1.06;
+  letter-spacing: var(--head-tracking); display: none; }
+.kw { display: inline-block; opacity: 0; }
+.kw.accent-word { font-size: 1.16em; }
 #cap { position: absolute; left: 56px; right: 56px; bottom: 530px; display: flex; justify-content: center; visibility: hidden; z-index: 5; }
 #cap span { background: rgba(12,21,24,.9); color: #fff; font-weight: 600; font-size: 50px; line-height: 1.22; padding: 16px 30px; border-radius: 20px; text-align: center; max-width: 968px; border: 2px solid rgba(255,255,255,.18); }
 """
@@ -927,7 +1114,8 @@ function docZoom(img, lt, info) {
 async function init() {
   await document.fonts.ready;
   SC = [...document.querySelectorAll('.scene')].map((el, i) => {
-    fit(el); return {el, items: schedule(el, R.scenes[i]), frame: el.querySelector('.frame'), prog: el.querySelector('.prog i'),
+    fit(el); return {el, items: schedule(el, R.scenes[i]), kin: [...el.querySelectorAll('.kc')].map(c => ({el: c,
+      words: [...c.querySelectorAll('.kw')].map(w => ({el: w, t: +w.dataset.t + .1}))})), frame: el.querySelector('.frame'), prog: el.querySelector('.prog i'),
       doc: el.querySelector('.docwin img'), photo: el.querySelector('.bg.photo img'), broll: el.querySelector('.bg.dark img')};
   });
   const imgs = [...document.images].map(i => i.decode().catch(() => null));
@@ -945,10 +1133,16 @@ async function seek(t) {
   sc.frame.style.transform = `scale(${s})`;
   sc.prog.style.width = (100 * cl(t / R.total)) + '%';
   if (sc.doc) docZoom(sc.doc, lt, info);
+  if (sc.kin.length) {  // the group whose first word has been heard; each word pops in as it is said
+    let g = 0; sc.kin.forEach((c, i) => { if (lt >= c.words[0].t - .04) g = i; });
+    sc.kin.forEach((c, i) => { c.el.style.display = i === g ? 'block' : 'none'; });  // display, not visibility: a hidden scene hides it too
+    for (const w of sc.kin[g].words) { const q = out3(cl((lt - w.t + .04) / .16));
+      w.el.style.opacity = q; w.el.style.transform = `translateY(${(1 - q) * 26}px) scale(${.9 + .1 * q})`; }
+  }
   if (sc.photo) { const p = cl(lt / info.dur); sc.photo.style.transform = `scale(${1.06 + .12 * p}) translate(${-1.6 * p}%, ${-1.2 * p}%)`; }
   if (sc.broll) { const d = sc.broll.dataset, n = Math.min(+d.n, 1 + Math.floor(lt * R.fps)), src = `${d.dir}/${String(n).padStart(5, '0')}.jpg`;
     if (!sc.broll.src.endsWith(src)) { sc.broll.src = src; await sc.broll.decode().catch(() => null); } }
-  const cap = document.getElementById('cap'), c = window.NOCAP ? null : R.caps.find(c => t >= c.a && t < c.b);
+  const cap = document.getElementById('cap'), c = window.NOCAP || info.kin ? null : R.caps.find(c => t >= c.a && t < c.b);
   if (c) { const sp = cap.firstChild; if (sp.textContent !== c.text) sp.textContent = c.text;
     cap.style.visibility = 'visible'; const q = out3(cl((t - c.a) / .12)); sp.style.transform = `scale(${.96 + .04 * q})`; }
   else cap.style.visibility = 'hidden';
@@ -1056,12 +1250,34 @@ def content_html(s: dict, lay: str, media: dict | None) -> str:
     return out
 
 
+def kinetic_html(s: dict, kin: list[list[dict]]) -> str:
+    """A captions scene: its chip, kicker and big number, then the voice's words a few at a time. Numbers and the
+    slide's big words are the key words (accent color, larger)."""
+    e = html.escape
+    out = f'<div class="chip">{e(s["chip"])}</div>' if s.get("chip") else ""
+    out += f'<div class="kicker">{e(s["kicker"])}</div>' if s.get("kicker") else ""
+    if s.get("big"):
+        out += big_html(s["big"])
+    keys = {x.lower() for x in re.findall(r"\w+", str(s.get("big") or ""))}
+    groups = ""
+    for c in kin:
+        ws = ""
+        for w in c:
+            word = shown_word(w["w"])
+            key = bool(re.search(r"\d", word)) or bool(keys & {x.lower() for x in re.findall(r"\w+", word)})
+            ws += f'<span class="kw{" accent-word" if key else ""}"{_attrs(t=w["a"])}>{nb(word)}</span> '
+        groups += f'<div class="kc">{ws.strip()}</div>'
+    return f'<div class="ctx">{out}</div><div class="kin">{groups}</div>'
+
+
 def page_html(post: dict, slides: list[dict], scenes: list[dict], media: list[dict | None], data: dict) -> str:
     e = html.escape
     body = ""
     tag = B.level_tag(post)
     for s, sc, m in zip(slides, scenes, media):
-        bg, cls = "", f'scene act-{sc["act"]} layout-{sc["layout"]}' + (" voiced" if sc["voiced"] else "")
+        kinetic = sc.get("kin") is not None
+        bg, cls = "", (f'scene motion-captions tone-{"ab"[sc.get("n", 0) % 2]} layout-{sc["layout"]}' if kinetic else
+                       f'scene act-{sc["act"]} layout-{sc["layout"]}' + (" voiced" if sc["voiced"] else ""))
         foot = B.source_line(post)
         if s.get("broll"):
             bg = f'<div class="bg dark"><img alt=""{_attrs(dir=m["dir"], n=m["n"])} src="{m["dir"]}/00001.jpg"></div>'
@@ -1073,9 +1289,9 @@ def page_html(post: dict, slides: list[dict], scenes: list[dict], media: list[di
             cls += " has-bg"
         body += (f'<section class="{cls}">{bg}<div class="prog"><i></i></div>'
                  f'<div class="brand"><span class="mark">{B.LOGO}Vote the Record</span><span class="tag">{e(tag)}</span></div>'
-                 f'<div class="frame"><div class="fit">{content_html(s, sc["layout"], m if not (s.get("broll") or s.get("image")) else None)}</div></div>'
+                 f'<div class="frame"><div class="fit">{kinetic_html(s, sc["kin"]) if kinetic else content_html(s, sc["layout"], m if not (s.get("broll") or s.get("image")) else None)}</div></div>'
                  f'<div class="foot">{e(foot)}</div></section>')
-    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><style>{B.css(W, H)}{CSS}</style></head>'
+    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><style>{B.css(W, H, B.design_of(post))}{CSS}</style></head>'
             f'<body>{body}<div id="cap"><span></span></div>'
             f'<script>window.REEL = {json.dumps(data)};{ENGINE}</script></body></html>')
 
@@ -1122,7 +1338,11 @@ def render(post: dict, slides: list[dict], out: Path, *, fps: int = FPS, stills=
         scripts.append((b or {}).get("say") if b else s.get("say"))
     voice = {**VOICE, **(post["voice"] if isinstance(post.get("voice"), dict) else {})}
     voiced = any(scripts)
-    clips, lengths, caps, sr = voice_track(scripts, voice) if voiced else ([None] * len(slides), [None] * len(slides), [[]] * len(slides), 24000)
+    none, empty = [None] * len(slides), [[]] * len(slides)
+    design = B.design_of(post)
+    motion = design.get("motion") or "classic"
+    clips, lengths, caps, sr, said = (voice_track(scripts, voice, timed_words=motion == "captions") if voiced
+                                      else (none, none, empty, 24000, empty))
     lays = [layout(s, post) for s in slides]
     durs = durations(slides, lengths, lays)
     starts = [round(sum(durs[:k]), 3) for k in range(len(durs))]
@@ -1131,13 +1351,17 @@ def render(post: dict, slides: list[dict], out: Path, *, fps: int = FPS, stills=
     scenes, prev = [], None
     for k, (s, lay) in enumerate(zip(slides, lays)):
         prev = act(s, lay, k, prev)
-        scenes.append({"layout": lay, "act": prev, "voiced": bool(scripts[k])})
+        # a doc slide keeps its zoom onto the document, with the usual caption bar
+        kin = chunks(said[k]) if motion == "captions" and said[k] and lay != "doc" else None
+        scenes.append({"layout": lay, "act": prev, "voiced": bool(scripts[k]), "kin": kin, "n": k})
     allcaps = [{"a": round(starts[k] + VOICE_AT + c["a"], 3), "b": round(starts[k] + VOICE_AT + c["b"], 3), "text": c["text"]}
                for k, cs in enumerate(caps) for c in cs]
     data = {"fps": fps, "total": total, "caps": allcaps,
-            "scenes": [{"start": a, "dur": d, "hook": k == 0} for k, (a, d) in enumerate(zip(starts, durs))]}
+            "scenes": [{"start": a, "dur": d, "hook": k == 0, "kin": scenes[k]["kin"] is not None}
+                       for k, (a, d) in enumerate(zip(starts, durs))]}
     if voiced:
-        audio = ["-i", str(mix(clips, starts, total, sr, out))]
+        cues = sfx_cues(starts, [sc["kin"] or [] for sc in scenes]) if design.get("sfx") else []
+        audio = ["-i", str(mix(clips, starts, total, sr, out, cues))]
         (out / "voice.txt").write_text("\n".join(f"Slide {k}: {say}" for k, say in enumerate(scripts, 1) if say) + "\n", encoding="utf-8")
     else:
         audio = ["-f", "lavfi", "-t", f"{total:.3f}", "-i", "anullsrc=r=48000:cl=stereo"]
@@ -1168,9 +1392,12 @@ def render(post: dict, slides: list[dict], out: Path, *, fps: int = FPS, stills=
             n = max(1, round(total * fps))
             log = open(out / "ffmpeg.log", "w")
             temp.append(out / "ffmpeg.log")
-            ff = subprocess.Popen([B.FFMPEG, "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(fps), "-c:v", "mjpeg",
-                                   "-i", "-", *audio, "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", preset, "-crf", "20",
-                                   "-vf", "scale=in_range=pc:out_range=tv,format=yuv420p",  # JPEG frames are full range
+            ff = subprocess.Popen([B.FFMPEG, "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(fps), "-c:v", "png",
+                                   "-i", "-", *audio, "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", preset,
+                                   # lossless PNG frames and a low CRF tuned for flat graphics keep text crisp through
+                                   # Instagram's own re-encode (2026-11-18: viewers said the text looked blurry)
+                                   "-crf", "16", "-tune", "animation",
+                                   "-vf", "scale=out_color_matrix=bt709:out_range=tv,format=yuv420p",
                                    "-color_range", "tv", "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
                                    "-r", str(fps), "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-ac", "2",
                                    "-t", f"{total:.3f}", "-movflags", "+faststart", str(out / "reel.mp4")],
@@ -1178,7 +1405,7 @@ def render(post: dict, slides: list[dict], out: Path, *, fps: int = FPS, stills=
             t2 = time.perf_counter()
             for i in range(n):
                 page.evaluate("t => seek(t)", i / fps)
-                shot = cdp.send("Page.captureScreenshot", {"format": "jpeg", "quality": 92, "optimizeForSpeed": True})
+                shot = cdp.send("Page.captureScreenshot", {"format": "png", "optimizeForSpeed": True})
                 ff.stdin.write(base64.b64decode(shot["data"]))
             ff.stdin.close()
             code = ff.wait()
@@ -1226,6 +1453,12 @@ def main() -> None:
     a = ap.parse_args()
     if a.download_model:
         print(f"Kokoro model ready in {ensure_model()}")
+        try:  # word timing for captions Reels; without it, captions use the syllable estimate
+            from faster_whisper import WhisperModel
+            WhisperModel(WHISPER_MODEL, device="cpu", compute_type="int8")
+            print(f"faster-whisper {WHISPER_MODEL} ready")
+        except ImportError:
+            print("faster-whisper isn't installed: captions Reels will time words by syllables")
         return
     if not (a.post and a.out):
         ap.error("give a post file and --out")

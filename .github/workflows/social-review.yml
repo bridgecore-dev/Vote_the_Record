@@ -46,6 +46,10 @@ jobs:
         with:
           path: ~/.cache/vtr-kokoro
           key: kokoro-v1.0-7d5df8ec
+      - uses: actions/cache@v4  # faster-whisper's model: when each caption word is heard (captions Reels)
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-base.en-v1
       - run: python src/social/reel.py --download-model
 
       - name: Which posts changed
