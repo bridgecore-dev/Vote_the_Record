@@ -1175,9 +1175,12 @@ def render(post: dict, slides: list[dict], out: Path, *, fps: int = FPS, stills=
             n = max(1, round(total * fps))
             log = open(out / "ffmpeg.log", "w")
             temp.append(out / "ffmpeg.log")
-            ff = subprocess.Popen([B.FFMPEG, "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(fps), "-c:v", "mjpeg",
-                                   "-i", "-", *audio, "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", preset, "-crf", "20",
-                                   "-vf", "scale=in_range=pc:out_range=tv,format=yuv420p",  # JPEG frames are full range
+            ff = subprocess.Popen([B.FFMPEG, "-y", "-loglevel", "error", "-f", "image2pipe", "-framerate", str(fps), "-c:v", "png",
+                                   "-i", "-", *audio, "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", preset,
+                                   # lossless PNG frames and a low CRF tuned for flat graphics keep text crisp through
+                                   # Instagram's own re-encode (2026-11-18: viewers said the text looked blurry)
+                                   "-crf", "16", "-tune", "animation",
+                                   "-vf", "scale=out_color_matrix=bt709:out_range=tv,format=yuv420p",
                                    "-color_range", "tv", "-colorspace", "bt709", "-color_primaries", "bt709", "-color_trc", "bt709",
                                    "-r", str(fps), "-c:a", "aac", "-b:a", "160k", "-ar", "48000", "-ac", "2",
                                    "-t", f"{total:.3f}", "-movflags", "+faststart", str(out / "reel.mp4")],
@@ -1185,7 +1188,7 @@ def render(post: dict, slides: list[dict], out: Path, *, fps: int = FPS, stills=
             t2 = time.perf_counter()
             for i in range(n):
                 page.evaluate("t => seek(t)", i / fps)
-                shot = cdp.send("Page.captureScreenshot", {"format": "jpeg", "quality": 92, "optimizeForSpeed": True})
+                shot = cdp.send("Page.captureScreenshot", {"format": "png", "optimizeForSpeed": True})
                 ff.stdin.write(base64.b64decode(shot["data"]))
             ff.stdin.close()
             code = ff.wait()
