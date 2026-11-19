@@ -183,6 +183,10 @@ def make(**params) -> str:
     return container
 
 
+# trial: auto lets Instagram graduate a trial Reel to followers when it performs well; manual leaves it to the owner
+TRIAL = {"auto": "SS_PERFORMANCE", "manual": "MANUAL"}
+
+
 def publish_one(manifest: dict, base: str, record=lambda ids: None) -> list[str]:
     """Publish one built post; the Instagram media IDs, feed post first. `record` gets the IDs after each one
     publishes, so a failure later in the post never makes a retry publish the earlier parts again."""
@@ -198,8 +202,12 @@ def publish_one(manifest: dict, base: str, record=lambda ids: None) -> list[str]
         containers.append(make(media_type="CAROUSEL", children=",".join(children), caption=caption))
     elif kind in ("reel", "clip"):  # a hearing clip is published as a Reel
         f = feed[0]
-        containers.append(make(media_type="REELS", video_url=url(f["file"]), cover_url=url(f["cover"]),
-                               caption=caption, share_to_feed="true"))
+        reel = {"media_type": "REELS", "video_url": url(f["file"]), "cover_url": url(f["cover"]), "caption": caption}
+        if manifest.get("trial"):  # a trial Reel goes to non-followers first; it joins the grid when it graduates
+            reel["trial_params"] = json.dumps({"graduation_strategy": TRIAL[manifest["trial"]]})
+        else:
+            reel["share_to_feed"] = "true"
+        containers.append(make(**reel))
     elif kind == "story":
         stories = feed
     for f in stories:
