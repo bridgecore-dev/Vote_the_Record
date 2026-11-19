@@ -158,6 +158,31 @@ bills:
   workflows install both). Without them, a voiced Reel stops with a clear message; only an older, unvoiced Reel
   can still be built the old way, as still slides.
 
+## Design and trial Reels
+
+`design` (optional) picks the look, for feed slides and Reels alike (the registry is in `src/social/build.py`):
+
+```yaml
+design:
+  palette: plum        # teal (default) | plum | amber | forest | charcoal; no red or blue (party colors)
+  mode: dark           # light (default) | dark: dark background, light ink, one bright accent
+  font: sans           # serif (default, Source Serif 4 heads) | sans (Public Sans, tighter tracking)
+  position: bottom     # where text sits: top | center (default) | bottom
+  motion: captions     # Reels: one of reel.py's MOTIONS
+  sfx: true            # Reels: generated typing, swoosh and pop sounds under the voice
+trial: auto            # Reels only: post as an Instagram trial Reel (auto: graduates on performance)
+```
+
+Every palette passes contrast checks in both modes (tests/test_social_build.py). The accent goes on the one key
+word or number, not on everything. The weekly insights report has a "By design" section comparing these choices.
+
+## AI-generated images
+
+Decoration only (rule 9, owner, 2026-11-19): never a real person, place, building, document, seal, logo or
+event, never evidence, and no facts or numbers inside the image. Mark it on the slide (`ai_image: ...`, or
+`ai: true` on an `image` or `broll` entry); the builder then requires "AI-generated illustration" in the caption
+and `approval: review`.
+
 ## Bills: always say what it does
 
 A post that names a bill (H.R. 2347, S. 12, HB 101, SJR 3 …) must say, in plain words, what the bill would do,

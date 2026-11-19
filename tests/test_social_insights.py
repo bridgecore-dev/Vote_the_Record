@@ -61,3 +61,12 @@ def test_a_refused_request_is_kept_with_its_error(monkeypatch):
     insights.ERRORS.clear()
     assert insights.insights("1", "reel") == {}
     assert "permission" in insights.ERRORS[0] and len(insights.ERRORS) == 1 + len(insights.METRICS["reel"])
+
+
+def test_design_tables_use_each_posts_design_with_defaults():
+    assert insights.design({"kind": "reel", "design": {"palette": "plum", "sfx": True}}) == {
+        "motion": "classic", "sfx": "True", "palette": "plum", "mode": "light", "font": "serif", "position": "center"}
+    rows = [dict(r, palette=p, motion="classic", sfx="False", mode="light", font="serif", position="center", trial="no")
+            for r, p in zip(ROWS, ("plum", "teal"))]
+    text = insights.report(rows, 7, 3)
+    assert "## By design" in text and "| palette |" in text and "| plum | 1 |" in text
