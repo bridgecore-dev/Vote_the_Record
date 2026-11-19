@@ -6,13 +6,6 @@ approval: review
 found_via: owner idea U1NDgyMTkzNTM2NjE0NAZDZD
 record_ids: [mi/2026/MGCB Polymarket US agreement/announced, us/2026/6th Cir. 26-3196/decided]
 publish_after: '2026-11-23T19:30:00-06:00'
-design:
-  palette: plum
-  mode: dark
-  font: sans
-  position: center
-  motion: captions
-  sfx: true
 sources:
 - title: Michigan Gaming Control Board, "Polymarket backs down as Michigan's relentless crackdown on unlicensed sports betting continues" (Oct. 28, 2026)
   url: https://www.michigan.gov/mgcb/news/2026/10/28/polymarket-backs-down-in-michigan

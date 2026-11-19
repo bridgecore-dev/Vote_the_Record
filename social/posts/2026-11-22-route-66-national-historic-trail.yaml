@@ -8,13 +8,6 @@ rule: >-
   post with the same structure (said on the last slide).
 record_ids: ["us/119/S. 2887/senate-passed"]
 publish_after: '2026-11-21T07:30:00-06:00'
-design:
-  palette: plum
-  mode: dark
-  font: sans
-  position: center
-  motion: captions
-  sfx: true
 sources:
 - title: "S. 2887 as passed"
   url: https://www.govinfo.gov/content/pkg/BILLS-119s2887es/html/BILLS-119s2887es.htm

@@ -7,13 +7,6 @@ rule: Every proposed constitutional amendment (joint resolution) filed Nov. 16, 
   filing report (said on the last slide).
 record_ids: [tx/90R/SJR 16/filed]
 publish_after: '2026-11-23T07:30:00-06:00'
-design:
-  palette: amber
-  mode: dark
-  font: sans
-  position: center
-  motion: captions
-  sfx: true
 sources:
 - title: TLO, bills filed Nov. 16, 2026
   url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-16
