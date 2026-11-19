@@ -6,6 +6,12 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src/social"))
 import publish  # noqa: E402
+import pytest  # noqa: E402
+
+
+@pytest.fixture(autouse=True)
+def no_waiting(monkeypatch):
+    monkeypatch.setattr(publish.time, "sleep", lambda s: None)
 
 NOW = dt.datetime(2026, 11, 14, 15, 0, tzinfo=dt.timezone.utc)
 
@@ -199,3 +205,30 @@ def test_a_trial_reel_asks_instagram_to_graduate_it(monkeypatch):
     publish.publish_one(m, "https://b")
     assert json.loads(made[0]["trial_params"]) == {"graduation_strategy": "SS_PERFORMANCE"} and "share_to_feed" not in made[0]
     assert "trial_params" not in made[1] and made[1]["share_to_feed"] == "true"
+
+
+def test_meta_usage_headers_are_read_for_the_log():
+    publish.USAGE.clear()
+    publish.note_usage({"X-Business-Use-Case-Usage": json.dumps({"123": [{"type": "instagram", "call_count": 97,
+                        "total_cputime": 4, "total_time": 12, "estimated_time_to_regain_access": 38}]})})
+    assert publish.USAGE == {"pct": 97, "wait_minutes": 38}
+    assert "97%" in publish.usage_line() and "38 min" in publish.usage_line()
+    publish.note_usage({"X-App-Usage": "not json"})
+    assert publish.USAGE["pct"] == 97
+
+
+def test_carousel_slides_are_not_polled_one_by_one(monkeypatch):
+    calls = []
+
+    def graph(method, path, **params):
+        calls.append((method, path, params.get("fields")))
+        if path.endswith("/media"):
+            return {"id": f"c{len(calls)}"}
+        if params.get("fields") == "status_code":
+            return {"status_code": "FINISHED"}
+        return {"id": "m1"}
+    monkeypatch.setattr(publish, "graph", graph)
+    monkeypatch.setenv("IG_USER_ID", "u")
+    m = {"kind": "carousel", "caption": "c", "files": [{"file": f"{i}.png"} for i in range(1, 8)]}
+    assert publish.publish_one(m, "https://x") == ["m1"]
+    assert sum(1 for c in calls if c[2] == "status_code") == 1  # only the carousel itself is checked

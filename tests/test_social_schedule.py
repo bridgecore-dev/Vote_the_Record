@@ -22,8 +22,8 @@ def schedule() -> dict[str, list[tuple[str, str, str]]]:
     for p in POSTS.glob("*.yaml"):
         d = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
         when = d.get("publish_after")
-        # a trial Reel goes to non-followers, not the followers' feed, so it isn't part of the turn-taking
-        if when and d.get("kind") in REEL | POST and not d.get("trial"):
+        # a trial is a queued Reel turned into a trial, so it keeps its Reel slot (owner's choice, 2026-11-19)
+        if when and d.get("kind") in REEL | POST:
             t = dt.datetime.fromisoformat(str(when))
             if t.date().isoformat() >= first_day():
                 days[t.date().isoformat()].append((t.isoformat(), "reel" if d["kind"] in REEL else "post", p.stem))

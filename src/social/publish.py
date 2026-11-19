@@ -47,7 +47,8 @@ ROOT = Path(__file__).resolve().parents[2]
 POSTS = ROOT / "social/posts"
 STATE_KEY = "state/published.json"
 PAUSE_KEY = "state/publish-pause.json"
-PAUSE = dt.timedelta(hours=2)
+PAUSE = dt.timedelta(hours=1)  # when Meta doesn't say how long; its usage header's estimate wins when it does
+USAGE: dict = {}  # the latest rate-limit usage Meta reported (X-Business-Use-Case-Usage / X-App-Usage), for the log
 LATE = dt.timedelta(hours=3)
 LIMIT_CODES = {4, 9, 17, 32, 613}  # Graph API rate and publishing limits
 TYPES = {".png": "image/png", ".jpg": "image/jpeg", ".mp4": "video/mp4", ".json": "application/json"}
@@ -159,27 +160,58 @@ def graph(method: str, path: str, **params) -> dict:
            else urllib.request.Request(f"{url}?{data}", method=method))
     try:
         with urllib.request.urlopen(req, timeout=120) as r:
+            note_usage(getattr(r, "headers", None))
             return json.loads(r.read())
     except urllib.error.HTTPError as e:
+        note_usage(getattr(e, "headers", None))
         # the error body names the problem; the token is never in it
         raise RuntimeError(f"{method} {path}: HTTP {e.code} {e.read().decode(errors='replace')[:500]}") from None
 
 
-def ready(container: str, minutes: int = 10) -> None:
-    """Wait until Instagram has fetched and processed a container (videos take a while)."""
-    for _ in range(minutes * 6):
+def note_usage(headers) -> None:
+    """Keep the highest percentage Meta reports for call count, CPU time and total time, and how long until access
+    returns. These limits grow with the account's reach, so a small account hits them with few calls."""
+    if not headers:
+        return
+    pct, wait = 0, 0
+    for name in ("X-Business-Use-Case-Usage", "X-App-Usage"):
+        raw = headers.get(name)
+        if not raw:
+            continue
+        try:
+            data = json.loads(raw)
+        except ValueError:
+            continue
+        for u in [x for v in data.values() for x in v] if name.startswith("X-Business") else [data]:
+            pct = max(pct, *(int(u.get(k) or 0) for k in ("call_count", "total_cputime", "total_time")))
+            wait = max(wait, int(u.get("estimated_time_to_regain_access") or 0))
+    if pct or wait:
+        USAGE.update(pct=pct, wait_minutes=wait)
+
+
+def usage_line() -> str:
+    return (f"Meta rate-limit usage: {USAGE.get('pct', 0)}%" + (f", access back in {USAGE['wait_minutes']} min"
+            if USAGE.get("wait_minutes") else "")) if USAGE else "Meta rate-limit usage: not reported"
+
+
+def ready(container: str, minutes: int = 10, first: float = 5, every: float = 20) -> None:
+    """Wait until Instagram has fetched and processed a container (videos take a while). Each check is a call
+    against a small account's hourly budget, so check sparingly."""
+    time.sleep(first)
+    for _ in range(int(minutes * 60 / every) + 1):
         status = graph("GET", container, fields="status_code").get("status_code")
         if status == "FINISHED":
             return
         if status in ("ERROR", "EXPIRED"):
             raise RuntimeError(f"container {container}: {status}")
-        time.sleep(10)
+        time.sleep(every)
     raise RuntimeError(f"container {container}: not ready after {minutes} minutes")
 
 
-def make(**params) -> str:
+def make(wait: bool = True, **params) -> str:
     container = graph("POST", f"{env('IG_USER_ID')}/media", **params)["id"]
-    ready(container)
+    if wait:
+        ready(container)
     return container
 
 
@@ -198,7 +230,7 @@ def publish_one(manifest: dict, base: str, record=lambda ids: None) -> list[str]
     if kind == "image":
         containers.append(make(image_url=url(feed[0]["file"]), caption=caption))
     elif kind == "carousel":
-        children = [make(image_url=url(f["file"]), is_carousel_item="true") for f in feed]
+        children = [make(wait=False, image_url=url(f["file"]), is_carousel_item="true") for f in feed]
         containers.append(make(media_type="CAROUSEL", children=",".join(children), caption=caption))
     elif kind in ("reel", "clip"):  # a hearing clip is published as a Reel
         f = feed[0]
@@ -431,6 +463,7 @@ def main() -> None:
     failed = []
     for p in todo[:args.limit]:
         print(f"  {p.stem}")
+        manifest = None
 
         def record(ids, stem=p.stem):  # the moment anything publishes, so it is never posted twice
             state[stem] = {"media": ids, "permalink": (state.get(stem) or {}).get("permalink"),
@@ -449,10 +482,25 @@ def main() -> None:
             base = upload(client, name, out, "posts")
             ids = publish_one(manifest, base, record)
         except (SystemExit, Exception) as e:
+            print(f"  {usage_line()}")
+            if limited(str(e)) and manifest:
+                # Instagram often publishes and then answers with a limit error: look before calling it a failure
+                time.sleep(45)
+                try:
+                    up = already_up(manifest["caption"], media_list(10))
+                except RuntimeError:
+                    up = None
+                if up:
+                    record([up["id"]])
+                    state[p.stem].update(permalink=up.get("permalink"), adopted=True)
+                    save()
+                    print(f"  published despite a limit error, recorded: {up.get('permalink') or up['id']}")
+                    break  # the limit is real: nothing more this run, but no pause either
             print(f"  FAILED {p.stem}: {e}")
             failed.append(p.stem)
             if limited(str(e)):
-                until = (now + PAUSE).isoformat(timespec="seconds")
+                wait = dt.timedelta(minutes=USAGE["wait_minutes"]) if USAGE.get("wait_minutes") else PAUSE
+                until = (now + max(wait, dt.timedelta(minutes=15))).isoformat(timespec="seconds")
                 client.put_object(Bucket=name, Key=PAUSE_KEY, ContentType="application/json",
                                   Body=json.dumps({"until": until, "why": str(e)[:300]}).encode())
                 print(f"  Instagram limit reached: publishing paused until {until}")
@@ -464,6 +512,7 @@ def main() -> None:
         except RuntimeError:
             pass  # published; only the link is missing
         print(f"  published {state[p.stem]['permalink'] or ids}")
+        print(f"  {usage_line()}")
     if failed:
         # the run shows as failed, so GitHub emails the owner instead of the posts silently waiting
         sys.exit(f"{len(failed)} post(s) failed to publish: {', '.join(failed)}")
