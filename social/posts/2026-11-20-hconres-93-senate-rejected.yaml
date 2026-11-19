@@ -9,19 +9,19 @@ rule: >-
   them, up to about 40 names. Here the smaller side is 48 Yea votes, so the post gives the totals by party and
   links the official list.
 sources:
-- title: "U.S. Senate, Roll Call Vote 269 (119th Congress, 2nd Session), H.Con.Res. 93, Nov. 19, 2026"
+- title: "U.S. Senate, Vote 269 (2026)"
   url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.xml
   retrieved: '2026-11-19'
-- title: "U.S. Senate, Roll Call Votes, 119th Congress, 2nd Session"
+- title: "U.S. Senate, Roll Call Votes (2026)"
   url: https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.htm
   retrieved: '2026-11-19'
-- title: "H.Con.Res. 93 (119th Congress), engrossed in the House (GPO)"
+- title: "H.Con.Res. 93 as passed by the House (GPO)"
   url: https://www.govinfo.gov/content/pkg/BILLS-119hconres93eh/html/BILLS-119hconres93eh.htm
   retrieved: '2026-11-19'
 - title: "U.S. Senate, Types of Legislation"
   url: https://www.senate.gov/legislative/common/briefing/leg_laws_acts.htm
   retrieved: '2026-11-19'
-- title: "CRS, Understanding the War Powers Resolution (IF13134)"
+- title: "CRS, War Powers Resolution (IF13134)"
   url: https://www.congress.gov/crs_external_products/IF/HTML/IF13134.html
   retrieved: '2026-11-19'
 bills:
@@ -102,3 +102,4 @@ notes: >-
   provides "expedited consideration of a joint resolution or bill, rather than a concurrent resolution". "Still the
   law" paraphrases CRS on Section 5(b) (the 30-day extension isn't on the slide). Not checked: whether a joint
   resolution on Iran is pending (one bill per post, so none is named).
+  Nov 19 fix: shortened the source titles so the cover's source footer fits (the first preview clipped it).
