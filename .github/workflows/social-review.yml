@@ -26,7 +26,7 @@ jobs:
   review:
     if: github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
         with:
@@ -127,4 +127,17 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           PR: ${{ github.event.pull_request.number }}
           FILES: ${{ steps.posts.outputs.files }}
-        run: gh pr merge "$PR" --squash --delete-branch
+          SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          # merge only once every other check on this commit has passed (CLAUDE.md rule 3b): never with one failing
+          # or still running. This job is "review" itself, so it's left out.
+          for i in $(seq 1 50); do
+            states=$(gh pr checks "$PR" --json name,bucket --jq '.[] | select(.name != "review") | .bucket' | sort | uniq -c)
+            echo "$states"
+            if echo "$states" | grep -qE ' (fail|cancel)$'; then echo "::error::A check failed; not merging."; exit 1; fi
+            if [ -n "$states" ] && ! echo "$states" | grep -qE ' pending$'; then
+              gh pr merge "$PR" --squash --delete-branch --match-head-commit "$SHA"; exit 0
+            fi
+            sleep 30
+          done
+          echo "::error::Other checks still running after 25 minutes; not merging. Merge by hand once they pass."; exit 1
