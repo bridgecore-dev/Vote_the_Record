@@ -364,10 +364,47 @@ def test_motions_are_named_for_build_and_unbuilt_ones_are_refused():
     assert any("isn't built yet" in e for e in reel.check(post([{"head": "x"}], design={"motion": "diagram"})))
 
 
-def test_reels_refuse_ai_images_until_a_generator_is_set_up():
+def test_ai_images_are_generated_decoration_with_a_guarded_prompt():
+    cap = {"motion": "captions", "sfx": True}
     p = post([{"head": "x", "image": {"url": "https://example.gov/a.png", "ai": True}}])
-    assert any("AI image" in e for e in reel.check(p))
-    assert any("AI image" in e for e in reel.check(post([{"head": "x", "ai_image": {"file": "a.png"}}])))
+    assert any("goes in ai_image" in e for e in reel.check(p))
+    ok = post([{"head": "x", "say": "Hills.", "ai_image": {"prompt": "Soft rolling hills under a calm morning sky"}}], design=cap)
+    assert not [e for e in reel.check(ok) if "ai_image" in e]
+    assert any("needs design motion captions" in e for e in reel.check(
+        post([{"head": "x", "ai_image": {"prompt": "Soft rolling hills under a calm morning sky"}}])))
+    for bad, why in [("A crowd waving outside at dusk", "crowd"), ("Gentle light over the Capitol dome", "Capitol"),
+                     ("Three fields and 4 barns at dawn", "no numbers"), ("A quiet harbor near Boston", "proper names"),
+                     ("A newspaper on a kitchen table", "newspaper")]:
+        assert any(why in e for e in reel.check_ai_image({"prompt": bad})), bad
+    assert reel.check_ai_image({"file": "a.png"})
+
+
+def test_ai_images_come_from_workers_ai_once_then_from_the_cache(monkeypatch, tmp_path):
+    import base64 as b64
+    calls = []
+
+    class Resp:
+        def __init__(self, body): self.body = body
+        def __enter__(self): return self
+        def __exit__(self, *a): return False
+        def read(self): return self.body
+
+    def fake(req, timeout=0):
+        calls.append((req.full_url, json.loads(req.data), req.headers.get("Authorization")))
+        return Resp(json.dumps({"success": True, "result": {"image": b64.b64encode(b"JPEGDATA").decode()}}).encode())
+    monkeypatch.setattr(reel.urllib.request, "urlopen", fake)
+    monkeypatch.setenv("CF_AI_TOKEN", "tok")
+    monkeypatch.setenv("CF_ACCOUNT_ID", "acct")
+    p = post([{"head": "x"}], design={"palette": "amber", "mode": "dark", "motion": "captions"})
+    prompt, seed = reel.ai_prompt({"prompt": "Calm wheat fields at dusk"}, p)
+    assert prompt.startswith("Calm wheat fields at dusk. ") and "No people" in prompt and "#f5b83d" in prompt
+    assert seed == reel.ai_prompt({"prompt": "Calm wheat fields at dusk"}, p)[1]  # same scene, same seed
+    assert reel.generate_ai(prompt, seed, tmp_path) == b"JPEGDATA" == reel.generate_ai(prompt, seed, tmp_path)
+    assert len(calls) == 1 and calls[0][0].endswith("/accounts/acct/ai/run/" + reel.AI_MODEL)
+    assert calls[0][1]["seed"] == seed and calls[0][2] == "Bearer tok"
+    monkeypatch.delenv("CF_AI_TOKEN")
+    with pytest.raises(reel.DocError, match="CF_AI_TOKEN"):
+        reel.generate_ai(prompt + " more", seed, tmp_path)
 
 
 def test_word_times_share_the_reading_by_syllables_and_pin_commas_to_pauses(monkeypatch):
@@ -453,6 +490,28 @@ def test_tiny_captions_render(monkeypatch, tmp_path):
         raise
     assert files[0]["file"] == "reel.mp4" and "Narration: Five bills were filed" in files[0]["alt_text"]
     assert (tmp_path / "still-02.png").exists()
+
+
+def test_tiny_captions_render_with_an_ai_illustration(monkeypatch, tmp_path):
+    pytest.importorskip("playwright")
+    pytest.importorskip("numpy")
+    pytest.importorskip("soundfile")
+    if not (shutil.which("ffmpeg") or Path(B.FFMPEG).exists()):
+        pytest.skip("ffmpeg not installed")
+    monkeypatch.setattr(reel, "speak", sine)
+    monkeypatch.setattr(reel, "heard", no_whisper)
+    png = __import__("base64").b64decode("iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVR4nGP4z8AAAAMBAQDJ/pLvAAAAAElFTkSuQmCC")
+    monkeypatch.setattr(reel, "generate_ai", lambda prompt, seed, cache=None: png)
+    p = post([{"chip": "Water", "head": "Rivers.", "say": "The bill covers rivers.",
+               "ai_image": {"prompt": "Calm river bend at dawn, soft light"}}], bills=[],
+             design={"palette": "teal", "mode": "dark", "font": "sans", "motion": "captions", "sfx": True})
+    try:
+        reel.render(p, p["slides"], tmp_path, fps=5, preset="ultrafast", stills=[1])
+    except Exception as e:
+        if "Executable doesn't exist" in str(e) or "chrome" in str(e).lower() and "not found" in str(e).lower():
+            pytest.skip(f"no browser: {e}")
+        raise
+    assert (tmp_path / "still-01.png").exists()
 
 
 def test_seat_chart_fills_left_to_right_in_record_order():
