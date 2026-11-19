@@ -3,7 +3,7 @@ level: congress
 topic: Energy and minerals
 approval: review
 record_ids: ["us/119/2/house/roll/326"]
-publish_after: '2026-11-21T15:00:00-06:00'
+publish_after: '2026-11-22T03:00:00-06:00'
 rule: >-
   Vote posts list every member on the smaller side of the roll call, with party and state as the House Clerk
   records them. Here that is the 14 Nay votes.
