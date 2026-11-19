@@ -5,25 +5,25 @@ approval: review
 record_ids: ["us/119/S. 4445/senate-passed"]
 publish_after: '2026-11-24T15:00:00-06:00'
 sources:
-- title: "S. 4445 as passed by the Senate (engrossed text, GovInfo)"
+- title: "S. 4445, Senate-passed text"
   url: https://www.govinfo.gov/content/pkg/BILLS-119s4445es/html/BILLS-119s4445es.htm
   retrieved: '2026-11-19'
-- title: "U.S. Senate Press Gallery, floor log, Nov. 18, 2026"
+- title: "Senate Press Gallery log, Nov. 18"
   url: https://www.dailypress.senate.gov/
   retrieved: '2026-11-19'
-- title: "S. 4445 bill status (GovInfo, Library of Congress data)"
+- title: "S. 4445 bill status"
   url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4445.xml
   retrieved: '2026-11-19'
-- title: "18 U.S.C. 2326, Enhanced penalties (GPO, U.S. Code 2023)"
+- title: "18 U.S.C. 2326"
   url: https://www.govinfo.gov/content/pkg/USCODE-2023-title18/html/USCODE-2023-title18-partI-chap113A-sec2326.htm
   retrieved: '2026-11-19'
-- title: "18 U.S.C. 2325, Definition (GPO, U.S. Code 2023)"
+- title: "18 U.S.C. 2325"
   url: https://www.govinfo.gov/content/pkg/USCODE-2023-title18/html/USCODE-2023-title18-partI-chap113A-sec2325.htm
   retrieved: '2026-11-19'
-- title: "38 U.S.C. 101, Definitions (GPO, U.S. Code 2023)"
+- title: "38 U.S.C. 101"
   url: https://www.govinfo.gov/content/pkg/USCODE-2023-title38/html/USCODE-2023-title38-partI-chap1-sec101.htm
   retrieved: '2026-11-19'
-- title: "U.S. Constitution, Article I, Section 7 (National Archives transcript)"
+- title: "U.S. Constitution, Art. I, Sec. 7"
   url: https://www.archives.gov/founding-docs/constitution-transcript
   retrieved: '2026-11-19'
 bills:
@@ -64,7 +64,7 @@ slides:
   - [Sponsor, "Sen. Catherine Cortez Masto (D-NV)"]
   - [Cosponsor, "Sen. Ted Budd (R-NC)"]
   - [U.S. Senate, "Voice vote, Nov. 18, 2026"]
-  text: "Party and state as the bill's official record lists them. Congress's records list an identical bill filed in the U.S. House of Representatives the same day."
+  text: "Party and state as the bill's record lists them. An identical bill was filed in the U.S. House of Representatives that day."
 - kicker: What happens next
   head: "Next: the U.S. House of Representatives."
   quote:
