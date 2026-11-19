@@ -5,7 +5,14 @@ topic: Taxes
 approval: review
 rule: Every bill filed Nov. 16, 2026 that would put a new tax to a local vote (said on the last slide).
 record_ids: [tx/90R/HB 1177/filed]
-publish_after: '2026-11-20T19:30:00-06:00'
+publish_after: '2026-11-22T10:30:00-06:00'
+design:
+  palette: charcoal
+  mode: dark
+  font: sans
+  position: center
+  motion: captions
+  sfx: true
 sources:
 - title: Texas Legislature Online, Bills By Filing Date, Nov. 16, 2026
   url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-16

@@ -3,7 +3,14 @@ level: congress
 topic: Veterans
 approval: review
 record_ids: ["us/119/H.R. 9237/house-passage-2026-11-11", us/119/2/house/roll/249]
-publish_after: '2026-11-23T10:30:00-06:00'
+publish_after: '2026-11-22T07:30:00-06:00'
+design:
+  palette: amber
+  mode: dark
+  font: sans
+  position: center
+  motion: captions
+  sfx: true
 sources:
 - title: "Bill status of H.R. 9237: actions, sponsor, cosponsors and CRS summary (GPO)"
   url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9237.xml

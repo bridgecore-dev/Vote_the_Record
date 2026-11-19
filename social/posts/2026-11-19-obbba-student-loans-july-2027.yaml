@@ -4,6 +4,13 @@ topic: Student loans
 approval: review
 record_ids: ["us/119/H.R. 1/sec-82002", "us/119/H.R. 1/sec-82003"]
 publish_after: '2026-11-20T07:30:00-06:00'
+design:
+  palette: teal
+  mode: dark
+  font: sans
+  position: center
+  motion: captions
+  sfx: true
 sources:
 - title: "Public Law 119-21, enacted text (GPO)"
   url: https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
