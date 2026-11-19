@@ -8,19 +8,19 @@ rule: >-
   Bills the U.S. Senate Press Gallery lists as passed by the U.S. Senate on Nov. 19, 2026 that no post covers yet.
   H.R. 1520 and S. 3321 already have their own posts; this is H.R. 973.
 sources:
-- title: "U.S. Senate Press Gallery, Thursday, November 19, 2026 (floor log)"
+- title: "Senate Press Gallery, Nov. 19, 2026"
   url: https://www.dailypress.senate.gov/thursday-november-19-2026/
   retrieved: '2026-11-19'
-- title: "H.R. 973 (119th Congress), engrossed in the House (GPO)"
+- title: "H.R. 973, House text (GPO)"
   url: https://www.govinfo.gov/content/pkg/BILLS-119hr973eh/html/BILLS-119hr973eh.htm
   retrieved: '2026-11-19'
-- title: "H. Rept. 119-77, Setting Consumer Standards for Lithium-Ion Batteries Act (GPO)"
+- title: "H. Rept. 119-77 (GPO)"
   url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt77/html/CRPT-119hrpt77.htm
   retrieved: '2026-11-19'
-- title: "Office of the Clerk, U.S. House, Roll Call 103 (2025)"
+- title: "House Clerk, Roll Call 103 (2025)"
   url: https://clerk.house.gov/evs/2025/roll103.xml
   retrieved: '2026-11-19'
-- title: "Congressional Record, House, Apr. 28, 2025, H1637 (debate on H.R. 973)"
+- title: "Cong. Rec. H1637, Apr. 28, 2025"
   url: https://www.govinfo.gov/content/pkg/CREC-2025-04-28/html/CREC-2025-04-28-pt1-PgH1637.htm
   retrieved: '2026-11-19'
 - title: Congress.gov, H.R. 973 record
