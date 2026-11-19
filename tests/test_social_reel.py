@@ -405,9 +405,32 @@ def test_caption_groups_are_short_and_break_at_pauses():
     assert [reel.shown_word(w) for w in ("voted,", "it.", "U.S.", "Rep.", "204;")] == ["voted", "it", "U.S.", "Rep.", "204"]
 
 
-def test_sound_effects_are_cuts_and_word_groups():
-    cues = reel.sfx_cues([0.0, 4.0], [[[{"w": "a", "a": 0.5}]], [[{"w": "b", "a": 0.2}], [{"w": "c", "a": 1.0}]]])
-    assert cues == [(0.6, "pop"), (4.0, "swoosh"), (4.3, "pop"), (5.1, "pop")]
+def test_sound_effects_follow_what_lands_on_screen():
+    w = lambda x, t, key=False: {"w": x, "a": t, "key": key}
+    build = {"mode": "build", "hero": {"text": "12", "times": [0.05, 0.14]}, "rows": [],
+             "groups": [[w("Five", 0.0), w("12", 0.4, True)]]}
+    flash = {"mode": "chunks", "hero": None, "rows": [{"label": "Yea", "value": "x", "t": 0.5}],
+             "groups": [[w("Send", 0.0), w("it", 0.2)]]}
+    cues = reel.sfx_cues([0.0, 4.0], [build, flash])
+    assert cues == [(0.05, "tick"), (0.1, "soft"), (0.14, "tick"), (0.5, "pop"), (4.0, "swoosh"), (4.1, "pop"), (4.6, "pop")]
+
+
+def test_captions_scenes_take_turns_and_stress_the_right_words():
+    ws = [{"w": x, "a": i * 0.3, "b": i * 0.3 + 0.3, "s": 0} for i, x in enumerate("Yea meant send it to the committee.".split())]
+    p0 = reel.kinetic_plan({}, {"big": "211-204", "say": "x"}, "big", ws, 0)
+    p1 = reel.kinetic_plan({}, {"chip": "What Yea and Nay meant", "say": "x"}, "plain", ws, 1)
+    p2 = reel.kinetic_plan({}, {"head": "x", "rows": [["Yea", "Send it."], ["Nay", "Keep it."]], "say": "x"}, "rows", ws, 2)
+    assert (p0["mode"], p0["align"], p0["tone"], p0["hero"]["text"]) == ("build", "center", "base", "211-204")
+    assert len(p0["hero"]["times"]) == 7 and p0["hero"]["times"] == sorted(p0["hero"]["times"])
+    assert (p1["mode"], p1["tone"]) == ("chunks", "accent") and p2["tone"] == "soft"
+    words = {w["w"]: w for g in p1["groups"] for w in g}
+    assert words["Yea"]["key"] and words["the"]["small"] and not words["send"]["key"]
+    assert [r["t"] for r in p2["rows"]] == [0.0, 0.6]  # "Yea" is said at once; "Nay" isn't said, so it follows
+
+
+def test_sentence_groups_keep_a_sentence_together():
+    ws = [{"w": x, "a": i, "s": 0 if i < 3 else 1} for i, x in enumerate("One two three. Four five.".split())]
+    assert [[w["w"] for w in g] for g in reel.sentence_groups(ws)] == [["One", "two", "three."], ["Four", "five."]]
 
 
 def test_tiny_captions_render(monkeypatch, tmp_path):

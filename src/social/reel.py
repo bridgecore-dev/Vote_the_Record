@@ -87,7 +87,6 @@ IMAGE_KEYS = {"url", "title", "license", "subject", "retrieved"}
 # (2026-11-18: viewers found the long static paragraphs hard to read); classic: the original slide layouts.
 MOTIONS = ("captions", "stack", "diagram", "document", "classic")
 BUILT = ("captions", "classic")  # the others are named so trials can be planned; check() refuses them until built
-SFX_LEVEL = 0.12  # sound effects peak this loud; the voice peaks near 0.5 before the loudness pass
 
 MODEL_DIR = Path(os.environ.get("VTR_KOKORO_DIR") or Path.home() / ".cache/vtr-kokoro")
 RELEASE = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/"
@@ -877,6 +876,84 @@ def chunks(words: list[dict], most: int = 3, chars: int = 18) -> list[list[dict]
     return out + ([cur] if cur else [])
 
 
+STOP = set("a an the of to in on at by for and or but is was are were be it its as that this with from so".split())
+TONES = ("base", "accent", "soft")  # page color, a full accent-color scene, the accent's soft tint
+ALIGNS = ("left", "center", "right")
+
+
+def key_words(s: dict) -> set[str]:
+    """Words a captions scene stresses besides numbers: names the chip or big text picks out (capitalized after
+    the first word, or in quotes), e.g. "Yea" and "Nay" in "What Yea and Nay meant"."""
+    keys = set()
+    for field in ("chip", "big"):
+        text = str(s.get(field) or "")
+        ws = re.findall(r"[A-Za-z']+", text)
+        keys |= {w.lower() for i, w in enumerate(ws) if i and w[0].isupper() and w.lower() not in STOP}
+        keys |= {w.lower() for q in re.findall(r'["“]([^"”]+)["”]', text) for w in re.findall(r"[A-Za-z']+", q)}
+    return keys
+
+
+def sentence_groups(words: list[dict], most: int = 14) -> list[list[dict]]:
+    """A sentence at a time (split at a comma if it runs past `most` words), for scenes that build it up."""
+    sents: list[list[dict]] = []
+    for w in words:
+        if sents and sents[-1][-1].get("s") == w.get("s"):
+            sents[-1].append(w)
+        else:
+            sents.append([w])
+    out = []
+    for g in sents:
+        while len(g) > most:
+            k = max((i + 1 for i, w in enumerate(g[:most]) if PAUSE_AFTER.search(w["w"])), default=most)
+            out.append(g[:k])
+            g = g[k:]
+        out.append(g)
+    return out
+
+
+def row_times(rows: list[tuple[str, str]], words: list[dict]) -> list[float]:
+    """When each row's card comes in: as the voice says the first word of its label, else spaced after the last."""
+    out, j = [], 0
+    for label, _ in rows:
+        stem = (re.findall(r"[A-Za-z]+", label) or [""])[0].lower()[:4]
+        t = None
+        for i in range(j, len(words)):
+            if stem and re.sub(r"\W", "", words[i]["w"]).lower().startswith(stem):
+                t, j = words[i]["a"], i + 1
+                break
+        out.append(t)
+    for i, t in enumerate(out):
+        if t is None:
+            out[i] = round((out[i - 1] if i else 0.0) + 0.6, 3)
+    return out
+
+
+def kinetic_plan(post: dict, s: dict, lay: str, words: list[dict], k: int) -> dict:
+    """How a captions scene moves, so neighbors look different: its big number or bill ID types in character by
+    character, centered; scenes take turns building a sentence word by word and flashing a few big words; the
+    background and alignment change scene to scene; rows become cards that come in as the voice reaches them."""
+    bill = explainer_bill(post, s) if lay == "explainer" else None
+    hero = str(s["big"]) if s.get("big") else (str(bill["id"]) if bill else None)
+    rows = [] if bill else [(str(a or ""), str(v)) for a, v in B.rows(s)][:4]
+    mode = "chunks" if rows or k % 2 else "build"
+    align = "center" if hero else ALIGNS[k % 3]
+    if mode == "build" and align == "right":
+        align = "left"  # a whole sentence reads badly from a ragged left edge
+    keys = key_words(s)
+
+    def mark(w):
+        bare = re.sub(r"\W", "", w["w"]).lower()
+        key = bool(re.search(r"\d", w["w"])) or bare in keys or bare.rstrip("s") in keys
+        return {**w, "key": key, "small": not key and bare in STOP}
+    groups = [[mark(w) for w in g] for g in (sentence_groups(words) if mode == "build" else chunks(words))]
+    plan = {"mode": mode, "align": align, "tone": "base" if k == 0 else TONES[k % 3], "groups": groups, "hero": None,
+            "rows": [{"label": a, "value": v, "t": t} for (a, v), t in zip(rows, row_times(rows, words))]}
+    if hero:
+        step = min(0.09, 0.7 / max(1, len(hero)))
+        plan["hero"] = {"text": hero, "times": [round(0.05 + i * step, 3) for i, ch in enumerate(hero)]}
+    return plan
+
+
 def shown_word(w: str) -> str:
     """A word as the big captions show it: no trailing comma or period (abbreviations keep theirs)."""
     w = re.sub(r"[,;:]+$", "", w)
@@ -893,12 +970,12 @@ def voice_track(scripts: list[str | None], voice: dict, timed_words: bool = Fals
             clips.append(None), lengths.append(None), caps.append([]), allwords.append([])
             continue
         parts, timed, said, at = [], [], [], 0.0
-        for sent in sentences(say):
+        for si, sent in enumerate(sentences(say)):
             a, sr = speak(spoken(sent), voice["name"], float(voice["speed"]))
             a = trim(a, sr)
             dur = len(a) / sr
             if timed_words:
-                said += [{**w, "a": round(w["a"] + at, 3), "b": round(w["b"] + at, 3)} for w in word_times(sent, a, sr)]
+                said += [{**w, "a": round(w["a"] + at, 3), "b": round(w["b"] + at, 3), "s": si} for w in word_times(sent, a, sr)]
             ph = phrases(sent)
             total = sum(len(p) for p in ph) or 1
             t = at
@@ -913,8 +990,13 @@ def voice_track(scripts: list[str | None], voice: dict, timed_words: bool = Fals
     return clips, lengths, caps, sr, allwords
 
 
+SFX = {"swoosh": 0.34, "pop": 0.22, "tick": 0.16}  # peak level of each sound; the voice peaks near 0.5
+SFX_GAIN = {"soft": ("tick", 0.55)}  # a softer tick for each word typed into a sentence
+
+
 def sound(kind: str, sr: int):
-    """A sound effect made here from noise and tones (nothing licensed): swoosh at a cut, pop as words land."""
+    """A sound effect made here from noise and tones (nothing licensed): swoosh at a cut, pop as a key word or card
+    lands, tick as a character or word types in."""
     import numpy as np
     rng = np.random.default_rng(7)  # the same sound every render
     if kind == "swoosh":
@@ -928,16 +1010,31 @@ def sound(kind: str, sr: int):
     elif kind == "pop":
         t = np.arange(int(0.07 * sr)) / sr
         out = np.sin(2 * np.pi * (520 * t + 2400 * t * t)) * np.exp(-t / 0.018)
+    elif kind == "tick":  # a key click: a bright burst of noise that dies in a few milliseconds
+        n = int(0.02 * sr)
+        out = np.diff(rng.standard_normal(n + 1)) * np.exp(-np.arange(n) / (0.004 * sr))
     else:
         raise ValueError(kind)
-    return (SFX_LEVEL * out / (np.abs(out).max() or 1)).astype("float32")
+    return (SFX[kind] * out / (np.abs(out).max() or 1)).astype("float32")
 
 
-def sfx_cues(starts: list[float], kin: list[list[list[dict]]]) -> list[tuple[float, str]]:
-    """Where sound effects go: a swoosh at each cut, a quiet pop as each group of big words appears."""
+def sfx_cues(starts: list[float], plans: list[dict | None]) -> list[tuple[float, str]]:
+    """Where sound effects go: a swoosh at each cut; in captions scenes a tick per character of the big number, a
+    pop for each key word, card and new group of words, and a soft tick per word typed into a sentence."""
     cues = [(t, "swoosh") for t in starts[1:]]
-    cues += [(starts[k] + VOICE_AT + c[0]["a"], "pop") for k, cs in enumerate(kin) for c in cs]
-    return sorted(cues)
+    for k, pl in enumerate(plans):
+        if not pl:
+            continue
+        at = starts[k] + VOICE_AT
+        cues += [(starts[k] + t, "tick") for t in (pl["hero"] or {}).get("times", [])]
+        for g in pl["groups"]:
+            for i, w in enumerate(g):
+                if w["key"] or (i == 0 and pl["mode"] == "chunks"):
+                    cues.append((at + w["a"], "pop"))
+                elif pl["mode"] == "build":
+                    cues.append((at + w["a"], "soft"))
+        cues += [(at + r["t"], "pop") for r in pl["rows"]]
+    return sorted((round(t, 3), kind) for t, kind in cues)
 
 
 def mix(clips, starts: list[float], total: float, sr: int, out: Path, cues=()) -> Path:
@@ -948,7 +1045,11 @@ def mix(clips, starts: list[float], total: float, sr: int, out: Path, cues=()) -
     track = np.zeros(int(total * sr) + sr, dtype="float32")
     made = {}
     layers = [(t + VOICE_AT, a) for a, t in zip(clips, starts)]
-    layers += [(t, made.setdefault(kind, sound(kind, sr)) * (0.5 if kind == "pop" else 1.0)) for t, kind in cues]
+    for t, kind in cues:
+        name, gain = SFX_GAIN.get(kind, (kind, 1.0))
+        if name not in made:
+            made[name] = sound(name, sr)
+        layers.append((t, made[name] * gain))
     for t, a in layers:
         if a is not None and len(a):
             i = int(t * sr)
@@ -1035,15 +1136,34 @@ mark.key { color: #1b2a2f; background: linear-gradient(#ffd166, #ffd166) no-repe
 .bg::after { content: ""; position: absolute; inset: 0; background: linear-gradient(rgba(10,18,20,.35), rgba(10,18,20,.15) 40%, rgba(10,18,20,.6)); }
 .has-bg { background: #0b1214; }
 .motion-captions { background: var(--bg); color: var(--ink); --fg: var(--ink); --mu: var(--muted); --hi: var(--accent); --ac: var(--accent);
-  --chip: var(--accent-soft); --chipfg: var(--accent); --card: var(--surface); --track: var(--line); }
-.motion-captions.tone-b { background: var(--surface); }
+  --chip: var(--accent-soft); --chipfg: var(--accent); --card: var(--surface); --track: var(--line); --key: var(--accent); --mark: var(--accent-soft); }
+.motion-captions.tone-soft { background: var(--accent-soft); --card: var(--bg); --chip: var(--bg); --mark: var(--line); }
+.motion-captions.tone-accent { background: var(--accent); color: var(--on-accent); --fg: var(--on-accent); --mu: var(--on-accent); --key: var(--on-accent);
+  --ac: var(--on-accent); --track: color-mix(in srgb, var(--on-accent) 25%, transparent); --chip: var(--on-accent); --chipfg: var(--accent);
+  --card: color-mix(in srgb, var(--on-accent) 14%, transparent); --mark: color-mix(in srgb, var(--on-accent) 28%, transparent); }
 .motion-captions .fit { height: 100%; display: flex; flex-direction: column; }
-.motion-captions .big { --bs: 170px; letter-spacing: var(--head-tracking); }
-.kin { flex: 1; display: grid; align-content: var(--text-align); padding-top: 40px; }
-.kc { grid-area: 1 / 1; font-family: var(--head-font); font-weight: 600; font-size: 118px; line-height: 1.06;
+.align-left .ctx, .align-left .kin { text-align: left; }
+.align-center .ctx, .align-center .kin { text-align: center; }
+.align-right .ctx, .align-right .kin { text-align: right; }
+.hero { font-family: var(--head-font); font-weight: 700; color: var(--key); text-align: center; line-height: 1; letter-spacing: -0.02em;
+  margin: 24px 0 6px; white-space: nowrap; }
+.hero.l1 { font-size: 300px; } .hero.l2 { font-size: 230px; } .hero.l3 { font-size: 160px; } .hero.l4 { font-size: 112px; }
+.hc { display: inline-block; opacity: 0; }
+.kin { flex: 1; display: grid; align-content: var(--text-align); padding-top: 30px; }
+.kc { grid-area: 1 / 1; font-family: var(--head-font); font-weight: 700; font-size: 112px; line-height: 1.08;
   letter-spacing: var(--head-tracking); display: none; }
-.kw { display: inline-block; opacity: 0; }
-.kw.accent-word { font-size: 1.16em; }
+.mode-build .kc { font-size: 78px; line-height: 1.2; }
+.has-rows .kc { font-size: 88px; }
+.kw { display: inline-block; opacity: 0; padding-bottom: .04em; }
+.kw.small { font-size: .66em; font-weight: 600; }
+.kw.key { font-size: 1.24em; color: var(--key); padding: 0 .04em .04em;
+  background: linear-gradient(var(--mark), var(--mark)) no-repeat 0 90% / calc(var(--m, 0) * 100%) .3em; }
+.krows { display: grid; gap: 18px; margin-top: 26px; }
+.krows.n2 { grid-template-columns: 1fr 1fr; }
+.kcard { background: var(--card); border-radius: 26px; padding: 24px 30px; opacity: 0; text-align: left; }
+.kcard .kl { font-family: var(--head-font); font-weight: 700; font-size: 46px; color: var(--key); line-height: 1.1; }
+.kcard .kv { font-size: 31px; line-height: 1.3; margin-top: 8px; }
+#wipe { position: absolute; left: -10%; top: 0; width: 120%; height: 100%; z-index: 6; visibility: hidden; }
 #cap { position: absolute; left: 56px; right: 56px; bottom: 530px; display: flex; justify-content: center; visibility: hidden; z-index: 5; }
 #cap span { background: rgba(12,21,24,.9); color: #fff; font-weight: 600; font-size: 50px; line-height: 1.22; padding: 16px 30px; border-radius: 20px; text-align: center; max-width: 968px; border: 2px solid rgba(255,255,255,.18); }
 """
@@ -1115,7 +1235,10 @@ async function init() {
   await document.fonts.ready;
   SC = [...document.querySelectorAll('.scene')].map((el, i) => {
     fit(el); return {el, items: schedule(el, R.scenes[i]), kin: [...el.querySelectorAll('.kc')].map(c => ({el: c,
-      words: [...c.querySelectorAll('.kw')].map(w => ({el: w, t: +w.dataset.t + .1}))})), frame: el.querySelector('.frame'), prog: el.querySelector('.prog i'),
+      words: [...c.querySelectorAll('.kw')].map(w => ({el: w, t: +w.dataset.t + .1, key: w.classList.contains('key')}))})),
+      hero: [...el.querySelectorAll('.hc')].map(h => ({el: h, t: +h.dataset.t})),
+      cards: [...el.querySelectorAll('.kcard')].map((c, i) => ({el: c, t: +c.dataset.t + .1, side: i % 2 ? 1 : -1})),
+      build: el.classList.contains('mode-build'), frame: el.querySelector('.frame'), prog: el.querySelector('.prog i'),
       doc: el.querySelector('.docwin img'), photo: el.querySelector('.bg.photo img'), broll: el.querySelector('.bg.dark img')};
   });
   const imgs = [...document.images].map(i => i.decode().catch(() => null));
@@ -1133,15 +1256,26 @@ async function seek(t) {
   sc.frame.style.transform = `scale(${s})`;
   sc.prog.style.width = (100 * cl(t / R.total)) + '%';
   if (sc.doc) docZoom(sc.doc, lt, info);
-  if (sc.kin.length) {  // the group whose first word has been heard; each word pops in as it is said
+  for (const h of sc.hero) {  // the big number or bill ID types in, one character at a time
+    const q = out3(cl((lt - h.t) / .14)); h.el.style.opacity = q; h.el.style.transform = `translateY(${(q - 1) * 50}px) scale(${1.3 - .3 * q})`; }
+  if (sc.kin.length) {  // the group whose first word has been heard; each word lands as it is said
     let g = 0; sc.kin.forEach((c, i) => { if (lt >= c.words[0].t - .04) g = i; });
     sc.kin.forEach((c, i) => { c.el.style.display = i === g ? 'block' : 'none'; });  // display, not visibility: a hidden scene hides it too
     for (const w of sc.kin[g].words) { const q = out3(cl((lt - w.t + .04) / .16));
-      w.el.style.opacity = q; w.el.style.transform = `translateY(${(1 - q) * 26}px) scale(${.9 + .1 * q})`; }
+      w.el.style.opacity = q;
+      w.el.style.transform = sc.build ? `translateY(${(1 - q) * 22}px)` : `translateY(${(1 - q) * 34}px) scale(${.82 + .18 * q})`;
+      if (w.key) w.el.style.setProperty('--m', out3(cl((lt - w.t - .08) / .35))); }
   }
+  for (const c of sc.cards) { const q = out3(cl((lt - c.t) / .35)); c.el.style.opacity = q;
+    c.el.style.transform = `translateX(${(1 - q) * 70 * c.side}px)`; }
   if (sc.photo) { const p = cl(lt / info.dur); sc.photo.style.transform = `scale(${1.06 + .12 * p}) translate(${-1.6 * p}%, ${-1.2 * p}%)`; }
   if (sc.broll) { const d = sc.broll.dataset, n = Math.min(+d.n, 1 + Math.floor(lt * R.fps)), src = `${d.dir}/${String(n).padStart(5, '0')}.jpg`;
     if (!sc.broll.src.endsWith(src)) { sc.broll.src = src; await sc.broll.decode().catch(() => null); } }
+  const wp = document.getElementById('wipe');  // a colored panel sweeps across each cut
+  const wk = R.wipe && !window.NOCAP ? R.scenes.findIndex((s, i) => i > 0 && Math.abs(t - s.start) < .2) : -1;
+  if (wk > 0) { const p = (t - R.scenes[wk].start + .2) / .4; wp.style.visibility = 'visible';
+    wp.style.background = wk % 2 ? 'var(--accent)' : 'var(--accent-soft)'; wp.style.transform = `translateX(${-120 + 240 * p}%) skewX(-12deg)`; }
+  else wp.style.visibility = 'hidden';
   const cap = document.getElementById('cap'), c = window.NOCAP || info.kin ? null : R.caps.find(c => t >= c.a && t < c.b);
   if (c) { const sp = cap.firstChild; if (sp.textContent !== c.text) sp.textContent = c.text;
     cap.style.visibility = 'visible'; const q = out3(cl((t - c.a) / .12)); sp.style.transform = `scale(${.96 + .04 * q})`; }
@@ -1250,24 +1384,26 @@ def content_html(s: dict, lay: str, media: dict | None) -> str:
     return out
 
 
-def kinetic_html(s: dict, kin: list[list[dict]]) -> str:
-    """A captions scene: its chip, kicker and big number, then the voice's words a few at a time. Numbers and the
-    slide's big words are the key words (accent color, larger)."""
+def kinetic_html(s: dict, plan: dict) -> str:
+    """A captions scene (see kinetic_plan): chip and kicker, the big number or bill ID, the voice's words, cards."""
     e = html.escape
     out = f'<div class="chip">{e(s["chip"])}</div>' if s.get("chip") else ""
     out += f'<div class="kicker">{e(s["kicker"])}</div>' if s.get("kicker") else ""
-    if s.get("big"):
-        out += big_html(s["big"])
-    keys = {x.lower() for x in re.findall(r"\w+", str(s.get("big") or ""))}
+    hero = ""
+    if plan["hero"]:
+        text = plan["hero"]["text"]
+        size = 1 if len(text) <= 4 else 2 if len(text) <= 7 else 3 if len(text) <= 11 else 4
+        hero = (f'<div class="hero l{size}">' + "".join(f'<span class="hc"{_attrs(t=t)}>{e(ch) if ch != " " else "&nbsp;"}</span>'
+                                                      for ch, t in zip(text, plan["hero"]["times"])) + "</div>")
     groups = ""
-    for c in kin:
-        ws = ""
-        for w in c:
-            word = shown_word(w["w"])
-            key = bool(re.search(r"\d", word)) or bool(keys & {x.lower() for x in re.findall(r"\w+", word)})
-            ws += f'<span class="kw{" accent-word" if key else ""}"{_attrs(t=w["a"])}>{nb(word)}</span> '
-        groups += f'<div class="kc">{ws.strip()}</div>'
-    return f'<div class="ctx">{out}</div><div class="kin">{groups}</div>'
+    for g in plan["groups"]:
+        ws = " ".join(f'<span class="kw{" key accent-word" if w["key"] else " small" if w["small"] else ""}"{_attrs(t=w["a"])}>'
+                      f'{nb(shown_word(w["w"]))}</span>' for w in g)
+        groups += f'<div class="kc">{ws}</div>'
+    cards = "".join(f'<div class="kcard"{_attrs(t=r["t"])}>' + (f'<div class="kl">{e(r["label"])}</div>' if r["label"] else "")
+                    + f'<div class="kv">{e(r["value"])}</div></div>' for r in plan["rows"])
+    cards = f'<div class="krows n{len(plan["rows"])}">{cards}</div>' if cards else ""
+    return f'<div class="ctx">{out}</div>{hero}<div class="kin">{groups}</div>{cards}'
 
 
 def page_html(post: dict, slides: list[dict], scenes: list[dict], media: list[dict | None], data: dict) -> str:
@@ -1276,7 +1412,9 @@ def page_html(post: dict, slides: list[dict], scenes: list[dict], media: list[di
     tag = B.level_tag(post)
     for s, sc, m in zip(slides, scenes, media):
         kinetic = sc.get("kin") is not None
-        bg, cls = "", (f'scene motion-captions tone-{"ab"[sc.get("n", 0) % 2]} layout-{sc["layout"]}' if kinetic else
+        pl = sc.get("kin") or {}
+        bg, cls = "", (f'scene motion-captions tone-{pl.get("tone")} align-{pl.get("align")} mode-{pl.get("mode")}'
+                       f'{" has-rows" if pl.get("rows") else ""} layout-{sc["layout"]}' if kinetic else
                        f'scene act-{sc["act"]} layout-{sc["layout"]}' + (" voiced" if sc["voiced"] else ""))
         foot = B.source_line(post)
         if s.get("broll"):
@@ -1292,7 +1430,7 @@ def page_html(post: dict, slides: list[dict], scenes: list[dict], media: list[di
                  f'<div class="frame"><div class="fit">{kinetic_html(s, sc["kin"]) if kinetic else content_html(s, sc["layout"], m if not (s.get("broll") or s.get("image")) else None)}</div></div>'
                  f'<div class="foot">{e(foot)}</div></section>')
     return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><style>{B.css(W, H, B.design_of(post))}{CSS}</style></head>'
-            f'<body>{body}<div id="cap"><span></span></div>'
+            f'<body>{body}<div id="wipe"></div><div id="cap"><span></span></div>'
             f'<script>window.REEL = {json.dumps(data)};{ENGINE}</script></body></html>')
 
 
@@ -1352,15 +1490,15 @@ def render(post: dict, slides: list[dict], out: Path, *, fps: int = FPS, stills=
     for k, (s, lay) in enumerate(zip(slides, lays)):
         prev = act(s, lay, k, prev)
         # a doc slide keeps its zoom onto the document, with the usual caption bar
-        kin = chunks(said[k]) if motion == "captions" and said[k] and lay != "doc" else None
+        kin = kinetic_plan(post, s, lay, said[k], k) if motion == "captions" and said[k] and lay != "doc" else None
         scenes.append({"layout": lay, "act": prev, "voiced": bool(scripts[k]), "kin": kin, "n": k})
     allcaps = [{"a": round(starts[k] + VOICE_AT + c["a"], 3), "b": round(starts[k] + VOICE_AT + c["b"], 3), "text": c["text"]}
                for k, cs in enumerate(caps) for c in cs]
-    data = {"fps": fps, "total": total, "caps": allcaps,
+    data = {"fps": fps, "total": total, "caps": allcaps, "wipe": motion == "captions",
             "scenes": [{"start": a, "dur": d, "hook": k == 0, "kin": scenes[k]["kin"] is not None}
                        for k, (a, d) in enumerate(zip(starts, durs))]}
     if voiced:
-        cues = sfx_cues(starts, [sc["kin"] or [] for sc in scenes]) if design.get("sfx") else []
+        cues = sfx_cues(starts, [sc["kin"] for sc in scenes]) if design.get("sfx") else []
         audio = ["-i", str(mix(clips, starts, total, sr, out, cues))]
         (out / "voice.txt").write_text("\n".join(f"Slide {k}: {say}" for k, say in enumerate(scripts, 1) if say) + "\n", encoding="utf-8")
     else:
