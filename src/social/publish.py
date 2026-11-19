@@ -268,6 +268,14 @@ def check_setup() -> int:
     except RuntimeError as e:
         print(f"Instagram: FAILED {e}")
         bad = 1
+    try:  # permission names only; the token itself is never printed
+        perms = graph("GET", "me/permissions").get("data", [])
+        granted = sorted(p["permission"] for p in perms if p.get("status") == "granted")
+        print(f"Token permissions: {', '.join(granted) or 'none listed'}")
+        for need in ("instagram_manage_insights", "pages_read_engagement", "instagram_manage_contents"):
+            print(f"  {need}: {'yes' if need in granted else 'no'}")
+    except RuntimeError as e:
+        print(f"Token permissions: couldn't list them ({str(e)[:200]})")
     client, name = bucket()
     key, body = "state/setup-check.txt", f"setup check {dt.datetime.now(dt.timezone.utc).isoformat()}".encode()
     client.put_object(Bucket=name, Key=key, Body=body, ContentType="text/plain")
