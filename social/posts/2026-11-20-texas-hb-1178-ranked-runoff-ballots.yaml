@@ -4,7 +4,7 @@ place: Texas
 topic: Elections
 approval: review
 record_ids: [tx/90R/HB 1178/filed]
-publish_after: '2026-11-20T15:00:00-06:00'
+publish_after: '2026-11-22T12:00:00-06:00'
 sources:
 - title: Texas Legislature Online, Bills By Filing Date, Nov. 16, 2026
   url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-16

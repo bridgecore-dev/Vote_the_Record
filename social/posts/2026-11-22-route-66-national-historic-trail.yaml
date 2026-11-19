@@ -7,7 +7,7 @@ rule: >-
   Nov. 17, 2026 (S. 432, S. 1353, S. 2887, S. 3493 and H.R. 2400) that no earlier post covers. Each gets its own
   post with the same structure (said on the last slide).
 record_ids: ["us/119/S. 2887/senate-passed"]
-publish_after: '2026-11-22T19:30:00-06:00'
+publish_after: '2026-11-21T07:30:00-06:00'
 sources:
 - title: "S. 2887 as passed"
   url: https://www.govinfo.gov/content/pkg/BILLS-119s2887es/html/BILLS-119s2887es.htm
