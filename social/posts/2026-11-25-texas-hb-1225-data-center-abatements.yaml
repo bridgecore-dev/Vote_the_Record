@@ -1,0 +1,90 @@
+kind: carousel
+level: state
+place: Texas
+topic: Taxes
+approval: review
+rule: Every bill filed Nov. 18, 2026 whose Texas Legislature Online caption is about data centers. HB 1225 is the only one
+  (said on the last slide).
+record_ids: [tx/90R/HB 1225/filed]
+publish_after: '2026-11-25T09:00:00-06:00'
+sources:
+- title: TLO, bills filed Nov. 18, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-18
+  retrieved: '2026-11-19'
+- title: TLO, HB 1225 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1225
+  retrieved: '2026-11-19'
+- title: Texas Tax Code, Chapter 312 (tax abatement)
+  url: https://statutes.capitol.texas.gov/Docs/TX/htm/TX.312.htm
+  retrieved: '2026-11-19'
+bills:
+- id: HB 1225
+  does: Would bar a city from exempting more than half of a data center's abatable property value from taxes in any year.
+  affects: Texas cities that make tax abatement deals, and owners or lessees of data centers seeking new ones.
+  where: Filed Nov. 18, 2026 by Rep. Herbert; no other action yet.
+  summary:
+    text: >-
+      the governing body of a municipality may not enter into an agreement under this section with the owner or lessee
+      of property that is a data center to exempt from taxation more than 50 percent of the portion of the value of the
+      property that is otherwise subject to abatement
+    title: HB 1225 as filed (Sec. 1, Tax Code 312.204(a-1))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/HB01225I.pdf
+    retrieved: '2026-11-19'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 18, 2026
+  big: 50%
+  head: A Texas House of Representatives bill would cap city property tax breaks for data centers at half.
+- chip: The law today
+  head: A Texas city can agree to take part of a property's value off its tax bill, for up to 10 years, if the owner improves the property.
+  quote: {label: Texas Tax Code 312.204(a), text: "to exempt from taxation a portion of the value of the real property or of tangible personal property located on the real property, or both, for a period not to exceed 10 years"}
+  text: The property must be in a reinvestment zone. The section sets no top percentage.
+- chip: What would change
+  head: For data centers, a new limit.
+  rows:
+  - [Before, "A city's agreement sets the portion; no top percentage in 312.204"]
+  - [After, "No more than 50% of the value that could otherwise be abated, in any year of the deal"]
+  - [Data center, "A facility mainly for servers that process, store and send data, plus its equipment and land"]
+- chip: Who it covers
+  head: Only new deals, and only cities, as written.
+  rows:
+  - [New deals only, "Agreements made on or after the law takes effect"]
+  - [Cities, "The limit is on a city's governing body (Sec. 312.204)"]
+  text: Deals already signed would keep their terms.
+- chip: Who gains, who pays
+  head: A data center couldn't get more than half off under a new city deal. No cost estimate is posted yet.
+  text: No fiscal note is listed on the bill's page, and the bill doesn't say how much tax money is involved.
+- chip: What you can do
+  head: Cities set their abatement rules in public.
+  rows:
+  - [Public hearing, "Required before a city adopts or changes its abatement guidelines (312.002)"]
+  - [Online, "A city with a website must post its current guidelines"]
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, the bill takes effect on this date.
+  text: "How we picked: every bill filed Nov. 18, 2026 whose caption is about data centers. HB 1225 was the only one. Should there be a cap?"
+caption: |-
+  Today, a Texas city can agree to take part of a property's value off its tax bill for up to 10 years, if the owner improves the property in a reinvestment zone. The section of law that allows it sets no top percentage.
+
+  HB 1225, filed in the Texas House of Representatives for the 2027 session, would add a limit for data centers: a city could exempt no more than 50% of the value that could otherwise be abated, in any year of the deal. It applies only to new agreements, and as written, to cities.
+
+  No cost estimate is posted yet. If passed as filed, it takes effect Sept. 1, 2027.
+
+  Cities must hold a public hearing before adopting or changing their abatement guidelines, and post them online if they have a website.
+
+  Should there be a cap?
+hashtags: [txlege, texaslegislature, datacenters, propertytax, votetherecord]
+notes: >-
+  New: filed Nov. 18, 2026; no earlier post covers it (the Nov. 14 data center post is about sales tax repeal bills, a
+  different law, and isn't referenced). Rule: the Nov. 18 filing report's captions; HB 1225 is the only one naming data
+  centers (TLO subjects: Data Centers; Taxation--City; Taxation--Property-Exemptions). Records opened 2026-11-19: the
+  filing report, the bill history (filed, no other action; author listed only as "Herbert"), the introduced PDF (sha256
+  0c716e9c8b21c97903451baa6ffb655955f7e7eb5e04e3639ce3e71d83e21575; adds 312.204(a-1), applies only to agreements on or
+  after the effective date, effective Sept. 1, 2027), and Tax Code Chapter 312 (rendered from statutes.capitol.texas.gov:
+  312.002, 312.204, 312.402). Please check: (1) "No top percentage in 312.204" is our reading of 312.204(a) ("a portion
+  of the value"); other sections have their own limits (e.g., 312.211's 100/75/50/25% for voluntary cleanup property),
+  not mentioned. (2) Counties: the new subsection names only "the governing body of a municipality", but 312.402(a-2)
+  says county agreements' "execution, duration, and other terms" are governed by 312.204's provisions applicable to a
+  municipality; whether the cap would reach county deals isn't stated, so the slide says "as written, cities" and
+  doesn't claim counties are excluded. (3) "Who gains, who pays" restates the cap; no source states amounts or names who
+  gains or loses, and no official statement for or against was found, so the post asks. Takes Nov. 25 9:00 a.m. (Nov. 19-23 base slots are full; Nov. 24 9:00 p.m. was skipped so this
+  post's schedule check doesn't depend on another open pull request).
