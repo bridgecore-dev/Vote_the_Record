@@ -4,7 +4,7 @@ topic: Taxes and budget
 approval: review
 record_ids:
 - us/119/H.R. 1/tax-year-2027-amounts
-publish_after: '2026-11-19T15:00:00-06:00'
+publish_after: '2026-11-19T21:00:00-06:00'
 sources:
 - title: "IRS, IR-2026-133 (Nov. 5, 2026): tax inflation adjustments for tax year 2027"
   url: https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2027-taxpayers-continue-to-benefit-from-the-working-families-tax-cuts

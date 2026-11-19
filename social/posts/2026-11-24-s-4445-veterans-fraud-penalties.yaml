@@ -3,7 +3,7 @@ level: congress
 topic: Veterans
 approval: review
 record_ids: ["us/119/S. 4445/senate-passed"]
-publish_after: '2026-11-21T21:00:00-06:00'
+publish_after: '2026-11-22T15:00:00-06:00'
 sources:
 - title: "S. 4445, Senate-passed text"
   url: https://www.govinfo.gov/content/pkg/BILLS-119s4445es/html/BILLS-119s4445es.htm

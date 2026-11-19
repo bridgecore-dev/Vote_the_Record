@@ -3,7 +3,7 @@ level: congress
 topic: Public lands
 approval: review
 record_ids: ["us/119/H.R. 2400/house-agreed-senate-amendment"]
-publish_after: '2026-11-21T09:00:00-06:00'
+publish_after: '2026-11-21T15:00:00-06:00'
 sources:
 - title: U.S. House Clerk, House floor proceedings, Nov. 17, 2026
   url: https://clerk.house.gov/floor/20261117.xml

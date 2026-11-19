@@ -6,7 +6,7 @@ approval: review
 rule: Every bill on the Texas Legislature's Nov. 17, 2026 filing report whose caption is about voting by mail. HB 1211
   is the only one (said on the last slide).
 record_ids: [tx/90R/HB 1211/filed]
-publish_after: '2026-11-24T13:30:00-06:00'
+publish_after: '2026-11-25T06:00:00-06:00'
 sources:
 - title: TLO, bills filed Nov. 17, 2026
   url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-17

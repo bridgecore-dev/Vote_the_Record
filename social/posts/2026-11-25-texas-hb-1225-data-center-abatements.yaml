@@ -6,7 +6,7 @@ approval: review
 rule: Every bill filed Nov. 18, 2026 whose Texas Legislature Online caption is about data centers. HB 1225 is the only one
   (said on the last slide).
 record_ids: [tx/90R/HB 1225/filed]
-publish_after: '2026-11-26T09:00:00-06:00'
+publish_after: '2026-11-26T03:00:00-06:00'
 sources:
 - title: TLO, bills filed Nov. 18, 2026
   url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-18
