@@ -6,7 +6,7 @@ approval: review
 rule: Every bill filed Nov. 19, 2026 whose Texas Legislature Online subjects include photographic traffic signals (said
   on the last slide).
 record_ids: [tx/90R/HB 1251/filed]
-publish_after: '2026-11-26T12:00:00-06:00'
+publish_after: '2026-11-27T00:00:00-06:00'
 sources:
 - title: TLO, bills filed Nov. 19, 2026
   url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-19
@@ -91,4 +91,4 @@ notes: >-
   plain word for "local authority" (Transportation Code 541.002). The 2019 exception also keeps the former law in effect
   for proceedings and penalties under those contracts; the slide doesn't go into that. No source states who gains or
   loses beyond the contracts' parties, and no official statement for or against was found, so the post asks. Takes
-  Nov. 26's 12:00 p.m. Reel slot, after the 9:00 a.m. SB 444 carousel (Nov. 19-25 slots are full).
+  Nov. 27's 12:00 a.m. Reel slot, before the 3:00 a.m. carousel (Nov. 26's noon slot would follow the 6:00 a.m. Reel on main).
