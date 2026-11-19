@@ -259,7 +259,7 @@ def check(post: dict, editorial: bool = True) -> list[str]:
     if ids is not None and not (isinstance(ids, list) and all(isinstance(i, str) and i.strip() for i in ids)):
         errs.append("record_ids is a list of official IDs as strings, e.g. ['tx/90R/HB 101', 'us/119/house/roll/316']")
     motions = getattr(reel_module(), "MOTIONS", None) if post.get("kind") == "reel" else None
-    errs += check_bills(post, editorial) + check_story_templates(post) + check_design(post, motions) + check_ai_images(post)
+    errs += check_bills(post, editorial) + check_story_templates(post) + check_design(post, motions) + check_ai_images(post) + check_portraits(post)
     slides = expanded(post) if post.get("kind") != "clip" else []
     n = {"image": (1, 1), "story": (1, 10), "carousel": (2, 10), "reel": (2, 20)}.get(post.get("kind"), (1, 20))
     if post.get("kind") == "clip":
@@ -381,6 +381,38 @@ def uses_ai_image(post: dict) -> bool:
     """Whether any slide shows an AI-generated image (its own ai_image, or an image or b-roll marked ai: true)."""
     return any(s.get("ai_image") or (s.get(f) or {}).get("ai") for s in post.get("slides") or [] for f in ("image", "broll")
                if isinstance(s, dict) and isinstance(s.get(f, {}), dict))
+
+
+BIOGUIDE = re.compile(r"[A-Z]\d{6}")  # Congress's member ID, e.g. K000389
+
+
+def member_images(post: dict) -> list[dict]:
+    """Official portraits of members of Congress in the post, in slide order."""
+    return [s["image"] for s in post.get("slides") or [] if isinstance(s, dict)
+            and isinstance(s.get("image"), dict) and s["image"].get("subject") == "member"]
+
+
+def surname(name: str) -> str:
+    return name.split()[-1].casefold() if name.split() else ""
+
+
+def check_portraits(post: dict) -> list[str]:
+    """Owner, 2026-11-19: official public-domain portraits of members of Congress, the same for every member:
+    each names the member and their bioguide ID, and members appear in alphabetical order (by surname)."""
+    errs, imgs = [], member_images(post)
+    for i in imgs:
+        if not BIOGUIDE.fullmatch(str(i.get("bioguide", ""))):
+            errs.append(f"member portrait needs bioguide, the member's ID (e.g. K000389): {i.get('name') or i}")
+        if not str(i.get("name") or "").strip():
+            errs.append(f"member portrait needs name: {i.get('bioguide')}")
+        if "public domain" not in str(i.get("license") or "").lower():
+            errs.append(f"member portrait license must say public domain: {i.get('name')}")
+        if i.get("ai"):
+            errs.append(f"a member portrait is never AI-generated: {i.get('name')}")
+    names = [str(i.get("name") or "") for i in imgs]
+    if [surname(n) for n in names] != sorted(surname(n) for n in names):
+        errs.append("member portraits appear in alphabetical order by surname, the same for everyone: " + ", ".join(names))
+    return errs
 
 
 def check_ai_images(post: dict) -> list[str]:
