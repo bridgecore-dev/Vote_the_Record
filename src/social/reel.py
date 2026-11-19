@@ -31,6 +31,7 @@ import base64
 import hashlib
 import html
 import json
+import math
 import os
 import re
 import subprocess
@@ -879,6 +880,41 @@ def chunks(words: list[dict], most: int = 3, chars: int = 18) -> list[list[dict]
 STOP = set("a an the of to in on at by for and or but is was are were be it its as that this with from so".split())
 TONES = ("base", "accent", "soft")  # page color, a full accent-color scene, the accent's soft tint
 ALIGNS = ("left", "center", "right")
+VOTE_ORDER = ("yea", "nay", "present", "not_voting")
+
+
+def seat_layout(n: int) -> tuple[list[tuple[float, float, float]], float]:
+    """Seats of a hemicycle chart in a 1000x510 box, ordered left to right, and the seat size. Rows hold seats in
+    proportion to their length, as parliament charts do."""
+    rows = max(3, min(12, round(math.sqrt(n / 3.2))))
+    r0, r1 = 210, 490
+    radii = [r0 + (r1 - r0) * i / (rows - 1) for i in range(rows)]
+    counts = [max(1, round(n * r / sum(radii))) for r in radii]
+    counts[-1] += n - sum(counts)
+    seats = []
+    for r, c in zip(radii, counts):
+        for j in range(c):
+            a = math.pi * (1 - (j + 0.5) / c)
+            seats.append((500 + r * math.cos(a), 500 - r * math.sin(a), a))
+    seats.sort(key=lambda p: -p[2])
+    size = 0.8 * min((r1 - r0) / (rows - 1), math.pi * sum(radii) / n)
+    return seats, size
+
+
+def seats_svg(vote: dict) -> str:
+    """A seat chart of a roll call: Yea seats from the left, then Nay, Present and Didn't vote, as the record counts."""
+    groups = [k for k in VOTE_ORDER if vote.get(k)]
+    n = sum(vote[k] for k in groups)
+    seats, size = seat_layout(n)
+    out, i = "", 0
+    for k in groups:
+        for _ in range(vote[k]):
+            x, y, a = seats[i]
+            out += (f'<g transform="translate({x:.1f} {y:.1f}) rotate({90 - math.degrees(a):.1f})">'
+                    f'<rect class="st s-{k}" x="{-size / 2:.1f}" y="{-size / 2:.1f}" width="{size:.1f}" height="{size:.1f}" '
+                    f'rx="{size * .28:.1f}" data-i="{i}"/></g>')
+            i += 1
+    return f'<svg class="seats" viewBox="0 0 1000 510" data-n="{n}" aria-hidden="true">{out}</svg>'
 
 
 def key_words(s: dict) -> set[str]:
@@ -946,7 +982,13 @@ def kinetic_plan(post: dict, s: dict, lay: str, words: list[dict], k: int) -> di
         key = bool(re.search(r"\d", w["w"])) or bare in keys or bare.rstrip("s") in keys
         return {**w, "key": key, "small": not key and bare in STOP}
     groups = [[mark(w) for w in g] for g in (sentence_groups(words) if mode == "build" else chunks(words))]
-    plan = {"mode": mode, "align": align, "tone": "base" if k == 0 else TONES[k % 3], "groups": groups, "hero": None,
+    vote = {key: int(s["vote"][key]) for key in VOTE_ORDER if key in (s.get("vote") or {})} or None
+    q = s.get("quote") if not bill and isinstance(s.get("quote"), dict) and s["quote"].get("text") else None
+    tone = "base" if k == 0 else TONES[k % 3]
+    if (vote or q) and tone == "accent":
+        tone = "soft"  # a seat chart or a document reads best on a calm background
+    plan = {"mode": mode, "align": align, "tone": tone, "groups": groups, "hero": None, "vote": vote,
+            "quote": {"label": str(q.get("label") or "Official text"), "text": str(q["text"]), "key": q.get("key")} if q else None,
             "rows": [{"label": a, "value": v, "t": t} for (a, v), t in zip(rows, row_times(rows, words))]}
     if hero:
         step = min(0.09, 0.7 / max(1, len(hero)))
@@ -1034,6 +1076,10 @@ def sfx_cues(starts: list[float], plans: list[dict | None]) -> list[tuple[float,
                 elif pl["mode"] == "build":
                     cues.append((at + w["a"], "soft"))
         cues += [(at + r["t"], "pop") for r in pl["rows"]]
+        if pl.get("vote"):
+            cues += [(starts[k] + 0.3 + 0.1 * i, "soft") for i in range(15)]
+        if pl.get("quote"):
+            cues.append((starts[k] + 0.12, "swoosh"))
     return sorted((round(t, 3), kind) for t, kind in cues)
 
 
@@ -1163,6 +1209,35 @@ mark.key { color: #1b2a2f; background: linear-gradient(#ffd166, #ffd166) no-repe
 .kcard { background: var(--card); border-radius: 26px; padding: 24px 30px; opacity: 0; text-align: left; }
 .kcard .kl { font-family: var(--head-font); font-weight: 700; font-size: 46px; color: var(--key); line-height: 1.1; }
 .kcard .kv { font-size: 31px; line-height: 1.3; margin-top: 8px; }
+.aura { position: absolute; inset: 0; overflow: hidden; }
+.aura i { position: absolute; width: 1100px; height: 1100px; margin: -550px 0 0 -550px; border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--accent) 34%, transparent), transparent 66%); }
+.aura i:nth-child(2) { background: radial-gradient(circle, color-mix(in srgb, var(--accent-soft) 60%, transparent), transparent 66%); }
+.tone-accent .aura i { background: radial-gradient(circle, color-mix(in srgb, var(--on-accent) 16%, transparent), transparent 66%); }
+.grain { position: absolute; inset: 0; opacity: .07; mix-blend-mode: overlay; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E"); }
+.has-art .kc { font-size: 70px; } .has-art.mode-build .kc { font-size: 58px; }
+.vote-art { margin-top: 10px; }
+.seats { display: block; width: 900px; height: 459px; margin: 0 auto; overflow: visible; }
+.st { opacity: 0; transform-origin: 0 0; }
+.s-yea { fill: var(--key); } .s-nay { fill: var(--fg); } .s-present { fill: var(--mu); }
+.s-not_voting { fill: none; stroke: var(--mu); stroke-width: 3; }
+.vtiles { display: grid; grid-template-columns: repeat(var(--n, 3), 1fr); gap: 14px; margin-top: 6px; }
+.vtiles.n2 { --n: 2; } .vtiles.n4 { --n: 4; }
+.vt { border: 3px solid var(--line); border-radius: 22px; padding: 14px 18px; text-align: center; opacity: 0; background: var(--card); }
+.vt b { display: block; font-family: var(--head-font); font-size: 82px; line-height: 1; letter-spacing: -0.02em; }
+.vt span { display: block; font-size: 25px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--mu); margin-top: 8px; }
+.vt.v-yea b { color: var(--key); }
+.paper-wrap { perspective: 1400px; margin-top: 14px; }
+.paper { position: relative; background: #fbfaf5; color: #1d1d1b; border-radius: 10px; padding: 46px 52px 50px; opacity: 0;
+  box-shadow: 0 30px 60px rgba(0,0,0,.33), 0 2px 0 rgba(0,0,0,.06); transform-origin: 50% 0;
+  background-image: repeating-linear-gradient(transparent 0 57px, rgba(30,60,90,.08) 57px 59px); }
+.paper::after { content: ""; position: absolute; right: 0; top: 0; width: 70px; height: 70px;
+  background: linear-gradient(225deg, var(--bg) 50%, #e3e0d6 50%); border-radius: 0 10px 0 6px; }
+.tone-soft .paper::after { background: linear-gradient(225deg, var(--accent-soft) 50%, #e3e0d6 50%); }
+.paper .pl { font-weight: 700; font-size: 24px; letter-spacing: 3px; text-transform: uppercase; color: #6a665c; margin-bottom: 18px; padding-right: 60px; }
+.paper .pt { font-family: "Source Serif 4", serif; font-weight: 600; line-height: 1.3; }
+.paper.s1 .pt { font-size: 50px; } .paper.s2 .pt { font-size: 40px; } .paper.s3 .pt { font-size: 31px; }
+.paper mark.hl { color: inherit; background: linear-gradient(#ffd84d, #ffd84d) no-repeat 0 82% / calc(var(--h, 0) * 100%) 62%; padding: 0 .05em; }
 #wipe { position: absolute; left: -10%; top: 0; width: 120%; height: 100%; z-index: 6; visibility: hidden; }
 #cap { position: absolute; left: 56px; right: 56px; bottom: 530px; display: flex; justify-content: center; visibility: hidden; z-index: 5; }
 #cap span { background: rgba(12,21,24,.9); color: #fff; font-weight: 600; font-size: 50px; line-height: 1.22; padding: 16px 30px; border-radius: 20px; text-align: center; max-width: 968px; border: 2px solid rgba(255,255,255,.18); }
@@ -1238,6 +1313,8 @@ async function init() {
       words: [...c.querySelectorAll('.kw')].map(w => ({el: w, t: +w.dataset.t + .1, key: w.classList.contains('key')}))})),
       hero: [...el.querySelectorAll('.hc')].map(h => ({el: h, t: +h.dataset.t})),
       cards: [...el.querySelectorAll('.kcard')].map((c, i) => ({el: c, t: +c.dataset.t + .1, side: i % 2 ? 1 : -1})),
+      seats: [...el.querySelectorAll('.st')], tiles: [...el.querySelectorAll('.vt')],
+      paper: el.querySelector('.paper'), hl: el.querySelector('mark.hl'), aura: [...el.querySelectorAll('.aura i')],
       build: el.classList.contains('mode-build'), frame: el.querySelector('.frame'), prog: el.querySelector('.prog i'),
       doc: el.querySelector('.docwin img'), photo: el.querySelector('.bg.photo img'), broll: el.querySelector('.bg.dark img')};
   });
@@ -1266,6 +1343,23 @@ async function seek(t) {
       w.el.style.transform = sc.build ? `translateY(${(1 - q) * 22}px)` : `translateY(${(1 - q) * 34}px) scale(${.82 + .18 * q})`;
       if (w.key) w.el.style.setProperty('--m', out3(cl((lt - w.t - .08) / .35))); }
   }
+  sc.aura.forEach((b, i) => {  // soft color drifts behind every captions scene, continuous across cuts
+    b.style.left = (50 + 38 * Math.sin(t * .23 + i * 2.1)) + '%'; b.style.top = (42 + 30 * Math.cos(t * .19 + i * 1.7)) + '%';
+    b.style.transform = `scale(${1 + .18 * Math.sin(t * .31 + i)})`; });
+  if (sc.seats.length) {  // seats fill left to right, the tallies count with them
+    const n = sc.seats.length, a0 = .3, span = Math.min(1.6, info.dur * .3);
+    sc.seats.forEach((r, i) => { const q = out3(cl((lt - a0 - span * i / n) / .2));
+      r.style.opacity = q; r.style.transform = `scale(${q})`; });
+    let seen = 0;
+    sc.tiles.forEach((tl, i) => { const b = tl.querySelector('b'), m = +b.dataset.n;
+      const shown = Math.max(0, Math.min(m, Math.round((cl((lt - a0) / span) * n) - seen))); seen += m;
+      b.textContent = shown.toLocaleString('en-US');
+      const q = out3(cl((lt - .15 - i * .08) / .35)); tl.style.opacity = q; tl.style.transform = `translateY(${(1 - q) * 30}px)`; }); }
+  if (sc.paper) {  // the document swings up into view, then the key words are highlighted
+    const q = out3(cl((lt - .1) / .6));
+    sc.paper.style.opacity = Math.min(1, q * 1.5);
+    sc.paper.style.transform = `rotateX(${(1 - q) * 32}deg) translateY(${(1 - q) * 120}px) scale(${1 + .03 * cl(lt / info.dur)})`;
+    if (sc.hl) sc.hl.style.setProperty('--h', out3(cl((lt - Math.max(.9, info.dur * .3)) / .7))); }
   for (const c of sc.cards) { const q = out3(cl((lt - c.t) / .35)); c.el.style.opacity = q;
     c.el.style.transform = `translateX(${(1 - q) * 70 * c.side}px)`; }
   if (sc.photo) { const p = cl(lt / info.dur); sc.photo.style.transform = `scale(${1.06 + .12 * p}) translate(${-1.6 * p}%, ${-1.2 * p}%)`; }
@@ -1403,7 +1497,22 @@ def kinetic_html(s: dict, plan: dict) -> str:
     cards = "".join(f'<div class="kcard"{_attrs(t=r["t"])}>' + (f'<div class="kl">{e(r["label"])}</div>' if r["label"] else "")
                     + f'<div class="kv">{e(r["value"])}</div></div>' for r in plan["rows"])
     cards = f'<div class="krows n{len(plan["rows"])}">{cards}</div>' if cards else ""
-    return f'<div class="ctx">{out}</div>{hero}<div class="kin">{groups}</div>{cards}'
+    art = ""
+    if plan.get("vote"):
+        v = plan["vote"]
+        tiles = "".join(f'<div class="vt v-{k}"><b{_attrs(n=v[k])}>0</b><span>{e(B.VOTE_LABELS[k])}</span></div>' for k in v)
+        art = f'<div class="vote-art">{seats_svg(v)}<div class="vtiles n{len(v)}">{tiles}</div></div>'
+    if plan.get("quote"):
+        q = plan["quote"]
+        text, key = q["text"], q.get("key")
+        body = e(text)
+        if key and key in text:
+            a = text.index(key)
+            body = f'{e(text[:a])}<mark class="hl">{e(key)}</mark>{e(text[a + len(key):])}'
+        size = "s1" if len(text) <= 110 else "s2" if len(text) <= 220 else "s3"
+        art = (f'<div class="paper-wrap"><div class="paper {size}"><div class="pl">{e(q["label"])}</div>'
+               f'<div class="pt">“{body}”</div></div></div>')
+    return f'<div class="ctx">{out}</div>{art}{hero}<div class="kin">{groups}</div>{cards}'
 
 
 def page_html(post: dict, slides: list[dict], scenes: list[dict], media: list[dict | None], data: dict) -> str:
@@ -1414,7 +1523,8 @@ def page_html(post: dict, slides: list[dict], scenes: list[dict], media: list[di
         kinetic = sc.get("kin") is not None
         pl = sc.get("kin") or {}
         bg, cls = "", (f'scene motion-captions tone-{pl.get("tone")} align-{pl.get("align")} mode-{pl.get("mode")}'
-                       f'{" has-rows" if pl.get("rows") else ""} layout-{sc["layout"]}' if kinetic else
+                       f'{" has-rows" if pl.get("rows") else ""}{" has-art" if pl.get("vote") or pl.get("quote") else ""}'
+                       f' layout-{sc["layout"]}' if kinetic else
                        f'scene act-{sc["act"]} layout-{sc["layout"]}' + (" voiced" if sc["voiced"] else ""))
         foot = B.source_line(post)
         if s.get("broll"):
@@ -1425,6 +1535,8 @@ def page_html(post: dict, slides: list[dict], scenes: list[dict], media: list[di
             bg = f'<div class="bg photo"><img alt="" src="{m["img"]}"></div>'
             foot = f'Photo: {s["image"]["title"]} ({s["image"]["license"]}). {foot}'
             cls += " has-bg"
+        if kinetic and not bg:
+            bg = '<div class="aura"><i></i><i></i><i></i></div><div class="grain"></div>'
         body += (f'<section class="{cls}">{bg}<div class="prog"><i></i></div>'
                  f'<div class="brand"><span class="mark">{B.LOGO}Vote the Record</span><span class="tag">{e(tag)}</span></div>'
                  f'<div class="frame"><div class="fit">{kinetic_html(s, sc["kin"]) if kinetic else content_html(s, sc["layout"], m if not (s.get("broll") or s.get("image")) else None)}</div></div>'

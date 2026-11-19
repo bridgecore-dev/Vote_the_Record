@@ -5,6 +5,7 @@ tests/fixtures/social/reel/hb167-introduced-excerpt.htm is an excerpt of HB 167 
 Legislature Online (capitol.texas.gov/tlodocs/90R/billtext/html/HB00167I.htm), retrieved 2026-11-14.
 """
 import json
+import re
 import shutil
 import subprocess
 import sys
@@ -452,3 +453,13 @@ def test_tiny_captions_render(monkeypatch, tmp_path):
         raise
     assert files[0]["file"] == "reel.mp4" and "Narration: Five bills were filed" in files[0]["alt_text"]
     assert (tmp_path / "still-02.png").exists()
+
+
+def test_seat_chart_fills_left_to_right_in_record_order():
+    svg = reel.seats_svg({"yea": 401, "nay": 0, "not_voting": 32})
+    assert svg.count("<rect") == 433 and "s-nay" not in svg
+    kinds = re.findall(r'class="st s-(\w+)"', svg)
+    assert kinds == ["yea"] * 401 + ["not_voting"] * 32
+    seats, size = reel.seat_layout(100)
+    assert len(seats) == 100 and size > 20
+    assert [a for _, _, a in seats] == sorted((a for _, _, a in seats), reverse=True)
