@@ -395,9 +395,15 @@ def check(post: dict) -> list[str]:
     if d.get("motion") in MOTIONS and d["motion"] not in BUILT:
         errs.append(f"design motion {d['motion']} isn't built yet; use {' or '.join(BUILT)}")
     for k, s in enumerate(slides, 1):
-        if s.get("ai_image") or any(isinstance(s.get(f), dict) and s[f].get("ai") for f in ("image", "broll")):
-            errs.append(f"slide {k}: Reels can't show an AI image yet (no image generator is set up)")
+        if any(isinstance(s.get(f), dict) and s[f].get("ai") for f in ("image", "broll")):
+            errs.append(f"slide {k}: an AI image goes in ai_image (generated here), not in image or broll")
             continue
+        if s.get("ai_image") is not None:
+            if (B.design_of(post).get("motion") or "classic") != "captions":
+                errs.append(f"slide {k}: ai_image needs design motion captions")
+            if s.get("doc") or s.get("broll") or s.get("image") or s.get("vote") or s.get("quote"):
+                errs.append(f"slide {k}: ai_image can't share a slide with doc, broll, image, vote or quote")
+            errs += [f"slide {k}: {e}" for e in check_ai_image(s["ai_image"])]
         q = s.get("quote") or {}
         if q.get("key") is not None and str(q["key"]) not in str(q.get("text") or ""):
             errs.append(f"slide {k}: quote key must be an exact part of the quote text")
@@ -880,6 +886,84 @@ def chunks(words: list[dict], most: int = 3, chars: int = 18) -> list[list[dict]
 STOP = set("a an the of to in on at by for and or but is was are were be it its as that this with from so".split())
 TONES = ("base", "accent", "soft")  # page color, a full accent-color scene, the accent's soft tint
 ALIGNS = ("left", "center", "right")
+# AI illustrations (rule 9, owner 2026-11-19): decoration only, made by Cloudflare Workers AI (free daily allowance)
+AI_MODEL = "@cf/black-forest-labs/flux-1-schnell"  # FLUX.1 [schnell], Apache-2.0
+AI_KEYS = {"prompt", "seed"}
+AI_STYLE = ("flat editorial illustration, soft paper texture, gentle grain, simple shapes, calm composition, "
+            "limited palette of {colors}. No people, no faces, no hands, no text, no letters, no numbers, no logos, "
+            "no flags, no seals, no maps, no real buildings or landmarks.")
+# what a prompt may never ask for: people, real places, symbols of office, documents, or anything that reads as evidence
+AI_BANNED = re.compile(
+    r"\b(people|person|persons|man|men|woman|women|child|children|kid|crowd|face|faces|portrait|selfie|politician|"
+    r"president|senator|representative|congress(?:man|woman)?|governor|mayor|judge|lawmaker|official|candidate|"
+    r"trump|biden|harris|capitol|white house|supreme court|pentagon|statue|monument|landmark|skyline|seal|logo|"
+    r"flag|emblem|badge|document|letter|newspaper|headline|ballot paper|signature|photo(?:graph)?|realistic|"
+    r"photorealistic|text|words|caption|map)s?\b", re.I)
+
+
+def check_ai_image(a) -> list[str]:
+    if not isinstance(a, dict) or set(a) - AI_KEYS or not isinstance(a.get("prompt"), str):
+        return ["ai_image is {prompt, seed}: a plain description of a decorative scene"]
+    errs, p = [], a["prompt"].strip()
+    if not 12 <= len(p) <= 300:
+        errs.append("ai_image prompt: 12-300 characters")
+    hit = AI_BANNED.search(p)
+    if hit:
+        errs.append(f'ai_image prompt names "{hit.group(0)}": AI images never show people, real places, symbols, '
+                    "documents or text (rule 9)")
+    if re.search(r"\d", p):
+        errs.append("ai_image prompt: no numbers (facts and numbers are drawn by our code, never inside the image)")
+    if re.search(r"(?<!^)(?<![.!?] )\b[A-Z][a-z]+", p):
+        errs.append("ai_image prompt: no proper names (no real people, places or brands)")
+    if "seed" in a and not (isinstance(a["seed"], int) and 0 <= a["seed"] < 2**31):
+        errs.append("ai_image seed: a whole number")
+    return errs
+
+
+def ai_prompt(a: dict, post: dict) -> tuple[str, int]:
+    """The full prompt (the slide's scene plus the house style in the post's palette) and its seed."""
+    d = B.design_of(post)
+    pal = B.PALETTES[d["palette"]][d["mode"]]
+    prompt = f'{a["prompt"].strip().rstrip(".")}. ' + AI_STYLE.format(colors=", ".join((pal["accent"], pal["accent_soft"], pal["bg"])))
+    seed = a.get("seed", int(hashlib.sha256(a["prompt"].encode()).hexdigest()[:7], 16))
+    return prompt, seed
+
+
+def generate_ai(prompt: str, seed: int, cache: Path | None = None) -> bytes:
+    """One illustration from Workers AI, cached by prompt and seed, so a preview and the published Reel match."""
+    key = hashlib.sha256(f"{AI_MODEL}\n{seed}\n{prompt}".encode()).hexdigest()[:24]
+    folder = Path(cache or Path.home() / ".cache/vtr-ai")
+    hit = folder / f"ai-{key}.jpg"
+    if hit.exists():
+        return hit.read_bytes()
+    token = os.environ.get("CF_AI_TOKEN")
+    account = os.environ.get("CF_ACCOUNT_ID") or os.environ.get("R2_ACCOUNT_ID")
+    if not (token and account):
+        raise DocError("an ai_image needs CF_AI_TOKEN and CF_ACCOUNT_ID (or R2_ACCOUNT_ID) to reach Cloudflare Workers AI")
+    req = urllib.request.Request(
+        f"https://api.cloudflare.com/client/v4/accounts/{account}/ai/run/{AI_MODEL}",
+        data=json.dumps({"prompt": prompt, "steps": 8, "seed": seed}).encode(), method="POST",
+        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json", "User-Agent": UA})
+    try:
+        with urllib.request.urlopen(req, timeout=120) as r:
+            body = json.loads(r.read())
+    except urllib.error.HTTPError as e:  # the error body names the problem; the token is never in it
+        raise DocError(f"Workers AI: HTTP {e.code} {e.read().decode(errors='replace')[:300]}") from None
+    img = (body.get("result") or {}).get("image")
+    if not body.get("success", True) or not img:
+        raise DocError(f"Workers AI returned no image: {str(body.get('errors'))[:300]}")
+    data = base64.b64decode(img)
+    folder.mkdir(parents=True, exist_ok=True)
+    hit.write_bytes(data)
+    return data
+
+
+def prepare_ai(a: dict, post: dict, out: Path, k: int, cache: Path | None = None) -> dict:
+    prompt, seed = ai_prompt(a, post)
+    (out / f"ai-{k:02d}.jpg").write_bytes(generate_ai(prompt, seed, cache))
+    return {"img": f"ai-{k:02d}.jpg", "prompt": prompt, "seed": seed}
+
+
 VOTE_ORDER = ("yea", "nay", "present", "not_voting")
 
 
@@ -1078,7 +1162,7 @@ def sfx_cues(starts: list[float], plans: list[dict | None]) -> list[tuple[float,
         cues += [(at + r["t"], "pop") for r in pl["rows"]]
         if pl.get("vote"):
             cues += [(starts[k] + 0.3 + 0.1 * i, "soft") for i in range(15)]
-        if pl.get("quote"):
+        if pl.get("quote") or pl.get("ai"):
             cues.append((starts[k] + 0.12, "swoosh"))
     return sorted((round(t, 3), kind) for t, kind in cues)
 
@@ -1217,6 +1301,13 @@ mark.key { color: #1b2a2f; background: linear-gradient(#ffd166, #ffd166) no-repe
 .grain { position: absolute; inset: 0; opacity: .07; mix-blend-mode: overlay; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E"); }
 .has-art .kc { font-size: 70px; } .has-art.mode-build .kc { font-size: 58px; }
 .vote-art { margin-top: 10px; }
+.aiart { position: relative; width: 760px; height: 760px; margin: 12px auto 0; border-radius: 34px; overflow: hidden; opacity: 0;
+  box-shadow: 0 30px 70px rgba(0,0,0,.35); }
+.has-rows .aiart, .has-ai.has-rows .aiart { width: 560px; height: 560px; }
+.aiart img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transform-origin: 50% 55%; }
+.ailabel { position: absolute; left: 18px; bottom: 16px; background: rgba(0,0,0,.55); color: #fff; font-size: 22px; font-weight: 600;
+  letter-spacing: 1px; padding: 6px 14px; border-radius: 999px; }
+.has-ai .kc { font-size: 76px; } .has-ai.mode-build .kc { font-size: 60px; }
 .seats { display: block; width: 900px; height: 459px; margin: 0 auto; overflow: visible; }
 .st { opacity: 0; transform-origin: 0 0; }
 .s-yea { fill: var(--key); } .s-nay { fill: var(--fg); } .s-present { fill: var(--mu); }
@@ -1314,7 +1405,7 @@ async function init() {
       hero: [...el.querySelectorAll('.hc')].map(h => ({el: h, t: +h.dataset.t})),
       cards: [...el.querySelectorAll('.kcard')].map((c, i) => ({el: c, t: +c.dataset.t + .1, side: i % 2 ? 1 : -1})),
       seats: [...el.querySelectorAll('.st')], tiles: [...el.querySelectorAll('.vt')],
-      paper: el.querySelector('.paper'), hl: el.querySelector('mark.hl'), aura: [...el.querySelectorAll('.aura i')],
+      paper: el.querySelector('.paper'), ai: el.querySelector('.aiart'), hl: el.querySelector('mark.hl'), aura: [...el.querySelectorAll('.aura i')],
       build: el.classList.contains('mode-build'), frame: el.querySelector('.frame'), prog: el.querySelector('.prog i'),
       doc: el.querySelector('.docwin img'), photo: el.querySelector('.bg.photo img'), broll: el.querySelector('.bg.dark img')};
   });
@@ -1355,6 +1446,10 @@ async function seek(t) {
       const shown = Math.max(0, Math.min(m, Math.round((cl((lt - a0) / span) * n) - seen))); seen += m;
       b.textContent = shown.toLocaleString('en-US');
       const q = out3(cl((lt - .15 - i * .08) / .35)); tl.style.opacity = q; tl.style.transform = `translateY(${(1 - q) * 30}px)`; }); }
+  if (sc.ai) {  // the illustration rises in, then the camera pushes in slowly
+    const q = out3(cl((lt - .1) / .55)), p = cl(lt / info.dur);
+    sc.ai.style.opacity = Math.min(1, q * 1.4); sc.ai.style.transform = `translateY(${(1 - q) * 60}px) scale(${.94 + .06 * q})`;
+    sc.ai.firstChild.style.transform = `scale(${1.04 + .14 * p}) translate(${-1.5 * p}%, ${-1 * p}%)`; }
   if (sc.paper) {  // the document swings up into view, then the key words are highlighted
     const q = out3(cl((lt - .1) / .6));
     sc.paper.style.opacity = Math.min(1, q * 1.5);
@@ -1498,6 +1593,8 @@ def kinetic_html(s: dict, plan: dict) -> str:
                     + f'<div class="kv">{e(r["value"])}</div></div>' for r in plan["rows"])
     cards = f'<div class="krows n{len(plan["rows"])}">{cards}</div>' if cards else ""
     art = ""
+    if plan.get("ai"):
+        art = (f'<div class="aiart"><img alt="" src="{e(plan["ai"])}"><span class="ailabel">AI-generated illustration</span></div>')
     if plan.get("vote"):
         v = plan["vote"]
         tiles = "".join(f'<div class="vt v-{k}"><b{_attrs(n=v[k])}>0</b><span>{e(B.VOTE_LABELS[k])}</span></div>' for k in v)
@@ -1523,7 +1620,7 @@ def page_html(post: dict, slides: list[dict], scenes: list[dict], media: list[di
         kinetic = sc.get("kin") is not None
         pl = sc.get("kin") or {}
         bg, cls = "", (f'scene motion-captions tone-{pl.get("tone")} align-{pl.get("align")} mode-{pl.get("mode")}'
-                       f'{" has-rows" if pl.get("rows") else ""}{" has-art" if pl.get("vote") or pl.get("quote") else ""}'
+                       f'{" has-rows" if pl.get("rows") else ""}{" has-art" if pl.get("vote") or pl.get("quote") else ""}{" has-ai" if pl.get("ai") else ""}'
                        f' layout-{sc["layout"]}' if kinetic else
                        f'scene act-{sc["act"]} layout-{sc["layout"]}' + (" voiced" if sc["voiced"] else ""))
         foot = B.source_line(post)
@@ -1629,6 +1726,9 @@ def render(post: dict, slides: list[dict], out: Path, *, fps: int = FPS, stills=
                     media.append(prepare_broll(s["broll"], out, k, fps))
                 elif s.get("image"):
                     media.append(prepare_image(s["image"], out, k, cache))
+                elif s.get("ai_image") and scenes[k - 1]["kin"]:
+                    media.append(prepare_ai(s["ai_image"], post, out, k, cache))
+                    scenes[k - 1]["kin"]["ai"] = media[-1]["img"]
                 else:
                     media.append(None)
                 if media[-1]:

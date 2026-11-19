@@ -91,6 +91,7 @@ jobs:
         if: steps.posts.outputs.files != ''
         env:
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          CF_AI_TOKEN: ${{ secrets.CF_AI_TOKEN }}  # Workers AI, for ai_image (src/social/reel.py)
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
           R2_BUCKET: ${{ vars.R2_BUCKET }}
