@@ -46,3 +46,18 @@ def test_the_layout_matches_the_builders_rotation():
     assert insights.layout("x", {"kind": "carousel"}) == build.LAYOUTS[int(__import__("hashlib").sha1(b"x").hexdigest(), 16) % 3]
     assert insights.layout("x", {"kind": "reel"}) == "motion"
     assert build.LAYOUTS == ["card", "band", "stat"]  # insights.layout() copies this order
+
+
+def test_missing_numbers_show_as_na_not_zero():
+    text = insights.report([{"stem": "2026-11-16-x", "kind": "reel", "level": "congress", "topic": "T", "layout": "motion",
+                             "hour": "night"}], 2, 3)
+    assert "n/a accounts reached" in text and "| n/a |" in text and "0 per 100" not in text
+
+
+def test_a_refused_request_is_kept_with_its_error(monkeypatch):
+    def refuse(method, path, **k):
+        raise RuntimeError('GET x/insights: HTTP 400 {"error":{"message":"(#10) Application does not have permission","code":10}}')
+    monkeypatch.setattr(insights.publish, "graph", refuse)
+    insights.ERRORS.clear()
+    assert insights.insights("1", "reel") == {}
+    assert "permission" in insights.ERRORS[0] and len(insights.ERRORS) == 1 + len(insights.METRICS["reel"])

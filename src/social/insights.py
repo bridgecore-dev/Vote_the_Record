@@ -33,18 +33,28 @@ def media_kind(post_kind: str) -> str:
     return {"reel": "reel", "clip": "reel", "story": "story"}.get(post_kind, "feed")
 
 
+ERRORS: list[str] = []  # the Graph API's refusals, in order, so a run that gets nothing can say why
+
+
+def value(d: dict):
+    return (d.get("values") or [{}])[0].get("value", (d.get("total_value") or {}).get("value"))
+
+
 def insights(media_id: str, kind: str) -> dict:
-    """The media's numbers, by metric name. A metric the API won't give for this media is left out."""
+    """The media's numbers, by metric name. A metric the API won't give for this media is left out (shown n/a),
+    never counted as 0; each refusal is kept in ERRORS."""
     out, wanted = {}, METRICS[kind]
     try:
         data = publish.graph("GET", f"{media_id}/insights", metric=",".join(wanted))["data"]
-        return {d["name"]: (d.get("values") or [{}])[0].get("value", d.get("total_value", {}).get("value")) for d in data}
-    except RuntimeError:
+        return {d["name"]: value(d) for d in data}
+    except RuntimeError as e:
+        ERRORS.append(str(e))
         for m in wanted:  # one bad metric fails the whole request; ask one at a time instead
             try:
-                d = publish.graph("GET", f"{media_id}/insights", metric=m)["data"][0]
-                out[m] = (d.get("values") or [{}])[0].get("value")
-            except (RuntimeError, IndexError, KeyError):
+                out[m] = value(publish.graph("GET", f"{media_id}/insights", metric=m)["data"][0])
+            except RuntimeError as e:
+                ERRORS.append(str(e))
+            except (IndexError, KeyError):
                 pass
     return out
 
@@ -90,18 +100,23 @@ def table(rs: list[dict], by: str) -> list[str]:
     lines = [f"| {by} | posts | avg reach | " + " | ".join(f"{m} /100" for m in RATES) + " |",
              "|---|---:|---:|" + "---:|" * len(RATES)]
     for name, g in sorted(groups.items(), key=lambda kv: -sum(r.get("reach") or 0 for r in kv[1]) / len(kv[1])):
-        reach = sum(r.get("reach") or 0 for r in g)
-        cells = [per100(sum(r.get(m) or 0 for r in g), reach) for m in RATES]
-        lines.append(f"| {name} | {len(g)} | {reach // len(g):,} | " + " | ".join("—" if c is None else f"{c}" for c in cells) + " |")
+        known = [r for r in g if r.get("reach") is not None]
+        reach = sum(r["reach"] for r in known)
+        cells = [per100(sum(r.get(m) or 0 for r in known), reach) if any(r.get(m) is not None for r in known) else None
+                 for m in RATES]
+        avg = f"{reach // len(known):,}" if known else "n/a"
+        lines.append(f"| {name} | {len(g)} | {avg} | " + " | ".join("n/a" if c is None else f"{c}" for c in cells) + " |")
     return lines
 
 
 def report(rs: list[dict], days: int, followers: int | None) -> str:
     if not rs:
         return f"# What's working: last {days} days\n\nNo published posts with insights in this window.\n"
-    reach = sum(r.get("reach") or 0 for r in rs)
+    known = [r for r in rs if r.get("reach") is not None]
+    reach = f"{sum(r['reach'] for r in known):,}" if known else "n/a"
     out = [f"# What's working: last {days} days", "",
-           f"{len(rs)} posts, {reach:,} accounts reached in total" + (f", {followers:,} followers now." if followers is not None else "."),
+           f"{len(rs)} posts, {reach} accounts reached in total"
+           + (f" ({len(rs) - len(known)} posts' reach not available)" if known and len(known) < len(rs) else "") + (f", {followers:,} followers now." if followers is not None else "."),
            "Rates are per 100 accounts reached, so bigger posts don't win just for their size. Our own posts only.", ""]
     for by, title in [("kind", "By format"), ("level", "By level"), ("topic", "By topic"), ("layout", "By layout"),
                       ("hour", "By time of day (Central)")]:
@@ -115,8 +130,9 @@ def report(rs: list[dict], days: int, followers: int | None) -> str:
 
     for metric, title in [("shares", "Most shared (per 100 reached)"), ("saved", "Most saved (per 100 reached)"),
                           ("reach", "Widest reach")]:
-        rank = sorted(rs, key=lambda r: -score(r, metric))
-        out += [f"## {title}", ""]
+        have = [r for r in rs if r.get(metric) is not None and r.get("reach") is not None]
+        rank = sorted(have, key=lambda r: -score(r, metric))
+        out += [f"## {title}", ""] + ([] if have else ["n/a: Instagram gave no numbers for this."])
         for r in rank[:5]:
             val = f"{r.get('reach') or 0:,} reached" if metric == "reach" else f"{per100(r.get(metric), r.get('reach')) or 0} per 100"
             out.append(f"- {r['stem']} ({r['kind']}): {val}" + (f" — {r['permalink']}" if r.get("permalink") else ""))
@@ -139,6 +155,9 @@ def main() -> None:
         rs = rows(state, posts, since)
     except RuntimeError as e:
         sys.exit(f"Instagram refused the insights request (the token needs instagram_manage_insights): {str(e)[:300]}")
+    if rs and not any(any(r.get(m) is not None for m in sum(METRICS.values(), [])) for r in rs):
+        # every request was refused: say why instead of printing a report of zeros
+        sys.exit(f"Instagram gave no insights for any of {len(rs)} posts. First error: {ERRORS[0][:600] if ERRORS else 'none recorded'}")
     text = report(rs, args.days, followers)
     print(text)
     if args.out:
