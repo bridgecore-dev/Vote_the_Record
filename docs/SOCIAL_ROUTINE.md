@@ -144,6 +144,11 @@ Made to be seen (never at the cost of a rule above):
   The facts and sources follow every rule above; only the look changes. A trial Reel doesn't count in the
   Reel/post turn-taking. Use `approval: review` for the first trial of each new design. The weekly "What's
   working" issue compares designs.
+- AI illustrations (owner's decision, 2026-11-19): a captions Reel slide may carry `ai_image: {prompt, seed}`, a plain
+  description of a decorative scene (landscape, texture, abstract shapes). Cloudflare Workers AI draws it in the post's
+  palette with a fixed house style; reel.py refuses prompts that name people, real places, symbols, documents, text,
+  numbers or proper names, and shows "AI-generated illustration" on screen. Never on a slide with a vote, quote, doc or
+  photo. The caption says "AI-generated illustration" and the post uses `approval: review`.
 - When a claim about a bill or vote is trending (news, Google Trends, the trends file), make an "Is it true?"
   post: state the claim, then what the official record says (the bill text, the roll call, the CBO estimate),
   quoted. If the record shows the claim is right, say so; if it's wrong or about another bill, say that.
