@@ -1,0 +1,106 @@
+kind: reel
+level: congress
+topic: War powers
+approval: review
+record_ids: [us/119/2/senate/roll/269]
+publish_after: '2026-11-26T00:00:00-06:00'
+rule: >-
+  Vote posts list every member on the smaller side of the roll call, with party and state as the Senate records
+  them, up to about 40 names. Here the smaller side is 48 Yea votes, so the post gives the totals by party and
+  links the official list.
+sources:
+- title: "U.S. Senate, Vote 269 (2026)"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00269.xml
+  retrieved: '2026-11-19'
+- title: "U.S. Senate, Roll Call Votes (2026)"
+  url: https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.htm
+  retrieved: '2026-11-19'
+- title: "H.Con.Res. 93 as passed by the House (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hconres93eh/html/BILLS-119hconres93eh.htm
+  retrieved: '2026-11-19'
+- title: "U.S. Senate, Types of Legislation"
+  url: https://www.senate.gov/legislative/common/briefing/leg_laws_acts.htm
+  retrieved: '2026-11-19'
+- title: "CRS, War Powers Resolution (IF13134)"
+  url: https://www.congress.gov/crs_external_products/IF/HTML/IF13134.html
+  retrieved: '2026-11-19'
+bills:
+- id: H.Con.Res. 93
+  does: "Directs the President to remove U.S. forces from hostilities against Iran unless Congress declares war or authorizes force."
+  affects: "U.S. Armed Forces in hostilities against Iran. Forces needed to defend against imminent attack aren't covered."
+  where: "Passed the U.S. House of Representatives 220-204 on Sept. 15, 2026. U.S. Senate rejected it 48-51 on Nov. 19."
+  summary:
+    text: >-
+      This concurrent resolution directs the President to remove U.S. Armed Forces from hostilities against Iran
+      unless explicitly authorized by a declaration of war or a congressional authorization for use of military
+      force against Iran.
+    title: Congressional Research Service summary of H.Con.Res. 93
+    url: https://www.congress.gov/bill/119th-congress/house-concurrent-resolution/93
+    retrieved: '2026-11-19'
+  say: "House Concurrent Resolution 93 would have directed the President to remove U.S. forces from hostilities against Iran, unless Congress declares war or authorizes force. It passed the United States House 220 to 204 on September 15. The Senate rejected it 48 to 51."
+slides:
+- kicker: "U.S. Senate · Nov. 19, 2026 · Vote 269"
+  head: "The U.S. Senate rejected H.Con.Res. 93, the Iran war powers resolution."
+  vote: {yea: 48, nay: 51, not_voting: 1}
+  text: "It needed a simple majority. It affects U.S. forces in hostilities against Iran."
+  say: "On November 19, the United States Senate rejected House Concurrent Resolution 93, the Iran war powers resolution. 48 Yea, 51 Nay, 1 didn't vote. It needed a simple majority."
+- chip: What the vote meant
+  head: "Yea = direct the President to remove U.S. forces from hostilities against Iran. Nay = don't."
+  quote: {label: "H.Con.Res. 93, as passed by the U.S. House of Representatives", text: "Congress directs the President to remove United States Armed Forces from hostilities against the Islamic Republic of Iran", key: remove United States Armed Forces}
+  text: "Not covered either way: forces needed to defend against imminent attack."
+  say: "What the vote meant. Yea was a vote to direct the President to remove U.S. forces from hostilities against Iran. Nay was a vote not to. Forces needed to defend against imminent attack weren't covered either way."
+- chip: How they voted
+  head: By party, as the U.S. Senate records it
+  rows:
+  - [Republican, "3 Yea · 50 Nay · 0 didn't vote"]
+  - [Democratic, "43 Yea · 1 Nay · 1 didn't vote"]
+  - [Independent, "2 Yea · 0 Nay · 0 didn't vote"]
+  text: "The smaller side, 48 Yea votes, is too long to list here. Every name is in vote 269 at senate.gov."
+  say: "By party, as the United States Senate records it. Republican: 3 Yea, 50 Nay. Democratic: 43 Yea, 1 Nay, 1 didn't vote. Independent: 2 Yea. Every name is in vote 269 at senate.gov."
+- chip: "Before → after"
+  head: "Nothing changes. Both chambers had to pass it, and the U.S. Senate didn't."
+  rows:
+  - [Still the law, "The President must end unauthorized hostilities after 60 days unless Congress authorizes them."]
+  - [U.S. House, "Passed it 220-204 on Sept. 15, 2026"]
+  - [U.S. Senate, "Rejected it 48-51 on Nov. 19, 2026"]
+  by: "Still the law: CRS on the War Powers Resolution, Section 5(b)."
+  say: "Nothing changes. Both chambers had to pass it. The United States House passed it 220 to 204, and the Senate rejected it 48 to 51. Under the War Powers Resolution, the President must still end unauthorized hostilities after 60 days unless Congress authorizes them."
+- chip: Another route
+  head: "A concurrent resolution doesn't go to the President. A joint resolution does."
+  quote: {label: "U.S. Senate, Types of Legislation", text: "Like a bill, a joint resolution requires the approval of both Chambers in identical form and the president's signature to become law.", key: "the president's signature"}
+  text: "The Congressional Research Service notes a 1983 law gives a joint resolution or bill on removing forces a fast track."
+  say: "There's another route. A concurrent resolution doesn't go to the President. A joint resolution does: like a bill, it needs both chambers of the United States Congress and the President's signature to become law. A 1983 law gives one on removing forces a fast track."
+- chip: Your turn
+  head: "Look up how your senators voted on vote 269."
+  text: "Find it at senate.gov under roll call votes. Should Congress or the President decide when U.S. forces fight?"
+  say: "Your turn. Look up how your senators voted on vote 269 of the United States Senate, at senate.gov under roll call votes. Should Congress or the President decide when U.S. forces fight? Tell us."
+caption: |-
+  On Nov. 19, the U.S. Senate rejected H.Con.Res. 93, the Iran war powers resolution, 48-51, with 1 senator not voting (vote 269). It needed a simple majority.
+
+  Yea was a vote to direct the President to remove U.S. Armed Forces from hostilities against Iran unless Congress declares war or authorizes force. Nay was a vote not to.
+
+  By party, as the U.S. Senate records it:
+  Republican: 3 Yea, 50 Nay.
+  Democratic: 43 Yea, 1 Nay, 1 didn't vote.
+  Independent: 2 Yea.
+
+  The U.S. House of Representatives had passed it 220-204 on Sept. 15. Both chambers had to agree, so nothing changes.
+
+  It was a concurrent resolution, which the U.S. Senate's guide says doesn't need the President's signature. A joint resolution or bill would, and a 1983 law gives one on removing forces a fast track (Congressional Research Service).
+
+  Every senator's vote is in vote 269 at senate.gov.
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, warpowers, ussenate, rollcall, votetherecord]
+notes: >-
+  New this run: U.S. Senate vote 269 (Nov. 19, 2:01 p.m. ET), the result of the vote the Nov. 19 10:30 a.m. Reel
+  (2026-11-19-iran-war-powers-senate-vote) said was coming. Tally, "1/2" majority requirement and party counts are
+  counted from vote_119_2_00269.xml; party as the Senate lists it. The smaller side (48 Yea) is over 40, so no names.
+  Congress.gov actions (read via api.congress.gov 2026-11-19) don't show the Senate vote yet; the Senate XML is the
+  record. No for/against quotes: the Nov. 19 Congressional Record wasn't out yet; a case for/against could be a
+  follow-up post once it is. "1983 law" = P.L. 98-164 sec. 1013 (50 U.S.C. 1546a), per CRS IF13134, which says it
+  provides "expedited consideration of a joint resolution or bill, rather than a concurrent resolution". "Still the
+  law" paraphrases CRS on Section 5(b) (the 30-day extension isn't on the slide). Not checked: whether a joint
+  resolution on Iran is pending (one bill per post, so none is named).
+  Nov 19 fix: shortened the source titles so the cover's source footer fits (the first preview clipped it).
+  Nov 19 re-slot: moved to 2026-11-26T00:00:00-06:00, the next free slot for its kind (the first slot clashed with a queued post).
