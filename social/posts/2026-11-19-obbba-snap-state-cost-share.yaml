@@ -8,9 +8,9 @@ sources:
 - title: "Public Law 119-21, secs. 10105-10106"
   url: https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
   retrieved: '2026-11-15'
-- title: "CRS Insight IN12723 (Aug. 4, 2026)"
-  url: https://www.congress.gov/crs_external_products/IN/PDF/IN12723/IN12723.1.pdf
-  retrieved: '2026-11-15'
+- title: "CRS Insight IN12723 (updated Oct. 5, 2026)"
+  url: https://www.congress.gov/crs_external_products/IN/PDF/IN12723/IN12723.6.pdf
+  retrieved: '2026-11-19'
 - title: "CRS Report R48552"
   url: https://www.congress.gov/crs_external_products/R/PDF/R48552/R48552.9.pdf
   retrieved: '2026-11-15'
@@ -67,14 +67,14 @@ slides:
   by: "CRS R48552, summarizing CBO (Aug. 11, 2025)"
   say: "CBO estimates about $41 billion less federal SNAP spending over 10 years; about $35 billion comes from states paying part of benefits. CBO says it may end benefits for 300,000 people in an average month."
 - chip: "This could change"
-  head: "A U.S. Senate farm bill draft would push the benefit share back one year, to Oct. 1, 2028."
+  head: "A U.S. Senate committee's farm bill would push the benefit share back one year, to Oct. 1, 2028."
   rows:
-  - [Who, "Sen. John Boozman (R-AR), chairman of the U.S. Senate Agriculture Committee, released it July 31, 2026"]
+  - [Who, "The U.S. Senate Agriculture Committee, chaired by Sen. John Boozman (R-AR), reported it to the full U.S. Senate"]
   - [Also in it, "From fiscal year 2031, the top state share rises from 15% to 20%"]
   - [Not changed, "The 75% state share of running costs"]
-  text: "As far as the records we checked show, it has not passed. Current law still starts Oct. 1, 2027."
-  by: "CRS IN12723 (Aug. 4, 2026)"
-  say: "This could change. A United States Senate farm bill draft, released July 31, 2026, would push the benefit share back one year, to October 1, 2028. As far as we found, it has not passed. Current law still starts October 1, 2027."
+  text: "As far as the records we checked show, the full U.S. Senate hasn't voted on it. Current law still starts Oct. 1, 2027."
+  by: "CRS IN12723 (updated Oct. 5, 2026)"
+  say: "This could change. The United States Senate Agriculture Committee reported a farm bill that would push the benefit share back one year, to October 1, 2028. As far as we found, the full Senate hasn't voted on it. Current law still starts October 1, 2027."
 - chip: "The case for"
   head: "The committee's report says full federal funding gives states little reason to hold down costs."
   quote: {label: "U.S. House of Representatives Agriculture Committee, Chairman Glenn \"GT\" Thompson (R-PA), H. Rept. 119-106", text: "Because the SNAP benefit is 100 percent funded by the Federal government, there is minimal incentive for States to control costs, enhance efficiencies, and improve outcomes for recipients."}
@@ -94,7 +94,7 @@ caption: |-
 
   CBO estimates about $41 billion less federal SNAP spending over 10 years, and that it may end benefits for 300,000 people in an average month.
 
-  A U.S. Senate farm bill draft would delay the benefit share a year, to Oct. 1, 2028. As far as the records we checked show, it hasn't passed.
+  A farm bill reported by the U.S. Senate Agriculture Committee would delay the benefit share a year, to Oct. 1, 2028. As far as the records we checked show, the full U.S. Senate hasn't voted on it.
 
   For and against: the U.S. House of Representatives Agriculture Committee's report and its dissenting views. Which side convinces you?
 
@@ -121,3 +121,10 @@ notes: >-
   gets one. The dissent's "$155 billion" and "3 million" figures are for the House version and are left out. (5) No
   official SNAP "what you can do" page was reachable (the FNA state directory blocked access), so the post ends with
   a question instead. Quotes were checked word for word against the downloaded govinfo and CRS text.
+  Nov. 19 update (before the slot): CRS updated IN12723 (version 6, "Updated October 5, 2026"): "The Senate Agriculture
+  Committee reported legislation (S. 5526) to the full Senate"; it would still delay the benefit share to Oct. 1, 2028,
+  raise the top share to 20% from FY2031, and "would not amend" the 75% admin share. api.congress.gov actions for that
+  bill (read 2026-11-19) end Sept. 24, 2026: reported by Senator Boozman, placed on the Senate calendar (Calendar No.
+  683); no floor vote. The "This could change" slide, its source and the caption now say so; the bill number isn't
+  named (one bill per post). The bill summary's quote still cites version 1 (Aug. 4), which is what it was checked
+  against. Version 6 sha256: cb98e5023d1013c79c78ca23d31dd031c7f5bfc1f1cbff9e64e2a43415810edc.
