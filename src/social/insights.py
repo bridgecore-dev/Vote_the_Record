@@ -70,9 +70,17 @@ def rows(state: dict, posts: dict[str, dict], since: dt.datetime) -> list[dict]:
         post = posts[stem]
         kind = media_kind(post.get("kind", ""))
         out.append({"stem": stem, "kind": post.get("kind"), "level": post.get("level"), "topic": post.get("topic") or "—",
-                    "layout": layout(stem, post), "hour": hour_band(when), "permalink": rec.get("permalink"),
+                    "layout": layout(stem, post), **design(post), "trial": post.get("trial") or "no", "hour": hour_band(when), "permalink": rec.get("permalink"),
                     **insights(str(ids[0]), kind)})
     return out
+
+
+def design(post: dict) -> dict:
+    """The post's design choices, with build.py's defaults (teal, light, serif, center; Reels: classic, no sfx)."""
+    d = {"palette": "teal", "mode": "light", "font": "serif", "position": "center", **(post.get("design") or {})}
+    if post.get("kind") in ("reel", "clip"):
+        d = {"motion": "classic", "sfx": False, **d}
+    return {k: str(v) for k, v in d.items()}
 
 
 def layout(stem: str, post: dict) -> str:
@@ -121,6 +129,10 @@ def report(rs: list[dict], days: int, followers: int | None) -> str:
     for by, title in [("kind", "By format"), ("level", "By level"), ("topic", "By topic"), ("layout", "By layout"),
                       ("hour", "By time of day (Central)")]:
         out += [f"## {title}", "", *table(rs, by), ""]
+    out += ["## By design", "", "Each table compares one design choice; trial Reels are counted with the rest.", ""]
+    for by in ("palette", "mode", "font", "position", "motion", "sfx", "trial"):
+        if any(r.get(by) is not None for r in rs):
+            out += [*table([r for r in rs if r.get(by) is not None], by), ""]
     reels = [r for r in rs if r.get("ig_reels_avg_watch_time") is not None]
     if reels:
         avg = sum(r["ig_reels_avg_watch_time"] for r in reels) / len(reels) / 1000

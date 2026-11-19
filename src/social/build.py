@@ -34,11 +34,11 @@ SIZES = {"feed": (1080, 1350), "tall": (1080, 1920)}
 SECONDS, FADE = 4.0, 0.4  # each Reel slide; the slide transition
 SLIDE_KEYS = {"chip", "kicker", "big", "head", "text", "rows", "results", "vote", "quote", "by", "seconds", "swipe",
               "hint", "countdown", "quiz",
-              "say", "doc", "broll", "image"}  # see social/README.md; the last four: Reels (reel.py)
+              "say", "doc", "broll", "image", "ai_image"}  # see social/README.md; the last four: Reels (reel.py)
 TOP_KEYS = {"kind", "level", "place", "topic", "approval", "layout", "story", "sources", "slides", "caption",
             "hashtags", "rule", "notes", "publish_after", "found_via", "record_ids",
             "video", "captions", "caption_source", "speakers", "context",  # these five: clips (clip.py)
-            "highlight", "bills", "voice"}
+            "highlight", "bills", "voice", "design", "trial"}
 REEL_FIELDS = ("say", "doc", "broll", "image")  # need reel.py's renderer; the still-slide Reel can't show them
 # A bill number as written federally or in a state: H.R. 2347, S. 12, H.J.Res. 5, HB 101, SJR 3. Not "U.S. 2026".
 BILL = re.compile(r"(?<![A-Za-z.])((?:H\.\s?R|S|H\.\s?J\.\s?Res|S\.\s?J\.\s?Res|H\.\s?Con\.\s?Res|S\.\s?Con\.\s?Res|"
@@ -258,7 +258,8 @@ def check(post: dict, editorial: bool = True) -> list[str]:
     ids = post.get("record_ids")
     if ids is not None and not (isinstance(ids, list) and all(isinstance(i, str) and i.strip() for i in ids)):
         errs.append("record_ids is a list of official IDs as strings, e.g. ['tx/90R/HB 101', 'us/119/house/roll/316']")
-    errs += check_bills(post, editorial) + check_story_templates(post)
+    motions = getattr(reel_module(), "MOTIONS", None) if post.get("kind") == "reel" else None
+    errs += check_bills(post, editorial) + check_story_templates(post) + check_design(post, motions) + check_ai_images(post)
     slides = expanded(post) if post.get("kind") != "clip" else []
     n = {"image": (1, 1), "story": (1, 10), "carousel": (2, 10), "reel": (2, 20)}.get(post.get("kind"), (1, 20))
     if post.get("kind") == "clip":
@@ -310,44 +311,151 @@ def source_line(post: dict) -> str:
     return ("Source: " if len(titles) == 1 else "Sources: ") + "; ".join(titles)
 
 
-def css(width: int, height: int) -> str:
+# Design registry: one place for every palette, font and text position, used by the feed slides here and by
+# reel.py's Reels, so the two never drift. No red or blue palette: in U.S. politics they read as party colors.
+# Each palette has a light and a dark mode (dark: dark background, light ink, one bright accent: 60-30-10, the
+# accent only for the key word or number). tests/test_social_build.py checks every pairing is readable.
+PALETTES = {
+    "teal": {"light": dict(bg="#f2f5f4", surface="#ffffff", ink="#1b2a2f", muted="#4d5e63", line="#c7d1cf",
+                           accent="#0f5c63", accent_soft="#dcebec", on_accent="#ffffff"),
+             "dark": dict(bg="#0e1b1d", surface="#152629", ink="#eaf3f2", muted="#a7bdbb", line="#2b4246",
+                          accent="#5ed1c8", accent_soft="#1d3a3d", on_accent="#0b1617")},
+    "plum": {"light": dict(bg="#f6f2f7", surface="#ffffff", ink="#24172a", muted="#5d4c63", line="#d6c8db",
+                           accent="#5b2a6e", accent_soft="#efe3f3", on_accent="#ffffff"),
+             "dark": dict(bg="#1a1220", surface="#241929", ink="#f3ecf6", muted="#bfaec7", line="#3d2d45",
+                          accent="#d79bf0", accent_soft="#3a2546", on_accent="#1a1220")},
+    "amber": {"light": dict(bg="#fbf6ec", surface="#ffffff", ink="#2b2312", muted="#5f5340", line="#e3d6bb",
+                            accent="#7a4f00", accent_soft="#f7e6c4", on_accent="#ffffff"),
+              "dark": dict(bg="#1c160b", surface="#261e10", ink="#f8f1e3", muted="#c9b896", line="#40331b",
+                           accent="#f5b83d", accent_soft="#3d2f12", on_accent="#1c160b")},
+    "forest": {"light": dict(bg="#f2f6f2", surface="#ffffff", ink="#1a2a1d", muted="#4a5e4d", line="#c8d6ca",
+                             accent="#2f5d3a", accent_soft="#e1efe3", on_accent="#ffffff"),
+               "dark": dict(bg="#0f1a12", surface="#16241a", ink="#ecf4ed", muted="#a9bfad", line="#2a3f2f",
+                            accent="#8fdc9c", accent_soft="#1f3a25", on_accent="#0f1a12")},
+    "charcoal": {"light": dict(bg="#f5f5f4", surface="#ffffff", ink="#1c1c1c", muted="#555555", line="#d4d4d4",
+                               accent="#3d3d3d", accent_soft="#ececec", on_accent="#ffffff"),
+                 "dark": dict(bg="#121212", surface="#1c1c1c", ink="#f2f2f2", muted="#b3b3b3", line="#333333",
+                              accent="#f0d264", accent_soft="#2e2a1a", on_accent="#121212")},
+}
+# Fonts already in site/static/fonts (OFL). "tracking" tightens big type; "accent" is the one-word style
+# (italic serif; the browser slants Source Serif 4 until an italic face is added).
+FONTS = {
+    "serif": dict(head='"Source Serif 4", Georgia, serif', body='"Public Sans", system-ui, sans-serif',
+                  tracking="0", accent_family='"Source Serif 4", Georgia, serif', accent_style="italic"),
+    "sans": dict(head='"Public Sans", system-ui, sans-serif', body='"Public Sans", system-ui, sans-serif',
+                 tracking="-0.02em", accent_family='"Source Serif 4", Georgia, serif', accent_style="italic"),
+}
+POSITIONS = {"top": "flex-start", "center": "center", "bottom": "flex-end"}
+MODES = ("light", "dark")
+DESIGN_KEYS = {"palette", "mode", "font", "position", "motion", "sfx"}
+DEFAULT_DESIGN = {"palette": "teal", "mode": "light", "font": "serif", "position": "center"}
+
+
+def design_of(post_or_design) -> dict:
+    """The full design: the post's choices over the defaults."""
+    d = (post_or_design or {}).get("design", post_or_design) if isinstance(post_or_design, dict) else None
+    return {**DEFAULT_DESIGN, **(d if isinstance(d, dict) else {})}
+
+
+def design_css(design: dict | None = None) -> str:
+    """CSS custom properties for a design, for these slides and for reel.py's page."""
+    d = design_of(design)
+    c, f = PALETTES[d["palette"]][d["mode"]], FONTS[d["font"]]
+    names = {"bg": "bg", "surface": "surface", "ink": "ink", "muted": "muted", "line": "line", "accent": "accent",
+             "accent_soft": "accent-soft", "on_accent": "on-accent"}
+    props = "".join(f"--{names[k]}: {v}; " for k, v in c.items())
+    props += (f"--head-font: {f['head']}; --body-font: {f['body']}; --head-tracking: {f['tracking']}; "
+              f"--accent-font: {f['accent_family']}; --accent-style: {f['accent_style']}; "
+              f"--text-align: {POSITIONS[d['position']]};")
+    return (f":root {{ {props} }} "
+            ".head, .big { letter-spacing: var(--head-tracking); } "
+            ".accent-word { font-family: var(--accent-font); font-style: var(--accent-style); color: var(--accent); }\n")
+
+
+AI_DISCLOSURE = "AI-generated illustration"
+
+
+def uses_ai_image(post: dict) -> bool:
+    """Whether any slide shows an AI-generated image (its own ai_image, or an image or b-roll marked ai: true)."""
+    return any(s.get("ai_image") or (s.get(f) or {}).get("ai") for s in post.get("slides") or [] for f in ("image", "broll")
+               if isinstance(s, dict) and isinstance(s.get(f, {}), dict))
+
+
+def check_ai_images(post: dict) -> list[str]:
+    """Rule 9 (owner, 2026-11-19): AI images are decoration only, disclosed in the caption, and always reviewed."""
+    if not uses_ai_image(post):
+        return []
+    errs = []
+    if AI_DISCLOSURE.lower() not in (post.get("caption") or "").lower():
+        errs.append(f'a post with an AI image says "{AI_DISCLOSURE}" in its caption')
+    if post.get("approval") != "review":
+        errs.append("a post with an AI image uses approval review")
+    return errs
+
+
+def check_design(post: dict, motions=None) -> list[str]:
+    errs, d = [], post.get("design")
+    if d is None:
+        pass
+    elif not isinstance(d, dict):
+        errs.append("design is {palette, mode, font, position, motion, sfx}")
+    else:
+        errs += [f"design: unknown field {k}" for k in d if k not in DESIGN_KEYS]
+        for k, allowed in (("palette", PALETTES), ("mode", MODES), ("font", FONTS), ("position", POSITIONS)):
+            if k in d and d[k] not in allowed:
+                errs.append(f"design {k} is one of {', '.join(allowed)}")
+        if "sfx" in d and not isinstance(d["sfx"], bool):
+            errs.append("design sfx is true or false")
+        if "motion" in d and motions is not None and d["motion"] not in motions:
+            errs.append(f"design motion is one of {', '.join(motions)}")
+        if ({"motion", "sfx"} & set(d)) and post.get("kind") != "reel":
+            errs.append("design motion and sfx are for Reels")
+    if post.get("trial") is not None:
+        if post.get("trial") not in ("auto", "manual"):
+            errs.append("trial is auto or manual")
+        elif post.get("kind") != "reel":
+            errs.append("trial is for Reels only (Instagram's trial Reels)")
+    return errs
+
+
+def css(width: int, height: int, design: dict | None = None) -> str:
     fonts = (ROOT / "site/static/fonts").as_uri()
     tall = height > 1500
     pad = "230px 72px 420px" if tall else "72px"  # a story or Reel keeps clear of Instagram's top bar and caption
-    return f"""
+    return design_css(design) + f"""
 @font-face {{ font-family: "Public Sans"; src: url("{fonts}/public-sans-latin-400-normal.woff2"); font-weight: 400; }}
 @font-face {{ font-family: "Public Sans"; src: url("{fonts}/public-sans-latin-600-normal.woff2"); font-weight: 600; }}
 @font-face {{ font-family: "Source Serif 4"; src: url("{fonts}/source-serif-4-latin-700-normal.woff2"); font-weight: 700; }}
 * {{ box-sizing: border-box; margin: 0; padding: 0; }}
 html, body {{ width: {width}px; height: {height}px; overflow: hidden; }}
-body {{ background: #f2f5f4; color: #1b2a2f; font-family: "Public Sans", sans-serif; padding: {pad}; display: flex; }}
-.card {{ flex: 1; background: #fff; border: 2px solid #c7d1cf; border-radius: 36px; overflow: hidden; display: flex; flex-direction: column; }}
-.top {{ background: #0f5c63; color: #fff; padding: 32px 52px; display: flex; justify-content: space-between; align-items: center; gap: 24px; }}
-.mark {{ display: flex; align-items: center; gap: 16px; font-family: "Source Serif 4", serif; font-weight: 700; font-size: 36px; white-space: nowrap; }}
+body {{ background: var(--bg); color: var(--ink); font-family: var(--body-font); padding: {pad}; display: flex; }}
+.card {{ flex: 1; background: var(--surface); border: 2px solid var(--line); border-radius: 36px; overflow: hidden; display: flex; flex-direction: column; }}
+.top {{ background: var(--accent); color: var(--on-accent); padding: 32px 52px; display: flex; justify-content: space-between; align-items: center; gap: 24px; }}
+.mark {{ display: flex; align-items: center; gap: 16px; font-family: var(--head-font); font-weight: 700; font-size: 36px; white-space: nowrap; }}
 .mark svg {{ width: 52px; height: 52px; }}
 .tag {{ font-weight: 600; font-size: 26px; letter-spacing: 2px; text-transform: uppercase; text-align: right; }}
-.main {{ flex: 1; padding: 52px 52px 28px; display: flex; flex-direction: column; justify-content: center; }}
-.chip {{ align-self: flex-start; background: #dcebec; color: #0f5c63; font-weight: 600; font-size: 28px; letter-spacing: 3px;
+.main {{ flex: 1; padding: 52px 52px 28px; display: flex; flex-direction: column; justify-content: var(--text-align); }}
+.chip {{ align-self: flex-start; background: var(--accent-soft); color: var(--accent); font-weight: 600; font-size: 28px; letter-spacing: 3px;
          text-transform: uppercase; padding: 12px 24px; border-radius: 999px; margin-bottom: 24px; }}
-.kicker {{ font-weight: 600; font-size: 28px; letter-spacing: 3px; text-transform: uppercase; color: #4d5e63; margin-bottom: 16px; }}
-.big {{ font-family: "Source Serif 4", serif; font-weight: 700; font-size: {200 if tall else 180}px; color: #0f5c63; line-height: 1; }}
+.kicker {{ font-weight: 600; font-size: 28px; letter-spacing: 3px; text-transform: uppercase; color: var(--muted); margin-bottom: 16px; }}
+.big {{ font-family: var(--head-font); font-weight: 700; font-size: {200 if tall else 180}px; color: var(--accent); line-height: 1; }}
 .big.id {{ font-size: 120px; }}
-.head {{ font-family: "Source Serif 4", serif; font-weight: 700; font-size: 62px; line-height: 1.12; margin-top: 24px; }}
-.text {{ font-size: 36px; line-height: 1.45; color: #4d5e63; margin-top: 28px; }}
-.label {{ font-weight: 600; color: #1b2a2f; }}
-.by {{ font-size: 30px; color: #4d5e63; margin-top: 28px; }}
+.head {{ font-family: var(--head-font); font-weight: 700; font-size: 62px; line-height: 1.12; margin-top: 24px; }}
+.text {{ font-size: 36px; line-height: 1.45; color: var(--muted); margin-top: 28px; }}
+.label {{ font-weight: 600; color: var(--ink); }}
+.by {{ font-size: 30px; color: var(--muted); margin-top: 28px; }}
 .dots {{ display: flex; gap: 12px; margin-top: 32px; }}
-.dots i {{ width: 18px; height: 18px; border-radius: 50%; background: #c7d1cf; }}
-.dots i.on {{ background: #0f5c63; }}
-.src {{ border-top: 2px solid #c7d1cf; padding: 26px 52px; font-size: 24px; line-height: 1.4; color: #4d5e63; }}
+.dots i {{ width: 18px; height: 18px; border-radius: 50%; background: var(--line); }}
+.dots i.on {{ background: var(--accent); }}
+.src {{ border-top: 2px solid var(--line); padding: 26px 52px; font-size: 24px; line-height: 1.4; color: var(--muted); }}
 /* band: no card, a full-width teal band carries the number */
-body.layout-band {{ padding: 0; flex-direction: column; background: #fff; }}
+body.layout-band {{ padding: 0; flex-direction: column; background: var(--surface); }}
 body.layout-band .card {{ border: 0; border-radius: 0; }}
 body.layout-band .top {{ padding: {"230px" if tall else "56px"} 72px 40px; }}
-body.layout-band .lead {{ background: #0f5c63; color: #fff; padding: 0 72px 56px; display: flex; flex-direction: column; }}
-body.layout-band .lead .big, body.layout-band .lead .kicker, body.layout-band .lead .chip {{ color: #fff; }}
+body.layout-band .lead {{ background: var(--accent); color: var(--on-accent); padding: 0 72px 56px; display: flex; flex-direction: column; }}
+body.layout-band .lead .big, body.layout-band .lead .kicker, body.layout-band .lead .chip {{ color: var(--on-accent); }}
 body.layout-band .lead .chip {{ background: rgba(255,255,255,.18); }}
-body.layout-band .main {{ padding: 40px 72px; justify-content: center; }}
+body.layout-band .main {{ padding: 40px 72px; justify-content: var(--text-align); }}
 body.layout-band .src {{ padding: 26px 72px {"420px" if tall else "56px"}; }}
 /* stat: everything centered around the number */
 body.layout-stat .main {{ align-items: center; text-align: center; }}
@@ -359,27 +467,27 @@ body.layout-stat .dots {{ justify-content: center; }}
 .dense .main {{ padding-top: 36px; padding-bottom: 20px; }}
 .dense .kicker, .dense .chip {{ margin-bottom: 12px; }}
 /* list: 4-8 rows, one per line */
-.list {{ margin-top: 24px; border-top: 2px solid #dcebec; }}
-.list .item {{ font-size: 30px; line-height: 1.35; color: #1b2a2f; padding: 14px 0; border-bottom: 2px solid #dcebec; }}
-.list .label {{ color: #0f5c63; margin-right: 6px; }}
+.list {{ margin-top: 24px; border-top: 2px solid var(--accent-soft); }}
+.list .item {{ font-size: 30px; line-height: 1.35; color: var(--ink); padding: 14px 0; border-bottom: 2px solid var(--accent-soft); }}
+.list .label {{ color: var(--accent); margin-right: 6px; }}
 /* results: alphabetical, one color for every candidate, no winner marked */
 .res {{ margin-top: 20px; }}
-.res-contest {{ font-weight: 600; font-size: 30px; color: #4d5e63; margin-bottom: 10px; }}
+.res-contest {{ font-weight: 600; font-size: 30px; color: var(--muted); margin-bottom: 10px; }}
 .res-row {{ padding: 12px 0; }}
 .res-line {{ display: flex; justify-content: space-between; gap: 20px; font-size: 32px; }}
 .res-name {{ font-weight: 600; }}
-.res-n {{ color: #4d5e63; white-space: nowrap; }}
-.res-bar {{ height: 16px; background: #eef2f1; border-radius: 8px; margin-top: 8px; overflow: hidden; }}
-.res-bar i {{ display: block; height: 100%; background: #0f5c63; }}
-.res-note {{ font-size: 24px; color: #4d5e63; margin-top: 14px; }}
+.res-n {{ color: var(--muted); white-space: nowrap; }}
+.res-bar {{ height: 16px; background: var(--accent-soft); border-radius: 8px; margin-top: 8px; overflow: hidden; }}
+.res-bar i {{ display: block; height: 100%; background: var(--accent); }}
+.res-note {{ font-size: 24px; color: var(--muted); margin-top: 14px; }}
 .res-outcome {{ font-weight: 600; font-size: 30px; margin-top: 16px; }}
-.res-party {{ font-weight: 400; color: #4d5e63; }}
+.res-party {{ font-weight: 400; color: var(--muted); }}
 /* vote: each count with what it means under it, one style for every side */
 .vote {{ display: flex; gap: 18px; margin-top: 28px; }}
-.vote-cell {{ flex: 1; background: #f2f5f4; border-radius: 18px; padding: 22px 12px; text-align: center; }}
-.vote-n {{ font-family: "Source Serif 4", serif; font-weight: 700; font-size: 64px; color: #0f5c63; line-height: 1; }}
-.vote-l {{ font-size: 26px; color: #4d5e63; margin-top: 10px; }}
-.swipe {{ font-weight: 600; font-size: 30px; color: #0f5c63; margin-top: 28px; }}
+.vote-cell {{ flex: 1; background: var(--bg); border-radius: 18px; padding: 22px 12px; text-align: center; }}
+.vote-n {{ font-family: var(--head-font); font-weight: 700; font-size: 64px; color: var(--accent); line-height: 1; }}
+.vote-l {{ font-size: 26px; color: var(--muted); margin-top: 10px; }}
+.swipe {{ font-weight: 600; font-size: 30px; color: var(--accent); margin-top: 28px; }}
 .res.compact .res-row {{ padding: 6px 0; }}
 .res.compact .res-line {{ font-size: 26px; }}
 .res.compact .res-bar {{ height: 10px; margin-top: 4px; }}
@@ -515,7 +623,7 @@ def slide_html(post: dict, s: dict, k: int, n: int, layout: str, size: tuple[int
         main = f'<div class="lead">{lead}</div><div class="main">{body}</div>'
     else:
         main = f'<div class="main">{lead}{body}</div>'
-    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><style>{css(*size)}</style></head>'
+    return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><style>{css(*size, post.get("design"))}</style></head>'
             f'<body class="layout-{layout}"><div class="card{" dense" if words > 300 else ""}">{top}{main}<div class="src">{e(source_line(post))}</div></div></body></html>')
 
 
@@ -658,7 +766,7 @@ def build(path: Path) -> Path:
                 "publish_after": str(post["publish_after"]) if post.get("publish_after") else None,
                 "record_ids": post.get("record_ids") or [], "found_via": post.get("found_via"),
                 "context": post.get("context"), "caption_source": post.get("caption_source"), "video": post.get("video"),
-                "highlight": post.get("highlight")}
+                "highlight": post.get("highlight"), "design": design_of(post), "trial": post.get("trial")}
     (out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
     return out
 
