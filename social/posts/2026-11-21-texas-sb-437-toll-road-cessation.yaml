@@ -6,7 +6,7 @@ approval: review
 rule: Every bill filed Nov. 19, 2026 whose Texas Legislature Online caption is about eliminating toll roads. SB 437 is the
   only one (said on the last slide).
 record_ids: [tx/90R/SB 437/filed]
-publish_after: '2026-11-26T09:00:00-06:00'
+publish_after: '2026-11-28T03:00:00-06:00'
 sources:
 - title: TLO, bills filed Nov. 19, 2026
   url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-19
@@ -99,4 +99,4 @@ notes: >-
   request for proposals is issued after the effective date (Sec. 16); "No new toll roads" row is shortened. (4) No
   official statement for or against was found, and no fiscal note exists yet, so the post asks. (5) Harris County runs
   toll roads, but the bill names no county, so none is named.
-  Nov 19 re-slot: moved to 2026-11-26T09:00:00-06:00, the next free slot for its kind (the first slot clashed with a queued post).
+  Nov 19 re-slot: moved to 2026-11-28T03:00:00-06:00, the first post slot that keeps the Reel/post turns without depending on another open pull request (the first slot clashed with a queued post).
