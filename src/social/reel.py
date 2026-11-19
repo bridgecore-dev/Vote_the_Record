@@ -880,47 +880,6 @@ def chunks(words: list[dict], most: int = 3, chars: int = 18) -> list[list[dict]
 STOP = set("a an the of to in on at by for and or but is was are were be it its as that this with from so".split())
 TONES = ("base", "accent", "soft")  # page color, a full accent-color scene, the accent's soft tint
 ALIGNS = ("left", "center", "right")
-ICON_DIR = Path(__file__).resolve().parent / "assets" / "fluent3d"  # Microsoft Fluent Emoji 3D, MIT (LICENSE there)
-# a scene's illustration: the first rule matching its chip, kicker and head, then the post's topic; decoration only,
-# never a person, a real place or a document, so it can't stand in for evidence
-ICON_RULES = [
-    (r"your turn|tell us|what do you think", "speech"), (r"\bvot|roll call|tally|\byea|\bnay", "ballot"),
-    (r"before|after|\bnow\b|what changes", "arrows"), (r"who gains|who loses|for and against|case (for|against)", "scale"),
-    (r"\bcosts?\b|budget|\$|\btax|spend|fund|\bpay|money|price|wage|savings|dollar", "money"),
-    (r"\blimit|can't|cannot|\bban\b|prohibit|\bstop", "stop"), (r"court|judge|circuit|justice", "gavel"),
-    (r"crime|criminal|penalt|fraud|police|first responder|emergency", "siren"), (r"health|medic|hospital|drug", "stethoscope"),
-    (r"school|student|teacher|educat|loan", "grad"), (r"home|homestead|housing|rent\b|propert", "house"),
-    (r"veteran|military|defen[cs]e|\bwar\b|troops|weapon", "medal"), (r"\bland|park|trail|forest|tree|wildlife", "park"),
-    (r"water|flood|drought|river", "droplet"), (r"energy|solar|wind|electric|power plant", "power"),
-    (r"farm|snap|food|agricultur", "farm"), (r"trade|tariff|deal|treaty|agreement", "handshake"),
-    (r"election|ballot|voter|campaign|donor|contribut", "ballot"), (r"\bai\b|online|data|cloud|internet|digital|tech", "laptop"),
-    (r"flight|airline|faa|airport", "plane"), (r"road|highway|route|traffic|speed", "road"),
-    (r"\bwork|\bjob|employ|labor", "briefcase"), (r"sponsor|next|senate|house|congress|legislat", "building"),
-    (r"\bbill\b|\bact\b|text|section|report|says", "page"),
-]
-FALLBACK_ICONS = ("building", "page", "pin", "bulb")
-
-
-def scene_icon(post: dict, s: dict, last: str | None) -> str:
-    """The illustration for a scene: never the same as the scene before."""
-    # the chip names the scene's job ("Before → after", "The limit"); the topic beats the head's stray words
-    chip = " ".join(str(s.get(k) or "") for k in ("chip", "kicker"))
-    for where in (chip, str(post.get("topic") or ""), str(s.get("head") or "")):
-        for pat, slug in ICON_RULES:
-            if slug != last and re.search(pat, where, re.I) and (ICON_DIR / f"{slug}.png").exists():
-                return slug
-    return next(f for f in FALLBACK_ICONS if f != last)
-
-
-_ICONS: dict[str, str] = {}
-
-
-def icon_uri(slug: str) -> str:
-    if slug not in _ICONS:
-        _ICONS[slug] = "data:image/png;base64," + base64.b64encode((ICON_DIR / f"{slug}.png").read_bytes()).decode()
-    return _ICONS[slug]
-
-
 VOTE_ORDER = ("yea", "nay", "present", "not_voting")
 
 
@@ -1030,7 +989,6 @@ def kinetic_plan(post: dict, s: dict, lay: str, words: list[dict], k: int) -> di
         tone = "soft"  # a seat chart or a document reads best on a calm background
     plan = {"mode": mode, "align": align, "tone": tone, "groups": groups, "hero": None, "vote": vote,
             "quote": {"label": str(q.get("label") or "Official text"), "text": str(q["text"]), "key": q.get("key")} if q else None,
-            "icon": None if vote or q else scene_icon(post, s, None),
             "rows": [{"label": a, "value": v, "t": t} for (a, v), t in zip(rows, row_times(rows, words))]}
     if hero:
         step = min(0.09, 0.7 / max(1, len(hero)))
@@ -1118,8 +1076,6 @@ def sfx_cues(starts: list[float], plans: list[dict | None]) -> list[tuple[float,
                 elif pl["mode"] == "build":
                     cues.append((at + w["a"], "soft"))
         cues += [(at + r["t"], "pop") for r in pl["rows"]]
-        if pl.get("icon"):
-            cues.append((starts[k] + 0.2, "pop"))
         if pl.get("vote"):
             cues += [(starts[k] + 0.3 + 0.1 * i, "soft") for i in range(15)]
         if pl.get("quote"):
@@ -1259,10 +1215,6 @@ mark.key { color: #1b2a2f; background: linear-gradient(#ffd166, #ffd166) no-repe
 .aura i:nth-child(2) { background: radial-gradient(circle, color-mix(in srgb, var(--accent-soft) 60%, transparent), transparent 66%); }
 .tone-accent .aura i { background: radial-gradient(circle, color-mix(in srgb, var(--on-accent) 16%, transparent), transparent 66%); }
 .grain { position: absolute; inset: 0; opacity: .07; mix-blend-mode: overlay; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E"); }
-.i3d-wrap { display: flex; justify-content: center; margin: 6px 0 4px; }
-.align-left .i3d-wrap { justify-content: flex-start; } .align-right .i3d-wrap { justify-content: flex-end; }
-.i3d { width: 250px; height: 250px; opacity: 0; filter: drop-shadow(0 28px 34px rgba(0,0,0,.32)); }
-.i3d.small { width: 170px; height: 170px; } .i3d.tiny { width: 120px; height: 120px; }
 .has-art .kc { font-size: 70px; } .has-art.mode-build .kc { font-size: 58px; }
 .vote-art { margin-top: 10px; }
 .seats { display: block; width: 900px; height: 459px; margin: 0 auto; overflow: visible; }
@@ -1361,7 +1313,7 @@ async function init() {
       words: [...c.querySelectorAll('.kw')].map(w => ({el: w, t: +w.dataset.t + .1, key: w.classList.contains('key')}))})),
       hero: [...el.querySelectorAll('.hc')].map(h => ({el: h, t: +h.dataset.t})),
       cards: [...el.querySelectorAll('.kcard')].map((c, i) => ({el: c, t: +c.dataset.t + .1, side: i % 2 ? 1 : -1})),
-      icon: el.querySelector('.i3d'), seats: [...el.querySelectorAll('.st')], tiles: [...el.querySelectorAll('.vt')],
+      seats: [...el.querySelectorAll('.st')], tiles: [...el.querySelectorAll('.vt')],
       paper: el.querySelector('.paper'), hl: el.querySelector('mark.hl'), aura: [...el.querySelectorAll('.aura i')],
       build: el.classList.contains('mode-build'), frame: el.querySelector('.frame'), prog: el.querySelector('.prog i'),
       doc: el.querySelector('.docwin img'), photo: el.querySelector('.bg.photo img'), broll: el.querySelector('.bg.dark img')};
@@ -1394,10 +1346,6 @@ async function seek(t) {
   sc.aura.forEach((b, i) => {  // soft color drifts behind every captions scene, continuous across cuts
     b.style.left = (50 + 38 * Math.sin(t * .23 + i * 2.1)) + '%'; b.style.top = (42 + 30 * Math.cos(t * .19 + i * 1.7)) + '%';
     b.style.transform = `scale(${1 + .18 * Math.sin(t * .31 + i)})`; });
-  if (sc.icon) {  // the illustration springs in, then floats
-    const p = cl((lt - .12) / .8), s = p <= 0 ? 0 : 1 - Math.exp(-6 * p) * Math.cos(10 * p);
-    sc.icon.style.opacity = Math.min(1, p * 5);
-    sc.icon.style.transform = `translateY(${Math.sin(t * 2.0) * 12}px) rotate(${Math.sin(t * 1.3) * 5 + (1 - Math.min(1, p * 2)) * -18}deg) scale(${s})`; }
   if (sc.seats.length) {  // seats fill left to right, the tallies count with them
     const n = sc.seats.length, a0 = .3, span = Math.min(1.6, info.dur * .3);
     sc.seats.forEach((r, i) => { const q = out3(cl((lt - a0 - span * i / n) / .2));
@@ -1550,8 +1498,6 @@ def kinetic_html(s: dict, plan: dict) -> str:
                     + f'<div class="kv">{e(r["value"])}</div></div>' for r in plan["rows"])
     cards = f'<div class="krows n{len(plan["rows"])}">{cards}</div>' if cards else ""
     art = ""
-    if plan.get("icon"):
-        art = f'<div class="i3d-wrap"><img class="i3d{" tiny" if len(plan["rows"]) > 2 else " small" if hero or cards else ""}" alt="" src="{icon_uri(plan["icon"])}"></div>'
     if plan.get("vote"):
         v = plan["vote"]
         tiles = "".join(f'<div class="vt v-{k}"><b{_attrs(n=v[k])}>0</b><span>{e(B.VOTE_LABELS[k])}</span></div>' for k in v)
@@ -1658,15 +1604,6 @@ def render(post: dict, slides: list[dict], out: Path, *, fps: int = FPS, stills=
         # a doc slide keeps its zoom onto the document, with the usual caption bar
         kin = kinetic_plan(post, s, lay, said[k], k) if motion == "captions" and said[k] and lay != "doc" else None
         scenes.append({"layout": lay, "act": prev, "voiced": bool(scripts[k]), "kin": kin, "n": k})
-    last = None
-    for s, sc in zip(slides, scenes):  # neighbors never share an illustration
-        pl = sc["kin"]
-        if pl and pl.get("icon"):
-            if pl["icon"] == last:
-                pl["icon"] = scene_icon(post, s, last)
-            last = pl["icon"]
-        elif pl:
-            last = None
     allcaps = [{"a": round(starts[k] + VOICE_AT + c["a"], 3), "b": round(starts[k] + VOICE_AT + c["b"], 3), "text": c["text"]}
                for k, cs in enumerate(caps) for c in cs]
     data = {"fps": fps, "total": total, "caps": allcaps, "wipe": motion == "captions",
