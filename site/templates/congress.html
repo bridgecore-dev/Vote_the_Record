@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import verification_badge %}
+{% block title %}Votes in Congress{% endblock %}
+{% block description %}How every member of the U.S. House and Senate voted on recent roll calls, straight from the House Clerk and the Senate, with every name and a link to the record.{% endblock %}
+{% block content %}
+<header class="masthead">
+  <p class="eyebrow">U.S. Congress · Roll-call votes</p>
+  <h1 class="display">How every member voted, straight from the roll call.</h1>
+  <p class="lead">Each page lists every member of the U.S. House of Representatives or the U.S. Senate by how they voted, with name, party, and state exactly as the House Clerk or the Senate records them. Members are listed alphabetically; party never sorts or colors anything. Every page links to the official record.</p>
+</header>
+
+{% include "partials/call_box.html" %}
+
+<section aria-labelledby="votes-h">
+  <div class="section-head">
+    <h2 id="votes-h">Roll calls, newest first</h2>
+    <div class="segmented" id="chamber-filter" role="group" aria-label="Chamber" hidden>
+      <button type="button" data-chamber="" aria-pressed="true">Both chambers</button>
+      <button type="button" data-chamber="house" aria-pressed="false">House</button>
+      <button type="button" data-chamber="senate" aria-pressed="false">Senate</button>
+    </div>
+  </div>
+  <ul class="vote-list">
+    {% for v in congress.votes %}
+    <li class="vote-item" data-chamber="{{ v.chamber }}">
+      <a class="vote-card" href="{{ v.url }}">
+        <span class="eyebrow">{{ v.chamber_name }} · Roll call {{ v.roll }} · {{ v.date | longdate }}</span>
+        <span class="vote-card-title">{{ v.heading }}</span>
+        <span class="vote-card-q">{{ v.question }}{% if v.measure %} · {{ v.measure }}{% endif %} · <strong>{{ v.result }}</strong></span>
+        <span class="tiles tiles-small">
+          {% for g in v.groups %}<span class="tile"><span class="tile-n">{{ g.count }}</span><span class="tile-l">{{ g.label }}</span></span>{% endfor %}
+        </span>
+        <span class="vote-card-meta">{{ verification_badge(v.fact) }} <span class="more-link">Every member's vote →</span></span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section aria-labelledby="compare-h" id="compare">
+  <h2 id="compare-h">Side by side</h2>
+  <p>Put two members next to each other: how each voted on every roll call listed here.</p>
+  <noscript><p class="empty">Comparing needs JavaScript. Each roll call's page lists every member without it.</p></noscript>
+  <form class="compare-form" id="compare-form" hidden>
+    <div>
+      <label for="compare-a">First member</label>
+      <select id="compare-a"><option value="">Choose a member…</option></select>
+    </div>
+    <div>
+      <label for="compare-b">Second member</label>
+      <select id="compare-b"><option value="">Choose a member…</option></select>
+    </div>
+  </form>
+  <div id="compare-out" class="grid-wrap" aria-live="polite"></div>
+</section>
+
+<section aria-labelledby="counts-h">
+  <h2 id="counts-h">What counts</h2>
+  <dl class="definitions">
+    <dt>The record</dt><dd>The House Clerk's roll-call file or the Senate's vote file: the question, the result, and how each member voted, as printed.</dd>
+    <dt>Party and state</dt><dd>Exactly as the roll call lists each member. The House Clerk also prints totals by party; we show them as printed. The Senate's record prints none, so we show none.</dd>
+    <dt>Names and portraits</dt><dd>Full names and official portraits come from the public-domain <a href="https://github.com/unitedstates/congress-legislators" rel="noopener noreferrer">congress-legislators</a> and <a href="https://github.com/unitedstates/images" rel="noopener noreferrer">images</a> projects, every member the same size, served from this site.</dd>
+    <dt>What doesn't count</dt><dd>News reports, ratings, scorecards, or anyone's guess about why a member voted as they did. A roll call records each vote, not the reasons for it.</dd>
+  </dl>
+</section>
+<script type="application/json" id="compare-data">{{ congress.compare | json_script }}</script>
+<script src="/static/js/congress.js" defer></script>
+{% endblock %}

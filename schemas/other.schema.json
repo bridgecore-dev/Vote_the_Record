@@ -606,6 +606,88 @@
         }
       }
     },
+    "congress_roll": {
+      "description": "One U.S. House or Senate roll-call vote, as the House Clerk's or the Senate's XML prints it (src/collectors/federal/rollcall.py; docs/METHODOLOGY.md, Votes in Congress). Party only as the roll call lists it (rule 5); never used to sort, score, rank, or color-code.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["congress", "session", "chamber", "roll", "date", "question", "measure", "title", "result", "required", "totals", "party_totals", "tie_breaker", "fact", "directory", "members"],
+      "properties": {
+        "congress": { "type": "integer", "minimum": 1 },
+        "session": { "type": "integer", "minimum": 1, "maximum": 3 },
+        "chamber": { "enum": ["house", "senate"] },
+        "roll": { "type": "integer", "minimum": 1 },
+        "date": { "$ref": "urn:vtr:schema:fact#/$defs/date" },
+        "question": { "type": "string", "minLength": 1 },
+        "measure": { "description": "The bill or resolution as the record prints it, e.g. 'H CON RES 93' or 'H.R. 1'.", "type": ["string", "null"] },
+        "title": { "description": "The record's description of the measure.", "type": ["string", "null"] },
+        "result": { "type": "string", "minLength": 1 },
+        "required": { "description": "House vote type or Senate majority requirement, as printed.", "type": ["string", "null"] },
+        "totals": { "$ref": "#/$defs/roll_totals" },
+        "party_totals": {
+          "description": "The House Clerk's totals by party, as printed (rule 5); null for the Senate, whose record prints none.",
+          "anyOf": [
+            { "type": "null" },
+            { "type": "array", "items": { "allOf": [
+              { "$ref": "#/$defs/roll_totals" },
+              { "required": ["party"], "properties": { "party": { "type": "string", "minLength": 1 } } }
+            ] } }
+          ]
+        },
+        "tie_breaker": {
+          "anyOf": [
+            { "type": "null" },
+            { "type": "object", "additionalProperties": false, "required": ["by", "vote"],
+              "properties": { "by": { "type": "string" }, "vote": { "type": "string" } } }
+          ]
+        },
+        "fact": { "allOf": [
+          { "$ref": "urn:vtr:schema:fact" },
+          { "properties": { "label": { "const": "official_record" }, "record_type": { "const": "vote" } } }
+        ] },
+        "directory": {
+          "description": "Where full names, Senate-to-Bioguide ID matches and portraits come from (public domain).",
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["url", "title", "retrieved"],
+          "properties": {
+            "url": { "$ref": "urn:vtr:schema:fact#/$defs/url" },
+            "title": { "type": "string", "minLength": 1 },
+            "retrieved": { "$ref": "urn:vtr:schema:fact#/$defs/date" }
+          }
+        },
+        "members": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "full_name", "bioguide", "party", "state", "vote", "portrait"],
+            "properties": {
+              "name": { "description": "As the roll call prints it.", "type": "string", "minLength": 1 },
+              "full_name": { "type": ["string", "null"] },
+              "bioguide": { "anyOf": [{ "type": "string", "pattern": "^[A-Z][0-9]{6}$" }, { "type": "null" }] },
+              "party": { "description": "As the roll call prints it (rule 5).", "type": "string", "minLength": 1 },
+              "state": { "type": "string", "pattern": "^[A-Z]{2}$" },
+              "vote": { "description": "As printed: Yea, Nay, Aye, No, Present, Not Voting, ...", "type": "string", "minLength": 1 },
+              "portrait": { "description": "File name in data/federal/congress/portraits/, or null.", "anyOf": [{ "type": "string", "pattern": "^[A-Z][0-9]{6}\\.jpg$" }, { "type": "null" }] }
+            }
+          }
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "roll_totals": {
+      "type": "object",
+      "required": ["yea", "nay", "present", "not_voting"],
+      "properties": {
+        "party": true,
+        "yea": { "type": "integer", "minimum": 0 },
+        "nay": { "type": "integer", "minimum": 0 },
+        "present": { "type": "integer", "minimum": 0 },
+        "not_voting": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
     "locality": {
       "type": "object",
       "additionalProperties": false,

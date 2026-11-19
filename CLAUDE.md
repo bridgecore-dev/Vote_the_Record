@@ -167,6 +167,9 @@ adjectives. Report votes and filings as they are recorded. Fair doesn't mean qui
   - `<statewide | districts/<d> | localities/<l>>/offices/<seat>.yaml` — who holds each elected seat, from
     official rosters; `people/<slug>.yaml` — one profile per officeholder, linked to their candidacies.
     See `docs/OFFICIALS.md`.
+- `data/federal/congress/<congress>/<session>/<house|senate>/roll-<n>.yaml` — U.S. roll calls as the House
+  Clerk or Senate XML prints them (IDs start `us/congress/...`), from `src/collectors/federal/rollcall.py`;
+  `data/federal/congress/portraits/<bioguide>.jpg` — public-domain official portraits, same size for all.
 - `docs/` — METHODOLOGY.md (public explanation of sourcing and scoring).
 - `site/` — the public front end.
 - `.github/workflows/` — CI: runs the validator on every push and PR.
@@ -185,6 +188,7 @@ adjectives. Report votes and filings as they are recorded. Fair doesn't mean qui
 - Upkeep (runbook: `docs/MAINTAINING.md`; all preview first, `--write` to apply):
   `python src/tools/status.py [--check-links]`, `python src/tools/check_rosters.py`,
   `python src/tools/archive.py`, `python src/tools/new_election.py --spec <file>`,
+  `python src/collectors/federal/rollcall.py --house YEAR:ROLL --senate CONGRESS:SESSION:VOTE` (U.S. roll calls),
   `python src/collectors/states/tx/tec_finance.py --ballot <ballot.yaml> (--zip <file> | --download)`.
 - Election results (preview first, `--write` to apply): `python src/collectors/results.py --ballot <ballot.yaml>
   --file <export.csv|json> --source-url URL --source-title TITLE --as-of YYYY-MM-DD [--status official]`

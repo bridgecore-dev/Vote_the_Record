@@ -357,6 +357,27 @@ one rule for everyone: **every bill that became law, and each chamber's vote to 
 - **For information only.** These votes appear on officeholders' profiles, newest first. They are not
   linked to quiz questions and don't affect any match.
 
+### Votes in Congress
+
+The Congress pages (`/congress/`) show U.S. House and Senate roll-call votes, one page per roll call, newest
+first. We add the roll calls our posts and pages cover; each one shows **every member**, not a selection.
+
+- **The record:** the House Clerk's roll-call file (`clerk.house.gov/evs/<year>/roll<NNN>.xml`) or the Senate's
+  vote file (`senate.gov/legislative/LIS/roll_call_votes/...`): the question, the measure, the result, the
+  totals, and each member's name, party, state, and vote, exactly as printed. The file's SHA-256 is kept.
+- **Groups and order:** members are grouped by their answer (Yea, Nay, Present, Not Voting; a House "Aye" or
+  "No" counts with Yea or Nay and is shown as printed) and listed alphabetically by the name the record
+  prints, in every group. Party never sorts, groups, or colors anything (rule 5).
+- **Totals by party:** shown only where the record prints them (the House Clerk does; the Senate's file
+  doesn't, so Senate pages show none).
+- **Names and portraits:** full names, the match from a Senate ID to a Bioguide ID, and the official portraits
+  come from the public-domain unitedstates projects (congress-legislators and images). Every member gets the
+  same portrait size, served from this site; a member without a published portrait gets initials.
+- **Compare and download:** two members can be compared across the roll calls listed, and each roll call
+  downloads as a CSV. Both run on the page itself; nothing is stored or sent.
+- **For information only.** A roll call records each vote, not the reasons for it. These pages don't affect
+  any quiz match.
+
 ## Corrections
 Found an error? [Submit a correction](CORRECTIONS_FORM_URL). Every reviewed correction is
 logged publicly with the date, what changed, why, and who reviewed it.

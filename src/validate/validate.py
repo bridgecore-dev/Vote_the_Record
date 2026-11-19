@@ -50,6 +50,7 @@ FILE_KINDS = [
     (re.compile(r"^data/states/[a-z]{2}/statewide/legislature/[0-9a-z]+/members\.yaml$"), "legislature_members"),
     (re.compile(r"^data/states/[a-z]{2}/decisions/[^/]+\.yaml$"), "decisions"),
     (re.compile(r"^data/states/[a-z]{2}/who-decides\.yaml$"), "who_decides"),
+    (re.compile(r"^data/federal/congress/\d+/\d/(house|senate)/roll-\d+\.yaml$"), "congress_roll"),
     (re.compile(r"^corrections/log\.yaml$"), "corrections"),
 ]
 
@@ -92,7 +93,7 @@ def load_validators(schemas_dir: Path) -> dict[str, Draft202012Validator]:
             for kind in ("race", "actions", "powers", "office_override", "survey",
                          "state", "locality", "corrections", "voter_essentials", "ballot", "zips", "precincts", "measure",
                          "result", "decisions", "who_decides", "office",
-                         "legislature_bill", "legislature_members")
+                         "legislature_bill", "legislature_members", "congress_roll")
         },
     }
 
@@ -105,7 +106,9 @@ def classify(rel: str) -> str | None:
 
 
 def id_prefix(rel: str) -> str:
-    """data/states/tx/a/b.yaml -> tx/a/b"""
+    """data/states/tx/a/b.yaml -> tx/a/b; data/federal/congress/... -> us/congress/..."""
+    if rel.startswith("data/federal/"):
+        return "us/" + rel.removeprefix("data/federal/").removesuffix(".yaml")
     return rel.removeprefix("data/states/").removesuffix(".yaml")
 
 
@@ -166,6 +169,9 @@ def iter_facts(kind: str, doc: dict):
             yield "law", doc["law"]
         for vote in doc.get("votes") or []:
             yield "votes", vote.get("fact") or {}
+    elif kind == "congress_roll":
+        if doc.get("fact"):
+            yield "fact", doc["fact"]
     elif kind == "legislature_members":
         for member in doc.get("members") or []:
             yield "members", member.get("fact") or {}
@@ -177,7 +183,9 @@ def iter_facts(kind: str, doc: dict):
 
 # Party as an official record lists it (rule 5): a legislator's party code from the Legislative Reference
 # Library's member list, and that list's source facts. Nowhere else but ballot_party.
-OFFICIAL_PARTY_KEYS = {"legislature_members": re.compile(r"^(members\[\d+\]\.party|party_source)$")}
+OFFICIAL_PARTY_KEYS = {"legislature_members": re.compile(r"^(members\[\d+\]\.party|party_source)$"),
+                       # a U.S. roll call: each member's party and the Clerk's totals by party, as printed
+                       "congress_roll": re.compile(r"^(members\[\d+\]\.party|party_totals)$")}
 
 
 def find_party_keys(node, path: str = "", allowed: re.Pattern | None = None):
@@ -482,7 +490,46 @@ def validate(root: Path, schemas_dir: Path | None = None) -> Report:
     check_results(docs, report)
     check_officials(root, docs, powers, all_ids, report)
     check_legislature(docs, report)
+    check_congress(root, docs, report)
     return report
+
+
+# How each printed vote counts toward the totals (src/collectors/federal/rollcall.py prints them as recorded).
+VOTE_TOTAL = {"Yea": "yea", "Aye": "yea", "Guilty": "yea", "Nay": "nay", "No": "nay", "Not Guilty": "nay",
+              "Present": "present", "Not Voting": "not_voting"}
+
+
+def check_congress(root: Path, docs: dict, report: Report) -> None:
+    """U.S. roll calls: the file sits where its congress, session, chamber and number say; every member's vote adds
+    up to the printed totals (and the Clerk's totals by party to the same); each portrait file exists."""
+    for rel, (kind, doc) in docs.items():
+        if kind != "congress_roll" or not isinstance(doc, dict):
+            continue
+        want = f"data/federal/congress/{doc.get('congress')}/{doc.get('session')}/{doc.get('chamber')}/roll-{doc.get('roll')}.yaml"
+        if rel != want:
+            report.error(rel, f"congress, session, chamber and roll say this file belongs at {want}")
+        members = [m for m in doc.get("members") or [] if isinstance(m, dict)]
+        counts = {"yea": 0, "nay": 0, "present": 0, "not_voting": 0}
+        for m in members:
+            key = VOTE_TOTAL.get(m.get("vote"))
+            if key is None:
+                report.error(rel, f"{m.get('name')}: vote '{m.get('vote')}' isn't one this site knows how to count")
+            else:
+                counts[key] += 1
+            if m.get("portrait") and not (root / "data/federal/congress/portraits" / m["portrait"]).is_file():
+                report.error(rel, f"{m.get('name')}: portrait {m['portrait']} not found in data/federal/congress/portraits/")
+            if m.get("portrait") and m["portrait"] != f"{m.get('bioguide')}.jpg":
+                report.error(rel, f"{m.get('name')}: portrait must be named after the member's Bioguide ID")
+        totals = doc.get("totals") or {}
+        if counts != {k: totals.get(k) for k in counts}:
+            report.error(rel, f"members' votes {counts} don't add up to totals {totals}")
+        ids = [m.get("bioguide") for m in members if m.get("bioguide")]
+        if len(ids) != len(set(ids)):
+            report.error(rel, "a member is listed twice")
+        if doc.get("party_totals"):
+            summed = {k: sum(p.get(k, 0) for p in doc["party_totals"]) for k in counts}
+            if summed != {k: totals.get(k) for k in counts}:
+                report.error(rel, f"party_totals add up to {summed}, not the totals {totals}")
 
 
 def check_legislature(docs: dict, report: Report) -> None:

@@ -1,4 +1,5 @@
-/* Vote the Record — calm, civic, cool neutrals. No party colors.
+/* Vote the Record — an editorial look: warm paper, large serif headlines, small-caps labels, bordered count
+   tiles. No party colors anywhere (no reds or blues for sides); the one accent is a deep teal.
    Color tokens are checked for WCAG AA contrast by tests/test_contrast.py. */
 
 @font-face {
@@ -18,6 +19,16 @@
 }
 @font-face {
   font-family: "Source Serif 4";
+  src: url("/static/fonts/source-serif-4-latin-400-normal.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/static/fonts/source-serif-4-latin-400-italic.woff2") format("woff2");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Source Serif 4";
   src: url("/static/fonts/source-serif-4-latin-600-normal.woff2") format("woff2");
   font-weight: 600; font-style: normal; font-display: swap;
 }
@@ -28,31 +39,33 @@
 }
 
 :root {
-  --bg: #f2f5f4;
-  --surface: #ffffff;
-  --ink: #1b2a2f;
-  --muted: #4d5e63;
-  --line: #c7d1cf;
-  --control: #687a7f;
+  --bg: #edeae3;
+  --surface: #f7f5f0;
+  --ink: #171512;
+  --muted: #5a564e;
+  --line: #cbc5b8;
+  --control: #79725f;
   --accent: #0f5c63;
   --on-accent: #ffffff;
-  --warn-ink: #704800;
-  --warn-bg: #fff3d6;
+  --warn-ink: #6b4500;
+  --warn-bg: #fbefd2;
   --demo-ink: #4a3a6b;
-  --demo-bg: #eeeaf6;
+  --demo-bg: #ece7f3;
   --focus: #0f5c63;
-  --accent-soft: #dcebec;
-  color-scheme: light dark;
+  --accent-soft: #d8e6e4;
+  --rule: #171512;
+  color-scheme: light;
 }
 
+/* Dark: the device setting, unless the page's Night/Day button chose light (static/js/theme.js; nothing stored). */
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #121a1c;
-    --surface: #1a2427;
-    --ink: #e6eeec;
-    --muted: #a6b8bc;
-    --line: #2c3b3f;
-    --control: #7f959a;
+  :root:not([data-theme="light"]) {
+    --bg: #191816;
+    --surface: #22211e;
+    --ink: #ece8df;
+    --muted: #aaa498;
+    --line: #3b3833;
+    --control: #8b8579;
     --accent: #6cc7cf;
     --on-accent: #0b1416;
     --warn-ink: #f0c766;
@@ -61,7 +74,29 @@
     --demo-bg: #2c2540;
     --focus: #6cc7cf;
     --accent-soft: #1d3a3d;
+    --rule: #ece8df;
+    color-scheme: dark;
   }
+}
+
+/* The same dark tokens when the Night button is pressed (tests/test_contrast.py checks both blocks match). */
+:root[data-theme="dark"] {
+  --bg: #191816;
+  --surface: #22211e;
+  --ink: #ece8df;
+  --muted: #aaa498;
+  --line: #3b3833;
+  --control: #8b8579;
+  --accent: #6cc7cf;
+  --on-accent: #0b1416;
+  --warn-ink: #f0c766;
+  --warn-bg: #3a2f12;
+  --demo-ink: #d3c7f0;
+  --demo-bg: #2c2540;
+  --focus: #6cc7cf;
+  --accent-soft: #1d3a3d;
+  --rule: #ece8df;
+  color-scheme: dark;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -444,3 +479,153 @@ details.more[open] > summary { margin-bottom: 8px; }
 .result-table meter { display: inline-block; width: 5rem; height: 0.7rem; vertical-align: middle; margin-right: 4px; }
 @media (max-width: 480px) { .result-table meter { display: none; } }
 .results-index li { margin: 6px 0; }
+
+/* ---------- Editorial restyle (2026-11-19): paper, big serif heads, small caps, ruled tiles ---------- */
+body { font-size: 1.0625rem; }
+.wrap { max-width: 1040px; }
+h1, h2, h3 { letter-spacing: -0.01em; }
+h1 { font-weight: 400; font-size: clamp(2.1rem, 7vw, 3.6rem); line-height: 1.04; letter-spacing: -0.02em; }
+h2 { font-weight: 600; border-top: 1px solid var(--rule); padding-top: 0.6em; }
+.notice h2, .call-box h2, .group-h, .notice-h, .card h2, .feature h2 { border-top: 0; padding-top: 0; }
+.lead { font-family: "Source Serif 4", Georgia, serif; font-size: 1.2rem; line-height: 1.5; max-width: 62ch; }
+.prose { max-width: 72ch; }
+.eyebrow, .tile-l, .brand-tag, .nav-list a, .theme-toggle, .segmented button {
+  font-family: "Public Sans", system-ui, sans-serif; text-transform: uppercase; letter-spacing: 0.08em;
+  font-size: 0.74rem; font-weight: 600;
+}
+.eyebrow { display: inline-block; border: 1px solid var(--rule); padding: 3px 8px; margin: 0 0 0.8em; color: var(--ink); }
+.eyebrow a { color: inherit; }
+
+/* Header: brand mark, tagline, the Night/Day button, then a row of ruled tabs */
+.site-header { background: var(--bg); border-bottom: 1px solid var(--rule); }
+.header-inner { padding-top: 16px; padding-bottom: 10px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; }
+.brand-mark { width: 32px; height: 32px; fill: var(--accent); flex: none; }
+.brand-text { display: flex; flex-direction: column; line-height: 1.1; }
+.brand-name { font-family: "Source Serif 4", Georgia, serif; font-style: italic; font-weight: 400; font-size: 1.45rem; color: var(--ink); }
+.brand-tag { color: var(--accent); font-size: 0.66rem; margin-top: 3px; }
+.theme-toggle { background: transparent; color: var(--ink); border: 1px solid var(--rule); border-radius: 0;
+                min-height: 36px; padding: 6px 12px; }
+.theme-toggle:hover { background: var(--surface); }
+.site-header nav { padding-bottom: 12px; }
+.nav-list { gap: 0; overflow-x: auto; flex-wrap: nowrap; scrollbar-width: thin; }
+.nav-list li { flex: none; }
+.nav-list a { display: block; padding: 7px 12px; border: 1px solid var(--rule); margin-left: -1px; text-decoration: none;
+              color: var(--ink); background: var(--surface); }
+.nav-list li:first-child a { margin-left: 0; }
+.nav-list a:hover { background: var(--bg); }
+.nav-list a[aria-current="page"] { background: var(--ink); color: var(--bg); font-weight: 600; }
+@media (min-width: 720px) { .nav-list { flex-wrap: wrap; } }
+
+.banner { border-bottom: 1px solid var(--rule); }
+.site-footer { border-top: 1px solid var(--rule); }
+
+/* Cards and controls: square, ruled edges */
+.card, .race-card, .date-card, .steps-grid li, .plain-points li, .on-record, .notice, .question, .ballot-text,
+.result-box { border-radius: 2px; }
+.race-card, .date-card, .steps-grid li { border-color: var(--rule); }
+.button, button { border-radius: 2px; }
+.notice { border-left-width: 3px; }
+.date-big, .match, .race-name { font-weight: 400; }
+.date-big { color: var(--ink); font-size: 2rem; }
+.race-name { color: var(--ink); font-size: 1.45rem; }
+.hero h1 { font-size: clamp(2.3rem, 8vw, 4rem); }
+
+/* Mastheads (Congress pages) */
+.masthead { padding: 12px 0 8px; }
+.display { margin: 0.1em 0 0.35em; }
+.display-long { font-size: clamp(1.7rem, 5vw, 2.7rem); line-height: 1.12; }
+.result-line { margin: 0 0 0.6em; }
+
+/* Count tiles: big serif numbers in ruled boxes, one neutral look for every answer */
+.tiles { list-style: none; padding: 0; margin: 18px 0; display: grid; grid-template-columns: repeat(4, 1fr);
+         border: 1px solid var(--rule); }
+.tiles li { margin: 0; }
+.tile { display: flex; flex-direction: column; gap: 6px; padding: 12px 12px 14px; border-left: 1px solid var(--rule);
+        color: var(--ink); text-decoration: none; background: var(--surface); height: 100%; }
+.tiles li:first-child .tile, .tiles > .tile:first-child { border-left: 0; }
+a.tile:hover { background: var(--bg); }
+.tile-n { font-family: "Source Serif 4", Georgia, serif; font-size: clamp(1.9rem, 6vw, 3rem); line-height: 1; font-variant-numeric: tabular-nums; }
+.tile-l { color: var(--muted); }
+.tiles-small { margin: 10px 0 8px; }
+.tiles-small .tile { padding: 8px 10px; }
+.tiles-small .tile-n { font-size: 1.6rem; }
+
+/* Call box */
+.call-box { border: 1px solid var(--rule); background: var(--surface); padding: 14px 16px; margin: 20px 0; }
+.call-h { margin: 0 0 6px; font-size: 1.1rem; }
+.call-number { display: inline-block; border: 1px solid var(--rule); padding: 8px 14px; color: var(--ink); text-decoration: none;
+               font-family: "Public Sans", system-ui, sans-serif; font-weight: 600; }
+.call-number:hover { background: var(--bg); }
+.script li { margin: 0.5em 0; }
+
+/* Roll-call list on /congress/ */
+.section-head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 10px;
+                border-top: 1px solid var(--rule); margin-top: 2.2em; }
+.section-head h2 { border-top: 0; margin-top: 0.6em; }
+.segmented { display: inline-flex; margin-bottom: 10px; }
+.segmented button { background: var(--surface); color: var(--ink); border: 1px solid var(--rule); margin-left: -1px;
+                    min-height: 36px; padding: 6px 12px; }
+.segmented button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+.vote-list { list-style: none; padding: 0; margin: 12px 0; display: grid; gap: 14px; }
+@media (min-width: 820px) { .vote-list { grid-template-columns: 1fr 1fr; } }
+.vote-list li { margin: 0; }
+.vote-card { display: flex; flex-direction: column; gap: 6px; height: 100%; padding: 14px 16px; border: 1px solid var(--rule);
+             background: var(--surface); color: var(--ink); text-decoration: none; }
+.vote-card:hover { background: var(--bg); }
+.vote-card .eyebrow { align-self: flex-start; margin: 0; }
+.vote-card-title { font-family: "Source Serif 4", Georgia, serif; font-size: 1.3rem; line-height: 1.25; }
+.vote-card-q { color: var(--muted); font-size: 0.95rem; }
+.vote-card-meta { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-top: auto; }
+.more-link { color: var(--accent); font-weight: 600; font-size: 0.92rem; }
+
+/* Members on a roll call: the same card and portrait size for every member */
+.filter-bar { position: sticky; top: 0; z-index: 2; display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+              background: var(--bg); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+              padding: 10px 0; margin: 18px 0; }
+.filter-bar select, .filter-bar input, .compare-form select {
+  font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--control); border-radius: 2px;
+  padding: 8px 10px; min-height: 44px; }
+.filter-bar input { flex: 1 1 12rem; font-family: "Source Serif 4", Georgia, serif; font-style: italic; }
+.filter-count { color: var(--muted); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; }
+.vote-group { margin: 22px 0; }
+.vote-group.filtered-empty { display: none; }
+.group-h { display: flex; align-items: baseline; gap: 10px; font-weight: 400; font-size: 2rem;
+           border-bottom: 1px solid var(--rule); padding-bottom: 6px; }
+.group-n { font-family: "Public Sans", system-ui, sans-serif; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; color: var(--muted); }
+.member-grid { list-style: none; padding: 0; margin: 12px 0; display: grid; gap: 8px;
+               grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.member { display: flex; gap: 10px; align-items: center; margin: 0; padding: 6px; background: var(--surface); border: 1px solid var(--line); }
+.portrait { width: 48px; height: 59px; flex: none; object-fit: cover; background: var(--accent-soft); }
+.portrait-initials { display: inline-flex; align-items: center; justify-content: center; color: var(--ink);
+                     font-family: "Source Serif 4", Georgia, serif; font-size: 1.1rem; }
+.member-text { display: flex; flex-direction: column; min-width: 0; }
+.member-name { font-weight: 600; line-height: 1.25; overflow-wrap: anywhere; }
+.member-meta { color: var(--muted); font-size: 0.85rem; }
+.actions-row { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
+
+/* Compare */
+.compare-form { display: grid; gap: 10px; margin: 10px 0; }
+@media (min-width: 720px) { .compare-form { grid-template-columns: 1fr 1fr; } }
+.compare-form label { display: block; font-weight: 600; margin-bottom: 4px; }
+.compare-form select { width: 100%; }
+.compare-grid tr.same td { background: var(--accent-soft); }
+
+/* Home: the latest roll call */
+.feature { border: 1px solid var(--rule); background: var(--surface); padding: 16px; margin: 24px 0; }
+.feature h2 { margin-top: 0.2em; font-weight: 400; font-size: clamp(1.4rem, 4vw, 2rem); }
+
+@media (max-width: 480px) {
+  .tiles { grid-template-columns: repeat(2, 1fr); }
+  .tiles li:nth-child(3) .tile { border-left: 0; }
+  .tiles li:nth-child(n+3) .tile { border-top: 1px solid var(--rule); }
+  .tiles-small { grid-template-columns: repeat(4, 1fr); }
+  .tiles-small .tile { padding: 6px; }
+  .tiles-small > .tile + .tile { border-left: 1px solid var(--rule); }
+  .tiles-small .tile-n { font-size: 1.25rem; }
+  .tiles-small .tile-l { font-size: 0.6rem; letter-spacing: 0.04em; }
+  .member-grid { grid-template-columns: 1fr; }
+}
+@media print {
+  .theme-toggle, .filter-bar, .call-box, .actions-row { display: none !important; }
+}
