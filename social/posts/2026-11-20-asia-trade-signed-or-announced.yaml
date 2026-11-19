@@ -1,0 +1,72 @@
+kind: carousel
+level: congress
+topic: Trade
+approval: review
+record_ids: [us/wh/2026-11-17/us-thailand-art-joint-statement, us/wh/2026-11-18/asia-economic-deals-fact-sheet]
+publish_after: '2026-11-20T21:00:00-06:00'
+found_via: https://www.khaosodenglish.com/news/2026/11/17/anutin-trump-to-sign-joint-statement-on-thai-us-reciprocal-trade/
+sources:
+- title: "The White House, Joint Statement on an Agreement Between the United States of America and the Kingdom of Thailand on Reciprocal Trade (Nov. 17, 2026)"
+  url: https://www.whitehouse.gov/briefings-statements/2026/11/joint-statement-on-an-agreement-between-the-united-states-of-america-and-the-kingdom-of-thailand-on-reciprocal-trade/
+  retrieved: '2026-11-19'
+- title: "The White House, Fact Sheet: President Donald J. Trump Secures Historic Economic Deals for American Workers and Strengthens America's Leadership in Asia (Nov. 18, 2026)"
+  url: https://www.whitehouse.gov/fact-sheets/2026/11/fact-sheet-president-donald-j-trump-secures-historic-economic-deals-for-american-workers-and-strengthens-americas-leadership-in-asia/
+  retrieved: '2026-11-19'
+slides:
+- chip: "Signed or announced? · Nov. 17, 2026"
+  head: "In Manila, the United States and Thailand signed a statement on a trade deal, not the deal itself."
+  text: "President Donald J. Trump and Prime Minister Anutin Charnvirakul of Thailand signed a joint statement. Swipe for what it says."
+- chip: What was signed
+  head: "The statement says talks reached \"substantial conclusion.\" Signing comes later."
+  quote: {label: "Joint Statement, the White House, Nov. 17, 2026", text: "The United States and Thailand will now begin their respective necessary internal processes to prepare the ART for signature and entry into force."}
+  text: "ART is the Agreement on Reciprocal Trade between the two countries."
+- chip: What the White House says it would do
+  head: "Once signed, the fact sheet says, tariffs end on 99 percent of goods."
+  quote: {label: "White House fact sheet, Nov. 18, 2026", text: "The trade deal, once signed, will eliminate tariffs on 99 percent of goods and remove non-tariff barriers on American vehicles, medical devices, pharmaceuticals, ethanol, and poultry"}
+  text: "The fact sheet calls this \"the substantial conclusion of a trade deal.\""
+- chip: Before → after
+  head: "Where the deal stands"
+  rows:
+  - ["Already in place", "1966 Treaty of Amity; 2002 trade framework agreement"]
+  - ["Nov. 17", "Joint statement signed: talks substantially concluded"]
+  - ["Next", "Each country's internal processes"]
+  - ["Then", "Signature and entry into force"]
+  text: "The statement says the new agreement will build on the 1966 treaty and the 2002 framework agreement."
+- chip: Who gains, who pays
+  head: "The fact sheet names who it says gains. Neither document gives a cost or names anyone who loses."
+  quote: {label: "White House fact sheet, Nov. 18, 2026", text: "unprecedented access to Thailand's market"}
+  text: "It says that access goes to \"American workers, manufacturers, farmers, ranchers, and businesses.\""
+- chip: Also announced
+  head: "More from the trip, in the White House's words"
+  rows:
+  - ["Thailand", "\"intends to commit up to $123 million\" for HIMARS rocket systems"]
+  - ["Philippines", "Boeing and GE Aerospace \"finalized a $12 billion sale\""]
+  - ["Whole trip", "\"over $17 billion in commercial deals and strategic investments\""]
+  - ["Not final yet", "Several items say \"intends,\" \"will pursue\" or \"negotiations\""]
+  text: "Dollar figures are the White House's own."
+- chip: Check it yourself
+  head: "Read both documents on whitehouse.gov."
+  rows:
+  - ["Joint statement", "whitehouse.gov, Briefings & Statements, Nov. 17, 2026"]
+  - ["Fact sheet", "whitehouse.gov, Fact Sheets, Nov. 18, 2026"]
+  text: "What would you want to see in the final text? Tell us below."
+caption: |-
+  Signed or announced? On Nov. 17, 2026, in Manila, President Donald J. Trump and Prime Minister Anutin Charnvirakul of Thailand signed a joint statement. It says the two countries "have reached substantial conclusion in their negotiations" on an Agreement on Reciprocal Trade (ART).
+
+  What was signed: the statement. It says both countries "will now begin their respective necessary internal processes to prepare the ART for signature and entry into force." The agreement itself is not signed yet.
+
+  What the White House says it would do: a Nov. 18 fact sheet says: "The trade deal, once signed, will eliminate tariffs on 99 percent of goods" and remove non-tariff barriers on American vehicles, medical devices, pharmaceuticals, ethanol and poultry.
+
+  Who gains, who pays: the fact sheet says the deal gives "American workers, manufacturers, farmers, ranchers, and businesses unprecedented access to Thailand's market." Neither document gives a cost or names anyone who loses.
+
+  Also announced: Thailand "intends to commit up to $123 million" toward HIMARS rocket systems; the White House counts "over $17 billion" in deals and investments from the trip. Several items are described as intentions or negotiations, not final agreements.
+
+  What would you want to see in the final text?
+hashtags: [trade, thailand, asean, whitehouse, votetherecord]
+notes: >-
+  Both official documents were downloaded from whitehouse.gov on 2026-11-19 and every quote was checked against
+  the page text. News reports led here (found_via) and are not sources. The fact sheet doesn't say whose tariffs
+  the "99 percent of goods" refers to, so the post quotes it exactly and doesn't explain it. Neither document gives
+  current tariff rates, a cost estimate, an implementation date, or the agreement's text, so the post says none of
+  those. Philippines and Southeast Asia items are summarized only by direct quotes; the fact sheet's dollar totals
+  and job counts are labeled as the White House's own figures.
