@@ -1,0 +1,102 @@
+kind: carousel
+level: state
+place: Texas
+topic: Transportation
+approval: review
+rule: Every bill filed Nov. 19, 2026 whose Texas Legislature Online caption is about eliminating toll roads. SB 437 is the
+  only one (said on the last slide).
+record_ids: [tx/90R/SB 437/filed]
+publish_after: '2026-11-28T03:00:00-06:00'
+sources:
+- title: TLO, bills filed Nov. 19, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-19
+  retrieved: '2026-11-19'
+- title: TLO, SB 437 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB437
+  retrieved: '2026-11-19'
+- title: Texas Transportation Code, Chapter 228 (state toll projects)
+  url: https://statutes.capitol.texas.gov/Docs/TN/htm/TN.228.htm
+  retrieved: '2026-11-19'
+- title: Texas Transportation Code, Chapter 366 (regional tollway authorities)
+  url: https://statutes.capitol.texas.gov/Docs/TN/htm/TN.366.htm
+  retrieved: '2026-11-19'
+- title: Texas Transportation Code, Chapter 372 (all toll project entities)
+  url: https://statutes.capitol.texas.gov/Docs/TN/htm/TN.372.htm
+  retrieved: '2026-11-19'
+bills:
+- id: SB 437
+  does: Tolls would stop once a toll road's costs and bonds are paid; no new toll projects or tolled free lanes.
+  affects: Texas drivers who use toll roads, and TxDOT, tollway and mobility authorities and counties that run them.
+  where: Filed Nov. 19, 2026 by Sen. Hall; no other action yet.
+  summary:
+    text: >-
+      A toll project shall be maintained without tolls in the manner provided by Subsection (c) when the costs of
+      acquisition and construction of the project have been paid and: (1) all of the bonds and interest on the bonds
+      that are payable from or secured by revenues of the project have been paid
+    title: SB 437 as filed (Sec. 12, Transportation Code 372.060(a))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/SB00437I.pdf
+    retrieved: '2026-11-19'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 19, 2026
+  big: No tolls
+  head: A Texas Senate bill would make toll roads drop their tolls once they're paid off.
+- chip: The law today
+  head: Surplus toll money can pay for other roads and projects in the region.
+  quote: {label: Texas Transportation Code 228.006(a), text: "The commission shall authorize the use of surplus revenue of a toll project or system to pay the costs of a transportation project, highway project, or air quality project within a region in which any part of the toll project is located.", key: surplus revenue}
+  text: "Tollway authorities can use surplus to pay for other toll roads (366.175). Chapter 372, which covers every toll entity, has no rule that tolls stop."
+- chip: What would change
+  head: Four changes, as filed.
+  rows:
+  - [Paid off, "Tolls stop once a road's costs, bonds and interest are paid, or the money to pay them is set aside"]
+  - [No new toll roads, "Toll entities couldn't build or contract for new toll projects"]
+  - [Free lanes stay free, "No turning free highway lanes, HOV or other restricted lanes into toll lanes"]
+  - [No surplus, "The surplus-revenue sections, 228.006 and 366.175, are repealed"]
+- chip: Before → after
+  head: Turning a free highway into a toll road
+  rows:
+  - [Before, "Allowed in four cases, e.g. if as many free lanes remain after rebuilding (228.201)"]
+  - [After, "Not allowed, for contracts made after the law takes effect"]
+  text: Contracts and toll designations made before then keep the old rules.
+- chip: Who takes over
+  head: Once tolls stop, someone else has to pay to keep the road up.
+  rows:
+  - [The state, "TxDOT maintains it, if the Legislative Budget Board finds the state has the money"]
+  - [A county, "If it asks and the Legislative Budget Board approves"]
+  - [Otherwise, "The toll entity keeps maintaining it, without tolls"]
+- chip: Who gains, who pays
+  head: Drivers stop paying tolls on paid-off roads. The road's upkeep and the lost surplus have no price tag yet.
+  text: "No fiscal note is posted. The bill orders TxDOT, with the Legislative Budget Board, to report by Sept. 1, 2028 on every toll road, when its tolls would stop, and what upkeep would cost."
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, the bill takes effect on this date, or right away with a two-thirds vote of each chamber.
+  text: "How we picked: every bill filed Nov. 19, 2026 whose caption is about eliminating toll roads. SB 437 was the only one. Should paid-off roads go toll-free?"
+caption: |-
+  Today, Texas law lets surplus toll money pay for other roads and projects in the region (Transportation Code 228.006), and lets tollway authorities use it for other toll roads (366.175). The chapter that covers every toll entity has no rule that tolls stop.
+
+  SB 437, filed in the Texas Senate for the 2027 session, would change that:
+  - Tolls stop once a road's costs, bonds and interest are paid.
+  - No new toll projects.
+  - No turning free highway lanes into toll lanes.
+  - The surplus-revenue sections are repealed.
+
+  Once tolls stop, TxDOT would maintain the road if the Legislative Budget Board finds the state has the money, or a county could take it over with the board's approval. Otherwise the toll entity keeps it up, without tolls.
+
+  No fiscal note is posted yet. The bill orders a TxDOT report on the costs by Sept. 1, 2028. If passed as filed, it takes effect Sept. 1, 2027.
+
+  Should paid-off roads go toll-free?
+hashtags: [txlege, texaslegislature, tollroads, texas, votetherecord]
+notes: >-
+  New: filed Nov. 19, 2026 (TLO history: filed, received by the Secretary of the Senate; author listed only as "Hall";
+  no party listed, so none given). Rule: the Nov. 19 filing report's captions; SB 437 is the only one about
+  eliminating toll roads (SB 440, same author, is about toll collection and enforcement, a different subject, and
+  isn't named). Records opened 2026-11-19: filing report, history, introduced HTML and PDF (sha256
+  7c8daa08c6fad3ec400a571dffb226b1d464f298a95f4f202aa2cad6f3385474), and Transportation Code chapters 228, 366, 372
+  (rendered from statutes.capitol.texas.gov: 228.006, 228.051, 228.201, 366.037, 366.175, 372.001, 372.0535).
+  Please check: (1) "Chapter 372 has no rule that tolls stop" is from reading all of current Chapter 372; I didn't
+  check chapters 284 (counties) or 370 (mobility authorities) for one, so the slide claims only Chapter 372. (2) The
+  bill also repeals 228.051 (TxDOT designating state highway lanes as toll projects), 366.037 and 366.071 and others;
+  only the two surplus-revenue repeals are named. (3) Applies to contracts for new toll construction only where the
+  request for proposals is issued after the effective date (Sec. 16); "No new toll roads" row is shortened. (4) No
+  official statement for or against was found, and no fiscal note exists yet, so the post asks. (5) Harris County runs
+  toll roads, but the bill names no county, so none is named.
+  Nov 19 re-slot: moved to 2026-11-28T03:00:00-06:00, the first post slot that keeps the Reel/post turns without depending on another open pull request (the first slot clashed with a queued post).
