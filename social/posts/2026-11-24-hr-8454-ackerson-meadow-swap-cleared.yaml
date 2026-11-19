@@ -1,0 +1,93 @@
+kind: carousel
+level: congress
+topic: Public lands
+approval: review
+record_ids: ["us/119/H.R. 8454/senate-passed"]
+publish_after: '2026-11-24T12:00:00-06:00'
+rule: >-
+  Every House bill the U.S. Senate passed on Nov. 17, 2026, as the House Clerk's Nov. 18 floor log lists them
+  (H.R. 5254 and H.R. 8454), gets its own post with the same structure.
+sources:
+- title: "U.S. House Clerk, House floor proceedings, Nov. 18, 2026"
+  url: https://clerk.house.gov/floor/20261118.xml
+  retrieved: '2026-11-19'
+- title: H.R. 8454 actions (Congress.gov API)
+  url: https://api.congress.gov/v3/bill/119/hr/8454/actions
+  retrieved: '2026-11-19'
+- title: "H.R. 8454, Engrossed in House (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr8454eh/html/BILLS-119hr8454eh.htm
+  retrieved: '2026-11-19'
+- title: "H. Rept. 119-777 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt777/html/CRPT-119hrpt777.htm
+  retrieved: '2026-11-19'
+- title: U.S. Constitution, Article I, Section 7 (National Archives transcript)
+  url: https://www.archives.gov/founding-docs/constitution-transcript
+  retrieved: '2026-11-19'
+bills:
+- id: H.R. 8454
+  does: "Swaps about 160 acres of national forest into Yosemite and about 170 acres of Yosemite into Stanislaus National Forest."
+  affects: "Ackerson Meadow in Tuolumne County, California, the two agencies, and the ranch that grazes cattle there."
+  where: "Passed the U.S. House of Representatives Sept. 14; the U.S. Senate, unchanged, Nov. 17. Next: the President."
+  summary:
+    text: >-
+      This bill exchanges administrative jurisdiction over specified parcels of federal land between Yosemite
+      National Park and Stanislaus National Forest in California.
+    title: Congressional Research Service summary of H.R. 8454 (as introduced)
+    url: https://api.congress.gov/v3/bill/119/hr/8454/summaries
+    retrieved: '2026-11-19'
+slides:
+- kicker: "Cleared Congress · Nov. 17"
+  big: "330 acres"
+  head: "Congress passed a bill to swap about this much land between Yosemite National Park and Stanislaus National Forest."
+  text: "The U.S. Senate passed the House's bill without changes, by unanimous consent, on Nov. 17."
+- chip: "Before → after"
+  head: "The land is in Ackerson Meadow, Tuolumne County, California. The House committee report calls it one of the largest intact meadows in the Sierra Nevada."
+  rows:
+  - [Before, "Park and forest land in a checkerboard across the meadow"]
+  - [To Yosemite, "About 160 acres of national forest land"]
+  - [To the forest, "About 170 acres of national park land"]
+  - [Still federal, "No land leaves federal ownership"]
+- chip: "Why, and who it affects"
+  head: "Cattle graze land now managed by the Park Service. The Forest Service's multiple-use plan is consistent with grazing, the CRS summary says."
+  rows:
+  - [Grazing, "A family ranch holds a grazing permit there, the report says"]
+  - [Report's reason, "The checkerboard hinders restoration, grazing and access"]
+  - [Rights, "Existing rights, permits and leases stay in place"]
+  - [Cost, "House report: CBO estimate requested, not received"]
+  text: "Each agency gives up land and gains land."
+- kicker: How it passed
+  head: "No recorded roll call in either chamber."
+  rows:
+  - [U.S. House of Representatives, "Voice vote, Sept. 14, 2026"]
+  - [U.S. Senate, "Unanimous consent, no changes, Nov. 17, 2026"]
+  text: "With a voice vote or unanimous consent, there is no official list of how each member voted. Sponsor: Rep. Tom McClintock (R-CA). The House committee approved it by unanimous consent."
+- kicker: What happens next
+  head: It goes to the President to sign or veto.
+  quote:
+    label: U.S. Constitution, Article I, Section 7
+    text: "If any Bill shall not be returned by the President within ten Days (Sundays excepted) after it shall have been presented to him, the Same shall be a Law, in like Manner as if he had signed it"
+  text: "Status as of Nov. 19. Should Congress redraw park and forest lines this way? Tell us."
+caption: |-
+  Congress has passed H.R. 8454. On Nov. 17 the U.S. Senate passed the House's bill without changes, by unanimous consent. The U.S. House of Representatives passed it by voice vote Sept. 14.
+
+  Before: Yosemite National Park and Stanislaus National Forest own land in a checkerboard across Ackerson Meadow, in Tuolumne County, California. Cattle graze land the Park Service now manages.
+
+  After: about 160 acres of national forest join Yosemite, and about 170 acres of Yosemite join the national forest, which allows grazing under its multiple-use plan. All of it stays federal, and existing rights and permits stay. The House report says the CBO estimate wasn't in yet.
+
+  Sponsor: Rep. Tom McClintock (R-CA). Next it goes to the President (status as of Nov. 19).
+
+  Should Congress redraw park and forest lines this way?
+hashtags: [congress, publiclands, yosemite, california, nationalparks]
+notes: >-
+  New this run: the Clerk's Nov. 18 floor log (4:27 p.m.) says "The Senate passed H.R. 5254 and H.R. 8454";
+  congress.gov actions (API, read 2026-11-19): "Passed Senate without amendment by Unanimous Consent.
+  (consideration: CR S5709)" on Nov. 17. The Senate passed the placed-on-calendar text, which is the House
+  engrossed text. No presentment is listed yet; if it is signed or vetoed before the slot, update the last slide
+  or delete this file. Acres (160, 170, "roughly 330"), Tuolumne County and the map name are from the engrossed
+  text and H. Rept. 119-777; "largest intact meadow systems", the grazing permit (Erickson Cattle Company, not
+  named on a slide), the checkerboard reason and "does not increase the federal estate" are as the report states
+  them. The grazing / multiple-use line is from the CRS summary's background. The CRS summary is of the
+  introduced bill; the House-passed substitute dropped the introduced bill's hazardous-substances subsection,
+  but the quoted sentence still describes the passed text. Sponsor's party and state as congress.gov lists them;
+  congress.gov lists no cosponsors. No opposing view in the record (committee unanimous consent, no recorded
+  votes). Pairs with the 10:30 a.m. Reel (2026-11-24-hr-5254-gateway-arch-events-cleared).
