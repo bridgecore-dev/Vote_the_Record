@@ -1,0 +1,153 @@
+kind: reel
+level: state
+place: Texas
+topic: Health
+approval: review
+rule: When the same bill text is filed more than once, the post covers the first Texas Senate and Texas House of
+  Representatives filings that Texas Legislature Online lists as identical (said on the last slide).
+record_ids: [tx/90R/SB 31/filed, tx/90R/HB 101/filed, tx/90R/HB 855/filed, tx/90R/HB 1247/filed]
+publish_after: '2026-11-25T07:30:00-06:00'
+design:
+  motion: captions
+sources:
+- title: SB 31 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB31
+  retrieved: '2026-11-19'
+- title: HB 101 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB101
+  retrieved: '2026-11-19'
+- title: HB 1247 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1247
+  retrieved: '2026-11-19'
+- title: SJR 6 as filed
+  url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/SJ00006I.pdf
+  retrieved: '2026-11-19'
+- title: Texas Works Handbook
+  url: https://fhb.hhs.texas.gov/node/284856
+  retrieved: '2026-11-19'
+- title: 42 U.S.C. 1396a
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap7-subchapXIX-sec1396a.htm
+  retrieved: '2026-11-19'
+- title: 42 U.S.C. 1396d
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title42/html/USCODE-2023-title42-chap7-subchapXIX-sec1396d.htm
+  retrieved: '2026-11-19'
+- title: Poverty guidelines
+  url: https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines
+  retrieved: '2026-11-19'
+- title: P.L. 119-21
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  retrieved: '2026-11-19'
+- title: Tex. Const. Art. 17
+  url: https://statutes.capitol.texas.gov/Docs/CN/htm/CN.17.htm
+  retrieved: '2026-11-19'
+bills:
+- id: SB 31
+  does: Texas Medicaid would cover adults the Affordable Care Act's expansion covers, from Jan. 1, 2028.
+  affects: Adults 19 to 64 earning up to 133% of the poverty line.
+  where: Filed Nov. 9, 2026 by Sen. Zaffirini; no other action yet. Needs voter approval of an amendment.
+  summary:
+    text: >-
+      the commission shall provide medical assistance to all individuals who apply for that assistance and for whom
+      federal matching funds are available under the Patient Protection and Affordable Care Act
+    title: SB 31 as filed
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/SB00031I.pdf
+    retrieved: '2026-11-19'
+  say: SB 31 would require Texas Medicaid to cover everyone federal Affordable Care Act matching money is available for,
+    starting in 2028. Senator Zaffirini filed it November 9. There has been no other action yet.
+- id: HB 101
+  does: Same text as SB 31, per Texas Legislature Online.
+  affects: Adults 19 to 64 earning up to 133% of the poverty line.
+  where: Filed Nov. 9, 2026 by Rep. Bucy; no other action yet. Needs voter approval of an amendment.
+  summary:
+    text: >-
+      the commission shall provide medical assistance to all individuals who apply for that assistance and for whom
+      federal matching funds are available under the Patient Protection and Affordable Care Act
+    title: HB 101 as filed
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/HB00101I.pdf
+    retrieved: '2026-11-19'
+  say: HB 101 has the same text as SB 31. Representative Bucy filed it November 9. There has been no other action yet.
+slides:
+- kicker: 2027 Texas session
+  big: 4 filings
+  head: The same Texas Medicaid expansion bill has now been filed four times. What would it do?
+  text: The first were SB 31 in the Texas Senate and HB 101 in the Texas House of Representatives, on Nov. 9.
+  say: The same Medicaid expansion bill has now been filed four times in Texas. What would it do? The first were SB 31 in
+    the Texas Senate and HB 101 in the Texas House of Representatives, on November 9.
+- chip: Word for word
+  head: All four carry the same text, Texas Legislative Council draft 90R 613.
+  text: Sen. Zaffirini filed SB 31 and Rep. Bucy filed HB 101. Two more Texas House of Representatives bills match, one
+    filed Nov. 9 and one Nov. 19.
+  say: All four carry the same text. Senator Zaffirini filed SB 31 and Representative Bucy filed HB 101 in the Texas
+    House of Representatives. Two more House bills match, one filed November 9 and one November 19.
+- chip: The law today
+  head: Texas Medicaid's family programs list these groups. Other adults ages 19 to 64 aren't on it.
+  rows:
+  - Children under 19
+  - Pregnant women
+  - Parents and caretaker relatives
+  quote: {label: Texas Works Handbook, A-240, text: "children under age 19; other-related children under age 19; independent children under age 19; pregnant women; legal parent(s); caretaker relatives; or spouse of caretaker relatives.", key: "pregnant women"}
+  say: 'The law today: the Texas Works Medicaid programs, the ones for families, list children under 19, pregnant women,
+    and parents and caretaker relatives. Other adults ages 19 to 64 are not on that list.'
+- chip: Before → after
+  head: The bills would make Texas cover the adults the Affordable Care Act's expansion covers.
+  rows:
+  - [Who, "Ages 19 to 64, not pregnant, not on Medicare"]
+  - [Income, "Up to 133% of the poverty line: about $21,200 a year for one person (2026)"]
+  - [Starts, "Jan. 1, 2028"]
+  say: 'Before: those adults have no family program. After: Texas would cover people ages 19 to 64, not pregnant and not on
+    Medicare, earning up to 133 percent of the poverty line, about 21,200 dollars a year for one person. It starts
+    January 1, 2028.'
+- chip: Who pays
+  big: 90%
+  head: Federal law pays 90% of the medical costs for this group. Texas would pay the rest.
+  text: No cost estimate is posted for these bills yet. Texas's health agency would report each year on the uninsured,
+    state and local costs, and hospitals' unpaid care.
+  say: 'Who pays: federal law pays 90 percent of the medical costs for this group, and Texas would pay the rest. No cost
+    estimate is posted yet. The state health agency would report every year on the uninsured, costs, and hospitals.'
+- chip: What comes with it
+  big: 80 hours
+  head: Adults covered this way must also meet the federal work requirement, in force by Jan. 1, 2027.
+  rows:
+  - [Each month, "80 hours of work, community service, a work program, or a mix; or school at least half-time"]
+  - [Exempt, "Among others: parents of a child 13 or under, medically frail people, veterans rated totally disabled"]
+  text: P.L. 119-21.
+  say: Adults covered this way must also meet the federal work requirement, in force by January 1, 2027. Each month, 80
+    hours of work, community service, or a work program, or school at least half-time. Some are exempt, like parents of
+    a child 13 or under.
+- chip: What's next
+  big: Nov. 2, 2027
+  head: The bills take effect only if Texas voters approve a constitutional amendment, proposed for this ballot.
+  text: "An amendment first needs two-thirds of all members of the Texas Senate and the Texas House of Representatives.
+    How we picked: the first Texas Senate and House filings of this text. Should Texas expand Medicaid?"
+  say: The bills take effect only if Texas voters approve a constitutional amendment, proposed for the November 2, 2027
+    ballot. First, two-thirds of all members of each chamber must vote for it. Should Texas expand Medicaid?
+caption: |-
+  Today, Texas Medicaid's family programs don't list adults 19 to 64 who aren't parents, caretakers or pregnant. These bills would add those earning up to 133% of the poverty line. Federal law pays 90% of their medical costs, and the federal work requirement would apply. Two more Texas House of Representatives bills have the same text. Should Texas expand Medicaid?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [txlege, texaslegislature, medicaid, votetherecord]
+notes: >-
+  New this run: a fourth copy of this text (HB 1247, Reynolds) was filed Nov. 19, 2026; no earlier post covers any of
+  the four. Rule: the first Senate and House filings TLO lists as "Identical" (SB 31 lists HB 101, HB 855 and HB 1247 as
+  Identical; HB 101 lists HB 855 and HB 1247 as Duplicate). HB 101 is picked over HB 855 (both Nov. 9) as the lower
+  number; HB 855 (Anchía) and HB 1247 (Reynolds) are described without numbers (one bill per post) and their record IDs
+  are listed so they don't post separately. All four introduced PDFs were downloaded and compared word for word: they
+  differ only in the bill number and author line (Council document 90R 613). sha256: SB00031I
+  edd79bed566567e54ce53461bcfac58697dad5c8ceca685e08e0fd824835c676, HB00101I
+  c5eef4bd6079f0b4fe18af4cf90ed4feb98098ecdb40dc614dbe91ed3cc831fb. Each takes effect Jan. 1, 2028 "only if the
+  constitutional amendment ... is approved by the voters" (Sec. 4); SB 31 is enabling legislation for SJR 6 and HB 101
+  for HJR 21, both set for the Nov. 2, 2027 election (checked in both PDFs); neither joint resolution is named.
+  Please double-check: (1) "the adults the Affordable Care Act's expansion covers" is our reading of "all individuals
+  ... for whom federal matching funds are available under the [ACA]": that is the 42 U.S.C. 1396a(a)(10)(A)(i)(VIII)
+  group (under 65, not pregnant, not on Medicare, income up to 133% of the poverty line), and 1396d(y) sets 90% federal
+  share for "newly eligible" adults 19 and up. "About $21,200" is our arithmetic: 133% x $15,960 (2026 HHS guideline,
+  one person, 48 states) = $21,227; the 5% income disregard in 1396a(e)(14) isn't shown. GPO's 2023 U.S. Code was used;
+  Public Law 119-21 sec. 71114 changed only the extra incentive in 1396d(ii), not the 90% in (y). (2) "The law today"
+  is the Texas Works Handbook A-240 list (Rev. 16-4) of who can be certified for its medical programs; Texas's separate
+  programs for people 65+ and people with disabilities aren't described, and medicaid.gov returned 403 (not retried),
+  so no CMS statement that Texas hasn't expanded is cited. (3) Work requirement: P.L. 119-21 sec. 71119 (new 1396a(xx));
+  "applicable individual" includes the (VIII) group; start "not later than the first day of the first quarter that
+  begins after December 31, 2026"; exemptions quoted in short form from (xx)(9)(A)(ii). (4) No fiscal note is listed
+  on either bill page, and no official statement for or against was found, so the post ends with a question. "Unpaid
+  care" is our short form of the bill's "charity care and uncompensated care costs for hospitals". Slot: the first
+  Reel slot that keeps the Reel/post turn (Nov. 19-24 base and pair slots are full; Nov. 25 has a 9:00 a.m. post).
