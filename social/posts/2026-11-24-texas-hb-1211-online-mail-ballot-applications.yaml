@@ -1,0 +1,103 @@
+kind: reel
+level: state
+place: Texas
+topic: Elections
+approval: review
+rule: Every bill on the Texas Legislature's Nov. 17, 2026 filing report whose caption is about voting by mail. HB 1211
+  is the only one (said on the last slide).
+record_ids: [tx/90R/HB 1211/filed]
+publish_after: '2026-11-24T13:30:00-06:00'
+sources:
+- title: TLO, bills filed Nov. 17, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-17
+  retrieved: '2026-11-19'
+- title: TLO, HB 1211 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1211
+  retrieved: '2026-11-19'
+- title: Texas Election Code, Chapter 82 (Sec. 82.003, age)
+  url: https://statutes.capitol.texas.gov/Docs/EL/htm/EL.82.htm
+  retrieved: '2026-11-19'
+- title: Texas Election Code, Chapter 84 (Secs. 84.001, 84.007)
+  url: https://statutes.capitol.texas.gov/Docs/EL/htm/EL.84.htm
+  retrieved: '2026-11-19'
+bills:
+- id: HB 1211
+  does: Would let Texas voters 65 or older apply for a mail ballot online and sign electronically, through a state program.
+  affects: Texas voters 65 or older; county early voting clerks; the Texas secretary of state, who would run the program.
+  where: Filed Nov. 17, 2026 by Rep. Ward Johnson; no other action yet.
+  summary:
+    text: >-
+      The secretary of state shall implement a program to allow a person 65 years of age or older to complete an
+      application for an early voting ballot by mail over the Internet from the official website of this state and
+      from the Internet website of the county in which the person is registered to vote.
+    title: HB 1211 as filed, Sec. 3 (Election Code 84.0091(a))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01211I.htm
+    retrieved: '2026-11-19'
+  say: HB 1211 would let Texas voters 65 or older apply for a mail ballot online and sign it electronically. It was filed
+    November 17 by Representative Ward Johnson, with no other action yet.
+slides:
+- kicker: 2027 Texas session · Filed Nov. 17, 2026
+  big: HB 1211
+  head: A Texas House of Representatives bill would let voters 65 or older apply for a mail ballot online.
+  say: A Texas House of Representatives bill filed November 17 would let voters 65 or older apply for a mail ballot online.
+- chip: The law today
+  head: Texans 65 or older can vote by mail, but the application must be signed in ink on paper.
+  quote:
+    label: Texas Election Code 84.001(b)
+    text: An electronic signature or photocopied signature is not permitted.
+    key: not permitted
+  text: A faxed or emailed scan counts only if the paper copy also reaches the clerk by mail within 4 business days.
+  say: 'The law today: Texans 65 or older can vote by mail, but the application must be signed in ink on paper. A faxed
+    or emailed scan counts only if the paper copy also arrives by mail within 4 business days.'
+- chip: What would change
+  head: The Texas secretary of state would run an online application for voters 65 or older.
+  rows:
+  - [Where, "The state's official website and your county's website"]
+  - [Signature, "You could sign electronically"]
+  - [Delivery, "Sent straight to your county's early voting clerk"]
+  - [Tracking, "You could check your application's status"]
+  say: 'What would change: the Texas secretary of state would run an online application, on the state''s website and your
+    county''s. You could sign electronically, it would go straight to your county''s clerk, and you could check its status.'
+- chip: To use it
+  head: Before applying online, you would give three things.
+  rows:
+  - Your name, and your voter registration number or registration address
+  - Your Texas driver's license or state ID card number
+  - The last 4 digits of your Social Security number
+  text: Voters under 65 who vote by mail for other reasons would still use paper.
+  say: To use it, you would give your name and voter registration number or address, your Texas driver's license or ID
+    number, and the last 4 digits of your Social Security number. Voters under 65 would still use paper.
+- chip: Cost
+  head: No fiscal note (cost estimate) is posted yet.
+  text: The bill doesn't say what the program would cost or how it would be paid for.
+  say: No cost estimate is posted yet, and the bill does not say what the program would cost or how it would be paid for.
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, the bill takes effect on this date.
+  text: "How we picked: every bill on the Nov. 17 filing report about voting by mail. HB 1211 was the only one. Paper only, or online too?"
+  say: If passed as filed, the bill takes effect September 1, 2027. How we picked, every bill filed November 17 about
+    voting by mail. HB 1211 was the only one. Paper only, or online too?
+caption: |-
+  Today, Texans 65 or older can vote by mail, but the application has to be signed in ink on paper. Texas law says an electronic or photocopied signature is not permitted. A faxed or emailed scan counts only if the paper copy also reaches the clerk by mail within 4 business days.
+
+  HB 1211, filed in the Texas House of Representatives for the 2027 session, would have the Texas secretary of state set up an online application for voters 65 or older, on the state's website and each county's. You could sign electronically, the application would go straight to your county's early voting clerk, and you could check its status. To apply, you would give your name and voter registration number or address, your Texas driver's license or ID card number, and the last 4 digits of your Social Security number. Voters under 65 who vote by mail for other reasons would still use paper.
+
+  No cost estimate is posted yet. If passed as filed, it takes effect Sept. 1, 2027.
+
+  Paper only, or online too?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [txlege, texaslegislature, texaselections, votebymail, votetherecord]
+notes: >-
+  New: filed Nov. 17, 2026; no earlier post or pull request names it. Rule: of the 41 bills on the Nov. 17 filing report,
+  HB 1211 is the only one whose caption is about voting by mail (HB 1209, bond elections, is about what a vote
+  decides, not how to vote; left for its own post). Records opened 2026-11-19: the filing report, the bill history
+  (filed, no other action; subjects Aging, Elections--Early Voting, Internet, Secretary of State; author shown as
+  "Ward Johnson"), the introduced text (90R4401 TSS-D), and Election Code 82.003, 84.001 and 84.007 (read from the
+  tcss.legis.texas.gov copy of statutes.capitol.texas.gov). "Within 4 business days" is 84.007(b-1) ("not later than
+  the fourth business day after the transmission"). "Voters under 65 would still use paper" is our reading: the new
+  84.0091 covers only "a person 65 years of age or older" and 84.001(b) keeps ink-on-paper for everyone else; please
+  confirm. The bill doesn't say whether the online application also needs the ID numbers 84.002(a)(1-a) already
+  requires on a paper application; the slide lists only what 84.0091(b) says. No fiscal note on the bill's page and no
+  official statement for or against was found, so the post gives the record and asks. Takes Nov. 24 1:30 p.m. (Reel
+  after the 9:00 a.m. carousel; Nov. 19-23 base slots are full).
