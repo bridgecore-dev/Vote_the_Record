@@ -131,7 +131,19 @@ Vote posts (a roll call, or a bill's passage):
 
 Made to be seen (never at the cost of a rule above):
 - The first slide is the hook: the number, the question or the claim people are already talking about, in
-  as few words as possible. One idea per slide.
+  as few words as possible. One idea per slide. In a Reel, the voice opens a question in the first two
+  seconds ("News said the House blocked it. Did it?") that the Reel then answers from the record.
+- Double tap (2026-11-18): use the official term, then the same idea in plain words right after it: "a motion
+  to refer, a vote to send it to a committee"; "engrossed, the version the House passed". Never the plain words
+  alone when the record uses a term people will see in the news.
+- Every line of `say` teaches something; cut lines that only set up or repeat a slide. Short sentences, one
+  fact each, so the big captions (`motion: captions`) change every second or two.
+- Design trials (owner's decision, 2026-11-18): up to one trial Reel a day, `trial: auto` (Instagram shows it
+  to non-followers first and adds it to the grid if it does well), with a `design` that changes one thing at
+  a time from the last trial (`palette`, `mode`, `font`, `position`, `motion`, `sfx`; see social/README.md).
+  The facts and sources follow every rule above; only the look changes. A trial Reel doesn't count in the
+  Reel/post turn-taking. Use `approval: review` for the first trial of each new design. The weekly "What's
+  working" issue compares designs.
 - When a claim about a bill or vote is trending (news, Google Trends, the trends file), make an "Is it true?"
   post: state the claim, then what the official record says (the bill text, the roll call, the CBO estimate),
   quoted. If the record shows the claim is right, say so; if it's wrong or about another bill, say that.

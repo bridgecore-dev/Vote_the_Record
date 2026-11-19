@@ -1,4 +1,5 @@
 """Which merged posts the publisher treats as due, and the review comment it writes."""
+import json
 import datetime as dt
 import sys
 from pathlib import Path
@@ -179,3 +180,22 @@ def test_only_deletes_use_the_delete_token(monkeypatch):
     monkeypatch.delenv("IG_DELETE_TOKEN")
     pub.graph("DELETE", "123")
     assert "publishtok" in seen[-1][1]
+
+
+def test_a_trial_reel_asks_instagram_to_graduate_it(monkeypatch):
+    made = []
+
+    def graph(method, path, **k):
+        if path.endswith("/media"):
+            made.append(k)
+            return {"id": "c1"}
+        if path.endswith("media_publish"):
+            return {"id": "m1"}
+        return {"status_code": "FINISHED"}
+    monkeypatch.setattr(publish, "graph", graph)
+    monkeypatch.setenv("IG_USER_ID", "u")
+    m = {"kind": "reel", "caption": "c", "files": [{"file": "reel.mp4", "cover": "cover.png"}]}
+    publish.publish_one({**m, "trial": "auto"}, "https://b")
+    publish.publish_one(m, "https://b")
+    assert json.loads(made[0]["trial_params"]) == {"graduation_strategy": "SS_PERFORMANCE"} and "share_to_feed" not in made[0]
+    assert "trial_params" not in made[1] and made[1]["share_to_feed"] == "true"
