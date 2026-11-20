@@ -1,0 +1,113 @@
+kind: carousel
+level: congress
+topic: Broadband
+approval: review
+record_ids: [us/119/S. 4448/senate-passed]
+publish_after: '2026-11-20T15:00:00-06:00'
+rule: >-
+  Bills the U.S. Senate's floor activity page lists as passed on Nov. 19, 2026 that no post covers yet, picked for
+  how many people they reach: S. 4448 deals with a grant program for every state. The others (trail studies,
+  heritage areas, a charter, a training bill) can get their own posts.
+sources:
+- title: "U.S. Senate Floor Activity, Thursday, November 19, 2026"
+  url: https://www.senate.gov/legislative/LIS/floor_activity/11_19_2026_Senate_Floor.htm
+  retrieved: '2026-11-20'
+- title: "S. 4448 (119th Congress), engrossed in the Senate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119s4448es/html/BILLS-119s4448es.htm
+  retrieved: '2026-11-20'
+- title: "47 U.S.C. 1702, BEAD Program (GPO, U.S. Code 2024)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title47/html/USCODE-2024-title47-chap16-subchapI-sec1702.htm
+  retrieved: '2026-11-20'
+- title: "47 U.S.C. 1455, federal rights-of-way (GPO, U.S. Code 2024)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title47/html/USCODE-2024-title47-chap13-subchapIV-sec1455.htm
+  retrieved: '2026-11-20'
+- title: "42 U.S.C. 4370m, FAST Act definitions (GPO, U.S. Code 2024)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title42/html/USCODE-2024-title42-chap55-subchapIV-sec4370m.htm
+  retrieved: '2026-11-20'
+- title: Congress.gov, S. 4448 bill record
+  url: https://api.congress.gov/v3/bill/119/s/4448
+  retrieved: '2026-11-20'
+bills:
+- id: S. 4448
+  title: Accelerating Broadband Permits Act of 2026
+  does: "Puts each state's BEAD broadband grant progress on a public website and adds tools to track federal permits for projects."
+  affects: "States that get BEAD grants, their subgrantees, the Commerce Department, and federal agencies that handle permits."
+  where: "Passed the U.S. Senate by unanimous consent Nov. 19, 2026. Next: the U.S. House of Representatives."
+  summary:
+    text: "The Assistant Secretary shall make available on a public website a dashboard that tracks the progress of each eligible entity through major milestones under the Program"
+    title: S. 4448 as passed by the Senate, sec. 2(a) (no CRS summary is posted yet)
+    url: https://www.govinfo.gov/content/pkg/BILLS-119s4448es/html/BILLS-119s4448es.htm
+    retrieved: '2026-11-20'
+slides:
+- kicker: "U.S. Senate · Nov. 19, 2026"
+  big: $42.45 billion
+  head: "The U.S. Senate passed a bill to put the progress of a $42.45 billion internet grant program on a public website."
+  text: "S. 4448, the Accelerating Broadband Permits Act. Passed by unanimous consent."
+- chip: The law today
+  head: "BEAD, the Broadband Equity, Access, and Deployment Program, is a grant program for high-speed internet."
+  text: "The Infrastructure Investment and Jobs Act authorized $42.45 billion for it. The grants go to states."
+  quote: {label: "47 U.S.C. 1702(j)(1)(B)", text: "semiannually thereafter until the funds have been expended, an eligible entity shall submit to the Assistant Secretary a report"}
+- chip: "Before → after"
+  head: What the bill changes for BEAD
+  rows:
+  - [Reports, "Before: states send them to the Commerce Department. After: also posted online within 90 days"]
+  - [Redacted, "Business confidential information is blacked out"]
+  - [Dashboard, "New: each state's money spent and places that got internet"]
+  - [Permits, "New: a tool to track each project's federal permits"]
+- chip: "Before → after"
+  head: "Federal permits for broadband"
+  rows:
+  - [270 days, "Today: agencies must grant or deny a request to use federal property within 270 days"]
+  - [After, "Commerce must track those requests, flag ones at risk of missing it, and report yearly"]
+  - [FAST Act, "Today: a \"covered project\" generally needs over $200,000,000 of investment"]
+  - [After, "Broadband projects over $5,000,000 that need a NEPA review can qualify"]
+- chip: Covered project
+  head: "A \"covered project\" under the FAST Act gets extra federal permitting coordination."
+  quote: {label: "42 U.S.C. 4370m(6)(A)(iv)", text: "likely to benefit from enhanced oversight and coordination"}
+  text: "NEPA is the National Environmental Policy Act, the law that requires environmental reviews."
+- chip: "Who gains, who gives"
+  head: "Anyone could see each state's progress online. States and agencies get new work."
+  rows:
+  - [Gains, "The public: a dashboard and the states' reports, online"]
+  - [Gains, "Broadband projects over $5,000,000 that could qualify for coordination"]
+  - [Gives, "States must use the permit tool; Commerce builds the tools"]
+  - [Cost, "CBO posted an estimate; we couldn't open it, so no number here"]
+- chip: How it passed
+  head: "By unanimous consent, so there's no list of who voted which way."
+  rows:
+  - [Sponsor, "Sen. John Thune (R-SD)"]
+  - [Cosponsor, "Sen. John Barrasso (R-WY)"]
+  - [Cosponsor, "Sen. Ben Ray Luján (D-NM)"]
+  - [Next, "The U.S. House of Representatives"]
+- chip: Your turn
+  head: "Would a public progress dashboard help you check on internet projects where you live?"
+  text: "The bill goes to the U.S. House of Representatives next. Tell your representative what you think."
+caption: |-
+  On Nov. 19, the U.S. Senate passed S. 4448, the Accelerating Broadband Permits Act, by unanimous consent.
+
+  Today: BEAD is a $42.45 billion grant program for high-speed internet. States report to the Commerce Department every six months.
+
+  After: those reports go online within 90 days, plus a public dashboard of each state's progress and a tool to track each project's federal permits. Broadband projects over $5 million that need an environmental review could get FAST Act permitting coordination (today the general bar is over $200 million).
+
+  Who gives: states must use the permit tool; Commerce builds the tools. No CBO figure here (we couldn't open it).
+
+  Sponsor: Sen. John Thune (R-SD). Cosponsors: Sen. John Barrasso (R-WY), Sen. Ben Ray Luján (D-NM).
+
+  Would a dashboard help you check on projects near you?
+hashtags: [congress, ussenate, broadband, internetaccess, votetherecord]
+notes: >-
+  New this run: the Senate floor activity page for Nov. 19 lists S. 4448 "Passed Senate with an amendment by
+  Unanimous Consent" with no floor S.Amdt., and congress.gov's actions (api, read 2026-11-20) show it was reported
+  with a substitute (S. Rept. 119-158). The slides follow the engrossed text on GovInfo ("Passed the Senate November
+  19, 2026"). No CRS summary yet, so the explainer quotes sec. 2(a). S. Rept. 119-158 isn't on GovInfo yet, and
+  cbo.gov returned 403 (estimate: cbo.gov/publication/62861, as ordered reported July 22, 2026; not retried), so no
+  cost figure and no committee "why" are on a slide. Current law is from GPO's 2024 U.S. Code: $42,450,000,000
+  "authorized to be appropriated" (1702(b)(2)); semiannual state reports (1702(j)(1)(B)); "eligible entity" means a
+  State (1702(a)); 270-day grant-or-deny rule for "an easement, right-of-way, or lease" (1455(b)(3)(A); "use federal
+  property" is our plain wording); FAST Act covered project over $200,000,000 (4370m(6)(A)(i)). Please confirm no
+  law since the 2024 edition changed these. We didn't claim the reports aren't public today: only that the bill
+  adds a rule to post them. Unanimous consent, no roll call, and no statement against was found, so no case-against
+  slide. Sponsor and cosponsor party and state as congress.gov lists them, cosponsors alphabetical. News first:
+  takes the Nov. 20 3:00 p.m. post slot and moves the evergreen 2026-11-19-obbba-medicaid-renewals-retro-coverage
+  to 2026-11-29T03:00:00-06:00 (Nov. 28's only post is at 3:00 a.m., so a later Nov. 28 post slot would put two
+  posts in a row).
