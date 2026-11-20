@@ -1,0 +1,106 @@
+kind: reel
+level: congress
+topic: Public lands
+approval: review
+record_ids: [us/119/S. 1135/senate-passed]
+publish_after: '2026-11-20T18:00:00-06:00'
+rule: >-
+  Bills the U.S. Senate's floor activity page lists as passed on Nov. 19, 2026 that no post covers yet. Two of them
+  order a national trail feasibility study, S. 1135 (Utah) and S. 4538 (Virginia to Pennsylvania); each gets its own
+  post with the same layout and wording, in bill-number order.
+sources:
+- title: "U.S. Senate Floor Activity, Thursday, November 19, 2026"
+  url: https://www.senate.gov/legislative/LIS/floor_activity/11_19_2026_Senate_Floor.htm
+  retrieved: '2026-11-20'
+- title: "S. 1135 (119th Congress), engrossed in the Senate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119s1135es/html/BILLS-119s1135es.htm
+  retrieved: '2026-11-20'
+- title: "16 U.S.C. 1244, National Trails System Act sec. 5 (GPO, 2024 ed.)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title16/html/USCODE-2024-title16-chap27-sec1244.htm
+  retrieved: '2026-11-20'
+- title: Congress.gov, S. 1135 bill record
+  url: https://api.congress.gov/v3/bill/119/s/1135
+  retrieved: '2026-11-20'
+bills:
+- id: S. 1135
+  does: "Has the Agriculture Dept. study whether the 280-mile Bonneville Shoreline Trail in Utah could be a national trail."
+  affects: "The trail system from the Idaho-Utah border to Nephi, Utah, and the agencies and landowners along it."
+  where: "Passed the U.S. Senate by unanimous consent Nov. 19, 2026. Next: the U.S. House of Representatives."
+  summary:
+    text: "The Bonneville Shoreline Trail, a system of trails and potential trails extending approximately 280 miles from the Idaho-Utah border to Nephi, Utah, following the Bonneville bench that was created by the historic Lake Bonneville."
+    title: S. 1135 as passed by the Senate, sec. 1 (no CRS summary is posted yet)
+    url: https://www.govinfo.gov/content/pkg/BILLS-119s1135es/html/BILLS-119s1135es.htm
+    retrieved: '2026-11-20'
+  say: "S. 1135 has the Agriculture Department study whether the Bonneville Shoreline Trail, about 280 miles in Utah, could become a national trail. It passed the United States Senate by unanimous consent on November 19, 2026."
+slides:
+- kicker: "U.S. Senate · Nov. 19, 2026"
+  big: 280 miles
+  head: "The U.S. Senate passed a bill to study making a 280-mile trail system in Utah a national trail."
+  text: "S. 1135, the Bonneville Shoreline Trail feasibility study. Passed by unanimous consent."
+  say: "280 miles. On November 19, the United States Senate passed a bill to study making a trail system in Utah a national trail. S. 1135 passed by unanimous consent."
+- chip: The trail
+  head: "From the Idaho-Utah border to Nephi, Utah, along an old lakeshore."
+  quote: {label: "S. 1135, sec. 1", text: "following the Bonneville bench that was created by the historic Lake Bonneville", key: historic Lake Bonneville}
+  say: "The trail runs from the Idaho-Utah border to Nephi, Utah. The bill says it follows the Bonneville bench, created by the historic Lake Bonneville."
+- chip: "Before → after"
+  head: What the bill changes
+  rows:
+  - [Before, "Not on the law's list of trails to study"]
+  - [After, "Added to the list in the National Trails System Act"]
+  - [Who studies, "The Secretary of Agriculture"]
+  - [Deadline, "Report to Congress within 3 full fiscal years"]
+  - [The test, "Can a trail be built there, and can it be paid for?"]
+  say: "Before, the trail isn't on the law's list of trails to study. After, it is. The Secretary of Agriculture studies it. The report goes to Congress within 3 full fiscal years. Can a trail be built there, and can it be paid for?"
+- chip: What it doesn't do
+  head: "A study isn't a designation."
+  text: "The law says national scenic and historic trails are made \"only by Act of Congress\". So making this a national trail would take another law."
+  say: "What it doesn't do. A study isn't a designation. The law says national scenic and historic trails are made only by an act of Congress. So making this a national trail would take another law."
+- chip: "Who gains, who gives"
+  head: "The study covers the route, who owns the land, and what it would cost to build and keep up."
+  rows:
+  - [Consulted, "Other federal agencies, state and local governments, groups, landowners"]
+  - [Cost, "CBO posted an estimate; we couldn't open it, so no number here"]
+  - [Against, "No statement against it was found"]
+  say: "The study covers the route, who owns the land, and what it would cost to build and keep up. Other agencies, governments, groups and landowners are consulted. The Congressional Budget Office posted an estimate, but we couldn't open it. No statement against it was found."
+- chip: How it passed
+  head: "By unanimous consent, so there's no list of who voted which way."
+  rows:
+  - [Sponsor, "Sen. John Curtis (R-UT)"]
+  - [Cosponsor, "Sen. Mike Lee (R-UT)"]
+  - [Next, "The U.S. House of Representatives"]
+  say: "It passed the United States Senate by unanimous consent, so there's no list of who voted which way. The sponsor is Senator John Curtis, Republican of Utah. The cosponsor is Senator Mike Lee, Republican of Utah. Next, the House."
+- chip: Your turn
+  head: "Should Congress study more trails for the national system?"
+  text: "The bill goes to the U.S. House of Representatives next. Tell your representative what you think."
+  say: "Your turn. Should Congress study more trails for the national system? The bill goes to the United States House next. Tell your representative what you think."
+caption: |-
+  On Nov. 19, the U.S. Senate passed S. 1135 by unanimous consent. It orders a study of the Bonneville Shoreline Trail, a system of trails about 280 miles long from the Idaho-Utah border to Nephi, Utah, along the old shoreline of Lake Bonneville.
+
+  Before: the trail isn't on the National Trails System Act's list of routes to study.
+
+  After: it is. The Secretary of Agriculture studies whether a trail can be built along the route and whether it can be paid for, and reports to Congress within three full fiscal years. The study covers the route, land ownership, and the cost to build and maintain it.
+
+  A study isn't a designation. The law says national scenic and historic trails are made only by an act of Congress.
+
+  Sponsor: Sen. John Curtis (R-UT). Cosponsor: Sen. Mike Lee (R-UT).
+
+  Should Congress study more trails like this?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, ussenate, utah, trails, votetherecord]
+notes: >-
+  New this run: the Senate floor activity page for Nov. 19 lists S. 1135 "Passed Senate with an amendment and an
+  amendment to the Title by Unanimous Consent"; the slides follow the engrossed text on GovInfo ("Passed the Senate
+  November 19, 2026"). No CRS summary yet, so the explainer quotes sec. 1. The rest is NTSA sec. 5 in GPO's 2024 U.S.
+  Code: 5(a) "authorized and designated only by Act of Congress"; 5(b) feasibility = "physically possible to develop a
+  trail" and "financially feasible", report "not later than three complete fiscal years from the date of enactment",
+  consultation list, and the report contents (route, land ownership, development and maintenance cost). "3 full
+  fiscal years" counts from the date it becomes law; please confirm no later law changed 5(b). The bill says
+  "national trail" nowhere; 5(b) studies are for "national scenic or national historic trails", which is why the
+  slides say "a national trail". Both S. 1135 and S. 4538 add a paragraph "(50)" to 5(c); not raised on a slide.
+  cbo.gov returned 403 this run (estimate: cbo.gov/publication/62333, as ordered reported March 4, 2026), not
+  retried. The hearing (S.Hrg. 119-238) wasn't opened. No statement for or against was found; unanimous consent, so
+  no case-against slide. Sponsor and cosponsor party and state as congress.gov lists them. News first: takes the Nov.
+  20 6:00 p.m. Reel slot from the evergreen 2026-11-17-bay-area-ridge-trail-study (a bill reported Oct. 29 with no
+  vote), which moves to 2026-12-02T00:00:00-06:00 (Dec. 1 06:00 would put two Reels in a row on main unless the
+  Bennett post pull request merges). Paired with the S. 4538 Reel, same layout.
