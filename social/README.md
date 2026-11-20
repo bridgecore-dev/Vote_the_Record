@@ -183,9 +183,22 @@ word or number, not on everything. The weekly insights report has a "By design" 
 ## AI-generated images
 
 Decoration only (rule 9, owner, 2026-11-19): never a real person, place, building, document, seal, logo or
-event, never evidence, and no facts or numbers inside the image. Mark it on the slide (`ai_image: ...`, or
-`ai: true` on an `image` or `broll` entry); the builder then requires "AI-generated illustration" in the caption
-and `approval: review`.
+event, never evidence, and no facts or numbers inside the image.
+
+```yaml
+- head: ...
+  say: ...
+  ai_image: {prompt: "A calm sunrise over open farmland, soft light", seed: 7}   # captions Reels only
+```
+
+- **`prompt`** is a plain description of a decorative scene, 12-300 characters, with no numbers and no proper
+  names. reel.py refuses words for people and officials, real places and landmarks, seals, flags, logos,
+  documents, text and maps. `seed` (optional) makes the same picture again.
+- **Drawn by** Cloudflare Workers AI (FLUX.1 schnell, `CF_AI_TOKEN`), in the post's palette and one fixed house
+  style, and tagged on screen "AI-generated illustration".
+- **Never with evidence:** an AI-image slide can't also carry a `vote`, `quote`, `doc`, `image` or `broll`.
+  `ai: true` on an `image` or `broll` is refused; AI pictures go in `ai_image` only.
+- **The builder requires** "AI-generated illustration" in the caption and `approval: review`.
 
 ## Bills: always say what it does
 
