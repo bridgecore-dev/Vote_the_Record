@@ -11,9 +11,9 @@ sources:
 - title: "U.S. Senate, Vote 267 (2026)"
   url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00267.xml
   retrieved: '2026-11-18'
-- title: "U.S. Senate, Votes (vote 268)"
-  url: https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.htm
-  retrieved: '2026-11-18'
+- title: "U.S. Senate, Vote 270 (2026)"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00270.htm
+  retrieved: '2026-11-20'
 - title: "Cong. Record, Nov. 10 (SA 6883)"
   url: https://www.govinfo.gov/content/pkg/CREC-2026-11-10/html/CREC-2026-11-10-pt1-PgS5417.htm
   retrieved: '2026-11-17'
@@ -37,7 +37,7 @@ bills:
   title: Bipartisan American Affordability and Jobs Act of 2026 (U.S. Senate substitute)
   does: "Rewrites federal environmental reviews and permits, power line planning and energy leasing; keeps the House bill's tax change."
   affects: "Builders of energy and other projects, agencies that review them, people who sue over them, and data centers."
-  where: "Nov. 18: U.S. Senate adopted the substitute 69-27 and voted 65-31 to end debate. No passage vote yet."
+  where: "Passed the U.S. Senate as amended, 62-33, Nov. 19 (vote 270). The U.S. House passed a different text."
   summary:
     text: "This Act may be cited as the \"Bipartisan American Affordability and Jobs Act of 2026\"."
     title: "SA 6883, sec. 1(a), Congressional Record, Nov. 10, 2026"
@@ -113,4 +113,12 @@ notes: >-
   page wasn't posted yet). The explainer's "where" (also printed in the caption) now says so; the slides still cover vote 264. The Nov. 16
   Press Gallery source is dropped: it backed only the old "more votes are next" line, and the caption was over
   Instagram's limit with the new sources.
-  CHECK BEFORE IT POSTS: if the Senate has passed the bill, update "where" with that vote.
+  CHECK BEFORE IT POSTS: if the Senate has passed the bill, update "where" with that vote. Nov 20 update (before the 3:00 a.m. slot): senate.gov's
+  vote 270 page says "On Passage of the Bill (H.R. 2347, as Amended)", "Bill Passed", YEAs 62, NAYs 33, Not Voting 5
+  (page sha256 f549f8d9ae90506060a9127eb26283867e9b4963bae50a0d36b9941ed6594505). It prints the time as "09:30 AM";
+  the Press Gallery's floor log said the vote began at 9:30 p.m., so no time is on the post. By party, counted from
+  the page: R 47 Yea, 2 Nay, 4 didn't vote; D 14 Yea, 30 Nay, 1 didn't vote; I 1 Yea, 1 Nay. "where" (printed in
+  the caption) now gives the passage; the slides still cover vote 264. The vote 268 menu source was swapped for the
+  vote 270 page, since "where" no longer gives 65-31. Senate passage isn't in record_ids, so a later post can cover
+  vote 270 itself. The Press Gallery's site refused a second request this run (not retried), so the managers'
+  amendment (No. 7030) and whether it was adopted aren't checked; "as amended" is the vote page's wording.
