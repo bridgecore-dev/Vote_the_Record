@@ -1,0 +1,100 @@
+kind: carousel
+level: congress
+topic: Federal courts
+approval: review
+record_ids: [us/119/2/senate/roll/271]
+publish_after: '2026-11-21T03:00:00-06:00'
+sources:
+- title: "U.S. Senate, Roll Call Vote 271 (2026)"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00271.htm
+  retrieved: '2026-11-20'
+- title: "U.S. Senate, Executive Calendar, Nov. 20, 2026"
+  url: https://www.senate.gov/legislative/LIS/executive_calendar/xcalv.pdf
+  retrieved: '2026-11-20'
+- title: "U.S. Senate, Cloture: Historical Overview"
+  url: https://www.senate.gov/about/powers-procedures/filibusters-cloture/overview.htm
+  retrieved: '2026-11-20'
+- title: "28 U.S.C. 124 (GPO, 2023 ed.)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title28/html/USCODE-2023-title28-partI-chap5-sec124.htm
+  retrieved: '2026-11-20'
+- title: "28 U.S.C. 133 (GPO, 2023 ed.)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title28/html/USCODE-2023-title28-partI-chap5-sec133.htm
+  retrieved: '2026-11-20'
+- title: "28 U.S.C. 134 (GPO, 2023 ed.)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title28/html/USCODE-2023-title28-partI-chap5-sec134.htm
+  retrieved: '2026-11-20'
+- title: "U.S. Courts, About U.S. District Courts"
+  url: https://www.uscourts.gov/about-federal-courts/court-role-and-structure/about-us-district-courts
+  retrieved: '2026-11-20'
+- title: "National Archives, U.S. Constitution"
+  url: https://www.archives.gov/founding-docs/constitution-transcript
+  retrieved: '2026-11-20'
+slides:
+- chip: "Roll call 271 · Nov. 19, 2026"
+  head: "The U.S. Senate voted 48-46 to end debate on Richard Bennett, nominated as a federal trial judge for the Southern District of Texas."
+  vote: {yea: 48, nay: 46, not_voting: 6}
+  text: "That district includes Harris County."
+- chip: How they voted
+  head: By party, as the U.S. Senate records it
+  rows:
+  - [Republican, "48 Yea · 0 Nay · 5 didn't vote"]
+  - [Democratic, "0 Yea · 44 Nay · 1 didn't vote"]
+  - [Independent, "0 Yea · 2 Nay · 0 didn't vote"]
+  text: "The 46 Nay votes are too many to list here; every name is in vote 271 on senate.gov."
+- chip: What cloture means
+  head: "A cloture motion is a vote to end debate, so the U.S. Senate can move to a final vote."
+  quote: {label: "U.S. Senate, Cloture: Historical Overview", text: "The Senate adopted new precedents in the 2010s to allow a simple majority to end debate on nominations."}
+  text: "Vote 271 needed a majority of those voting (\"1/2\" on the Senate's record). Yea = end debate. Nay = keep debating."
+- chip: What comes next
+  head: "A second vote decides whether he is confirmed."
+  quote: {label: "U.S. Senate, Executive Calendar, Nov. 20, 2026", text: "at 11 a.m., notwithstanding Rule XXII, all post-cloture time expire on the Bennett nomination."}
+  text: "The Senate's order set the confirmation vote for Nov. 20. Check senate.gov for the result."
+- chip: The court
+  head: "District courts are where federal trials happen."
+  quote: {label: "United States Courts, About U.S. District Courts", text: "U.S. district courts are the primary trial courts of the federal court system."}
+  text: "Its Houston Division covers Harris, Fort Bend, Montgomery and 10 more counties. Six other divisions include Galveston, Laredo, Brownsville and McAllen."
+- chip: Before → after
+  head: "The seat is open because a judge retired. The number of judges stays the same."
+  rows:
+  - [Now, "Federal law sets 19 judgeships for the Southern District of Texas."]
+  - [The seat, "Bennett is nominated \"vice Andrew S. Hanen, retired\", to fill that judge's seat."]
+  - [After, "Still 19 judgeships. Confirmation fills one seat; it adds none."]
+- chip: How long
+  head: "There is no set term."
+  quote: {label: "28 U.S.C. 134(a)", text: "The district judges shall hold office during good behavior."}
+  text: "The President nominates and the U.S. Senate confirms (Constitution, Article II, Section 2)."
+- chip: Check it yourself
+  head: "Look up how your senators voted."
+  rows:
+  - ["U.S. Senate", "senate.gov: roll call votes, 119th Congress, 2nd session, vote 271"]
+  text: "Should the U.S. Senate need 51 votes or 60 to end debate on a judge? Tell us what you think."
+caption: |-
+  On Nov. 19, 2026, the U.S. Senate voted 48-46 to end debate (cloture) on the nomination of Richard Wesley Bennett, of Texas, to be a U.S. District Judge for the Southern District of Texas (vote 271).
+
+  Republican: 48 Yea, 0 Nay, 5 didn't vote.
+  Democratic: 0 Yea, 44 Nay, 1 didn't vote.
+  Independent: 0 Yea, 2 Nay.
+
+  Cloture is a vote to end debate. For nominations it takes a simple majority. A second vote, on confirmation, was set for Nov. 20.
+
+  The Southern District of Texas includes Harris County. Bennett would fill the seat of Judge Andrew S. Hanen, who retired. Federal law sets 19 judgeships there, and district judges have no set term.
+
+  51 votes or 60 to end debate on a judge: what do you think?
+hashtags: [ussenate, federalcourts, harriscounty, rollcall, votetherecord]
+notes: >-
+  New this run: Senate vote 271 (Nov. 19, 10:07 p.m. ET), not in any post. Tally, "1/2" majority requirement,
+  party counts and the six not-voting names (Cassidy, Cornyn, Curtis, McConnell, Tuberville R; Murphy D) were counted
+  from vote_119_2_00271.xml; party as the Senate lists it. The Senate Press Gallery's Nov. 19 log says "49-46" with
+  five not voting (no Curtis); the Senate's own XML and vote page say 48-46, and the post follows the Senate record.
+  46 Nays are over the ~40-name limit, so totals and a link. "Vice Andrew S. Hanen, retired", PN1272-4 and the Nov. 20
+  11 a.m. order are from the Nov. 20 Executive Calendar (xcalv.pdf is replaced daily; reported by Mr. Grassley, Nov. 10,
+  "without printed report"). Divisions and 19 judgeships are from GPO's 2023 U.S. Code (28 U.S.C. 124(b), 133(a));
+  please confirm no later law changed them. The confirmation vote (11 a.m. ET Nov. 20) wasn't on senate.gov's vote
+  list when this was written, after waiting about 90 minutes: BEFORE THIS POSTS, the next run should add the
+  confirmation roll call's tally (and its record ID) or replace slide 4. congress.gov's API lists PN1272 as a different
+  nominee (a partitioned nomination), so it wasn't used. No floor statements for or against were opened (the Nov. 19
+  Congressional Record isn't on GovInfo yet), so no case for/against slide. News first: takes the Nov. 21 3:00 a.m.
+  post slot (the Nov. 20 3:00 p.m. and 9:00 p.m. post slots hold this week's news) and moves the evergreen
+  2026-11-18-criminal-history-access-act (presented to the President Nov. 12, more than a week ago) to
+  2026-11-30T03:00:00-06:00, the first post slot after the last queued post that keeps the alternation (Nov. 29's only
+  post is at 3:00 a.m.).
