@@ -1,0 +1,127 @@
+kind: reel
+level: congress
+topic: Scams and fraud
+approval: review
+record_ids:
+- us/119/H.R. 5490/house-passed
+publish_after: '2026-11-26T12:00:00-06:00'
+sources:
+- title: House Clerk floor log, Nov. 18, 2026
+  url: https://clerk.house.gov/floor/20261118.xml
+  retrieved: '2026-11-20'
+- title: Congressional Record, Nov. 18, 2026, pp. H6262-H6266
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-11-18/html/CREC-2026-11-18-pt1-PgH6262-5.htm
+  retrieved: '2026-11-20'
+- title: H.R. 5490 actions (Congress.gov)
+  url: https://api.congress.gov/v3/bill/119/hr/5490/actions
+  retrieved: '2026-11-20'
+- title: 50 U.S.C. 1701 (IEEPA sec. 202)
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title50/html/USCODE-2023-title50-chap35-sec1701.htm
+  retrieved: '2026-11-20'
+- title: FBI IC3
+  url: https://www.ic3.gov/
+  retrieved: '2026-11-20'
+bills:
+- id: H.R. 5490
+  title: Dismantle Foreign Scam Syndicates Act
+  does: Would create a federal task force to shut down overseas scam centers and let the President sanction the people behind
+    them.
+  affects: Scam operators and officials who enable them; Americans targeted by online scams; people trafficked into scam centers.
+  where: Passed the U.S. House of Representatives by voice vote Nov. 18, 2026. Next, the U.S. Senate.
+  summary:
+    text: This bill establishes an interagency task force to shut down criminal syndicates perpetuating mass online scams.
+      This bill also explicitly authorizes sanctions against foreign individuals or entities operating or providing support
+      to scam compounds.
+    title: CRS summary of H.R. 5490
+    url: https://api.congress.gov/v3/bill/119/hr/5490/summaries
+    retrieved: '2026-11-20'
+  say: H.R. 5490, the Dismantle Foreign Scam Syndicates Act, would create a federal task force to shut down overseas scam
+    centers, and let the President sanction the people behind them. Next, it goes to the United States Senate.
+slides:
+- kicker: U.S. House of Representatives · Nov. 18
+  big: $10 billion
+  head: What Americans lost to overseas scam centers in 2024, says a bill the House just passed, citing the Treasury.
+  quote:
+    label: H.R. 5490, findings, as passed
+    text: According to the Department of Treasury, Americans lost at least $10,000,000,000 from these operations in 2024 alone,
+      a 33 percent increase from the previous year.
+  say: Americans lost at least $10 billion to overseas scam centers in 2024, says a bill the United States House just passed,
+    citing the Treasury.
+- chip: What the bill is about
+  big: H.R. 5490
+  head: 'It targets "pig butchering": fake online relationships that push victims to invest in phony platforms.'
+  text: The bill's findings say the scam centers run on the forced labor of trafficking victims, mostly in Burma, Laos and
+    Cambodia.
+  say: 'H.R. 5490 targets pig butchering: fake online relationships that push victims to invest in phony platforms. The bill
+    says the scam centers run on the forced labor of trafficking victims, mostly in Burma, Laos and Cambodia.'
+- chip: 'Before: current law'
+  head: To block a foreign person's U.S. assets under the emergency powers law, the President must first declare a national
+    emergency.
+  quote:
+    label: 50 U.S.C. 1701 (IEEPA sec. 202)
+    text: may only be exercised to deal with an unusual and extraordinary threat with respect to which a national emergency
+      has been declared
+  say: 'Before, under current law: to block a foreign person''s U.S. assets under the emergency powers law, the President
+    must first declare a national emergency.'
+- chip: 'After: under the bill'
+  head: The President could block scam bosses' assets without that step, and they'd be barred from U.S. visas.
+  rows:
+  - - Task force
+    - Within 30 days; led by State, with Justice, Homeland Security, Treasury
+  - - Strategy
+    - Due to Congress within 240 days; task force ends after 5 years
+  - - Sanctions
+    - Scam operators, their backers, officials who knowingly enable them
+  - - Waiver
+    - The President can waive for national security, with 15 days' notice
+  say: 'After, under the bill: the President could block scam bosses'' assets without that step, and bar them from U.S. visas.
+    A task force would start within 30 days, and send Congress a strategy within 240 days.'
+- chip: Who gains, who loses, what it costs
+  head: 'No new money: the bill uses funds already authorized under the Foreign Assistance Act, sec. 481.'
+  rows:
+  - - Gain
+    - Americans targeted by these scams; victims of trafficking and fraud
+  - - Lose
+    - 'Foreign scam operators and enablers: assets blocked, visas barred'
+  say: 'Who gains: Americans targeted by these scams, and victims of trafficking and fraud. Who loses: foreign scam operators
+    and enablers. No new money: the bill uses funds already authorized.'
+- chip: How it passed
+  head: A voice vote under suspension of the rules, a fast-track that needs two-thirds. No member-by-member tally.
+  quote:
+    label: Congressional Record, Nov. 18, 2026, p. H6266
+    text: (two-thirds being in the affirmative) the rules were suspended and the bill, as amended, was passed.
+  text: Every member who spoke in the debate supported it, including floor leaders Rep. Brian Mast (R-FL) and Rep. Johnny Olszewski
+    (D-MD).
+  say: The United States House passed it by voice vote under suspension of the rules, a fast-track that needs two-thirds.
+    There's no member-by-member tally. Every member who spoke in the debate supported it.
+- chip: What's next
+  head: 'Next: the U.S. Senate. Sponsor: Rep. Jefferson Shreve (R-IN), with 74 cosponsors.'
+  text: Lost money to a scam? Report it to the FBI at ic3.gov. Should Congress do more about overseas scams?
+  say: Next, it goes to the United States Senate. The sponsor is Representative Jefferson Shreve, Republican of Indiana, with
+    74 cosponsors. Lost money to a scam? Report it at ic3.gov.
+caption: |-
+  The U.S. House of Representatives passed the Dismantle Foreign Scam Syndicates Act (H.R. 5490) by voice vote on Nov. 18. Its findings cite a Treasury figure: Americans lost at least $10 billion to overseas scam centers in 2024.
+
+  Before: to block a foreign person's U.S. assets under the emergency powers law, the President must first declare a national emergency.
+  After: the President could block the assets of scam operators, their backers and officials who knowingly enable them without that step, and bar them from U.S. visas. A State-led task force would send Congress a strategy within 240 days and end after 5 years.
+
+  No new money: the bill uses funds already authorized. It passed under suspension of the rules, which needs two-thirds, so there's no member-by-member tally. Next: the U.S. Senate.
+
+  Lost money to a scam? Report it at ic3.gov.
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags:
+- congress
+- scams
+- pigbutchering
+- fraud
+- votetherecord
+notes: 'New this run: the House passed H.R. 5490 on Nov. 18 (Clerk floor log, 2:21:59 p.m.: "On motion to suspend the rules
+  and pass the bill, as amended Agreed to by voice vote"); the earlier post (2026-11-15) covered only its floor schedule. Fills
+  the Nov. 26 12:00 p.m. Reel slot (the next free slot that keeps the Reel/post turn; Nov. 20-25 are full). The engrossed
+  text isn''t on GovInfo yet, so the passed text is the version printed in the Record (H6262-H6264); the $10 billion finding,
+  30 and 240 days, 5-year sunset, IEEPA sec. 202 override, visa bar, 15-day waiver notice and sec. 481 funding were all checked
+  in it. No case against: every speaker (Mast, Olszewski, Shreve, Meuser) supported it and no member spoke against; the members''
+  own loss figures ($15B, $17.7B, $260B) are left off. CBO''s estimate (cbo.gov/publication/61971) returned 403 once and wasn''t
+  retried, so no cost figure. Sponsor party/state and 74 cosponsors from the Congress.gov API; Mast and Olszewski party/state
+  from Congress.gov member records. Source titles shortened after the first preview clipped the source footer. If the U.S. Senate acts before the slot, update "where" and the last slide.'
