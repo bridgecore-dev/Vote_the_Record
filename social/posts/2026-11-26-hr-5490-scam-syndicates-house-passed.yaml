@@ -6,19 +6,19 @@ record_ids:
 - us/119/H.R. 5490/house-passed
 publish_after: '2026-11-26T12:00:00-06:00'
 sources:
-- title: U.S. House Clerk, House floor proceedings, Nov. 18, 2026
+- title: House Clerk floor log, Nov. 18, 2026
   url: https://clerk.house.gov/floor/20261118.xml
   retrieved: '2026-11-20'
-- title: Congressional Record, Nov. 18, 2026, Dismantle Foreign Scam Syndicates Act, pp. H6262-H6266 (GPO)
+- title: Congressional Record, Nov. 18, 2026, pp. H6262-H6266
   url: https://www.govinfo.gov/content/pkg/CREC-2026-11-18/html/CREC-2026-11-18-pt1-PgH6262-5.htm
   retrieved: '2026-11-20'
-- title: H.R. 5490 actions (Congress.gov API)
+- title: H.R. 5490 actions (Congress.gov)
   url: https://api.congress.gov/v3/bill/119/hr/5490/actions
   retrieved: '2026-11-20'
-- title: 50 U.S.C. 1701 (International Emergency Economic Powers Act, sec. 202), U.S. Code, 2023 edition (GPO)
+- title: 50 U.S.C. 1701 (IEEPA sec. 202)
   url: https://www.govinfo.gov/content/pkg/USCODE-2023-title50/html/USCODE-2023-title50-chap35-sec1701.htm
   retrieved: '2026-11-20'
-- title: FBI Internet Crime Complaint Center (IC3)
+- title: FBI IC3
   url: https://www.ic3.gov/
   retrieved: '2026-11-20'
 bills:
@@ -32,7 +32,7 @@ bills:
     text: This bill establishes an interagency task force to shut down criminal syndicates perpetuating mass online scams.
       This bill also explicitly authorizes sanctions against foreign individuals or entities operating or providing support
       to scam compounds.
-    title: Congressional Research Service summary of H.R. 5490
+    title: CRS summary of H.R. 5490
     url: https://api.congress.gov/v3/bill/119/hr/5490/summaries
     retrieved: '2026-11-20'
   say: H.R. 5490, the Dismantle Foreign Scam Syndicates Act, would create a federal task force to shut down overseas scam
@@ -124,4 +124,4 @@ notes: 'New this run: the House passed H.R. 5490 on Nov. 18 (Clerk floor log, 2:
   in it. No case against: every speaker (Mast, Olszewski, Shreve, Meuser) supported it and no member spoke against; the members''
   own loss figures ($15B, $17.7B, $260B) are left off. CBO''s estimate (cbo.gov/publication/61971) returned 403 once and wasn''t
   retried, so no cost figure. Sponsor party/state and 74 cosponsors from the Congress.gov API; Mast and Olszewski party/state
-  from Congress.gov member records. If the U.S. Senate acts before the slot, update "where" and the last slide.'
+  from Congress.gov member records. Source titles shortened after the first preview clipped the source footer. If the U.S. Senate acts before the slot, update "where" and the last slide.'
