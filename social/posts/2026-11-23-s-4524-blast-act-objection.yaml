@@ -1,0 +1,105 @@
+kind: carousel
+level: congress
+topic: Ethics
+approval: review
+record_ids: ['us/119/S. 4524/senate-uc-objection-2026-11-18']
+publish_after: '2026-11-23T15:00:00-06:00'
+sources:
+- title: "Congressional Record, Nov. 18, 2026, pp. S5750-S5751 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-11-18/pdf/CREC-2026-11-18.pdf
+  retrieved: '2026-11-20'
+- title: "S. 4524 as introduced (GPO)"
+  url: https://www.congress.gov/119/bills/s4524/BILLS-119s4524is.htm
+  retrieved: '2026-11-20'
+- title: "S. 4524 actions and cosponsors (Congress.gov)"
+  url: https://www.congress.gov/bill/119th-congress/senate-bill/4524
+  retrieved: '2026-11-20'
+- title: "18 U.S.C. 207 (2024 U.S. Code, GPO)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title18/html/USCODE-2024-title18-partI-chap11-sec207.htm
+  retrieved: '2026-11-20'
+- title: "18 U.S.C. 216 (2024 U.S. Code, GPO)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title18/html/USCODE-2024-title18-partI-chap11-sec216.htm
+  retrieved: '2026-11-20'
+- title: "U.S. Senate, Vote 272 (party and state as listed)"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00272.xml
+  retrieved: '2026-11-20'
+bills:
+- id: S. 4524
+  title: Banning Lobbying And Safeguarding Trust Act (BLAST Act)
+  does: "Would bar former members of Congress from lobbying Congress at any time after leaving office, not just for 1 or 2 years."
+  affects: "Senators, House members, and elected officers of the U.S. Senate and House who leave office after it becomes law."
+  where: "In the Senate Judiciary Committee since May 13, 2026. A Nov. 18 request to pass it drew an objection."
+  summary:
+    text: >-
+      To amend title 18, United States Code, to prohibit former Members and elected officers of Congress from
+      lobbying Congress at any time after leaving office.
+    title: "S. 4524 as introduced, the bill's own description (no CRS summary yet)"
+    url: https://www.congress.gov/119/bills/s4524/BILLS-119s4524is.htm
+    retrieved: '2026-11-20'
+slides:
+- kicker: "U.S. Senate · Nov. 18, 2026"
+  big: "1 objection"
+  head: "A lifetime ban on former members of Congress lobbying Congress came to the U.S. Senate floor. One objection stopped it."
+  text: "S. 4524, the BLAST Act. Sen. Rick Scott (R-FL) asked to pass it. Sen. Thom Tillis (R-NC) objected."
+- chip: How it was stopped
+  head: "Unanimous consent: a request to pass a bill on the spot, with no roll call, if no senator objects."
+  quote: {label: "Sen. Rick Scott (R-FL), Congressional Record", text: "I ask unanimous consent that the Committee on the Judiciary be discharged from further consideration of S. 4524 and the Senate proceed to its immediate consideration", key: "I ask unanimous consent"}
+  text: "Tillis objected. The presiding officer: \"The objection is heard.\" The bill stays in committee."
+- chip: "Before → after"
+  head: "Today, the wait is 2 years for former senators and 1 year for former House members."
+  rows:
+  - [Now, "Former senators: no lobbying Congress for 2 years after leaving"]
+  - [Now, "Former House members: no lobbying Congress for 1 year"]
+  - [S. 4524, "No lobbying Congress at any time after leaving office"]
+  - [S. 4524, "Also bars registering as a lobbyist after leaving"]
+  text: "Lobbying here means contacting Congress for someone else \"with the intent to influence\". It covers only people who leave office after it becomes law."
+  by: "Now: 18 U.S.C. 207(e)(1). After: S. 4524, sec. 2."
+- chip: The penalty
+  head: "Breaking the ban would be a federal crime, as the 1- and 2-year limits are now."
+  rows:
+  - [Prison, "Up to 1 year, or up to 5 years if done willfully"]
+  - [Civil fine, "Up to $50,000 per violation, or what was paid for it, if more"]
+  text: "Cost: Congress.gov lists no cost estimate for the bill."
+  by: "18 U.S.C. 216(a)-(b)"
+- chip: The case for
+  head: "Sen. Rick Scott (R-FL), who introduced the bill with Sen. Elizabeth Warren (D-MA):"
+  quote: {label: "Congressional Record, Nov. 18, 2026", text: "if you leave Congress, you shouldn't be able to turn your former position into a lobbying business targeting your former colleagues.", key: "a lobbying business"}
+- chip: The case against
+  head: "Sen. Thom Tillis (R-NC), on unpaid help for causes and constituents:"
+  quote: {label: "Congressional Record, Nov. 18, 2026", text: "Under this bill, if I had those passions and I just wanted to make a call and encourage people to do it, not getting paid a dime, I am breaking the law.", key: "not getting paid a dime"}
+  text: "He named advocacy for Alzheimer's research, autism, veterans and people on Medicaid."
+- chip: Scott's reply
+  head: "Scott said short bans get worked around, and offered to take changes."
+  quote: {label: "Congressional Record, Nov. 18, 2026", text: "what people do is they say: Well, I am not the lobbyist; I just advise the lobbyist, and I sit in the meetings.", key: "I just advise the lobbyist"}
+  text: "\"I will be glad to take any amendment ideas anybody has.\""
+- chip: Your turn
+  head: "Which side convinces you?"
+  text: "Should former members of Congress ever be able to lobby it? Your senators' contact pages are at senate.gov."
+caption: |-
+  On Nov. 18, Sen. Rick Scott (R-FL) asked the U.S. Senate to pass S. 4524, the BLAST Act, by unanimous consent: on the spot, with no roll call, if no senator objects. Sen. Thom Tillis (R-NC) objected, so the bill stays in the Senate Judiciary Committee.
+
+  Now: former senators can't lobby Congress for 2 years after leaving, and former House members for 1 year (18 U.S.C. 207(e)).
+  After: the bill would make that ban permanent, and also bar registering as a lobbyist. It covers only people who leave office after it becomes law.
+
+  For: Scott, who introduced it with Sen. Elizabeth Warren (D-MA), said former members shouldn't turn their position "into a lobbying business targeting your former colleagues."
+  Against: Tillis said that under the bill, even an unpaid call for a cause like Alzheimer's research or for veterans would be "breaking the law."
+
+  No cost estimate is listed. Which side convinces you?
+hashtags: [congress, ussenate, lobbying, ethics, votetherecord]
+notes: >-
+  New this run: the Senate Press Gallery's Nov. 18 log says Sen. Scott "asked unanimous consent to pass S. 4524;
+  Senator Tillis objected" (5:42 p.m.). The post rests on the Nov. 18 Congressional Record (GPO daily PDF, pages
+  S5750-S5751, "UNANIMOUS CONSENT REQUEST—S. 4524"); every quote was copied from it. Current law from GPO's 2024
+  U.S. Code: 207(e)(1)(A) "within 2 years" for Senators, (B) "within 1 year" for House Members and elected House
+  officers; please confirm no later law changed 207(e). Penalties from 216(a)(1)-(2) and (b). Bill text: sec. 2(a)
+  "at any time after" is the long title's wording; the new 207(e)(1)(A) bars registering under LDA sec. 4, and
+  sec. 2(d) applies it only to those who leave office on or after enactment. Sec. 2(b) (former members paid for
+  lobbying activities count as "lobbyist") is not on a slide. No CRS summary or CBO estimate exists (api.congress.gov,
+  read this run), so the explainer quotes the long title. CRS lists an identical House bill; not named (one bill per
+  post). Tillis's reading of the bill is his quoted words; we don't say whether it is right. Party and state: Scott
+  and Warren as congress.gov lists them; Tillis as the Senate's vote 272 XML lists him (R-NC). Nobody voted, so there
+  is no tally. The Senate glossary page on unanimous consent redirected (moved), so slide 2's plain-words line rests
+  on the request and "Is there an objection?" in the Record itself. News first: takes the Nov. 23 3:00 p.m. post
+  slot (every earlier post slot holds this week's actions, and Nov. 23 9:00 a.m. is taken by the Coker pull
+  request) and moves the evergreen 2026-11-21-texas-hb-1175-first-responder-fee-waivers (a prefiled bill) to
+  2026-12-04T03:00:00-06:00, the first post slot after the last queued post that keeps each day's turns.
