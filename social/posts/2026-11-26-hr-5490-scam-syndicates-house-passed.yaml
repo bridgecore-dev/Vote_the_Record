@@ -5,6 +5,7 @@ approval: review
 record_ids:
 - us/119/H.R. 5490/house-passed
 publish_after: '2026-11-22T06:00:00-06:00'
+trial: auto
 sources:
 - title: House Clerk floor log, Nov. 18, 2026
   url: https://clerk.house.gov/floor/20261118.xml

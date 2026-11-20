@@ -4,6 +4,7 @@ topic: Public lands
 approval: review
 record_ids: ["us/119/2/house/roll/324"]
 publish_after: '2026-11-21T18:00:00-06:00'
+trial: auto
 rule: >-
   Vote posts list every member on the smaller side of the roll call, with party and state as the House Clerk
   records them. Here no member voted Nay, so there are no names to list.

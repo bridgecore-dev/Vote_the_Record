@@ -4,6 +4,7 @@ topic: Public lands
 approval: review
 record_ids: [us/119/S. 1135/senate-passed]
 publish_after: '2026-11-20T18:00:00-06:00'
+trial: auto
 rule: >-
   Bills the U.S. Senate's floor activity page lists as passed on Nov. 19, 2026 that no post covers yet. Two of them
   order a national trail feasibility study, S. 1135 (Utah) and S. 4538 (Virginia to Pennsylvania); each gets its own

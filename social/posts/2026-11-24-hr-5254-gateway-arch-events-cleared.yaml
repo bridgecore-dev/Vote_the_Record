@@ -4,6 +4,7 @@ topic: Public lands
 approval: review
 record_ids: ["us/119/H.R. 5254/senate-passed"]
 publish_after: '2026-11-25T00:00:00-06:00'
+trial: auto
 rule: >-
   Every House bill the U.S. Senate passed on Nov. 17, 2026, as the House Clerk's Nov. 18 floor log lists them
   (H.R. 5254 and H.R. 8454), gets its own post with the same structure.
