@@ -1,0 +1,93 @@
+kind: carousel
+level: congress
+topic: Federal courts
+approval: review
+record_ids: [us/119/2/senate/roll/273]
+publish_after: '2026-11-23T09:00:00-06:00'
+sources:
+- title: "U.S. Senate, Roll Call Vote 273 (2026)"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00273.htm
+  retrieved: '2026-11-20'
+- title: "U.S. Senate, Executive Calendar, Nov. 20, 2026"
+  url: https://www.senate.gov/legislative/LIS/executive_calendar/xcalv.pdf
+  retrieved: '2026-11-20'
+- title: "U.S. Senate, Cloture: Historical Overview"
+  url: https://www.senate.gov/about/powers-procedures/filibusters-cloture/overview.htm
+  retrieved: '2026-11-20'
+- title: "28 U.S.C. 124 (GPO, 2023 ed.)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title28/html/USCODE-2023-title28-partI-chap5-sec124.htm
+  retrieved: '2026-11-20'
+- title: "28 U.S.C. 133 (GPO, 2023 ed.)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title28/html/USCODE-2023-title28-partI-chap5-sec133.htm
+  retrieved: '2026-11-20'
+- title: "28 U.S.C. 134 (GPO, 2023 ed.)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title28/html/USCODE-2023-title28-partI-chap5-sec134.htm
+  retrieved: '2026-11-20'
+- title: "U.S. Courts, About U.S. District Courts"
+  url: https://www.uscourts.gov/about-federal-courts/court-role-and-structure/about-us-district-courts
+  retrieved: '2026-11-20'
+- title: "National Archives, U.S. Constitution"
+  url: https://www.archives.gov/founding-docs/constitution-transcript
+  retrieved: '2026-11-20'
+slides:
+- chip: "Roll call 273 · Nov. 20, 2026"
+  head: "The U.S. Senate voted 49-43 to end debate on Courtney Leigh Coker, nominated as a federal trial judge for the Northern District of Texas."
+  vote: {yea: 49, nay: 43, not_voting: 8}
+  text: "That district includes Dallas, Fort Worth, Lubbock and Amarillo."
+- chip: How they voted
+  head: By party, as the U.S. Senate records it
+  rows:
+  - [Republican, "49 Yea · 0 Nay · 4 didn't vote"]
+  - [Democratic, "0 Yea · 41 Nay · 4 didn't vote"]
+  - [Independent, "0 Yea · 2 Nay · 0 didn't vote"]
+  text: "The 43 Nay votes are too many to list here; every name is in vote 273 on senate.gov."
+- chip: What cloture means
+  head: "A cloture motion is a vote to end debate, so the U.S. Senate can move to a final vote."
+  quote: {label: "U.S. Senate, Cloture: Historical Overview", text: "The Senate adopted new precedents in the 2010s to allow a simple majority to end debate on nominations."}
+  text: "Vote 273 needed a majority of those voting (\"1/2\" on the Senate's record). Yea = end debate. Nay = keep debating."
+- chip: The court
+  head: "District courts are where federal trials happen."
+  quote: {label: "United States Courts, About U.S. District Courts", text: "U.S. district courts are the primary trial courts of the federal court system."}
+  text: "The Northern District of Texas has seven divisions: Dallas, Fort Worth, Abilene, San Angelo, Amarillo, Wichita Falls and Lubbock."
+- chip: Before → after
+  head: "The seat is open because a judge retired. The number of judges stays the same."
+  rows:
+  - [Now, "Federal law sets 12 judgeships for the Northern District of Texas."]
+  - [The seat, "Coker is nominated \"vice David C. Godbey, retired\", to fill that judge's seat."]
+  - [After, "Still 12 judgeships. Confirming her would fill one seat; it adds none."]
+- chip: What comes next
+  head: "Ending debate is not the final vote."
+  text: "The next step is a vote on the nomination itself: Yea = confirm her as a judge, Nay = don't. Federal district judges have no set term."
+  quote: {label: "28 U.S.C. 134(a)", text: "The district judges shall hold office during good behavior."}
+- chip: Check it yourself
+  head: "Look up how your senators voted."
+  rows:
+  - ["U.S. Senate", "senate.gov: roll call votes, 119th Congress, 2nd session, vote 273"]
+  text: "The President nominates and the U.S. Senate confirms (Constitution, Article II, Section 2). Should it take 51 votes or 60 to end debate on a judge? Tell us what you think."
+caption: |-
+  On Nov. 20, 2026, the U.S. Senate voted 49-43 to end debate (cloture) on the nomination of Courtney Leigh Coker, of Texas, to be a U.S. District Judge for the Northern District of Texas (vote 273).
+
+  Republican: 49 Yea, 0 Nay, 4 didn't vote.
+  Democratic: 0 Yea, 41 Nay, 4 didn't vote.
+  Independent: 0 Yea, 2 Nay.
+
+  Cloture is a vote to end debate. For nominations it takes a simple majority. The vote on the nomination itself comes next.
+
+  The Northern District of Texas has seven divisions, including Dallas, Fort Worth, Lubbock and Amarillo. Coker is nominated to the seat of Judge David C. Godbey, who retired. Federal law sets 12 judgeships there, and district judges have no set term.
+
+  51 votes or 60 to end debate on a judge: what do you think?
+hashtags: [ussenate, federalcourts, texas, rollcall, votetherecord]
+notes: >-
+  New this run: Senate vote 273 (Nov. 20, 12:02 p.m. ET, "Cloture Motion Agreed to (49-43)", "1/2"), not in any post.
+  Tally, party counts and the eight not-voting names (Britt, Cassidy, Cornyn, Tuberville R; Booker, Coons, Klobuchar,
+  Murphy D) were counted from vote_119_2_00273.xml; party as the Senate lists it. 43 Nays are over the ~40-name limit,
+  so totals and a link. "Vice David C. Godbey, retired", PN1272-5 and "reported by Mr. Grassley, Nov. 10, without
+  printed report" are from the Nov. 20 Executive Calendar (xcalv.pdf is replaced daily). The seven divisions and 12
+  judgeships are from GPO's 2023 U.S. Code (28 U.S.C. 124(a), 133(a)); please confirm no later law changed them.
+  Same layout and wording as the Bennett post (votes 271-272). The confirmation vote wasn't on senate.gov's vote list
+  when this was written (about 2.5 hours after cloture): BEFORE THIS POSTS, the next run should add the confirmation
+  roll call's tally (and its record ID) in place of slide 6, or leave it if no vote has happened. No floor statements
+  for or against were opened (the Nov. 20 Congressional Record isn't on GovInfo yet), so no case for/against slide.
+  News first: takes the Nov. 23 9:00 a.m. post slot, the first post slot held by an evergreen post (every earlier
+  post slot holds this week's votes and passages), and moves the evergreen 2026-11-17-texas-hb-639-hb-671-ai-political-ads
+  (prefiled bills) to 2026-12-03T03:00:00-06:00, the first post slot after the last queued post (the Dec. 3 12:00 a.m. Reel).
