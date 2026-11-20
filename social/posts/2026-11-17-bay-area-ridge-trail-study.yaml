@@ -20,12 +20,15 @@ sources:
   retrieved: '2026-11-15'
 - title: Congress.gov, H.R. 7254 actions and cosponsors
   url: https://api.congress.gov/v3/bill/119/hr/7254/actions
-  retrieved: '2026-11-15'
+  retrieved: '2026-11-20'
+- title: "House Clerk floor summary, Nov. 19, 2026"
+  url: https://clerk.house.gov/floor/20261119.xml
+  retrieved: '2026-11-20'
 bills:
 - id: H.R. 7254
   does: "Would have the Interior Dept. study, within 3 years, whether to make the Bay Area Ridge Trail a national scenic trail."
   affects: "The 550-mile trail around the San Francisco Bay Area, its council, and the agencies whose land it crosses."
-  where: "Approved by the House Natural Resources Committee by unanimous consent. On the House schedule week of Nov. 16."
+  where: "Approved in committee by unanimous consent. No vote before the House's Nov. 19-29 district work period."
   summary:
     text: >-
       This bill requires the Department of the Interior to study the feasibility of designating the Bay Area
@@ -58,18 +61,18 @@ slides:
   say: "What it costs: CBO estimates the study would cost less than $500,000 over 2027 to 2031, if Congress funds it."
 - chip: Where it stands
   head: "Sponsor: Rep. Jared Huffman (D-CA), with 11 Democratic cosponsors. The committee approved it by unanimous consent."
-  text: "It's listed for a vote this week under rules that require two-thirds of those voting; check congress.gov for the latest. Should Congress study more trails like this?"
-  say: "Sponsor: Representative Jared Huffman, Democrat of California, with 11 Democratic cosponsors. The committee approved it by unanimous consent. It's listed for a vote this week under rules that require two-thirds of those voting; check congress.gov for the latest. Should Congress study more trails like this?"
+  text: "It was listed for a vote the week of Nov. 16, but no vote was held before the U.S. House of Representatives began a district work period from Nov. 19 to 29. Check congress.gov for the latest. Should Congress study more trails like this?"
+  say: "Sponsor: Representative Jared Huffman, Democrat of California, with 11 Democratic cosponsors. The committee approved it by unanimous consent. No vote was held before the United States House began a district work period, November 19 to 29. Should Congress study more trails like this?"
 caption: |-
-  The Bay Area Ridge Trail runs about 550 miles along the hills around the San Francisco Bay Area and links more than 75 parks. H.R. 7254, on the House schedule this week, would order a study of making it a national scenic trail.
+  The Bay Area Ridge Trail runs about 550 miles along the hills around the San Francisco Bay Area and links more than 75 parks. H.R. 7254 would order a study of making it a national scenic trail. It wasn't voted on before the House's Nov. 19-29 district work period.
 
-  Before: it's a trail local public and private groups built over three decades. Congress has designated 11 national scenic trails, according to the committee report.
+  Before: it's a trail local public and private groups built over three decades. The committee report says Congress has designated 11 national scenic trails.
 
   After: the Interior Department has three years to study whether it should be the next one, working with the trail's council and the agencies whose land it crosses. Interior can certify a study someone else did. The bill doesn't designate the trail or add federal land; that would take another act of Congress.
 
   CBO estimates the study would cost less than $500,000 over 2027-2031, if Congress funds it.
 
-  Should Congress study more trails like this? Tell us below.
+  Should Congress study more trails like this? Tell us.
 
   Voice: computer-generated (Kokoro text-to-speech).
 hashtags: [congress, trails, publiclands, bayarea, votetherecord]
@@ -77,4 +80,4 @@ notes: >-
   Picked by the stated rule; H.R. 9785 and H.R. 8195 get matching posts. Floor text is the reported (RH) version,
   matching the report's amendment. "11 national scenic trails", "100+ miles", "30+ years", "75+ parks" and "doesn't
   designate ... separate Act of Congress" are from H. Rept. 119-855's background (it cites NPS and the trail
-  council). CBO's estimate is printed in the report. Cosponsor parties from congress.gov. If the House passes it Nov. 16, the last slide needs the tally. Nov 16 audit: the House meets Nov. 17 (legislative business 2 p.m. ET), before this posts, and the weekly schedule gives no day for this bill, so the last slide now says it's listed under two-thirds rules (true before or after a vote) and points to congress.gov. Check the Clerk's floor summary before it posts and add the result if it was voted on.
+  council). CBO's estimate is printed in the report. Cosponsor parties from congress.gov. If the House passes it Nov. 16, the last slide needs the tally. Nov 16 audit: the House meets Nov. 17 (legislative business 2 p.m. ET), before this posts, and the weekly schedule gives no day for this bill, so the last slide now says it's listed under two-thirds rules (true before or after a vote) and points to congress.gov. Check the Clerk's floor summary before it posts and add the result if it was voted on. Nov 20 recheck (before the slot): the Clerk's floor summaries for Nov. 17, 18 and 19 show no action on H.R. 7254, and congress.gov's actions still end Oct. 29 (Union Calendar No. 752). The Nov. 19 summary says the Speaker designated Nov. 19-29 a "district work period" (clause 13 of Rule I). The last slide, its `say`, `where` and the caption no longer say it's up "this week"; they say no vote was held before the break. No plain-words gloss of "district work period" was added, since the summary doesn't define it. The House still meets (next: Nov. 20, 10:30 a.m.), so check congress.gov again if this is reslotted.
