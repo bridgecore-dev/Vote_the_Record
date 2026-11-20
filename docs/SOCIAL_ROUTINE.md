@@ -138,9 +138,10 @@ Made to be seen (never at the cost of a rule above):
   alone when the record uses a term people will see in the news.
 - Every line of `say` teaches something; cut lines that only set up or repeat a slide. Short sentences, one
   fact each, so the big captions (`motion: captions`) change every second or two.
-- Design trials (owner's decision, 2026-11-18): up to one trial Reel a day, `trial: auto` (Instagram shows it
-  to non-followers first and adds it to the grid if it does well), with a `design` that changes one thing at
-  a time from the last trial (`palette`, `mode`, `font`, `position`, `motion`, `sfx`; see social/README.md).
+- Trial Reels (owner's decision, 2026-11-20: every Reel is a trial): every `kind: reel` and `kind: clip` carries
+  `trial: auto` (Instagram shows it to non-followers first and adds it to the grid if it does well). Two Reels
+  a day (owner's decision, 2026-11-20), the 6:00 a.m. and 6:00 p.m. ones, also try a new look, each a different
+  one: a `design` that changes one thing from the baseline (teal, dark, round, center, captions, sfx) (`palette`, `mode`, `font`, `position`, `motion`, `sfx`; see social/README.md).
   The facts and sources follow every rule above; only the look changes. A trial is one of the day's queued
   Reels turned into a trial (owner's choice, 2026-11-19: no extra posts), so it keeps its Reel slot. Use `approval: review` for the first trial of each new design. The weekly "What's
   working" issue compares designs.
