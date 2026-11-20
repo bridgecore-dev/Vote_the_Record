@@ -96,5 +96,5 @@ notes: >-
   Congressional Record isn't on GovInfo yet), so no case for/against slide. News first: takes the Nov. 21 3:00 a.m.
   post slot (the Nov. 20 3:00 p.m. and 9:00 p.m. post slots hold this week's news) and moves the evergreen
   2026-11-18-criminal-history-access-act (presented to the President Nov. 12, more than a week ago) to
-  2026-11-30T03:00:00-06:00, the first post slot after the last queued post that keeps the alternation (Nov. 29's only
-  post is at 3:00 a.m.).
+  2026-12-01T03:00:00-06:00, the first post slot after the last queued post (the Dec. 1 12:00 a.m. Reel);
+  Nov. 30 3:00 a.m. was taken on main while this pull request was open.
