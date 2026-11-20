@@ -40,7 +40,7 @@ fact:
   source_title: 'Office of the Clerk, U.S. House of Representatives: Roll Call 326 (2026)'
   source_kind: document
   sha256: 07f5ef6a0a026bea26568162e6e8ff8ce81d1e70ec239b3f5646e5a1d59261a9
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261120130549/https://clerk.house.gov/evs/2026/roll326.xml
   event_date: '2026-11-18'
   retrieved: '2026-11-19'
   verification: unverified

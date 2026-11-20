@@ -85,6 +85,16 @@ def test_archive_skips_bulk_downloads_and_generated_files(tmp_path):
     assert "https://gis.example/x" not in archive.pending(tmp_path)
 
 
+def test_archive_includes_federal_roll_calls(tmp_path):
+    scaffold(tmp_path)
+    roll = tmp_path / "data/federal/congress/119/2/senate/roll-1.yaml"
+    roll.parent.mkdir(parents=True)
+    roll.write_text(yaml.safe_dump({"fact": {"id": "us/congress/119/2/senate/roll-1#R-001",
+                                             "source_url": "https://www.senate.gov/x.xml", "archive_url": None}}),
+                    encoding="utf-8")
+    assert "https://www.senate.gov/x.xml" in archive.pending(tmp_path)
+
+
 def test_check_rosters_reports_only_changes(tmp_path):
     scaffold(tmp_path)
     race_file = tmp_path / f"data/states/{RACE}/race.yaml"
@@ -108,3 +118,12 @@ def test_status_report_counts(tmp_path):
     assert "- Nobody's incumbent status known: 1" in text
     assert "- No money information for any candidate: 1" in text
     assert "- No archived copy yet: " in text
+
+
+def test_snapshot_hash_accepts_gzip_replay(monkeypatch):
+    import gzip
+    import hashlib
+    body = b"<roll_call_vote>...</roll_call_vote>"
+    monkeypatch.setattr(archive, "fetch", lambda url: gzip.compress(body))
+    got = archive.snapshot_sha256("https://web.archive.org/web/20261120130628/https://www.senate.gov/x.xml")
+    assert hashlib.sha256(body).hexdigest() in got

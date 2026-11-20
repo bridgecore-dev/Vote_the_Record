@@ -27,7 +27,7 @@ fact:
   source_title: 'U.S. Senate: Roll Call Vote 119th Congress - 1 Session, Vote Number 372'
   source_kind: document
   sha256: b7c0944df3ffefd23575b12c92d405bac12e594b5b002417ff9ee1354ebacc13
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261112032834/https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00372.xml
   event_date: '2025-07-01'
   retrieved: '2026-11-19'
   verification: unverified
