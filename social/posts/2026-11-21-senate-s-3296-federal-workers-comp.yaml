@@ -7,6 +7,7 @@ rule: >-
   Each gets its own post with the same structure (said on the last slide).
 record_ids: ["us/119/S. 3296/senate-passed"]
 publish_after: '2026-11-21T00:00:00-06:00'
+trial: auto
 sources:
 - title: "Senate Press Gallery, Nov. 16, 2026"
   url: https://www.dailypress.senate.gov/monday-november-16-2026/

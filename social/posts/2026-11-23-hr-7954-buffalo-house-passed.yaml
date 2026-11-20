@@ -4,6 +4,7 @@ topic: Wildlife
 approval: review
 record_ids: ["us/119/H.R. 7954/house-passed"]
 publish_after: '2026-11-22T00:00:00-06:00'
+trial: auto
 sources:
 - title: U.S. House Clerk, House floor proceedings, Nov. 17, 2026
   url: https://clerk.house.gov/floor/20261117.xml

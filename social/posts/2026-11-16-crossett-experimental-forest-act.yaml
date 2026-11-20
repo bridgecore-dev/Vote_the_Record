@@ -4,6 +4,7 @@ topic: Public lands
 approval: review
 record_ids: ["us/119/H.R. 10136/house-floor-schedule-2026-11-16", "us/119/H.R. 10136/house-passed"]
 publish_after: '2026-11-26T12:00:00-06:00'
+trial: auto
 rule: >-
   From the U.S. House of Representatives suspension list for the week of Nov. 16, 2026, we pick every bill that
   moves federal land to a new owner or trustee. Each gets its own post with the same structure. This week that is

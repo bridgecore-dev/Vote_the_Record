@@ -7,6 +7,7 @@ rule: Every bill filed Nov. 18, 2026 whose Texas Legislature Online caption is a
   slide).
 record_ids: [tx/90R/HB 1241/filed]
 publish_after: '2026-11-25T12:00:00-06:00'
+trial: auto
 sources:
 - title: TLO, bills filed Nov. 18, 2026
   url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-18
