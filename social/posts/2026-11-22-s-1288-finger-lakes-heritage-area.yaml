@@ -1,0 +1,120 @@
+kind: reel
+level: congress
+topic: Parks
+approval: review
+record_ids: [us/119/S. 1288/senate-passed]
+publish_after: '2026-11-22T12:00:00-06:00'
+rule: >-
+  Bills the U.S. Senate's floor activity page lists as passed on Nov. 19, 2026 that no post covers yet. Two of them
+  name new National Heritage Areas, S. 1288 (New York) and S. 4238 (Pennsylvania); each gets its own post with the
+  same layout and wording, in bill-number order.
+sources:
+- title: "U.S. Senate Floor Activity, Thursday, November 19, 2026"
+  url: https://www.senate.gov/legislative/LIS/floor_activity/11_19_2026_Senate_Floor.htm
+  retrieved: '2026-11-20'
+- title: "S. 1288 (119th Congress), engrossed in the Senate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119s1288es/html/BILLS-119s1288es.htm
+  retrieved: '2026-11-20'
+- title: "Public Law 116-9, Dingell Act, sec. 6001 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/PLAW-116publ9/html/PLAW-116publ9.htm
+  retrieved: '2026-11-20'
+- title: "Public Law 117-339, National Heritage Area Act (GPO)"
+  url: https://www.govinfo.gov/content/pkg/PLAW-117publ339/html/PLAW-117publ339.htm
+  retrieved: '2026-11-20'
+- title: Congress.gov, S. 1288 bill record
+  url: https://api.congress.gov/v3/bill/119/s/1288
+  retrieved: '2026-11-20'
+bills:
+- id: S. 1288
+  title: Finger Lakes National Heritage Area Act
+  does: "Makes 14 counties in New York's Finger Lakes region a National Heritage Area, run by the Finger Lakes Tourism Alliance."
+  affects: "Groups in those 14 counties that could get federal grants and help. Property owners don't have to take part."
+  where: "Passed the U.S. Senate by unanimous consent Nov. 19, 2026. Next: the U.S. House of Representatives."
+  summary:
+    text: "There is established as a component of the National Heritage Area System the Finger Lakes National Heritage Area in the State of New York, consisting of Cayuga, Chemung, Cortland, Livingston, Monroe, Onondaga, Ontario, Schuyler, Seneca, Steuben, Tioga, Tompkins, Wayne, and Yates Counties"
+    title: S. 1288 as passed by the Senate, sec. 2(a) (no CRS summary is posted yet)
+    url: https://www.govinfo.gov/content/pkg/BILLS-119s1288es/html/BILLS-119s1288es.htm
+    retrieved: '2026-11-20'
+  say: "S. 1288, the Finger Lakes National Heritage Area Act, makes 14 counties in New York's Finger Lakes region a National Heritage Area, run by the Finger Lakes Tourism Alliance. It passed the United States Senate by unanimous consent on November 19, 2026."
+slides:
+- kicker: "U.S. Senate · Nov. 19, 2026"
+  big: 14 counties
+  head: "The U.S. Senate passed a bill to make 14 counties in New York's Finger Lakes a National Heritage Area."
+  text: "S. 1288, the Finger Lakes National Heritage Area Act. Passed by unanimous consent."
+  say: "On November 19, the United States Senate passed a bill to make 14 counties in New York's Finger Lakes region a National Heritage Area. S. 1288 passed by unanimous consent."
+- chip: What it is
+  head: "A National Heritage Area is not a national park."
+  quote: {label: "54 U.S.C. 120102(a)", text: "To recognize certain areas of the United States that tell nationally significant stories", key: nationally significant stories}
+  text: "The law says it isn't a unit of the National Park System. A local group runs it, with help from the Interior Department."
+  say: "What is it? Not a national park. The law says a heritage area recognizes places that tell nationally significant stories. It isn't part of the National Park System. A local group runs it, with help from the Interior Department."
+- chip: "Before → after"
+  head: What the bill changes
+  rows:
+  - [Before, "Not a National Heritage Area"]
+  - [After, "14 counties become one"]
+  - [Runs it, "The Finger Lakes Tourism Alliance"]
+  - [Plan, "Due to the Interior Department within 3 years"]
+  - [Ends, "Federal help stops 15 years after it becomes law"]
+  say: "Before, the region isn't a heritage area. After, 14 counties become one, run by the Finger Lakes Tourism Alliance. It has 3 years to send the Interior Department a plan. Federal help stops 15 years after the bill becomes law."
+- chip: The money
+  head: "Up to $10 million in all, no more than $1 million a year, if Congress provides it."
+  rows:
+  - [Match, "The federal share of any project is 50% at most"]
+  - [Land, "Federal funds can't be used to buy land"]
+  say: "The money. Up to $10 million in all, and no more than $1 million a year, if Congress provides it. Federal money pays 50% of a project at most, and it can't be used to buy land."
+- chip: What it doesn't do
+  head: "Property owners don't have to take part."
+  rows:
+  - [Owners, "Don't have to join in or open their land to the public"]
+  - [Rules, "Local land use rules stay the same"]
+  - [Power, "The group gets no power to regulate land"]
+  - [Hunting, "The state still manages fishing and hunting"]
+  say: "What it doesn't do. Property owners don't have to join in or open their land to the public. Local land use rules stay the same, the group gets no power to regulate land, and the state still manages fishing and hunting."
+- chip: "Who gains, who gives"
+  head: "Local groups could get grants and help. Taxpayers pay part, and local partners pay at least half."
+  rows:
+  - [Gains, "Groups in the region that get grants and help"]
+  - [Gives, "Taxpayers, if Congress funds it; local partners pay at least half"]
+  - [Cost, "CBO posted an estimate; we couldn't open it, so no number here"]
+  say: "Who gains? Groups in the region that get grants and help. Who gives? Taxpayers, if Congress funds it, and local partners, who pay at least half. The Congressional Budget Office posted an estimate, but we couldn't open it."
+- chip: How it passed
+  head: "By unanimous consent, so there's no list of who voted which way."
+  rows:
+  - [Sponsor, "Sen. Kirsten E. Gillibrand (D-NY)"]
+  - [Cosponsors, "None listed"]
+  - [Next, "The U.S. House of Representatives"]
+  say: "It passed the United States Senate by unanimous consent, so there's no list of who voted which way. The sponsor is Senator Kirsten Gillibrand, Democrat of New York. Next, the House."
+- chip: Your turn
+  head: "Should Congress name more heritage areas, with federal grants that local groups must match?"
+  text: "The bill goes to the U.S. House of Representatives next. Tell your representative what you think."
+  say: "Your turn. Should Congress name more heritage areas, with federal grants that local groups must match? The bill goes to the United States House next. Tell your representative what you think."
+caption: |-
+  On Nov. 19, the U.S. Senate passed S. 1288, the Finger Lakes National Heritage Area Act, by unanimous consent.
+
+  Before: the Finger Lakes region isn't a National Heritage Area. A heritage area isn't a national park: a local group runs it, with help from the Interior Department.
+
+  After: Cayuga, Chemung, Cortland, Livingston, Monroe, Onondaga, Ontario, Schuyler, Seneca, Steuben, Tioga, Tompkins, Wayne and Yates counties become one, run by the Finger Lakes Tourism Alliance. Up to $10 million in federal money in all, at most $1 million a year, if Congress provides it. Federal money pays at most half of any project and can't buy land. Property owners don't have to take part, and local land rules stay the same.
+
+  Sponsor: Sen. Kirsten E. Gillibrand (D-NY). No cosponsors listed.
+
+  Should Congress name more heritage areas?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, ussenate, fingerlakes, newyork, votetherecord]
+notes: >-
+  New this run: the Senate floor activity page for Nov. 19 lists S. 1288 "Passed Senate without amendment by
+  Unanimous Consent"; the engrossed text on GovInfo matches the introduced text word for word. No CRS summary, so the
+  explainer quotes sec. 2(a). The bill adds paragraph (14) to Dingell Act sec. 6001(a), so the rules in sec. 6001
+  apply (P.L. 116-9, as opened on GovInfo): (b)(3) no federal funds to buy real property; (e) property owners not
+  required to participate or allow public access, land use rules unaltered, no regulatory authority to the entity,
+  state fish and wildlife authority not diminished; (g)(1) "$10,000,000, of which not more than $1,000,000 may be made
+  available in any fiscal year" (authorized, "if Congress provides it"); (g)(3) federal share "not more than 50
+  percent", and in-kind contributions count toward the rest. "Not a national park" is 54 U.S.C. 120102(c)(2)(A) (P.L.
+  117-339): a heritage area "shall not be considered to be a System unit". P.L. 117-339 added paragraphs (7)-(13) to
+  sec. 6001(a) and changed the (c)(1) plan deadline to 5 years for the original areas; this bill sets 3 years itself.
+  I found no later change to sec. 6001(g); please confirm. cbo.gov returned 403 (estimate: cbo.gov/publication/62797),
+  not retried. Reported without a written report; no statement for or against was found, and it passed by unanimous
+  consent, so no case-against slide. Paired with the S. 4238 (Endless Mountains, Pennsylvania) Reel, same layout;
+  meant to be merged together. News first: takes the Nov. 22 12:00 p.m. Reel slot from the evergreen
+  2026-11-14-super-pacs-explained, which moves to 2026-11-30T06:00:00-06:00 (after the last queued post, Nov. 30 3:00
+  a.m., if the S. 580 pull request merges; on its own, still a Reel after Nov. 29's 3:00 a.m. post on another day).

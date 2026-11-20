@@ -1,0 +1,115 @@
+kind: carousel
+level: congress
+topic: Human rights
+approval: review
+record_ids: [us/119/S. 580/senate-passed]
+publish_after: '2026-11-23T03:00:00-06:00'
+rule: >-
+  Bills the U.S. Senate's floor activity page lists as passed on Nov. 19, 2026 that no post covers yet. S. 580 is
+  the one with a committee report and a CBO estimate to explain it; the heritage-area and trail bills can get their
+  own posts.
+sources:
+- title: "U.S. Senate Floor Activity, Thursday, November 19, 2026"
+  url: https://www.senate.gov/legislative/LIS/floor_activity/11_19_2026_Senate_Floor.htm
+  retrieved: '2026-11-20'
+- title: "S. 580 (119th Congress), engrossed in the Senate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119s580es/html/BILLS-119s580es.htm
+  retrieved: '2026-11-20'
+- title: "S. Rept. 119-48, Combating CCP Labor Abuses Act of 2025 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119srpt48/html/CRPT-119srpt48.htm
+  retrieved: '2026-11-20'
+- title: Congress.gov, S. 580 bill record
+  url: https://api.congress.gov/v3/bill/119/s/580
+  retrieved: '2026-11-20'
+bills:
+- id: S. 580
+  title: Combating CCP Labor Abuses Act of 2026
+  does: "Requires Commerce to train staff, and offer U.S. businesses guidance, on human rights abuses by China's government."
+  affects: "Commerce staff who counsel businesses dealing with China, and U.S. businesses that choose to use the guidance."
+  where: "Passed the U.S. Senate by unanimous consent Nov. 19, 2026. Next: the U.S. House of Representatives."
+  summary:
+    text: "designed to raise awareness about emerging trends and issues with respect to violations of human rights perpetrated by the Government of the People's Republic of China, including the use of forced labor, against Uyghurs and other religious and ethnic minority groups in the People's Republic of China"
+    title: S. 580 as passed by the Senate, sec. 3(b)(1) (no CRS summary is posted yet)
+    url: https://www.govinfo.gov/content/pkg/BILLS-119s580es/html/BILLS-119s580es.htm
+    retrieved: '2026-11-20'
+slides:
+- kicker: "U.S. Senate · Nov. 19, 2026"
+  big: S. 580
+  head: "The U.S. Senate passed a bill to train Commerce Department staff on forced labor in China, so they can warn U.S. businesses."
+  text: "The Combating CCP Labor Abuses Act of 2026. Passed by unanimous consent."
+- chip: The background
+  head: "In 2021, the U.S. Secretary of State determined that China's government had committed genocide against Uyghurs."
+  quote: {label: "Secretary of State's 2021 determination, as quoted in S. Rept. 119-48", text: "committed genocide against predominantly Muslim Uyghurs and other ethnic and religious minority groups."}
+  text: "Uyghurs are a mostly Muslim minority group in China's Xinjiang region, the committee report says."
+- chip: The law today
+  head: "The Commerce Department already advises U.S. businesses, including on forced labor risks in supply chains."
+  rows:
+  - [2021, "Commerce and five other agencies issued a Xinjiang supply chain business advisory"]
+  - [2023, "The agencies added an addendum to it"]
+  - [Training, "Commerce staff already get human rights training"]
+  text: "The committee report says the bill would build on that training."
+- chip: "Before → after"
+  head: What the bill adds
+  rows:
+  - [Who, "Commerce staff who counsel businesses dealing with China"]
+  - [Training, "Required: China's abuses, including forced labor of Uyghurs"]
+  - [Guidance, "For businesses: warning signs, ways to avoid, the risks"]
+  - [Limit, "The guidance is for advisory purposes only"]
+- chip: "Who gains, who gives"
+  head: "Businesses could get the government's advice on forced labor risks. Commerce does the work."
+  rows:
+  - [Gains, "U.S. businesses that choose to use the guidance"]
+  - [Gives, "Commerce writes it with the State Department and trains staff"]
+  - [Cost, "CBO: $2 million over 2025-2030 (the 2025 committee version)"]
+  - [Paperwork, "Committee: no new paperwork for businesses"]
+- chip: Not the first time
+  head: "Sen. Gary Peters (D-MI) brought versions of this bill in two earlier Congresses."
+  rows:
+  - [2022, "Approved in committee by voice vote"]
+  - [2023, "Passed the U.S. Senate by unanimous consent"]
+  - [2026, "This bill: passed the U.S. Senate by unanimous consent"]
+- chip: How it passed
+  head: "By unanimous consent, so there's no list of who voted which way."
+  rows:
+  - [Sponsor, "Sen. Gary C. Peters (D-MI)"]
+  - [Cosponsor, "Sen. John R. Curtis (R-UT)"]
+  - [Cosponsor, "Sen. Cynthia M. Lummis (R-WY)"]
+  - [Next, "The U.S. House of Representatives"]
+- chip: Your turn
+  head: "Should the government advise businesses on forced labor risks, even if the advice isn't binding?"
+  text: "The bill goes to the U.S. House of Representatives next. Tell your representative what you think."
+caption: |-
+  On Nov. 19, the U.S. Senate passed S. 580, the Combating CCP Labor Abuses Act of 2026, by unanimous consent.
+
+  Background: the Senate Commerce Committee's report quotes the U.S. Secretary of State's 2021 determination that China's government "committed genocide against predominantly Muslim Uyghurs and other ethnic and religious minority groups."
+
+  Today: the Commerce Department advises U.S. businesses, and in 2021 it joined five other agencies in a Xinjiang supply chain business advisory. Its staff already get human rights training.
+
+  After: Commerce must train staff who counsel businesses dealing with China on that government's human rights abuses, including forced labor, and offer businesses guidance on warning signs, how to avoid those partners, and the risks. The guidance is advisory only.
+
+  Cost: CBO estimated $2 million over 2025-2030 for the version the committee approved in 2025.
+
+  Sponsor: Sen. Gary C. Peters (D-MI). Cosponsors: Sen. John R. Curtis (R-UT), Sen. Cynthia M. Lummis (R-WY).
+
+  Should advice like this be required?
+hashtags: [congress, ussenate, forcedlabor, humanrights, votetherecord]
+notes: >-
+  New this run: the Senate floor activity page for Nov. 19 lists S. 580 "Passed Senate with an amendment and an
+  amendment to the Title by Unanimous Consent" (S.Amdt. 7033, a substitute, and 7034, the title). The slides follow
+  the engrossed text on GovInfo ("Passed the Senate November 19, 2026"). No CRS summary yet, so the explainer quotes
+  sec. 3(b)(1). Background, "today" and history are from S. Rept. 119-48 (July 28, 2025): the genocide quote is the
+  report quoting the 2021 determination (the state.gov archive page returned "Technical Difficulties" this run, so it
+  is labeled "as quoted in"); "mostly Muslim minority ... Xinjiang" paraphrases the report's "predominantly Muslim
+  Uyghurs" and "Xinjiang Uyghur Autonomous Region"; the 2021 advisory "and five other agencies" and the 2023
+  addendum; "build on existing human rights training". The report's "more than 1 million" figure cites the Council on
+  Foreign Relations, not an official record, so it isn't used. The CBO estimate ($2 million over 2025-2030, training
+  and guidance updated every three years) and "no paperwork" are for the reported 2025 version; the passed substitute
+  narrows training to staff counseling businesses doing deals with or investing in China, adds consultation with the
+  State Department and a "human rights" definition, and widens Xinjiang to all of China. The slide says which version
+  the CBO figure is for. History: S. 4101 (117th, reported by voice vote) and S. 484 (118th, passed Senate by UC
+  Dec. 19, 2023), both by Sen. Peters per the report; not named on slides (one bill per post). Unanimous consent, no
+  roll call; no statement against was found, so no case-against slide. Party and state as congress.gov lists them,
+  cosponsors alphabetical. News first: takes the Nov. 23 3:00 a.m. post slot (every earlier post slot holds this
+  week's news or a bill waiting on the President) and moves the evergreen prefiled-bill post
+  2026-11-20-texas-hb-1178-ranked-runoff-ballots to 2026-11-30T03:00:00-06:00 (Nov. 29's only post is at 3:00 a.m.,
+  so a later Nov. 29 post slot would put two posts in a row).
