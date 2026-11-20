@@ -2,11 +2,14 @@ kind: carousel
 level: congress
 topic: Federal courts
 approval: review
-record_ids: [us/119/2/senate/roll/271]
+record_ids: [us/119/2/senate/roll/271, us/119/2/senate/roll/272]
 publish_after: '2026-11-21T03:00:00-06:00'
 sources:
 - title: "U.S. Senate, Roll Call Vote 271 (2026)"
   url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00271.htm
+  retrieved: '2026-11-20'
+- title: "U.S. Senate, Roll Call Vote 272 (2026)"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00272.htm
   retrieved: '2026-11-20'
 - title: "U.S. Senate, Executive Calendar, Nov. 20, 2026"
   url: https://www.senate.gov/legislative/LIS/executive_calendar/xcalv.pdf
@@ -45,10 +48,14 @@ slides:
   head: "A cloture motion is a vote to end debate, so the U.S. Senate can move to a final vote."
   quote: {label: "U.S. Senate, Cloture: Historical Overview", text: "The Senate adopted new precedents in the 2010s to allow a simple majority to end debate on nominations."}
   text: "Vote 271 needed a majority of those voting (\"1/2\" on the Senate's record). Yea = end debate. Nay = keep debating."
-- chip: What comes next
-  head: "A second vote decides whether he is confirmed."
-  quote: {label: "U.S. Senate, Executive Calendar, Nov. 20, 2026", text: "at 11 a.m., notwithstanding Rule XXII, all post-cloture time expire on the Bennett nomination."}
-  text: "The Senate's order set the confirmation vote for Nov. 20. Check senate.gov for the result."
+- chip: "Roll call 272 · Nov. 20, 2026"
+  head: "The next day, the U.S. Senate confirmed him, 49-43."
+  vote: {yea: 49, nay: 43, not_voting: 8}
+  rows:
+  - [Republican, "49 Yea · 0 Nay · 4 didn't vote"]
+  - [Democratic, "0 Yea · 41 Nay · 4 didn't vote"]
+  - [Independent, "0 Yea · 2 Nay · 0 didn't vote"]
+  text: "Yea = confirm him as a judge. Nay = don't. It needed a majority of those voting (\"1/2\" on the Senate's record)."
 - chip: The court
   head: "District courts are where federal trials happen."
   quote: {label: "United States Courts, About U.S. District Courts", text: "U.S. district courts are the primary trial courts of the federal court system."}
@@ -66,7 +73,7 @@ slides:
 - chip: Check it yourself
   head: "Look up how your senators voted."
   rows:
-  - ["U.S. Senate", "senate.gov: roll call votes, 119th Congress, 2nd session, vote 271"]
+  - ["U.S. Senate", "senate.gov: roll call votes, 119th Congress, 2nd session, votes 271 and 272"]
   text: "Should the U.S. Senate need 51 votes or 60 to end debate on a judge? Tell us what you think."
 caption: |-
   On Nov. 19, 2026, the U.S. Senate voted 48-46 to end debate (cloture) on the nomination of Richard Wesley Bennett, of Texas, to be a U.S. District Judge for the Southern District of Texas (vote 271).
@@ -75,9 +82,14 @@ caption: |-
   Democratic: 0 Yea, 44 Nay, 1 didn't vote.
   Independent: 0 Yea, 2 Nay.
 
-  Cloture is a vote to end debate. For nominations it takes a simple majority. A second vote, on confirmation, was set for Nov. 20.
+  Cloture is a vote to end debate. For nominations it takes a simple majority.
 
-  The Southern District of Texas includes Harris County. Bennett would fill the seat of Judge Andrew S. Hanen, who retired. Federal law sets 19 judgeships there, and district judges have no set term.
+  On Nov. 20, the U.S. Senate confirmed Bennett, 49-43 (vote 272).
+  Republican: 49 Yea, 0 Nay, 4 didn't vote.
+  Democratic: 0 Yea, 41 Nay, 4 didn't vote.
+  Independent: 0 Yea, 2 Nay.
+
+  The Southern District of Texas includes Harris County. Bennett fills the seat of Judge Andrew S. Hanen, who retired. Federal law sets 19 judgeships there, and district judges have no set term.
 
   51 votes or 60 to end debate on a judge: what do you think?
 hashtags: [ussenate, federalcourts, harriscounty, rollcall, votetherecord]
@@ -98,3 +110,8 @@ notes: >-
   2026-11-18-criminal-history-access-act (presented to the President Nov. 12, more than a week ago) to
   2026-12-01T03:00:00-06:00, the first post slot after the last queued post (the Dec. 1 12:00 a.m. Reel);
   Nov. 30 3:00 a.m. was taken on main while this pull request was open.
+  Nov. 20 recheck: vote 272 (Nov. 20, 11:13 a.m. ET, "Nomination Confirmed (49-43)", "1/2") is now on senate.gov.
+  Slide 4 (the Executive Calendar's "what comes next") is replaced by its tally and party counts, counted from
+  vote_119_2_00272.xml (party as the Senate lists it); eight didn't vote (Britt, Cassidy, Cornyn, Tuberville R;
+  Booker, Coons, Klobuchar, Murphy D). The Senate's vote title spells "Bennet"; its document title and PN1272-4
+  say "Bennett", as the post does. The Executive Calendar source stays for the "vice Andrew S. Hanen" line.
