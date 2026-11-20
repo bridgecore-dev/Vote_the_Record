@@ -39,7 +39,7 @@ bills:
     retrieved: '2026-11-20'
 slides:
 - chip: "Roll call 270 · Nov. 19, 2026"
-  head: "The U.S. Senate passed H.R. 2347, a bill that changes how the government approves energy and building projects."
+  head: "The U.S. Senate passed H.R. 2347, a bill on federal permits."
   vote: {yea: 62, nay: 33, not_voting: 5}
   text: "Yea meant pass the bill as amended. It needed a simple majority."
 - chip: Two versions
@@ -76,7 +76,7 @@ slides:
   by: "Picked: the first Nay voter, alphabetically, with a published statement on the bill."
 - chip: What's next
   head: "It isn't law yet. The two chambers have to settle on one text."
-  text: "House and Senate differences are worked out, the final bill returns to both for approval, then the President has 10 days to sign or veto."
+  text: "The U.S. House of Representatives and the U.S. Senate work out their differences, both approve the final bill, then the President has 10 days to sign or veto."
   rows:
   - [Your senators, "senate.gov: roll call votes, 119th Congress, 2nd session, vote 270"]
   - [Cost, "CBO sent a preliminary estimate Nov. 13: cbo.gov/publication/62908"]
@@ -111,5 +111,6 @@ notes: >-
   a curly apostrophe in "can’t"); Capito voted Yea and Alsobrooks Nay on vote 270. "What's next" paraphrases
   house.gov's Legislative Process page (conference, final approval by both, 10 days to sign or veto). cbo.gov
   blocked earlier runs, so the CBO letter (listed in the bill status) is linked, not quoted. Earliest free post
-  slot is Nov. 26, 3:00 p.m. (every post slot before it is taken). Before it posts, check congress.gov or the
+  slot is Nov. 26, 3:00 p.m. (every post slot before it is taken). Preview fix: shortened slide 1 so its source
+  footer fits, and named both chambers in full on "What's next". Before it posts, check congress.gov or the
   Clerk for any U.S. House action on the Senate amendment (the House is in a district work period Nov. 19-29).
