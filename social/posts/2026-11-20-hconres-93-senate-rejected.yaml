@@ -3,7 +3,7 @@ level: congress
 topic: War powers
 approval: review
 record_ids: [us/119/2/senate/roll/269]
-publish_after: '2026-11-26T00:00:00-06:00'
+publish_after: '2026-11-20T12:00:00-06:00'
 rule: >-
   Vote posts list every member on the smaller side of the roll call, with party and state as the Senate records
   them, up to about 40 names. Here the smaller side is 48 Yea votes, so the post gives the totals by party and

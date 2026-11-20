@@ -3,7 +3,7 @@ level: congress
 topic: Wildlife
 approval: review
 record_ids: ["us/119/H.R. 8195/house-floor-schedule-2026-11-16", "us/119/H.R. 8195/house-passed"]
-publish_after: '2026-11-20T12:00:00-06:00'
+publish_after: '2026-11-26T00:00:00-06:00'
 rule: >-
   From the House suspension list for the week of Nov. 16, 2026, we pick the bills that order a federal agency
   to study or plan something (feasibility studies, management frameworks) rather than move land or place a
