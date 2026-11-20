@@ -231,6 +231,13 @@ One file, `social/posts/<YYYY-MM-DD>-<slug>.yaml`, in the format in `social/READ
   Ordered by time, a day's Reels and posts must never run two of the same kind in a row (a test checks this);
   if the slot that would keep the turn isn't free, take the next day's. Never two posts at the same time.
   Written with its offset (e.g. `'2026-11-16T09:00:00-06:00'`; `-05:00` in daylight time).
+  - News first (2026-11-20: a full queue had pushed this week's votes a week out). A post about an official
+    action from the last three days (a vote, a chamber passing a bill, a signing, a confirmation, a ruling) or
+    a dated event in the next three days takes the earliest slot of its format at least 3 hours away, even
+    when an evergreen post holds it. Evergreen means not tied to this week: explainers, prefiled bills, and
+    actions more than a week old. The same pull request moves the bumped evergreen post to the first free slot
+    of its format after the last queued post, changing only that file's `publish_after` line. Never bump news,
+    a trial, or a post less than 3 hours from its slot.
 - Name every chamber in full (owner's request, 2026-11-15): "U.S. House of Representatives", "U.S. Senate",
   "Texas House of Representatives", "California Senate", never just "the House" or "the Senate". In a `say`,
   write "United States House" (the builder checks that each `say` names its first chamber).
