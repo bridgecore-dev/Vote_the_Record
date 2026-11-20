@@ -3,7 +3,7 @@ level: congress
 topic: Prediction markets
 approval: review
 record_ids: [us/119/S. 4035/senate-passed]
-publish_after: '2026-11-26T18:00:00-06:00'
+publish_after: '2026-11-22T18:00:00-06:00'
 rule: >-
   Bills the U.S. Senate Press Gallery lists as passed by the U.S. Senate on Nov. 19, 2026 that no post covers yet,
   one bill per post. This is S. 4035; the others (H.R. 4624, S. 4448, S. 580, S. 2479 and the trail and heritage
