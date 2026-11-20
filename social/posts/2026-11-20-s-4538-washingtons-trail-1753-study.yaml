@@ -1,0 +1,115 @@
+kind: reel
+level: congress
+topic: Public lands
+approval: review
+record_ids: [us/119/S. 4538/senate-passed]
+publish_after: '2026-11-23T12:00:00-06:00'
+rule: >-
+  Bills the U.S. Senate's floor activity page lists as passed on Nov. 19, 2026 that no post covers yet. Two of them
+  order a national trail feasibility study, S. 1135 (Utah) and S. 4538 (Virginia to Pennsylvania); each gets its own
+  post with the same layout and wording, in bill-number order.
+sources:
+- title: "U.S. Senate Floor Activity, Thursday, November 19, 2026"
+  url: https://www.senate.gov/legislative/LIS/floor_activity/11_19_2026_Senate_Floor.htm
+  retrieved: '2026-11-20'
+- title: "S. 4538 (119th Congress), engrossed in the Senate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119s4538es/html/BILLS-119s4538es.htm
+  retrieved: '2026-11-20'
+- title: "16 U.S.C. 1244, National Trails System Act sec. 5 (GPO, 2024 ed.)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title16/html/USCODE-2024-title16-chap27-sec1244.htm
+  retrieved: '2026-11-20'
+- title: Congress.gov, S. 4538 bill record
+  url: https://api.congress.gov/v3/bill/119/s/4538
+  retrieved: '2026-11-20'
+bills:
+- id: S. 4538
+  title: "Washington's Trail—1753 National Historic Trail Feasibility Study Act of 2026"
+  does: "Orders a study of whether George Washington's 1753 route, about 500 miles, could be a national historic trail."
+  affects: "The route from Williamsburg, Va., to Waterford, Pa., and the agencies and landowners along it."
+  where: "Passed the U.S. Senate by unanimous consent Nov. 19, 2026. Next: the U.S. House of Representatives."
+  summary:
+    text: "Washington's Trail--1753, extending approximately 500 miles from Williamsburg, Virginia, to Fort LeBoeuf (now Waterford), Pennsylvania, following the route taken by George Washington and his party on his diplomatic mission to the French"
+    title: S. 4538 as passed by the Senate, sec. 2 (no CRS summary is posted yet)
+    url: https://www.govinfo.gov/content/pkg/BILLS-119s4538es/html/BILLS-119s4538es.htm
+    retrieved: '2026-11-20'
+  say: "S. 4538 orders a study of whether George Washington's 1753 route, about 500 miles, could become a national historic trail. It passed the United States Senate by unanimous consent on November 19, 2026."
+slides:
+- kicker: "U.S. Senate · Nov. 19, 2026"
+  big: 500 miles
+  head: "The U.S. Senate passed a bill to study making George Washington's 1753 route a national historic trail."
+  text: "S. 4538, the Washington's Trail—1753 feasibility study. Passed by unanimous consent."
+  say: "500 miles. On November 19, the United States Senate passed a bill to study making George Washington's 1753 route a national historic trail. S. 4538 passed by unanimous consent."
+- chip: The trail
+  head: "From Williamsburg, Virginia, to Fort LeBoeuf, now Waterford, Pennsylvania."
+  quote: {label: "S. 4538, sec. 2", text: "on his diplomatic mission to the French on behalf of Virginia Governor Robert Dinwiddie from October 31, 1753, to January 16, 1754", key: diplomatic mission to the French}
+  say: "The route runs from Williamsburg, Virginia, to Fort LeBoeuf, now Waterford, Pennsylvania. The bill says Washington took it on a diplomatic mission to the French, from October 31, 1753, to January 16, 1754."
+- chip: "Before → after"
+  head: What the bill changes
+  rows:
+  - [Before, "Not on the law's list of trails to study"]
+  - [After, "Added to the list in the National Trails System Act"]
+  - [Who studies, "The Secretary of the Interior"]
+  - [Deadline, "Report to Congress within 3 full fiscal years"]
+  - [The test, "Can a trail be built there, and can it be paid for?"]
+  say: "Before, the route isn't on the law's list of trails to study. After, it is. The Secretary of the Interior studies it. The report goes to Congress within 3 full fiscal years. Can a trail be built there, and can it be paid for?"
+- chip: What makes a historic trail
+  head: "The law sets 3 tests for a national historic trail."
+  rows:
+  - [1, "A route set by historic use, and significant because of it"]
+  - [2, "Nationally significant, with a far-reaching effect on American culture"]
+  - [3, "Significant potential for public recreation or historical interest"]
+  say: "The law sets 3 tests for a national historic trail. A route set by historic use. National significance, with a far-reaching effect on American culture. And real potential for public recreation or historical interest."
+- chip: What it doesn't do
+  head: "A study isn't a designation."
+  text: "The law says national scenic and historic trails are made \"only by Act of Congress\". So making this a national trail would take another law."
+  say: "What it doesn't do. A study isn't a designation. The law says national scenic and historic trails are made only by an act of Congress. So making this a national trail would take another law."
+- chip: "Who gains, who gives"
+  head: "The study covers the route, who owns the land, and what it would cost to build and keep up."
+  rows:
+  - [Consulted, "Other federal agencies, state and local governments, groups, landowners"]
+  - [Cost, "CBO posted an estimate; we couldn't open it, so no number here"]
+  - [Against, "No statement against it was found"]
+  say: "The study covers the route, who owns the land, and what it would cost to build and keep up. Other agencies, governments, groups and landowners are consulted. The Congressional Budget Office posted an estimate, but we couldn't open it. No statement against it was found."
+- chip: How it passed
+  head: "By unanimous consent, so there's no list of who voted which way."
+  rows:
+  - [Sponsor, "Sen. John Fetterman (D-PA)"]
+  - [Cosponsors, "Sens. Capito (R-WV), Justice (R-WV), Kaine (D-VA), McCormick (R-PA), Warner (D-VA)"]
+  - [Next, "The U.S. House of Representatives"]
+  say: "It passed the United States Senate by unanimous consent, so there's no list of who voted which way. The sponsor is Senator John Fetterman, Democrat of Pennsylvania, with five cosponsors from Pennsylvania, Virginia and West Virginia. Next, the House."
+- chip: Your turn
+  head: "Should Congress study more trails for the national system?"
+  text: "The bill goes to the U.S. House of Representatives next. Tell your representative what you think."
+  say: "Your turn. Should Congress study more trails for the national system? The bill goes to the United States House next. Tell your representative what you think."
+caption: |-
+  On Nov. 19, the U.S. Senate passed S. 4538 by unanimous consent. It orders a study of Washington's Trail—1753, about 500 miles from Williamsburg, Virginia, to Fort LeBoeuf (now Waterford), Pennsylvania: the route George Washington took on a diplomatic mission to the French in 1753-54.
+
+  Before: the route isn't on the National Trails System Act's list of routes to study.
+
+  After: it is. The Secretary of the Interior studies whether a trail can be built along the route and whether it can be paid for, and reports to Congress within three full fiscal years. To be a national historic trail, a route must meet three tests in the law: historic use, national significance, and potential for public recreation or historical interest.
+
+  A study isn't a designation. The law says national scenic and historic trails are made only by an act of Congress.
+
+  Sponsor: Sen. John Fetterman (D-PA). Cosponsors: Sens. Capito (R-WV), Justice (R-WV), Kaine (D-VA), McCormick (R-PA), Warner (D-VA).
+
+  Should Congress study more trails like this?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, ussenate, pennsylvania, virginia, votetherecord]
+notes: >-
+  New this run: the Senate floor activity page for Nov. 19 lists S. 4538 "Passed Senate without amendment by
+  Unanimous Consent"; the slides follow the engrossed text on GovInfo ("Passed the Senate November 19, 2026"). No CRS
+  summary yet, so the explainer quotes sec. 2. "The Secretary of the Interior" is from the bill's long title ("direct
+  the Secretary of the Interior to conduct a study"); the text itself only adds the route to NTSA 5(c). The rest is
+  NTSA sec. 5 in GPO's 2024 U.S. Code: 5(a) "only by Act of Congress"; 5(b) feasibility test, "three complete fiscal
+  years" deadline, consultation list, report contents; 5(b)(11)(A)-(C) the three historic-trail criteria (slide 4 is
+  our shortened wording; "real potential" in the say is the law's "significant potential"). Please confirm no later
+  law changed 5(b). The route passes through Virginia and Pennsylvania per the bill's endpoints; any other states
+  aren't named in the bill, so none are on a slide. Both S. 1135 and S. 4538 add a paragraph "(50)" to 5(c); not
+  raised. cbo.gov returned 403 this run (estimate: cbo.gov/publication/62787, as reported Sept. 17, 2026), not
+  retried. The July 21 subcommittee hearing testimony wasn't opened. No statement for or against was found;
+  unanimous consent, so no case-against slide. Sponsor and cosponsors' party and state as congress.gov lists them,
+  cosponsors alphabetical. News first: takes the Nov. 23 12:00 p.m. Reel slot from the evergreen prefiled-bill post
+  2026-11-18-texas-contribution-limit-bills, which moves to 2026-12-03T00:00:00-06:00 (the S. 1135 pull request
+  moves another evergreen Reel to Dec. 2 12:00 a.m., and a second Reel on Dec. 1 or Dec. 2 would put two Reels in a
+  row). Paired with the S. 1135 Reel, same layout.
