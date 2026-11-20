@@ -1,0 +1,112 @@
+kind: carousel
+level: congress
+topic: Money
+approval: review
+record_ids: [us/119/H.R. 10167/signed]
+publish_after: '2026-11-23T21:00:00-06:00'
+sources:
+- title: Congress.gov, H.R. 10167 actions
+  url: https://api.congress.gov/v3/bill/119/hr/10167/actions
+  retrieved: '2026-11-20'
+- title: Congress.gov, H.R. 10167 bill record
+  url: https://api.congress.gov/v3/bill/119/hr/10167
+  retrieved: '2026-11-20'
+- title: "H.R. 10167 (119th Congress), enrolled bill (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr10167enr/html/BILLS-119hr10167enr.htm
+  retrieved: '2026-11-20'
+- title: "31 U.S.C. 5112, coin specifications (GPO, U.S. Code 2024)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title31/html/USCODE-2024-title31-subtitleIV-chap51-subchapII-sec5112.htm
+  retrieved: '2026-11-20'
+- title: "U.S. Treasury, Penny Production Cessation FAQs"
+  url: https://home.treasury.gov/news/featured-stories/penny-production-cessation-faqs
+  retrieved: '2026-11-20'
+bills:
+- id: H.R. 10167
+  title: Common Cents Act
+  does: "Writes the end of new circulating pennies into law, lets cash totals round to 5 cents, and allows a zinc-core nickel."
+  affects: "Anyone paying or getting paid in cash, stores and banks, the U.S. Mint, and the Federal Reserve."
+  where: "Signed into law Nov. 20, 2026. A Public Law number wasn't posted yet when this was written."
+  summary:
+    text: "the Secretary shall cease production of one-cent coins for general circulation, but may continue to produce and issue one-cent coins for sale as numismatic items."
+    title: "H.R. 10167 as enrolled, sec. 2 (new 31 U.S.C. 5112(bb)(1))"
+    url: https://www.govinfo.gov/content/pkg/BILLS-119hr10167enr/html/BILLS-119hr10167enr.htm
+    retrieved: '2026-11-20'
+slides:
+- kicker: "Signed into law · Nov. 20, 2026"
+  big: 5¢
+  head: "The Common Cents Act is now law: no new pennies for circulation, and cash totals may be rounded to the nearest 5 cents."
+  text: "H.R. 10167. Passed the U.S. House of Representatives by voice vote and the U.S. Senate by unanimous consent."
+- chip: Before this law
+  head: "The Treasury had already stopped making new pennies, using powers it says it has under current law."
+  quote: {label: "U.S. Treasury, Penny FAQs", text: "The federal government has stopped manufacturing new pennies, but the Federal Reserve will continue to recirculate the roughly 114 billion pennies currently in existence"}
+  text: "On rounding, the Treasury's guidance says states will approach it differently."
+- chip: "Before → after"
+  head: What changes for coins
+  rows:
+  - [Penny, "Before: the Treasury's call. After: the law says stop minting it for circulation"]
+  - [Collectors, "Pennies can still be made to sell as collector coins"]
+  - [Old pennies, "Stay legal tender for all debts, taxes and dues"]
+  - [Nickel, "Before: copper and nickel alloy. After: may also be zinc inside, nickel outside"]
+- chip: Rounding, cash only
+  head: "If exact change can't be given, a cash total (taxes included) may be rounded."
+  rows:
+  - ["Ends in 1, 2, 6, 7", "May round down to the nearest 5 cents"]
+  - ["Ends in 3, 4, 8, 9", "May round up to the nearest 5 cents"]
+  - [Total of 1¢ or 2¢, "May round up to 5 cents"]
+  - ["Cards, checks", "No rounding: also gift cards, money orders, transfers"]
+- chip: The fine print
+  head: "Rounding is allowed, not required. Workers paid in cash only get rounded up."
+  rows:
+  - [Not required, "Nothing in the law makes anyone round"]
+  - [Legal cover, "Rounding this way doesn't break federal, state or tribal law"]
+  - [Cash wages, "An employer who rounds must round up"]
+  - [Still apply, "Minimum wage, overtime and paid leave laws"]
+- chip: "Who gains, who gives"
+  head: "The Treasury says the Mint saves money. The law orders a check on who could be hurt."
+  rows:
+  - [Cost now, "Treasury: 3.69 cents to make one penny"]
+  - [Savings, "Mint projects $56 million a year in materials"]
+  - [Prices, "Treasury: cash rounds down as often as up"]
+  - [Check, "Treasury must study effects on low-income, older and unbanked people"]
+  - [CBO, "Congress.gov lists no CBO cost estimate for this bill"]
+- chip: What comes next
+  head: "Reports to Congress, and a new rule for retiring any other coin."
+  rows:
+  - [90 days, "Federal Reserve plan to keep pennies moving, made public"]
+  - [Then, "Progress reports at 6, 18 and 30 months"]
+  - [Other coins, "Treasury needs 60 days' notice to Congress and a briefing first"]
+  - [Sponsor, "Rep. Lisa C. McClain (R-MI)"]
+  - [Cosponsor, "Rep. Robert Garcia (D-CA)"]
+- chip: Your turn
+  head: "Do you still pay with cash? Would rounding to 5 cents change how you pay?"
+  text: "Rounding is up to each store. Ask how yours will handle it."
+caption: |-
+  On Nov. 20, the President signed H.R. 10167, the Common Cents Act. It passed the U.S. House of Representatives by voice vote on Sept. 14 and the U.S. Senate by unanimous consent on Sept. 28.
+
+  Before: the Treasury had already stopped making new pennies on its own authority, and left rounding to the states.
+
+  After: federal law says no new pennies for circulation. Old pennies stay legal tender. When exact change can't be given, a cash total (taxes included) may be rounded to the nearest 5 cents: 1, 2, 6, 7 down; 3, 4, 8, 9 up. Cards, checks and gift cards stay exact. Nobody has to round. Cash wages can only be rounded up. Rounding this way doesn't break federal, state or tribal law.
+
+  Who gains, who gives: the Treasury says a penny costs 3.69 cents to make and the Mint projects $56 million a year in savings. The Treasury also says cash rounds down as often as up. The law orders a study of effects on low-income, older and unbanked people. Congress.gov lists no CBO estimate.
+
+  Do you still pay with cash?
+hashtags: [congress, penny, commoncentsact, newlaw, votetherecord]
+notes: >-
+  New this run: congress.gov's actions (api, read 2026-11-20) list "Signed by President." on Nov. 20, 2026 (presented
+  Nov. 12; House voice vote Sept. 14, 7:27 p.m. ET; Senate passed without amendment by unanimous consent Sept. 28).
+  No Public Law number yet. The CRS summary on congress.gov is for the introduced bill and says it "requires
+  rounding"; the enrolled text (GovInfo, read this run) says a person "may ... round" (sec. 3(a)) and sec. 3(e) says
+  nothing requires rounding. The long title also says "require". The post follows the enacted section text, so the
+  explainer quotes sec. 2's new 5112(bb)(1) instead of the CRS summary. Please double-check that reading. "Before" is
+  the Treasury's Penny Production Cessation FAQs (home.treasury.gov, opened this run): "has stopped manufacturing new
+  pennies", "roughly 114 billion", 3.69 cents per penny, $56 million a year ("in reduced material costs"), "states
+  will approach this issue differently", and rounding down "just as often as" up. The FAQ page names no date for the
+  last penny, so no date is on a slide; usmint.gov returned 403 (not retried). The FAQ cites 31 U.S.C. 5111(a)(1) and
+  5112(a)(6) as Treasury's authority; the nickel's 75/25 copper-nickel alloy is 5112(b) in GPO's 2024 U.S. Code.
+  Congress.gov lists no CBO estimate and no committee report. Voice vote and unanimous consent, so no list of who
+  voted which way; no statement against was opened (the Sept. 14 debate, CR H5599-5602, wasn't read). Sponsor and
+  cosponsor party and state as congress.gov lists them. News first: takes the Nov. 23 9:00 p.m. post slot from the
+  evergreen 2026-11-17-texas-sb-46-ai-political-ads (filed Nov. 9, more than a week ago), which moves to
+  2026-12-05T03:00:00-06:00, the first post slot after the last queued post (Dec. 4's only post is at 3:00 a.m., so a
+  later Dec. 4 post slot would put two posts in a row). Earlier post slots hold this week's news, and every Reel
+  slot is news or a trial (#250), so no Reel was bumped.
