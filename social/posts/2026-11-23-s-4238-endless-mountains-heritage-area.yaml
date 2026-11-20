@@ -1,0 +1,124 @@
+kind: reel
+level: congress
+topic: Parks
+approval: review
+record_ids: [us/119/S. 4238/senate-passed]
+publish_after: '2026-11-23T06:00:00-06:00'
+rule: >-
+  Bills the U.S. Senate's floor activity page lists as passed on Nov. 19, 2026 that no post covers yet. Two of them
+  name new National Heritage Areas, S. 1288 (New York) and S. 4238 (Pennsylvania); each gets its own post with the
+  same layout and wording, in bill-number order.
+sources:
+- title: "U.S. Senate Floor Activity, Thursday, November 19, 2026"
+  url: https://www.senate.gov/legislative/LIS/floor_activity/11_19_2026_Senate_Floor.htm
+  retrieved: '2026-11-20'
+- title: "S. 4238 (119th Congress), engrossed in the Senate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119s4238es/html/BILLS-119s4238es.htm
+  retrieved: '2026-11-20'
+- title: "Public Law 116-9, Dingell Act, sec. 6001 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/PLAW-116publ9/html/PLAW-116publ9.htm
+  retrieved: '2026-11-20'
+- title: "Public Law 117-339, National Heritage Area Act (GPO)"
+  url: https://www.govinfo.gov/content/pkg/PLAW-117publ339/html/PLAW-117publ339.htm
+  retrieved: '2026-11-20'
+- title: Congress.gov, S. 4238 bill record
+  url: https://api.congress.gov/v3/bill/119/s/4238
+  retrieved: '2026-11-20'
+bills:
+- id: S. 4238
+  title: Endless Mountains National Heritage Area Act
+  does: "Makes 4 counties in Pennsylvania a National Heritage Area, run by the Endless Mountains Heritage Region, Inc."
+  affects: "Groups in Bradford, Sullivan, Susquehanna and Wyoming counties that could get federal grants and help."
+  where: "Passed the U.S. Senate by unanimous consent Nov. 19, 2026. Next: the U.S. House of Representatives."
+  summary:
+    text: "There is established as a component of the National Heritage Area System the Endless Mountains National Heritage Area in the State of Pennsylvania, to consist of Bradford, Sullivan, Susquehanna, and Wyoming Counties, Pennsylvania"
+    title: S. 4238 as passed by the Senate, sec. 2(a) (no CRS summary is posted yet)
+    url: https://www.govinfo.gov/content/pkg/BILLS-119s4238es/html/BILLS-119s4238es.htm
+    retrieved: '2026-11-20'
+  say: "S. 4238, the Endless Mountains National Heritage Area Act, makes 4 counties in Pennsylvania a National Heritage Area, run by the Endless Mountains Heritage Region. It passed the United States Senate by unanimous consent on November 19, 2026."
+slides:
+- kicker: "U.S. Senate · Nov. 19, 2026"
+  big: 4 counties
+  head: "The U.S. Senate passed a bill to make 4 counties in Pennsylvania's Endless Mountains a National Heritage Area."
+  text: "S. 4238, the Endless Mountains National Heritage Area Act. Passed by unanimous consent."
+  say: "On November 19, the United States Senate passed a bill to make 4 counties in Pennsylvania's Endless Mountains region a National Heritage Area. S. 4238 passed by unanimous consent."
+- chip: What it is
+  head: "A National Heritage Area is not a national park."
+  quote: {label: "54 U.S.C. 120102(a)", text: "To recognize certain areas of the United States that tell nationally significant stories", key: nationally significant stories}
+  text: "The law says it isn't a unit of the National Park System. A local group runs it, with help from the Interior Department."
+  say: "What is it? Not a national park. The law says a heritage area recognizes places that tell nationally significant stories. It isn't part of the National Park System. A local group runs it, with help from the Interior Department."
+- chip: "Before → after"
+  head: What the bill changes
+  rows:
+  - [Before, "Not a National Heritage Area"]
+  - [After, "Bradford, Sullivan, Susquehanna and Wyoming counties"]
+  - [Maybe more, "Parts of other counties named in a feasibility study"]
+  - [Runs it, "The Endless Mountains Heritage Region, Inc."]
+  - [Plan, "Due to the Interior Department within 3 years"]
+  - [Ends, "Federal help stops 15 years after it becomes law"]
+  say: "Before, the region isn't a heritage area. After, four counties become one, plus parts of others named in a feasibility study. A local nonprofit runs it, with 3 years to send the Interior Department a plan. Federal help stops 15 years after it becomes law."
+- chip: The money
+  head: "Up to $10 million in all, no more than $1 million a year, if Congress provides it."
+  rows:
+  - [Match, "The federal share of any project is 50% at most"]
+  - [Land, "Federal funds can't be used to buy land"]
+  say: "The money. Up to $10 million in all, and no more than $1 million a year, if Congress provides it. Federal money pays 50% of a project at most, and it can't be used to buy land."
+- chip: What it doesn't do
+  head: "Property owners don't have to take part."
+  rows:
+  - [Owners, "Don't have to join in or open their land to the public"]
+  - [Rules, "Local land use rules stay the same"]
+  - [Power, "The group gets no power to regulate land"]
+  - [Hunting, "The state still manages fishing and hunting"]
+  say: "What it doesn't do. Property owners don't have to join in or open their land to the public. Local land use rules stay the same, the group gets no power to regulate land, and the state still manages fishing and hunting."
+- chip: "Who gains, who gives"
+  head: "Local groups could get grants and help. Taxpayers pay part, and local partners pay at least half."
+  rows:
+  - [Gains, "Groups in the region that get grants and help"]
+  - [Gives, "Taxpayers, if Congress funds it; local partners pay at least half"]
+  - [Cost, "CBO posted an estimate; we couldn't open it, so no number here"]
+  say: "Who gains? Groups in the region that get grants and help. Who gives? Taxpayers, if Congress funds it, and local partners, who pay at least half. The Congressional Budget Office posted an estimate, but we couldn't open it."
+- chip: How it passed
+  head: "By unanimous consent, so there's no list of who voted which way."
+  rows:
+  - [Sponsor, "Sen. David McCormick (R-PA)"]
+  - [Cosponsor, "Sen. John Fetterman (D-PA)"]
+  - [Next, "The U.S. House of Representatives"]
+  say: "It passed the United States Senate by unanimous consent, so there's no list of who voted which way. The sponsor is Senator David McCormick, Republican of Pennsylvania. The cosponsor is Senator John Fetterman, Democrat of Pennsylvania. Next, the House."
+- chip: Your turn
+  head: "Should Congress name more heritage areas, with federal grants that local groups must match?"
+  text: "The bill goes to the U.S. House of Representatives next. Tell your representative what you think."
+  say: "Your turn. Should Congress name more heritage areas, with federal grants that local groups must match? The bill goes to the United States House next. Tell your representative what you think."
+caption: |-
+  On Nov. 19, the U.S. Senate passed S. 4238, the Endless Mountains National Heritage Area Act, by unanimous consent.
+
+  Before: the Endless Mountains region isn't a National Heritage Area. A heritage area isn't a national park: a local group runs it, with help from the Interior Department.
+
+  After: Bradford, Sullivan, Susquehanna and Wyoming counties become one, plus any parts of other Pennsylvania counties named in the area's feasibility study, run by the Endless Mountains Heritage Region, Inc. Up to $10 million in federal money in all, at most $1 million a year, if Congress provides it. Federal money pays at most half of any project and can't buy land. Property owners don't have to take part, and local land rules stay the same.
+
+  Sponsor: Sen. David McCormick (R-PA). Cosponsor: Sen. John Fetterman (D-PA).
+
+  Should Congress name more heritage areas?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, ussenate, pennsylvania, nationalheritagearea, votetherecord]
+notes: >-
+  New this run: the Senate floor activity page for Nov. 19 lists S. 4238 "Passed Senate without amendment by
+  Unanimous Consent"; the engrossed text on GovInfo matches the introduced text word for word. No CRS summary, so the
+  explainer quotes sec. 2(a). "Parts of other counties" is the bill's "any portions of other counties in the State of
+  Pennsylvania identified in the feasibility study ... the specific boundaries of which shall be established by the
+  Secretary based on that feasibility study"; the study itself wasn't opened.
+  wording for where the four named counties are (not in the bill text); please confirm or cut. The bill adds
+  paragraph (14) to Dingell Act sec. 6001(a), so the rules in sec. 6001 apply (P.L. 116-9, opened on GovInfo): (b)(3)
+  no federal funds to buy real property; (e) owners not required to participate or allow public access, land use
+  rules unaltered, no regulatory authority to the entity, state fish and wildlife authority not diminished; (g)(1)
+  "$10,000,000, of which not more than $1,000,000 may be made available in any fiscal year" (authorized); (g)(3)
+  federal share "not more than 50 percent". "Not a national park" is 54 U.S.C. 120102(c)(2)(A) (P.L. 117-339). I found
+  no later change to sec. 6001(g); please confirm. S. 1288 (Finger Lakes) also adds a paragraph "(14)"; not raised on
+  a slide. cbo.gov returned 403 earlier this run (estimate: cbo.gov/publication/62796), not retried. A Senate National
+  Parks subcommittee hearing was held July 21, 2026 (congress.gov actions); the testimony wasn't opened. No statement
+  for or against was found and it passed by unanimous consent, so no case-against slide. Paired with the S. 1288 Reel,
+  same layout; meant to be merged together. Sponsor and cosponsor party and state as congress.gov lists them. News
+  first: takes the Nov. 23 6:00 a.m. Reel slot from the evergreen prefiled-bill post
+  2026-11-21-texas-hb-1162-homeless-id-fees, which moves to 2026-12-01T00:00:00-06:00 (Nov. 30 would put two Reels in
+  a row if the S. 1288 pull request merges).
