@@ -1,0 +1,115 @@
+kind: reel
+level: congress
+topic: Prediction markets
+approval: review
+record_ids: [us/119/S. 4035/senate-passed]
+publish_after: '2026-11-26T18:00:00-06:00'
+rule: >-
+  Bills the U.S. Senate Press Gallery lists as passed by the U.S. Senate on Nov. 19, 2026 that no post covers yet,
+  one bill per post. This is S. 4035; the others (H.R. 4624, S. 4448, S. 580, S. 2479 and the trail and heritage
+  area bills) are left for their own posts.
+sources:
+- title: "Senate Press Gallery, Nov. 19, 2026"
+  url: https://www.dailypress.senate.gov/thursday-november-19-2026/
+  retrieved: '2026-11-20'
+- title: "S. 4035, as passed (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119s4035es/html/BILLS-119s4035es.htm
+  retrieved: '2026-11-20'
+- title: "S. 4035, as introduced (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119s4035is/html/BILLS-119s4035is.htm
+  retrieved: '2026-11-20'
+- title: "7 U.S.C. 7a-2 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title7/html/USCODE-2024-title7-chap1-sec7a-2.htm
+  retrieved: '2026-11-20'
+- title: "Sen. Schiff release, Mar. 10, 2026"
+  url: https://www.schiff.senate.gov/news/press-releases/news-sen-schiff-introduces-legislation-to-explicitly-ban-death-and-war-prediction-contracts/
+  retrieved: '2026-11-20'
+- title: Congress.gov, S. 4035 record
+  url: https://api.congress.gov/v3/bill/119/s/4035
+  retrieved: '2026-11-20'
+bills:
+- id: S. 4035
+  title: DEATH BETS Act
+  does: "Bans CFTC-registered exchanges from listing event contracts that expressly reference war, terrorism, assassination or a death."
+  affects: "Exchanges and clearinghouses registered with the Commodity Futures Trading Commission, and people who trade on them."
+  where: "Passed the U.S. Senate by voice vote on Nov. 19, 2026. Next: the U.S. House of Representatives."
+  summary:
+    text: "(1) An agreement, contract, transaction, or swap based on an excluded commodity described in section 1a(19)(iv) that expressly references-- (A) terrorism; (B) assassination; (C) war;"
+    title: S. 4035 as passed by the Senate, new CEA sec. 5c(d)(1) (no CRS summary is posted yet)
+    url: https://www.govinfo.gov/content/pkg/BILLS-119s4035es/html/BILLS-119s4035es.htm
+    retrieved: '2026-11-20'
+  say: "S. 4035, the DEATH BETS Act, bans exchanges registered with the Commodity Futures Trading Commission from listing event contracts that expressly reference war, terrorism, assassination or a death. It passed the United States Senate by voice vote on November 19, 2026."
+slides:
+- kicker: "U.S. Senate · Nov. 19, 2026"
+  big: No bets on war
+  head: "The U.S. Senate passed a bill to ban prediction-market bets on war, terrorism and death."
+  text: "S. 4035, the DEATH BETS Act. Passed by voice vote."
+  say: "Can you bet on a war? On November 19, the United States Senate passed a bill to ban prediction market bets on war, terrorism and death. S. 4035, the DEATH BETS Act, passed by voice vote."
+- chip: The law today
+  head: "Today the CFTC may block these contracts. It doesn't have to."
+  quote: {label: "Commodity Exchange Act, 7 U.S.C. 7a-2(c)(5)(C)(i)", text: "the Commission may determine that such agreements, contracts, or transactions are contrary to the public interest if the agreements, contracts, or transactions involve", key: may determine}
+  text: "The CFTC, the Commodity Futures Trading Commission, regulates these markets. Its list includes terrorism, assassination, war and gaming."
+  say: "The law today. The C F T C, the Commodity Futures Trading Commission, regulates these markets. It may block event contracts on terrorism, assassination, war or gaming as against the public interest. It doesn't have to."
+- chip: "Before → after"
+  head: What the bill changes
+  rows:
+  - [Before, "The CFTC decides, case by case"]
+  - [After, "Banned outright if a contract expressly references war, terrorism, assassination or U.S. military operations"]
+  - [Also banned, "Contracts expected to resolve mainly on someone's death"]
+  - [Who must obey, "Registered entities: exchanges and clearinghouses registered with the CFTC"]
+  say: "Before, the regulator decided case by case. After, a contract that expressly references war, terrorism, assassination or United States military operations is banned outright. So is one expected to resolve mainly on someone's death. Registered entities, the exchanges and clearinghouses the regulator registers, must obey."
+- chip: Changed on the floor
+  head: "The Senate narrowed the bill before passing it."
+  rows:
+  - [Introduced, "Banned contracts that \"involves, relates to, or references\" war or death"]
+  - [Passed, "Bans contracts that \"expressly references\" them"]
+  - [Added, "U.S. military operations, and a line that other contract types keep today's rules"]
+  say: "The United States Senate narrowed it before passing it. The first version covered any contract that involves, relates to, or references war or death. The passed version covers contracts that expressly reference them, adds United States military operations, and keeps today's rules for other contracts."
+- chip: "Who gains, who gives"
+  head: "Exchanges lose a kind of contract they could list. The regulator loses its choice."
+  rows:
+  - [Gives, "Exchanges that list these contracts, and their traders"]
+  - [Sponsor's case, "Bets on war and death let insiders profit and encourage violence"]
+  - [Against, "Passed by voice vote; we found no statement against it"]
+  - [Cost, "Congress.gov lists no CBO estimate"]
+  say: "Exchanges lose a kind of contract they could list, and the regulator loses its choice. The sponsor says these bets let insiders profit off classified information and encourage violence. It passed by voice vote, and we found no statement against it."
+- chip: How it passed
+  head: "By voice vote, so there's no list of who voted which way."
+  rows:
+  - [Sponsor, "Sen. Adam B. Schiff (D-CA)"]
+  - [Cosponsor, "Sen. John R. Curtis (R-UT)"]
+  - [Next, "The U.S. House of Representatives"]
+  say: "It passed the United States Senate by voice vote, so there's no list of who voted which way. The sponsor is Senator Adam Schiff, Democrat of California. The cosponsor is Senator John Curtis, Republican of Utah. Next, the House."
+- chip: Your turn
+  head: "Should Congress ban bets on war and death, or leave it to the regulator?"
+  text: "The bill goes to the U.S. House of Representatives next. Tell your representative what you think."
+  say: "Your turn. Should Congress ban bets on war and death, or leave it to the regulator? The bill goes to the United States House next. Tell your representative what you think."
+caption: |-
+  On Nov. 19, the U.S. Senate passed S. 4035, the DEATH BETS Act, by voice vote.
+
+  Before: the Commodity Futures Trading Commission (CFTC) may block event contracts on terrorism, assassination, war or gaming. It's the CFTC's call.
+
+  After: CFTC-registered exchanges could not list contracts that expressly reference terrorism, assassination, war or U.S. military operations, or that resolve mainly on a death. Gaming contracts keep today's rules. The Senate narrowed the wording before passing it.
+
+  Who gives: exchanges and their traders. No statement against it was found; no CBO estimate is listed.
+
+  Sponsor: Sen. Adam B. Schiff (D-CA). Cosponsor: Sen. John R. Curtis (R-UT).
+
+  Ban these bets, or leave it to the regulator?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, ussenate, predictionmarkets, cftc, votetherecord]
+notes: >-
+  New this run: the Senate Press Gallery's Nov. 19 log says "Senator Schiff achieved passage of S.4035, DEATH BETS Act,
+  along with the Schiff/Curtis amendment, by voice vote" (6:47 p.m.); congress.gov actions (read 2026-11-20) say
+  "Passed Senate with an amendment by Voice Vote", and GovInfo has the engrossed text. No CRS summary, committee report
+  or CBO estimate (congress.gov's record lists none), so the explainer quotes the engrossed sec. 2. Before/after:
+  current law quoted from GPO's 2024 U.S. Code 7 U.S.C. 7a-2(c)(5)(C)(i)-(ii); after, from the engrossed text. The
+  "Changed on the floor" slide compares the introduced and engrossed texts (both opened). "Sponsor's case" paraphrases
+  Schiff's March 10 release ("insiders can profit off of classified information ... and violence is encouraged"); it
+  was about the introduced version. No statement against was found in the sources opened (no recorded vote, no
+  report); the Nov. 19 Congressional Record (Schiff and Curtis spoke) wasn't opened. Party and state as congress.gov
+  lists sponsor and cosponsor. H.R. 7942 is listed by CRS as identical to the introduced version, not the passed one,
+  so it isn't named. The rule of construction (sec. 3) is the "other contract types keep today's rules" line: it
+  keeps the CFTC's existing discretion over the other activities in 5c(c)(5)(C)(i), such as gaming; check the
+  wording. Takes the free Nov. 26 6:00 p.m. Reel slot (after the 3:00 p.m. carousel). Nov 20 fix: shortened source titles so the cover's source footer fits (the first preview clipped it).
