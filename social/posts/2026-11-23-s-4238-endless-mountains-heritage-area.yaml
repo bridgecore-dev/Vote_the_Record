@@ -5,6 +5,13 @@ approval: review
 record_ids: [us/119/S. 4238/senate-passed]
 publish_after: '2026-11-23T06:00:00-06:00'
 trial: auto
+design:
+  palette: teal
+  mode: dark
+  font: serif
+  position: center
+  motion: captions
+  sfx: true
 rule: >-
   Bills the U.S. Senate's floor activity page lists as passed on Nov. 19, 2026 that no post covers yet. Two of them
   name new National Heritage Areas, S. 1288 (New York) and S. 4238 (Pennsylvania); each gets its own post with the
