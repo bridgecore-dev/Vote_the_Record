@@ -30,6 +30,13 @@
   <ul class="item-list">{% for v in person.leg_votes[:5] %}{{ leg_vote(v) }}{% endfor %}</ul>
   <p><a href="{{ person.url }}votes/">All {{ "{:,}".format(ls.total) }} votes</a> · <a href="/methodology/#votes-in-the-texas-legislature">Which votes we show</a></p>
   {% endif %}
+  {% if person.congress_votes %}
+  <h3>Votes in the U.S. Congress</h3>
+  <p class="muted">Roll calls on this site, as the House Clerk or the Senate records them.</p>
+  <ul class="item-list">{% for cv in person.congress_votes %}
+    <li><a href="{{ cv.vote.url }}">{{ cv.vote.label }}</a>, {{ cv.vote.date | longdate }}: {{ cv.vote.heading | trim(".") }}. Voted <strong>{{ cv.cast }}</strong>. {{ cv.vote.result }}. {{ verification_badge(cv.vote.fact) }}</li>
+  {% endfor %}</ul>
+  {% endif %}
   {% if person.all_records %}
   <ul class="item-list">{% for fact in person.all_records %}{{ fact_card(fact, facts) }}{% endfor %}</ul>
   {% elif not person.researched %}

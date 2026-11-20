@@ -24,7 +24,8 @@ GENERATED = ("zips.yaml", "precincts.yaml")
 
 
 def data_files(root: Path) -> list[Path]:
-    return sorted((root / "data" / "states").rglob("*.yaml"))
+    """Every data YAML file: state data and federal roll calls."""
+    return sorted(p for sub in ("states", "federal") for p in (root / "data" / sub).rglob("*.yaml"))
 
 
 def walk_facts(doc, trail=()) -> Iterator[tuple[tuple, dict]]:

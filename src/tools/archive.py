@@ -16,6 +16,7 @@ Skipped: bulk downloads (.zip) that are too large to archive, and files a collec
 from __future__ import annotations
 
 import argparse
+import gzip
 import hashlib
 import re
 import sys
@@ -64,9 +65,18 @@ def save(url: str, tries: int = 3, wait: float = 30.0) -> str | None:
     return None
 
 
-def snapshot_sha256(snapshot: str) -> str:
+def snapshot_sha256(snapshot: str) -> set[str]:
+    """SHA-256 of the archived original bytes. Wayback can replay a file with its original gzip transfer
+    encoding still applied, so a gzip body is hashed both as sent and unpacked."""
     raw_url = re.sub(r"/web/(\d{14})/", r"/web/\1id_/", snapshot, count=1)  # the original bytes
-    return hashlib.sha256(fetch(raw_url)).hexdigest()
+    data = fetch(raw_url)
+    hashes = {hashlib.sha256(data).hexdigest()}
+    if data[:2] == b"\x1f\x8b":
+        try:
+            hashes.add(hashlib.sha256(gzip.decompress(data)).hexdigest())
+        except (OSError, EOFError):
+            pass
+    return hashes
 
 
 def set_archive_url(path: Path, fact_id: str, archive_url: str) -> None:
@@ -128,8 +138,8 @@ def main(argv: list[str] | None = None) -> int:
             except RuntimeError as err:
                 print(f"SAVED but couldn't check the copy {snap}: {err}")
                 continue
-            if got not in hashes:
-                print(f"MISMATCH {snap}: archived file's SHA-256 {got} differs from the fact's; not used")
+            if not got & hashes:
+                print(f"MISMATCH {snap}: archived file's SHA-256 {sorted(got)} differs from the fact's; not used")
                 continue
         print(f"ARCHIVED {snap} ({len(facts)} fact(s))")
         if args.write:

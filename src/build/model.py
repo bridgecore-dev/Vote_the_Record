@@ -237,8 +237,10 @@ def load_site(root: Path, today: str) -> dict:
         for cand in race["candidates"]:
             cand["profile_url"] = profiles.get(cand["file_path"])
 
-    from congress import assemble_congress  # noqa: E402
-    return {"officials": officials, "facts": facts, "congress": assemble_congress(docs),
+    from congress import assemble_congress, link_people  # noqa: E402
+    congress = assemble_congress(docs)
+    link_people(congress, officials["people"])
+    return {"officials": officials, "facts": facts, "congress": congress,
             "races": races, "measures": measures, "essentials": essentials, "corrections": corrections,
             "ballots": ballots, "results": results, "other_races": [r for r in races if r["path"] not in on_ballot],
             "zip_index": zip_index, "county_index": county_index, "who_decides": load_who_decides(docs)}

@@ -43,6 +43,7 @@ def assemble_vote(rel: str, doc: dict) -> dict:
             **m, "key": member_key(m), "display": display, "initials": initials(display),
             "group": GROUP_OF[m["vote"]],
             "portrait_src": f"/congress/portraits/{m['portrait']}" if m.get("portrait") else None,
+            "profile_url": None,
         })
     groups = [{"key": key, "label": label, "count": doc["totals"][key],
                "members": [m for m in members if m["group"] == key]} for key, label in GROUPS]
@@ -90,3 +91,42 @@ def assemble_congress(docs: dict) -> dict:
     portraits = sorted({m["portrait"] for v in votes for m in v["members"] if m.get("portrait")})
     return {"votes": votes, "compare": compare, "portraits": portraits,
             "states": sorted({m["state"] for v in votes for m in v["members"]})}
+
+
+SEAT_CHAMBER = {"us-senator": "senate", "us-representative": "house"}
+SUFFIXES = ("jr", "sr", "ii", "iii", "iv")
+
+
+def _name_parts(name: str) -> tuple[str, str]:
+    """(first initial, surname), lowercase; 'Ted Cruz' -> ('t', 'cruz'), 'A. Gene Calvert Jr.' -> ('a', 'calvert')."""
+    words = [w.strip(".,").casefold() for w in name.replace('"', " ").split()]
+    words = [w for w in words if w and w not in SUFFIXES]
+    return (words[0][:1], words[-1]) if words else ("", "")
+
+
+def link_people(congress: dict, people: list[dict]) -> None:
+    """Link a roll-call member to the profile of the person holding that state's seat in that chamber now.
+
+    Links only when exactly one current seat holder in the member's state and chamber has the same surname and
+    first initial as the roll call's full name; otherwise the member stays unlinked. Each linked person gets
+    `congress_votes`, newest first."""
+    holders: dict[tuple[str, str], list[dict]] = {}
+    for person in people:
+        for seat in person["seats"]:
+            chamber = SEAT_CHAMBER.get(seat["office_type"])
+            if chamber:
+                holders.setdefault((person["state"].upper(), chamber), []).append(person)
+    for person in people:
+        person.setdefault("congress_votes", [])
+    for vote in congress["votes"]:  # newest first already
+        for m in vote["members"]:
+            want = _name_parts(m.get("full_name") or "")
+            if not want[1]:
+                continue
+            found = {id(p): p for p in holders.get((m["state"], vote["chamber"]), [])
+                     if _name_parts(p["name"]) == want}
+            if len(found) == 1:
+                person = next(iter(found.values()))
+                m["profile_url"] = person["url"]
+                person["congress_votes"].append({"vote": vote, "cast": m["vote"]})
+

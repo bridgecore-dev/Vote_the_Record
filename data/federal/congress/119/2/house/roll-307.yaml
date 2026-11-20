@@ -40,7 +40,7 @@ fact:
   source_title: 'Office of the Clerk, U.S. House of Representatives: Roll Call 307 (2026)'
   source_kind: document
   sha256: b320384038356beaebc7916f868a4748290669e1918fa383bd8c9164fce707be
-  archive_url: null
+  archive_url: https://web.archive.org/web/20261110132539/https://clerk.house.gov/evs/2026/roll307.xml
   event_date: '2026-09-15'
   retrieved: '2026-11-19'
   verification: unverified
