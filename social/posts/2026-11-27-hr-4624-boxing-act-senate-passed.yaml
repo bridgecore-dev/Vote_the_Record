@@ -1,0 +1,155 @@
+kind: carousel
+level: congress
+topic: Sports and worker safety
+approval: review
+record_ids:
+- us/119/H.R. 4624/senate-passed
+publish_after: '2026-11-27T09:00:00-06:00'
+sources:
+- title: U.S. Senate Press Gallery floor log, Nov. 19, 2026
+  url: https://www.dailypress.senate.gov/thursday-november-19-2026/
+  retrieved: '2026-11-20'
+- title: H.R. 4624, Senate amendment as passed (GovInfo)
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr4624eas/html/BILLS-119hr4624eas.htm
+  retrieved: '2026-11-20'
+- title: H.R. 4624, as passed by the House (GovInfo)
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr4624eh/html/BILLS-119hr4624eh.htm
+  retrieved: '2026-11-20'
+- title: H. Rept. 119-524, Part 1 (GovInfo)
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt524/html/CRPT-119hrpt524-pt1.htm
+  retrieved: '2026-11-20'
+- title: H.R. 4624 actions (Congress.gov)
+  url: https://api.congress.gov/v3/bill/119/hr/4624/actions
+  retrieved: '2026-11-20'
+- title: S.Amdt. 7029 (Congress.gov)
+  url: https://api.congress.gov/v3/amendment/119/samdt/7029
+  retrieved: '2026-11-20'
+bills:
+- id: H.R. 4624
+  title: Muhammad Ali American Boxing Revival Act of 2026
+  does: Would set pay, insurance and medical-exam floors for pro boxers, and let private leagues run matches and title belts.
+  affects: Professional boxers, promoters, and new unified boxing organizations (UBOs).
+  where: Passed the U.S. House of Representatives Mar. 24 and, changed, the U.S. Senate Nov. 19.
+  summary:
+    text: This bill authorizes the establishment of private-sector Unified Boxing Organizations (UBOs) and otherwise expands
+      the regulatory framework for professional boxing.
+    title: CRS summary of H.R. 4624 (as reported in the House)
+    url: https://api.congress.gov/v3/bill/119/hr/4624/summaries
+    retrieved: '2026-11-20'
+slides:
+- kicker: U.S. Senate · Nov. 19
+  big: $200 a round
+  head: The U.S. Senate passed a bill that would make every pro boxing match pay each boxer at least $200 a round.
+  text: It passed by unanimous consent, with no member-by-member tally. It changed the House's version, so it goes back to
+    the U.S. House of Representatives.
+- chip: 'Before: current law'
+  head: Federal boxing law dates to 1996 and 2000. The House committee's report says it sets no minimum insurance.
+  quote:
+    label: H. Rept. 119-524 (House Education and Workforce Committee)
+    text: The PBSA does not have a minimum insurance coverage requirement, and even ABC's regulatory guidelines require only
+      a minimum of $10,000 in coverage.
+  text: PBSA is the Professional Boxing Safety Act of 1996. ABC is the Association of Boxing Commissions. The 2000 Muhammad
+    Ali Boxing Reform Act added contract and conflict-of-interest rules.
+- chip: 'After: every pro boxer'
+  head: These would apply to every pro match, whoever promotes it.
+  rows:
+  - - Pay
+    - At least $200 per round
+  - - Insurance
+    - $50,000 medical and $15,000 death coverage; boxer pays no premium
+  - - Brain exam
+    - Yearly brain MRI or neurologist exam; MRI and MRA at 40+
+  - - Heart exam
+    - Yearly electrocardiogram; a stress test at 40+
+  - - Drug tests
+    - Commissions test every title match; others at random
+  - - Doctors
+    - Ringside physicians certified within 2 years
+- chip: 'After: a new option'
+  head: A "unified boxing organization" (UBO), a private league that signs boxers, runs matches and runs its own title belts.
+  text: Boxers could choose it instead of the usual system. To qualify, a UBO must meet extra rules.
+  rows:
+  - - Medical
+    - 2 ambulances and 2 ringside doctors at each match
+  - - Contracts
+    - 4 years at most; 3 for a boxer's first contract
+  - - Free agency
+    - Boxers may talk to rivals in the contract's last 90 days
+  - - Work
+    - Offer 2 fights a year, or pay at least 10 times the round minimum
+  - - Firewall
+    - Can't manage its boxers or charge them for rankings
+  - - Drug tests
+    - Both boxers in at least half its matches
+- chip: What the U.S. Senate changed
+  head: The Senate's version rewrote the House's in several places.
+  rows:
+  - - Talk to rivals
+    - Last 30 days of a contract → last 90 days
+  - - Longest contract
+    - 6 years → 4 years (3 for a first contract)
+  - - Guaranteed work
+    - 1 match every 6 months → 2 offered every 12 months
+  - - Fine for UBO staff
+    - Up to $20,000 → up to $100,000
+  - - Regular promoters
+    - The contract limits now cover their contracts too
+  text: The substitute was by Sen. Ted Cruz (R-TX) and Sen. Jacky Rosen (D-NV). Sen. Kirsten Gillibrand (D-NY) asked consent
+    to pass it.
+- chip: The case for
+  head: Supporters say a new kind of league means more choices and more money for boxers.
+  quote:
+    label: Lawrence Epstein, UFC chief operating officer, House testimony, Dec. 4, 2025 (H. Rept. 119-524)
+    text: More bidders for boxers' services will lead to higher purses.
+  text: The committee's majority wrote that UBOs "would not replace the current system of professional boxing."
+- chip: The concerns
+  head: The committee's Democrats backed the bill but warned about how much control a league could gain.
+  quote:
+    label: Additional views, Rep. Robert C. "Bobby" Scott (D-VA), Ranking Member (H. Rept. 119-524)
+    text: the risk that a UBO could exert enormous control over boxers' careers and potentially the sport of boxing itself
+  text: They also asked for pay tied to inflation and for UBOs to cover insurance deductibles. Neither is in the Senate's version.
+- chip: Who gains, who loses, what it costs
+  head: Each UBO pays for the protections it must provide, but a boxer still pays any insurance deductible.
+  rows:
+  - - Gain
+    - Boxers get pay, insurance and medical floors
+  - - Gain
+    - Private leagues get a legal path to run boxing
+  - - Risk
+    - Critics say a league could gain too much control over careers
+  - - Cost
+    - The House report says CBO's estimate wasn't ready in time
+- chip: What's next
+  head: 'Next: the U.S. House of Representatives takes up the Senate''s version.'
+  text: The rules would apply to matches starting 240 days after it becomes law. Sponsor, Rep. Brian Jack (R-GA). Which side convinces
+    you?
+caption: |-
+  The U.S. Senate passed the Muhammad Ali American Boxing Revival Act (H.R. 4624) by unanimous consent on Nov. 19. It changed the House's version, so it goes back to the U.S. House of Representatives.
+
+  Before: federal boxing law dates to 1996 and 2000. The House committee's report says it sets no minimum insurance.
+  After: every pro boxer would get at least $200 a round, $50,000 in medical and $15,000 in death coverage, and yearly brain and heart exams. A new kind of private league, a "unified boxing organization," could sign boxers and run its own title belts if it meets extra rules: contracts of 4 years at most, a 90-day window to talk to rivals, and 2 fights offered a year.
+
+  Supporters say more leagues mean higher pay. The committee's Democrats backed it but warned a league could gain too much control over careers.
+
+  Which side convinces you?
+hashtags:
+- congress
+- boxing
+- aliact
+- votetherecord
+notes: 'New: the U.S. Senate passed H.R. 4624 with an amendment by unanimous consent on Nov. 19 (Senate Press Gallery log,
+  3:34 p.m.; Congress.gov actions); no post covers it. Every "after" item was checked in the Senate amendment text (EAS, GovInfo);
+  the House-vs-Senate changes were checked against the House-passed text (EH): 30 vs 90 days, 6 vs 4 years, "1 boxing match
+  every 6 months" vs "not fewer than 2 covered matches" in "each 12-month period", $20,000 vs $100,000, and sec. 21A(f)(3)
+  (contract limits applied to all promoter contracts) is only in the Senate text. "Brain MRI or neurologist exam" is the
+  under-40 rule ("an MRI of the brain or neurologic examination"); 40+ get an MRI and MRA. Quotes for and against are about
+  the House committee''s version (H. Rept. 119-524, filed Feb. 25), not the Senate''s; the report has no dissenting views
+  (committee vote 30-4; the names weren''t in the GovInfo text). The "concerns" slide lists only two Democratic requests I
+  confirmed are missing from the Senate text (no inflation indexing; sec. 21A(j)(2): the deductible "shall be the financial
+  responsibility of the boxer"); the Senate text does add rating disclosures, which touches their ratings request, so that
+  one isn''t listed. CBO estimate (cbo.gov/publication/62239, House reported version) returned 403, so no dollar figure.
+  The CRS summary is of the House-reported version. Party and state for Cruz, Rosen, Gillibrand and Scott from Congress.gov
+  member records; Jack from the bill record. Congress.gov lists Gillibrand and Cruz as SA 7029 sponsors and Rosen as cosponsor;
+  the floor log calls it "the Cruz/Rosen substitute amendment". The additional views name UFC''s owners and Zuffa Boxing;
+  left off the slides as an organization not named in the bill. If the U.S. House acts before the slot, update "where" and
+  the last slide.'
