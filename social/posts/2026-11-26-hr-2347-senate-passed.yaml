@@ -1,0 +1,116 @@
+kind: carousel
+level: congress
+topic: Energy and permits
+approval: review
+record_ids: [us/119/2/senate/roll/270]
+publish_after: '2026-11-26T15:00:00-06:00'
+sources:
+- title: "U.S. Senate, Vote 270 (2026)"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00270.xml
+  retrieved: '2026-11-20'
+- title: "U.S. Senate, Vote 267 (2026)"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00267.xml
+  retrieved: '2026-11-20'
+- title: "Cong. Record, Nov. 10 (SA 6883)"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-11-10/html/CREC-2026-11-10-pt1-PgS5417.htm
+  retrieved: '2026-11-20'
+- title: "H.R. 2347 bill status (GPO)"
+  url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr2347.xml
+  retrieved: '2026-11-20'
+- title: "house.gov, The Legislative Process"
+  url: https://www.house.gov/the-house-explained/the-legislative-process
+  retrieved: '2026-11-20'
+- title: "Capito floor remarks, Nov. 9"
+  url: https://www.epw.senate.gov/public/index.cfm/2026/11/senate-advances-capito-s-bipartisan-american-affordability-and-jobs-act
+  retrieved: '2026-11-20'
+- title: "Alsobrooks statement, Nov. 9"
+  url: https://www.alsobrooks.senate.gov/news/press-releases/alsobrooks-votes-no-on-bipartisan-american-affordability-and-jobs-act/
+  retrieved: '2026-11-20'
+bills:
+- id: H.R. 2347
+  title: Bipartisan American Affordability and Jobs Act of 2026 (U.S. Senate substitute)
+  does: "Rewrites federal environmental reviews and permits, power line planning and energy leasing; keeps the House bill's tax change."
+  affects: "Builders of energy and other projects, agencies that review them, people who sue over them, and data centers."
+  where: "Passed the U.S. Senate as amended, 62-33, Nov. 19 (vote 270). The U.S. House passed a different text."
+  summary:
+    text: "This Act may be cited as the \"Bipartisan American Affordability and Jobs Act of 2026\"."
+    title: "SA 6883, sec. 1(a), Congressional Record, Nov. 10, 2026"
+    url: https://www.govinfo.gov/content/pkg/CREC-2026-11-10/html/CREC-2026-11-10-pt1-PgS5417.htm
+    retrieved: '2026-11-20'
+slides:
+- chip: "Roll call 270 · Nov. 19, 2026"
+  head: "The U.S. Senate passed H.R. 2347, a bill on federal permits."
+  vote: {yea: 62, nay: 33, not_voting: 5}
+  text: "Yea meant pass the bill as amended. It needed a simple majority."
+- chip: Two versions
+  head: "The U.S. House of Representatives and the U.S. Senate passed different texts of H.R. 2347."
+  rows:
+  - [U.S. House version, "One change: a tax rule for damages from sexual abuse cases"]
+  - [U.S. Senate version, "Rewrites federal permits and reviews, and keeps that tax change as its last part"]
+  by: "Bill status of H.R. 2347; SA 6883, adopted 69-27 on Nov. 18 (vote 267)"
+- chip: Before → after
+  head: "Four changes in the U.S. Senate's text, one from each of four areas"
+  rows:
+  - [Water permits, "State discharge permits: up to 5 years → up to 10"]
+  - [Species reviews, "90 days to finish → 60"]
+  - [Lawsuits, "New: challenges to a review filed within 150 days"]
+  - [Data centers, "Pay the full cost of the power lines they need"]
+  by: "SA 6883, secs. 1203, 1302, 1110, 2107"
+- chip: How they voted
+  head: By party, as the U.S. Senate records it
+  rows:
+  - [Republican, "47 Yea · 2 Nay · 4 didn't vote"]
+  - [Democratic, "14 Yea · 30 Nay · 1 didn't vote"]
+  - [Independent, "1 Yea · 1 Nay · 0 didn't vote"]
+  text: "Didn't vote: Cassidy (R-LA), Cornyn (R-TX), McConnell (R-KY), Murphy (D-CT), Tuberville (R-AL)."
+- chip: The 33 Nay votes
+  head: "Voted Nay, as the U.S. Senate lists them: all 33, the smaller side"
+  text: "Alsobrooks (D-MD), Baldwin (D-WI), Bennet (D-CO), Blumenthal (D-CT), Blunt Rochester (D-DE), Booker (D-NJ), Cantwell (D-WA), Cortez Masto (D-NV), Duckworth (D-IL), Durbin (D-IL), Gillibrand (D-NY), Hassan (D-NH), Hawley (R-MO), Hirono (D-HI), Kaine (D-VA), Kelly (D-AZ), Kim (D-NJ), Lujan (D-NM), Markey (D-MA), Merkley (D-OR), Murray (D-WA), Ossoff (D-GA), Padilla (D-CA), Rounds (R-SD), Sanders (I-VT), Schiff (D-CA), Shaheen (D-NH), Smith (D-MN), Van Hollen (D-MD), Warnock (D-GA), Warren (D-MA), Welch (D-VT), Wyden (D-OR)"
+- chip: The case for
+  head: "The substitute's sponsor, who voted Yea, says reviews hold up projects."
+  quote: {label: "Sen. Capito (R-WV), floor remarks, Nov. 9, 2026", text: "The environmental permitting and review processes should be tools for informed decision-making, not reasons that decisions can’t be made."}
+- chip: The case against
+  head: "A senator who voted Nay says it costs clean water and community input."
+  quote: {label: "Sen. Alsobrooks (D-MD), statement, Nov. 9, 2026", text: "But we should not do it at the expense of clean water and community engagement."}
+  text: "She said she supports \"smart permitting reform\" but not this bill as written."
+  by: "Picked: the first Nay voter, alphabetically, with a published statement on the bill."
+- chip: What's next
+  head: "It isn't law yet. The two chambers have to settle on one text."
+  text: "The U.S. House of Representatives and the U.S. Senate work out their differences, both approve the final bill, then the President has 10 days to sign or veto."
+  rows:
+  - [Your senators, "senate.gov: roll call votes, 119th Congress, 2nd session, vote 270"]
+  - [Cost, "CBO sent a preliminary estimate Nov. 13: cbo.gov/publication/62908"]
+  by: "house.gov, The Legislative Process"
+- chip: Your view
+  head: "Which side convinces you?"
+caption: |-
+  The U.S. Senate passed H.R. 2347 as amended, 62-33, on Nov. 19 (vote 270). It needed a simple majority.
+
+  Republican: 47 Yea, 2 Nay, 4 didn't vote.
+  Democratic: 14 Yea, 30 Nay, 1 didn't vote.
+  Independent: 1 Yea, 1 Nay.
+
+  The U.S. House of Representatives passed H.R. 2347 as a one-change tax bill. The U.S. Senate's version rewrites federal permits and environmental reviews and keeps that tax change. The two chambers still have to agree on one text before it can go to the President.
+
+  For: Sen. Capito (R-WV). Against: Sen. Alsobrooks (D-MD).
+
+  Which side convinces you?
+hashtags: [ussenate, permitting, energy, rollcall, votetherecord]
+rule: "The 33 Nay votes are the smaller side, so every one is listed. Before → after: one change from each of four areas the text covers (water permits, wildlife reviews, court challenges, power lines). For and against: the substitute's sponsor and the first Nay voter in the U.S. Senate's alphabetical list who published a statement on the bill."
+notes: >-
+  New this run: Senate vote 270 (final passage of H.R. 2347 as amended, Nov. 19), not in any post's record_ids
+  (PR #231 mentions it only in the cloture post's "where"). Tally, party counts and every name were counted from
+  vote_119_2_00270.xml (sha256 209b56e2a1c478b0dbdfa54bd742bf16829f23d18130df033d6525c52bd5099d), party as the
+  Senate lists it; majority_requirement is "1/2". The XML prints the time as "09:30 AM", so no time is given.
+  Before → after rows are from SA 6883's strike-and-insert text in the Nov. 10 Record (sec. 1203 "five years" →
+  "10 years"; sec. 1302 "90-day"/"90 days" → "60"; sec. 1110's 150-day limit, "unless a shorter deadline is
+  specified under Federal law"; sec. 2107's data-center finding), re-opened this run; same rows as the Nov. 19
+  Reel. CHECK: the bill passed "as amended", and a managers' amendment (No. 7030) may have changed the text after
+  SA 6883 was adopted; the Nov. 19 Record wasn't on GovInfo yet and the bill status XML ends Nov. 18. If 7030
+  changed any of the four rows, fix the slide. Capito and Alsobrooks quotes re-opened this run (Capito's page uses
+  a curly apostrophe in "can’t"); Capito voted Yea and Alsobrooks Nay on vote 270. "What's next" paraphrases
+  house.gov's Legislative Process page (conference, final approval by both, 10 days to sign or veto). cbo.gov
+  blocked earlier runs, so the CBO letter (listed in the bill status) is linked, not quoted. Earliest free post
+  slot is Nov. 26, 3:00 p.m. (every post slot before it is taken). Preview fix: shortened slide 1 so its source
+  footer fits, and named both chambers in full on "What's next". Before it posts, check congress.gov or the
+  Clerk for any U.S. House action on the Senate amendment (the House is in a district work period Nov. 19-29).
