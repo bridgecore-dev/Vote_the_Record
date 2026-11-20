@@ -6,22 +6,22 @@ record_ids:
 - us/119/H.R. 4624/senate-passed
 publish_after: '2026-11-27T09:00:00-06:00'
 sources:
-- title: U.S. Senate Press Gallery floor log, Nov. 19, 2026
+- title: Senate Press Gallery log, Nov. 19
   url: https://www.dailypress.senate.gov/thursday-november-19-2026/
   retrieved: '2026-11-20'
-- title: H.R. 4624, Senate amendment as passed (GovInfo)
+- title: H.R. 4624, Senate text
   url: https://www.govinfo.gov/content/pkg/BILLS-119hr4624eas/html/BILLS-119hr4624eas.htm
   retrieved: '2026-11-20'
-- title: H.R. 4624, as passed by the House (GovInfo)
+- title: H.R. 4624, House text
   url: https://www.govinfo.gov/content/pkg/BILLS-119hr4624eh/html/BILLS-119hr4624eh.htm
   retrieved: '2026-11-20'
-- title: H. Rept. 119-524, Part 1 (GovInfo)
+- title: H. Rept. 119-524
   url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt524/html/CRPT-119hrpt524-pt1.htm
   retrieved: '2026-11-20'
-- title: H.R. 4624 actions (Congress.gov)
+- title: H.R. 4624 actions
   url: https://api.congress.gov/v3/bill/119/hr/4624/actions
   retrieved: '2026-11-20'
-- title: S.Amdt. 7029 (Congress.gov)
+- title: S.Amdt. 7029
   url: https://api.congress.gov/v3/amendment/119/samdt/7029
   retrieved: '2026-11-20'
 bills:
@@ -33,15 +33,14 @@ bills:
   summary:
     text: This bill authorizes the establishment of private-sector Unified Boxing Organizations (UBOs) and otherwise expands
       the regulatory framework for professional boxing.
-    title: CRS summary of H.R. 4624 (as reported in the House)
+    title: CRS summary of H.R. 4624
     url: https://api.congress.gov/v3/bill/119/hr/4624/summaries
     retrieved: '2026-11-20'
 slides:
 - kicker: U.S. Senate · Nov. 19
   big: $200 a round
-  head: The U.S. Senate passed a bill that would make every pro boxing match pay each boxer at least $200 a round.
-  text: It passed by unanimous consent, with no member-by-member tally. It changed the House's version, so it goes back to
-    the U.S. House of Representatives.
+  head: The U.S. Senate passed a bill to pay every pro boxer at least $200 a round.
+  text: By unanimous consent, so there's no tally. It changed the House's version, so it goes back to the U.S. House of Representatives.
 - chip: 'Before: current law'
   head: Federal boxing law dates to 1996 and 2000. The House committee's report says it sets no minimum insurance.
   quote:
@@ -67,7 +66,6 @@ slides:
     - Ringside physicians certified within 2 years
 - chip: 'After: a new option'
   head: A "unified boxing organization" (UBO), a private league that signs boxers, runs matches and runs its own title belts.
-  text: Boxers could choose it instead of the usual system. To qualify, a UBO must meet extra rules.
   rows:
   - - Medical
     - 2 ambulances and 2 ringside doctors at each match
@@ -79,8 +77,6 @@ slides:
     - Offer 2 fights a year, or pay at least 10 times the round minimum
   - - Firewall
     - Can't manage its boxers or charge them for rankings
-  - - Drug tests
-    - Both boxers in at least half its matches
 - chip: What the U.S. Senate changed
   head: The Senate's version rewrote the House's in several places.
   rows:
@@ -94,8 +90,7 @@ slides:
     - Up to $20,000 → up to $100,000
   - - Regular promoters
     - The contract limits now cover their contracts too
-  text: The substitute was by Sen. Ted Cruz (R-TX) and Sen. Jacky Rosen (D-NV). Sen. Kirsten Gillibrand (D-NY) asked consent
-    to pass it.
+  text: Substitute by Sen. Ted Cruz (R-TX) and Sen. Jacky Rosen (D-NV); Sen. Kirsten Gillibrand (D-NY) moved its passage.
 - chip: The case for
   head: Supporters say a new kind of league means more choices and more money for boxers.
   quote:
@@ -150,6 +145,6 @@ notes: 'New: the U.S. Senate passed H.R. 4624 with an amendment by unanimous con
   one isn''t listed. CBO estimate (cbo.gov/publication/62239, House reported version) returned 403, so no dollar figure.
   The CRS summary is of the House-reported version. Party and state for Cruz, Rosen, Gillibrand and Scott from Congress.gov
   member records; Jack from the bill record. Congress.gov lists Gillibrand and Cruz as SA 7029 sponsors and Rosen as cosponsor;
-  the floor log calls it "the Cruz/Rosen substitute amendment". The additional views name UFC''s owners and Zuffa Boxing;
+  the floor log calls it "the Cruz/Rosen substitute amendment". Nov 20 preview fix: shortened source titles and shortened slide 1, cut slide 5''s intro line and its UBO drug-test row (half of matches, sec. 21A(e)(2)) so the source footer fits. The additional views name UFC''s owners and Zuffa Boxing;
   left off the slides as an organization not named in the bill. If the U.S. House acts before the slot, update "where" and
   the last slide.'
