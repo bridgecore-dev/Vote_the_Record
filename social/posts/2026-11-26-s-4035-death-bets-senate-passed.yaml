@@ -9,22 +9,22 @@ rule: >-
   one bill per post. This is S. 4035; the others (H.R. 4624, S. 4448, S. 580, S. 2479 and the trail and heritage
   area bills) are left for their own posts.
 sources:
-- title: "U.S. Senate Press Gallery, Thursday, November 19, 2026 (floor log)"
+- title: "Senate Press Gallery, Nov. 19, 2026"
   url: https://www.dailypress.senate.gov/thursday-november-19-2026/
   retrieved: '2026-11-20'
-- title: "S. 4035 (119th Congress), engrossed in the Senate (GPO)"
+- title: "S. 4035, as passed (GPO)"
   url: https://www.govinfo.gov/content/pkg/BILLS-119s4035es/html/BILLS-119s4035es.htm
   retrieved: '2026-11-20'
-- title: "S. 4035 (119th Congress), introduced in the Senate (GPO)"
+- title: "S. 4035, as introduced (GPO)"
   url: https://www.govinfo.gov/content/pkg/BILLS-119s4035is/html/BILLS-119s4035is.htm
   retrieved: '2026-11-20'
-- title: "7 U.S.C. 7a-2, Commodity Exchange Act sec. 5c (GPO, U.S. Code 2024)"
+- title: "7 U.S.C. 7a-2 (GPO)"
   url: https://www.govinfo.gov/content/pkg/USCODE-2024-title7/html/USCODE-2024-title7-chap1-sec7a-2.htm
   retrieved: '2026-11-20'
-- title: "Sen. Schiff, press release on introducing the DEATH BETS Act (March 10, 2026)"
+- title: "Sen. Schiff release, Mar. 10, 2026"
   url: https://www.schiff.senate.gov/news/press-releases/news-sen-schiff-introduces-legislation-to-explicitly-ban-death-and-war-prediction-contracts/
   retrieved: '2026-11-20'
-- title: Congress.gov, S. 4035 bill record (sponsor, cosponsor, actions)
+- title: Congress.gov, S. 4035 record
   url: https://api.congress.gov/v3/bill/119/s/4035
   retrieved: '2026-11-20'
 bills:
@@ -112,4 +112,4 @@ notes: >-
   lists sponsor and cosponsor. H.R. 7942 is listed by CRS as identical to the introduced version, not the passed one,
   so it isn't named. The rule of construction (sec. 3) is the "other contract types keep today's rules" line: it
   keeps the CFTC's existing discretion over the other activities in 5c(c)(5)(C)(i), such as gaming; check the
-  wording. Takes the free Nov. 26 6:00 p.m. Reel slot (after the 3:00 p.m. carousel).
+  wording. Takes the free Nov. 26 6:00 p.m. Reel slot (after the 3:00 p.m. carousel). Nov 20 fix: shortened source titles so the cover's source footer fits (the first preview clipped it).
