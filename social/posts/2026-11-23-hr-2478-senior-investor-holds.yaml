@@ -12,6 +12,9 @@ sources:
 - title: "U.S. Senate Press Gallery, floor log, Nov. 18, 2026"
   url: https://www.dailypress.senate.gov/
   retrieved: '2026-11-18'
+- title: "Congress.gov, H.R. 2478 actions"
+  url: https://api.congress.gov/v3/bill/119/hr/2478/actions
+  retrieved: '2026-11-21'
 - title: "House Clerk, Roll Call 227 (2026), H.R. 2478"
   url: https://clerk.house.gov/evs/2026/roll227.xml
   retrieved: '2026-11-18'
@@ -32,7 +35,7 @@ bills:
   title: Financial Exploitation Prevention Act of 2025
   does: "Would let mutual funds that opt in hold a sale for up to 15 business days (25 with an extension) if they suspect a scam."
   affects: "People 65 and older, and adults with an impairment, who hold mutual fund shares directly with the fund."
-  where: "Passed the U.S. House of Representatives 414-2 (June 25), U.S. Senate by unanimous consent (Nov. 18)."
+  where: "Passed U.S. House of Representatives 414-2 (June 25); U.S. Senate, unchanged, by unanimous consent (Nov. 18)."
   summary:
     text: >-
       This bill establishes procedures for delaying the redemption of certain securities if an investment
@@ -76,18 +79,18 @@ slides:
     text: "the bill creates a crucial window of up to 15 days with the possibility of a 10-day extension that will provide the time necessary to investigate the situation and notify the appropriate authorities."
   text: "Waters (D-CA) also backed it: \"This is a good bill. This is a bill to try and protect our seniors.\" No one spoke against it, and the roll call records no reasons."
 - chip: What's next
-  head: "The Senate's official record of the vote isn't posted yet."
-  text: "If the U.S. Senate made no changes, the bill goes to the President. Earlier versions passed the House in 2021 and 2023 and stalled in the Senate. Would you name a trusted contact on your accounts?"
+  head: "The U.S. Senate passed it without amendment, so it goes to the President."
+  text: "Both chambers passed the same text. The President can sign it or veto it. Earlier versions passed the House in 2021 and 2023 and stalled in the Senate. Would you name a trusted contact on your accounts?"
 caption: |-
   A mutual fund generally has to pay you within seven days of a request to sell. H.R. 2478, the Financial Exploitation Prevention Act, would let funds that opt in hold that payment for up to 15 business days, plus 10 more, when they reasonably believe someone 65 or older, or an adult with an impairment, is being exploited.
 
-  The U.S. House of Representatives passed it 414-2 on June 25. The U.S. Senate passed it by unanimous consent on Nov. 18.
+  The U.S. House of Representatives passed it 414-2 on June 25. The U.S. Senate passed it unchanged by unanimous consent on Nov. 18. Next: the President.
 
-  By party, per the House Clerk: Republicans 206 Yea, 2 Nay; Democrats 207 Yea, 0 Nay; the one Independent voted Yea. The 2 Nay votes: Biggs (R-AZ) and Brecheen (R-OK).
+  By party, per the House Clerk: Republicans 206 Yea, 2 Nay; Democrats 207 Yea, 0 Nay; Independent 1 Yea. Nay: Biggs (R-AZ), Brecheen (R-OK).
 
-  The trade-off: a pause gives time to stop a scam, and the owner's own sale waits. CBO: about $2 million in SEC costs, offset by SEC fees.
+  The trade-off: a pause can stop a scam, and the owner's own sale waits. CBO: about $2 million in SEC costs, offset by SEC fees.
 
-  Would you name a trusted contact on your accounts? Tell us below.
+  Would you name a trusted contact on your accounts?
 hashtags: [congress, seniors, fraudprevention, investing, votetherecord]
 notes: >-
   New: the Senate Press Gallery's Nov. 18 log says "By unanimous consent, the Senate passed H.R. 2478 - Financial
@@ -102,4 +105,6 @@ notes: >-
   the Record at H4222-H4223 (cbo.gov returned 403, not retried). Party totals and the 2 Nay names are the Clerk's
   roll 227 XML. Quotes are word for word from the Record (H4224-H4225); party/state from roll 227. The earlier House
   passages (H.R. 2265 by voice vote in 2021, H.R. 500 419-0 in 2023) are from H. Rept. 119-361; their numbers are
-  left off (one bill per post). Nov. 23 9:00 p.m. is the first free post slot that keeps the Reel/post turn.
+  left off (one bill per post). Nov. 21 recheck: congress.gov actions now read "Passed Senate without amendment by
+  Unanimous Consent" (Nov. 18) and "Message on Senate action sent to the House" (Nov. 20), so the last slide, the
+  caption and `where` now say it goes to the President; not yet presented or signed as of Nov. 21. Nov. 23 9:00 p.m. is the first free post slot that keeps the Reel/post turn.
