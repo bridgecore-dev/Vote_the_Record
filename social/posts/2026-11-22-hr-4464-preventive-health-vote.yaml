@@ -3,7 +3,7 @@ level: congress
 topic: Health care
 approval: review
 record_ids: ["us/119/2/house/roll/327"]
-publish_after: '2026-11-21T06:00:00-06:00'
+publish_after: '2026-11-22T12:00:00-06:00'
 design:
   palette: teal
   mode: dark
