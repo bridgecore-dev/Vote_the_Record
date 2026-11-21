@@ -232,3 +232,29 @@ def test_carousel_slides_are_not_polled_one_by_one(monkeypatch):
     m = {"kind": "carousel", "caption": "c", "files": [{"file": f"{i}.png"} for i in range(1, 8)]}
     assert publish.publish_one(m, "https://x") == ["m1"]
     assert sum(1 for c in calls if c[2] == "status_code") == 1  # only the carousel itself is checked
+
+
+def test_a_trial_reel_falls_back_when_the_account_has_too_few_followers(monkeypatch):
+    made, sent = [], []
+
+    def fake_make(wait=True, **params):
+        made.append(params)
+        if "trial_params" in params:
+            raise RuntimeError('POST /media: HTTP 400 {"error":{"code":10,"error_subcode":2207081}}')
+        return "c1"
+    monkeypatch.setattr(publish, "make", fake_make)
+    monkeypatch.setattr(publish, "env", lambda k: "ig")
+    monkeypatch.setattr(publish, "graph", lambda *a, **k: sent.append(k) or {"id": "m1"})
+    m = {"kind": "reel", "caption": "c", "trial": "auto", "files": [{"file": "r.mp4", "cover": "c.jpg"}]}
+    assert publish.publish_one(m, "https://b") == ["m1"]
+    assert len(made) == 2 and made[1]["share_to_feed"] == "true" and "trial_params" not in made[1] and len(sent) == 1
+
+
+def test_a_trial_reel_does_not_hide_other_errors(monkeypatch):
+    def fake_make(wait=True, **params):
+        raise RuntimeError("POST /media: HTTP 400 bad video")
+    monkeypatch.setattr(publish, "make", fake_make)
+    monkeypatch.setattr(publish, "env", lambda k: "ig")
+    m = {"kind": "reel", "caption": "c", "trial": "auto", "files": [{"file": "r.mp4", "cover": "c.jpg"}]}
+    with pytest.raises(RuntimeError, match="bad video"):
+        publish.publish_one(m, "https://b")

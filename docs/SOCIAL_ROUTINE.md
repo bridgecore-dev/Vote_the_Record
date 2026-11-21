@@ -139,7 +139,8 @@ Made to be seen (never at the cost of a rule above):
 - Every line of `say` teaches something; cut lines that only set up or repeat a slide. Short sentences, one
   fact each, so the big captions (`motion: captions`) change every second or two.
 - Trial Reels (owner's decision, 2026-11-20: every Reel is a trial): every `kind: reel` and `kind: clip` carries
-  `trial: auto` (Instagram shows it to non-followers first and adds it to the grid if it does well). Two Reels
+  `trial: auto` (Instagram shows it to non-followers first and adds it to the grid if it does well). Until the account meets
+  Instagram's follower requirement for trials (error 2207081, 2026-11-21), the publisher posts these as regular Reels. Two Reels
   a day (owner's decision, 2026-11-20), the 6:00 a.m. and 6:00 p.m. ones, also try a new look, each a different
   one: a `design` that changes one thing from the baseline (teal, dark, round, center, captions, sfx, voice
   `af_heart`). The thing changed is one of `palette`, `mode`, `font`, `position`, `motion`, `sfx` (see social/README.md),

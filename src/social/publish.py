@@ -217,6 +217,7 @@ def make(wait: bool = True, **params) -> str:
 
 # trial: auto lets Instagram graduate a trial Reel to followers when it performs well; manual leaves it to the owner
 TRIAL = {"auto": "SS_PERFORMANCE", "manual": "MANUAL"}
+TRIAL_TOO_FEW = "2207081"  # Instagram's error subcode: the account is below its follower requirement for trial Reels
 
 
 def publish_one(manifest: dict, base: str, record=lambda ids: None) -> list[str]:
@@ -235,11 +236,16 @@ def publish_one(manifest: dict, base: str, record=lambda ids: None) -> list[str]
     elif kind in ("reel", "clip"):  # a hearing clip is published as a Reel
         f = feed[0]
         reel = {"media_type": "REELS", "video_url": url(f["file"]), "cover_url": url(f["cover"]), "caption": caption}
+        container = None
         if manifest.get("trial"):  # a trial Reel goes to non-followers first; it joins the grid when it graduates
-            reel["trial_params"] = json.dumps({"graduation_strategy": TRIAL[manifest["trial"]]})
-        else:
-            reel["share_to_feed"] = "true"
-        containers.append(make(**reel))
+            try:
+                container = make(**reel, trial_params=json.dumps({"graduation_strategy": TRIAL[manifest["trial"]]}))
+            except RuntimeError as e:
+                if TRIAL_TOO_FEW not in str(e):
+                    raise
+                # nothing was created, so this can't post twice; trials start by themselves once the account qualifies
+                print("  Instagram says the account doesn't have enough followers for trial Reels: posting as a regular Reel")
+        containers.append(container or make(**reel, share_to_feed="true"))
     elif kind == "story":
         stories = feed
     for f in stories:
