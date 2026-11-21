@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import verification_badge %}
+{% macro people(rows) %}
+<ul class="member-grid">
+  {% for m in rows %}
+  <li class="member">
+    {% if m.portrait_src %}<img class="portrait" src="{{ m.portrait_src }}" alt="{{ m.display }}" width="60" height="74" loading="lazy">{% else %}<span class="portrait portrait-initials" aria-hidden="true">{{ m.initials }}</span>{% endif %}
+    <span class="member-text">
+      <span class="member-name"><a href="{{ m.url }}">{{ m.display }}</a></span>
+      <span class="member-meta">{{ m.party }} · {{ m.state }}</span>
+    </span>
+  </li>
+  {% endfor %}
+</ul>
+{% endmacro %}
+{% block title %}{{ state.name }} in Congress: roll-call votes{% endblock %}
+{% block description %}How members of Congress from {{ state.name }} voted on the roll calls on this site, each linked to the official record.{% endblock %}
+{% block content %}
+<header class="masthead">
+  <p class="eyebrow"><a href="/congress/">Congress</a> · By state</p>
+  <h1 class="display">{{ state.name }}</h1>
+  <p class="lead">Everyone from {{ state.name }} who appears in the roll calls on this site, including anyone who has since left. This isn't a list of who serves now.</p>
+</header>
+
+{% if state.senate %}<section aria-labelledby="senate-h"><h2 id="senate-h">U.S. Senate</h2>{{ people(state.senate) }}</section>{% endif %}
+{% if state.house %}<section aria-labelledby="house-h"><h2 id="house-h">U.S. House of Representatives</h2>{{ people(state.house) }}</section>{% endif %}
+
+<section aria-labelledby="rolls-h">
+  <h2 id="rolls-h">How {{ state.name }}'s members voted</h2>
+  <ul class="item-list">
+    {% for r in state.rolls %}
+    <li>
+      <p><a href="{{ r.vote.url }}">{{ r.vote.label }}</a>, {{ r.vote.date | longdate }}</p>
+      <p>{{ r.vote.heading | trim(".") }}.</p>
+      <p>{% for c in r.counts %}{{ c.label }} {{ c.n }}{% if not loop.last %} · {% endif %}{% endfor %}. Full chamber: {{ r.vote.result }}.</p>
+      <p class="item-meta">{{ verification_badge(r.vote.fact) }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+<p class="note">Members are alphabetical by the name the record prints. Party and state are as the roll call lists them.</p>
+{% endblock %}

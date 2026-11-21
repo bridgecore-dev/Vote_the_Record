@@ -37,6 +37,12 @@
   </ul>
 </section>
 
+<section aria-labelledby="states-h" id="states">
+  <h2 id="states-h">By state</h2>
+  <p>Every member from a state who appears in these roll calls, and how the state's members voted on each one.</p>
+  <ul class="link-list columns">{% for s in congress.state_pages %}<li><a href="{{ s.url }}">{{ s.name }}</a></li>{% endfor %}</ul>
+</section>
+
 <section aria-labelledby="compare-h" id="compare">
   <h2 id="compare-h">Side by side</h2>
   <p>Put two members next to each other: how each voted on every roll call listed here.</p>

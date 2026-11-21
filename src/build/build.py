@@ -216,6 +216,11 @@ def build(root: Path, out: Path, *, demo: bool = False, config_path: Path | None
         vote_template = env.get_template("congress_vote.html")
         for vote in congress["votes"]:
             pages[vote["url"]] = vote_template.render(vote=vote, page="congress")
+        member_template, state_template = env.get_template("congress_member.html"), env.get_template("congress_state.html")
+        for member in congress["member_pages"]:
+            pages[member["url"]] = member_template.render(member=member, page="congress")
+        for state in congress["state_pages"]:
+            pages[state["url"]] = state_template.render(state=state, page="congress")
 
     officials = site["officials"]
     pages["/officials/"] = env.get_template("officials.html").render(officials=officials, page="officials")
