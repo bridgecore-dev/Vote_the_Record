@@ -65,23 +65,30 @@ def test_a_refused_request_is_kept_with_its_error(monkeypatch):
 
 def test_design_tables_use_each_posts_design_with_defaults():
     assert insights.design({"kind": "reel", "design": {"palette": "plum", "sfx": True}}) == {
-        "motion": "classic", "sfx": "True", "palette": "plum", "mode": "light", "font": "serif", "position": "center",
-        "voice": "af_heart"}
+        "motion": "classic", "sfx": "True", "palette": "plum", "mode": "light", "font": "serif", "position": "center"}
     rows = [dict(r, palette=p, motion="classic", sfx="False", mode="light", font="serif", position="center", trial="no")
             for r, p in zip(ROWS, ("plum", "teal"))]
     text = insights.report(rows, 7, 3)
     assert "## By design" in text and "| palette |" in text and "| plum | 1 |" in text
 
 
-def test_voice_breakdown_counts_a_reel_with_no_voice_as_the_default():
-    assert insights.design({"kind": "reel"})["voice"] == "af_heart"
-    assert insights.design({"kind": "reel", "voice": True})["voice"] == "af_heart"
-    assert insights.design({"kind": "reel", "voice": {"speed": 1.1}})["voice"] == "af_heart"
-    assert insights.design({"kind": "reel", "voice": {"name": "am_puck"}})["voice"] == "am_puck"
-    assert "voice" not in insights.design({"kind": "carousel"})
+def test_voice_table_counts_only_reels_required_to_be_voiced():
+    new = {"kind": "reel", "publish_after": "2026-11-15T10:30:00-06:00"}
+    assert insights.design(new)["voice"] == "af_heart"
+    assert insights.design({**new, "voice": True})["voice"] == "af_heart"
+    assert insights.design({**new, "voice": {"speed": 1.1}})["voice"] == "af_heart"
+    assert insights.design({**new, "voice": {"name": "am_puck"}})["voice"] == "am_puck"
+    assert "voice" not in insights.design({"kind": "reel", "publish_after": "2026-11-14T12:00:00-06:00"})
+    assert "voice" not in insights.design({"kind": "reel"})  # no slot: reel.py didn't require a voice
+    assert "voice" not in insights.design({**new, "kind": "carousel"})
     rows = [dict(ROWS[0], voice="af_heart"), dict(ROWS[0], stem="x", voice="am_puck"), dict(ROWS[1])]
-    text = insights.report(rows, 7, None)
-    assert "| voice |" in text and "| am_puck | 1 |" in text and "| None |" not in text.split("| voice |")[1].split("##")[0]
+    table = insights.report(rows, 7, None).split("| voice |")[1].split("##")[0]
+    assert "| am_puck | 1 |" in table and "| af_heart | 1 |" in table and "| None |" not in table
+
+
+def test_voiced_from_matches_reel_py():
+    src = (Path(__file__).resolve().parents[1] / "src/social/reel.py").read_text(encoding="utf-8")
+    assert f'VOICED_FROM = "{insights.VOICED_FROM}"' in src
 
 
 def test_the_manifest_voice_matches_the_report():
@@ -90,5 +97,5 @@ def test_the_manifest_voice_matches_the_report():
     build = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(build)
     for post in ({"kind": "reel"}, {"kind": "reel", "voice": True}, {"kind": "reel", "voice": {"name": "am_fenrir"}}):
-        assert build.voice_name(post) == insights.design(post)["voice"]
+        assert build.voice_name(post) == insights.design({**post, "publish_after": "2026-11-20"})["voice"]
     assert build.voice_name({"kind": "carousel"}) is None
