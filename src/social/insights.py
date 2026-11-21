@@ -76,10 +76,13 @@ def rows(state: dict, posts: dict[str, dict], since: dt.datetime) -> list[dict]:
 
 
 def design(post: dict) -> dict:
-    """The post's design choices, with build.py's defaults (teal, light, serif, center; Reels: classic, no sfx)."""
+    """The post's design choices, with build.py's defaults (teal, light, serif, center; Reels: classic, no sfx, af_heart)."""
     d = {"palette": "teal", "mode": "light", "font": "serif", "position": "center", **(post.get("design") or {})}
     if post.get("kind") in ("reel", "clip"):
         d = {"motion": "classic", "sfx": False, **d}
+    if post.get("kind") == "reel":  # a Reel that names no voice uses reel.py's default
+        v = post.get("voice")
+        d["voice"] = (v.get("name") if isinstance(v, dict) else None) or "af_heart"
     return {k: str(v) for k, v in d.items()}
 
 
@@ -130,7 +133,7 @@ def report(rs: list[dict], days: int, followers: int | None) -> str:
                       ("hour", "By time of day (Central)")]:
         out += [f"## {title}", "", *table(rs, by), ""]
     out += ["## By design", "", "Each table compares one design choice; trial Reels are counted with the rest.", ""]
-    for by in ("palette", "mode", "font", "position", "motion", "sfx", "trial"):
+    for by in ("palette", "mode", "font", "position", "motion", "sfx", "voice", "trial"):
         if any(r.get(by) is not None for r in rs):
             out += [*table([r for r in rs if r.get(by) is not None], by), ""]
     reels = [r for r in rs if r.get("ig_reels_avg_watch_time") is not None]
