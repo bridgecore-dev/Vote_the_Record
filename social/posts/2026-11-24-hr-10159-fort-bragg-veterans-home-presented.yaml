@@ -1,0 +1,92 @@
+kind: carousel
+level: congress
+topic: Veterans
+approval: review
+record_ids: ["us/119/H.R. 10159/presented"]
+publish_after: '2026-11-24T15:00:00-06:00'
+sources:
+- title: H.R. 10159 actions (Congress.gov API)
+  url: https://api.congress.gov/v3/bill/119/hr/10159/actions
+  retrieved: '2026-11-21'
+- title: H.R. 10159 cosponsors (Congress.gov API)
+  url: https://api.congress.gov/v3/bill/119/hr/10159/cosponsors
+  retrieved: '2026-11-21'
+- title: "H.R. 10159, enrolled bill (GovInfo)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr10159enr/html/BILLS-119hr10159enr.htm
+  retrieved: '2026-11-21'
+- title: "Congressional Record, Sept. 14, 2026, H5544-H5545"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-09-14/html/CREC-2026-09-14-pt1-PgH5544-2.htm
+  retrieved: '2026-11-21'
+- title: U.S. Constitution, Article I, Section 7 (National Archives transcript)
+  url: https://www.archives.gov/founding-docs/constitution-transcript
+  retrieved: '2026-11-21'
+bills:
+- id: H.R. 10159
+  does: "Lets the Army give North Carolina about 20 acres of Fort Bragg, at no price, to build a State home for veterans."
+  affects: "North Carolina, its Department of Military and Veterans Affairs, and the veterans a State home serves."
+  where: "Passed both chambers with no recorded vote; presented to the President Nov. 20, 2026."
+  summary:
+    text: >-
+      Specifically, the bill authorizes the conveyance of a 20-acre parcel of land situated on the Fort Bragg
+      Training Area in Harnett County, North Carolina, that is commonly referred to as Parcel 3B. The State of
+      North Carolina must cover all costs to carry out the conveyance.
+    title: Congressional Research Service summary of H.R. 10159
+    url: https://api.congress.gov/v3/bill/119/hr/10159/summaries
+    retrieved: '2026-11-21'
+slides:
+- kicker: Sent to the President · Nov. 20
+  big: 20 acres
+  head: "Congress has sent the President a bill to give this much of Fort Bragg to North Carolina for a veterans' home."
+  text: "The U.S. House of Representatives passed it by voice vote on Sept. 14. The U.S. Senate passed it by unanimous consent on Sept. 29."
+- chip: "Before → after"
+  head: "The land is called Parcel 3B, on the Fort Bragg Training Area in Harnett County, North Carolina."
+  rows:
+  - [Before, "Army land at Fort Bragg"]
+  - [After, "North Carolina's, to build a State home"]
+  - [Price, "None: \"without consideration\""]
+  - [If unused, "The Army may take it back"]
+  text: "The bill lets the Army make the transfer. It doesn't require it, and the Army may add terms to protect the United States."
+- kicker: "What's a State home?"
+  head: "A home a state runs for veterans."
+  quote:
+    label: Congressional Research Service summary of H.R. 10159
+    text: "a home established by a state for veterans who are disabled by age, disease, or otherwise and are incapable of earning a living because of such disability. The term also includes a home that furnishes nursing home care for veterans."
+- chip: "Who gains, who gives up"
+  head: "North Carolina gains the land. The Army gives it up without being paid."
+  rows:
+  - [Gains, "North Carolina, for a veterans' home"]
+  - [Gives up, "The Army: about 20 acres"]
+  - [Transfer costs, "Paid by North Carolina"]
+  - [CBO estimate, "None listed on the bill's record"]
+- kicker: Why, in the sponsor's words
+  head: "Rep. Richard Hudson (R-NC) told the U.S. House of Representatives why he wrote it."
+  quote:
+    label: "Rep. Richard Hudson (R-NC), Congressional Record, Sept. 14, 2026"
+    text: "In 2024, the State veterans home in Fayetteville abruptly closed leading to the displacement of 85 veterans, including many with dementia and other disabilities."
+  text: "No member spoke against it in the House debate. Cosponsors: the other 13 members of North Carolina's House delegation, 9 Republicans and 4 Democrats."
+- kicker: What happens next
+  head: The President can sign it or veto it.
+  quote:
+    label: U.S. Constitution, Article I, Section 7
+    text: "If any Bill shall not be returned by the President within ten Days (Sundays excepted) after it shall have been presented to him, the Same shall be a Law, in like Manner as if he had signed it"
+  text: "Status as of Nov. 20. Should Congress give federal land to states for veterans' care? Tell us."
+caption: |-
+  Congress has sent the President H.R. 10159. It was presented on Nov. 20.
+
+  Before: about 20 acres on the Fort Bragg Training Area in Harnett County, North Carolina, belong to the Army. After: the Army may give the land to North Carolina, at no price, to build a State home for veterans. North Carolina pays the costs of the transfer. If the land isn't used for a State home, the Army may take it back.
+
+  The sponsor, Rep. Richard Hudson (R-NC), said the State veterans home in Fayetteville closed in 2024. No member spoke against the bill, and neither chamber took a recorded vote.
+
+  Should Congress give federal land to states for veterans' care?
+hashtags: [congress, veterans, northcarolina, fortbragg]
+notes: >-
+  New this run: congress.gov actions (API, read 2026-11-21) list "Presented to President." on Nov. 20, 2026; no
+  post or open pull request covers H.R. 10159. House passage (voice vote, Sept. 14, CR H5544) and Senate passage
+  (without amendment by unanimous consent, Sept. 29) are from the same actions, so the enrolled text is the House
+  text; land, price, costs, reverter and "additional terms" are from the enrolled bill on GovInfo. The State home
+  definition is quoted from the CRS summary (it paraphrases 38 U.S.C. 101). No CBO estimate or committee report is
+  listed on the bill record. The Fayetteville quote is Rep. Hudson's own words in the Sept. 14 Record; the only
+  other speakers (Harrigan, Bell) supported it, so there is no official case against to quote. Cosponsors (9 R,
+  4 D, districts 1-8 and 10-14) and Hudson's party and state are as congress.gov lists them. News-first: takes the
+  Nov. 24 3:00 p.m. post slot from the evergreen prefiled-bill post on HB 1195/HB 178, moved to Dec. 8 3:00 a.m.
+  If the President signs or vetoes it before the slot, update the last slide and `where`.
