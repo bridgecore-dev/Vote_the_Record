@@ -5,19 +5,19 @@ approval: review
 record_ids: ["us/119/H.R. 10159/presented"]
 publish_after: '2026-11-24T15:00:00-06:00'
 sources:
-- title: H.R. 10159 actions (Congress.gov API)
+- title: H.R. 10159 actions, Congress.gov
   url: https://api.congress.gov/v3/bill/119/hr/10159/actions
   retrieved: '2026-11-21'
-- title: H.R. 10159 cosponsors (Congress.gov API)
+- title: H.R. 10159 cosponsors, Congress.gov
   url: https://api.congress.gov/v3/bill/119/hr/10159/cosponsors
   retrieved: '2026-11-21'
-- title: "H.R. 10159, enrolled bill (GovInfo)"
+- title: H.R. 10159 enrolled text, GovInfo
   url: https://www.govinfo.gov/content/pkg/BILLS-119hr10159enr/html/BILLS-119hr10159enr.htm
   retrieved: '2026-11-21'
-- title: "Congressional Record, Sept. 14, 2026, H5544-H5545"
+- title: "Congressional Record, Sept. 14, 2026"
   url: https://www.govinfo.gov/content/pkg/CREC-2026-09-14/html/CREC-2026-09-14-pt1-PgH5544-2.htm
   retrieved: '2026-11-21'
-- title: U.S. Constitution, Article I, Section 7 (National Archives transcript)
+- title: "U.S. Constitution, Art. I, Sec. 7"
   url: https://www.archives.gov/founding-docs/constitution-transcript
   retrieved: '2026-11-21'
 bills:
@@ -30,13 +30,13 @@ bills:
       Specifically, the bill authorizes the conveyance of a 20-acre parcel of land situated on the Fort Bragg
       Training Area in Harnett County, North Carolina, that is commonly referred to as Parcel 3B. The State of
       North Carolina must cover all costs to carry out the conveyance.
-    title: Congressional Research Service summary of H.R. 10159
+    title: CRS summary of H.R. 10159
     url: https://api.congress.gov/v3/bill/119/hr/10159/summaries
     retrieved: '2026-11-21'
 slides:
 - kicker: Sent to the President · Nov. 20
   big: 20 acres
-  head: "Congress has sent the President a bill to give this much of Fort Bragg to North Carolina for a veterans' home."
+  head: "Congress sent the President a bill letting the Army give this much of Fort Bragg to North Carolina for a veterans' home."
   text: "The U.S. House of Representatives passed it by voice vote on Sept. 14. The U.S. Senate passed it by unanimous consent on Sept. 29."
 - chip: "Before → after"
   head: "The land is called Parcel 3B, on the Fort Bragg Training Area in Harnett County, North Carolina."
