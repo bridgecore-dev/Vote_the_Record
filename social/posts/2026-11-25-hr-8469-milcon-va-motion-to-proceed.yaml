@@ -1,0 +1,112 @@
+kind: carousel
+level: congress
+topic: Federal budget
+approval: review
+record_ids: ["us/119/H.R. 8469/senate-motion-to-proceed", "us/119/2/house/roll/175"]
+publish_after: '2026-11-25T09:00:00-06:00'
+rule: >-
+  Vote posts list every member on the smaller side of the roll call, with party and state as the House Clerk
+  records them. Here that is the 15 Nay votes.
+sources:
+- title: "Congressional Record, Nov. 20, 2026, S5847, motion to proceed"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-11-20/html/CREC-2026-11-20-pt1-PgS5847.htm
+  retrieved: '2026-11-21'
+- title: "Congressional Record, Nov. 20, 2026, S5847, orders for Nov. 24-30"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-11-20/html/CREC-2026-11-20-pt1-PgS5847-3.htm
+  retrieved: '2026-11-21'
+- title: "House Clerk, Roll Call 175, May 15, 2026"
+  url: https://clerk.house.gov/evs/2026/roll175.xml
+  retrieved: '2026-11-21'
+- title: "House Report 119-622 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt622/html/CRPT-119hrpt622.htm
+  retrieved: '2026-11-21'
+- title: "Public Law 119-103 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ103/html/PLAW-119publ103.htm
+  retrieved: '2026-11-21'
+- title: "Senate Press Gallery floor log, Nov. 20"
+  url: https://www.dailypress.senate.gov/
+  retrieved: '2026-11-21'
+- title: "U.S. Senate, Glossary"
+  url: https://www.senate.gov/about/research-tools/glossary.htm
+  retrieved: '2026-11-21'
+- title: Congress.gov, H.R. 8469 actions
+  url: https://api.congress.gov/v3/bill/119/hr/8469
+  retrieved: '2026-11-21'
+bills:
+- id: H.R. 8469
+  title: Military Construction, Veterans Affairs, and Related Agencies Appropriations Act, 2027
+  does: "Would fund military construction, military family housing and the VA for the fiscal year ending Sept. 30, 2027."
+  affects: "Defense Department construction and family housing, VA benefits and health care, and related agencies."
+  where: "Passed the U.S. House of Representatives 400-15 (May 15). U.S. Senate: motion to take it up made Nov. 20."
+  summary:
+    text: >-
+      This bill provides FY2027 appropriations for military construction, the Department of Veterans Affairs (VA),
+      and related agencies.
+    title: Congressional Research Service summary of H.R. 8469
+    url: https://api.congress.gov/v3/bill/119/hr/8469/summaries
+    retrieved: '2026-11-21'
+slides:
+- kicker: "U.S. Senate · Nov. 20, 2026"
+  big: "Dec. 11"
+  head: "The U.S. Senate's majority leader moved to take up the 2027 spending bill for military construction and the VA."
+  text: "H.R. 8469. For now, these programs run on a temporary funding law that lasts through Dec. 11."
+- chip: The official term
+  head: "A motion to proceed, a request to start debate on a bill."
+  quote:
+    label: U.S. Senate glossary
+    text: "A proposal, usually offered by the majority leader, to bring a measure, nomination, or treaty up for floor consideration, including debate and votes."
+  text: "Majority Leader John Thune made the motion on Nov. 20. The U.S. Senate hasn't voted on it yet."
+- chip: "Before → after"
+  head: "What changes if the bill becomes law"
+  rows:
+  - [Now, "2026 funding rates, through Dec. 11 (Public Law 119-103)"]
+  - [After, "Full-year funding through Sept. 30, 2027"]
+  - [Amount, "$157 billion, as the House committee wrote it"]
+  - [Change, "$3.7 billion more than 2026"]
+  - [Who, "Military construction and housing; VA benefits and care"]
+- chip: "U.S. House of Representatives · May 15, 2026"
+  head: "The U.S. House of Representatives passed H.R. 8469."
+  vote: {yea: 400, nay: 15, not_voting: 15}
+  text: "The House Appropriations Committee had approved it unanimously."
+- chip: How they voted
+  head: By party, as the House Clerk records it
+  rows:
+  - [Republican, "210 Yea · 0 Nay · 7 didn't vote"]
+  - [Democratic, "189 Yea · 15 Nay · 8 didn't vote"]
+  - [Independent, "1 Yea · 0 Nay · 0 didn't vote"]
+- chip: Voted Nay
+  head: "The 15 Nay votes, as the Clerk lists them"
+  text: "Ansari (D-AZ), Dexter (D-OR), Frost (D-FL), Gomez (D-CA), Johnson (D-GA), Lee (D-PA), Matsui (D-CA), McGovern (D-MA), Ocasio-Cortez (D-NY), Omar (D-MN), Pressley (D-MA), Ramirez (D-IL), Takano (D-CA), Tlaib (D-MI), Torres (D-NY)"
+- chip: For and against
+  head: "The committee report's minority views give both sides in one line."
+  quote:
+    label: "Minority views, Reps. Rosa DeLauro and Debbie Wasserman Schultz"
+    text: "For the Department of Veterans Affairs, health care is fully funded but there are deep cuts to programs like the Electronic Health Records Management program and construction programs."
+  text: "A roll call records each vote, not the reasons for it."
+- chip: Your turn
+  head: "The U.S. Senate returns Nov. 30, with one vote set that evening, on a judicial nominee."
+  text: "Should Congress pass full-year funding by Dec. 11, or extend the temporary law again? Tell us."
+caption: |-
+  On Nov. 20, U.S. Senate Majority Leader John Thune moved to proceed to H.R. 8469, the 2027 spending bill for military construction and the VA. That's a request to start debate. No vote on it yet.
+
+  Now these programs run on a temporary law, Public Law 119-103, at 2026 rates through Dec. 11. As the House committee wrote it, the bill gives $157 billion, $3.7 billion more than 2026.
+
+  The U.S. House of Representatives passed it 400-15 on May 15. Per the House Clerk: Republicans 210-0, Democrats 189-15, the one Independent Yea. The Nay names are in the slides.
+
+  Full-year funding by Dec. 11, or another temporary law? Tell us.
+hashtags: [congress, senate, veterans, appropriations, votetherecord]
+notes: >-
+  New: the Nov. 20 Congressional Record (S5847) shows Thune's motion to proceed to Calendar No. 455, H.R. 8469; congress.gov
+  actions (api, read Nov. 21) show it as the latest action, with no vote on it and no cloture motion on it in the Record pages
+  opened. The orders for Nov. 24-30 (S5847) set pro forma sessions and a 5:30 p.m. Nov. 30 action on the Reardon nomination
+  only; the Senate Press Gallery log says "There is one vote that evening at 5:30 p.m." Temporary funding: P.L. 119-103
+  sec. 101(10) covers the 2026 MilCon-VA act (division D of P.L. 119-37); sec. 106(3) ends it Dec. 11, 2026. Amounts are
+  the committee-reported bill (H. Rept. 119-622: "$157,000,000,000 for discretionary programs", "an increase of
+  $3,721,804,000 above the fiscal year 2026 enacted level"); the House adopted floor amendments en gros on May 15, so the
+  engrossed total wasn't checked and the slide says "as the House committee wrote it". The report's "$19,200,000 for
+  military construction" looks like a typo and isn't used. The unanimous committee vote and the quote are from the
+  minority views (DeLauro, Wasserman Schultz); the majority's report has no single for-or-against line to quote. Tally,
+  party totals and 15 Nay names from the Clerk's roll 175 XML ("Johnson (GA)", "Lee (PA)", "Torres (NY)" drop the Clerk's
+  state tag since the state is shown). News first: a Senate action from Nov. 20 takes the Nov. 25 9:00 a.m. post slot; the
+  evergreen prefiled Texas HB 1218 post moves to Dec. 10 3:00 a.m. If the U.S. Senate votes on the motion before the slot,
+  update slides 2 and 8 and `where`.
