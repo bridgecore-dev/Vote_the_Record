@@ -292,7 +292,13 @@ def test_reel_covers_at_most_two_bills():
     ("below $206 million.", "below two hundred six million dollars."),
     ("$1.50 each", "one dollar and fifty cents each"),
     ("$2.5 billion", "two point five billion dollars"),
-    ("H.R. 1982 passed 19 to 16 after 40 hours", "H.R. 1982 passed 19 to 16 after 40 hours"),
+    ("H.R. 1982 passed 19 to 16 after 40 hours", "HR 1982 passed 19 to 16 after 40 hours"),
+    ("remove U.S. forces from the U.S. Senate", "remove US forces from the US Senate"),
+    ("It stays in the U.S.", "It stays in the US."),
+    ("the U.S., and Washington, D.C., too", "the US, and Washington, DC, too"),
+    ("at 6 p.m. Friday", "at 6 PM Friday"),
+    ("reported to the FEC and the VA", "reported to the F E C and the V A"),
+    ("Sen. Smith on Nov. 19", "Sen. Smith on Nov. 19"),
 ])
 def test_spoken_numbers(said, heard):
     assert reel.spoken(said) == heard

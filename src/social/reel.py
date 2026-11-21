@@ -272,9 +272,19 @@ YEAR = re.compile(r"(?<![\d$,.])(1[1-9]\d\d|20\d\d)(?!\d|[,.]\d)")
 YEAR_RANGE = re.compile(r"(?<![\d$,.])(1[1-9]\d\d|20\d\d)[-–](1[1-9]\d\d|20\d\d)(?!\d|[,.]\d)")
 
 
+# Kokoro stops at each period, so "U.S." came out as two words, "you. ess." (owner's report, 2026-11-21). Without the
+# periods it's one smooth "U.S."; a period that ends the sentence stays. These few it would read as a word ("fek").
+INITIALS = re.compile(r"(?<![A-Za-z.])(?:[A-Z]\.){2,}|\b[ap]\.m\.")
+SPELLED = re.compile(r"\b(FEC|VA|UL)\b")
+
+
+def _initials(m: re.Match) -> str:
+    return m[0].replace(".", "").upper() + ("." if m.end() == len(m.string) else "")
+
+
 def spoken(text: str) -> str:
-    """What the voice reads: dollar amounts as words with 'dollars' at the end, years the way people say them.
-    Bill numbers (H.R. 1982) are left as written."""
+    """What the voice reads: dollar amounts as words with 'dollars' at the end, years the way people say them,
+    initials as one smooth word. Bill numbers (H.R. 1982) keep their digits."""
     keep = {}
 
     def hold(m):
@@ -286,7 +296,8 @@ def spoken(text: str) -> str:
     text = YEAR.sub(lambda m: year_words(int(m[1])), text)
     for k, v in keep.items():
         text = text.replace(k, v)
-    return text
+    text = INITIALS.sub(_initials, text)
+    return SPELLED.sub(lambda m: " ".join(m[1]), text)
 
 
 # ---------------------------------------------------------------- checks
