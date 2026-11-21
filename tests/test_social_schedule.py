@@ -25,7 +25,8 @@ def schedule() -> dict[str, list[tuple[str, str, str]]]:
         # a trial is a queued Reel turned into a trial, so it keeps its Reel slot (owner's choice, 2026-11-19)
         if when and d.get("kind") in REEL | POST:
             t = dt.datetime.fromisoformat(str(when))
-            if t.date().isoformat() >= first_day():
+            # a slot already past can't be rearranged either (a missed Reel leaves two posts around its old slot)
+            if t.date().isoformat() >= first_day() and t >= dt.datetime.now(CENTRAL):
                 days[t.date().isoformat()].append((t.isoformat(), "reel" if d["kind"] in REEL else "post", p.stem))
     return days
 
