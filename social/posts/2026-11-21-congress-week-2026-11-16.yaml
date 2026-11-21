@@ -1,0 +1,145 @@
+kind: carousel
+level: congress
+topic: Congress recap
+approval: review
+rule: 'Counts: every roll-call vote in the House Clerk''s and the Senate''s official lists, and every public law GovInfo shows
+  approved Nov. 16-22, 2026. Listed: every bill that became law, then every final-passage vote on a bill or joint resolution
+  (passage, suspend and pass, conference report, agreeing to the other chamber''s amendment, veto override), in date order.
+  If the post runs out of room, the list stops in that order and the rest are counted on the last slide.'
+record_ids:
+- us/119/recap/week-2026-11-16
+sources:
+- title: GovInfo, Public and Private Laws RSS feed
+  url: https://www.govinfo.gov/rss/plaw.xml
+  retrieved: '2026-11-21'
+- title: Office of the Clerk, U.S. House, Roll Call Votes 2026 (ROLL_300)
+  url: https://clerk.house.gov/evslegacy/2026/ROLL_300.asp
+  retrieved: '2026-11-21'
+- title: House Clerk, Roll Call 324 (2026)
+  url: https://clerk.house.gov/evs/2026/roll324.xml
+  retrieved: '2026-11-21'
+- title: House Clerk, Roll Call 325 (2026)
+  url: https://clerk.house.gov/evs/2026/roll325.xml
+  retrieved: '2026-11-21'
+- title: House Clerk, Roll Call 326 (2026)
+  url: https://clerk.house.gov/evs/2026/roll326.xml
+  retrieved: '2026-11-21'
+- title: House Clerk, Roll Call 327 (2026)
+  url: https://clerk.house.gov/evs/2026/roll327.xml
+  retrieved: '2026-11-21'
+- title: U.S. Senate, Roll Call Vote 119th Congress, Session 2, Vote 270
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00270.xml
+  retrieved: '2026-11-21'
+- title: U.S. Senate, Roll Call Votes, 119th Congress, Session 2
+  url: https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml
+  retrieved: '2026-11-21'
+slides:
+- kicker: Weekly recap · Congress
+  head: What Congress did, Nov. 16-22, 2026
+  rows:
+  - - New public laws
+    - '0'
+  - - House roll-call votes
+    - '4'
+  - - Senate roll-call votes
+    - '17'
+  text: 'Listed: every new law, then every vote to pass a bill or joint resolution, in date order.'
+- kicker: Final-passage votes
+  head: Votes to pass bills and joint resolutions
+  rows:
+  - - H.R. 8483
+    - 'House, Nov. 17: Passed, 398-0 (D 199-0, I 0-0, R 199-0)'
+  - - H.R. 9600
+    - 'House, Nov. 17: Passed, 365-36 (D 202-0, I 0-0, R 163-36)'
+  - - H.R. 9640
+    - 'House, Nov. 18: Passed, 396-14 (D 206-0, I 0-0, R 190-14)'
+  - - H.R. 4464
+    - 'House, Nov. 19: Passed, 401-0 (D 204-0, I 0-0, R 197-0)'
+  - - H.R. 2347
+    - 'Senate, Nov. 19: Passed, 62-33 (D 14-30, I 1-1, R 47-2)'
+  by: 'Tallies: yeas-nays, as each chamber recorded them. In parentheses, by party (yeas-nays): D Democratic, I Independent,
+    R Republican.'
+- kicker: What's next
+  head: None of these is law yet.
+  text: The four bills the U.S. House of Representatives passed go to the U.S. Senate. The U.S. Senate changed H.R. 2347,
+    so the U.S. House of Representatives has to act on the Senate's text.
+- head: Which of these would you want explained next?
+  text: Tell us in the comments. Every tally here comes from the official roll call.
+caption: 'What Congress did, Nov. 16-22, 2026: 0 new public laws, 4 U.S. House roll-call votes, 17 U.S. Senate roll-call
+  votes, and 5 votes to pass a bill. None is law yet.'
+publish_after: '2026-11-24T09:00:00-06:00'
+hashtags:
+- congress
+- rollcall
+- newlaws
+- civics
+- votetherecord
+notes: 'Weekly recap, drafted by recap.py on 2026-11-21 (first Saturday run), does/affects filled by hand from the CRS
+  summaries only. Fixed by hand: the Clerk''s ROLL_300 list stops at roll 326, but roll327.xml (H.R. 4464, Nov. 19,
+  401-0) is posted, so the House count is 4, not 3, and H.R. 4464 is listed; roll328.xml has no vote. Senate: 17 votes
+  Nov. 16-20 on the vote menu (263-279), of which vote 270 is the only final passage of a bill. H.R. 2347: the CRS
+  summary describes the House text, but the U.S. Senate passed its own substitute (SA 6883, Congressional Record Nov.
+  10, re-opened this run: divisions on NEPA, the Clean Water Act, the ESA, project certainty, nuclear licensing,
+  transmission, energy permitting, historic preservation, and Division C, the Survivor Justice Tax Prevention Act), so
+  its `does` and summary come from that text; a managers'' amendment may have changed details after SA 6883 (see the
+  Nov. 26 H.R. 2347 post''s notes). Congress.gov actions (api.congress.gov, this run): the four U.S. House bills were
+  received in the U.S. Senate; H.R. 9640 is on the Senate calendar (No. 721). Every vote here has, or will have, its
+  own post, so record_ids lists only the recap. News first: takes the Nov. 24 9:00 a.m. post slot and moves the
+  evergreen Texas HB 1194/SB 404 post (prefiled bills) to Dec. 7 3:00 a.m. (Dec. 6 9:00 a.m. would follow a post
+  with no Reel between). If GovInfo posts a law approved Nov. 16-22 before Nov. 24, update the count.'
+bills:
+- id: H.R. 8483
+  does: Would take about 847 acres of federal land in San Diego County into trust for the Barona tribe
+  affects: The Barona Band of Mission Indians; gaming is barred on the land
+  where: 'U.S. House of Representatives vote Nov. 17, 2026: Passed, 398-0. Next: the U.S. Senate.'
+  summary:
+    text: This bill takes three parcels of specified federal land (approximately 847 acres) in San Diego County, California,
+      into trust for the benefit of the Barona Group of Capitan Grande Band of Mission Indians of the Barona Reservation,
+      California.
+    title: CRS summary of H.R. 8483
+    url: https://www.congress.gov/bill/119th-congress/house-bill/8483
+    retrieved: '2026-11-21'
+- id: H.R. 9600
+  title: Common Sense 250 Act of 2026
+  does: Would place the already authorized Thomas Paine monument in Area 1 of the National Mall
+  affects: Where the Thomas Paine monument can be built in Washington
+  where: 'U.S. House of Representatives vote Nov. 17, 2026: Passed, 365-36. Next: the U.S. Senate.'
+  summary:
+    text: This bill requires the authorized monument honoring Thomas Paine to be located in Area 1 of the National Mall, which
+      is reserved for commemorative works of preeminent historical and lasting significance to the United States.
+    title: CRS summary of H.R. 9600
+    url: https://www.congress.gov/bill/119th-congress/house-bill/9600
+    retrieved: '2026-11-21'
+- id: H.R. 9640
+  title: Earth MRI Reauthorization Act of 2026
+  does: Would renew a USGS mapping program focused on critical minerals through FY2031
+  affects: USGS contractors, who must disclose owners; U.S.-owned firms get preference
+  where: 'U.S. House of Representatives vote Nov. 18, 2026: Passed, 396-14. Next: the U.S. Senate.'
+  summary:
+    text: This bill reauthorizes through FY2031 the Earth Mapping Resources Initiative, a U.S. Geological Survey (USGS) program
+      charged with integrating and modernizing the mapping of U.S. natural resources, with a focus on critical mineral resources
+      such as lithium and titanium.
+    title: CRS summary of H.R. 9640
+    url: https://www.congress.gov/bill/119th-congress/house-bill/9640
+    retrieved: '2026-11-21'
+- id: H.R. 4464
+  title: Preventive Health Savings Act
+  does: Would have CBO, on request, estimate preventive-care savings beyond the 10-year budget window
+  affects: Congress and CBO; these estimates can't be used to check budget-rule compliance
+  where: 'U.S. House of Representatives vote Nov. 19, 2026: Passed, 401-0. Next: the U.S. Senate.'
+  summary:
+    text: This bill requires the Congressional Budget Office (CBO), upon receiving a request from Congress, to determine if
+      proposed legislation would reduce spending outside of the 10-year budget window through the use of preventive health
+      care.
+    title: CRS summary of H.R. 4464
+    url: https://www.congress.gov/bill/119th-congress/house-bill/4464
+    retrieved: '2026-11-21'
+- id: H.R. 2347
+  does: 'Senate text: rewrites environmental reviews, permits and power-line rules; keeps a tax change'
+  affects: Projects needing federal permits; sexual-abuse survivors who receive damages
+  where: 'U.S. Senate vote Nov. 19, 2026: Passed as amended, 62-33. Next: the U.S. House of Representatives.'
+  summary:
+    text: This Act may be cited as the "Bipartisan American Affordability and Jobs Act of 2026".
+    title: SA 6883, sec. 1(a), Congressional Record, Nov. 10, 2026
+    url: https://www.govinfo.gov/content/pkg/CREC-2026-11-10/html/CREC-2026-11-10-pt1-PgS5417.htm
+    retrieved: '2026-11-21'

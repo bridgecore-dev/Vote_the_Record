@@ -5,7 +5,7 @@ topic: Safety
 approval: review
 rule: Every bill filed Nov. 17, 2026 whose Texas Legislature Online caption is about speed limits (said on the last slide).
 record_ids: [tx/90R/HB 1194/filed, tx/90R/SB 404/filed]
-publish_after: '2026-11-24T09:00:00-06:00'
+publish_after: '2026-12-07T03:00:00-06:00'
 sources:
 - title: Texas Legislature Online, Bills By Filing Date, Nov. 17, 2026
   url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-17
