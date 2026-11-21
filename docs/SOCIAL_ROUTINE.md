@@ -141,7 +141,9 @@ Made to be seen (never at the cost of a rule above):
 - Trial Reels (owner's decision, 2026-11-20: every Reel is a trial): every `kind: reel` and `kind: clip` carries
   `trial: auto` (Instagram shows it to non-followers first and adds it to the grid if it does well). Two Reels
   a day (owner's decision, 2026-11-20), the 6:00 a.m. and 6:00 p.m. ones, also try a new look, each a different
-  one: a `design` that changes one thing from the baseline (teal, dark, round, center, captions, sfx) (`palette`, `mode`, `font`, `position`, `motion`, `sfx`; see social/README.md).
+  one: a `design` that changes one thing from the baseline (teal, dark, round, center, captions, sfx, voice
+  `af_heart`). The thing changed is one of `palette`, `mode`, `font`, `position`, `motion`, `sfx` (see social/README.md),
+  or the voice (`voice: {name: am_michael}`; also `af_bella`, `am_fenrir`, `am_puck`; owner's decision, 2026-11-21).
   The facts and sources follow every rule above; only the look changes. A trial is one of the day's queued
   Reels turned into a trial (owner's choice, 2026-11-19: no extra posts), so it keeps its Reel slot. Use `approval: review` for the first trial of each new design. The weekly "What's
   working" issue compares designs.
