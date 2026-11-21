@@ -8,6 +8,14 @@ rule: Every bill on the Texas Legislature's Nov. 17, 2026 filing report whose ca
 record_ids: [tx/90R/HB 1211/filed]
 publish_after: '2026-11-25T06:00:00-06:00'
 trial: auto
+design:
+  palette: teal
+  mode: dark
+  font: round
+  position: center
+  motion: captions
+  sfx: true
+voice: {name: am_fenrir}
 sources:
 - title: TLO, bills filed Nov. 17, 2026
   url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-17

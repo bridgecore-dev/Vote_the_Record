@@ -9,7 +9,13 @@ record_ids: [tx/90R/SB 31/filed, tx/90R/HB 101/filed, tx/90R/HB 855/filed, tx/90
 publish_after: '2026-11-25T18:00:00-06:00'
 trial: auto
 design:
+  palette: teal
+  mode: dark
+  font: round
+  position: center
   motion: captions
+  sfx: true
+voice: {name: am_puck}
 sources:
 - title: SB 31 history
   url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB31
