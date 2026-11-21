@@ -1,0 +1,95 @@
+kind: carousel
+level: state
+place: Texas
+topic: Work and pay
+approval: review
+rule: Every bill filed Nov. 20, 2026 whose Texas Legislature Online caption is about public employees bargaining
+  collectively. HB 1257 is the only one (said on the last slide).
+record_ids: [tx/90R/HB 1257/filed]
+publish_after: '2026-11-30T09:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 20, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-20
+  retrieved: '2026-11-21'
+- title: Texas Legislature Online, HB 1257 bill history (90th Legislature)
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1257
+  retrieved: '2026-11-21'
+- title: Texas Government Code, Chapter 617 (collective bargaining and strikes)
+  url: https://tcss.legis.texas.gov/resources/GV/htm/GV.617.htm
+  retrieved: '2026-11-21'
+- title: Texas Local Government Code, Chapter 174 (fire fighters and police officers)
+  url: https://tcss.legis.texas.gov/resources/LG/htm/LG.174.htm
+  retrieved: '2026-11-21'
+bills:
+- id: HB 1257
+  does: Would let Texas public employers sign union contracts and recognize unions, and would end the ban on public employee strikes.
+  affects: Employees of the state and of local governments, and the officials who hire them.
+  where: Filed Nov. 20, 2026 by Rep. Simmons; no other action yet. Would take effect Sept. 1, 2027.
+  summary:
+    text: >-
+      An official of the state or of a political subdivision of the state may [not] enter into a collective bargaining
+      contract with a labor organization regarding wages, hours, or conditions of employment of public employees.
+    title: HB 1257 as filed, Sec. 1 (Government Code 617.002(a); bracketed words are removed)
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01257I.htm
+    retrieved: '2026-11-21'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 20, 2026
+  big: Bargain. Strike.
+  head: A Texas House of Representatives bill would let public employees do two things state law bans today.
+- chip: The law today
+  head: Texas public employers can't sign a union contract. Collective bargaining, one contract negotiated for a whole group of workers, is banned.
+  quote:
+    label: Texas Government Code 617.002(a)
+    text: An official of the state or of a political subdivision of the state may not enter into a collective bargaining contract with a labor organization regarding wages, hours, or conditions of employment of public employees.
+  text: A contract made anyway is void. Officials also can't recognize a union as the bargaining agent for a group of workers.
+- chip: Strikes today
+  head: Public employees can't strike. A worker who does loses their job protections.
+  quote:
+    label: Texas Government Code 617.003(b)
+    text: A public employee who violates Subsection (a) forfeits all civil service rights, reemployment rights, and any other rights, benefits, and privileges the employee enjoys as a result of public employment or former public employment.
+- chip: What would change
+  head: HB 1257 strikes the word "not" from these rules and deletes the penalties.
+  rows:
+  - [Union contracts, "Banned and void → allowed, if the employer agrees"]
+  - [Union as bargaining agent, "Banned → allowed"]
+  - [Strikes, "Banned, and strikers lose their rights → allowed"]
+  - [Grievances, "Protected through a representative that doesn't claim the right to strike → through one that does"]
+- chip: What stays the same
+  head: The bill doesn't change the separate law for police officers and fire fighters.
+  quote:
+    label: Texas Local Government Code 174.202(a)
+    text: A fire fighter or police officer may not engage in a strike or slowdown.
+  text: Under that law, police and fire fighters can bargain only where local voters adopt it in an election. The rule that no one can be denied a public job for joining a union, or for not joining, also stays.
+- chip: Who it affects
+  head: Public employees would gain new options. Public employers could face strikes.
+  rows:
+  - [Public employees, "Could bargain through a union if their employer agrees, and strike without losing their rights"]
+  - [State and local governments, "Could choose to sign union contracts; their workers could strike"]
+- chip: When it would start
+  big: Sept. 1, 2027
+  head: If passed as filed, the bill takes effect on this date.
+  text: No fiscal note is posted yet, so there is no official estimate of what it would cost the state or local governments.
+- chip: Your view
+  head: Should Texas public employees be able to bargain and strike?
+  text: "How we picked: every bill filed Nov. 20 whose caption is about public employees bargaining collectively. HB 1257 was the only one."
+caption: |-
+  Texas law bans public employers from signing contracts with unions, and bans public employees from striking. A worker who strikes loses their civil service rights.
+
+  HB 1257, filed in the Texas House of Representatives for the 2027 session, would remove both bans. Employers could choose to bargain with a union. Strikes would be allowed, and the penalty would go away.
+
+  It doesn't change the separate law for police officers and fire fighters, which still bars them from striking. If passed as filed, it takes effect Sept. 1, 2027. No cost estimate is posted yet.
+
+  Should Texas public employees be able to bargain and strike?
+hashtags: [txlege, texaslegislature, texasworkers, votetherecord]
+notes: >-
+  New: filed Nov. 20, 2026; the only bill on that day's filing report whose caption is about public employee collective
+  bargaining. Records opened 2026-11-21: the filing report, the bill history (filed, no other action; subjects include
+  City/County Government--Employees, State Employees, Labor--General), the introduced text (90R8006 MXM-F), Government
+  Code ch. 617 and Local Government Code ch. 174 (both from tcss.legis.texas.gov). Before/after is read straight from the
+  bill's bracketed (struck) words in 617.002, 617.003 and 617.005. "If the employer agrees" restates the bill's "may"
+  (permissive, not required). The bill doesn't amend ch. 174, so the post says only that 174.202 is unchanged; it
+  doesn't say how a court would read the two laws together. 617.004 (right to work) is untouched by the bill. "Who it
+  affects" rows are our plain reading of the text; no fiscal note, analysis or statement for or against exists yet, so
+  there's no case for/against slide and the post asks instead. Rep. Simmons as TLO lists the author, no party shown.
+  Evergreen (a prefiled bill): Nov. 30 9:00 a.m. is the first post slot that keeps the Reel/post turn (Nov. 27-29 have
+  no gap with a Reel on both sides).
