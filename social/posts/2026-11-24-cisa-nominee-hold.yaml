@@ -1,0 +1,112 @@
+kind: carousel
+level: congress
+topic: Nominations
+approval: review
+record_ids: ['us/119/PN1426/wyden-intent-to-object-2026-11-20']
+publish_after: '2026-11-24T21:00:00-06:00'
+found_via: https://www.nextgov.com/cybersecurity/2026/11/wyden-tillis-plan-holds-trumps-cisa-nominee-after-jan-6-remarks/417347/
+rule: Every notice of intent to object printed in the Congressional Record Nov. 16-20, 2026 (there was one).
+sources:
+- title: "Cong. Record, Nov. 20, 2026, S5846, Notice of Intent to Object"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-11-20/html/CREC-2026-11-20-pt1-PgS5846-3.htm
+  retrieved: '2026-11-21'
+- title: "Cong. Record, Nov. 20, 2026, S5847, Orders for Nov. 24-30"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-11-20/html/CREC-2026-11-20-pt1-PgS5847-3.htm
+  retrieved: '2026-11-21'
+- title: "PN1426, Congress.gov"
+  url: https://www.congress.gov/nomination/119th-congress/1426
+  retrieved: '2026-11-21'
+- title: "S. Res. 28 (112th Congress), standing order on holds"
+  url: https://www.govinfo.gov/content/pkg/BILLS-112sres28ats/html/BILLS-112sres28ats.htm
+  retrieved: '2026-11-21'
+- title: "U.S. Senate, Glossary"
+  url: https://www.senate.gov/about/research-tools/glossary.htm
+  retrieved: '2026-11-21'
+- title: "6 U.S.C. 652"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title6/html/USCODE-2024-title6-chap1-subchapXVIII-partA-sec652.htm
+  retrieved: '2026-11-21'
+- title: "HSGAC, Nominations hearing, Nov. 19, 2026"
+  url: https://www.hsgac.senate.gov/hearings/nominations-16/
+  retrieved: '2026-11-21'
+- title: "LoSapio, statement for the record"
+  url: https://www.hsgac.senate.gov/wp-content/uploads/Prepared-Statement-LoSapio-2026-11-19.pdf
+  retrieved: '2026-11-21'
+- title: "Peters, prepared opening statement"
+  url: https://www.hsgac.senate.gov/library/files/opening-statement-peters-2026-11-19/opening-statement-peters-2026-11-19/
+  retrieved: '2026-11-21'
+- title: "U.S. Senate, Vote 279"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00279.xml
+  retrieved: '2026-11-21'
+slides:
+- kicker: "U.S. Senate · Nov. 20, 2026"
+  big: "1 hold"
+  head: "Sen. Ron Wyden (D-OR) put a public hold on the nominee to lead CISA, the federal cybersecurity agency."
+  text: "The nominee: Michael LoSapio, to be Director of the Cybersecurity and Infrastructure Security Agency. The notice gives no reason."
+- chip: The record
+  head: "Wyden's notice, printed in the Congressional Record:"
+  quote: {label: "Congressional Record, Nov. 20, 2026, S5846", text: "I, Senator Ron Wyden, intend to object to proceeding to the nomination of Michael LoSapio, of New Jersey, to be Director of the Cybersecurity and Infrastructure Security Agency, Department of Homeland Security", key: "intend to object"}
+- chip: What a hold is
+  head: "A hold: a senator tells Senate leaders they don't want a nomination or bill to reach the floor."
+  text: "It's an informal practice, not a vote. The senator lets the leader object in their name."
+  quote: {label: "Required wording, Senate standing order of 2011", text: "I give my permission to the objecting Senator to object in my name.", key: "object in my name"}
+- chip: "Before → after"
+  head: "Unanimous consent: the U.S. Senate acts with no roll call, unless any senator objects."
+  rows:
+  - [No hold, "Leaders can ask to take up the nominee by unanimous consent"]
+  - [Hold, "That request draws an objection in Wyden's name"]
+  - [Still open, "Cloture: a vote to put a time limit on debate"]
+  text: "A hold slows the quick path. It doesn't stop the U.S. Senate from voting."
+  by: "Senate glossary; 2011 Senate standing order on holds, sec. 1(a)"
+- chip: Why it's public
+  head: "Since 2011, leaders honor a hold only if the senator puts it in writing and prints it in the Congressional Record within 2 session days."
+  text: "Wyden submitted that standing order, with 18 cosponsors. The Senate's calendar lists every notice."
+- chip: The job
+  head: "By law, CISA's Director leads federal cybersecurity and critical infrastructure security programs."
+  rows:
+  - [Required, "Extensive knowledge in at least 2 of 3 areas"]
+  - [The areas, "Cybersecurity, infrastructure security, risk management"]
+  - [Required, "5+ years fostering government-private coordination"]
+  by: "6 U.S.C. 652(b)-(c)"
+- chip: The case for
+  head: "LoSapio, Palantir's chief information security officer, in his statement for the Nov. 19 hearing:"
+  quote: {label: "Statement for the record, Senate Homeland Security Committee", text: "CISA should make the Nation harder to attack and faster to recover", key: "harder to attack"}
+  text: "He cited 20 years in technology and cybersecurity and 25 in the fire service. It would be his first federal job."
+- chip: The case against
+  head: "Sen. Gary Peters (D-MI), the committee's ranking member, in his prepared statement:"
+  quote: {label: "Opening statement, Nov. 19, 2026", text: "zero experience working across government to address cybersecurity threats, and I would say does not appear to meet the statutory requirements of this position.", key: "statutory requirements"}
+- chip: Where it stands
+  head: "Nominated Nov. 9. Hearing Nov. 19. Still before the Senate Homeland Security and Governmental Affairs Committee."
+  text: "The U.S. Senate is out until Nov. 30, apart from two pro forma sessions with no business."
+- chip: Your turn
+  head: "Should one senator be able to slow a nominee this way?"
+  text: "Your senators' contact pages are at senate.gov."
+caption: |-
+  On Nov. 20, Sen. Ron Wyden (D-OR) filed a public notice that he intends to object to the U.S. Senate taking up Michael LoSapio's nomination to be Director of the Cybersecurity and Infrastructure Security Agency (CISA). That's called a hold. The notice gives no reason.
+
+  Without a hold: leaders can ask to move a nominee by unanimous consent, with no roll call.
+  With a hold: that request draws an objection in Wyden's name. The Senate can still vote to limit debate (cloture) and then vote on the nominee.
+
+  Holds have had to be public since 2011, under a standing order Wyden submitted.
+
+  For: LoSapio, Palantir's chief information security officer, said CISA "should make the Nation harder to attack and faster to recover."
+  Against: Sen. Gary Peters (D-MI) said the nominee "does not appear to meet the statutory requirements of this position."
+
+  Should one senator be able to slow a nominee this way?
+hashtags: [ussenate, cybersecurity, cisa, nominations, votetherecord]
+notes: >-
+  New this run: the Nov. 20 Congressional Record (S5846, "NOTICE OF INTENT TO OBJECT TO PROCEEDING") prints Wyden's
+  notice on PN1426; it was the only such notice in the Nov. 16-20 Records (govinfo granule titles checked). PN1426
+  status from api.congress.gov: received Nov. 9, referred to HSGAC, hearing held Nov. 19; nothing later. News
+  (Nextgov) says Wyden cited LoSapio's Jan. 6 remarks and Palantir background and that Sen. Tillis also plans a hold;
+  neither is in an official record we opened (wyden.senate.gov's press releases have nothing on it; the notice has
+  no reason), so the post says "The notice gives no reason" and leaves Tillis out. If Wyden posts a statement or
+  Tillis's notice appears in the Record before the slot, consider adding them. S. Res. 28 (112th) text: Wyden "for
+  himself" and 18 named cosponsors; recognition rule and 2-session-day limit from sec. 1(a)(2); the quoted form from
+  sec. 1(a)(3); calendar listing from sec. 1(b). "Hold" and "unanimous consent" definitions from the Senate glossary;
+  cloture from the same glossary. The case for is LoSapio's statement for the record and the case against is Peters's
+  "as prepared for delivery" statement, both linked on the HSGAC hearing page; the hearing video (and the Jan. 6
+  exchange news reports) was not reviewed. Wyden's and Peters's party and state as Senate vote 279's XML lists them;
+  LoSapio is not a member, so no party. Senate schedule from the Nov. 20 Record (S5847). News first: takes the Nov. 24
+  9:00 p.m. post slot, the first one held by an evergreen post (every earlier post slot holds this week's actions),
+  and moves 2026-11-17-texas-hb-929-ai-ad-labels (a prefiled bill) to 2026-12-09T03:00:00-06:00, the first post
+  slot after the last queued post (Dec. 8 3:00 a.m.) that keeps each day's turns.
