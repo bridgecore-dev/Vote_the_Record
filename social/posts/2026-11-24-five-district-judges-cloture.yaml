@@ -1,0 +1,136 @@
+kind: carousel
+level: congress
+topic: Federal courts
+approval: review
+record_ids: [us/119/2/senate/roll/275, us/119/2/senate/roll/276, us/119/2/senate/roll/277, us/119/2/senate/roll/278, us/119/2/senate/roll/279]
+publish_after: '2026-11-24T03:00:00-06:00'
+rule: Every cloture vote the U.S. Senate held on Nov. 20, 2026 after the Coker confirmation (votes 275-279), in the order taken.
+sources:
+- title: "U.S. Senate, Vote 275"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00275.htm
+  retrieved: '2026-11-20'
+- title: "U.S. Senate, Vote 276"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00276.htm
+  retrieved: '2026-11-20'
+- title: "U.S. Senate, Vote 277"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00277.htm
+  retrieved: '2026-11-20'
+- title: "U.S. Senate, Vote 278"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00278.htm
+  retrieved: '2026-11-20'
+- title: "U.S. Senate, Vote 279"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00279.htm
+  retrieved: '2026-11-20'
+- title: "Senate Executive Calendar, Nov. 24 issue"
+  url: https://www.senate.gov/legislative/LIS/executive_calendar/xcalv.pdf
+  retrieved: '2026-11-20'
+- title: "U.S. Senate Daily Press, floor log, Nov. 20"
+  url: https://www.dailypress.senate.gov/
+  retrieved: '2026-11-20'
+- title: "Senate, Cloture Overview"
+  url: https://www.senate.gov/about/powers-procedures/filibusters-cloture/overview.htm
+  retrieved: '2026-11-20'
+- title: "U.S. Courts, District Courts"
+  url: https://www.uscourts.gov/about-federal-courts/court-role-and-structure/about-us-district-courts
+  retrieved: '2026-11-20'
+- title: "28 U.S.C. 134"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title28/html/USCODE-2023-title28-partI-chap5-sec134.htm
+  retrieved: '2026-11-20'
+slides:
+- kicker: "Nov. 20, 2026"
+  big: "5 votes"
+  head: "In one afternoon, the U.S. Senate voted five times to end debate on five nominees for federal trial judge."
+  text: "All five votes passed. The final votes on the judges come Nov. 30 or later."
+- chip: "Roll call 275 · 3:38 p.m. ET"
+  head: "Kyle Frederick Reardon, District of Alaska"
+  vote: {yea: 55, nay: 31, not_voting: 14}
+  rows:
+  - [Republican, "49 Yea · 0 Nay · 4 didn't vote"]
+  - [Democratic, "6 Yea · 31 Nay · 8 didn't vote"]
+  - [Independent, "0 Yea · 0 Nay · 2 didn't vote"]
+- chip: "Roll call 276 · 4:02 p.m. ET"
+  head: "Daniel Lewis Ballou, Eastern District of Kentucky"
+  vote: {yea: 48, nay: 36, not_voting: 16}
+  rows:
+  - [Republican, "48 Yea · 0 Nay · 5 didn't vote"]
+  - [Democratic, "0 Yea · 36 Nay · 9 didn't vote"]
+  - [Independent, "0 Yea · 0 Nay · 2 didn't vote"]
+- chip: "Roll call 277 · 4:19 p.m. ET"
+  head: "Robert E. Long, Jr., Middle District of Florida"
+  vote: {yea: 47, nay: 35, not_voting: 18}
+  rows:
+  - [Republican, "47 Yea · 0 Nay · 6 didn't vote"]
+  - [Democratic, "0 Yea · 35 Nay · 10 didn't vote"]
+  - [Independent, "0 Yea · 0 Nay · 2 didn't vote"]
+- chip: "Roll call 278 · 4:34 p.m. ET"
+  head: "Peter M. Mansfield, Eastern District of Louisiana"
+  vote: {yea: 48, nay: 31, not_voting: 21}
+  rows:
+  - [Republican, "46 Yea · 0 Nay · 7 didn't vote"]
+  - [Democratic, "2 Yea · 31 Nay · 12 didn't vote"]
+  - [Independent, "0 Yea · 0 Nay · 2 didn't vote"]
+- chip: "Roll call 279 · 4:49 p.m. ET"
+  head: "Jesus A. Osete, Western District of Missouri"
+  vote: {yea: 45, nay: 33, not_voting: 22}
+  rows:
+  - [Republican, "45 Yea · 0 Nay · 8 didn't vote"]
+  - [Democratic, "0 Yea · 33 Nay · 12 didn't vote"]
+  - [Independent, "0 Yea · 0 Nay · 2 didn't vote"]
+  text: "Party as the U.S. Senate records it. The names on each side are in votes 275-279 on senate.gov."
+- chip: What cloture means
+  head: "A cloture motion is a vote to end debate, so the U.S. Senate can move to a final vote."
+  quote: {label: "U.S. Senate, Cloture: Historical Overview", text: "The Senate adopted new precedents in the 2010s to allow a simple majority to end debate on nominations."}
+  text: "Each vote needed a majority of those voting (\"1/2\" on the Senate's record). Yea = end debate. Nay = keep debating."
+- chip: The seats
+  head: "Each nominee would fill a seat a judge has left or is leaving."
+  rows:
+  - [Alaska, "vice Joshua M. Kindred, resigned"]
+  - [E.D. Kentucky, "vice Gregory F. Van Tatenhove, retired"]
+  - [M.D. Florida, "vice Timothy J. Corrigan, retired"]
+  - [E.D. Louisiana, "vice Lance M. Africk, retired"]
+  - [W.D. Missouri, "vice David Gregory Kays, retiring"]
+- chip: What comes next
+  head: "The U.S. Senate is out until Nov. 30, except for short pro forma sessions Nov. 24 and Nov. 27."
+  rows:
+  - [Reardon, "Confirmation vote ordered for 5:30 p.m. Monday, Nov. 30"]
+  - [The other four, "Confirmation votes no earlier than Nov. 30, at a time the party leaders set"]
+  quote: {label: "28 U.S.C. 134(a)", text: "The district judges shall hold office during good behavior."}
+- chip: Check it yourself
+  head: "District courts are where federal trials happen."
+  quote: {label: "United States Courts, About U.S. District Courts", text: "U.S. district courts are the primary trial courts of the federal court system."}
+  text: "Look up your senators on senate.gov, votes 275-279. Should ending debate on a judge take 51 votes or 60? Tell us what you think."
+caption: |-
+  On Nov. 20, 2026, the U.S. Senate held five cloture votes in a row, each one to end debate on a nominee for U.S. District Judge. All five passed.
+
+  Vote 275, Kyle Frederick Reardon (District of Alaska): 55-31.
+  Vote 276, Daniel Lewis Ballou (Eastern District of Kentucky): 48-36.
+  Vote 277, Robert E. Long, Jr. (Middle District of Florida): 47-35.
+  Vote 278, Peter M. Mansfield (Eastern District of Louisiana): 48-31.
+  Vote 279, Jesus A. Osete (Western District of Missouri): 45-33.
+
+  Totals by party for each vote are on the slides, as the U.S. Senate records them.
+
+  Cloture is a vote to end debate. For nominations it takes a simple majority. Each nominee would fill a seat a judge has left or is leaving.
+
+  The U.S. Senate is out until Nov. 30, apart from short pro forma sessions. Reardon's confirmation vote is ordered for 5:30 p.m. on Nov. 30; the other four come no earlier than that day.
+
+  51 votes or 60 to end debate on a judge: what do you think?
+hashtags: [ussenate, federalcourts, rollcall, votetherecord]
+notes: >-
+  New this run: Senate votes 275-279 (Nov. 20, 3:38-4:49 p.m. ET, each "Cloture Motion Agreed to", "1/2"), not in any
+  post or open pull request. Tallies and party counts were counted from each vote's XML (vote_119_2_00275.xml through
+  00279.xml); party as the Senate lists it (R, D, I). Every vote's smaller side (31-36 Nays) is under the ~40-name
+  limit, but five lists don't fit one carousel, so every vote gets the same treatment: totals by party and a link to
+  senate.gov. If you'd rather list names, split this into five posts. The Press Gallery log names the Democrats who
+  voted Yea on 275 (Cortez Masto, Fetterman, Hirono, Kaine, Rosen, Shaheen) and 278 (Fetterman, Hirono); not on a
+  slide, for the same reason. "Vice ..." lines, PN1272-3/-7/-8/-10/-13, and the unanimous consent agreement (Reardon
+  confirmation at 5:30 p.m. Nov. 30; the other four "no earlier than Monday, November 30, 2026" at a time set by the
+  Majority Leader in consultation with the Democratic Leader) are from xcalv.pdf, which was already the Nov. 24 issue
+  when read on Nov. 20 (it is replaced each issue). Adjournment to Nov. 30 and the Nov. 24 / Nov. 27 pro forma
+  sessions are from the Senate Daily Press floor log (5:13 p.m., Nov. 20). No floor statements for or against were
+  opened (the Nov. 20 Congressional Record isn't on GovInfo yet), so no case for/against slide. This post goes out
+  before the Nov. 30 votes; the next post on these nominees should carry the confirmation roll calls. News first:
+  takes the Nov. 24 3:00 a.m. post slot, the first post slot at least 3 hours away held by an evergreen post (every
+  earlier post slot holds this week's votes and passages), and moves the evergreen 2026-11-21-texas-hb-1186-marriage-age
+  (a prefiled bill) to 2026-12-06T03:00:00-06:00, the first post slot after the last queued post that keeps the
+  Reel/post turn (Dec. 5 9:00 a.m. would follow the Dec. 5 3:00 a.m. carousel with no Reel between).
