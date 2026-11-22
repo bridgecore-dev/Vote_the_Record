@@ -1,0 +1,104 @@
+kind: carousel
+level: state
+place: New Jersey
+topic: Criminal justice
+approval: review
+record_ids: [nj/222/S1270/approved]
+publish_after: '2026-11-26T03:00:00-06:00'
+sources:
+- title: New Jersey Legislature, S1270 bill history (2026-2027 session)
+  url: https://www.njleg.state.nj.us/bill-search/2026/S1270
+  retrieved: '2026-11-22'
+- title: New Jersey Legislature, S1270/S2566 (2R) SCS, second reprint (bill text as passed)
+  url: https://pub.njleg.state.nj.us/Bills/2026/S1500/1270_R2.PDF
+  retrieved: '2026-11-22'
+- title: New Jersey Office of Legislative Services, legislative fiscal estimate, July 2, 2026
+  url: https://pub.njleg.state.nj.us/Bills/2026/S1500/1270_E3.PDF
+  retrieved: '2026-11-22'
+bills:
+- id: S. 1270
+  does: Ends the time limit to charge human trafficking or aggravated criminal sexual contact, or for a trafficking victim to sue.
+  affects: People accused of these crimes, trafficking victims, and those who profit from trafficking or hold its victims.
+  where: Approved Nov. 20, 2026 as P.L.2026, c.107; it took effect immediately.
+  summary:
+    text: >-
+      the bill eliminates the statute of limitations for criminal prosecutions of human trafficking and aggravated
+      criminal sexual contact and eliminates the statute of limitations under which a victim of human trafficking may
+      bring a civil suit against the perpetrator.
+    title: New Jersey Assembly Appropriations Committee statement to S1270/S2566 (2R) SCS, Oct. 22, 2026
+    url: https://pub.njleg.state.nj.us/Bills/2026/S1500/1270_S5.PDF
+    retrieved: '2026-11-22'
+slides:
+- kicker: New Jersey · New law, Nov. 20, 2026
+  big: No deadline
+  head: New Jersey ended the statute of limitations, the deadline to bring a case, for human trafficking.
+  text: S. 1270 became law as P.L.2026, c.107. It covers criminal charges and victims' lawsuits.
+- chip: Criminal charges
+  head: Prosecutors can now charge these crimes at any time.
+  rows:
+  - [Human trafficking, "Before: within 5 years of the crime. Now: any time"]
+  - [Aggravated criminal sexual contact, "Now: any time, whatever the victim's age"]
+  text: Before, if the victim was under 18, charges had to come within 5 years of the victim turning 18, or 2 years after the victim discovered the offense, whichever was later.
+- chip: Lawsuits
+  big: 5 years → none
+  head: A trafficking victim's civil lawsuit had to be filed within 5 years. Now it can be filed at any time.
+  text: A civil lawsuit asks for money for the harm done. It can go ahead even if no one is convicted.
+- chip: Who can be sued
+  head: The law also widens who a victim can sue.
+  rows:
+  - [Before, "Those who knowingly profited from the trafficking, or knowingly kept a victim"]
+  - [Now, "Also those who profited, directly or indirectly, or kept a victim, \"knowing or in reckless disregard\""]
+  quote: {label: P.L.2026, c.107, sec. 2, text: "knowing or in reckless disregard that the pecuniary benefit they derived was from the human trafficking offense"}
+- chip: Which cases
+  head: It took effect right away, for cases whose deadline hadn't already passed.
+  quote: {label: P.L.2026, c.107, sec. 3, text: "applicable to all offenses not yet barred from prosecution, and to all civil causes of action not yet barred from filing"}
+- chip: Who gains, who loses
+  head: Victims get more time. People accused lose a defense.
+  rows:
+  - [Victims, "No deadline to see charges filed or to sue"]
+  - [People accused, "Can no longer say the time limit ran out, in cases not already barred"]
+  - [Those who profit, "Can be sued if they knew, or recklessly ignored, where the money came from"]
+- chip: What it costs
+  head: No dollar figure. Legislative analysts expect more court cases and more prosecutions.
+  text: The Office of Legislative Services says court costs rise with the caseload, and so do court filing fees. The Executive Branch sent no fiscal note.
+  quote: {label: Office of Legislative Services, text: "annual indeterminate State expenditure and revenue increases"}
+- chip: The votes
+  head: No member of either chamber voted no.
+  rows:
+  - [New Jersey Senate, "40-0, June 30, 2026"]
+  - [New Jersey General Assembly, "79-0-0, Oct. 29, 2026"]
+  by: "Primary sponsors: Sens. Greenstein, Burgess, Gopal; Assembly members Stanley, Hutchison, Speight"
+- chip: Your turn
+  head: Should serious crimes ever have a deadline to charge them?
+  text: The records we opened give no argument for or against. Which side convinces you?
+caption: |-
+  New Jersey ended the statute of limitations, the deadline to bring a case, for human trafficking. S. 1270 was approved Nov. 20, 2026 as P.L.2026, c.107, and took effect right away.
+
+  Before: human trafficking charges had to come within 5 years of the crime, and a victim's lawsuit within 5 years. For aggravated criminal sexual contact with a victim under 18, charges had to come within 5 years of the victim turning 18, or 2 years after discovery.
+  Now: charges for human trafficking or aggravated criminal sexual contact, at any age, and a trafficking victim's lawsuit can come at any time. Victims can also sue people who profited "knowing or in reckless disregard" that the money came from trafficking.
+
+  It applies to cases whose deadline hadn't already passed. Cost: not counted; the Office of Legislative Services expects more court cases and prosecutions, and more filing fees.
+
+  The New Jersey Senate passed it 40-0 and the General Assembly 79-0-0.
+
+  Should serious crimes ever have a deadline? Which side convinces you?
+hashtags: [newjersey, njleg, humantrafficking, votetherecord]
+notes: >-
+  News-first: an official action from the last three days (the Legislature's bill history, read through its own
+  api/billDetail/billHistory/S1270/2026 feed on 2026-11-22: "11/20/2026 Approved P.L.2026, c.107."). Found through Open
+  States' action feed (a tip only, not a source). Takes Nov. 26 3:00 a.m., the earliest carousel slot held by an
+  evergreen post (Nov. 22-25 carousels are all news from Nov. 16-20); this pull request moves the prefiled Texas HB 1225
+  post to Dec. 12 3:00 a.m. (first post slot after the last queued post that keeps the Reel/post turn). The bill is a
+  Senate Committee Substitute for S1270 and S2566; it was substituted for an identical Assembly bill, which isn't named
+  (one bill per post). Before/after is from the second reprint (HTML sha256
+  c06a3ab7c4692821908089461e9f5367314ce075a197272ca3e093353564c365; PDF
+  ad324e72269a8221739121a2e65fbfdc2b887061a923268bb574794d38c103ea) and the OLS estimate/Assembly Appropriations
+  statement. Please check: (1) the 10-year civil limit in the bill's markup was new text in the introduced bill that
+  committee amendments struck, so current law was 5 years (2C:1-6g), as both statements say; (2) aggravated criminal
+  sexual contact (2C:14-3a) moves to "any time"; plain criminal sexual contact (2C:14-3b) keeps the under-18 rule, so
+  the slides name only "aggravated"; (3) "Before" for an adult victim of aggravated criminal sexual contact (the
+  general 5-year crime limit, 2C:1-6b(1)) is left off because the statements don't describe it. The bill text lists
+  sponsors by district, not party, so no party is shown. Votes are as the bill history prints them (Senate 40-0;
+  Assembly 79-0-0). No floor statements or testimony were opened, and no official case for or against was found. P.L.
+  chapter text isn't on pub.njleg yet (PL26/107 returned 404); the second reprint is the version both houses passed.
+  The governor isn't named because the record says only "Approved".
