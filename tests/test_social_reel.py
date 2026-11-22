@@ -299,9 +299,21 @@ def test_reel_covers_at_most_two_bills():
     ("at 6 p.m. Friday", "at 6 PM Friday"),
     ("reported to the FEC and the VA", "reported to the F E C and the V A"),
     ("Sen. Smith on Nov. 19", "Sen. Smith on Nov. 19"),
+    ("S. 3321 passed the Senate.", "Senate Bill 3321 passed the Senate."),
+    ("H.R. 973 and S. 1135", "HR 973 and Senate Bill 1135"),
+    ("Go to us.gov.", "Go to U S dot gov."),
+    ("See Congress.gov, then clerk.house.gov/Votes.", "See Congress dot gov, then clerk dot house dot gov slash Votes."),
+    ("File at ic3.gov or irs.gov", "File at I C 3 dot gov or I R S dot gov"),
+    ("https://www.fec.gov/data.", "F E C dot gov slash data."),
+    ("nyc.gov/workrules", "N Y C dot gov slash work rules"),
+    ("The U.S. Senate at 6 p.m.", "The US Senate at 6 PM."),
 ])
 def test_spoken_numbers(said, heard):
     assert reel.spoken(said) == heard
+
+
+def test_senate_bill_number_stays_in_its_sentence():
+    assert reel.sentences("S. 1135 passed. It goes on.") == ["S. 1135 passed.", "It goes on."]
 
 
 def test_every_reel_has_a_voice():

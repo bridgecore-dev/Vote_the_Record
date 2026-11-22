@@ -213,7 +213,7 @@ ABBREV = "".join(rf"(?<!\b{a}\.)" for a in (r"U\.S", "Rep", "Sen", "Gov", "Mr", 
 
 
 def sentences(text: str) -> list[str]:
-    return [x for x in re.split(ABBREV + r"(?<=[.!?])\s+(?=[A-Z0-9\"“])", text.strip()) if x.strip()]
+    return [x for x in re.split(ABBREV + r"(?<=[.!?])(?!(?<=\bS\.)\s+\d)\s+(?=[A-Z0-9\"“])", text.strip()) if x.strip()]
 
 
 # ---------------------------------------------------------------- how numbers are read aloud
@@ -282,14 +282,39 @@ def _initials(m: re.Match) -> str:
     return m[0].replace(".", "").upper() + ("." if m.end() == len(m.string) else "")
 
 
+# Web addresses are read out: "us.gov" is "U S dot gov" (owner's request, 2026-11-22). Short names are spelled letter by
+# letter, except the endings people say as words.
+WEB = re.compile(r"(?<![\w@.])(?:https?://)?(?:www\.)?((?:[A-Za-z0-9-]+\.)+(?:gov|com|org|net|edu|mil|us)\b(?:/[\w.-]*\w)*)")
+WEB_WORDS = {"gov", "com", "org", "net", "mil"}
+WEB_LETTERS = {"usda"}
+WEB_JOINED = {"studentaid": "student aid", "workrules": "work rules", "medicaidhelp": "medicaid help"}
+WEB_MARKS = {".": "dot", "/": "slash", "-": "dash"}
+
+
+def _web_part(part: str) -> str:
+    low = part.lower()
+    if part in WEB_MARKS:
+        return WEB_MARKS[part]
+    if low in WEB_JOINED:
+        return WEB_JOINED[low]
+    if low not in WEB_WORDS and (len(low) <= 3 or low in WEB_LETTERS):
+        return " ".join(low.upper())
+    return part
+
+
+def web_words(address: str) -> str:
+    return " ".join(_web_part(x) for x in re.split(r"([./-])", address) if x)
+
+
 def spoken(text: str) -> str:
     """What the voice reads: dollar amounts as words with 'dollars' at the end, years the way people say them,
-    initials as one smooth word. Bill numbers (H.R. 1982) keep their digits."""
+    initials as one smooth word, web addresses part by part. Bill numbers (H.R. 1982) keep their digits; S. 3321 is "Senate Bill 3321"."""
     keep = {}
 
     def hold(m):
-        keep[f"\x00{len(keep)}\x00"] = m[0]
+        keep[f"\x00{len(keep)}\x00"] = web_words(m[1]) if m.re is WEB else f"Senate Bill {m[2]}" if m[1] == "S." else m[0]
         return f"\x00{len(keep) - 1}\x00"
+    text = WEB.sub(hold, text)
     text = B.BILL.sub(hold, text)
     text = DOLLARS.sub(_dollars, text)
     text = YEAR_RANGE.sub(lambda m: f"{year_words(int(m[1]))} to {year_words(int(m[2]))}", text)
@@ -786,6 +811,8 @@ KEEP_DOT = re.compile(r"^(?:[A-Z]\.)+$|^(?:Rep|Sen|Gov|Mr|Ms|Dr|St|No|Jan|Feb|Ma
 
 def syllables(word: str) -> int:
     """About how long a word takes to say, in syllables of its spoken form ("211" is "two hundred eleven")."""
+    if word.rstrip(".") == "S":  # read as "Senate Bill"
+        return 3
     return max(1, len(re.findall(r"[aeiouy]+", spoken(word).lower())))
 
 
