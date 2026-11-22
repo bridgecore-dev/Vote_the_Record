@@ -213,7 +213,9 @@ ABBREV = "".join(rf"(?<!\b{a}\.)" for a in (r"U\.S", "Rep", "Sen", "Gov", "Mr", 
 
 
 def sentences(text: str) -> list[str]:
-    return [x for x in re.split(ABBREV + r"(?<=[.!?])(?!(?<=\bS\.)\s+\d)\s+(?=[A-Z0-9\"“])", text.strip()) if x.strip()]
+    # A bill's prefix ends in a period ("S. 1135", "H.Res. 1655"), but it doesn't end the sentence.
+    text = B.BILL.sub(lambda m: m[0].replace(" ", "\x01"), text.strip())
+    return [x.replace("\x01", " ") for x in re.split(ABBREV + r"(?<=[.!?])\s+(?=[A-Z0-9\"“])", text) if x.strip()]
 
 
 # ---------------------------------------------------------------- how numbers are read aloud
@@ -302,17 +304,31 @@ def _web_part(part: str) -> str:
     return part
 
 
+# Bill numbers are read by name, the same for every chamber and state (owner's request, 2026-11-22). A resolution is
+# not a bill, so it keeps its own name.
+BILL_NAMES = {"HR": "House Bill", "HB": "House Bill", "S": "Senate Bill", "SB": "Senate Bill",
+              "HRES": "House Resolution", "SRES": "Senate Resolution",
+              "HJRES": "House Joint Resolution", "HJR": "House Joint Resolution",
+              "SJRES": "Senate Joint Resolution", "SJR": "Senate Joint Resolution",
+              "HCONRES": "House Concurrent Resolution", "HCR": "House Concurrent Resolution",
+              "SCONRES": "Senate Concurrent Resolution", "SCR": "Senate Concurrent Resolution"}
+
+
+def bill_key(prefix: str) -> str:
+    return re.sub(r"[\s.]", "", prefix).upper()
+
+
 def web_words(address: str) -> str:
     return " ".join(_web_part(x) for x in re.split(r"([./-])", address) if x)
 
 
 def spoken(text: str) -> str:
     """What the voice reads: dollar amounts as words with 'dollars' at the end, years the way people say them,
-    initials as one smooth word, web addresses part by part. Bill numbers (H.R. 1982) keep their digits; S. 3321 is "Senate Bill 3321"."""
+    initials as one smooth word, web addresses part by part. Bill numbers keep their digits and are read by name: H.R. 1982 is "House Bill 1982"."""
     keep = {}
 
     def hold(m):
-        keep[f"\x00{len(keep)}\x00"] = web_words(m[1]) if m.re is WEB else f"Senate Bill {m[2]}" if m[1] == "S." else m[0]
+        keep[f"\x00{len(keep)}\x00"] = web_words(m[1]) if m.re is WEB else f"{BILL_NAMES[bill_key(m[1])]} {m[2]}"
         return f"\x00{len(keep) - 1}\x00"
     text = WEB.sub(hold, text)
     text = B.BILL.sub(hold, text)
@@ -811,8 +827,8 @@ KEEP_DOT = re.compile(r"^(?:[A-Z]\.)+$|^(?:Rep|Sen|Gov|Mr|Ms|Dr|St|No|Jan|Feb|Ma
 
 def syllables(word: str) -> int:
     """About how long a word takes to say, in syllables of its spoken form ("211" is "two hundred eleven")."""
-    if word.rstrip(".") == "S":  # read as "Senate Bill"
-        return 3
+    if word[:1].isupper() and bill_key(word) in BILL_NAMES:  # read as "House Bill" and so on
+        word = BILL_NAMES[bill_key(word)]
     return max(1, len(re.findall(r"[aeiouy]+", spoken(word).lower())))
 
 
