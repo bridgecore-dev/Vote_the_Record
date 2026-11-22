@@ -7,22 +7,22 @@ record_ids: [nc/2025/SB 177/presented-to-governor, nc/2025/senate/roll/704, nc/2
 publish_after: '2026-11-28T03:00:00-06:00'
 rule: The four largest new appropriations in the ratified bill, by dollar amount (said on the slide).
 sources:
-- title: North Carolina General Assembly, Senate Bill 177 (2025-2026 Session), bill history
+- title: NCGA, SB 177 bill history
   url: https://www.ncleg.gov/BillLookUp/2025/S177
   retrieved: '2026-11-22'
-- title: North Carolina General Assembly, Senate Bill 177, ratified bill
+- title: NCGA, SB 177 ratified text
   url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S177v4.pdf
   retrieved: '2026-11-22'
-- title: North Carolina Senate, Roll Call Vote Transcript #704 (SB 177, Nov. 17, 2026)
+- title: N.C. Senate roll call #704
   url: https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2025/S/704
   retrieved: '2026-11-22'
-- title: North Carolina House of Representatives, Roll Call Vote Transcript #806 (SB 177, Nov. 17, 2026)
+- title: N.C. House roll call #806
   url: https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2025/H/806
   retrieved: '2026-11-22'
-- title: North Carolina Constitution, Article II, Section 22 (action on bills)
+- title: N.C. Constitution, Art. II, Sec. 22
   url: https://www.ncleg.gov/Laws/Constitution/Article2
   retrieved: '2026-11-22'
-- title: North Carolina General Assembly, Legislative Calendar
+- title: NCGA Legislative Calendar
   url: https://www.ncleg.gov/LegislativeCalendar
   retrieved: '2026-11-22'
 slides:
@@ -92,7 +92,7 @@ bills:
   where: Passed both chambers Nov. 17, 2026; presented to Gov. Stein Nov. 19, 2026
   summary:
     text: "The Conference Committee Substitute (CCS) for Senate Bill 177 provides for various statutory revisions and other amendments and budget corrections."
-    title: North Carolina Legislative Analysis Division, bill summary of SB 177 (conference committee substitute, Nov. 17, 2026)
+    title: NCGA staff summary of SB 177 (Nov. 17, 2026)
     url: https://dashboard.ncleg.gov/api/Services/BillSummary/2025/S177-SMBE-113(CCSMC-5)-v-9
     retrieved: '2026-11-22'
 notes: >-
@@ -113,4 +113,4 @@ notes: >-
   The post doesn't compute the deadline date (10 days after Nov. 19). No floor statements for or against were
   opened (House audio is archived on ncleg.gov), so no case-for/against slide. RECHECK THE BILL PAGE BEFORE THE
   SLOT: if the Governor signed or vetoed it, update slide 1, `where`, the caption and record_ids. Takes the Nov. 28
-  3:00 a.m. post slot, the first free post slot (after the Nov. 28 12:00 a.m. Reel), so nothing is bumped.
+  3:00 a.m. post slot, the first free post slot (after the Nov. 28 12:00 a.m. Reel), so nothing is bumped. Nov. 22 preview fix: shortened source titles so the sources footer fits.
