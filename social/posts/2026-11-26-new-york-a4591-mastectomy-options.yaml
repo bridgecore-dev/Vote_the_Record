@@ -1,0 +1,74 @@
+kind: carousel
+level: state
+place: New York
+topic: Health
+approval: review
+record_ids: [ny/2025/A4591/signed]
+publish_after: '2026-11-26T21:00:00-06:00'
+sources:
+- title: New York State Assembly, A04591 (2025-2026), summary, actions, floor votes, memo and text
+  url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A04591&term=2025&Summary=Y&Actions=Y&Memo=Y&Text=Y&Floor%26nbspVotes=Y'
+  retrieved: '2026-11-22'
+slides:
+- kicker: New York · New law, Nov. 20, 2026
+  big: In writing
+  head: Before breast cancer surgery, New York hospitals must now explain the options that don't involve more surgery.
+  text: Signed as Chapter 382 of the Laws of 2026. It takes effect Jan. 1, 2027.
+- chip: What the law says
+  head: The written information must now include non-surgical options.
+  quote: {label: "Chapter 382, section 1 (new words)", text: "a description of the various non-surgical reconstructive options including having an aesthetic flat closure as such term is defined by the National Cancer Institute, or using a breast form"}
+- chip: Plain words
+  head: An aesthetic flat closure means no breast rebuilt; the chest is made smooth and flat.
+  quote: {label: "Sponsor's memo, quoting the National Cancer Institute", text: "extra skin, fat, and other tissue in the breast area is removed. The remaining tissue is then tightened and smoothed out so that the chest wall appears flat."}
+- chip: Before → after
+  head: Hospitals already had to give this information in writing, before the patient consents to surgery.
+  rows:
+  - [Before, "Information on reconstructive surgery options, including flat closure, and on insurance coverage"]
+  - [After, "Surgical options described on their own, plus a new list of non-surgical options: flat closure or a breast form"]
+  - [Same as before, "Insurance coverage rules. This law doesn't change what plans must pay for."]
+- chip: Who gains, who pays
+  head: Patients get a fuller written list. Hospitals must add it.
+  rows:
+  - [Patients, "Told in writing about every option, with or without more surgery"]
+  - [Hospitals that do these surgeries, "Must update the written information they give"]
+  - [The state, "The sponsor's memo lists the fiscal implications as \"None.\""]
+- chip: The case for
+  head: The sponsor, Assemblymember Jackson, says patients choosing to go flat haven't always been supported.
+  quote: {label: "Sponsor's memo", text: "This bill ensures breast cancer patients are informed of their choices, which include the option to go flat."}
+  text: No member voted no in the New York State Assembly, and the records we opened give no case against.
+- chip: The votes
+  head: It passed both chambers with no recorded opposition in the New York State Assembly.
+  rows:
+  - [New York State Assembly, "140 Yes, 0 No, Feb. 9, 2026"]
+  - [New York State Senate, "Passed Mar. 5, 2026"]
+  - [Governor, "Signed Nov. 20, 2026, Chapter 382"]
+- chip: Your turn
+  head: Should hospitals have to list options that mean no more surgery?
+  text: If you or someone you know faces this surgery, you can ask the hospital for this written information before consenting.
+caption: |-
+  Starting Jan. 1, 2027, New York hospitals that do mastectomies, lumpectomies or lymph node dissections must tell patients in writing about non-surgical options too: an aesthetic flat closure or a breast form. The bill was signed Nov. 20, 2026 as Chapter 382 of the Laws of 2026.
+
+  Before: hospitals already had to give written information on reconstructive surgery options, including flat closure, and on insurance coverage, before the patient consents.
+  Now: surgical options are described on their own, and non-surgical options get their own description.
+
+  Who pays: hospitals update what they hand out. The sponsor's memo lists the fiscal implications as none. Insurance coverage rules don't change.
+
+  The New York State Assembly passed it 140-0, and the New York State Senate passed it Mar. 5, 2026.
+
+  Should hospitals have to list options that mean no more surgery?
+hashtags: [newyork, nyassembly, breastcancer, patientrights, votetherecord]
+notes: >-
+  News-first: an official action from the last three days (nyassembly.gov actions, read 2026-11-22: "11/20/2026
+  signed chap.382"). Found through Open States' action feed (a tip only, not a source). Takes Nov. 26 9:00 p.m., a free
+  post slot (Nov. 26 ends with the 6:00 p.m. Reel; every earlier post slot holds this week's news), so no post is
+  bumped. Before/after is from the bill text's markup (underscored = new, [brackets] = removed): "aesthetic flat
+  closure as such term is defined by the National Cancer Institute" was already in the law (the 2022 version), inside
+  the reconstructive-options description; the new words are "options for breast reconstruction", "surgical", the new
+  (b) "non-surgical reconstructive options including having an", and ", or using a breast form". The sponsor's memo
+  describes the change as adding flat closure, which the markup shows was already there, so the slides follow the
+  text, not the memo. "In writing and in advance of obtaining consent" is existing law, unchanged. Effective date:
+  "the first of January next succeeding the date on which it shall have become a law", so Jan. 1, 2027. Assembly vote
+  140/0 from nyassembly.gov floor votes (several members excused). The Senate tally isn't on the Assembly page and
+  nysenate.gov served a bot challenge, so the Senate line gives only the date ("03/05/2026 PASSED SENATE", substituted
+  for S1305A, which isn't named: one bill per post). No party is shown; the records don't list it. No case against was
+  found (no No votes, no opposing memo opened). The builder's bill-number check doesn't take New York Assembly numbers (A4591), so, like the New Jersey A4835 post, the slides name the chapter instead, and say what it does, who it affects and where it stands.
