@@ -37,8 +37,7 @@ slides:
   head: Prosecutors can now charge these crimes at any time.
   rows:
   - [Human trafficking, "Before: within 5 years of the crime. Now: any time"]
-  - [Aggravated criminal sexual contact, "Now: any time, whatever the victim's age"]
-  text: Before, if the victim was under 18, charges had to come within 5 years of the victim turning 18, or 2 years after the victim discovered the offense, whichever was later.
+  - [Aggravated criminal sexual contact, "Before, for a victim under 18: within 5 years of turning 18, or 2 years after discovery, whichever was later. Now: any time, whatever the victim's age"]
 - chip: Lawsuits
   big: 5 years → none
   head: A trafficking victim's civil lawsuit had to be filed within 5 years. Now it can be filed at any time.
@@ -48,10 +47,10 @@ slides:
   rows:
   - [Before, "Those who knowingly profited from the trafficking, or knowingly kept a victim"]
   - [Now, "Also those who profited, directly or indirectly, or kept a victim, \"knowing or in reckless disregard\""]
-  quote: {label: P.L.2026, c.107, sec. 2, text: "knowing or in reckless disregard that the pecuniary benefit they derived was from the human trafficking offense"}
+  quote: {label: "P.L.2026, c.107, sec. 2", text: "knowing or in reckless disregard that the pecuniary benefit they derived was from the human trafficking offense"}
 - chip: Which cases
   head: It took effect right away, for cases whose deadline hadn't already passed.
-  quote: {label: P.L.2026, c.107, sec. 3, text: "applicable to all offenses not yet barred from prosecution, and to all civil causes of action not yet barred from filing"}
+  quote: {label: "P.L.2026, c.107, sec. 3", text: "applicable to all offenses not yet barred from prosecution, and to all civil causes of action not yet barred from filing"}
 - chip: Who gains, who loses
   head: Victims get more time. People accused lose a defense.
   rows:
