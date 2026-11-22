@@ -213,7 +213,7 @@ ABBREV = "".join(rf"(?<!\b{a}\.)" for a in (r"U\.S", "Rep", "Sen", "Gov", "Mr", 
 
 
 def sentences(text: str) -> list[str]:
-    return [x for x in re.split(ABBREV + r"(?<=[.!?])\s+(?=[A-Z0-9\"“])", text.strip()) if x.strip()]
+    return [x for x in re.split(ABBREV + r"(?<=[.!?])(?!(?<=\bS\.)\s+\d)\s+(?=[A-Z0-9\"“])", text.strip()) if x.strip()]
 
 
 # ---------------------------------------------------------------- how numbers are read aloud
