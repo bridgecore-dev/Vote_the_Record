@@ -1,0 +1,114 @@
+kind: carousel
+level: congress
+topic: Social Security
+approval: review
+record_ids: [us/119/H.R. 5284/signed]
+publish_after: '2026-11-27T15:00:00-06:00'
+sources:
+- title: "The White House, H.R. 5284, H.R. 8352, and H.R. 10159 Signed into Law"
+  url: https://www.whitehouse.gov/briefings-statements/2026/11/congressional-bills-h-r-5284-h-r-8352-and-h-r-10159-signed-into-law/
+  retrieved: '2026-11-22'
+- title: Congress.gov, H.R. 5284 actions
+  url: https://api.congress.gov/v3/bill/119/hr/5284/actions
+  retrieved: '2026-11-22'
+- title: Congress.gov, H.R. 5284 bill record
+  url: https://api.congress.gov/v3/bill/119/hr/5284
+  retrieved: '2026-11-22'
+- title: "H.R. 5284 (119th Congress), enrolled bill (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr5284enr/html/BILLS-119hr5284enr.htm
+  retrieved: '2026-11-22'
+- title: "Ways and Means Committee report, H. Rept. 119-330 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt330/html/CRPT-119hrpt330.htm
+  retrieved: '2026-11-22'
+- title: "Congressional Record, Dec. 1, 2025, H4937"
+  url: https://www.govinfo.gov/content/pkg/CREC-2025-12-01/html/CREC-2025-12-01-pt1-PgH4937.htm
+  retrieved: '2026-11-22'
+- title: Congress.gov, Rep. John B. Larson member record
+  url: https://api.congress.gov/v3/member/L000557
+  retrieved: '2026-11-22'
+bills:
+- id: H.R. 5284
+  title: Claiming Age Clarity Act
+  does: "Makes Social Security rename the ages you can claim retirement benefits: minimum, standard and maximum monthly benefit age."
+  affects: "Workers deciding when to claim Social Security retirement benefits, and the Social Security Administration."
+  where: "Signed into law Nov. 20, 2026. A Public Law number wasn't posted yet when this was written."
+  summary:
+    text: "This bill changes certain terms that are used by the Social Security Administration (SSA) to describe the ages at which a worker may claim Social Security retirement benefits."
+    title: Congressional Research Service summary of H.R. 5284
+    url: https://api.congress.gov/v3/bill/119/hr/5284/summaries
+    retrieved: '2026-11-22'
+slides:
+- kicker: "Signed into law · Nov. 20, 2026"
+  big: "62 · 67 · 70"
+  head: "The Claiming Age Clarity Act is now law: Social Security must rename the ages when you can start retirement benefits."
+  text: "H.R. 5284. Passed the U.S. House of Representatives by voice vote and the U.S. Senate by unanimous consent."
+- chip: "Before → after"
+  head: The new names Social Security must use
+  rows:
+  - [Age 62, "Was: early eligibility age. Now: minimum monthly benefit age"]
+  - [65 to 67, "Was: full or normal retirement age. Now: standard monthly benefit age"]
+  - [Age 70, "Now: maximum monthly benefit age"]
+  - [Dropped, "The term \"delayed retirement credit\""]
+  text: "The standard age depends on the year you were born: 65 for people born before 1938, 67 for people born in 1960 or later."
+- chip: What stays the same
+  head: "Only the words change. The ages and how benefits are figured stay the same."
+  quote: {label: "Ways and Means Committee report, H. Rept. 119-330", text: "H.R. 5284, as reported by the Committee, makes no changes to existing law."}
+  text: "Claiming before the standard age still means a permanently smaller monthly check. Waiting past it, up to age 70, still makes it permanently bigger."
+- chip: Why Congress did it
+  head: "Age 62 is the most common age to claim: about 23% of new claims in 2023, the committee report says."
+  quote: {label: "Ways and Means Committee report, H. Rept. 119-330", text: "Studies show that people are confused by the current terms used by the Social Security Administration (SSA) to describe various ages at which a worker may claim retirement benefits"}
+- chip: "Who gains, who has to act"
+  head: "Social Security has to change every rule, guide and page, online and in print."
+  rows:
+  - [Gains, "People choosing when to claim: plainer labels"]
+  - [Has to act, "Social Security, in its rules, guidance and other materials"]
+  - [Deadline, "Nov. 20, 2027: 12 months after signing (or Jan. 1, 2027, if later)"]
+  - [Cost, "No CBO estimate was ready for the committee report"]
+- kicker: The case for, in the sponsor's words
+  head: "The sponsor, Rep. Lloyd Smucker (R-PA), wrote it with Rep. Don Beyer (D-VA)."
+  quote:
+    label: "Rep. Lloyd Smucker (R-PA), Congressional Record, Dec. 1, 2025"
+    text: "If Americans start Social Security at 62, then that is the smallest benefit, the minimum benefit, they would receive."
+  text: "No member spoke against it in the U.S. House of Representatives debate."
+- kicker: The one objection on record
+  head: "In the Ways and Means Committee, Rep. John B. Larson (D-CT) tried to delay it. His amendment failed 17-25."
+  quote:
+    label: "Ways and Means Committee report, H. Rept. 119-330"
+    text: "which would make H.R. 5284 not take effect until the Commissioner of Social Security takes certain additional actions"
+  text: "The report doesn't say what the \"additional actions\" were. The committee then approved the bill 41-1; Larson cast the Nay."
+- chip: Your turn
+  head: "If you were deciding when to claim, would \"minimum\" and \"maximum\" change your choice?"
+  text: "Social Security's new wording is due by Nov. 20, 2027."
+caption: |-
+  On Nov. 20, the President signed H.R. 5284, the Claiming Age Clarity Act.
+
+  Before: Social Security calls 62 the "early eligibility age" and 65 to 67 (by birth year) the "full retirement age," with "delayed retirement credits" up to 70. After: minimum, standard and maximum monthly benefit ages. Only the words change; the committee report says the bill "makes no changes to existing law."
+
+  Why: 62 is the most common claiming age, and the report says studies show people are confused by the current terms. Social Security has until Nov. 20, 2027. No CBO estimate was ready.
+
+  Sponsor: Rep. Lloyd Smucker (R-PA), with Rep. Don Beyer (D-VA). In committee, Rep. John B. Larson (D-CT) tried to delay it; that failed 17-25.
+
+  Would the new names change when you'd claim?
+hashtags: [socialsecurity, retirement, congress, newlaw, votetherecord]
+notes: >-
+  New this run: the White House statement dated Nov. 20, 2026 (whitehouse.gov, read 2026-11-22) says the President
+  signed H.R. 5284 that day; congress.gov actions (API, read 2026-11-22) still end at "Presented to President." on
+  Nov. 12 and list no Public Law yet, so the signing rests on the White House statement. No post or open pull
+  request covers H.R. 5284. Before/after: the three terms are quoted from the enrolled text (GovInfo) sec. 2; the
+  ages (62; 65 for those born before 1938 to 67 for 1960 or later; credits up to 70; permanent reduction/increase)
+  are the committee report's background (H. Rept. 119-330, sec. I.B). "Makes no changes to existing law" is the
+  report's sec. VI.A ("as reported"); the House passed the bill "as amended", and the Record (H4937) prints that
+  text, which matches the enrolled text. Deadline: sec. 2 says "the later of" 12 months after enactment or Jan. 1,
+  2027, so Nov. 20, 2027. The CRS summary is of the introduced version; its wording on the terms matches the
+  enrolled text. 23% and "studies show" are the report's words (it cites SSA's 2024 Annual Statistical
+  Supplement and two academic working papers, not opened). CBO: the report says no estimate was received;
+  congress.gov lists none. Case for: Smucker's own words in the Dec. 1, 2025 Record; the only floor speakers (Smith
+  of Missouri, Moore, Smucker) all supported it. Case against: the report's committee roll calls (Larson amendment
+  17-25; ordered reported 41-1, Larson Nay); the report gives no party totals, so none are on the slides. Beyer's
+  additional views (which also criticize the Administration) are not quoted. Party and state for Smucker, Beyer
+  (bill record) and Larson (member record) as congress.gov lists them. News first: takes the Nov. 27 3:00 p.m. post
+  slot, the first post slot held by an evergreen post (every earlier post slot holds this week's votes, passages
+  or signings), and moves the evergreen prefiled-bill post 2026-11-21-texas-sb-437-toll-road-cessation to
+  2026-12-15T03:00:00-06:00, the first post slot after the last queued post (Dec. 14's only post is at 3:00 a.m.,
+  so a later Dec. 14 post slot would put two posts in a row). Every Reel slot is news or a trial, so no Reel was
+  bumped.
