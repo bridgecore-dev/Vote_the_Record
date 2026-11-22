@@ -1,0 +1,74 @@
+kind: carousel
+level: state
+place: New York
+topic: Courts
+approval: review
+record_ids: [ny/2025/A8695/signed]
+publish_after: '2026-11-27T21:00:00-06:00'
+sources:
+- title: New York State Assembly, A08695 (2025-2026), summary, actions, floor votes, memo and text
+  url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A08695&term=2025&Summary=Y&Actions=Y&Memo=Y&Text=Y&Floor%26nbspVotes=Y'
+  retrieved: '2026-11-22'
+slides:
+- kicker: New York · New law, Nov. 20, 2026
+  big: Start over
+  head: In New York civil trials, when a juror is replaced during deliberations, the jury must now start over.
+  text: Signed as Chapter 388 of the Laws of 2026. It took effect right away, for cases already pending too.
+- chip: What the law says
+  head: The new words added to the court rules (CPLR 4106)
+  quote: {label: "Chapter 388, section 1 (new words)", text: "After an alternate juror has been substituted, the jury shall deliberate anew on all of the issues that were submitted to the jury at the outset of deliberations."}
+- chip: Plain words
+  head: An alternate juror is a backup, picked with the jury, who steps in if a regular juror can't go on.
+  text: This law is about civil trials, the kind where one side sues another, not criminal trials.
+- chip: Before → after
+  head: Courts could already seat an alternate after deliberations began. The rules didn't say what came next.
+  rows:
+  - [Before, "The rule was \"silent\" on whether the jury picks up where it left off or starts over, the sponsor's memo says"]
+  - [After, "The jury starts over on every issue it was given"]
+  - [Exception, "Issues already decided by a verdict stay decided"]
+- chip: The case for
+  head: Every juror in the box takes part in the whole verdict.
+  quote: {label: "Sponsor's memo", text: "The parties will have the assurance that all six jurors in the jury box, including the substituted juror, participated in the deliberations leading to the verdict."}
+- chip: The cost
+  head: Starting over can make deliberations take longer.
+  quote: {label: "Sponsor's memo", text: "Even though this procedure may prolong the length of deliberations, its virtues are several"}
+  text: The memo lists the cost to state and local governments as "TBD."
+- chip: Who asked for it
+  head: The state's court system did.
+  text: The memo says it was introduced at the request of the Acting Chief Administrative Judge, on her Advisory Committee on Civil Practice's recommendation. The sponsor is Assemblymember Rajkumar.
+- chip: The votes
+  head: No member voted no in the New York State Assembly.
+  rows:
+  - [New York State Assembly, "135 Yes, 0 No, May 4, 2026"]
+  - [New York State Senate, "Passed June 3, 2026"]
+  - [Governor, "Signed Nov. 20, 2026, Chapter 388"]
+- chip: Your turn
+  head: A full restart, or pick up where they left off?
+  text: A restart means every juror decides everything; it can also mean a longer wait for a verdict. Which side convinces you?
+caption: |-
+  New York has a new rule for civil trials. If a juror is replaced by an alternate after deliberations begin, the jury must start over on every issue it was given. Issues already decided by a verdict stay decided. It was signed Nov. 20, 2026 as Chapter 388 of the Laws of 2026 and took effect right away, for pending cases too.
+
+  Before: courts could already seat an alternate during deliberations, but the rule was silent on whether the jury starts over, the sponsor's memo says.
+  Now: it starts over.
+
+  For: every juror in the box takes part in the whole verdict. Against: the memo says starting over "may prolong the length of deliberations." It lists the cost to governments as TBD.
+
+  The state's court system asked for the change. The New York State Assembly passed it 135-0, and the New York State Senate passed it June 3, 2026.
+
+  A full restart, or pick up where they left off?
+hashtags: [newyork, nyassembly, juryduty, courts, votetherecord]
+notes: >-
+  News-first: an official action from the last three days (nyassembly.gov actions, read 2026-11-22: "11/20/2026
+  signed chap.388"). Found through Open States' action feed (a tip only, not a source). Takes Nov. 27 9:00 p.m., a free
+  post slot (Nov. 27 ends with the 6:00 p.m. Reel; Nov. 28 starts with a Reel), so no post is bumped; the Nov. 26 9:00
+  p.m. slot goes to the New York A4591 post in its own pull request. New words are the underscored text in the bill
+  (sec. 1, lines 20-25); the alternate-juror rules before that are existing law (as amended by chapter 204 of the laws
+  of 2013). "Civil trials, where one side sues another" is our plain wording for the CPLR (the memo says "a civil
+  trial"); "six jurors" is the memo's. "Silent" and the 2013 history are the memo's description, not checked in the
+  statute. The memo calls it a request of "the Acting Chief Administrative Judge upon the recommendation of her
+  Advisory Committee on Civil Practice". Assembly vote 135/0 from nyassembly.gov floor votes (several members
+  excused). The Senate tally isn't on the Assembly page and nysenate.gov served a bot challenge, so the Senate line
+  gives only the date ("06/03/2026 PASSED SENATE", substituted for S9770, not named: one bill per post). No party is
+  shown; the records don't list it. The "cost" side is the memo's own caveat; no opposing statement was found. The
+  builder's bill-number check doesn't take New York Assembly numbers (A8695), so, like the New Jersey A4835 post, the
+  slides name the chapter instead.
