@@ -1,0 +1,101 @@
+kind: carousel
+level: congress
+topic: Military
+approval: review
+record_ids: [us/119/S. 2479/senate-passed]
+publish_after: '2026-11-25T15:00:00-06:00'
+sources:
+- title: "U.S. Senate Press Gallery, Thursday, November 19, 2026 (floor log)"
+  url: https://www.dailypress.senate.gov/thursday-november-19-2026/
+  retrieved: '2026-11-21'
+- title: "S. 2479 (119th Congress), engrossed in the Senate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119s2479es/html/BILLS-119s2479es.htm
+  retrieved: '2026-11-21'
+- title: "36 U.S.C. chapter 1901, Reserve Officers Association of the United States (GPO, U.S. Code 2023)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2023-title36/html/USCODE-2023-title36-subtitleII-partB-chap1901.htm
+  retrieved: '2026-11-21'
+- title: Congress.gov, S. 2479 bill record (sponsor, cosponsor, actions)
+  url: https://api.congress.gov/v3/bill/119/s/2479
+  retrieved: '2026-11-21'
+bills:
+- id: S. 2479
+  title: Reserve Organization of America Charter Amendments Act of 2026
+  does: "Rewrites the federal charter of the Reserve Officers Association: a new name, and the group sets more of its own rules."
+  affects: "The Reserve Officers Association of the United States, a federally chartered group, and its members."
+  where: "Passed the U.S. Senate by unanimous consent on Nov. 19, 2026. Next: the U.S. House of Representatives."
+  summary:
+    text: "Reserve Organization of America (referred to in this chapter as the `corporation') is a federally chartered corporation."
+    title: S. 2479 as passed by the Senate, new 36 U.S.C. 190101(a) (no CRS summary is posted yet)
+    url: https://www.govinfo.gov/content/pkg/BILLS-119s2479es/html/BILLS-119s2479es.htm
+    retrieved: '2026-11-21'
+slides:
+- kicker: "U.S. Senate · Nov. 19, 2026"
+  big: S. 2479
+  head: "The U.S. Senate passed a bill to rename a military reserve group and rewrite its rules in federal law."
+  text: "Passed by unanimous consent, so there's no list of who voted which way."
+- chip: "What's a federal charter?"
+  head: "Congress writes some nonprofits' rules into federal law, in Title 36 of the U.S. Code."
+  quote: {label: "36 U.S.C. 190101(a), the law today", text: "Reserve Officers Association of the United States (in this chapter, the \"corporation\") is a federally chartered corporation."}
+  text: "Its purpose in the law: to support a military policy that \"will provide adequate national security.\" S. 2479 rewrites that chapter."
+- chip: "Before → after"
+  head: What the bill changes
+  rows:
+  - [Name, "Reserve Officers Association of the U.S. → Reserve Organization of America"]
+  - [Headquarters, "Must be in D.C. → wherever its governing body decides"]
+  - [Leaders, "Governing body listed in the law → as its own constitution defines"]
+  - [Meeting, "A national convention of elected delegates → an annual meeting"]
+- chip: "Before → after"
+  head: What else goes
+  rows:
+  - [If it closes, "Leftover assets split equally among officers and members → that rule is repealed"]
+  - [Votes, "One vote per active chapter member → no longer in the law"]
+  - [State agents, "An agent in each state with a chapter → only the D.C. agent stays"]
+- chip: Still the same
+  head: "What the new charter keeps"
+  rows:
+  - [No profit, "May not do business for profit or issue stock"]
+  - [No politics, "May not contribute to, support, or assist a party or candidate"]
+  - [Records, "Voting members may inspect them, now \"upon reasonable notice\""]
+- chip: "Who gains, who gives"
+  head: "The group would set more of its own rules. Members would lose a few protections written into law."
+  rows:
+  - [Gains, "The organization: it defines its own governing body and picks its location"]
+  - [Gives, "Members: no share of assets on closing, no one-vote rule in the law"]
+  - [Cost, "Congress.gov lists no CBO estimate; the bill text spends no money"]
+- chip: How it passed
+  head: "By unanimous consent, with a substitute amendment from the sponsor."
+  rows:
+  - [Sponsor, "Sen. Marsha Blackburn (R-TN)"]
+  - [Cosponsor, "Sen. Richard Blumenthal (D-CT)"]
+  - [Next, "The U.S. House of Representatives"]
+- chip: Your turn
+  head: "Should Congress write a group's rules into law, or leave them to its members?"
+  text: "The bill goes to the U.S. House of Representatives next. Tell your representative what you think."
+caption: |-
+  On Nov. 19, the U.S. Senate passed S. 2479 by unanimous consent. It rewrites the federal charter of the Reserve Officers Association of the United States, one of the nonprofits whose rules Congress writes into Title 36 of the U.S. Code.
+
+  Before: the law names the group, puts its headquarters in D.C., lists its officers and executive committee, gives each active chapter member one vote, and splits leftover assets equally among officers and members if it closes.
+
+  After: the name becomes Reserve Organization of America. Its governing body picks the headquarters, its own constitution defines its governing body, and the one-vote and asset-split rules are gone. The bans on profit, stock and political contributions stay.
+
+  Who gains: the organization. Who gives: members lose protections written into law. Congress.gov lists no CBO estimate.
+
+  Sponsor: Sen. Marsha Blackburn (R-TN). Cosponsor: Sen. Richard Blumenthal (D-CT). Next: the U.S. House of Representatives.
+
+  Should Congress set a group's rules, or its members?
+hashtags: [congress, ussenate, militaryreserve, votetherecord]
+notes: >-
+  New this run: the Senate Press Gallery's Nov. 19 log (7:45 p.m.) lists "S.2479 Reserve Organization of America
+  Charter Amendments Act of 2025, with Blackburn substitute amendment" among bills Sen. Moreno passed by unanimous
+  consent; congress.gov actions read "Passed Senate with an amendment by Unanimous Consent" (Nov. 19) and "Held at
+  the desk" in the House (Nov. 20). Not in any post. The engrossed text on GovInfo is the passed substitute (sha256 of
+  the HTML: 2f4bce60c5b4d677a0d6371c17b409b7d0fa0dfda623f05feb7f2b8e5f6ce1fd). Before/after compares it with GPO's
+  2023 U.S. Code chapter 1901: dropped are 190103(b) (one vote per active member), the detailed 190104 governing
+  body, the D.C. headquarters (190108), state agents (190110(b)), and 190112 plus the dissolution exception in
+  190107(d) (assets divided equally among officers and members). uscode.house.gov returned 404, so please confirm no
+  law since 2023 changed chapter 1901. "The bill text spends no money": the text has no appropriation or
+  authorization of funds; congress.gov lists no CBO estimate and no CRS summary. No committee report or floor
+  statement for or against was found, so the post asks the reader. Identical-or-related House bill H.R. 10179 (CRS:
+  "Related bill") isn't named (one bill per post). News first: takes the Nov. 25 3:00 p.m. post slot from the
+  evergreen Texas HB 1232 post (prefiled bill), which moves to Dec. 11 3:00 a.m., the first free post slot after the
+  last queued post that keeps the Reel/post turn.
