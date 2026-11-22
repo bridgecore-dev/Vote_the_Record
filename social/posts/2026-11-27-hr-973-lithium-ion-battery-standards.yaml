@@ -27,12 +27,15 @@ sources:
 - title: Congress.gov, H.R. 973 record
   url: https://api.congress.gov/v3/bill/119/hr/973
   retrieved: '2026-11-19'
+- title: Congress.gov, H.R. 973 actions
+  url: https://api.congress.gov/v3/bill/119/hr/973/actions
+  retrieved: '2026-11-22'
 bills:
 - id: H.R. 973
   title: Setting Consumer Standards for Lithium-Ion Batteries Act
   does: "Makes the CPSC turn three UL safety standards for e-bike and e-scooter batteries into mandatory federal rules within 180 days."
   affects: "Makers and sellers of e-bikes, e-scooters and their rechargeable lithium-ion batteries, and the people who use them."
-  where: "Passed the U.S. House 365-42 Apr. 28, 2025, and the U.S. Senate by unanimous consent Nov. 19, 2026."
+  where: "Passed the U.S. House 365-42 Apr. 28, 2025; the U.S. Senate, unchanged, Nov. 19, 2026. Next: the President."
   summary:
     text: "This bill requires the Consumer Product Safety Commission to issue a final consumer product safety rule for rechargeable lithium-ion batteries used in micromobility devices, such as electric bikes and electric scooters."
     title: Congressional Research Service summary of H.R. 973
@@ -78,14 +81,15 @@ slides:
   head: "Sponsor: Rep. Ritchie Torres (D-NY). The U.S. Senate passed it without a roll call."
   rows:
   - [In the Senate, "Sen. Gillibrand asked for unanimous consent; no senator objected"]
-  - [Next, "Congress.gov will show if the Senate changed the text"]
-  say: "The sponsor is Representative Ritchie Torres, Democrat of New York. In the United States Senate, Senator Gillibrand asked for unanimous consent, and no senator objected. Congress.gov will show if the Senate changed the text."
+  - [Text, "Congress.gov: passed the Senate without amendment"]
+  - [Next, "Both chambers passed the same text, so it goes to the President"]
+  say: "The sponsor is Representative Ritchie Torres, Democrat of New York. In the United States Senate, Senator Gillibrand asked for unanimous consent, and no senator objected. The Senate passed it without amendment, so it goes to the President next."
 - chip: Your turn
   head: "Should e-bike batteries have to meet a federal safety standard?"
   text: "Tell us what you think, and tell your members of Congress."
   say: "Your turn. Should e-bike and e-scooter batteries have to meet a federal safety standard? Tell us, and tell your members of Congress."
 caption: |-
-  On Nov. 19, the U.S. Senate passed H.R. 973, the Setting Consumer Standards for Lithium-Ion Batteries Act, by unanimous consent. The U.S. House of Representatives passed it 365-42 on Apr. 28, 2025.
+  On Nov. 19, the U.S. Senate passed H.R. 973, the Setting Consumer Standards for Lithium-Ion Batteries Act, by unanimous consent and without amendment. The U.S. House of Representatives passed it 365-42 on Apr. 28, 2025. Next, it goes to the President.
 
   Before: the House committee report said there is no federal safety standard for lithium-ion batteries.
 
@@ -115,4 +119,7 @@ notes: >-
   alone"). No CBO estimate is listed on the bill record; the report says CBO's estimate wasn't available when filed.
   "Gains/gives" rests on the CRS summary (manufacturers and distributors must comply) and the report's purpose
   ("protect consumers"). Sponsor's party and state from congress.gov.
+  Nov. 22 recheck: api.congress.gov actions now read "Passed Senate without amendment by Unanimous Consent" (Nov. 19)
+  and "Message on Senate action sent to the House" (Nov. 20), so the "How it passed" slide, `where` and the caption now
+  say it goes to the President; not yet presented or signed as of Nov. 22. The CPSC-standard check above wasn't redone.
   Slot: Nov. 27, 6:00 a.m. Reel, so the day still alternates whether or not the Nov. 26 9:00 a.m. post in PR 225 merges.
