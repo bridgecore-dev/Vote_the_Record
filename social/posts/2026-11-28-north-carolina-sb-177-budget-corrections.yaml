@@ -1,0 +1,116 @@
+kind: carousel
+level: state
+place: North Carolina
+topic: State budget
+approval: review
+record_ids: [nc/2025/SB 177/presented-to-governor, nc/2025/senate/roll/704, nc/2025/house/roll/806]
+publish_after: '2026-11-28T03:00:00-06:00'
+rule: The four largest new appropriations in the ratified bill, by dollar amount (said on the slide).
+sources:
+- title: North Carolina General Assembly, Senate Bill 177 (2025-2026 Session), bill history
+  url: https://www.ncleg.gov/BillLookUp/2025/S177
+  retrieved: '2026-11-22'
+- title: North Carolina General Assembly, Senate Bill 177, ratified bill
+  url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S177v4.pdf
+  retrieved: '2026-11-22'
+- title: North Carolina Senate, Roll Call Vote Transcript #704 (SB 177, Nov. 17, 2026)
+  url: https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2025/S/704
+  retrieved: '2026-11-22'
+- title: North Carolina House of Representatives, Roll Call Vote Transcript #806 (SB 177, Nov. 17, 2026)
+  url: https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2025/H/806
+  retrieved: '2026-11-22'
+- title: North Carolina Constitution, Article II, Section 22 (action on bills)
+  url: https://www.ncleg.gov/Laws/Constitution/Article2
+  retrieved: '2026-11-22'
+- title: North Carolina General Assembly, Legislative Calendar
+  url: https://www.ncleg.gov/LegislativeCalendar
+  retrieved: '2026-11-22'
+slides:
+- kicker: North Carolina · On the Governor's desk
+  big: 10 days
+  head: North Carolina lawmakers sent Gov. Josh Stein SB 177, a 62-page bill of budget corrections and law changes, on Nov. 19.
+  text: Under the state constitution, he has 10 days to sign it or veto it. If he does neither, it becomes law.
+- kicker: North Carolina Senate · Nov. 17, 2026
+  head: The North Carolina Senate adopted the conference report, the final version both chambers agreed on, 26-19.
+  vote: {yea: 26, nay: 19}
+  text: 5 senators had excused absences.
+- chip: North Carolina Senate · By party
+  head: Totals by party, as the roll call lists them
+  rows:
+  - [Republican, "26 Yea · 0 Nay · 4 excused"]
+  - [Democrat, "0 Yea · 19 Nay · 1 excused"]
+  text: "Voted Nay, all listed as Democrat: Adcock, Applewhite, Batch, Blue, Bradley, Chaudhuri, Chitlik, Fatmi, Garrett, Garson, Grafstein,
+    Lowe, Mayfield, Mohammed, Murdock, Salvador, Smith, Theodros, Waddell."
+- kicker: North Carolina House of Representatives · Nov. 17, 2026
+  head: The North Carolina House of Representatives adopted the same conference report, 66-49.
+  vote: {yea: 66, nay: 49, not_voting: 3}
+  text: 2 members had excused absences.
+- chip: North Carolina House · By party
+  head: Totals by party, as the roll call lists them
+  rows:
+  - [Republican, "61 Yea · 5 Nay · 3 didn't vote · 2 excused"]
+  - [Democrat, "3 Yea · 44 Nay"]
+  - [Unaffiliated, "2 Yea · 0 Nay"]
+  text: All 115 votes by name are in House roll call #806 at ncleg.gov.
+- chip: What's in it
+  head: The four largest new spending items, by dollar amount
+  rows:
+  - [$46.4 million a year, 'UNC enrollment: one-time 2026-27 money becomes yearly from 2027-28']
+  - [$40 million, School bus fuel costs above what the transportation allotment covers]
+  - [$31 million, More for the Film and Entertainment Grant Fund]
+  - [$25 million, Court system technology and operations]
+  text: The UNC money comes from the General Fund. The other three come from the Stabilization and Inflation Reserve, a one-time savings account.
+- chip: Before → after
+  head: Most of the bill rewrites laws and budget lines passed earlier.
+  rows:
+  - [Before, "Spending set in S.L. 2026-41, a 2026 law, and three later laws that changed it"]
+  - [After, '92 sections: some new money, money moved to new uses, deadlines and rules revised']
+  text: Part I changes state laws. Part II revises the budget. Part III adjusts the spending totals in S.L. 2026-41.
+- chip: What the Governor can do
+  head: Sign it, veto it, or let it become law without signing.
+  quote: {label: "North Carolina Constitution, Art. II, Sec. 22(7)", text: "If any bill shall not be returned by the Governor within 10 days after it shall have been presented to him, the same shall be a law in like manner as if he had signed it"}
+  text: A veto goes back to the North Carolina Senate first. Overriding it takes three-fifths of members present and voting in each chamber.
+- chip: Your turn
+  head: Which of these changes matters most to you?
+  text: Read the bill and the staff summary under Senate Bill 177 at ncleg.gov. Lawmakers return Nov. 30.
+caption: |-
+  North Carolina lawmakers sent Gov. Josh Stein Senate Bill 177 on Nov. 19: 62 pages of budget corrections and law changes. He has 10 days to sign or veto it; if he does neither, it becomes law (N.C. Constitution, Art. II, Sec. 22).
+
+  Votes on the final version, Nov. 17:
+  North Carolina Senate, 26-19: Republican 26-0, Democrat 0-19.
+  North Carolina House of Representatives, 66-49: Republican 61-5, Democrat 3-44, Unaffiliated 2-0.
+
+  Largest new spending: $46.4 million a year for UNC enrollment from 2027-28, $40 million for school bus fuel, $31 million for film grants, $25 million for court technology.
+
+  Which of these changes matters most to you?
+hashtags: [ncga, ncpol, northcarolina, ncbudget, votetherecord]
+bills:
+- id: SB 177
+  title: Various Budget Corrections and Revisions
+  does: Makes various changes to state laws and revises this year's budget, including new money for UNC, school bus fuel, film grants and courts
+  affects: State agencies, schools, UNC, courts, and the local groups named in its grants
+  where: Passed both chambers Nov. 17, 2026; presented to Gov. Stein Nov. 19, 2026
+  summary:
+    text: "The Conference Committee Substitute (CCS) for Senate Bill 177 provides for various statutory revisions and other amendments and budget corrections."
+    title: North Carolina Legislative Analysis Division, bill summary of SB 177 (conference committee substitute, Nov. 17, 2026)
+    url: https://dashboard.ncleg.gov/api/Services/BillSummary/2025/S177-SMBE-113(CCSMC-5)-v-9
+    retrieved: '2026-11-22'
+notes: >-
+  New this run: no post covers SB 177. Lead came from a web search summary of North Carolina lame-duck news (no
+  single story confirmed it mentioned SB 177, so no found_via); every fact is from ncleg.gov. Bill history (read
+  2026-11-22): conference report adopted 11/17 in the House (66-49, roll #806) and Senate (26-19, roll #704),
+  ratified 11/18, "Pres. To Gov." 11/19, no later action. Party totals counted from the roll call transcripts, which
+  group names by party (House Ayes: 61 R, 3 D, 2 Unaffiliated; Noes 44 D, 5 R; not voting 3 R; excused 2 R. Senate:
+  Ayes 26 R; Noes 19 D; excused 4 R, 1 D). House Nays (49) are over the ~40-name limit, so linked. Selection rule:
+  the four largest new appropriations in the ratified text (sec. 2.17 $46,375,508 recurring from the General Fund
+  beginning 2027-28; sec. 2.15 $40,000,000; sec. 2.35 $31,000,000; sec. 2.1(3) $25,000,000; the last three from
+  the Stabilization and Inflation Reserve). Larger figures in the text ($706.1M Helene Fund, $515M/$450M NCEM, the
+  $75M Global TransPark loan authority, the $20M-$30M reallocations) rewrite earlier appropriations or are loan
+  authority, not new money; please confirm. "One-time savings account" is our plain wording for a reserve funded
+  with nonrecurring money; check it. "92 sections" counts SECTION 1.1-1.28 (no 1.5), 2.1-2.63 plus 2.37A, 3.1-3.2 in the ratified text;
+  sec. 3.1 adjusts "the totals of Part II of S.L. 2026-41, as amended by S.L. 2026-42, 2026-58, and 2026-61". 10-day rule: Art. II, Sec. 22(7) applies because the
+  General Assembly isn't adjourned more than 30 days (the Legislative Calendar shows both chambers convening Nov. 30).
+  The post doesn't compute the deadline date (10 days after Nov. 19). No floor statements for or against were
+  opened (House audio is archived on ncleg.gov), so no case-for/against slide. RECHECK THE BILL PAGE BEFORE THE
+  SLOT: if the Governor signed or vetoed it, update slide 1, `where`, the caption and record_ids. Takes the Nov. 28
+  3:00 a.m. post slot, the first free post slot (after the Nov. 28 12:00 a.m. Reel), so nothing is bumped.
