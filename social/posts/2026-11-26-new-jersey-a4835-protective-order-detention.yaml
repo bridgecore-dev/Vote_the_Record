@@ -1,0 +1,101 @@
+kind: carousel
+level: state
+place: New Jersey
+topic: Criminal justice
+approval: review
+record_ids: [nj/222/A4835/approved]
+publish_after: '2026-11-26T09:00:00-06:00'
+sources:
+- title: New Jersey Legislature, A4835 bill history (2026-2027 session)
+  url: https://www.njleg.state.nj.us/bill-search/2026/A4835
+  retrieved: '2026-11-22'
+- title: New Jersey Legislature, A4835 (1R), first reprint (bill text as passed)
+  url: https://pub.njleg.state.nj.us/Bills/2026/A5000/4835_R1.HTM
+  retrieved: '2026-11-22'
+- title: Assembly Appropriations Committee statement to A4835, June 8, 2026
+  url: https://pub.njleg.state.nj.us/Bills/2026/A5000/4835_S2.HTM
+  retrieved: '2026-11-22'
+- title: Senate Judiciary Committee statement to A4835 (1R), Oct. 15, 2026
+  url: https://pub.njleg.state.nj.us/Bills/2026/A5000/4835_S3.HTM
+  retrieved: '2026-11-22'
+- title: New Jersey P.L.2023, c.127 (Victims Assistance and Survivor Protection Act)
+  url: https://pub.njleg.state.nj.us/Bills/2022/PL23/127_.HTM
+  retrieved: '2026-11-22'
+slides:
+- kicker: New Jersey · New law, Nov. 20, 2026
+  big: Held until trial
+  head: Break a sexual assault, stalking or cyber-harassment protective order in New Jersey, and prosecutors can now ask a judge to hold you in jail until trial.
+  text: The new law is P.L.2026, c.109. It took effect right away.
+- chip: Two kinds of orders
+  head: New Jersey has two main kinds of court orders that keep someone away from a victim.
+  rows:
+  - [Domestic violence restraining order, "Under the Prevention of Domestic Violence Act of 1991"]
+  - [VASPA protective order, "For victims of sexual assault, lewdness, stalking or cyber-harassment who can't get a domestic violence order"]
+  quote: {label: "P.L.2023, c.127, sec. 2", text: "or stalking or cyber-harassment, and who is not eligible for a restraining order as a victim of domestic violence"}
+- chip: Same crime
+  head: Breaking either order is treated the same way.
+  rows:
+  - [Fourth-degree crime, "If what the person did could also be a crime or offense"]
+  - [Disorderly persons offense, "In all other cases"]
+- chip: Before → after
+  head: Only one of the two could lead to a request for pretrial detention, jail before a trial.
+  rows:
+  - [Before, "Prosecutors could ask for it for breaking a domestic violence order. The law didn't expressly allow it for a VASPA order."]
+  - [After, "They can ask for it for both."]
+  quote: {label: Senate Judiciary Committee statement, text: "This bill expands C.2A:162-19 to permit a prosecutor to make a motion for pretrial detention for a violation of an order entered under the provisions of VASPA."}
+- chip: Who decides
+  head: Asking isn't holding. A judge decides after a hearing.
+  rows:
+  - [The test, "Clear and convincing evidence that no bail or conditions would make sure the person comes to court, others stay safe, and justice isn't obstructed"]
+  - [The person's rights, "A lawyer (appointed if they can't afford one), to testify, and to call and question witnesses"]
+  - [Appeal, "Heard quickly; the person stays held while it's decided"]
+- chip: Who gains, who loses
+  head: Victims with a VASPA order get a tool domestic violence victims already had. People charged can be held before any conviction.
+  rows:
+  - [People with VASPA orders, "Prosecutors can now ask to keep the person charged with breaking it in jail until trial"]
+  - [People charged, "Can face a detention hearing and be held before trial, while still presumed innocent"]
+- chip: What it costs
+  head: No dollar figure was written for this law.
+  quote: {label: Assembly Appropriations Committee, text: "This bill is not certified as requiring a fiscal note."}
+- chip: The votes
+  head: No member of either chamber voted no.
+  rows:
+  - [New Jersey General Assembly, "79-0-0, June 11, 2026"]
+  - [New Jersey Senate, "39-0, Oct. 22, 2026"]
+  by: "Primary sponsors: Assembly members Macurdy, Peterpaul, Sweeney; Sens. Diegnan, Corrado"
+- chip: Your turn
+  head: Should breaking any protective order carry the same risk of jail before trial?
+  text: The records we opened give no argument for or against. Which side convinces you?
+caption: |-
+  New Jersey prosecutors can now ask a judge to hold someone in jail until trial for breaking a VASPA protective order. The law, P.L.2026, c.109, was approved Nov. 20, 2026 and took effect right away.
+
+  VASPA orders protect victims of sexual assault, lewdness, stalking or cyber-harassment who can't get a domestic violence restraining order.
+
+  Before: breaking either kind of order was the same crime, but only a domestic violence order was expressly listed for a pretrial detention request.
+  Now: both are.
+
+  A judge still decides, after a hearing. Detention needs clear and convincing evidence that no bail or conditions would be enough. The person has a lawyer, can testify and call witnesses, and can appeal.
+
+  Cost: the committee says no fiscal note was required. The New Jersey General Assembly passed it 79-0-0 and the New Jersey Senate 39-0.
+
+  Should breaking any protective order carry the same risk? Which side convinces you?
+hashtags: [newjersey, njleg, protectiveorders, votetherecord]
+notes: >-
+  News-first: an official action from the last three days (the Legislature's own api/billDetail/billHistory/A4835/2026
+  feed, read 2026-11-22: "11/20/2026 Approved P.L.2026, c.109."). Found through Open States' action feed (a tip only,
+  not a source). Takes Nov. 26 9:00 a.m., the earliest carousel slot held by an evergreen post (Nov. 22-25 carousels
+  are news from Nov. 16-20; Nov. 26 3:00 a.m. is the S1270 news post); this pull request moves the prefiled Texas SB
+  444 post to Dec. 13 3:00 a.m. (first post slot after the last queued post that keeps the Reel/post turn). The bill
+  was substituted for an identical Senate bill, which isn't named (one bill per post). The first reprint (1R) is the
+  version both houses passed (history: Assembly amendments June 8, passed 79-0-0 June 11; Senate committee reported it
+  without amendments, passed 39-0 Oct. 22). HTML sha256 600fc35ec8a3c7636e3b86eef18313568a906c7c6d41d35d814a99d14909d805.
+  "Two kinds of orders": VASPA scope is from P.L.2023, c.127, sec. 2 (2C:14-14), which added stalking and
+  cyber-harassment to the 2015 act's nonconsensual sexual contact, sexual penetration and lewdness; "sexual assault" on
+  the slides stands for "nonconsensual sexual contact, sexual penetration" (check the wording). Penalty and before/after
+  are from all three committee statements. Hearing rules (clear and convincing evidence, counsel, testify, witnesses,
+  expedited appeal while detained) are from C.2A:162-18 and -19 as printed in the 1R text. "Still presumed innocent" is
+  our words for "before trial"; check it. The bill text lists sponsors by district, not party, so no party is shown
+  (same as the S1270 post). No floor statements or testimony were opened and no official case for or against was
+  found. The builder's bill-number check doesn't accept New Jersey's "A" numbers, so the slides name the law by its
+  chapter (P.L.2026, c.109) instead of A4835, with what it does, who it affects and where it stands on the slides.
+  njcourts.gov returned 403 for its VASPA brochure; not retried. P.L. chapter text isn't on pub.njleg yet.
