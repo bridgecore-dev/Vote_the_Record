@@ -282,14 +282,39 @@ def _initials(m: re.Match) -> str:
     return m[0].replace(".", "").upper() + ("." if m.end() == len(m.string) else "")
 
 
+# Web addresses are read out: "us.gov" is "U S dot gov" (owner's request, 2026-11-22). Short names are spelled letter by
+# letter, except the endings people say as words.
+WEB = re.compile(r"(?<![\w@.])(?:https?://)?(?:www\.)?((?:[A-Za-z0-9-]+\.)+(?:gov|com|org|net|edu|mil|us)\b(?:/[\w.-]*\w)*)")
+WEB_WORDS = {"gov", "com", "org", "net", "mil"}
+WEB_LETTERS = {"usda"}
+WEB_JOINED = {"studentaid": "student aid", "workrules": "work rules", "medicaidhelp": "medicaid help"}
+WEB_MARKS = {".": "dot", "/": "slash", "-": "dash"}
+
+
+def _web_part(part: str) -> str:
+    low = part.lower()
+    if part in WEB_MARKS:
+        return WEB_MARKS[part]
+    if low in WEB_JOINED:
+        return WEB_JOINED[low]
+    if low not in WEB_WORDS and (len(low) <= 3 or low in WEB_LETTERS):
+        return " ".join(low.upper())
+    return part
+
+
+def web_words(address: str) -> str:
+    return " ".join(_web_part(x) for x in re.split(r"([./-])", address) if x)
+
+
 def spoken(text: str) -> str:
     """What the voice reads: dollar amounts as words with 'dollars' at the end, years the way people say them,
-    initials as one smooth word. Bill numbers (H.R. 1982) keep their digits."""
+    initials as one smooth word, web addresses part by part. Bill numbers (H.R. 1982) keep their digits."""
     keep = {}
 
     def hold(m):
-        keep[f"\x00{len(keep)}\x00"] = m[0]
+        keep[f"\x00{len(keep)}\x00"] = web_words(m[1]) if m.re is WEB else m[0]
         return f"\x00{len(keep) - 1}\x00"
+    text = WEB.sub(hold, text)
     text = B.BILL.sub(hold, text)
     text = DOLLARS.sub(_dollars, text)
     text = YEAR_RANGE.sub(lambda m: f"{year_words(int(m[1]))} to {year_words(int(m[2]))}", text)
