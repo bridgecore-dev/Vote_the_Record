@@ -2,11 +2,14 @@ kind: carousel
 level: congress
 topic: Federal courts
 approval: review
-record_ids: [us/119/2/senate/roll/273]
+record_ids: [us/119/2/senate/roll/273, us/119/2/senate/roll/274]
 publish_after: '2026-11-23T09:00:00-06:00'
 sources:
 - title: "U.S. Senate, Vote 273"
   url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00273.htm
+  retrieved: '2026-11-20'
+- title: "U.S. Senate, Vote 274"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00274.htm
   retrieved: '2026-11-20'
 - title: "Senate Executive Calendar, Nov. 20"
   url: https://www.senate.gov/legislative/LIS/executive_calendar/xcalv.pdf
@@ -45,6 +48,14 @@ slides:
   head: "A cloture motion is a vote to end debate, so the U.S. Senate can move to a final vote."
   quote: {label: "U.S. Senate, Cloture: Historical Overview", text: "The Senate adopted new precedents in the 2010s to allow a simple majority to end debate on nominations."}
   text: "Vote 273 needed a majority of those voting (\"1/2\" on the Senate's record). Yea = end debate. Nay = keep debating."
+- chip: "Roll call 274 · Nov. 20, 2026"
+  head: "Later that day, the U.S. Senate confirmed her, 49-41."
+  vote: {yea: 49, nay: 41, not_voting: 10}
+  rows:
+  - [Republican, "49 Yea · 0 Nay · 4 didn't vote"]
+  - [Democratic, "0 Yea · 39 Nay · 6 didn't vote"]
+  - [Independent, "0 Yea · 2 Nay · 0 didn't vote"]
+  text: "Yea = confirm her as a judge. Nay = don't. It needed a majority of those voting (\"1/2\" on the Senate's record)."
 - chip: The court
   head: "District courts are where federal trials happen."
   quote: {label: "United States Courts, About U.S. District Courts", text: "U.S. district courts are the primary trial courts of the federal court system."}
@@ -54,16 +65,16 @@ slides:
   rows:
   - [Now, "Federal law sets 12 judgeships for the Northern District of Texas."]
   - [The seat, "Coker is nominated \"vice David C. Godbey, retired\", to fill that judge's seat."]
-  - [After, "Still 12 judgeships. Confirming her would fill one seat; it adds none."]
-- chip: What comes next
-  head: "Ending debate is not the final vote."
-  text: "The next step is a vote on the nomination itself: Yea = confirm her as a judge, Nay = don't. Federal district judges have no set term."
+  - [After, "Still 12 judgeships. Confirmation fills one seat; it adds none."]
+- chip: How long
+  head: "There is no set term."
   quote: {label: "28 U.S.C. 134(a)", text: "The district judges shall hold office during good behavior."}
+  text: "The President nominates and the U.S. Senate confirms (Constitution, Article II, Section 2)."
 - chip: Check it yourself
   head: "Look up how your senators voted."
   rows:
-  - ["U.S. Senate", "senate.gov: roll call votes, 119th Congress, 2nd session, vote 273"]
-  text: "The President nominates and the U.S. Senate confirms (Constitution, Article II, Section 2). Should it take 51 votes or 60 to end debate on a judge? Tell us what you think."
+  - ["U.S. Senate", "senate.gov: roll call votes, 119th Congress, 2nd session, votes 273 and 274"]
+  text: "Should the U.S. Senate need 51 votes or 60 to end debate on a judge? Tell us what you think."
 caption: |-
   On Nov. 20, 2026, the U.S. Senate voted 49-43 to end debate (cloture) on the nomination of Courtney Leigh Coker, of Texas, to be a U.S. District Judge for the Northern District of Texas (vote 273).
 
@@ -71,9 +82,14 @@ caption: |-
   Democratic: 0 Yea, 41 Nay, 4 didn't vote.
   Independent: 0 Yea, 2 Nay.
 
-  Cloture is a vote to end debate. For nominations it takes a simple majority. The vote on the nomination itself comes next.
+  Cloture is a vote to end debate. For nominations it takes a simple majority.
 
-  The Northern District of Texas has seven divisions, including Dallas, Fort Worth, Lubbock and Amarillo. Coker is nominated to the seat of Judge David C. Godbey, who retired. Federal law sets 12 judgeships there, and district judges have no set term.
+  Later on Nov. 20, the U.S. Senate confirmed Coker, 49-41 (vote 274).
+  Republican: 49 Yea, 0 Nay, 4 didn't vote.
+  Democratic: 0 Yea, 39 Nay, 6 didn't vote.
+  Independent: 0 Yea, 2 Nay.
+
+  The Northern District of Texas has seven divisions, including Dallas, Fort Worth, Lubbock and Amarillo. Coker fills the seat of Judge David C. Godbey, who retired. Federal law sets 12 judgeships there, and district judges have no set term.
 
   51 votes or 60 to end debate on a judge: what do you think?
 hashtags: [ussenate, federalcourts, texas, rollcall, votetherecord]
@@ -91,3 +107,9 @@ notes: >-
   News first: takes the Nov. 23 9:00 a.m. post slot, the first post slot held by an evergreen post (every earlier
   post slot holds this week's votes and passages), and moves the evergreen 2026-11-17-texas-hb-639-hb-671-ai-political-ads
   (prefiled bills) to 2026-12-03T03:00:00-06:00, the first post slot after the last queued post (the Dec. 3 12:00 a.m. Reel).
+  Nov. 20 recheck: vote 274 (Nov. 20, 2:42 p.m. ET, "Nomination Confirmed (49-41)", "1/2") is now on senate.gov. Slide 6
+  ("what comes next") is replaced, as in the Bennett post, by a confirmation slide after the cloture explainer (tally and
+  party counts counted from vote_119_2_00274.xml, party as the Senate lists it) and a "How long" slide keeping the
+  28 U.S.C. 134(a) quote. Ten didn't vote: Britt, Cassidy, Cornyn, Tuberville R; Booker, Coons, Durbin, Klobuchar,
+  Murphy, Warner D. The Senate Press Gallery's Nov. 20 log hadn't reached this vote when read. The Executive Calendar
+  source stays for the "vice David C. Godbey" line.
