@@ -1,0 +1,85 @@
+kind: carousel
+level: state
+place: New York
+topic: Education
+approval: review
+record_ids: [ny/2025/S4692/signed]
+publish_after: '2026-11-27T03:00:00-06:00'
+sources:
+- title: New York State Senate, S4692 (2025-2026), actions, votes, memo and text
+  url: https://www.nysenate.gov/legislation/bills/2025/S4692
+  retrieved: '2026-11-22'
+- title: New York State Assembly, S04692 floor votes
+  url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S04692&term=2025&Floor%26nbspVotes=Y'
+  retrieved: '2026-11-22'
+bills:
+- id: S. 4692
+  does: Requires private colleges and universities in New York to provide free menstrual products in their restrooms.
+  affects: Students at private colleges and universities in New York, and the schools themselves.
+  where: Signed Nov. 20, 2026 as Chapter 400; it took effect immediately.
+  summary:
+    text: Requires that free menstrual products be provided in the commonly used bathrooms of private universities.
+    title: New York State Senate summary of S4692
+    url: https://www.nysenate.gov/legislation/bills/2025/S4692
+    retrieved: '2026-11-22'
+slides:
+- kicker: New York · New law, Nov. 20, 2026
+  big: Free
+  head: Private colleges in New York must now stock free menstrual products in their restrooms.
+  text: S. 4692 was signed as Chapter 400. It took effect right away.
+- chip: What the law says
+  head: Every private college and university in the state, in the restrooms of its buildings, at no charge to students.
+  quote: {label: New York State Senate bill summary, text: "Requires that free menstrual products be provided in the commonly used bathrooms of private universities."}
+- chip: Before → after
+  head: The rule already covered younger students. Now it reaches private colleges.
+  rows:
+  - [Before, "The sponsor's memo says the law already required free products in public and private school bathrooms, grades 6 to 12"]
+  - [After, "Private colleges and universities too"]
+  - [Not in this law, "Public colleges. The records we opened don't say what they must do."]
+- chip: Who gains, who pays
+  head: Students get the products. The colleges pay for them.
+  rows:
+  - [Students at private colleges, "Free products in campus restrooms"]
+  - [Private colleges, "Must buy and stock them. The law gives no state money for it."]
+  - [The state, "The sponsor's memo lists the cost as \"None to the State.\""]
+- chip: The case for
+  head: The sponsor, Sen. Cleare, says it keeps students in class.
+  quote: {label: "Sponsor's memo, S4692", text: "ensures that students will not miss instructional time because of a lack of access to menstrual products"}
+  text: The records we opened give no reason for the No votes.
+- chip: The votes
+  head: Both chambers passed it with a few No votes.
+  rows:
+  - [New York State Senate, "56 Yes, 5 No, Mar. 10, 2026"]
+  - [New York State Assembly, "123 Yes, 17 No, June 2, 2026"]
+- chip: Who voted no
+  head: "New York State Senate (5): Borrello, Gallivan, Martins, Walczyk, Weik"
+  text: "New York State Assembly (17): Brown EA, DeStefano, DiPietro, Durso, Fitzpatrick, Friend, Gandolfo, Gray, Hawley, Lemondes, Manktelow, Miller, Molitor, Sempolinski, Simpson, Tague, Walsh"
+  by: Names as each chamber's record lists them. The records don't list party.
+- chip: Your turn
+  head: Should private colleges have to provide these for free?
+  text: Students get them at no charge; the colleges carry the cost. Which side convinces you?
+caption: |-
+  Private colleges and universities in New York must now provide free menstrual products in their restrooms. S. 4692 was signed Nov. 20, 2026 as Chapter 400 and took effect right away.
+
+  Before: the sponsor's memo says state law already required free products in public and private school bathrooms for grades 6 to 12.
+  Now: private colleges and universities too, at no charge to students.
+
+  Who pays: the colleges. The law gives no state money for it, and the sponsor's memo lists the cost to the state as none. The records we opened don't say what public colleges must do.
+
+  The New York State Senate passed it 56-5 and the New York State Assembly 123-17.
+
+  Should private colleges have to provide these for free? Which side convinces you?
+hashtags: [newyork, nysenate, collegestudents, votetherecord]
+notes: >-
+  News-first: an official action from the last three days (nysenate.gov and nyassembly.gov actions, read 2026-11-22:
+  "11/20/2026 SIGNED CHAP.400"). Found through Open States' action feed (a tip only, not a source). Takes Nov. 27
+  3:00 a.m., the earliest carousel slot held by an evergreen post that no other pending pull request takes (Nov. 26
+  9:00 a.m. goes to the New Jersey A4835 post in its own pull request); this pull request moves the prefiled Texas HB
+  427 post to Dec. 14 3:00 a.m. (Dec. 13 3:00 a.m. is taken by the SB 444 move in the A4835 pull request). The bill
+  text is the only print (no amendments; "take effect immediately"). The memo's "before" (grades 6-12, public and
+  private schools) is the sponsor's own description, so the slide says "the sponsor's memo says"; it wasn't checked in
+  the statute. The memo calls the new section 267-b; the bill text adds 267-c (not shown). Senate vote (56-5, 2
+  excused) from nysenate.gov; Assembly vote ("YEA/NAY: 123/17", 10 ER) from nyassembly.gov's floor votes, 17 No names
+  as printed there. Neither record lists party, so none is shown. The Assembly companion bill it was substituted for
+  isn't named (one bill per post). "The law gives no state money for it" means the text has no appropriation. Topic
+  is Education; no case against was found in the records opened.
