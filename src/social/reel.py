@@ -308,11 +308,11 @@ def web_words(address: str) -> str:
 
 def spoken(text: str) -> str:
     """What the voice reads: dollar amounts as words with 'dollars' at the end, years the way people say them,
-    initials as one smooth word, web addresses part by part. Bill numbers (H.R. 1982) keep their digits."""
+    initials as one smooth word, web addresses part by part. Bill numbers (H.R. 1982) keep their digits; S. 3321 is "Senate Bill 3321"."""
     keep = {}
 
     def hold(m):
-        keep[f"\x00{len(keep)}\x00"] = web_words(m[1]) if m.re is WEB else m[0]
+        keep[f"\x00{len(keep)}\x00"] = web_words(m[1]) if m.re is WEB else f"Senate Bill {m[2]}" if m[1] == "S." else m[0]
         return f"\x00{len(keep) - 1}\x00"
     text = WEB.sub(hold, text)
     text = B.BILL.sub(hold, text)
@@ -811,6 +811,8 @@ KEEP_DOT = re.compile(r"^(?:[A-Z]\.)+$|^(?:Rep|Sen|Gov|Mr|Ms|Dr|St|No|Jan|Feb|Ma
 
 def syllables(word: str) -> int:
     """About how long a word takes to say, in syllables of its spoken form ("211" is "two hundred eleven")."""
+    if word.rstrip(".") == "S":  # read as "Senate Bill"
+        return 3
     return max(1, len(re.findall(r"[aeiouy]+", spoken(word).lower())))
 
 
