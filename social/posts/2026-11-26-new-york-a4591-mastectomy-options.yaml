@@ -15,8 +15,8 @@ slides:
   head: Before breast cancer surgery, New York hospitals must now explain the options that don't involve more surgery.
   text: Signed as Chapter 382 of the Laws of 2026. It takes effect Jan. 1, 2027.
 - chip: What the law says
-  head: The written information must now include non-surgical options.
-  quote: {label: "Chapter 382, section 1 (new words)", text: "a description of the various non-surgical reconstructive options including having an aesthetic flat closure as such term is defined by the National Cancer Institute, or using a breast form"}
+  head: The written information must now include a separate list of non-surgical options.
+  quote: {label: "Chapter 382, section 1, new item (b)", text: "a description of the various non-surgical reconstructive options including having an aesthetic flat closure as such term is defined by the National Cancer Institute, or using a breast form"}
 - chip: Plain words
   head: An aesthetic flat closure means no breast rebuilt; the chest is made smooth and flat.
   quote: {label: "Sponsor's memo, quoting the National Cancer Institute", text: "extra skin, fat, and other tissue in the breast area is removed. The remaining tissue is then tightened and smoothed out so that the chest wall appears flat."}
