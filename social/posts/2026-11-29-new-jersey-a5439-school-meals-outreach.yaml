@@ -6,16 +6,16 @@ approval: review
 record_ids: [nj/222/A5439/approved]
 publish_after: '2026-11-29T03:00:00-06:00'
 sources:
-- title: New Jersey Legislature, A5439 bill history (2026-2027 session)
+- title: NJ Legislature, A5439 history
   url: https://www.njleg.state.nj.us/bill-search/2026/A5439
   retrieved: '2026-11-22'
-- title: New Jersey Legislature, A5439 as introduced (the version both houses passed)
+- title: A5439 text as passed
   url: https://pub.njleg.state.nj.us/Bills/2026/A5500/5439_I1.HTM
   retrieved: '2026-11-22'
-- title: Assembly Appropriations Committee statement to A5439, Sept. 17, 2026
+- title: Assembly committee statement, Sept. 17
   url: https://pub.njleg.state.nj.us/Bills/2026/A5500/5439_S1.HTM
   retrieved: '2026-11-22'
-- title: Senate Budget and Appropriations Committee statement to A5439, Oct. 5, 2026
+- title: Senate committee statement, Oct. 5
   url: https://pub.njleg.state.nj.us/Bills/2026/A5500/5439_S2.HTM
   retrieved: '2026-11-22'
 slides:
