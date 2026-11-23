@@ -1,0 +1,103 @@
+kind: reel
+level: state
+place: New York
+topic: Elections
+approval: review
+record_ids: [ny/2025/A8388/signed]
+publish_after: '2026-11-28T06:00:00-06:00'
+trial: auto
+design:
+  palette: plum
+  mode: dark
+  font: round
+  position: center
+  motion: captions
+  sfx: true
+sources:
+- title: New York State Assembly, A08388 (2025-2026), summary, actions, floor votes, memo and text
+  url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A08388&term=2025&Summary=Y&Actions=Y&Memo=Y&Text=Y&Floor%26nbspVotes=Y'
+  retrieved: '2026-11-23'
+slides:
+- kicker: New York · New law, Nov. 20, 2026
+  big: Poll workers
+  head: New York college students can now work the polls in the county where their school is.
+  text: Signed as Chapter 387 of the Laws of 2026. It took effect right away.
+  say: New York has a new law. Full-time college students can now work the polls in the county where their school is,
+    even if they live somewhere else. It took effect right away.
+- chip: Before → after
+  head: An election inspector, a poll worker who runs a voting site, had to meet the county residency rule.
+  rows:
+  - [Before, "Students had to meet the county residency rule, the sponsor's memo says"]
+  - [After, "Full-time students can serve in their college's county"]
+  - [New York City, "Students there can serve in any of its counties"]
+  say: Before, an election inspector, a poll worker who runs a voting site, had to meet the county residency rule, the
+    sponsor's memo says. Now full-time students can serve in their college's county. In New York City, in any of its
+    counties.
+- chip: Who qualifies
+  head: A student still has to meet 4 conditions.
+  rows:
+  - Registered to vote in New York
+  - Holds no elected office
+  - Not on that district's ballot, or a candidate's spouse, parent or child
+  - Can speak and read English and write it legibly
+  text: Full-time means at least 12 credit hours a semester at a college in New York.
+  say: A student still has to meet 4 conditions. Registered to vote in New York. No elected office. Not on that ballot, or
+    close family of someone who is. Able to read, speak and write English. Full-time means at least 12 credit hours a
+    semester.
+- chip: The case for
+  head: The sponsor, Assemblymember Jackson, says polling places are short of trained staff.
+  quote:
+    label: Sponsor's memo
+    text: Every year at election time, election districts around the state are plagued by a shortage of trained staff
+      to operate as elections inspectors at local polling places.
+    key: shortage of trained staff
+  text: The memo says shortages can force several election districts into one polling place.
+  say: The case for, from the sponsor's memo. Every election, polling places are short of trained staff, and that can
+    force several election districts to vote in one place. The memo also says many inspectors are older and will retire
+    soon.
+- chip: The votes
+  head: 44 members of the New York State Assembly voted no.
+  rows:
+  - [New York State Assembly, "96 Yes, 44 No, May 6, 2026"]
+  - [New York State Senate, "Passed June 1, 2026"]
+  - [Governor, "Signed Nov. 20, 2026, Chapter 387"]
+  text: The record doesn't give their reasons, and we found no statement against it. The memo lists the cost as none.
+  say: The New York State Assembly passed it 96 to 44 on May 6. The New York Senate passed it June 1, and it was
+    signed November 20. The record doesn't say why members voted no. The memo lists no cost.
+- chip: Your turn
+  head: Should students be able to work the polls where they go to school?
+  text: The memo says the law lets local boards of elections recruit them. What do you think?
+  say: Should students be able to work the polls where they go to school? The memo says the law lets local boards of
+    elections recruit them. What do you think?
+caption: |-
+  New York has a new election law. Full-time college students can now be certified as election inspectors or poll clerks, the poll workers who run voting sites, in the county where their college is, even if they live somewhere else. In New York City, they can serve in any of its counties. It was signed Nov. 20, 2026 as Chapter 387 of the Laws of 2026 and took effect right away.
+
+  Before: inspectors had to meet the county residency rule, the sponsor's memo says.
+  Now: full-time students (at least 12 credit hours a semester at a New York college) are exempt from it. They still must be registered to vote in New York, hold no elected office, not be a candidate in that district or a candidate's spouse, parent or child, and be able to speak, read and write English.
+
+  For: the sponsor's memo says polling places are short of trained staff, which can force several election districts into one polling place, and many inspectors will retire soon. Against: 44 members of the New York State Assembly voted no; the record doesn't give their reasons, and we found no statement against it. The memo lists the cost as none.
+
+  The New York State Assembly passed it 96-44 on May 6, 2026, and the New York State Senate passed it June 1, 2026.
+
+  Should students be able to work the polls where they go to school?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [newyork, nyassembly, pollworkers, elections, votetherecord]
+notes: >-
+  News-first window: an official action from the last three days (nyassembly.gov actions, read 2026-11-23:
+  "11/13/2026 delivered to governor", "11/20/2026 signed chap.387"). Found through Open States' action feed (a tip only,
+  not a source). No post or open pull request covers A8388 (the New York posts so far are A4591, A8695, A10936, S4692).
+  Takes Nov. 28 6:00 a.m., a free Reel slot right after the Nov. 28 3:00 a.m. carousel, so no post is bumped (every
+  earlier Reel slot is news or a trial). Trial look: changes only the palette (plum) from the baseline (teal, dark,
+  round, center, captions, sfx, af_heart); no queued Reel uses plum yet. Everything is from the one Assembly page:
+  the new Election Law 3-400(6-a) text (conditions (1)-(4), "full-time" = "at least twelve credit hours per semester"
+  at a college in this state; NYC students "in any county therein"), the sponsor's memo (residency exemption,
+  shortage quote, several districts in one polling place, older inspectors retiring, "authorizes local boards of
+  election to recruit", fiscal implications "None", effective immediately), the actions, and the Assembly floor vote
+  (96/44, May 6, 2026; several members excused). "Had to meet the county residency rule" is the memo's description
+  ("exempt from the current county residency requirements"); the text of 3-400(6) itself wasn't read (nysenate.gov
+  served a bot challenge and elections.ny.gov returned 403, neither retried). Please confirm that wording. The Senate
+  tally isn't on the Assembly page, so the Senate line gives only the date (substituted for S1809, not named: one bill
+  per post). No party is shown; the Assembly record doesn't list it. The governor isn't named because the action line
+  says only "signed chap.387". Like the other New York posts, the slides name the chapter, not the Assembly number,
+  because the builder's bill-number check doesn't take New York Assembly numbers.
