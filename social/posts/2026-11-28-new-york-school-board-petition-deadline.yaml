@@ -1,0 +1,88 @@
+kind: reel
+level: state
+place: New York
+topic: Elections
+approval: review
+record_ids: [ny/2025/A4384/signed]
+publish_after: '2026-11-28T12:00:00-06:00'
+trial: auto
+rule: Picked from the New York laws signed Nov. 20, 2026 because it changes a deadline for getting on a ballot.
+sources:
+- title: New York State Assembly, A04384 (2025-2026), summary, actions, floor votes, memo and text
+  url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A04384&term=2025&Summary=Y&Actions=Y&Memo=Y&Text=Y&Floor%26nbspVotes=Y'
+  retrieved: '2026-11-23'
+slides:
+- kicker: New York · New law, Nov. 20, 2026
+  big: 30 days
+  head: School board candidates in New York's small cities must file their petitions 30 days before the election, not 20.
+  text: Signed as Chapter 381 of the Laws of 2026. It takes effect July 1, 2027.
+  say: New York has a new law for school board elections in small cities. Candidates must now file their petitions 30
+    days before the election, not 20. It takes effect July 1, 2027.
+- chip: Before → after
+  head: A nominating petition, the signed form that puts a candidate on the ballot, is now due 10 days earlier.
+  rows:
+  - [Before, "Due the 20th day before the annual election"]
+  - [After, "Due the 30th day before the annual election"]
+  - [Still the same, "At least 100 qualified voters must sign it"]
+  say: A nominating petition, the signed form that puts a candidate on the ballot, is now due 10 days earlier. Before,
+    the 20th day before the election. Now, the 30th day. It still needs at least 100 voters' signatures.
+- chip: Why
+  head: The sponsor says the old deadline left no time to object to a petition.
+  quote:
+    label: Sponsor's memo
+    text: deprives residents of small city school districts the right to object to the sufficiency of the petitions
+    key: the right to object
+  text: 'The memo says the new timing allows 5 days for the public to object, 5 days for the board to review, and a final ballot the next day.'
+  say: Why? The sponsor's memo says the old deadline left residents no time to object to a petition. The new timing
+    allows 5 days for the public to object, 5 days for the board to review, and a final ballot the next day.
+- chip: The trade-off
+  head: Residents get time to check petitions. Candidates must have their signatures 10 days sooner.
+  text: The memo lists the cost to state and local governments as "To be determined."
+  say: The trade-off. Residents get time to check petitions. Candidates must have their signatures 10 days sooner. The
+    memo lists the cost as to be determined.
+- chip: The votes
+  head: No member voted no in the New York State Assembly.
+  rows:
+  - [New York State Assembly, "141 Yes, 0 No, March 30, 2026"]
+  - [New York State Senate, "Passed June 2, 2026"]
+  - [Governor, "Signed Nov. 20, 2026, Chapter 381"]
+  text: We found no statement against it. The sponsor is Assemblymember Paulin.
+  say: The New York State Assembly passed it 141 to 0 on March 30. The New York Senate passed it June 2, and it was
+    signed November 20. We found no statement against it.
+- chip: Your turn
+  head: Is 30 days the right deadline for school board petitions?
+  text: Thinking of running in a small city school district? Ask the district clerk for the petition deadline.
+  say: Is 30 days the right deadline for school board petitions? Thinking of running in a small city school district?
+    Ask the district clerk for the deadline.
+caption: |-
+  New York changed a ballot deadline for school board races in its small city school districts. Candidates must now file their nominating petitions, the signed forms that put them on the ballot, at least 30 days before the annual election instead of 20. It was signed Nov. 20, 2026 as Chapter 381 of the Laws of 2026 and takes effect July 1, 2027.
+
+  Before: petitions were due the 20th day before the election.
+  Now: the 30th day. A petition still needs the signatures of at least 100 people qualified to vote in the district.
+
+  For: the sponsor's memo says the old timing "deprives residents of small city school districts the right to object to the sufficiency of the petitions." The new timing allows 5 days for the public to object, 5 days for the board to review objections, and a final ballot the next day.
+  The trade-off: candidates must have their signatures in 10 days sooner. The memo lists the cost as "To be determined." We found no statement against it.
+
+  The New York State Assembly passed it 141-0 on March 30, 2026, and the New York State Senate passed it June 2, 2026.
+
+  Is 30 days the right deadline for school board petitions?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [newyork, nyassembly, schoolboard, elections, votetherecord]
+notes: >-
+  An official action from Nov. 20 (nyassembly.gov actions, read 2026-11-23: "11/13/2026 delivered to governor",
+  "11/20/2026 signed chap.381"). Found through Open States' action feed (a tip only, not a source). No post or open
+  pull request covers A4384. Rule: picked from the Nov. 20 signings because it changes a ballot-access deadline; the
+  Chapter 380 post (new school board seats) is a separate post with the same layout. Everything is from the one
+  Assembly page: the text (sec. 1, Education Law 2608(1): bracketed "twentieth" replaced by "thirtieth day preceding
+  the day of the annual election"; "signed by at least one hundred persons qualified to vote at school elections";
+  sec. 3: "take effect on the first of July next succeeding the date on which it shall have become a law", so July 1,
+  2027 is our count from the Nov. 20 signing, please confirm), the memo (purpose "thirty days ... rather than twenty",
+  the quoted justification, the 5-day objection, 5-day review and next-day ballot sequence, fiscal "To be
+  determined."), the actions and the Assembly floor vote (141/0, March 30, 2026). "Small city" is the summary's and
+  memo's word; sec. 2608 itself says "city school district"; no source opened defines which cities count, so no
+  population figure is on a slide. "Must have their signatures 10 days sooner" is our plain reading of the date change; no
+  source states a downside. The Senate tally isn't on the Assembly page (nysenate.gov returned 403 this run, not
+  retried), so the Senate line gives only the date (substituted for S7150B, not named: one bill per post). No party is
+  shown; the Assembly record doesn't list it. Names the chapter, not the Assembly number, like the other New York
+  posts. Takes Nov. 28 12:00 p.m., a free Reel slot after the Nov. 28 9:00 a.m. carousel, so no post is bumped.
