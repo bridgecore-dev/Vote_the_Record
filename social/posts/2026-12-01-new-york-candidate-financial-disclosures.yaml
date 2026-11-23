@@ -1,0 +1,82 @@
+kind: carousel
+level: state
+place: New York
+topic: Ethics
+approval: review
+record_ids: [ny/2025/A463/signed]
+publish_after: '2026-12-01T03:00:00-06:00'
+sources:
+- title: New York State Assembly, A00463 (2025-2026), summary, actions, floor votes, memo and text
+  url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A00463&term=2025&Summary=Y&Actions=Y&Memo=Y&Text=Y&Floor%26nbspVotes=Y'
+  retrieved: '2026-11-23'
+slides:
+- kicker: New York · New law, Nov. 20, 2026
+  big: Posted online
+  head: Financial disclosures from candidates for New York statewide office and the Legislature will be posted online.
+  text: Signed as Chapter 378 of the Laws of 2026. It takes effect Jan. 1, 2027.
+- chip: Plain words
+  head: A financial disclosure is a yearly form on a person's money and ties, filed with the state.
+  text: The sponsor's memo says it shows voters "the conflicts and potential conflicts of interest of candidates running for office."
+- chip: Before → after
+  head: Candidates already file these forms. Seeing them took a records request.
+  rows:
+  - [Before, "Officeholders' forms were posted; candidates' took a FOIL request, the memo says"]
+  - [After, "The state ethics commission posts candidates' forms on its website"]
+  - [When, "Within 30 days of receiving the form"]
+  - [Who, "Candidates for statewide office and for the Legislature"]
+- chip: What the law says
+  head: The new words added to the state's ethics law (Executive Law 94)
+  quote: {label: "Chapter 378, section 2", text: "and candidates for statewide elected office and members of the legislature"}
+  text: FOIL is the Freedom of Information Law, the way to ask a New York agency for a public record.
+- chip: Also in the law
+  head: Smaller changes to the disclosure form itself.
+  rows:
+  - [Relatives, "Domestic partners now count as a \"relative\" on the form"]
+  - [Old questions, "Out-of-date questions are taken off"]
+  - [Digital assets, "The reporting grid is changed to match its question"]
+- chip: The case for
+  head: Voters see the forms before the election.
+  quote: {label: "Sponsor's memo", text: "with the accelerated primary schedule, it is important for public disclosure to occur promptly so that voters can be informed in advance of the elections"}
+  text: The memo lists the cost to state and local governments as "None."
+- chip: The votes
+  head: No member voted no in the New York State Assembly.
+  rows:
+  - [New York State Assembly, "141 Yes, 0 No, May 19, 2026"]
+  - [New York State Senate, "Passed June 2, 2026"]
+  - [Governor, "Signed Nov. 20, 2026, Chapter 378"]
+  text: We found no statement against it. The sponsor is Assemblymember Paulin.
+- chip: Your turn
+  head: Would you read a candidate's financial disclosure before you vote?
+  text: Starting in 2027, the forms go on the state ethics commission's website. What would you look for?
+caption: |-
+  New York will post candidates' financial disclosures online. Candidates for statewide office and for the New York State Legislature already have to file a yearly financial disclosure statement. Starting Jan. 1, 2027, the state's Commission on Ethics and Lobbying in Government must post those forms on its website within 30 days of getting them. It was signed Nov. 20, 2026 as Chapter 378 of the Laws of 2026.
+
+  Before: officeholders' forms were posted, but to see a candidate's, a member of the public had to file a Freedom of Information Law (FOIL) request, the sponsor's memo says.
+  Now: the commission posts candidates' forms too.
+
+  The law also counts domestic partners as a "relative" on the form, drops out-of-date questions, and changes the digital assets grid to match its question.
+
+  For: the memo says voters should know about candidates' "conflicts and potential conflicts of interest" before the election, especially with an earlier primary schedule. It lists the cost to governments as none. We found no statement against it.
+
+  The New York State Assembly passed it 141-0 on May 19, 2026, and the New York State Senate passed it June 2, 2026.
+
+  Would you read a candidate's financial disclosure before you vote?
+hashtags: [newyork, nyassembly, ethics, elections, votetherecord]
+notes: >-
+  An official action from Nov. 20 (nyassembly.gov actions, read 2026-11-23: "11/13/2026 delivered to governor",
+  "11/20/2026 signed chap.378"). Found through Open States' action feed (a tip only, not a source). No post or open
+  pull request covers A463. Takes Dec. 1 3:00 a.m., the first free post slot that keeps each day's Reel/post turn (Dec.
+  1 starts with the 12:00 a.m. Reel; the free Nov. 28-30 post slots would each follow a post with no Reel between), so
+  no post is bumped; the law takes effect Jan. 1, 2027, so the date is still ahead of readers. Everything is from the
+  one Assembly page: the memo (purpose, FOIL, JCOPE/COELIG posting, "conflicts and potential conflicts", the primary
+  schedule quote, sections 3-5, fiscal implications "None.", effective "January first next succeeding the date on which
+  it shall become law" = Jan. 1, 2027), the text (sec. 1, Public Officers Law 73-a(2)(k): posting "within thirty days
+  of its receipt"; sec. 2, Executive Law 94(13)(b)(i): the quoted new words), the actions and the Assembly floor vote
+  (141/0, May 19, 2026). The page's text view drops the underscoring, so "new words" rests on the memo's section 2
+  description ("to require the posting of candidate forms"); please confirm against the PDF. "Officeholders' forms
+  were posted" is the memo's ("posted publicly on the JCOPE website"; JCOPE was COELIG's predecessor, which the memo
+  doesn't say, so no slide says it). "A yearly form on a person's money and ties" is our plain wording for the "annual
+  statement of financial disclosure"; please confirm or cut. The Senate tally isn't on the Assembly page (nysenate.gov
+  served a bot challenge, not retried), so the Senate line gives only the date (substituted for S4857C, not named:
+  one bill per post). No party is shown; the Assembly record doesn't list it. The slides name the chapter, not the
+  Assembly number, as in the other New York posts.
