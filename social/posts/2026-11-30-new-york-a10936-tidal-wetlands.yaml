@@ -1,0 +1,87 @@
+kind: carousel
+level: state
+place: New York
+topic: Environment
+approval: review
+record_ids: [ny/2025/A10936/signed]
+publish_after: '2026-11-30T09:00:00-06:00'
+sources:
+- title: New York State Assembly, A10936 (2025-2026), summary, actions, floor votes, memo and text
+  url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A10936&term=2025&Summary=Y&Actions=Y&Memo=Y&Text=Y&Floor%26nbspVotes=Y'
+  retrieved: '2026-11-22'
+- title: New York State Senate, Assembly Bill A10936 (2025-2026), actions and Senate floor vote
+  url: 'https://www.nysenate.gov/legislation/bills/2025/A10936'
+  retrieved: '2026-11-22'
+- title: New York Environmental Conservation Law § 13-0103, Marine and coastal district described
+  url: 'https://www.nysenate.gov/legislation/laws/ENV/13-0103'
+  retrieved: '2026-11-22'
+- title: New York Environmental Conservation Law § 24-0107, Definitions (freshwater wetlands)
+  url: 'https://www.nysenate.gov/legislation/laws/ENV/24-0107'
+  retrieved: '2026-11-22'
+slides:
+- kicker: New York · New law, Nov. 20, 2026
+  big: Which rules?
+  head: New York changed which wetlands count as "tidal" in its environmental law.
+  text: Signed as Chapter 396 of the Laws of 2026. It took effect right away.
+- chip: Plain words
+  head: A tidal wetland is a marsh, flat or swamp that the tide moves in and out of.
+  text: New York has two sets of wetland rules, one for tidal wetlands and one for freshwater wetlands. A wetland that counts as tidal can't count as freshwater.
+- chip: What the law says
+  head: The new words added to the definition of tidal wetlands (Environmental Conservation Law § 25-0103)
+  quote: {label: "Chapter 396, section 1 (new words)", text: "those areas which border on or lie beneath tidal waters OF THE MARINE AND COASTAL DISTRICT, AS DESCRIBED IN SECTION 13-0103 OF THIS CHAPTER"}
+- chip: Where that is
+  head: The marine and coastal district stops on the Hudson River at the Mario Cuomo Bridge.
+  quote: {label: "Environmental Conservation Law § 13-0103", text: "the waters of the Atlantic Ocean within three nautical miles from the coast line and all other tidal waters within the state, including the Hudson River up to the Governor Mario M. Cuomo bridge"}
+- chip: Before → after
+  head: The Hudson is still tidal north of the bridge. Those wetlands change rulebooks.
+  rows:
+  - [Before, "Any area bordering tidal waters was a tidal wetland, so these were not freshwater wetlands under the law"]
+  - [After, "Only tidal waters of the marine and coastal district count, so they can be freshwater wetlands instead"]
+  - [Who regulates, "The state Department of Environmental Conservation (DEC), under its freshwater wetlands program"]
+- chip: The case for
+  head: The sponsor says DEC already treats these wetlands as freshwater wetlands.
+  quote: {label: "Sponsor's memo", text: "these wetlands are also Class I freshwater wetlands under DEC's regulations, and were previously mapped by DEC, yet they are excluded from the statutory definition of freshwater wetlands"}
+  text: The memo says the change lets them "be regulated and protected under DEC's Freshwater Wetlands Regulatory Program." It lists the cost to state and local governments as "None."
+- chip: The votes
+  head: It passed both chambers. No reason for a no vote is given in the records.
+  rows:
+  - [New York State Assembly, "127 Yes, 6 No, May 13, 2026"]
+  - [New York State Senate, "50 Aye, 11 Nay, June 3, 2026"]
+  - [Governor, "Signed Nov. 20, 2026, Chapter 396"]
+- chip: Who voted no
+  head: Every no vote, as the official records list them
+  rows:
+  - [Assembly (6), "DiPietro, Friend, Hawley, Manktelow, Molitor, Sempolinski"]
+  - [Senate (11), "Borrello, Gallivan, Griffo, Murray, O'Mara, Ortt, Rhoads, Ryan, Tedisco, Walczyk, Weik"]
+  text: Neither record lists party, so none is shown.
+- chip: Your turn
+  head: Should tidal marshes up the Hudson fall under freshwater rules?
+  text: The sponsor says it lets DEC protect them under its freshwater program. No one on the record argued against it. Which side convinces you?
+caption: |-
+  New York changed which wetlands count as "tidal." Tidal wetlands are now only those along tidal waters of the marine and coastal district, which on the Hudson River stops at the Mario Cuomo Bridge. Signed Nov. 20, 2026 as Chapter 396 of the Laws of 2026, in effect right away.
+
+  Before: any area bordering tidal waters was a tidal wetland, so the tidal marshes up the Hudson, north of the bridge, could not be freshwater wetlands under the law.
+  Now: they can be, and the sponsor's memo says they will be "regulated and protected under DEC's Freshwater Wetlands Regulatory Program." The memo lists the cost to governments as none.
+
+  The New York State Assembly passed it 127-6 on May 13, and the New York State Senate 50-11 on June 3. No statement against it was found in the records.
+
+  Should tidal marshes up the Hudson fall under freshwater rules?
+hashtags: [newyork, hudsonriver, wetlands, nyassembly, votetherecord]
+notes: >-
+  News-first: an official action from the last three days (nyassembly.gov actions, read 2026-11-22: "11/20/2026
+  signed chap.396"); found through Open States' action feed (a tip only, not a source). No post covers A10936.
+  Takes Nov. 30 9:00 a.m., the first post slot held by an evergreen post (every earlier post slot holds this week's
+  votes, passages or signings, or the weekly recap), and moves the prefiled-bill post
+  2026-11-30-texas-hb-1257-public-employee-bargaining to 2026-12-19T03:00:00-06:00, the first post slot after the
+  last queued post (Dec. 18's only post is at 3:00 a.m., so a later Dec. 18 post slot would put two posts in a row).
+  New words are the capitalized text in the bill (sec. 1); § 13-0103 and § 24-0107 (freshwater wetlands "not tidal
+  wetlands as defined in subdivision one of section 25-0103") were read on nysenate.gov this run. "Before" rests on
+  the old § 25-0103 wording (the bill text with the new words removed) plus § 24-0107; "the Hudson is still tidal
+  north of the bridge" is the memo's "wetlands along the Hudson River north of the Mario Cuomo Bridge are influenced
+  by tidal action". Whether each such marsh meets § 24-0107's size and vegetation tests is not something the memo
+  says, so the slides say they "can be" freshwater wetlands. The memo's summary says "tidal wetlands of the marine
+  and coastal district" where the bill says "tidal waters"; the slides quote the bill. Votes: Assembly 127/6 from
+  nyassembly.gov floor votes (several members ER); Senate 50-11 (1 absent, 1 excused) from nysenate.gov. Names as
+  the records list them (surnames only, no party). No statement against was found; the Senate twin S9479 is not
+  named (one bill per post). The builder's bill-number check doesn't take New York Assembly numbers, so, like the
+  A8695 post, the slides name the chapter instead. Please check the plain-words line on slide 2.
