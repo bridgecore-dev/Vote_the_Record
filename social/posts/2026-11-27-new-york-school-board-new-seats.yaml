@@ -1,0 +1,80 @@
+kind: carousel
+level: state
+place: New York
+topic: Elections
+approval: review
+record_ids: [ny/2025/A4382/signed]
+publish_after: '2026-11-27T09:00:00-06:00'
+rule: Picked from the New York laws signed Nov. 20, 2026 because it changes when an election is held.
+sources:
+- title: New York State Assembly, A04382 (2025-2026), summary, actions, floor votes, memo and text
+  url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A04382&term=2025&Summary=Y&Actions=Y&Memo=Y&Text=Y&Floor%26nbspVotes=Y'
+  retrieved: '2026-11-23'
+slides:
+- kicker: New York · New law, Nov. 20, 2026
+  big: Next annual meeting
+  head: When voters add seats to some New York school boards, the new seats are now filled at the next annual meeting.
+  text: Signed as Chapter 380 of the Laws of 2026. It took effect right away.
+- chip: Who it covers
+  head: Union free and central school districts.
+  text: In these districts, voters at an annual meeting can approve a bigger school board. This law changes when the added members are elected.
+- chip: Before → after
+  head: The election for the new seats moves from a 30-to-60-day window to the next annual meeting.
+  rows:
+  - [Before, "A special election 30 to 60 days after the annual meeting"]
+  - [The catch, "Notice must go out at least 45 days before an election"]
+  - [Result, "Less than a two-week window to hold it, the sponsor's memo says"]
+  - [After, "The new members are elected at the next annual meeting"]
+- chip: What the law says
+  head: The new words in Education Law section 1703
+  quote: {label: "Chapter 380, section 1", text: "the next annual meeting following the annual meeting at which the number was increased"}
+  text: 'It replaces "a special meeting" held "not less than thirty nor more than sixty days" after.'
+- chip: The trade-off
+  head: Districts get more time. The added seats wait longer to be filled.
+  text: 'The memo says a board "has a year to fill the new seats, as opposed to the more restrictive current deadline of between thirty and sixty days."'
+- chip: The case for
+  head: The same timing other school districts already use.
+  quote: {label: "Sponsor's memo", text: "will increase voter participation, save election administration costs, and give school districts a more navigable path to increase the number of their members"}
+  text: The memo lists the cost to state and local governments as "To be determined."
+- chip: The votes
+  head: No member voted no in the New York State Assembly.
+  rows:
+  - [New York State Assembly, "141 Yes, 0 No, Feb. 3, 2026"]
+  - [New York State Senate, "Passed March 10, 2026"]
+  - [Governor, "Signed Nov. 20, 2026, Chapter 380"]
+  text: We found no statement against it. The sponsor is Assemblymember Paulin.
+- chip: Your turn
+  head: Should new school board seats be filled fast, or at the next regular vote?
+  text: Does your school district hold an annual meeting? Check its website for the date.
+caption: |-
+  When voters in some New York school districts vote to make their school board bigger, the new seats are now filled at the next annual meeting, not at a special election weeks later. It was signed Nov. 20, 2026 as Chapter 380 of the Laws of 2026 and took effect right away.
+
+  Who: union free and central school districts.
+  Before: the district had to hold a special election 30 to 60 days after the annual meeting. Notice of an election must go out at least 45 days ahead, which left less than a two-week window, the sponsor's memo says.
+  Now: the added members are elected at the next annual meeting after the one where voters approved the bigger board. That gives districts about a year, and the new seats wait that long to be filled.
+
+  For: the memo says it matches other school districts and local governments, and will "increase voter participation, save election administration costs." It lists the cost as "To be determined." We found no statement against it.
+
+  The New York State Assembly passed it 141-0 on Feb. 3, 2026, and the New York State Senate passed it March 10, 2026.
+
+  Should new school board seats be filled fast, or at the next regular vote?
+hashtags: [newyork, nyassembly, schoolboard, elections, votetherecord]
+notes: >-
+  An official action from Nov. 20 (nyassembly.gov actions, read 2026-11-23: "11/13/2026 delivered to governor",
+  "11/20/2026 signed chap.380"). Found through Open States' action feed (a tip only, not a source). No post or open
+  pull request covers A4382. Rule: picked from the Nov. 20 signings because it changes when an election is held; a
+  Chapter 379 post (lobbying filings) is in a separate pull request. Everything is from the one Assembly page: the
+  memo (purpose, "union free school districts (and central school districts...)", the 30-60 day window, the 45-day
+  notice and "less than a two-week window", "has a year to fill the new seats", the case-for quote, fiscal "To be
+  determined.", effective "immediately") and the text (sec. 1, Education Law 1703(3): bracketed old words "a special
+  meeting which shall be called by the board and be held not less than thirty nor more than sixty days", new words
+  "the next annual meeting"). The page's text view drops the underscoring; the quoted new words rest on the bracket
+  markers and the memo's section 1 description, please confirm against the PDF. "The added seats wait longer" is our
+  plain reading of the memo's "has a year to fill"; no source states a downside. The Senate tally isn't on the
+  Assembly page (nysenate.gov served a bot challenge on an earlier run, not retried), so the Senate line gives only
+  the date (substituted for S6734A, not named: one bill per post). No party is shown; the Assembly record doesn't list
+  it. Names the chapter, not the Assembly number, as in the other New York posts. News first: a Nov. 20 signing takes
+  the Nov. 27 9:00 a.m. post slot, the first post slot held by an evergreen post (every earlier post slot holds an
+  action from Nov. 18-20), and moves the evergreen 2026-11-16-south-dakota-water-feasibility-studies (House passage
+  Nov. 16, more than a week ago) to 2026-12-20T03:00:00-06:00, the first post slot after the last queued post (Dec. 19
+  3:00 a.m.) that keeps each day's Reel/post turn.
