@@ -1,0 +1,107 @@
+kind: reel
+level: congress
+topic: Consumers
+approval: review
+record_ids: [us/119/public-law/129]
+publish_after: '2026-11-28T18:00:00-06:00'
+trial: auto
+design: {palette: teal, mode: dark, font: sans, position: center, motion: captions, sfx: true}
+sources:
+- title: "Public Law 119-129, Romance Scam Prevention Act (GPO)"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ129/html/PLAW-119publ129.htm
+  retrieved: '2026-11-23'
+- title: Congress.gov, H.R. 2481 actions
+  url: https://api.congress.gov/v3/bill/119/hr/2481/actions
+  retrieved: '2026-11-23'
+- title: "S. Rept. 119-58, Senate Commerce Committee report, with CBO estimate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119srpt58/html/CRPT-119srpt58.htm
+  retrieved: '2026-11-23'
+- title: "H. Rept. 119-153, House Energy and Commerce Committee report (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt153/html/CRPT-119hrpt153.htm
+  retrieved: '2026-11-23'
+bills:
+- id: H.R. 2481
+  title: Romance Scam Prevention Act
+  does: "Dating apps and sites must warn you when someone who messaged you there is banned for likely fraud."
+  affects: "Online dating services and their members. The FTC and state attorneys general enforce it."
+  where: "Signed Oct. 20, 2026 as Public Law 119-129. Takes effect Oct. 20, 2027."
+  summary:
+    text: "This act requires online dating service providers (i.e., mobile applications or websites) to provide users with a fraud ban notification if the user has established an account with the service and received a message through the service from a banned user of the service."
+    title: Congressional Research Service summary of H.R. 2481 (Public Law)
+    url: https://www.congress.gov/bill/119th-congress/house-bill/2481
+    retrieved: '2026-11-23'
+  say: "H.R. 2481 makes dating apps and sites warn you when someone who messaged you there is banned for likely fraud. It was signed October 20, 2026, and takes effect October 20, 2027."
+slides:
+- kicker: "New federal law · Signed Oct. 20, 2026"
+  big: 24 hours
+  head: "Dating apps will have to warn you within 24 hours when someone who messaged you is banned for fraud."
+  text: "H.R. 2481, the Romance Scam Prevention Act, now Public Law 119-129."
+  say: "24 hours. A new federal law says dating apps must warn you within 24 hours when someone who messaged you is banned for fraud. H.R. 2481 was signed October 20, 2026."
+- chip: Why Congress acted
+  head: "Romance scams, by the numbers in the U.S. Senate committee's report"
+  quote: {label: "S. Rept. 119-58, Senate Commerce Committee", text: "In 2024, over 59,000 consumers lost nearly $1.2 billion to romance scams, with a median loss of $2,000, according to consumer fraud reports filed with the Federal Trade Commission (FTC).", key: "nearly $1.2 billion"}
+  say: "The United States Senate committee's report says that in 2024, over 59,000 people lost nearly $1.2 billion to romance scams, reported to the Federal Trade Commission. The median loss was $2,000."
+- chip: "Before → after"
+  head: What changes
+  rows:
+  - [Before, "No federal rule. Some states require these warnings."]
+  - [After, "One federal rule for every dating app and site"]
+  - [States, "Can't keep their own rules on these warnings"]
+  - [Who enforces, "The FTC and state attorneys general"]
+  text: "The Congressional Budget Office said most dating services already send these warnings everywhere, because some states require them."
+  say: "Before, there was no federal rule, and some states required these warnings. After, one federal rule covers every dating app. States can't keep their own rules on these warnings. The Federal Trade Commission and state attorneys general enforce it."
+- chip: The warning
+  head: What the warning has to say
+  rows:
+  - [Who, "The banned member's username, and when you last messaged"]
+  - [Why, "They may have used a false identity or tried to defraud people"]
+  - [Don't, "Never send cash or personal financial information to another member"]
+  - [Help, "Tips to avoid fraud, and customer service contact"]
+  text: "By email or text, clear and easy to see."
+  say: "The warning names the banned member and when you last messaged. It says they may have used a false identity or tried to defraud people, and never to send cash or personal financial information. It comes by email or text."
+- chip: Timing
+  head: "Within 24 hours of the ban. Up to 3 days if the app decides it needs more time."
+  text: "Law enforcement can ask the app to wait during an investigation; then the warning is due within 3 days after the delay ends."
+  say: "The warning is due within 24 hours of the ban, or up to 3 days if the app decides it needs more time. Law enforcement can ask the app to wait during an investigation. Then it's due within 3 days after the delay."
+- chip: Cost
+  head: "The Congressional Budget Office's estimate"
+  rows:
+  - [FTC cost, "$4 million over 2025-2030, for the Senate committee's version"]
+  - [Dating apps, "Cost to comply expected to be small"]
+  text: "The committee expects the warnings to save fraud victims money. We found no statement against the law; it passed with no roll call."
+  say: "The Congressional Budget Office estimated the United States Senate committee's version would cost the Federal Trade Commission $4 million over 2025 to 2030, and expected the cost to dating apps to be small."
+- chip: "What's next"
+  big: "Oct. 20, 2027"
+  head: "The rule takes effect one year after the law was signed."
+  text: "Passed the U.S. House of Representatives by voice vote June 23, 2025, and the U.S. Senate by unanimous consent Sept. 23, 2026. Sponsor: Rep. Valadao (R-CA). Is a warning enough to stop a scam?"
+  say: "The rule takes effect October 20, 2027. The United States House passed it by voice vote, and the Senate by unanimous consent. Is a warning enough to stop a scam?"
+caption: |-
+  Starting Oct. 20, 2027, a dating app or site that bans someone for likely fraud has to warn everyone that person messaged there, within 24 hours (up to 3 days if the app decides it needs more time, or longer if law enforcement asks it to wait).
+
+  Today there's no federal rule; some states require these warnings, and the Congressional Budget Office said most dating services already send them everywhere because of that. The new law sets one rule for the whole country, and states can't keep their own rules on these warnings. The Federal Trade Commission and state attorneys general enforce it.
+
+  The warning names the banned member, says they may have used a false identity or tried to defraud people, and says never to send cash or personal financial information to another member.
+
+  A U.S. Senate committee report says over 59,000 people lost nearly $1.2 billion to romance scams in 2024, in reports to the FTC.
+
+  Is a warning enough to stop a scam?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [romancescam, onlinedating, consumerprotection, congress, votetherecord]
+notes: >-
+  New this run: GovInfo's public-law feed added P.L. 119-129 on Nov. 23, 2026; no post covers it. Signed Oct. 20, 2026
+  (congress.gov actions via api.congress.gov, read this run), so this is evergreen: it takes the first free Reel slot,
+  Nov. 28 6:00 p.m., after the Nov. 28 3:00 p.m. carousel, and bumps nothing. Everything about the law is from the
+  enacted text on GovInfo: sec. 2(a)(2) contents, (a)(3) timing (24 hours; 3 days on the provider's judgment; law
+  enforcement delay, then 3 days), (b) FTC and state AG enforcement, (c) "One National Standard" preemption (state
+  contract and tort law not preempted), (e) effective one year after enactment. "No federal rule" before: the law adds
+  a new 15 U.S.C. 45g and CBO calls it a new mandate; "some states require" and "most dating services have implemented
+  the notification policy regardless of the consumer's location" are CBO's words in S. Rept. 119-58. The $4 million
+  FTC cost and the small compliance cost are CBO's estimate for S. 841 as reported (the Senate companion, not named on
+  a slide; one bill per post); CBO's estimate for H.R. 2481 itself is at cbo.gov/publication/61530, which returned 403
+  this run (not retried); please check it if you can. The FTC numbers are the Senate report's, citing FTC data.
+  "Expects the warnings to save fraud victims money" restates the report's regulatory impact statement. House: voice
+  vote under suspension; Senate: unanimous consent; so no tally or names. No statement against was found (the Sept. 23
+  and June 23, 2025 Congressional Record pages weren't read). Sponsor's party and state as congress.gov lists him;
+  cosponsors (4 D, 5 R as congress.gov lists them) aren't on a slide. Trial design: changes one thing from the baseline,
+  font sans (Nov. 28's 6:00 a.m. trial changes the palette).
