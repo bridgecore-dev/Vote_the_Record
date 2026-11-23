@@ -1,0 +1,85 @@
+kind: carousel
+level: state
+place: New Jersey
+topic: School meals
+approval: review
+record_ids: [nj/222/A5439/approved]
+publish_after: '2026-11-29T03:00:00-06:00'
+sources:
+- title: NJ Legislature, A5439 history
+  url: https://www.njleg.state.nj.us/bill-search/2026/A5439
+  retrieved: '2026-11-22'
+- title: A5439 text as passed
+  url: https://pub.njleg.state.nj.us/Bills/2026/A5500/5439_I1.HTM
+  retrieved: '2026-11-22'
+- title: Assembly committee statement, Sept. 17
+  url: https://pub.njleg.state.nj.us/Bills/2026/A5500/5439_S1.HTM
+  retrieved: '2026-11-22'
+- title: Senate committee statement, Oct. 5
+  url: https://pub.njleg.state.nj.us/Bills/2026/A5500/5439_S2.HTM
+  retrieved: '2026-11-22'
+slides:
+- kicker: New Jersey · New law, Nov. 20, 2026
+  big: $375,000
+  head: New Jersey now requires part of its free school meal money to go to telling families they may qualify.
+  text: The law, P.L.2026, c.110, took effect right away. It applies to the state Department of Agriculture, which runs the program.
+- chip: The program
+  head: The Working Class Families State Supplement pays for free school breakfast and lunch for more families.
+  text: It covers households earning between 186% and 224% of the federal poverty level, which the committee calls working class and middle-income families.
+  quote: {label: Senate Budget and Appropriations Committee, text: "supports expanded eligibility for the free school breakfast and lunch program for working class and middle-income families"}
+- chip: Before → after
+  head: The 2027 state budget gave the program $15 million. The new law sets aside part of it for outreach.
+  rows:
+  - [Before, "$15 million for the program in the budget law, P.L.2026, c.27"]
+  - [After, "2.5% of it, $375,000, must pay for information and outreach"]
+  - [New money, "None. The $375,000 comes out of the same $15 million"]
+  quote: {label: "P.L.2026, c.110, sec. 1", text: "2.5 percent of such funds shall be utilized for informational and outreach activities to increase awareness of the program"}
+- chip: Who gains, who gives
+  head: More families may hear about free meals. Less of the $15 million is left for anything else.
+  rows:
+  - [Families in the income range, "The goal is to make them aware of the program"]
+  - [Department of Agriculture, "Must spend $375,000 on outreach"]
+  - [The program's other uses, "Share $14,625,000 instead of $15 million"]
+- chip: What it costs
+  head: No new cost was counted. The Legislature's records say it needed no fiscal note.
+  quote: {label: Senate Budget and Appropriations Committee, text: "This bill has not been certified as requiring a fiscal note."}
+- chip: The votes
+  head: It passed both houses, then the Governor approved it Nov. 20.
+  rows:
+  - [New Jersey General Assembly, "58 yes, 16 no, 1 abstain, 5 not voting, Sept. 24, 2026"]
+  - [New Jersey Senate, "36 yes, 2 no, 2 not voting, Oct. 22, 2026"]
+  by: "Primary sponsors: Assembly members Coughlin, Pintor Marin; Sens. Ruiz, Turner"
+- chip: Your turn
+  head: Should program money pay to tell people the program exists?
+  text: The records we opened give no argument for or against, and no member's reason for a no vote. Which side convinces you?
+caption: |-
+  New Jersey now requires $375,000 of its free school meal supplement to go to outreach. The law, P.L.2026, c.110, was approved Nov. 20, 2026 and took effect right away.
+
+  The Working Class Families State Supplement pays for free school breakfast and lunch for households earning between 186% and 224% of the federal poverty level.
+
+  Before: the 2027 budget law gave the program $15 million.
+  After: 2.5% of that, $375,000, must pay for information and outreach "to increase awareness of the program." No new money is added, so $14,625,000 is left for the rest.
+
+  Cost: the Legislature's records say the bill needed no fiscal note.
+
+  The New Jersey General Assembly passed it 58-16 (1 abstain) and the Senate 36-2.
+
+  Should program money pay to tell people the program exists? Which side convinces you?
+hashtags: [newjersey, njleg, schoolmeals, votetherecord]
+notes: >-
+  News-first: an official action from the last three days (the Legislature's bill history page, rendered on
+  2026-11-22: "11/20/2026 Approved P.L.2026, c.110."). Found through Open States' action feed (a tip only, not a
+  source). Takes Nov. 29 3:00 a.m., the earliest post slot held by an evergreen post (Nov. 23-28 post slots all hold
+  news from Nov. 16-20); this pull request moves 2026-11-18-criminal-history-access-act (presented Nov. 12, more than a
+  week old) to Dec. 17 3:00 a.m., the first post slot after the last queued post (Dec. 16 3:00 a.m.) that keeps the
+  Reel/post turn. The bill passed as introduced (no reprint; the history lists no amendments), so the introduced text
+  is the enacted text (HTML sha256 c99c1ca0303b5ed1dba9f48ae18c6c3fd531d7a40a667a1886657f1503ae7a60; PDF
+  221851279fa1c6930290509eb550172ab14670b53c45d03c2432054c24d77744). $15 million, $375,000, 2.5% and 186%-224% are from
+  both committee statements; $14,625,000 is $15 million minus $375,000 (our arithmetic). "No new money" rests on the
+  bill's "Of the amount hereinabove appropriated". "Before" says only what the budget gave, not that no outreach was
+  done before. The builder's bill-number check doesn't take New Jersey Assembly
+  numbers (A5439), so, like the A4835 post, the slides name the chapter and say what it does, who it affects and where
+  it stands. It has an identical Senate bill, which isn't named (one bill per post). Votes as the bill history
+  prints them; NJ roll calls don't list party, so none is shown. No floor statements or testimony were opened, and no
+  official case for or against was found. The P.L. chapter text isn't on pub.njleg yet (PL26/110 returned 404).
+  The governor isn't named because the record says only "Approved".

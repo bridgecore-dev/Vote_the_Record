@@ -3,7 +3,7 @@ level: congress
 topic: Bills
 approval: review
 record_ids: [us/119/H.R. 8352/presented-to-president, us/119/H.R. 8352/signed]
-publish_after: '2026-11-29T03:00:00-06:00'
+publish_after: '2026-12-17T03:00:00-06:00'
 sources:
 - title: "The White House, H.R. 5284, H.R. 8352, and H.R. 10159 Signed into Law"
   url: https://www.whitehouse.gov/briefings-statements/2026/11/congressional-bills-h-r-5284-h-r-8352-and-h-r-10159-signed-into-law/
