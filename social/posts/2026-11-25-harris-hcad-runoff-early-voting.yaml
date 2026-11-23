@@ -1,0 +1,69 @@
+kind: story
+level: local
+place: Harris County, Texas
+topic: Elections
+approval: review
+highlight: Harris Co.
+record_ids: [tx/harris-county/2026-12-12/hcad-director-place-3-runoff/early-voting]
+publish_after: '2026-11-25T20:15:00-06:00'
+sources:
+- title: "Harris County Clerk's Office Elections Department, HarrisVotes home page (Election Schedule)"
+  url: https://www.harrisvotes.com/
+  retrieved: '2026-11-23'
+- title: "Harris County Clerk, Sample Ballot, Harris Central Appraisal District Runoff Election, Dec. 12, 2026"
+  url: https://files.harrisvotes.com/harrisvotes/prd/assets/1226%20Sample%20Ballot%20ENG-SPA%20for%20Website%20Posting.pdf
+  retrieved: '2026-11-23'
+- title: "Harris County Clerk's Office Elections Department, Vote by Mail"
+  url: https://www.harrisvotes.com/Voter/Vote-by-Mail
+  retrieved: '2026-11-23'
+- title: "Texas Tax Code, Chapter 6 (Secs. 6.01, 6.05, 6.0301)"
+  url: https://statutes.capitol.texas.gov/Docs/TX/htm/TX.6.htm
+  retrieved: '2026-11-23'
+slides:
+- kicker: Countdown
+  countdown: {date: '2026-11-30', event: early voting starts in the Harris Central Appraisal District runoff}
+- kicker: Harris County runoff
+  head: One contest on the Dec. 12 ballot.
+  rows:
+  - [Contest, "HCAD, Director, At-Large, Place 3"]
+  - [On the ballot, "Ericka McCrutcheon; Jesus Nieto"]
+  - [Vote for, "None or one"]
+  text: Names in the order the sample ballot lists them.
+- kicker: Dates
+  head: When you can vote
+  rows:
+  - ["Nov. 30 - Dec. 5", "Early voting, 7 a.m. - 7 p.m."]
+  - ["Dec. 6", "Early voting, 12 p.m. - 7 p.m."]
+  - ["Dec. 7 - 8", "Early voting, 7 a.m. - 7 p.m."]
+  - ["Dec. 1", "Deadline to apply for a ballot by mail"]
+  - ["Dec. 12", "Election Day, 7 a.m. - 7 p.m."]
+- kicker: What the board does
+  head: The appraisal district sets property values for property taxes.
+  rows:
+  - [Job, "Appraises property for every local unit that levies property taxes"]
+  - [Board, "Nine directors: five appointed by taxing units, three elected countywide, plus the county tax assessor-collector"]
+  - [Hires, "The board appoints the chief appraiser, who serves at its pleasure"]
+  quote: {label: Texas Tax Code 6.0301(c), text: "Three directors are elected by majority vote at the general election for state and county officers by the voters of the county in which the district is established."}
+- kicker: What you can do
+  head: Check your vote center and hours at harrisvotes.com.
+  text: "Voting by mail is open only to some voters: 65 or older on Election Day, sick or disabled, expecting to give birth within three weeks of Election Day, out of the county, or confined in jail."
+caption: |-
+  Harris County has one more election this year: a runoff for Harris Central Appraisal District Director, At-Large, Place 3.
+
+  The Dec. 12 ballot lists Ericka McCrutcheon and Jesus Nieto. Early voting runs Nov. 30 to Dec. 8. The deadline to apply for a ballot by mail is Dec. 1. Election Day is Dec. 12, 7 a.m. to 7 p.m.
+
+  The appraisal district sets the value of property for property taxes. Under the Texas Tax Code, three of its nine directors are elected countywide by majority vote. The board appoints the chief appraiser.
+
+  Hours and vote centers: harrisvotes.com.
+hashtags: [harriscounty, houston, runoff, propertytax, votetherecord]
+notes: >-
+  New this run: harrisvotes.com (Harris County Clerk's elections site; .com, so review) lists "December 12, 2026, Harris
+  Central Appraisal District Runoff Election" with "Early Voting (NOV 30 - DEC 8) NOV 30 - DEC 5 -- 7AM - 7PM DEC 6 --
+  12PM - 7PM DEC 7 - 8 -- 7AM - 7PM Election Day DEC 12 -- 7AM - 7PM" and "Deadline to apply for a ballot by mail: DEC
+  1". The sample ballot (PDF, sha256 40d6dca15be9cf5c5a09289838b7f67776a8450cdc05ca789a8657f3b77ba54b) lists one
+  contest, "HCAD, Director, At-Large, Place 3", "Vote for none or one", Ericka McCrutcheon then Jesus Nieto (also
+  alphabetical). Board facts from Tax Code 6.01(b), 6.0301(c) and 6.05(c), read this run. Mail-ballot reasons
+  shortened from the Vote by Mail page's list. The page doesn't say whether Dec. 1 means received or postmarked, so
+  the slide just says "deadline to apply". No party: the ballot lists none. No vote counts or incumbent line: the
+  Nov. 3 results on file are unofficial and the HCAD board page wasn't reopened this run. Takes the free Nov. 25
+  8:15 p.m. story slot (no story is queued that day).
