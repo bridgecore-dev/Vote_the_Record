@@ -7,16 +7,16 @@ highlight: State
 record_ids: [ny/2025/S8925/signed]
 publish_after: '2026-11-27T20:15:00-06:00'
 sources:
-- title: New York State Assembly, S08925 (2025-2026), summary, actions and text
+- title: New York State Assembly, S8925 actions and text
   url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08925&term=2025&Summary=Y&Actions=Y&Memo=Y&Text=Y'
   retrieved: '2026-11-23'
-- title: New York State Assembly, S08925 (2025-2026), floor votes
+- title: New York State Assembly, S8925 floor votes
   url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08925&term=2025&Floor%26nbspVotes=Y'
   retrieved: '2026-11-23'
-- title: New York State Assembly, A09156 (2025-2026), sponsor's memo
+- title: New York State Assembly, A9156 sponsor's memo
   url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A09156&term=2025&Summary=Y&Actions=Y&Memo=Y&Text=Y'
   retrieved: '2026-11-23'
-- title: Governor of New York, Governor Hochul signs legislation on concentrated and synthetic 7-OH (Nov. 23, 2026)
+- title: Governor of New York, release on 7-OH (Nov. 23, 2026)
   url: https://www.governor.ny.gov/news/governor-hochul-signs-legislation-protect-new-yorkers-against-harmful-effects-concentrated-and
   retrieved: '2026-11-23'
 slides:
@@ -41,12 +41,12 @@ slides:
   - [Stores and online sellers, "Can't sell or deliver those products, or face fines"]
   - [Where fines go, "The New York State Drug Treatment and Public Education Fund"]
 - chip: The case for, and the votes
-  head: The sponsor, Assemblymember Steck, says the products were easy to buy in New York.
+  head: The sponsor, Assemblymember Steck, says the products were easy to buy.
   quote: {label: "Assembly sponsor's memo", text: "7-OH is approximately 13 times more potent than morphine"}
   rows:
   - [New York State Senate, "Passed June 2, 2026"]
   - [New York State Assembly, "132 Yes, 0 No, June 5, 2026"]
-  text: No member voted no in the New York State Assembly, and the records we opened give no case against.
+  text: We found no case against it in the records we opened.
 - chip: Your turn
   head: Should states set limits on products sold at gas stations and smoke shops?
   text: Tell us what you think.
@@ -80,4 +80,5 @@ notes: >-
   challenge), so only the date. Assembly 132/0. No case against was found in the records opened; "Stores lose
   sales" and "Products over the limit come off New York shelves" are our plain reading of the ban. No party shown;
   the records don't list it. The governor's release mentions a named death; left out. Slides name the chapter,
-  not the bill number, as in the other New York posts.
+  not the bill number, as in the other New York posts. Shortened the source titles and slide 5 text so the
+  sources footer fits (the first preview clipped it).
