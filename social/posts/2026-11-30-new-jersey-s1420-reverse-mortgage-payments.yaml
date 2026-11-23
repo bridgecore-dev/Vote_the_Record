@@ -1,0 +1,95 @@
+kind: carousel
+level: state
+place: New Jersey
+topic: Housing
+approval: review
+record_ids: [nj/222/S1420/approved]
+publish_after: '2026-11-30T03:00:00-06:00'
+sources:
+- title: New Jersey Legislature, S1420 bill history (2026-2027 session)
+  url: https://www.njleg.state.nj.us/bill-search/2026/S1420
+  retrieved: '2026-11-23'
+- title: New Jersey Legislature, S1420 as reported with technical review (bill text as passed)
+  url: https://pub.njleg.state.nj.us/Bills/2026/S1500/1420_T1.PDF
+  retrieved: '2026-11-23'
+- title: New Jersey Senate Commerce Committee statement to S1420, May 18, 2026
+  url: https://pub.njleg.state.nj.us/Bills/2026/S1500/1420_S1.PDF
+  retrieved: '2026-11-23'
+- title: 15 U.S.C. 1602(cc), definition of "reverse mortgage transaction" (GPO, U.S. Code 2024 edition)
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title15/html/USCODE-2024-title15-chap41-subchapI-partA-sec1602.htm
+  retrieved: '2026-11-23'
+bills:
+- id: S. 1420
+  does: Exempts reverse mortgages from New Jersey's rule that second-mortgage loans be repaid in equal payments on a set schedule.
+  affects: People taking out a reverse mortgage that is a secondary mortgage loan under New Jersey law, and their lenders.
+  where: Approved Nov. 20, 2026 as P.L.2026, c.108; it took effect immediately.
+  summary:
+    text: >-
+      This bill exempts reverse mortgage transactions from the requirement that secondary mortgage loan payments be
+      made in equal amounts and payment periods.
+    title: New Jersey Assembly Housing Committee statement to S1420, Oct. 5, 2026
+    url: https://pub.njleg.state.nj.us/Bills/2026/S1500/1420_S2.PDF
+    retrieved: '2026-11-23'
+slides:
+- kicker: New Jersey · New law, Nov. 20, 2026
+  big: P.L.2026, c.108
+  head: New Jersey dropped its equal-payments rule for reverse mortgages.
+  text: S. 1420 changes how second-mortgage loans in the state can be written.
+- chip: Before
+  head: A second-mortgage loan had to be paid off in equal installments, on equal periods of weeks or months.
+  quote: {label: "N.J.S.A. 17:11C-78(b), before", text: "substantially equal payment periods, measured in terms of weeks or months, and, except as otherwise permitted, substantially equal installment payment amounts"}
+- chip: What a reverse mortgage is
+  head: A home loan that, unless the borrower defaults, isn't due until the home is sold, the owner moves out, or the owner dies.
+  quote: {label: "15 U.S.C. 1602(cc)", text: "due and payable (other than in the case of default) only after— (A) the transfer of the dwelling; (B) the consumer ceases to occupy the dwelling as a principal dwelling; or (C) the death of the consumer"}
+- chip: After
+  head: Reverse mortgages are now exempt from the equal-payments rule. Other second mortgages still follow it.
+  quote: {label: "P.L.2026, c.108, sec. 1", text: "Except for a reverse mortgage transaction as defined by 15 U.S.C. s.1602"}
+- chip: What stays the same
+  head: Every second-mortgage note still needs the same warning to the borrower.
+  rows:
+  - [Title, "\"Secondary Mortgage Loan\" in large bold type at the top"]
+  - [Notice, "\"Read this promissory note or loan agreement before you sign.\""]
+  - [No blanks, "Filled in completely before the borrower signs"]
+- chip: Costs and reasons
+  head: The records we opened give no cost estimate and no argument for or against.
+  text: The committee statements say only what the bill does. No fiscal estimate is posted with the bill.
+- chip: The votes
+  head: No member of either chamber voted no.
+  rows:
+  - [New Jersey Senate, "35-0, May 28, 2026"]
+  - [New Jersey General Assembly, "76-0-0, Oct. 29, 2026"]
+  by: "Primary sponsors: Sens. Lagana, Singer; Assembly members Stanley, Freiman"
+- chip: Your turn
+  head: Should state rules for home loans bend for loans that aren't paid monthly?
+  text: Which side convinces you?
+caption: |-
+  New Jersey dropped its equal-payments rule for reverse mortgages. S. 1420 was approved Nov. 20, 2026 as P.L.2026, c.108, and took effect right away.
+
+  Before: state law said a second-mortgage loan had to be paid off in substantially equal installments, on substantially equal periods of weeks or months.
+  Now: reverse mortgages are exempt from that rule. Federal law defines a reverse mortgage as a home loan that, unless the borrower defaults, comes due only when the home is sold, the owner moves out, or the owner dies.
+
+  Other second mortgages still follow the rule, and every second-mortgage note still needs the same title and warning to the borrower.
+
+  The committee statements give no cost estimate and no reason for or against. The New Jersey Senate passed it 35-0 and the General Assembly 76-0-0.
+
+  Which side convinces you?
+hashtags: [newjersey, njleg, reversemortgage, housing, votetherecord]
+notes: >-
+  News-first: an official action from the last three days (the Legislature's bill history, read through its own
+  api/billDetail/billHistory/S1420/2026 feed on 2026-11-23: "11/20/2026 Approved P.L.2026, c.108."). Found through
+  Open States' action feed (a tip only, not a source). It is the fourth of the four New Jersey laws approved Nov. 20;
+  the other three (c.107, c.109, c.110) already have posts. Takes Nov. 30 3:00 a.m., the earliest post slot held by
+  an evergreen post (every post slot Nov. 23-28 holds an action from Nov. 16-20); this pull request moves the
+  prefiled Texas HB 1178 post to Dec. 18 3:00 a.m., the first post slot after the last queued post (Dec. 17 3:00 a.m.).
+  The passed text is the technical-review version (T1; HTML sha256
+  3bf9178d465db64bedc43c803d48b59fb7692cd203c7c1e0211de674db4fa9bf; PDF
+  0f092f59db4db1041536efc099ac77c0ed3dad9dcd1f1d6393efb845c4410460); no reprint (R1) or fiscal estimate (E1) is
+  posted (both 404). The bill cites "15 U.S.C. s.1602" without a subsection; the definition is now subsection (cc)
+  (it was (bb) before Pub. L. 111-203 relettered it). "Before" quotes sec. 28(b) of P.L.2009, c.53 as printed in the
+  bill; "what stays the same" is sec. 28(a), (c) and (d), which the bill leaves unchanged. The "affects" line
+  restates the statute's scope (an instrument evidencing a secondary mortgage loan); the definition of "secondary
+  mortgage loan" (17:11C-51) wasn't opened, so the slides say "second mortgage" as the committee statements do.
+  The bill was substituted for an identical Assembly bill, which isn't named (one bill per post). Sponsors are listed
+  by district, not party, so no party is shown. The P.L. chapter text isn't on pub.njleg yet (PL26/108 returned
+  404). The governor isn't named because the record says only "Approved". Please check the "Your turn" question
+  reads as neutral.
