@@ -1,0 +1,102 @@
+kind: carousel
+level: congress
+topic: Agriculture
+approval: review
+record_ids: ["us/119/public-law/37/sec-781-full-effect", "us/119/public-law/103/sec-2019"]
+publish_after: '2026-11-28T15:00:00-06:00'
+found_via: https://www.bevnet.com/news/2026/hemp-industry-say-50-50-odds-protection-bill-passes-congress-during-lame-duck-session
+sources:
+- title: "Public Law 119-37, Division B, sec. 781 (new definition of hemp)"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ37/html/PLAW-119publ37.htm
+  retrieved: '2026-11-23'
+- title: "Public Law 119-103, sec. 2019 (Section 781 extension) and sec. 106"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ103/html/PLAW-119publ103.htm
+  retrieved: '2026-11-23'
+- title: "CRS In Focus IF13136, Changes to the Statutory Definition of Hemp (updated Sept. 28, 2026)"
+  url: https://www.congress.gov/crs_external_products/IF/PDF/IF13136/IF13136.5.pdf
+  retrieved: '2026-11-23'
+slides:
+- kicker: "Federal law · Dec. 11, 2026"
+  big: "0.4 mg"
+  head: "From Dec. 11, a hemp product with more than 0.4 milligrams of THC per container stops counting as hemp under federal law."
+  text: "Congress changed the definition in Public Law 119-37 (Nov. 12, 2025). Public Law 119-103 put most of it off until Dec. 11, 2026."
+- chip: "The THC test: before → after"
+  head: "Hemp is cannabis with no more than 0.3% THC by dry weight. Which THC counts is what changes."
+  rows:
+  - [Before (2018 farm bill), "Counts only delta-9 THC"]
+  - [After, "Counts total THC, including THCA (tetrahydrocannabinolic acid)"]
+  quote: {label: "Congressional Research Service, IF13136", text: "products containing 0.3% delta-9 THC or less, and that may contain significant amounts of other psychoactive compounds, would not be considered marijuana and would legally be considered hemp"}
+  by: "Public Law 119-37, sec. 781; CRS IF13136"
+- chip: "No longer hemp"
+  head: "The new definition leaves out these products:"
+  rows:
+  - [Cannabinoids not found in the plant, "Out since Nov. 12, 2026"]
+  - [Plant cannabinoids made outside the plant, "Out from Dec. 11"]
+  - [Products sold to consumers, "Out from Dec. 11 if over 0.4 mg per container"]
+  - ["In-between products (oils, powders)", "Out from Dec. 11 if over 0.3%, or if sold to consumers"]
+  - [Seeds, "Out from Dec. 11 if the plant tests over 0.3% total THC"]
+  text: "The 0.4 mg counts THC plus cannabinoids with similar effects. A container is the package touching the product: a jar, can, packet or cartridge."
+  by: "Public Law 119-37, sec. 781; Public Law 119-103, sec. 2019"
+- chip: "What that means"
+  head: "Products left out of the definition are treated as marijuana under federal drug law."
+  quote: {label: "Congressional Research Service, IF13136", text: "products excluded by these provisions are not to be deemed hemp products and would instead be subject to regulation under the CSA as marijuana"}
+  text: "The CSA is the Controlled Substances Act, the federal drug law. CRS gives gummies, drinks and candies as examples of the products sold today."
+- chip: "Still hemp"
+  head: "Industrial hemp stays hemp under the new definition."
+  rows:
+  - [Fiber and stalks, "Hemp grown for the stalk or its fiber"]
+  - [Grain and seed oil, "Whole grain, oil, cake, nut and hull"]
+  - [Microgreens, "Edible leaves from young plants"]
+  - [Research, "Plants kept out of commerce at colleges and research institutes"]
+  by: "Public Law 119-37, sec. 781, new 7 U.S.C. 1639o(2)"
+- chip: "Who gains, who loses"
+  head: "Products over the limits lose their legal status as hemp. That falls on the people who make, sell and buy them. Industrial hemp keeps its status."
+  text: "None of the sources we read gives a cost figure for this change. CRS says it may affect hemp growers and the U.S. Department of Agriculture."
+  by: "CRS IF13136"
+- chip: "The case for"
+  head: "CRS says some, including attorneys general in several states, want the new definition to start on time."
+  quote: {label: "Congressional Research Service, IF13136", text: "stating general support for the new definition and that states have altered or aligned their laws and regulations with the new definition"}
+- chip: "The case against"
+  head: "CRS says some hemp industry groups oppose the change and want another approach."
+  quote: {label: "Congressional Research Service, IF13136", text: "prefer regulation of hemp-derived consumer products through agencies like FDA"}
+  text: "FDA is the Food and Drug Administration."
+- chip: "Can it still change?"
+  head: "Yes. Congress can change the date or the definition before Dec. 11."
+  text: "Bills have been filed to delay it two more years or to repeal it (CRS). Dec. 11 is also the day temporary federal funding under Public Law 119-103 runs out."
+  by: "CRS IF13136; Public Law 119-103, sec. 106"
+- chip: "What you can do"
+  head: "Should Congress keep Dec. 11, delay it, or regulate these products another way?"
+  rows:
+  - [Tell Congress, "Find your U.S. Representative at house.gov and your Senators at senate.gov"]
+  - [Check your state, "States set their own rules too, and several changed theirs (CRS)"]
+  text: "Tell us in the comments."
+caption: |-
+  Dec. 11, 2026: the new federal definition of hemp takes full effect, unless Congress changes it first.
+
+  Before: under the 2018 farm bill, hemp is cannabis with no more than 0.3% delta-9 THC by dry weight. CRS says some read that to allow products with "significant amounts of other psychoactive compounds."
+
+  After: the 0.3% limit counts total THC, including THCA. A product sold to consumers with more than 0.4 milligrams per container of THC and similar cannabinoids isn't hemp. Neither are cannabinoids made outside the plant. Those products are treated as marijuana under the Controlled Substances Act. Industrial hemp (fiber, grain, seed oil, microgreens, research) stays hemp.
+
+  Timing: Public Law 119-37 made the change on Nov. 12, 2025. Public Law 119-103 kept only the ban on cannabinoids not found in the plant for Nov. 12, 2026, and put the rest off to Dec. 11.
+
+  For: CRS says some, including attorneys general in several states, support the new definition and have aligned state laws with it. Against: CRS says some hemp industry groups oppose it and prefer regulation through agencies like FDA.
+
+  Keep the date, delay it, or regulate another way? Tell us below.
+hashtags: [hemp, congress, farmbill, votetherecord]
+notes: >-
+  Dated event (Dec. 11, 18 days out); no post or open pull request covers hemp. Not news-first (not within 3 days),
+  so it takes the first free post slot, Nov. 28 3:00 p.m. (after the Nov. 28 noon Reel), and bumps nothing.
+  Law text read this run on GovInfo: P.L. 119-37 div. B sec. 781 ("Effective 365 days after the enactment of this
+  Act", enacted Nov. 12, 2025) and P.L. 119-103 sec. 2019 ("Until December 11, 2026, the amendments made by section 781
+  ... shall only apply with respect to products described in paragraphs (1)(C)(ii)(I) and (1)(C)(iv)(I)", the
+  not-naturally-produced cannabinoids). Slide 3's row labels paraphrase (1)(C)(i)-(iv); "In-between products" is our
+  plain word for "intermediate hemp-derived cannabinoid products" (powder, liquid, tablet, oil, per new (3)(B)).
+  The seeds row has no date because sec. 2019 doesn't keep it on Nov. 12; it starts Dec. 11 with the rest. "Before" and
+  the case for/against are from CRS IF13136 version 5 (Sept. 28, 2026); both sides are CRS describing stakeholders, no
+  named speaker. GovInfo's plaw feed (read this run) lists no law after P.L. 119-142, none on hemp, so the Dec. 11
+  date stands today. api.congress.gov (this run): the two-year-delay and repeal bills CRS lists are all still at
+  committee referral; not named (one bill per post). Please recheck before the slot that no law has moved Dec. 11
+  again (a new funding law before Dec. 11 could carry one). FDA's cannabinoid lists (due 90 days after enactment;
+  unpublished as of CRS's Sept. 28 update) are left off the slides because that status may have changed.
+  "Who gains, who loses" is our plain reading of the exclusions; no source gives a cost. Found via a news story on
+  bevnet.com; every claim rests on the laws and CRS.
