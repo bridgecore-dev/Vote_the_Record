@@ -1,0 +1,83 @@
+kind: story
+level: state
+place: New York
+topic: Health
+approval: review
+highlight: State
+record_ids: [ny/2025/S8925/signed]
+publish_after: '2026-11-27T20:15:00-06:00'
+sources:
+- title: New York State Assembly, S08925 (2025-2026), summary, actions and text
+  url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08925&term=2025&Summary=Y&Actions=Y&Memo=Y&Text=Y'
+  retrieved: '2026-11-23'
+- title: New York State Assembly, S08925 (2025-2026), floor votes
+  url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S08925&term=2025&Floor%26nbspVotes=Y'
+  retrieved: '2026-11-23'
+- title: New York State Assembly, A09156 (2025-2026), sponsor's memo
+  url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A09156&term=2025&Summary=Y&Actions=Y&Memo=Y&Text=Y'
+  retrieved: '2026-11-23'
+- title: Governor of New York, Governor Hochul signs legislation on concentrated and synthetic 7-OH (Nov. 23, 2026)
+  url: https://www.governor.ny.gov/news/governor-hochul-signs-legislation-protect-new-yorkers-against-harmful-effects-concentrated-and
+  retrieved: '2026-11-23'
+slides:
+- kicker: New York · New law, Nov. 23, 2026
+  big: 2%
+  head: New York bans selling products with more 7-OH, a compound found in kratom, than 2% of total alkaloids or 1 milligram per serving.
+  text: Signed as Chapter 415 of the Laws of 2026. It takes effect 90 days after signing.
+- chip: What 7-OH is
+  head: 7-OH, short for 7-hydroxymitragynine, is a compound in kratom that acts like an opioid.
+  quote: {label: "Assembly sponsor's memo", text: "7-OH is a concen- tration that acts as an opioid, providing effects like pain relief, mood enhancement, and sedation."}
+- chip: Before → after
+  head: Kratom stays legal for adults. Products with concentrated 7-OH can't be sold.
+  rows:
+  - [Before, "2025 laws: no kratom sales to anyone under 21, plus ingredient lists and warning labels"]
+  - [After, "No business may knowingly sell or deliver products over the limit, including online"]
+  - [Limit, "Over 2% of total alkaloids, or over 1 mg per serving"]
+  - [Penalty, "Up to $500 for a first violation, $1,000 for each after"]
+- chip: Who gains, who loses
+  head: The law's backers say it protects buyers. Stores lose sales of these products.
+  rows:
+  - [People who buy kratom, "Products over the limit come off New York shelves"]
+  - [Stores and online sellers, "Can't sell or deliver those products, or face fines"]
+  - [Where fines go, "The New York State Drug Treatment and Public Education Fund"]
+- chip: The case for, and the votes
+  head: The sponsor, Assemblymember Steck, says the products were easy to buy in New York.
+  quote: {label: "Assembly sponsor's memo", text: "7-OH is approximately 13 times more potent than morphine"}
+  rows:
+  - [New York State Senate, "Passed June 2, 2026"]
+  - [New York State Assembly, "132 Yes, 0 No, June 5, 2026"]
+  text: No member voted no in the New York State Assembly, and the records we opened give no case against.
+- chip: Your turn
+  head: Should states set limits on products sold at gas stations and smoke shops?
+  text: Tell us what you think.
+caption: |-
+  New York's governor signed a bill on Nov. 23, 2026 that bans selling products with concentrated 7-OH (7-hydroxymitragynine), a compound found in kratom that acts like an opioid. It is Chapter 415 of the Laws of 2026 and takes effect 90 days after signing.
+
+  Before: 2025 laws already barred selling kratom to anyone under 21 and required ingredient lists and warning labels, the governor's office says. After: no business, including online platforms, may knowingly sell, offer or deliver a product with 7-OH above 2% of total alkaloids or 1 milligram per serving.
+
+  Penalty: up to $500 for a first violation and $1,000 for each one after, recovered by the attorney general. Fines go to the New York State Drug Treatment and Public Education Fund.
+
+  The New York State Senate passed it June 2, 2026, and the New York State Assembly passed it 132-0 on June 5, 2026.
+
+  Should states set limits on products sold at gas stations and smoke shops?
+hashtags: [newyork, nylegislature, kratom, publichealth, votetherecord]
+rule: >-
+  Picked from the two New York bills the governor signed Nov. 23, 2026 (Chapters 414 and 415, both on the
+  nyassembly.gov actions); each gets its own post.
+notes: >-
+  News-first: an official action from today (nyassembly.gov actions for S8925A, read 2026-11-23: "11/13/2026
+  DELIVERED TO GOVERNOR", "11/23/2026 SIGNED CHAP.415"). Found through the governor's news page (an official
+  source). No post or open pull request covers S8925 or 7-OH. Takes the Nov. 27 8:15 p.m. story slot, the first
+  free story slot after the Nov. 26 one taken by the Chapter 414 pull request, so no post is bumped. The slides
+  follow the enacted text (new General Business Law 392-l): subd. 1 the limit, subd. 3 who can't sell ("online
+  platform" is in the text), subd. 4 the penalties and the fund; sec. 2, 90 days. "Kratom stays legal for adults"
+  is our reading: the law reaches only products over the limit, and the governor's release says kratom sales to
+  under-21s were banned in 2025 (the 2025 laws themselves weren't opened; the Before row rests on the release).
+  "Acts like an opioid" and "13 times more potent than morphine" are the Assembly sponsor's memo (A9156B, Steck);
+  the memo text breaks "concen- tration" across a line and is quoted as printed. The Senate sponsor is Sen. C. Ryan;
+  the Assembly bill A9156B was the same-as bill (Senate S8925A was substituted and is the one that passed), so the
+  sponsor's memo is from the Assembly version. Senate tally isn't on the Assembly page (nysenate.gov serves a bot
+  challenge), so only the date. Assembly 132/0. No case against was found in the records opened; "Stores lose
+  sales" and "Products over the limit come off New York shelves" are our plain reading of the ban. No party shown;
+  the records don't list it. The governor's release mentions a named death; left out. Slides name the chapter,
+  not the bill number, as in the other New York posts.
