@@ -1,0 +1,75 @@
+kind: carousel
+level: state
+place: New York
+topic: Ethics
+approval: review
+record_ids: [ny/2025/A2330/signed]
+publish_after: '2026-11-28T09:00:00-06:00'
+rule: Picked from the New York laws signed Nov. 20, 2026 because it changes what the public can see about lobbying.
+sources:
+- title: New York State Assembly, A02330 (2025-2026), summary, actions, floor votes, memo and text
+  url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A02330&term=2025&Summary=Y&Actions=Y&Memo=Y&Text=Y&Floor%26nbspVotes=Y'
+  retrieved: '2026-11-23'
+slides:
+- kicker: New York · New law, Nov. 20, 2026
+  big: No more paper
+  head: Every lobbying filing in New York must now be sent online.
+  text: Signed as Chapter 379 of the Laws of 2026. It takes effect on the 30th day after it became law.
+- chip: Plain words
+  head: Lobbyists and the groups that hire them file reports with the state on their lobbying.
+  text: They file with the Commission on Ethics and Lobbying in Government, which runs an online filing system.
+- chip: Before → after
+  head: About 1,000 paper filings a year were typed in by hand before the public could see them.
+  rows:
+  - [Before, "Most filed online; some filed on paper"]
+  - [Paper, "About 1,000 a year, entered by commission staff by hand"]
+  - [Delay, "Not public until they are entered, the sponsor's memo says"]
+  - [After, "Every statement and report goes through the online system"]
+- chip: What the law says
+  head: The new section added to the state's Legislative Law
+  quote: {label: "Chapter 379, section 1 (Legislative Law 1-u)", text: "All statements and reports required by this article shall be submitted electronically using the commission's online filing system."}
+- chip: The case for
+  head: Filings are public as soon as they are sent.
+  quote: {label: "Sponsor's memo", text: "Lobbying filings submitted using the Commission's online filing system, however, are available to the public immediately upon submission."}
+  text: The memo lists the cost to state and local governments as "None."
+- chip: Who changes
+  head: Filers who used paper now have to file online.
+  text: The memo doesn't say what that costs them, and we found no statement against the law.
+- chip: The votes
+  head: No member voted no in the New York State Assembly.
+  rows:
+  - [New York State Assembly, "146 Yes, 0 No, March 4, 2026"]
+  - [New York State Senate, "Passed March 16, 2026"]
+  - [Governor, "Signed Nov. 20, 2026, Chapter 379"]
+  text: The sponsor is Assemblymember McDonald.
+- chip: Your turn
+  head: Would you look up who is lobbying your state lawmakers?
+  text: New York's lobbying filings are posted by the state ethics commission. What would you search for first?
+caption: |-
+  Every lobbying filing in New York must now be sent online. It was signed Nov. 20, 2026 as Chapter 379 of the Laws of 2026 and takes effect on the 30th day after it became law.
+
+  Before: most lobbyists and their clients already filed online, but the state's Commission on Ethics and Lobbying in Government still got about 1,000 paper filings a year. Staff typed them in by hand, and they weren't public until then, the sponsor's memo says.
+  Now: "All statements and reports" under the lobbying law go through the commission's online filing system.
+
+  For: the memo says online filings "are available to the public immediately upon submission," and lists the cost to governments as "None." Filers who used paper have to switch; the memo doesn't say what that costs them. We found no statement against it.
+
+  The New York State Assembly passed it 146-0 on March 4, 2026, and the New York State Senate passed it March 16, 2026.
+
+  Would you look up who is lobbying your state lawmakers?
+hashtags: [newyork, nyassembly, lobbying, ethics, votetherecord]
+notes: >-
+  An official action from Nov. 20 (nyassembly.gov actions, read 2026-11-23: "11/13/2026 delivered to governor",
+  "11/20/2026 signed chap.379"). Found through Open States' action feed (a tip only, not a source). No post or open
+  pull request covers A2330. Rule: picked from the Nov. 20 signings because it changes what the public can see about
+  lobbying; a Chapter 380 post (school board seats) is in a separate pull request. Everything is from the one Assembly
+  page: the memo (purpose, "many lobbyists and clients file ... via paper", "approximately one thousand paper lobbying
+  filings each year", entered "by hand", "not public until they are entered", the "immediately upon submission"
+  quote, fiscal "None.", effective "thirtieth day after it shall have become a law") and the text (sec. 1, new
+  Legislative Law 1-u, quoted exactly; it renumbers the old 1-u and 1-v as 1-v and 1-w). By our count the 30th day
+  after Nov. 20 is Dec. 20, 2026, which is not on a slide; please confirm if you want it added. "The groups that hire
+  them" is our plain word for the memo's "clients". "Filers who used paper now have to file online" follows from the
+  text; no source states a cost to filers or an argument against. The Senate tally isn't on the Assembly page
+  (nysenate.gov served a bot challenge on an earlier run, not retried), so the Senate line gives only the date
+  (substituted for S5843, not named: one bill per post). No party is shown; the Assembly record doesn't list it. Names
+  the chapter, not the Assembly number, as in the other New York posts. Takes Nov. 28 9:00 a.m., the first free post
+  slot that keeps the day's Reel/post turn (after the Nov. 28 6:00 a.m. Reel), so no post is bumped.
