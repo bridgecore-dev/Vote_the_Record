@@ -9,25 +9,25 @@ rule: >-
   From the U.S. Senate's Nov. 19, 2026 floor log, every bill it passed that the U.S. House of Representatives had
   already passed. That day it was H.R. 1520 only; the same rule as the Nov. 16 posts.
 sources:
-- title: "U.S. Senate Press Gallery, Thursday, November 19, 2026"
+- title: "Senate Press Gallery, Nov. 19, 2026"
   url: https://www.dailypress.senate.gov/thursday-november-19-2026/
   retrieved: '2026-11-19'
-- title: "H.R. 1520, Engrossed Amendment Senate, Nov. 19, 2026 (GPO)"
+- title: "H.R. 1520, Senate text (GPO)"
   url: https://www.govinfo.gov/content/pkg/BILLS-119hr1520eas/html/BILLS-119hr1520eas.htm
   retrieved: '2026-11-24'
-- title: "H.R. 1520, text as passed by the U.S. House of Representatives (GPO)"
+- title: "H.R. 1520, House text (GPO)"
   url: https://www.govinfo.gov/content/pkg/BILLS-119hr1520eh/html/BILLS-119hr1520eh.htm
   retrieved: '2026-11-24'
-- title: "House Report 119-159, Charlotte Woodward Organ Transplant Discrimination Prevention Act (GPO)"
+- title: "H. Rept. 119-159 (GPO)"
   url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt159/html/CRPT-119hrpt159.htm
   retrieved: '2026-11-19'
 - title: "Congress.gov, H.R. 1520 actions"
   url: https://api.congress.gov/v3/bill/119/hr/1520/actions
   retrieved: '2026-11-24'
-- title: "Congress.gov, H.R. 1520 amendments (S.Amdt. 7028)"
+- title: "Congress.gov, S.Amdt. 7028"
   url: https://api.congress.gov/v3/bill/119/hr/1520/amendments
   retrieved: '2026-11-24'
-- title: "45 CFR 84.56, Medical treatment (eCFR)"
+- title: "45 CFR 84.56 (eCFR)"
   url: https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-A/part-84/subpart-F/section-84.56
   retrieved: '2026-11-24'
 bills:
@@ -96,4 +96,4 @@ notes: >-
   Cost: the bill record lists no CBO estimate (API, cboCostEstimates empty); the House report's no-new-budget-
   authority finding was for the House text, and the slide says "House committee". "Today" rows are still the
   House report's Background section. Sponsor's party and state as congress.gov lists them. No case against was
-  found: no dissenting views in the report and no recorded vote in either chamber. Slot unchanged.
+  found: no dissenting views in the report and no recorded vote in either chamber. Slot unchanged. Source titles shortened after the first preview clipped the footer on slide 3.
