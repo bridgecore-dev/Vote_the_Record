@@ -1,0 +1,98 @@
+kind: carousel
+level: congress
+topic: Parks
+approval: review
+record_ids: [us/119/H.R. 1550/signed]
+publish_after: '2026-11-25T21:00:00-06:00'
+sources:
+- title: "The White House, bills signed Nov. 23, 2026"
+  url: https://www.whitehouse.gov/briefings-statements/2026/11/congressional-bills-h-r-1550-h-r-4930-and-h-r-8552-signed-into-law/
+  retrieved: '2026-11-24'
+- title: H.R. 1550 actions, Congress.gov
+  url: https://api.congress.gov/v3/bill/119/hr/1550/actions
+  retrieved: '2026-11-24'
+- title: H.R. 1550 record, Congress.gov
+  url: https://api.congress.gov/v3/bill/119/hr/1550
+  retrieved: '2026-11-24'
+- title: "H.R. 1550 enrolled text (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr1550enr/html/BILLS-119hr1550enr.htm
+  retrieved: '2026-11-24'
+- title: "Cong. Record, May 13, 2025, H1974"
+  url: https://www.govinfo.gov/content/pkg/CREC-2025-05-13/html/CREC-2025-05-13-pt1-PgH1974.htm
+  retrieved: '2026-11-24'
+bills:
+- id: H.R. 1550
+  title: Strengthening America's Turning Point Act
+  does: "Renames Saratoga National Historical Park in Stillwater, New York, as Saratoga National Battlefield Park."
+  affects: "The national park site in Stillwater, New York, and U.S. laws, maps and records that name it."
+  where: "Signed into law Nov. 23, 2026. A Public Law number wasn't posted yet when this was written."
+  summary:
+    text: "This bill renames the Saratoga National Historical Park, located in Stillwater, New York, as Saratoga National Battlefield Park."
+    title: Congressional Research Service summary of H.R. 1550
+    url: https://api.congress.gov/v3/bill/119/hr/1550/summaries
+    retrieved: '2026-11-24'
+slides:
+- kicker: "Signed into law · Nov. 23, 2026"
+  big: Battlefield
+  head: "A new law puts the word \"Battlefield\" back in the name of the national park at Saratoga, New York."
+  text: "H.R. 1550, the Strengthening America's Turning Point Act."
+- chip: "Before → after"
+  head: "Before: Saratoga National Historical Park. After: Saratoga National Battlefield Park."
+  quote:
+    label: "H.R. 1550, as enrolled, sec. 2(b)"
+    text: "Any reference in a law, map, regulation, document, paper, or other record of the United States to Saratoga National Historical Park shall be deemed to be a reference to Saratoga National Battlefield Park."
+  text: "The law has two sections: its short title and the new name. Its text changes nothing else."
+- chip: Why the old name
+  head: "New York State first called it Saratoga Battlefield Park. The word was dropped when it joined the National Park System in 1938."
+  quote:
+    label: "Rep. Val Hoyle (D-OR), Congressional Record, May 13, 2025"
+    text: "However, the site's name changed to the Saratoga National Historical Park when Congress designated it as part of the National Park System in 1938."
+- chip: What happened there
+  head: "In 1777, American troops defeated a British invasion force at Saratoga. The British general, Burgoyne, surrendered there."
+  quote:
+    label: "Rep. Elise Stefanik (R-NY), sponsor, Congressional Record, May 13, 2025"
+    text: "The American victory against British forces at the Battles of Saratoga marked a changing of the tide in the Revolutionary War, hence, the turning point, securing foreign support from France and bolstering domestic support for the American patriots"
+- chip: "Who it affects"
+  head: "It changes a name. No source we opened names anyone who gains or loses money."
+  rows:
+  - [Changes, "The park's official name"]
+  - [Cost, "Congress.gov lists a CBO estimate; cbo.gov didn't open for us"]
+  - [Votes, "U.S. House voice vote; U.S. Senate unanimous consent"]
+  - [Against, "No member spoke against it in the House debate"]
+- chip: Your turn
+  head: "Does a park's name change how you see the place? Would \"Battlefield\" make you want to visit?"
+  text: "The park is in Stillwater, New York."
+caption: |-
+  On Nov. 23, the President signed H.R. 1550, the Strengthening America's Turning Point Act.
+
+  Before: the national park at the Saratoga battle site in Stillwater, New York, was Saratoga National Historical Park. After: it's Saratoga National Battlefield Park, and every U.S. law, map and record that uses the old name now means the new one. The law's text changes nothing else.
+
+  New York State first called the site Saratoga Battlefield Park; members said in the House debate that the word was dropped when it became a national park in 1938.
+
+  The U.S. House of Representatives passed it by voice vote on May 13, 2025, and the U.S. Senate by unanimous consent on Sept. 29, 2026, so there's no list of how each member voted.
+
+  Sponsor: Rep. Elise Stefanik (R-NY), with Rep. Paul Tonko (D-NY).
+
+  Does a name change how you see a place?
+hashtags: [saratoga, nationalparks, newyork, newlaw, votetherecord]
+notes: >-
+  New this run: the White House statement dated Nov. 23, 2026 (whitehouse.gov, read 2026-11-24 UTC / Nov. 23 Central)
+  says the President signed H.R. 1550 on Monday, Nov. 23; the two other bills in that statement (H.R. 4930, H.R. 8552)
+  already have posts, and no post or open pull request covers H.R. 1550. congress.gov actions (API, this run) end at
+  "Presented to President." on Nov. 12; no Public Law yet (GovInfo's newest posted Nov. 23 are lower-numbered laws).
+  House: suspension, voice vote, May 13, 2025 (CR H1974); Senate: reported by ENR without written report, passed
+  without amendment by unanimous consent Sept. 29, 2026 (CR S5140-5144, not read). Before/after and "changes nothing
+  else" are from the two-section enrolled text. The 1927/1938 history and "turning point" are the floor speakers'
+  words (Hoyle: "began efforts to preserve the battlefield in 1927, establishing a park known as the Saratoga
+  Battlefield Park ... the site's name changed ... in 1938"; Westerman said the same), not an NPS page. "In 1777 ...
+  defeated a British invasion force ... Burgoyne surrendered" restates Westerman's and Stefanik's floor words. CBO:
+  congress.gov lists cbo.gov/publication/62172 (as ordered reported by Senate ENR, Feb. 4, 2026); cbo.gov returned
+  403 (not retried), so no cost figure is on a slide. Every floor speaker (Westerman, Hoyle, Stefanik) supported it,
+  so there is no case against to quote. Parties and states: Stefanik and Hoyle as the House Clerk's roll 327 XML lists
+  them, names from congress.gov member records; Tonko (D-NY-20), the only cosponsor, from the bill record. News first:
+  takes the Nov. 25 9:00 p.m. post slot, the first post slot at least 3 hours away held by an evergreen post (every
+  earlier post slot holds this week's actions; the Nov. 25 3:00 a.m. H.R. 8454 post's Senate passage, Nov. 17, isn't
+  yet a week old), and moves 2026-11-22-safe-cloud-storage-act (H.R. 7834, Senate passage Nov. 16, still not
+  presented per congress.gov actions read this run) to 2026-12-21T03:00:00-06:00, the first post slot after the last
+  queued post (Dec. 20 3:00 a.m.) that keeps each day's turns. Source titles and slide 6's head shortened after the
+  first preview clipped slide 6's source footer.

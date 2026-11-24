@@ -3,7 +3,7 @@ level: congress
 topic: Bills
 approval: review
 record_ids: [us/119/H.R. 7834/senate-passed]
-publish_after: '2026-11-25T21:00:00-06:00'
+publish_after: '2026-12-21T03:00:00-06:00'
 sources:
 - title: H.R. 7834 bill status (GovInfo, Library of Congress data)
   url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7834.xml
