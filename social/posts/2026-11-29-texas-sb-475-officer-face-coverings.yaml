@@ -60,8 +60,8 @@ slides:
 - chip: Who it affects
   head: People stopped by officers would gain a way to sue. Officers would face new limits and new lawsuits.
   rows:
-  - [People detained, "Could sue a masked officer who isn't identifiable by name or uniform"]
-  - [Officers and agents, "Would need to show their face, or their name on the uniform, unless an exception applies"]
+  - [People detained, "Could sue an officer who detained them in a banned covering"]
+  - [Officers and agents, "Couldn't cover their faces unless an exception applies; a clearly shown name is a defense in a lawsuit"]
   text: No fiscal note or bill analysis is posted yet, so there is no official estimate of what it would cost.
 - chip: When it would start
   big: Sept. 1, 2027
