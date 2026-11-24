@@ -12,73 +12,88 @@ sources:
 - title: "U.S. Senate Press Gallery, Thursday, November 19, 2026"
   url: https://www.dailypress.senate.gov/thursday-november-19-2026/
   retrieved: '2026-11-19'
+- title: "H.R. 1520, Engrossed Amendment Senate, Nov. 19, 2026 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr1520eas/html/BILLS-119hr1520eas.htm
+  retrieved: '2026-11-24'
 - title: "H.R. 1520, text as passed by the U.S. House of Representatives (GPO)"
   url: https://www.govinfo.gov/content/pkg/BILLS-119hr1520eh/html/BILLS-119hr1520eh.htm
-  retrieved: '2026-11-19'
+  retrieved: '2026-11-24'
 - title: "House Report 119-159, Charlotte Woodward Organ Transplant Discrimination Prevention Act (GPO)"
   url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt159/html/CRPT-119hrpt159.htm
   retrieved: '2026-11-19'
 - title: "Congress.gov, H.R. 1520 actions"
   url: https://api.congress.gov/v3/bill/119/hr/1520/actions
-  retrieved: '2026-11-19'
+  retrieved: '2026-11-24'
+- title: "Congress.gov, H.R. 1520 amendments (S.Amdt. 7028)"
+  url: https://api.congress.gov/v3/bill/119/hr/1520/amendments
+  retrieved: '2026-11-24'
+- title: "45 CFR 84.56, Medical treatment (eCFR)"
+  url: https://www.ecfr.gov/current/title-45/subtitle-A/subchapter-A/part-84/subpart-F/section-84.56
+  retrieved: '2026-11-24'
 bills:
 - id: H.R. 1520
   title: Charlotte Woodward Organ Transplant Discrimination Prevention Act
-  does: "Would bar transplant providers from denying an organ transplant solely because of a disability, with a medical exception."
-  affects: "People with disabilities who need transplants, and health care providers and transplant hospitals."
-  where: "Passed the U.S. House June 23, 2025, and the U.S. Senate by unanimous consent Nov. 19, 2026."
+  does: "Would bar transplant providers from denying organ transplants on the basis of a disability, with an exception."
+  affects: "People with disabilities who need transplants, and the providers and programs that do transplants."
+  where: "Passed the U.S. House June 2025. The U.S. Senate passed its own text Nov. 19, 2026. Back to the U.S. House."
   summary:
     text: >-
-      This bill expressly prohibits health care providers and other entities involved in matching donated organs
-      with recipients from denying or restricting an individual's access to organ transplants solely on the basis
-      of the individual's disability, except in limited circumstances.
-    title: Congressional Research Service summary of H.R. 1520
-    url: https://www.congress.gov/bill/119th-congress/house-bill/1520
-    retrieved: '2026-11-19'
+      An Act to prohibit discrimination on the basis of mental or physical disability in cases of organ
+      transplants.
+    title: "Title of H.R. 1520, Engrossed Amendment Senate (no CRS summary of the Senate text yet)"
+    url: https://www.govinfo.gov/content/pkg/BILLS-119hr1520eas/html/BILLS-119hr1520eas.htm
+    retrieved: '2026-11-24'
 slides:
 - kicker: "U.S. Senate · Nov. 19, 2026"
   big: H.R. 1520
-  head: "The U.S. Senate passed a bill that would bar denying someone an organ transplant solely because of a disability."
+  head: "The U.S. Senate passed its own version of a bill to bar denying organ transplants because of a disability."
 - chip: "Before → after"
-  head: "Federal disability laws already bar this. The committee report says enforcement is limited."
+  head: "Federal disability laws already bar this. The House committee report says enforcement is limited."
   rows:
   - [Today, "The ADA, the Rehabilitation Act and the ACA bar transplant centers from disability discrimination"]
-  - [Today, "Report: limited enforcement and no federal guidance"]
-  - [After, "No denial, refusal to refer, or waitlist refusal solely for a disability"]
-  - [After, "Complaints go to HHS's Office for Civil Rights for expedited resolution"]
-- chip: The exception
-  head: "A disability can count only if a physician, after an individualized evaluation, finds it medically significant to the transplant."
-  text: "If the patient has a support network to help follow the care rules after surgery, not being able to follow them alone can't count as medically significant."
+  - [Today, "House report: limited enforcement and no federal guidance"]
+  - [After, "No denial, refusal to refer, or waitlist refusal on the basis of a disability"]
+  - [After, "Organ allocation criteria can't discriminate on the basis of disability"]
+  - [After, "HHS's Office for Civil Rights considers complaints for quick resolution and reports yearly"]
+- chip: "What the U.S. Senate changed"
+  head: "The U.S. Senate replaced the House text. The biggest change is the exception."
+  rows:
+  - [House text, "A disability counts only if a physician finds it medically significant"]
+  - [Senate text, "After an individualized assessment, consistent with disability law and HHS's rule (45 CFR 84.56)"]
+  - [House text, "A support network can make up for not following care rules alone"]
+  - [Senate text, "Reasonable changes or aids and services can make up for it"]
 - chip: "Who gains, who must change"
-  head: "Patients with disabilities gain. Providers must adjust their policies."
+  head: "Patients with disabilities gain. Transplant providers must adjust their policies."
   rows:
   - [Gains, "People with disabilities who need an organ transplant"]
-  - [Must change, "Health care providers and transplant hospitals: reasonable changes to their policies"]
-  - [Limit, "Not if a change would fundamentally alter what they offer"]
-  - [Cost, "House committee: no new spending authority. CBO's estimate wasn't ready when it reported"]
+  - [Must change, "Transplant providers: reasonable changes to policies, practices or procedures"]
+  - [Limit, "Not if a change would fundamentally alter the program"]
+  - [Cost, "House committee: no new spending authority. No CBO estimate is listed"]
 - chip: Where it stands
-  head: "Sponsor: Rep. Kat Cammack (R-FL). Passed the U.S. House of Representatives by voice vote, June 23, 2025."
-  text: "The U.S. Senate passed it by unanimous consent on Nov. 19, 2026. If that's the same text, it goes to the President next. Should federal law spell this out? Tell us."
+  head: "Sponsor: Rep. Kat Cammack (R-FL). The U.S. House of Representatives passed it by voice vote, June 23, 2025."
+  text: "The U.S. Senate passed a different text by unanimous consent on Nov. 19, 2026, so it goes back to the U.S. House next. Should federal law spell this out? Tell us."
 caption: |-
-  The U.S. Senate passed H.R. 1520, the Charlotte Woodward Organ Transplant Discrimination Prevention Act, by unanimous consent on Nov. 19, 2026. The U.S. House of Representatives passed it by voice vote on June 23, 2025.
+  The U.S. Senate passed H.R. 1520, the Charlotte Woodward Organ Transplant Discrimination Prevention Act, on Nov. 19, 2026, with a new text. The U.S. House of Representatives passed the original in 2025, so it goes back to the U.S. House.
 
-  Before: the Americans with Disabilities Act, the Rehabilitation Act and the Affordable Care Act already bar transplant centers from disability discrimination. The House committee report says there is limited enforcement and no federal guidance. After: providers and transplant hospitals couldn't deny a transplant, refuse a referral, or refuse to put someone on a waiting list solely because of a disability. A disability could count only if a physician, after an individualized evaluation, finds it medically significant. Complaints would go to the Office for Civil Rights at the Department of Health and Human Services.
+  Before: federal disability laws already bar transplant discrimination; a House report says enforcement is limited. After: no denying a transplant, a referral or a waitlist spot on the basis of a disability.
 
-  Cost: the committee found no new spending authority; CBO's estimate wasn't ready when it reported. The committee approved it 46-1.
+  What changed: the House text let a disability count only if a physician found it medically significant. The Senate text allows it after an individualized assessment, consistent with disability law.
 
   Should federal law spell this out?
 hashtags: [congress, disability, organdonation, health]
 notes: >-
-  New this run: the Senate Press Gallery's Nov. 19 log (12:37-1:09 p.m. entries) says "Passed by unanimous
-  consent- H.R. 1520-Charlotte Woodward Organ Transplant Discrimination Prevention Act". Congress.gov actions (read
-  this run) end at the Senate referral (June 24, 2025), so whether the Senate changed the text isn't confirmed: the
-  post says "if that's the same text". Please check congress.gov or the Nov. 19 Record for "without amendment"
-  before the slot; if so, the last slide can say it goes to the President, and if the President has signed it by
-  then, update "where". The CRS summary is of the introduced bill; the House report says the committee reported
-  it without amendment and the House action is "pass the bill" (not "as amended"), and the engrossed text matches
-  the summary's points (secs. 3-4). "Today" rows are the report's Background section; "After" and the exception
-  are secs. 4(a), 4(b), 4(c) and 4(e) of the engrossed text. Cost line: the report's budget-authority finding and
-  its note that CBO's estimate "was not available"; congress.gov lists no CBO estimate. Committee vote 46-1 from
-  the report (April 29, 2025). Sponsor's party and state as congress.gov lists them. No case against was found:
-  the report has no dissenting views and both chambers passed it without a recorded vote. S. 3321, also passed
-  Nov. 19, is a Senate bill the House hasn't passed, so it's outside the rule.
+  Nov. 24 update (step 2a recheck): congress.gov actions (API, read 2026-11-24) now say "Passed Senate with an
+  amendment by Unanimous Consent" on Nov. 19 (S.Amdt. 7028, "In the nature of a substitute"), message sent to the
+  House Nov. 20. The earlier version of this post described the House text and said "if that's the same text, it
+  goes to the President next"; it isn't, so it goes back to the House. Changed: slide 1 head, the "After" rows
+  (now from the Senate engrossed amendment, secs. 3, 4(a), 4(d), 4(e)), a new "What the U.S. Senate changed" slide
+  (House sec. 4(b)(1)(A) and 4(b)(2) vs. Senate sec. 4(b)(1) and 4(b)(2)) in place of the old exception slide,
+  "Who gains" rows (Senate sec. 4(c)(1): "fundamentally alter the nature of the program or activity"), the last
+  slide, `where`, `does`, `affects`, and the caption. The CRS summary on congress.gov is still only for the
+  introduced bill and says "solely", which the Senate text drops, so the bill's summary now quotes the Senate
+  text's title. "Reports yearly" is sec. 4(e) (annual HHS report to Congress on complaints). 45 CFR 84.56 is HHS's
+  "Medical treatment" section of its Section 504 rule (eCFR, read 2026-11-24); the bill names it in sec. 4(b)(1).
+  Cost: the bill record lists no CBO estimate (API, cboCostEstimates empty); the House report's no-new-budget-
+  authority finding was for the House text, and the slide says "House committee". "Today" rows are still the
+  House report's Background section. Sponsor's party and state as congress.gov lists them. No case against was
+  found: no dissenting views in the report and no recorded vote in either chamber. Slot unchanged.
