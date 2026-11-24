@@ -1,0 +1,74 @@
+kind: story
+level: local
+place: Harris County, Texas
+topic: Elections
+approval: review
+highlight: Harris Co.
+record_ids: [tx/harris-county/2026-12-12/hcad-director-place-3-runoff/mail-ballot-application-deadline]
+publish_after: '2026-11-28T20:15:00-06:00'
+sources:
+- title: "Harris County Clerk's Office Elections Department, HarrisVotes home page (Election Schedule)"
+  url: https://www.harrisvotes.com/
+  retrieved: '2026-11-24'
+- title: "Harris County Clerk's Office Elections Department, Vote by Mail"
+  url: https://www.harrisvotes.com/Voter/Vote-by-Mail
+  retrieved: '2026-11-24'
+- title: "Texas Election Code, Chapter 84 (Sec. 84.007)"
+  url: https://tcss.legis.texas.gov/resources/EL/htm/EL.84.htm
+  retrieved: '2026-11-24'
+- title: "Texas Election Code, Chapter 82 (who may vote by mail)"
+  url: https://tcss.legis.texas.gov/resources/EL/htm/EL.82.htm
+  retrieved: '2026-11-24'
+slides:
+- kicker: Countdown
+  countdown: {date: '2026-12-01', event: the deadline to apply for a mail ballot in the Harris County appraisal district runoff}
+- kicker: The deadline
+  head: Dec. 1 means the clerk has it, not that you mailed it.
+  text: "Texas law sets the deadline at the 11th day before Election Day. The runoff is Dec. 12."
+  quote: {label: Texas Election Code 84.007(d), text: "An application is considered to be submitted at the time of its receipt by the clerk."}
+- kicker: How to send it
+  head: Mail, carrier, fax or email
+  rows:
+  - [Mail, "P.O. Box 1148, Houston, TX 77251-1148"]
+  - [Carrier, "15600 Morales Road, Houston, TX 77032"]
+  - [Fax or email, "Also mail the original; it must arrive within 4 business days"]
+- kicker: Avoid a rejection
+  head: Sign it, and give an ID number.
+  rows:
+  - [Sign, "An unsigned application is rejected"]
+  - [ID number, "Your Texas DPS license or ID number, or the last 4 digits of your Social Security number"]
+  - [Match, "The number must match your voter registration; the county suggests giving both"]
+- kicker: Who can vote by mail
+  head: Only some Texas voters can.
+  rows:
+  - [Age, "65 or older on Election Day"]
+  - [Health, "Sick or disabled, or giving birth within 3 weeks of Election Day"]
+  - [Away, "Out of the county on Election Day and during early voting"]
+  - [Jail, "Confined in jail and otherwise eligible"]
+  text: "Everyone else can vote early in person, Nov. 30 - Dec. 8, or on Election Day. Already sent an annual application this year? The county says it covers every election this year."
+caption: |-
+  Three days to apply for a mail ballot in Harris County's Dec. 12 runoff.
+
+  The ballot has one contest: Harris Central Appraisal District Director, At-Large, Place 3. The application must reach the Harris County Clerk's elections office by Dec. 1. Texas law counts it as submitted when the clerk receives it, not when you send it.
+
+  You can mail it, send it by carrier, or fax or email a signed scan. If you fax or email it, the original must also arrive by mail within four business days.
+
+  Sign it, and include your Texas DPS license or ID number or the last four digits of your Social Security number. The number has to match your voter registration.
+
+  Mail voting is open to voters 65 or older, voters who are sick or disabled or expecting to give birth within three weeks of Election Day, voters out of the county, and some voters confined in jail. Everyone else can vote early in person Nov. 30 to Dec. 8, or on Dec. 12.
+
+  Forms and addresses: harrisvotes.com.
+hashtags: [harriscounty, houston, runoff, votebymail, votetherecord]
+notes: >-
+  New this run: the Nov. 28 8:15 p.m. story slot was empty. harrisvotes.com (Harris County Clerk's elections site; .com,
+  so review), read 2026-11-24, lists the Dec. 12 HCAD runoff with "Deadline to apply for a ballot by mail: DEC 1" and
+  "Early Voting: NOV 30 - DEC 8". Election Code 84.007(c) sets the deadline at the 11th day before Election Day (Dec.
+  12 - 11 = Dec. 1, a Tuesday) at "the close of regular business in the early voting clerk's office or 12 noon,
+  whichever is later"; the slides don't give a clock time because the county page doesn't. 84.007(d) is quoted.
+  Delivery methods, addresses and the 4-business-day rule for fax and email are from the county's Vote by Mail page and
+  84.007(b), (b-1). The signature and ID-number tips and the annual-application line ("receive a mail ballot for all
+  elections held during a calendar year", for voters 65+ or disabled) are from the same page. Eligibility rows
+  shorten Election Code 82.001-82.004; 82.008 (civil commitment) is left out for space, and "otherwise eligible" in the
+  jail row stands for 82.004's conditions. The Nov. 25 story (2026-11-25-harris-hcad-runoff-early-voting) mentions the
+  Dec. 1 date in one row; this one is about how to meet it. No candidates named beyond the contest; no party (the
+  ballot lists none).
