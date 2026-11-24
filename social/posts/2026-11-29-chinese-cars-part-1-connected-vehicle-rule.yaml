@@ -1,0 +1,84 @@
+kind: reel
+level: congress
+topic: Cars
+approval: review
+found_via: owner idea Y1MTQ4MzQ1NDQzOTQyNAZDZD
+record_ids: [us/2025/90 FR 5360/connected-vehicles-rule]
+publish_after: '2026-11-29T12:00:00-06:00'
+trial: auto
+sources:
+- title: "eCFR, 15 CFR part 791 subpart D, Connected Vehicles (current through Nov. 20, 2026)"
+  url: https://www.ecfr.gov/current/title-15/part-791/subpart-D
+  retrieved: '2026-11-24'
+- title: "Commerce Department (BIS) final rule, Connected Vehicles, 90 FR 5360 (Jan. 16, 2025), GPO"
+  url: https://www.govinfo.gov/content/pkg/FR-2025-01-16/html/2025-00592.htm
+  retrieved: '2026-11-24'
+slides:
+- kicker: "Part 1 of 3 · A federal rule"
+  big: Model year 2027
+  head: "Carmakers tied to China or Russia can't sell internet-connected cars in the U.S., starting with model year 2027."
+  text: "A U.S. Commerce Department rule, in effect since March 17, 2025."
+  say: "Can a carmaker from China sell you a new car in the U.S.? A Commerce Department rule says: not a connected one. Starting with model year 2027, carmakers tied to China or Russia can't sell internet-connected cars here."
+- chip: What counts
+  head: "A \"connected vehicle\" talks to networks: cellular, satellite or other wireless."
+  rows:
+  - [Examples, "Cellular modems, Wi-Fi, Bluetooth, telematics, satellite"]
+  - [Not covered, "Vehicles over 10,000 pounds"]
+  - [Not covered, "Parts that only do radar or video, key fobs, GPS, AM/FM"]
+  text: "Most new cars connect this way. The examples are the rule's own list."
+  say: "The rule's examples: cellular modems, Wi-Fi, Bluetooth, telematics and satellite systems. It doesn't cover vehicles over 10,000 pounds, or parts that only do radar or video, key fobs, GPS, or AM/FM radio."
+- chip: "Before → after"
+  head: "Before March 17, 2025, federal rules had no ban like this. Here is what it bans, and when."
+  rows:
+  - [Model year 2027, "Connectivity or self-driving software from China or Russia"]
+  - [Model year 2027, "Sales by carmakers owned or controlled from China or Russia"]
+  - [Model year 2030, "Connectivity hardware from China or Russia"]
+  text: "Parts not tied to a model year: banned from Jan. 1, 2029."
+  say: "From model year 2027, no connectivity or self-driving software from China or Russia, and carmakers owned or controlled from there can't sell connected cars here. From model year 2030, the hardware too."
+- chip: Who has to act
+  head: "Every carmaker selling connected cars here files a Declaration of Conformity with the Commerce Department."
+  text: "A Declaration of Conformity is a signed statement: the company checked its suppliers and found no banned software or hardware. Companies can ask the department for permission, called an authorization, in some cases."
+  say: "Every carmaker selling connected cars here files a Declaration of Conformity, a signed statement that it checked its suppliers and found no banned parts. Companies can ask for permission, called an authorization, in some cases."
+- chip: "Who gains, who loses, what it costs"
+  head: "Carmakers tied to China or Russia lose the U.S. market for connected cars. Every other carmaker has to check its suppliers."
+  rows:
+  - [Shut out, "Carmakers owned or controlled from China or Russia"]
+  - [Must check, "Carmakers and importers of connectivity parts"]
+  - [Cost, "$24,200 to $48,400 a year per company, the department estimates"]
+  say: "Carmakers owned or controlled from China or Russia lose the U.S. market for connected cars. Every other carmaker has to check its suppliers. The department estimates that costs $24,200 to $48,400 a year per company."
+- chip: Your turn
+  head: "Should the government decide where your car's software comes from?"
+  text: "Part 2: why the Commerce Department says it did this, and what companies objected to. Part 3: the tariff on Chinese-made electric cars."
+  say: "Should the government decide where your car's software comes from? In part 2, why the Commerce Department says it did this, and what companies objected to. In part 3, the tariff on Chinese-made electric cars."
+caption: |-
+  Part 1 of 3: what federal rules say about cars from China.
+
+  A U.S. Commerce Department rule, in effect since March 17, 2025, covers "connected vehicles": cars that talk to networks over cellular, satellite or other wireless links. Most new cars do.
+
+  Before: no federal ban like this. After: starting with model year 2027, connectivity and self-driving software from China or Russia is banned, and carmakers owned or controlled from China or Russia can't sell connected cars in the U.S. at all. Connectivity hardware follows with model year 2030.
+
+  Every carmaker selling connected cars here has to check its suppliers and file a signed Declaration of Conformity. The department estimates the yearly checks cost $24,200 to $48,400 per company.
+
+  Should the government decide where your car's software comes from?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [cars, connectedcars, commercedepartment, tradepolicy, votetherecord]
+rule: "Part 1 of a 3-part series from an owner idea: one Reel per federal record behind the topic (this rule; the reasons and objections in its own text; the Section 301 tariff on Chinese electric vehicles)."
+notes: >-
+  Owner idea (part 1 of 3; parts 2 and 3 are their own pull requests and are meant to be merged together). Rests only
+  on official records opened this run: the current rule text on eCFR (15 CFR 791.300-.308, Title 15 up to date as of
+  Nov. 20, 2026; read through the eCFR API) and the final rule as published (GovInfo copy of 2025-00592; the
+  federalregister.gov full text returned its "request access" page and was not retried). The Federal Register API
+  lists no later amendment of subpart D. Effective March 17, 2025 (the rule's DATES). Bans: 791.303 (covered software,
+  import and sale), 791.304 (carmakers "owned by, controlled by, or subject to the jurisdiction or direction of the PRC
+  or Russia" can't sell connected cars with VCS hardware or covered software), 791.302 (VCS hardware import); dates
+  from 791.308 exemptions (software and 791.304: vehicles before model year 2027; hardware: model year before 2030, or
+  Jan. 1, 2029 for parts with no model year). "Owned or controlled from" shortens the rule's phrase; "tied to China or
+  Russia" on slide 1 is the same shorthand; please check that wording. Covered software is VCS or ADS software
+  ("self-driving" is our plain word for ADS). Examples: the rule's VCS hardware list and its VCS exclusions; the 10,000
+  pound limit is in the connected vehicle definition. "Most new cars connect this way" restates the rule's intro
+  ("Today's vehicles contain a myriad of connected components ... Wi-Fi, Bluetooth, cellular, and satellite
+  connectivity"); please check it. Cost: the rule's yearly estimate per connected vehicle manufacturer or VCS hardware
+  importer ($24,200 to $48,400). "Before: no ban like this" is our reading that the rule created subpart D. No brand
+  is named: no official source opened names one, and the post doesn't say which brands are or aren't sold now. Slot: Nov. 29 noon, a free Reel slot after the 3:00 a.m. post;
+  bumps nothing.
