@@ -1,0 +1,100 @@
+kind: reel
+level: congress
+topic: Trade
+approval: review
+record_ids: [us/119/H.R. 4930/signed]
+publish_after: '2026-11-29T00:00:00-06:00'
+trial: auto
+sources:
+- title: "The White House, H.R. 1550, H.R. 4930, and H.R. 8552 Signed into Law"
+  url: https://www.whitehouse.gov/briefings-statements/2026/11/congressional-bills-h-r-1550-h-r-4930-and-h-r-8552-signed-into-law/
+  retrieved: '2026-11-24'
+- title: Congress.gov, H.R. 4930 actions
+  url: https://api.congress.gov/v3/bill/119/hr/4930/actions
+  retrieved: '2026-11-24'
+- title: "H.R. 4930 (119th Congress), enrolled bill (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr4930enr/html/BILLS-119hr4930enr.htm
+  retrieved: '2026-11-24'
+- title: "H. Rept. 119-415, Ways and Means Committee report (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt415/html/CRPT-119hrpt415.htm
+  retrieved: '2026-11-24'
+- title: "Congressional Record, Apr. 27, 2026, H3098-H3100"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-04-27/html/CREC-2026-04-27-pt1-PgH3098-10.htm
+  retrieved: '2026-11-24'
+bills:
+- id: H.R. 4930
+  does: "Lets Customs and Border Protection share more about suspected fake or pirated imports, with more companies."
+  affects: "Trademark and copyright owners, online marketplaces, shippers and freight forwarders, and importers."
+  where: "Signed into law Nov. 23, 2026. A Public Law number wasn't posted yet when this was written."
+  summary:
+    text: "This bill expands the authority of U.S. Customs and Border Protection (CBP) to provide information to certain persons (e.g., trademark or copyright owners) regarding suspected violations of intellectual property rights in trade."
+    title: Congressional Research Service summary of H.R. 4930
+    url: https://api.congress.gov/v3/bill/119/hr/4930/summaries
+    retrieved: '2026-11-24'
+  say: "H.R. 4930 lets Customs and Border Protection share more about suspected fake or pirated imports, with more companies. It was signed into law November 23, 2026."
+slides:
+- kicker: "New federal law · Signed Nov. 23, 2026"
+  big: Fake goods
+  head: "Customs can now tell online stores and shippers more about a package it thinks holds fake brand-name goods."
+  text: "H.R. 4930, on suspected trademark and copyright violations in imports."
+  say: "A new federal law lets Customs tell online stores and shippers more about a package it thinks holds fake brand-name goods. H.R. 4930 was signed November 23, 2026."
+- chip: "Before → after"
+  head: What Customs can share
+  rows:
+  - [Before, "What's on the item, its packaging and labels"]
+  - [After, "Also packing materials and containers"]
+  - [New, "Data from marketplaces, couriers and freight forwarders"]
+  - [With, "Also any other party with an interest, as Customs decides"]
+  say: "Before, Customs could share what's on the item, its packaging and labels. Now it can also share packing materials and containers, and data from online marketplaces, couriers and freight forwarders, with any other party with an interest."
+- chip: The trigger
+  head: "Customs needs a \"reasonable suspicion\" that an import breaks trademark or copyright law."
+  quote: {label: "H. Rept. 119-415, Ways and Means Committee", text: "if it has a reasonable suspicion that an import violates American IP laws", key: "reasonable suspicion"}
+  text: "Before, the law said Customs \"suspects\" a violation. When it shares the new nonpublic data, it must give notice of what it sent."
+  say: "The law used to say Customs suspects a violation. Now it says Customs has a reasonable suspicion. When it shares the new nonpublic data, it must give notice of what it sent."
+- chip: Why, in the sponsor's words
+  head: "Sponsor: Rep. Blake Moore (R-UT), with Rep. Brad Schneider (D-IL)."
+  quote: {label: "Rep. Blake Moore (R-UT), Congressional Record, Apr. 27, 2026", text: "They are unable to share labels, invoices, or packing slips that identify the products of the country of origin with key stakeholders.", key: "unable to share"}
+  say: "The sponsor, Representative Blake Moore of Utah, said Customs was unable to share labels, invoices, or packing slips with key stakeholders. He wrote the bill with Representative Brad Schneider of Illinois."
+- chip: "Who gains, who loses, what it costs"
+  head: "Brand owners and platforms get more to go on. Importers of suspected fakes have more of their data shared."
+  rows:
+  - [Gains, "Trademark and copyright owners, marketplaces, shippers"]
+  - [Loses, "Importers of suspected fakes: more of their data shared"]
+  - [Cost, "Committee: no new budget authority. No CBO estimate."]
+  - [Votes, "40-0 in committee; voice vote and unanimous consent"]
+  say: "Brand owners, online marketplaces and shippers get more to go on. Importers of suspected fakes have more of their data shared. The committee says it adds no new budget authority. It passed committee 40 to 0."
+- chip: Your turn
+  head: "Should Customs share a sender's shipping data with private companies when it only suspects fakes?"
+  text: "No member spoke against it in the U.S. House of Representatives debate."
+  say: "No member spoke against it in the United States House debate. Should Customs share a sender's shipping data with private companies when it only suspects fakes?"
+caption: |-
+  On Nov. 23, the President signed H.R. 4930, on suspected fake and pirated imports.
+
+  Before: when U.S. Customs and Border Protection suspected an import broke trademark or copyright law, it could share what appeared on the item, its packaging and labels. After: with a "reasonable suspicion," it can also share packing materials, containers, and nonpublic data from marketplaces, couriers and freight forwarders, with any other party with an interest, as Customs decides. It must give notice of the nonpublic data it sends.
+
+  Gains: brand owners, marketplaces and shippers. Gives up: importers of suspected fakes, whose data is shared more widely. The committee report says no new budget authority; no CBO estimate was ready.
+
+  Sponsor: Rep. Blake Moore (R-UT), with Rep. Brad Schneider (D-IL). Voice vote in the U.S. House of Representatives, unanimous consent in the U.S. Senate.
+
+  Should Customs share this data when it only suspects fakes?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [counterfeit, customs, trade, newlaw, votetherecord]
+notes: >-
+  New this run: the White House statement dated Nov. 23, 2026 (read 2026-11-24 UTC) says the President signed
+  H.R. 4930 that day; congress.gov actions (API, read this run) end at "Presented to President." on Nov. 17, and
+  GovInfo lists no Public Law yet (newest P.L. 119-142). No post or open pull request covers H.R. 4930. Before/after is
+  from the enrolled text's amendments to 19 U.S.C. 1628a (sec. 1: "suspects" to "has a reasonable suspicion";
+  packing materials and containers added; new (a)(3) nonpublic data from marketplaces, express consignment operators
+  ("couriers" is our plain word), freight forwarders and others; (a)(4) notice "in accordance with such regulations as
+  the Secretary may prescribe"; new (b)(5) "any other party with an interest"). The notice goes "to the person"
+  receiving the data; the slide says only "give notice of what it sent". Cost: H. Rept. 119-415 sec. IV says no CBO
+  estimate was made available in time and the bill "involved no new or increased budget authority"; congress.gov lists
+  no CBO estimate. "Loses" is our plain reading that importers' data is shared more widely (no source states a loss);
+  please check that wording. Committee vote 40-0 (report sec. III; no party totals given). Moore's quote is his own
+  floor words; Schneider (the only other speaker) also supported it, so there is no official case against to quote.
+  "Reasonable suspicion" quote is the committee report's sec. I.B. Party and state for Moore (sponsor) and Schneider
+  (first cosponsor) as congress.gov lists them (6 cosponsors: 4 R, 2 D; not on a slide). Moore's "counterfeit notification act" is
+  his name for it, not an official short title, so it isn't on a slide. Slot: Nov. 29 midnight, the first free Reel
+  slot (Nov. 28 ends with a 9:00 p.m. post in pull request #294; Nov. 29's 3:00 a.m. post follows), not a design-trial
+  slot, so no design change. It bumps nothing: every earlier Reel is news or a trial.
