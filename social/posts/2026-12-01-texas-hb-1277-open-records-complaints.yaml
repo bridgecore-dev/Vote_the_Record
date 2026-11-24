@@ -1,0 +1,114 @@
+kind: reel
+level: state
+place: Texas
+topic: Open government
+approval: review
+rule: Every bill on the Texas Legislature's Nov. 23, 2026 filing report whose caption is about the public information
+  law. HB 1277 is the only one (said on the last slide).
+record_ids: [tx/90R/HB 1277/filed]
+publish_after: '2026-12-01T12:00:00-06:00'
+trial: auto
+voice: true
+sources:
+- title: TLO, filed Nov. 23
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-23
+  retrieved: '2026-11-24'
+- title: TLO, HB 1277
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1277
+  retrieved: '2026-11-24'
+- title: Gov't Code ch. 552
+  url: https://statutes.capitol.texas.gov/Docs/GV/htm/GV.552.htm
+  retrieved: '2026-11-24'
+- title: Texas AG, hotline
+  url: https://www.texasattorneygeneral.gov/open-government/governmental-bodies/open-government-hotline
+  retrieved: '2026-11-24'
+- title: Texas AG, report a violation
+  url: https://www.texasattorneygeneral.gov/open-government/members-public/how-report-violation-public-information-act
+  retrieved: '2026-11-24'
+bills:
+- id: HB 1277
+  does: Would put the attorney general's open records hotline into law and set deadlines for answering records complaints.
+  affects: People who ask Texas governments for public records; the governments that answer; the attorney general's office.
+  where: Filed Nov. 23, 2026 by Rep. Canales; no other action yet.
+  summary:
+    text: >-
+      A person who has requested public information from a governmental body under this chapter and believes the
+      governmental body failed to provide the information in compliance with this chapter may file a written complaint
+      with the attorney general.
+    title: HB 1277 as filed, Sec. 2
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01277I.htm
+    retrieved: '2026-11-24'
+  say: HB 1277 would put the attorney general's open records hotline into law and set deadlines for answering records
+    complaints. It was filed November 23 by Representative Canales, with no other action yet.
+slides:
+- kicker: 2027 Texas session · Filed Nov. 23, 2026
+  big: HB 1277
+  head: Asked a Texas government for records and got nothing? A Texas House of Representatives bill would set a deadline for the state's answer.
+  say: Asked a Texas government for records and got nothing? A Texas House of Representatives bill filed November 23
+    would set a deadline for the state's answer to your complaint.
+- chip: The law today
+  head: You can already complain to the Texas attorney general in writing. The law sets no deadline for an answer.
+  text: The attorney general's website says to send a copy of your request and any reply. The attorney general also runs a hotline, but no law requires it.
+  say: 'The law today: you can already send the Texas attorney general a written complaint, with your request and any
+    reply. The law sets no deadline for an answer. The attorney general runs a hotline, but no law requires it.'
+- chip: What would change
+  head: The attorney general would have to answer each complaint in writing.
+  rows:
+  - [Complaint, "Your request, any replies, and what went wrong"]
+  - [Questions, "The government answers the attorney general within 5 business days"]
+  - [Answer, "Written reply to you and the government within 20 business days"]
+  - [Hotline, "A toll-free line, required by law, for the public and officials"]
+  say: 'What would change: you send your request, any replies, and what went wrong. The government answers the attorney
+    general''s questions within 5 business days, and the attorney general replies to both sides within 20 business
+    days. A toll-free hotline would be required by law.'
+- chip: Overcharged for copies?
+  head: Complaints about the price of copies would get deadlines too.
+  rows:
+  - [Today, "Government answers questions within 10 business days; no deadline for the decision"]
+  - [After, "Government answers within 5; attorney general decides within 10 business days"]
+  say: 'Overcharged for copies? Today, the government has 10 business days to answer the attorney general''s questions,
+    and the decision has no deadline. After: the government gets 5 business days, and the attorney general decides within 10.'
+- chip: Who it affects
+  head: Requesters get set dates. Governments get less time to answer. The attorney general's office takes on the deadlines.
+  text: The bill doesn't change your right to sue a government that won't release records (Sec. 552.321).
+  say: Requesters get set dates. Governments get less time to answer. The attorney general's office takes on the deadlines.
+    The bill doesn't change your right to sue a government that won't release records.
+- chip: Cost
+  head: No fiscal note (cost estimate) is posted yet.
+  text: The bill doesn't say what the hotline or the reviews would cost or how they'd be paid for.
+  say: No cost estimate is posted yet, and the bill doesn't say what the hotline or the reviews would cost or how
+    they'd be paid for.
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, the bill takes effect on this date.
+  text: "How we picked: every bill on the Nov. 23 filing report about the public information law. HB 1277 was the only one. Should the state have a deadline to answer?"
+  say: If passed as filed, the bill takes effect September 1, 2027. How we picked, every bill filed November 23 about the
+    public information law. HB 1277 was the only one. Should the state have a deadline to answer?
+caption: |-
+  Asked a Texas government for records and got nothing? You can already send a written complaint to the Texas attorney general. The law sets no deadline for an answer. The attorney general runs a hotline, but no law requires it.
+
+  HB 1277, filed in the Texas House of Representatives for the 2027 session, would put that complaint into law. The government would answer the attorney general's questions within 5 business days, and the attorney general would reply in writing to both sides within 20 business days. A toll-free hotline would be required by law.
+
+  On overcharges for copies, the government's time to answer drops from 10 business days to 5, and the attorney general would decide within 10. Your right to sue doesn't change.
+
+  No cost estimate is posted yet. If passed as filed, it takes effect Sept. 1, 2027.
+
+  Should the state have a deadline to answer?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [txlege, texaslegislature, openrecords, publicinformation, votetherecord]
+notes: >-
+  New: filed Nov. 23, 2026; no earlier post or pull request names it. Rule: of the 8 bills on the Nov. 23 filing report,
+  HB 1277 is the only one whose caption is about the public information law. Records opened 2026-11-24: the filing
+  report, the bill history (filed, no other action; author shown only as "Canales"; subjects Open Records, Telephones,
+  Attorney General), the introduced text (90R7033 MCK-F; sha256 of the HTML
+  9b54ab2addd9245cbedfe7f8fd122e3486a6e1ff4eee177e46048483ef65fbe4, of the PDF
+  01e45793674e379848052b2fca9d4639b831a472712f30b5b85beb6edceef944), Government Code chapter 552 (read from the
+  tcss.legis.texas.gov copy of statutes.capitol.texas.gov: no 552.013 or 552.236 today; 552.269(a) has "within 10
+  business days" and no deadline for the determination; 552.321 mandamus), and two attorney general pages (the hotline
+  exists today, staffed by Open Records Division attorneys; written complaints with the request and any response are
+  accepted today). "No law requires it" is our reading of chapter 552 having no hotline section; please confirm. "The
+  law sets no deadline for an answer" is about chapter 552; the AG's pages give none either. The bill's sec. 4 limits
+  the 552.269 change to complaints filed on or after the effective date (not on a slide). No fiscal note and no
+  official statement for or against found, so the post gives the record and asks. Slot: Dec. 1 12:00 p.m., the first
+  free Reel slot that keeps the Reel/post turn (prefiled bill, evergreen; nothing bumped).
