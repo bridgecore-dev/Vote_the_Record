@@ -1,0 +1,100 @@
+kind: carousel
+level: congress
+topic: Veterans
+approval: review
+record_ids: [us/119/H.R. 8552/signed]
+publish_after: '2026-11-28T21:00:00-06:00'
+sources:
+- title: "The White House, H.R. 1550, H.R. 4930, and H.R. 8552 Signed into Law"
+  url: https://www.whitehouse.gov/briefings-statements/2026/11/congressional-bills-h-r-1550-h-r-4930-and-h-r-8552-signed-into-law/
+  retrieved: '2026-11-24'
+- title: Congress.gov, H.R. 8552 actions
+  url: https://api.congress.gov/v3/bill/119/hr/8552/actions
+  retrieved: '2026-11-24'
+- title: Congress.gov, H.R. 8552 bill record
+  url: https://api.congress.gov/v3/bill/119/hr/8552
+  retrieved: '2026-11-24'
+- title: "H.R. 8552 (119th Congress), enrolled bill (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr8552enr/html/BILLS-119hr8552enr.htm
+  retrieved: '2026-11-24'
+- title: "Congressional Record, Nov. 9, 2026, H6105-H6107"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-11-09/html/CREC-2026-11-09-pt1-PgH6105.htm
+  retrieved: '2026-11-24'
+bills:
+- id: H.R. 8552
+  title: Veterans' Compensation Cost-of-Living Adjustment Act of 2026
+  does: "Raises VA disability, dependent, clothing-allowance and survivor payments on Dec. 1, 2026, by Social Security's raise."
+  affects: "Veterans paid VA disability compensation, their dependents, and surviving spouses and children paid DIC."
+  where: "Signed into law Nov. 23, 2026. A Public Law number wasn't posted yet when this was written."
+  summary:
+    text: "This bill requires the Department of Veterans Affairs (VA) to increase the amounts payable for wartime disability compensation, additional compensation for dependents, the clothing allowance for certain disabled veterans, and dependency and indemnity compensation for surviving spouses and children."
+    title: Congressional Research Service summary of H.R. 8552
+    url: https://api.congress.gov/v3/bill/119/hr/8552/summaries
+    retrieved: '2026-11-24'
+slides:
+- kicker: "Signed into law · Nov. 23, 2026"
+  big: Dec. 1
+  head: "VA disability and survivor payments go up Dec. 1, 2026, under the Veterans' Compensation Cost-of-Living Adjustment Act."
+  text: "H.R. 8552. Passed the U.S. House of Representatives and the U.S. Senate by voice vote."
+- chip: "Before → after"
+  head: "These VA payments don't rise on their own. Congress passes a new law for it every year."
+  quote:
+    label: "Rep. Morgan McGarvey (D-KY), Congressional Record, Nov. 9, 2026"
+    text: "our veterans don't get an automatic cost-of-living adjustment for their pay like somebody on Social Security. Congress must proactively pass this legislation each year to make it happen"
+  text: "Before: the amounts in effect Nov. 30, 2026. After: those amounts rise by the same percentage as Social Security benefits on Dec. 1, 2026."
+- chip: What goes up
+  head: The law raises four kinds of VA payments.
+  rows:
+  - [Disability pay, "Every rate for veterans with service-connected disabilities"]
+  - [Dependents, "The added pay for a veteran's dependents"]
+  - [Clothing, "The clothing allowance for certain disabled veterans"]
+  - [Survivors, "Dependency and indemnity compensation for spouses and children"]
+  text: "The VA must publish the new amounts in the Federal Register."
+- chip: How much
+  head: "The law doesn't name a number. It ties the raise to Social Security's Dec. 1, 2026 cost-of-living increase."
+  quote:
+    label: "H.R. 8552, as enrolled, sec. 2(c)"
+    text: "shall be increased by the same percentage as the percentage by which benefit amounts payable under title II of the Social Security Act (42 U.S.C. 401 et seq.) are increased effective December 1, 2026"
+- chip: "Who gains, who has to act"
+  head: "Veterans and survivors who get these payments gain. The VA has to set and publish the new rates."
+  rows:
+  - [Gains, "Veterans, dependents and survivors paid these benefits"]
+  - [Has to act, "The Department of Veterans Affairs"]
+  - [Cost, "Congress.gov lists no CBO estimate for H.R. 8552"]
+  - [Votes, "Voice votes in both chambers, so no list of names"]
+- kicker: The case for, in the sponsor's words
+  head: "The sponsor, Rep. Morgan Luttrell (R-TX), wrote it with Rep. Morgan McGarvey (D-KY)."
+  quote:
+    label: "Rep. Morgan Luttrell (R-TX), Congressional Record, Nov. 9, 2026"
+    text: "Veterans dealing with service-connected disabilities need this must-pass legislation to ensure their earned benefits ease their financial needs."
+  text: "No member spoke against it in the U.S. House of Representatives debate."
+- chip: Your turn
+  head: "Should these VA payments rise on their own each year, like Social Security, or keep needing a vote of Congress?"
+  text: "The new rates start Dec. 1, 2026."
+caption: |-
+  On Nov. 23, the President signed H.R. 8552, the Veterans' Compensation Cost-of-Living Adjustment Act of 2026.
+
+  Before: VA disability compensation doesn't get an automatic yearly raise the way Social Security does; Congress passes a new law for it each year. After: on Dec. 1, 2026, VA disability pay, the added pay for dependents, the clothing allowance and survivors' dependency and indemnity compensation all rise by the same percentage as Social Security benefits.
+
+  Congress.gov lists no CBO estimate. Both chambers passed it by voice vote, so there's no list of how each member voted.
+
+  Sponsor: Rep. Morgan Luttrell (R-TX), with Rep. Morgan McGarvey (D-KY).
+
+  Should this raise be automatic?
+hashtags: [veterans, va, cola, newlaw, votetherecord]
+notes: >-
+  New this run: the White House statement dated Nov. 23, 2026 (whitehouse.gov, read 2026-11-24 UTC / Nov. 23 Central)
+  says the President signed H.R. 8552 on Monday, Nov. 23; congress.gov actions (API, read this run) end at "Presented
+  to President." on Nov. 17 and list no Public Law yet (GovInfo's newest is P.L. 119-142), so the signing rests on the
+  White House statement. No post or open pull request covers H.R. 8552. House: suspension, voice vote, Nov. 9 (the
+  Record's online note corrects an earlier printing that showed the yeas and nays ordered); Senate: passed without
+  amendment by voice vote, Nov. 11. What goes up and the Dec. 1 date are from the enrolled text secs. 2-3 (GovInfo);
+  "four kinds" groups sec. 2(b)'s five items (DIC for spouses and for children counted as one). "Doesn't rise on its
+  own" rests on Rep. McGarvey's quoted floor words; Rep. Hamadeh also said "Each year, Congress passes" the act. The
+  Social Security percentage isn't on a slide: ssa.gov/cola returned 403 (not retried). CBO: congress.gov lists none.
+  Every floor speaker (Hamadeh, McGarvey, Luttrell, Conaway) supported it, so no case against is quoted. Sponsor
+  Luttrell's party and state from the bill record; McGarvey (D-KY-3) is a cosponsor (5 cosponsors: 4 D, 1 R; not on a
+  slide) and called himself "the Democratic lead" in the Record. Slot: Nov. 28 9:00 p.m., the first free post slot
+  (Nov. 28 ends with the 6:00 p.m. Reel). It bumps nothing: every earlier post slot at least 3 hours away holds this
+  week's news, or the Nov. 28 3:00 p.m. hemp post, which is tied to its Dec. 11 date; the Nov. 25 9:00 p.m. H.R. 7834
+  post (Senate passage Nov. 16) is borderline on the one-week line and still pending presentment, so it was left alone.
