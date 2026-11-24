@@ -1,0 +1,74 @@
+kind: reel
+level: congress
+topic: Cars
+approval: review
+found_via: owner idea Y1MTQ4MzQ1NDQzOTQyNAZDZD
+record_ids: [us/2025/90 FR 5360/reasons-and-comments]
+publish_after: '2026-11-30T00:00:00-06:00'
+trial: auto
+sources:
+- title: "Commerce Department (BIS) final rule, Connected Vehicles, 90 FR 5360 (Jan. 16, 2025), GPO"
+  url: https://www.govinfo.gov/content/pkg/FR-2025-01-16/html/2025-00592.htm
+  retrieved: '2026-11-24'
+- title: "eCFR, 15 CFR part 791 subpart D, Connected Vehicles (current through Nov. 20, 2026)"
+  url: https://www.ecfr.gov/current/title-15/part-791/subpart-D
+  retrieved: '2026-11-24'
+slides:
+- kicker: "Part 2 of 3 · Why the rule exists"
+  big: "2 risks"
+  head: "The U.S. Commerce Department says Chinese or Russian car tech could be used to take your data or take control of a car."
+  text: "From the department's final rule on connected vehicles, Jan. 16, 2025."
+  say: "Why did the Commerce Department ban Chinese and Russian connected-car tech? It names 2 risks: taking data from cars, and taking control of them."
+- chip: In the department's words
+  head: The two risks the rule names
+  quote: {label: "Commerce Department (BIS) final rule, 90 FR 5360", text: "could enable those foreign adversaries to (1) exfiltrate sensitive data collected by connected vehicles and (2) allow remote access and manipulation of connected vehicles driven by U.S. persons", key: "remote access and manipulation"}
+  text: "\"Exfiltrate\" means to take data out without permission. The rule says China's and Russia's laws can require companies there to help their governments."
+  say: "The rule says this tech could let those governments exfiltrate, meaning take out, sensitive data from cars, and allow remote access and manipulation of cars driven by Americans."
+- chip: An example the rule cites
+  head: "Researchers hacked one carmaker's connection system in a test. It isn't a case about a Chinese car."
+  quote: {label: "Commerce Department (BIS) final rule, 90 FR 5360, citing a 2024 industry report", text: "This malicious software unlocked features to manipulate the vehicle, such as acceleration and heated seats.", key: "acceleration and heated seats"}
+  say: "The rule cites a test where security researchers put malicious software on one carmaker's connection system. It unlocked features like acceleration and heated seats. The rule doesn't say it was a Chinese car."
+- chip: The other side
+  head: "The department got 101 public comments. Many agreed with the risk. The main concerns were the rule's scope and paperwork."
+  quote: {label: "Commerce Department (BIS) final rule, 90 FR 5360", text: "Commenters' concerns with the NPRM centered on the broad scope of the regulation and the potentially onerous and disruptive nature of the compliance process", key: "onerous and disruptive"}
+  text: "Commenters also warned of \"significant economic impact\" and said industry couldn't easily meet the timeline."
+  say: "The department got 101 public comments. Many agreed with the risk. The main concerns: the rule was broad, and its paperwork could be onerous and disruptive. Some warned of significant economic impact, and a timeline industry couldn't easily meet."
+- chip: What changed after the comments
+  head: "The final rule dropped trucks and buses over 10,000 pounds for now, and exempted older software."
+  rows:
+  - [Dropped, "Commercial vehicles over 10,000 pounds (for a later rule)"]
+  - [Exempted, "Code written before March 17, 2026 (\"legacy\" code)"]
+  - [Dates, "Commenters questioned them; the final rule set 2027 and 2030"]
+  say: "After the comments, the final rule dropped vehicles over 10,000 pounds, and exempted older, legacy code written before March 17, 2026. Many commenters questioned the start dates; the final rule set model years 2027 and 2030."
+- chip: Your turn
+  head: "Which side convinces you: the security risk, or the cost and disruption to carmakers?"
+  text: "Part 3: the tariff on Chinese-made electric cars."
+  say: "Which side convinces you: the security risk, or the cost and disruption to carmakers? In part 3, the tariff on Chinese-made electric cars."
+caption: |-
+  Part 2 of 3: why the U.S. Commerce Department banned Chinese and Russian connected-car tech, in its own words, and what commenters objected to.
+
+  The department says the tech "could enable those foreign adversaries to (1) exfiltrate sensitive data collected by connected vehicles and (2) allow remote access and manipulation of connected vehicles driven by U.S. persons." It cites a test where researchers hacked one carmaker's connection system and unlocked acceleration and heated seats. That example isn't about a Chinese car.
+
+  The other side: 101 public comments. Many agreed with the risk; the main concerns were its broad scope and its "potentially onerous and disruptive" paperwork, and some warned of "significant economic impact." The final rule dropped vehicles over 10,000 pounds for now and exempted older code; it set model years 2027 and 2030 as the start dates.
+
+  Which side convinces you?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [cars, connectedcars, cybersecurity, commercedepartment, votetherecord]
+rule: "Part 2 of a 3-part series from an owner idea: the reasons and the objections as the rule itself records them."
+notes: >-
+  Owner idea (part 2 of 3; parts 1 and 3 are their own pull requests and are meant to be merged together). Every quote
+  is from the final rule as published (GovInfo copy of FR doc 2025-00592; federalregister.gov's full text returned its
+  "request access" page and was not retried). The two risks: sec. on the risk assessment ("could enable those foreign
+  adversaries to ..."). "China's and Russia's laws can require companies there to help" restates the rule's
+  discussion ("PRC laws compel compliance with government requests", as commenters agreed, and the Russian-law
+  section); please check that line. The test example is the rule's citation of Upstream's 2024 report (a researchers'
+  simulated jailbreak of "an OEM's VCS"); the rule doesn't name the carmaker or say it was Chinese, which the slide
+  says. Comments: "BIS received 101 comments on the NPRM"; "Many commenters agreed with BIS's risk assessment"; the
+  concerns quote and "significant economic impact" / timeline are the next sentences. Changes: the commercial market
+  removed (the 10,000 pound limit in the definition; the rule says BIS intends a separate rule for commercial vehicles,
+  hence "for now"; please confirm) and the legacy code exclusion ("before a date that is one year from the effective
+  date", i.e. March 17, 2026). The 2027 and 2030 dates: 791.308 as now on eCFR; the rule says "many commenters
+  raised issues with the specific model years" (the proposed rule was not opened, so no slide says the dates changed
+  or stayed). "Trucks and buses" on slide 5's head is our plain word for commercial
+  vehicles over 10,000 pounds. Slot: Nov. 30 midnight, a free Reel slot before the 3:00 a.m. post; bumps nothing.
