@@ -1,0 +1,101 @@
+kind: carousel
+level: state
+place: Texas
+topic: Property
+approval: review
+rule: Every bill filed Nov. 24, 2026 whose Texas Legislature Online caption names eminent domain. HB 1283 is the only
+  one (said on the last slide).
+record_ids: [tx/90R/HB 1283/filed]
+publish_after: '2026-12-01T09:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 24, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-24
+  retrieved: '2026-11-24'
+- title: Texas Legislature Online, HB 1283 bill history (90th Legislature)
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1283
+  retrieved: '2026-11-24'
+- title: Texas Local Government Code, Chapter 251 (municipal eminent domain)
+  url: https://tcss.legis.texas.gov/resources/LG/htm/LG.251.htm
+  retrieved: '2026-11-24'
+- title: Texas Constitution, Article 1, Section 17
+  url: https://tcss.legis.texas.gov/resources/CN/htm/CN.1.htm
+  retrieved: '2026-11-24'
+bills:
+- id: HB 1283
+  does: Would bar Texas cities, counties and districts from using eminent domain to take property outside their own borders.
+  affects: Owners of property outside a city's, county's or district's borders, and the local governments that can take it now.
+  where: Filed Nov. 24, 2026 by Rep. Money; no other action yet. Would take effect Sept. 1, 2027.
+  summary:
+    text: >-
+      Notwithstanding any other law, a political subdivision of this state may not take through the use of eminent
+      domain public or private property located outside the political subdivision’s boundaries.
+    title: HB 1283 as filed, Sec. 3 (Government Code 2206.003)
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/HB01283I.pdf
+    retrieved: '2026-11-24'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 24, 2026
+  big: Outside the lines
+  head: Can a Texas city take your land if you don't live in that city? A Texas House of Representatives bill would say no.
+  text: HB 1283 is about eminent domain.
+- chip: Eminent domain
+  head: Eminent domain is the government's power to take private property for a public use. The owner must be paid.
+  quote:
+    label: Texas Constitution, Art. 1, Sec. 17(a)
+    text: No person's property shall be taken, damaged, or destroyed for or applied to public use without adequate compensation being made
+- chip: The law today
+  head: Texas law lets a city take property outside its city limits for a long list of uses.
+  quote:
+    label: Texas Local Government Code 251.001(a), today
+    text: the municipality may exercise the right of eminent domain for a public use to acquire public or private property, whether located inside or outside the municipality
+  text: The list includes city halls, fire stations, parks, streets, water works and sewage systems.
+- chip: What would change
+  head: HB 1283 adds one rule for every political subdivision in Texas.
+  quote:
+    label: HB 1283, Sec. 3 (new Government Code 2206.003)
+    text: may not take through the use of eminent domain public or private property located outside the political subdivision’s boundaries
+  text: It also rewrites dozens of city, county, airport and water district laws that now say "inside or outside".
+- chip: What stays the same
+  head: Some things wouldn't change.
+  rows:
+  - [Buying land outside, "Still allowed by purchase or gift, for example Secs. 16 and 50"]
+  - [Taking land inside, "Still allowed, with pay"]
+  - [Cases already filed, "The old law still applies (Sec. 72)"]
+- chip: Who it affects
+  head: Who gains a protection, and who loses a power.
+  rows:
+  - [Owners outside a border, "That city, county or district couldn't take their property"]
+  - [Local governments, "Couldn't take property past their borders, including for reservoirs, pipelines and wells"]
+  - [Cost, "No fiscal note is posted yet, so no official estimate"]
+- chip: When it would start
+  big: Sept. 1, 2027
+  head: The date the bill would take effect.
+  text: It would apply only to condemnation cases filed on or after that date (Sec. 72).
+- chip: Your view
+  head: Should a Texas city or district be able to take land outside its own borders?
+  text: "How we picked: every bill filed Nov. 24 whose caption names eminent domain. HB 1283 was the only one."
+caption: |-
+  Eminent domain is the government's power to take private property for a public use, with pay. Today, Texas law lets a city use it on property outside its city limits for a long list of uses, from fire stations and parks to water works.
+
+  HB 1283, filed Nov. 24 in the Texas House of Representatives for the 2027 session, would end that. Cities, counties and districts could take property only inside their own borders. They could still buy land outside them.
+
+  The bill rewrites dozens of city, county, airport and water district laws that now say "inside or outside", including ones for reservoirs, pipelines and wells. Condemnation cases filed before Sept. 1, 2027, the date it would take effect, would follow the old law.
+
+  No fiscal note is posted yet. Should a Texas city or district be able to take land outside its own borders?
+hashtags: [txlege, texaslegislature, eminentdomain, propertyrights, votetherecord]
+notes: >-
+  New: filed Nov. 24, 2026; the only bill on that day's filing report (now 6 bills: HB 1282-1287; HB 1287 was added
+  after the earlier run) whose caption names eminent domain. Records opened 2026-11-24: the filing report, the bill
+  history (filed, no other action, no fiscal note; author listed as "Money", no party shown; subjects include Property
+  Interests--Eminent Domain and CONDEMNATION), the introduced PDF (PDF sha256
+  1b86281bd756351b2a8f87465013eadc1b6f38f652e4e40a9997a428cbc4d49e; 73 sections), Local Government Code 251.001(a) on
+  tcss (today: "whether located inside or outside the municipality"; the bill's strike-through text reads "[, whether]
+  located inside [or outside] the corporate boundaries", so its base text differs slightly from the tcss copy; please
+  confirm), and Texas Constitution Art. 1, Sec. 17(a). "Still allowed by purchase or gift" rests on Sec. 16 (5010.0307(b)(1)
+  keeps "by gift or purchase ... inside or outside") and Sec. 50 (8506.107(a) keeps purchase, lease, gift outside), plus
+  Sec. 17 ("by means other than the exercise of the power of eminent domain"); the bill doesn't change every
+  non-condemnation path, so the slide says "for example". "Reservoirs, pipelines and wells" are from Secs. 13, 14,
+  18-21 and 45. "Dozens": about 65 sections amend specific laws, plus Sec. 71's repeals. The new
+  limit names political subdivisions only; the post doesn't say anything about the State or private entities with
+  eminent domain. No fiscal note or official statement for or against was found, so the post gives the record and
+  asks. Evergreen (a prefiled bill): Dec. 1 9:00 a.m. is the first free post slot that keeps the Reel/post turn
+  (Nov. 29 9:00 a.m. and Nov. 30 9:00 p.m. would put two posts in a row with the Reel slot before them empty).
