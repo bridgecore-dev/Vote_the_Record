@@ -1,0 +1,113 @@
+kind: carousel
+level: state
+place: Texas
+topic: Data centers
+approval: review
+rule: >-
+  Of the bills filed Nov. 20, 2026 whose Texas Legislature Online caption names data centers, the one whose caption
+  names a moratorium, local option elections and payments to county residents (said on the last slide).
+record_ids: [tx/90R/HB 1273/filed]
+publish_after: '2026-12-02T03:00:00-06:00'
+sources:
+- title: TLO, bills filed Nov. 20, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-20
+  retrieved: '2026-11-24'
+- title: TLO, HB 1273 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1273
+  retrieved: '2026-11-24'
+- title: Texas Comptroller, data center sales tax exemption
+  url: https://comptroller.texas.gov/taxes/data-centers/
+  retrieved: '2026-11-24'
+bills:
+- id: HB 1273
+  does: Would pause big new data centers for 2 years, then require a local vote, a state permit and yearly payments to residents.
+  affects: Builders and operators of data centers of 20 megawatts or 50,000 sq. ft. or more, and people in their counties.
+  where: Filed Nov. 20, 2026 by Rep. Castellano; no other action yet.
+  summary:
+    text: >-
+      The commission may not issue a permit under this chapter unless the development of the project has been approved
+      by a majority of voters voting at a local option election held under this subchapter.
+    title: HB 1273 as filed, Sec. 1 (Health and Safety Code 398.101(a))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/HB01273I.pdf
+    retrieved: '2026-11-24'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 20, 2026
+  big: 2 years
+  head: A Texas House of Representatives bill would pause big new data centers for two years, then let local voters decide on each one.
+- chip: Which data centers
+  head: It would cover data centers above either of two sizes.
+  rows:
+  - [Power, "Designed for 20 megawatts or more"]
+  - [Space, "50,000 sq. ft. or more of computing space"]
+  - [Expansions, "Adding 10 megawatts or 25,000 sq. ft. counts as a project"]
+  - [Already running, "Can keep operating at the size already allowed"]
+  text: The bill adds a new chapter, 398, to the Texas Health and Safety Code.
+- chip: The pause
+  head: For two years after it takes effect, no permits and no new power hookups for these projects.
+  rows:
+  - [Before, "No such pause in state law"]
+  - [After, "No state or local permit, and no utility hookup, for 2 years"]
+  - [Construction, "Stops, except for emergencies or upkeep"]
+  - [Applications, "Can be filed and reviewed, but not approved"]
+- chip: A local vote
+  head: After that, each project would need a majority of local voters.
+  rows:
+  - [Outside a city, "The county's voters decide"]
+  - [Inside a city, "The city's voters and the county's voters must both approve"]
+  - [Who pays, "The developer pays for the election"]
+  - [If rejected, "It can't go on the ballot again for 2 years"]
+  quote: {label: "HB 1273, Sec. 398.103 (ballot)", text: "with a proposed maximum electric demand of [number] megawatts and projected annual water use of [number] gallons"}
+- chip: A state permit
+  head: The Texas Commission on Environmental Quality would also have to issue a data center impact permit.
+  rows:
+  - [Studies, "Power, water, air emissions, noise and nearby projects"]
+  - [Utility costs, "Paid by the developer, not shifted to home ratepayers"]
+  - [Hearing, "Any county resident can ask for a contested case hearing"]
+  - [Penalty, "Up to $25,000 a day for building or running without approval"]
+- chip: Payments to residents
+  big: 2%
+  head: Each year, the data center would pay county residents 2% of its gross receipts or $10,000 per megawatt, whichever is more.
+  text: >-
+    Split in equal amounts per person, children included, by June 1. Owning property, citizenship and income can't be
+    conditions. Example: 100 megawatts × $10,000 = at least $1 million a year.
+- chip: Tax breaks
+  head: It would also end the state sales tax break for certified data centers.
+  rows:
+  - [Before, "Certified centers don't pay the 6.25% state sales tax on items like servers and cooling, for 10 to 20 years"]
+  - [After, "Breaks end the day the law takes effect; pending applications are denied"]
+- chip: Who gains, who pays
+  head: Residents would get a vote and a yearly payment. Developers would pay for it and wait at least two years.
+  text: No fiscal note is posted yet, and we found no official statement for or against the bill.
+- chip: What's next
+  big: Sept. 1, 2027
+  head: If passed as filed, it takes effect then, or right away with a two-thirds vote of each chamber.
+  text: "How we picked: of the bills filed Nov. 20 about data centers, the one whose caption names a pause and local votes. Should local voters decide?"
+caption: |-
+  HB 1273, filed in the Texas House of Representatives for the 2027 session, would add a new chapter of state law for big data centers: 20 megawatts or more, or 50,000 square feet or more of computing space.
+
+  For two years after it takes effect, no permits and no new power hookups for new or expanded projects. Centers already running could keep operating at their allowed size.
+
+  After that, each project would need a majority of local voters (city and county voters both, inside a city), a state impact permit, and a yearly payment to county residents: 2% of gross receipts or $10,000 per megawatt, whichever is more, split equally per person.
+
+  Today, certified data centers don't pay the 6.25% state sales tax on items like servers and cooling. The bill would end that break the day it takes effect.
+
+  No fiscal note is posted yet. Should local voters decide on big data centers?
+hashtags: [txlege, texaslegislature, datacenters, texas, votetherecord]
+notes: >-
+  New: filed Nov. 20, 2026; no post or open pull request names it. Rule: the Nov. 20 filing report (35 bills) has three
+  bills whose captions name data centers; HB 1273 is the only one naming a moratorium and local option elections (the
+  others are a sales-tax-exemption repeal and a disclosure bill, left for their own posts). Records opened 2026-11-24:
+  the filing report, the bill history (filed, no other action, no fiscal note; author listed only as "Castellano"), the
+  introduced text (HTML and PDF; PDF sha256 282eb51c499b7a73bc3e8b40f2ad1d5ea5ac9ec3025d8698e14fa55dd1fd9015), and the
+  Comptroller's data center page (6.25% state tax, servers and cooling, 10 or 15 years for a qualifying data center,
+  20 years for a large project). Please check: (1) "No such pause in state law" is our reading that the bill creates a
+  new chapter (Sec. 1 adds Chapter 398); we didn't search all of state law for another moratorium. (2) "No state or
+  local permit, and no utility hookup" is 398.051(a) ("a state agency or political subdivision may not issue a permit
+  ... and a utility may not energize"). (3) The yearly payment applies only to projects first permitted after the
+  effective date (Sec. 7(c)); the moratorium ends on the second anniversary (Sec. 7(b)). (4) "Any county resident can
+  ask" is 398.153(b) (a resident is an "affected person"). (5) The $1 million example is our arithmetic from
+  398.202(a)(2). (6) Sec. 2 also removes the electricity exemption for certified data centers (151.317(a)(9)); left
+  out for space. Section 6(a): existing exemptions expire on the effective date; 6(b): pending applications denied. No
+  fiscal note or official statement for or against was found, so the post gives the record and asks. Evergreen (a
+  prefiled bill): Dec. 2 3:00 a.m. is the first free post slot that keeps the Reel/post turn (Dec. 1 3:00 p.m. would
+  follow the 9:00 a.m. post with the 12:00 p.m. Reel slot empty).
