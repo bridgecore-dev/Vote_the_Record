@@ -1,0 +1,139 @@
+kind: reel
+level: state
+place: Texas
+topic: Education
+approval: review
+rule: Every bill filed Nov. 23, 2026 whose Texas Legislature Online caption is about promoting students to the next
+  grade (said on the last slide).
+record_ids: [tx/90R/HB 1278/filed]
+publish_after: '2026-11-29T18:00:00-06:00'
+trial: auto
+design:
+  palette: teal
+  mode: dark
+  font: round
+  position: bottom
+  motion: captions
+  sfx: true
+sources:
+- title: TLO, bills filed Nov. 23, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-23
+  retrieved: '2026-11-24'
+- title: TLO, HB 1278 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1278
+  retrieved: '2026-11-24'
+- title: Texas Education Code, Sec. 28.021
+  url: https://statutes.capitol.texas.gov/Docs/ED/htm/ED.28.htm#28.021
+  retrieved: '2026-11-24'
+- title: TEA, 2026 All Combined STAAR Results
+  url: https://tea.texas.gov/data-reports/student-assessment-results/2026-all-combined-staar-results.pdf
+  retrieved: '2026-11-24'
+bills:
+- id: HB 1278
+  does: Would hold back third graders who don't pass the state reading test or an approved retest, unless an exemption
+    applies.
+  affects: Texas public and charter school third graders, starting in 2028-29, and their parents, teachers and schools.
+  where: Filed Nov. 23, 2026 by Rep. Schoolcraft; no other action yet.
+  summary:
+    text: >-
+      A school district shall retain in the third grade a student who does not satisfy Subsection (a-1).
+    title: HB 1278 as filed (Sec. 1, new Education Code 28.021(a-2))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01278I.htm
+    retrieved: '2026-11-24'
+  say: HB 1278 would hold back third graders who don't pass the state reading test or an approved retest, unless an
+    exemption applies. It was filed November 23 by Representative Schoolcraft, with no other action yet.
+slides:
+- kicker: 2027 Texas session · Filed Nov. 23, 2026
+  big: HB 1278
+  head: A Texas House of Representatives bill would make third graders pass a reading test to move up to fourth grade.
+  say: Should third graders have to pass a reading test to move up? A Texas House of Representatives bill filed
+    November 23 would require it.
+- chip: Today
+  head: Each school district decides who moves up, weighing several things.
+  rows:
+  - [Teacher, "The teacher's recommendation"]
+  - [Grades, "The grade in each subject"]
+  - [Tests, "The state test score (STAAR)"]
+  - [Other, "Other academic information the district needs"]
+  quote: {label: Texas Education Code 28.021(a), text: "A student may be promoted only on the basis of academic achievement or demonstrated proficiency of the subject matter of the course or grade level."}
+  say: 'Today, each Texas school district decides who moves up. It weighs the teacher''s recommendation, the student''s
+    grades, the STAAR state test score, and other academic information.'
+- chip: After
+  head: A third grader would move up only by passing one of three ways.
+  rows:
+  - [1, "Pass the STAAR reading test"]
+  - [2, "Or pass an approved reading retest after summer help"]
+  - [3, "Or qualify for a good-cause exemption"]
+  text: Otherwise, the district must hold the student back in third grade.
+  say: 'After: a third grader moves up only by passing the STAAR reading test, passing an approved retest after summer
+    help, or getting a good-cause exemption. Otherwise, the district must hold the student back.'
+- chip: Exemptions
+  head: "Good cause, as the bill lists it, covers some students who:"
+  rows:
+  - Are learning English, with under 2 years in a bilingual program
+  - Take the state's alternative test
+  - Are in special education or have a 504 plan, and meet its conditions
+  - Get dyslexia services and 2+ years of reading help
+  - Have had 2+ years of reading help and were held back twice before
+  text: The teacher, the principal and the superintendent each sign off.
+  say: Good-cause exemptions cover some students learning English, students who take the alternative test, some
+    special education students, some with dyslexia, and some held back twice before. The teacher, principal and
+    superintendent each sign off.
+- chip: If held back
+  big: 90 minutes
+  head: Of reading instruction each school day, on top of the extra help schools already give.
+  text: Also a teacher with a state designation or a record of raising reading scores, a written notice to parents, and
+    progress checks. A student can move up during the year by passing an approved reading test.
+  say: A student held back gets 90 minutes of reading instruction each school day, on top of extra help, a highly rated
+    teacher, and a notice to parents. They can move up during the year by passing an approved reading test.
+- chip: How many pass now
+  big: 73%
+  head: Texas third graders who scored "Approaches Grade Level" or higher in reading on STAAR, spring 2026.
+  text: 49% scored "Meets Grade Level" or higher. The bill leaves the passing score to the state education commissioner.
+  say: In spring 2026, 73% of Texas third graders scored Approaches Grade Level or higher in reading, and 49% scored
+    Meets Grade Level. The bill lets the state education commissioner set the passing score.
+- chip: Who gains, who pays
+  head: Students who struggle with reading would get more help, and some would repeat third grade.
+  text: Schools would add the daily reading time, teachers, notices and yearly reports. No fiscal note (cost estimate)
+    is posted yet.
+  say: Students who struggle with reading would get more help, and some would repeat third grade. Schools would add
+    the reading time, teachers, notices and reports. No cost estimate is posted yet.
+- chip: What's next
+  big: 2028-29
+  head: The first third graders it would apply to, if passed as filed. Charter schools too.
+  text: "How we picked: every bill filed Nov. 23, 2026 whose caption is about grade promotion. Hold back, or move up with help?"
+  say: If passed as filed, it would first apply to third graders in 2028-29, in public and charter schools. How we
+    picked, every bill filed November 23 about grade promotion. Hold back, or move up with help?
+caption: |-
+  Today, each Texas school district decides who moves up a grade, weighing the teacher's recommendation, grades, the STAAR score and other academic information.
+
+  HB 1278, filed in the Texas House of Representatives for the 2027 session, would change that for third grade. A third grader would move up only by passing the STAAR reading test, passing an approved reading retest after summer help, or qualifying for a good-cause exemption (some students learning English, in special education, with dyslexia, or already held back twice). Otherwise the district must hold the student back.
+
+  A student held back would get 90 minutes of reading instruction each school day on top of other extra help, and could move up during the year by passing an approved reading test.
+
+  In spring 2026, 73% of Texas third graders scored "Approaches Grade Level" or higher in reading on STAAR, and 49% scored "Meets Grade Level" or higher. The bill leaves the passing score to the state education commissioner.
+
+  No cost estimate is posted yet. If passed as filed, it would first apply to third graders in 2028-29, in public and charter schools.
+
+  Hold back, or move up with help?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [txlege, texaslegislature, txed, reading, votetherecord]
+notes: >-
+  New: filed Nov. 23, 2026; no earlier post covers it. Rule: the Nov. 23 filing report's captions (8 bills); HB 1278 is
+  the only one about grade promotion. Records opened 2026-11-24: the Nov. 23 filing report, the bill history (filed,
+  no other action; author "Schoolcraft"; no fiscal note listed), the introduced text (HTML; PDF sha256
+  c3380310c08263e78196fdd162cc80f47c8bbb66fe0ed3e3c83a2e6c0dec6578), Education Code 28.021 (rendered from
+  statutes.capitol.texas.gov), and TEA's 2026 All Combined STAAR Results PDF (sha256
+  d687548204642a58a9ff8363098e564ffaff3d1139ebb050fdc3b3ba5d8f3922; grade 3 RLA, spring 2026: Approaches 73%, Meets
+  49%). The bill's bar is "performs satisfactorily, as determined by the commissioner under Section 39.0241(a)"; we
+  believe that is "Approaches Grade Level" today, but no source opened this run says so, so the slide gives both
+  numbers and says the commissioner sets the bar; please confirm, and don't read 73% as a pass rate under the bill.
+  The exemption list paraphrases new 28.02112(c)(1)-(5) (special education and 504 conditions shortened to "meet its
+  conditions"); "summer help" is 28.02112(b)(1) (accelerated instruction under 28.0211 the summer after third grade);
+  "a state designation" is 21.3521. Effective Sept. 1, 2027; applies starting with third graders in 2028-29 (Sec. 5(a)).
+  Who gains and who pays is our plain reading of the bill's duties; no source gives amounts, and no official
+  statement for or against was found, so the post gives the record and asks. Author as TLO lists him, no party.
+  Evergreen (a prefiled bill): takes Nov. 29 6:00 p.m., the first free Reel slot that keeps the day's Reel/post turn
+  (Nov. 29 6:00 a.m. would put two Reels in a row before the 12:00 p.m. Reel). 6:00 p.m. trial look: changes only
+  `position` (bottom) from the baseline, the first trial of that design.
