@@ -2,48 +2,59 @@ kind: carousel
 level: congress
 topic: Congress recap
 approval: review
-rule: 'Counts: every roll-call vote in the House Clerk''s and the Senate''s official lists, and every public law GovInfo shows
-  approved Nov. 16-22, 2026. Listed: every bill that became law, then every final-passage vote on a bill or joint resolution
+rule: 'Counts: every roll-call vote in the House Clerk''s and the Senate''s official lists, and every bill congress.gov shows
+  "Signed by President" Nov. 16-22, 2026 (GovInfo had not yet posted them as public laws). Signed bills are counted, not
+  listed, since each has its own post. Listed: every final-passage vote on a bill or joint resolution
   (passage, suspend and pass, conference report, agreeing to the other chamber''s amendment, veto override), in date order.
   If the post runs out of room, the list stops in that order and the rest are counted on the last slide.'
 record_ids:
 - us/119/recap/week-2026-11-16
 sources:
-- title: GovInfo, Public and Private Laws RSS feed
-  url: https://www.govinfo.gov/rss/plaw.xml
-  retrieved: '2026-11-21'
-- title: Office of the Clerk, U.S. House, Roll Call Votes 2026 (ROLL_300)
+- title: House Clerk, 2026 roll calls
   url: https://clerk.house.gov/evslegacy/2026/ROLL_300.asp
   retrieved: '2026-11-21'
-- title: House Clerk, Roll Call 324 (2026)
+- title: House roll 324
   url: https://clerk.house.gov/evs/2026/roll324.xml
   retrieved: '2026-11-21'
-- title: House Clerk, Roll Call 325 (2026)
+- title: House roll 325
   url: https://clerk.house.gov/evs/2026/roll325.xml
   retrieved: '2026-11-21'
-- title: House Clerk, Roll Call 326 (2026)
+- title: House roll 326
   url: https://clerk.house.gov/evs/2026/roll326.xml
   retrieved: '2026-11-21'
-- title: House Clerk, Roll Call 327 (2026)
+- title: House roll 327
   url: https://clerk.house.gov/evs/2026/roll327.xml
   retrieved: '2026-11-21'
-- title: U.S. Senate, Roll Call Vote 119th Congress, Session 2, Vote 270
+- title: U.S. Senate, Vote 270
   url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00270.xml
   retrieved: '2026-11-21'
-- title: U.S. Senate, Roll Call Votes, 119th Congress, Session 2
+- title: U.S. Senate, 2026 votes
   url: https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml
   retrieved: '2026-11-21'
+- title: H.R. 5284 actions
+  url: https://api.congress.gov/v3/bill/119/hr/5284/actions
+  retrieved: '2026-11-24'
+- title: H.R. 8352 actions
+  url: https://api.congress.gov/v3/bill/119/hr/8352/actions
+  retrieved: '2026-11-24'
+- title: H.R. 10159 actions
+  url: https://api.congress.gov/v3/bill/119/hr/10159/actions
+  retrieved: '2026-11-24'
+- title: H.R. 10167 actions
+  url: https://api.congress.gov/v3/bill/119/hr/10167/actions
+  retrieved: '2026-11-24'
 slides:
 - kicker: Weekly recap · Congress
   head: What Congress did, Nov. 16-22, 2026
   rows:
-  - - New public laws
-    - '0'
+  - - Bills signed into law
+    - '4'
   - - House roll-call votes
     - '4'
   - - Senate roll-call votes
     - '17'
-  text: 'Listed: every new law, then every vote to pass a bill or joint resolution, in date order.'
+  text: 'The 4 signed bills each get their own post. Listed next: every vote to pass a bill or joint resolution, in date
+    order.'
 - kicker: Final-passage votes
   head: Votes to pass bills and joint resolutions
   rows:
@@ -60,13 +71,13 @@ slides:
   by: 'Tallies: yeas-nays, as each chamber recorded them. In parentheses, by party (yeas-nays): D Democratic, I Independent,
     R Republican.'
 - kicker: What's next
-  head: None of these is law yet.
+  head: None of these 5 is law yet.
   text: The four bills the U.S. House of Representatives passed go to the U.S. Senate. The U.S. Senate changed H.R. 2347,
     so the U.S. House of Representatives has to act on the Senate's text.
 - head: Which of these would you want explained next?
   text: Tell us in the comments. Every tally here comes from the official roll call.
-caption: 'What Congress did, Nov. 16-22, 2026: 0 new public laws, 4 U.S. House roll-call votes, 17 U.S. Senate roll-call
-  votes, and 5 votes to pass a bill. None is law yet.'
+caption: 'What Congress did, Nov. 16-22, 2026: 4 bills signed into law, 4 U.S. House roll-call votes, 17 U.S. Senate
+  roll-call votes, and 5 votes to pass a bill.'
 publish_after: '2026-11-24T09:00:00-06:00'
 hashtags:
 - congress
@@ -86,7 +97,15 @@ notes: 'Weekly recap, drafted by recap.py on 2026-11-21 (first Saturday run), do
   received in the U.S. Senate; H.R. 9640 is on the Senate calendar (No. 721). Every vote here has, or will have, its
   own post, so record_ids lists only the recap. News first: takes the Nov. 24 9:00 a.m. post slot and moves the
   evergreen Texas HB 1194/SB 404 post (prefiled bills) to Dec. 7 3:00 a.m. (Dec. 6 9:00 a.m. would follow a post
-  with no Reel between). If GovInfo posts a law approved Nov. 16-22 before Nov. 24, update the count.'
+  with no Reel between). If GovInfo posts a law approved Nov. 16-22 before Nov. 24, update the count. Nov. 24 update (step 2a recheck):
+  GovInfo''s feed still shows no law approved Nov. 16-22 (its newest, PL 119-119 to 119-134, were approved Oct. 7-20),
+  but congress.gov actions (API, read 2026-11-24) say "Signed by President." on Nov. 20 for H.R. 5284, H.R. 8352,
+  H.R. 10159 and H.R. 10167 (matching the White House statements of Nov. 20), so "0 new public laws" was wrong. Changed:
+  the first row (now "Bills signed into law: 4"), its text, the rule, the "What''s next" head ("None of these 5"), the
+  caption, four congress.gov sources in place of the GovInfo feed, and shorter source titles for
+  the Clerk and Senate sources so the caption fits Instagram''s limit. The signed bills are not named, so no bills entries are added; each has its
+  own post (H.R. 10167 Nov. 23, H.R. 10159 Nov. 24, H.R. 5284 Nov. 27, H.R. 8352 Dec. 17). H.R. 1550, 4930 and 8552
+  were signed Nov. 23, outside this week. Slot unchanged.'
 bills:
 - id: H.R. 8483
   does: Would take about 847 acres of federal land in San Diego County into trust for the Barona tribe
