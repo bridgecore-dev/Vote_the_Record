@@ -1,0 +1,105 @@
+kind: carousel
+level: state
+place: Texas
+topic: Consumers
+approval: review
+rule: Every bill filed Nov. 23, 2026 whose Texas Legislature Online caption is about virtual currency. HB 1276 is the
+  only one (said on the last slide).
+record_ids: [tx/90R/HB 1276/filed]
+publish_after: '2026-11-29T15:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 23, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-23
+  retrieved: '2026-11-24'
+- title: Texas Legislature Online, HB 1276 bill history (90th Legislature)
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1276
+  retrieved: '2026-11-24'
+- title: Texas Finance Code, Chapter 160 (digital asset service providers)
+  url: https://tcss.legis.texas.gov/resources/FI/htm/FI.160.htm
+  retrieved: '2026-11-24'
+- title: FBI Internet Crime Complaint Center, 2024 Internet Crime Report
+  url: https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf
+  retrieved: '2026-11-24'
+bills:
+- id: HB 1276
+  does: Would require crypto kiosks in Texas to show risk and scam warnings, give receipts, and cap new customers at $2,000 a day.
+  affects: Companies that run virtual currency kiosks in Texas and the people who use them.
+  where: Filed Nov. 23, 2026 by Rep. Plesa; no other action yet. Would take effect Sept. 1, 2027.
+  summary:
+    text: >-
+      A maximum daily transaction limit of $2,000 is established for each customer of a virtual currency kiosk located
+      in this state for whom not more than 72 hours has elapsed from the time the person first signed up as a customer.
+    title: HB 1276 as filed, Sec. 1 (Finance Code 161.008)
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01276I.htm
+    retrieved: '2026-11-24'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 23, 2026
+  big: $246.7 million
+  head: Lost through crypto ATMs and kiosks in 2024, in complaints to the FBI nationwide. A Texas House of
+    Representatives bill would set rules for these kiosks.
+  text: 'FBI Internet Crime Complaint Center, 2024: 10,956 complaints about crypto ATMs and kiosks.'
+- chip: The law today
+  head: Texas has a 2023 law for crypto companies that hold customers' money. It doesn't mention kiosks.
+  quote:
+    label: Texas Finance Code 160.004(a)(1)
+    text: commingle customer funds with funds belonging to the digital asset service provider
+  text: HB 1276 would add a new chapter, Chapter 161, only for virtual currency kiosks. The 2023 law says a provider may not
+- chip: The warning
+  head: Before a first purchase, the kiosk would have to show this warning in bold, and the customer would have to acknowledge it.
+  quote:
+    label: HB 1276 as filed, Finance Code 161.003(b)
+    text: 'WARNING: LOSSES DUE TO FRAUDULENT OR ACCIDENTAL TRANSACTIONS ARE NOT RECOVERABLE AND TRANSACTIONS IN VIRTUAL CURRENCY ARE IRREVERSIBLE.'
+  text: The same warning goes on to name scammers who impersonate loved ones or threaten jail time.
+- chip: What would change
+  head: What a kiosk would have to do, under the bill as filed
+  rows:
+  - [Risks, "Shown on screen before a first purchase, then acknowledged"]
+  - [Each sale, "Dollar amount, fees, exchange rate, and markup shown first"]
+  - [Receipt, "Paper, e-mail or text, with fees and transaction ID"]
+  - [New customers, "$2,000 a day, for the first 72 hours"]
+  - [Fraud, "Fees refunded if an agency reports the sale was induced by fraud"]
+- chip: The fine print
+  head: The refund in the bill covers the operator's fees. It doesn't mention returning the money sent.
+  quote:
+    label: HB 1276 as filed, Finance Code 161.007(c)
+    text: the operator of the virtual currency kiosk shall issue to the customer a refund for any fees charged by the operator in association with the transaction.
+  text: A customer has 14 days to file a fraud complaint with the operator and with a government or law enforcement agency, which must investigate.
+- chip: Who it affects
+  head: Customers would get more warnings and a limit. Operators would get new duties and could pay a fee.
+  rows:
+  - [Kiosk customers, "More warnings and receipts; new customers capped at $2,000 a day"]
+  - [Kiosk operators, "New disclosures, receipts and refunds; a fee to cover the state's costs"]
+  - [Texas Department of Banking, "Would enforce it and could examine operators' records"]
+- chip: When it would start
+  big: Sept. 1, 2028
+  head: Kiosk operators wouldn't have to follow the new rules until this date.
+  text: The bill itself would take effect Sept. 1, 2027. No fiscal note is posted yet, so there is no official estimate of the cost.
+- chip: Your view
+  head: Should Texas set rules like these for crypto kiosks?
+  text: "How we picked: every bill filed Nov. 23 whose caption is about virtual currency. HB 1276 was the only one."
+caption: |-
+  People reported losing $246.7 million through crypto ATMs and kiosks in 2024, in 10,956 complaints to the FBI's Internet Crime Complaint Center. That's nationwide.
+
+  HB 1276, filed in the Texas House of Representatives for the 2027 session, would set rules for kiosks in Texas. Before a first purchase, a kiosk would have to show risk warnings and a bold scam warning. Each sale would show its fees and markup, and come with a receipt. New customers would be limited to $2,000 a day for their first 72 hours.
+
+  If a government agency finds a sale was a fraud, the operator would refund its fees. The bill doesn't mention returning the money sent.
+
+  Operators would have until Sept. 1, 2028 to comply. No cost estimate is posted yet.
+
+  Should Texas set rules like these for crypto kiosks?
+hashtags: [txlege, texaslegislature, cryptocurrency, scamawareness, votetherecord]
+notes: >-
+  New: filed Nov. 23, 2026; the only bill on that day's filing report (8 bills) whose caption is about virtual currency.
+  Records opened 2026-11-24 (UTC; Nov. 23 evening Central): the filing report, the bill history (filed, no other action,
+  no fiscal note listed; author listed as "Plesa"), the introduced text (90R5349 PRL-F), Finance Code ch. 160 (tcss;
+  added 2023 by H.B. 1666; the word "kiosk" doesn't appear in it), and the FBI IC3 2024 report (p. 36: "Cryptocurrency
+  ATMs/Kiosks 10,956 Complaints; $246.7 Million in Losses"; PDF sha256
+  ba494b0a1bd991c722cf65619eb518329175b898fb508e8c84fc7dd12e07cac0). The FBI figures are national and for 2024; the
+  slide and caption say so. The post doesn't claim no other Texas law reaches kiosk operators (Chapter 151 money
+  transmission licensing may), only that Chapter 160 doesn't mention kiosks. "Markup" restates 161.004(b)(6) ("the
+  difference in the virtual currency's sale price compared to the current market price"); "transaction ID" restates
+  "transaction hash". "Doesn't mention returning the money sent" is our reading of 161.007(c), which names only fees;
+  please confirm. ftc.gov refused this run (403), so the FTC's kiosk data spotlight isn't used. No fiscal note or
+  statement for or against exists yet, so the post asks instead. Rep. Plesa as TLO lists the author, no party shown.
+  Evergreen (a prefiled bill): Nov. 29 3:00 p.m. is the first free post slot that keeps the Reel/post turn (after the
+  Nov. 29 12:00 p.m. Reel; Nov. 29 9:00 a.m. would follow the 3:00 a.m. carousel with no Reel between).
