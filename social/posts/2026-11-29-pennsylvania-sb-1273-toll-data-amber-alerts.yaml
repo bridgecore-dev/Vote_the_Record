@@ -1,0 +1,116 @@
+kind: carousel
+level: state
+place: Pennsylvania
+topic: Privacy
+approval: review
+record_ids: [pa/2025/SB 1273/signed, pa/2025/senate/roll/619, pa/2025/house/roll/1567]
+publish_after: '2026-11-29T15:00:00-06:00'
+sources:
+- title: SB 1273 (2025-2026) bill history
+  url: https://www.palegis.us/legislation/bills/2025/sb1273
+  retrieved: '2026-11-24'
+- title: Senate Bill 1273, Printer's No. 2003 (the text both chambers passed)
+  url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB1273/PN2003
+  retrieved: '2026-11-24'
+- title: 74 Pa.C.S. § 8117, Electronic toll collection (current law)
+  url: https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=74&div=00.&chpt=081.&sctn=017.&subsctn=000.
+  retrieved: '2026-11-24'
+- title: House Appropriations Committee fiscal note, SB 1273 PN 2003 (Oct. 20, 2026)
+  url: https://www.palegis.us/WU01/LI/BI/FN/2025/0/SB1273P2003.pdf
+  retrieved: '2026-11-24'
+- title: Pennsylvania Senate Journal, June 24, 2026, p. 498
+  url: https://www.palegis.us/senate/session/journals?sessYr=2026&sessInd=0&pdfName=Sj20260624.pdf
+  retrieved: '2026-11-24'
+- title: Pennsylvania Senate roll call 619 (Nov. 17, 2026)
+  url: https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=619
+  retrieved: '2026-11-24'
+- title: Pennsylvania House roll call 1567 (Oct. 20, 2026)
+  url: https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1567
+  retrieved: '2026-11-24'
+slides:
+- kicker: Pennsylvania · New law, Nov. 23, 2026
+  big: Amber Alerts
+  head: Pennsylvania Turnpike toll records can now go to police to help find a vehicle named in an Amber Alert.
+  text: SB 1273 became Act 118 of 2026. It takes effect 60 days after it was signed.
+- chip: The law today
+  head: In Pennsylvania, E-ZPass and other toll records are private.
+  rows:
+  - [What's covered, "Names, addresses, account numbers, balances and vehicle movement records"]
+  - [Who uses it, "The Turnpike Commission and police, for toll duties"]
+  - [Not public, "Not a public record under the Right-to-Know Law"]
+  quote: {label: "74 Pa.C.S. § 8117(d)(1)(i)", text: "The information shall be for the exclusive use of the commission, its authorized agents, its employees and law enforcement officials for the purpose of discharging their duties pursuant to this section"}
+- chip: Before → after
+  head: The law already listed three exceptions. Act 118 adds a fourth.
+  rows:
+  - [Before, "A court order in a criminal case; sharing between toll agencies; billing and toll enforcement"]
+  - [After, "Also: vehicle movement information for a vehicle named in an Amber Alert or a Missing Endangered Person Advisory"]
+  quote: {label: "SB 1273, PN 2003", text: "reasonably tailored and provided solely for the purpose of assisting in the recovery of abducted children and missing persons who are at a special risk of harm or injury"}
+- chip: New rule, or a clarification?
+  head: The sponsor says it confirms what the Turnpike could already do. The House committee's fiscal note calls it a new exception.
+  rows:
+  - [Sen. Camera Bartolotta (sponsor), "\"This bill simply clarifies and affirms the ability of the turnpike to share information\""]
+  - [House Appropriations fiscal note, "\"create a fourth exception to the rule that electronic toll collection information is to be kept private\""]
+- chip: Who gains, who loses
+  head: Police get another tool in missing-person alerts. Drivers' toll records get one more way out.
+  rows:
+  - [Police in an alert case, "Can get where the named vehicle went through the toll system"]
+  - [Whoever is in that vehicle, "Its movement records can be shared. The new exception doesn't mention a court order."]
+  - [Everyone else, "The other privacy rules stay the same"]
+- chip: What it costs
+  head: The fiscal note puts the cost to the state at $0.
+  quote: {label: House Appropriations Committee fiscal note, text: "Enactment of this legislation will have no impact on Commonwealth funds."}
+- chip: Pennsylvania Senate
+  head: The Pennsylvania Senate agreed to the House's changes 46-2 on Nov. 17, 2026.
+  vote: {yea: 46, nay: 2, not_voting: 2}
+  rows:
+  - [R, "25 Yea · 2 Nay"]
+  - [D, "21 Yea · 2 didn't vote"]
+  by: "Voted Nay: Sen. Jarrett Coleman (R, District 16), Sen. Dawn Keefer (R, District 31). Party as the roll call lists it."
+- chip: Pennsylvania House of Representatives
+  head: The Pennsylvania House of Representatives passed it 202-1 on Oct. 20, 2026.
+  vote: {yea: 202, nay: 1}
+  rows:
+  - [D, "103 Yea · 0 Nay"]
+  - [R, "99 Yea · 1 Nay"]
+  by: "Voted Nay: Rep. Bud Cook (R, District 50). Party as the roll call lists it."
+- chip: Your turn
+  head: Where should the line be when police ask for toll records?
+  text: The three members who voted no gave no reasons in the records we opened. Which side convinces you?
+caption: |-
+  Pennsylvania Turnpike toll records can now go to police to help find a vehicle named in an Amber Alert or a missing endangered person alert. Act 118 of 2026 takes effect in 60 days.
+
+  Before: toll records were for the Turnpike Commission and police doing toll work, with three exceptions, including a court order in a criminal case.
+  After: a fourth, "reasonably tailored" and only to help recover abducted children and missing people at special risk.
+
+  The sponsor said it "simply clarifies and affirms" the Turnpike's power; the House fiscal note calls it "a fourth exception." It doesn't mention a court order. Cost to the state: $0.
+
+  Pennsylvania Senate: 46-2. Pennsylvania House of Representatives: 202-1. Which side convinces you?
+hashtags: [pennsylvania, palegis, amberalert, privacy, votetherecord]
+bills:
+- id: SB 1273
+  title: Electronic toll collection (Act 118 of 2026)
+  does: Lets the Turnpike Commission give police toll records on a vehicle named in an Amber Alert or missing endangered person alert
+  affects: Police, and anyone in a vehicle named in one of those alerts that uses the toll system
+  where: Approved by the Governor Nov. 23, 2026 as Act 118 of 2026; takes effect in 60 days.
+  summary:
+    text: "Allows for the sharing of electronic toll collection information with law enforcement for vehicles identified through the Amber Alert System."
+    title: House Appropriations Committee fiscal note summary of SB 1273 (PN 2003)
+    url: https://www.palegis.us/WU01/LI/BI/FN/2025/0/SB1273P2003.pdf
+    retrieved: '2026-11-24'
+notes: >-
+  News first: an official action from the last three days (palegis.us bill history, read 2026-11-24: "Approved by
+  the Governor, Nov. 23, 2026", "Act No. 118 of 2026"). Found through Open States' action feed (a tip only, not a
+  source); no post or open pull request covers it. Takes the Nov. 29 3:00 p.m. post slot from the evergreen Texas HB
+  1276 post (a prefiled bill), moved to Dec. 22 3:00 a.m., the first post slot after the last queued post (Dec. 21
+  3:00 a.m.) that keeps the Reel/post turn. Earlier post slots hold news, except Nov. 28 3:00 p.m. (hemp, a Dec. 11
+  dated event that moving would make late), and Nov. 29 9:00 a.m. is free but would follow the 3:00 a.m. carousel with
+  no Reel between. PN 2003 is the House-amended text the Senate concurred in (PDF sha256
+  497da890b04a4a4499cb6a800241b9598c96e1e72a8f783f88aad875c95c2e17). "Before" is 74 Pa.C.S. 8117(d) from the
+  palegis.us consolidated statute PDF (read 2026-11-24); the bill adds (d)(2)(iv). "Doesn't mention a court order" is
+  our reading of (iv), which sits beside the court-order exception in (2)(i); please confirm. The sponsor quote is
+  from the June 24 Senate Journal p. 498 (she also says "automated plate reading technology"; not used). Senate roll
+  619 (concurrence, Nov. 17, 46-2-2) and House roll 1567 (final passage, Oct. 20, 202-1) were counted from each roll
+  call page's member list; party and district as those pages list them (R, D). The Senate's June 24 final passage was
+  48-2 (Nays Hutchinson, Keefer); not on a slide since the Nov. 17 concurrence sent the final text. No member who
+  voted no spoke in the June 24 Journal; the Nov. 17 Journal isn't posted yet, so no case against is quoted. The
+  Governor isn't named because no record opened names him. "Takes effect in 60 days" is Section 2 of the act.
