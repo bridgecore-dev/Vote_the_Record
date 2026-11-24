@@ -1,0 +1,95 @@
+kind: carousel
+level: state
+place: Texas
+topic: Policing
+approval: review
+rule: Every bill filed Nov. 23, 2026 whose Texas Legislature Online caption is about facial coverings in law
+  enforcement. SB 475 is the only one (said on the last slide).
+record_ids: [tx/90R/SB 475/filed]
+publish_after: '2026-11-29T21:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 23, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-23
+  retrieved: '2026-11-24'
+- title: Texas Legislature Online, SB 475 bill history (90th Legislature)
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB475
+  retrieved: '2026-11-24'
+bills:
+- id: SB 475
+  does: Would bar officers, including some federal agents, from wearing masks that hide who they are while dealing with the public.
+  affects: Texas peace officers and federal agents who enforce criminal, customs or immigration laws, and people they detain.
+  where: Filed Nov. 23, 2026 by Sen. Gutierrez; no other action yet. Would take effect Sept. 1, 2027.
+  summary:
+    text: >-
+      Except as provided by Subsection (b), a peace officer may not wear a facial covering while interacting with the
+      public in the performance of the officer's duties.
+    title: SB 475 as filed, Sec. 1 (new Code of Criminal Procedure Art. 2B.0352(a))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00475I.htm
+    retrieved: '2026-11-24'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 23, 2026
+  big: No masks
+  head: A Texas Senate bill would bar officers from hiding their faces while dealing with the public, with exceptions.
+- chip: What counts
+  head: A "facial covering" is anything worn on the face or head that hides who you are.
+  quote:
+    label: SB 475, new Art. 2B.0351(1)
+    text: including a balaclava, tactical mask, gaiter, or ski mask
+  text: "Not covered: clear masks and face shields, medical masks against disease, gas masks, helmets, and anything worn for a religious purpose."
+- chip: Who it covers
+  head: The rule covers Texas peace officers and some federal agents.
+  text: Federal agents count if they can carry guns and arrest without a warrant, and their job is enforcing criminal, customs or immigration laws.
+- chip: Exceptions
+  head: Officers could still cover their faces in three cases.
+  rows:
+  - [Undercover, An active undercover operation their agency authorized]
+  - [SWAT, Duties of a SWAT team they are assigned to]
+  - [Safety rules, To follow a health and safety law or regulation]
+- chip: Before → after
+  head: The bill doesn't rewrite an existing rule. It adds a new one, and a new right to sue.
+  rows:
+  - [Masks while dealing with the public, "No rule in the codes the bill amends → banned, with exceptions"]
+  - [Detained by a masked officer, "No such lawsuit in those codes → the person could sue the officer"]
+  - [Official immunity, "The bill says officers can't use it as a defense in these lawsuits"]
+- chip: The lawsuit
+  head: A person could sue an officer who detained them while wearing a banned covering.
+  rows:
+  - [They could win, "Damages, punitive damages, a court order, court costs and lawyer's fees"]
+  - [Officer's defense, "Their name or other information was clearly shown on their uniform"]
+  - [Applies to, "Detentions on or after the law takes effect"]
+- chip: Who it affects
+  head: People stopped by officers would gain a way to sue. Officers would face new limits and new lawsuits.
+  rows:
+  - [People detained, "Could sue a masked officer who isn't identifiable by name or uniform"]
+  - [Officers and agents, "Would need to show their face, or their name on the uniform, unless an exception applies"]
+  text: No fiscal note or bill analysis is posted yet, so there is no official estimate of what it would cost.
+- chip: When it would start
+  big: Sept. 1, 2027
+  head: If passed as filed, the bill takes effect on this date, or right away with a two-thirds vote in each chamber.
+- chip: Your view
+  head: Should officers in Texas have to show their faces when dealing with the public?
+  text: "How we picked: every bill filed Nov. 23 whose caption is about facial coverings in law enforcement. SB 475 was the only one."
+caption: |-
+  SB 475, filed in the Texas Senate for the 2027 session, would bar peace officers from wearing masks that hide who they are while dealing with the public.
+
+  It would also cover federal agents who can carry guns and arrest without a warrant and who enforce criminal, customs or immigration laws.
+
+  Exceptions: undercover work, SWAT duties, and health and safety rules. Clear masks, medical masks, gas masks, helmets and religious coverings don't count.
+
+  A person detained by an officer in a banned mask could sue. The officer's defense: their name or other information was clearly shown on the uniform. The bill says officers can't claim official immunity in these suits.
+
+  No cost estimate is posted yet. Should officers have to show their faces?
+hashtags: [txlege, texaslegislature, texassenate, votetherecord]
+notes: >-
+  New: filed Nov. 23, 2026; the only bill on that day's filing report whose caption is about facial coverings in law
+  enforcement. No earlier post or pull request names it. Records opened 2026-11-24: the Nov. 23 filing report, the bill
+  history (filed and received by the Secretary of the Senate, no other action; subjects Civil Remedies & Liabilities,
+  Law Enforcement, Peace Officers; council document 90R 1299 JDK-F) and the introduced text. Every rule, exception,
+  remedy and date is read from the introduced text (Arts. 2B.0351-2B.0352; Civ. Prac. & Rem. Code 108A.001-.004;
+  Secs. 3-4). "Doesn't rewrite an existing rule" and the "before" side rest on the bill adding new sections rather than amending
+  existing ones; please confirm no other Texas statute already limits officers' face coverings. The bill reaches
+  federal agents; whether a state can apply such a rule to federal officers is not addressed in any official record
+  opened this run (justice.gov refused the request, 403, not retried), so the post doesn't say either way. No fiscal
+  note, analysis, or official statement for or against was found, so there is no for/against slide and the post asks.
+  Sen. Gutierrez as TLO lists the author, no party shown. Evergreen (a prefiled bill): Nov. 29 9:00 p.m. is the first
+  free post slot that keeps the Reel/post turn (Nov. 29 9:00 a.m. would follow a post with the 6:00 a.m. Reel empty).
