@@ -1,0 +1,117 @@
+kind: reel
+level: state
+place: Texas
+topic: Housing
+approval: review
+rule: Every bill filed Nov. 24, 2026 whose Texas Legislature Online caption is about flooding. HB 1285 is the only one
+  (said on the last slide).
+record_ids: [tx/90R/HB 1285/filed]
+publish_after: '2026-12-01T06:00:00-06:00'
+trial: auto
+design:
+  palette: amber
+  mode: dark
+  font: round
+  position: center
+  motion: captions
+  sfx: true
+voice: true
+sources:
+- title: TLO, bills filed Nov. 24, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-24
+  retrieved: '2026-11-24'
+- title: TLO, HB 1285 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1285
+  retrieved: '2026-11-24'
+- title: Texas Property Code, Chapter 5 (Sec. 5.008)
+  url: https://tcss.legis.texas.gov/resources/PR/htm/PR.5.htm
+  retrieved: '2026-11-24'
+bills:
+- id: HB 1285
+  does: Would add flood, erosion, wetlands and flood-insurance questions to the notice Texas home sellers give buyers.
+  affects: People selling or buying a single-unit home in Texas, who use the seller's disclosure notice.
+  where: Filed Nov. 24, 2026 by Rep. Ochoa; no other action yet. Would take effect Sept. 1, 2027.
+  summary:
+    text: >-
+      Previous erosion on the property caused by a natural event such as a hurricane, heavy rainfall, coastal storm
+      surge, tidal inundation, or river overflow
+    title: HB 1285 as filed, Sec. 1 (Property Code 5.008(b), notice item 6)
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/HB01285I.pdf
+    retrieved: '2026-11-24'
+  say: HB 1285 would add flood, erosion, wetlands and flood insurance questions to the notice Texas home sellers give
+    buyers. It was filed November 24 by Representative Ochoa, with no other action yet.
+slides:
+- kicker: 2027 Texas session · Filed Nov. 24, 2026
+  big: HB 1285
+  head: A Texas House of Representatives bill would make home sellers answer more questions about flooding.
+  say: A Texas House of Representatives bill filed November 24 would make home sellers answer more questions about
+    flooding.
+- chip: The law today
+  head: Texas home sellers already give buyers a disclosure notice. Its flood section lists three conditions.
+  rows:
+  - Flood insurance on the property now
+  - Flooding from a reservoir breach or water release
+  - Water getting into a building in a natural flood
+  text: The notice also asks about floodplains, flood insurance claims, and FEMA or SBA help. Texas Property Code 5.008(b).
+  say: 'The law today: Texas home sellers already give buyers a disclosure notice. Its flood section lists three
+    conditions: flood insurance now, flooding from a reservoir, and water getting into a building in a natural flood.'
+- chip: What would change
+  head: HB 1285 would add these to the flood section
+  rows:
+  - [Insurance, "Also: is flood insurance required under federal law?"]
+  - [Flood water, "Also water pooling in a building; names rain, surge, tides, rivers"]
+  - [Erosion, "From a hurricane, heavy rain, storm surge, tides or rivers"]
+  - [Repairs, "Flood repairs never filed with insurance, while you owned it"]
+  - [Beaches, "A beach nourishment assessment, while you owned it"]
+  - [Other water, "Water or moisture damage not from a flood"]
+  - [Wetlands, "Any part of the property designated as wetlands"]
+  - [FEMA, "An elevation certificate available for the property"]
+  say: 'What would change: sellers would also say whether flood insurance is required, and report water pooling,
+    erosion, flood repairs never filed with insurance, beach nourishment assessments, other water damage, wetlands,
+    and a FEMA elevation certificate.'
+- chip: More detail
+  head: For each yes, sellers would say how often, about when, and what they did to fix it. And what they pay for flood insurance.
+  quote:
+    label: HB 1285 as filed, Property Code 5.008(b)
+    text: If applicable, state the flood insurance coverage premium currently being paid and when the premium was last adjusted
+    key: premium currently being paid
+  say: For each yes, sellers would say how often it happened, about when, and what they did to fix it. They would also
+    state the flood insurance premium they pay now, and when it last changed.
+- chip: Who it affects
+  head: Buyers would get more answers before they buy. Sellers would fill out a longer form.
+  text: It would apply to sales whose contract is signed on or after Sept. 1, 2027. No fiscal note is posted yet.
+  say: Buyers would get more answers before they buy. Sellers would fill out a longer form. It would apply to sales whose
+    contract is signed on or after September 1, 2027. No fiscal note is posted yet.
+- chip: Your view
+  head: Should Texas home sellers have to say more about flooding?
+  text: "How we picked: every bill filed Nov. 24 whose caption is about flooding. HB 1285 was the only one."
+  say: Should Texas home sellers have to say more about flooding? How we picked, every bill filed November 24 about
+    flooding. HB 1285 was the only one.
+caption: |-
+  When you buy a home in Texas, the seller gives you a disclosure notice. Today its flood section asks about three things: flood insurance now, flooding from a reservoir, and water getting into a building in a natural flood. It also asks about floodplains, flood insurance claims, and FEMA or SBA help.
+
+  HB 1285, filed Nov. 24 in the Texas House of Representatives for the 2027 session, would add more. Sellers would also say whether federal law requires flood insurance, and report water pooling, erosion from storms or rivers, flood repairs never filed with insurance, beach nourishment assessments, other water damage, wetlands, and whether a FEMA elevation certificate exists. For each yes, they'd say how often, about when, and what they did to fix it, plus the flood insurance premium they pay now.
+
+  Buyers would get more answers. Sellers would fill out a longer form. It would apply to contracts signed on or after Sept. 1, 2027. No cost estimate is posted yet.
+
+  Should sellers have to say more about flooding?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [txlege, texaslegislature, flooding, homebuying, votetherecord]
+notes: >-
+  New: filed Nov. 24, 2026; the only bill on that day's filing report (5 bills: HB 1282-1286) whose caption is about
+  flooding. Records opened 2026-11-24: the filing report, the bill history (filed, no other action, no fiscal note
+  listed; author listed as "Ochoa"), the introduced PDF (HTML says "coming soon"; PDF sha256
+  f30f31fc095a5c769e6862f6dc2d45288211978e07bcbddb21221f951ea110b8), and Property Code 5.008 on tcss as it reads today.
+  The changes were found by comparing the bill's notice with the current 5.008(b): item 6 today lists three conditions
+  (present flood insurance coverage; reservoir breach or release; water penetration due to a natural flood event); the
+  bill expands the first and third and adds the rest, moves "Water Damage Not Due to a Flood Event" out of item 4 into
+  item 6 (bracketed as deleted in item 4), adds the "how often / when / remedy" and premium lines, defines "wetlands"
+  (Water Code 11.502), and in item 8 adds "or any other federal disaster flood assistance" (left off the slides for
+  space). Only 5.008(b) is amended, so 5.008(a)'s scope (one dwelling unit) and (e)'s exemptions are unchanged; Sec. 2
+  applies it to contracts executed on or after the effective date. The pdftotext copy loses underlining, so please
+  confirm the additions against the PDF. No fiscal note or statement for or against exists yet, so the post asks.
+  Rep. Ochoa as TLO lists the author, no party shown. Trial: palette amber, the one change from the dark baseline (amber
+  hasn't been tried on a 6:00 a.m. Reel). Evergreen (a prefiled bill): Dec. 1 6:00 a.m. is the first free Reel slot
+  that keeps the turn on its own (Nov. 29 6:00 a.m. would sit next to the Nov. 29 12:00 p.m. Reel with 9:00 a.m. empty;
+  Nov. 30 6:00 p.m. needs the 3:00 p.m. post in another pull request).
