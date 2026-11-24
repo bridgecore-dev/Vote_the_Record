@@ -39,11 +39,11 @@ slides:
     Representatives bill would set rules for these kiosks.
   text: 'FBI Internet Crime Complaint Center, 2024: 10,956 complaints about crypto ATMs and kiosks.'
 - chip: The law today
-  head: Texas has a 2023 law for crypto companies that hold customers' money. One thing it bars them from doing is below. It doesn't mention kiosks.
+  head: Texas has a 2023 law for crypto companies that hold customers' money. It doesn't mention kiosks.
   quote:
     label: Texas Finance Code 160.004(a)(1)
     text: commingle customer funds with funds belonging to the digital asset service provider
-  text: HB 1276 would add a new chapter to the Finance Code, Chapter 161, only for virtual currency kiosks.
+  text: HB 1276 would add a new chapter, Chapter 161, only for virtual currency kiosks. The 2023 law says a provider may not
 - chip: The warning
   head: Before a first purchase, the kiosk would have to show this warning in bold, and the customer would have to acknowledge it.
   quote:
