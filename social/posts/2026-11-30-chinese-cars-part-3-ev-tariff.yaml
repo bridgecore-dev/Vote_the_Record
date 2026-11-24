@@ -1,0 +1,88 @@
+kind: reel
+level: congress
+topic: Cars
+approval: review
+found_via: owner idea Y1MTQ4MzQ1NDQzOTQyNAZDZD
+record_ids: [us/2024/89 FR 76581/electric-vehicles-100-percent]
+publish_after: '2026-11-30T12:00:00-06:00'
+trial: auto
+sources:
+- title: "USTR, Notice of Modification, Section 301 Four-Year Review, 89 FR 76581 (Sept. 18, 2024), GPO"
+  url: https://www.govinfo.gov/content/pkg/FR-2024-09-18/html/2024-21217.htm
+  retrieved: '2026-11-24'
+- title: "U.S. International Trade Commission, Harmonized Tariff Schedule (2026 Revision 23), heading 9903.91.03"
+  url: https://hts.usitc.gov/reststop/search?keyword=9903.91.03
+  retrieved: '2026-11-24'
+- title: "U.S. International Trade Commission, Harmonized Tariff Schedule (2026 Revision 23), subheading 8703.80.00"
+  url: https://hts.usitc.gov/reststop/search?keyword=8703.80.00
+  retrieved: '2026-11-24'
+- title: "The White House (archived), Fact Sheet on Section 301 tariff increases, May 14, 2024"
+  url: https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2024/05/14/fact-sheet-president-biden-takes-action-to-protect-american-workers-and-businesses-from-chinas-unfair-trade-practices/
+  retrieved: '2026-11-24'
+slides:
+- kicker: "Part 3 of 3 · A tariff"
+  big: 100%
+  head: "Electric cars made in China pay an extra 100% tariff when they come into the U.S."
+  text: "A tariff is a tax on imports. This one is under Section 301 of the Trade Act of 1974, since Sept. 27, 2024."
+  say: "Part 3. Electric cars made in China pay an extra 100% tariff, a tax on imports, when they come into the U.S. It's been in place since September 27, 2024."
+- chip: "Before → after"
+  head: The tariff on an electric car made in China
+  rows:
+  - [Base rate, "2.5% on an imported electric car, from any country"]
+  - ["Before Sept. 27, 2024", "Plus 25% if made in China"]
+  - [Since then, "Plus 100% if made in China"]
+  text: "Other U.S. tariffs on imported cars can apply too. This isn't a full total."
+  say: "Any imported electric car pays a 2.5% base rate. Before September 27, 2024, one made in China paid 25% more. Since then, 100% more. Other tariffs can apply too, so this isn't a full total."
+- chip: What it covers
+  head: "Electric and plug-in hybrid cars, and electric vans and buses, made in China"
+  text: "Eight tariff lines in all. E-bikes, motorcycles and golf carts are not included."
+  say: "It covers electric and plug-in hybrid cars, and electric vans and buses made in China. Eight tariff lines in all. E-bikes, motorcycles and golf carts are not included."
+- chip: Why, in the government's words
+  head: "The U.S. Trade Representative, the agency that runs this tariff, gave this reason."
+  quote: {label: "USTR notice, 89 FR 76581, Sept. 18, 2024", text: "China now produces 70 percent of the world's electric cars-- jeopardizing productive investments elsewhere.", key: "70 percent"}
+  text: "It says the tariff will \"encourage diversification from Chinese sources\" and give the U.S. leverage with China."
+  say: "The U.S. Trade Representative said China now produces 70 percent of the world's electric cars, jeopardizing investments elsewhere. It said the tariff will encourage buying from other sources, and give leverage with China."
+- chip: What commenters asked for
+  head: "Public comments asked to change who it covers. The agency said no."
+  rows:
+  - [Narrow it, "Leave out shuttles and mobility scooters: not done"]
+  - [Widen it, "Add e-bikes, motorcycles, golf carts: not done"]
+  - [Exempt, "Electric buses already under contract: refused"]
+  text: "The notice records no comment against the electric-car tariff itself."
+  say: "Commenters asked to leave out shuttles and mobility scooters, to add e-bikes and golf carts, and to exempt electric buses already under contract. The agency said no to each. The notice records no comment against the tariff itself."
+- chip: Your turn
+  head: "Is a 100% tariff on Chinese-made electric cars the right call?"
+  text: "Part 1: the rule on connected cars from China. Part 2: why it exists, and the objections."
+  say: "Is a 100% tariff on Chinese-made electric cars the right call? Tell us which side convinces you. Parts 1 and 2 cover the rule on connected cars from China."
+caption: |-
+  Part 3 of 3: the tariff on electric cars made in China.
+
+  Before: an imported electric car pays a 2.5% base tariff (a tax on imports), and before Sept. 27, 2024, one made in China paid 25% more under Section 301 of the Trade Act of 1974. After: 100% more. It covers electric and plug-in hybrid cars and electric vans and buses; e-bikes, motorcycles and golf carts aren't included. Other U.S. tariffs on imported cars can also apply, so this isn't a full total.
+
+  The U.S. Trade Representative's reason: "China now produces 70 percent of the world's electric cars-- jeopardizing productive investments elsewhere." It says the tariff will "encourage diversification from Chinese sources."
+
+  Commenters asked to narrow it, widen it, or exempt buses already under contract; the agency said no. The notice records no comment against the tariff itself.
+
+  Is a 100% tariff the right call?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [cars, electricvehicles, tariffs, tradepolicy, votetherecord]
+rule: "Part 3 of a 3-part series from an owner idea: the tariff on Chinese-made electric vehicles, from the USTR notice and the current tariff schedule."
+notes: >-
+  Owner idea (part 3 of 3; parts 1 and 2 are their own pull requests and are meant to be merged together). 100% and
+  the Sept. 27, 2024 date: the USTR notice (GovInfo copy of FR doc 2024-21217; federalregister.gov's full text
+  returned its "request access" page and was not retried) and the current HTS (USITC REST search, 2026 Revision 23,
+  current since Nov. 10, 2026): 9903.91.03 "The duty provided in the applicable subheading + 100%" for note 31(d)
+  products, which the notice ties to 9903.91.03. Base rate: HTS 8703.80.00 general 2.5% ("Other vehicles, with only
+  electric motors for propulsion"). Before (25%): the archived White House fact sheet ("will increase from 25% to 100%
+  in 2024"); the notice itself doesn't state the earlier rate. Coverage: the notice's Annex A lists eight subheadings
+  (8702.40.31, .40.61, .90.31, .90.61 for 10 or more people; 8703.60.00 and .70.00 plug-in hybrids; 8703.80.00
+  electric; 8703.90.01 other), so "vans and buses" is our plain word for 8702 and "other" motor vehicles aren't named
+  on a slide; please check. E-bikes, motorcycles, golf carts excluded and the three comment requests (low-speed
+  vehicles, broaden to 8711.60 and 8703.10.50, electric bus contracts) are the notice's EV section. "Leverage" restates
+  "providing additional leverage with China". No case against the EV tariff itself is in the notice: the one comment
+  that the tariffs "will slow U.S. efforts to boost domestic production and adoption of electric vehicles" is about
+  the battery-parts line, so it isn't quoted here. The USITC's 2023 tariff study (usitc.gov) returned 403 and wasn't
+  retried, so no economic case for or against is on a slide. Section 232 auto tariffs (HTS 9903.94.01, +25% on many
+  passenger vehicles) are why the slide says other tariffs can apply; how they stack isn't stated. Slot: Nov. 30
+  noon, a free Reel slot after the 9:00 a.m. post; bumps nothing.
