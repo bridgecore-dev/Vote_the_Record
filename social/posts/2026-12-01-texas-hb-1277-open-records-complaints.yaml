@@ -10,19 +10,19 @@ publish_after: '2026-12-01T12:00:00-06:00'
 trial: auto
 voice: true
 sources:
-- title: TLO, bills filed Nov. 23, 2026
+- title: TLO, filed Nov. 23
   url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-23
   retrieved: '2026-11-24'
-- title: TLO, HB 1277 history
+- title: TLO, HB 1277
   url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1277
   retrieved: '2026-11-24'
-- title: Texas Government Code, Chapter 552 (Secs. 552.269, 552.321)
+- title: Gov't Code ch. 552
   url: https://statutes.capitol.texas.gov/Docs/GV/htm/GV.552.htm
   retrieved: '2026-11-24'
-- title: Texas Attorney General, Open Government Hotline
+- title: Texas AG, hotline
   url: https://www.texasattorneygeneral.gov/open-government/governmental-bodies/open-government-hotline
   retrieved: '2026-11-24'
-- title: Texas Attorney General, How to Report a Violation of the Public Information Act
+- title: Texas AG, report a violation
   url: https://www.texasattorneygeneral.gov/open-government/members-public/how-report-violation-public-information-act
   retrieved: '2026-11-24'
 bills:
@@ -35,7 +35,7 @@ bills:
       A person who has requested public information from a governmental body under this chapter and believes the
       governmental body failed to provide the information in compliance with this chapter may file a written complaint
       with the attorney general.
-    title: HB 1277 as filed, Sec. 2 (Government Code 552.236(a))
+    title: HB 1277 as filed, Sec. 2
     url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01277I.htm
     retrieved: '2026-11-24'
   say: HB 1277 would put the attorney general's open records hotline into law and set deadlines for answering records
