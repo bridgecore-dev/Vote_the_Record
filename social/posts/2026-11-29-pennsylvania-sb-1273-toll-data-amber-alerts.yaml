@@ -6,25 +6,25 @@ approval: review
 record_ids: [pa/2025/SB 1273/signed, pa/2025/senate/roll/619, pa/2025/house/roll/1567]
 publish_after: '2026-11-29T15:00:00-06:00'
 sources:
-- title: SB 1273 (2025-2026) bill history
+- title: SB 1273 bill history
   url: https://www.palegis.us/legislation/bills/2025/sb1273
   retrieved: '2026-11-24'
-- title: Senate Bill 1273, Printer's No. 2003 (the text both chambers passed)
+- title: SB 1273, PN 2003 (final text)
   url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB1273/PN2003
   retrieved: '2026-11-24'
-- title: 74 Pa.C.S. § 8117, Electronic toll collection (current law)
+- title: 74 Pa.C.S. § 8117
   url: https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=74&div=00.&chpt=081.&sctn=017.&subsctn=000.
   retrieved: '2026-11-24'
-- title: House Appropriations Committee fiscal note, SB 1273 PN 2003 (Oct. 20, 2026)
+- title: House Appropriations fiscal note
   url: https://www.palegis.us/WU01/LI/BI/FN/2025/0/SB1273P2003.pdf
   retrieved: '2026-11-24'
-- title: Pennsylvania Senate Journal, June 24, 2026, p. 498
+- title: Senate Journal, June 24, 2026, p. 498
   url: https://www.palegis.us/senate/session/journals?sessYr=2026&sessInd=0&pdfName=Sj20260624.pdf
   retrieved: '2026-11-24'
-- title: Pennsylvania Senate roll call 619 (Nov. 17, 2026)
+- title: Senate roll call 619
   url: https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=619
   retrieved: '2026-11-24'
-- title: Pennsylvania House roll call 1567 (Oct. 20, 2026)
+- title: House roll call 1567
   url: https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1567
   retrieved: '2026-11-24'
 slides:
@@ -60,19 +60,19 @@ slides:
   head: The fiscal note puts the cost to the state at $0.
   quote: {label: House Appropriations Committee fiscal note, text: "Enactment of this legislation will have no impact on Commonwealth funds."}
 - chip: Pennsylvania Senate
-  head: The Pennsylvania Senate agreed to the House's changes 46-2 on Nov. 17, 2026.
+  head: The Pennsylvania Senate agreed to the House's changes 46-2 on Nov. 17.
   vote: {yea: 46, nay: 2, not_voting: 2}
   rows:
   - [R, "25 Yea · 2 Nay"]
   - [D, "21 Yea · 2 didn't vote"]
-  by: "Voted Nay: Sen. Jarrett Coleman (R, District 16), Sen. Dawn Keefer (R, District 31). Party as the roll call lists it."
+  by: "Voted Nay: Sen. Jarrett Coleman (R, District 16), Sen. Dawn Keefer (R, District 31)."
 - chip: Pennsylvania House of Representatives
-  head: The Pennsylvania House of Representatives passed it 202-1 on Oct. 20, 2026.
+  head: The Pennsylvania House of Representatives passed it 202-1 on Oct. 20.
   vote: {yea: 202, nay: 1}
   rows:
   - [D, "103 Yea · 0 Nay"]
   - [R, "99 Yea · 1 Nay"]
-  by: "Voted Nay: Rep. Bud Cook (R, District 50). Party as the roll call lists it."
+  by: "Voted Nay: Rep. Bud Cook (R, District 50)."
 - chip: Your turn
   head: Where should the line be when police ask for toll records?
   text: The three members who voted no gave no reasons in the records we opened. Which side convinces you?
