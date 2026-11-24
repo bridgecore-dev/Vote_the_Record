@@ -5,19 +5,19 @@ approval: review
 record_ids: [us/119/H.R. 1550/signed]
 publish_after: '2026-11-25T21:00:00-06:00'
 sources:
-- title: "The White House, H.R. 1550, H.R. 4930, and H.R. 8552 Signed into Law"
+- title: "The White House, bills signed Nov. 23, 2026"
   url: https://www.whitehouse.gov/briefings-statements/2026/11/congressional-bills-h-r-1550-h-r-4930-and-h-r-8552-signed-into-law/
   retrieved: '2026-11-24'
-- title: Congress.gov, H.R. 1550 actions
+- title: H.R. 1550 actions, Congress.gov
   url: https://api.congress.gov/v3/bill/119/hr/1550/actions
   retrieved: '2026-11-24'
-- title: Congress.gov, H.R. 1550 bill record
+- title: H.R. 1550 record, Congress.gov
   url: https://api.congress.gov/v3/bill/119/hr/1550
   retrieved: '2026-11-24'
-- title: "H.R. 1550 (119th Congress), enrolled bill (GPO)"
+- title: "H.R. 1550 enrolled text (GPO)"
   url: https://www.govinfo.gov/content/pkg/BILLS-119hr1550enr/html/BILLS-119hr1550enr.htm
   retrieved: '2026-11-24'
-- title: "Congressional Record, May 13, 2025, H1974-H1975"
+- title: "Cong. Record, May 13, 2025, H1974"
   url: https://www.govinfo.gov/content/pkg/CREC-2025-05-13/html/CREC-2025-05-13-pt1-PgH1974.htm
   retrieved: '2026-11-24'
 bills:
@@ -53,7 +53,7 @@ slides:
     label: "Rep. Elise Stefanik (R-NY), sponsor, Congressional Record, May 13, 2025"
     text: "The American victory against British forces at the Battles of Saratoga marked a changing of the tide in the Revolutionary War, hence, the turning point, securing foreign support from France and bolstering domestic support for the American patriots"
 - chip: "Who it affects"
-  head: "It changes a name on federal laws, maps and records. No source we opened names anyone who gains or loses money."
+  head: "It changes a name. No source we opened names anyone who gains or loses money."
   rows:
   - [Changes, "The park's official name"]
   - [Cost, "Congress.gov lists a CBO estimate; cbo.gov didn't open for us"]
@@ -94,4 +94,5 @@ notes: >-
   earlier post slot holds this week's actions; the Nov. 25 3:00 a.m. H.R. 8454 post's Senate passage, Nov. 17, isn't
   yet a week old), and moves 2026-11-22-safe-cloud-storage-act (H.R. 7834, Senate passage Nov. 16, still not
   presented per congress.gov actions read this run) to 2026-12-21T03:00:00-06:00, the first post slot after the last
-  queued post (Dec. 20 3:00 a.m.) that keeps each day's turns.
+  queued post (Dec. 20 3:00 a.m.) that keeps each day's turns. Source titles and slide 6's head shortened after the
+  first preview clipped slide 6's source footer.
