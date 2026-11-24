@@ -1,0 +1,100 @@
+kind: carousel
+level: state
+place: Texas
+topic: Health
+approval: review
+rule: Every bill filed Nov. 24, 2026 whose Texas Legislature Online caption names diabetes. HB 1284 is the only one
+  (said on the last slide).
+record_ids: [tx/90R/HB 1284/filed]
+publish_after: '2026-11-30T15:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 24, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-24
+  retrieved: '2026-11-24'
+- title: Texas Legislature Online, HB 1284 bill history (90th Legislature)
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1284
+  retrieved: '2026-11-24'
+- title: Texas Tax Code, Chapter 151 (sales and use taxes)
+  url: https://tcss.legis.texas.gov/resources/TX/htm/TX.151.htm
+  retrieved: '2026-11-24'
+bills:
+- id: HB 1284
+  does: Would add glucose meters, continuous glucose monitors, insulin pumps, lancets and more to Texas's sales tax exemptions.
+  affects: People who buy the listed diabetic supplies in Texas, and the sellers who collect the tax.
+  where: Filed Nov. 24, 2026 by Rep. Ochoa; no other action yet. Would take effect Oct. 1, 2027.
+  summary:
+    text: >-
+      blood glucose monitoring test strips, glucose tablets, urine test strips that measure ketones, lancets, insulin
+      pens, blood glucose meters, continuous glucose monitors, and insulin pumps, and replacement parts for an item
+      described by this subdivision;
+    title: HB 1284 as filed, Sec. 1 (Tax Code 151.313(a)(12))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/HB01284I.pdf
+    retrieved: '2026-11-24'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 24, 2026
+  big: 6.25%
+  head: Texas's state sales tax rate. A Texas House of Representatives bill would stop charging it on more diabetic supplies.
+  text: The rate is set in Texas Tax Code 151.051(b).
+- chip: The law today
+  head: Texas already exempts insulin and blood glucose test strips. The diabetes line in the law names only the strips.
+  quote:
+    label: Texas Tax Code 151.313(a)(12), today
+    text: blood glucose monitoring test strips
+  text: Insulin has its own line, 151.313(a)(2). Hypodermic syringes and needles are on line (a)(4).
+- chip: What would change
+  head: HB 1284 would add these to the test-strip line, by name
+  rows:
+  - Glucose tablets
+  - Urine test strips that measure ketones
+  - Lancets
+  - Insulin pens
+  - Blood glucose meters
+  - Continuous glucose monitors
+  - Insulin pumps
+  - Replacement parts for these items
+- chip: The fine print
+  head: Some of these may already be tax-free when a doctor or other licensed practitioner prescribes them.
+  quote:
+    label: Texas Tax Code 151.313(a)(6), today
+    text: a therapeutic appliance, device, and any related supplies specifically designed for those products, if dispensed or prescribed by a licensed practitioner of the healing arts
+  text: The bill's new list, like the test-strip line today, doesn't say a prescription is needed.
+- chip: Who it affects
+  head: Buyers would pay less. The state would collect less. No one has estimated how much yet.
+  rows:
+  - [People who buy these supplies, "No state sales tax on the listed items"]
+  - [Sellers, "Would stop collecting the tax on them"]
+  - [The state, "Less sales tax collected; no fiscal note posted yet"]
+- chip: When it would start
+  big: Oct. 1, 2027
+  head: The date the bill would take effect.
+  text: Tax already owed before then would still be owed (Sec. 2). No fiscal note is posted yet, so there is no official estimate of the cost.
+- chip: Your view
+  head: Should Texas stop charging sales tax on these diabetic supplies?
+  text: "How we picked: every bill filed Nov. 24 whose caption names diabetes. HB 1284 was the only one."
+caption: |-
+  Texas already doesn't charge sales tax on insulin or blood glucose test strips. HB 1284, filed Nov. 24 in the Texas House of Representatives for the 2027 session, would add more diabetic supplies to that list.
+
+  Added by name: glucose tablets, ketone urine test strips, lancets, insulin pens, blood glucose meters, continuous glucose monitors, insulin pumps, and replacement parts for them.
+
+  Some of these may already be tax-free today when a licensed practitioner prescribes them. The bill's list doesn't say a prescription is needed.
+
+  Buyers would pay less and the state would collect less. No fiscal note is posted yet, so there is no official estimate of how much. The bill would take effect Oct. 1, 2027.
+
+  Should Texas stop charging sales tax on these supplies?
+hashtags: [txlege, texaslegislature, diabetes, salestax, votetherecord]
+notes: >-
+  New: filed Nov. 24, 2026; the only bill on that day's filing report (5 bills: HB 1282-1286) whose caption names
+  diabetes. Records opened 2026-11-24: the filing report, the bill history (filed, no other action, no fiscal note
+  listed; author listed as "Ochoa"; subjects Taxation--Sales, DIABETES), the introduced PDF (the HTML version says
+  "coming soon"; PDF sha256 b5a90c1f17858ee4068d85416df27b7cc9c575c35943220a5b457af6705c1ae5), and Tax Code ch. 151
+  on tcss (151.051(b): "6-1/4 percent"; 151.313(a) as it reads today). The change was found by comparing the bill's
+  151.313(a)(12) with the current statute: today it reads only "blood glucose monitoring test strips"; the bill adds the
+  seven items and replacement parts. The bill's only other change to (a) is spelling ("signalling" to "signaling" in
+  (a)(8)), left out. "May already be tax-free when prescribed" rests only on 151.313(a)(6)'s text; the post doesn't say
+  which items qualify, since the Comptroller's rule (34 TAC 3.284) was only seen on unofficial copies this run; please
+  confirm the wording. "The state would collect less" and "sellers would stop collecting" are our plain reading of an
+  exemption; local sales taxes are left out. A 2025 bill (89R HB 3855) seen in search results listed similar items; its
+  history wasn't opened, and it isn't named (one bill per post). No fiscal note or
+  statement for or against exists yet, so the post asks. Rep. Ochoa as TLO lists the author, no party shown.
+  Evergreen (a prefiled bill): Nov. 30 3:00 p.m. is the first free post slot that keeps the Reel/post turn (Nov. 29
+  9:00 a.m. would follow the 3:00 a.m. carousel with the 6:00 a.m. Reel slot empty).
