@@ -1,0 +1,115 @@
+kind: reel
+level: congress
+topic: Public lands
+approval: review
+record_ids: ["us/119/public-law/133", "us/119/H.R. 6380/signed"]
+publish_after: '2026-11-30T18:00:00-06:00'
+trial: auto
+design:
+  palette: forest
+  mode: dark
+  font: round
+  position: center
+  motion: captions
+  sfx: true
+rule: >-
+  Each new public law GovInfo posts gets its own post with the same structure; this one was posted Nov. 24, 2026.
+sources:
+- title: "Public Law 119-133, Chiricahua National Park Act (GPO)"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ133/html/PLAW-119publ133.htm
+  retrieved: '2026-11-25'
+- title: H.R. 6380 actions (Congress.gov API)
+  url: https://api.congress.gov/v3/bill/119/hr/6380/actions
+  retrieved: '2026-11-25'
+- title: "H. Rept. 119-543, Chiricahua National Park Act, with CBO estimate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt543/html/CRPT-119hrpt543.htm
+  retrieved: '2026-11-25'
+bills:
+- id: H.R. 6380
+  title: Chiricahua National Park Act
+  does: "Renames Chiricahua National Monument in Arizona as Chiricahua National Park and protects tribal sacred sites there."
+  affects: "Visitors to the park in southeastern Arizona, Indian Tribes who use its sites, and the National Park Service."
+  where: "Signed into law Oct. 20, 2026 as Public Law 119-133."
+  summary:
+    text: >-
+      This bill redesignates the Chiricahua National Monument in Arizona as the Chiricahua National Park. The
+      bill directs the National Park Service (NPS) to (1) ensure the protection of traditional cultural and
+      religious sites in the park, and (2) provide access to those sites…
+    title: Congressional Research Service summary of H.R. 6380
+    url: https://api.congress.gov/v3/bill/119/hr/6380/summaries
+    retrieved: '2026-11-25'
+  say: "H.R. 6380, the Chiricahua National Park Act, renames Chiricahua National Monument in Arizona as a national park, and protects tribal sacred sites there. It was signed into law October 20, 2026."
+slides:
+- kicker: "New law · Signed Oct. 20, 2026"
+  big: "National Park"
+  head: "H.R. 6380 turned Chiricahua National Monument in Arizona into Chiricahua National Park."
+  say: "A monument became a national park. H.R. 6380 turned Chiricahua National Monument in Arizona into Chiricahua National Park. It became law October 20, 2026. What actually changes?"
+- chip: "Before"
+  head: "A national monument since 1924, run by the National Park Service."
+  rows:
+  - [Created, "1924, by President Calvin Coolidge"]
+  - [Size, "About 12,000 acres, over 85 percent wilderness"]
+  - [Known for, "Volcanic rock spires called hoodoos"]
+  text: "As the United States House committee's report describes it."
+  say: "Before: a national monument since 1924, created by President Calvin Coolidge and run by the National Park Service. About 12,000 acres, over 85 percent wilderness, the United States House committee report says."
+- chip: "After"
+  head: "Same land, same rules, new name."
+  rows:
+  - [Boundaries, "Same as the monument's"]
+  - [Money, "Funds for the monument go to the park"]
+  - [Rules, "The same presidential proclamations, plus national park laws"]
+  quote: {label: Congressional Budget Office, text: "That designation would not change the ownership or management of the area.", key: would not change}
+  say: "After: same boundaries, same funds, and the same presidential proclamations, plus the laws for all national parks. The Congressional Budget Office said the new name would not change who owns or manages the land."
+- chip: "Also new"
+  head: "Protection and access for tribal cultural and religious sites."
+  rows:
+  - [Protect, "The Park Service must protect the sites, consulting Indian Tribes"]
+  - [Access, "Tribal members get access for traditional uses"]
+  - [Closures, "On a Tribe's request, small areas may close to the public for a time"]
+  - [Limit, "Smallest practicable area, minimum time needed"]
+  say: "Also new: the Park Service must protect tribal cultural and religious sites, and give tribal members access. If a Tribe asks, a small area can close to the public, only as small and as short as needed."
+- chip: "Cost and who gains"
+  head: "CBO: less than $500,000 over 2026-2031, from yearly appropriations."
+  rows:
+  - [Supporters, "Expect more visitors and help for nearby towns, the report says"]
+  - [Visitors, "Some areas may close briefly for tribal ceremonies"]
+  - [Opposition, "None in the record; no roll call was taken"]
+  say: "Cost: less than $500,000 over 2026 to 2031, the Congressional Budget Office estimated, paid from yearly appropriations. Supporters expect more visitors and help for nearby towns. Some areas may close briefly for tribal ceremonies."
+- kicker: "How it passed"
+  head: "No recorded roll call in either chamber."
+  rows:
+  - [U.S. House of Representatives, "Voice vote, March 16, 2026"]
+  - [U.S. Senate, "Unanimous consent, no changes, Sept. 30, 2026"]
+  - [President, "Signed Oct. 20, 2026"]
+  text: "Sponsor: Rep. Juan Ciscomani (R-AZ). Cosponsor: Rep. Greg Stanton (D-AZ). Does the word park matter to you?"
+  say: "The United States House passed it by voice vote on March 16, 2026, and the Senate by unanimous consent on September 30. The President signed it October 20. Does the word park matter to you?"
+caption: |-
+  Chiricahua National Monument in southeastern Arizona is now Chiricahua National Park. The President signed H.R. 6380, the Chiricahua National Park Act, on Oct. 20, 2026; GovInfo posted it as Public Law 119-133 on Nov. 24.
+
+  Before: a national monument since 1924, about 12,000 acres, run by the National Park Service.
+
+  After: the same boundaries, funds and rules under a new name. The Congressional Budget Office said the change "would not change the ownership or management of the area." The law also has the Park Service protect tribal cultural and religious sites, give tribal members access, and, if a Tribe asks, close small areas to the public for the shortest time needed.
+
+  Cost: less than $500,000 over 2026-2031, CBO estimated, subject to appropriations. The House committee report says supporters expect more visitors and help for nearby towns.
+
+  It passed the U.S. House of Representatives by voice vote and the U.S. Senate by unanimous consent. Sponsor: Rep. Juan Ciscomani (R-AZ). Cosponsor: Rep. Greg Stanton (D-AZ).
+
+  Does the word "park" matter to you?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, nationalparks, chiricahua, arizona, newlaw]
+notes: >-
+  New this run: GovInfo's public-law feed posted P.L. 119-133 on Nov. 24, 2026 (approved Oct. 20, 2026, [H.R. 6380]);
+  no post or open pull request covers it. Evergreen (signed more than a week ago), so it takes the first free Reel
+  slot that keeps the Reel/post turn: Nov. 30 6:00 p.m. (Nov. 29 6:00 a.m. or 9:00 a.m. alone would put two of a kind
+  in a row). That is a design-trial slot: one change from the baseline, palette forest. Facts: law text (sections 2-3);
+  congress.gov actions (House voice vote under suspension Mar. 16; Senate committee discharged and bill passed
+  without amendment by UC Sept. 30; signed Oct. 20); 1924/Coolidge, 12,000 acres, "over 85 percent" wilderness,
+  hoodoos and the supporters' view are as H. Rept. 119-543 states them (it cites NPS pages and news for them). The
+  proclamations are 1692 and 2288 as the law cites them (no years on the slides). CBO's "less than $500,000 over the 2026-2031 period" and "would not change the ownership or management"
+  are from the CBO estimate printed in the report (Feb. 2026, as ordered reported by the House committee); a later
+  CBO estimate (cbo.gov/publication/62648, Senate committee) wasn't opened. The report's "64th national park" isn't
+  used, since the count may have changed since March. CRS summary is of the introduced bill and still matches the
+  enacted sections 2-3. "Visitors: some areas may close briefly" is our reading of sec. 3(b)(1)(B)-(2); please check.
+  No opposing view in the record (committee unanimous consent, voice vote, Senate UC), so no case against is
+  invented. Parties and states as congress.gov lists them.
