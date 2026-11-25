@@ -7,16 +7,16 @@ publish_after: '2026-12-01T15:00:00-06:00'
 rule: >-
   Each new public law GovInfo posts gets its own post with the same structure; this one was posted Nov. 23, 2026.
 sources:
-- title: "Public Law 119-119, Improving Social Security's Service to Victims of Identity Theft Act (GPO)"
+- title: "Public Law 119-119 (GPO)"
   url: https://www.govinfo.gov/content/pkg/PLAW-119publ119/html/PLAW-119publ119.htm
   retrieved: '2026-11-25'
-- title: H.R. 5345 actions (Congress.gov API)
+- title: H.R. 5345 actions (Congress.gov)
   url: https://api.congress.gov/v3/bill/119/hr/5345/actions
   retrieved: '2026-11-25'
-- title: "H. Rept. 119-360, Ways and Means Committee (GPO)"
+- title: "H. Rept. 119-360 (GPO)"
   url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt360/html/CRPT-119hrpt360.htm
   retrieved: '2026-11-25'
-- title: Congress.gov, Rep. John B. Larson member record
+- title: Rep. Larson member record (Congress.gov)
   url: https://api.congress.gov/v3/member/L000557
   retrieved: '2026-11-25'
 bills:
@@ -37,7 +37,7 @@ slides:
 - kicker: "New law · Signed Oct. 7, 2026"
   big: "1 contact"
   head: "If someone misuses your Social Security number, a new law gives you one point of contact at Social Security until your case is fixed."
-  text: "H.R. 5345, now Public Law 119-119. Passed the U.S. House of Representatives by voice vote and the U.S. Senate by unanimous consent."
+  text: "H.R. 5345, now Public Law 119-119. Passed both chambers without a roll call."
 - chip: "Before"
   head: "No law required a single point of contact."
   quote: {label: "Ways and Means Committee report, H. Rept. 119-360", text: "SSA policies may require an individual to be in contact with multiple SSA offices, employees, or both, to resolve an issue depending on the type of misuse, or whether it was identified by the individual or the SSA."}
@@ -54,9 +54,9 @@ slides:
   quote: {label: "Ways and Means Committee report, H. Rept. 119-360", text: "In every case, the Committee believes the individual should have a single point of contact at the SSA."}
   text: "The House committee approved it 39 to 1 on Sept. 17, 2025."
 - chip: "The one no vote"
-  head: "Rep. John B. Larson (D-CT) had co-led the bill last Congress, but voted no in committee over Social Security staffing."
+  head: "Rep. John B. Larson (D-CT) co-led the bill last Congress, but voted no in committee over Social Security staffing."
   quote: {label: "Rep. John B. Larson, additional views, H. Rept. 119-360", text: "The point of contact should be a real person, not an AI chatbot.", key: real person}
-  text: "His amendment to delay the law until staffing returned to its Jan. 19, 2025 level failed in committee, 14 to 24."
+  text: "His amendment to delay it until staffing returned to the Jan. 19, 2025 level failed, 14 to 24."
 - chip: "Cost"
   head: "The committee said the bill adds no new budget authority."
   text: "It asked the Congressional Budget Office for a cost estimate but hadn't received one when it filed its report. Congress.gov lists no CBO estimate for the bill."
