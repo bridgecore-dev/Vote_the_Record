@@ -10,7 +10,7 @@ sources:
   retrieved: '2026-11-24'
 - title: H.R. 1550 actions, Congress.gov
   url: https://api.congress.gov/v3/bill/119/hr/1550/actions
-  retrieved: '2026-11-24'
+  retrieved: '2026-11-25'
 - title: H.R. 1550 record, Congress.gov
   url: https://api.congress.gov/v3/bill/119/hr/1550
   retrieved: '2026-11-24'
@@ -25,7 +25,7 @@ bills:
   title: Strengthening America's Turning Point Act
   does: "Renames Saratoga National Historical Park in Stillwater, New York, as Saratoga National Battlefield Park."
   affects: "The national park site in Stillwater, New York, and U.S. laws, maps and records that name it."
-  where: "Signed into law Nov. 23, 2026. A Public Law number wasn't posted yet when this was written."
+  where: "Signed into law Nov. 23, 2026, as Public Law 119-147."
   summary:
     text: "This bill renames the Saratoga National Historical Park, located in Stillwater, New York, as Saratoga National Battlefield Park."
     title: Congressional Research Service summary of H.R. 1550
@@ -63,7 +63,7 @@ slides:
   head: "Does a park's name change how you see the place? Would \"Battlefield\" make you want to visit?"
   text: "The park is in Stillwater, New York."
 caption: |-
-  On Nov. 23, the President signed H.R. 1550, the Strengthening America's Turning Point Act.
+  On Nov. 23, the President signed H.R. 1550, the Strengthening America's Turning Point Act. It is now Public Law 119-147.
 
   Before: the national park at the Saratoga battle site in Stillwater, New York, was Saratoga National Historical Park. After: it's Saratoga National Battlefield Park, and every U.S. law, map and record that uses the old name now means the new one. The law's text changes nothing else.
 
@@ -76,6 +76,8 @@ caption: |-
   Does a name change how you see a place?
 hashtags: [saratoga, nationalparks, newyork, newlaw, votetherecord]
 notes: >-
+  Update Nov. 25 recheck: congress.gov actions (API, read 2026-11-25) now list "Became Public Law No: 119-147." dated
+  Nov. 23, 2026, so `where` and the caption's first paragraph now give the law number; nothing else changed.
   New this run: the White House statement dated Nov. 23, 2026 (whitehouse.gov, read 2026-11-24 UTC / Nov. 23 Central)
   says the President signed H.R. 1550 on Monday, Nov. 23; the two other bills in that statement (H.R. 4930, H.R. 8552)
   already have posts, and no post or open pull request covers H.R. 1550. congress.gov actions (API, this run) end at
