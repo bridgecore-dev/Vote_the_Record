@@ -3,7 +3,7 @@ level: congress
 topic: Human trafficking
 approval: review
 record_ids: ["us/119/public-law/131", "us/119/H.R. 4307/signed"]
-publish_after: '2026-11-30T21:00:00-06:00'
+publish_after: '2026-12-25T03:00:00-06:00'
 rule: >-
   Each new public law GovInfo posts gets its own post with the same structure; this one was posted Nov. 23, 2026.
 sources:

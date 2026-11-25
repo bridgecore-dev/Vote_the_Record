@@ -1,0 +1,105 @@
+kind: carousel
+level: congress
+topic: Ethics
+approval: review
+record_ids:
+- 'us/119/2/house/H. Rept. 119-899/filed'
+- 'us/119/2/house/H. Rept. 119-896/filed'
+- 'us/119/2/house/H. Rept. 119-898/filed'
+- 'us/119/2/house/H. Rept. 119-897/filed'
+publish_after: '2026-11-30T21:00:00-06:00'
+rule: "Every report the House Ethics Committee released on Nov. 23, 2026, in alphabetical order by the member's surname."
+sources:
+- title: "Cong. Record Daily Digest, Nov. 24, 2026"
+  url: https://www.congress.gov/119/crec/2026/11/24/172/178/CREC-2026-11-24-dailydigest.pdf
+  retrieved: '2026-11-25'
+- title: "House Ethics Committee, report on Rep. Mike Collins"
+  url: https://ethics.house.gov/wp-content/uploads/2026/11/Committee-Report-Rep.-Collins.pdf
+  retrieved: '2026-11-25'
+- title: "House Ethics Committee, statement on Brandon Phillips"
+  url: https://ethics.house.gov/wp-content/uploads/2026/11/Press-Release-Brandon-Phillips-11.23.26.pdf
+  retrieved: '2026-11-25'
+- title: "House Ethics Committee, report on Rep. Jimmy Gomez"
+  url: https://ethics.house.gov/wp-content/uploads/2026/11/Committee-Report-Rep.-Gomez.pdf
+  retrieved: '2026-11-25'
+- title: "House Ethics Committee, report on Rep. Troy Nehls"
+  url: https://ethics.house.gov/wp-content/uploads/2026/11/Committee-Report-Rep.-Nehls.pdf
+  retrieved: '2026-11-25'
+- title: "House Ethics Committee Rules, 119th Congress"
+  url: https://ethics.house.gov/wp-content/uploads/2025/03/Committee-Rules-for-the-119th-Congress.pdf
+  retrieved: '2026-11-25'
+- title: "House Clerk, member data (party and state)"
+  url: https://clerk.house.gov/xml/lists/MemberData.xml
+  retrieved: '2026-11-25'
+slides:
+- kicker: "House Ethics Committee · Nov. 23, 2026"
+  big: "3 reports"
+  head: "The House Ethics Committee released reports on three members of the U.S. House of Representatives."
+  text: "Rep. Mike Collins (R-GA), Rep. Jimmy Gomez (D-CA) and Rep. Troy Nehls (R-TX). For each: what the committee found, what the member said, and what happens next."
+- chip: How it works
+  head: "The committee investigates members and reports to the House. It can reprove a member on its own; it recommends anything tougher to the full House."
+  rows:
+  - [Reproval, "The committee's own rebuke, issued in a report"]
+  - [Reprimand, "Recommended for serious violations"]
+  - [Censure, "Recommended for more serious violations"]
+  - [Expulsion, "Recommended for the most serious violations"]
+  by: "Committee Rule 24(c)-(g); House Rule XI, cl. 3(a)"
+- chip: "Rep. Mike Collins (R-GA)"
+  head: "Found: his office improperly paid a woman as an intern and took unpaid work from her."
+  quote: {label: "Committee report", text: "impermissibly paying her $10,000 as an “intern” for 16 weeks on the payroll in 2023 and 2024, while accepting voluntary communications services from her over several years.", key: "impermissibly"}
+  rows:
+  - [He said, "A classification issue, \"not fictitious employment\""]
+  - [Also found, "He didn't oversee his chief of staff enough"]
+  - [Result, "$2,880 back to the U.S. Treasury; matter closed"]
+- chip: "Same matter"
+  head: "His former chief of staff, Brandon Phillips, didn't answer a subpoena from the committee."
+  text: "The report says the woman had a romantic relationship with Phillips. The committee found no evidence Collins was directly involved in hiring her. It recommends the House vote to hold Phillips in contempt of Congress."
+- chip: "Rep. Jimmy Gomez (D-CA)"
+  head: "Found: he made unwelcome sexual advances toward a House staffer."
+  quote: {label: "Committee report", text: "substantial evidence that Representative Gomez engaged in sexual misconduct in violation of the Code of Official Conduct, including making unwelcome sexual advances and sexual contact toward a House staffer.", key: "substantial evidence"}
+  rows:
+  - [He said, "He admitted the contact; he said it was consensual"]
+  - [Result, "Report sent to the House, which may decide on a sanction"]
+  text: "He lost his re-election bid, and the committee said there isn't enough time to pursue a House sanction itself."
+- chip: "Rep. Troy Nehls (R-TX)"
+  head: "Found: he improperly used a company he owned as a political committee."
+  quote: {label: "Committee report", text: "the company, Liberty 1776, received and disbursed funds for the benefit of Representative Nehls’ campaign and other unverifiable purposes.", key: "unverifiable purposes"}
+  rows:
+  - [He said, "He disputes parts \"on both factual and legal grounds\""]
+  - [Not found, "Knowing errors on his financial disclosures"]
+  - [Result, "The report is a reproval; matter closed"]
+- chip: Read them yourself
+  head: "Each report lays out the evidence and the member's side."
+  text: "They're at ethics.house.gov. What should happen when the committee finds a member broke House rules? Tell us below."
+caption: |-
+  On Nov. 23, 2026, the House Ethics Committee released reports on three members of the U.S. House of Representatives. It adopted all three on Nov. 19.
+
+  Rep. Mike Collins (R-GA): the committee found his office improperly paid a woman $10,000 as an intern and accepted unpaid work from her. Collins said it was a classification issue, "not fictitious employment." $2,880 goes back to the U.S. Treasury, and the matter is closed. The committee also recommends the House hold his former chief of staff, Brandon Phillips, in contempt of Congress for not answering a subpoena.
+
+  Rep. Jimmy Gomez (D-CA): the committee found substantial evidence of unwelcome sexual advances and sexual contact toward a House staffer. Gomez admitted the contact and said it was consensual. He lost his re-election bid; the committee left any sanction to the full House.
+
+  Rep. Troy Nehls (R-TX): the committee found he improperly used a company he owned as a political committee. Nehls disputes parts of the report. The report is a reproval, and the matter is closed.
+
+  These are every report the committee released that day, in alphabetical order. Party and state as the House Clerk lists them.
+hashtags: [houseethics, congress, ethics]
+notes: >-
+  New this run: the Congressional Record Daily Digest for Nov. 24 (read 2026-11-25) lists four Ethics Committee reports filed that day:
+  H. Rept. 119-896 (Gomez), 119-897 (contempt report, Brandon Phillips), 119-898 (Nehls), 119-899 (Collins). The committee's site posted
+  all four on Nov. 23; the reports say they were adopted Nov. 19. No post or open pull request covers them. Rule: every report released
+  that day, alphabetical by surname, same layout (finding, the member's response, result) for each. PDF sha256: Collins
+  3a3be13571c7c1ab47106b4b94c73b48c5d9a7bc4bea048b8597b5de443f22b5, Gomez 5488f45600d7ca069cba6dde8c040ea25df4b2bccb2348ccbf9c875273dcaafd,
+  Nehls fae6d6c9fc43b2e47f46b4dd332b5aaeabb777818c931339b4bdb92968db25d1 (the PDFs print "119-_"; the numbers are from the Daily Digest).
+  Please check: (1) Collins "He said" shortens counsel's "an issue of employment classification and administration, not fictitious
+  employment"; "Also found" restates "did not exercise sufficient oversight over Mr. Phillips"; the romantic-relationship and
+  not-directly-involved lines are from the report's introduction and conclusion; $2,880 is from the conclusion. Phillips: the
+  committee's Nov. 23 statement ("recommends the House of Representatives adopt a resolution holding Brandon Phillips in contempt").
+  (2) Gomez: "admitted to making 'sexual contact' with her but insisted this encounter was consensual" (intro); "lost his bid for
+  re-election" and "not enough time for it to pursue an adequate House sanction ... so that the House may determine, in its judgment,
+  whether to sanction" (sec. V). Kept to the committee's general words; no details of the incidents. (3) Nehls: finding from the
+  introduction; "disputes certain other suggestions in the report on both factual and legal grounds" from his counsel's response
+  quoted in the procedural history; "did not find ... knowing or willful errors" on disclosures (intro); "this Report ... will serve
+  as a Reproval ... the Committee considers this matter closed." (4) "How it works" restates Committee Rule 24(c)-(g) and House Rule
+  XI cl. 3(a)(1) (printed in the committee's rules). Party and state from the Clerk's MemberData.xml. No House vote on the contempt
+  resolution was checked for after Nov. 24; recheck before the slot. News first: takes the Nov. 30 9:00 p.m. post slot from the
+  evergreen H.R. 4307 post (signed Oct. 20), moved to Dec. 25 3:00 a.m., the first free post slot after the last queued post (Dec. 24
+  3:00 a.m.). Every earlier post slot holds news from Nov. 17-24 or a dated event (hemp, Dec. 11).
