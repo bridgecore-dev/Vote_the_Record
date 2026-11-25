@@ -1,0 +1,99 @@
+kind: carousel
+level: state
+place: Texas
+topic: Child protection
+approval: review
+rule: Every bill filed Nov. 24, 2026 whose Texas Legislature Online caption names the Department of Family and
+  Protective Services. HB 1287 is the only one (said on the last slide).
+record_ids: [tx/90R/HB 1287/filed]
+publish_after: '2026-12-01T21:00:00-06:00'
+sources:
+- title: Texas Legislature Online, Bills By Filing Date, Nov. 24, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-24
+  retrieved: '2026-11-25'
+- title: Texas Legislature Online, HB 1287 bill history (90th Legislature)
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1287
+  retrieved: '2026-11-25'
+- title: Texas Family Code, Chapter 261 (Sec. 261.309)
+  url: https://tcss.legis.texas.gov/resources/FA/htm/FA.261.htm
+  retrieved: '2026-11-25'
+bills:
+- id: HB 1287
+  does: Would require an independent audit of DFPS abuse and neglect investigations when complaints reach 15% of them in a year.
+  affects: The Department of Family and Protective Services and its investigators.
+  where: Filed Nov. 24, 2026 by Rep. Gervin-Hawkins; no other action yet. Would take effect Sept. 1, 2027.
+  summary:
+    text: >-
+      the department shall select an external auditor to conduct an audit of the department's investigative
+      procedures. The external auditor shall be independent and not subject to direction from the department.
+    title: HB 1287 as filed, Sec. 1 (Family Code 261.3092(a))
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/pdf/HB01287I.pdf
+    retrieved: '2026-11-25'
+slides:
+- kicker: 2027 Texas session · Filed Nov. 24, 2026
+  big: 15%
+  head: If complaints about child abuse and neglect investigations reach 15% of them in a year, this Texas House of
+    Representatives bill would bring in an outside auditor.
+  text: The investigations are done by the Department of Family and Protective Services (DFPS).
+- chip: The law today
+  head: Today, Texas Family Code 261.309 has DFPS review complaints about its own investigations.
+  rows:
+  - [Complaint about staff or policy, "DFPS does an informal review within 14 days"]
+  - [Disputed finding, "A DFPS employee not involved in the case reviews it, within 45 days"]
+  text: That review must sustain, alter, or reverse the original findings.
+- chip: What would change
+  head: HB 1287 would add an outside audit, triggered by the number of complaints.
+  quote:
+    label: HB 1287 as filed, Family Code 261.3092(a)
+    text: The external auditor shall be independent and not subject to direction from the department.
+  text: The trigger is complaints about abuse or neglect investigations equal to 15% or more of that year's investigations.
+- chip: What the audit would check
+  head: The auditor would look at four randomly picked months from the past year.
+  rows:
+  - How many abuse or neglect reports came in
+  - How many DFPS investigated, and why it skipped any
+  - Failures to investigate when it was warranted
+  - Whether DFPS followed its procedures
+  - Fixes for procedures, staffing, and training
+- chip: After the audit
+  head: The report would go to DFPS, the Texas Legislature, and the governor.
+  rows:
+  - [90 days, "DFPS must make a plan to address every concern and recommendation"]
+  - [30% rule, "An employee with complaints in 30% or more of their audited cases gets an employment review"]
+  - [Second audit, "If the Legislature or governor finds DFPS hasn't acted within 15 working days of its plan"]
+- chip: Who pays
+  head: DFPS would pay for the audit from its existing budget. No fiscal note is posted yet.
+  quote:
+    label: HB 1287 as filed, Family Code 261.3092(c)
+    text: The department shall pay the costs associated with an audit under this section using existing resources.
+  text: So there is no official estimate of the cost. The bill would take effect Sept. 1, 2027.
+- chip: Your view
+  head: Should an outside auditor review DFPS investigations when complaints reach 15% of them?
+  text: "How we picked: every bill filed Nov. 24 whose caption names DFPS. HB 1287 was the only one."
+caption: |-
+  When someone complains about a Texas child abuse or neglect investigation today, the Department of Family and Protective Services (DFPS) reviews it itself: an informal review within 14 days, or, for a disputed finding, a review by a DFPS employee who wasn't involved in the case (Family Code 261.309).
+
+  HB 1287, filed Nov. 24 in the Texas House of Representatives for the 2027 session, would add an outside check. If complaints about investigations in a year equal 15% or more of that year's investigations, DFPS would have to hire an independent auditor "not subject to direction from the department."
+
+  The auditor would study four random months: how many reports came in, how many were investigated, why any weren't, and whether procedures were followed. The report would go to DFPS, the Legislature and the governor. DFPS would have 90 days to make a plan. An employee with complaints in 30% or more of their audited cases would get an employment review.
+
+  DFPS would pay "using existing resources." No fiscal note is posted yet. It would take effect Sept. 1, 2027.
+
+  Should an outside auditor step in when complaints reach 15%?
+hashtags: [txlege, texaslegislature, childwelfare, fostercare, votetherecord]
+notes: >-
+  New: filed Nov. 24, 2026 (listed on that day's TLO filing report, HB 1282-1289; no post or pull request covers HB
+  1287). Rule: the only bill on that report whose caption names the Department of Family and Protective Services
+  (HB 1282 names DSHS; HB 1286 a TDHCA study; HB 1288-1289 Travis County hospital districts). Records opened
+  2026-11-25: the filing report, the bill history (filed, no other action, no fiscal note listed; author listed as
+  "Gervin-Hawkins"; subjects Family--Child Protection, AUDITS & AUDITORS, FAMILY & PROTECTIVE SERVICES, DEPARTMENT
+  OF), the introduced PDF (HTML not used; PDF sha256 5003915d03c244cb6c7f0babcd4759640c9cd979a832e585e5f00a7ba3f8b186),
+  and Family Code ch. 261 on tcss (261.309 as it reads today: rules for complaints, informal review within 14 days,
+  administrative review by an uninvolved employee within 45 days). "The law today" describes only 261.309; it doesn't
+  claim no other outside review of DFPS exists (e.g., the State Auditor), which wasn't checked. Please check: the bill
+  doesn't say who counts the complaints or which complaints count toward 15%, so the slides just restate its words;
+  "skipped" and "fixes for procedures, staffing, and training" shorten 261.3092(b)(2) and (b)(5)-(6) ("workforce or
+  organizational improvements or additional training"). No fiscal note or statement for or against exists yet, so
+  the post asks. Rep. Gervin-Hawkins as TLO lists the author; no party shown. Evergreen (a prefiled bill): Dec. 1
+  9:00 p.m. is the first free post slot that keeps the Reel/post turn on its own (Nov. 29 6:00 and 9:00 a.m. are both
+  empty, so filling either alone would put two of a kind in a row).
