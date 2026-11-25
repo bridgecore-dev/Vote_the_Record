@@ -1,0 +1,86 @@
+kind: story
+level: state
+place: North Carolina
+topic: Taxes
+approval: review
+highlight: State
+record_ids: [nc/2025E1/HB 3/suspension-ends]
+publish_after: '2026-11-29T20:15:00-06:00'
+found_via: https://www.wunc.org/politics/2026-11-17/nc-gas-tax-will-resume-after-legislature-doesnt-extend-pause
+sources:
+- title: "NCGA, Session Law 2026-62 (House Bill 3), ratified text"
+  url: https://www.ncleg.gov/Sessions/2025E1/Bills/House/PDF/H3v3.pdf
+  retrieved: '2026-11-25'
+- title: "NCGA, House Bill 3 bill history (2026 First Extra Session)"
+  url: https://www.ncleg.gov/BillLookUp/2025E1/H3
+  retrieved: '2026-11-25'
+- title: "NCGA Fiscal Research Division, fiscal note on House Bill 3"
+  url: https://www.ncleg.gov/Sessions/2025E1/FiscalNotes/House/PDF/HFN3v1.pdf
+  retrieved: '2026-11-25'
+- title: "NCGA Legislative Calendar"
+  url: https://www.ncleg.gov/LegislativeCalendar
+  retrieved: '2026-11-25'
+slides:
+- kicker: Countdown
+  countdown: {date: '2026-12-01', event: North Carolina's motor fuel tax comes back}
+- kicker: Before → after
+  head: The pause in House Bill 3 ends Nov. 30.
+  rows:
+  - [Before Oct. 10, "41.0 cents a gallon, the 2026 rate"]
+  - [Oct. 10 - Nov. 30, "0 cents a gallon"]
+  - [From Dec. 1, "41.0 cents again, unless lawmakers change the law"]
+  quote: {label: Session Law 2026-62, Sec. 1(a), text: "the tax rate for this period is zero cents (0¢) per gallon."}
+- kicker: Who pays for it
+  head: About $362.3 million, from a state reserve.
+  rows:
+  - [Cost, "$362.3 million in tax not collected (state estimate)"]
+  - [Paid from, "The Stabilization and Inflation Reserve"]
+  - [Road funds, "Repaid in full, so no net loss to them"]
+  - [Reserve, "About $156.1 million left unspent, down from $518.4 million"]
+  text: "Estimates from the legislature's Fiscal Research Division."
+- kicker: What lasts longer
+  head: Farm diesel rules run through Dec. 31.
+  text: "The same law waives penalties for using dyed diesel in licensed highway vehicles for farming, and exempts some farmers, loggers, fishermen and wildlife managers from the tax on it, through Dec. 31, 2026."
+- kicker: What you can do
+  head: The General Assembly meets again Nov. 30 at noon.
+  text: "Both chambers are on the calendar that day. Find your legislators at ncleg.gov and tell them what you think: pause the tax again, or keep the reserve?"
+bills:
+- id: HB 3
+  title: Relief at the Pump
+  does: Set North Carolina's motor fuel tax at 0 cents a gallon from Oct. 10 through Nov. 30, 2026, paid for from a state reserve.
+  affects: Fuel suppliers and importers, who mainly pay the tax, and buyers, whose price the law says should reflect it.
+  where: Became law Oct. 9, 2026 as Session Law 2026-62. The pause ends Nov. 30.
+  summary:
+    text: "Notwithstanding G.S. 105-449.80, the motor fuel excise tax is suspended for a period beginning the day after this act becomes law through November 30, 2026. Therefore, the tax rate for this period is zero cents (0¢) per gallon."
+    title: Session Law 2026-62 (House Bill 3), Section 1(a)
+    url: https://www.ncleg.gov/Sessions/2025E1/Bills/House/PDF/H3v3.pdf
+    retrieved: '2026-11-25'
+caption: |-
+  North Carolina's pause on its motor fuel tax ends Nov. 30.
+
+  House Bill 3, now Session Law 2026-62, set the tax at 0 cents a gallon starting Oct. 10. Before that, the 2026 rate was 41.0 cents a gallon. Unless lawmakers change the law, that rate applies again from Dec. 1.
+
+  The legislature's Fiscal Research Division estimated the pause at $362.3 million in tax not collected. The law pays the road funds and other accounts back from the Stabilization and Inflation Reserve, which the division estimated would leave about $156.1 million unspent in that reserve.
+
+  Separate farm diesel rules in the same law run through Dec. 31.
+
+  The General Assembly is scheduled to meet again Nov. 30 at noon. Should the state pause the tax again, or keep the reserve?
+hashtags: [ncpol, ncga, northcarolina, gastax, votetherecord]
+notes: >-
+  New this run: no post covers HB 3 (2026 First Extra Session, session code 2025E1 on ncleg.gov). Found through
+  WUNC's Nov. 17 story that lawmakers left without extending the pause (a tip only; the post doesn't say
+  whether anyone will try to extend it). Every fact is from ncleg.gov, read 2026-11-25. Ratified text (H3v3.pdf,
+  sha256 b3703db59b5c177bf999f0ee9ce8b171e1cdef94baae27f07fedcecf9641c1e1): Sec. 1(a) suspends the tax "beginning
+  the day after this act becomes law through November 30, 2026"; approved Oct. 9, 2026, so the pause began Oct. 10
+  (the fiscal note assumes the same). "41.0 cents" is the fiscal note's "In 2026, the motor fuels tax rate is 41.0
+  cents per gallon"; after Nov. 30 the suspension no longer applies, so the G.S. 105-449.80 rate does, which is why
+  the slides say "41.0 cents again, unless lawmakers change the law". $362.3 million, the hold-harmless transfer,
+  $518.4 million and $156.1 million are from the fiscal note (HFN3v1.pdf, sha256
+  d640b26d1d05393dbbac3d16f77a40d3842e227369f205ef82a3873f41d0f823), written for the First Edition; Sec. 1(a) and the
+  long title read the same in the First Edition and the ratified text. Farm diesel: Sec. 2 and 3. "Both chambers
+  ... Nov. 30 at noon" is the Legislative Calendar ("12:00 PM House: Session Convenes", same for the Senate). No
+  vote tally on the slides (the bill page lists House roll calls 5 and 6 and Senate roll call 2), so there is no
+  party slide. No official statement for or against an extension was opened, so the post ends with a question.
+  Takes the free Nov. 29 8:15 p.m. story slot (no story is queued that day); nothing is bumped. RECHECK BEFORE THE
+  SLOT: the calendar shows no session Nov. 25-29; if the General Assembly changes the tax before this posts, update
+  slide 2 and the caption.
