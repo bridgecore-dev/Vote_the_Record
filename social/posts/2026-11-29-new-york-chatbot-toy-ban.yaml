@@ -1,0 +1,107 @@
+kind: carousel
+level: state
+place: New York
+topic: Technology
+approval: review
+record_ids: [ny/2025/S9408/signed, ny/2025/A11144/signed]
+publish_after: '2026-11-29T21:00:00-06:00'
+sources:
+- title: New York State Assembly, S09408 (2025-2026), summary, actions, floor votes and text
+  url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S09408&term=2025&Summary=Y&Actions=Y&Floor%26nbspVotes=Y&Memo=Y&Text=Y'
+  retrieved: '2026-11-25'
+- title: New York State Assembly, A11144 (2025-2026), sponsor's memo and text
+  url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A11144&term=2025&Summary=Y&Actions=Y&Memo=Y&Text=Y'
+  retrieved: '2026-11-25'
+- title: New York State Senate, S9408A (2025-2026), Senate vote
+  url: https://www.nysenate.gov/legislation/bills/2025/S9408/amendment/A
+  retrieved: '2026-11-25'
+- title: Governor of New York, five-year ban on AI chatbot toys signed, Nov. 24, 2026
+  url: https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot
+  retrieved: '2026-11-25'
+bills:
+- id: S. 9408
+  does: Bans making, selling or distributing toys for kids 12 and under that have a built-in AI companion in New York, for 5 years.
+  affects: Makers and sellers of children's toys with AI companions, and families buying toys in New York.
+  where: Signed Nov. 24, 2026 as Chapter 416. Starts 90 days later; ends 5 years after that.
+  summary:
+    text: Prohibits the manufacture, exchange, distribution and sale of chatbot toys in this state.
+    title: New York State Assembly summary of S09408
+    url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=S09408&term=2025&Summary=Y'
+    retrieved: '2026-11-25'
+slides:
+- kicker: New York · New law, Nov. 24, 2026
+  big: 5 years
+  head: New York is banning the sale of AI chatbot toys for kids 12 and under.
+  text: S. 9408 was signed as Chapter 416. The ban starts Feb. 22, 2027 and ends after 5 years unless lawmakers act again.
+- chip: What the law says
+  head: A "chatbot toy" is a children's toy with an AI companion built in.
+  quote: {label: "Chapter 416, new General Business Law section 1801", text: "No person, firm, corporation, association, partnership, business entity, or agent, employee, affiliate, beneficial owner, or subsidiary thereof, shall manufacture, exchange, hold for sale, distribute, or sell any chatbot toy in this state."}
+- chip: Plain words
+  head: Which toys count?
+  rows:
+  - [Children's toy, "Made for a child 12 or younger to play with (the federal definition)"]
+  - [AI companion, "AI that remembers past chats, asks unprompted questions about feelings and keeps up personal conversations"]
+  - [Examples, "The governor's office names talking stuffed animals, dolls and robots that use the internet to talk with kids"]
+- chip: Before → after
+  head: Today these toys can be sold in New York. After Feb. 22, 2027, they can't.
+  rows:
+  - [Before, "The sponsor's memo says state law already makes AI companions detect self-harm talk and say they aren't human"]
+  - [After, "No making, selling, distributing or holding these toys for sale in New York"]
+  - [This holiday season, "Not covered. The governor's office says the ban won't be in effect yet."]
+  - [After 5 years, "The ban ends. Lawmakers can renew it or let it lapse, the sponsor's memo says."]
+- chip: Who gains, who pays
+  head: Families get a pause. Toy makers and stores lose these sales in New York.
+  rows:
+  - [Kids and parents, "The sponsor's memo cites risks to kids' privacy, safety and play"]
+  - [Toy makers and sellers, "Can't sell these toys in New York for 5 years"]
+  - [Penalty, "The Attorney General can sue: up to $15,000 a day for each violation"]
+  - [The state, "The sponsor's memo lists the fiscal implications as \"TBD.\""]
+- chip: The case for and against
+  head: The sponsor, Sen. Gounardes, wants time to study the toys first. Makers call them learning tools.
+  quote: {label: "Sponsor's memo (Assembly sponsor Kassay)", text: "While touted as transformational educational tools by their manufacturers, chatbot toys also pose a significant risk of harm to young people and have not yet been proven safe"}
+  text: The records we opened give no reason for the No votes.
+- chip: The votes
+  head: Both chambers passed it in June, with 3 No votes in all.
+  rows:
+  - [New York State Senate, "57 Yes, 3 No, June 1, 2026"]
+  - [New York State Assembly, "140 Yes, 0 No, June 2, 2026"]
+  - [Governor, "Signed Nov. 24, 2026, Chapter 416"]
+- chip: Who voted no
+  head: "New York State Senate (3): Borrello, Gallivan, Martins"
+  text: No member of the New York State Assembly voted no.
+  by: Names as the Senate's record lists them. The records don't list party.
+- chip: Your turn
+  head: Should New York pause AI chatbot toys while it studies them?
+  text: Families get time; toy makers lose a market. Which side convinces you?
+caption: |-
+  New York is banning AI chatbot toys for kids 12 and under. S. 9408 was signed Nov. 24, 2026 as Chapter 416. From Feb. 22, 2027, no one may make, sell or distribute them in the state. The ban ends after 5 years unless lawmakers renew it.
+
+  Before: these toys can be sold. The sponsor's memo says state law already makes AI companions detect self-harm talk and say they aren't human.
+  After: a "chatbot toy" (a toy for a child 12 or younger with an AI companion built in) can't be sold in New York. The governor's office says the ban won't be in effect this holiday season.
+
+  Who pays: toy makers and stores lose these sales in New York. The Attorney General can seek up to $15,000 a day for each violation. The sponsor's memo lists the fiscal implications as "TBD."
+
+  The New York State Senate passed it 57-3 and the New York State Assembly 140-0.
+
+  Should New York pause these toys? Which side convinces you?
+hashtags: [newyork, nysenate, aitoys, consumerprotection, votetherecord]
+notes: >-
+  News first: an official action from the last three days (nyassembly.gov actions for S09408, read 2026-11-25:
+  "11/24/2026 SIGNED CHAP.416", "11/24/2026 APPROVAL MEMO.14"); found on the governor's newsroom (official), so no
+  found_via. No post or open pull request covers it. Takes Nov. 29 9:00 p.m., the earliest post slot at least 3 hours
+  away held by an evergreen post (every earlier post slot holds actions from Nov. 17-23, and the Nov. 28 3:00 p.m. hemp
+  post is tied to its Dec. 11 date, so it isn't moved past it); this pull request moves the prefiled Texas SB 475 post
+  to Dec. 23 3:00 a.m., the first post slot after the last queued post (Dec. 22 3:00 a.m.). Please check: (1) "APPROVAL
+  MEMO.14": the governor's approval memo wasn't found where we looked; if it records an agreed chapter amendment, the
+  rules may change before Feb. 22, 2027. (2) Feb. 22, 2027 is our count: "the ninetieth day after it shall have become
+  a law" from Nov. 24, 2026; the end is "5 years after such effective date". (3) Senate tally 57-3 (Borrello, Gallivan,
+  Martins; 1 absent, 2 excused) was read from nysenate.gov through a fetch tool (curl got 403) on two reads that
+  agreed; the Assembly tally (140/0) is from nyassembly.gov's floor votes. (4) Text compared: S9408A and A11144B
+  sections 1800-1802 and section 2 read the same on nyassembly.gov (HTML sha256 of the S09408 page:
+  43847748e0bf90ef2c31c75b5ca0acdcf1dfdc4ebc743dbe106914cd4b7480a6). (5) The memo's justification mentions an
+  interagency task force studying the toys; the bill text as passed doesn't create one, so no slide says so. (6)
+  "Before" (GBL 1703) is the sponsor's memo's description, not checked in the statute. (7) "Makers call them learning
+  tools" restates the memo's "touted as transformational educational tools by their manufacturers"; no maker's
+  statement was opened. News reports mention business-group objections; none was opened, so none is quoted. The
+  Assembly bill it was substituted for (A11144) isn't named on slides (one bill per post), but its ID is listed. No
+  party: the records don't list it.
