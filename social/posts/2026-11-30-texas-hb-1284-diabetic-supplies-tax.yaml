@@ -6,7 +6,7 @@ approval: review
 rule: Every bill filed Nov. 24, 2026 whose Texas Legislature Online caption names diabetes. HB 1284 is the only one
   (said on the last slide).
 record_ids: [tx/90R/HB 1284/filed]
-publish_after: '2026-11-30T15:00:00-06:00'
+publish_after: '2026-12-24T03:00:00-06:00'
 sources:
 - title: Texas Legislature Online, Bills By Filing Date, Nov. 24, 2026
   url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-24

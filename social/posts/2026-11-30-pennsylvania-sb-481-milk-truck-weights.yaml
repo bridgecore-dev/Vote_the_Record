@@ -1,0 +1,131 @@
+kind: carousel
+level: state
+place: Pennsylvania
+topic: Transportation
+approval: review
+record_ids: [pa/2025/SB 481/signed, pa/2025/senate/roll/618, pa/2025/house/roll/1535]
+publish_after: '2026-11-30T15:00:00-06:00'
+sources:
+- title: SB 481 bill history
+  url: https://www.palegis.us/legislation/bills/2025/sb481
+  retrieved: '2026-11-25'
+- title: SB 481, PN 2020 (final text)
+  url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB0481/PN2020
+  retrieved: '2026-11-25'
+- title: SB 481, PN 439 (as introduced)
+  url: https://www.palegis.us/legislation/bills/text/PDF/2025/0/SB0481/PN0439
+  retrieved: '2026-11-25'
+- title: 75 Pa.C.S. § 4968
+  url: https://www.palegis.us/statutes/consolidated/view-statute?txtType=PDF&ttl=75&div=00.&chpt=049.&sctn=068.&subsctn=000.
+  retrieved: '2026-11-25'
+- title: House Appropriations fiscal note
+  url: https://www.palegis.us/WU01/LI/BI/FN/2025/0/SB0481P2020.pdf
+  retrieved: '2026-11-25'
+- title: Senate roll call 618
+  url: https://www.palegis.us/senate/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=618
+  retrieved: '2026-11-25'
+- title: House roll call 1535
+  url: https://www.palegis.us/house/roll-calls/summary?sessYr=2025&sessInd=0&rcNum=1535
+  retrieved: '2026-11-25'
+slides:
+- kicker: Pennsylvania · New law, Nov. 23, 2026
+  big: 117,000 lb
+  head: Milk trucks with seven axles can now get a permit to weigh up to 117,000 pounds in Pennsylvania.
+  text: SB 481 became Act 119 of 2026. It takes effect 60 days after it was signed.
+- chip: The law today
+  head: A milk truck on a special permit can weigh up to 95,000 pounds, however many axles it has.
+  rows:
+  - [Who, "Trucks hauling milk to or from a manufacturer"]
+  - [When, "24 hours a day, 7 days a week, except in bad weather as PennDOT defines it"]
+  - [Axles, "No axle other than the steering axle over 21,000 pounds"]
+  quote: {label: "75 Pa.C.S. § 4968(a.2)(4)", text: "if the gross weight does not exceed 95,000 pounds and the weight of any nonsteering axle does not exceed 21,000 pounds"}
+- chip: Before → after
+  head: The limit now depends on how many axles the truck has.
+  rows:
+  - [5 axles, "Up to 95,000 pounds, the same as before"]
+  - [6 axles, "Up to 107,000 pounds (before: 95,000)"]
+  - [7 axles, "Up to 117,000 pounds (before: 95,000)"]
+  - [Every axle, "Still no more than 21,000 pounds on any axle but the steering axle"]
+  - [Bad weather, "Still not allowed, as before"]
+- chip: Before → after
+  head: Heavier trucks need a route the road owner says can take the weight.
+  rows:
+  - [Before, "The permit application named the route, except for raw milk"]
+  - [After, "6- and 7-axle trucks must name the route; 5-axle trucks at 95,000 pounds don't"]
+  - [New check, "PennDOT or the local authority must find the route can handle the weight"]
+  quote: {label: "SB 481, PN 2020", text: "DETERMINES THAT THE ROUTE REQUESTED UNDER SUBPARAGRAPH (III) IS CAPABLE OF HANDLING THE APPLICABLE GROSS WEIGHT"}
+- chip: Who gains, who loses
+  head: Haulers with six or seven axles can run heavier. Road owners must check the route first.
+  rows:
+  - [Milk haulers, "6- and 7-axle trucks can get permits for more weight"]
+  - [PennDOT and local authorities, "Must decide whether each requested route can take the weight"]
+  - [Anyone against it, "No member voted no, and we found no statement against it in the records we opened"]
+- chip: What it costs
+  head: The fiscal note puts the cost to the state at $0.
+  quote: {label: House Appropriations Committee fiscal note, text: "The enactment of this legislation would have no fiscal impact on commonwealth funds."}
+- chip: How it changed
+  head: SB 481 started as a different idea.
+  rows:
+  - [As introduced, "Let milk trucks keep driving in bad weather and declared emergencies"]
+  - ["May 7, 2025", "The Pennsylvania Senate passed that version 36-14"]
+  - ["Oct. 7, 2026", "The Pennsylvania House of Representatives replaced it with the weight limits"]
+  quote: {label: "SB 481, PN 439 (as introduced)", text: "providing for milk hauling during inclement weather and emergency declaration"}
+- chip: Pennsylvania House of Representatives
+  head: The Pennsylvania House of Representatives passed the final version 203-0 on Oct. 19, 2026.
+  vote: {yea: 203, nay: 0}
+  rows:
+  - [D, "103 Yea · 0 Nay"]
+  - [R, "100 Yea · 0 Nay"]
+- chip: Pennsylvania Senate
+  head: The Pennsylvania Senate agreed to the House's version 48-0 on Nov. 17, 2026.
+  vote: {yea: 48, nay: 0, not_voting: 2}
+  rows:
+  - [D, "21 Yea · 2 didn't vote"]
+  - [R, "27 Yea · 0 Nay"]
+  text: Your turn. Heavier milk trucks, with a route check first. Which side convinces you?
+caption: |-
+  Milk trucks with seven axles can now get a Pennsylvania permit to weigh up to 117,000 pounds. Act 119 of 2026 takes effect in 60 days.
+
+  Before: a milk truck on a permit could weigh up to 95,000 pounds, whatever its axles.
+  After: 5 axles, 95,000 pounds. 6 axles, 107,000. 7 axles, 117,000. Still no more than 21,000 pounds on any axle but the steering axle, and still no permit trips in bad weather.
+
+  The 6- and 7-axle trucks must name their route, and PennDOT or the local authority must find the route can take the weight. Cost to the state: $0, says the House fiscal note.
+
+  The bill began as a plan to let milk trucks drive through storms and emergency travel bans. The Pennsylvania House of Representatives rewrote it. Final votes: Pennsylvania House of Representatives 203-0, Pennsylvania Senate 48-0.
+
+  Which side convinces you?
+hashtags: [pennsylvania, palegis, dairy, trucking, votetherecord]
+bills:
+- id: SB 481
+  title: Milk hauling permits (Act 119 of 2026)
+  does: Raises permit weight limits for milk trucks to 107,000 pounds with 6 axles and 117,000 with 7, on routes found able to carry them
+  affects: Haulers of bulk milk to or from milk plants and dairy farms, and PennDOT and local road authorities
+  where: Approved by the Governor Nov. 23, 2026 as Act 119 of 2026; takes effect in 60 days.
+  summary:
+    text: "Raises milk transportation weight limits."
+    title: House Appropriations Committee fiscal note summary of SB 481 (PN 2020)
+    url: https://www.palegis.us/WU01/LI/BI/FN/2025/0/SB0481P2020.pdf
+    retrieved: '2026-11-25'
+notes: >-
+  News first: an official action from the last three days (palegis.us bill history, read 2026-11-25: "Approved by
+  the Governor, Nov. 23, 2026", "Act No. 119 of 2026"). Found through Open States' action feed (a tip only, not a
+  source); no post or open pull request covers it. Takes the Nov. 30 3:00 p.m. post slot from the evergreen Texas HB
+  1284 post (a prefiled bill), moved to Dec. 24 3:00 a.m., the first post slot after the last queued post (Dec. 23
+  3:00 a.m.). Every earlier post slot holds news from the last week or a dated event (hemp, Dec. 11); Nov. 29 9:00
+  a.m. is free but would follow the 3:00 a.m. carousel with no Reel between. PN 2020 is the House-amended text the
+  Senate concurred in (PDF sha256 26e533aab7939bdbbce1becbb8af5b5a50a8e71571eb28cfb8383f397166ad72); the PDF's
+  strike-through shows the House struck the whole bad-weather section (new 4910) that PN 439 and PN 1819 carried, and
+  the fiscal note (sha256 980312fd33f9e39a6269fb9f2a29a51e4378894478701acbc04f87814ff36a88) describes only the
+  weight changes, which agrees. "The law today" is 75 Pa.C.S. 4968(a.2)(4) from the palegis.us consolidated statute
+  PDF (sha256 5ff76073b9c36a030b1abd8e20a3aca14e4c018ccf39a5466c28db9fdb81c8d5). Please check: (1) "except for raw
+  milk" before vs. "5-axle trucks at 95,000 pounds don't" after: the new (iii) exempts a five-axle combination
+  hauling bulk milk up to 95,000 lb, and bulk milk now includes raw milk; (2) "Eligible interstate highways as
+  determined by the department" replaces "a permit may be issued ... upon an interstate highway"; not on a slide.
+  The new "bulk milk" definition (liquid milk in bulk for processing, incl. raw and skim milk, cream, whey) and
+  "manufacturer" becoming "milk plant or dairy farm" are left off the slides for length. Senate roll 618 (concurrence, Nov. 17, 48-0-2) and
+  House roll 1535 (final passage, Oct. 19, 203-0) were counted from each roll call page's member list; party as
+  those pages list it (D, R). Didn't vote in the Senate: Sen. Patty Kim (D, District 15), Sen. Nick Miller (D,
+  District 14); not named on a slide, as in the SB 1273 post. The May 7, 2025 Senate vote (36-14) was on the
+  bad-weather version (PN 439); its remarks (Senate Journal p. 381) weren't opened, so no case for or against that
+  version is quoted. No official statement on the final version was found. "Takes effect in 60 days" is Section 2.
+  The Governor isn't named because no record opened names him.
