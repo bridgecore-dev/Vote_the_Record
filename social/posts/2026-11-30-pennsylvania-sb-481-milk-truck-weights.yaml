@@ -55,11 +55,11 @@ slides:
   - [New check, "PennDOT or the local authority must find the route can handle the weight"]
   quote: {label: "SB 481, PN 2020", text: "DETERMINES THAT THE ROUTE REQUESTED UNDER SUBPARAGRAPH (III) IS CAPABLE OF HANDLING THE APPLICABLE GROSS WEIGHT"}
 - chip: Who gains, who loses
-  head: Haulers with six or seven axles can run heavier. Road owners must check the route first.
+  head: Heavier milk trucks, with a route check first.
   rows:
   - [Milk haulers, "6- and 7-axle trucks can get permits for more weight"]
-  - [PennDOT and local authorities, "Must decide whether each requested route can take the weight"]
-  - [Anyone against it, "No member voted no, and we found no statement against it in the records we opened"]
+  - [Road owners, "PennDOT or the local authority must check each route"]
+  - [Against it, "No member voted no; we found no statement against it"]
 - chip: What it costs
   head: The fiscal note puts the cost to the state at $0.
   quote: {label: House Appropriations Committee fiscal note, text: "The enactment of this legislation would have no fiscal impact on commonwealth funds."}
@@ -77,12 +77,12 @@ slides:
   - [D, "103 Yea · 0 Nay"]
   - [R, "100 Yea · 0 Nay"]
 - chip: Pennsylvania Senate
-  head: The Pennsylvania Senate agreed to the House's version 48-0 on Nov. 17, 2026.
+  head: The Pennsylvania Senate agreed 48-0 on Nov. 17, 2026.
   vote: {yea: 48, nay: 0, not_voting: 2}
   rows:
   - [D, "21 Yea · 2 didn't vote"]
   - [R, "27 Yea · 0 Nay"]
-  text: Your turn. Heavier milk trucks, with a route check first. Which side convinces you?
+  text: Which side convinces you?
 caption: |-
   Milk trucks with seven axles can now get a Pennsylvania permit to weigh up to 117,000 pounds. Act 119 of 2026 takes effect in 60 days.
 
