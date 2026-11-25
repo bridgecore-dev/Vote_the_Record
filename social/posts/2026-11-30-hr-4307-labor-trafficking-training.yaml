@@ -7,13 +7,13 @@ publish_after: '2026-11-30T21:00:00-06:00'
 rule: >-
   Each new public law GovInfo posts gets its own post with the same structure; this one was posted Nov. 23, 2026.
 sources:
-- title: "Public Law 119-131, Enhancing Detection of Human Trafficking Act (GPO)"
+- title: "Public Law 119-131 (GPO)"
   url: https://www.govinfo.gov/content/pkg/PLAW-119publ131/html/PLAW-119publ131.htm
   retrieved: '2026-11-25'
-- title: H.R. 4307 actions (Congress.gov API)
+- title: H.R. 4307 actions (Congress.gov)
   url: https://api.congress.gov/v3/bill/119/hr/4307/actions
   retrieved: '2026-11-25'
-- title: "H. Rept. 119-507, with CBO estimate (GPO)"
+- title: "H. Rept. 119-507 (GPO)"
   url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt507/html/CRPT-119hrpt507.htm
   retrieved: '2026-11-25'
 bills:
@@ -40,7 +40,7 @@ slides:
   quote:
     label: "H. Rept. 119-507, quoting the Justice Department's report for fiscal year 2023"
     text: "worked with criminal law enforcement agencies in 44 human trafficking cases"
-  text: "That's the Wage and Hour Division alone, the U.S. House committee report says. Cases go to the Justice Department and other law enforcement."
+  text: "The quote is about the Wage and Hour Division alone, the U.S. House committee report says. Cases go to the Justice Department and other law enforcement."
 - chip: "Before"
   head: "Some training already happened, but no law required it, and Congress got no count of referrals."
   rows:
@@ -56,7 +56,7 @@ slides:
   - [Report, "Each year: people trained, how well it worked, cases referred"]
   text: "Referrals must follow best practices that protect victims' rights."
 - chip: "Red flags"
-  head: "Signs Wage and Hour staff are already taught to look for, as the committee report lists them:"
+  head: "Signs Wage and Hour staff already learn to spot, the committee report says:"
   rows:
   - Someone's movement is restricted
   - Large groups gathered in a workplace or housing
