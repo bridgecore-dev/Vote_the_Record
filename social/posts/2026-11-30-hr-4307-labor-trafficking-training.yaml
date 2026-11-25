@@ -1,0 +1,110 @@
+kind: carousel
+level: congress
+topic: Human trafficking
+approval: review
+record_ids: ["us/119/public-law/131", "us/119/H.R. 4307/signed"]
+publish_after: '2026-11-30T21:00:00-06:00'
+rule: >-
+  Each new public law GovInfo posts gets its own post with the same structure; this one was posted Nov. 23, 2026.
+sources:
+- title: "Public Law 119-131 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ131/html/PLAW-119publ131.htm
+  retrieved: '2026-11-25'
+- title: H.R. 4307 actions (Congress.gov)
+  url: https://api.congress.gov/v3/bill/119/hr/4307/actions
+  retrieved: '2026-11-25'
+- title: "H. Rept. 119-507 (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt507/html/CRPT-119hrpt507.htm
+  retrieved: '2026-11-25'
+bills:
+- id: H.R. 4307
+  title: Enhancing Detection of Human Trafficking Act
+  does: "Requires the Labor Department to train its staff to spot human trafficking and refer cases, and to report yearly to Congress."
+  affects: "Labor Department employees picked by the Secretary of Labor based on their official duties."
+  where: "Signed into law Oct. 20, 2026 as Public Law 119-131."
+  summary:
+    text: >-
+      This act requires the Department of Labor to provide training and education to its employees on how to
+      effectively assist law enforcement in detecting human trafficking. The act directs Labor to determine which
+      employees should receive the training and education based on their official duties.
+    title: Congressional Research Service summary of H.R. 4307
+    url: https://api.congress.gov/v3/bill/119/hr/4307/summaries
+    retrieved: '2026-11-25'
+slides:
+- kicker: "New law · Signed Oct. 20, 2026"
+  big: "180 days"
+  head: "A new law gives the U.S. Department of Labor 180 days to start human trafficking training for its staff."
+  text: "H.R. 4307, the Enhancing Detection of Human Trafficking Act. Now Public Law 119-131."
+- chip: "Why Labor?"
+  head: "Labor Department investigators go into workplaces. They can't prosecute anyone, but they can refer cases."
+  quote:
+    label: "H. Rept. 119-507, quoting the Justice Department's report for fiscal year 2023"
+    text: "worked with criminal law enforcement agencies in 44 human trafficking cases"
+  text: "The quote is about the Wage and Hour Division alone, the U.S. House committee report says. Cases go to the Justice Department and other law enforcement."
+- chip: "Before"
+  head: "Some training already happened, but no law required it, and Congress got no count of referrals."
+  rows:
+  - [Training, "The Wage and Hour Division already trains its enforcement staff"]
+  - ["Every year?", "It \"cannot confirm\" continuing education happens yearly, the report says"]
+  - [Referrals, "The department doesn't report to Congress or the public on cases it refers"]
+- chip: "After"
+  head: "Training is now required by law, with a yearly report to Congress."
+  rows:
+  - [Who, "Staff the Secretary of Labor picks, based on their duties"]
+  - [What, "Spotting victims and suspects, and how to refer cases"]
+  - [Child labor, "Needs of staff in states with big increases in child labor"]
+  - [Report, "Each year: people trained, how well it worked, cases referred"]
+  text: "Referrals must follow best practices that protect victims' rights."
+- chip: "Red flags"
+  head: "Signs Wage and Hour staff already learn to spot, the committee report says:"
+  rows:
+  - Someone's movement is restricted
+  - Large groups gathered in a workplace or housing
+  - Personal ID taken away
+  - Direct threats
+  - Paid less than was agreed
+  - Too much money held back from wages
+- chip: "Cost"
+  head: "CBO: the training adds no cost, because the department already does it. The yearly report: under $500,000 over 2026-2030."
+  rows:
+  - [Paid from, "Yearly appropriations, if Congress provides them"]
+  - [Has to act, "Labor staff take the training; the department writes the report"]
+  - [Gains, "Congress gets a yearly count of trafficking referrals"]
+  text: "Congressional Budget Office estimate, printed in the committee report."
+- kicker: "How it passed"
+  head: "No recorded vote against it in the record."
+  rows:
+  - [Committee, "Approved 36-0, Jan. 8, 2026"]
+  - [U.S. House of Representatives, "Voice vote, March 3, 2026"]
+  - [U.S. Senate, "Unanimous consent, Sept. 30, 2026"]
+  - [President, "Signed Oct. 20, 2026"]
+  text: "Sponsor: Rep. Tim Walberg (R-MI). Cosponsors: Rep. Lucy McBath (D-GA), Rep. Donald Norcross (D-NJ), Del. James Moylan (R-GU). Should other agencies have to do the same?"
+caption: |-
+  The U.S. Department of Labor has 180 days to start a human trafficking training program for its staff. The President signed H.R. 4307, the Enhancing Detection of Human Trafficking Act, on Oct. 20, 2026; GovInfo posted it as Public Law 119-131 on Nov. 23.
+
+  Why Labor: its investigators go into workplaces. They can't prosecute, but they refer cases to the Justice Department. The Wage and Hour Division alone worked on 44 trafficking cases with law enforcement in fiscal year 2023, the U.S. House committee report says.
+
+  Before: the division already trained its enforcement staff, but no law required it, and the department didn't report to Congress on the cases it referred.
+
+  After: training is required for the staff the Secretary of Labor picks, covering how to spot victims and suspects and how to refer cases. Each year the department reports how many people were trained, how well it worked, and how many cases it referred.
+
+  Cost: the Congressional Budget Office said the training adds no cost, since the department already does it, and the yearly report would cost under $500,000 over 2026-2030.
+
+  It passed committee 36-0, the U.S. House of Representatives by voice vote, and the U.S. Senate by unanimous consent. Sponsor: Rep. Tim Walberg (R-MI).
+
+  Should other agencies have to do the same?
+hashtags: [humantrafficking, congress, newlaw, labor]
+notes: >-
+  New this run: GovInfo's public-law feed posted P.L. 119-131 on Nov. 23, 2026 (approved Oct. 20, 2026, [H.R. 4307]);
+  no post or open pull request covers it. Evergreen (signed more than a week ago), so it takes the empty Nov. 30
+  9:00 p.m. post slot (after the 6:00 p.m. Reel; no bump). Facts: law text secs. 3-4; congress.gov actions (committee
+  36-0 Jan. 8, House voice vote under suspension Mar. 3, Senate UC without amendment Sept. 30, signed Oct. 20);
+  "44 human trafficking cases" (WHD, FY 2023), "cannot confirm ... annual basis", "does not directly provide
+  information to Congress or the public", the six red flags and "not authorized by statute to undertake criminal
+  prosecutions" are as H. Rept. 119-507 states them (it cites the DOJ FY 2023 trafficking report and a DOL page,
+  neither opened this run). CBO (printed in the report, as ordered reported Jan. 8): training "would not affect the
+  federal budget" because DOL already provides it; report "less than $500,000 ... over the 2026-2030 period",
+  subject to appropriations. The CRS summary is of the reported bill and matches the enacted text. Rep. Adams's
+  withdrawn amendment (a $10 million National Human Trafficking Emphasis Program) is not on a slide. No opposing
+  view in the record (36-0, voice vote, UC), so no case against is invented; the "no recorded vote against" line
+  rests on those three actions. Parties and states as congress.gov lists them.
