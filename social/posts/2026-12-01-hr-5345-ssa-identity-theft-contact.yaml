@@ -1,0 +1,93 @@
+kind: carousel
+level: congress
+topic: Social Security
+approval: review
+record_ids: ["us/119/public-law/119", "us/119/H.R. 5345/signed"]
+publish_after: '2026-12-01T15:00:00-06:00'
+rule: >-
+  Each new public law GovInfo posts gets its own post with the same structure; this one was posted Nov. 23, 2026.
+sources:
+- title: "Public Law 119-119, Improving Social Security's Service to Victims of Identity Theft Act (GPO)"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ119/html/PLAW-119publ119.htm
+  retrieved: '2026-11-25'
+- title: H.R. 5345 actions (Congress.gov API)
+  url: https://api.congress.gov/v3/bill/119/hr/5345/actions
+  retrieved: '2026-11-25'
+- title: "H. Rept. 119-360, Ways and Means Committee (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt360/html/CRPT-119hrpt360.htm
+  retrieved: '2026-11-25'
+- title: Congress.gov, Rep. John B. Larson member record
+  url: https://api.congress.gov/v3/member/L000557
+  retrieved: '2026-11-25'
+bills:
+- id: H.R. 5345
+  title: "Improving Social Security's Service to Victims of Identity Theft Act"
+  does: "Makes Social Security give each identity theft victim one team that follows their case until it's fixed."
+  affects: "People whose Social Security number was misused or whose card was lost in the mail, and Social Security staff."
+  where: "Signed into law Oct. 7, 2026 as Public Law 119-119. Takes effect 180 days later."
+  summary:
+    text: >-
+      This act requires the Social Security Administration to provide a single point of contact for any individual
+      whose Social Security number has been misused or whose Social Security card has been lost in transport. The
+      point of contact must track cases to completion…
+    title: Congressional Research Service summary of H.R. 5345
+    url: https://api.congress.gov/v3/bill/119/hr/5345/summaries
+    retrieved: '2026-11-25'
+slides:
+- kicker: "New law · Signed Oct. 7, 2026"
+  big: "1 contact"
+  head: "If someone misuses your Social Security number, a new law gives you one point of contact at Social Security until your case is fixed."
+  text: "H.R. 5345, now Public Law 119-119. Passed the U.S. House of Representatives by voice vote and the U.S. Senate by unanimous consent."
+- chip: "Before"
+  head: "No law required a single point of contact."
+  quote: {label: "Ways and Means Committee report, H. Rept. 119-360", text: "SSA policies may require an individual to be in contact with multiple SSA offices, employees, or both, to resolve an issue depending on the type of misuse, or whether it was identified by the individual or the SSA."}
+- chip: "After"
+  head: "A team of specially trained employees owns your case until it's resolved."
+  rows:
+  - [Who qualifies, "Your number was misused, or your card was lost in the mail"]
+  - [Misuse, "Such as fraud claims for benefits, wrong records, or needing a new number"]
+  - [The team, "Tracks the case to the end and works with other units"]
+  - [Staff changes, "Allowed, if records carry over and you're told when needed"]
+  - [Starts, "180 days after Oct. 7, 2026"]
+- chip: "Why supporters backed it"
+  head: "The committee said victims shouldn't have to deal with many different people at Social Security."
+  quote: {label: "Ways and Means Committee report, H. Rept. 119-360", text: "In every case, the Committee believes the individual should have a single point of contact at the SSA."}
+  text: "The House committee approved it 39 to 1 on Sept. 17, 2025."
+- chip: "The one no vote"
+  head: "Rep. John B. Larson (D-CT) had co-led the bill last Congress, but voted no in committee over Social Security staffing."
+  quote: {label: "Rep. John B. Larson, additional views, H. Rept. 119-360", text: "The point of contact should be a real person, not an AI chatbot.", key: real person}
+  text: "His amendment to delay the law until staffing returned to its Jan. 19, 2025 level failed in committee, 14 to 24."
+- chip: "Cost"
+  head: "The committee said the bill adds no new budget authority."
+  text: "It asked the Congressional Budget Office for a cost estimate but hadn't received one when it filed its report. Congress.gov lists no CBO estimate for the bill."
+- kicker: "What you can do"
+  head: "If your number is misused after the law takes effect, ask Social Security for your single point of contact."
+  text: "Sponsor: Rep. David Kustoff (R-TN). Cosponsor: Rep. Nicole Malliotakis (R-NY). Would one contact person help you?"
+caption: |-
+  A new law gives identity theft victims one point of contact at the Social Security Administration. The President signed H.R. 5345, the Improving Social Security's Service to Victims of Identity Theft Act, on Oct. 7, 2026; GovInfo posted it as Public Law 119-119 on Nov. 23.
+
+  Before: no law required one contact. The Ways and Means Committee report says SSA policies may send a victim to several offices or employees.
+
+  After: if your Social Security number was misused, or your card was lost in the mail, a team of specially trained employees tracks your case until it's resolved. It takes effect 180 days after it was signed.
+
+  The House committee approved it 39 to 1. The one no, Rep. John B. Larson (D-CT), said he backed the idea but couldn't vote for it over staffing cuts at Social Security; his amendment to delay it until staffing was restored failed, 14 to 24. The committee said the bill adds no new budget authority; no CBO estimate is listed.
+
+  It passed the U.S. House of Representatives by voice vote and the U.S. Senate by unanimous consent. Sponsor: Rep. David Kustoff (R-TN).
+
+  Would one contact person help you?
+hashtags: [congress, socialsecurity, identitytheft, newlaw]
+notes: >-
+  New this run: GovInfo's public-law feed posted P.L. 119-119 on Nov. 23, 2026 (approved Oct. 7, 2026, [H.R. 5345]);
+  no post or open pull request covers it. Evergreen (signed more than a week ago), so it takes the first free post
+  slot that keeps the Reel/post turn: Dec. 1 3:00 p.m. Facts: law text (sec. 714 (a)-(b), effective date sec. 2(b));
+  congress.gov actions (committee 39-1 Sept. 17, 2025; House voice vote under suspension Dec. 1, 2025; Senate Finance
+  discharged, passed without amendment by UC Sept. 17, 2026; signed Oct. 7, 2026). "Before", the reasons and both
+  committee roll calls (39-1 on reporting; Larson amendment 14-24, its text "not take effect until the staffing ...
+  is restored to at least the level on January 19, 2025") are from H. Rept. 119-360. Larson's co-lead history, "I
+  cannot vote for this bill as it stands" (paraphrased on the slide as "voted no ... over staffing") and the quoted
+  chatbot line are from his additional views; the report's DOGE and whistleblower allegations are not repeated
+  (allegations, and about other matters than this bill). 180 days from Oct. 7 is April 5, 2027 by our count; the
+  slide says "180 days after Oct. 7, 2026" rather than a date. The committee roll calls list no party; Larson's
+  party and state, and the sponsor's and cosponsor's, are from congress.gov member records. Larson's slide reads
+  "voted no in committee over Social Security staffing", our summary of his views (they also cite data security);
+  please check. Same Ways and Means committee as the Nov. 27 H.R. 5284 post, a different bill.
