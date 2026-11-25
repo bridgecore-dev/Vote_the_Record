@@ -1,0 +1,108 @@
+kind: reel
+level: congress
+topic: Public lands
+approval: review
+record_ids: ["us/119/public-law/132", "us/119/H.R. 4467/signed"]
+publish_after: '2026-12-01T18:00:00-06:00'
+trial: auto
+design:
+  palette: teal
+  mode: dark
+  font: sans
+  position: center
+  motion: captions
+  sfx: true
+rule: >-
+  Each new public law GovInfo posts gets its own post with the same structure; this one was posted Nov. 23, 2026.
+sources:
+- title: "Public Law 119-132, Vicksburg National Military Park Boundary Modification Act (GPO)"
+  url: https://www.govinfo.gov/content/pkg/PLAW-119publ132/html/PLAW-119publ132.htm
+  retrieved: '2026-11-25'
+- title: H.R. 4467 actions (Congress.gov API)
+  url: https://api.congress.gov/v3/bill/119/hr/4467/actions
+  retrieved: '2026-11-25'
+- title: "H. Rept. 119-452, Vicksburg boundary act (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt452/html/CRPT-119hrpt452.htm
+  retrieved: '2026-11-25'
+bills:
+- id: H.R. 4467
+  title: Vicksburg National Military Park Boundary Modification Act
+  does: "Gives Mississippi about 7 acres inside Vicksburg National Military Park, free, and moves the park line to leave them out."
+  affects: "The State of Mississippi, the National Park Service, and visitors to the park in Mississippi."
+  where: "Signed into law Oct. 20, 2026 as Public Law 119-132."
+  summary:
+    text: >-
+      This bill directs the Department of the Interior to convey approximately 7 acres of specified land (in two
+      parcels) within the Vicksburg National Military Park to Mississippi for an interpretive center.
+    title: Congressional Research Service summary of H.R. 4467
+    url: https://api.congress.gov/v3/bill/119/hr/4467/summaries
+    retrieved: '2026-11-25'
+  say: "H.R. 4467, the Vicksburg National Military Park Boundary Modification Act, gives Mississippi about 7 acres inside the park, for free, and moves the park line to leave them out. It was signed into law October 20, 2026."
+slides:
+- kicker: "New law · Signed Oct. 20, 2026"
+  big: "7 acres"
+  head: "A new law hands about 7 acres of Vicksburg National Military Park to the State of Mississippi, for free."
+  say: "Can Congress give away part of a national park? A new law hands about 7 acres of Vicksburg National Military Park to the State of Mississippi, for free. It became law October 20, 2026. Here's why."
+- chip: "The park"
+  head: "It protects the site of the Battle of Vicksburg, fought March 29 to July 4, 1863."
+  rows:
+  - [Then, "A Civil War turning point that gave the Union the Mississippi River"]
+  - [Now, "Over 400,000 visitors in 2022, the report says"]
+  text: "As the United States House committee's report describes it."
+  say: "The park protects the site of the Battle of Vicksburg, fought March 29 to July 4, 1863. The United States House committee report calls it a Civil War turning point, with over 400,000 visitors in 2022."
+- chip: "Before"
+  head: "Two parcels inside the park: about 1.69 acres and 5.74 acres, owned by the federal government."
+  text: "The committee report says the park's facilities, including the visitor center, are outdated."
+  say: "Before: two parcels inside the park, about 1.69 acres and 5.74 acres, owned by the federal government. The committee report says the park's facilities, including the visitor center, are outdated."
+- chip: "After"
+  head: "The Interior Department gives both parcels to Mississippi, with no payment, and redraws the park line."
+  rows:
+  - [Must, "Help the public reach the park and improve visits"]
+  - [Must not, "Harm park resources or the visitor experience"]
+  - [Limits, "Any use restriction the Interior Secretary sets"]
+  say: "After: the Interior Department gives both parcels to Mississippi, with no payment, and redraws the park line. The land must help the public reach the park, must not harm it, and stays under any limits the Interior Secretary sets."
+- chip: "What it's for"
+  head: "A new state-run welcome and interpretive center, the report says."
+  rows:
+  - [Planned cost, "$80 million"]
+  - [Mississippi so far, "$10 million, appropriated in 2023"]
+  - [The rest, "A partnership with the Park Service, local governments and a friends group"]
+  text: "The report cites a news story for these figures. No Congressional Budget Office estimate was printed."
+  say: "What it's for: a new state-run welcome and interpretive center, the report says, planned at $80 million. Mississippi set aside $10 million in 2023. The rest would come from a partnership. The report cites a news story for these figures."
+- kicker: "How it passed"
+  head: "No recorded roll call in either chamber."
+  rows:
+  - [U.S. House of Representatives, "Voice vote, March 16, 2026"]
+  - [U.S. Senate, "Unanimous consent, no changes, Sept. 22, 2026"]
+  - [President, "Signed Oct. 20, 2026"]
+  text: "Sponsor: Rep. Bennie Thompson (D-MS). Cosponsors: Rep. Mike Ezell (R-MS), Rep. Michael Guest (R-MS), Rep. Trent Kelly (R-MS). Should park land go to a state for this?"
+  say: "The United States House passed it by voice vote on March 16, 2026, and the Senate by unanimous consent on September 22. The President signed it October 20. Should park land go to a state for this?"
+caption: |-
+  About 7 acres of Vicksburg National Military Park in Mississippi are going to the State of Mississippi, for free. The President signed H.R. 4467, the Vicksburg National Military Park Boundary Modification Act, on Oct. 20, 2026; GovInfo posted it as Public Law 119-132 on Nov. 23.
+
+  Before: two federal parcels inside the park, about 1.69 and 5.74 acres.
+
+  After: the Interior Department gives both to Mississippi with no payment and moves the park boundary to leave them out. The land must help the public reach the park and improve visits, must not harm park resources or the visitor experience, and stays under any limits the Interior Secretary sets.
+
+  Why: the U.S. House committee report says the park's facilities, including its visitor center, are outdated, and Mississippi plans a new interpretive center there. Citing a news story, the report puts the center at $80 million, with $10 million appropriated by Mississippi in 2023. No Congressional Budget Office estimate was printed.
+
+  It passed the U.S. House of Representatives by voice vote and the U.S. Senate by unanimous consent. Sponsor: Rep. Bennie Thompson (D-MS).
+
+  Should park land go to a state for this?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, nationalparks, vicksburg, mississippi, newlaw]
+notes: >-
+  New this run: GovInfo's public-law feed posted P.L. 119-132 on Nov. 23, 2026 (approved Oct. 20, 2026, [H.R. 4467]);
+  no post or open pull request covers it. Evergreen (signed more than a week ago), so it takes the empty Dec. 1
+  6:00 p.m. Reel slot (after the 3:00 p.m. carousel; no bump). That is a design-trial slot: one change from the
+  baseline, font sans (every alternate voice has already been tried). Facts: law text sec. 2; congress.gov actions
+  (committee UC Nov. 20, 2025; House voice vote under suspension Mar. 16; Senate UC without amendment Sept. 22;
+  signed Oct. 20). Battle dates, "turning point ... control of the Mississippi River", 400,000 visitors in 2022,
+  "outdated" facilities and the interpretive center are as H. Rept. 119-452 states them; the report cites the
+  National Park Foundation, the American Battlefield Trust, WJTV and the Magnolia Tribune for them (none opened).
+  The $80 million / $10 million figures rest on that news story, and the slide and caption say so; please check
+  you're comfortable with that. The report says CBO's estimate was "requested but not received"; congress.gov lists
+  no CBO estimate, so no cost is given. "For free" restates "without consideration". The CRS summary is of the
+  reported bill and matches the enacted text. No opposing view in the record (UC, voice vote, UC), so no case
+  against is invented. Parties and states as congress.gov lists them; cosponsors alphabetical.
