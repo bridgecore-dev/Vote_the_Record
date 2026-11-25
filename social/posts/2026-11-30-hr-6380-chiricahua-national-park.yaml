@@ -56,7 +56,6 @@ slides:
   head: "Same land, same rules, new name."
   rows:
   - [Boundaries, "Same as the monument's"]
-  - [Old references, "Any law or map that says monument now means the park"]
   - [Money, "Funds for the monument go to the park"]
   - [Rules, "The same presidential proclamations, plus national park laws"]
   quote: {label: Congressional Budget Office, text: "That designation would not change the ownership or management of the area.", key: would not change}
