@@ -1,0 +1,98 @@
+kind: reel
+level: state
+place: North Carolina
+topic: Calendar
+approval: review
+record_ids: [nc/2025/calendar/reconvenes-2026-11-30, nc/2025/calendar/adjourns-sine-die-2026-12-18]
+publish_after: '2026-12-02T06:00:00-06:00'
+trial: auto
+design:
+  palette: forest
+  mode: dark
+  font: round
+  position: center
+  motion: captions
+  sfx: true
+found_via: https://www.carolinajournal.com/nc-lawmakers-leave-major-fights-for-final-lame-duck-session/
+sources:
+- title: "NCGA, Senate Joint Resolution 1091 (Resolution 2026-6), Adjournment Resolution, ratified text"
+  url: https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S1091v2.pdf
+  retrieved: '2026-11-26'
+- title: NCGA, Legislative Calendar
+  url: https://www.ncleg.gov/LegislativeCalendar
+  retrieved: '2026-11-26'
+- title: N.C. Constitution, Article II
+  url: https://www.ncleg.gov/Laws/Constitution/Article2
+  retrieved: '2026-11-26'
+- title: NCGA, Find Your Legislators
+  url: https://www.ncleg.gov/FindYourLegislators
+  retrieved: '2026-11-26'
+slides:
+- kicker: In session
+  big: Dec. 18
+  head: "North Carolina's General Assembly has set Friday, Dec. 18 to end its 2025 session. Here's what it can take up until then."
+  quote: {label: "Adjournment resolution, Section 6", text: "adjourn on Friday, December 18, 2026, they stand adjourned sine die."}
+  say: "What can North Carolina lawmakers still do this year? The General Assembly has set Friday, Dec. 18 to end its 2025 session."
+- kicker: The last stretch
+  big: Nov. 30
+  head: "The resolution had both chambers return at noon on Monday, Nov. 30, for the last scheduled stretch of the session."
+  quote: {label: "Adjournment resolution, Section 5", text: "they stand adjourned to reconvene on Monday, November 30, 2026, at 12:00 noon."}
+  say: "The North Carolina House of Representatives and North Carolina Senate were set to return at noon on Monday, Nov. 30, for the last scheduled stretch."
+- kicker: What can come up
+  head: "Only the matters the adjournment resolution lists may be considered."
+  rows:
+  - [Vetoes, Votes on overriding the governor's vetoes]
+  - [Elections, Election laws and district maps]
+  - [Constitution, Proposed amendments to the state constitution]
+  - [Appointments, "Appointments, confirmations, governor's nominees"]
+  - [Courts, Lawsuits challenging state laws]
+  - [Impeachment, Under the state constitution or statutes]
+  - [Leftovers, Conference deals and concurrence votes started by Aug. 6]
+  quote: {label: "Adjournment resolution, Section 5", text: "only the following matters may be considered:"}
+  say: "The adjournment resolution limits what they can take up. Veto overrides. Election laws and district maps. Constitutional amendments. Appointments. Lawsuits over state laws. Impeachment. And deals already started by Aug. 6."
+- kicker: Veto override
+  big: 3/5
+  head: "An override takes three-fifths of members present and voting: first in the chamber where the bill started, then in the other."
+  text: "The two chambers are the North Carolina House of Representatives and the North Carolina Senate. Each member's vote is recorded by name."
+  quote: {label: "N.C. Constitution, Art. II, Sec. 22", text: "if approved by three-fifths of the members of that house present and voting, it shall become a law notwithstanding the objections of the Governor."}
+  say: "To override a veto, three-fifths of the members present and voting must agree. First in the chamber where the bill started, then in the other. Both votes are recorded by name."
+- kicker: Constitution
+  head: "A proposed amendment to the state constitution doesn't go to the governor. Once both chambers pass it, it goes to the voters."
+  quote: {label: "N.C. Constitution, Art. II, Sec. 22", text: "shall be submitted to the qualified voters of this State after it shall have been read three times in each house"}
+  say: "A proposed amendment to the state constitution skips the governor. Once both chambers pass it, it goes to North Carolina voters."
+- kicker: Sine die
+  head: "On Dec. 18 the session is set to adjourn sine die: to end with no date set to return."
+  text: "The resolution's Section 6 sets that date."
+  say: "On Dec. 18 the session is set to adjourn sine die. That means it ends with no date set to return."
+- kicker: What you can do
+  head: "Watch the North Carolina House of Representatives and North Carolina Senate live from the Legislative Calendar on ncleg.gov."
+  text: "To see who represents you, enter your address at Find Your Legislators on ncleg.gov. Which of these matters would you watch for?"
+  say: "You can watch both chambers live from the Legislative Calendar on ncleg.gov, and find who represents you with Find Your Legislators. Which of these would you watch for?"
+caption: |-
+  North Carolina's General Assembly is in its last scheduled stretch of the 2025 session. Under the adjournment resolution, both chambers were set to return at noon on Nov. 30, and the session is set to adjourn sine die, with no date set to return, on Dec. 18.
+
+  The resolution limits what they can take up: veto overrides, election laws and district maps, proposed constitutional amendments, appointments, lawsuits over state laws, impeachment, and deals already in conference by Aug. 6.
+
+  Overriding a veto takes three-fifths of the members present and voting in each chamber. A proposed constitutional amendment skips the governor and goes to the voters.
+
+  Watch both chambers live from the Legislative Calendar on ncleg.gov. Which of these would you watch for?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [ncga, ncpol, northcarolina, civics, votetherecord]
+notes: >-
+  Timely while the session runs: the ratified adjournment resolution (Resolution 2026-6, S1091v2.pdf, sha256
+  26c7544156d02b5f20a31e821d298d65303e35f654ea934aa8fa1e112cdf2190), re-opened 2026-11-26: Section 5(a)
+  reconvene Nov. 30 at noon, 5(b)(1)-(6) the allowed matters, Section 6 sine die Dec. 18. ncleg.gov's
+  resolutions list shows 2026-6 as the latest adjournment resolution, and the Legislative Calendar (read
+  2026-11-26) shows "Monday, November 30, 2026 12:00 PM House: Session Convenes House Stream ... Senate: Session
+  Convenes Senate Stream". Written on Nov. 26, so slide 2 says the chambers "were set to return", not that they
+  did. Slide 3 paraphrases 5(b): "Election laws and district maps" for 5(b)(2)d; "Leftovers" for 5(b)(4)
+  conference reports (conferees appointed by Aug. 6) and 5(b)(5) bills returned for concurrence by Aug. 6; it
+  leaves out 5(b)(3) organizational resolutions and 5(b)(6) further adjournment resolutions. The override and
+  amendment slides are from N.C. Const. Art. II, Sec. 22(1) and (2), opened this run; the post doesn't say what
+  majority an amendment needs (Art. XIII, not opened). No bill is named (one bill per post). A news search
+  summary (Carolina Journal) pointed here. Slot: Dec. 2 6:00 a.m. Reel, the first slot that keeps the Reel/post
+  turn on its own (Nov. 29's 6:00 and 9:00 a.m. slots only work if both are filled; Nov. 30 and Dec. 1 are full),
+  so nothing is bumped. Trial look: palette forest, the only change from the baseline. BEFORE IT POSTS, check
+  ncleg.gov for a later adjournment resolution that moved Dec. 18 (if the session already adjourned, delete the
+  post).
