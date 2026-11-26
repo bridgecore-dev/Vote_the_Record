@@ -1,0 +1,140 @@
+kind: reel
+level: state
+place: Texas
+topic: Public safety
+approval: review
+rule: Every bill on the Texas Legislature's Nov. 24, 2026 filing report whose caption is about violence prevention.
+  HB 1282 is the only one (said on the last slide); SB 349 is its identical Senate companion.
+record_ids: [tx/90R/HB 1282/filed, tx/90R/SB 349/filed]
+publish_after: '2026-12-03T06:00:00-06:00'
+trial: auto
+design:
+  palette: forest
+  mode: dark
+  font: round
+  position: center
+  motion: captions
+  sfx: true
+voice: true
+sources:
+- title: TLO, bills filed Nov. 24, 2026
+  url: https://capitol.texas.gov/Reports/Report.aspx?ID=filingDate&LegSess=90R&Code=2026-11-24
+  retrieved: '2026-11-26'
+- title: TLO, HB 1282 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=HB1282
+  retrieved: '2026-11-26'
+- title: TLO, SB 349 history
+  url: https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB349
+  retrieved: '2026-11-26'
+- title: TLO, SB 349 as filed
+  url: https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00349I.htm
+  retrieved: '2026-11-26'
+bills:
+- id: HB 1282
+  does: Would create a state office to prevent community violence and give grants to local violence prevention programs.
+  affects: Counties, cities and community groups in communities with high violence; the Department of State Health Services.
+  where: Filed Nov. 24, 2026 by Rep. Ward Johnson; no other action yet.
+  summary:
+    text: >-
+      The commissioner shall establish within the department the office of community violence intervention and
+      prevention for the purposes of: (1) coordinating and expanding violence intervention and prevention activities;
+      (2) reducing the incidence of interpersonal violence and homicide;
+    title: HB 1282 as filed (Sec. 2, new Health and Safety Code 56.051)
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/HB01282I.htm
+    retrieved: '2026-11-26'
+  say: HB 1282 would create a state office to prevent community violence and give grants to local programs. It was
+    filed November 24 by Representative Ward Johnson, with no other action yet.
+- id: SB 349
+  does: Same text as HB 1282. Would create a state office to prevent community violence and fund local programs.
+  affects: Counties, cities and community groups in communities with high violence; the Department of State Health Services.
+  where: Filed Nov. 12, 2026 by Sen. Miles; no other action yet.
+  summary:
+    text: >-
+      The office shall establish and administer a community violence intervention and prevention grant program and
+      award grants under the program to improve public health and safety by supporting effective violence reduction
+      strategies throughout this state
+    title: SB 349 as filed (Sec. 2, new Health and Safety Code 56.101)
+    url: https://capitol.texas.gov/tlodocs/90R/billtext/html/SB00349I.htm
+    retrieved: '2026-11-26'
+  say: SB 349 has the same text. It was filed November 12 by Senator Miles in the Texas Senate, with no other action
+    yet.
+slides:
+- kicker: 2027 Texas session · Filed Nov. 24, 2026
+  big: HB 1282
+  head: A Texas House of Representatives bill would create a state office to prevent community violence, and a grant program to pay for local efforts.
+  say: Should Texas have a state office to prevent community violence? A Texas House of Representatives bill filed
+    November 24 would create one, with a grant program for local efforts.
+- chip: Twin bills
+  head: HB 1282 and SB 349 are word for word the same.
+  rows:
+  - [Texas House of Representatives, "HB 1282, filed Nov. 24 by Rep. Ward Johnson"]
+  - [Texas Senate, "SB 349, filed Nov. 12 by Sen. Miles"]
+  text: The Texas Legislature's website lists them as identical companions.
+  say: The Texas Senate has a twin, SB 349, filed November 12 by Senator Miles. The Texas Legislature's website lists
+    the two as identical, word for word the same.
+- chip: What would change
+  head: The Department of State Health Services would get a new office of community violence intervention and prevention.
+  rows:
+  - [Plan, "A public health strategy to reduce violence"]
+  - [Campaign, "A statewide public awareness campaign"]
+  - [Directory, "An online list of prevention services in each county"]
+  - [Grants, "Money for local violence reduction programs"]
+  say: 'What would change: the Texas Department of State Health Services would get a new office. It would write a public
+    health strategy, run a statewide awareness campaign, post a directory of services in each county, and give grants.'
+- chip: Who could get grants
+  head: Counties, cities and community groups in communities with a high incidence of violence.
+  rows:
+  - [Uses, "Programs such as hospital-based violence intervention and community outreach"]
+  - [Pass-through, "Counties and cities must pass at least 50% to community groups, tribes or safety agencies"]
+  - [Panel, "Reviewers must include people hurt by violence and people who were incarcerated"]
+  say: Counties, cities and community groups in communities with a lot of violence could apply. A county or city would
+    pass at least 50 percent to community groups, tribes or safety agencies. Reviewers would include people hurt by
+    violence and people who were incarcerated.
+- chip: What it would favor
+  head: Applicants would get preference if their plans reduce violence in a certain way.
+  quote:
+    label: HB 1282 as filed, Sec. 56.104(b)(1)
+    text: the greatest likelihood for reducing violence in the community served by the applicant without contributing
+      to the mass incarceration of individuals
+    key: without contributing to the mass incarceration
+  say: Applicants would get preference for the greatest likelihood of reducing violence without contributing to mass
+    incarceration, in the bill's own words.
+- chip: Cost
+  head: The bill sets no dollar amount. The office would seek gifts, grants and donations.
+  text: No fiscal note (cost estimate) is posted yet, so there is no official estimate of what it would cost or who pays.
+  say: The bill sets no dollar amount. The office would seek gifts, grants and donations. No cost estimate is posted
+    yet, so there is no official estimate of what it would cost or who pays.
+- chip: What's next
+  big: Dec. 1, 2027
+  head: If passed as filed, the office must be set up by this date. The law would take effect Sept. 1, 2027.
+  text: "How we picked: every bill on the Nov. 24 filing report about violence prevention. HB 1282 was the only one. Should Texas have this office?"
+  say: If passed as filed, the law takes effect September 1, 2027, and the office must be set up by December 1, 2027. How
+    we picked, every bill filed November 24 about violence prevention. HB 1282 was the only one. Should Texas have
+    this office?
+caption: |-
+  HB 1282 (Texas House of Representatives, filed Nov. 24) and SB 349 (Texas Senate, filed Nov. 12) have the same text. They would create an office of community violence intervention and prevention in the Department of State Health Services.
+
+  The office would write a public health strategy, run an awareness campaign, post a county-by-county directory of services, and give grants to counties, cities and community groups in communities with a high incidence of violence. Counties and cities would pass at least 50% on to community groups, tribes or safety agencies.
+
+  Cost: the bill sets no dollar amount; the office would seek gifts, grants and donations. No fiscal note is posted yet. If passed as filed, it takes effect Sept. 1, 2027.
+
+  How we picked: every bill on the Nov. 24 filing report about violence prevention. HB 1282 was the only one. Should Texas have this office?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [txlege, texaslegislature, publicsafety, publichealth, votetherecord]
+notes: >-
+  New: HB 1282 filed Nov. 24, 2026; no earlier post or open pull request names HB 1282 or SB 349. Rule: the Nov. 24
+  filing report has 8 bills (HB 1282-1289); HB 1282 is the only one whose caption is about violence prevention.
+  Records opened 2026-11-26: the filing report, both bill histories (HB 1282: filed, author "Ward Johnson", companion
+  "SB 349 by Miles, Identical"; SB 349: filed 11/12/2026, companion "HB 1282 by Ward Johnson, Identical"), and both
+  introduced texts (same council document, 90R3012 AB-F; the enacting text compares equal word for word; sha256 of the
+  HTML: HB c3426f004d6dbdac960513db654a4c950758bf4e5fc55d588bf06feddf94b8f9, SB
+  d458cbed3dc008e580a16e28806a54b6c7b21ac471aad1db8dc9071984a3373c). The Text page lists no fiscal note. Everything
+  on the slides is from the text: 56.003 (gifts, grants, donations), 56.051-56.053 (office, strategy, campaign,
+  directory), 56.101-56.105 (grants; 50% pass-through to "a community-based organization", "an Indian tribe or tribal
+  organization", or "a public entity primarily focused on community safety or gun violence prevention", shortened to
+  "safety agencies"), 56.102 (panel), 56.104(b)(1) (quote), SECTION 3 (Dec. 1, 2027) and SECTION 4 (Sept. 1, 2027).
+  No slide says Texas has no such office today: we didn't search other laws for one. No official statement for or
+  against was found, so the post gives the record and asks. Author names as TLO lists them. Slot: Dec. 3 6:00 a.m., the
+  first free Reel slot that keeps the Reel/post turn (Nov. 29 6:00 a.m. would sit next to the noon Reel while 9:00 a.m.
+  is empty); prefiled bill, evergreen, nothing bumped. Trial design: baseline with one change, palette forest.
