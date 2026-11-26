@@ -10,7 +10,7 @@ sources:
   retrieved: '2026-11-22'
 - title: Congress.gov, H.R. 5284 actions
   url: https://api.congress.gov/v3/bill/119/hr/5284/actions
-  retrieved: '2026-11-22'
+  retrieved: '2026-11-26'
 - title: Congress.gov, H.R. 5284 bill record
   url: https://api.congress.gov/v3/bill/119/hr/5284
   retrieved: '2026-11-22'
@@ -31,7 +31,7 @@ bills:
   title: Claiming Age Clarity Act
   does: "Makes Social Security rename the ages you can claim retirement benefits: minimum, standard and maximum monthly benefit age."
   affects: "Workers deciding when to claim Social Security retirement benefits, and the Social Security Administration."
-  where: "Signed into law Nov. 20, 2026. A Public Law number wasn't posted yet when this was written."
+  where: "Signed into law Nov. 20, 2026, as Public Law 119-144."
   summary:
     text: "This bill changes certain terms that are used by the Social Security Administration (SSA) to describe the ages at which a worker may claim Social Security retirement benefits."
     title: Congressional Research Service summary of H.R. 5284
@@ -41,7 +41,7 @@ slides:
 - kicker: "Signed into law · Nov. 20, 2026"
   big: "62 · 67 · 70"
   head: "The Claiming Age Clarity Act is now law: Social Security must rename the ages when you can start retirement benefits."
-  text: "H.R. 5284. Passed the U.S. House of Representatives by voice vote and the U.S. Senate by unanimous consent."
+  text: "H.R. 5284, now Public Law 119-144. Passed the U.S. House of Representatives by voice vote and the U.S. Senate by unanimous consent."
 - chip: "Before → after"
   head: The new names Social Security must use
   rows:
@@ -91,7 +91,9 @@ caption: |-
   Would the new names change when you'd claim?
 hashtags: [socialsecurity, retirement, congress, newlaw, votetherecord]
 notes: >-
-  New this run: the White House statement dated Nov. 20, 2026 (whitehouse.gov, read 2026-11-22) says the President
+  Updated 2026-11-26 (recheck before posting): congress.gov actions (API, read 2026-11-26) now list "Signed by
+  President." and "Became Public Law No: 119-144." on Nov. 20, 2026, so `where` and slide 1 give the Public Law
+  number and the actions source's retrieved date is updated; nothing else changed. Original notes: New this run: the White House statement dated Nov. 20, 2026 (whitehouse.gov, read 2026-11-22) says the President
   signed H.R. 5284 that day; congress.gov actions (API, read 2026-11-22) still end at "Presented to President." on
   Nov. 12 and list no Public Law yet, so the signing rests on the White House statement. No post or open pull
   request covers H.R. 5284. Before/after: the three terms are quoted from the enrolled text (GovInfo) sec. 2; the
