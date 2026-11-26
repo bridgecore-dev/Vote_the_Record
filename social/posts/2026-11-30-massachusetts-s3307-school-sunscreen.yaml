@@ -1,0 +1,85 @@
+kind: story
+level: state
+place: Massachusetts
+topic: Health
+approval: review
+highlight: State
+record_ids: [ma/194/S.3307/senate-passed]
+publish_after: '2026-11-30T20:15:00-06:00'
+sources:
+- title: The 194th General Court of Massachusetts, S.3307, An Act promoting access to sunscreen in schools, bill history
+  url: https://malegislature.gov/Bills/194/S3307
+  retrieved: '2026-11-26'
+- title: The 194th General Court of Massachusetts, S.3307 (text, PDF)
+  url: https://malegislature.gov/Bills/194/S3307.pdf
+  retrieved: '2026-11-26'
+- title: The 194th General Court of Massachusetts, the original Senate bill relative to youth skin health, committee votes
+  url: https://malegislature.gov/Bills/194/S334/CommitteeVote
+  retrieved: '2026-11-26'
+- title: Massachusetts General Laws, Chapter 71, Section 54B
+  url: https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXII/Chapter71/Section54B
+  retrieved: '2026-11-26'
+slides:
+- kicker: Massachusetts · Passed the Senate, Nov. 25, 2026
+  big: S.3307
+  head: The Massachusetts Senate passed a bill letting students carry and use sunscreen at school without a doctor's note.
+  text: Next it goes to the Massachusetts House of Representatives.
+- chip: What the bill says
+  head: Anyone at school or a school event could carry and use sunscreen, if the FDA regulates it for over-the-counter use.
+  quote: {label: "S.3307, new paragraph in Chapter 71, Section 54B", text: "nothing in this section shall require school personnel to assist students in applying any such product."}
+  text: The bill also says sunscreen "shall not be deemed an over-the-counter medication" under this section.
+- chip: Before → after
+  head: Section 54B has the state health department set the rules for giving medications in schools.
+  rows:
+  - [Before, "The law names prescription items students may carry: inhalers, epinephrine, enzyme supplements, insulin. It doesn't mention sunscreen."]
+  - [After, "Students, parents and staff may carry and use sunscreen with no doctor's note or prescription"]
+  - [Staff, "Not required to help students put it on"]
+  - [Cost, "The bill sets aside no state money"]
+- chip: How it got here
+  head: Sen. Julian Cyr filed the original version in 2025. The Senate Rules Committee wrote this new draft.
+  rows:
+  - [Joint Committee on Education, "6 favorable, 0 adverse, Sept. 17, 2025"]
+  - [Senate Committee on Rules, "6 favorable, 0 adverse, 1 reserved right, Nov. 19, 2026"]
+  - [Massachusetts Senate, "Passed Nov. 25, 2026; the history lists no roll call"]
+  text: The records we opened give no case for or against beyond the bill itself.
+- chip: Your turn
+  head: Should students need a note to bring sunscreen to school?
+  text: Tell us what you think.
+caption: |-
+  The Massachusetts Senate passed S.3307 on Nov. 25, 2026. It would let students, parents and school staff carry and use sunscreen on school property and at school events without a doctor's note or prescription, as long as the FDA regulates the product for over-the-counter use.
+
+  Before: Chapter 71, Section 54B has the state health department set the rules for giving medications in schools, and names prescription items students may carry (inhalers, epinephrine, enzyme supplements, insulin). It doesn't mention sunscreen. After: sunscreen is not treated as an over-the-counter medication under that section, and no note is needed. School staff would not have to help students apply it. Schools may teach students about sun safety. The bill sets aside no state money.
+
+  Sen. Julian Cyr filed the original version in 2025. The Joint Committee on Education voted 6-0 for it, and the Senate Rules Committee wrote this new draft. Next: the Massachusetts House of Representatives.
+
+  Should students need a note to bring sunscreen to school?
+hashtags: [massachusetts, mapoli, schools, sunscreen, votetherecord]
+bills:
+- id: S.3307
+  title: An Act promoting access to sunscreen in schools
+  does: Lets anyone at school or a school event carry and use FDA-regulated sunscreen without a doctor's note
+  affects: Students, parents and school staff in Massachusetts school districts
+  where: "Passed the Massachusetts Senate Nov. 25, 2026. Next: the Massachusetts House of Representatives."
+  summary:
+    text: "may possess and use a topical sunscreen product while on school district property or at a school-sponsored or school-related event or activity to avoid overexposure to the sun without a physician’s note or prescription"
+    title: Text of Massachusetts S.3307 (194th General Court)
+    url: https://malegislature.gov/Bills/194/S3307.pdf
+    retrieved: '2026-11-26'
+notes: >-
+  News-first: an official action from the last three days (malegislature.gov bill history, read 2026-11-26:
+  "11/25/2026 Senate Read third and passed to be engrossed"). Found through Open States' action feed (a tip only, not
+  a source). No post or open pull request covers it. Takes Nov. 30 8:15 p.m., the first free story slot, so no post is
+  bumped: every Reel is a trial and can't be bumped, every carousel slot through Nov. 28 holds this week's news, and
+  Nov. 29 has a free Reel and a free post slot that only work filled together (one alone breaks the Reel/post turn).
+  Everything on the slides is from the bill text (PDF, sha256
+  0e2bc7b984819d2c4a71378d282745e2c685618eb572757a989cd250222037d3; one section adding two paragraphs to G.L. c. 71
+  sec. 54B), the bill history, the committee-vote page of the original bill (Education 6-0 "Ought to pass" Sept. 17,
+  2025; Senate Rules 6 favorable, 0 adverse, 1 "Reserve Right" (Tarr), Nov. 19, 2026) and 54B as shown on
+  malegislature.gov. "Filed the original version" rests on "Presenter: Julian Cyr" on the original bill's page; the
+  original isn't named (one bill per post). "Sets aside no state money" means the text has no appropriation; no
+  fiscal note was found. The "before" is only what 54B says; DPH's school medication rules (105 CMR 210) may already
+  address over-the-counter products, but mass.gov returned 403, so they weren't checked and no slide says what they
+  require: please check. The history lists no roll call for the Senate passage. No party is shown (the records
+  opened don't list it). The Senate's new draft is titled "An Act promoting access to sunscreen in schools" on the bill
+  page, though the committee's cover page calls it "An Act relative to youth skin health". Massachusetts has no
+  Highlight yet; one could be added.
