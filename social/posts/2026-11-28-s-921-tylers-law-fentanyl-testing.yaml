@@ -1,0 +1,118 @@
+kind: reel
+level: congress
+topic: Health
+approval: review
+record_ids: ["us/119/S. 921/house-floor-schedule-2026-11-30"]
+publish_after: '2026-11-28T00:00:00-06:00'
+trial: auto
+sources:
+- title: "House floor schedule, week of Nov. 30"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-30
+  retrieved: '2026-11-27'
+- title: "S. 921, House suspension text"
+  url: https://docs.house.gov/billsthisweek/20261130/S921_SUS(Engrossed)_xml.pdf
+  retrieved: '2026-11-27'
+- title: "S. 921, as passed by the Senate (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119s921es/html/BILLS-119s921es.htm
+  retrieved: '2026-11-27'
+- title: S. 921 actions
+  url: https://api.congress.gov/v3/bill/119/s/921/actions
+  retrieved: '2026-11-27'
+- title: "How Our Laws Are Made (GPO)"
+  url: https://www.govinfo.gov/content/pkg/CDOC-110hdoc49/html/CDOC-110hdoc49.htm
+  retrieved: '2026-11-27'
+bills:
+- id: S. 921
+  title: Tyler's Law
+  does: Would have HHS study how often emergency rooms test overdose patients for fentanyl, then issue guidance on whether to make it routine.
+  affects: Hospital emergency departments, including freestanding ones, and patients treated there for an overdose.
+  where: "Passed the U.S. Senate Mar. 23, 2026. On the U.S. House suspension list, week of Nov. 30, with a change."
+  summary:
+    text: >-
+      This bill requires the Substance Abuse and Mental Health Services Administration (SAMHSA) to complete a study
+      and issue guidance on hospital emergency departments testing for fentanyl or fentanyl-related substances when a
+      patient is experiencing an overdose.
+    title: Congressional Research Service summary of S. 921
+    url: https://api.congress.gov/v3/bill/119/s/921/summaries
+    retrieved: '2026-11-27'
+  say: S. 921 would have Health and Human Services study how often emergency rooms test overdose patients for fentanyl,
+    then issue guidance on whether to make it routine. It passed the United States Senate in March.
+slides:
+- kicker: "U.S. House · Week of Nov. 30"
+  big: S. 921
+  head: "The U.S. House of Representatives plans a vote on Tyler's Law, about fentanyl tests in emergency rooms."
+  say: Next week, the United States House plans a vote on S. 921, Tyler's Law. It's about testing overdose patients for
+    fentanyl in emergency rooms.
+- chip: What it does
+  head: "A federal study, then guidance"
+  rows:
+  - [Who, "Health and Human Services, through its mental health and substance use office"]
+  - [The study, "How often ERs test, costs, benefits and risks, privacy, staff training"]
+  - [Then, "Guidance within 9 months: should testing be routine?"]
+  say: What it does. Health and Human Services studies how often emergency rooms test for fentanyl, the costs, benefits
+    and risks, and patient privacy. Within 9 months after that, it issues guidance on whether testing should be routine.
+- chip: The question behind it
+  head: "Doctors may not know what a routine drug test checks for."
+  quote: {label: "S. 921, sec. 2(b)(2)", text: "aware of which substances are being tested for in their routinely-administered drug tests, regardless of whether those tests screen for fentanyl", key: "regardless of whether those tests screen for fentanyl"}
+  say: The guidance must also cover how hospitals make sure their emergency staff know which substances their routine drug
+    tests check for, whether or not those tests screen for fentanyl.
+- chip: What it doesn't do
+  head: "It doesn't require hospitals to test. It asks for a study and advice."
+  text: "No new rule for hospitals is in the text. CBO's estimate of the Senate-passed bill: cbo.gov/publication/62303."
+  say: What it doesn't do. The bill doesn't require hospitals to test anyone. It asks for a study and advice.
+- chip: Senate → House
+  head: "The U.S. House text changes one thing: when the study is due."
+  rows:
+  - [U.S. Senate, "Passed by unanimous consent Mar. 23: study due within 3 years"]
+  - [U.S. House text, "Study due within 2 years"]
+  by: "Senate-passed text (GPO); House suspension text"
+  say: The United States Senate passed it by unanimous consent in March, with the study due within 3 years. The House text
+    shortens that to 2 years.
+- chip: How the vote works
+  big: Two-thirds
+  head: "It comes up under suspension of the rules, a fast track that needs two-thirds of members voting."
+  text: "Debate is limited to 40 minutes, and members can't offer amendments to it on the floor."
+  say: It comes up under suspension of the rules, a fast track. It needs two-thirds of members voting. Debate is limited
+    to 40 minutes, and members can't offer amendments on the floor.
+- chip: What's next
+  head: "If the U.S. House passes its version, the bill goes back to the U.S. Senate."
+  text: "The Senate can agree, ask for a conference, or amend it again. Watch at live.house.gov. Should ERs test every overdose patient for fentanyl?"
+  say: If the United States House passes its version, the bill goes back to the United States Senate, which can agree, ask for a conference,
+    or amend it again. Should emergency rooms test every overdose patient for fentanyl?
+caption: |-
+  Should emergency rooms test every overdose patient for fentanyl? S. 921, Tyler's Law, is on the U.S. House of Representatives schedule for the week of Nov. 30.
+
+  What it does: Health and Human Services studies how often ERs test overdose patients for fentanyl, what it costs, its benefits and risks, and patient privacy. Within 9 months after the study, it issues guidance on whether testing should be routine.
+
+  It doesn't require hospitals to test.
+
+  The U.S. Senate passed it by unanimous consent on March 23, with the study due within 3 years. The House text makes it 2 years. It comes up under suspension of the rules and needs two-thirds of members voting. If it passes, the bill goes back to the U.S. Senate.
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, fentanyl, overdose, votetherecord]
+rule: "From the U.S. House suspension list for the week of Nov. 30, 2026, every bill about drug overdoses. This week that is S. 921 alone."
+notes: >-
+  News first: a dated event in the next three days (the House's week of Nov. 30 begins Monday; docs.house.gov lists S. 921
+  under suspension). Takes the Nov. 28 12:00 a.m. Reel slot, the earliest Reel slot at least 3 hours away held by an
+  evergreen post (Nov. 27 6:00 p.m. goes to the H.R. 2347 Reel in PR #331), and moves the prefiled Texas HB 1241 Reel
+  (filed Nov. 18, no design, so not a design trial) to Dec. 27 12:00 a.m. That's the first Reel slot after the last
+  queued post that can't put two Reels in a row whether or not #331 merges: #331 puts the HB 1184 Reel at Dec. 26 6:00 a.m.,
+  and without it the last queued post is the Dec. 26 3:00 a.m. carousel. No post or open pull request covers S. 921.
+  Rule check: the other items on the list are H.R. 2332 (FBI background checks for licensing compacts), H.R. 9503 (Secret
+  Service Police name), S. 4394 (police leadership training), S. 494 (epilepsy plan), S. 162 (foster care), H.R. 1669
+  (trafficking training), H.R. 4449 (SEC small business offices), S. 4631 (contractor whistleblowers), and bills already
+  posted (S. 3296, H.R. 4624, H.R. 3514, H.R. 3100, S. 4850, S. 1157, H.R. 1520) or medals and coins (S. 645, H.R. 4382,
+  H.R. 1628), from their CRS summaries or titles; none is about overdoses. Records opened 2026-11-27: the floor list,
+  the suspension text ("Suspend the Rules and Pass the Bill, S. 921, With an Amendment", dated Nov. 12, 2026; sha256
+  2dcf76751fa77b8b07194a0cb8f36a2e4939cc07e2f147e8debe0e00c917b03e), the Senate-passed text on GovInfo, congress.gov
+  actions, summary and bill record. A word-by-word comparison found one change: sec. 2(a) "3 years" → "2 years"; please
+  confirm. "Health and Human Services, through its mental health and substance use office" shortens "the Secretary of
+  Health and Human Services, acting through the Assistant Secretary for Mental Health and Substance Use"; the CRS summary
+  says SAMHSA. "It doesn't require hospitals to test" is our reading: sec. 2 directs only a study and guidance. Who
+  Tyler was isn't in any record opened, so the post doesn't say. Suspension (two-thirds of members voting, 40 minutes,
+  the motion "may not be separately amended") and the return to the Senate (agree, conference, or further amend) are from
+  How Our Laws Are Made (House Parliamentarian, H. Doc. 110-49), parts on the motion to suspend and XVI. CBO's estimate
+  (Apr. 8, 2026, "As passed by the Senate") is listed on congress.gov; cbo.gov returned 403 this run, so it's linked,
+  not quoted. No statement for or against was opened; it passed the Senate by unanimous consent, so no case-against
+  slide. Sponsor Sen. Banks (R-IN) per congress.gov, not named on the slides. If the House votes before this posts
+  (it can't: the House returns Nov. 30), the last slide needs the tally.
