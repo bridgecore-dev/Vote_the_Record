@@ -9,6 +9,9 @@ from __future__ import annotations
 
 import csv
 import io
+import re
+
+from model import STATE_NAMES
 
 CHAMBERS = {"house": "U.S. House of Representatives", "senate": "U.S. Senate"}
 GROUPS = [("yea", "Yea"), ("nay", "Nay"), ("present", "Present"), ("not_voting", "Not Voting")]
@@ -33,6 +36,11 @@ def member_key(m: dict) -> str:
     return m.get("bioguide") or f"{m['name']}|{m['state']}"
 
 
+def member_url(key: str) -> str:
+    """/congress/members/<bioguide>/; a member the directory couldn't match gets a slug of name and state."""
+    return f"/congress/members/{re.sub(r'[^a-z0-9]+', '-', key.casefold()).strip('-')}/"
+
+
 def assemble_vote(rel: str, doc: dict) -> dict:
     slug = f"{doc['congress']}-{doc['session']}/{doc['chamber']}/{doc['roll']}"
     url = f"/congress/{slug}/"
@@ -43,7 +51,7 @@ def assemble_vote(rel: str, doc: dict) -> dict:
             **m, "key": member_key(m), "display": display, "initials": initials(display),
             "group": GROUP_OF[m["vote"]],
             "portrait_src": f"/congress/portraits/{m['portrait']}" if m.get("portrait") else None,
-            "profile_url": None,
+            "profile_url": None, "member_url": member_url(member_key(m)),
         })
     groups = [{"key": key, "label": label, "count": doc["totals"][key],
                "members": [m for m in members if m["group"] == key]} for key, label in GROUPS]
@@ -129,4 +137,42 @@ def link_people(congress: dict, people: list[dict]) -> None:
                 person = next(iter(found.values()))
                 m["profile_url"] = person["url"]
                 person["congress_votes"].append({"vote": vote, "cast": m["vote"]})
+
+
+def assemble_members(congress: dict) -> None:
+    """Add one page per member and per state, from the roll calls on this site (run after link_people).
+
+    A member's name, party, and state come from their newest roll call here. Lists are alphabetical by the name the
+    record prints, and a state's list is everyone who appears in these roll calls, not a roster of who serves now."""
+    members: dict[str, dict] = {}
+    for vote in congress["votes"]:  # newest first
+        for m in vote["members"]:
+            row = members.setdefault(m["key"], {
+                "key": m["key"], "url": m["member_url"], "name": m["name"], "full_name": m.get("full_name"),
+                "display": m["display"], "initials": m["initials"], "party": m["party"], "state": m["state"],
+                "state_name": STATE_NAMES.get(m["state"], m["state"]),
+                "state_url": f"/congress/states/{m['state'].lower()}/",
+                "portrait_src": m["portrait_src"], "profile_url": None, "chambers": [], "votes": []})
+            row["profile_url"] = row["profile_url"] or m["profile_url"]
+            row["portrait_src"] = row["portrait_src"] or m["portrait_src"]
+            if vote["chamber"] not in row["chambers"]:
+                row["chambers"].append(vote["chamber"])
+            row["votes"].append({"vote": vote, "cast": m["vote"], "party": m["party"], "state": m["state"]})
+    ordered = sorted(members.values(), key=sort_key)
+    for row in ordered:
+        row["chamber_names"] = [CHAMBERS[c] for c in row["chambers"]]
+    states = []
+    for code in sorted({v_m["state"] for v in congress["votes"] for v_m in v["members"]},
+                       key=lambda c: STATE_NAMES.get(c, c).casefold()):
+        seen = {c: [x for x in ordered if any(r["state"] == code and r["vote"]["chamber"] == c for r in x["votes"])]
+                for c in CHAMBERS}
+        rolls = []
+        for vote in congress["votes"]:
+            voted = [m for m in vote["members"] if m["state"] == code]
+            if voted:
+                rolls.append({"vote": vote, "counts": [{"label": label, "n": sum(m["group"] == key for m in voted)}
+                                                       for key, label in GROUPS]})
+        states.append({"code": code, "name": STATE_NAMES.get(code, code), "url": f"/congress/states/{code.lower()}/",
+                       "senate": seen["senate"], "house": seen["house"], "rolls": rolls})
+    congress["member_pages"], congress["state_pages"] = ordered, states
 

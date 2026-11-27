@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src" / "build"))
-from congress import link_people  # noqa: E402
+from congress import GROUPS, assemble_members, assemble_vote, link_people  # noqa: E402
 
 
 def person(slug, name, office_type):
@@ -34,3 +34,32 @@ def test_links_unique_match_and_skips_others():
     assert "profile_url" not in house["members"][2]
     assert [cv["cast"] for cv in cruz["congress_votes"]] == ["Nay"]
     assert a["congress_votes"] == [] and b["congress_votes"] == []
+
+
+def roll(chamber, number, date, members):
+    return assemble_vote(f"data/federal/congress/119/2/{chamber}/roll-{number}.yaml", {
+        "congress": 119, "session": 2, "chamber": chamber, "roll": number, "date": date, "question": "On Passage",
+        "measure": None, "title": "A bill", "result": "Passed", "required": None,
+        "totals": {key: sum(m["vote"] == label for m in members) for key, label in GROUPS}, "party_totals": None,
+        "tie_breaker": None, "fact": {"source_url": "https://example.gov/x", "verification": "unverified"},
+        "directory": {}, "members": members})
+
+
+def test_member_and_state_pages():
+    def m(name, bio, party, state, cast):
+        return {"name": name, "full_name": name, "bioguide": bio, "party": party, "state": state, "vote": cast,
+                "portrait": None}
+    new = roll("house", 2, "2026-02-01", [m("Zed Young", "Z000001", "I", "TX", "Yea"),
+                                          m("Amy Ames", "A000001", "D", "TX", "Nay"),
+                                          m("Bo Bell", "B000001", "R", "OK", "Yea")])
+    old = roll("house", 1, "2026-01-01", [m("Zed Young", "Z000001", "R", "TX", "Nay")])
+    congress = {"votes": [new, old]}
+    assemble_members(congress)
+    assert [x["display"] for x in congress["member_pages"]] == ["Amy Ames", "Bo Bell", "Zed Young"]
+    zed = congress["member_pages"][2]
+    assert zed["url"] == "/congress/members/z000001/" and zed["party"] == "I"  # newest roll call's listing
+    assert [(v["cast"], v["party"]) for v in zed["votes"]] == [("Yea", "I"), ("Nay", "R")]
+    tx = next(s for s in congress["state_pages"] if s["code"] == "TX")
+    assert tx["name"] == "Texas" and [x["display"] for x in tx["house"]] == ["Amy Ames", "Zed Young"]
+    assert {c["label"]: c["n"] for c in tx["rolls"][0]["counts"]}["Yea"] == 1
+

@@ -52,7 +52,7 @@
     <li class="member" data-state="{{ m.state }}" data-name="{{ (m.display ~ ' ' ~ m.name) | lower }}">
       {% if m.portrait_src %}<img class="portrait" src="{{ m.portrait_src }}" alt="{{ m.display }}" width="60" height="74" loading="lazy">{% else %}<span class="portrait portrait-initials" aria-hidden="true">{{ m.initials }}</span>{% endif %}
       <span class="member-text">
-        <span class="member-name">{% if m.profile_url %}<a href="{{ m.profile_url }}">{{ m.display }}</a>{% else %}{{ m.display }}{% endif %}</span>
+        <span class="member-name"><a href="{{ m.member_url }}">{{ m.display }}</a></span>
         <span class="member-meta">{{ m.party }} · {{ m.state }}{% if m.vote != g.label %} · {{ m.vote }}{% endif %}</span>
       </span>
     </li>

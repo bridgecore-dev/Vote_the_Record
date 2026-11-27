@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% from "partials/macros.html" import verification_badge, source_line %}
+{% block title %}{{ member.display }}: votes in Congress{% endblock %}
+{% block description %}How {{ member.display }} ({{ member.state_name }}) voted on the U.S. Congress roll calls on this site, each linked to the official record.{% endblock %}
+{% block content %}
+<header class="masthead">
+  <p class="eyebrow"><a href="/congress/">Congress</a> · <a href="{{ member.state_url }}">{{ member.state_name }}</a> · {{ member.chamber_names | join(", ") }}</p>
+  {% if member.portrait_src %}<img class="portrait" src="{{ member.portrait_src }}" alt="{{ member.display }}" width="60" height="74">{% else %}<span class="portrait portrait-initials" aria-hidden="true">{{ member.initials }}</span>{% endif %}
+  <h1 class="display display-long">{{ member.display }}</h1>
+  <p class="lead">Listed on the newest roll call here as {{ member.name }}: {{ member.party }} · {{ member.state }}.</p>
+  {% if member.profile_url %}<p><a href="{{ member.profile_url }}">Full profile</a></p>{% endif %}
+</header>
+
+<section aria-labelledby="votes-h">
+  <h2 id="votes-h">Roll calls, newest first</h2>
+  <p class="muted">{{ member.votes | length }} roll call{{ "" if member.votes | length == 1 else "s" }} on this site. This isn't the member's full voting record.</p>
+  <ul class="item-list">
+    {% for row in member.votes %}
+    <li>
+      <p><a href="{{ row.vote.url }}">{{ row.vote.label }}</a>, {{ row.vote.date | longdate }}</p>
+      <p>{{ row.vote.heading | trim(".") }}.</p>
+      <p>Voted <strong>{{ row.cast }}</strong>{% if row.party != member.party or row.state != member.state %} (listed as {{ row.party }} · {{ row.state }}){% endif %}. {{ row.vote.result }}.</p>
+      <p class="item-meta">{{ verification_badge(row.vote.fact) }} · {{ source_line(row.vote.fact) }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+<p class="note">Name, party, and state are as each roll call prints them. A roll call records each vote, not the reasons for it.</p>
+{% endblock %}
