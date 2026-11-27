@@ -6,28 +6,28 @@ record_ids: ["us/119/H.R. 2347/house-floor-schedule-2026-11-30"]
 publish_after: '2026-11-27T18:00:00-06:00'
 trial: auto
 sources:
-- title: "House floor schedule, week of Nov. 30"
+- title: "House floor schedule, Nov. 30"
   url: https://docs.house.gov/floor/Default.aspx?date=2026-11-30
   retrieved: '2026-11-27'
-- title: "House Rules Committee, Senate amendment to H.R. 2347"
+- title: "Rules Committee, H.R. 2347"
   url: https://rules.house.gov/bill/119/hr-2347
   retrieved: '2026-11-27'
-- title: "H.R. 2347, Senate amendment (GPO)"
+- title: "Senate text (GPO)"
   url: https://www.govinfo.gov/content/pkg/BILLS-119hr2347eas/xml/BILLS-119hr2347eas.xml
   retrieved: '2026-11-27'
-- title: "H.R. 2347 bill status (GPO)"
+- title: "Bill status (GPO)"
   url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr2347.xml
   retrieved: '2026-11-27'
-- title: "U.S. Senate, Vote 270 (2026)"
+- title: "Senate vote 270"
   url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00270.xml
   retrieved: '2026-11-27'
-- title: "How Our Laws Are Made, XV"
+- title: "How Our Laws Are Made"
   url: https://www.govinfo.gov/content/pkg/CDOC-110hdoc49/html/CDOC-110hdoc49.htm
   retrieved: '2026-11-27'
-- title: "Capito floor remarks, Nov. 9"
+- title: "Capito remarks"
   url: https://www.epw.senate.gov/press/rep/senate-advances-capito-s-bipartisan-american-affordability-and-jobs-act/
   retrieved: '2026-11-27'
-- title: "Alsobrooks statement, Nov. 9"
+- title: "Alsobrooks statement"
   url: https://www.alsobrooks.senate.gov/news/press-releases/alsobrooks-votes-no-on-bipartisan-american-affordability-and-jobs-act/
   retrieved: '2026-11-27'
 bills:
@@ -129,4 +129,4 @@ notes: >-
   Senate's own bill number for the same act (not named: one bill per post); same quote the Nov. 26 post used. cbo.gov
   returned 403, not retried; the estimate is linked, not quoted, and it's of SA 6883, so the caption says "Senate
   substitute". If the House votes before this posts (it can't: the Rules meeting is Nov. 30), the last slide needs the
-  tally.
+  tally. Preview fix: shortened the source titles after the first preview clipped the sources footer.
