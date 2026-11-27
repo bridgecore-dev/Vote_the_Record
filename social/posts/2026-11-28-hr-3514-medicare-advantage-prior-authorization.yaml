@@ -8,22 +8,22 @@ rule: >-
   From the U.S. House suspension list for the week of Nov. 30, 2026, every bill that changes Medicare. This week that
   is H.R. 3514 alone.
 sources:
-- title: "U.S. House, Bills to be Considered, Week of Nov. 30, 2026 (docs.house.gov)"
+- title: "House floor schedule, week of Nov. 30"
   url: https://docs.house.gov/floor/Default.aspx?date=2026-11-30
   retrieved: '2026-11-27'
-- title: "H.R. 3514, text as scheduled (docs.house.gov)"
+- title: "H.R. 3514 text as scheduled"
   url: https://docs.house.gov/billsthisweek/20261130/H3514_SUS_xml.pdf
   retrieved: '2026-11-27'
-- title: Congress.gov, H.R. 3514 actions and cosponsors
+- title: H.R. 3514 actions
   url: https://api.congress.gov/v3/bill/119/hr/3514/actions
   retrieved: '2026-11-27'
-- title: "42 U.S.C. 1395w-22 (GPO)"
+- title: "42 U.S.C. 1395w-22"
   url: https://www.govinfo.gov/content/pkg/USCODE-2024-title42/html/USCODE-2024-title42-chap7-subchapXVIII-partC-sec1395w-22.htm
   retrieved: '2026-11-27'
-- title: "CMS fact sheet, prior authorization rule CMS-0057-F"
+- title: "CMS fact sheet, CMS-0057-F"
   url: https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f
   retrieved: '2026-11-27'
-- title: "House Practice, Chapter 53. Suspension of Rules (GPO)"
+- title: "House Practice, ch. 53"
   url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-54.htm
   retrieved: '2026-11-27'
 bills:
@@ -52,11 +52,10 @@ slides:
   - [Public data, "Yearly prior authorization numbers (first by March 31, 2026)"]
   - [Electronic system, "Required from Jan. 1, 2027"]
 - chip: What H.R. 3514 adds
-  head: "For plan years starting in 2029, the Social Security Act itself would require, for plans that use prior authorization:"
+  head: "From 2029, the law itself would require plans that use prior authorization to post or provide:"
   rows:
-  - [Electronic, "Requests and answers sent electronically; fax and e-forms don't count"]
-  - [Data, "Approvals, denials and appeals, item by item, each year"]
-  - [Speed, "Average and median hours to decide"]
+  - [Electronic, "Requests and answers online; fax and e-forms don't count"]
+  - [Data, "Approvals, denials, appeals and hours to decide, item by item"]
   - [Software, "How many decisions used AI or other tools, and which"]
   - [Criteria, "Shared with doctors, and with enrollees who ask"]
   - [Deadlines, "CMS may set decision times of 7 days or fewer"]
@@ -99,4 +98,5 @@ notes: >-
   old, and Nov. 28 3:00 a.m. is the North Carolina SB 177 post, whose 10-day sign-or-veto window ends this week, so it's
   treated as news. This pull request moves the New York Chapter 379 lobbying post (signed Nov. 20, more than a week
   ago by Nov. 28) to Dec. 26 3:00 a.m., the first post slot after the last queued post (Dec. 25 3:00 a.m.) that can't
-  put two posts in a row. If the House votes before this posts, the last slide needs the tally.
+  put two posts in a row. Shortened slide 4 and the source titles after the first preview clipped the sources
+  footer. If the House votes before this posts, the last slide needs the tally.
