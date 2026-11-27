@@ -1,0 +1,127 @@
+kind: reel
+level: congress
+topic: Courts
+approval: review
+record_ids: ["us/119/S. 4850/house-floor-schedule-2026-11-30"]
+publish_after: '2026-11-29T06:00:00-06:00'
+trial: auto
+design:
+  palette: charcoal
+  mode: dark
+  font: round
+  position: center
+  motion: captions
+  sfx: true
+voice: {name: af_heart}
+sources:
+- title: "House floor schedule, week of Nov. 30"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-30
+  retrieved: '2026-11-27'
+- title: "S. 4850 text as scheduled"
+  url: https://docs.house.gov/billsthisweek/20261130/BILLS-119s4850es.pdf
+  retrieved: '2026-11-27'
+- title: S. 4850 actions
+  url: https://api.congress.gov/v3/bill/119/s/4850/actions
+  retrieved: '2026-11-27'
+- title: "Congressional Record, Aug. 7, 2026, S4550"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4550.htm
+  retrieved: '2026-11-27'
+- title: "28 U.S.C. 1332"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title28/html/USCODE-2024-title28-partIV-chap85-sec1332.htm
+  retrieved: '2026-11-27'
+- title: "28 U.S.C. 1441"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title28/html/USCODE-2024-title28-partIV-chap89-sec1441.htm
+  retrieved: '2026-11-27'
+- title: "House Practice, ch. 53"
+  url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-54.htm
+  retrieved: '2026-11-27'
+bills:
+- id: S. 4850
+  title: Diversity Jurisdiction Inflation Adjustment Act
+  does: Would raise the amount at stake a federal court needs to hear a case between citizens of different states, from $75,000 to $150,000.
+  affects: Civil cases in federal court between citizens of different states.
+  where: "Passed the U.S. Senate by unanimous consent Aug. 7, 2026. On the U.S. House schedule for the week of Nov. 30."
+  summary:
+    text: >-
+      This bill raises the minimum amount in controversy from $75,000 to $150,000 and adjusts the amount for
+      inflation every 10 years beginning in 2030.
+    title: Congressional Research Service summary of S. 4850
+    url: https://api.congress.gov/v3/bill/119/s/4850/summaries
+    retrieved: '2026-11-27'
+  say: S. 4850 would raise the amount at stake a federal court needs to hear a case between citizens of different
+    states, from 75,000 dollars to 150,000 dollars. It passed the United States Senate August 7, 2026.
+slides:
+- kicker: "U.S. House · Week of Nov. 30"
+  big: S. 4850
+  head: Suing someone from another state? A bill on the U.S. House of Representatives schedule changes when that case can go to federal court.
+  say: Suing someone from another state? The United States House plans to take up S. 4850, a bill that changes when that
+    case can go to federal court.
+- chip: The law today
+  big: $75,000
+  head: Today, a federal court can hear a lawsuit between citizens of different states when more than $75,000 is at stake.
+  quote: {label: 28 U.S.C. 1332(a), text: "the matter in controversy exceeds the sum or value of $75,000, exclusive of interest and costs", key: "$75,000"}
+  text: "Diversity jurisdiction: a federal court's power to hear cases between people from different states."
+  say: The law today. A federal court can hear a lawsuit between citizens of different states when more than 75,000
+    dollars is at stake. That's diversity jurisdiction.
+- chip: How long
+  big: '1996'
+  head: The amount has been $75,000 since a 1996 law. A 1988 law set it at $50,000, up from $10,000.
+  say: The amount has been 75,000 dollars since a 1996 law. A 1988 law had set it at 50,000 dollars, up from 10,000
+    dollars.
+- chip: What would change
+  big: $150,000
+  head: S. 4850 would make it at least $150,000.
+  rows:
+  - [Amount, "At least $150,000, up from more than $75,000"]
+  - [Inflation, "Adjusted every 10 years, starting Jan. 1, 2030"]
+  - [Rounding, "To the nearest $25,000"]
+  - [Who figures it, "The Administrative Office of the U.S. Courts"]
+  say: What would change. The amount would be at least 150,000 dollars. Starting January 1, 2030, it would be adjusted
+    for inflation every 10 years, rounded to the nearest 25,000 dollars.
+- chip: Who it touches
+  head: Cases between citizens of different states worth less than $150,000 could no longer start in federal court for that reason alone.
+  text: "Both sides: a defendant sued in a state court can move the case to federal court only if federal court could have heard it. No CBO estimate is listed on congress.gov."
+  say: Who it touches. Cases between citizens of different states worth less than 150,000 dollars could no longer start
+    in federal court for that reason alone. A defendant sued in a state court couldn't move them there either.
+- chip: Where it stands
+  head: "The U.S. Senate passed it by unanimous consent on Aug. 7, 2026, with no recorded vote and no floor debate."
+  text: "Sponsor: Sen. John Kennedy (R-LA). Cosponsors: Sens. Coons (D-DE), Cruz (R-TX), Durbin (D-IL), Whitehouse (D-RI)."
+  say: The United States Senate passed it by unanimous consent on August 7, 2026, with no recorded vote and no floor
+    debate.
+- chip: What's next
+  big: Nov. 30
+  head: The U.S. House of Representatives lists it under suspension of the rules, a fast track that needs two-thirds of those voting.
+  text: "If the House passes it unchanged, it goes to the President. Watch at live.house.gov. Should the amount go up?"
+  say: The United States House lists it under suspension of the rules, a fast track that needs two-thirds of those
+    voting. If it passes unchanged, it goes to the President. Should the amount go up?
+caption: |-
+  Suing someone from another state? Whether the case can go to federal court depends partly on how much money is at stake. S. 4850 is on the U.S. House of Representatives schedule the week of Nov. 30.
+
+  Before: a federal court can hear a case between citizens of different states when more than $75,000 is at stake. That number was set in 1996.
+  After: at least $150,000, adjusted for inflation every 10 years starting in 2030.
+
+  Cases below the new amount could no longer start in federal court for that reason alone, and a defendant sued in state court couldn't move them there either. No CBO estimate is listed.
+
+  The U.S. Senate passed it by unanimous consent Aug. 7, with no recorded vote. Should the amount go up?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, federalcourts, law, votetherecord]
+notes: >-
+  News first: a dated event in the next three days (the U.S. House's week of Nov. 30 starts Monday; docs.house.gov lists
+  S. 4850 under suspension). Every Reel slot before it holds news or a trial (every queued Reel carries trial: auto), so
+  nothing is bumped; it takes Nov. 29 6:00 a.m., the first free Reel slot (Nov. 29 3:00 a.m. is a carousel; 9:00 a.m. is
+  the CHILD Act carousel in its own pull request, or free). No post or open pull request covers S. 4850. Trial look:
+  changes only the palette (charcoal) from the baseline (teal, dark, round, center, captions, sfx, af_heart); no queued
+  Reel has used charcoal, so this is its first trial. Records opened 2026-11-27: the floor list, the scheduled text
+  (BILLS-119s4850es, the Senate-passed text; sha256 ac778372ca9d1158af81aa4075007610d1fa76959e2471fd14cf2a7c51db77a9),
+  congress.gov actions (discharged from Judiciary and passed by unanimous consent Aug. 7, 2026; held at the House desk
+  Aug. 10), sponsor and cosponsors (4, none withdrawn), the CRS summary, the Congressional Record S4550-S4551 (Sen. Moreno
+  asked unanimous consent; no speeches), 28 U.S.C. 1332 from GPO's 2024 Code ((a) "exceeds ... $75,000"; amendment
+  notes: Pub. L. 104-317 (1996) substituted $75,000 for $50,000; Pub. L. 100-702 (1988) $50,000 for $10,000), 28 U.S.C.
+  1441(a) (removal only of actions "of which the district courts ... have original jurisdiction"), and House Practice ch.
+  53 (two-thirds). "At least" vs "more than": the new text says "not less than $150,000"; the old text says "exceeds".
+  "For that reason alone" because other grounds (e.g. federal-question cases, and class actions under 1332(d), which has
+  its own $5,000,000 amount) aren't touched; please confirm the wording. The bill has no effective-date clause; the post
+  doesn't say whether it reaches pending cases. No CBO estimate is listed on congress.gov (cbo.gov not tried); no
+  statement for or against was found, so the post asks. Party and state as congress.gov lists them. If the House votes
+  before this posts, the last slide needs the tally.
