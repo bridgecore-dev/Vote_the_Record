@@ -1,0 +1,123 @@
+kind: reel
+level: congress
+topic: Congressional ethics
+approval: review
+record_ids: ["us/119/H.R. 11142/house-floor-schedule-2026-11-30"]
+publish_after: '2026-11-27T06:00:00-06:00'
+trial: auto
+sources:
+- title: "House floor schedule, week of Nov. 30"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-30
+  retrieved: '2026-11-27'
+- title: "House Rules Committee, H.R. 11142"
+  url: https://rules.house.gov/bill/119/hr-11142
+  retrieved: '2026-11-27'
+- title: "H.R. 11142 text"
+  url: https://www.congress.gov/119/bills/hr11142/BILLS-119hr11142ih.htm
+  retrieved: '2026-11-27'
+- title: H.R. 11142 actions
+  url: https://api.congress.gov/v3/bill/119/hr/11142/actions
+  retrieved: '2026-11-27'
+- title: "5 U.S.C. 13105"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2025-title5/html/USCODE-2025-title5-partIV-chap131-subchapI-sec13105.htm
+  retrieved: '2026-11-27'
+- title: "Earlier Stop Insider Trading Act, actions"
+  url: https://api.congress.gov/v3/bill/119/hr/7008/actions
+  retrieved: '2026-11-27'
+bills:
+- id: H.R. 11142
+  title: Stop Insider Trading Act
+  does: Would bar members of Congress and their spouses and dependent children from buying stocks, and require public notice before they sell.
+  affects: Members of Congress, their spouses and dependent children.
+  where: "Introduced Nov. 24, 2026. On the U.S. House floor schedule for the week of Nov. 30."
+  summary:
+    text: >-
+      This bill generally prohibits Members of Congress and their spouses and dependent children from purchasing
+      stocks and requires public notice before these individuals may sell stocks.
+    title: Congressional Research Service summary of H.R. 11142
+    url: https://api.congress.gov/v3/bill/119/hr/11142/summaries
+    retrieved: '2026-11-27'
+  say: H.R. 11142 would bar members of Congress, their spouses and dependent children from buying stocks, and require
+    public notice before they sell. It was introduced November 24 and is on the United States House schedule for the week of November 30.
+slides:
+- kicker: "U.S. House · Week of Nov. 30"
+  big: H.R. 11142
+  head: The U.S. House of Representatives plans to take up a bill that would stop members of Congress from buying stocks.
+  say: Next week, the United States House plans to take up H.R. 11142, the Stop Insider Trading Act. It would stop members
+    of Congress from buying stocks.
+- chip: The law today
+  big: 45 days
+  head: Today, federal law has members of Congress report their stock trades after they happen.
+  quote: {label: 5 U.S.C. 13105(l), text: "in no case later than 45 days after such transaction", key: "45 days"}
+  text: The report is due within 30 days of being notified of a trade, and no later than 45 days after it.
+  say: The law today. Members of Congress report their stock trades after they happen, within 30 days of being notified,
+    and no later than 45 days after the trade.
+- chip: What would change
+  head: "H.R. 11142 adds new rules for members, their spouses and dependent children."
+  rows:
+  - [Buying, "Not allowed: no new stocks of public companies"]
+  - [Selling, "Public notice 7 to 14 days before each sale"]
+  - [Notices, "Posted online by the House Clerk or Senate Secretary"]
+  - [Starts, "180 days after it becomes law"]
+  say: What would change. Members, spouses and dependent children could not buy stocks. Before a sale, a public notice
+    goes up 7 to 14 days ahead. The rules start 180 days after the bill becomes law.
+- chip: Still allowed
+  head: The bill leaves some investments out.
+  rows:
+  - [Funds, "Widely held investment funds"]
+  - [Small business, "A stake in a small business"]
+  - [Trusts, "Ones the family can't direct, run by a non-relative"]
+  - [Work, "A spouse's or child's trades for their job, or stock pay"]
+  - [Stocks owned now, "The bill doesn't require selling them"]
+  say: Still allowed. Widely held funds, a stake in a small business, trusts the family can't direct, and a spouse's
+    trades for work. The bill doesn't require selling stocks already owned.
+- chip: Breaking the rule
+  big: $2,000
+  head: A violation costs $2,000 or 10% of the trade, whichever is more, plus any gains.
+  text: "A stock bought against the rule must be sold. Campaign money and office budgets can't pay the fee, which goes to the U.S. Treasury. No CBO cost estimate is listed yet."
+  say: Breaking the rule costs 2,000 dollars or 10 percent of the trade, whichever is more, plus any gains. Campaign money
+    can't pay the fee, and it goes to the Treasury.
+- chip: Been here before
+  head: "A bill with the same name passed the U.S. House of Representatives 232-198 on July 22, 2026."
+  text: "On Sept. 30, a U.S. Senate cloture vote, a vote to end debate on taking it up, failed 53-47. H.R. 11142 is a new bill, introduced Nov. 24 by Rep. Bryan Steil (R-WI)."
+  say: A bill with the same name passed the United States House 232 to 198 in July. On September 30, a United States Senate
+    cloture vote, a vote to end debate on taking it up, failed 53 to 47.
+- chip: What's next
+  big: Nov. 30
+  head: The House Rules Committee meets on H.R. 11142 at 4 p.m. Then the full House can vote.
+  text: Watch at live.house.gov. Should members of Congress be able to buy stocks?
+  say: The United States House Rules Committee meets on the bill November 30 at 4 p.m. Then the full House can vote. Should members
+    of Congress be able to buy stocks?
+caption: |-
+  Should members of Congress be able to buy stocks? The U.S. House of Representatives plans to take up H.R. 11142, the Stop Insider Trading Act, the week of Nov. 30.
+
+  Before: members report each stock trade after it happens, within 45 days.
+  After: members, spouses and dependent children couldn't buy stocks of public companies, and would post public notice 7 to 14 days before any sale.
+
+  Still allowed: widely held funds, small business stakes, trusts the family can't direct. Stocks owned now don't have to be sold.
+
+  A violation costs $2,000 or 10% of the trade, whichever is more, plus any gains. No CBO estimate is listed yet.
+
+  A bill with the same name passed the U.S. House 232-198 in July; a U.S. Senate cloture vote failed 53-47 on Sept. 30.
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [congress, stocktrading, ethics, votetherecord]
+notes: >-
+  News first: a dated event in the next three days (House Rules Committee meeting on H.R. 11142, Mon. Nov. 30, 4:00 p.m.,
+  rules.house.gov; docs.house.gov lists it "pursuant to a rule" for the week of Nov. 30, added Nov. 25). Takes the Nov. 27
+  6:00 a.m. Reel slot, the earliest Reel slot at least 3 hours away held by an evergreen post (Nov. 27 12:00 a.m. is less
+  than 3 hours away), and moves the prefiled Texas HB 1177 Reel (no design, so not a design trial) to Dec. 25 6:00 a.m.,
+  the first Reel slot after the last queued post (Dec. 25 3:00 a.m. carousel). No post or open pull request covers H.R.
+  11142. Records opened 2026-11-27: the floor schedule, the Rules page, the introduced text, congress.gov actions,
+  summary, cosponsors (none) and committees (House Administration), 5 U.S.C. 13105(l) from GPO's 2025 Code (paragraph (9)
+  names Members of Congress), and the actions on the earlier bill with the same name (H.R. 7008, not named on the slides:
+  one bill per post): House passage 232-198 (roll 280) July 22, 2026; cloture on the motion to proceed not invoked 53-47
+  (record vote 253) Sept. 30. Whether H.R. 11142's text matches the earlier bill's was not checked, so the post says only
+  "a bill with the same name". "The bill doesn't require selling stocks already owned" is our reading: the text bans
+  purchases (13152(a)) and requires notice before sales (13152(b)) and nothing else requires a sale except for stock
+  bought in violation (13153(a)(2)); please confirm. "Trusts the family can't direct, run by a non-relative" shortens
+  13151(2)(B)(iv). No statement for or against H.R. 11142 itself was found (the sponsor's July release is about the
+  earlier bill), so the post asks. No CBO estimate is listed on congress.gov. Steil's party and state as congress.gov
+  lists them. Shortened the source titles after the first preview clipped the sources footer. If the House votes
+  before this posts (unlikely; the Rules meeting is Nov. 30), the last slide needs the
+  tally.
