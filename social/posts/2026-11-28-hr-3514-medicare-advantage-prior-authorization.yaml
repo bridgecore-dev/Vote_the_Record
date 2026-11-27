@@ -52,7 +52,7 @@ slides:
   - [Public data, "Yearly prior authorization numbers (first by March 31, 2026)"]
   - [Electronic system, "Required from Jan. 1, 2027"]
 - chip: What H.R. 3514 adds
-  head: "From 2029, the law itself would require plans that use prior authorization to post or provide:"
+  head: "From 2029, the law itself would set these rules for plans that use prior authorization:"
   rows:
   - [Electronic, "Requests and answers online; fax and e-forms don't count"]
   - [Data, "Approvals, denials, appeals and hours to decide, item by item"]
