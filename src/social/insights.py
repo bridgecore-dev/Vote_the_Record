@@ -29,6 +29,9 @@ METRICS = {  # what the Graph API reports for each kind of media; "views" covers
 RATES = ["saved", "shares", "comments", "likes"]  # shown per 100 reached
 
 
+VOICED_FROM = "2026-11-15"  # reel.VOICED_FROM: every Reel slotted from this date has a voice
+
+
 def media_kind(post_kind: str) -> str:
     return {"reel": "reel", "clip": "reel", "story": "story"}.get(post_kind, "feed")
 
@@ -76,10 +79,14 @@ def rows(state: dict, posts: dict[str, dict], since: dt.datetime) -> list[dict]:
 
 
 def design(post: dict) -> dict:
-    """The post's design choices, with build.py's defaults (teal, light, serif, center; Reels: classic, no sfx)."""
+    """The post's design choices, with build.py's defaults (teal, light, serif, center; Reels: classic, no sfx, af_heart)."""
     d = {"palette": "teal", "mode": "light", "font": "serif", "position": "center", **(post.get("design") or {})}
     if post.get("kind") in ("reel", "clip"):
         d = {"motion": "classic", "sfx": False, **d}
+    # Only Reels reel.py required to be voiced, so silent ones don't skew the baseline; no name = its default.
+    if post.get("kind") == "reel" and str(post.get("publish_after") or "")[:10] >= VOICED_FROM:
+        v = post.get("voice")
+        d["voice"] = (v.get("name") if isinstance(v, dict) else None) or "af_heart"
     return {k: str(v) for k, v in d.items()}
 
 
@@ -129,8 +136,9 @@ def report(rs: list[dict], days: int, followers: int | None) -> str:
     for by, title in [("kind", "By format"), ("level", "By level"), ("topic", "By topic"), ("layout", "By layout"),
                       ("hour", "By time of day (Central)")]:
         out += [f"## {title}", "", *table(rs, by), ""]
-    out += ["## By design", "", "Each table compares one design choice; trial Reels are counted with the rest.", ""]
-    for by in ("palette", "mode", "font", "position", "motion", "sfx", "trial"):
+    out += ["## By design", "", "Each table compares one design choice; trial Reels are counted with the rest. "
+            f"The voice table counts only Reels slotted from {VOICED_FROM}, when every Reel became voiced.", ""]
+    for by in ("palette", "mode", "font", "position", "motion", "sfx", "voice", "trial"):
         if any(r.get(by) is not None for r in rs):
             out += [*table([r for r in rs if r.get(by) is not None], by), ""]
     reels = [r for r in rs if r.get("ig_reels_avg_watch_time") is not None]

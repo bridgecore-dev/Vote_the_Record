@@ -70,3 +70,32 @@ def test_design_tables_use_each_posts_design_with_defaults():
             for r, p in zip(ROWS, ("plum", "teal"))]
     text = insights.report(rows, 7, 3)
     assert "## By design" in text and "| palette |" in text and "| plum | 1 |" in text
+
+
+def test_voice_table_counts_only_reels_required_to_be_voiced():
+    new = {"kind": "reel", "publish_after": "2026-11-15T10:30:00-06:00"}
+    assert insights.design(new)["voice"] == "af_heart"
+    assert insights.design({**new, "voice": True})["voice"] == "af_heart"
+    assert insights.design({**new, "voice": {"speed": 1.1}})["voice"] == "af_heart"
+    assert insights.design({**new, "voice": {"name": "am_puck"}})["voice"] == "am_puck"
+    assert "voice" not in insights.design({"kind": "reel", "publish_after": "2026-11-14T12:00:00-06:00"})
+    assert "voice" not in insights.design({"kind": "reel"})  # no slot: reel.py didn't require a voice
+    assert "voice" not in insights.design({**new, "kind": "carousel"})
+    rows = [dict(ROWS[0], voice="af_heart"), dict(ROWS[0], stem="x", voice="am_puck"), dict(ROWS[1])]
+    table = insights.report(rows, 7, None).split("| voice |")[1].split("##")[0]
+    assert "| am_puck | 1 |" in table and "| af_heart | 1 |" in table and "| None |" not in table
+
+
+def test_voiced_from_matches_reel_py():
+    src = (Path(__file__).resolve().parents[1] / "src/social/reel.py").read_text(encoding="utf-8")
+    assert f'VOICED_FROM = "{insights.VOICED_FROM}"' in src
+
+
+def test_the_manifest_voice_matches_the_report():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("social_build", Path(__file__).resolve().parents[1] / "src/social/build.py")
+    build = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(build)
+    for post in ({"kind": "reel"}, {"kind": "reel", "voice": True}, {"kind": "reel", "voice": {"name": "am_fenrir"}}):
+        assert build.voice_name(post) == insights.design({**post, "publish_after": "2026-11-20"})["voice"]
+    assert build.voice_name({"kind": "carousel"}) is None

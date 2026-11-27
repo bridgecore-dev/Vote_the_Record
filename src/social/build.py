@@ -805,9 +805,18 @@ def build(path: Path) -> Path:
                 "publish_after": str(post["publish_after"]) if post.get("publish_after") else None,
                 "record_ids": post.get("record_ids") or [], "found_via": post.get("found_via"),
                 "context": post.get("context"), "caption_source": post.get("caption_source"), "video": post.get("video"),
-                "highlight": post.get("highlight"), "design": design_of(post), "trial": post.get("trial")}
+                "highlight": post.get("highlight"), "design": design_of(post), "trial": post.get("trial"),
+                "voice": voice_name(post)}
     (out / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
     return out
+
+
+def voice_name(post: dict) -> str | None:
+    """The Reel's voice for the design reports; a Reel that names none uses reel.py's default, af_heart."""
+    if post.get("kind") != "reel":
+        return None
+    v = post.get("voice")
+    return (v.get("name") if isinstance(v, dict) else None) or "af_heart"
 
 
 def main() -> None:
