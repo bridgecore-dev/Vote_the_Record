@@ -6,7 +6,7 @@ approval: review
 rule: Every bill filed Nov. 18, 2026 whose Texas Legislature Online caption is about the minimum wage (said on the last
   slide).
 record_ids: [tx/90R/HB 1241/filed]
-publish_after: '2026-11-28T00:00:00-06:00'
+publish_after: '2026-12-27T00:00:00-06:00'
 trial: auto
 sources:
 - title: TLO, bills filed Nov. 18, 2026
