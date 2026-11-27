@@ -1,0 +1,96 @@
+kind: carousel
+level: congress
+topic: Child safety
+approval: review
+record_ids: ["us/119/H.R. 3100/house-floor-schedule-2026-11-30"]
+publish_after: '2026-11-29T09:00:00-06:00'
+sources:
+- title: "House floor schedule, week of Nov. 30"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-30
+  retrieved: '2026-11-27'
+- title: "H.R. 3100 text as scheduled"
+  url: https://docs.house.gov/billsthisweek/20261130/h3100_rh_xml.pdf
+  retrieved: '2026-11-27'
+- title: "H. Rept. 119-873"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt873/html/CRPT-119hrpt873.htm
+  retrieved: '2026-11-27'
+- title: H.R. 3100 actions
+  url: https://api.congress.gov/v3/bill/119/hr/3100/actions
+  retrieved: '2026-11-27'
+- title: "House Practice, ch. 53"
+  url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-54.htm
+  retrieved: '2026-11-27'
+bills:
+- id: H.R. 3100
+  title: CHILD Act of 2026
+  does: Would let child, elder and disability care groups request FBI background checks on contractors and people they license or certify.
+  affects: Care providers and care placement services, and their contractors and the people they license or certify.
+  where: "Approved 23-0 by House Judiciary July 15, 2026. On the House schedule for the week of Nov. 30."
+  summary:
+    text: >-
+      This bill restores the authority for businesses and organizations that provide care or care placement services
+      for children, the elderly, or individuals with disabilities (care-providing businesses and organizations) to
+      request national criminal history background checks for contractors
+    title: Congressional Research Service summary of H.R. 3100
+    url: https://api.congress.gov/v3/bill/119/hr/3100/summaries
+    retrieved: '2026-11-27'
+slides:
+- kicker: "U.S. House · Week of Nov. 30"
+  big: H.R. 3100
+  head: A bill on the U.S. House of Representatives schedule would let care groups run FBI checks on their contractors again.
+  text: "Child care centers, elder care and disability services, under the National Child Protection Act of 1993."
+- chip: The law today
+  head: "Care groups can ask for a fingerprint-based FBI check on two kinds of people:"
+  rows:
+  - [Workers, "Employees and volunteers, current or hoped-for"]
+  - [Owners, "Owners and operators, current or hoped-for"]
+  - [Not covered, "Contractors, and people the group licenses or certifies"]
+  text: "Who counts is set by the law's definition of a \"covered individual\" (34 U.S.C. 40104(9))."
+- chip: How it got this way
+  big: '2018'
+  head: "Contractors were covered until 2018, says the House Judiciary Committee's report."
+  quote: {label: "H. Rept. 119-873", text: "the Child Protection Improvements Act of 2018 (CPIA) inadvertently removed the provision that covered contractors"}
+- chip: What H.R. 3100 adds
+  head: "Three more kinds of people a care group could have checked:"
+  rows:
+  - [Contractors, "People who contract with the care group"]
+  - [Their staff, "Employees and volunteers of a company under contract"]
+  - [Licensed, "People the group licenses or certifies to give care"]
+  text: "As today, a check needs the person's fingerprints and a signed statement, and a person found disqualified can appeal."
+- chip: "Who it touches, what it costs"
+  head: Care groups could check more people; more people could be asked for fingerprints.
+  rows:
+  - [Care groups, "Can request checks on contractors and licensees"]
+  - [Contractors, "May be asked for fingerprints and a signed statement"]
+  - [Cost, "The report says no CBO estimate had arrived"]
+- chip: Where it stands
+  head: "Sponsor: Rep. Russell Fry (R-SC), with 4 cosponsors. The Judiciary Committee approved it 23-0 on July 15, 2026."
+  text: "It's listed under suspension of the rules, a fast track that needs two-thirds of those voting. Watch at live.house.gov. Should contractors who work with kids face the same checks as employees?"
+caption: |-
+  Child care centers, elder care and disability services can ask the FBI to check the criminal history of the people who'd work with those they serve. H.R. 3100, the CHILD Act, is on the U.S. House of Representatives schedule the week of Nov. 30.
+
+  Before: checks can be requested for employees, volunteers, owners and operators. Contractors aren't on the list; the House Judiciary Committee's report says a 2018 law "inadvertently removed" them.
+
+  After: care groups could also request checks on contractors, the staff and volunteers of companies they contract with, and people they license or certify to give care.
+
+  Each check still needs the person's fingerprints and a signed statement, and a person found disqualified can appeal. The committee's report says no CBO estimate had arrived.
+
+  Should contractors who work with kids face the same checks as employees?
+hashtags: [congress, childsafety, backgroundchecks, votetherecord]
+notes: >-
+  News first: a dated event in the next three days (the U.S. House's week of Nov. 30 starts Monday; docs.house.gov lists
+  H.R. 3100 under suspension "as amended"). Post slots before it hold news (this week's signings and House-schedule
+  posts) or the Nov. 28 3:00 p.m. hemp post, which is tied to Dec. 11 and can't move past it, so nothing is bumped; it
+  takes Nov. 29 9:00 a.m., the first free post slot (after the 6:00 a.m. S. 4850 Reel in its own pull request). No post
+  or open pull request covers H.R. 3100. Records opened 2026-11-27: the floor list, the scheduled text (H3100_RH, the
+  reported text; sha256 8be854abfa27b7b9f92e519eff08daadce8cb02dff2246c5a2e6456d8eb4f0f3; it matches the amendment printed
+  in the report), congress.gov actions (ordered reported 23-0 July 15, 2026; reported Nov. 5, H. Rept. 119-873), sponsor
+  and cosponsors (Moskowitz D-FL, Lee R-FL, Schmidt R-KS, Nehls R-TX; none withdrawn), the CRS summary (reported
+  version), H. Rept. 119-873 (background, the 2018 quote, "Changes in Existing Law" showing 40104(9)(B)(i)-(ii) today, the
+  23-0 committee vote, and "requested but not received" a CBO estimate), and House Practice ch. 53 (two-thirds). The
+  fingerprints/signed statement and appeal lines are the report's description of 34 U.S.C. 40102 (the statute itself
+  wasn't opened). "Care groups" shortens "qualified entity" (a business or organization that provides care or care
+  placement services, including one that licenses or certifies others). The summary quote stops mid-sentence at the
+  300-character limit. No statement for or against was found and the committee vote had no Nays, so no case-against
+  slide; the post asks. Party and state as congress.gov lists them. If the House votes before this posts, the last slide
+  needs the tally.
