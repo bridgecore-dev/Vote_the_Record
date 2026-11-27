@@ -6,22 +6,22 @@ record_ids: ["us/119/H.R. 11142/house-floor-schedule-2026-11-30"]
 publish_after: '2026-11-27T06:00:00-06:00'
 trial: auto
 sources:
-- title: "U.S. House, Bills to be Considered on the House Floor, Week of Nov. 30, 2026 (docs.house.gov, last updated Nov. 25, 2026)"
+- title: "House floor schedule, week of Nov. 30"
   url: https://docs.house.gov/floor/Default.aspx?date=2026-11-30
   retrieved: '2026-11-27'
-- title: "House Committee on Rules, H.R. 11142 (meeting Nov. 30, 2026, 4:00 p.m.)"
+- title: "House Rules Committee, H.R. 11142"
   url: https://rules.house.gov/bill/119/hr-11142
   retrieved: '2026-11-27'
-- title: "H.R. 11142, Stop Insider Trading Act, introduced text (congress.gov)"
+- title: "H.R. 11142 text"
   url: https://www.congress.gov/119/bills/hr11142/BILLS-119hr11142ih.htm
   retrieved: '2026-11-27'
-- title: Congress.gov, H.R. 11142 actions and cosponsors
+- title: H.R. 11142 actions
   url: https://api.congress.gov/v3/bill/119/hr/11142/actions
   retrieved: '2026-11-27'
-- title: "5 U.S.C. 13105, periodic transaction reports (GPO)"
+- title: "5 U.S.C. 13105"
   url: https://www.govinfo.gov/content/pkg/USCODE-2025-title5/html/USCODE-2025-title5-partIV-chap131-subchapI-sec13105.htm
   retrieved: '2026-11-27'
-- title: "Congress.gov, actions on the earlier Stop Insider Trading Act (House passage July 22, 2026; Senate cloture Sept. 30, 2026)"
+- title: "Earlier Stop Insider Trading Act, actions"
   url: https://api.congress.gov/v3/bill/119/hr/7008/actions
   retrieved: '2026-11-27'
 bills:
@@ -118,5 +118,6 @@ notes: >-
   bought in violation (13153(a)(2)); please confirm. "Trusts the family can't direct, run by a non-relative" shortens
   13151(2)(B)(iv). No statement for or against H.R. 11142 itself was found (the sponsor's July release is about the
   earlier bill), so the post asks. No CBO estimate is listed on congress.gov. Steil's party and state as congress.gov
-  lists them. If the House votes before this posts (unlikely; the Rules meeting is Nov. 30), the last slide needs the
+  lists them. Shortened the source titles after the first preview clipped the sources footer. If the House votes
+  before this posts (unlikely; the Rules meeting is Nov. 30), the last slide needs the
   tally.
