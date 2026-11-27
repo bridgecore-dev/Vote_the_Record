@@ -1,0 +1,103 @@
+kind: carousel
+level: state
+place: Tennessee
+topic: Health
+approval: review
+rule: Every bill on the Tennessee General Assembly's 2027-2028 bill index as of Nov. 26, 2026 (HB 1-20, SB 1-8)
+  whose caption names TennCare. HB 18 is the only one (said on the last slide).
+record_ids: [tn/115/HB 18/filed]
+publish_after: '2026-12-02T09:00:00-06:00'
+sources:
+- title: Tennessee General Assembly, HB 18 bill information (115th General Assembly)
+  url: https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB0018&GA=115
+  retrieved: '2026-11-27'
+- title: Tennessee General Assembly, bill index, 115th General Assembly (2027-2028)
+  url: https://wapp.capitol.tn.gov/apps/Indexes/BillsByIndex
+  retrieved: '2026-11-27'
+- title: U.S. Department of Health and Human Services (ASPE), 2026 Poverty Guidelines
+  url: https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines
+  retrieved: '2026-11-27'
+bills:
+- id: HB 18
+  does: Would have TennCare seek federal approval for short-term coverage, up to 12 months at a time, for people who don't qualify now.
+  affects: Tennesseans at or under 138% of the federal poverty level who can't get TennCare (or, under 21, CoverKids).
+  where: Filed Nov. 23, 2026 by Rep. Baum for the 2027 session; no other action yet.
+  summary:
+    text: >-
+      directs the bureau to establish a temporary TennCare benefits program to provide medical assistance on a
+      temporary basis to certain individuals who do not qualify for enrollment in TennCare, CoverKids, or a
+      successor program
+    title: Tennessee General Assembly, HB 18 caption (as introduced)
+    url: https://www.capitol.tn.gov/Bills/115/Bill/HB0018.pdf
+    retrieved: '2026-11-27'
+slides:
+- kicker: 2027 Tennessee session · Filed Nov. 23, 2026
+  big: 12 months
+  head: A Tennessee House of Representatives bill would offer short-term TennCare coverage to people who can't get
+    TennCare now.
+  text: Up to 12 months at a time, for people at or under 138% of the federal poverty level.
+- chip: Who could get it
+  head: The bill sets two groups, both at or under 138% of the federal poverty level and not eligible now.
+  rows:
+  - [Under 21, "Not eligible for TennCare or CoverKids"]
+  - [21 and older, "Not eligible for TennCare"]
+  text: "In 2026 dollars, 138% of the poverty guideline is about $22,000 a year for one person, $45,500 for a family of four (our math from HHS's 2026 guidelines)."
+- chip: How long
+  head: Coverage would have time limits.
+  rows:
+  - [12 months, "At most, in any 24 months"]
+  - [60 months, "Total before age 21"]
+  - [60 months, "Total for the rest of your life after 21"]
+  text: If someone becomes eligible for TennCare or CoverKids, the temporary coverage pauses.
+- chip: Before → after
+  head: Today, people who don't qualify for TennCare or CoverKids get no TennCare coverage. HB 18 would add a
+    time-limited option.
+  quote:
+    label: HB 18 as filed, Section 1(f)
+    text: The temporary TennCare benefits program does not constitute an entitlement to coverage for eligible individuals
+  text: So coverage would depend on the money the Legislature sets aside each year.
+- chip: Who pays
+  head: The bill says 90% federal money, 10% state money.
+  rows:
+  - [Federal OK first, "TennCare must ask the federal government for a waiver by Dec. 31, 2027"]
+  - [Then 6 months, "Enrollment starts six months after federal approval"]
+  - [Block grant, "The waiver must leave TennCare's block grant agreement unchanged"]
+  text: No fiscal note is posted yet, so there is no official cost estimate.
+- chip: The case the bill makes
+  head: The bill's own preamble gives its reason.
+  quote:
+    label: HB 18 as filed, preamble
+    text: such assistance should be provided in a manner that does not foster long-term, chronic dependency on government assistance
+  text: No statement for or against has been filed yet.
+- chip: Your view
+  head: Should Tennessee offer time-limited TennCare coverage to people who don't qualify now?
+  text: "How we picked: every bill on the 2027-2028 index as of Nov. 26 whose caption names TennCare. HB 18 was the only one."
+caption: |-
+  Today, a Tennessean who doesn't qualify for TennCare (or, under 21, CoverKids) gets no TennCare coverage.
+
+  HB 18, filed Nov. 23 in the Tennessee House of Representatives for the 2027 session, would create a "temporary TennCare benefits program" for people at or under 138% of the federal poverty level who can't get TennCare now. Coverage would last at most 12 months in any 24, with 60 months in total before age 21 and 60 more after.
+
+  TennCare would first have to ask the federal government for a waiver, by Dec. 31, 2027. Enrollment would start six months after approval. The bill says the program would be paid 90% with federal money and 10% with state money, and that it "does not constitute an entitlement": it depends on what the Legislature funds each year. No fiscal note is posted yet.
+
+  The bill's preamble says help should be given in a way that "does not foster long-term, chronic dependency on government assistance."
+
+  Should Tennessee offer time-limited coverage like this?
+hashtags: [tnleg, tennessee, tenncare, healthcare, votetherecord]
+notes: >-
+  New: filed Nov. 23, 2026 (TN bill page: "Filed for introduction 11/23/2026", no other action; "No fiscal note
+  for this bill"; "Summary not complete"; sponsor "*Baum"). First Tennessee post. Rule: the official 2027-2028
+  index lists HB 1-20 and SB 1-8 (plus HJR 1-3); captions were scanned through Open States (a tip, mirroring the
+  official captions) and HB 18 is the only one naming TennCare. Records opened 2026-11-27: the bill page, the bill
+  index, the introduced PDF (capitol.tn.gov/Bills/115/Bill/HB0018.pdf, 4 pages, sha256
+  9fb07b8b4f4c4d2f34a612495169b04092942d1ca830623c2071021fd41f84f9), and ASPE's 2026 poverty guidelines ($15,960
+  for one, $33,000 for four; x1.38 = $22,025 and $45,540, rounded on the slide and labeled our math; the program
+  wouldn't start before 2028, when guidelines will differ). "Today ... no TennCare coverage" restates the bill's
+  definition ("otherwise ineligible on the basis of income"); please confirm the wording. Section 2 also says TCA
+  71-5-126(a) "does not apply to actions by the governor that are necessary to establish" the program; I could not
+  open 71-5-126 from an official source (the Secretary of State's acts site returned 403, not retried; the code is
+  hosted by LexisNexis), so no slide says what it is. The 2014 TennCare Fiscal Responsibility Act (Pub. Ch. 662,
+  HB 937) bars the governor from expanding optional enrollment without a joint resolution, but I couldn't confirm
+  it is 71-5-126, so it is left out. The 60-month resets at 21 (sec. 1(c)(3)(D)). Case for is the bill's preamble;
+  no statement against exists yet. No party shown, the same as the Texas filing posts. Evergreen (a prefiled bill):
+  Dec. 2 9:00 a.m. is the first free post slot that keeps the Reel/post turn on its own (Nov. 29 6:00 and 9:00 a.m.
+  only work filled together). Tennessee has no Highlight; none needed (not a story).
