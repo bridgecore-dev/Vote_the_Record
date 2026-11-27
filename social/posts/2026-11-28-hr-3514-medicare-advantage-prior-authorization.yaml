@@ -1,0 +1,102 @@
+kind: carousel
+level: congress
+topic: Health care
+approval: review
+record_ids: ["us/119/H.R. 3514/house-floor-schedule-2026-11-30"]
+publish_after: '2026-11-28T09:00:00-06:00'
+rule: >-
+  From the U.S. House suspension list for the week of Nov. 30, 2026, every bill that changes Medicare. This week that
+  is H.R. 3514 alone.
+sources:
+- title: "House floor schedule, week of Nov. 30"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-30
+  retrieved: '2026-11-27'
+- title: "H.R. 3514 text as scheduled"
+  url: https://docs.house.gov/billsthisweek/20261130/H3514_SUS_xml.pdf
+  retrieved: '2026-11-27'
+- title: H.R. 3514 actions
+  url: https://api.congress.gov/v3/bill/119/hr/3514/actions
+  retrieved: '2026-11-27'
+- title: "42 U.S.C. 1395w-22"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title42/html/USCODE-2024-title42-chap7-subchapXVIII-partC-sec1395w-22.htm
+  retrieved: '2026-11-27'
+- title: "CMS fact sheet, CMS-0057-F"
+  url: https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f
+  retrieved: '2026-11-27'
+- title: "House Practice, ch. 53"
+  url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-54.htm
+  retrieved: '2026-11-27'
+bills:
+- id: H.R. 3514
+  title: Improving Seniors' Timely Access to Care Act
+  does: Would make Medicare Advantage plans that use prior authorization run it electronically and post yearly approval and denial data.
+  affects: Medicare Advantage plans, their enrollees, and the doctors and providers who ask them for approval.
+  where: "Approved 42-0 by House Ways and Means July 15, 2026. On the House schedule for the week of Nov. 30."
+  summary:
+    text: >-
+      This bill establishes several requirements and standards relating to prior authorization processes under
+      Medicare Advantage (MA) plans.
+    title: Congressional Research Service summary of H.R. 3514
+    url: https://api.congress.gov/v3/bill/119/hr/3514/summaries
+    retrieved: '2026-11-27'
+slides:
+- kicker: "U.S. House · Week of Nov. 30"
+  big: H.R. 3514
+  head: A bill on the U.S. House of Representatives schedule sets rules for how Medicare Advantage plans approve care in advance.
+  text: "Prior authorization: the plan's OK, needed before it pays for some care."
+- chip: The law today
+  head: "Federal law says only that plans decide \"on a timely basis.\" A 2024 CMS rule adds the details."
+  quote: {label: 42 U.S.C. 1395w-22(g)(1)(A), text: "such procedures shall provide for such determination to be made on a timely basis"}
+  rows:
+  - [Decision time, "72 hours if urgent, 7 days if not (from Jan. 1, 2026)"]
+  - [Public data, "Yearly prior authorization numbers (first by March 31, 2026)"]
+  - [Electronic system, "Required from Jan. 1, 2027"]
+- chip: What H.R. 3514 adds
+  head: "From 2029, the law itself would set these rules for plans that use prior authorization:"
+  rows:
+  - [Electronic, "Requests and answers online; fax and e-forms don't count"]
+  - [Data, "Approvals, denials, appeals and hours to decide, item by item"]
+  - [Software, "How many decisions used AI or other tools, and which"]
+  - [Criteria, "Shared with doctors, and with enrollees who ask"]
+  - [Deadlines, "CMS may set decision times of 7 days or fewer"]
+- chip: "Who it touches, what it costs"
+  head: Medicare posts each plan's numbers; the plans build the systems and do the reporting.
+  rows:
+  - [Enrollees, "Can look up how often their plan approves or denies"]
+  - [Doctors, "Electronic requests and the plan's criteria up front"]
+  - [Plans, "New systems and yearly reports"]
+  - [Cost, "Congress.gov lists no CBO estimate for it yet"]
+- chip: Where it stands
+  head: "Sponsor: Rep. Mike Kelly (R-PA), with 312 cosponsors. The Ways and Means Committee approved it 42-0."
+  text: "It's listed under suspension of the rules, a fast track that needs two-thirds of those voting. Watch at live.house.gov. Should plans have to post how often they approve or deny care?"
+caption: |-
+  Some Medicare Advantage plans must OK certain care before they pay for it: prior authorization. H.R. 3514 is on the U.S. House of Representatives schedule the week of Nov. 30.
+
+  Before: federal law says plans must decide "on a timely basis." A 2024 CMS rule sets 72 hours for urgent requests and 7 days for others, plus yearly public numbers.
+
+  After: from 2029, the law itself would require plans that use prior authorization to take requests electronically, report approvals, denials, appeals and decision times item by item, say how often AI or other software was used, and share their criteria with doctors and enrollees who ask.
+
+  Plans would build the systems and do the reporting. Congress.gov lists no CBO estimate yet.
+
+  Should plans have to post how often they approve or deny care?
+hashtags: [medicare, medicareadvantage, congress, votetherecord]
+notes: >-
+  Picked by the stated rule: the only bill on the Nov. 30 suspension list that changes Medicare (S. 1157, the lung cancer
+  review, doesn't). Records opened 2026-11-27: the floor list, the suspension text (H3514_SUS, "as amended", dated Nov.
+  19, 2026; sha256 fd9155724e950fb00bff397ea14706a1043572fd2989c5886c520e013d10eb62), congress.gov actions (Ways and
+  Means ordered reported 42-0 July 15, 2026; Energy and Commerce hasn't acted), cosponsors (312, none withdrawn), the CRS
+  summary (of the introduced text; the slides follow the suspension text), 42 U.S.C. 1395w-22 from GPO's 2024 Code (no
+  subsection (o) yet; (g)(1)(A) "on a timely basis"), and CMS's Jan. 17, 2024 fact sheet for CMS-0057-F (72 hours/7 days
+  and metrics from 2026, the Prior Authorization API from Jan. 1, 2027; MA organizations are "impacted payers"). The
+  bill applies to "a plan year beginning on or after January 1, 2029"; "item by item" is subclauses (II) and (IV);
+  "Medicare posts each plan's numbers" is (3)(D) ("on an individual plan level"); "7 days or fewer" is sec. 2(b), "if
+  determined practicable by the Secretary". "Doctors" shortens "providers". Part D drugs are excluded ((o)(5)); not on
+  the slides. The CMS rule's details come from the fact sheet, not the Federal Register text. No CBO estimate is listed
+  on congress.gov (cbo.gov wasn't tried); no statement for or against was opened. Sponsor's party and state as
+  congress.gov lists them. News first: a dated event in the next three days (the House's week of Nov. 30 begins
+  Monday). Takes the Nov. 28 9:00 a.m. post slot. Nov. 27's post slots hold Nov. 20 signings, not yet more than a week
+  old, and Nov. 28 3:00 a.m. is the North Carolina SB 177 post, whose 10-day sign-or-veto window ends this week, so it's
+  treated as news. This pull request moves the New York Chapter 379 lobbying post (signed Nov. 20, more than a week
+  ago by Nov. 28) to Dec. 26 3:00 a.m., the first post slot after the last queued post (Dec. 25 3:00 a.m.) that can't
+  put two posts in a row. Shortened slide 4 and the source titles after the first preview clipped the sources
+  footer. If the House votes before this posts, the last slide needs the tally.
