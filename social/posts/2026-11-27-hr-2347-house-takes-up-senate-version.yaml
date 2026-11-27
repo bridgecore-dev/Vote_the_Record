@@ -1,0 +1,132 @@
+kind: reel
+level: congress
+topic: Energy and permits
+approval: review
+record_ids: ["us/119/H.R. 2347/house-floor-schedule-2026-11-30"]
+publish_after: '2026-11-27T18:00:00-06:00'
+trial: auto
+sources:
+- title: "House floor schedule, week of Nov. 30"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-30
+  retrieved: '2026-11-27'
+- title: "House Rules Committee, Senate amendment to H.R. 2347"
+  url: https://rules.house.gov/bill/119/hr-2347
+  retrieved: '2026-11-27'
+- title: "H.R. 2347, Senate amendment (GPO)"
+  url: https://www.govinfo.gov/content/pkg/BILLS-119hr2347eas/xml/BILLS-119hr2347eas.xml
+  retrieved: '2026-11-27'
+- title: "H.R. 2347 bill status (GPO)"
+  url: https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr2347.xml
+  retrieved: '2026-11-27'
+- title: "U.S. Senate, Vote 270 (2026)"
+  url: https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00270.xml
+  retrieved: '2026-11-27'
+- title: "How Our Laws Are Made, XV"
+  url: https://www.govinfo.gov/content/pkg/CDOC-110hdoc49/html/CDOC-110hdoc49.htm
+  retrieved: '2026-11-27'
+- title: "Capito floor remarks, Nov. 9"
+  url: https://www.epw.senate.gov/press/rep/senate-advances-capito-s-bipartisan-american-affordability-and-jobs-act/
+  retrieved: '2026-11-27'
+- title: "Alsobrooks statement, Nov. 9"
+  url: https://www.alsobrooks.senate.gov/news/press-releases/alsobrooks-votes-no-on-bipartisan-american-affordability-and-jobs-act/
+  retrieved: '2026-11-27'
+bills:
+- id: H.R. 2347
+  title: Bipartisan American Affordability and Jobs Act of 2026 (U.S. Senate amendment)
+  does: "Rewrites federal environmental reviews and permits, power line planning and energy leasing; keeps the House bill's tax change."
+  affects: "Builders of energy and other projects, agencies that review them, people who sue over them, and data centers."
+  where: "Passed the U.S. Senate as amended, 62-33, Nov. 19. The U.S. House Rules Committee meets on it Nov. 30."
+  summary:
+    text: "This Act may be cited as the \"Bipartisan American Affordability and Jobs Act of 2026\"."
+    title: "H.R. 2347, Senate amendment, sec. 1(a) (GPO)"
+    url: https://www.govinfo.gov/content/pkg/BILLS-119hr2347eas/xml/BILLS-119hr2347eas.xml
+    retrieved: '2026-11-27'
+  say: H.R. 2347 now rewrites federal environmental reviews and permits, power line planning and energy leasing. It keeps
+    the United States House bill's tax change. It passed the United States Senate 62 to 33 on November 19.
+slides:
+- kicker: "U.S. House · Week of Nov. 30"
+  big: H.R. 2347
+  head: The U.S. House of Representatives takes up the U.S. Senate's version of H.R. 2347, a bill on federal permits.
+  say: Next week, the United States House takes up the United States Senate's version of H.R. 2347, a bill on federal permits.
+- chip: Two versions
+  head: "The two chambers passed different texts of H.R. 2347."
+  rows:
+  - [U.S. House version, "One change: a tax rule for damages from sexual abuse cases"]
+  - [U.S. Senate version, "Rewrites federal permits and reviews, and keeps that tax change as its last part"]
+  by: "Bill status of H.R. 2347; Senate amendment, Division C"
+  say: The United States House passed a one-change tax bill. The United States Senate replaced it with a rewrite of federal
+    permits and reviews, and kept that tax change as its last part.
+- chip: Before → after
+  head: "Four changes in the U.S. Senate's text, one from each of four areas"
+  rows:
+  - [Water permits, "State discharge permits: up to 5 years → up to 10"]
+  - [Species reviews, "90 days to finish → 60"]
+  - [Lawsuits, "New: challenges to a review filed within 150 days"]
+  - [Data centers, "Policy: they pay the full cost of power lines built for them, not other customers"]
+  by: "Senate amendment, secs. 1203, 1302, 1110, 2107"
+  say: Four changes. Water discharge permits could last 10 years, not 5. Species reviews, 60 days, not 90. Lawsuits over
+    a review, within 150 days. And data centers pay the full cost of power lines built for them.
+- chip: The House's choices
+  head: "The U.S. House of Representatives can agree to the U.S. Senate's text, or disagree and ask for a conference."
+  quote: {label: "How Our Laws Are Made, U.S. House Parliamentarian", text: "the bill is ready to be enrolled for presentation to the President", key: "presentation to the President"}
+  text: "Agree: the bill goes to the President. A conference: members of both chambers work out one text."
+  say: The United States House has choices. If it agrees to the United States Senate's text, the bill goes to the President. If it disagrees,
+    it can ask for a conference, where members of both chambers work out one text.
+- chip: The case for
+  head: "The U.S. Senate text's sponsor, who voted Yea, says reviews hold up projects."
+  quote: {label: "Sen. Capito (R-WV), floor remarks, Nov. 9, 2026", text: "The environmental permitting and review processes should be tools for informed decision-making, not reasons that decisions can’t be made.", key: "tools for informed decision-making"}
+  say: The case for. Senator Capito, who voted Yea, said permitting and review processes should be tools for informed decision-making,
+    not reasons that decisions can't be made.
+- chip: The case against
+  head: "A senator who voted Nay says it costs clean water and community input."
+  quote: {label: "Sen. Alsobrooks (D-MD), statement, Nov. 9, 2026", text: "But we should not do it at the expense of clean water and community engagement.", key: "clean water"}
+  by: "Picked: the first Nay voter, alphabetically, with a published statement on the bill."
+  say: The case against. Senator Alsobrooks, who voted Nay, said she supports smart permitting reform, but not at the
+    expense of clean water and community engagement.
+- chip: What's next
+  big: Nov. 30
+  head: The U.S. House Rules Committee meets on it at 4 p.m. Eastern. Then the full House can vote.
+  text: "Watch at live.house.gov. CBO's preliminary cost estimate: cbo.gov/publication/62908. Which side convinces you?"
+  say: The United States House Rules Committee meets on it November 30 at 4 p.m. Eastern. Then the full House can vote. Which
+    side convinces you?
+caption: |-
+  The U.S. House of Representatives takes up the U.S. Senate's version of H.R. 2347 the week of Nov. 30. Its Rules Committee meets on it Monday, 4 p.m. Eastern.
+
+  The U.S. Senate replaced the House's one-change tax bill with a rewrite of federal permits and reviews, kept the tax change, and passed it 62-33 on Nov. 19.
+
+  Before → after: water permits up to 5 years → 10; species reviews 90 days → 60; lawsuits over a review within 150 days; data centers pay the full cost of power lines built for them.
+
+  If the House agrees to the Senate text, it goes to the President. If not, a conference can settle one text.
+
+  For: Sen. Capito (R-WV). Against: Sen. Alsobrooks (D-MD). Which side convinces you?
+
+  Voice: computer-generated (Kokoro text-to-speech).
+hashtags: [ushouse, permitting, energy, votetherecord]
+rule: "Before → after: one change from each of four areas the U.S. Senate's text covers (water permits, wildlife reviews, court challenges, power lines), the same rows as the earlier H.R. 2347 posts. For and against: the U.S. Senate text's sponsor and the first Nay voter in the U.S. Senate's alphabetical list who published a statement on the bill."
+notes: >-
+  News first: a dated event in the next three days (House Rules Committee meeting on the Senate amendment to H.R. 2347,
+  Mon. Nov. 30, 4:00 p.m. ET, announcement created Nov. 23 at rules.house.gov/media/announcement/meeting-announcement-november-30-2026, also shown on the bill's Rules page, which is the cited source; docs.house.gov lists it "pursuant to a rule" for the week of
+  Nov. 30, added Nov. 25). Bill status (GPO, updated Nov. 25) lists "Message on Senate action sent to the House" on Nov. 24
+  and no House action since. Takes the Nov. 27 6:00 p.m. Reel slot, the earliest Reel slot at least 3 hours away (12:00
+  p.m. is under 3 hours away), held by the prefiled Texas HB 1184 Reel (filed Nov. 16, no design, so not a design
+  trial). This pull request moves HB 1184 to Dec. 26 6:00 a.m., the first Reel slot after the last queued post (Dec. 26
+  3:00 a.m. carousel). Earlier H.R. 2347 posts cover Senate votes 264, 267 and 270 and SA 6883; this one covers only the
+  House floor schedule. Their open CHECK (did managers' amendment 7030 change the four rows?) is now answered: the
+  engrossed Senate amendment on GovInfo (BILLS-119hr2347eas, XML sha256
+  2c8fbb620f6db94517a8dd41abe0bd7874889afe94b176b9b70cff2b03748007; PDF f7419bfc8b526e7f65f8c21a3f8d9a2b0193813cda1b1a635ae779b55afc519c)
+  still has sec. 1203 "striking five years and inserting 10 years", sec. 1302 90 → 60 days, sec. 1110's 150-day limit
+  ("unless a shorter deadline is specified under Federal law"), and sec. 2107(a)(1)(A)'s finding that "computational
+  load owners and computational load operators bear the full cost ... so that such costs are not borne by other
+  customers, including residential customers". "Data centers" is our plain word for "computational load site" (buildings
+  that "primarily contain information technology infrastructure"), and the row is a finding of policy, so it says
+  "Policy". Division C is the House bill's tax change (sec. 3001). The House's choices are from How Our Laws Are Made
+  (House Parliamentarian, H. Doc. 110-49), part XV: agree to the Senate amendments ("the bill is ready to be enrolled
+  for presentation to the President"), or disagree and request a conference; a rule from the Rules Committee is one way
+  to do it. It doesn't list amending the Senate amendment, so the slide doesn't either; which motion the rule will make
+  in order isn't known until Nov. 30. Vote 270 XML re-opened (62-33-5 absent, "1/2"; Capito Yea, Alsobrooks Nay; its
+  sha256 now 3b61b1e4514833caf6926b5cc43356d6d8cbc5c0df0d1ce9013211620b1bd711, and it prints 09:30 PM). Capito's page
+  moved to epw.senate.gov/press/rep/...; quote re-opened. Alsobrooks' Nov. 9 statement is about her vote on the
+  Senate's own bill number for the same act (not named: one bill per post); same quote the Nov. 26 post used. cbo.gov
+  returned 403, not retried; the estimate is linked, not quoted, and it's of SA 6883, so the caption says "Senate
+  substitute". If the House votes before this posts (it can't: the Rules meeting is Nov. 30), the last slide needs the
+  tally.

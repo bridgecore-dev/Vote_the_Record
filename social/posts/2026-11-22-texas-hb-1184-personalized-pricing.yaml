@@ -6,7 +6,7 @@ approval: review
 rule: Every bill filed Nov. 16, 2026 whose Texas Legislature Online caption is about how retailers set prices (said on
   the last slide).
 record_ids: [tx/90R/HB 1184/filed]
-publish_after: '2026-11-27T18:00:00-06:00'
+publish_after: '2026-12-26T06:00:00-06:00'
 trial: auto
 sources:
 - title: TLO, bills filed Nov. 16, 2026
