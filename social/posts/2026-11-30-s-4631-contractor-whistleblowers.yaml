@@ -8,10 +8,10 @@ sources:
 - title: "House floor schedule, week of Nov. 30"
   url: https://docs.house.gov/floor/Default.aspx?date=2026-11-30
   retrieved: '2026-11-28'
-- title: "S. 4631, House amendment as scheduled"
+- title: "S. 4631 House text"
   url: https://docs.house.gov/billsthisweek/20261130/S4631_SUS_xml.pdf
   retrieved: '2026-11-28'
-- title: "41 U.S.C. 4712 (U.S. Code, 2024 edition)"
+- title: "41 U.S.C. 4712"
   url: https://www.govinfo.gov/content/pkg/USCODE-2024-title41/html/USCODE-2024-title41-subtitleI-divsnC-chap47-sec4712.htm
   retrieved: '2026-11-28'
 - title: S. 4631 actions
@@ -39,13 +39,13 @@ slides:
   head: A bill on the U.S. House of Representatives schedule would protect contractor workers who refuse an order to break the law.
   text: "It covers people who work for companies, groups and governments paid through federal contracts and grants."
 - chip: The law today
-  head: "A contractor or grantee can't fire, demote or punish a worker for reporting what the worker reasonably believes is:"
+  head: "A contractor or grantee can't fire, demote or punish a worker for reporting what they reasonably believe is:"
   rows:
   - [Waste, "Gross mismanagement or gross waste of federal money"]
   - [Abuse, "Abuse of authority on a contract or grant"]
   - [Danger, "A substantial and specific danger to health or safety"]
   - [Law, "A violation of a law tied to a contract or grant"]
-  text: "Reports to Congress, an inspector general and others count (41 U.S.C. 4712; 10 U.S.C. 4701 for Defense and NASA)."
+  text: "Reports to Congress, an inspector general and others count (41 U.S.C. 4712)."
 - chip: What S. 4631 adds
   head: "Four changes for contractor and grantee workers:"
   rows:
@@ -64,7 +64,7 @@ slides:
   - [Cost, "Congress.gov lists no CBO estimate"]
 - chip: Where it stands
   head: "Sponsor: Sen. Gary Peters (D-MI), with Sen. Chuck Grassley (R-IA). The U.S. Senate passed it by unanimous consent May 21, 2026."
-  text: "The House lists it under suspension of the rules, a fast track that needs two-thirds, with its own changes, so the Senate would vote again. Should refusing an unlawful order be protected like reporting one?"
+  text: "The U.S. House lists it under suspension of the rules, a fast track that needs two-thirds, with its own changes, so the Senate would vote again. Should refusing an unlawful order be protected like reporting one?"
 caption: |-
   If you work for a company, nonprofit or local government paid through a federal contract or grant, the law protects you from being fired for reporting waste, abuse or a broken contract law. S. 4631, the Expanding Whistleblower Protections for Contractors Act, is on the U.S. House of Representatives schedule the week of Nov. 30.
 
