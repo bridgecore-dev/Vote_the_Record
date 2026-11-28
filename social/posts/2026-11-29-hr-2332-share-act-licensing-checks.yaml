@@ -1,0 +1,102 @@
+kind: carousel
+level: congress
+topic: Jobs and licensing
+approval: review
+record_ids: ["us/119/H.R. 2332/house-floor-schedule-2026-11-30"]
+publish_after: '2026-11-29T03:00:00-06:00'
+sources:
+- title: "House floor schedule, week of Nov. 30"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-30
+  retrieved: '2026-11-28'
+- title: "H.R. 2332 text as scheduled"
+  url: https://docs.house.gov/billsthisweek/20261130/h2332EW_rh_xml.pdf
+  retrieved: '2026-11-28'
+- title: "H. Rept. 119-837, Part 1"
+  url: https://www.govinfo.gov/content/pkg/CRPT-119hrpt837/html/CRPT-119hrpt837-pt1.htm
+  retrieved: '2026-11-28'
+- title: H.R. 2332 actions
+  url: https://api.congress.gov/v3/bill/119/hr/2332/actions
+  retrieved: '2026-11-28'
+- title: "House Practice, ch. 53"
+  url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-54.htm
+  retrieved: '2026-11-28'
+bills:
+- id: H.R. 2332
+  title: SHARE Act of 2026
+  does: Would require the FBI to give state licensing boards in a licensing compact the criminal records the compact's background check needs.
+  affects: Workers seeking a license or a compact privilege in a compact state, and the state boards that license them.
+  where: "Approved 33-0 by House Education and Workforce June 25, 2026. On the House schedule for the week of Nov. 30."
+  summary:
+    text: >-
+      This bill requires the Federal Bureau of Investigation to provide criminal history record information to a state
+      occupational or professional licensing authority for the purpose of conducting background checks on individuals
+      seeking a license to practice in an interstate compact member state.
+    title: Congressional Research Service summary of H.R. 2332
+    url: https://api.congress.gov/v3/bill/119/hr/2332/summaries
+    retrieved: '2026-11-28'
+slides:
+- kicker: "U.S. House · Week of Nov. 30"
+  big: H.R. 2332
+  head: A bill on the U.S. House of Representatives schedule would make the FBI share background checks for multistate job licenses.
+  text: "Nurses, doctors, counselors, teachers and others whose states have joined a licensing compact."
+- chip: What a compact is
+  head: "An interstate licensing compact, an agreement between states, lets a licensed worker practice in other member states without a full new license each time."
+  rows:
+  - [Compacts, "21, says the House committee's report"]
+  - [Nursing, "43 states take part"]
+  - [Physicians, "45 states"]
+  - [Psychologists, "43 states"]
+- chip: The law today
+  big: '1972'
+  head: "Since 1972 the FBI can share criminal records with states for licensing, but only under a state law the U.S. Attorney General approves."
+  quote: {label: "H. Rept. 119-837", text: "the FBI has been inconsistent in approving access to CHRI"}
+  text: "Compact groups told committee staff some states \"have been improperly denied access.\" CHRI is criminal history record information."
+- chip: What H.R. 2332 changes
+  head: "The FBI \"shall furnish\" the records a compact requires to a member state's licensing board."
+  rows:
+  - [How, "Through the state's police agency or identification bureau"]
+  - [Use, "Only to decide that worker's license or privilege"]
+  - [Kept private, "Not shared with the compact, other states or the public"]
+  - [Allowed, "Telling the compact the check was done, and pass or fail"]
+- chip: "Who it touches, what it costs"
+  head: Compact states could finish the background checks their compacts require; applicants' records would reach those state boards.
+  rows:
+  - [Workers, "Applying for a license or privilege in a compact state"]
+  - [States, "Still decide what record disqualifies someone"]
+  - [Cost, "The report says no CBO estimate had arrived"]
+- chip: Where it stands
+  head: "Sponsor: Rep. Tracey Mann (R-KS), with 29 cosponsors. The Education and Workforce Committee approved it 33-0 on June 25, 2026."
+  text: "It's listed under suspension of the rules, a fast track that needs two-thirds of those voting. Watch at live.house.gov. Should a license earned in one state count in another?"
+caption: |-
+  Many states have joined compacts that let a nurse, doctor, counselor or teacher licensed in one state practice in the others. Many of those compacts require a criminal background check. H.R. 2332, the SHARE Act, is on the U.S. House of Representatives schedule the week of Nov. 30.
+
+  Before: since 1972 the FBI can share criminal records with states for licensing only under a state law the U.S. Attorney General approves. The House Education and Workforce Committee's report says compact groups told its staff the FBI "has been inconsistent" in granting that access.
+
+  After: the FBI would have to give a compact state's licensing board the records its compact requires, through the state's police agency or identification bureau. The board could use them only for that worker's license and couldn't share them, except to tell the compact the check was done and whether it passed.
+
+  States would still decide what makes someone ineligible. The committee's report says no CBO estimate had arrived.
+
+  Should a license earned in one state count in another?
+hashtags: [congress, licensing, nurses, backgroundchecks, votetherecord]
+notes: >-
+  News first: a dated event in the next three days (the U.S. House's week of Nov. 30 starts Monday; docs.house.gov,
+  last updated Nov. 27, lists H.R. 2332 under suspension). No post or open pull request covers H.R. 2332. Takes Nov. 29
+  3:00 a.m., the earliest post slot at least 3 hours away held by an evergreen post: every earlier post slot holds news
+  (H.R. 3514 on this week's schedule, the Nov. 23 H.R. 8552 signing) or the Nov. 28 3:00 p.m. hemp post, tied to Dec. 11.
+  The Nov. 29 3:00 a.m. New Jersey A5439 post (approved Nov. 20, more than a week ago by Nov. 29) moves to Dec. 27 3:00
+  a.m., the first post slot after the last queued post (Dec. 27 12:00 a.m. Reel), which keeps the Reel/post turn.
+  Records opened 2026-11-28: the floor list, the scheduled text (H2332EW_RH, the Education and Workforce reported text;
+  sha256 3a2c8d5f329ad3bf1d3244bba5f20361945dc55c1d01de5b7b4309d99a2007bc; it matches the amendment printed in the
+  report), congress.gov actions (ordered reported 33-0 June 25, 2026; reported Sept. 28, H. Rept. 119-837 Part I;
+  Judiciary discharged Sept. 28), sponsor and cosponsors (29: 21 R, 8 D as congress.gov lists them, none withdrawn; not
+  on a slide), the CRS summary (reported version), H. Rept. 119-837 Part 1, and House Practice ch. 53 (two-thirds). The
+  21 compacts and the 43/45/43 state counts are the report's, citing the Council of State Governments (compacts.csg.org,
+  not opened). The 1972 line and "approved by the U.S. Attorney General" are the report's description of Pub. L. 92-544
+  (34 U.S.C. 41101, not opened). "Inconsistent" and "improperly denied access" are the report relaying what stakeholders
+  told committee staff; the slides say so. "Many of those compacts require" in the caption rests on the report's "the
+  background check requirements that many compacts already impose".
+  "Police agency" shortens "State law enforcement agency"; "pass or fail" restates the bill's "binary determination of
+  whether or not the criminal history background check of an applicant was satisfactory". "States still decide what
+  record disqualifies someone" is the report's "the bill does not dictate what is or is not disqualifying". The report
+  has no minority views, the committee vote had no Nays, and no statement against was found, so there is no
+  case-against slide; the post asks. If the House votes before this posts, the last slide needs the tally.
