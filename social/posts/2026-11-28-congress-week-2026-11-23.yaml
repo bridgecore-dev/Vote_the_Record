@@ -1,0 +1,77 @@
+kind: carousel
+level: congress
+topic: Congress recap
+approval: review
+rule: 'Counts: every roll-call vote in the House Clerk''s and the Senate''s official lists, and every bill congress.gov shows
+  "Signed by President" Nov. 23-29, 2026 (GovInfo had not yet posted them as public laws). Signed bills are counted, not
+  listed, since each has its own post. Listed: every final-passage vote on a bill or joint resolution
+  (passage, suspend and pass, conference report, agreeing to the other chamber''s amendment, veto override), in date order.
+  If the post runs out of room, the list stops in that order and the rest are counted on the last slide.'
+record_ids:
+- us/119/recap/week-2026-11-23
+sources:
+- title: House Clerk, 2026 roll calls
+  url: https://clerk.house.gov/evslegacy/2026/ROLL_300.asp
+  retrieved: '2026-11-28'
+- title: U.S. Senate, 2026 votes
+  url: https://www.senate.gov/legislative/LIS/roll_call_lists/vote_menu_119_2.xml
+  retrieved: '2026-11-28'
+- title: H.R. 1550 actions
+  url: https://api.congress.gov/v3/bill/119/hr/1550/actions
+  retrieved: '2026-11-28'
+- title: H.R. 4930 actions
+  url: https://api.congress.gov/v3/bill/119/hr/4930/actions
+  retrieved: '2026-11-28'
+- title: H.R. 8552 actions
+  url: https://api.congress.gov/v3/bill/119/hr/8552/actions
+  retrieved: '2026-11-28'
+- title: House floor, week of Nov. 30
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-30
+  retrieved: '2026-11-28'
+slides:
+- kicker: Weekly recap · Congress
+  head: What Congress did, Nov. 23-29, 2026
+  rows:
+  - - Bills signed into law
+    - '3'
+  - - House roll-call votes
+    - '0'
+  - - Senate roll-call votes
+    - '0'
+  text: The 3 signed bills each get their own post.
+- kicker: On the record
+  head: No roll-call votes this week.
+  text: The House Clerk's last roll call was Nov. 19. The U.S. Senate's last was Nov. 20.
+- kicker: What's next
+  head: 'Week of Nov. 30: 23 items on the U.S. House floor list'
+  rows:
+  - - Under suspension of the rules
+    - '19'
+  - - Under a rule
+    - '4'
+  text: The list says these "may be considered". It doesn't promise a vote on each one.
+- head: Which of these would you want explained next?
+  text: Tell us in the comments. Every number here comes from the official record.
+caption: 'What Congress did, Nov. 23-29, 2026: 3 bills signed into law, 0 U.S. House roll-call votes, 0 U.S. Senate
+  roll-call votes. Next week, the U.S. House of Representatives floor list has 23 items.'
+publish_after: '2026-12-03T09:00:00-06:00'
+hashtags:
+- congress
+- rollcall
+- newlaws
+- civics
+- votetherecord
+notes: 'Weekly recap, drafted by recap.py on 2026-11-28 (no earlier Saturday run drafted it), then fixed by hand like the
+  Nov. 16-22 recap. GovInfo''s feed (read this run) still ends at PL 119-142, so the draft said "0 new public laws"; congress.gov
+  actions (API, read 2026-11-28) list "Signed by President." and "Became Public Law No: 119-147/148/149" on Nov. 23 for
+  H.R. 1550, H.R. 4930 and H.R. 8552, so the first row is "Bills signed into law: 3". They are not named (each has its own
+  post: H.R. 1550 Nov. 25, H.R. 8552 Nov. 28, H.R. 4930 Nov. 29), so there are no bills entries. Votes: the Clerk''s
+  ROLL_300 list ends at roll 327 (Nov. 19) and roll328.xml returns no vote; the Senate vote menu ends at vote 279
+  (Nov. 20). The draft''s slide 2 text ("Every roll-call vote counted here was on a nomination...") was wrong with zero
+  votes and was replaced. The post does not say why there were no votes (no source opened states a recess). What''s next:
+  docs.house.gov, last updated Nov. 27, lists 19 items under suspension and 4 under a rule (the Senate amendment to
+  H.R. 2347, H.R. 11142, H.R. 3495, H.R. 5267; the committee reports listed under them aren''t counted). Slot: not news-first
+  (the newest action here is from Nov. 23, five days ago), so it takes the first free post slot that keeps the day''s
+  Reel/post turn, Dec. 3 9:00 a.m. (Dec. 2 3:00 p.m. would follow the 9:00 a.m. carousel with no Reel between), and bumps
+  nothing. That is late for a weekly recap; if you''d rather it run sooner, move it by hand.'
+bills: []
