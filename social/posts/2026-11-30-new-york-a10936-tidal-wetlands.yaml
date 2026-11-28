@@ -4,7 +4,7 @@ place: New York
 topic: Environment
 approval: review
 record_ids: [ny/2025/A10936/signed]
-publish_after: '2026-11-30T09:00:00-06:00'
+publish_after: '2026-12-29T03:00:00-06:00'
 sources:
 - title: New York State Assembly, A10936 (2025-2026), summary, actions, floor votes, memo and text
   url: 'https://nyassembly.gov/leg/?default_fld=&leg_video=&bn=A10936&term=2025&Summary=Y&Actions=Y&Memo=Y&Text=Y&Floor%26nbspVotes=Y'

@@ -1,0 +1,103 @@
+kind: carousel
+level: congress
+topic: Foster care
+approval: review
+record_ids: ["us/119/S. 162/house-floor-schedule-2026-11-30"]
+publish_after: '2026-11-30T09:00:00-06:00'
+sources:
+- title: "House floor schedule, week of Nov. 30"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-30
+  retrieved: '2026-11-28'
+- title: "S. 162 text as scheduled (engrossed in the Senate)"
+  url: https://docs.house.gov/billsthisweek/20261130/BILLS-119s162es.pdf
+  retrieved: '2026-11-28'
+- title: S. 162 actions
+  url: https://api.congress.gov/v3/bill/119/s/162/actions
+  retrieved: '2026-11-28'
+- title: "42 U.S.C. 622 (GPO, 2024 edition)"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title42/html/USCODE-2024-title42-chap7-subchapIV-partB-subpart1-sec622.htm
+  retrieved: '2026-11-28'
+- title: "Congressional Record, June 11, 2026, S2770"
+  url: https://www.govinfo.gov/content/pkg/CREC-2026-06-11/html/CREC-2026-06-11-pt1-PgS2770-2.htm
+  retrieved: '2026-11-28'
+- title: "House Practice, ch. 53"
+  url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-54.htm
+  retrieved: '2026-11-28'
+bills:
+- id: S. 162
+  title: Recruiting Families Using Data Act of 2025
+  does: Would make each state write a family partnership plan to find, support and keep foster and adoptive families, and report data yearly.
+  affects: State child welfare agencies, foster, adoptive and kinship families, and children in or entering foster care.
+  where: "Passed the Senate by unanimous consent June 11, 2026. On the House schedule for the week of Nov. 30."
+  summary:
+    text: >-
+      This bill requires state plans for child welfare services to provide for the development and implementation of a
+      family partnership plan to improve foster care placement stability, increase rates of kinship placements, ...
+    title: Congressional Research Service summary of S. 162
+    url: https://api.congress.gov/v3/bill/119/s/162/summaries
+    retrieved: '2026-11-28'
+slides:
+- kicker: "U.S. House · Week of Nov. 30"
+  big: S. 162
+  head: A bill on the U.S. House of Representatives schedule would make each state write a plan to find and keep foster and adoptive families.
+  text: "The U.S. Senate passed it by unanimous consent on June 11, 2026."
+- chip: The law today
+  head: "Each state's child welfare plan must already provide for recruiting foster and adoptive families."
+  quote: {label: "42 U.S.C. 622(b)(7)", text: "provide for the diligent recruitment of potential foster and adoptive families that reflect the ethnic and racial diversity of children in the State for whom foster and adoptive homes are needed"}
+  text: "S. 162 adds how a state would do it: through a \"family partnership plan.\""
+- chip: What S. 162 adds
+  head: "The plan is written with birth, kinship, foster and adoptive families, and young people who have been in foster care."
+  rows:
+  - [Relatives, "How the state finds and supports relatives as placements"]
+  - [Every child, "A recruitment plan for each child who needs a family"]
+  - [Goals, "More stable placements and more kinship placements"]
+  - [Group care, "Fewer unneeded congregate care (group setting) placements"]
+  - [Advice, "Foster family advisory boards"]
+- chip: Reported every year
+  head: Each state would report its foster family numbers and what parents and youth tell it.
+  rows:
+  - [Families, "How many are licensed, and how many have no child placed, and why"]
+  - [Group care, "Children in congregate care, in the state and out of state"]
+  - [Feedback, "Why parents stop fostering, from parents and youth"]
+  - [Congress, "State-by-state data in a federal report from fiscal year 2028"]
+- chip: "Who it touches, what it costs"
+  head: State child welfare agencies would do more planning and reporting; families and youth would be asked for their input.
+  rows:
+  - [Starts, "Oct. 1, 2027, or later if a state needs a new state law"]
+  - [Money, "The bill text adds no new funding"]
+  - [Cost, "Congress.gov lists no CBO estimate"]
+- chip: Where it stands
+  head: "Sponsor: Sen. Chuck Grassley (R-IA), with 4 cosponsors. The U.S. Senate passed it by unanimous consent on June 11, 2026."
+  text: "It's listed under suspension of the rules, a fast track that needs two-thirds of those voting. Watch at live.house.gov. What would help more families foster?"
+caption: |-
+  S. 162, the Recruiting Families Using Data Act, is on the U.S. House of Representatives schedule the week of Nov. 30. The U.S. Senate passed it by unanimous consent on June 11, 2026.
+
+  Before: federal law already says each state's child welfare plan must "provide for the diligent recruitment" of foster and adoptive families.
+
+  After: each state would do that through a family partnership plan, written with birth, kinship, foster and adoptive families and young people who have been in foster care. It would include a recruitment plan for each child who needs a family. Every year the state would report how many foster families it has, how many have no child placed and why, and why parents stop fostering.
+
+  It would start Oct. 1, 2027, or later in a state that needs a new state law. The bill text adds no new funding, and congress.gov lists no CBO estimate.
+
+  What would help more families foster?
+hashtags: [fostercare, adoption, congress, childwelfare, votetherecord]
+notes: >-
+  News first: a dated event in the next three days (the U.S. House's week of Nov. 30 starts Monday; docs.house.gov,
+  last updated Nov. 27, lists S. 162 under suspension, text BILLS-119s162es, sha256
+  cc509a53596e284ce71db2df00fbfda492b01e8261c1b2c4bacfb19434d95068). No post or open pull request covers S. 162. Takes
+  Nov. 30 9:00 a.m., the earliest post slot at least 3 hours away held by an evergreen post: every earlier post slot
+  holds news (this week's House schedule, the Nov. 23 signings, the Nov. 23-24 Pennsylvania and New York signings) or
+  the Nov. 28 3:00 p.m. hemp post, tied to Dec. 11, left alone as earlier runs did. The New York A10936 post (signed
+  Nov. 20, more than a week ago by Nov. 30) moves to Dec. 29 3:00 a.m., the first post slot after the last queued post
+  (Dec. 28 3:00 a.m.) that keeps the Reel/post turn. Records opened 2026-11-28: the floor list, the scheduled text,
+  congress.gov actions (introduced Jan. 21, 2025; Finance discharged and passed with an amendment by unanimous consent
+  June 11, 2026; held at the desk in the House June 15), sponsor and cosponsors (4: 3 D, 1 R as congress.gov lists
+  them, none withdrawn; not on a slide), the CRS summary (introduced version only; the Congressional Record says the
+  Grassley amendment's purpose was "To change effective dates", so the slides follow the engrossed text), 42 U.S.C.
+  622(b)(7) from GPO's 2024 Code, the Congressional Record page (no floor statements), and House Practice ch. 53
+  (two-thirds). Slide 3 rows shorten new subsection (d)(1)-(2); "group setting" is our plain words for "congregate
+  care"; slide 4 shortens (d)(3)-(4) and sec. 3's new 479A(a)(8) ("fiscal year 2028 or any succeeding fiscal year").
+  The plan's (d)(5) racial and ethnic barriers report isn't on a slide (the "before" quote names that existing
+  requirement). "Adds no new funding" is our reading of the full text (no appropriation or authorization in it);
+  please check. Start date: sec. 2(b), with the delay for states that need legislation. No statement for or against
+  was found (no committee report, no floor remarks), so no case-against slide; the post asks. If the House votes
+  before this posts, the last slide needs the tally.
