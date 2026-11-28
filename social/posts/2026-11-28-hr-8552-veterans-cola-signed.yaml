@@ -10,7 +10,7 @@ sources:
   retrieved: '2026-11-24'
 - title: Congress.gov, H.R. 8552 actions
   url: https://api.congress.gov/v3/bill/119/hr/8552/actions
-  retrieved: '2026-11-24'
+  retrieved: '2026-11-28'
 - title: Congress.gov, H.R. 8552 bill record
   url: https://api.congress.gov/v3/bill/119/hr/8552
   retrieved: '2026-11-24'
@@ -25,7 +25,7 @@ bills:
   title: Veterans' Compensation Cost-of-Living Adjustment Act of 2026
   does: "Raises VA disability, dependent, clothing-allowance and survivor payments on Dec. 1, 2026, by Social Security's raise."
   affects: "Veterans paid VA disability compensation, their dependents, and surviving spouses and children paid DIC."
-  where: "Signed into law Nov. 23, 2026. A Public Law number wasn't posted yet when this was written."
+  where: "Signed into law Nov. 23, 2026, as Public Law 119-149."
   summary:
     text: "This bill requires the Department of Veterans Affairs (VA) to increase the amounts payable for wartime disability compensation, additional compensation for dependents, the clothing allowance for certain disabled veterans, and dependency and indemnity compensation for surviving spouses and children."
     title: Congressional Research Service summary of H.R. 8552
@@ -35,7 +35,7 @@ slides:
 - kicker: "Signed into law · Nov. 23, 2026"
   big: Dec. 1
   head: "VA disability and survivor payments go up Dec. 1, 2026, under the Veterans' Compensation Cost-of-Living Adjustment Act."
-  text: "H.R. 8552. Passed the U.S. House of Representatives and the U.S. Senate by voice vote."
+  text: "H.R. 8552, now Public Law 119-149. Passed the U.S. House of Representatives and the U.S. Senate by voice vote."
 - chip: "Before → after"
   head: "These VA payments don't rise on their own. Congress passes a new law for it every year."
   quote:
@@ -83,7 +83,9 @@ caption: |-
   Should this raise be automatic?
 hashtags: [veterans, va, cola, newlaw, votetherecord]
 notes: >-
-  New this run: the White House statement dated Nov. 23, 2026 (whitehouse.gov, read 2026-11-24 UTC / Nov. 23 Central)
+  Updated 2026-11-28 (recheck before posting): congress.gov actions (API, read 2026-11-28) now list "Signed by
+  President." and "Became Public Law No: 119-149." on Nov. 23, 2026, so `where` and slide 1 give the Public Law
+  number and the actions source's retrieved date is updated; nothing else changed. Original notes: New this run: the White House statement dated Nov. 23, 2026 (whitehouse.gov, read 2026-11-24 UTC / Nov. 23 Central)
   says the President signed H.R. 8552 on Monday, Nov. 23; congress.gov actions (API, read this run) end at "Presented
   to President." on Nov. 17 and list no Public Law yet (GovInfo's newest is P.L. 119-142), so the signing rests on the
   White House statement. No post or open pull request covers H.R. 8552. House: suspension, voice vote, Nov. 9 (the
