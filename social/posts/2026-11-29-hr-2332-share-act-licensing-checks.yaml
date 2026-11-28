@@ -50,7 +50,7 @@ slides:
   big: '1972'
   head: "Since 1972 the FBI can share criminal records with states for licensing, but only under a state law the U.S. Attorney General approves."
   quote: {label: "H. Rept. 119-837", text: "the FBI has been inconsistent in approving access to CHRI"}
-  text: "The report says compact groups told committee staff that some compact states \"have been improperly denied access.\""
+  text: "Compact groups told committee staff some states \"have been improperly denied access.\" CHRI is criminal history record information."
 - chip: What H.R. 2332 changes
   head: "The FBI \"shall furnish\" the records a compact requires to a member state's licensing board."
   rows:
