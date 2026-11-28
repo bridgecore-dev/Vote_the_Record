@@ -11,7 +11,7 @@ sources:
   retrieved: '2026-11-24'
 - title: Congress.gov, H.R. 4930 actions
   url: https://api.congress.gov/v3/bill/119/hr/4930/actions
-  retrieved: '2026-11-24'
+  retrieved: '2026-11-28'
 - title: "H.R. 4930 (119th Congress), enrolled bill (GPO)"
   url: https://www.govinfo.gov/content/pkg/BILLS-119hr4930enr/html/BILLS-119hr4930enr.htm
   retrieved: '2026-11-24'
@@ -25,7 +25,7 @@ bills:
 - id: H.R. 4930
   does: "Lets Customs and Border Protection share more about suspected fake or pirated imports, with more companies."
   affects: "Trademark and copyright owners, online marketplaces, shippers and freight forwarders, and importers."
-  where: "Signed into law Nov. 23, 2026. A Public Law number wasn't posted yet when this was written."
+  where: "Signed into law Nov. 23, 2026, as Public Law 119-148."
   summary:
     text: "This bill expands the authority of U.S. Customs and Border Protection (CBP) to provide information to certain persons (e.g., trademark or copyright owners) regarding suspected violations of intellectual property rights in trade."
     title: Congressional Research Service summary of H.R. 4930
@@ -36,7 +36,7 @@ slides:
 - kicker: "New federal law · Signed Nov. 23, 2026"
   big: Fake goods
   head: "Customs can now tell online stores and shippers more about a package it thinks holds fake brand-name goods."
-  text: "H.R. 4930, on suspected trademark and copyright violations in imports."
+  text: "H.R. 4930, now Public Law 119-148, on suspected trademark and copyright violations in imports."
   say: "A new federal law lets Customs tell online stores and shippers more about a package it thinks holds fake brand-name goods. H.R. 4930 was signed November 23, 2026."
 - chip: "Before → after"
   head: What Customs can share
@@ -81,7 +81,9 @@ caption: |-
   Voice: computer-generated (Kokoro text-to-speech).
 hashtags: [counterfeit, customs, trade, newlaw, votetherecord]
 notes: >-
-  New this run: the White House statement dated Nov. 23, 2026 (read 2026-11-24 UTC) says the President signed
+  Updated 2026-11-28 (recheck before posting): congress.gov actions (API, read 2026-11-28) now list "Signed by
+  President." and "Became Public Law No: 119-148." on Nov. 23, 2026, so `where` and slide 1 give the Public Law
+  number and the actions source's retrieved date is updated; the voiced lines are unchanged. Original notes: New this run: the White House statement dated Nov. 23, 2026 (read 2026-11-24 UTC) says the President signed
   H.R. 4930 that day; congress.gov actions (API, read this run) end at "Presented to President." on Nov. 17, and
   GovInfo lists no Public Law yet (newest P.L. 119-142). No post or open pull request covers H.R. 4930. Before/after is
   from the enrolled text's amendments to 19 U.S.C. 1628a (sec. 1: "suspects" to "has a reasonable suspicion";
