@@ -1,0 +1,99 @@
+kind: carousel
+level: congress
+topic: Whistleblowers
+approval: review
+record_ids: ["us/119/S. 4631/house-floor-schedule-2026-11-30"]
+publish_after: '2026-11-30T03:00:00-06:00'
+sources:
+- title: "House floor schedule, week of Nov. 30"
+  url: https://docs.house.gov/floor/Default.aspx?date=2026-11-30
+  retrieved: '2026-11-28'
+- title: "S. 4631 House text"
+  url: https://docs.house.gov/billsthisweek/20261130/S4631_SUS_xml.pdf
+  retrieved: '2026-11-28'
+- title: "41 U.S.C. 4712"
+  url: https://www.govinfo.gov/content/pkg/USCODE-2024-title41/html/USCODE-2024-title41-subtitleI-divsnC-chap47-sec4712.htm
+  retrieved: '2026-11-28'
+- title: S. 4631 actions
+  url: https://api.congress.gov/v3/bill/119/s/4631/actions
+  retrieved: '2026-11-28'
+- title: "House Practice, ch. 53"
+  url: https://www.govinfo.gov/content/pkg/GPO-HPRACTICE-115/html/GPO-HPRACTICE-115-54.htm
+  retrieved: '2026-11-28'
+bills:
+- id: S. 4631
+  title: Expanding Whistleblower Protections for Contractors Act of 2026
+  does: Would protect contractor and grantee workers who refuse an order to break a contract or grant law, and bar waiving it in arbitration.
+  affects: Workers for federal contractors and grant recipients, including state, local and tribal governments.
+  where: "Passed the Senate by unanimous consent May 21, 2026. On the House schedule, with changes, week of Nov. 30."
+  summary:
+    text: >-
+      This bill expands whistleblower protections for employees of federal contractors and grant recipients to include
+      the act of refusing to obey an unlawful order and to apply these protections to other governmental employees.
+    title: Congressional Research Service summary of S. 4631
+    url: https://api.congress.gov/v3/bill/119/s/4631/summaries
+    retrieved: '2026-11-28'
+slides:
+- kicker: "U.S. House · Week of Nov. 30"
+  big: S. 4631
+  head: A bill on the U.S. House of Representatives schedule would protect contractor workers who refuse an order to break the law.
+  text: "It covers people who work for companies, groups and governments paid through federal contracts and grants."
+- chip: The law today
+  head: "A contractor or grantee can't fire, demote or punish a worker for reporting what they reasonably believe is:"
+  rows:
+  - [Waste, "Gross mismanagement or gross waste of federal money"]
+  - [Abuse, "Abuse of authority on a contract or grant"]
+  - [Danger, "A substantial and specific danger to health or safety"]
+  - [Law, "A violation of a law tied to a contract or grant"]
+  text: "Reports to Congress, an inspector general and others count (41 U.S.C. 4712)."
+- chip: What S. 4631 adds
+  head: "Four changes for contractor and grantee workers:"
+  rows:
+  - [Refusing, "Saying no to an order that would break a contract or grant law"]
+  - [Who, "Includes state, local and tribal governments paid by contracts or grants"]
+  - [Arbitration, "The rights can't be waived, even by a predispute arbitration agreement"]
+  - [Officials, "Agencies could propose discipline for an official who asks for a reprisal"]
+- chip: Before → after
+  head: "Today a reprisal is banned even if a federal official asks for it, unless it's a \"non-discretionary directive\" within that official's authority."
+  quote: {label: "S. 4631, House amendment", text: "it shall not be within the authority of an executive branch official to request that a contractor, subcontractor, grantee, or subgrantee engage in a reprisal"}
+- chip: "Who it touches, what it costs"
+  head: Workers gain protection for refusing; employers and officials lose room to punish them for it.
+  rows:
+  - [Workers, "Protected for refusing, not only for reporting"]
+  - [Employers, "Can't use an arbitration clause to give up these rights"]
+  - [Cost, "Congress.gov lists no CBO estimate"]
+- chip: Where it stands
+  head: "Sponsor: Sen. Gary Peters (D-MI), with Sen. Chuck Grassley (R-IA). The U.S. Senate passed it by unanimous consent May 21, 2026."
+  text: "The U.S. House lists it under suspension of the rules, a fast track that needs two-thirds, with its own changes, so the Senate would vote again. Should refusing an unlawful order be protected like reporting one?"
+caption: |-
+  If you work for a company, nonprofit or local government paid through a federal contract or grant, the law protects you from being fired for reporting waste, abuse or a broken contract law. S. 4631, the Expanding Whistleblower Protections for Contractors Act, is on the U.S. House of Representatives schedule the week of Nov. 30.
+
+  Before: the protection covers reporting, not refusing.
+
+  After: refusing an order that would break a contract or grant law would be protected too. State, local and tribal governments paid this way would be named as covered. Arbitration agreements signed in advance couldn't waive the rights, and agencies could propose discipline for an official who asks for a reprisal.
+
+  Congress.gov lists no CBO estimate. The U.S. Senate passed it by unanimous consent; the House version has changes, so the Senate would vote again.
+
+  Should refusing an unlawful order be protected like reporting one?
+hashtags: [congress, whistleblowers, workersrights, votetherecord]
+notes: >-
+  News first: a dated event in the next three days (the U.S. House's week of Nov. 30 starts Monday; docs.house.gov, last
+  updated Nov. 27, lists S. 4631 under suspension). No post or open pull request covers S. 4631. Takes Nov. 30 3:00
+  a.m., the earliest post slot at least 3 hours away held by an evergreen post: every earlier post slot holds news (this
+  week's House schedule, the Nov. 23-24 signings) or the hemp post tied to Dec. 11; the Nov. 29 3:00 a.m. slot is taken
+  by the H.R. 2332 post in its own pull request (#333). The New Jersey S1420 post (approved Nov. 20, more than a week ago
+  by Nov. 30) moves to Dec. 28 3:00 a.m., the first post slot after the last queued post (Dec. 27, counting #333), which
+  keeps the Reel/post turn. Records opened 2026-11-28: the floor list, the House amendment as scheduled (S4631_SUS,
+  "Suspend the Rules and Pass the Bill, S. 4631, With an Amendment", dated Nov. 20, 2026; sha256
+  aa1c7c0db195f1b6756c9d2e2c31c58d2db300fa6b2e8305fa0a669988ecd5a8), congress.gov actions (introduced and passed by
+  unanimous consent May 21, 2026, CR S2452-2454, not opened; held at the desk in the House), sponsor and cosponsor as
+  congress.gov lists them, the CRS summary (which says it is based on the House draft text), and 41 U.S.C. 4712 in the
+  2024 Code ((a)(1) protected disclosures, (a)(2) who can receive them, (a)(3)(B) the "non-discretionary directive"
+  exception, (c)(7) "may not be waived by any agreement, policy, form, or condition of employment"). The DOD/NASA section
+  (10 U.S.C. 4701) gets the same changes per the bill's sec. 2; 10 U.S.C. 4701 itself wasn't opened, so the slides
+  describe today's law from 41 U.S.C. 4712. "Would be named as covered" for state, local and tribal governments follows
+  the bill's new "protected individual" definition; whether today's law already reaches them wasn't checked, so the
+  slides don't say it doesn't. The bill also adds "forum" to the non-waivable rights; not on a slide. "Would vote again"
+  is our reading of the House amending a Senate bill; please check that wording. No CBO estimate is listed on
+  congress.gov (cbo.gov not tried). No statement for or against was opened; the Senate passed it without objection, so
+  there is no case-against slide; the post asks. If the House votes before this posts, the last slide needs the tally.
